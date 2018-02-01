@@ -17,6 +17,8 @@ public class LF implements CSVTable.OnReadCSV {
 
     private boolean logToFile = true;
 
+    private boolean logToL = true;
+
     public LF(String folder) {
         file = new FileOutput(folder + File.separator + "log.txt");
     }
@@ -34,17 +36,25 @@ public class LF implements CSVTable.OnReadCSV {
         logToFile = toFile;
     }
 
+    public void setLogToL(boolean toL) {
+        logToL = toL;
+    }
+
     private static final L.Impl impl = L.getImpl();
 
     public void log(String msg) {
-        impl.log(msg);
+        if (logToL) {
+            impl.log(msg);
+        }
         if (logToFile) {
             file.writeln(msg);
         }
     }
 
     public void log(String msg, Object... param) {
-        impl.log(msg, param);
+        if (logToL) {
+            impl.log(msg, param);
+        }
         if (logToFile) {
             file.writeln(msg, param);
         }

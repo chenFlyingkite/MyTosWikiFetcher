@@ -1,14 +1,25 @@
 package main;
 
+import main.fetcher.TosWikiFetcher;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
+import util.logging.L;
+import util.tool.TicTac;
 import util.tool.TicTac2;
 
 import java.io.IOException;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        L.log("Now = %s", new Date());
+        TicTac.tic();
+        TosWikiFetcher.run();
+        TicTac.tac("Main ended");
+        L.log("Now = %s", new Date());
+    }
+
+    private static void google() {
         TicTac2 t = new TicTac2();
 
         try {
