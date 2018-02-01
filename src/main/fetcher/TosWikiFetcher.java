@@ -22,7 +22,7 @@ import java.util.List;
 
 public class TosWikiFetcher {
     private TosWikiFetcher() {}
-    private static final LF Lf = new LF("D:\\GitHub\\MyTosWikiFetcher\\mydata");
+    private static final LF Lf = new LF("mydata");
     private static final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000";
 
     private static TicTac2 tt = new TicTac2();
