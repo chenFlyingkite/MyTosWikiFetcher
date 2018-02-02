@@ -18,6 +18,9 @@ import wikia.articles.UnexpandedArticle;
 import wikia.articles.UnexpandedListArticleResultSet;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class TosWikiFetcher {
@@ -29,6 +32,8 @@ public class TosWikiFetcher {
     private static Gson mGson = new Gson();
 
     private static boolean fetchAll = true;
+    private static int from = 180;
+    private static int prefetch = 20;
 
     public static void run() {
         OkHttpClient client = new OkHttpClient();
@@ -55,12 +60,16 @@ public class TosWikiFetcher {
             tt.tac("from gson, %s", set);
 
             if (set != null && set.getItems() != null) {
-                int max = 10;
+                int min, max;
                 if (fetchAll) {
+                    min = 0;
                     max = set.getItems().length;
+                } else {
+                    min = from;
+                    max = from + prefetch;
                 }
                 int percent = 0;
-                for (int i = 0; i < max; i++) {
+                for (int i = min; i < max; i++) {
                     L.log("#%s", i);
                     UnexpandedArticle a = set.getItems()[i];
                     String link = set.getBasePath() + "" + a.getUrl();
@@ -72,10 +81,10 @@ public class TosWikiFetcher {
                         getImage(link);
                     }
                 }
-                Lf.log(" percent = %s", percent);
+                //Lf.log(" percent = %s", percent);
             }
 
-            Lf.log("--------------------- xxxx -----");
+            //Lf.log("--------------------- xxxx -----");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -101,9 +110,67 @@ public class TosWikiFetcher {
         getImage(centers, 1);
         if (centers.size() > 2) {
             List<String> s = TosGet.me.getTd(centers.get(1));
-            Lf.log("%s items, %s", s == null ? 0 : s.size(), s);
+            if (s != null) {
+                // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
+                int n = s.size();
+                String[] anchor = {"基本屬性", "主動技", "競技場 防守技能", "來源"};
+                int an = anchor.length;
+                int[] anchors = new int[an];
+                // init as -1
+                for (int i = 0; i < an; i++) {
+                    anchors[i] = -1;
+                }
+                for (int i = 0; i < n; i++) {
+                    String si = s.get(i);
+                    for (int j = 0; j < an; j++) {
+                        if (anchors[j] < 0 && anchor[j].equals(si)) {
+                            anchors[j] = i;
+                        }
+                    }
+                    /*
+                    if (basicP < 0 && "基本屬性".equals(si)) {
+                        basicP = i;
+                    }
+                    if (active < 0 && "主動技".equals(si)) {
+                        active = i;
+                    }
+                    if (battle < 0 && "競技場 防守技能".equals(si)) {
+                        battle = i;
+                    }
+                    */
+                }
+
+                L.log(" => %s", Arrays.toString(anchors));
+                List<String> s2 = new ArrayList<>();
+                for (int i = 0; i < anchors[0]; i++) {
+                    s2.add(s.get(i));
+                }
+                int max = anchors[2] >= 0 ? anchors[2] : anchors[3];
+                for (int i = anchors[1]; i < max; i++) {
+                    s2.add(s.get(i));
+                }
+
+                printList(s2);
+                // Original list
+                //Lf.log("---------------------");
+                //printList(s);
+            }
+
+            // Original xml
+            //Lf.log("---------------------");
+            //Lf.log("center(1) = \n%s", centers.get(1));
         }
         Lf.log("---------------------");
+    }
+
+    private static void printList(List<String> list) {
+        if (list == null) return;
+
+        int n = list.size();
+        for (int i = 0; i < n; i++) {
+            String s = list.get(i);
+            Lf.log("#%s -> /%s/", i, s);
+        }
     }
 
     private static void getImage(Elements elements, int index) {
