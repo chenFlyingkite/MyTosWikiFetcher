@@ -4,19 +4,20 @@ import main.fetcher.TosWikiFetcher;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import util.logging.L;
+import util.tool.StringUtil;
 import util.tool.TicTac;
 import util.tool.TicTac2;
 
 import java.io.IOException;
-import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        L.log("Now = %s", new Date());
+        long tic = System.currentTimeMillis();
         TicTac.tic();
-        TosWikiFetcher.run();
+        TosWikiFetcher.me.run();
         TicTac.tac("Main ended");
-        L.log("Now = %s", new Date());
+        long tac = System.currentTimeMillis();
+        L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
     }
 
     private static void google() {

@@ -2,8 +2,6 @@ package main.card
 
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
-import java.util.*
-import kotlin.collections.ArrayList
 
 class TosGet {
     companion object me {
@@ -29,13 +27,25 @@ class TosGet {
 
             val td = ArrayList<String>()
             for (e in td2) {
+                val tables = e.getElementsByTag("table")?.size ?: 0
+
                 // omit the big table
-                val noNeed = e.text().isEmpty() ||
+                val noNeed = e.text().isEmpty()
                         // Table of big content of "基本屬性",
                         // <td rowspan="3" colspan="10" style="display:none" class="hidden">
-                        e.attr("class").toLowerCase() == "hidden"
+                        || e.attr("class").toLowerCase() == "hidden"
+                        // Inner html contains <table>, like "昇華"
+                        || tables > 0
+
+                val img = e.getElementsByTag("img")
+                val imgn = img?.size
+                //print("table = $tables, img = $imgn")
+
                 if (!noNeed) {
                     td.add(e.text());
+//                    print("--------")
+//                    print(e.html())
+//                    println("--------")
                 }
             }
             if (td.size > 0) {

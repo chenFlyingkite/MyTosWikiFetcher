@@ -23,6 +23,10 @@ public class LF implements CSVTable.OnReadCSV {
         file = new FileOutput(folder + File.separator + "log.txt");
     }
 
+    public LF(String folder, String name) {
+        file = new FileOutput(folder + File.separator + name);
+    }
+
     public FileOutput getFile() {
         return file;
     }

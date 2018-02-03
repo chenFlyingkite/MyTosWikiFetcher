@@ -15,7 +15,7 @@ public class TicTac {
         core.tac(format, params);
     }
 
-    public void reset() {
+    public static void reset() {
         core.reset();
     }
 }

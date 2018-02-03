@@ -1,7 +1,6 @@
 package wikia.articles
 
 import com.google.gson.annotations.SerializedName
-import wikia.articles.UnexpandedArticle
 
 open class UnexpandedListArticleResultSet (
     @SerializedName("items")
@@ -27,7 +26,7 @@ open class UnexpandedListArticleResultSet (
     override fun toString(): String {
         val size = items?.size ?: "N/A"
 
-        return "($size items, offset = $offset, basePath = $basePath)"
+        return "($size items, basePath = $basePath, offset = $offset)"
     }
 }
 
