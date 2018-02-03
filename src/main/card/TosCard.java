@@ -3,6 +3,9 @@ package main.card;
 import com.google.gson.annotations.SerializedName;
 
 public class TosCard {
+    @SerializedName("wikiLink")
+    public String wikiLink = "";
+
     /** Name, like 鳴動威嚴 ‧ 摩迪與曼尼 */
     @SerializedName("name")
     public String name = "";

@@ -9,6 +9,8 @@ import java.util.Stack;
 public class TicTac2 {
     private final Stack<Long> tictac = new Stack<>();
 
+    protected boolean log = true;
+
     public void tic() {
         tictac.push(System.currentTimeMillis());
     }
@@ -42,10 +44,16 @@ public class TicTac2 {
     }
 
     protected void logTac(String msg) {
-        L.log(msg);
+        if (log) {
+            L.log(msg);
+        }
     }
 
     protected String getTime(long time) {
         return new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").format(new Date(time));
+    }
+
+    public void setLog(boolean writeLog) {
+        log = writeLog;
     }
 }
