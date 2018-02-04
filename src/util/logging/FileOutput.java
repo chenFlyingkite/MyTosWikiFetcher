@@ -36,6 +36,10 @@ public class FileOutput {
     public FileOutput open(boolean append) {
         try {
             if (!file.exists()) {
+                File p = file.getParentFile();
+                if (p != null) {
+                    p.mkdirs();
+                }
                 file.createNewFile();
             }
             close();

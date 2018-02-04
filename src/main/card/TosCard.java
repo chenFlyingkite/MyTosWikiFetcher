@@ -3,6 +3,11 @@ package main.card;
 import com.google.gson.annotations.SerializedName;
 
 public class TosCard {
+    /** Normalized ID, in form of %4d or %c%3d */
+    @SerializedName("idNorm")
+    public String idNorm = "";
+
+    /** Http link to wiki page */
     @SerializedName("wikiLink")
     public String wikiLink = "";
 
@@ -14,15 +19,15 @@ public class TosCard {
     @SerializedName("attribute")
     public String attribute = "";
 
-    /** Icon, like 1063  */
+    /** Icon, image link  */
     @SerializedName("icon")
     public String icon = "";
 
-    /** Rarity, star 1 ~ 8 */
+    /** Image of card, image link */
     @SerializedName("bigImage")
     public String bigImage = "";
 
-    /** Name, like 1063  */
+    /** ID, like 1063  */
     @SerializedName("id")
     public String id = "";
 

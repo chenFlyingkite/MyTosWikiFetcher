@@ -14,7 +14,6 @@ public class TosCardCreator {
         public String wikiLink = "";
     }
 
-
 //  node length, page
 //18, card = http://zh.tos.wikia.com/wiki/001
 //28, card = http://zh.tos.wikia.com/wiki/024
@@ -25,6 +24,8 @@ public class TosCardCreator {
 //31, card = http://zh.tos.wikia.com/wiki/656
 
     public TosCard asTosCard(CardInfo info) {
+        if (info == null) return null;
+
         int n = info.data.size();
         switch (n) {
             case 18: return asTosCard_18(info);
@@ -193,6 +194,8 @@ public class TosCardCreator {
         c.LvMax = Integer.parseInt(list.get(7));
         //-- Exp curve #8
         c.ExpMax = Long.parseLong(list.get(9));
+        // Fill in Normalized ID
+        c.idNorm = String.format("%04d", Integer.parseInt(c.id));
     }
 
     private void fillSkillActive(TosCard c, List<String> list) {

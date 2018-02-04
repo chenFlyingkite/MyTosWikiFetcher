@@ -38,7 +38,8 @@ public class TosWikiFetcher {
 
     private boolean fetchAll = true;
     private int from = 0;
-    private int prefetch = 10;
+    private int prefetch = 250;
+    private static final int CARD_END = 2250; // Ended at #2233
 
     private boolean runChecker = false;
 
@@ -56,6 +57,7 @@ public class TosWikiFetcher {
         Set<String> cardSet = new HashSet<>();
         List<TosCard> cardsNoDup = new ArrayList<>();
         try {
+            // Step 1: Fetch all links from Wikia API
             Lf.log("Linking %s", tosApi);
             tt.tic();
             response = client.newCall(request).execute();
@@ -63,16 +65,21 @@ public class TosWikiFetcher {
             tt.tic();
             body = response.body();
             tt.tac("body = %s", body);
-            if (body == null) return;
+            if (body == null) {
+                return;
+            }
+
+            String s = body.string();
 
             tt.tic();
-            ResultSet set = mGson.fromJson(body.string(), ResultSet.class);
-            //UnexpandedListArticleResultSet set = gson.fromJson(body.string(), UnexpandedListArticleResultSet.class);
-
+            ResultSet set = mGson.fromJson(s, ResultSet.class);
+            //UnexpandedListArticleResultSet set = gson.fromJson(s, UnexpandedListArticleResultSet.class);
             tt.tac("from gson, %s", set);
 
             if (set != null && set.getItems() != null) {
-                int min = 0, max = set.getItems().length;
+                // Step 2: Determine the range of parsing
+                int min = 0;
+                int max = set.getItems().length;
                 if (!fetchAll) {
                     min = Math.max(min, from);
                     max = Math.min(max, from + prefetch);
@@ -88,20 +95,28 @@ public class TosWikiFetcher {
                         tt.tic();
                         L.log("#%s -> %s", i, link);
                     }
+
                     boolean hasPercent = link.indexOf('%') >= 0;
                     if (hasPercent) {
                         percent++;
                     } else {
+                        // Step 3: For valid links, get its card info
                         Lf.log("#%04d -> %s, %s", i, link, set.getItems()[i]);
                         CardInfo card = getCardInfo(link);
                         TosCard tosCard = TosCardCreator.me.asTosCard(card);
                         if (tosCard == null) {
-                            //Lfc.log("X_X %s", card.wikiLink); // For 龍刻
+                            Lfc.log("X_X, No card %s", card.wikiLink); // For 龍刻
                         } else {
                             cards.add(tosCard);
-                            // Add to non-duplicated
-                            String key = tosCard.name;
-                            if (!cardSet.contains(key)) {
+                            // Use name + id as key, Add to non-duplicated
+                            // For BigBang series, it has same name but different id
+                            // http://zh.tos.wikia.com/wiki/611
+                            // http://zh.tos.wikia.com/wiki/676
+                            String key = tosCard.idNorm + "_" + tosCard.name;
+                            boolean hasKey = cardSet.contains(key);
+                            if (hasKey) {
+                                Lf.log("%s exists key = %s", i, key);
+                            } else {
                                 cardSet.add(key);
                                 cardsNoDup.add(tosCard);
                                 String json = mGson.toJson(tosCard, TosCard.class);
@@ -132,20 +147,109 @@ public class TosWikiFetcher {
         L.log("%s cards", cards.size());
         L.log("%s cards not duplicate", cardsNoDup.size());
 
-        List<TosCard> cardList = cardsNoDup;
-        LF lf2 = new LF("mydata", "dataList.json");
-        lf2.setLogToL(false);
-        lf2.getFile().delete().open();
-        TosCard[] arr = cardList.toArray(new TosCard[cardList.size()]);
-        tt.tic();
-        String json = mGson.toJson(arr, TosCard[].class);
-        tt.tac("All to json %s", arr.length);
-        lf2.log(json);
-        tt.tic();
-        TosCard[] cardA = mGson.fromJson(json, TosCard[].class);
-        tt.tac("Parsing back %s", cardA.length);
-        lf2.getFile().close();
+        writeToJson(cardsNoDup);
+    }
 
+    private void downloadToLocal() {
+        L.log("downloadToLocal");
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder().url(tosApi).build();
+        Response response;
+        ResponseBody body = null;
+
+        LF wikia = new LF("mydata/wikia", "a_wikia.txt");
+        wikia.setLogToL(false);
+        wikia.getFile().delete().open();
+        Lf.getFile().delete().open();
+
+        // Step 1: Fetch all links from Wikia API
+        try {
+            Lf.log("Linking %s", tosApi);
+            tt.tic();
+            response = client.newCall(request).execute();
+            tt.tac("response = %s", response);
+
+            if (response != null) {
+                tt.tic();
+                body = response.body();
+                tt.tac("body = %s", body);
+            }
+            if (body == null) return;
+
+            String s = body.string();
+            wikia.log(s);
+            wikia.getFile().close();
+
+            tt.tic();
+            ResultSet set = mGson.fromJson(s, ResultSet.class);
+            tt.tac("from gson, %s", set);
+
+            if (set != null && set.getItems() != null) {
+                // Step 2: Determine the range of parsing
+                int min = 0, max = set.getItems().length;
+//                if (!fetchAll) {
+//                    min = Math.max(min, from);
+//                    max = Math.min(max, from + prefetch);
+//                }
+                tt.setLog(false);
+                tt.tic();
+                for (int i = min; i < max; i++) {
+                    UnexpandedArticle a = set.getItems()[i];
+                    String link = set.getBasePath() + "" + a.getUrl();
+                    tt.tac("%s fetchCard ", i - 1);
+                    tt.tic();
+                    Lf.log("#%s -> %s", i, link);
+                    String filename = String.format("p%05d.txt", i);
+                    LF page = new LF("mydata/wikia", filename);
+                    page.setLogToL(false);
+                    page.getFile().delete().open();
+
+                    request = request.newBuilder().url(link).build();
+                    tt.tic();
+                    response = client.newCall(request).execute();
+                    tt.tac("response = %s", response);
+                    tt.tic();
+                    body = response.body();
+                    tt.tac("body = %s", body);
+                    if (body == null) {
+                        page.getFile().close();
+                        return;
+                    }
+
+                    page.log(body.string());
+                    page.getFile().close();
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Lf.getFile().close();
+    }
+
+    private void writeToJson(List<TosCard> cardList) {
+        TicTac2 clk = new TicTac2();
+        LF f = new LF("mydata", "cardList.json");
+        f.setLogToL(false);
+        cardList.sort((c1, c2) -> {
+            int n1 = Integer.parseInt(c1.idNorm);
+            int n2 = Integer.parseInt(c2.idNorm);
+            return Integer.compare(n1, n2);
+        });
+
+        // Step 1: Write cardList to json file
+        f.getFile().delete().open();
+        TosCard[] arr = cardList.toArray(new TosCard[cardList.size()]);
+        clk.tic();
+        String json = mGson.toJson(arr, TosCard[].class);
+        clk.tac("%s cards written", arr.length);
+        f.log(json);
+        f.getFile().close();
+
+        // Step 2: Try to parsing back to know its performance
+        clk.tic();
+        TosCard[] cardA = mGson.fromJson(json, TosCard[].class);
+        clk.tac("%s cards parsed back", cardA.length);
     }
 
     private Set<Integer> itemsN = new HashSet<>();
@@ -154,6 +258,7 @@ public class TosWikiFetcher {
         final boolean logTime = false;
         CardInfo info = new CardInfo();
 
+        // Step 1: Get the xml node from link by Jsoup
         Document doc = null;
         TicTac2 ts = new TicTac2();
         ts.setLog(logTime);
@@ -166,15 +271,19 @@ public class TosWikiFetcher {
         ts.tac("JSoup OK");
         if (doc == null) return info;
 
+        // Step 2: Find the <center> nodes
         Lf.log("Title = %s, Children = %s", doc.title(), doc.getAllElements().size());
         Elements centers = doc.getElementsByTag("center");
         //Lf.log("%s centers", centers.size());
 
+        // Step 3: And the icon & big image is in 1st & 2nd node
         info.wikiLink = link;
         info.bigImage = getImage(centers, 0);
         info.icon = getImage(centers, 1);
+
         List<String> cardInfo = info.data;
         boolean logNode = false;
+        // Step 4 : Get the card info from 3rd node, in <td>
         if (centers.size() > 2) {
             List<String> s = TosGet.me.getTd(centers.get(1));
             if (s != null) {
@@ -225,9 +334,8 @@ public class TosWikiFetcher {
         int an = anchor.length;
         int[] anchors = new int[an];
         // init as -1
-        for (int i = 0; i < an; i++) {
-            anchors[i] = -1;
-        }
+        Arrays.fill(anchors, -1);
+
         for (int i = 0; i < n; i++) {
             T si = list.get(i);
             for (int j = 0; j < an; j++) {
