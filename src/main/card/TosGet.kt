@@ -5,6 +5,7 @@ import org.jsoup.select.Elements
 
 class TosGet {
     companion object me {
+        private val printTdHtml = false
 
         fun getImage(element: Element): String {
             val nos = element.getElementsByTag("noscript")
@@ -22,10 +23,13 @@ class TosGet {
             return ""
         }
 
-        fun getTd(element: Element): MutableList<String>? {
+        fun getCardTds(element: Element): CardTds? {
             val td2 = element.getElementsByTag("td")
 
-            val td = ArrayList<String>()
+            val result = CardTds()
+            val td = result.Tds
+            val evos = result.Evolutions
+            var x = 0
             for (e in td2) {
                 val tables = e.getElementsByTag("table")?.size ?: 0
 
@@ -37,19 +41,42 @@ class TosGet {
                         // Inner html contains <table>, like "昇華"
                         || tables > 0
 
-                val img = e.getElementsByTag("img")
-                val imgn = img?.size
-                //print("table = $tables, img = $imgn")
+                // Takes the images of evolution
+                val noscript = e.getElementsByTag("noscript")
 
                 if (!noNeed) {
-                    td.add(e.text());
-//                    print("--------")
-//                    print(e.html())
-//                    println("--------")
+                    td.add(e.text())
+                } else if (noscript.size > 0) {
+                    x++
+                    // We want the evolution's icons
+                    for (nos in noscript) {
+                        val imgs = nos.getElementsByTag("img")
+                        if (imgs.size > 0) {
+                            val alt = imgs[0].attr("alt")
+                            if (alt != null) {
+                                evos.add(alt)
+                            }
+                        }
+                    }
+                    //td.add(e.html())
+                } else {
+
+                }
+
+                if (printTdHtml) {
+                    print("----text (${noscript.size})----")
+                    print(e.text())
+                    println("--------")
+                    print("----html----")
+                    print(e.html())
+                    println("--------")
                 }
             }
+            if (printTdHtml) {
+                println("--- x = $x -----")
+            }
             if (td.size > 0) {
-                return td
+                return result
             }
             return null
         }
@@ -84,6 +111,10 @@ class TosGet {
             return null
         }
     }
+}
+class CardTds {
+    val Tds: MutableList<String> = ArrayList()
+    val Evolutions: MutableList<String> = ArrayList()
 }
 //
 //fun TosGet.getImage(element: Element) :String {

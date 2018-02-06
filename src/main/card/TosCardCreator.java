@@ -1,5 +1,7 @@
 package main.card;
 
+import util.logging.L;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +11,7 @@ public class TosCardCreator {
 
     public static class CardInfo {
         public List<String> data = new ArrayList<>();
+        public List<String> evolution = new ArrayList<>();
         public String icon = "";
         public String bigImage = "";
         public String wikiLink = "";
@@ -42,13 +45,11 @@ public class TosCardCreator {
 
     private TosCard asTosCard_18(CardInfo info) {
         List<String> list = info.data;
-        String icon = info.icon;
-        String bigImg = info.bigImage;
-        String link = info.wikiLink;
 
         TosCard c = new TosCard();
 
-        fillImage(c, icon, bigImg, link);
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -60,13 +61,11 @@ public class TosCardCreator {
 
     private TosCard asTosCard_28(CardInfo info) {
         List<String> list = info.data;
-        String icon = info.icon;
-        String bigImg = info.bigImage;
-        String link = info.wikiLink;
 
         TosCard c = new TosCard();
 
-        fillImage(c, icon, bigImg, link);
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -79,13 +78,11 @@ public class TosCardCreator {
 
     private TosCard asTosCard_16(CardInfo info) {
         List<String> list = info.data;
-        String icon = info.icon;
-        String bigImg = info.bigImage;
-        String link = info.wikiLink;
 
         TosCard c = new TosCard();
 
-        fillImage(c, icon, bigImg, link);
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         c.skillName = list.get(11);
@@ -100,13 +97,12 @@ public class TosCardCreator {
 
     private TosCard asTosCard_22(CardInfo info) {
         List<String> list = info.data;
-        String icon = info.icon;
-        String bigImg = info.bigImage;
-        String link = info.wikiLink;
 
         TosCard c = new TosCard();
 
-        fillImage(c, icon, bigImg, link);
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
+
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -119,12 +115,10 @@ public class TosCardCreator {
 
     private TosCard asTosCard_32(CardInfo info) {
         List<String> list = info.data;
-        String icon = info.icon;
-        String bigImg = info.bigImage;
-        String link = info.wikiLink;
 
         TosCard c = new TosCard();
-        fillImage(c, icon, bigImg, link);
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
 
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
@@ -140,12 +134,10 @@ public class TosCardCreator {
 
     private TosCard asTosCard_24(CardInfo info) {
         List<String> list = info.data;
-        String icon = info.icon;
-        String bigImg = info.bigImage;
-        String link = info.wikiLink;
 
         TosCard c = new TosCard();
-        fillImage(c, icon, bigImg, link);
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
 
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
@@ -159,13 +151,11 @@ public class TosCardCreator {
 
     private TosCard asTosCard_31(CardInfo info) {
         List<String> list = info.data;
-        String icon = info.icon;
-        String bigImg = info.bigImage;
-        String link = info.wikiLink;
 
         TosCard c = new TosCard();
 
-        fillImage(c, icon, bigImg, link);
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -177,10 +167,28 @@ public class TosCardCreator {
         return c;
     }
 
-    private void fillImage(TosCard c, String icon, String bigImg, String link) {
-        c.icon = icon;
-        c.bigImage = bigImg;
+    private void fillImage(TosCard c, CardInfo info) {
+        c.icon = info.icon;
+        c.bigImage = info.bigImage;
+    }
+
+    private void fillWikiEvolution(TosCard c, CardInfo info) {
+        String link = info.wikiLink;
+        List<String> list = info.evolution;
+
         c.wikiLink = link;
+        int from = list.indexOf("EvoArrow");
+        int plus = list.indexOf("EvoPlus");
+        int end = list.lastIndexOf("EvoArrow");
+        if (from > 0) {
+            c.evolveFrom = list.get(from - 1);
+        }
+        if (plus > 0 && end > 0) {
+            c.evolveTo = list.get(end + 1);
+            c.evolveNeed = new ArrayList<>(list.subList(plus + 1, end));
+        } else {
+            L.log("No evolutions in creator? %s", link);
+        }
     }
 
     private void fillBasic(TosCard c, List<String> list) {

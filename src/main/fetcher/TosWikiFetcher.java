@@ -2,6 +2,7 @@ package main.fetcher;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import main.card.CardTds;
 import main.card.TosCard;
 import main.card.TosCardCreator;
 import main.card.TosCardCreator.CardInfo;
@@ -38,7 +39,7 @@ public class TosWikiFetcher {
 
     private boolean fetchAll = true;
     private int from = 0;
-    private int prefetch = 250;
+    private int prefetch = 200;
     private static final int CARD_END = 2250; // Ended at #2233
 
     private boolean runChecker = false;
@@ -124,6 +125,7 @@ public class TosWikiFetcher {
                             }
                         }
                     }
+                    Lf.log("---------------------");
                 }
                 tt.tac("%s fetchCard", max - 1);
                 tt.setLog(true);
@@ -283,27 +285,42 @@ public class TosWikiFetcher {
 
         List<String> cardInfo = info.data;
         boolean logNode = false;
+        boolean logAnchor = true;
         // Step 4 : Get the card info from 3rd node, in <td>
         if (centers.size() > 2) {
-            List<String> s = TosGet.me.getTd(centers.get(1));
-            if (s != null) {
+            CardTds cardTds = TosGet.me.getCardTds(centers.get(1));
+            List<String> tds = null;
+            if (cardTds != null) {
+                tds = cardTds.getTds();
+            }
+            if (tds != null) {
                 // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
                 String[] anchor = {"基本屬性", "主動技"
-                        , "競技場 防守技能", "合體列表", "極限突破", "進化列表", "潛能解放", "異空轉生", "異力轉換", "來源"};
-                int[] anchors = getAnchors(s, anchor);
+                        , "競技場 防守技能", "合體列表"
+                        , "極限突破", "進化列表"
+                        , "潛能解放", "異空轉生"
+                        , "異力轉換", "來源"};
+                int[] anchors = getAnchors(tds, anchor);
 
                 // Find the end of card
                 int min = getPositiveMin(anchors, 2, anchors.length);
-                //Lf.log("anchors => %s => %s", Arrays.toString(anchors), min);
+                if (logAnchor) {
+                    Lf.log("anchors => %s => %s", Arrays.toString(anchors), min);
+                }
+
+                if (cardTds.getEvolutions().size() == 0) {
+                    Lf.log("No evolutions? %s", link);
+                }
+                info.evolution.addAll(cardTds.getEvolutions());
 
                 // Add name, color, stars, hp, attack, heal
                 for (int i = 0; i < anchors[0]; i++) {
-                    cardInfo.add(s.get(i));
+                    cardInfo.add(tds.get(i));
                 }
 
                 // Add skill of active & leader
                 for (int i = anchors[1]; i < min; i++) {
-                    cardInfo.add(s.get(i));
+                    cardInfo.add(tds.get(i));
                 }
 
                 // TODO : node info
@@ -325,7 +342,6 @@ public class TosWikiFetcher {
                 Lf.log("center(1) = \n%s", centers.get(1));
             }
         }
-        Lf.log("---------------------");
         return info;
     }
 

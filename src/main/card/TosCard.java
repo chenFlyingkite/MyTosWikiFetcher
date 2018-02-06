@@ -2,6 +2,9 @@ package main.card;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TosCard {
     /** Normalized ID, in form of %4d or %c%3d */
     @SerializedName("idNorm")
@@ -138,4 +141,16 @@ public class TosCard {
     /** Amelioration cost, 昇華4靈魂 */
     @SerializedName("skillAmeCost4")
     public int skillAmeliorationCost4;
+
+    /** Evolution from card idNorm */
+    @SerializedName("evolveFrom")
+    public String evolveFrom = "";
+
+    /** Evolution material card idNorm */
+    @SerializedName("evolveNeed")
+    public List<String> evolveNeed = new ArrayList<>();
+
+    /** Evolution to card idNorm */
+    @SerializedName("evolveTo")
+    public String evolveTo = "";
 }
