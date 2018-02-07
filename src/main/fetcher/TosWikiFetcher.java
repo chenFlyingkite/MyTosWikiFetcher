@@ -152,7 +152,9 @@ public class TosWikiFetcher {
         writeToJson(cardsNoDup);
     }
 
+    @Deprecated
     private void downloadToLocal() {
+        // Download is too big file, > 1g pages
         L.log("downloadToLocal");
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder().url(tosApi).build();
@@ -310,6 +312,8 @@ public class TosWikiFetcher {
 
                 if (cardTds.getEvolutions().size() == 0) {
                     Lf.log("No evolutions? %s", link);
+                } else {
+                    L.log("Evos = %s", cardTds.getEvolutions());
                 }
                 info.evolution.addAll(cardTds.getEvolutions());
 

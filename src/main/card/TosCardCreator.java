@@ -189,6 +189,24 @@ public class TosCardCreator {
         } else {
             L.log("No evolutions in creator? %s", link);
         }
+
+        // Normalize
+        c.evolveFrom = normEvoId(c.evolveFrom);
+        c.evolveTo = normEvoId(c.evolveTo);
+        for (int i = 0; i < c.evolveNeed.size(); i++) {
+            String s = c.evolveNeed.get(i);
+            c.evolveNeed.set(i, normEvoId(s));
+        }
+    }
+
+    private String normEvoId(String s) {
+        boolean endI = s != null && s.endsWith("i");
+        if (endI) {
+            // Parse "12i" to "0012"
+            return String.format("%04d", Integer.parseInt(s.substring(0, s.length() - 1)));
+        } else {
+            return s;
+        }
     }
 
     private void fillBasic(TosCard c, List<String> list) {
