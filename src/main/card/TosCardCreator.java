@@ -221,7 +221,22 @@ public class TosCardCreator {
         //-- Exp curve #8
         c.ExpMax = Long.parseLong(list.get(9));
         // Fill in Normalized ID
+        //c.idNorm = String.format("%04d", Integer.parseInt(c.id));
+        setNormId(c);
+    }
+
+    private void setNormId(TosCard c) {
+        // Fill in Normalized ID
         c.idNorm = String.format("%04d", Integer.parseInt(c.id));
+
+        int end = c.wikiLink.lastIndexOf("/") + 1;
+        String s = c.wikiLink.substring(end);
+        if (s.matches("[0-9]+")) {
+            int num = Integer.parseInt(s);
+            if (6000 <= num && num < 7000) {
+                c.idNorm = String.format("%04d", num);
+            }
+        }
     }
 
     private void fillSkillActive(TosCard c, List<String> list) {

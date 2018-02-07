@@ -12,7 +12,7 @@ import java.io.File;
  * @see System#out
  * @see FileOutput
  */
-public class LF implements CSVTable.OnReadCSV {
+public class LF implements Loggable, CSVTable.OnReadCSV {
     private final FileOutput file;
 
     private boolean logToFile = true;
@@ -46,6 +46,7 @@ public class LF implements CSVTable.OnReadCSV {
 
     private static final L.Impl impl = L.getImpl();
 
+    @Override
     public void log(String msg) {
         if (logToL) {
             impl.log(msg);
@@ -55,6 +56,7 @@ public class LF implements CSVTable.OnReadCSV {
         }
     }
 
+    @Override
     public void log(String msg, Object... param) {
         if (logToL) {
             impl.log(msg, param);
