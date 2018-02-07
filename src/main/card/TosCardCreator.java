@@ -233,7 +233,7 @@ public class TosCardCreator {
         String s = c.wikiLink.substring(end);
         if (s.matches("[0-9]+")) {
             int num = Integer.parseInt(s);
-            if (6000 <= num && num < 7000) {
+            if (6000 <= num && num < 7000) { // This is those card of 造型, like "id": "481", -> 水妹
                 c.idNorm = String.format("%04d", num);
             }
         }
