@@ -242,16 +242,32 @@ public class TosCardCreator {
     private void fillSkillActive(TosCard c, List<String> list) {
         //-- Skill Active name #10
         c.skillName = list.get(0);
-        c.skillCDMin = Integer.parseInt(list.get(1));
-        c.skillCDMax = Integer.parseInt(list.get(2));
+        try {
+            c.skillCDMin = Integer.parseInt(list.get(1));
+            c.skillCDMax = Integer.parseInt(list.get(2));
+        } catch (NumberFormatException e) {
+            L.log("Failed Active c = %s, %s, link = %s"
+                    , c.idNorm, c.name, c.wikiLink);
+            e.printStackTrace();
+            c.skillCDMin = 0;
+            c.skillCDMax = 0;
+        }
         c.skillDesc = list.get(3);
     }
 
     private void fillSkillActive2(TosCard c, List<String> list) {
         //-- Skill Active name #10
         c.skillName2 = list.get(0);
-        c.skillCDMin2 = Integer.parseInt(list.get(1));
-        c.skillCDMax2 = Integer.parseInt(list.get(2));
+        try {
+            c.skillCDMin2 = Integer.parseInt(list.get(1));
+            c.skillCDMax2 = Integer.parseInt(list.get(2));
+        } catch (NumberFormatException e) {
+            L.log("Failed Active #2 c = %s, %s, link = %s"
+                    , c.idNorm, c.name, c.wikiLink);
+            e.printStackTrace();
+            c.skillCDMin2 = 0;
+            c.skillCDMax2 = 0;
+        }
         c.skillDesc2 = list.get(3);
     }
 

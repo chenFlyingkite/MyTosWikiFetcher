@@ -63,6 +63,7 @@ public class TosWikiFetcher {
             tt.tic();
             response = client.newCall(request).execute();
             tt.tac("response = %s", response);
+            Lf.log("response = %s", response);
             tt.tic();
             body = response.body();
             tt.tac("body = %s", body);
@@ -74,8 +75,8 @@ public class TosWikiFetcher {
 
             tt.tic();
             ResultSet set = mGson.fromJson(s, ResultSet.class);
-            //UnexpandedListArticleResultSet set = gson.fromJson(s, UnexpandedListArticleResultSet.class);
             tt.tac("from gson, %s", set);
+            Lf.log("from gson, %s", set);
 
             if (set != null && set.getItems() != null) {
                 // Step 2: Determine the range of parsing
