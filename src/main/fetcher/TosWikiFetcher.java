@@ -40,7 +40,7 @@ public class TosWikiFetcher {
     private boolean fetchAll = true;
     private int from = 0;
     private int prefetch = 200;
-    private static final int CARD_END = 2250; // Ended at #2233
+    private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
 
     private boolean runChecker = false;
 
@@ -143,12 +143,12 @@ public class TosWikiFetcher {
             e.printStackTrace();
         }
         Lf.setLogToL(true);
+
+        Lf.log("sizes are %s", itemsN);
+        Lf.log("%s cards", cards.size());
+        Lf.log("%s cards not duplicate", cardsNoDup.size());
         Lf.getFile().close();
         Lfc.getFile().close();
-
-        L.log("sizes are %s", itemsN);
-        L.log("%s cards", cards.size());
-        L.log("%s cards not duplicate", cardsNoDup.size());
 
         writeToJson(cardsNoDup);
     }

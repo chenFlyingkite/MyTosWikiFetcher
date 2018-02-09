@@ -3337,11 +3337,11 @@ Title = 野蠻機械犀牛 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, 62, -1, 61, -1, -1, -1, 63] => 61
 ---------------------
 #0834 -> http://zh.tos.wikia.com/wiki/1690, (id = 251150, title = 1690, url = /wiki/1690, ns = 0)
-Title = 好運常在 ‧ 張遼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1716
+Title = 好運常在 ‧ 張遼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1719
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0835 -> http://zh.tos.wikia.com/wiki/1692, (id = 251151, title = 1692, url = /wiki/1692, ns = 0)
-Title = 刁潑巾幗 ‧ 關銀屏 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1722
+Title = 刁潑巾幗 ‧ 關銀屏 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1725
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0836 -> http://zh.tos.wikia.com/wiki/1696, (id = 251099, title = 1696, url = /wiki/1696, ns = 0)
@@ -3353,7 +3353,7 @@ Title = 虛擬人性 ‧ 耶魯 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0838 -> http://zh.tos.wikia.com/wiki/1699, (id = 251500, title = 1699, url = /wiki/1699, ns = 0)
-Title = 黝光萬丈 · 神皇宙斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1973
+Title = 黝光萬丈 · 神皇宙斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1976
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0839 -> http://zh.tos.wikia.com/wiki/17, (id = 2155, title = 17, url = /wiki/17, ns = 0)
@@ -5854,7 +5854,7 @@ Title = 蟄伏魍魎 ‧ 祝融(動態造型) | Tower of Saviors 維基 | FANDOM
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1461 -> http://zh.tos.wikia.com/wiki/6136, (id = 251154, title = 6136, url = /wiki/6136, ns = 0)
-Title = 獨眼戰鬼 ‧ 夏侯惇(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1777
+Title = 獨眼戰鬼 ‧ 夏侯惇(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1780
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1462 -> http://zh.tos.wikia.com/wiki/6139, (id = 251725, title = 6139, url = /wiki/6139, ns = 0)
@@ -5866,7 +5866,7 @@ Title = T.O.P | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 17
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1464 -> http://zh.tos.wikia.com/wiki/6142, (id = 251155, title = 6142, url = /wiki/6142, ns = 0)
-Title = 幸福攢盒 ‧ 瑪特羅什卡 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1819
+Title = 幸福攢盒 ‧ 瑪特羅什卡 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1822
 anchors => [10, 53, -1, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1465 -> http://zh.tos.wikia.com/wiki/6144, (id = 251156, title = 6144, url = /wiki/6144, ns = 0)
@@ -5874,7 +5874,7 @@ Title = 熊來慶賀 ‧ 莫里斯 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1466 -> http://zh.tos.wikia.com/wiki/6146, (id = 251622, title = 6146, url = /wiki/6146, ns = 0)
-Title = 清絮綺羅 ‧ 希(造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1690
+Title = 清絮綺羅 ‧ 希(造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1693
 ---------------------
 #1467 -> http://zh.tos.wikia.com/wiki/6147, (id = 251623, title = 6147, url = /wiki/6147, ns = 0)
 Title = 烈焰染暮 ‧ 妍(造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1690
@@ -8463,7 +8463,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2150 exists key = 0684_G-Dragon
 ---------------------
 #2151 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1922
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2065
 ---------------------
 #2152 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1980
@@ -18274,3 +18274,6 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 ---------------------
+sizes are [16, 32, 18, 22, 24, 28, 31]
+2020 cards
+1848 cards not duplicate
