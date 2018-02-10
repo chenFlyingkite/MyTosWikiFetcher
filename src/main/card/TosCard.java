@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TosCard {
-    /** Normalized ID, in form of %4d or %c%3d */
+    /** Normalized ID, in form of %04d */
     @SerializedName("idNorm")
     public String idNorm = "";
 
@@ -141,6 +141,10 @@ public class TosCard {
     /** Amelioration cost, 昇華4靈魂 */
     @SerializedName("skillAmeCost4")
     public int skillAmeliorationCost4;
+
+    //------------
+    //---- Evolution
+    //------------
 
     /** Evolution from card idNorm */
     @SerializedName("evolveFrom")
