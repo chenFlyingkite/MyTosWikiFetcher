@@ -1,6 +1,6 @@
 package main;
 
-import main.fetcher.TosWikiFetcher;
+import main.fetcher.TosWikiCardFetcher;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import util.logging.L;
@@ -14,7 +14,8 @@ public class Main {
     public static void main(String[] args) {
         long tic = System.currentTimeMillis();
         TicTac.tic();
-        TosWikiFetcher.me.run();
+        //TosWikiIconFetcher.me.run();
+        TosWikiCardFetcher.me.run();
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));

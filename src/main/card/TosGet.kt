@@ -2,11 +2,14 @@ package main.card
 
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
+import javax.swing.Icon
 
 class TosGet {
     companion object me {
         private val printTdHtml = false
 
+        // Extract for TosCard's big image and links
+        // http://zh.tos.wikia.com/wiki/001
         fun getImage(element: Element): String {
             val nos = element.getElementsByTag("noscript")
             val x: Element
@@ -23,6 +26,8 @@ class TosGet {
             return ""
         }
 
+        // Extract for TosCard
+        // http://zh.tos.wikia.com/wiki/001
         fun getCardTds(element: Element): CardTds? {
             val td2 = element.getElementsByTag("td")
 
@@ -110,8 +115,30 @@ class TosGet {
             }
             return null
         }
+
+        // Extract for icons
+        // view-source:http://towerofsaviors.wikia.com/wiki/File:InvWater.png
+        fun getIcon(element: Element): IconInfo {
+            val es = element.getElementsByClass("internal")
+
+            val n = es.size;
+            val info = IconInfo()
+            if (n > 0) {
+                val e = es.get(0)
+                info.link = e.attr("href")
+                info.name = e.attr("title") // [0]
+                //info.name = e.attr("download") // [1]
+            }
+            return info
+        }
     }
 }
+
+class IconInfo {
+    var link: String = ""
+    var name: String = ""
+}
+
 class CardTds {
     val Tds: MutableList<String> = ArrayList()
     val Evolutions: MutableList<String> = ArrayList()

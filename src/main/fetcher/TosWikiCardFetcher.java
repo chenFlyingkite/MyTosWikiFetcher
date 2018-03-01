@@ -1,7 +1,5 @@
 package main.fetcher;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import main.card.CardTds;
 import main.card.TosCard;
 import main.card.TosCardCreator;
@@ -15,29 +13,34 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import util.data.Range;
 import util.logging.L;
 import util.logging.LF;
 import util.tool.TextUtil;
 import util.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
-import wikia.articles.UnexpandedListArticleResultSet;
 
 import java.io.IOException;
 import java.util.*;
 
-public class TosWikiFetcher {
-    private TosWikiFetcher() {}
-    public static final TosWikiFetcher me = new TosWikiFetcher();
+public class TosWikiCardFetcher extends TosWikiBaseFetcher {
+    private TosWikiCardFetcher() {}
+    public static final TosWikiCardFetcher me = new TosWikiCardFetcher();
     private final LF Lf = new LF("mydata");
     private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000";
     private final LF Lfc = new LF("mydata", "ca.json");
 
-    private TicTac2 tt = new TicTac2();
-    private Gson mGson
-            = new GsonBuilder().setPrettyPrinting().create();
-            //= new Gson();
+    @Override
+    public String getAPILink() {
+        return tosApi;
+    }
 
-    private boolean fetchAll = true;
+    @Override
+    public LF getHttpLF() {
+        return Lf;
+    }
+
+    //private boolean fetchAll = true;
     private int from = 0;
     private int prefetch = 200;
     private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
@@ -45,103 +48,76 @@ public class TosWikiFetcher {
     private boolean runChecker = false;
 
     public void run() {
-        OkHttpClient client = new OkHttpClient();
-        Request request = new Request.Builder().url(tosApi).build();
-        Lf.getFile().delete().open();
-        Lf.setLogToL(!fetchAll);
+        mFetchAll = true;
+        ResultSet set = getApiResults();
+        if (!hasResult(set)) return;
+
+        Range rng = getRange(set, from, prefetch);
+
+        TicTac2 tt = new TicTac2();
+        tt.setLog(false);
+
+        // Open logging files
+        Lf.getFile().open();
+        Lf.setLogToL(!mFetchAll);
         Lfc.getFile().delete().open();
         Lfc.setLogToL(false);
 
-        Response response;
-        ResponseBody body;
+        // Required data
+        int percent = 0;
         List<TosCard> cards = new ArrayList<>();
         Set<String> cardSet = new HashSet<>();
         List<TosCard> cardsNoDup = new ArrayList<>();
-        try {
-            // Step 1: Fetch all links from Wikia API
-            Lf.log("Linking %s", tosApi);
-            tt.tic();
-            response = client.newCall(request).execute();
-            tt.tac("response = %s", response);
-            Lf.log("response = %s", response);
-            tt.tic();
-            body = response.body();
-            tt.tac("body = %s", body);
-            if (body == null) {
-                return;
-            }
 
-            String s = body.string();
-
-            tt.tic();
-            ResultSet set = mGson.fromJson(s, ResultSet.class);
-            tt.tac("from gson, %s", set);
-            Lf.log("from gson, %s", set);
-
-            if (set != null && set.getItems() != null) {
-                // Step 2: Determine the range of parsing
-                int min = 0;
-                int max = set.getItems().length;
-                if (!fetchAll) {
-                    min = Math.max(min, from);
-                    max = Math.min(max, from + prefetch);
-                }
-                int percent = 0;
-                tt.setLog(false);
+        tt.tic();
+        for (int i = rng.min; i < rng.max; i++) {
+            UnexpandedArticle a = set.getItems()[i];
+            String link = set.getBasePath() + "" + a.getUrl();
+            if (mFetchAll) {
+                tt.tac("%s fetchCard ", i - 1);
                 tt.tic();
-                for (int i = min; i < max; i++) {
-                    UnexpandedArticle a = set.getItems()[i];
-                    String link = set.getBasePath() + "" + a.getUrl();
-                    if (fetchAll) {
-                        tt.tac("%s fetchCard ", i - 1);
-                        tt.tic();
-                        L.log("#%s -> %s", i, link);
-                    }
-
-                    boolean hasPercent = link.indexOf('%') >= 0;
-                    if (hasPercent) {
-                        percent++;
-                    } else {
-                        // Step 3: For valid links, get its card info
-                        Lf.log("#%04d -> %s, %s", i, link, set.getItems()[i]);
-                        CardInfo card = getCardInfo(link);
-                        TosCard tosCard = TosCardCreator.me.asTosCard(card);
-                        if (tosCard == null) {
-                            Lfc.log("X_X, No card %s", card.wikiLink); // For 龍刻
-                        } else {
-                            cards.add(tosCard);
-                            // Use name + id as key, Add to non-duplicated
-                            // For BigBang series, it has same name but different id
-                            // http://zh.tos.wikia.com/wiki/611
-                            // http://zh.tos.wikia.com/wiki/676
-                            String key = tosCard.idNorm + "_" + tosCard.name;
-                            boolean hasKey = cardSet.contains(key);
-                            if (hasKey) {
-                                Lf.log("%s exists key = %s", i, key);
-                            } else {
-                                cardSet.add(key);
-                                cardsNoDup.add(tosCard);
-                                String json = mGson.toJson(tosCard, TosCard.class);
-                                Lfc.log(json);
-                            }
-                        }
-                    }
-                    Lf.log("---------------------");
-                }
-                tt.tac("%s fetchCard", max - 1);
-                tt.setLog(true);
-
-                if (runChecker) {
-                    Lf.log("------ Checker Start -------");
-                    TosWikiChecker.me.check(cards);
-                    Lf.log("------ Checker End -------");
-                }
+                L.log("#%s -> %s", i, link);
             }
 
-            //Lf.log("--------------------- xxxx -----");
-        } catch (IOException e) {
-            e.printStackTrace();
+            boolean hasPercent = link.indexOf('%') >= 0;
+            if (hasPercent) {
+                percent++;
+            } else {
+                // Step 3: For valid links, get its card info
+                Lf.log("#%04d -> %s, %s", i, link, set.getItems()[i]);
+                CardInfo card = getCardInfo(link);
+                TosCard tosCard = TosCardCreator.me.asTosCard(card);
+                if (tosCard == null) {
+                    Lfc.log("X_X, No card %s", card.wikiLink); // For 龍刻
+                } else {
+                    cards.add(tosCard);
+                    // Use name + id as key, Add to non-duplicated
+                    // For BigBang series, it has same name but different id
+                    // http://zh.tos.wikia.com/wiki/611
+                    // http://zh.tos.wikia.com/wiki/676
+                    String key = tosCard.idNorm + "_" + tosCard.name;
+                    boolean hasKey = cardSet.contains(key);
+                    if (hasKey) {
+                        Lf.log("%s exists key = %s", i, key);
+                    } else {
+                        cardSet.add(key);
+                        cardsNoDup.add(tosCard);
+                        String json = mGson.toJson(tosCard, TosCard.class);
+                        Lfc.log(json);
+                    }
+                }
+            }
+            Lf.log("---------------------");
         }
+        tt.tac("%s fetchCard", rng.max - 1);
+        tt.setLog(true);
+
+        if (runChecker) {
+            Lf.log("------ Checker Start -------");
+            TosWikiChecker.me.check(cards);
+            Lf.log("------ Checker End -------");
+        }
+
         Lf.setLogToL(true);
 
         Lf.log("sizes are %s", itemsN);
@@ -166,6 +142,7 @@ public class TosWikiFetcher {
         wikia.setLogToL(false);
         wikia.getFile().delete().open();
         Lf.getFile().delete().open();
+        TicTac2 tt = new TicTac2();
 
         // Step 1: Fetch all links from Wikia API
         try {
@@ -405,11 +382,6 @@ public class TosWikiFetcher {
         }
         return img;
     }
-
-    // class abbreviation
-    private class ResultSet extends UnexpandedListArticleResultSet {
-    }
-
 
 // English Wiki
 // http://towerofsaviors.wikia.com/wiki/Tower_of_Saviors_Wiki
