@@ -264,6 +264,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         info.icon = getImage(centers, 1);
 
         List<String> cardInfo = info.data;
+        List<String> cardValues = info.hpValues;
         boolean logNode = false;
         boolean logAnchor = true;
         // Step 4 : Get the card info from 3rd node, in <td>
@@ -281,6 +282,11 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                         , "潛能解放", "異空轉生"
                         , "異力轉換", "來源"};
                 int[] anchors = getAnchors(tds, anchor);
+
+                int maxhpStart = anchors[0] + 1;
+                cardValues.addAll(tds.subList(maxhpStart, maxhpStart + 3));
+                int minhpStart = maxhpStart + 18; // 6*3
+                cardValues.addAll(tds.subList(minhpStart, minhpStart + 3));
 
                 // Find the end of card
                 int min = getPositiveMin(anchors, 2, anchors.length);

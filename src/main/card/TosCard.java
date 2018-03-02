@@ -58,6 +58,30 @@ public class TosCard {
     @SerializedName("ExpMax")
     public long ExpMax;
 
+    /** Max Heath point, like 129 */
+    @SerializedName("maxHP")
+    public long maxHP;
+
+    /** Max Attack, like 71 */
+    @SerializedName("maxAttack")
+    public long maxAttack;
+
+    /** Max Recovery, like 24 */
+    @SerializedName("maxRecovery")
+    public long maxRecovery;
+
+    /** Min Heath point, like 86 */
+    @SerializedName("minHP")
+    public long minHP;
+
+    /** Min Attack, like 47 */
+    @SerializedName("minAttack")
+    public long minAttack;
+
+    /** Min Recovery, like 15 */
+    @SerializedName("minRecovery")
+    public long minRecovery;
+
     //------------
     //---- Active Skill 1
     //------------

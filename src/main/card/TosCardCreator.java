@@ -15,6 +15,7 @@ public class TosCardCreator {
         public String icon = "";
         public String bigImage = "";
         public String wikiLink = "";
+        public List<String> hpValues = new ArrayList<>();
     }
 
 //  node length, page
@@ -48,8 +49,8 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
 
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillCommon(c, info);
+        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -64,8 +65,8 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
 
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillCommon(c, info);
+        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -81,8 +82,8 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
 
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillCommon(c, info);
+        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         c.skillName = list.get(11);
@@ -100,8 +101,8 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
 
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillCommon(c, info);
+        fillHPValues(c, info.hpValues);
 
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
@@ -117,8 +118,8 @@ public class TosCardCreator {
         List<String> list = info.data;
 
         TosCard c = new TosCard();
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillCommon(c, info);
+        fillHPValues(c, info.hpValues);
 
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
@@ -136,8 +137,8 @@ public class TosCardCreator {
         List<String> list = info.data;
 
         TosCard c = new TosCard();
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillCommon(c, info);
+        fillHPValues(c, info.hpValues);
 
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
@@ -154,8 +155,8 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
 
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillCommon(c, info);
+        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -167,9 +168,24 @@ public class TosCardCreator {
         return c;
     }
 
+    private void fillCommon(TosCard c, CardInfo info) {
+        fillImage(c, info);
+        fillWikiEvolution(c, info);
+    }
+
     private void fillImage(TosCard c, CardInfo info) {
         c.icon = info.icon;
         c.bigImage = info.bigImage;
+    }
+
+    private void fillHPValues(TosCard c, List<String> list) {
+        c.maxHP = Integer.parseInt(list.get(0));
+        c.maxAttack = Integer.parseInt(list.get(1));
+        c.maxRecovery = Integer.parseInt(list.get(2));
+
+        c.minHP = Integer.parseInt(list.get(3));
+        c.minAttack = Integer.parseInt(list.get(4));
+        c.minRecovery = Integer.parseInt(list.get(5));
     }
 
     private void fillWikiEvolution(TosCard c, CardInfo info) {
