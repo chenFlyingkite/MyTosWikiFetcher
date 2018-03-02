@@ -1,6 +1,7 @@
 package main;
 
 import main.fetcher.TosWikiCardFetcher;
+import main.fetcher.TosWikiIconFetcher;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import util.logging.L;

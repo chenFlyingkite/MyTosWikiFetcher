@@ -9,6 +9,7 @@ import okhttp3.ResponseBody;
 import util.data.Range;
 import util.logging.LF;
 import util.tool.IOUtil;
+import util.tool.TextUtil;
 import util.tool.TicTac2;
 import wikia.articles.UnexpandedListArticleResultSet;
 
@@ -97,6 +98,7 @@ public abstract class TosWikiBaseFetcher {
     protected void downloadImage(String link, String folder, String name) {
         InputStream fin = null;
         OutputStream fout = null;
+        name = toValidIconName(name);
         try {
             URL url = new URL(link);
             File image = new File(folder, name);
@@ -118,6 +120,34 @@ public abstract class TosWikiBaseFetcher {
         } finally {
             IOUtil.closeIt(fin, fout);
         }
+    }
+
+    protected String toValidIconName(String oldName) {
+        if (oldName == null) return oldName;
+
+        char[] cs = oldName.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < cs.length; i++) {
+            char c = cs[i];
+            boolean isUpper = Character.isUpperCase(c);
+            boolean isDigit = Character.isDigit(c);
+            char lc = Character.toLowerCase(c);
+            char newC = c;
+            if (i == 0) {
+                if (isDigit) {
+                    sb.append("icon_");
+                } else if (isUpper) {
+                    newC = lc;
+                }
+            } else {
+                if (isUpper) {
+                    sb.append("_");
+                    newC = lc;
+                }
+            }
+            sb.append(newC);
+        }
+        return sb.toString();
     }
 
     // class abbreviation
