@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TosCard {
+    //------------
+    //---- Basic info, 基礎卡片內容
+    //------------
+
     /** Normalized ID, in form of %04d */
     @SerializedName("idNorm")
     public String idNorm = "";
@@ -22,7 +26,7 @@ public class TosCard {
     @SerializedName("attribute")
     public String attribute = "";
 
-    /** Icon, image link  */
+    /** Icon, image link */
     @SerializedName("icon")
     public String icon = "";
 
@@ -83,7 +87,7 @@ public class TosCard {
     public long minRecovery;
 
     //------------
-    //---- Active Skill 1
+    //---- Active Skill 1, 主動技能1
     //------------
 
     /** Active skill name, like "木光移魂" */
@@ -103,7 +107,7 @@ public class TosCard {
     public int skillCDMax;
 
     //------------
-    //---- Active Skill 2
+    //---- Active Skill 2, 主動技能2
     //------------
 
     /** Active skill 2 name, like "天雷極地" */
@@ -123,7 +127,7 @@ public class TosCard {
     public int skillCDMax2;
 
     //------------
-    //---- Leader Skill
+    //---- Leader Skill, 隊長技能
     //------------
 
     /** Leader skill name, like "光之狂怒" */
@@ -167,7 +171,7 @@ public class TosCard {
     public int skillAmeliorationCost4;
 
     //------------
-    //---- Evolution
+    //---- Evolution, 卡片進化
     //------------
 
     /** Evolution from card idNorm */
@@ -181,4 +185,16 @@ public class TosCard {
     /** Evolution to card idNorm */
     @SerializedName("evolveTo")
     public String evolveTo = "";
+
+    //------------
+    //---- Combination, 卡片合體
+    //------------
+
+    /** Combination material cards idNorm */
+    @SerializedName("combineFrom")
+    public List<String> combineFrom = new ArrayList<>();
+
+    /** Combination material cards idNorm */
+    @SerializedName("combineTo")
+    public List<String> combineTo = new ArrayList<>();
 }

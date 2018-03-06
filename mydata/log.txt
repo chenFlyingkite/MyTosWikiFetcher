@@ -722,7 +722,7 @@ Title = 蒼幽狼人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0181 -> http://zh.tos.wikia.com/wiki/1070, (id = 215799, title = 1070, url = /wiki/1070, ns = 0)
-Title = 闇噬的蘊量 ‧ 諾瓦利斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1860
+Title = 闇噬的蘊量 ‧ 諾瓦利斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1866
 anchors => [10, 53, -1, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0182 -> http://zh.tos.wikia.com/wiki/1071, (id = 217583, title = 1071, url = /wiki/1071, ns = 0)
@@ -1011,7 +1011,7 @@ Title = 曠古戰王 ‧ 吉爾伽美什 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0253 -> http://zh.tos.wikia.com/wiki/1135, (id = 224164, title = 1135, url = /wiki/1135, ns = 0)
-Title = 渾天原始神卡俄斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1804
+Title = 渾天原始神卡俄斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1810
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0254 -> http://zh.tos.wikia.com/wiki/1136, (id = 224165, title = 1136, url = /wiki/1136, ns = 0)
@@ -1255,7 +1255,7 @@ Title = 斯庫爾德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, 61, -1, -1, 64, -1, -1, -1, 65] => 61
 ---------------------
 #0314 -> http://zh.tos.wikia.com/wiki/1190, (id = 227961, title = 1190, url = /wiki/1190, ns = 0)
-Title = 烈焰舞者 ‧ 妍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
+Title = 烈焰舞者 ‧ 妍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, 63] => 61
 ---------------------
 #0315 -> http://zh.tos.wikia.com/wiki/1191, (id = 228858, title = 1191, url = /wiki/1191, ns = 0)
@@ -5716,7 +5716,8 @@ Title = 澄澈歌手 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1426 -> http://zh.tos.wikia.com/wiki/6060, (id = 252578, title = 6060, url = /wiki/6060, ns = 0)
-Title = 6060 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1341
+Title = 豔麗首領 ‧ 關羽 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1814
+anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1427 -> http://zh.tos.wikia.com/wiki/6061, (id = 242069, title = 6061, url = /wiki/6061, ns = 0)
 Title = 愛恨交纏之歌 ‧ 美狄亞 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1829
@@ -5977,7 +5978,7 @@ Title = 6130 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 134
 Title = 6131 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1341
 ---------------------
 #1492 -> http://zh.tos.wikia.com/wiki/6132, (id = 252582, title = 6132, url = /wiki/6132, ns = 0)
-Title = 6132 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1335
+Title = 6132 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1341
 ---------------------
 #1493 -> http://zh.tos.wikia.com/wiki/6134, (id = 251152, title = 6134, url = /wiki/6134, ns = 0)
 Title = 耿直理想家 ‧ 孫策(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
@@ -18736,5 +18737,5 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 sizes are [16, 32, 18, 19, 22, 24, 28, 31]
-2058 cards
-1886 cards not duplicate
+2059 cards
+1887 cards not duplicate

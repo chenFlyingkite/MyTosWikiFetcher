@@ -1,10 +1,10 @@
 package main.card;
 
-import util.logging.L;
 import util.logging.Loggable;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class TosCardCreator {
     private TosCardCreator() {}
@@ -13,6 +13,7 @@ public class TosCardCreator {
     public static class CardInfo {
         public List<String> data = new ArrayList<>();
         public List<String> evolution = new ArrayList<>();
+        public int[] anchors;
         public String icon = "";
         public String bigImage = "";
         public String wikiLink = "";
@@ -53,7 +54,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -69,7 +69,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -86,7 +85,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         c.skillName = list.get(11);
@@ -105,8 +103,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillHPValues(c, info.hpValues);
-
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -122,8 +118,6 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
         fillCommon(c, info);
-        fillHPValues(c, info.hpValues);
-
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -141,8 +135,6 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
         fillCommon(c, info);
-        fillHPValues(c, info.hpValues);
-
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -159,7 +151,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillHPValues(c, info.hpValues);
         fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
@@ -176,7 +167,7 @@ public class TosCardCreator {
 
         if (c.evolveFrom.length() > 0 && !c.idNorm.equals(c.evolveFrom)) {
             log.log("Evolve not self? %s", c.wikiLink);
-            // TODO : Need handle merge
+            // TODO : Handle combine
             // 禮物黑手黨 ‧ 馴鹿組
             // http://zh.tos.wikia.com/wiki/1308
             // 日月巨狼 ‧ 芬爾厄
@@ -195,13 +186,16 @@ public class TosCardCreator {
     }
 
     private void fillCommon(TosCard c, CardInfo info) {
-        fillImage(c, info);
-        fillWikiEvolution(c, info);
+        fillLinks(c, info);
+        fillHPValues(c, info.hpValues);
+        fillCombination(c, info);
+        fillEvolution(c, info);
     }
 
-    private void fillImage(TosCard c, CardInfo info) {
+    private void fillLinks(TosCard c, CardInfo info) {
         c.icon = info.icon;
         c.bigImage = info.bigImage;
+        c.wikiLink = info.wikiLink;
     }
 
     private void fillHPValues(TosCard c, List<String> list) {
@@ -214,12 +208,12 @@ public class TosCardCreator {
         c.minRecovery = Integer.parseInt(list.get(5));
     }
 
-    private void fillWikiEvolution(TosCard c, CardInfo info) {
-        String link = info.wikiLink;
+    private void fillEvolution(TosCard c, CardInfo info) {
+        // Depends on CardFetcher's anchors
+        if (info.anchors[5] < 0) return;
+
         List<String> list = info.evolution;
 
-        c.wikiLink = link;
-        int from = list.indexOf("EvoArrow");
         int plus = list.indexOf("EvoPlus");
         int end = list.lastIndexOf("EvoArrow");
         if (plus > 0) {
@@ -229,8 +223,6 @@ public class TosCardCreator {
                 c.evolveTo = list.get(end + 1);
                 c.evolveNeed = new ArrayList<>(list.subList(plus + 1, end));
             }
-        } else {
-            //L.log("No evolutions in creator? %s", link);
         }
 
         // Normalize
@@ -242,11 +234,32 @@ public class TosCardCreator {
         }
     }
 
+    private void fillCombination(TosCard c, CardInfo info) {
+        if (info.anchors[3] < 0) return;
+
+        List<String> list = info.evolution;
+        // Omit head & tail, Fill in the combine material
+        for (int i = 1; i < list.size() - 1; i++) {
+            String s = list.get(i);
+            boolean endI = s.endsWith("i");
+            boolean evos = s.contains("Evo"); // EvoPlus or EvoArrow
+            if (endI && !evos) {
+                c.combineFrom.add(normEvoId(s));
+            }
+        }
+
+        // Add the combined card
+        int end = list.lastIndexOf("EvoArrow");
+        if (end < list.size() - 1) {
+            c.combineTo.add(normEvoId(list.get(end + 1)));
+        }
+    }
+
     private String normEvoId(String s) {
         boolean endI = s != null && s.endsWith("i");
         if (endI) {
             // Parse "12i" to "0012"
-            return String.format("%04d", Integer.parseInt(s.substring(0, s.length() - 1)));
+            return String.format(Locale.US, "%04d", Integer.parseInt(s.substring(0, s.length() - 1)));
         } else {
             return s;
         }
@@ -263,21 +276,20 @@ public class TosCardCreator {
         c.LvMax = Integer.parseInt(list.get(7));
         //-- Exp curve #8
         c.ExpMax = Long.parseLong(list.get(9));
-        // Fill in Normalized ID
-        //c.idNorm = String.format("%04d", Integer.parseInt(c.id));
+
         setNormId(c);
     }
 
+    // Fill in Normalized ID
     private void setNormId(TosCard c) {
-        // Fill in Normalized ID
-        c.idNorm = String.format("%04d", Integer.parseInt(c.id));
+        c.idNorm = String.format(Locale.US, "%04d", Integer.parseInt(c.id));
 
         int end = c.wikiLink.lastIndexOf("/") + 1;
         String s = c.wikiLink.substring(end);
         if (s.matches("[0-9]+")) {
             int num = Integer.parseInt(s);
             if (6000 <= num && num < 7000) { // This is those card of 造型, like "id": "481", -> 水妹
-                c.idNorm = String.format("%04d", num);
+                c.idNorm = String.format(Locale.US, "%04d", num);
             }
         }
     }

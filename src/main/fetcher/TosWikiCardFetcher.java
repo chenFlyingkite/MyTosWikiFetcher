@@ -40,7 +40,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return Lf;
     }
 
-    private int from = 444; // #1307
+    private int from = 443; // #1307
     private int prefetch = 5;
     private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
 
@@ -300,8 +300,9 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                     Lf.log("No evolutions? %s", link);
                 } else {
                     L.log("Evos = %s", cardTds.getEvolutions());
+                    info.anchors = Arrays.copyOf(anchors, anchors.length);
+                    info.evolution.addAll(cardTds.getEvolutions());
                 }
-                info.evolution.addAll(cardTds.getEvolutions());
 
                 // Add name, color, stars, hp, attack, heal
                 for (int i = 0; i < anchors[0]; i++) {
