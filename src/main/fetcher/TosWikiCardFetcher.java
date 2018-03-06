@@ -40,15 +40,16 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return Lf;
     }
 
-    //private boolean fetchAll = true;
-    private int from = 0;
-    private int prefetch = 200;
+    private int from = 444; // #1307
+    private int prefetch = 5;
     private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
 
     private boolean runChecker = false;
 
     public void run() {
+        // Parameters setting
         mFetchAll = true;
+
         ResultSet set = getApiResults();
         if (!hasResult(set)) return;
 
@@ -87,6 +88,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 Lf.log("#%04d -> %s, %s", i, link, set.getItems()[i]);
                 CardInfo card = getCardInfo(link);
                 TosCard tosCard = TosCardCreator.me.asTosCard(card);
+                TosCardCreator.me.inspectCard(tosCard, Lfc);
                 if (tosCard == null) {
                     Lfc.log("X_X, No card %s", card.wikiLink); // For 龍刻
                 } else {

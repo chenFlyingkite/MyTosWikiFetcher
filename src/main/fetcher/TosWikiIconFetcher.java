@@ -31,6 +31,7 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
 
     public void run() {
         mFetchAll = true;
+
         ResultSet set = getApiResults();
         if (!hasResult(set)) return;
 

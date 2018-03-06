@@ -1,6 +1,7 @@
 package main.card;
 
 import util.logging.L;
+import util.logging.Loggable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,19 +29,21 @@ public class TosCardCreator {
 //31, card = http://zh.tos.wikia.com/wiki/656
 
     public TosCard asTosCard(CardInfo info) {
-        if (info == null) return null;
+        TosCard c = null;
 
-        int n = info.data.size();
-        switch (n) {
-            case 18: return asTosCard_18(info);
-            case 28: return asTosCard_28(info);
-            case 16: return asTosCard_16(info);
-            case 22: return asTosCard_22(info);
-            case 32: return asTosCard_32(info);
-            case 24: return asTosCard_24(info);
-            case 31: return asTosCard_31(info);
+        if (info != null) {
+            int n = info.data.size();
+            switch (n) {
+                case 18: c = asTosCard_18(info); break;
+                case 28: c = asTosCard_28(info); break;
+                case 16: c = asTosCard_16(info); break;
+                case 22: c = asTosCard_22(info); break;
+                case 32: c = asTosCard_32(info); break;
+                case 24: c = asTosCard_24(info); break;
+                case 31: c = asTosCard_31(info); break;
+            }
         }
-        return null;
+        return c;
     }
 
 
@@ -168,6 +171,29 @@ public class TosCardCreator {
         return c;
     }
 
+    public void inspectCard(TosCard c, Loggable log) {
+        if (c == null) return;
+
+        if (c.evolveFrom.length() > 0 && !c.idNorm.equals(c.evolveFrom)) {
+            log.log("Evolve not self? %s", c.wikiLink);
+            // TODO : Need handle merge
+            // 禮物黑手黨 ‧ 馴鹿組
+            // http://zh.tos.wikia.com/wiki/1308
+            // 日月巨狼 ‧ 芬爾厄
+            // http://zh.tos.wikia.com/wiki/1522
+            // 超獸魔神
+            // http://zh.tos.wikia.com/wiki/620
+            // 格蕾琴與海森堡 ‧ 戰鯨吐息
+            // http://zh.tos.wikia.com/wiki/656 ~ 660
+            // 冰耀獸神兵
+            // http://zh.tos.wikia.com/wiki/666 ~ 670
+            // 仇龍英雄 ‧ 貝奧武夫
+            // http://zh.tos.wikia.com/wiki/721 ~ 725
+            // 憂懼之罪 ‧ 梅塔特隆
+            // http://zh.tos.wikia.com/wiki/961 ~ 965
+        }
+    }
+
     private void fillCommon(TosCard c, CardInfo info) {
         fillImage(c, info);
         fillWikiEvolution(c, info);
@@ -196,14 +222,15 @@ public class TosCardCreator {
         int from = list.indexOf("EvoArrow");
         int plus = list.indexOf("EvoPlus");
         int end = list.lastIndexOf("EvoArrow");
-        if (from > 0) {
-            c.evolveFrom = list.get(from - 1);
-        }
-        if (plus > 0 && end > 0) {
-            c.evolveTo = list.get(end + 1);
-            c.evolveNeed = new ArrayList<>(list.subList(plus + 1, end));
+        if (plus > 0) {
+            c.evolveFrom = list.get(plus - 1);
+
+            if (0 < end && end < list.size() - 1) {
+                c.evolveTo = list.get(end + 1);
+                c.evolveNeed = new ArrayList<>(list.subList(plus + 1, end));
+            }
         } else {
-            L.log("No evolutions in creator? %s", link);
+            //L.log("No evolutions in creator? %s", link);
         }
 
         // Normalize
@@ -258,32 +285,16 @@ public class TosCardCreator {
     private void fillSkillActive(TosCard c, List<String> list) {
         //-- Skill Active name #10
         c.skillName = list.get(0);
-        try {
-            c.skillCDMin = Integer.parseInt(list.get(1));
-            c.skillCDMax = Integer.parseInt(list.get(2));
-        } catch (NumberFormatException e) {
-            L.log("Failed Active c = %s, %s, link = %s"
-                    , c.idNorm, c.name, c.wikiLink);
-            e.printStackTrace();
-            c.skillCDMin = 0;
-            c.skillCDMax = 0;
-        }
+        c.skillCDMin = Integer.parseInt(list.get(1));
+        c.skillCDMax = Integer.parseInt(list.get(2));
         c.skillDesc = list.get(3);
     }
 
     private void fillSkillActive2(TosCard c, List<String> list) {
         //-- Skill Active name #10
         c.skillName2 = list.get(0);
-        try {
-            c.skillCDMin2 = Integer.parseInt(list.get(1));
-            c.skillCDMax2 = Integer.parseInt(list.get(2));
-        } catch (NumberFormatException e) {
-            L.log("Failed Active #2 c = %s, %s, link = %s"
-                    , c.idNorm, c.name, c.wikiLink);
-            e.printStackTrace();
-            c.skillCDMin2 = 0;
-            c.skillCDMax2 = 0;
-        }
+        c.skillCDMin2 = Integer.parseInt(list.get(1));
+        c.skillCDMax2 = Integer.parseInt(list.get(2));
         c.skillDesc2 = list.get(3);
     }
 

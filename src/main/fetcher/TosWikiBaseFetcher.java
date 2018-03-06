@@ -83,7 +83,7 @@ public abstract class TosWikiBaseFetcher {
         return set;
     }
 
-    public final Range getRange(ResultSet set, int from, int prefetch) {
+    protected final Range getRange(ResultSet set, int from, int prefetch) {
         // Step 2: Determine the range of parsing
         int min = 0;
         int max = hasResult(set) ? set.getItems().length : 0;
@@ -123,7 +123,7 @@ public abstract class TosWikiBaseFetcher {
     }
 
     protected String toValidIconName(String oldName) {
-        if (oldName == null) return oldName;
+        if (oldName == null) return null;
 
         char[] cs = oldName.toCharArray();
         StringBuilder sb = new StringBuilder();
