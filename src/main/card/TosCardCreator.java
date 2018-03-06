@@ -54,7 +54,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
         //-- Skill Leader name #15
@@ -69,7 +68,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
         //-- Skill Leader name #15
@@ -85,7 +83,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         c.skillName = list.get(11);
         c.skillCDMin = 0;
@@ -103,7 +100,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
         fillSkillActive2(c, list.subList(15, 19));
@@ -118,7 +114,6 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
         fillCommon(c, info);
-        fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
         fillSkillActive2(c, list.subList(15, 19));
@@ -135,7 +130,6 @@ public class TosCardCreator {
 
         TosCard c = new TosCard();
         fillCommon(c, info);
-        fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
         //-- Skill Leader name #15
@@ -151,7 +145,6 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        fillBasic(c, list.subList(0, 10));
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
         fillSkillActive2(c, list.subList(15, 19));
@@ -187,6 +180,7 @@ public class TosCardCreator {
 
     private void fillCommon(TosCard c, CardInfo info) {
         fillLinks(c, info);
+        fillCardIds(c, info.data.subList(0, 10));
         fillHPValues(c, info.hpValues);
         fillCombination(c, info);
         fillEvolution(c, info);
@@ -265,7 +259,7 @@ public class TosCardCreator {
         }
     }
 
-    private void fillBasic(TosCard c, List<String> list) {
+    private void fillCardIds(TosCard c, List<String> list) {
         c.name = list.get(0);
         c.attribute = list.get(1);
         c.id = list.get(2);

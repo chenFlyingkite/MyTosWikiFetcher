@@ -16,8 +16,8 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //TosWikiIconFetcher.me.run();
-        //TosWikiCardFetcher.me.run();
-        google();
+        TosWikiCardFetcher.me.run();
+        //google();
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
