@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000}
-from gson, (11950 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (11951 items, basePath = http://zh.tos.wikia.com, offset = null)
 #0000 -> http://zh.tos.wikia.com/wiki/001, (id = 116891, title = 001, url = /wiki/001, ns = 0)
 Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1873
 anchors => [10, 53, 61, -1, -1, 64, -1, -1, -1, 65] => 61
@@ -1640,7 +1640,7 @@ Title = 關羽 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0410 -> http://zh.tos.wikia.com/wiki/1277, (id = 233862, title = 1277, url = /wiki/1277, ns = 0)
-Title = 青龍偃月 ‧ 關羽 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1792
+Title = 青龍偃月 ‧ 關羽 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1806
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0411 -> http://zh.tos.wikia.com/wiki/1278, (id = 233863, title = 1278, url = /wiki/1278, ns = 0)
@@ -5684,15 +5684,15 @@ Title = 黃昏暗役 ‧ 洛基 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, 71, 72] => 71
 ---------------------
 #1418 -> http://zh.tos.wikia.com/wiki/6053, (id = 237184, title = 6053, url = /wiki/6053, ns = 0)
-Title = 滅鼠之泉 ‧ 阿撒兹勒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
+Title = 滅鼠之泉 ‧ 阿撒兹勒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1853
 anchors => [10, 53, -1, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1419 -> http://zh.tos.wikia.com/wiki/6054, (id = 237185, title = 6054, url = /wiki/6054, ns = 0)
-Title = 毀滅之叉 ‧ 亞巴頓 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
+Title = 毀滅之叉 ‧ 亞巴頓 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1853
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #1420 -> http://zh.tos.wikia.com/wiki/6055, (id = 237186, title = 6055, url = /wiki/6055, ns = 0)
-Title = 梳理智者 ‧ 薩麥爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1850
+Title = 梳理智者 ‧ 薩麥爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1851
 anchors => [10, 53, -1, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1421 -> http://zh.tos.wikia.com/wiki/6056, (id = 237187, title = 6056, url = /wiki/6056, ns = 0)
@@ -8143,7 +8143,7 @@ Title = 祈之圖騰龍印 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 Title = 影之幻變龍印 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1485
 ---------------------
 #2030 -> http://zh.tos.wikia.com/wiki/C101, (id = 210440, title = C101, url = /wiki/C101, ns = 0)
-Title = 煉之原色龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
+Title = 煉之原色龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1494
 ---------------------
 #2031 -> http://zh.tos.wikia.com/wiki/C102, (id = 210441, title = C102, url = /wiki/C102, ns = 0)
 Title = 連之神療龍咒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
@@ -8272,7 +8272,7 @@ Title = 抵之狂暴龍紋 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 Title = 漩之獸暴龍紋 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
 ---------------------
 #2073 -> http://zh.tos.wikia.com/wiki/C171, (id = 239572, title = C171, url = /wiki/C171, ns = 0)
-Title = 虛之狂暴龍結 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1476
+Title = 虛之狂暴龍結 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1477
 ---------------------
 #2074 -> http://zh.tos.wikia.com/wiki/C172, (id = 239575, title = C172, url = /wiki/C172, ns = 0)
 Title = 攻之鐵壁龍結 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1485
@@ -8308,10 +8308,10 @@ Title = 連之王暴龍刃 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 Title = 漩之越時龍刃 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1485
 ---------------------
 #2085 -> http://zh.tos.wikia.com/wiki/C182, (id = 240112, title = C182, url = /wiki/C182, ns = 0)
-Title = 煉之越時龍刃 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1484
+Title = 煉之越時龍刃 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1485
 ---------------------
 #2086 -> http://zh.tos.wikia.com/wiki/C183, (id = 240113, title = C183, url = /wiki/C183, ns = 0)
-Title = 森之越時龍刃 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1484
+Title = 森之越時龍刃 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1485
 ---------------------
 #2087 -> http://zh.tos.wikia.com/wiki/C184, (id = 240114, title = C184, url = /wiki/C184, ns = 0)
 Title = 影之王暴龍刃 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1492
@@ -8425,7 +8425,7 @@ Title = 森之狂暴龍咒 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 Title = 耀之狂暴龍印 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
 ---------------------
 #2124 -> http://zh.tos.wikia.com/wiki/C28, (id = 189342, title = C28, url = /wiki/C28, ns = 0)
-Title = 影之狂暴龍咒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
+Title = 影之狂暴龍咒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1494
 ---------------------
 #2125 -> http://zh.tos.wikia.com/wiki/C29, (id = 183237, title = C29, url = /wiki/C29, ns = 0)
 Title = 祈之鐵壁龍咒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1484
@@ -8530,7 +8530,7 @@ Title = 連之王暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 Title = 攻之獸暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1484
 ---------------------
 #2159 -> http://zh.tos.wikia.com/wiki/C38, (id = 189350, title = C38, url = /wiki/C38, ns = 0)
-Title = 連之神暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1485
+Title = 連之神暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1487
 ---------------------
 #2160 -> http://zh.tos.wikia.com/wiki/C39, (id = 189351, title = C39, url = /wiki/C39, ns = 0)
 Title = 連之龍暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1484
@@ -8632,7 +8632,7 @@ Title = 漩之神療龍紋 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 Title = 森之魔暴龍咒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
 ---------------------
 #2193 -> http://zh.tos.wikia.com/wiki/C72, (id = 202861, title = C72, url = /wiki/C72, ns = 0)
-Title = 虛之獸暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
+Title = 虛之獸暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1494
 ---------------------
 #2194 -> http://zh.tos.wikia.com/wiki/C73, (id = 202862, title = C73, url = /wiki/C73, ns = 0)
 Title = 虛之魔暴龍符 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1493
@@ -9095,6 +9095,7 @@ anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 Title = 大壞蛋彼德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1999
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2309 exists key = 8045_大壞蛋彼德
+---------------------
 ---------------------
 ---------------------
 ---------------------
