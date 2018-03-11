@@ -2,7 +2,6 @@ package main.card
 
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
-import javax.swing.Icon
 
 class TosGet {
     companion object me {
@@ -91,15 +90,14 @@ class TosGet {
             val tbody = element.child(0)?.child(0)
             val chi = tbody?.children()
             val trs = ArrayList<Element>()
-            if (chi != null) {
-                chi.forEachIndexed { i, ele -> run {
-                    // Add the elements of not in no
-                    val no = listOf(4, 5, 6)
-                    if (!no.contains(i)) {
-                        trs.add(ele)
-                    }
-                }}
-            }
+
+            chi?.forEachIndexed { i, ele -> run {
+                // Add the elements of not in no
+                val no = listOf(4, 5, 6)
+                if (!no.contains(i)) {
+                    trs.add(ele)
+                }
+            }}
 
             val td2 = element.getElementsByTag("tr")
 
