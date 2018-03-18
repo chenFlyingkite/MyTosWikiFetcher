@@ -40,7 +40,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return Lf;
     }
 
-    private int from = 443; // #1307
+    private int from = 447; // #131
     private int prefetch = 5;
     private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
 
@@ -266,7 +266,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         info.icon = getImage(centers, 1);
 
         List<String> cardInfo = info.data;
-        List<String> cardValues = info.hpValues;
         boolean logNode = false;
         boolean logAnchor = true;
         // Step 4 : Get the card info from 3rd node, in <td>
@@ -280,15 +279,16 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
                 String[] anchor = {"基本屬性", "主動技"
                         , "競技場 防守技能", "合體列表"
-                        , "極限突破", "進化列表"
-                        , "潛能解放", "異空轉生"
+                        , "極限突破" // Awaken recall
+                        , "進化列表"
+                        , "潛能解放" // Power release
+                        , "異空轉生" // Virtual rebirth
                         , "異力轉換", "來源"};
                 int[] anchors = getAnchors(tds, anchor);
 
-                int maxhpStart = anchors[0] + 1;
-                cardValues.addAll(tds.subList(maxhpStart, maxhpStart + 3));
-                int minhpStart = maxhpStart + 18; // 6*3
-                cardValues.addAll(tds.subList(minhpStart, minhpStart + 3));
+                // Adding more info for card
+                addHpInfo(info, anchors, tds);
+                addExpInfo(info, anchors, tds);
 
                 // Find the end of card
                 int min = getPositiveMin(anchors, 2, anchors.length);
@@ -334,6 +334,20 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             }
         }
         return info;
+    }
+
+    private void addHpInfo(CardInfo info, int[] anchors, List<String> tds) {
+        int maxhpStart = anchors[0] + 1;
+        info.hpValues.addAll(tds.subList(maxhpStart, maxhpStart + 3));
+        int minhpStart = maxhpStart + 18; // 6*3
+        info.hpValues.addAll(tds.subList(minhpStart, minhpStart + 3));
+    }
+
+    private void addExpInfo(CardInfo info, int[] anchors, List<String> tds) {
+        info.expInfos.add(tds.get(8)); // Exp curve
+        int sacrifyExpStart = anchors[0] + 35; // 6*5 + 5
+        info.expInfos.add(tds.get(sacrifyExpStart)); // Sacrifice Exp Lv1
+        info.expInfos.add(tds.get(sacrifyExpStart + 6)); // Sacrifice Exp per Lv
     }
 
     private <T> int[] getAnchors(List<T> list, T[] anchor) {

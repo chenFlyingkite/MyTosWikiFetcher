@@ -18,6 +18,7 @@ public class TosCardCreator {
         public String bigImage = "";
         public String wikiLink = "";
         public List<String> hpValues = new ArrayList<>();
+        public List<String> expInfos = new ArrayList<>();
     }
 
 //  node length, page
@@ -182,6 +183,7 @@ public class TosCardCreator {
         fillLinks(c, info);
         fillCardIds(c, info.data.subList(0, 10));
         fillHPValues(c, info.hpValues);
+        fillExpInfo(c, info.expInfos);
         fillCombination(c, info);
         fillEvolution(c, info);
     }
@@ -190,6 +192,13 @@ public class TosCardCreator {
         c.icon = info.icon;
         c.bigImage = info.bigImage;
         c.wikiLink = info.wikiLink;
+    }
+
+    private void fillExpInfo(TosCard c, List<String> list) {
+        String s = list.get(0);
+        c.expCurve = Integer.parseInt(s.substring(0, s.indexOf("萬")));
+        c.minExpSacrifice = Integer.parseInt(list.get(1));
+        c.perLvExpSacrifice = Integer.parseInt(list.get(2));
     }
 
     private void fillHPValues(TosCard c, List<String> list) {

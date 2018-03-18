@@ -86,6 +86,18 @@ public class TosCard {
     @SerializedName("minRecovery")
     public long minRecovery;
 
+    /** Experience curve, like 50 * k 萬, k = 1, 2, ..., 20 */
+    @SerializedName("expCurve")
+    public int expCurve;
+
+    /** Min exp when eaten by others, like 700 */
+    @SerializedName("minExpSacrifice")
+    public int minExpSacrifice;
+
+    /** Sacrifice exp raised per Lv, like 1000 */
+    @SerializedName("perLvExpSacrifice")
+    public int perLvExpSacrifice;
+
     //------------
     //---- Active Skill 1, 主動技能1
     //------------
