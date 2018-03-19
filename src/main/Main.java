@@ -45,10 +45,12 @@ public class Main {
     }
 
     private static void evalExpCurve() {
-        int expCurve = 150_0000;
-        int minScExp = 600;
-        int dExp = 1800;
+        // Parameters
+        int expCurve = 200_0000;
+        int minScExp = 25000;
+        int dExp = 150;
 
+        // Computations
         int max = 100;
         int[] accuExp = new int[max];
         int[] scfyExp = new int[max];

@@ -99,6 +99,24 @@ public class TosCard {
     public int perLvExpSacrifice;
 
     //------------
+    // Economics of Sacrifice of card, index of Happiness
+    // Marginal Utility, 邊際效用
+    // Total Utility, 總效用
+    //------------
+
+    /** Max marginal utility of card level,
+     * After level N, TU(N+1) - TU(N) < dExp = perLvExpSacrifice
+     * So gained Exp per level < need exp per level*/
+    @SerializedName("maxMUPerLevel")
+    public int maxMUPerLevel;
+
+    /** Max total utility of card level,
+     * After level N, ExpSacrifice(N) < ExpNeed(N),
+     * So gained Exp of level < need exp of level */
+    @SerializedName("maxTUAllLevel")
+    public int maxTUAllLevel;
+
+    //------------
     //---- Active Skill 1, 主動技能1
     //------------
 

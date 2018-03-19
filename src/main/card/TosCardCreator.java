@@ -1,8 +1,10 @@
 package main.card;
 
 import util.logging.Loggable;
+import util.tool.TicTac2;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
@@ -199,6 +201,45 @@ public class TosCardCreator {
         c.expCurve = Integer.parseInt(s.substring(0, s.indexOf("萬")));
         c.minExpSacrifice = Integer.parseInt(list.get(1));
         c.perLvExpSacrifice = Integer.parseInt(list.get(2));
+
+        int[] maxEco = getExpUtilityLevel(c);
+        c.maxMUPerLevel = maxEco[0];
+        c.maxTUAllLevel = maxEco[1];
+    }
+
+    private TicTac2 clock = new TicTac2();
+    private int[] accuExp = new int[100];
+    private int[] scfyExp = new int[100];
+
+    private int[] getExpUtilityLevel(TosCard c) {
+        // Parameters
+        int expCurve = c.expCurve * 10000;
+        int minExpSc = c.minExpSacrifice;
+        int dExp = c.perLvExpSacrifice;
+
+        // Computations initial
+        int max = c.LvMax + 1;
+        Arrays.fill(accuExp, 0);
+        Arrays.fill(scfyExp, 0);
+
+        int maxMu = -1;
+        int maxTu = -1;
+        double dx;
+        for (int i = 1; i < max; i++) {
+            dx = 1.0F * (i - 1) / 98;
+            accuExp[i] = (int) Math.ceil(expCurve * dx * dx);
+            scfyExp[i] = minExpSc + dExp * (i - 1);
+
+            if (accuExp[i] - accuExp[i - 1] <= dExp) {
+                maxMu = i;
+            }
+
+            if (accuExp[i] <= scfyExp[i]) {
+                maxTu = i;
+            }
+        }
+
+        return new int[]{maxMu, maxTu};
     }
 
     private void fillHPValues(TosCard c, List<String> list) {
