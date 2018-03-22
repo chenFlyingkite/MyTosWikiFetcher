@@ -3096,7 +3096,7 @@ Title = 香甜殺意 ‧ 諾亞 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0773 -> http://zh.tos.wikia.com/wiki/1624, (id = 250169, title = 1624, url = /wiki/1624, ns = 0)
-Title = 絲堤 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1720
+Title = 絲堤 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1692
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0774 -> http://zh.tos.wikia.com/wiki/1625, (id = 250170, title = 1625, url = /wiki/1625, ns = 0)
@@ -8827,7 +8827,7 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2246 exists key = 9015_世界的智慧 · 所羅門王
 ---------------------
 #2247 -> http://zh.tos.wikia.com/wiki/M2, (id = 205891, title = M2, url = /wiki/M2, ns = 0)
-Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6922
+Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6921
 ---------------------
 ---------------------
 ---------------------
