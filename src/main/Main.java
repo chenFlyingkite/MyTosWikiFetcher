@@ -1,7 +1,6 @@
 package main;
 
 import main.fetcher.TosWikiCardFetcher;
-import main.ptt.MobileComm;
 import org.jsoup.Connection.Response;
 import org.jsoup.Jsoup;
 import util.logging.L;
@@ -16,8 +15,8 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //TosWikiIconFetcher.me.run();
-        //TosWikiCardFetcher.me.run();
-        MobileComm.run();
+        TosWikiCardFetcher.me.run();
+        //MobileComm.run();
         //google();
         //print();
         //evalExpCurve();
