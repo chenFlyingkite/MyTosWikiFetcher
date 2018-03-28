@@ -34,6 +34,8 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
 
         ResultSet set = getApiResults();
         if (!hasResult(set)) return;
+        Lf.getFile().open();
+        Lf.setLogToL(true);
 
         Range rng = getRange(set, 0, 10);
 
@@ -44,7 +46,7 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
         for (int i = rng.min; i < rng.max; i++) {
             UnexpandedArticle a = set.getItems()[i];
             String link = set.getBasePath() + "" + a.getUrl();
-            L.log("#%s -> %s", i, link);
+            Lf.log("#%s -> %s", i, link);
 
             if (a.getNameSpace() == 6) {
                 tt.tic();
@@ -52,9 +54,10 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
                 downloadImage(info.getLink(), "myIcons", info.getName());
                 tt.tac("OK, %s", info.getName());
             } else {
-                L.log("Omit %s", link);
+                Lf.log("Omit %s", link);
             }
         }
+        Lf.getFile().close();
     }
 
     private IconInfo getIconInfo(String link) {

@@ -69,6 +69,8 @@ public class FileOutput {
     public FileOutput close() {
         flush();
         IOUtil.closeIt(fos, pw);
+        fos = null;
+        pw = null;
         return this;
     }
 

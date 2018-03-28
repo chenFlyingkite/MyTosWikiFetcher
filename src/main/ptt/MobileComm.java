@@ -16,7 +16,7 @@ public class MobileComm extends BasePPTFetcher {
     }
 
     public static void run() {
-        int startPage = 6000;
+        int startPage = 6040;
         int endPage = 6050;
         ttClient.setLog(false);
 

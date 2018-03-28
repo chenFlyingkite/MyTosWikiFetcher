@@ -1,3 +1,55 @@
 Linking http://towerofsaviors.wikia.com/api/v1/Articles/List?category=icons&limit=250000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://towerofsaviors.wikia.com/api/v1/Articles/List?category=icons&limit=250000}
-from gson, (50 items, basePath = http://towerofsaviors.wikia.com, offset = null)
+from gson, (51 items, basePath = http://towerofsaviors.wikia.com, offset = null)
+#0 -> http://towerofsaviors.wikia.com/wiki/Category:Skill_Icons
+Omit http://towerofsaviors.wikia.com/wiki/Category:Skill_Icons
+#1 -> http://towerofsaviors.wikia.com/wiki/File:BronzeCard.png
+#2 -> http://towerofsaviors.wikia.com/wiki/File:Coin.png
+#3 -> http://towerofsaviors.wikia.com/wiki/File:Coinchest.png
+#4 -> http://towerofsaviors.wikia.com/wiki/File:CopperCard.png
+#5 -> http://towerofsaviors.wikia.com/wiki/File:DisneyCard.png
+#6 -> http://towerofsaviors.wikia.com/wiki/File:Friendlist.png
+#7 -> http://towerofsaviors.wikia.com/wiki/File:GoldCard.png
+#8 -> http://towerofsaviors.wikia.com/wiki/File:InvBeast.png
+#9 -> http://towerofsaviors.wikia.com/wiki/File:InvDark.png
+#10 -> http://towerofsaviors.wikia.com/wiki/File:InvDragon.png
+#11 -> http://towerofsaviors.wikia.com/wiki/File:InvEarth.png
+#12 -> http://towerofsaviors.wikia.com/wiki/File:InvElf.png
+#13 -> http://towerofsaviors.wikia.com/wiki/File:InvEvolve.png
+#14 -> http://towerofsaviors.wikia.com/wiki/File:InvFiend.png
+#15 -> http://towerofsaviors.wikia.com/wiki/File:InvFire.png
+#16 -> http://towerofsaviors.wikia.com/wiki/File:InvGod.png
+#17 -> http://towerofsaviors.wikia.com/wiki/File:InvHuman.png
+#18 -> http://towerofsaviors.wikia.com/wiki/File:InvLevel.png
+#19 -> http://towerofsaviors.wikia.com/wiki/File:InvLight.png
+#20 -> http://towerofsaviors.wikia.com/wiki/File:InvMachina.png
+#21 -> http://towerofsaviors.wikia.com/wiki/File:InvWater.png
+#22 -> http://towerofsaviors.wikia.com/wiki/File:NielloCard.png
+#23 -> http://towerofsaviors.wikia.com/wiki/File:PlatinumCard.png
+#24 -> http://towerofsaviors.wikia.com/wiki/File:Refine1.png
+#25 -> http://towerofsaviors.wikia.com/wiki/File:Refine2.png
+#26 -> http://towerofsaviors.wikia.com/wiki/File:Refine3.png
+#27 -> http://towerofsaviors.wikia.com/wiki/File:Refine4.png
+#28 -> http://towerofsaviors.wikia.com/wiki/File:RoundLimit.png
+#29 -> http://towerofsaviors.wikia.com/wiki/File:RuneDark.png
+#30 -> http://towerofsaviors.wikia.com/wiki/File:RuneDarkNo.png
+#31 -> http://towerofsaviors.wikia.com/wiki/File:RuneEarth.png
+#32 -> http://towerofsaviors.wikia.com/wiki/File:RuneEarthNo.png
+#33 -> http://towerofsaviors.wikia.com/wiki/File:RuneFire.png
+#34 -> http://towerofsaviors.wikia.com/wiki/File:RuneFireNo.png
+#35 -> http://towerofsaviors.wikia.com/wiki/File:RuneHeart.png
+#36 -> http://towerofsaviors.wikia.com/wiki/File:RuneHeartNo.png
+#37 -> http://towerofsaviors.wikia.com/wiki/File:RuneLight.png
+#38 -> http://towerofsaviors.wikia.com/wiki/File:RuneLightNo.png
+#39 -> http://towerofsaviors.wikia.com/wiki/File:RuneWater.png
+#40 -> http://towerofsaviors.wikia.com/wiki/File:RuneWaterNo.png
+#41 -> http://towerofsaviors.wikia.com/wiki/File:SI016.png
+#42 -> http://towerofsaviors.wikia.com/wiki/File:SI017.png
+#43 -> http://towerofsaviors.wikia.com/wiki/File:SI018.png
+#44 -> http://towerofsaviors.wikia.com/wiki/File:SI019.png
+#45 -> http://towerofsaviors.wikia.com/wiki/File:SI020.png
+#46 -> http://towerofsaviors.wikia.com/wiki/File:SI279.png
+#47 -> http://towerofsaviors.wikia.com/wiki/File:SI281.png
+#48 -> http://towerofsaviors.wikia.com/wiki/File:SilverCard.png
+#49 -> http://towerofsaviors.wikia.com/wiki/File:TLimit.png
+#50 -> http://towerofsaviors.wikia.com/wiki/File:XuanCard.png
