@@ -9,7 +9,7 @@
 
 # Intellij
 #*.iml
-#.idea/*
+.idea/*
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/vcs.xml
@@ -30,5 +30,3 @@
 hs_err_pid*
 
 #ignore my file
-mydata/wikia
-mydata/wikia/*
