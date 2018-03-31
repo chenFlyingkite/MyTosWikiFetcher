@@ -154,6 +154,10 @@ public abstract class TosWikiBaseFetcher {
     protected final class ResultSet extends UnexpandedListArticleResultSet {
     }
 
+// Reference
+// http://towerofsaviors.wikia.com/wiki/User:JoetjeF
+// http://towerofsaviors.wikia.com/wiki/User:JoetjeF/Game_Data_Extraction
+
 // English Wiki
 // http://towerofsaviors.wikia.com/wiki/Tower_of_Saviors_Wiki
 
