@@ -25,6 +25,14 @@ class TosGet {
             return ""
         }
 
+        fun getHtml(element: Element): String {
+            return element?.html() ?: ""
+        }
+
+        fun getHtmlAt(index: Int, elements: Elements): String {
+            return elements?.get(index)?.html() ?: ""
+        }
+
         // Extract for TosCard
         // http://zh.tos.wikia.com/wiki/001
         fun getCardTds(element: Element): CardTds? {
