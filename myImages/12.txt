@@ -221,9 +221,9 @@ Title = 图像 - 11combo.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia
 #1273 = （536 × 453像素，文件大小：41 KB，MIME类型：image/jpeg）
 u = RavenXDove, => http://zh.tos.wikia.com/wiki/File:11combo.jpg
 #1274 Omit => http://zh.tos.wikia.com/wiki/File:12-_%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E6%93%8D%E7%B8%B1%E6%B3%95%E5%89%87%E7%9A%84%E9%AD%94%E7%8E%8B%E5%A4%A2%E9%AD%98%E7%B4%9A%E7%9B%B4%E6%92%AD
-#1275 Omit => http://zh.tos.wikia.com/wiki/File:12.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_39._%E5%8F%A4%E5%B8%8C%E8%87%989%E5%B0%81BGM.ogg
-#1276 Omit => http://zh.tos.wikia.com/wiki/File:12.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_40._%E5%8F%A4%E5%B8%8C%E8%87%989%E5%B0%81%E7%8E%8B%E9%97%9CBGM.ogg
-#1277 Omit => http://zh.tos.wikia.com/wiki/File:12.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_41._Daylight_Remix_BGM.ogg
+#1275 Omit Music => http://zh.tos.wikia.com/wiki/File:12.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_39._%E5%8F%A4%E5%B8%8C%E8%87%989%E5%B0%81BGM.ogg
+#1276 Omit Music => http://zh.tos.wikia.com/wiki/File:12.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_40._%E5%8F%A4%E5%B8%8C%E8%87%989%E5%B0%81%E7%8E%8B%E9%97%9CBGM.ogg
+#1277 Omit Music => http://zh.tos.wikia.com/wiki/File:12.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_41._Daylight_Remix_BGM.ogg
 Title = 图像 - 12.4 版本『墮天啟示錄』即將推出.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1416
 #1278 = （851 × 315像素，文件大小：190 KB，MIME类型：image/jpeg）
 u = Km14~, => http://zh.tos.wikia.com/wiki/File:12.4_%E7%89%88%E6%9C%AC%E3%80%8E%E5%A2%AE%E5%A4%A9%E5%95%9F%E7%A4%BA%E9%8C%84%E3%80%8F%E5%8D%B3%E5%B0%87%E6%8E%A8%E5%87%BA.jpg

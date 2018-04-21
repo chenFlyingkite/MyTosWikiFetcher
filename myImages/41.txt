@@ -107,19 +107,19 @@ u = Hoyin.ley, => http://zh.tos.wikia.com/wiki/File:6d69ee70.jpg
 #4138 Omit => http://zh.tos.wikia.com/wiki/File:7.0_%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94Tower_of_Saviors_(%E6%BD%9B%E8%83%BD%E5%95%9F%E5%B0%81_%E2%80%A7_%E4%B8%8B-%E9%87%8B%E6%94%BE%E6%BD%9B%E8%83%BD%E4%B9%8B%E7%A7%98)_%E7%A5%9E%E7%A3%A8%E9%9A%8A_%E6%93%8A%E6%AE%BA_%E8%B6%8A%E6%88%B0%E8%B6%8A%E5%BC%B7!!!!!-1407592065
 #4139 Omit => http://zh.tos.wikia.com/wiki/File:7.0_%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94Tower_of_Saviors_(%E6%BD%9B%E8%83%BD%E5%95%9F%E5%B0%81_%E2%80%A7_%E4%B8%8B-%E9%87%8B%E6%94%BE%E6%BD%9B%E8%83%BD%E4%B9%8B%E7%A7%98)_%E7%A5%9E%E7%A3%A8%E9%9A%8A_%E6%93%8A%E6%AE%BA_%E8%B6%8A%E6%88%B0%E8%B6%8A%E5%BC%B7!!!!!-2
 #4140 Omit => http://zh.tos.wikia.com/wiki/File:7.0_%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94Tower_of_Saviors_(%E6%BD%9B%E8%83%BD%E5%95%9F%E5%B0%81_%E2%80%A7_%E4%B8%8B-%E9%87%8B%E6%94%BE%E6%BD%9B%E8%83%BD%E4%B9%8B%E7%A7%98)_%E7%A5%9E%E7%A3%A8%E9%9A%8A_%E6%93%8A%E6%AE%BA_%E8%B6%8A%E6%88%B0%E8%B6%8A%E5%BC%B7!!!!!-3
-#4141 Omit => http://zh.tos.wikia.com/wiki/File:7.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_19.Strains_of_Glory.ogg
-#4142 Omit => http://zh.tos.wikia.com/wiki/File:7.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_20.BIGBANG_Conjurers.ogg
+#4141 Omit Music => http://zh.tos.wikia.com/wiki/File:7.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_19.Strains_of_Glory.ogg
+#4142 Omit Music => http://zh.tos.wikia.com/wiki/File:7.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_20.BIGBANG_Conjurers.ogg
 Title = 图像 - 7.1.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1413
 #4143 = （130 × 130像素，文件大小：22 KB，MIME类型：image/png）
 u = Roman80010, => http://zh.tos.wikia.com/wiki/File:7.1.png
 Title = 图像 - 神魔之塔 7.1 版本「眾競力戰的舞台」慶祝活動.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1450
 #4144 = （1,700 × 965像素，文件大小：174 KB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:7.1_%E7%89%88%E6%9C%AC%E7%8F%BE%E5%B7%B2%E6%8E%A8%E5%87%BA.jpg
-#4145 Omit => http://zh.tos.wikia.com/wiki/File:7.2%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_21.Rise_of_the_Core.ogg
-#4146 Omit => http://zh.tos.wikia.com/wiki/File:7.2%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_22.Fort_Stirling.ogg
-#4147 Omit => http://zh.tos.wikia.com/wiki/File:7.3%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_19.1_Strains_of_Glory.ogg
-#4148 Omit => http://zh.tos.wikia.com/wiki/File:7.3%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_23.Legacy_of_Glory1.ogg
-#4149 Omit => http://zh.tos.wikia.com/wiki/File:7.3%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_24.Legacy_of_Glory2.ogg
+#4145 Omit Music => http://zh.tos.wikia.com/wiki/File:7.2%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_21.Rise_of_the_Core.ogg
+#4146 Omit Music => http://zh.tos.wikia.com/wiki/File:7.2%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_22.Fort_Stirling.ogg
+#4147 Omit Music => http://zh.tos.wikia.com/wiki/File:7.3%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_19.1_Strains_of_Glory.ogg
+#4148 Omit Music => http://zh.tos.wikia.com/wiki/File:7.3%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_23.Legacy_of_Glory1.ogg
+#4149 Omit Music => http://zh.tos.wikia.com/wiki/File:7.3%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_saviors_BGM_24.Legacy_of_Glory2.ogg
 Title = 图像 - 7.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1442
 #4150 = （567 × 967像素，文件大小：81 KB，MIME类型：image/jpeg）
 u = JackySun, => http://zh.tos.wikia.com/wiki/File:7.jpg

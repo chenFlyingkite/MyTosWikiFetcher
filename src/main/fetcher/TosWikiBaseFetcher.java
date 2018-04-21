@@ -6,6 +6,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import util.data.Range;
 import util.logging.LF;
 import util.tool.IOUtil;
@@ -15,19 +17,30 @@ import wikia.articles.UnexpandedListArticleResultSet;
 
 import java.io.*;
 import java.net.URL;
+import java.sql.ResultSet;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
-public abstract class TosWikiBaseFetcher {
+public class TosWikiBaseFetcher {
+    public static final String zhApi1 = "http://zh.tos.wikia.com/api/v1";
+    public static final String enApi1 = "http://towerofsaviors.wikia.com/api/v1";
 
     protected boolean mFetchAll = false;
     protected TicTac2 clock = new TicTac2();
 
-    protected Gson mGson
-            = new GsonBuilder().setPrettyPrinting().create();
+    protected Gson mGson = new GsonBuilder().setPrettyPrinting().create();
     //= new Gson();
 
-    public abstract String getAPILink();
+    protected ExecutorService executors = Executors.newCachedThreadPool();
+    //= new ThreadPoolExecutor(0, Integer.MAX_VALUE, 30L, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
 
-    public abstract LF getHttpLF();
+    public String getAPILink() {
+        return "";
+    }
+
+    public LF getHttpLF() {
+        return null;
+    }
 
     public void onNewCallStart() {}
     public void onNewCallEnded() {}
@@ -41,6 +54,8 @@ public abstract class TosWikiBaseFetcher {
     }
 
     public ResultSet getApiResults(final String apiLink, final LF apiLf) {
+        if (apiLf == null || TextUtil.isEmpty(apiLink)) return null;
+
         // Delete the logging file
         apiLf.getFile().delete().open();
         apiLf.setLogToL(!mFetchAll);
@@ -148,6 +163,26 @@ public abstract class TosWikiBaseFetcher {
             sb.append(newC);
         }
         return sb.toString();
+    }
+
+
+    public Document getDocument(String link) {
+        return getDocument(link, false);
+    }
+
+    public Document getDocument(String link, boolean logTime) {
+        // Step 1: Get the xml node from link by Jsoup
+        Document doc = null;
+        TicTac2 ts = new TicTac2();
+        ts.setLog(logTime);
+        ts.tic();
+        try {
+            doc = Jsoup.connect(link).get();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        ts.tac("JSoup OK " + link);
+        return doc;
     }
 
     // class abbreviation

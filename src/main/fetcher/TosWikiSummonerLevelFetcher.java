@@ -2,20 +2,17 @@ package main.fetcher;
 
 import main.card.TableInfo;
 import main.card.TosGet;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import util.logging.LF;
-import util.tool.TicTac2;
 
-import java.io.IOException;
 import java.util.List;
 
-public class TosWikiSummonerLevelFetcher implements Runnable {
+public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher implements Runnable {
     private TosWikiSummonerLevelFetcher() {}
     public static final TosWikiSummonerLevelFetcher me = new TosWikiSummonerLevelFetcher();
 
-    private static final String tosApi = "http://towerofsaviors.wikia.com/wiki/Summoner_Levels";
+    private static final String enTosPage = "http://towerofsaviors.wikia.com/wiki/Summoner_Levels";
     private static final LF mLf = new LF("mySummonerLevel");
 
     @Override
@@ -83,25 +80,8 @@ public class TosWikiSummonerLevelFetcher implements Runnable {
         lf.getFile().close();
     }
 
-    private Document getDocument(String link) {
-        final boolean logTime = false;
-
-        // Step 1: Get the xml node from link by Jsoup
-        Document doc = null;
-        TicTac2 ts = new TicTac2();
-        ts.setLog(logTime);
-        ts.tic();
-        try {
-            doc = Jsoup.connect(link).get();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        ts.tac("JSoup OK " + link);
-        return doc;
-    }
-
     private TableInfo getTable() {
-        Document doc = getDocument(tosApi);
+        Document doc = getDocument(enTosPage);
         if (doc == null) return null;
 
         Elements tables = doc.getElementsByClass("wikitable");

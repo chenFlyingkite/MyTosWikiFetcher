@@ -51,9 +51,9 @@ u = Joeywong84, => http://zh.tos.wikia.com/wiki/File:!cid_8E2D4E37-0306-4A51-81E
 #44 Omit => http://zh.tos.wikia.com/wiki/File:(%E7%9B%B4%E6%92%AD)_%E9%9B%99%E5%85%89%E9%81%8A%E4%B8%89%E5%B7%AB_%E5%BF%AB%E3%80%82%E7%A9%A9%E3%80%82%E6%BA%96%E3%80%8E%E9%81%A0%E6%B4%8B%E7%9A%84%E8%A8%AA%E5%AE%A2_%E2%80%A7_%E6%9C%A8_Extra%E3%80%8F-_GP_%E5%B1%8E%E8%90%8A%E5%A7%86
 #45 Omit => http://zh.tos.wikia.com/wiki/File:(%E8%80%80%E4%B9%8B%E8%99%95%E5%A5%B3%E5%AE%AE_-_%E8%B1%90%E7%9B%88%E7%9A%84%E5%B0%91%E5%A5%B3)_%E8%B6%85%E7%B4%9AExtra_%E5%85%89%E9%98%B2_%E8%A7%A3%E6%94%BE%E4%BC%8A%E7%99%BB
 #46 Omit => http://zh.tos.wikia.com/wiki/File:***********************%E6%BD%9B%E8%97%8F%E7%9A%84%E9%9D%88%E5%8A%9B-%E5%B9%B3%E6%B0%91%E6%A0%B9%E6%80%A7%E9%9A%8A_0%E7%9F%B3%E9%80%9A%E9%97%9C*****************************
-#47 Omit => http://zh.tos.wikia.com/wiki/File:----Tower_of_saviors_BGM_01.ogg
-#48 Omit => http://zh.tos.wikia.com/wiki/File:----Tower_of_saviors_BGM_04.ogg
-#49 Omit => http://zh.tos.wikia.com/wiki/File:----Tower_of_saviors_BGM_06.ogg
+#47 Omit Music => http://zh.tos.wikia.com/wiki/File:----Tower_of_saviors_BGM_01.ogg
+#48 Omit Music => http://zh.tos.wikia.com/wiki/File:----Tower_of_saviors_BGM_04.ogg
+#49 Omit Music => http://zh.tos.wikia.com/wiki/File:----Tower_of_saviors_BGM_06.ogg
 Title = 图像 - -1002i.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1469
 #50 = （128 × 128像素，文件大小：18 KB，MIME类型：image/png）
 u = Ken2812221, => http://zh.tos.wikia.com/wiki/File:-1002i.png

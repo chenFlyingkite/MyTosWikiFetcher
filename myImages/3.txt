@@ -100,8 +100,8 @@ Title = 图像 - 1.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Chil
 #334 = （1,450 × 1,280像素，文件大小：2.64 MB，MIME类型：image/png）
 u = 荒謬大師, => http://zh.tos.wikia.com/wiki/File:1.png
 #335 Omit => http://zh.tos.wikia.com/wiki/File:10-_%E5%85%83%E7%B4%A0%E6%B5%81%E5%90%91%E7%9A%84%E5%B0%8E%E5%BC%95%E5%9C%B0%E7%8D%84%E7%B4%9A%E7%9B%B4%E6%92%AD_-_%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94
-#336 Omit => http://zh.tos.wikia.com/wiki/File:10.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_35._%E5%8C%97%E6%AD%90%E9%97%9C%E5%8D%A1_BGM.ogg
-#337 Omit => http://zh.tos.wikia.com/wiki/File:10.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_36._%E5%8C%97%E6%AD%90%E9%97%9C%E5%8D%A1BOSS_BGM.ogg
+#336 Omit Music => http://zh.tos.wikia.com/wiki/File:10.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_35._%E5%8C%97%E6%AD%90%E9%97%9C%E5%8D%A1_BGM.ogg
+#337 Omit Music => http://zh.tos.wikia.com/wiki/File:10.0%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E9%9F%B3%E6%A8%82Tower_of_Saviors_BGM_36._%E5%8C%97%E6%AD%90%E9%97%9C%E5%8D%A1BOSS_BGM.ogg
 #338 Omit => http://zh.tos.wikia.com/wiki/File:10.1%E6%94%B9%E7%89%88%E5%BE%8C%E9%8C%84%E5%BD%B1-%E6%A5%8A%E6%88%A9%E8%A7%A3%E6%94%BE
 Title = 图像 - 10.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1436
 #339 = （720 × 1,280像素，文件大小：151 KB，MIME类型：image/jpeg）

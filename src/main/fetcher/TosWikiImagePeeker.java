@@ -1,31 +1,28 @@
 package main.fetcher;
 
 import main.card.TosGet;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import util.data.Range;
 import util.logging.L;
 import util.logging.LF;
 import util.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
-import java.io.IOException;
 import java.util.*;
-import java.util.concurrent.*;
 
 public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
     private TosWikiImagePeeker() {}
     public static final TosWikiImagePeeker me = new TosWikiImagePeeker();
-    private final boolean zh = false;
+
+    private final boolean zh = true;
     private final String folder = zh ? "myImages" : "myImagesEng";
     private final LF Lf = new LF(folder);
-    private final String tosApi =
-            (zh ? "http://zh.tos.wikia.com/api/v1"
-                : "http://towerofsaviors.wikia.com/api/v1")
+    private final String tosApi = (zh ? zhApi1 : enApi1)
             + "/Articles/List?namespaces=6&limit=2500000";
     //private final String tosBase = "http://zh.tos.wikia.com/wiki/Special:%E5%9B%BE%E7%89%87";
+
+    private List<Map<String, List<String>>> imageMaps = Collections.synchronizedList(new ArrayList<>());
+    private List<String> musicLinks = Collections.synchronizedList(new ArrayList<>());
 
     @Override
     public String getAPILink() {
@@ -37,11 +34,6 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
         return Lf;
     }
 
-    private int from = 0; // #131
-    private int prefetch = 5;
-
-    private List<Map<String, List<String>>> maps = Collections.synchronizedList(new ArrayList<>());
-
     @Override
     public void run() {
         // Parameters setting
@@ -52,34 +44,42 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
 
         int size = set.getItems().length;
 
-        Range rng = getRange(set, from, prefetch);
-
-        TicTac2 tt = new TicTac2();
+        TicTac2 tt = clock;
 
         // This takes about 1 min 46 s
         int q = 100; // Each file chunk size
         int n = (int) Math.ceil(1.0 / q * size);
         L.log("set = %s, n = %s", size, n);
         for (int i = 0; i < n; i++) {
-            executors.submit(runGetLog(i, set, q * i, q * (i + 1)));
+            executors.submit(runGetImageInfo(i, set, q * i, q * (i + 1)));
         }
         Lf.getFile().open();
         Lf.setLogToL(true);
         tt.tic();
-        int z = 0;
-        while (maps.size() < n) {
+        int z = 1;
+        final String[] pgs = {".", ".", ".", ".", ".", "-" ,".", ".", ".", ".", "="};
+        while (imageMaps.size() < n) {
             try {
                 Thread.sleep(2000);
-                L.log("z %s", z);
-                z++;
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
+            // Print progress
+            String s;
+            if (z % 10 == 0) {
+                s = "" + z / 10 % 10;
+            } else {
+                s = pgs[z % 10];
+            }
+            L.getImpl().print(s);
+            z++;
         }
-        tt.tac("mapsizeOK");
+        L.log("");
+        tt.tac("imageMaps OK");
         Lf.setLogToL(false);
         Map<String, List<String>> all = new HashMap<>();
-        for (Map<String, List<String>> map : maps) {
+        for (Map<String, List<String>> map : imageMaps) {
             for (String s : map.keySet()) {
                 List<String> userList = all.getOrDefault(s, new ArrayList<>());
                 userList.addAll(map.get(s));
@@ -87,12 +87,8 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
             }
         }
         Lf.log("----- Users -----");
-        List<String> allK = new ArrayList<>();
 
-        Set<String> keys = all.keySet();
-        for (String s : keys) {
-            allK.add(s);
-        }
+        List<String> allK = new ArrayList<>(all.keySet());
         Collections.sort(allK, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
@@ -119,50 +115,7 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
             Collections.sort(allImages);
             executors.submit(runToFile(allK.get(i), allImages));
         }
-
-        /*
-        // Open logging files
-        Lf.getFile().open();
-        Lf.setLogToL(!mFetchAll);
-        //Lfc.getFile().delete().open();
-        //Lfc.setLogToL(false);
-        Map<String, Integer> user = new HashMap<>();
-        int ok = 0;
-        for (int i = rng.min; i < rng.max; i++) {
-            UnexpandedArticle a = set.getItems()[i];
-            String link = set.getBasePath() + "" + a.getUrl();
-            if (link.contains(".png") || link.contains(".jpg")) {
-                ImageInfo img = getImageInfo(link);
-                Lf.log("#%s = %s", i, img.html);
-                Lf.log("u = %s, => %s", img.user, link);
-                int cnt = user.getOrDefault(img.user, 0);
-                cnt++;
-                user.put(img.user, cnt);
-                ok++;
-            } else {
-                Lf.log("#%s Omit => %s", i, link);
-            }
-        }
-
-        Lf.setLogToL(true);
-
-        Lf.log("---  OK = %s  ---", ok);
-        Lf.log("----- Users -----");
-        Set<String> keys = user.keySet();
-        for (String s : keys) {
-            Lf.log(" %s => %s");
-        }
-        Lf.log("----- Users =====");
-
-        //Lf.log("sizes are %s", itemsN);
-        //Lf.log("%s cards", cards.size());
-        //Lf.log("%s cards not duplicate", cardsNoDup.size());
-        Lf.getFile().close();
-        */
     }
-
-    ExecutorService executors = Executors.newCachedThreadPool();
-            //new ThreadPoolExecutor(0, Integer.MAX_VALUE, 30L, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
 
     private Runnable runToFile(String name, List<String> list) {
         return () -> {
@@ -177,21 +130,23 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
         };
     }
 
-    private Runnable runGetLog(int tid, ResultSet set, int from, int end) {
+    private Runnable runGetImageInfo(int tid, ResultSet set, int from, int end) {
         return () -> {
             LF lf = new LF(folder, tid + ".txt");
             // Open logging files
             lf.getFile().open(false);
             lf.setLogToL(!mFetchAll);
-            //Lfc.getFile().delete().open();
-            //Lfc.setLogToL(false);
+
             Map<String, List<String>> user = new HashMap<>();
             int ok = 0;
             int endd = Math.min(end, set.getItems().length);
             for (int i = from; i < endd; i++) {
                 UnexpandedArticle a = set.getItems()[i];
                 String link = set.getBasePath() + "" + a.getUrl();
-                if (link.contains(".png") || link.contains(".jpg")) {
+                String lnk = link;//.toLowerCase();
+                boolean isImage = lnk.contains(".png") || lnk.contains(".jpg");
+                boolean isMusic = lnk.contains(".ogg");
+                if (isImage) {
                     ImageInfo img = getImageInfo(link, lf);
                     lf.log("#%s = %s", i, img.html);
                     lf.log("u = %s, => %s", img.user, link);
@@ -199,11 +154,14 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
                     userLink.add(link);
                     user.put(img.user, userLink);
                     ok++;
+                } else if (isMusic) {
+                    musicLinks.add(link);
+                    lf.log("#%s Omit Music => %s", i, link);
+                    //L.log("#%s Omit Music => %s", i, link);
                 } else {
                     lf.log("#%s Omit => %s", i, link);
                 }
             }
-
 
             lf.log("---  OK = %s  ---", ok);
             lf.log("----- Users -----");
@@ -213,26 +171,17 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
             }
             lf.log("----- Users =====");
             lf.getFile().close();
-            maps.add(user);
+            imageMaps.add(user);
         };
     }
 
     private ImageInfo getImageInfo(String link, LF logf) {
-        final boolean logTime = false;
         ImageInfo info = new ImageInfo();
 
         // Step 1: Get the xml node from link by Jsoup
-        Document doc = null;
-        TicTac2 ts = new TicTac2();
-        ts.setLog(logTime);
-        ts.tic();
-        try {
-            doc = Jsoup.connect(link).get();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        ts.tac("JSoup OK " + link);
+        Document doc = getDocument(link);
         if (doc == null) return info;
+
         // Step 2: Find the <center> nodes
         logf.log("Title = %s, Children = %s", doc.title(), doc.getAllElements().size());
         Elements fileInfo = doc.getElementsByClass("fileInfo");

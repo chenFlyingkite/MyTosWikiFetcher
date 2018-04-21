@@ -1,10 +1,10 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?namespaces=6&limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?namespaces=6&limit=2500000}
-from gson, (20064 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (20074 items, basePath = http://zh.tos.wikia.com, offset = null)
 ----- Users -----
 Btoky => 2814
 Hugochau => 1653
-Wingwing007 => 1173
+Wingwing007 => 1174
 Towerofsaviors => 781
 Imnoob92 => 164
 Wallance1992 => 131
@@ -25,7 +25,7 @@ LawLaw => 49
 Goggles930 => 48
 荒謬大師 => 45
 Lokkan ho => 44
-元元 => 41
+元元 => 42
 Cswu => 40
 右邊 => 40
 蘿蔔十公分 => 40
@@ -174,6 +174,7 @@ Achia3388 => 8
 Allen94179 => 8
 Aquilacswong => 8
 Avx96986 => 8
+BrockF5 => 8
 Enrique99 => 8
 HivoltLin => 8
 Inin001 => 8
@@ -201,7 +202,6 @@ Yugioh0716 => 8
 Angjinhang => 7
 Animal8434 => 7
 Box2486842 => 7
-BrockF5 => 7
 Chunkiat55 => 7
 Feng720807 => 7
 Findrice => 7

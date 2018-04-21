@@ -2,7 +2,6 @@ package main.card
 
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
-import java.awt.SystemColor.info
 
 class TosGet {
     companion object me {
@@ -39,7 +38,7 @@ class TosGet {
             val no = index >= elements.size
             if (no) return info
 
-            val element = elements.get(index)
+            val element = elements[index]
             val ths = element.getElementsByTag("th");
             ths.forEachIndexed { i, ele -> run {
                 info.headers.add(ele.text())
