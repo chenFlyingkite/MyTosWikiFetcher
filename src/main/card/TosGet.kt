@@ -2,6 +2,7 @@ package main.card
 
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
+import java.awt.SystemColor.info
 
 class TosGet {
     companion object me {
@@ -31,6 +32,24 @@ class TosGet {
 
         fun getHtmlAt(index: Int, elements: Elements): String {
             return elements?.get(index)?.html() ?: ""
+        }
+
+        fun getSummonerTable(index: Int, elements: Elements): TableInfo {
+            val info = TableInfo()
+            val no = index >= elements.size
+            if (no) return info
+
+            val element = elements.get(index)
+            val ths = element.getElementsByTag("th");
+            ths.forEachIndexed { i, ele -> run {
+                info.headers.add(ele.text())
+            }}
+
+            val tds = element.getElementsByTag("td");
+            tds.forEachIndexed { i, ele -> run {
+                info.cells.add(ele.text())
+            }}
+            return info;
         }
 
         // Extract for TosCard
@@ -148,6 +167,11 @@ class IconInfo {
 class CardTds {
     val Tds: MutableList<String> = ArrayList()
     val Evolutions: MutableList<String> = ArrayList()
+}
+
+class TableInfo {
+    val headers: ArrayList<String> = ArrayList()
+    val cells: ArrayList<String> = ArrayList()
 }
 //
 //fun TosGet.getImage(element: Element) :String {

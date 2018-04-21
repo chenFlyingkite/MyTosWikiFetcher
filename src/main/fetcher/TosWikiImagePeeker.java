@@ -13,15 +13,19 @@ import wikia.articles.UnexpandedArticle;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
     private TosWikiImagePeeker() {}
     public static final TosWikiImagePeeker me = new TosWikiImagePeeker();
-    private final LF Lf = new LF("myImages");
-    private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?namespaces=6&limit=2500000";
-    private final String tosBase = "http://zh.tos.wikia.com/wiki/Special:%E5%9B%BE%E7%89%87";
+    private final boolean zh = false;
+    private final String folder = zh ? "myImages" : "myImagesEng";
+    private final LF Lf = new LF(folder);
+    private final String tosApi =
+            (zh ? "http://zh.tos.wikia.com/api/v1"
+                : "http://towerofsaviors.wikia.com/api/v1")
+            + "/Articles/List?namespaces=6&limit=2500000";
+    //private final String tosBase = "http://zh.tos.wikia.com/wiki/Special:%E5%9B%BE%E7%89%87";
 
     @Override
     public String getAPILink() {
@@ -94,7 +98,11 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
             public int compare(String o1, String o2) {
                 int n1 = all.get(o1).size();
                 int n2 = all.get(o2).size();
-                return Integer.compare(n2, n1);
+                if (n1 == n2) {
+                    return o1.compareTo(o2);
+                } else {
+                    return Integer.compare(n2, n1);
+                }
             }
         });
         for (String s : allK) {
@@ -107,7 +115,9 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
         // But image link duplicates?
         for (int i = 0; i < 4; i++) {
             String k = allK.get(i);
-            executors.submit(runToFile(allK.get(i), all.get(k)));
+            List<String> allImages = all.get(k);
+            Collections.sort(allImages);
+            executors.submit(runToFile(allK.get(i), allImages));
         }
 
         /*
@@ -152,12 +162,13 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
     }
 
     ExecutorService executors = Executors.newCachedThreadPool();
+            //new ThreadPoolExecutor(0, Integer.MAX_VALUE, 30L, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
 
     private Runnable runToFile(String name, List<String> list) {
         return () -> {
-            LF lf = new LF("myImages", name + ".txt");
+            LF lf = new LF(folder, name + ".txt");
             // Open logging files
-            lf.getFile().open();
+            lf.getFile().open(false);
             lf.setLogToL(!mFetchAll);
             for (String s : list) {
                 lf.log(s);
@@ -168,9 +179,9 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
 
     private Runnable runGetLog(int tid, ResultSet set, int from, int end) {
         return () -> {
-            LF lf = new LF("myImages", tid + ".txt");
+            LF lf = new LF(folder, tid + ".txt");
             // Open logging files
-            lf.getFile().open();
+            lf.getFile().open(false);
             lf.setLogToL(!mFetchAll);
             //Lfc.getFile().delete().open();
             //Lfc.setLogToL(false);

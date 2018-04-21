@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000}
-from gson, (12288 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (12290 items, basePath = http://zh.tos.wikia.com, offset = null)
 #0000 -> http://zh.tos.wikia.com/wiki/001, (id = 116891, title = 001, url = /wiki/001, ns = 0)
 Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
 anchors => [10, 53, 61, -1, -1, 64, -1, -1, -1, 65] => 61
@@ -626,7 +626,7 @@ Title = 黑巫術之疚惡 ‧ 喀耳刻 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0157 -> http://zh.tos.wikia.com/wiki/1049, (id = 213455, title = 1049, url = /wiki/1049, ns = 0)
-Title = 古樹神母 ‧ 希栢利 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2067
+Title = 古樹神母 ‧ 希栢利 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2071
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0158 -> http://zh.tos.wikia.com/wiki/105, (id = 117114, title = 105, url = /wiki/105, ns = 0)
@@ -1143,7 +1143,7 @@ Title = 正義的酷刑 ‧ 假面判官 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0286 -> http://zh.tos.wikia.com/wiki/1165, (id = 229148, title = 1165, url = /wiki/1165, ns = 0)
-Title = 陰陽搜靈 ‧ 黑白無常 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2044
+Title = 陰陽搜靈 ‧ 黑白無常 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2048
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0287 -> http://zh.tos.wikia.com/wiki/1166, (id = 227047, title = 1166, url = /wiki/1166, ns = 0)
@@ -3533,7 +3533,7 @@ Title = 魅惑他心 ‧ 白面狐狸 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0882 -> http://zh.tos.wikia.com/wiki/1711, (id = 252575, title = 1711, url = /wiki/1711, ns = 0)
-Title = 磷火奪嬰 ‧ 姑獲鳥 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2102
+Title = 磷火奪嬰 ‧ 姑獲鳥 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2112
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0883 -> http://zh.tos.wikia.com/wiki/1712, (id = 253190, title = 1712, url = /wiki/1712, ns = 0)
@@ -3573,7 +3573,7 @@ Title = 不可能性現翼 ‧ 莫比烏斯 | Tower of Saviors 維基 | FANDOM p
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0892 -> http://zh.tos.wikia.com/wiki/1727, (id = 254132, title = 1727, url = /wiki/1727, ns = 0)
-Title = 想心之戀鎖 ‧ 摩斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1671
+Title = 想心之戀鎖 ‧ 摩斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1715
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0893 -> http://zh.tos.wikia.com/wiki/1728, (id = 254133, title = 1728, url = /wiki/1728, ns = 0)
@@ -3613,11 +3613,11 @@ Title = 秘術的果實 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 59] => 59
 ---------------------
 #0902 -> http://zh.tos.wikia.com/wiki/1737, (id = 254473, title = 1737, url = /wiki/1737, ns = 0)
-Title = 炎影的征討者 ‧ 織田信長 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2049
+Title = 炎影的征討者 ‧ 織田信長 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2050
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0903 -> http://zh.tos.wikia.com/wiki/1738, (id = 254141, title = 1738, url = /wiki/1738, ns = 0)
-Title = 勝臨之機銳槍 ‧ 岡尼爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1707
+Title = 勝臨之機銳槍 ‧ 岡尼爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1711
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0904 -> http://zh.tos.wikia.com/wiki/174, (id = 117304, title = 174, url = /wiki/174, ns = 0)
@@ -5696,7 +5696,7 @@ Title = Terry(造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Child
 Title = Terence(造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1668
 ---------------------
 #1421 -> http://zh.tos.wikia.com/wiki/6026, (id = 224479, title = 6026, url = /wiki/6026, ns = 0)
-Title = 浴血戰王 ‧ 吉爾伽美什 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2085
+Title = 浴血戰王 ‧ 吉爾伽美什 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2089
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1422 -> http://zh.tos.wikia.com/wiki/6027, (id = 228728, title = 6027, url = /wiki/6027, ns = 0)
@@ -6211,11 +6211,11 @@ Title = 魅惑他心 ‧ 白面狐狸(動態造型) | Tower of Saviors 維基 | 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1550 -> http://zh.tos.wikia.com/wiki/616, (id = 172682, title = 616, url = /wiki/616, ns = 0)
-Title = 龍傲影控師 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2061
+Title = 龍傲影控師 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2065
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1551 -> http://zh.tos.wikia.com/wiki/6160, (id = 252587, title = 6160, url = /wiki/6160, ns = 0)
-Title = 磷火奪嬰 ‧ 姑獲鳥(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2098
+Title = 磷火奪嬰 ‧ 姑獲鳥(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2108
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1552 -> http://zh.tos.wikia.com/wiki/6161, (id = 254144, title = 6161, url = /wiki/6161, ns = 0)
@@ -6241,7 +6241,7 @@ Title = 人面雛鳥 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1558 -> http://zh.tos.wikia.com/wiki/6174, (id = 254492, title = 6174, url = /wiki/6174, ns = 0)
-Title = 蓮池正旦 ‧ 泰芙努特(造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1803
+Title = 蓮池正旦 ‧ 泰芙努特(造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1831
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, 71, 72] => 71
 ---------------------
 #1559 -> http://zh.tos.wikia.com/wiki/6175, (id = 254493, title = 6175, url = /wiki/6175, ns = 0)
@@ -6997,11 +6997,11 @@ Title = 軒轅遺民 ‧ 司空宇 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1743 -> http://zh.tos.wikia.com/wiki/768, (id = 180275, title = 768, url = /wiki/768, ns = 0)
-Title = 遺恨忠烈 ‧ 魔化陳輔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2057
+Title = 遺恨忠烈 ‧ 魔化陳輔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2061
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1744 -> http://zh.tos.wikia.com/wiki/769, (id = 180274, title = 769, url = /wiki/769, ns = 0)
-Title = 魯班一脈 ‧ 黃雷 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2044
+Title = 魯班一脈 ‧ 黃雷 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2048
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1745 -> http://zh.tos.wikia.com/wiki/77, (id = 2239, title = 77, url = /wiki/77, ns = 0)
@@ -7542,7 +7542,7 @@ Title = 神帝史特萊克 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1877 -> http://zh.tos.wikia.com/wiki/848, (id = 199068, title = 848, url = /wiki/848, ns = 0)
-Title = 黃泉津大神 伊邪那美 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2108
+Title = 黃泉津大神 伊邪那美 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2112
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1878 -> http://zh.tos.wikia.com/wiki/849, (id = 195180, title = 849, url = /wiki/849, ns = 0)
@@ -8996,7 +8996,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2296 exists key = 0684_G-Dragon
 ---------------------
 #2297 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1792
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1793
 ---------------------
 #2298 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2016
@@ -9005,7 +9005,7 @@ Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wik
 Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1361
 ---------------------
 #2300 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1790
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 ---------------------
 #2301 -> http://zh.tos.wikia.com/wiki/M01, (id = 140251, title = M01, url = /wiki/M01, ns = 0)
 Title = 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
@@ -9083,13 +9083,13 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2315 exists key = 9015_世界的智慧 · 所羅門王
 ---------------------
 #2316 -> http://zh.tos.wikia.com/wiki/M2, (id = 205891, title = M2, url = /wiki/M2, ns = 0)
-Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6939
+Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6940
 ---------------------
 ---------------------
 ---------------------
 ---------------------
 #2320 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
-Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2624
+Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2625
 ---------------------
 #2321 -> http://zh.tos.wikia.com/wiki/P5, (id = 216666, title = P5, url = /wiki/P5, ns = 0)
 Title = 阿修羅王 ‧ 羅侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
@@ -9381,6 +9381,8 @@ anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 Title = 大壞蛋彼德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2036
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2386 exists key = 8045_大壞蛋彼德
+---------------------
+---------------------
 ---------------------
 ---------------------
 ---------------------
