@@ -131,7 +131,7 @@ public class TosWikiBaseFetcher {
         InputStream fin = null;
         OutputStream fout = null;
         name = toValidIconName(name);
-        String ok = name;
+
         try {
             URL url = new URL(link);
             File image = new File(folder, name);
@@ -150,19 +150,25 @@ public class TosWikiBaseFetcher {
             }
         } catch (IOException e) {
             e.printStackTrace();
-            ok = "X_X Failed";
-            L.log("%s = %s", ok, link);
+            L.log("X_X Failed = %s", link);
+            return null;
         } finally {
             IOUtil.closeIt(fin, fout);
         }
 
-        return ok;
+        return name;
     }
 
     protected String toValidIconName(String oldName) {
         if (oldName == null) return null;
 
         char[] cs = oldName.toCharArray();
+        // Fix .EXT to .ext
+        int dot = oldName.lastIndexOf('.');
+        for (int i = dot + 1; i < cs.length; i++) {
+            cs[i] = Character.toLowerCase(cs[i]);
+        }
+
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < cs.length; i++) {
             char c = cs[i];

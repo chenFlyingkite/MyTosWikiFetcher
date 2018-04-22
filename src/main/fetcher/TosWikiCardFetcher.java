@@ -47,6 +47,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     private boolean runChecker = false;
 
     public void run() {
+        // About 5 min 36 sec
         // Parameters setting
         mFetchAll = true;
 
@@ -239,7 +240,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     private Set<Integer> itemsN = new HashSet<>();
 
     private CardInfo getCardInfo(String link) {
-        final boolean logTime = false;
         CardInfo info = new CardInfo();
 
         // Step 1: Get the xml node from link by Jsoup

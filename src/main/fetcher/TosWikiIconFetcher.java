@@ -12,7 +12,7 @@ import wikia.articles.UnexpandedArticle;
 
 import java.io.IOException;
 
-public class TosWikiIconFetcher extends TosWikiBaseFetcher {
+public class TosWikiIconFetcher extends TosWikiBaseFetcher implements Runnable {
     private TosWikiIconFetcher() {}
     public static final TosWikiIconFetcher me = new TosWikiIconFetcher();
 
@@ -29,7 +29,9 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
         return Lf;
     }
 
+    @Override
     public void run() {
+        // It is about 18 sec
         mFetchAll = true;
 
         ResultSet set = getApiResults();

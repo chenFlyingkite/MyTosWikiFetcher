@@ -12,9 +12,9 @@ public class Main {
         TicTac.tic();
         //TosWikiIconFetcher.me.run();
         //TosWikiCardFetcher.me.run();
-        //TosWikiImagePeeker.me.run();
+        TosWikiImagePeeker.me.run();
         //TosWikiSummonerLevelFetcher.me.run();
-        TosWikiImageFileFetcher.me.run();
+        //TosWikiImageFileFetcher.me.run();
         //MobileComm.run();
         //ASD.run();
         TicTac.tac("Main ended");

@@ -1,238 +1,241 @@
-#14800 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C%E8%87%98%E6%89%93%E4%BC%8A%E9%83%A8%E9%9B%99%E6%88%90%E5%B0%B1
-#14801 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C%E9%9A%8A%E4%BB%A5%E5%8A%9B%E7%A0%B4%E7%8D%85%E5%AD%90%E5%AE%AEEXTRA_-%E3%80%8E%E5%A0%85%E9%9F%8C%E7%9A%84%E5%B7%A8%E7%8D%85%E3%80%8F-_GP_Sunny
-#14802 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C%E9%9A%8A%E5%8A%9B%E5%A3%93%E9%9B%99%E5%AD%90%E5%AE%AEEXTRA_-_GP_Sunny
+Title = 图像 - 火妹.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1417
+#14800 = （270 × 480像素，文件大小：180 KB，MIME类型：image/png）
+u = Unknownratio, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%A6%B9.png
+Title = 图像 - 火屬性i.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1503
+#14801 = （64 × 64像素，文件大小：34 KB，MIME类型：image/png）
+u = Hugochau, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B1%AC%E6%80%A7i.png
+Title = 图像 - 火希.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1433
+#14802 = （640 × 1,136像素，文件大小：325 KB，MIME类型：image/jpeg）
+u = A504072201, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C.jpg
+#14803 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C%E6%89%93%E5%AE%99%E6%96%AF%E5%A4%A2%E9%AD%98_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_%E5%A4%A2%E9%AD%98%E7%B4%9A
+#14804 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C%E8%87%98%E6%89%93%E4%BC%8A%E9%83%A8%E9%9B%99%E6%88%90%E5%B0%B1
+#14805 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C%E9%9A%8A%E4%BB%A5%E5%8A%9B%E7%A0%B4%E7%8D%85%E5%AD%90%E5%AE%AEEXTRA_-%E3%80%8E%E5%A0%85%E9%9F%8C%E7%9A%84%E5%B7%A8%E7%8D%85%E3%80%8F-_GP_Sunny
+#14806 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C%E9%9A%8A%E5%8A%9B%E5%A3%93%E9%9B%99%E5%AD%90%E5%AE%AEEXTRA_-_GP_Sunny
 Title = 图像 - 火恐龍.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1417
-#14803 = （119 × 134像素，文件大小：20 KB，MIME类型：image/png）
+#14807 = （119 × 134像素，文件大小：20 KB，MIME类型：image/png）
 u = Jackibnb, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%81%90%E9%BE%8D.png
-#14804 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%A9%9F%E5%81%B6_%E6%89%93_%E5%AD%B8%E8%80%85%E7%9A%84%E6%8E%A2%E6%B1%82%E4%B9%8B%E5%BF%83EXTRA
-#14805 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%A9%9F%E5%81%B6%E5%A4%A5%E4%BC%B4Extra_%E8%B6%85%E7%B4%9A%E3%80%90%E7%81%AB%E5%B8%8C%E9%9A%8A%E4%B8%80%E6%AC%A1%E5%AE%8C%E6%88%902%E9%A0%85%E6%88%90%E5%B0%B1%E3%80%91
-#14806 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%A9%9F%E5%81%B6%E5%A4%A5%E4%BC%B4extra_%E8%B6%85%E7%B4%9A%E3%80%90%E6%B0%B4%E5%B8%8C%E9%9A%8A%E5%AE%8C%E6%88%9010%E5%9B%9E%E5%90%88%E9%80%9A%E9%97%9C%E6%88%90%E5%B0%B1%E3%80%91
+#14808 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%A9%9F%E5%81%B6_%E6%89%93_%E5%AD%B8%E8%80%85%E7%9A%84%E6%8E%A2%E6%B1%82%E4%B9%8B%E5%BF%83EXTRA
+#14809 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%A9%9F%E5%81%B6%E5%A4%A5%E4%BC%B4Extra_%E8%B6%85%E7%B4%9A%E3%80%90%E7%81%AB%E5%B8%8C%E9%9A%8A%E4%B8%80%E6%AC%A1%E5%AE%8C%E6%88%902%E9%A0%85%E6%88%90%E5%B0%B1%E3%80%91
+#14810 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%A9%9F%E5%81%B6%E5%A4%A5%E4%BC%B4extra_%E8%B6%85%E7%B4%9A%E3%80%90%E6%B0%B4%E5%B8%8C%E9%9A%8A%E5%AE%8C%E6%88%9010%E5%9B%9E%E5%90%88%E9%80%9A%E9%97%9C%E6%88%90%E5%B0%B1%E3%80%91
 Title = 图像 - 火游侠.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1433
-#14807 = （355 × 632像素，文件大小：305 KB，MIME类型：image/png）
+#14811 = （355 × 632像素，文件大小：305 KB，MIME类型：image/png）
 u = Lu3ky4l3af, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E6%B8%B8%E4%BE%A0.png
 Title = 图像 - 火狂火北隊.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14808 = （720 × 1,280像素，文件大小：112 KB，MIME类型：image/jpeg）
+#14812 = （720 × 1,280像素，文件大小：112 KB，MIME类型：image/jpeg）
 u = 秋楓佾舞, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E7%81%AB%E5%8C%97%E9%9A%8A.jpg
-#14809 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94_%E4%B8%83%E5%B0%81%E5%85%89%E5%A1%941%7E3_-_GP_%E9%AD%82%E5%82%B7%E3%80%91
-#14810 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94_%E4%B8%83%E5%B0%81%E6%9A%97%E5%A1%941%7E3_GP_%E9%AD%82%E5%82%B7%E3%80%91
-#14811 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94_%E4%B8%83%E5%B0%81%E7%81%AB%E5%A1%941%7E3_-_GP_%E9%AD%82%E5%82%B7
-#14812 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94%E9%9A%8A%E6%8C%91%E6%88%B0%E7%A7%98%E8%B3%A2%E8%BC%AA%E8%BF%B4(42-50)
+#14813 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94_%E4%B8%83%E5%B0%81%E5%85%89%E5%A1%941%7E3_-_GP_%E9%AD%82%E5%82%B7%E3%80%91
+#14814 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94_%E4%B8%83%E5%B0%81%E6%9A%97%E5%A1%941%7E3_GP_%E9%AD%82%E5%82%B7%E3%80%91
+#14815 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94_%E4%B8%83%E5%B0%81%E7%81%AB%E5%A1%941%7E3_-_GP_%E9%AD%82%E5%82%B7
+#14816 Omit => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E9%AD%94%E9%9A%8A%E6%8C%91%E6%88%B0%E7%A7%98%E8%B3%A2%E8%BC%AA%E8%BF%B4(42-50)
 Title = 图像 - 火狐截圖 2015-06-16T11-47-53.177Z.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1400
-#14813 = （275 × 452像素，文件大小：332 KB，MIME类型：image/png）
+#14817 = （275 × 452像素，文件大小：332 KB，MIME类型：image/png）
 u = Gcobc27746, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%90%E6%88%AA%E5%9C%96_2015-06-16T11-47-53.177Z.png
 Title = 图像 - 火狐截圖 2015-06-16T11-49-30.088Z.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1400
-#14814 = （272 × 457像素，文件大小：322 KB，MIME类型：image/png）
+#14818 = （272 × 457像素，文件大小：322 KB，MIME类型：image/png）
 u = Gcobc27746, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%90%E6%88%AA%E5%9C%96_2015-06-16T11-49-30.088Z.png
 Title = 图像 - 火队.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1480
-#14815 = （720 × 950像素，文件大小：363 KB，MIME类型：image/jpeg）
+#14819 = （720 × 950像素，文件大小：363 KB，MIME类型：image/jpeg）
 u = William Chong96, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%98%9F.jpg
 Title = 图像 - 火防 光.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1413
-#14816 = （390 × 309像素，文件大小：294 KB，MIME类型：image/png）
+#14820 = （390 × 309像素，文件大小：294 KB，MIME类型：image/png）
 u = Hgyhung, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%98%B2_%E5%85%89.png
 Title = 图像 - 火防 暗.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1413
-#14817 = （383 × 231像素，文件大小：215 KB，MIME类型：image/png）
+#14821 = （383 × 231像素，文件大小：215 KB，MIME类型：image/png）
 u = Hgyhung, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%98%B2_%E6%9A%97.png
 Title = 图像 - 火防 木.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1413
-#14818 = （392 × 310像素，文件大小：290 KB，MIME类型：image/png）
+#14822 = （392 × 310像素，文件大小：290 KB，MIME类型：image/png）
 u = Hgyhung, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%98%B2_%E6%9C%A8.png
 Title = 图像 - 火防 水.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1413
-#14819 = （389 × 309像素，文件大小：294 KB，MIME类型：image/png）
+#14823 = （389 × 309像素，文件大小：294 KB，MIME类型：image/png）
 u = Hgyhung, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%98%B2_%E6%B0%B4.png
 Title = 图像 - 火防 火.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1413
-#14820 = （389 × 235像素，文件大小：219 KB，MIME类型：image/png）
+#14824 = （389 × 235像素，文件大小：219 KB，MIME类型：image/png）
 u = Hgyhung, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%98%B2_%E7%81%AB.png
 Title = 图像 - 火靈魂賜福.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1430
-#14821 = （960 × 544像素，文件大小：69 KB，MIME类型：image/jpeg）
+#14825 = （960 × 544像素，文件大小：69 KB，MIME类型：image/jpeg）
 u = Hugochau, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%9D%88%E9%AD%82%E8%B3%9C%E7%A6%8F.jpg
 Title = 图像 - 火鴨.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14822 = （700 × 394像素，文件大小：385 KB，MIME类型：image/png）
+#14826 = （700 × 394像素，文件大小：385 KB，MIME类型：image/png）
 u = Wind422, => http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%B4%A8.png
 Title = 图像 - 為公會而戰.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14823 = （851 × 315像素，文件大小：274 KB，MIME类型：image/jpeg）
+#14827 = （851 × 315像素，文件大小：274 KB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E5%85%AC%E6%9C%83%E8%80%8C%E6%88%B0.jpg
 Title = 图像 - 為愛魔怔的天才.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1432
-#14824 = （1,700 × 965像素，文件大小：251 KB，MIME类型：image/jpeg）
+#14828 = （1,700 × 965像素，文件大小：251 KB，MIME类型：image/jpeg）
 u = Tommyng1101, => http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%84%9B%E9%AD%94%E6%80%94%E7%9A%84%E5%A4%A9%E6%89%8D.jpg
 Title = 图像 - 為故鄉的奮戰.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1434
-#14825 = （1,200 × 627像素，文件大小：790 KB，MIME类型：image/jpeg）
+#14829 = （1,200 × 627像素，文件大小：790 KB，MIME类型：image/jpeg）
 u = Btoky, => http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%95%85%E9%84%89%E7%9A%84%E5%A5%AE%E6%88%B0.jpg
-#14826 Omit => http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%95%85%E9%84%89%E7%9A%84%E5%A5%AE%E6%88%B0%E2%80%94%E9%85%92%E5%90%9E%E5%85%AB%E5%B0%81%E6%94%9C%E6%89%8B%E5%96%AE%E6%88%90%E5%B0%B1_%EF%BD%9C%E7%8E%8B%E9%97%9C%E7%A3%A8%E7%A3%A8%E7%A3%A8
-#14827 Omit => http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%95%85%E9%84%89%E7%9A%84%E5%A5%AE%E6%88%B0%E6%9C%A8%E9%BE%8D%E7%8D%B8%E9%9A%8A%E9%9B%99%E6%88%90%E5%B0%B1
+#14830 Omit => http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%95%85%E9%84%89%E7%9A%84%E5%A5%AE%E6%88%B0%E2%80%94%E9%85%92%E5%90%9E%E5%85%AB%E5%B0%81%E6%94%9C%E6%89%8B%E5%96%AE%E6%88%90%E5%B0%B1_%EF%BD%9C%E7%8E%8B%E9%97%9C%E7%A3%A8%E7%A3%A8%E7%A3%A8
+#14831 Omit => http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%95%85%E9%84%89%E7%9A%84%E5%A5%AE%E6%88%B0%E6%9C%A8%E9%BE%8D%E7%8D%B8%E9%9A%8A%E9%9B%99%E6%88%90%E5%B0%B1
 Title = 图像 - 烏特博麗.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1433
-#14828 = （592 × 899像素，文件大小：622 KB，MIME类型：image/png）
+#14832 = （592 × 899像素，文件大小：622 KB，MIME类型：image/png）
 u = Grunwald Lonsbrough, => http://zh.tos.wikia.com/wiki/File:%E7%83%8F%E7%89%B9%E5%8D%9A%E9%BA%97.png
 Title = 图像 - 烏蘇拉.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1400
-#14829 = （309 × 309像素，文件大小：59 KB，MIME类型：image/jpeg）
+#14833 = （309 × 309像素，文件大小：59 KB，MIME类型：image/jpeg）
 u = 喜多部木, => http://zh.tos.wikia.com/wiki/File:%E7%83%8F%E8%98%87%E6%8B%89.jpg
 Title = 图像 - 焚風自鳴琴.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1432
-#14830 = （1,700 × 965像素，文件大小：180 KB，MIME类型：image/jpeg）
+#14834 = （1,700 × 965像素，文件大小：180 KB，MIME类型：image/jpeg）
 u = Btoky, => http://zh.tos.wikia.com/wiki/File:%E7%84%9A%E9%A2%A8%E8%87%AA%E9%B3%B4%E7%90%B4.jpg
-#14831 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B4%E3%80%91(%E5%A3%93%E8%A1%80%E5%A6%B2%E5%B7%B1%E9%9A%8A)
-#14832 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B4%E3%80%91(%E5%A3%93%E8%A1%80%E5%A6%B2%E5%B7%B1%E9%9A%8A)-0
-#14833 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C
-#14834 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-0
-#14835 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-1
-#14836 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-2
-#14837 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-3
+#14835 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B4%E3%80%91(%E5%A3%93%E8%A1%80%E5%A6%B2%E5%B7%B1%E9%9A%8A)
+#14836 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B4%E3%80%91(%E5%A3%93%E8%A1%80%E5%A6%B2%E5%B7%B1%E9%9A%8A)-0
+#14837 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C
+#14838 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-0
+#14839 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-1
+#14840 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-2
+#14841 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_-_%E7%A5%9E%E7%95%8C%E7%9A%84%E9%9C%B8%E4%B8%BB_-_%E5%9C%B0%E7%8D%84%E7%B4%9A%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%91(%E6%9A%97%E9%9A%8A)1%E7%9F%B3%E9%80%9A%E9%97%9C-3
 Title = 图像 - 無名的熊孩子.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1434
-#14838 = （1,200 × 627像素，文件大小：694 KB，MIME类型：image/jpeg）
+#14842 = （1,200 × 627像素，文件大小：694 KB，MIME类型：image/jpeg）
 u = Hugochau, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90.jpg
-#14839 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90%E2%94%82%E5%85%AB%E5%B0%81%E7%8E%8B%E9%AD%94%E6%97%8F%E5%96%AE%E6%88%90%E5%B0%B1%E2%94%82%E6%89%93%E9%86%AC%E6%B2%B9_%E9%BE%8D%E5%88%BB%E6%95%91%E4%BA%86%E6%88%91
-#14840 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90%E2%94%82%E5%BE%B7%E9%AD%AF%E4%BC%8A%E9%9B%9C%E8%89%B2%E7%8D%B8%E9%9A%8A%E5%96%AE%E6%88%90%E5%B0%B1%E2%94%82%E5%A4%9A%E5%A4%9A%E6%89%93%E9%86%AC%E6%B2%B9
-#14841 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90%E2%94%82%E9%82%A3%E5%B2%90%E6%9C%A8%E5%B1%AC%E5%96%AE%E6%88%90%E5%B0%B1%E2%94%82%E7%8E%84%E6%AD%A6%E4%B8%8D%E6%9C%83%E6%89%93%E9%86%AC%E6%B2%B9%E2%94%82%E5%B0%8F%E5%BF%83%E8%A2%AB%E6%9C%A8%E5%B7%AB%E9%99%B0
-#14842 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E3%80%90%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B448_-_50%E3%80%91(%E6%9A%97%E9%9A%8A)
-#14843 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E3%80%90%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B448_-_50%E3%80%91(%E6%9A%97%E9%9A%8A)-0
+#14843 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90%E2%94%82%E5%85%AB%E5%B0%81%E7%8E%8B%E9%AD%94%E6%97%8F%E5%96%AE%E6%88%90%E5%B0%B1%E2%94%82%E6%89%93%E9%86%AC%E6%B2%B9_%E9%BE%8D%E5%88%BB%E6%95%91%E4%BA%86%E6%88%91
+#14844 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90%E2%94%82%E5%BE%B7%E9%AD%AF%E4%BC%8A%E9%9B%9C%E8%89%B2%E7%8D%B8%E9%9A%8A%E5%96%AE%E6%88%90%E5%B0%B1%E2%94%82%E5%A4%9A%E5%A4%9A%E6%89%93%E9%86%AC%E6%B2%B9
+#14845 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90%E2%94%82%E9%82%A3%E5%B2%90%E6%9C%A8%E5%B1%AC%E5%96%AE%E6%88%90%E5%B0%B1%E2%94%82%E7%8E%84%E6%AD%A6%E4%B8%8D%E6%9C%83%E6%89%93%E9%86%AC%E6%B2%B9%E2%94%82%E5%B0%8F%E5%BF%83%E8%A2%AB%E6%9C%A8%E5%B7%AB%E9%99%B0
+#14846 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E3%80%90%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B448_-_50%E3%80%91(%E6%9A%97%E9%9A%8A)
+#14847 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E3%80%90%E5%AF%86%E8%B3%A2%E8%BC%AA%E8%BF%B448_-_50%E3%80%91(%E6%9A%97%E9%9A%8A)-0
 Title = 图像 - 無影屠殺的危機.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1472
-#14844 = （1,700 × 965像素，文件大小：1,022 KB，MIME类型：image/jpeg）
+#14848 = （1,700 × 965像素，文件大小：1,022 KB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%BD%B1%E5%B1%A0%E6%AE%BA%E7%9A%84%E5%8D%B1%E6%A9%9F.jpg
 Title = 图像 - 無懼冰龍1.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1419
-#14845 = （355 × 602像素，文件大小：92 KB，MIME类型：image/jpeg）
+#14849 = （355 × 602像素，文件大小：92 KB，MIME类型：image/jpeg）
 u = Kuogunyu, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%87%BC%E5%86%B0%E9%BE%8D1.jpg
 Title = 图像 - 無懼冰龍2.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1419
-#14846 = （362 × 600像素，文件大小：93 KB，MIME类型：image/jpeg）
+#14850 = （362 × 600像素，文件大小：93 KB，MIME类型：image/jpeg）
 u = Kuogunyu, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%87%BC%E5%86%B0%E9%BE%8D2.jpg
 Title = 图像 - 無懼史王.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1419
-#14847 = （359 × 599像素，文件大小：96 KB，MIME类型：image/jpeg）
+#14851 = （359 × 599像素，文件大小：96 KB，MIME类型：image/jpeg）
 u = Kuogunyu, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%87%BC%E5%8F%B2%E7%8E%8B.jpg
 Title = 图像 - 無標題-1.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1444
-#14848 = （890 × 1,229像素，文件大小：200 KB，MIME类型：image/jpeg）
+#14852 = （890 × 1,229像素，文件大小：200 KB，MIME类型：image/jpeg）
 u = HSNU99435, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%A8%99%E9%A1%8C-1.jpg
 Title = 图像 - 無法觸摸的冷豔.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1434
-#14849 = （1,200 × 627像素，文件大小：694 KB，MIME类型：image/jpeg）
+#14853 = （1,200 × 627像素，文件大小：694 KB，MIME类型：image/jpeg）
 u = 568736, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94.jpg
-#14850 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94%E2%94%80%E7%B0%A1%E5%96%AE%E4%B8%89%E8%97%8F%E9%9A%8A17%E5%9B%9E%E5%90%88%E5%85%89%E5%B1%AC%E5%96%AE%E6%88%90%E5%B0%B1
-#14851 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94%E2%94%80%E9%97%9C%E7%BE%BD%E9%9A%8A%E4%BA%BA%E9%A1%9E%E9%9B%99%E5%B1%AC%E9%9B%99%E6%88%90%E5%B0%B1
-#14852 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94%E2%94%80%E9%A0%81%E9%87%B5%E9%9A%8A%E4%BA%BA%E9%A1%9E%E9%9B%99%E5%B1%AC%E9%9B%99%E6%88%90%E5%B0%B1
+#14854 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94%E2%94%80%E7%B0%A1%E5%96%AE%E4%B8%89%E8%97%8F%E9%9A%8A17%E5%9B%9E%E5%90%88%E5%85%89%E5%B1%AC%E5%96%AE%E6%88%90%E5%B0%B1
+#14855 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94%E2%94%80%E9%97%9C%E7%BE%BD%E9%9A%8A%E4%BA%BA%E9%A1%9E%E9%9B%99%E5%B1%AC%E9%9B%99%E6%88%90%E5%B0%B1
+#14856 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94%E2%94%80%E9%A0%81%E9%87%B5%E9%9A%8A%E4%BA%BA%E9%A1%9E%E9%9B%99%E5%B1%AC%E9%9B%99%E6%88%90%E5%B0%B1
 Title = 图像 - 無物可撼動.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1434
-#14853 = （1,200 × 628像素，文件大小：678 KB，MIME类型：image/jpeg）
+#14857 = （1,200 × 628像素，文件大小：678 KB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%89%A9%E5%8F%AF%E6%92%BC%E5%8B%95.jpg
 Title = 图像 - 無盡的修羅場.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1458
-#14854 = （1,200 × 628像素，文件大小：619 KB，MIME类型：image/jpeg）
+#14858 = （1,200 × 628像素，文件大小：619 KB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%9B%A1%E7%9A%84%E4%BF%AE%E7%BE%85%E5%A0%B4.jpg
 Title = 图像 - 無盡的妒意.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1480
-#14855 = （1,700 × 965像素，文件大小：1.01 MB，MIME类型：image/jpeg）
+#14859 = （1,700 × 965像素，文件大小：1.01 MB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%9B%A1%E7%9A%84%E5%A6%92%E6%84%8F.jpg
 Title = 图像 - 無盡的破壞.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1434
-#14856 = （1,200 × 627像素，文件大小：787 KB，MIME类型：image/jpeg）
+#14860 = （1,200 × 627像素，文件大小：787 KB，MIME类型：image/jpeg）
 u = 瘋頭の家族, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%9B%A1%E7%9A%84%E7%A0%B4%E5%A3%9E.jpg
 Title = 图像 - 無窮食慾的原罪.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1461
-#14857 = （1,200 × 628像素，文件大小：806 KB，MIME类型：image/jpeg）
+#14861 = （1,200 × 628像素，文件大小：806 KB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%AA%AE%E9%A3%9F%E6%85%BE%E7%9A%84%E5%8E%9F%E7%BD%AA.jpg
 Title = 图像 - 無義1.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1433
-#14858 = （359 × 640像素，文件大小：495 KB，MIME类型：image/png）
+#14862 = （359 × 640像素，文件大小：495 KB，MIME类型：image/png）
 u = Orangesoda0000, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A91.png
 Title = 图像 - 無義2.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1433
-#14859 = （359 × 641像素，文件大小：451 KB，MIME类型：image/png）
+#14863 = （359 × 641像素，文件大小：451 KB，MIME类型：image/png）
 u = Orangesoda0000, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A92.png
 Title = 图像 - 無義之路.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14860 = （960 × 544像素，文件大小：59 KB，MIME类型：image/jpeg）
+#14864 = （960 × 544像素，文件大小：59 KB，MIME类型：image/jpeg）
 u = Hugochau, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF.jpg
-#14861 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF_VS_%E7%A5%9E%E7%A3%A8%E9%9A%8A%E8%BC%95%E9%AC%86%E9%81%8E
+#14865 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF_VS_%E7%A5%9E%E7%A3%A8%E9%9A%8A%E8%BC%95%E9%AC%86%E9%81%8E
 Title = 图像 - 無義之路組隊.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14862 = （944 × 593像素，文件大小：121 KB，MIME类型：image/jpeg）
+#14866 = （944 × 593像素，文件大小：121 KB，MIME类型：image/jpeg）
 u = Rrlrlmrlmi, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF%E7%B5%84%E9%9A%8A.jpg
 Title = 图像 - 無義之路通關.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1433
-#14863 = （361 × 641像素，文件大小：473 KB，MIME类型：image/png）
+#14867 = （361 × 641像素，文件大小：473 KB，MIME类型：image/png）
 u = Garyjark7615, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF%E9%80%9A%E9%97%9C.png
 Title = 图像 - 無義尾王.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1418
-#14864 = （640 × 960像素，文件大小：772 KB，MIME类型：image/png）
+#14868 = （640 × 960像素，文件大小：772 KB，MIME类型：image/png）
 u = Lad1024, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E5%B0%BE%E7%8E%8B.png
 Title = 图像 - 無貌之神的契約.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1430
-#14865 = （540 × 960像素，文件大小：99 KB，MIME类型：image/jpeg）
+#14869 = （540 × 960像素，文件大小：99 KB，MIME类型：image/jpeg）
 u = 未聞花名, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E5%A5%91%E7%B4%84.jpg
 Title = 图像 - 無貌之神的誓約.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1451
-#14866 = （1,700 × 965像素，文件大小：260 KB，MIME类型：image/jpeg）
+#14870 = （1,700 × 965像素，文件大小：260 KB，MIME类型：image/jpeg）
 u = Hugochau, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84.jpg
-#14867 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_-_%E5%B9%B3%E6%B0%91%E7%A3%A8%E9%9A%8A
-#14868 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_%E5%9C%B0%E7%8D%84%E7%B4%9A_0%E7%9F%B3%E9%80%9A%E9%97%9C
-#14869 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_%E5%9C%B0%E7%8D%84%E7%B4%9A_100%25_0%E7%9F%B3%E9%80%9A%E9%97%9C_%E5%B9%B3%E6%B0%91%E9%9A%8A_%E8%BC%95%E9%AC%86%E5%BF%AB%E7%A3%A8
-#14870 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_%E6%9C%A8%E9%98%B2%E9%BE%8D%E4%BC%8A%E7%99%BB_%E5%B9%B3%E6%B0%91%E9%9A%8A0%E7%9F%B3%E9%80%9A%E9%97%9C
+#14871 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_-_%E5%B9%B3%E6%B0%91%E7%A3%A8%E9%9A%8A
+#14872 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_%E5%9C%B0%E7%8D%84%E7%B4%9A_0%E7%9F%B3%E9%80%9A%E9%97%9C
+#14873 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_%E5%9C%B0%E7%8D%84%E7%B4%9A_100%25_0%E7%9F%B3%E9%80%9A%E9%97%9C_%E5%B9%B3%E6%B0%91%E9%9A%8A_%E8%BC%95%E9%AC%86%E5%BF%AB%E7%A3%A8
+#14874 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84_%E6%9C%A8%E9%98%B2%E9%BE%8D%E4%BC%8A%E7%99%BB_%E5%B9%B3%E6%B0%91%E9%9A%8A0%E7%9F%B3%E9%80%9A%E9%97%9C
 Title = 图像 - 無限輪迴.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1439
-#14871 = （1,200 × 455像素，文件大小：321 KB，MIME类型：image/jpeg）
+#14875 = （1,200 × 455像素，文件大小：321 KB，MIME类型：image/jpeg）
 u = Wingwing007, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BC%AA%E8%BF%B4.jpg
-#14872 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BC%AA%E8%BF%B4_R10%E5%85%89%E5%8C%97%E6%AD%90_%E6%B1%82%E8%A1%80%E9%87%8F%E4%BC%B0%E7%AE%97
+#14876 Omit => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BC%AA%E8%BF%B4_R10%E5%85%89%E5%8C%97%E6%AD%90_%E6%B1%82%E8%A1%80%E9%87%8F%E4%BC%B0%E7%AE%97
 Title = 图像 - 無限迴廊i.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1462
-#14873 = （230 × 64像素，文件大小：77 KB，MIME类型：image/png）
+#14877 = （230 × 64像素，文件大小：77 KB，MIME类型：image/png）
 u = Hugochau, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BF%B4%E5%BB%8Ai.png
 Title = 图像 - 無限迴廊p.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1437
-#14874 = （225 × 90像素，文件大小：98 KB，MIME类型：image/png）
+#14878 = （225 × 90像素，文件大小：98 KB，MIME类型：image/png）
 u = Hugochau, => http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BF%B4%E5%BB%8Ap.png
 Title = 图像 - 煉獄.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1421
-#14875 = （685 × 542像素，文件大小：118 KB，MIME类型：image/jpeg）
+#14879 = （685 × 542像素，文件大小：118 KB，MIME类型：image/jpeg）
 u = Rickyxp, => http://zh.tos.wikia.com/wiki/File:%E7%85%89%E7%8D%84.jpg
-#14876 Omit => http://zh.tos.wikia.com/wiki/File:%E7%85%89%E7%8D%84%E7%9A%84%E7%81%AB_-_%E6%9C%AC%E6%80%A7%E8%88%87%E6%85%BE%E6%9C%9B%E7%9A%84%E9%AC%A5%E7%88%AD_-_%E8%B6%85%E7%B4%9A_-_%E9%AD%94%E5%B0%8A
+#14880 Omit => http://zh.tos.wikia.com/wiki/File:%E7%85%89%E7%8D%84%E7%9A%84%E7%81%AB_-_%E6%9C%AC%E6%80%A7%E8%88%87%E6%85%BE%E6%9C%9B%E7%9A%84%E9%AC%A5%E7%88%AD_-_%E8%B6%85%E7%B4%9A_-_%E9%AD%94%E5%B0%8A
 Title = 图像 - 煙幕後的妖鏡.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1450
-#14877 = （1,200 × 627像素，文件大小：598 KB，MIME类型：image/jpeg）
+#14881 = （1,200 × 627像素，文件大小：598 KB，MIME类型：image/jpeg）
 u = 568736, => http://zh.tos.wikia.com/wiki/File:%E7%85%99%E5%B9%95%E5%BE%8C%E7%9A%84%E5%A6%96%E9%8F%A1.jpg
 Title = 图像 - 照片.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1456
-#14878 = （640 × 1,136像素，文件大小：250 KB，MIME类型：image/jpeg）
+#14882 = （640 × 1,136像素，文件大小：250 KB，MIME类型：image/jpeg）
 u = LawLaw, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87.jpg
 Title = 图像 - 照片.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14879 = （768 × 1,024像素，文件大小：1.21 MB，MIME类型：image/png）
+#14883 = （768 × 1,024像素，文件大小：1.21 MB，MIME类型：image/png）
 u = Unknow168, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87.png
 Title = 图像 - 照片1.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1418
-#14880 = （640 × 960像素，文件大小：768 KB，MIME类型：image/png）
+#14884 = （640 × 960像素，文件大小：768 KB，MIME类型：image/png）
 u = Yiyeung, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%871.png
 Title = 图像 - 照片111.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1417
-#14881 = （631 × 342像素，文件大小：113 KB，MIME类型：image/jpeg）
+#14885 = （631 × 342像素，文件大小：113 KB，MIME类型：image/jpeg）
 u = Vincent-Hus, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87111.jpg
 Title = 图像 - 照片111.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1418
-#14882 = （640 × 960像素，文件大小：771 KB，MIME类型：image/png）
+#14886 = （640 × 960像素，文件大小：771 KB，MIME类型：image/png）
 u = Cnonehk, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87111.png
 Title = 图像 - 照片2.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1401
-#14883 = （640 × 960像素，文件大小：665 KB，MIME类型：image/png）
+#14887 = （640 × 960像素，文件大小：665 KB，MIME类型：image/png）
 u = Yiyeung, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%872.png
 Title = 图像 - 照片3.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1418
-#14884 = （640 × 960像素，文件大小：551 KB，MIME类型：image/png）
+#14888 = （640 × 960像素，文件大小：551 KB，MIME类型：image/png）
 u = Yiyeung, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%873.png
 Title = 图像 - 照片5.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14885 = （640 × 1,136像素，文件大小：872 KB，MIME类型：image/png）
+#14889 = （640 × 1,136像素，文件大小：872 KB，MIME类型：image/png）
 u = Yahoomember, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%875.png
 Title = 图像 - 照片 001.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14886 = （768 × 1,024像素，文件大小：765 KB，MIME类型：image/png）
+#14890 = （768 × 1,024像素，文件大小：765 KB，MIME类型：image/png）
 u = Unknow168, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_001.png
 Title = 图像 - 照片 002.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14887 = （768 × 1,024像素，文件大小：1.19 MB，MIME类型：image/png）
+#14891 = （768 × 1,024像素，文件大小：1.19 MB，MIME类型：image/png）
 u = Unknow168, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_002.png
 Title = 图像 - 照片 003.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14888 = （768 × 1,024像素，文件大小：785 KB，MIME类型：image/png）
+#14892 = （768 × 1,024像素，文件大小：785 KB，MIME类型：image/png）
 u = Unknow168, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_003.png
 Title = 图像 - 照片 006.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1418
-#14889 = （640 × 960像素，文件大小：752 KB，MIME类型：image/png）
+#14893 = （640 × 960像素，文件大小：752 KB，MIME类型：image/png）
 u = Unknow168, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_006.png
 Title = 图像 - 照片 1.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1456
-#14890 = （768 × 1,024像素，文件大小：321 KB，MIME类型：image/jpeg）
+#14894 = （768 × 1,024像素，文件大小：321 KB，MIME类型：image/jpeg）
 u = LawLaw, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_1.jpg
 Title = 图像 - 照片 1.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1444
-#14891 = （640 × 1,136像素，文件大小：863 KB，MIME类型：image/png）
+#14895 = （640 × 1,136像素，文件大小：863 KB，MIME类型：image/png）
 u = Winsonsingsing, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_1.png
 Title = 图像 - 照片 1432.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1418
-#14892 = （640 × 960像素，文件大小：777 KB，MIME类型：image/png）
+#14896 = （640 × 960像素，文件大小：777 KB，MIME类型：image/png）
 u = Lad1024, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_1432.png
 Title = 图像 - 照片 2.jpg | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1456
-#14893 = （768 × 1,024像素，文件大小：254 KB，MIME类型：image/jpeg）
+#14897 = （768 × 1,024像素，文件大小：254 KB，MIME类型：image/jpeg）
 u = LawLaw, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_2.jpg
 Title = 图像 - 照片 2.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1420
-#14894 = （768 × 1,024像素，文件大小：997 KB，MIME类型：image/png）
+#14898 = （768 × 1,024像素，文件大小：997 KB，MIME类型：image/png）
 u = Jaika036, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_2.png
 Title = 图像 - 照片 3.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1403
-#14895 = （768 × 1,024像素，文件大小：899 KB，MIME类型：image/png）
+#14899 = （768 × 1,024像素，文件大小：899 KB，MIME类型：image/png）
 u = Jaika036, => http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_3.png
-#14896 Omit => http://zh.tos.wikia.com/wiki/File:%E7%86%B1%E6%83%85%E9%A0%8C%E8%AE%9A%E6%9B%B2_%E8%B6%85%E7%B4%9A_%E5%85%89%E5%9F%83%E5%8F%8A%E7%82%AE%E9%9A%8A%EF%BC%88%E9%9A%B1%E8%97%8F%E6%A2%9D%E4%BB%B6_%E5%8F%AA%E6%9C%89%E5%85%89%E5%B1%AC%E6%80%A7%EF%BC%89
-#14897 Omit => http://zh.tos.wikia.com/wiki/File:%E7%86%B1%E6%83%85%E9%A0%8C%E8%AE%9A%E6%9B%B2_%E9%AB%98%E7%B4%9A_%E9%81%93%E6%BB%BF%E6%B0%B4%E7%8B%82%E9%9A%8A%EF%BC%883%E6%88%90%E5%B0%B1%EF%BC%89
-Title = 图像 - 熱身賽 GO！神魔大富翁.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1425
-#14898 = （600 × 282像素，文件大小：56 KB，MIME类型：image/png）
-u = Btoky, => http://zh.tos.wikia.com/wiki/File:%E7%86%B1%E8%BA%AB%E8%B3%BD_GO%EF%BC%81%E7%A5%9E%E9%AD%94%E5%A4%A7%E5%AF%8C%E7%BF%81.png
-Title = 图像 - 熱身賽 GO！神魔大富翁2.png | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1425
-#14899 = （560 × 74像素，文件大小：12 KB，MIME类型：image/png）
-u = Btoky, => http://zh.tos.wikia.com/wiki/File:%E7%86%B1%E8%BA%AB%E8%B3%BD_GO%EF%BC%81%E7%A5%9E%E9%AD%94%E5%A4%A7%E5%AF%8C%E7%BF%812.png
----  OK = 64  ---
+---  OK = 65  ---
 ----- Users -----
 Rickyxp => [http://zh.tos.wikia.com/wiki/File:%E7%85%89%E7%8D%84.jpg]
 Gcobc27746 => [http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%90%E6%88%AA%E5%9C%96_2015-06-16T11-47-53.177Z.png, http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%90%E6%88%AA%E5%9C%96_2015-06-16T11-49-30.088Z.png]
 568736 => [http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%B3%95%E8%A7%B8%E6%91%B8%E7%9A%84%E5%86%B7%E8%B1%94.jpg, http://zh.tos.wikia.com/wiki/File:%E7%85%99%E5%B9%95%E5%BE%8C%E7%9A%84%E5%A6%96%E9%8F%A1.jpg]
 Wingwing007 => [http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E5%85%AC%E6%9C%83%E8%80%8C%E6%88%B0.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%BD%B1%E5%B1%A0%E6%AE%BA%E7%9A%84%E5%8D%B1%E6%A9%9F.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%89%A9%E5%8F%AF%E6%92%BC%E5%8B%95.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%9B%A1%E7%9A%84%E4%BF%AE%E7%BE%85%E5%A0%B4.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%9B%A1%E7%9A%84%E5%A6%92%E6%84%8F.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%AA%AE%E9%A3%9F%E6%85%BE%E7%9A%84%E5%8E%9F%E7%BD%AA.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BC%AA%E8%BF%B4.jpg]
 Garyjark7615 => [http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF%E9%80%9A%E9%97%9C.png]
+Unknownratio => [http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%A6%B9.png]
 Vincent-Hus => [http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87111.jpg]
 Orangesoda0000 => [http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A91.png, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A92.png]
 Unknow168 => [http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87.png, http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_001.png, http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_002.png, http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_003.png, http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_006.png]
@@ -251,9 +254,10 @@ Lad1024 => [http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E5%B0%BE%E7%8E%
 Kuogunyu => [http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%87%BC%E5%86%B0%E9%BE%8D1.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%87%BC%E5%86%B0%E9%BE%8D2.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E6%87%BC%E5%8F%B2%E7%8E%8B.jpg]
 Wind422 => [http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%B4%A8.png]
 Winsonsingsing => [http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87_1.png]
-Btoky => [http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%95%85%E9%84%89%E7%9A%84%E5%A5%AE%E6%88%B0.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%9A%E9%A2%A8%E8%87%AA%E9%B3%B4%E7%90%B4.jpg, http://zh.tos.wikia.com/wiki/File:%E7%86%B1%E8%BA%AB%E8%B3%BD_GO%EF%BC%81%E7%A5%9E%E9%AD%94%E5%A4%A7%E5%AF%8C%E7%BF%81.png, http://zh.tos.wikia.com/wiki/File:%E7%86%B1%E8%BA%AB%E8%B3%BD_GO%EF%BC%81%E7%A5%9E%E9%AD%94%E5%A4%A7%E5%AF%8C%E7%BF%812.png]
+Btoky => [http://zh.tos.wikia.com/wiki/File:%E7%82%BA%E6%95%85%E9%84%89%E7%9A%84%E5%A5%AE%E6%88%B0.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%9A%E9%A2%A8%E8%87%AA%E9%B3%B4%E7%90%B4.jpg]
+A504072201 => [http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B8%8C.jpg]
 喜多部木 => [http://zh.tos.wikia.com/wiki/File:%E7%83%8F%E8%98%87%E6%8B%89.jpg]
-Hugochau => [http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%9D%88%E9%AD%82%E8%B3%9C%E7%A6%8F.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BF%B4%E5%BB%8Ai.png, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BF%B4%E5%BB%8Ap.png]
+Hugochau => [http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E5%B1%AC%E6%80%A7i.png, http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E9%9D%88%E9%AD%82%E8%B3%9C%E7%A6%8F.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E5%90%8D%E7%9A%84%E7%86%8A%E5%AD%A9%E5%AD%90.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84.jpg, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BF%B4%E5%BB%8Ai.png, http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E9%99%90%E8%BF%B4%E5%BB%8Ap.png]
 Rrlrlmrlmi => [http://zh.tos.wikia.com/wiki/File:%E7%84%A1%E7%BE%A9%E4%B9%8B%E8%B7%AF%E7%B5%84%E9%9A%8A.jpg]
 Cnonehk => [http://zh.tos.wikia.com/wiki/File:%E7%85%A7%E7%89%87111.png]
 秋楓佾舞 => [http://zh.tos.wikia.com/wiki/File:%E7%81%AB%E7%8B%82%E7%81%AB%E5%8C%97%E9%9A%8A.jpg]

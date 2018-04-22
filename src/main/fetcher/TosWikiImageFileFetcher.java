@@ -4,9 +4,12 @@ import main.card.IconInfo;
 import main.card.ImageFileInfo;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
+import util.files.FileUtil;
 import util.logging.L;
 import util.logging.LF;
+import util.tool.TextUtil;
 
+import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
@@ -25,9 +28,11 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
 
     private final LF mLf = new LF(folder);
     private final LF mLfImage = new LF(folder, "imageInfo.txt");
+    private final File dlFolder = new File(folder + "/temp/");
 
     @Override
     public void run() {
+        FileUtil.ensureDelete(dlFolder);
         // English takes 1:54 (no download)
         // ZH takes 8:27 (no download)
 
@@ -51,7 +56,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
                     lf.log(info.getWikiPage());
                     lfi.log(info.toString());
                     if (canDownload(info)) {
-                        executors.submit(runDownloadImage(folder + "/temp/" + "" + "/", info));
+                        executors.submit(runDownloadImage(dlFolder.toString(), info));
                     }
                 }
                 //executors.submit(runDownloadImage(folder + "/" + i + "/", inf));
@@ -72,13 +77,53 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
     }
 
     private Runnable runDownloadImage(String folder, ImageFileInfo info) {
-        return () -> {
-            String link = info.getWikiPage();
-            IconInfo icf = getIconInfo(link);
-            String s = downloadImage(icf.getLink(), folder, icf.getName());
-            //L.log("OK s = %s", s);
-            if (s.contains("X_X")) {
-                L.log("fail: link = %s, %s", link, s);
+        return new Runnable() {
+            @Override
+            public void run() {
+                String link = info.getWikiPage();
+                if ("http://zh.tos.wikia.com/wiki/File:SI058.png".equals(link)) {
+                    L.log("HiError s = %s", link);
+                }
+
+                IconInfo icf = getIconInfo(link);
+                icf = retry(10, icf, link);
+
+                String s = downloadImage(icf.getLink(), folder, icf.getName());
+                s = retryDL(10, s, icf, link);
+                //L.log("OK s = %s", s);
+                if (s == null) {
+                    L.log("X_X fail: link = %s, %s", link, s);
+                }
+            }
+
+            private IconInfo retry(int times, IconInfo icf, String link) {
+                int n = 0;
+                while (icf.isEmpty() && n < times) {
+                    try {
+                        Thread.sleep(10_000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    L.log("Try #%s = %s", n, link);
+                    icf = getIconInfo(link);
+                    n++;
+                }
+                return icf;
+            }
+
+            private String retryDL(int times, String fos, IconInfo icf, String link) {
+                int n = 0;
+                while (TextUtil.isEmpty(fos) && n < times) {
+                    try {
+                        Thread.sleep(10_000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    L.log("Try DL #%s = %s", n, link);
+                    fos = downloadImage(icf.getLink(), folder, icf.getName());
+                    n++;
+                }
+                return fos;
             }
         };
     }

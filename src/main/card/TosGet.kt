@@ -3,6 +3,7 @@ package main.card
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
+import util.tool.TextUtil
 
 class TosGet {
     companion object me {
@@ -205,6 +206,10 @@ class TosGet {
 class IconInfo {
     var link: String = ""
     var name: String = ""
+
+    fun isEmpty() : Boolean {
+        return TextUtil.isEmpty(link) && TextUtil.isEmpty(name)
+    }
 }
 
 class CardTds {
