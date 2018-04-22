@@ -243,16 +243,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         CardInfo info = new CardInfo();
 
         // Step 1: Get the xml node from link by Jsoup
-        Document doc = null;
-        TicTac2 ts = new TicTac2();
-        ts.setLog(logTime);
-        ts.tic();
-        try {
-            doc = Jsoup.connect(link).get();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        ts.tac("JSoup OK");
+        Document doc = getDocument(link);
         if (doc == null) return info;
 
         // Step 2: Find the <center> nodes

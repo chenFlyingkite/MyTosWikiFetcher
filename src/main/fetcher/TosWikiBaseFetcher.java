@@ -11,6 +11,7 @@ import okhttp3.ResponseBody;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import util.data.Range;
+import util.logging.L;
 import util.logging.LF;
 import util.tool.IOUtil;
 import util.tool.TextUtil;
@@ -18,6 +19,8 @@ import util.tool.TicTac2;
 import wikia.articles.UnexpandedListArticleResultSet;
 
 import java.io.*;
+import java.net.ConnectException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.ResultSet;
 import java.util.concurrent.ExecutorService;
@@ -148,6 +151,7 @@ public class TosWikiBaseFetcher {
         } catch (IOException e) {
             e.printStackTrace();
             ok = "X_X Failed";
+            L.log("%s = %s", ok, link);
         } finally {
             IOUtil.closeIt(fin, fout);
         }
@@ -194,7 +198,7 @@ public class TosWikiBaseFetcher {
         ts.setLog(logTime);
         ts.tic();
         try {
-            doc = Jsoup.connect(link).get();
+            doc = Jsoup.connect(link).timeout(40_000).get();
         } catch (IOException e) {
             e.printStackTrace();
         }

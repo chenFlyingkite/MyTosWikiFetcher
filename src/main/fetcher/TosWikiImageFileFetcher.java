@@ -51,7 +51,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
                     lf.log(info.getWikiPage());
                     lfi.log(info.toString());
                     if (canDownload(info)) {
-                        executors.submit(runDownloadImage(folder + "/" + i + "/", info));
+                        executors.submit(runDownloadImage(folder + "/temp/" + "" + "/", info));
                     }
                 }
                 //executors.submit(runDownloadImage(folder + "/" + i + "/", inf));
@@ -66,8 +66,8 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
         List<String> listZh = Arrays.asList("Wingwing007", "Hugochau", "Btoky", "Towerofsaviors");
         List<String> listEn = Arrays.asList("JoetjeF", "Lycentia", "RaccoonKun", "Wingwing007", "Towerofsaviors");
         List<String> list = zh ? listZh : listEn;
-        return false;
-        //return list.contains(info.getUploader());
+        //return false;
+        return list.contains(info.getUploader());
         //return true;
     }
 
@@ -77,6 +77,9 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
             IconInfo icf = getIconInfo(link);
             String s = downloadImage(icf.getLink(), folder, icf.getName());
             //L.log("OK s = %s", s);
+            if (s.contains("X_X")) {
+                L.log("fail: link = %s, %s", link, s);
+            }
         };
     }
 

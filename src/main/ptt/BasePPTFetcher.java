@@ -27,7 +27,7 @@ public abstract class BasePPTFetcher {
         Document doc;
         try {
             ttClient.tic();
-            doc = Jsoup.connect(link).get();
+            doc = Jsoup.connect(link).timeout(40_000).get();
             ttClient.tac("Jsoup connect");
 
             if (doc == null) return null;
