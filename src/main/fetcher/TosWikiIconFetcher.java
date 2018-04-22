@@ -59,25 +59,4 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
         }
         Lf.getFile().close();
     }
-
-    private IconInfo getIconInfo(String link) {
-        boolean logTime = false;
-        // Step 1: Get the xml node from link by Jsoup
-        Document doc = null;
-        TicTac2 ts = new TicTac2();
-        ts.setLog(logTime);
-        ts.tic();
-        try {
-            doc = Jsoup.connect(link).get();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        ts.tac("JSoup OK, %s", link);
-
-        if (doc == null) {
-            return new IconInfo();
-        } else {
-            return TosGet.me.getIcon(doc);
-        }
-    }
 }

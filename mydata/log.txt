@@ -6372,20 +6372,20 @@ Title = 天律雨神 ‧ 泰芙努特 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, 71, -1, 72, 73] => 71
 ---------------------
 #1590 -> http://zh.tos.wikia.com/wiki/642, (id = 167920, title = 642, url = /wiki/642, ns = 0)
-Title = 公允戰神 ‧ 賽特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1990
-anchors => [10, 53, -1, -1, -1, -1, 71, -1, 72, 73] => 71
+Title = 公允戰神 ‧ 賽特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2000
+anchors => [10, 53, -1, -1, -1, -1, 71, 72, -1, 74] => 71
 ---------------------
 #1591 -> http://zh.tos.wikia.com/wiki/643, (id = 167921, title = 643, url = /wiki/643, ns = 0)
-Title = 颶風龍神 ‧ 舒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1984
-anchors => [10, 53, -1, -1, -1, -1, 71, -1, 72, 73] => 71
+Title = 颶風龍神 ‧ 舒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1994
+anchors => [10, 53, -1, -1, -1, -1, 71, 72, -1, 74] => 71
 ---------------------
 #1592 -> http://zh.tos.wikia.com/wiki/644, (id = 167922, title = 644, url = /wiki/644, ns = 0)
-Title = 公義太陽神 ‧ 拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1990
-anchors => [10, 53, -1, -1, -1, -1, 71, -1, 72, 73] => 71
+Title = 公義太陽神 ‧ 拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2000
+anchors => [10, 53, -1, -1, -1, -1, 71, 72, -1, 74] => 71
 ---------------------
 #1593 -> http://zh.tos.wikia.com/wiki/645, (id = 167923, title = 645, url = /wiki/645, ns = 0)
-Title = 冥界審判者 ‧ 奧西利斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1983
-anchors => [10, 53, -1, -1, -1, -1, 71, -1, 72, 73] => 71
+Title = 冥界審判者 ‧ 奧西利斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1993
+anchors => [10, 53, -1, -1, -1, -1, 71, 72, -1, 74] => 71
 ---------------------
 #1594 -> http://zh.tos.wikia.com/wiki/646, (id = 167925, title = 646, url = /wiki/646, ns = 0)
 Title = 機械工程兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1728
@@ -8996,7 +8996,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2296 exists key = 0684_G-Dragon
 ---------------------
 #2297 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1793
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1895
 ---------------------
 #2298 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2016
@@ -9005,7 +9005,7 @@ Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wik
 Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1361
 ---------------------
 #2300 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1897
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1893
 ---------------------
 #2301 -> http://zh.tos.wikia.com/wiki/M01, (id = 140251, title = M01, url = /wiki/M01, ns = 0)
 Title = 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845

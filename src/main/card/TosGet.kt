@@ -1,5 +1,6 @@
 package main.card
 
+import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
 
@@ -49,6 +50,49 @@ class TosGet {
                 info.cells.add(ele.text())
             }}
             return info;
+        }
+
+        fun getImageFileInfo(doc: Document, wikiBase: String): List<ImageFileInfo> {
+            val allInfo = ArrayList<ImageFileInfo>()
+            val content = doc.getElementById("mw-content-text");
+            if (content != null) {
+                // Get those elements to fill ImageFileInfo
+                // 1. Check content size
+                val items = content.getElementsByClass("wikia-gallery-item")
+                // 2. Data componenets
+                val light = content.getElementsByClass("lightbox")
+                val user = content.getElementsByClass("wikia-gallery-item-user")
+                val major = content.getElementsByClass("thumbimage lzy lzyPlcHld")
+
+                val valid = isSameSize(items, light, user, major)
+                if (valid) {
+                    val cn = items?.size ?: 0
+                    for (i in 0 until cn) {
+                        val info = ImageFileInfo()
+                        info.title = light[i].attr("title")
+                        info.wikiPage = wikiBase + "" + light[i].attr("href")
+                        info.uploader = user[i].text()
+                        info.filename = major[i].attr("data-image-name")
+                        //println("#$i -> ${info.title} >> ${info.uploader} >> ${info.filename}\n    ${info.wikiPage}\n")
+                        allInfo.add(info)
+                    }
+                }
+            }
+
+            return allInfo
+        }
+
+        private fun isSameSize(vararg elements: Elements): Boolean {
+            //var same = true
+            if (elements.size > 1) {
+                val n = elements[0].size
+                for (e in elements) {
+                    if (e.size != n) {
+                        return false
+                    }
+                }
+            }
+            return true
         }
 
         // Extract for TosCard
@@ -171,6 +215,17 @@ class CardTds {
 class TableInfo {
     val headers: ArrayList<String> = ArrayList()
     val cells: ArrayList<String> = ArrayList()
+}
+
+class ImageFileInfo {
+    var wikiPage: String = ""
+    var title: String = ""
+    var uploader: String = ""
+    var filename: String = ""
+
+    override fun toString(): String {
+        return "$uploader => $title => $filename => $wikiPage"
+    }
 }
 //
 //fun TosGet.getImage(element: Element) :String {

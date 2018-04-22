@@ -14,7 +14,7 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
     private TosWikiImagePeeker() {}
     public static final TosWikiImagePeeker me = new TosWikiImagePeeker();
 
-    private final boolean zh = true;
+    private final boolean zh = false;
     private final String folder = zh ? "myImages" : "myImagesEng";
     private final LF Lf = new LF(folder);
     private final String tosApi = (zh ? zhApi1 : enApi1)

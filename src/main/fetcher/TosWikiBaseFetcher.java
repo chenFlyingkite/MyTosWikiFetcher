@@ -2,6 +2,8 @@ package main.fetcher;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import main.card.IconInfo;
+import main.card.TosGet;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -22,8 +24,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class TosWikiBaseFetcher {
-    public static final String zhApi1 = "http://zh.tos.wikia.com/api/v1";
-    public static final String enApi1 = "http://towerofsaviors.wikia.com/api/v1";
+    public static final String wikiBaseZh = "http://zh.tos.wikia.com";
+    public static final String wikiBaseEn = "http://towerofsaviors.wikia.com";
+
+    public static final String zhApi1 = wikiBaseZh + "/api/v1";
+    public static final String enApi1 = wikiBaseEn + "/api/v1";
 
     protected boolean mFetchAll = false;
     protected TicTac2 clock = new TicTac2();
@@ -110,10 +115,20 @@ public class TosWikiBaseFetcher {
         return new Range(min, max);
     }
 
-    protected void downloadImage(String link, String folder, String name) {
+    protected IconInfo getIconInfo(String link) {
+        Document doc = getDocument(link);
+        if (doc == null) {
+            return new IconInfo();
+        } else {
+            return TosGet.me.getIcon(doc);
+        }
+    }
+
+    protected String downloadImage(String link, String folder, String name) {
         InputStream fin = null;
         OutputStream fout = null;
         name = toValidIconName(name);
+        String ok = name;
         try {
             URL url = new URL(link);
             File image = new File(folder, name);
@@ -132,9 +147,12 @@ public class TosWikiBaseFetcher {
             }
         } catch (IOException e) {
             e.printStackTrace();
+            ok = "X_X Failed";
         } finally {
             IOUtil.closeIt(fin, fout);
         }
+
+        return ok;
     }
 
     protected String toValidIconName(String oldName) {
@@ -164,7 +182,6 @@ public class TosWikiBaseFetcher {
         }
         return sb.toString();
     }
-
 
     public Document getDocument(String link) {
         return getDocument(link, false);
