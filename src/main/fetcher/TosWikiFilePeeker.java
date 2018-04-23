@@ -10,12 +10,12 @@ import wikia.articles.UnexpandedArticle;
 
 import java.util.*;
 
-public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
-    private TosWikiImagePeeker() {}
-    public static final TosWikiImagePeeker me = new TosWikiImagePeeker();
+public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
+    private TosWikiFilePeeker() {}
+    public static final TosWikiFilePeeker me = new TosWikiFilePeeker();
 
     private final boolean zh = false;
-    private final String folder = zh ? "myImages" : "myImagesEng";
+    private final String folder = zh ? "myPeekFiles" : "myPeekFilesEng";
     private final LF Lf = new LF(folder);
     private final String tosApi = (zh ? zhApi1 : enApi1)
             + "/Articles/List?namespaces=6&limit=2500000";
@@ -49,9 +49,9 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
         // This takes about 1 min 46 s
         int q = 100; // Each file chunk size
         int n = (int) Math.ceil(1.0 / q * size);
-        L.log("set = %s, n = %s", size, n);
+        L.log("%s files as %s chunks", size, n);
         for (int i = 0; i < n; i++) {
-            executors.submit(runGetImageInfo(i, set, q * i, q * (i + 1)));
+            executors.submit(runPeekFiles(i, set, q * i, q * (i + 1)));
         }
         Lf.getFile().open();
         Lf.setLogToL(true);
@@ -113,24 +113,14 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
             String k = allK.get(i);
             List<String> allImages = all.get(k);
             Collections.sort(allImages);
-            executors.submit(runToFile(allK.get(i), allImages));
+
+            LF lf = new LF(folder, k + ".txt");
+            lf.setLogToL(false);
+            executors.submit(runLogToFile(lf, allImages));
         }
     }
 
-    private Runnable runToFile(String name, List<String> list) {
-        return () -> {
-            LF lf = new LF(folder, name + ".txt");
-            // Open logging files
-            lf.getFile().open(false);
-            lf.setLogToL(!mFetchAll);
-            for (String s : list) {
-                lf.log(s);
-            }
-            lf.getFile().close();
-        };
-    }
-
-    private Runnable runGetImageInfo(int tid, ResultSet set, int from, int end) {
+    private Runnable runPeekFiles(int tid, ResultSet set, int from, int end) {
         return () -> {
             LF lf = new LF(folder, tid + ".txt");
             // Open logging files
@@ -157,7 +147,7 @@ public class TosWikiImagePeeker extends TosWikiBaseFetcher implements Runnable {
                 } else if (isMusic) {
                     musicLinks.add(link);
                     lf.log("#%s Omit Music => %s", i, link);
-                    //L.log("#%s Omit Music => %s", i, link);
+                    L.log("#%s Omit Music => %s", i, link);
                 } else {
                     lf.log("#%s Omit => %s", i, link);
                 }

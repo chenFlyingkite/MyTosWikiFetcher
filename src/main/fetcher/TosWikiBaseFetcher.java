@@ -23,6 +23,7 @@ import java.net.ConnectException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.ResultSet;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -210,6 +211,21 @@ public class TosWikiBaseFetcher {
         }
         ts.tac("JSoup OK " + link);
         return doc;
+    }
+
+    protected Runnable runLogToFile(LF lfFile, List<String> list) {
+        return new Runnable() {
+            @Override
+            public void run() {
+                LF lf = lfFile;
+                // Open logging files
+                lf.getFile().open(false);
+                for (String s : list) {
+                    lf.log(s);
+                }
+                lf.getFile().close();
+            }
+        };
     }
 
     // class abbreviation

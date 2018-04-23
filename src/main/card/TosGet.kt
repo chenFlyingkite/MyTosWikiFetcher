@@ -84,7 +84,6 @@ class TosGet {
         }
 
         private fun isSameSize(vararg elements: Elements): Boolean {
-            //var same = true
             if (elements.size > 1) {
                 val n = elements[0].size
                 for (e in elements) {
