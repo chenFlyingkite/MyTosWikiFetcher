@@ -28,11 +28,11 @@ class TosGet {
         }
 
         fun getHtml(element: Element): String {
-            return element?.html() ?: ""
+            return element.html() ?: ""
         }
 
         fun getHtmlAt(index: Int, elements: Elements): String {
-            return elements?.get(index)?.html() ?: ""
+            return elements.get(index)?.html() ?: ""
         }
 
         fun getSummonerTable(index: Int, elements: Elements): TableInfo {

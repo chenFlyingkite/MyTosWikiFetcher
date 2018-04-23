@@ -59,7 +59,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
         Lf.setLogToL(true);
         tt.tic();
         int z = 1;
-        final String[] pgs = {".", ".", ".", ".", ".", "-" ,".", ".", ".", ".", "="};
+        final String pgs = "....-....=";
         while (imageMaps.size() < n) {
             try {
                 Thread.sleep(2000);
@@ -72,7 +72,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
             if (z % 10 == 0) {
                 s = "" + z / 10 % 10;
             } else {
-                s = pgs[z % 10];
+                s = "" + pgs.charAt(z % 10);
             }
             L.getImpl().print(s);
             z++;
