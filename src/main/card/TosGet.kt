@@ -155,6 +155,23 @@ class TosGet {
             return null
         }
 
+        fun getCardDetails(doc: Document): String {
+            //((Element) details.get(0).childNodes.get(4)).text()
+            val details = doc.getElementsByClass("module move");
+            val s1 = details?.size ?: 0
+            if (s1 > 0) {
+                val first = details?.get(0)
+                val size = first?.childNodeSize() ?: 0
+                if (size > 0) {
+                    val ele = first?.childNode(size - 1)
+                    if (ele is Element) {
+                        return ele.html()
+                    }
+                }
+            }
+            return ""
+        }
+
         @Deprecated("Not handy")
         fun getTr(element: Element): MutableList<String>? {
             val tbody = element.child(0)?.child(0)

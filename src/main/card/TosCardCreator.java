@@ -21,6 +21,7 @@ public class TosCardCreator {
         public String wikiLink = "";
         public List<String> hpValues = new ArrayList<>();
         public List<String> expInfos = new ArrayList<>();
+        public String detailsHtml = "";
     }
 
 //  node length, page
@@ -163,7 +164,6 @@ public class TosCardCreator {
 
         if (c.evolveFrom.length() > 0 && !c.idNorm.equals(c.evolveFrom)) {
             log.log("Evolve not self? %s", c.wikiLink);
-            // TODO : Handle combine
             // 禮物黑手黨 ‧ 馴鹿組
             // http://zh.tos.wikia.com/wiki/1308
             // 日月巨狼 ‧ 芬爾厄
@@ -188,6 +188,7 @@ public class TosCardCreator {
         fillExpInfo(c, info.expInfos);
         fillCombination(c, info);
         fillEvolution(c, info);
+        c.cardDetails = info.detailsHtml;
     }
 
     private void fillLinks(TosCard c, CardInfo info) {

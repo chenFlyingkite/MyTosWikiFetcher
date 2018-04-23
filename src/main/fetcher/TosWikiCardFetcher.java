@@ -40,7 +40,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return Lf;
     }
 
-    private int from = 447; // #131
+    private int from = 0; // 447 = #131
     private int prefetch = 5;
     private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
 
@@ -49,7 +49,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     public void run() {
         // About 5 min 36 sec
         // Parameters setting
-        mFetchAll = true;
+        mFetchAll = 0 < 3;
 
         ResultSet set = getApiResults();
         if (!hasResult(set)) return;
@@ -66,7 +66,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lfc.setLogToL(false);
 
         // Required data
-        int percent = 0;
+        int percent = 0, crafts = 0;
         List<TosCard> cards = new ArrayList<>();
         Set<String> cardSet = new HashSet<>();
         List<TosCard> cardsNoDup = new ArrayList<>();
@@ -81,9 +81,13 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 L.log("#%s -> %s", i, link);
             }
 
-            boolean hasPercent = link.indexOf('%') >= 0;
+            boolean hasPercent = link.contains("%");
+            boolean isCraft = link.contains("/wiki/C");
             if (hasPercent) {
                 percent++;
+            } else if (isCraft) {
+                crafts++;
+                //L.log("Craft #%s -> %s", i, link);
             } else {
                 // Step 3: For valid links, get its card info
                 Lf.log("#%04d -> %s, %s", i, link, set.getItems()[i]);
@@ -324,6 +328,11 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 Lf.log("center(1) = \n%s", centers.get(1));
             }
         }
+
+        // Step 5 : Get the card details
+        //Elements details = doc.getElementsByClass("module move");
+        info.detailsHtml = TosGet.me.getCardDetails(doc);
+
         return info;
     }
 
