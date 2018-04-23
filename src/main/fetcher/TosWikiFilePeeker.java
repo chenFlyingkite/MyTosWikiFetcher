@@ -38,6 +38,9 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
     public void run() {
         // Parameters setting
         mFetchAll = true;
+        // This takes about 1 min 46 s
+        // English = 2m13s
+        // Chinese = 5m05s
 
         ResultSet set = getApiResults();
         if (!hasResult(set)) return;
@@ -46,7 +49,6 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
 
         TicTac2 tt = clock;
 
-        // This takes about 1 min 46 s
         int q = 100; // Each file chunk size
         int n = (int) Math.ceil(1.0 / q * size);
         L.log("%s files as %s chunks", size, n);
