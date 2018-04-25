@@ -56,7 +56,7 @@ public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher implements R
                 if (mod == 0) { // Row starts& 1st element
                     sb.append("    {");
                 }
-                if (0 < mod && mod < n) { // 2nd ~ last elements
+                if (mod != 0) { // 2nd ~ last elements
                     sb.append(", ");
                 }
                 int val = Integer.parseInt(items.get(i).replace(",",""));

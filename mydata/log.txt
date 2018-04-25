@@ -3569,8 +3569,8 @@ Title = 重甲機械狼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, 62, -1, 61, -1, -1, -1, 63] => 61
 ---------------------
 #0891 -> http://zh.tos.wikia.com/wiki/1726, (id = 254131, title = 1726, url = /wiki/1726, ns = 0)
-Title = 不可能性現翼 ‧ 莫比烏斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1739
-anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
+Title = 不可能性現翼 ‧ 莫比烏斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
+anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0892 -> http://zh.tos.wikia.com/wiki/1727, (id = 254132, title = 1727, url = /wiki/1727, ns = 0)
 Title = 想心之戀鎖 ‧ 摩斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1779
@@ -3601,8 +3601,8 @@ Title = 帝冷的劍氏 ‧ 攝爾修斯 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0899 -> http://zh.tos.wikia.com/wiki/1733, (id = 254138, title = 1733, url = /wiki/1733, ns = 0)
-Title = 華熱的麗腳 ‧ 華倫海特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1727
-anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
+Title = 華熱的麗腳 ‧ 華倫海特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
+anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0900 -> http://zh.tos.wikia.com/wiki/1734, (id = 254139, title = 1734, url = /wiki/1734, ns = 0)
 Title = 宇宙天紡的星明 ‧ 哈勃 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1789
