@@ -16,6 +16,7 @@ public class Main {
         //TosWikiImageFileFetcher.me.run();
         //MobileComm.run();
         //ASD.run();
+        TosWikiStageFetcher.me.run();
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));

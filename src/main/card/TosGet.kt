@@ -2,6 +2,7 @@ package main.card
 
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
+import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
 import util.tool.TextUtil
 
@@ -12,19 +13,22 @@ class TosGet {
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
         fun getImage(element: Element): String {
-            val nos = element.getElementsByTag("noscript")
-            val x: Element
-            val imgs: Elements?
-            val size = nos?.size ?: 0;
-            if (size > 0) {
-                x = nos[0]
-                imgs = x?.getElementsByTag("img")
-                val s = imgs?.size ?: 0
-                if (s > 0) {
-                    return imgs?.get(0)?.attr("src") ?: ""
-                }
+            val imgs = getImageTag(element)
+            val s = imgs?.size ?: 0
+            if (s > 0) {
+                return imgs?.get(0)?.attr("src") ?: ""
             }
             return ""
+        }
+
+        fun getImageTag(element: Element): Elements? {
+            val nos = element.getElementsByTag("noscript")
+            val size = nos?.size ?: 0;
+            if (size > 0) {
+                val x = nos[0]
+                return x?.getElementsByTag("img")
+            }
+            return null
         }
 
         fun getHtml(element: Element): String {
@@ -41,6 +45,23 @@ class TosGet {
             if (no) return info
 
             val element = elements[index]
+            return getSummonerTable(elements[index]);
+
+//            val ths = element.getElementsByTag("th");
+//            ths.forEachIndexed { i, ele -> run {
+//                info.headers.add(ele.text())
+//            }}
+//
+//            val tds = element.getElementsByTag("td");
+//            tds.forEachIndexed { i, ele -> run {
+//                info.cells.add(ele.text())
+//            }}
+//            return info;
+        }
+
+        fun getSummonerTable(element: Element): TableInfo {
+            val info = TableInfo()
+
             val ths = element.getElementsByTag("th");
             ths.forEachIndexed { i, ele -> run {
                 info.headers.add(ele.text())
@@ -49,6 +70,46 @@ class TosGet {
             val tds = element.getElementsByTag("td");
             tds.forEachIndexed { i, ele -> run {
                 info.cells.add(ele.text())
+            }}
+            return info;
+        }
+
+        fun getStageTable(element: Element): StageInfo {
+            val info = StageInfo()
+
+            val ths = element.getElementsByTag("th");
+            ths.forEachIndexed { i, ele -> run {
+                when (i) {
+                    0 -> {
+                        info.title = ele.text()
+                    }
+                    else -> {
+                        info.headers.add(ele.text())
+                    }
+                }
+            }}
+
+            val tds = element.getElementsByTag("td");
+            tds.forEachIndexed { i, ele -> run {
+                var item = ""
+                when (i % info.headers.size) {
+                    1 -> { // Node of attributes
+                        val spans = ele.getElementsByTag("span")
+                        spans.forEachIndexed { j, span -> run {
+                            if (j > 0) {
+                                item += ","
+                            }
+                            item += span.attr("title")
+                        }}
+                    }
+                    0 -> {
+                        item = ele.text()
+                    }
+                    else -> {
+                        item = ele.ownText()
+                    }
+                }
+                info.cells.add(item)
             }}
             return info;
         }
@@ -233,9 +294,13 @@ class CardTds {
     val Evolutions: MutableList<String> = ArrayList()
 }
 
-class TableInfo {
+open class TableInfo {
     val headers: ArrayList<String> = ArrayList()
     val cells: ArrayList<String> = ArrayList()
+}
+
+class StageInfo : TableInfo() {
+    var title: String = ""
 }
 
 class ImageFileInfo {

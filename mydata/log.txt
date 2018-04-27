@@ -6116,7 +6116,8 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 Title = 6130 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1362
 ---------------------
 #1526 -> http://zh.tos.wikia.com/wiki/6131, (id = 252581, title = 6131, url = /wiki/6131, ns = 0)
-Title = 6131 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1362
+Title = 世界的平衡 ‧ 法神姬氏(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1898
+anchors => [10, 53, -1, -1, -1, -1, 65, -1, -1, 66] => 65
 ---------------------
 #1527 -> http://zh.tos.wikia.com/wiki/6132, (id = 252582, title = 6132, url = /wiki/6132, ns = 0)
 Title = 全知的支配者 ‧ 猶格索托斯(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1871
@@ -8562,7 +8563,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2298 exists key = 0684_G-Dragon
 ---------------------
 #2299 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1895
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1881
 ---------------------
 #2300 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2016
@@ -8571,7 +8572,7 @@ Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wik
 Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1361
 ---------------------
 #2302 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1893
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1879
 ---------------------
 #2303 -> http://zh.tos.wikia.com/wiki/M01, (id = 140251, title = M01, url = /wiki/M01, ns = 0)
 Title = 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
@@ -8649,13 +8650,13 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2317 exists key = 9015_世界的智慧 · 所羅門王
 ---------------------
 #2318 -> http://zh.tos.wikia.com/wiki/M2, (id = 205891, title = M2, url = /wiki/M2, ns = 0)
-Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6939
+Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6932
 ---------------------
 ---------------------
 ---------------------
 ---------------------
 #2322 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
-Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2727
+Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2749
 ---------------------
 #2323 -> http://zh.tos.wikia.com/wiki/P5, (id = 216666, title = P5, url = /wiki/P5, ns = 0)
 Title = 阿修羅王 ‧ 羅侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
@@ -18871,5 +18872,5 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 sizes are [16, 32, 18, 22, 24, 28, 31]
-2116 cards
-1944 cards not duplicate
+2117 cards
+1945 cards not duplicate
