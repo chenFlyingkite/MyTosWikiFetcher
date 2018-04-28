@@ -44,19 +44,7 @@ class TosGet {
             val no = index >= elements.size
             if (no) return info
 
-            val element = elements[index]
             return getSummonerTable(elements[index]);
-
-//            val ths = element.getElementsByTag("th");
-//            ths.forEachIndexed { i, ele -> run {
-//                info.headers.add(ele.text())
-//            }}
-//
-//            val tds = element.getElementsByTag("td");
-//            tds.forEachIndexed { i, ele -> run {
-//                info.cells.add(ele.text())
-//            }}
-//            return info;
         }
 
         fun getSummonerTable(element: Element): TableInfo {
