@@ -10,7 +10,7 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //TosWikiIconFetcher.me.run();
-        TosWikiCardFetcher.me.run();
+        //TosWikiCardFetcher.me.run();
         //TosWikiFilePeeker.me.run();
         //TosWikiSummonerLevelFetcher.me.run();
         //TosWikiImageFileFetcher.me.run();

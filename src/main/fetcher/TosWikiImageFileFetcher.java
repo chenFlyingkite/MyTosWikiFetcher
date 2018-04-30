@@ -17,7 +17,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
     private TosWikiImageFileFetcher() { }
     public static final TosWikiImageFileFetcher me = new TosWikiImageFileFetcher();
 
-    private static final boolean zh = false;
+    private static final boolean zh = true;
 
     private static final String wikiPageBase = zh ? wikiBaseZh : wikiBaseEn;
     private static final String tosWiki = wikiPageBase +
