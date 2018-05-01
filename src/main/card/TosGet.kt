@@ -5,6 +5,8 @@ import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
 import util.tool.TextUtil
+import javax.management.Query.attr
+import javax.swing.Icon
 
 class TosGet {
     companion object me {
@@ -202,6 +204,24 @@ class TosGet {
                 return result
             }
             return null
+        }
+
+        fun getCardImagedLink(doc: Document) : List<IconInfo> {
+            val result = ArrayList<IconInfo>()
+            val monster = doc.getElementById("monster-data")
+            val imgs = monster?.getElementsByClass("image image-thumbnail link-internal")
+
+            val imgSize = imgs?.size ?: 0
+            for (i in 0 until imgSize) {
+                val ei = imgs?.get(i)
+                val info = IconInfo()
+                info.link = ei?.attr("href") ?: ""
+                info.name = ei?.attr("title") ?: ""
+                if (!info.isEmpty()) {
+                    result.add(info)
+                }
+            }
+            return result
         }
 
         fun getCardDetails(doc: Document): String {

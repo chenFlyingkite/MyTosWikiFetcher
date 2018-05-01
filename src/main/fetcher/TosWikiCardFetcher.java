@@ -1,10 +1,7 @@
 package main.fetcher;
 
-import main.card.CardTds;
-import main.card.TosCard;
-import main.card.TosCardCreator;
+import main.card.*;
 import main.card.TosCardCreator.CardInfo;
-import main.card.TosGet;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -40,8 +37,12 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return Lf;
     }
 
-    private int from = 0; // 447 = #131
-    private int prefetch = 5;
+    // #1844 = 816 = 勇氣白羊 ‧ 波比
+    // #0173 = 1063 = 鳴動威嚴 ‧ 摩迪與曼尼
+    // #0023 = 24 = 青龍孟章神君
+    // #0149 = 1041 = 九天應元 ‧ 聞仲
+    private int from = 149; // 447 = #131
+    private int prefetch = 2;
     private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
 
     private boolean runChecker = false;
@@ -273,20 +274,25 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             if (tds != null) {
                 // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
                 String[] anchor = {"基本屬性", "主動技"
-                        , "競技場 防守技能", "合體列表"
+                        , "競技場 防守技能"
+                        , "昇華" // Amelioration
                         , "極限突破" // Awaken recall
-                        , "進化列表"
+                        , "合體列表" // Combination
+                        , "進化列表" // Evolve
                         , "潛能解放" // Power release
                         , "異空轉生" // Virtual rebirth
                         , "異力轉換", "來源"};
                 int[] anchors = getAnchors(tds, anchor);
 
-                // Adding more info for card
+                // Adding basic hp/exp info for card
                 addHpInfo(info, anchors, tds);
                 addExpInfo(info, anchors, tds);
+                // Adding amelioration/awaken info for card
+                List<IconInfo> ameInfo = TosGet.me.getCardImagedLink(doc);
+                addAmeAwkInfo(info, ameInfo, anchors, tds);
 
                 // Find the end of card
-                int min = getPositiveMin(anchors, 2, anchors.length);
+                int min = getPositiveMin(anchors, 4, anchors.length);
                 if (logAnchor) {
                     Lf.log("anchors => %s => %s", Arrays.toString(anchors), min);
                 }
@@ -306,7 +312,12 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
                 // Add skill of active & leader
                 for (int i = anchors[1]; i < min; i++) {
-                    cardInfo.add(tds.get(i));
+                    // There exists 競技場 elements (81 cards, 莫莉&伊登&希臘), we omit it & include 昇華
+                    if (anchors[2] >= 0 && isInRange(i, anchors[2], anchors[3] >= 0 ? anchors[3] : min)) {
+                        //L.log("oooomit: anchor = %s, %s @ %s", anchors[2], i, tds.get(i));
+                    } else {
+                        cardInfo.add(tds.get(i));
+                    }
                 }
 
                 // TODO : node info
@@ -336,6 +347,10 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return info;
     }
 
+    private boolean isInRange(long value, long min, long max) {
+        return min <= value && value < max;
+    }
+
     private void addHpInfo(CardInfo info, int[] anchors, List<String> tds) {
         int maxhpStart = anchors[0] + 1;
         info.hpValues.addAll(tds.subList(maxhpStart, maxhpStart + 3));
@@ -348,6 +363,35 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         int sacrifyExpStart = anchors[0] + 35; // 6*5 + 5
         info.expInfos.add(tds.get(sacrifyExpStart)); // Sacrifice Exp Lv1
         info.expInfos.add(tds.get(sacrifyExpStart + 6)); // Sacrifice Exp per Lv
+    }
+
+    private void addAmeAwkInfo(CardInfo info, List<IconInfo> iconInfo, int[] anchors, List<String> tds) {
+        boolean empty = iconInfo == null || iconInfo.size() == 0;
+
+        if (empty) return;
+        int ax;
+
+        // Fetch if has 昇華關卡
+        ax = 3;
+        if (anchors[ax] >= 0) {
+            IconInfo icf = iconInfo.get(0);
+            int at = getPositiveMin(anchors, ax + 1, anchors.length);
+            if (icf.getName().equals(tds.get(at - 1))) {
+                info.ameStages.add(icf.getName());
+                info.ameStages.add(wikiBaseZh + icf.getLink());
+            }
+        }
+
+        // Fetch if has 突破關卡
+        ax = 4;
+        if (anchors[ax] >= 0) {
+            IconInfo icf = iconInfo.get(1);
+            int at = getPositiveMin(anchors, ax + 1, anchors.length);
+            if (icf.getName().equals(tds.get(at - 1))) {
+                info.awkStages.add(icf.getName());
+                info.awkStages.add(wikiBaseZh + icf.getLink());
+            }
+        }
     }
 
     private <T> int[] getAnchors(List<T> list, T[] anchor) {

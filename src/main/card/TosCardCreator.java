@@ -22,6 +22,8 @@ public class TosCardCreator {
         public List<String> hpValues = new ArrayList<>();
         public List<String> expInfos = new ArrayList<>();
         public String detailsHtml = "";
+        public List<String> ameStages = new ArrayList<>();
+        public List<String> awkStages = new ArrayList<>();
     }
 
 //  node length, page
@@ -179,6 +181,10 @@ public class TosCardCreator {
             // 憂懼之罪 ‧ 梅塔特隆
             // http://zh.tos.wikia.com/wiki/961 ~ 965
         }
+
+        if (c.skillAmeliorationBattleName.length()> 0 && c.skillAmeliorationCost1 == 0) {
+            log.log("HaveAme but no cost? %s", c.wikiLink);
+        }
     }
 
     private void fillCommon(TosCard c, CardInfo info) {
@@ -189,6 +195,7 @@ public class TosCardCreator {
         fillCombination(c, info);
         fillEvolution(c, info);
         c.cardDetails = info.detailsHtml;
+        fillStageLinks(c, info);
     }
 
     private void fillLinks(TosCard c, CardInfo info) {
@@ -255,7 +262,7 @@ public class TosCardCreator {
 
     private void fillEvolution(TosCard c, CardInfo info) {
         // Depends on CardFetcher's anchors
-        if (info.anchors[5] < 0) return;
+        if (info.anchors[6] < 0) return;
 
         List<String> list = info.evolution;
 
@@ -280,9 +287,10 @@ public class TosCardCreator {
     }
 
     private void fillCombination(TosCard c, CardInfo info) {
-        if (info.anchors[3] < 0) return;
+        if (info.anchors[5] < 0) return;
 
         List<String> list = info.evolution;
+
         // Omit head & tail, Fill in the combine material
         for (int i = 1; i < list.size() - 1; i++) {
             String s = list.get(i);
@@ -297,6 +305,22 @@ public class TosCardCreator {
         int end = list.lastIndexOf("EvoArrow");
         if (end < list.size() - 1) {
             c.combineTo.add(normEvoId(list.get(end + 1)));
+        }
+    }
+
+    private void fillStageLinks(TosCard c, CardInfo info) {
+        List<String> list;
+        // Fill in Amelioration stage name & link
+        list = info.ameStages;
+        if (list.size() > 0) {
+            c.skillAmeliorationBattleName = list.get(0);
+            c.skillAmeliorationBattleLink = list.get(1);
+        }
+
+        list = info.awkStages;
+        if (list.size() > 0) {
+            c.skillAwakenRecallName = list.get(0);
+            c.skillAwakenRecallBattleLink = list.get(1);
         }
     }
 
