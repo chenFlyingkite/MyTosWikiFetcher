@@ -128,6 +128,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
         Lf.setLogToL(true);
 
+        Lf.log("links: %s has %%, %s are crafts", percent, crafts);
         Lf.log("sizes are %s", itemsN);
         Lf.log("%s cards", cards.size());
         Lf.log("%s cards not duplicate", cardsNoDup.size());

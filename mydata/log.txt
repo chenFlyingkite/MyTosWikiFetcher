@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000}
-from gson, (12315 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (12381 items, basePath = http://zh.tos.wikia.com, offset = null)
 #0000 -> http://zh.tos.wikia.com/wiki/001, (id = 116891, title = 001, url = /wiki/001, ns = 0)
 Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
 anchors => [10, 53, 61, -1, -1, -1, 64, -1, -1, -1, 65] => 64
@@ -8535,419 +8535,452 @@ Title = BIGBANG元素師 | Tower of Saviors 維基 | FANDOM powered by Wikia, Ch
 ---------------------
 ---------------------
 ---------------------
-#2292 -> http://zh.tos.wikia.com/wiki/DAESUNG, (id = 152865, title = DAESUNG, url = /wiki/DAESUNG, ns = 0)
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+#2325 -> http://zh.tos.wikia.com/wiki/DAESUNG, (id = 152865, title = DAESUNG, url = /wiki/DAESUNG, ns = 0)
 Title = DAESUNG | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1765
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2292 exists key = 0611_DAESUNG
+2325 exists key = 0611_DAESUNG
 ---------------------
-#2293 -> http://zh.tos.wikia.com/wiki/DAESUNG(676), (id = 172926, title = DAESUNG(676), url = /wiki/DAESUNG(676), ns = 0)
+#2326 -> http://zh.tos.wikia.com/wiki/DAESUNG(676), (id = 172926, title = DAESUNG(676), url = /wiki/DAESUNG(676), ns = 0)
 Title = DAESUNG(676) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2293 exists key = 0676_DAESUNG
+2326 exists key = 0676_DAESUNG
 ---------------------
-#2294 -> http://zh.tos.wikia.com/wiki/Downfall, (id = 240255, title = Downfall, url = /wiki/Downfall, ns = 0)
+#2327 -> http://zh.tos.wikia.com/wiki/Downfall, (id = 240255, title = Downfall, url = /wiki/Downfall, ns = 0)
 Title = Downfall | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1361
 ---------------------
 ---------------------
-#2296 -> http://zh.tos.wikia.com/wiki/Follow_The_Black_Rabbit, (id = 240252, title = Follow The Black Rabbit, url = /wiki/Follow_The_Black_Rabbit, ns = 0)
+#2329 -> http://zh.tos.wikia.com/wiki/Follow_The_Black_Rabbit, (id = 240252, title = Follow The Black Rabbit, url = /wiki/Follow_The_Black_Rabbit, ns = 0)
 Title = Follow The Black Rabbit | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1359
 ---------------------
-#2297 -> http://zh.tos.wikia.com/wiki/G-Dragon, (id = 152873, title = G-Dragon, url = /wiki/G-Dragon, ns = 0)
+#2330 -> http://zh.tos.wikia.com/wiki/G-Dragon, (id = 152873, title = G-Dragon, url = /wiki/G-Dragon, ns = 0)
 Title = G-Dragon | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1753
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2297 exists key = 0615_G-Dragon
+2330 exists key = 0615_G-Dragon
 ---------------------
-#2298 -> http://zh.tos.wikia.com/wiki/G-Dragon(684), (id = 174399, title = G-Dragon(684), url = /wiki/G-Dragon(684), ns = 0)
+#2331 -> http://zh.tos.wikia.com/wiki/G-Dragon(684), (id = 174399, title = G-Dragon(684), url = /wiki/G-Dragon(684), ns = 0)
 Title = G-Dragon(684) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2298 exists key = 0684_G-Dragon
+2331 exists key = 0684_G-Dragon
 ---------------------
-#2299 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
+#2332 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
 Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1940
 ---------------------
-#2300 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
+#2333 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2016
 ---------------------
-#2301 -> http://zh.tos.wikia.com/wiki/I_will_never_let_you_go, (id = 240254, title = I will never let you go, url = /wiki/I_will_never_let_you_go, ns = 0)
+#2334 -> http://zh.tos.wikia.com/wiki/I_will_never_let_you_go, (id = 240254, title = I will never let you go, url = /wiki/I_will_never_let_you_go, ns = 0)
 Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1361
 ---------------------
-#2302 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
+#2335 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
 Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1938
 ---------------------
-#2303 -> http://zh.tos.wikia.com/wiki/M01, (id = 140251, title = M01, url = /wiki/M01, ns = 0)
+#2336 -> http://zh.tos.wikia.com/wiki/M01, (id = 140251, title = M01, url = /wiki/M01, ns = 0)
 Title = 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2303 exists key = 9001_威沛
+2336 exists key = 9001_威沛
 ---------------------
-#2304 -> http://zh.tos.wikia.com/wiki/M02, (id = 140252, title = M02, url = /wiki/M02, ns = 0)
+#2337 -> http://zh.tos.wikia.com/wiki/M02, (id = 140252, title = M02, url = /wiki/M02, ns = 0)
 Title = 浪淘女公爵 · 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1821
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2304 exists key = 9002_浪淘女公爵 · 威沛
+2337 exists key = 9002_浪淘女公爵 · 威沛
 ---------------------
-#2305 -> http://zh.tos.wikia.com/wiki/M03, (id = 140285, title = M03, url = /wiki/M03, ns = 0)
+#2338 -> http://zh.tos.wikia.com/wiki/M03, (id = 140285, title = M03, url = /wiki/M03, ns = 0)
 Title = 馬加錫亞 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1854
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2305 exists key = 9003_馬加錫亞
+2338 exists key = 9003_馬加錫亞
 ---------------------
-#2306 -> http://zh.tos.wikia.com/wiki/M04, (id = 140287, title = M04, url = /wiki/M04, ns = 0)
+#2339 -> http://zh.tos.wikia.com/wiki/M04, (id = 140287, title = M04, url = /wiki/M04, ns = 0)
 Title = 熾翼候爵 · 馬加錫亞 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1830
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2306 exists key = 9004_熾翼候爵 · 馬加錫亞
+2339 exists key = 9004_熾翼候爵 · 馬加錫亞
 ---------------------
-#2307 -> http://zh.tos.wikia.com/wiki/M05, (id = 140289, title = M05, url = /wiki/M05, ns = 0)
+#2340 -> http://zh.tos.wikia.com/wiki/M05, (id = 140289, title = M05, url = /wiki/M05, ns = 0)
 Title = 斯托剌 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1865
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2307 exists key = 9005_斯托剌
+2340 exists key = 9005_斯托剌
 ---------------------
-#2308 -> http://zh.tos.wikia.com/wiki/M06, (id = 140302, title = M06, url = /wiki/M06, ns = 0)
+#2341 -> http://zh.tos.wikia.com/wiki/M06, (id = 140302, title = M06, url = /wiki/M06, ns = 0)
 Title = 梟智親王 · 斯托剌 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1841
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2308 exists key = 9006_梟智親王 · 斯托剌
+2341 exists key = 9006_梟智親王 · 斯托剌
 ---------------------
-#2309 -> http://zh.tos.wikia.com/wiki/M07, (id = 140304, title = M07, url = /wiki/M07, ns = 0)
+#2342 -> http://zh.tos.wikia.com/wiki/M07, (id = 140304, title = M07, url = /wiki/M07, ns = 0)
 Title = 瑪巴斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1862
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2309 exists key = 9007_瑪巴斯
+2342 exists key = 9007_瑪巴斯
 ---------------------
-#2310 -> http://zh.tos.wikia.com/wiki/M08, (id = 140306, title = M08, url = /wiki/M08, ns = 0)
+#2343 -> http://zh.tos.wikia.com/wiki/M08, (id = 140306, title = M08, url = /wiki/M08, ns = 0)
 Title = 真知統領 · 瑪巴斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1834
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2310 exists key = 9008_真知統領 · 瑪巴斯
+2343 exists key = 9008_真知統領 · 瑪巴斯
 ---------------------
-#2311 -> http://zh.tos.wikia.com/wiki/M09, (id = 140307, title = M09, url = /wiki/M09, ns = 0)
+#2344 -> http://zh.tos.wikia.com/wiki/M09, (id = 140307, title = M09, url = /wiki/M09, ns = 0)
 Title = 瑪帕 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1862
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2311 exists key = 9009_瑪帕
+2344 exists key = 9009_瑪帕
 ---------------------
-#2312 -> http://zh.tos.wikia.com/wiki/M10, (id = 140308, title = M10, url = /wiki/M10, ns = 0)
+#2345 -> http://zh.tos.wikia.com/wiki/M10, (id = 140308, title = M10, url = /wiki/M10, ns = 0)
 Title = 戰鴉伯爵 · 瑪帕 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1834
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2312 exists key = 9010_戰鴉伯爵 · 瑪帕
+2345 exists key = 9010_戰鴉伯爵 · 瑪帕
 ---------------------
-#2313 -> http://zh.tos.wikia.com/wiki/M11, (id = 140309, title = M11, url = /wiki/M11, ns = 0)
+#2346 -> http://zh.tos.wikia.com/wiki/M11, (id = 140309, title = M11, url = /wiki/M11, ns = 0)
 Title = 華劣克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1866
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2313 exists key = 9011_華劣克
+2346 exists key = 9011_華劣克
 ---------------------
-#2314 -> http://zh.tos.wikia.com/wiki/M12, (id = 140310, title = M12, url = /wiki/M12, ns = 0)
+#2347 -> http://zh.tos.wikia.com/wiki/M12, (id = 140310, title = M12, url = /wiki/M12, ns = 0)
 Title = 私語領袖 · 華劣克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1834
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2314 exists key = 9012_私語領袖 · 華劣克
+2347 exists key = 9012_私語領袖 · 華劣克
 ---------------------
-#2315 -> http://zh.tos.wikia.com/wiki/M13, (id = 140312, title = M13, url = /wiki/M13, ns = 0)
+#2348 -> http://zh.tos.wikia.com/wiki/M13, (id = 140312, title = M13, url = /wiki/M13, ns = 0)
 Title = 亞斯塔祿 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1858
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2315 exists key = 9013_亞斯塔祿
+2348 exists key = 9013_亞斯塔祿
 ---------------------
-#2316 -> http://zh.tos.wikia.com/wiki/M14, (id = 140313, title = M14, url = /wiki/M14, ns = 0)
+#2349 -> http://zh.tos.wikia.com/wiki/M14, (id = 140313, title = M14, url = /wiki/M14, ns = 0)
 Title = 地獄大公 · 亞斯塔祿 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1826
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2316 exists key = 9014_地獄大公 · 亞斯塔祿
+2349 exists key = 9014_地獄大公 · 亞斯塔祿
 ---------------------
-#2317 -> http://zh.tos.wikia.com/wiki/M15, (id = 194313, title = M15, url = /wiki/M15, ns = 0)
+#2350 -> http://zh.tos.wikia.com/wiki/M15, (id = 194313, title = M15, url = /wiki/M15, ns = 0)
 Title = 世界的智慧 · 所羅門王 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2040
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2317 exists key = 9015_世界的智慧 · 所羅門王
+2350 exists key = 9015_世界的智慧 · 所羅門王
 ---------------------
-#2318 -> http://zh.tos.wikia.com/wiki/M2, (id = 205891, title = M2, url = /wiki/M2, ns = 0)
+#2351 -> http://zh.tos.wikia.com/wiki/M2, (id = 205891, title = M2, url = /wiki/M2, ns = 0)
 Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6932
 ---------------------
 ---------------------
 ---------------------
 ---------------------
-#2322 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
+#2355 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
 Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2772
 ---------------------
-#2323 -> http://zh.tos.wikia.com/wiki/P5, (id = 216666, title = P5, url = /wiki/P5, ns = 0)
+#2356 -> http://zh.tos.wikia.com/wiki/P5, (id = 216666, title = P5, url = /wiki/P5, ns = 0)
 Title = 阿修羅王 ‧ 羅侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2323 exists key = 7005_阿修羅王 ‧ 羅侯
+2356 exists key = 7005_阿修羅王 ‧ 羅侯
 ---------------------
-#2324 -> http://zh.tos.wikia.com/wiki/P6, (id = 214271, title = P6, url = /wiki/P6, ns = 0)
+#2357 -> http://zh.tos.wikia.com/wiki/P6, (id = 214271, title = P6, url = /wiki/P6, ns = 0)
 Title = 善惡顛倒 ‧ 窮奇 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1796
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2324 exists key = 7006_善惡顛倒 ‧ 窮奇
+2357 exists key = 7006_善惡顛倒 ‧ 窮奇
 ---------------------
-#2325 -> http://zh.tos.wikia.com/wiki/S123, (id = 253650, title = S123, url = /wiki/S123, ns = 0)
+#2358 -> http://zh.tos.wikia.com/wiki/S123, (id = 253650, title = S123, url = /wiki/S123, ns = 0)
 Title = 浮金貴公子 ‧ 豐臣秀吉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1803
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
-#2326 -> http://zh.tos.wikia.com/wiki/SEUNGRI, (id = 152869, title = SEUNGRI, url = /wiki/SEUNGRI, ns = 0)
+#2359 -> http://zh.tos.wikia.com/wiki/SEUNGRI, (id = 152869, title = SEUNGRI, url = /wiki/SEUNGRI, ns = 0)
 Title = SEUNGRI | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1753
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2326 exists key = 0613_SEUNGRI
+2359 exists key = 0613_SEUNGRI
 ---------------------
-#2327 -> http://zh.tos.wikia.com/wiki/SEUNGRI(680), (id = 174397, title = SEUNGRI(680), url = /wiki/SEUNGRI(680), ns = 0)
+#2360 -> http://zh.tos.wikia.com/wiki/SEUNGRI(680), (id = 174397, title = SEUNGRI(680), url = /wiki/SEUNGRI(680), ns = 0)
 Title = SEUNGRI(680) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2327 exists key = 0680_SEUNGRI
+2360 exists key = 0680_SEUNGRI
 ---------------------
-#2328 -> http://zh.tos.wikia.com/wiki/T.O.P, (id = 152871, title = T.O.P, url = /wiki/T.O.P, ns = 0)
+#2361 -> http://zh.tos.wikia.com/wiki/T.O.P, (id = 152871, title = T.O.P, url = /wiki/T.O.P, ns = 0)
 Title = T.O.P | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1753
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2328 exists key = 0614_T.O.P
+2361 exists key = 0614_T.O.P
 ---------------------
-#2329 -> http://zh.tos.wikia.com/wiki/T.O.P(682), (id = 174398, title = T.O.P(682), url = /wiki/T.O.P(682), ns = 0)
+#2362 -> http://zh.tos.wikia.com/wiki/T.O.P(682), (id = 174398, title = T.O.P(682), url = /wiki/T.O.P(682), ns = 0)
 Title = T.O.P(682) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2329 exists key = 0682_T.O.P
+2362 exists key = 0682_T.O.P
 ---------------------
-#2330 -> http://zh.tos.wikia.com/wiki/TAEYANG, (id = 152867, title = TAEYANG, url = /wiki/TAEYANG, ns = 0)
+#2363 -> http://zh.tos.wikia.com/wiki/TAEYANG, (id = 152867, title = TAEYANG, url = /wiki/TAEYANG, ns = 0)
 Title = TAEYANG | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1753
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2330 exists key = 0612_TAEYANG
+2363 exists key = 0612_TAEYANG
 ---------------------
-#2331 -> http://zh.tos.wikia.com/wiki/TAEYANG(678), (id = 174396, title = TAEYANG(678), url = /wiki/TAEYANG(678), ns = 0)
+#2364 -> http://zh.tos.wikia.com/wiki/TAEYANG(678), (id = 174396, title = TAEYANG(678), url = /wiki/TAEYANG(678), ns = 0)
 Title = TAEYANG(678) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2331 exists key = 0678_TAEYANG
+2364 exists key = 0678_TAEYANG
 ---------------------
 ---------------------
 ---------------------
-#2334 -> http://zh.tos.wikia.com/wiki/Terry, (id = 246554, title = Terry, url = /wiki/Terry, ns = 0)
+#2367 -> http://zh.tos.wikia.com/wiki/Terry, (id = 246554, title = Terry, url = /wiki/Terry, ns = 0)
 Title = Terry | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1695
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2334 exists key = 1589_Terry
+2367 exists key = 1589_Terry
 ---------------------
 ---------------------
-#2336 -> http://zh.tos.wikia.com/wiki/Test2, (id = 248104, title = Test2, url = /wiki/Test2, ns = 0)
+#2369 -> http://zh.tos.wikia.com/wiki/Test2, (id = 248104, title = Test2, url = /wiki/Test2, ns = 0)
 Title = Test2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1390
 ---------------------
-#2337 -> http://zh.tos.wikia.com/wiki/Test2/Def, (id = 248103, title = Test2/Def, url = /wiki/Test2/Def, ns = 0)
+#2370 -> http://zh.tos.wikia.com/wiki/Test2/Def, (id = 248103, title = Test2/Def, url = /wiki/Test2/Def, ns = 0)
 Title = Test2/Def | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1356
 ---------------------
 ---------------------
-#2339 -> http://zh.tos.wikia.com/wiki/V/M, (id = 139473, title = V/M, url = /wiki/V/M, ns = 0)
+#2372 -> http://zh.tos.wikia.com/wiki/V/M, (id = 139473, title = V/M, url = /wiki/V/M, ns = 0)
 Title = V/M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1362
 ---------------------
-#2340 -> http://zh.tos.wikia.com/wiki/V01, (id = 140194, title = V01, url = /wiki/V01, ns = 0)
+#2373 -> http://zh.tos.wikia.com/wiki/V01, (id = 140194, title = V01, url = /wiki/V01, ns = 0)
 Title = 烏蘇拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1863
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2340 exists key = 8001_烏蘇拉
+2373 exists key = 8001_烏蘇拉
 ---------------------
-#2341 -> http://zh.tos.wikia.com/wiki/V02, (id = 140196, title = V02, url = /wiki/V02, ns = 0)
+#2374 -> http://zh.tos.wikia.com/wiki/V02, (id = 140196, title = V02, url = /wiki/V02, ns = 0)
 Title = 海巫婆烏蘇拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1849
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2341 exists key = 8002_海巫婆烏蘇拉
+2374 exists key = 8002_海巫婆烏蘇拉
 ---------------------
-#2342 -> http://zh.tos.wikia.com/wiki/V03, (id = 140197, title = V03, url = /wiki/V03, ns = 0)
+#2375 -> http://zh.tos.wikia.com/wiki/V03, (id = 140197, title = V03, url = /wiki/V03, ns = 0)
 Title = 紅心皇后 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1872
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2342 exists key = 8003_紅心皇后
+2375 exists key = 8003_紅心皇后
 ---------------------
-#2343 -> http://zh.tos.wikia.com/wiki/V04, (id = 140198, title = V04, url = /wiki/V04, ns = 0)
+#2376 -> http://zh.tos.wikia.com/wiki/V04, (id = 140198, title = V04, url = /wiki/V04, ns = 0)
 Title = 盛怒的紅心皇后 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1858
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2343 exists key = 8004_盛怒的紅心皇后
+2376 exists key = 8004_盛怒的紅心皇后
 ---------------------
-#2344 -> http://zh.tos.wikia.com/wiki/V05, (id = 140199, title = V05, url = /wiki/V05, ns = 0)
+#2377 -> http://zh.tos.wikia.com/wiki/V05, (id = 140199, title = V05, url = /wiki/V05, ns = 0)
 Title = 梅菲瑟 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1883
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2344 exists key = 8005_梅菲瑟
+2377 exists key = 8005_梅菲瑟
 ---------------------
-#2345 -> http://zh.tos.wikia.com/wiki/V06, (id = 140200, title = V06, url = /wiki/V06, ns = 0)
+#2378 -> http://zh.tos.wikia.com/wiki/V06, (id = 140200, title = V06, url = /wiki/V06, ns = 0)
 Title = 黑魔女梅菲瑟 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1877
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2345 exists key = 8006_黑魔女梅菲瑟
+2378 exists key = 8006_黑魔女梅菲瑟
 ---------------------
-#2346 -> http://zh.tos.wikia.com/wiki/V07, (id = 140201, title = V07, url = /wiki/V07, ns = 0)
+#2379 -> http://zh.tos.wikia.com/wiki/V07, (id = 140201, title = V07, url = /wiki/V07, ns = 0)
 Title = 庫伊拉 · 德維爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1880
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2346 exists key = 8007_庫伊拉 · 德維爾
+2379 exists key = 8007_庫伊拉 · 德維爾
 ---------------------
-#2347 -> http://zh.tos.wikia.com/wiki/V08, (id = 140203, title = V08, url = /wiki/V08, ns = 0)
+#2380 -> http://zh.tos.wikia.com/wiki/V08, (id = 140203, title = V08, url = /wiki/V08, ns = 0)
 Title = 名流庫伊拉 · 德維爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1862
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2347 exists key = 8008_名流庫伊拉 · 德維爾
+2380 exists key = 8008_名流庫伊拉 · 德維爾
 ---------------------
-#2348 -> http://zh.tos.wikia.com/wiki/V09, (id = 140204, title = V09, url = /wiki/V09, ns = 0)
+#2381 -> http://zh.tos.wikia.com/wiki/V09, (id = 140204, title = V09, url = /wiki/V09, ns = 0)
 Title = 伊絲瑪 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1880
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2348 exists key = 8009_伊絲瑪
+2381 exists key = 8009_伊絲瑪
 ---------------------
-#2349 -> http://zh.tos.wikia.com/wiki/V10, (id = 140205, title = V10, url = /wiki/V10, ns = 0)
+#2382 -> http://zh.tos.wikia.com/wiki/V10, (id = 140205, title = V10, url = /wiki/V10, ns = 0)
 Title = 大祭司伊絲瑪 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1862
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2349 exists key = 8010_大祭司伊絲瑪
+2382 exists key = 8010_大祭司伊絲瑪
 ---------------------
-#2350 -> http://zh.tos.wikia.com/wiki/V11, (id = 140208, title = V11, url = /wiki/V11, ns = 0)
+#2383 -> http://zh.tos.wikia.com/wiki/V11, (id = 140208, title = V11, url = /wiki/V11, ns = 0)
 Title = 虎克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1884
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2350 exists key = 8011_虎克
+2383 exists key = 8011_虎克
 ---------------------
-#2351 -> http://zh.tos.wikia.com/wiki/V12, (id = 140209, title = V12, url = /wiki/V12, ns = 0)
+#2384 -> http://zh.tos.wikia.com/wiki/V12, (id = 140209, title = V12, url = /wiki/V12, ns = 0)
 Title = 虎克船長 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1866
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2351 exists key = 8012_虎克船長
+2384 exists key = 8012_虎克船長
 ---------------------
-#2352 -> http://zh.tos.wikia.com/wiki/V13, (id = 140210, title = V13, url = /wiki/V13, ns = 0)
+#2385 -> http://zh.tos.wikia.com/wiki/V13, (id = 140210, title = V13, url = /wiki/V13, ns = 0)
 Title = 邪惡皇后 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1884
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2352 exists key = 8013_邪惡皇后
+2385 exists key = 8013_邪惡皇后
 ---------------------
-#2353 -> http://zh.tos.wikia.com/wiki/V14, (id = 140211, title = V14, url = /wiki/V14, ns = 0)
+#2386 -> http://zh.tos.wikia.com/wiki/V14, (id = 140211, title = V14, url = /wiki/V14, ns = 0)
 Title = 魔鏡皇后 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1866
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
-2353 exists key = 8014_魔鏡皇后
+2386 exists key = 8014_魔鏡皇后
 ---------------------
-#2354 -> http://zh.tos.wikia.com/wiki/V15, (id = 140212, title = V15, url = /wiki/V15, ns = 0)
+#2387 -> http://zh.tos.wikia.com/wiki/V15, (id = 140212, title = V15, url = /wiki/V15, ns = 0)
 Title = 妙妙貓 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1730
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2354 exists key = 8015_妙妙貓
+2387 exists key = 8015_妙妙貓
 ---------------------
-#2355 -> http://zh.tos.wikia.com/wiki/V16, (id = 140213, title = V16, url = /wiki/V16, ns = 0)
+#2388 -> http://zh.tos.wikia.com/wiki/V16, (id = 140213, title = V16, url = /wiki/V16, ns = 0)
 Title = 冥王哈帝斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1720
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2355 exists key = 8016_冥王哈帝斯
+2388 exists key = 8016_冥王哈帝斯
 ---------------------
-#2356 -> http://zh.tos.wikia.com/wiki/V17, (id = 140214, title = V17, url = /wiki/V17, ns = 0)
+#2389 -> http://zh.tos.wikia.com/wiki/V17, (id = 140214, title = V17, url = /wiki/V17, ns = 0)
 Title = 巫師賈方 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1723
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2356 exists key = 8017_巫師賈方
+2389 exists key = 8017_巫師賈方
 ---------------------
-#2357 -> http://zh.tos.wikia.com/wiki/V18, (id = 140217, title = V18, url = /wiki/V18, ns = 0)
+#2390 -> http://zh.tos.wikia.com/wiki/V18, (id = 140217, title = V18, url = /wiki/V18, ns = 0)
 Title = 匈奴將軍單于 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1721
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2357 exists key = 8018_匈奴將軍單于
+2390 exists key = 8018_匈奴將軍單于
 ---------------------
-#2358 -> http://zh.tos.wikia.com/wiki/V19, (id = 140218, title = V19, url = /wiki/V19, ns = 0)
+#2391 -> http://zh.tos.wikia.com/wiki/V19, (id = 140218, title = V19, url = /wiki/V19, ns = 0)
 Title = 篡奪者刀疤 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1720
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2358 exists key = 8019_篡奪者刀疤
+2391 exists key = 8019_篡奪者刀疤
 ---------------------
 ---------------------
 ---------------------
 ---------------------
-#2362 -> http://zh.tos.wikia.com/wiki/V20, (id = 140219, title = V20, url = /wiki/V20, ns = 0)
+#2395 -> http://zh.tos.wikia.com/wiki/V20, (id = 140219, title = V20, url = /wiki/V20, ns = 0)
 Title = 霍博士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1720
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2362 exists key = 8020_霍博士
+2395 exists key = 8020_霍博士
 ---------------------
-#2363 -> http://zh.tos.wikia.com/wiki/V21, (id = 140221, title = V21, url = /wiki/V21, ns = 0)
+#2396 -> http://zh.tos.wikia.com/wiki/V21, (id = 140221, title = V21, url = /wiki/V21, ns = 0)
 Title = 查立保 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1719
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2363 exists key = 8021_查立保
+2396 exists key = 8021_查立保
 ---------------------
-#2364 -> http://zh.tos.wikia.com/wiki/V22, (id = 140222, title = V22, url = /wiki/V22, ns = 0)
+#2397 -> http://zh.tos.wikia.com/wiki/V22, (id = 140222, title = V22, url = /wiki/V22, ns = 0)
 Title = 犄角魔王 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2051
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2364 exists key = 8022_犄角魔王
+2397 exists key = 8022_犄角魔王
 ---------------------
-#2365 -> http://zh.tos.wikia.com/wiki/V23, (id = 140224, title = V23, url = /wiki/V23, ns = 0)
+#2398 -> http://zh.tos.wikia.com/wiki/V23, (id = 140224, title = V23, url = /wiki/V23, ns = 0)
 Title = 梅菲瑟龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2055
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2365 exists key = 8023_梅菲瑟龍
+2398 exists key = 8023_梅菲瑟龍
 ---------------------
-#2366 -> http://zh.tos.wikia.com/wiki/V24, (id = 140225, title = V24, url = /wiki/V24, ns = 0)
+#2399 -> http://zh.tos.wikia.com/wiki/V24, (id = 140225, title = V24, url = /wiki/V24, ns = 0)
 Title = 約翰親王 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1795
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2366 exists key = 8024_約翰親王
+2399 exists key = 8024_約翰親王
 ---------------------
-#2367 -> http://zh.tos.wikia.com/wiki/V25, (id = 140226, title = V25, url = /wiki/V25, ns = 0)
+#2400 -> http://zh.tos.wikia.com/wiki/V25, (id = 140226, title = V25, url = /wiki/V25, ns = 0)
 Title = 巫毒好友 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1795
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2367 exists key = 8025_巫毒好友
+2400 exists key = 8025_巫毒好友
 ---------------------
-#2368 -> http://zh.tos.wikia.com/wiki/V26, (id = 140227, title = V26, url = /wiki/V26, ns = 0)
+#2401 -> http://zh.tos.wikia.com/wiki/V26, (id = 140227, title = V26, url = /wiki/V26, ns = 0)
 Title = 胡善與賈善 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2368 exists key = 8026_胡善與賈善
+2401 exists key = 8026_胡善與賈善
 ---------------------
-#2369 -> http://zh.tos.wikia.com/wiki/V27, (id = 140228, title = V27, url = /wiki/V27, ns = 0)
+#2402 -> http://zh.tos.wikia.com/wiki/V27, (id = 140228, title = V27, url = /wiki/V27, ns = 0)
 Title = 鱷魚滴噠 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2369 exists key = 8027_鱷魚滴噠
+2402 exists key = 8027_鱷魚滴噠
 ---------------------
-#2370 -> http://zh.tos.wikia.com/wiki/V28, (id = 140229, title = V28, url = /wiki/V28, ns = 0)
+#2403 -> http://zh.tos.wikia.com/wiki/V28, (id = 140229, title = V28, url = /wiki/V28, ns = 0)
 Title = 卡奧 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2370 exists key = 8028_卡奧
+2403 exists key = 8028_卡奧
 ---------------------
-#2371 -> http://zh.tos.wikia.com/wiki/V29, (id = 140230, title = V29, url = /wiki/V29, ns = 0)
+#2404 -> http://zh.tos.wikia.com/wiki/V29, (id = 140230, title = V29, url = /wiki/V29, ns = 0)
 Title = 艾格 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1795
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2371 exists key = 8029_艾格
+2404 exists key = 8029_艾格
 ---------------------
 ---------------------
-#2373 -> http://zh.tos.wikia.com/wiki/V30, (id = 140231, title = V30, url = /wiki/V30, ns = 0)
+#2406 -> http://zh.tos.wikia.com/wiki/V30, (id = 140231, title = V30, url = /wiki/V30, ns = 0)
 Title = 壞蛋烏鴉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1795
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2373 exists key = 8030_壞蛋烏鴉
+2406 exists key = 8030_壞蛋烏鴉
 ---------------------
-#2374 -> http://zh.tos.wikia.com/wiki/V31, (id = 140232, title = V31, url = /wiki/V31, ns = 0)
+#2407 -> http://zh.tos.wikia.com/wiki/V31, (id = 140232, title = V31, url = /wiki/V31, ns = 0)
 Title = 海頑童 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2374 exists key = 8031_海頑童
+2407 exists key = 8031_海頑童
 ---------------------
-#2375 -> http://zh.tos.wikia.com/wiki/V32, (id = 140234, title = V32, url = /wiki/V32, ns = 0)
+#2408 -> http://zh.tos.wikia.com/wiki/V32, (id = 140234, title = V32, url = /wiki/V32, ns = 0)
 Title = 淘氣海巫 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1772
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2375 exists key = 8032_淘氣海巫
+2408 exists key = 8032_淘氣海巫
 ---------------------
-#2376 -> http://zh.tos.wikia.com/wiki/V33, (id = 140235, title = V33, url = /wiki/V33, ns = 0)
+#2409 -> http://zh.tos.wikia.com/wiki/V33, (id = 140235, title = V33, url = /wiki/V33, ns = 0)
 Title = 沙漠刺客 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1784
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2376 exists key = 8033_沙漠刺客
+2409 exists key = 8033_沙漠刺客
 ---------------------
-#2377 -> http://zh.tos.wikia.com/wiki/V34, (id = 140237, title = V34, url = /wiki/V34, ns = 0)
+#2410 -> http://zh.tos.wikia.com/wiki/V34, (id = 140237, title = V34, url = /wiki/V34, ns = 0)
 Title = 沙漠巫師 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1771
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2377 exists key = 8034_沙漠巫師
+2410 exists key = 8034_沙漠巫師
 ---------------------
-#2378 -> http://zh.tos.wikia.com/wiki/V35, (id = 140238, title = V35, url = /wiki/V35, ns = 0)
+#2411 -> http://zh.tos.wikia.com/wiki/V35, (id = 140238, title = V35, url = /wiki/V35, ns = 0)
 Title = 小女巫 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1783
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2378 exists key = 8035_小女巫
+2411 exists key = 8035_小女巫
 ---------------------
-#2379 -> http://zh.tos.wikia.com/wiki/V36, (id = 140239, title = V36, url = /wiki/V36, ns = 0)
+#2412 -> http://zh.tos.wikia.com/wiki/V36, (id = 140239, title = V36, url = /wiki/V36, ns = 0)
 Title = 毒果女巫 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1770
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2379 exists key = 8036_毒果女巫
+2412 exists key = 8036_毒果女巫
 ---------------------
-#2380 -> http://zh.tos.wikia.com/wiki/V37, (id = 140241, title = V37, url = /wiki/V37, ns = 0)
+#2413 -> http://zh.tos.wikia.com/wiki/V37, (id = 140241, title = V37, url = /wiki/V37, ns = 0)
 Title = 古魔鏡 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1786
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2380 exists key = 8037_古魔鏡
+2413 exists key = 8037_古魔鏡
 ---------------------
-#2381 -> http://zh.tos.wikia.com/wiki/V38, (id = 140243, title = V38, url = /wiki/V38, ns = 0)
+#2414 -> http://zh.tos.wikia.com/wiki/V38, (id = 140243, title = V38, url = /wiki/V38, ns = 0)
 Title = 鬼魅魔鏡 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1773
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2381 exists key = 8038_鬼魅魔鏡
+2414 exists key = 8038_鬼魅魔鏡
 ---------------------
-#2382 -> http://zh.tos.wikia.com/wiki/V39, (id = 140244, title = V39, url = /wiki/V39, ns = 0)
+#2415 -> http://zh.tos.wikia.com/wiki/V39, (id = 140244, title = V39, url = /wiki/V39, ns = 0)
 Title = 匈奴斥侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1786
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2382 exists key = 8039_匈奴斥侯
+2415 exists key = 8039_匈奴斥侯
 ---------------------
-#2383 -> http://zh.tos.wikia.com/wiki/V40, (id = 140245, title = V40, url = /wiki/V40, ns = 0)
+#2416 -> http://zh.tos.wikia.com/wiki/V40, (id = 140245, title = V40, url = /wiki/V40, ns = 0)
 Title = 匈奴密探 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1773
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2383 exists key = 8040_匈奴密探
+2416 exists key = 8040_匈奴密探
 ---------------------
-#2384 -> http://zh.tos.wikia.com/wiki/V41, (id = 140246, title = V41, url = /wiki/V41, ns = 0)
+#2417 -> http://zh.tos.wikia.com/wiki/V41, (id = 140246, title = V41, url = /wiki/V41, ns = 0)
 Title = 織衫巫婆 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1799
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2384 exists key = 8041_織衫巫婆
+2417 exists key = 8041_織衫巫婆
 ---------------------
-#2385 -> http://zh.tos.wikia.com/wiki/V42, (id = 140247, title = V42, url = /wiki/V42, ns = 0)
+#2418 -> http://zh.tos.wikia.com/wiki/V42, (id = 140247, title = V42, url = /wiki/V42, ns = 0)
 Title = 紡紗巫婆 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1763
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2385 exists key = 8042_紡紗巫婆
+2418 exists key = 8042_紡紗巫婆
 ---------------------
-#2386 -> http://zh.tos.wikia.com/wiki/V43, (id = 140248, title = V43, url = /wiki/V43, ns = 0)
+#2419 -> http://zh.tos.wikia.com/wiki/V43, (id = 140248, title = V43, url = /wiki/V43, ns = 0)
 Title = 煉藥學徒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2386 exists key = 8043_煉藥學徒
+2419 exists key = 8043_煉藥學徒
 ---------------------
-#2387 -> http://zh.tos.wikia.com/wiki/V44, (id = 140249, title = V44, url = /wiki/V44, ns = 0)
+#2420 -> http://zh.tos.wikia.com/wiki/V44, (id = 140249, title = V44, url = /wiki/V44, ns = 0)
 Title = 煉毒藥師 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1755
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
-2387 exists key = 8044_煉毒藥師
+2420 exists key = 8044_煉毒藥師
 ---------------------
-#2388 -> http://zh.tos.wikia.com/wiki/V45, (id = 194314, title = V45, url = /wiki/V45, ns = 0)
+#2421 -> http://zh.tos.wikia.com/wiki/V45, (id = 194314, title = V45, url = /wiki/V45, ns = 0)
 Title = 大壞蛋彼德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2036
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2388 exists key = 8045_大壞蛋彼德
+2421 exists key = 8045_大壞蛋彼德
 ---------------------
 ---------------------
 ---------------------
@@ -18875,6 +18908,40 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 ---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+links: 9992 has %, 254 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
 2117 cards
 1945 cards not duplicate
