@@ -389,8 +389,9 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             IconInfo icf = iconInfo.get(1);
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
             if (icf.getName().equals(tds.get(at - 1))) {
-                info.awkStages.add(icf.getName());
-                info.awkStages.add(wikiBaseZh + icf.getLink());
+                info.awkStages.add(tds.get(anchors[ax] + 1)); // Skill name
+                info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
+                info.awkStages.add(wikiBaseZh + icf.getLink()); // battle link
             }
         }
     }

@@ -320,7 +320,8 @@ public class TosCardCreator {
         list = info.awkStages;
         if (list.size() > 0) {
             c.skillAwakenRecallName = list.get(0);
-            c.skillAwakenRecallBattleLink = list.get(1);
+            c.skillAwakenRecallBattleName = list.get(1);
+            c.skillAwakenRecallBattleLink = list.get(2);
         }
     }
 
