@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000}
-from gson, (12396 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (12398 items, basePath = http://zh.tos.wikia.com, offset = null)
 #0000 -> http://zh.tos.wikia.com/wiki/001, (id = 116891, title = 001, url = /wiki/001, ns = 0)
 Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
 anchors => [10, 53, 61, -1, -1, -1, 64, -1, -1, -1, 65] => 64
@@ -3577,7 +3577,7 @@ Title = 想心之戀鎖 ‧ 摩斯 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0893 -> http://zh.tos.wikia.com/wiki/1728, (id = 254133, title = 1728, url = /wiki/1728, ns = 0)
-Title = 最終焉算之鋼砲 ‧ 圖靈 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1804
+Title = 最終焉算之鋼砲 ‧ 圖靈 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1818
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0894 -> http://zh.tos.wikia.com/wiki/1729, (id = 254134, title = 1729, url = /wiki/1729, ns = 0)
@@ -6236,7 +6236,8 @@ Title = 不可能性現翼 ‧ 莫比烏斯(動態造型) | Tower of Saviors 維
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1556 -> http://zh.tos.wikia.com/wiki/6162, (id = 254145, title = 6162, url = /wiki/6162, ns = 0)
-Title = 6162 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1362
+Title = 最終焉算之鋼砲 ‧ 圖靈(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1830
+anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #1557 -> http://zh.tos.wikia.com/wiki/6163, (id = 254146, title = 6163, url = /wiki/6163, ns = 0)
 Title = 6163 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1362
@@ -8608,7 +8609,7 @@ anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2334 exists key = 0684_G-Dragon
 ---------------------
 #2335 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1800
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1854
 ---------------------
 #2336 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2016
@@ -8617,7 +8618,7 @@ Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wik
 Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1361
 ---------------------
 #2338 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1798
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
 ---------------------
 #2339 -> http://zh.tos.wikia.com/wiki/M01, (id = 140251, title = M01, url = /wiki/M01, ns = 0)
 Title = 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
@@ -8701,7 +8702,7 @@ Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6935
 ---------------------
 ---------------------
 #2358 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
-Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2632
+Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2665
 ---------------------
 #2359 -> http://zh.tos.wikia.com/wiki/P5, (id = 216666, title = P5, url = /wiki/P5, ns = 0)
 Title = 阿修羅王 ‧ 羅侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
@@ -18965,7 +18966,9 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 ---------------------
-links: 10004 has %, 254 are crafts
+---------------------
+---------------------
+links: 10006 has %, 254 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
-2120 cards
-1948 cards not duplicate
+2121 cards
+1949 cards not duplicate
