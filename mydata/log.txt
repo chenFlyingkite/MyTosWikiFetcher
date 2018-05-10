@@ -3581,7 +3581,7 @@ Title = 最終焉算之鋼砲 ‧ 圖靈 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0894 -> http://zh.tos.wikia.com/wiki/1729, (id = 254134, title = 1729, url = /wiki/1729, ns = 0)
-Title = 電裝烙雷芯 ‧ 法拉第 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1793
+Title = 電裝烙雷芯 ‧ 法拉第 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1807
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0895 -> http://zh.tos.wikia.com/wiki/173, (id = 117305, title = 173, url = /wiki/173, ns = 0)
@@ -6240,7 +6240,8 @@ Title = 最終焉算之鋼砲 ‧ 圖靈(動態造型) | Tower of Saviors 維基
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #1557 -> http://zh.tos.wikia.com/wiki/6163, (id = 254146, title = 6163, url = /wiki/6163, ns = 0)
-Title = 6163 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1362
+Title = 電裝烙雷芯 ‧ 法拉第(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1815
+anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #1558 -> http://zh.tos.wikia.com/wiki/6164, (id = 254866, title = 6164, url = /wiki/6164, ns = 0)
 Title = 萬世始皇帝 ‧ 嬴政(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2061
@@ -8696,18 +8697,14 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2353 exists key = 9015_世界的智慧 · 所羅門王
 ---------------------
 #2354 -> http://zh.tos.wikia.com/wiki/M2, (id = 205891, title = M2, url = /wiki/M2, ns = 0)
-Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6935
+Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6934
 ---------------------
 ---------------------
 ---------------------
 ---------------------
 #2358 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
-Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2665
 ---------------------
 #2359 -> http://zh.tos.wikia.com/wiki/P5, (id = 216666, title = P5, url = /wiki/P5, ns = 0)
-Title = 阿修羅王 ‧ 羅侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
-anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2359 exists key = 7005_阿修羅王 ‧ 羅侯
 ---------------------
 #2360 -> http://zh.tos.wikia.com/wiki/P6, (id = 214271, title = P6, url = /wiki/P6, ns = 0)
 Title = 善惡顛倒 ‧ 窮奇 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1796
@@ -18971,4 +18968,4 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 links: 10006 has %, 254 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
 2121 cards
-1949 cards not duplicate
+1950 cards not duplicate
