@@ -90,10 +90,10 @@ public class TosCardCreator {
 
         fillCommon(c, info);
         //-- Skill Active name #10
-        c.skillName = list.get(11);
-        c.skillCDMin = 0;
-        c.skillCDMax = 0;
-        c.skillDesc = list.get(12);
+        c.skillName1 = list.get(11);
+        c.skillCDMin1 = 0;
+        c.skillCDMax1 = 0;
+        c.skillDesc1 = list.get(12);
         //-- Skill Leader name #15
         fillSkillLeader(c, list.subList(14, 16));
 
@@ -366,10 +366,10 @@ public class TosCardCreator {
 
     private void fillSkillActive(TosCard c, List<String> list) {
         //-- Skill Active name #10
-        c.skillName = list.get(0);
-        c.skillCDMin = Integer.parseInt(list.get(1));
-        c.skillCDMax = Integer.parseInt(list.get(2));
-        c.skillDesc = list.get(3);
+        c.skillName1 = list.get(0);
+        c.skillCDMin1 = Integer.parseInt(list.get(1));
+        c.skillCDMax1 = Integer.parseInt(list.get(2));
+        c.skillDesc1 = list.get(3);
     }
 
     private void fillSkillActive2(TosCard c, List<String> list) {
