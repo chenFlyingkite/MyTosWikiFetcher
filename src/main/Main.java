@@ -1,8 +1,8 @@
 package main;
 
-import util.images.PngCreator;
-import util.images.PngRequest;
+import main.fetcher.TosWikiCardFetcher;
 import util.data.Rect2;
+import util.images.PngRequest;
 import util.logging.L;
 import util.tool.StringUtil;
 import util.tool.TicTac;
@@ -18,10 +18,10 @@ public class Main {
                 ;
         Rect2 r = Rect2.ofSize(340, 340);
         r.offset(69, 1740);
-        PngCreator.from(p).copy(r).eraseCorners()
-                .into("D:\\GitHub\\Logos\\Output\\1888n.png");
+//        PngCreator.from(p).copy(r).eraseCorners()
+//                .into("D:\\GitHub\\Logos\\Output\\1888n.png");
         //TosWikiIconFetcher.me.run();
-        //TosWikiCardFetcher.me.run();
+        TosWikiCardFetcher.me.run();
         //TosWikiFilePeeker.me.run();
         //TosWikiSummonerLevelFetcher.me.run();
         //TosWikiImageFileFetcher.me.run();
