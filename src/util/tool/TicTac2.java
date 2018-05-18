@@ -10,8 +10,10 @@ public class TicTac2 {
     private final Stack<Long> tictac = new Stack<>();
 
     protected boolean log = true;
+    protected boolean enable = true;
 
     public void tic() {
+        if (!enable) return;
         tictac.push(System.currentTimeMillis());
     }
 
@@ -20,6 +22,8 @@ public class TicTac2 {
     }
 
     public void tac(String msg) {
+        if (!enable) return;
+
         long tac = System.currentTimeMillis();
         if (tictac.empty()) {
             logError(tac, msg);
@@ -33,6 +37,10 @@ public class TicTac2 {
         }
         sb.append("[").append(tac - tic).append("] : ").append(msg);
         logTac(sb.toString());
+    }
+
+    public void enable(boolean enabled) {
+        enable = enabled;
     }
 
     public void reset() {
