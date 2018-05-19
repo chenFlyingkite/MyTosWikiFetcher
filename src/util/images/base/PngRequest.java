@@ -14,34 +14,6 @@ public class PngRequest {
 
     // Tracking performance
     protected TicTac2 mClock = new TicTac2();
-    protected boolean mClockLog = false;
-
-    public static class Param {
-        public File file;
-        public int w = -1; // -1 = Use parent's size
-        public int h = -1;
-
-        public Param(String name) {
-            this(new File(name));
-        }
-
-        public Param(File f) {
-            file = f;
-        }
-
-        public Param size(int width, int height) {
-            w = width;
-            h = height;
-            return this;
-        }
-
-        public Param copy() {
-            Param p = new Param(file.getAbsolutePath());
-            p.w = w;
-            p.h = h;
-            return p;
-        }
-    }
 
     /**
      * @return {@link BufferedImage} to output
@@ -50,6 +22,26 @@ public class PngRequest {
         return null;
     }
 
+
+    protected BufferedImage loadImage(String name) {
+        return loadImage(new File(name));
+    }
+
+
+    protected BufferedImage loadImage(File f) {
+        // Step : Load image by ImageIO
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(f);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return img;
+    }
+
+    protected int valueIfNegative(int value, int valueIfNeg) {
+        return value < 0 ? valueIfNeg : value;
+    }
 
     /**
      * {@link #into(File)}
@@ -63,12 +55,18 @@ public class PngRequest {
      * @param file for output
      */
     public void into(File file) {
+        into(getResultImage(), file);
+    }
+
+    protected void into(BufferedImage img, File file) {
         FileUtil.ensureDelete(file);
+        FileUtil.createFile(file);
 
         mClock.tic();
-        // Write to output
+        // Step : Write to output
         try {
-            ImageIO.write(getResultImage(), "png", file);
+
+            ImageIO.write(img, "png", file);
         } catch (IOException e) {
             e.printStackTrace();
         }

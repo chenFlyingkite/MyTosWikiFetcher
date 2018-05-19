@@ -1,36 +1,31 @@
 package util.images.create;
 
 import util.data.Rect2;
+import util.images.base.PngParam;
 import util.images.base.PngRequest;
 import util.logging.L;
 
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.IOException;
 import java.util.Arrays;
 
 public class PngCreateRequest extends PngRequest {
     private static final String TAG = "PngCreateRequest";
 
     // Main components
-    private Param reqParam;
+    private PngParam reqParam;
     private BufferedImage srcImg;
     private BufferedImage dstImg;
     private Rect2 allDstRect = new Rect2();
 
-    public PngCreateRequest(Param param) {
-        mClock.enable(mClockLog);
-        reqParam = param;
+    public PngCreateRequest(PngParam param) {
         File f = param.file;
+        reqParam = param;
 
+        mClock.enable(false); // print log or not
         mClock.tic();
-        // Load image of PNG
-        try {
-            srcImg = ImageIO.read(f);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // Step : Load image of PNG
+        srcImg = loadImage(f);
         mClock.tac("ImageIO read << " + f.getAbsolutePath());
 
         if (srcImg == null) {
@@ -38,14 +33,9 @@ public class PngCreateRequest extends PngRequest {
             return;
         }
 
-        int w = param.w;
-        if (w < 0) {
-            w = srcImg.getWidth();
-        }
-        int h = param.h;
-        if (h < 0) {
-            h = srcImg.getHeight();
-        }
+        int w = valueIfNegative(param.w, srcImg.getWidth());
+        int h = valueIfNegative(param.h, srcImg.getHeight());
+
         dstImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
         allDstRect.set(0, 0, w, h);
     }
@@ -73,7 +63,7 @@ public class PngCreateRequest extends PngRequest {
             return this;
         }
 
-        // Copy image
+        // Step : Copy image
         mClock.tic();
         for (int i = 0; i < w; i++) {
             for (int j = 0; j < h; j++) {
@@ -117,7 +107,7 @@ public class PngCreateRequest extends PngRequest {
         // *AAAAAAAAAAAAAAAAA*
 
         mClock.tic();
-        // Make 4 corners as transparent
+        // Step : Make 4 corners as transparent
         for (int i = 0; i < erase.length; i++) {
             for (int j = 0; j < erase[i]; j++) {
                 int pi = x + i;

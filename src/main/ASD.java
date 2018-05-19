@@ -2,6 +2,10 @@ package main;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
+import util.data.Rect2;
+import util.images.base.PngParam;
+import util.images.create.PngCreator;
+import util.images.diff.PngDiffer;
 import util.logging.L;
 import util.tool.IOUtil;
 import util.tool.TextUtil;
@@ -17,9 +21,37 @@ public class ASD {
     public static void run() {
         tt.reset();
         tt.tic();
-        file();
+        //file();
+        a();
         tt.tac("Done");
     }
+
+    private static void a() {
+        // Crop icon
+        PngParam p = new PngParam("Logos\\Source\\Screenshot_20180517-010049.png")
+                .size(340, 340)
+                ;
+        Rect2 r = Rect2.ofSize(340, 340);
+
+        //r.offsetTo(69, 894); //獎賞 , V
+        r.offsetTo(69, 1317); //累積簽到 (68, 1316)
+        //r.offsetTo(69, 1740); //我的禮包
+        PngCreator.from(p).copy(r).eraseCorners()
+                .into("Logos\\Output\\a\\n.png");
+
+        for (int i = 0; i < 6; i++) {
+            String name = "Logos\\Output\\a\\New folder\\" + i + ".png";
+            r.offsetTo(69, 894 + 422 * i);
+            PngCreator.from(p).copy(r).eraseCorners()
+                    .into(name);
+            L.log("created %s", name);
+        }
+
+        // Diff folder
+        PngParam dp = new PngParam("Logos\\Output\\a");
+        PngDiffer.from(dp).diff();
+    }
+
 
     private static void file() {
         String name = "C:/Users/Flyingkite/Desktop/sus";

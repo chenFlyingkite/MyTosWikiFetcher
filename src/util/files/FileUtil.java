@@ -1,6 +1,7 @@
 package util.files;
 
 import java.io.File;
+import java.io.IOException;
 
 public class FileUtil {
     private FileUtil() {}
@@ -39,6 +40,18 @@ public class FileUtil {
         return f == null || !f.exists();
     }
 
+    public static boolean createFile(File f) {
+        if (f == null) return false;
+
+        f.getParentFile().mkdirs();
+        boolean b = false;
+        try {
+            b = f.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return b;
+    }
 
     /**
      * Delete file, or folder with all files within it.
