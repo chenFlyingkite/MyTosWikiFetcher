@@ -51,6 +51,8 @@ public class PngDiffRequest extends PngRequest {
     }
 
     public void diff() {
+        if (imgA == null || imgB == null) return;
+
         final int wa = imgA.getWidth();
         final int ha = imgA.getHeight();
         final int wb = imgB.getWidth();
