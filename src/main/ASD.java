@@ -31,6 +31,7 @@ public class ASD {
         get_18_22();
         get_23_28();
         get_25_30();
+        getBig("Big", "Screenshot_20180521-095833.png", 12, 1337, 1);
         tt.tac("Done");
     }
 
@@ -59,6 +60,32 @@ public class ASD {
                 .into(base + "\\n.png");
 
         for (int i = 0; i < 6; i++) {
+            String name = base + "\\New folder\\" + i + ".png";
+            r.offsetTo(x, y + dy * i);
+            PngCreator.from(p).copy(r).eraseCorners()
+                    .into(name);
+            L.log("created %s", name);
+        }
+
+        // Diff folder
+        PngParam dp = new PngParam(base);
+        PngDiffer.from(dp).diff();
+    }
+
+    private static void getBig(String folder, String imageName, int sx, int sy, int cardN) {
+        final String base = "Logos\\Output\\" + folder;
+
+        // Crop icon
+        PngParam p = new PngParam("Logos\\Source\\" + imageName)
+                .size(820, 820)
+                ;
+        Rect2 r = Rect2.ofSize(820, 820);
+        final int x = sx, y = sy, dy = 422;
+        r.offsetTo(x, y);
+        PngCreator.from(p).copy(r).eraseCorners()
+                .into(base + "\\n.png");
+
+        for (int i = 0; i < cardN; i++) {
             String name = base + "\\New folder\\" + i + ".png";
             r.offsetTo(x, y + dy * i);
             PngCreator.from(p).copy(r).eraseCorners()
