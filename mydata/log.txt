@@ -54,7 +54,7 @@ Title = 男爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0013 -> http://zh.tos.wikia.com/wiki/014, (id = 116902, title = 014, url = /wiki/014, ns = 0)
-Title = 子爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
+Title = 子爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1853
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0014 -> http://zh.tos.wikia.com/wiki/015, (id = 116903, title = 015, url = /wiki/015, ns = 0)
@@ -62,7 +62,7 @@ Title = 伯爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0015 -> http://zh.tos.wikia.com/wiki/016, (id = 116904, title = 016, url = /wiki/016, ns = 0)
-Title = 侯爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1952
+Title = 侯爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1953
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0016 -> http://zh.tos.wikia.com/wiki/017, (id = 116905, title = 017, url = /wiki/017, ns = 0)
@@ -138,7 +138,7 @@ Title = 聖明真人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0034 -> http://zh.tos.wikia.com/wiki/035, (id = 116924, title = 035, url = /wiki/035, ns = 0)
-Title = 耀尊仙人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1874
+Title = 耀尊仙人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1875
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0035 -> http://zh.tos.wikia.com/wiki/036, (id = 116925, title = 036, url = /wiki/036, ns = 0)
@@ -154,7 +154,7 @@ Title = 幽陵真人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0038 -> http://zh.tos.wikia.com/wiki/039, (id = 116928, title = 039, url = /wiki/039, ns = 0)
-Title = 紫微妖仙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1860
+Title = 紫微妖仙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1861
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0039 -> http://zh.tos.wikia.com/wiki/040, (id = 116929, title = 040, url = /wiki/040, ns = 0)
@@ -242,7 +242,7 @@ Title = 森林地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0060 -> http://zh.tos.wikia.com/wiki/061, (id = 116950, title = 061, url = /wiki/061, ns = 0)
-Title = 碧石大地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1824
+Title = 碧石大地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1825
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0061 -> http://zh.tos.wikia.com/wiki/062, (id = 116951, title = 062, url = /wiki/062, ns = 0)
@@ -254,7 +254,7 @@ Title = 輝芒大地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0063 -> http://zh.tos.wikia.com/wiki/064, (id = 116953, title = 064, url = /wiki/064, ns = 0)
-Title = 黑暗地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1796
+Title = 黑暗地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1797
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0064 -> http://zh.tos.wikia.com/wiki/065, (id = 116954, title = 065, url = /wiki/065, ns = 0)
@@ -270,7 +270,7 @@ Title = 海躍精靈 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0067 -> http://zh.tos.wikia.com/wiki/068, (id = 116957, title = 068, url = /wiki/068, ns = 0)
-Title = 火精靈 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1803
+Title = 火精靈 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1804
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0068 -> http://zh.tos.wikia.com/wiki/069, (id = 116958, title = 069, url = /wiki/069, ns = 0)
@@ -306,7 +306,7 @@ Title = 冰蜥蜴戰士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0076 -> http://zh.tos.wikia.com/wiki/077, (id = 117022, title = 077, url = /wiki/077, ns = 0)
-Title = 冰河蜥蜴戰士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1823
+Title = 冰河蜥蜴戰士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1824
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0077 -> http://zh.tos.wikia.com/wiki/078, (id = 117023, title = 078, url = /wiki/078, ns = 0)
@@ -314,7 +314,7 @@ Title = 赤蜥蜴戰士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0078 -> http://zh.tos.wikia.com/wiki/079, (id = 117024, title = 079, url = /wiki/079, ns = 0)
-Title = 赤焰蜥蜴戰士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1822
+Title = 赤焰蜥蜴戰士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1823
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0079 -> http://zh.tos.wikia.com/wiki/080, (id = 117025, title = 080, url = /wiki/080, ns = 0)
@@ -398,12 +398,12 @@ Title = 燃燒史萊姆 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0099 -> http://zh.tos.wikia.com/wiki/1, (id = 2098, title = 1, url = /wiki/1, ns = 0)
-Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1888
+Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1889
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 99 exists key = 0001_莫莉
 ---------------------
 #0100 -> http://zh.tos.wikia.com/wiki/10, (id = 2148, title = 10, url = /wiki/10, ns = 0)
-Title = 牧者鄧肯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
+Title = 牧者鄧肯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1853
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 100 exists key = 0010_牧者鄧肯
 ---------------------
@@ -417,7 +417,7 @@ Title = 瘋頭劍聖 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0104 -> http://zh.tos.wikia.com/wiki/1001, (id = 213041, title = 1001, url = /wiki/1001, ns = 0)
-Title = 藍霜巨人 ‧ 絲卡蒂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1735
+Title = 藍霜巨人 ‧ 絲卡蒂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1736
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 59] => 59
 ---------------------
 #0105 -> http://zh.tos.wikia.com/wiki/1002, (id = 213042, title = 1002, url = /wiki/1002, ns = 0)
@@ -445,7 +445,7 @@ Title = 深潛惡鬼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0111 -> http://zh.tos.wikia.com/wiki/1008, (id = 210197, title = 1008, url = /wiki/1008, ns = 0)
-Title = 殭屍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1808
+Title = 殭屍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1809
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0112 -> http://zh.tos.wikia.com/wiki/1009, (id = 210198, title = 1009, url = /wiki/1009, ns = 0)
@@ -454,7 +454,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 ---------------------
 #0114 -> http://zh.tos.wikia.com/wiki/101, (id = 117110, title = 101, url = /wiki/101, ns = 0)
-Title = 翠綠史萊姆 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1825
+Title = 翠綠史萊姆 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1826
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0115 -> http://zh.tos.wikia.com/wiki/1010, (id = 210199, title = 1010, url = /wiki/1010, ns = 0)
@@ -478,7 +478,7 @@ Title = 骷髏兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0120 -> http://zh.tos.wikia.com/wiki/1015, (id = 210205, title = 1015, url = /wiki/1015, ns = 0)
-Title = 骷髏屠兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1804
+Title = 骷髏屠兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0121 -> http://zh.tos.wikia.com/wiki/1016, (id = 211612, title = 1016, url = /wiki/1016, ns = 0)
@@ -558,7 +558,7 @@ Title = 虎鯨德魯依 ‧ 阿羅哈 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0140 -> http://zh.tos.wikia.com/wiki/1033, (id = 213439, title = 1033, url = /wiki/1033, ns = 0)
-Title = 泊安娜 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1913
+Title = 泊安娜 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1914
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0141 -> http://zh.tos.wikia.com/wiki/1034, (id = 213440, title = 1034, url = /wiki/1034, ns = 0)
@@ -594,7 +594,7 @@ Title = 食夢貘德魯依 ‧ 蘇瑪塔 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0149 -> http://zh.tos.wikia.com/wiki/1041, (id = 213447, title = 1041, url = /wiki/1041, ns = 0)
-Title = 九天應元 ‧ 聞仲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1909
+Title = 九天應元 ‧ 聞仲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1910
 anchors => [10, 53, -1, 61, 71, -1, -1, 74, -1, -1, 75] => 71
 ---------------------
 #0150 -> http://zh.tos.wikia.com/wiki/1042, (id = 213448, title = 1042, url = /wiki/1042, ns = 0)
@@ -646,7 +646,7 @@ Title = 屠殺騎士 ‧ 貝爾賽克 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0162 -> http://zh.tos.wikia.com/wiki/1053, (id = 213463, title = 1053, url = /wiki/1053, ns = 0)
-Title = 瘟疫騎士 ‧ 塞浦路斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1737
+Title = 瘟疫騎士 ‧ 塞浦路斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1738
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0163 -> http://zh.tos.wikia.com/wiki/1054, (id = 213464, title = 1054, url = /wiki/1054, ns = 0)
@@ -658,7 +658,7 @@ Title = 衰老騎士 ‧ 奈普 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0165 -> http://zh.tos.wikia.com/wiki/1056, (id = 215774, title = 1056, url = /wiki/1056, ns = 0)
-Title = 史蜜莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1906
+Title = 史蜜莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1907
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0166 -> http://zh.tos.wikia.com/wiki/1057, (id = 215777, title = 1057, url = /wiki/1057, ns = 0)
@@ -698,7 +698,7 @@ Title = 諾爾維 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0175 -> http://zh.tos.wikia.com/wiki/1065, (id = 215792, title = 1065, url = /wiki/1065, ns = 0)
-Title = 不赦祭司 ‧ 諾爾維 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1913
+Title = 不赦祭司 ‧ 諾爾維 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1914
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0176 -> http://zh.tos.wikia.com/wiki/1066, (id = 215795, title = 1066, url = /wiki/1066, ns = 0)
@@ -734,7 +734,7 @@ Title = 愛葛莎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0184 -> http://zh.tos.wikia.com/wiki/1073, (id = 218118, title = 1073, url = /wiki/1073, ns = 0)
-Title = 巴爾德爾 ‧ 克利夫 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2060
+Title = 巴爾德爾 ‧ 克利夫 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2061
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0185 -> http://zh.tos.wikia.com/wiki/1074, (id = 217751, title = 1074, url = /wiki/1074, ns = 0)
@@ -774,7 +774,7 @@ Title = 萬龍帝君 ‧ 敖廣 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, 71, 73] => 71
 ---------------------
 #0194 -> http://zh.tos.wikia.com/wiki/1082, (id = 218325, title = 1082, url = /wiki/1082, ns = 0)
-Title = 孤高龍王 ‧ 敖廣 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1878
+Title = 孤高龍王 ‧ 敖廣 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1879
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, 71, -1, 74] => 71
 ---------------------
 #0195 -> http://zh.tos.wikia.com/wiki/1083, (id = 218326, title = 1083, url = /wiki/1083, ns = 0)
@@ -863,7 +863,7 @@ Title = 復仇魔君 ‧ 貝利爾 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0216 -> http://zh.tos.wikia.com/wiki/1101, (id = 221587, title = 1101, url = /wiki/1101, ns = 0)
-Title = 阿撒兹勒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1895
+Title = 阿撒兹勒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1896
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0217 -> http://zh.tos.wikia.com/wiki/1102, (id = 221588, title = 1102, url = /wiki/1102, ns = 0)
@@ -967,7 +967,7 @@ Title = 磷光骨龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0242 -> http://zh.tos.wikia.com/wiki/1125, (id = 223918, title = 1125, url = /wiki/1125, ns = 0)
-Title = 古鱗魔龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1735
+Title = 古鱗魔龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1736
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0243 -> http://zh.tos.wikia.com/wiki/1126, (id = 221597, title = 1126, url = /wiki/1126, ns = 0)
@@ -1027,7 +1027,7 @@ Title = 法那斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0257 -> http://zh.tos.wikia.com/wiki/1139, (id = 224168, title = 1139, url = /wiki/1139, ns = 0)
-Title = 熽焰火神 ‧ 法那斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1921
+Title = 熽焰火神 ‧ 法那斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1922
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0258 -> http://zh.tos.wikia.com/wiki/114, (id = 117246, title = 114, url = /wiki/114, ns = 0)
@@ -1063,11 +1063,11 @@ Title = 流水寧芙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0266 -> http://zh.tos.wikia.com/wiki/1147, (id = 224176, title = 1147, url = /wiki/1147, ns = 0)
-Title = 寧芙那伊阿得斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1755
+Title = 寧芙那伊阿得斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1756
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0267 -> http://zh.tos.wikia.com/wiki/1148, (id = 224177, title = 1148, url = /wiki/1148, ns = 0)
-Title = 燎火寧芙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1793
+Title = 燎火寧芙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1794
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0268 -> http://zh.tos.wikia.com/wiki/1149, (id = 224178, title = 1149, url = /wiki/1149, ns = 0)
@@ -1087,7 +1087,7 @@ Title = 寧芙墨利阿得斯 | Tower of Saviors 維基 | FANDOM powered by Wiki
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0272 -> http://zh.tos.wikia.com/wiki/1152, (id = 224181, title = 1152, url = /wiki/1152, ns = 0)
-Title = 光耀寧芙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1789
+Title = 光耀寧芙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1790
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0273 -> http://zh.tos.wikia.com/wiki/1153, (id = 224182, title = 1153, url = /wiki/1153, ns = 0)
@@ -1115,7 +1115,7 @@ Title = 天蛾人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0279 -> http://zh.tos.wikia.com/wiki/1159, (id = 225745, title = 1159, url = /wiki/1159, ns = 0)
-Title = 斬人賓尼兔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1739
+Title = 斬人賓尼兔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1740
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0280 -> http://zh.tos.wikia.com/wiki/116, (id = 117248, title = 116, url = /wiki/116, ns = 0)
@@ -1131,7 +1131,7 @@ Title = 時尚洪流 ‧ 雨依 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0283 -> http://zh.tos.wikia.com/wiki/1162, (id = 226019, title = 1162, url = /wiki/1162, ns = 0)
-Title = 嫉妒異教教主 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1739
+Title = 嫉妒異教教主 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1747
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0284 -> http://zh.tos.wikia.com/wiki/1163, (id = 229465, title = 1163, url = /wiki/1163, ns = 0)
@@ -1155,7 +1155,7 @@ Title = 明鏡之諜 ‧ 冰花 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 65, -1, -1, -1, -1, -1, -1, 75] => 75
 ---------------------
 #0289 -> http://zh.tos.wikia.com/wiki/1168, (id = 227049, title = 1168, url = /wiki/1168, ns = 0)
-Title = 洛可可 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1832
+Title = 洛可可 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1833
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0290 -> http://zh.tos.wikia.com/wiki/1169, (id = 227050, title = 1169, url = /wiki/1169, ns = 0)
@@ -1203,7 +1203,7 @@ Title = 毒霧蜘蛛 ‧ 安妮 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0301 -> http://zh.tos.wikia.com/wiki/1179, (id = 228250, title = 1179, url = /wiki/1179, ns = 0)
-Title = 秘寶收藏家 ‧ 張保仔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1738
+Title = 秘寶收藏家 ‧ 張保仔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1739
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0302 -> http://zh.tos.wikia.com/wiki/118, (id = 117250, title = 118, url = /wiki/118, ns = 0)
@@ -1215,7 +1215,7 @@ Title = 大海羅賓漢 ‧ 薩姆 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0304 -> http://zh.tos.wikia.com/wiki/1181, (id = 227057, title = 1181, url = /wiki/1181, ns = 0)
-Title = 龍神守天 ‧ 庫庫爾坎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1858
+Title = 龍神守天 ‧ 庫庫爾坎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1859
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0305 -> http://zh.tos.wikia.com/wiki/1182, (id = 227058, title = 1182, url = /wiki/1182, ns = 0)
@@ -1227,7 +1227,7 @@ Title = 龍靈覺醒 ‧ 皮拉圖斯 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0307 -> http://zh.tos.wikia.com/wiki/1184, (id = 227060, title = 1184, url = /wiki/1184, ns = 0)
-Title = 龍神伐義 ‧ 法芙尼爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1865
+Title = 龍神伐義 ‧ 法芙尼爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1866
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0308 -> http://zh.tos.wikia.com/wiki/1185, (id = 227061, title = 1185, url = /wiki/1185, ns = 0)
@@ -1239,7 +1239,7 @@ Title = 馴獸師 ‧ 寶寶 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0310 -> http://zh.tos.wikia.com/wiki/1187, (id = 227062, title = 1187, url = /wiki/1187, ns = 0)
-Title = 法則天秤 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1819
+Title = 法則天秤 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1820
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0311 -> http://zh.tos.wikia.com/wiki/1188, (id = 227063, title = 1188, url = /wiki/1188, ns = 0)
@@ -1308,7 +1308,7 @@ Title = 千日瘋頭 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0327 -> http://zh.tos.wikia.com/wiki/1201, (id = 228863, title = 1201, url = /wiki/1201, ns = 0)
-Title = 逗趣童心 ‧ 金貝貝 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1790
+Title = 逗趣童心 ‧ 金貝貝 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0328 -> http://zh.tos.wikia.com/wiki/1202, (id = 228864, title = 1202, url = /wiki/1202, ns = 0)
@@ -1316,7 +1316,7 @@ Title = 嬌蠻皇女 ‧ 莎拉公主 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0329 -> http://zh.tos.wikia.com/wiki/1203, (id = 228865, title = 1203, url = /wiki/1203, ns = 0)
-Title = 狡詐賭王 ‧ 大老千 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1793
+Title = 狡詐賭王 ‧ 大老千 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1794
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0330 -> http://zh.tos.wikia.com/wiki/1204, (id = 228866, title = 1204, url = /wiki/1204, ns = 0)
@@ -1340,7 +1340,7 @@ Title = 股市女神 ‧ 錢夫人 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0335 -> http://zh.tos.wikia.com/wiki/1209, (id = 229647, title = 1209, url = /wiki/1209, ns = 0)
-Title = 時來運到 ‧ 福神 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1711
+Title = 時來運到 ‧ 福神 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1712
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0336 -> http://zh.tos.wikia.com/wiki/121, (id = 117252, title = 121, url = /wiki/121, ns = 0)
@@ -1384,7 +1384,7 @@ Title = 真樸王者 ‧ 杜穆濟 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0346 -> http://zh.tos.wikia.com/wiki/1219, (id = 230663, title = 1219, url = /wiki/1219, ns = 0)
-Title = 甦醒之月 ‧ 伊南娜 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
+Title = 甦醒之月 ‧ 伊南娜 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1895
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0347 -> http://zh.tos.wikia.com/wiki/122, (id = 117254, title = 122, url = /wiki/122, ns = 0)
@@ -1392,7 +1392,7 @@ Title = 薇兒丹蒂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0348 -> http://zh.tos.wikia.com/wiki/1220, (id = 230664, title = 1220, url = /wiki/1220, ns = 0)
-Title = 破命疾神 ‧ 納姆塔爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1893
+Title = 破命疾神 ‧ 納姆塔爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0349 -> http://zh.tos.wikia.com/wiki/1221, (id = 230665, title = 1221, url = /wiki/1221, ns = 0)
@@ -1408,11 +1408,11 @@ Title = 鈴子 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0352 -> http://zh.tos.wikia.com/wiki/1224, (id = 230668, title = 1224, url = /wiki/1224, ns = 0)
-Title = 犬神護佑 ‧ 鈴子 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1772
+Title = 犬神護佑 ‧ 鈴子 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1773
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0353 -> http://zh.tos.wikia.com/wiki/1225, (id = 230669, title = 1225, url = /wiki/1225, ns = 0)
-Title = 哈沙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1822
+Title = 哈沙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1823
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0354 -> http://zh.tos.wikia.com/wiki/1226, (id = 230670, title = 1226, url = /wiki/1226, ns = 0)
@@ -1456,7 +1456,7 @@ Title = 野獸之聲 ‧ 歡歡 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0364 -> http://zh.tos.wikia.com/wiki/1235, (id = 233147, title = 1235, url = /wiki/1235, ns = 0)
-Title = 拜金獵手 ‧ 銀丸 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1738
+Title = 拜金獵手 ‧ 銀丸 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1739
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0365 -> http://zh.tos.wikia.com/wiki/1236, (id = 232254, title = 1236, url = /wiki/1236, ns = 0)
@@ -1484,7 +1484,7 @@ Title = 瑰洱 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0371 -> http://zh.tos.wikia.com/wiki/1241, (id = 232259, title = 1241, url = /wiki/1241, ns = 0)
-Title = 追念羇絆 ‧ 瑰洱 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1810
+Title = 追念羇絆 ‧ 瑰洱 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1811
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0372 -> http://zh.tos.wikia.com/wiki/1242, (id = 232260, title = 1242, url = /wiki/1242, ns = 0)
@@ -1500,7 +1500,7 @@ Title = 撒旦 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0375 -> http://zh.tos.wikia.com/wiki/1245, (id = 232263, title = 1245, url = /wiki/1245, ns = 0)
-Title = 放任孽魔 ‧ 撒旦 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1825
+Title = 放任孽魔 ‧ 撒旦 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1826
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0376 -> http://zh.tos.wikia.com/wiki/1246, (id = 232264, title = 1246, url = /wiki/1246, ns = 0)
@@ -1560,7 +1560,7 @@ Title = 宿怨鳥籠 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0390 -> http://zh.tos.wikia.com/wiki/1259, (id = 234304, title = 1259, url = /wiki/1259, ns = 0)
-Title = 閃靈照相機 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1741
+Title = 閃靈照相機 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1742
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0391 -> http://zh.tos.wikia.com/wiki/126, (id = 117256, title = 126, url = /wiki/126, ns = 0)
@@ -1580,7 +1580,7 @@ Title = 剛烈之矛 ‧ 烏列爾 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0395 -> http://zh.tos.wikia.com/wiki/1263, (id = 232251, title = 1263, url = /wiki/1263, ns = 0)
-Title = 垂憐之目 ‧ 沙利葉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1858
+Title = 垂憐之目 ‧ 沙利葉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1859
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0396 -> http://zh.tos.wikia.com/wiki/1264, (id = 232252, title = 1264, url = /wiki/1264, ns = 0)
@@ -1596,7 +1596,7 @@ Title = 魔血荊棘 ‧ 路易斯 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0399 -> http://zh.tos.wikia.com/wiki/1267, (id = 233852, title = 1267, url = /wiki/1267, ns = 0)
-Title = 白焰鎗火 ‧ 桃樂絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1874
+Title = 白焰鎗火 ‧ 桃樂絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1875
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0400 -> http://zh.tos.wikia.com/wiki/1268, (id = 233853, title = 1268, url = /wiki/1268, ns = 0)
@@ -1604,7 +1604,7 @@ Title = 貓霧盜賊團 ‧ 阿里巴巴 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0401 -> http://zh.tos.wikia.com/wiki/1269, (id = 233854, title = 1269, url = /wiki/1269, ns = 0)
-Title = 疾走精靈 ‧ 傑尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1893
+Title = 疾走精靈 ‧ 傑尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #0402 -> http://zh.tos.wikia.com/wiki/127, (id = 117257, title = 127, url = /wiki/127, ns = 0)
@@ -1656,7 +1656,7 @@ Title = 英靈殿侍女 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0414 -> http://zh.tos.wikia.com/wiki/1280, (id = 233865, title = 1280, url = /wiki/1280, ns = 0)
-Title = 劉備 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1831
+Title = 劉備 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1832
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0415 -> http://zh.tos.wikia.com/wiki/1281, (id = 233866, title = 1281, url = /wiki/1281, ns = 0)
@@ -1668,7 +1668,7 @@ Title = 司馬懿 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0417 -> http://zh.tos.wikia.com/wiki/1283, (id = 233870, title = 1283, url = /wiki/1283, ns = 0)
-Title = 彈指謀略 ‧ 司馬懿 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1797
+Title = 彈指謀略 ‧ 司馬懿 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1798
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0418 -> http://zh.tos.wikia.com/wiki/1284, (id = 233871, title = 1284, url = /wiki/1284, ns = 0)
@@ -1684,7 +1684,7 @@ Title = 孫權 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0421 -> http://zh.tos.wikia.com/wiki/1287, (id = 233874, title = 1287, url = /wiki/1287, ns = 0)
-Title = 僭逆王徒 ‧ 孫權 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1810
+Title = 僭逆王徒 ‧ 孫權 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1811
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0422 -> http://zh.tos.wikia.com/wiki/1288, (id = 233875, title = 1288, url = /wiki/1288, ns = 0)
@@ -1877,7 +1877,7 @@ Title = 命之燃燒 ‧ 潔琪 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, 71, -1, 73] => 71
 ---------------------
 #0469 -> http://zh.tos.wikia.com/wiki/133, (id = 117263, title = 133, url = /wiki/133, ns = 0)
-Title = 水舞劍神 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1934
+Title = 水舞劍神 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1935
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0470 -> http://zh.tos.wikia.com/wiki/1330, (id = 241060, title = 1330, url = /wiki/1330, ns = 0)
@@ -1961,7 +1961,8 @@ Title = 碧鉑鐳槍 ‧ 萊昂內爾 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0490 -> http://zh.tos.wikia.com/wiki/1349, (id = 255193, title = 1349, url = /wiki/1349, ns = 0)
-Title = 1349 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1365
+Title = 重裝聖盾 ‧ 萊昂內爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1746
+anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0491 -> http://zh.tos.wikia.com/wiki/135, (id = 117265, title = 135, url = /wiki/135, ns = 0)
 Title = 火焰戰士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1837
@@ -2048,7 +2049,7 @@ Title = 徹底械化 ‧ 蠻牛貳式 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0512 -> http://zh.tos.wikia.com/wiki/1369, (id = 251126, title = 1369, url = /wiki/1369, ns = 0)
-Title = 金屬教義 ‧ 莉莎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
+Title = 金屬教義 ‧ 莉莎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1846
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0513 -> http://zh.tos.wikia.com/wiki/137, (id = 117267, title = 137, url = /wiki/137, ns = 0)
@@ -2353,7 +2354,7 @@ Title = 傳令步兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0588 -> http://zh.tos.wikia.com/wiki/1445, (id = 237158, title = 1445, url = /wiki/1445, ns = 0)
-Title = 十字弓步兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1723
+Title = 十字弓步兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1724
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0589 -> http://zh.tos.wikia.com/wiki/1446, (id = 237159, title = 1446, url = /wiki/1446, ns = 0)
@@ -2417,7 +2418,7 @@ Title = 玩心騎士 ‧ 加雷斯 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0604 -> http://zh.tos.wikia.com/wiki/146, (id = 117276, title = 146, url = /wiki/146, ns = 0)
-Title = 冰耀巨像 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1804
+Title = 冰耀巨像 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0605 -> http://zh.tos.wikia.com/wiki/1460, (id = 237173, title = 1460, url = /wiki/1460, ns = 0)
@@ -2585,7 +2586,7 @@ Title = 夜櫻紛飛之嵐 ‧ 黃泉 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0646 -> http://zh.tos.wikia.com/wiki/1498, (id = 239425, title = 1498, url = /wiki/1498, ns = 0)
-Title = 百川海中主 ‧ 蛟龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2051
+Title = 百川海中主 ‧ 蛟龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2052
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0647 -> http://zh.tos.wikia.com/wiki/1499, (id = 239753, title = 1499, url = /wiki/1499, ns = 0)
@@ -2730,7 +2731,7 @@ Title = 耀盔大地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0682 -> http://zh.tos.wikia.com/wiki/153, (id = 117285, title = 153, url = /wiki/153, ns = 0)
-Title = 碧青巨像 ‧ 解放 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1812
+Title = 碧青巨像 ‧ 解放 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1813
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0683 -> http://zh.tos.wikia.com/wiki/1530, (id = 241070, title = 1530, url = /wiki/1530, ns = 0)
@@ -2814,7 +2815,7 @@ Title = 拉冬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0703 -> http://zh.tos.wikia.com/wiki/1549, (id = 241089, title = 1549, url = /wiki/1549, ns = 0)
-Title = 血染黑白 ‧ 天龍座拉冬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1800
+Title = 血染黑白 ‧ 天龍座拉冬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1801
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0704 -> http://zh.tos.wikia.com/wiki/155, (id = 117287, title = 155, url = /wiki/155, ns = 0)
@@ -3043,7 +3044,7 @@ anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 759 exists key = 0016_侯爵奈寶尼
 ---------------------
 #0760 -> http://zh.tos.wikia.com/wiki/160, (id = 117291, title = 160, url = /wiki/160, ns = 0)
-Title = 暗月夜龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1885
+Title = 暗月夜龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1886
 anchors => [10, 53, -1, 61, -1, 72, 71, -1, -1, -1, 74] => 71
 ---------------------
 #0761 -> http://zh.tos.wikia.com/wiki/1600, (id = 251499, title = 1600, url = /wiki/1600, ns = 0)
@@ -3171,11 +3172,11 @@ Title = 忠貞不渝 ‧ 利維坦 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0792 -> http://zh.tos.wikia.com/wiki/1629, (id = 249918, title = 1629, url = /wiki/1629, ns = 0)
-Title = 狂妄傲氣 ‧ 貝爾芬格 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1747
+Title = 狂妄傲氣 ‧ 貝爾芬格 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1748
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0793 -> http://zh.tos.wikia.com/wiki/163, (id = 117295, title = 163, url = /wiki/163, ns = 0)
-Title = 變異機械鯨鯊 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
+Title = 變異機械鯨鯊 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1846
 anchors => [10, 53, -1, -1, -1, 62, 61, -1, -1, -1, 64] => 61
 ---------------------
 #0794 -> http://zh.tos.wikia.com/wiki/1630, (id = 250656, title = 1630, url = /wiki/1630, ns = 0)
@@ -3239,11 +3240,11 @@ Title = 悖論創造 ‧ 道羅斯 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0809 -> http://zh.tos.wikia.com/wiki/1644, (id = 248950, title = 1644, url = /wiki/1644, ns = 0)
-Title = 阿撒托斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
+Title = 阿撒托斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1846
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0810 -> http://zh.tos.wikia.com/wiki/1645, (id = 248951, title = 1645, url = /wiki/1645, ns = 0)
-Title = 因果破壞 ‧ 阿撒托斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1838
+Title = 因果破壞 ‧ 阿撒托斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1839
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0811 -> http://zh.tos.wikia.com/wiki/1646, (id = 248952, title = 1646, url = /wiki/1646, ns = 0)
@@ -3271,7 +3272,7 @@ Title = 阿特拉克 ‧ 納克亞 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0817 -> http://zh.tos.wikia.com/wiki/1651, (id = 248957, title = 1651, url = /wiki/1651, ns = 0)
-Title = 灰暗擴散 ‧ 阿特拉克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1802
+Title = 灰暗擴散 ‧ 阿特拉克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1803
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0818 -> http://zh.tos.wikia.com/wiki/1652, (id = 248958, title = 1652, url = /wiki/1652, ns = 0)
@@ -3508,7 +3509,7 @@ Title = 血植異足 ‧ 鐵拐李 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0876 -> http://zh.tos.wikia.com/wiki/1704, (id = 252569, title = 1704, url = /wiki/1704, ns = 0)
-Title = 菡萏香銷 ‧ 何仙姑 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1793
+Title = 菡萏香銷 ‧ 何仙姑 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1794
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0877 -> http://zh.tos.wikia.com/wiki/1705, (id = 252570, title = 1705, url = /wiki/1705, ns = 0)
@@ -3604,7 +3605,7 @@ Title = 機鎧聯結 ‧ 貝塔與阿爾法 | Tower of Saviors 維基 | FANDOM p
 anchors => [10, 53, -1, -1, -1, 65, -1, -1, -1, -1, 67] => 65
 ---------------------
 #0900 -> http://zh.tos.wikia.com/wiki/1726, (id = 254131, title = 1726, url = /wiki/1726, ns = 0)
-Title = 不可能性現翼 ‧ 莫比烏斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1828
+Title = 不可能性現翼 ‧ 莫比烏斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1829
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0901 -> http://zh.tos.wikia.com/wiki/1727, (id = 254132, title = 1727, url = /wiki/1727, ns = 0)
@@ -3620,7 +3621,7 @@ Title = 電裝烙雷芯 ‧ 法拉第 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #0904 -> http://zh.tos.wikia.com/wiki/173, (id = 117305, title = 173, url = /wiki/173, ns = 0)
-Title = 機械豹 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1816
+Title = 機械豹 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1817
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0905 -> http://zh.tos.wikia.com/wiki/1730, (id = 254135, title = 1730, url = /wiki/1730, ns = 0)
@@ -3680,7 +3681,7 @@ Title = 破築的連創 ‧ 璐畢卡 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0919 -> http://zh.tos.wikia.com/wiki/1744, (id = 255029, title = 1744, url = /wiki/1744, ns = 0)
-Title = 使命恪守 ‧ 多魯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1760
+Title = 使命恪守 ‧ 多魯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1768
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0920 -> http://zh.tos.wikia.com/wiki/1746, (id = 255194, title = 1746, url = /wiki/1746, ns = 0)
@@ -3700,7 +3701,7 @@ anchors => [10, 53, -1, -1, -1, 62, 61, -1, -1, -1, 64] => 61
 Title = 1750 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1365
 ---------------------
 #0925 -> http://zh.tos.wikia.com/wiki/1751, (id = 255198, title = 1751, url = /wiki/1751, ns = 0)
-Title = 1751 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1365
+Title = 1751 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1366
 ---------------------
 #0926 -> http://zh.tos.wikia.com/wiki/1752, (id = 255199, title = 1752, url = /wiki/1752, ns = 0)
 Title = 1752 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1365
@@ -3743,7 +3744,7 @@ Title = 美杜莎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0936 -> http://zh.tos.wikia.com/wiki/184, (id = 117316, title = 184, url = /wiki/184, ns = 0)
-Title = 妖女美杜莎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1931
+Title = 妖女美杜莎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1932
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0937 -> http://zh.tos.wikia.com/wiki/185, (id = 117317, title = 185, url = /wiki/185, ns = 0)
@@ -3751,7 +3752,7 @@ Title = 鷹頭獸 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0938 -> http://zh.tos.wikia.com/wiki/186, (id = 117318, title = 186, url = /wiki/186, ns = 0)
-Title = 獅鷲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1839
+Title = 獅鷲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1840
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0939 -> http://zh.tos.wikia.com/wiki/187, (id = 117319, title = 187, url = /wiki/187, ns = 0)
@@ -3772,7 +3773,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 942 exists key = 0019_死靈術士安多
 ---------------------
 #0943 -> http://zh.tos.wikia.com/wiki/190, (id = 117322, title = 190, url = /wiki/190, ns = 0)
-Title = 惡魔巴風特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1936
+Title = 惡魔巴風特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1937
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0944 -> http://zh.tos.wikia.com/wiki/191, (id = 117324, title = 191, url = /wiki/191, ns = 0)
@@ -3804,7 +3805,7 @@ Title = 阿波羅 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0951 -> http://zh.tos.wikia.com/wiki/198, (id = 117330, title = 198, url = /wiki/198, ns = 0)
-Title = 光明之神阿波羅 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1924
+Title = 光明之神阿波羅 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1925
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0952 -> http://zh.tos.wikia.com/wiki/199, (id = 117321, title = 199, url = /wiki/199, ns = 0)
@@ -3827,7 +3828,7 @@ Title = 月之狩獵女神阿提密斯 | Tower of Saviors 維基 | FANDOM powere
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0957 -> http://zh.tos.wikia.com/wiki/201, (id = 117477, title = 201, url = /wiki/201, ns = 0)
-Title = 費雷 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1887
+Title = 費雷 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1888
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 ---------------------
@@ -3859,7 +3860,7 @@ Title = 索爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #0968 -> http://zh.tos.wikia.com/wiki/208, (id = 117485, title = 208, url = /wiki/208, ns = 0)
-Title = 轟天雷神索爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1932
+Title = 轟天雷神索爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1933
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0969 -> http://zh.tos.wikia.com/wiki/209, (id = 117484, title = 209, url = /wiki/209, ns = 0)
@@ -3876,7 +3877,7 @@ Title = 黃昏號角洛基 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #0972 -> http://zh.tos.wikia.com/wiki/211, (id = 117487, title = 211, url = /wiki/211, ns = 0)
-Title = 泰芙努特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1825
+Title = 泰芙努特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1826
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0973 -> http://zh.tos.wikia.com/wiki/212, (id = 117489, title = 212, url = /wiki/212, ns = 0)
@@ -3900,7 +3901,7 @@ Title = 天空之神 ‧ 舒 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, 61, 62, -1, -1, 64] => 61
 ---------------------
 #0978 -> http://zh.tos.wikia.com/wiki/217, (id = 117495, title = 217, url = /wiki/217, ns = 0)
-Title = 拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1837
+Title = 拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1838
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0979 -> http://zh.tos.wikia.com/wiki/218, (id = 117493, title = 218, url = /wiki/218, ns = 0)
@@ -3908,7 +3909,7 @@ Title = 太陽之子拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, 62, -1, -1, 64] => 61
 ---------------------
 #0980 -> http://zh.tos.wikia.com/wiki/219, (id = 117494, title = 219, url = /wiki/219, ns = 0)
-Title = 奧西利斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1834
+Title = 奧西利斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1835
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #0981 -> http://zh.tos.wikia.com/wiki/22, (id = 2160, title = 22, url = /wiki/22, ns = 0)
@@ -4011,7 +4012,7 @@ Title = 機械冥王龍 ‧ 萊瑞姆 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1005 -> http://zh.tos.wikia.com/wiki/241, (id = 117517, title = 241, url = /wiki/241, ns = 0)
-Title = 破碎之蒼魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1857
+Title = 破碎之蒼魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1858
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1006 -> http://zh.tos.wikia.com/wiki/242, (id = 117518, title = 242, url = /wiki/242, ns = 0)
@@ -4047,7 +4048,7 @@ Title = 重生之白魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1014 -> http://zh.tos.wikia.com/wiki/25, (id = 2163, title = 25, url = /wiki/25, ns = 0)
-Title = 火方士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1855
+Title = 火方士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1856
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1014 exists key = 0025_火方士
 ---------------------
@@ -4061,7 +4062,7 @@ Title = 共生之蒼魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1018 -> http://zh.tos.wikia.com/wiki/252, (id = 117526, title = 252, url = /wiki/252, ns = 0)
-Title = 共生之赤魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1853
+Title = 共生之赤魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1854
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1019 -> http://zh.tos.wikia.com/wiki/253, (id = 117529, title = 253, url = /wiki/253, ns = 0)
@@ -4069,7 +4070,7 @@ Title = 共生之青魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1020 -> http://zh.tos.wikia.com/wiki/254, (id = 117530, title = 254, url = /wiki/254, ns = 0)
-Title = 共生之白魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1854
+Title = 共生之白魂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1855
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1021 -> http://zh.tos.wikia.com/wiki/255, (id = 117533, title = 255, url = /wiki/255, ns = 0)
@@ -4179,7 +4180,7 @@ Title = 神聖靈魂石 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1047 -> http://zh.tos.wikia.com/wiki/279, (id = 117556, title = 279, url = /wiki/279, ns = 0)
-Title = 鬼魅靈魂石 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1841
+Title = 鬼魅靈魂石 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1842
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1048 -> http://zh.tos.wikia.com/wiki/28, (id = 2166, title = 28, url = /wiki/28, ns = 0)
@@ -4273,7 +4274,7 @@ Title = 龍裔 ‧ 梅格蘭斯 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1070 -> http://zh.tos.wikia.com/wiki/3, (id = 2100, title = 3, url = /wiki/3, ns = 0)
-Title = 水魔法師莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
+Title = 水魔法師莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1853
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1070 exists key = 0003_水魔法師莫莉
 ---------------------
@@ -4284,7 +4285,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1072 exists key = 0030_九地真人
 ---------------------
 #1073 -> http://zh.tos.wikia.com/wiki/300, (id = 117725, title = 300, url = /wiki/300, ns = 0)
-Title = 翠綠的蛋 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1825
+Title = 翠綠的蛋 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1826
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1074 -> http://zh.tos.wikia.com/wiki/301, (id = 117724, title = 301, url = /wiki/301, ns = 0)
@@ -4341,7 +4342,7 @@ Title = 火焰共生者 ‧ 克圖格亞 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1087 -> http://zh.tos.wikia.com/wiki/313, (id = 117737, title = 313, url = /wiki/313, ns = 0)
-Title = 風之異界龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1815
+Title = 風之異界龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1816
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1088 -> http://zh.tos.wikia.com/wiki/314, (id = 117739, title = 314, url = /wiki/314, ns = 0)
@@ -4353,7 +4354,7 @@ Title = 光之異界龍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1090 -> http://zh.tos.wikia.com/wiki/316, (id = 117740, title = 316, url = /wiki/316, ns = 0)
-Title = 招蕩的輝芒 ‧ 圖爾茲查 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1924
+Title = 招蕩的輝芒 ‧ 圖爾茲查 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1925
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1091 -> http://zh.tos.wikia.com/wiki/317, (id = 117741, title = 317, url = /wiki/317, ns = 0)
@@ -4451,7 +4452,7 @@ Title = 月耀公主 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1114 -> http://zh.tos.wikia.com/wiki/338, (id = 117763, title = 338, url = /wiki/338, ns = 0)
-Title = 夜影魔女 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1786
+Title = 夜影魔女 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1787
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1115 -> http://zh.tos.wikia.com/wiki/339, (id = 117764, title = 339, url = /wiki/339, ns = 0)
@@ -4496,7 +4497,7 @@ Title = 愛與恨的魔女 ‧ 美狄亞 | Tower of Saviors 維基 | FANDOM powe
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1125 -> http://zh.tos.wikia.com/wiki/348, (id = 117776, title = 348, url = /wiki/348, ns = 0)
-Title = 薩爾瑪提亞女皇 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1864
+Title = 薩爾瑪提亞女皇 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1865
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1126 -> http://zh.tos.wikia.com/wiki/349, (id = 117777, title = 349, url = /wiki/349, ns = 0)
@@ -4525,7 +4526,7 @@ Title = 鐵處女像 ‧ 浮士德 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1132 -> http://zh.tos.wikia.com/wiki/354, (id = 117783, title = 354, url = /wiki/354, ns = 0)
-Title = 貓公爵 ‧ 費利克斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1783
+Title = 貓公爵 ‧ 費利克斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1784
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1133 -> http://zh.tos.wikia.com/wiki/355, (id = 117782, title = 355, url = /wiki/355, ns = 0)
@@ -4672,7 +4673,7 @@ Title = 無頭小丑 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1168 -> http://zh.tos.wikia.com/wiki/387, (id = 117809, title = 387, url = /wiki/387, ns = 0)
-Title = 午夜之丑角 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1844
+Title = 午夜之丑角 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1845
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1169 -> http://zh.tos.wikia.com/wiki/388, (id = 117817, title = 388, url = /wiki/388, ns = 0)
@@ -4754,7 +4755,7 @@ Title = 夜言歌姬 ‧ 希 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 ---------------------
 #1190 -> http://zh.tos.wikia.com/wiki/403, (id = 118801, title = 403, url = /wiki/403, ns = 0)
-Title = 波拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1803
+Title = 波拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1804
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1191 -> http://zh.tos.wikia.com/wiki/404, (id = 118800, title = 404, url = /wiki/404, ns = 0)
@@ -4774,7 +4775,7 @@ Title = 拉彌亞 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1195 -> http://zh.tos.wikia.com/wiki/408, (id = 118792, title = 408, url = /wiki/408, ns = 0)
-Title = 大魔導士莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1950
+Title = 大魔導士莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1951
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1196 -> http://zh.tos.wikia.com/wiki/409, (id = 118790, title = 409, url = /wiki/409, ns = 0)
@@ -4791,7 +4792,7 @@ Title = 大地霸主鄧肯 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1199 -> http://zh.tos.wikia.com/wiki/411, (id = 118788, title = 411, url = /wiki/411, ns = 0)
-Title = 公爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1935
+Title = 公爵奈寶尼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1936
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1200 -> http://zh.tos.wikia.com/wiki/412, (id = 118793, title = 412, url = /wiki/412, ns = 0)
@@ -4807,7 +4808,7 @@ Title = 龍儀姬 ‧ 烏蘇拉 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1203 -> http://zh.tos.wikia.com/wiki/415, (id = 118785, title = 415, url = /wiki/415, ns = 0)
-Title = 赤龍魂使 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1893
+Title = 赤龍魂使 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1204 -> http://zh.tos.wikia.com/wiki/416, (id = 118784, title = 416, url = /wiki/416, ns = 0)
@@ -4819,7 +4820,7 @@ Title = 青龍魂使 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1206 -> http://zh.tos.wikia.com/wiki/418, (id = 118782, title = 418, url = /wiki/418, ns = 0)
-Title = 龍儀姬 ‧ 芭芭拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1919
+Title = 龍儀姬 ‧ 芭芭拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1920
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1207 -> http://zh.tos.wikia.com/wiki/419, (id = 118781, title = 419, url = /wiki/419, ns = 0)
@@ -4844,7 +4845,7 @@ Title = 龍脈者 ‧ 諾瓦利斯 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1212 -> http://zh.tos.wikia.com/wiki/423, (id = 118777, title = 423, url = /wiki/423, ns = 0)
-Title = 異域法眼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1809
+Title = 異域法眼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1810
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1213 -> http://zh.tos.wikia.com/wiki/424, (id = 118776, title = 424, url = /wiki/424, ns = 0)
@@ -4942,7 +4943,7 @@ Title = 道法飄蟲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1236 -> http://zh.tos.wikia.com/wiki/445, (id = 118758, title = 445, url = /wiki/445, ns = 0)
-Title = 修道雛鴨 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1790
+Title = 修道雛鴨 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1791
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1237 -> http://zh.tos.wikia.com/wiki/446, (id = 118757, title = 446, url = /wiki/446, ns = 0)
@@ -4995,7 +4996,7 @@ Title = 星佑法師愛莉絲 | Tower of Saviors 維基 | FANDOM powered by Wiki
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1249 -> http://zh.tos.wikia.com/wiki/457, (id = 118746, title = 457, url = /wiki/457, ns = 0)
-Title = 管狐飼者瑪莉曼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1776
+Title = 管狐飼者瑪莉曼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1777
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1250 -> http://zh.tos.wikia.com/wiki/458, (id = 118745, title = 458, url = /wiki/458, ns = 0)
@@ -5012,7 +5013,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, 62, -1, -1, 64] => 61
 1252 exists key = 0046_硝鐵火龍
 ---------------------
 #1253 -> http://zh.tos.wikia.com/wiki/460, (id = 118743, title = 460, url = /wiki/460, ns = 0)
-Title = 鍊金巫師莉莉絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1776
+Title = 鍊金巫師莉莉絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1777
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1254 -> http://zh.tos.wikia.com/wiki/461, (id = 118742, title = 461, url = /wiki/461, ns = 0)
@@ -5028,7 +5029,7 @@ Title = 木靈栽者 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1257 -> http://zh.tos.wikia.com/wiki/464, (id = 118739, title = 464, url = /wiki/464, ns = 0)
-Title = 聖裁勇者 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1796
+Title = 聖裁勇者 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1797
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1258 -> http://zh.tos.wikia.com/wiki/465, (id = 118738, title = 465, url = /wiki/465, ns = 0)
@@ -5065,7 +5066,7 @@ Title = 罌花新娘 ‧ 貝莉 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1266 -> http://zh.tos.wikia.com/wiki/472, (id = 118729, title = 472, url = /wiki/472, ns = 0)
-Title = 紳士傑克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1911
+Title = 紳士傑克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1912
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1267 -> http://zh.tos.wikia.com/wiki/473, (id = 118730, title = 473, url = /wiki/473, ns = 0)
@@ -5077,7 +5078,7 @@ Title = 理髮魔偶陶德 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1269 -> http://zh.tos.wikia.com/wiki/475, (id = 118728, title = 475, url = /wiki/475, ns = 0)
-Title = 戲謔小丑 ‧ 陶德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1914
+Title = 戲謔小丑 ‧ 陶德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1915
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1270 -> http://zh.tos.wikia.com/wiki/476, (id = 118727, title = 476, url = /wiki/476, ns = 0)
@@ -5147,7 +5148,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, 62, -1, -1, 64] => 61
 1285 exists key = 0049_靈山龍龜
 ---------------------
 #1286 -> http://zh.tos.wikia.com/wiki/490, (id = 118001, title = 490, url = /wiki/490, ns = 0)
-Title = 暗龍牙棋 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1799
+Title = 暗龍牙棋 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1800
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1287 -> http://zh.tos.wikia.com/wiki/491, (id = 117997, title = 491, url = /wiki/491, ns = 0)
@@ -5159,7 +5160,7 @@ Title = 狂人三月兔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1289 -> http://zh.tos.wikia.com/wiki/493, (id = 117999, title = 493, url = /wiki/493, ns = 0)
-Title = 建言者書頁蟲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1719
+Title = 建言者書頁蟲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1720
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1290 -> http://zh.tos.wikia.com/wiki/494, (id = 117996, title = 494, url = /wiki/494, ns = 0)
@@ -5183,7 +5184,7 @@ Title = 福德神寵 ‧ 笑犬 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1295 -> http://zh.tos.wikia.com/wiki/499, (id = 117991, title = 499, url = /wiki/499, ns = 0)
-Title = 怒顏守護犬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1876
+Title = 怒顏守護犬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1877
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1296 -> http://zh.tos.wikia.com/wiki/5, (id = 2143, title = 5, url = /wiki/5, ns = 0)
@@ -5207,7 +5208,7 @@ Title = 韶光仙獸 ‧ 年 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1302 -> http://zh.tos.wikia.com/wiki/502, (id = 127271, title = 502, url = /wiki/502, ns = 0)
-Title = 覓果幻獸 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1825
+Title = 覓果幻獸 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1826
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1303 -> http://zh.tos.wikia.com/wiki/503, (id = 127780, title = 503, url = /wiki/503, ns = 0)
@@ -5231,7 +5232,7 @@ Title = 烈火懲責 ‧ 提爾 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, 72, -1, 74] => 71
 ---------------------
 #1308 -> http://zh.tos.wikia.com/wiki/508, (id = 119251, title = 508, url = /wiki/508, ns = 0)
-Title = 唁魂之喚 ‧ 費蕾雅 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2027
+Title = 唁魂之喚 ‧ 費蕾雅 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2028
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, 72, -1, 74] => 71
 ---------------------
 #1309 -> http://zh.tos.wikia.com/wiki/509, (id = 119252, title = 509, url = /wiki/509, ns = 0)
@@ -5260,11 +5261,11 @@ Title = 震巽靈帝 ‧ 玄武 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1315 -> http://zh.tos.wikia.com/wiki/514, (id = 127275, title = 514, url = /wiki/514, ns = 0)
-Title = 离坤獸皇 ‧ 白虎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1890
+Title = 离坤獸皇 ‧ 白虎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1891
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1316 -> http://zh.tos.wikia.com/wiki/515, (id = 127276, title = 515, url = /wiki/515, ns = 0)
-Title = 兌中邪帝 ‧ 饕餮 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1908
+Title = 兌中邪帝 ‧ 饕餮 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1909
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1317 -> http://zh.tos.wikia.com/wiki/516, (id = 127277, title = 516, url = /wiki/516, ns = 0)
@@ -5334,7 +5335,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1332 exists key = 0053_無頭龍
 ---------------------
 #1333 -> http://zh.tos.wikia.com/wiki/530, (id = 127407, title = 530, url = /wiki/530, ns = 0)
-Title = 順風耳 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1815
+Title = 順風耳 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1816
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1334 -> http://zh.tos.wikia.com/wiki/531, (id = 127408, title = 531, url = /wiki/531, ns = 0)
@@ -5395,7 +5396,7 @@ Title = 靈寶天尊 ‧ 通天教主 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1348 -> http://zh.tos.wikia.com/wiki/544, (id = 130451, title = 544, url = /wiki/544, ns = 0)
-Title = 異界使者 ‧ 花蕊夫人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1727
+Title = 異界使者 ‧ 花蕊夫人 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1728
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1349 -> http://zh.tos.wikia.com/wiki/545, (id = 130450, title = 545, url = /wiki/545, ns = 0)
@@ -5411,7 +5412,7 @@ Title = 腹蛇異兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1352 -> http://zh.tos.wikia.com/wiki/548, (id = 127436, title = 548, url = /wiki/548, ns = 0)
-Title = 異神之胎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1734
+Title = 異神之胎 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1735
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1353 -> http://zh.tos.wikia.com/wiki/549, (id = 127437, title = 549, url = /wiki/549, ns = 0)
@@ -5477,11 +5478,11 @@ Title = 奈亞拉托提普 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1368 -> http://zh.tos.wikia.com/wiki/562, (id = 127455, title = 562, url = /wiki/562, ns = 0)
-Title = 黃衣魅影 ‧ 哈斯塔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2051
+Title = 黃衣魅影 ‧ 哈斯塔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2052
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1369 -> http://zh.tos.wikia.com/wiki/563, (id = 133303, title = 563, url = /wiki/563, ns = 0)
-Title = 負罪役夫 ‧ 尼祿 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1743
+Title = 負罪役夫 ‧ 尼祿 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1744
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1370 -> http://zh.tos.wikia.com/wiki/564, (id = 153451, title = 564, url = /wiki/564, ns = 0)
@@ -5493,7 +5494,7 @@ Title = 趨炎之手‧ 紅袍皇后 | Tower of Saviors 維基 | FANDOM powered 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1372 -> http://zh.tos.wikia.com/wiki/566, (id = 139913, title = 566, url = /wiki/566, ns = 0)
-Title = 龍冠占星蛙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1761
+Title = 龍冠占星蛙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1762
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1373 -> http://zh.tos.wikia.com/wiki/567, (id = 139914, title = 567, url = /wiki/567, ns = 0)
@@ -5575,7 +5576,7 @@ Title = 堅甲守軍 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1392 -> http://zh.tos.wikia.com/wiki/584, (id = 144143, title = 584, url = /wiki/584, ns = 0)
-Title = 龍牙主教 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1756
+Title = 龍牙主教 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1757
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1393 -> http://zh.tos.wikia.com/wiki/585, (id = 144144, title = 585, url = /wiki/585, ns = 0)
@@ -5644,7 +5645,7 @@ Title = 焚魔學者 ‧ 阿涅茜 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, 72, 71, -1, -1, -1, 74] => 71
 ---------------------
 #1409 -> http://zh.tos.wikia.com/wiki/6, (id = 2144, title = 6, url = /wiki/6, ns = 0)
-Title = 高級劍士肖恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
+Title = 高級劍士肖恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1853
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1409 exists key = 0006_高級劍士肖恩
 ---------------------
@@ -5654,11 +5655,11 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1410 exists key = 0060_森林地精
 ---------------------
 #1411 -> http://zh.tos.wikia.com/wiki/600, (id = 152842, title = 600, url = /wiki/600, ns = 0)
-Title = 風動傀儡 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1936
+Title = 風動傀儡 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1937
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1412 -> http://zh.tos.wikia.com/wiki/6001, (id = 171487, title = 6001, url = /wiki/6001, ns = 0)
-Title = 幽怨新娘 ‧ 烏爾德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1890
+Title = 幽怨新娘 ‧ 烏爾德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1891
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1413 -> http://zh.tos.wikia.com/wiki/6002, (id = 171492, title = 6002, url = /wiki/6002, ns = 0)
@@ -5670,11 +5671,11 @@ Title = 甜酒血族 ‧ 薇兒丹蒂 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1415 -> http://zh.tos.wikia.com/wiki/6004, (id = 170033, title = 6004, url = /wiki/6004, ns = 0)
-Title = 聖殿死者 ‧ 伊登 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1903
+Title = 聖殿死者 ‧ 伊登 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1904
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1416 -> http://zh.tos.wikia.com/wiki/6005, (id = 170215, title = 6005, url = /wiki/6005, ns = 0)
-Title = 獵巫死者 ‧ 布倫希爾德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1909
+Title = 獵巫死者 ‧ 布倫希爾德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1910
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1417 -> http://zh.tos.wikia.com/wiki/6006, (id = 176081, title = 6006, url = /wiki/6006, ns = 0)
@@ -5686,7 +5687,7 @@ Title = 冬日暖燈 ‧ 梅格蘭斯 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1419 -> http://zh.tos.wikia.com/wiki/6008, (id = 176088, title = 6008, url = /wiki/6008, ns = 0)
-Title = 七彩琉璃 ‧ 伊薇特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1936
+Title = 七彩琉璃 ‧ 伊薇特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1937
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1420 -> http://zh.tos.wikia.com/wiki/6009, (id = 176578, title = 6009, url = /wiki/6009, ns = 0)
@@ -5707,7 +5708,7 @@ Title = 賢明魔導 ‧ 主任莫莉 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #1425 -> http://zh.tos.wikia.com/wiki/6012, (id = 194274, title = 6012, url = /wiki/6012, ns = 0)
-Title = 龍焰熱忱 ‧ 班長肖恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1946
+Title = 龍焰熱忱 ‧ 班長肖恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1947
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1426 -> http://zh.tos.wikia.com/wiki/6013, (id = 199069, title = 6013, url = /wiki/6013, ns = 0)
@@ -5739,7 +5740,7 @@ Title = 妖精皇 闇黑基姆雷特(造型) | Tower of Saviors 維基 | FANDOM 
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #1433 -> http://zh.tos.wikia.com/wiki/602, (id = 152846, title = 602, url = /wiki/602, ns = 0)
-Title = 莉莎 ‧ 畢法露 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1934
+Title = 莉莎 ‧ 畢法露 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1935
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1434 -> http://zh.tos.wikia.com/wiki/6020, (id = 219431, title = 6020, url = /wiki/6020, ns = 0)
@@ -6009,7 +6010,7 @@ Title = 機甲小妹 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1501 -> http://zh.tos.wikia.com/wiki/6081, (id = 242463, title = 6081, url = /wiki/6081, ns = 0)
-Title = 烈陽赤炎 ‧ 草薙京(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1848
+Title = 烈陽赤炎 ‧ 草薙京(動態造型) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1849
 anchors => [10, 53, -1, 61, -1, -1, -1, -1, -1, -1, 71] => 71
 ---------------------
 #1502 -> http://zh.tos.wikia.com/wiki/6082, (id = 242464, title = 6082, url = /wiki/6082, ns = 0)
@@ -6210,7 +6211,7 @@ Title = 離經叛道 ‧ 張角(動態造型) | Tower of Saviors 維基 | FANDOM
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1551 -> http://zh.tos.wikia.com/wiki/614, (id = 152870, title = 614, url = /wiki/614, ns = 0)
-Title = T.O.P | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1758
+Title = T.O.P | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1759
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1552 -> http://zh.tos.wikia.com/wiki/6140, (id = 252296, title = 6140, url = /wiki/6140, ns = 0)
@@ -6391,7 +6392,7 @@ Title = 木法沙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1596 -> http://zh.tos.wikia.com/wiki/628, (id = 160821, title = 628, url = /wiki/628, ns = 0)
-Title = 勇猛的木法沙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1837
+Title = 勇猛的木法沙 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1838
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1597 -> http://zh.tos.wikia.com/wiki/629, (id = 160822, title = 629, url = /wiki/629, ns = 0)
@@ -6399,7 +6400,7 @@ Title = 部落首領 ‧ 木法沙 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1598 -> http://zh.tos.wikia.com/wiki/63, (id = 2225, title = 63, url = /wiki/63, ns = 0)
-Title = 輝芒大地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1824
+Title = 輝芒大地精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1825
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1598 exists key = 0063_輝芒大地精
 ---------------------
@@ -6432,7 +6433,7 @@ Title = 式神 ‧ 大鯢鬼 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1606 -> http://zh.tos.wikia.com/wiki/637, (id = 160830, title = 637, url = /wiki/637, ns = 0)
-Title = 式神 ‧ 焚泣女 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1730
+Title = 式神 ‧ 焚泣女 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1731
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1607 -> http://zh.tos.wikia.com/wiki/638, (id = 160831, title = 638, url = /wiki/638, ns = 0)
@@ -6522,7 +6523,7 @@ Title = 格蕾琴與海森堡 ‧ 戰鯨吐息 | Tower of Saviors 維基 | FANDO
 anchors => [10, 53, -1, 65, -1, 74, -1, -1, -1, -1, 76] => 74
 ---------------------
 #1628 -> http://zh.tos.wikia.com/wiki/657, (id = 168161, title = 657, url = /wiki/657, ns = 0)
-Title = 阿涅茜 ‧ 龍焰吞噬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1851
+Title = 阿涅茜 ‧ 龍焰吞噬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
 anchors => [10, 53, -1, 65, -1, 74, -1, -1, -1, -1, 76] => 74
 ---------------------
 #1629 -> http://zh.tos.wikia.com/wiki/658, (id = 168162, title = 658, url = /wiki/658, ns = 0)
@@ -6575,7 +6576,7 @@ Title = 碧青靈神兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, 65, -1, 74, -1, -1, -1, -1, 76] => 74
 ---------------------
 #1641 -> http://zh.tos.wikia.com/wiki/669, (id = 168168, title = 669, url = /wiki/669, ns = 0)
-Title = 聖靈巨神兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1832
+Title = 聖靈巨神兵 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1833
 anchors => [10, 53, -1, 65, -1, 74, -1, -1, -1, -1, 76] => 74
 ---------------------
 #1642 -> http://zh.tos.wikia.com/wiki/67, (id = 2229, title = 67, url = /wiki/67, ns = 0)
@@ -6678,11 +6679,11 @@ Title = 邪譽承傳 ‧ 暗影劍豪 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #1666 -> http://zh.tos.wikia.com/wiki/691, (id = 172698, title = 691, url = /wiki/691, ns = 0)
-Title = 雨僮 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1729
+Title = 雨僮 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1730
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1667 -> http://zh.tos.wikia.com/wiki/692, (id = 172697, title = 692, url = /wiki/692, ns = 0)
-Title = 輪入道 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1729
+Title = 輪入道 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1730
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1668 -> http://zh.tos.wikia.com/wiki/693, (id = 172696, title = 693, url = /wiki/693, ns = 0)
@@ -6694,7 +6695,7 @@ Title = 豆腐小僧 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1670 -> http://zh.tos.wikia.com/wiki/695, (id = 172694, title = 695, url = /wiki/695, ns = 0)
-Title = 二口女 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1729
+Title = 二口女 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1730
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1671 -> http://zh.tos.wikia.com/wiki/696, (id = 172693, title = 696, url = /wiki/696, ns = 0)
@@ -6804,7 +6805,7 @@ Title = 怪盜黑手黨 ‧ 史古基 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1697 -> http://zh.tos.wikia.com/wiki/706, (id = 175762, title = 706, url = /wiki/706, ns = 0)
-Title = 怒濤海妖 ‧ 波拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1756
+Title = 怒濤海妖 ‧ 波拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1757
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1698 -> http://zh.tos.wikia.com/wiki/707, (id = 175763, title = 707, url = /wiki/707, ns = 0)
@@ -6845,7 +6846,7 @@ Title = 死亡藝術家 ‧ 傑克 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, 73, -1, 75] => 71
 ---------------------
 #1707 -> http://zh.tos.wikia.com/wiki/715, (id = 175771, title = 715, url = /wiki/715, ns = 0)
-Title = 蝕夢啃魂者 ‧ 陶德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2043
+Title = 蝕夢啃魂者 ‧ 陶德 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2044
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, 73, -1, 75] => 71
 ---------------------
 #1708 -> http://zh.tos.wikia.com/wiki/716, (id = 175772, title = 716, url = /wiki/716, ns = 0)
@@ -6951,7 +6952,7 @@ Title = 薨志神賢 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1733 -> http://zh.tos.wikia.com/wiki/739, (id = 175865, title = 739, url = /wiki/739, ns = 0)
-Title = 永恆之槍 ‧ 主神奧丁 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1922
+Title = 永恆之槍 ‧ 主神奧丁 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1923
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, 62, -1, 64] => 61
 ---------------------
 #1734 -> http://zh.tos.wikia.com/wiki/74, (id = 2236, title = 74, url = /wiki/74, ns = 0)
@@ -6960,7 +6961,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1734 exists key = 0074_夜精靈
 ---------------------
 #1735 -> http://zh.tos.wikia.com/wiki/740, (id = 182282, title = 740, url = /wiki/740, ns = 0)
-Title = 獨酌酒神 ‧ 泰奧尼修斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1859
+Title = 獨酌酒神 ‧ 泰奧尼修斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1860
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1736 -> http://zh.tos.wikia.com/wiki/741, (id = 185944, title = 741, url = /wiki/741, ns = 0)
@@ -6996,7 +6997,7 @@ Title = 拓跋玉兒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1744 -> http://zh.tos.wikia.com/wiki/749, (id = 180261, title = 749, url = /wiki/749, ns = 0)
-Title = 神農奇鼎 ‧ 拓跋玉兒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1879
+Title = 神農奇鼎 ‧ 拓跋玉兒 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1880
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1745 -> http://zh.tos.wikia.com/wiki/75, (id = 2237, title = 75, url = /wiki/75, ns = 0)
@@ -7119,7 +7120,7 @@ Title = 安卡 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1774 -> http://zh.tos.wikia.com/wiki/776, (id = 180292, title = 776, url = /wiki/776, ns = 0)
-Title = 寒冰魔將 ‧ 藍魔神 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1723
+Title = 寒冰魔將 ‧ 藍魔神 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1724
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1775 -> http://zh.tos.wikia.com/wiki/777, (id = 180291, title = 777, url = /wiki/777, ns = 0)
@@ -7140,7 +7141,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 1778 exists key = 0078_赤蜥蜴戰士
 ---------------------
 #1779 -> http://zh.tos.wikia.com/wiki/780, (id = 180288, title = 780, url = /wiki/780, ns = 0)
-Title = 魔軀靈心 ‧ 獨孤寧珂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1728
+Title = 魔軀靈心 ‧ 獨孤寧珂 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1729
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1780 -> http://zh.tos.wikia.com/wiki/781, (id = 180295, title = 781, url = /wiki/781, ns = 0)
@@ -7221,11 +7222,11 @@ Title = 瓦維爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1799 -> http://zh.tos.wikia.com/wiki/799, (id = 185925, title = 799, url = /wiki/799, ns = 0)
-Title = 罪孽霸龍 ‧ 瓦維爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1922
+Title = 罪孽霸龍 ‧ 瓦維爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1923
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1800 -> http://zh.tos.wikia.com/wiki/8, (id = 2146, title = 8, url = /wiki/8, ns = 0)
-Title = 紅蓮劍士肖恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1952
+Title = 紅蓮劍士肖恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1953
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 1800 exists key = 0008_紅蓮劍士肖恩
 ---------------------
@@ -7283,7 +7284,7 @@ Title = 大祭司伊絲瑪 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1814 -> http://zh.tos.wikia.com/wiki/8011, (id = 144207, title = 8011, url = /wiki/8011, ns = 0)
-Title = 虎克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1887
+Title = 虎克 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1888
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1815 -> http://zh.tos.wikia.com/wiki/8012, (id = 144208, title = 8012, url = /wiki/8012, ns = 0)
@@ -7299,7 +7300,7 @@ Title = 魔鏡皇后 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1818 -> http://zh.tos.wikia.com/wiki/8015, (id = 144211, title = 8015, url = /wiki/8015, ns = 0)
-Title = 妙妙貓 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1733
+Title = 妙妙貓 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1734
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1819 -> http://zh.tos.wikia.com/wiki/8016, (id = 144212, title = 8016, url = /wiki/8016, ns = 0)
@@ -7319,7 +7320,7 @@ Title = 篡奪者刀疤 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1823 -> http://zh.tos.wikia.com/wiki/802, (id = 191584, title = 802, url = /wiki/802, ns = 0)
-Title = 智慧者 ‧ 阿特拉哈西斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1948
+Title = 智慧者 ‧ 阿特拉哈西斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1949
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1824 -> http://zh.tos.wikia.com/wiki/8020, (id = 144216, title = 8020, url = /wiki/8020, ns = 0)
@@ -7331,7 +7332,7 @@ Title = 查立保 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1826 -> http://zh.tos.wikia.com/wiki/8022, (id = 144222, title = 8022, url = /wiki/8022, ns = 0)
-Title = 犄角魔王 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2054
+Title = 犄角魔王 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2055
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1827 -> http://zh.tos.wikia.com/wiki/8023, (id = 144223, title = 8023, url = /wiki/8023, ns = 0)
@@ -7367,7 +7368,7 @@ Title = 尼努爾塔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1835 -> http://zh.tos.wikia.com/wiki/8030, (id = 144230, title = 8030, url = /wiki/8030, ns = 0)
-Title = 壞蛋烏鴉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1798
+Title = 壞蛋烏鴉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1799
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1836 -> http://zh.tos.wikia.com/wiki/8031, (id = 144231, title = 8031, url = /wiki/8031, ns = 0)
@@ -7407,7 +7408,7 @@ Title = 匈奴斥侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1845 -> http://zh.tos.wikia.com/wiki/804, (id = 191586, title = 804, url = /wiki/804, ns = 0)
-Title = 暴風軍神 ‧ 尼努爾塔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1945
+Title = 暴風軍神 ‧ 尼努爾塔 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1946
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1846 -> http://zh.tos.wikia.com/wiki/8040, (id = 144240, title = 8040, url = /wiki/8040, ns = 0)
@@ -7439,7 +7440,7 @@ Title = 杜穆濟 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1853 -> http://zh.tos.wikia.com/wiki/806, (id = 191588, title = 806, url = /wiki/806, ns = 0)
-Title = 牧者國王 ‧ 杜穆濟 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1948
+Title = 牧者國王 ‧ 杜穆濟 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1949
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1854 -> http://zh.tos.wikia.com/wiki/807, (id = 191589, title = 807, url = /wiki/807, ns = 0)
@@ -7476,7 +7477,7 @@ Title = 豐收與知識女神 ‧ 尼沙巴 | Tower of Saviors 維基 | FANDOM p
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1862 -> http://zh.tos.wikia.com/wiki/814, (id = 191596, title = 814, url = /wiki/814, ns = 0)
-Title = 眾生之母 ‧ 寧胡爾薩格 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1715
+Title = 眾生之母 ‧ 寧胡爾薩格 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1716
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1863 -> http://zh.tos.wikia.com/wiki/815, (id = 191597, title = 815, url = /wiki/815, ns = 0)
@@ -7488,7 +7489,7 @@ Title = 勇氣白羊 ‧ 波比 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, 71, -1, -1, 74, -1, -1, 75] => 71
 ---------------------
 #1865 -> http://zh.tos.wikia.com/wiki/817, (id = 191599, title = 817, url = /wiki/817, ns = 0)
-Title = 狂戰金牛 ‧ 阿姆士唐 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2008
+Title = 狂戰金牛 ‧ 阿姆士唐 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2009
 anchors => [10, 53, -1, 61, 71, -1, -1, 74, -1, -1, 75] => 71
 ---------------------
 #1866 -> http://zh.tos.wikia.com/wiki/818, (id = 191600, title = 818, url = /wiki/818, ns = 0)
@@ -7509,7 +7510,7 @@ Title = 奮戰獅子 ‧ 加里昂 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, 71, -1, -1, 74, -1, -1, 75] => 71
 ---------------------
 #1870 -> http://zh.tos.wikia.com/wiki/821, (id = 191603, title = 821, url = /wiki/821, ns = 0)
-Title = 見守處女 ‧ 普西芬妮 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2003
+Title = 見守處女 ‧ 普西芬妮 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2004
 anchors => [10, 53, -1, 61, 71, -1, -1, 74, -1, -1, 75] => 71
 ---------------------
 #1871 -> http://zh.tos.wikia.com/wiki/822, (id = 191604, title = 822, url = /wiki/822, ns = 0)
@@ -7517,7 +7518,7 @@ Title = 公義天秤 ‧ 露娜 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, 71, -1, -1, 74, -1, -1, 75] => 71
 ---------------------
 #1872 -> http://zh.tos.wikia.com/wiki/823, (id = 191605, title = 823, url = /wiki/823, ns = 0)
-Title = 敏銳天蠍 ‧ 艾瑪 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2019
+Title = 敏銳天蠍 ‧ 艾瑪 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2020
 anchors => [10, 53, -1, 61, 71, -1, -1, 74, -1, -1, 75] => 71
 ---------------------
 #1873 -> http://zh.tos.wikia.com/wiki/824, (id = 191606, title = 824, url = /wiki/824, ns = 0)
@@ -7566,7 +7567,7 @@ Title = 火劍守衛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1884 -> http://zh.tos.wikia.com/wiki/834, (id = 191614, title = 834, url = /wiki/834, ns = 0)
-Title = 焰劍守衛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1761
+Title = 焰劍守衛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1762
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1885 -> http://zh.tos.wikia.com/wiki/835, (id = 191615, title = 835, url = /wiki/835, ns = 0)
@@ -7574,7 +7575,7 @@ Title = 木斧守衛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1886 -> http://zh.tos.wikia.com/wiki/836, (id = 191616, title = 836, url = /wiki/836, ns = 0)
-Title = 樹斧守衛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1755
+Title = 樹斧守衛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1756
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1887 -> http://zh.tos.wikia.com/wiki/837, (id = 191617, title = 837, url = /wiki/837, ns = 0)
@@ -7611,7 +7612,7 @@ Title = 八岐的牲禮公主 櫛名田 | Tower of Saviors 維基 | FANDOM power
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1895 -> http://zh.tos.wikia.com/wiki/844, (id = 197679, title = 844, url = /wiki/844, ns = 0)
-Title = 天后 媽祖 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1729
+Title = 天后 媽祖 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1730
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1896 -> http://zh.tos.wikia.com/wiki/845, (id = 197680, title = 845, url = /wiki/845, ns = 0)
@@ -7689,7 +7690,7 @@ Title = 憂懼獅獸 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1914 -> http://zh.tos.wikia.com/wiki/861, (id = 195192, title = 861, url = /wiki/861, ns = 0)
-Title = 千千 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1889
+Title = 千千 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1890
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1915 -> http://zh.tos.wikia.com/wiki/862, (id = 195193, title = 862, url = /wiki/862, ns = 0)
@@ -7697,7 +7698,7 @@ Title = 舞孃陀螺 ‧ 千千 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1916 -> http://zh.tos.wikia.com/wiki/863, (id = 195194, title = 863, url = /wiki/863, ns = 0)
-Title = 克拉拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1895
+Title = 克拉拉 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1896
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1917 -> http://zh.tos.wikia.com/wiki/864, (id = 195195, title = 864, url = /wiki/864, ns = 0)
@@ -7721,7 +7722,7 @@ Title = 發條玩具 ‧ 鐵皮的哈梅爾 | Tower of Saviors 維基 | FANDOM p
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1922 -> http://zh.tos.wikia.com/wiki/869, (id = 195200, title = 869, url = /wiki/869, ns = 0)
-Title = 莫里斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1893
+Title = 莫里斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1894
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1923 -> http://zh.tos.wikia.com/wiki/87, (id = 2346, title = 87, url = /wiki/87, ns = 0)
@@ -7738,7 +7739,7 @@ Title = 鐵皮小鴨騎士 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1926 -> http://zh.tos.wikia.com/wiki/872, (id = 195203, title = 872, url = /wiki/872, ns = 0)
-Title = 鐵皮小豬騎士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1718
+Title = 鐵皮小豬騎士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1719
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1927 -> http://zh.tos.wikia.com/wiki/873, (id = 195204, title = 873, url = /wiki/873, ns = 0)
@@ -7746,7 +7747,7 @@ Title = 鐵皮羊駝騎士 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1928 -> http://zh.tos.wikia.com/wiki/874, (id = 195205, title = 874, url = /wiki/874, ns = 0)
-Title = 鐵皮蜂鳥騎士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1718
+Title = 鐵皮蜂鳥騎士 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1719
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1929 -> http://zh.tos.wikia.com/wiki/875, (id = 195206, title = 875, url = /wiki/875, ns = 0)
@@ -7791,7 +7792,7 @@ Title = 紅帽繼主 | Tower of Saviors 維基 | FANDOM powered by Wikia, Childr
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1939 -> http://zh.tos.wikia.com/wiki/884, (id = 200886, title = 884, url = /wiki/884, ns = 0)
-Title = 紅帽火槍手 ‧ 桃樂絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1967
+Title = 紅帽火槍手 ‧ 桃樂絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1968
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1940 -> http://zh.tos.wikia.com/wiki/885, (id = 200887, title = 885, url = /wiki/885, ns = 0)
@@ -7811,7 +7812,7 @@ Title = 許願靈使 ‧ 傑尼 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #1944 -> http://zh.tos.wikia.com/wiki/889, (id = 200891, title = 889, url = /wiki/889, ns = 0)
-Title = 快樂王子 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1947
+Title = 快樂王子 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1948
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1945 -> http://zh.tos.wikia.com/wiki/89, (id = 2348, title = 89, url = /wiki/89, ns = 0)
@@ -7950,7 +7951,7 @@ Title = 李憶如 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #1978 -> http://zh.tos.wikia.com/wiki/904, (id = 203487, title = 904, url = /wiki/904, ns = 0)
-Title = 御靈聖女 ‧ 李憶如 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1958
+Title = 御靈聖女 ‧ 李憶如 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1959
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #1979 -> http://zh.tos.wikia.com/wiki/905, (id = 203489, title = 905, url = /wiki/905, ns = 0)
@@ -8036,7 +8037,7 @@ Title = 蜀門半妖 ‧ 南宮煌 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #1999 -> http://zh.tos.wikia.com/wiki/923, (id = 203512, title = 923, url = /wiki/923, ns = 0)
-Title = 望舒射日 ‧ 雲天河 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1797
+Title = 望舒射日 ‧ 雲天河 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1798
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #2000 -> http://zh.tos.wikia.com/wiki/924, (id = 203513, title = 924, url = /wiki/924, ns = 0)
@@ -8052,15 +8053,15 @@ Title = 精精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2003 -> http://zh.tos.wikia.com/wiki/927, (id = 203516, title = 927, url = /wiki/927, ns = 0)
-Title = 飛龍探雲手 ‧ 精精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1814
+Title = 飛龍探雲手 ‧ 精精 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1815
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2004 -> http://zh.tos.wikia.com/wiki/928, (id = 203517, title = 928, url = /wiki/928, ns = 0)
-Title = 風、雅、頌 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1834
+Title = 風、雅、頌 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1835
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2005 -> http://zh.tos.wikia.com/wiki/929, (id = 203518, title = 929, url = /wiki/929, ns = 0)
-Title = 一靈三魂 ‧ 風、雅、頌 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1814
+Title = 一靈三魂 ‧ 風、雅、頌 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1815
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2006 -> http://zh.tos.wikia.com/wiki/93, (id = 2352, title = 93, url = /wiki/93, ns = 0)
@@ -8109,12 +8110,12 @@ Title = 大祭司 ‧ 拜月教主 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #2017 -> http://zh.tos.wikia.com/wiki/94, (id = 2353, title = 94, url = /wiki/94, ns = 0)
-Title = 小魔女莉莉絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1805
+Title = 小魔女莉莉絲 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1806
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 2017 exists key = 0094_小魔女莉莉絲
 ---------------------
 #2018 -> http://zh.tos.wikia.com/wiki/940, (id = 203531, title = 940, url = /wiki/940, ns = 0)
-Title = 夜叉謀士 ‧ 魔翳 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2109
+Title = 夜叉謀士 ‧ 魔翳 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2110
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #2019 -> http://zh.tos.wikia.com/wiki/941, (id = 207521, title = 941, url = /wiki/941, ns = 0)
@@ -8167,7 +8168,7 @@ Title = 顧惜之翼 ‧ 沙利葉 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #2031 -> http://zh.tos.wikia.com/wiki/952, (id = 207532, title = 952, url = /wiki/952, ns = 0)
-Title = 耀光看守者 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1959
+Title = 耀光看守者 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1960
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #2032 -> http://zh.tos.wikia.com/wiki/953, (id = 207533, title = 953, url = /wiki/953, ns = 0)
@@ -8183,7 +8184,7 @@ Title = 睿智之翼 ‧ 拉貴爾 | Tower of Saviors 維基 | FANDOM powered by
 anchors => [10, 53, -1, 61, -1, -1, 71, 72, -1, -1, 74] => 71
 ---------------------
 #2035 -> http://zh.tos.wikia.com/wiki/956, (id = 207536, title = 956, url = /wiki/956, ns = 0)
-Title = 墮落之羽 ‧ 憂懼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1823
+Title = 墮落之羽 ‧ 憂懼 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1824
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, -1, 63] => 61
 ---------------------
 #2036 -> http://zh.tos.wikia.com/wiki/957, (id = 207537, title = 957, url = /wiki/957, ns = 0)
@@ -8204,7 +8205,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 2039 exists key = 0096_水史萊姆
 ---------------------
 #2040 -> http://zh.tos.wikia.com/wiki/960, (id = 208249, title = 960, url = /wiki/960, ns = 0)
-Title = 墮落之羽 ‧ 冷漠 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1827
+Title = 墮落之羽 ‧ 冷漠 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1828
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, -1, 63] => 61
 ---------------------
 #2041 -> http://zh.tos.wikia.com/wiki/961, (id = 207981, title = 961, url = /wiki/961, ns = 0)
@@ -8240,7 +8241,7 @@ Title = 學徒沃爾特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2049 -> http://zh.tos.wikia.com/wiki/969, (id = 207541, title = 969, url = /wiki/969, ns = 0)
-Title = 僧侶沃爾特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1817
+Title = 僧侶沃爾特 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1818
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2050 -> http://zh.tos.wikia.com/wiki/97, (id = 2356, title = 97, url = /wiki/97, ns = 0)
@@ -8249,7 +8250,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 2050 exists key = 0097_液態史萊姆
 ---------------------
 #2051 -> http://zh.tos.wikia.com/wiki/970, (id = 207542, title = 970, url = /wiki/970, ns = 0)
-Title = 學徒布賴恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1847
+Title = 學徒布賴恩 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1848
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2052 -> http://zh.tos.wikia.com/wiki/971, (id = 207543, title = 971, url = /wiki/971, ns = 0)
@@ -8273,7 +8274,7 @@ Title = 術士亞歷克斯 | Tower of Saviors 維基 | FANDOM powered by Wikia, 
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 ---------------------
 #2057 -> http://zh.tos.wikia.com/wiki/976, (id = 207548, title = 976, url = /wiki/976, ns = 0)
-Title = 星辰之翼 ‧ 梅塔特隆 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2125
+Title = 星辰之翼 ‧ 梅塔特隆 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2126
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #2058 -> http://zh.tos.wikia.com/wiki/977, (id = 207549, title = 977, url = /wiki/977, ns = 0)
@@ -8298,7 +8299,7 @@ Title = 忠誠守護犬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Chi
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #2063 -> http://zh.tos.wikia.com/wiki/981, (id = 210173, title = 981, url = /wiki/981, ns = 0)
-Title = 領路神寵 ‧ 忠犬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1851
+Title = 領路神寵 ‧ 忠犬 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #2064 -> http://zh.tos.wikia.com/wiki/982, (id = 210174, title = 982, url = /wiki/982, ns = 0)
@@ -8318,7 +8319,7 @@ Title = 看顧神寵 ‧ 仁犬 | Tower of Saviors 維基 | FANDOM powered by Wi
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #2068 -> http://zh.tos.wikia.com/wiki/986, (id = 210180, title = 986, url = /wiki/986, ns = 0)
-Title = 詩嘉古爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1898
+Title = 詩嘉古爾 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1899
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 ---------------------
 #2069 -> http://zh.tos.wikia.com/wiki/987, (id = 210182, title = 987, url = /wiki/987, ns = 0)
@@ -8381,7 +8382,7 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 #2085 -> http://zh.tos.wikia.com/wiki/B.Duck, (id = 205746, title = B.Duck, url = /wiki/B.Duck, ns = 0)
-Title = B.Duck | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2635
+Title = B.Duck | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2636
 ---------------------
 #2086 -> http://zh.tos.wikia.com/wiki/BIGBANG, (id = 157219, title = BIGBANG, url = /wiki/BIGBANG, ns = 0)
 Title = BIGBANG元素師 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 4066
@@ -8650,7 +8651,7 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2345 exists key = 0611_DAESUNG
 ---------------------
 #2346 -> http://zh.tos.wikia.com/wiki/DAESUNG(676), (id = 172926, title = DAESUNG(676), url = /wiki/DAESUNG(676), ns = 0)
-Title = DAESUNG(676) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1801
+Title = DAESUNG(676) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1809
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2346 exists key = 0676_DAESUNG
 ---------------------
@@ -8659,10 +8660,10 @@ Title = Downfall | Tower of Saviors 維基 | FANDOM powered by Wikia, Children =
 ---------------------
 ---------------------
 #2349 -> http://zh.tos.wikia.com/wiki/Follow_The_Black_Rabbit, (id = 240252, title = Follow The Black Rabbit, url = /wiki/Follow_The_Black_Rabbit, ns = 0)
-Title = Follow The Black Rabbit | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1362
+Title = Follow The Black Rabbit | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1363
 ---------------------
 #2350 -> http://zh.tos.wikia.com/wiki/G-Dragon, (id = 152873, title = G-Dragon, url = /wiki/G-Dragon, ns = 0)
-Title = G-Dragon | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1756
+Title = G-Dragon | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1757
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2350 exists key = 0615_G-Dragon
 ---------------------
@@ -8678,13 +8679,13 @@ Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1852
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2019
 ---------------------
 #2354 -> http://zh.tos.wikia.com/wiki/I_will_never_let_you_go, (id = 240254, title = I will never let you go, url = /wiki/I_will_never_let_you_go, ns = 0)
-Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1364
+Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1365
 ---------------------
 #2355 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
-Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1843
+Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1668
 ---------------------
 #2356 -> http://zh.tos.wikia.com/wiki/M01, (id = 140251, title = M01, url = /wiki/M01, ns = 0)
-Title = 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1848
+Title = 威沛 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1849
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 2356 exists key = 9001_威沛
 ---------------------
@@ -8729,7 +8730,7 @@ anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 2364 exists key = 9009_瑪帕
 ---------------------
 #2365 -> http://zh.tos.wikia.com/wiki/M10, (id = 140308, title = M10, url = /wiki/M10, ns = 0)
-Title = 戰鴉伯爵 · 瑪帕 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1837
+Title = 戰鴉伯爵 · 瑪帕 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1838
 anchors => [10, 53, -1, 61, -1, -1, 71, -1, -1, -1, 72] => 71
 2365 exists key = 9010_戰鴉伯爵 · 瑪帕
 ---------------------
@@ -8765,7 +8766,7 @@ Title = M2 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 6930
 ---------------------
 ---------------------
 #2375 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
-Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2652
+Title = Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 2470
 ---------------------
 #2376 -> http://zh.tos.wikia.com/wiki/P5, (id = 216666, title = P5, url = /wiki/P5, ns = 0)
 Title = 阿修羅王 ‧ 羅侯 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1785
@@ -8786,12 +8787,12 @@ Title = 資源堪察 ‧ 拉法葉爾 | Tower of Saviors 維基 | FANDOM powered
 anchors => [10, 53, -1, 61, -1, -1, -1, 71, -1, -1, 72] => 71
 ---------------------
 #2380 -> http://zh.tos.wikia.com/wiki/SEUNGRI, (id = 152869, title = SEUNGRI, url = /wiki/SEUNGRI, ns = 0)
-Title = SEUNGRI | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1749
+Title = SEUNGRI | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1757
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2380 exists key = 0613_SEUNGRI
 ---------------------
 #2381 -> http://zh.tos.wikia.com/wiki/SEUNGRI(680), (id = 174397, title = SEUNGRI(680), url = /wiki/SEUNGRI(680), ns = 0)
-Title = SEUNGRI(680) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1801
+Title = SEUNGRI(680) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1809
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2381 exists key = 0680_SEUNGRI
 ---------------------
@@ -8811,14 +8812,14 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2384 exists key = 0612_TAEYANG
 ---------------------
 #2385 -> http://zh.tos.wikia.com/wiki/TAEYANG(678), (id = 174396, title = TAEYANG(678), url = /wiki/TAEYANG(678), ns = 0)
-Title = TAEYANG(678) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1801
+Title = TAEYANG(678) | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1809
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
 2385 exists key = 0678_TAEYANG
 ---------------------
 ---------------------
 ---------------------
 #2388 -> http://zh.tos.wikia.com/wiki/Terry, (id = 246554, title = Terry, url = /wiki/Terry, ns = 0)
-Title = Terry | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1695
+Title = Terry | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1703
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 2388 exists key = 1589_Terry
 ---------------------
@@ -8998,7 +8999,7 @@ anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 2429 exists key = 8032_淘氣海巫
 ---------------------
 #2430 -> http://zh.tos.wikia.com/wiki/V33, (id = 140235, title = V33, url = /wiki/V33, ns = 0)
-Title = 沙漠刺客 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1780
+Title = 沙漠刺客 | Tower of Saviors 維基 | FANDOM powered by Wikia, Children = 1788
 anchors => [10, 53, -1, -1, -1, -1, 61, -1, -1, -1, 62] => 61
 2430 exists key = 8033_沙漠刺客
 ---------------------
@@ -19069,5 +19070,5 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 links: 10038 has %, 254 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
-2134 cards
-1962 cards not duplicate
+2135 cards
+1963 cards not duplicate
