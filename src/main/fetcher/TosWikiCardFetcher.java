@@ -1,12 +1,15 @@
 package main.fetcher;
 
-import main.card.*;
+import main.card.CardTds;
+import main.card.IconInfo;
+import main.card.TosCard;
+import main.card.TosCardCreator;
 import main.card.TosCardCreator.CardInfo;
+import main.card.TosGet;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -18,7 +21,11 @@ import util.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     private TosWikiCardFetcher() {}
@@ -253,7 +260,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         if (doc == null) return info;
 
         // Step 2: Find the <center> nodes
-        Lf.log("Title = %s, Children = %s", doc.title(), doc.getAllElements().size());
+        Lf.log("Title = %s", doc.title());
         Elements centers = doc.getElementsByTag("center");
         //Lf.log("%s centers", centers.size());
 
