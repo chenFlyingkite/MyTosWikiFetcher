@@ -49,7 +49,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     // #0023 = 24 = 青龍孟章神君
     // #0149 = 1041 = 九天應元 ‧ 聞仲
     private int from = 149; // 447 = #131
-    private int prefetch = 2;
+    private int prefetch = 1;
     private static final int CARD_END = 2500; // 2500 is safe end, raise value when new card added. Ended at #2239
 
     private boolean runChecker = false;
@@ -59,11 +59,22 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         // Parameters setting
         mFetchAll = 0 < 3;
 
-        ResultSet set = getApiResults();
-        if (!hasResult(set)) return;
+        // Get the range sets
+        List<String> tests = getTestLinks();
+        boolean useTest = tests.size() > 0;
+        ResultSet set;
+        Range rng;
+        if (useTest) {
+            set = new ResultSet();
+            rng = new Range(0, tests.size());
+        } else {
+            set = getApiResults();
+            if (!hasResult(set)) return;
 
-        Range rng = getRange(set, from, prefetch);
+            rng = getRange(set, from, prefetch);
+        }
 
+        // Start to fetch
         TicTac2 tt = new TicTac2();
         tt.setLog(false);
 
@@ -81,8 +92,15 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
         tt.tic();
         for (int i = rng.min; i < rng.max; i++) {
-            UnexpandedArticle a = set.getItems()[i];
-            String link = set.getBasePath() + "" + a.getUrl();
+            // Get link
+            String link = "";
+            if (useTest) {
+                link = tests.get(i);
+            } else {
+                UnexpandedArticle a = set.getItems()[i];
+                link = set.getBasePath() + "" + a.getUrl();
+            }
+
             if (mFetchAll) {
                 tt.tac("%s fetchCard ", i - 1);
                 tt.tic();
@@ -98,7 +116,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 //L.log("Craft #%s -> %s", i, link);
             } else {
                 // Step 3: For valid links, get its card info
-                Lf.log("#%04d -> %s, %s", i, link, set.getItems()[i]);
+                Lf.log("#%04d -> %s, %s", i, link, useTest ? "" : set.getItems()[i]);
+
                 CardInfo card = getCardInfo(link);
                 TosCard tosCard = TosCardCreator.me.asTosCard(card);
                 TosCardCreator.me.inspectCard(tosCard, Lfc);
@@ -143,6 +162,15 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lfc.getFile().close();
 
         writeToJson(cardsNoDup);
+    }
+
+    private List<String> getTestLinks() {
+        List<String> list = Arrays.asList(
+                "http://zh.tos.wikia.com/wiki/004"
+
+        );
+        //return list;
+        return new ArrayList<>();
     }
 
     @Deprecated
@@ -285,8 +313,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                         , "競技場 防守技能"
                         , "昇華" // Amelioration
                         , "極限突破" // Awaken recall
-                        , "合體列表" // Combination
                         , "進化列表" // Evolve
+                        , "合體列表" // Combination
                         , "潛能解放" // Power release
                         , "異空轉生" // Virtual rebirth
                         , "異力轉換", "來源"};
@@ -305,12 +333,13 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                     Lf.log("anchors => %s => %s", Arrays.toString(anchors), min);
                 }
 
-                if (cardTds.getEvolutions().size() == 0) {
+                if (cardTds.getImages().size() == 0) {
                     Lf.log("No evolutions? %s", link);
                 } else {
-                    L.log("Evos = %s", cardTds.getEvolutions());
+                    L.log("Evos = %s", cardTds.getImages());
                     info.anchors = Arrays.copyOf(anchors, anchors.length);
-                    info.evolution.addAll(cardTds.getEvolutions());
+                    info.cardTds = cardTds;
+                    //info.evolution.addAll(cardTds.getImages());
                 }
 
                 // Add name, color, stars, hp, attack, heal
@@ -399,6 +428,21 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 info.awkStages.add(tds.get(anchors[ax] + 1)); // Skill name
                 info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
                 info.awkStages.add(wikiBaseZh + icf.getLink()); // battle link
+            }
+        }
+
+        // Fetch if has 潛能解放
+        ax = 7;
+        if (anchors[ax] >= 0) {
+            IconInfo icf = iconInfo.get(iconInfo.size() - 1);
+            int at = getPositiveMin(anchors, ax + 1, anchors.length);
+            if (icf.getName().equals(tds.get(at - 1))) {
+                //info.powStages.add(tds.get(anchors[ax] + 1)); // Skill name
+                info.powStages.add(tds.get(at - 1)); // = icf.getName(), stage name
+                info.powStages.add(wikiBaseZh + icf.getLink()); // battle link
+            } else {
+                // Missing the 潛能解放關卡, it is added in previous monster
+                //L.log("ERROR!!!!! Missing 潛能解放關卡 : %s -> %s ", tds.get(0), info.wikiLink);
             }
         }
     }

@@ -14,7 +14,8 @@ public class TosCardCreator {
 
     public static class CardInfo {
         public List<String> data = new ArrayList<>();
-        public List<String> evolution = new ArrayList<>();
+        public CardTds cardTds = null;
+        //public List<String> evolution = new ArrayList<>();
         public int[] anchors;
         public String icon = "";
         public String bigImage = "";
@@ -24,6 +25,7 @@ public class TosCardCreator {
         public String detailsHtml = "";
         public List<String> ameStages = new ArrayList<>();
         public List<String> awkStages = new ArrayList<>();
+        public List<String> powStages = new ArrayList<>();
     }
 
 //  node length, page
@@ -262,18 +264,26 @@ public class TosCardCreator {
 
     private void fillEvolution(TosCard c, CardInfo info) {
         // Depends on CardFetcher's anchors
-        if (info.anchors[6] < 0) return;
+        if (info.anchors[5] < 0) return;
 
-        List<String> list = info.evolution;
+        List<String> list = info.cardTds.getEvolve();
 
         int plus = list.indexOf("EvoPlus");
         int end = list.lastIndexOf("EvoArrow");
+        int fmIndex = -1;
         if (plus > 0) {
-            c.evolveFrom = list.get(plus - 1);
+            fmIndex = plus;
+        } else if (end > 0) {
+            fmIndex = end;
+        }
+        if (plus > 0 && fmIndex > 0) {
+            c.evolveFrom = list.get(fmIndex - 1);
 
             if (0 < end && end < list.size() - 1) {
                 c.evolveTo = list.get(end + 1);
-                c.evolveNeed = new ArrayList<>(list.subList(plus + 1, end));
+                c.evolveNeed = fmIndex == end
+                        ? new ArrayList<>()
+                        : new ArrayList<>(list.subList(fmIndex + 1, end));
             }
         }
 
@@ -287,12 +297,12 @@ public class TosCardCreator {
     }
 
     private void fillCombination(TosCard c, CardInfo info) {
-        if (info.anchors[5] < 0) return;
+        if (info.anchors[6] < 0) return;
 
-        List<String> list = info.evolution;
+        List<String> list = info.cardTds.getCombine();
 
-        // Omit head & tail, Fill in the combine material
-        for (int i = 1; i < list.size() - 1; i++) {
+        // Omit tail, Fill in the combine material
+        for (int i = 0; i < list.size() - 1; i++) {
             String s = list.get(i);
             boolean endI = s.endsWith("i");
             boolean evos = s.contains("Evo"); // EvoPlus or EvoArrow
@@ -322,6 +332,14 @@ public class TosCardCreator {
             c.skillAwakenRecallName = list.get(0);
             c.skillAwakenRecallBattleName = list.get(1);
             c.skillAwakenRecallBattleLink = list.get(2);
+        }
+
+        list = info.powStages;
+        if (list.size() > 0) {
+            c.skillPowBattleName = list.get(0);
+            c.skillPowBattleLink = list.get(1);
+            //c.skillAwakenRecallBattleName = list.get(1);
+            //c.skillAwakenRecallBattleLink = list.get(2);
         }
     }
 

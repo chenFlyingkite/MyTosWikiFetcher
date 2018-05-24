@@ -237,6 +237,18 @@ public class TosCard {
     public String skillAwakenRecallBattleLink = "";
 
     //------------
+    //---- Power Release stage, 潛能解放關卡
+    //------------
+
+    /** Power Release stage, like "記憶的水鏡" */
+    @SerializedName("skillPowBattleName")
+    public String skillPowBattleName = "";
+
+    /** Power Release stage, like "http://zh.tos.wikia.com/wiki/%E8%A8%98%E6%86%B6%E7%9A%84%E6%B0%B4%E9%8F%A1" */
+    @SerializedName("skillPowBattleLink")
+    public String skillPowBattleLink = "";
+
+    //------------
     //---- Evolution, 卡片進化
     //------------
 

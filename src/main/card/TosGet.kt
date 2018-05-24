@@ -2,11 +2,8 @@ package main.card
 
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
-import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
 import util.tool.TextUtil
-import javax.management.Query.attr
-import javax.swing.Icon
 
 class TosGet {
     companion object me {
@@ -153,9 +150,19 @@ class TosGet {
 
             val result = CardTds()
             val td = result.Tds
-            val evos = result.Evolutions
+            val inImgs = result.Images
+            val evos = result.Evolve
+            val coms = result.Combine
             var x = 0
-            for (e in td2) {
+            val td2n = td2?.size ?: 0
+            for (i in 0 until td2n) {
+                // Check evolution content
+                val isEvo = i > 0 && td2[i - 1].text().contains("進化列表")
+                val isCom = i > 0 && td2[i - 1].text().contains("合體列表")
+                val isPow = i > 0 && td2[i - 1].text().contains("潛能解放") // Power Release
+
+                val e = td2[i]
+
                 val tables = e.getElementsByTag("table")?.size ?: 0
 
                 // omit the big table
@@ -173,13 +180,19 @@ class TosGet {
                     td.add(e.text())
                 } else if (noscript.size > 0) {
                     x++
+
                     // We want the evolution's icons
                     for (nos in noscript) {
                         val imgs = nos.getElementsByTag("img")
                         if (imgs.size > 0) {
                             val alt = imgs[0].attr("alt")
                             if (alt != null) {
-                                evos.add(alt)
+                                inImgs.add(alt)
+                                if (isEvo || isPow) {
+                                    evos.add(alt)
+                                } else if (isCom) {
+                                    coms.add(alt)
+                                }
                             }
                         }
                     }
@@ -299,7 +312,9 @@ class IconInfo {
 
 class CardTds {
     val Tds: MutableList<String> = ArrayList()
-    val Evolutions: MutableList<String> = ArrayList()
+    val Images: MutableList<String> = ArrayList()
+    val Evolve: MutableList<String> = ArrayList()
+    val Combine: MutableList<String> = ArrayList()
 }
 
 open class TableInfo {
