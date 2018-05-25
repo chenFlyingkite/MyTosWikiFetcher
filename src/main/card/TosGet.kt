@@ -30,6 +30,14 @@ class TosGet {
             return null
         }
 
+        fun getImgAlt(element: Element): String? {
+            val imgs = element.getElementsByTag("img")
+            if (imgs.size > 0) {
+                return imgs[0].attr("alt")
+            }
+            return null
+        }
+
         fun getHtml(element: Element): String {
             return element.html() ?: ""
         }
@@ -183,16 +191,13 @@ class TosGet {
 
                     // We want the evolution's icons
                     for (nos in noscript) {
-                        val imgs = nos.getElementsByTag("img")
-                        if (imgs.size > 0) {
-                            val alt = imgs[0].attr("alt")
-                            if (alt != null) {
-                                inImgs.add(alt)
-                                if (isEvo || isPow) {
-                                    evos.add(alt)
-                                } else if (isCom) {
-                                    coms.add(alt)
-                                }
+                        val alt = getImgAlt(nos)
+                        if (alt != null) {
+                            inImgs.add(alt)
+                            if (isEvo || isPow) {
+                                evos.add(alt)
+                            } else if (isCom) {
+                                coms.add(alt)
                             }
                         }
                     }

@@ -13,6 +13,7 @@ import okhttp3.ResponseBody;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import util.MathUtil;
 import util.data.Range;
 import util.logging.L;
 import util.logging.LF;
@@ -54,25 +55,26 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
     private boolean runChecker = false;
 
+    private List<String> getTestLinks() {
+        List<String> list = Arrays.asList(
+                "http://zh.tos.wikia.com/wiki/004"
+
+        );
+        //return list;
+        return new ArrayList<>();
+    }
+
     public void run() {
         // About 5 min 36 sec
         // Parameters setting
         mFetchAll = 0 < 3;
 
         // Get the range sets
-        List<String> tests = getTestLinks();
-        boolean useTest = tests.size() > 0;
-        ResultSet set;
-        Range rng;
-        if (useTest) {
-            set = new ResultSet();
-            rng = new Range(0, tests.size());
-        } else {
-            set = getApiResults();
-            if (!hasResult(set)) return;
-
-            rng = getRange(set, from, prefetch);
-        }
+        Source source = getSource();
+        if (source == null) return;
+        ResultSet set = source.results;
+        Range rng = source.range;
+        boolean useTest = useTest();
 
         // Start to fetch
         TicTac2 tt = new TicTac2();
@@ -95,7 +97,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             // Get link
             String link = "";
             if (useTest) {
-                link = tests.get(i);
+                link = source.links.get(i);
             } else {
                 UnexpandedArticle a = set.getItems()[i];
                 link = set.getBasePath() + "" + a.getUrl();
@@ -164,13 +166,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         writeToJson(cardsNoDup);
     }
 
-    private List<String> getTestLinks() {
-        List<String> list = Arrays.asList(
-                "http://zh.tos.wikia.com/wiki/004"
-
-        );
-        //return list;
-        return new ArrayList<>();
+    private boolean useTest() {
+        return getTestLinks().size() > 0;
     }
 
     @Deprecated
@@ -343,9 +340,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 }
 
                 // Add name, color, stars, hp, attack, heal
-                for (int i = 0; i < anchors[0]; i++) {
-                    cardInfo.add(tds.get(i));
-                }
+                cardInfo.addAll(tds.subList(0, anchors[0]));
 
                 // Add skill of active & leader
                 for (int i = anchors[1]; i < min; i++) {
@@ -385,7 +380,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     }
 
     private boolean isInRange(long value, long min, long max) {
-        return min <= value && value < max;
+        return MathUtil.isInRange(value, min, max);
     }
 
     private void addHpInfo(CardInfo info, int[] anchors, List<String> tds) {
@@ -501,6 +496,31 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             //Lf.log("image #%s = %s", index + 1, img);
         }
         return img;
+    }
+
+
+    private Source getSource() {
+        // Get the range sets
+        List<String> tests = getTestLinks();
+        boolean useTest = useTest();
+        Source src = new Source();
+        if (useTest) {
+            src.results = new ResultSet();
+            src.range = new Range(0, tests.size());
+            src.links = tests;
+        } else {
+            src.results = getApiResults();
+            if (!hasResult(src.results)) return null;
+
+            src.range = getRange(src.results, from, prefetch);
+        }
+        return src;
+    }
+
+    private class Source {
+        private ResultSet results;
+        private Range range;
+        private List<String> links = new ArrayList<>();
     }
 
 // English Wiki
