@@ -22,7 +22,7 @@ class TosGet {
 
         fun getImageTag(element: Element): Elements? {
             val nos = element.getElementsByTag("noscript")
-            val size = nos?.size ?: 0;
+            val size = nos?.size ?: 0
             if (size > 0) {
                 val x = nos[0]
                 return x?.getElementsByTag("img")
@@ -51,28 +51,28 @@ class TosGet {
             val no = index >= elements.size
             if (no) return info
 
-            return getSummonerTable(elements[index]);
+            return getSummonerTable(elements[index])
         }
 
         fun getSummonerTable(element: Element): TableInfo {
             val info = TableInfo()
 
-            val ths = element.getElementsByTag("th");
+            val ths = element.getElementsByTag("th")
             ths.forEachIndexed { i, ele -> run {
                 info.headers.add(ele.text())
             }}
 
-            val tds = element.getElementsByTag("td");
+            val tds = element.getElementsByTag("td")
             tds.forEachIndexed { i, ele -> run {
                 info.cells.add(ele.text())
             }}
-            return info;
+            return info
         }
 
         fun getStageTable(element: Element): StageInfo {
             val info = StageInfo()
 
-            val ths = element.getElementsByTag("th");
+            val ths = element.getElementsByTag("th")
             ths.forEachIndexed { i, ele -> run {
                 when (i) {
                     0 -> {
@@ -84,7 +84,7 @@ class TosGet {
                 }
             }}
 
-            val tds = element.getElementsByTag("td");
+            val tds = element.getElementsByTag("td")
             tds.forEachIndexed { i, ele -> run {
                 var item = ""
                 when (i % info.headers.size) {
@@ -106,12 +106,12 @@ class TosGet {
                 }
                 info.cells.add(item)
             }}
-            return info;
+            return info
         }
 
         fun getImageFileInfo(doc: Document, wikiBase: String): List<ImageFileInfo> {
             val allInfo = ArrayList<ImageFileInfo>()
-            val content = doc.getElementById("mw-content-text");
+            val content = doc.getElementById("mw-content-text")
             if (content != null) {
                 // Get those elements to fill ImageFileInfo
                 // 1. Check content size
@@ -244,7 +244,7 @@ class TosGet {
 
         fun getCardDetails(doc: Document): String {
             //((Element) details.get(0).childNodes.get(4)).text()
-            val details = doc.getElementsByClass("module move");
+            val details = doc.getElementsByClass("module move")
             val s1 = details?.size ?: 0
             if (s1 > 0) {
                 val first = details?.get(0)
@@ -252,11 +252,21 @@ class TosGet {
                 if (size > 0) {
                     val ele = first?.childNode(size - 1)
                     if (ele is Element) {
-                        return ele.html()
+                        return ele.text()
                     }
                 }
             }
             return ""
+        }
+
+        fun getCardDetailsNormed(doc: Document): String {
+            var s = getCardDetails(doc)
+            val nextLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊")
+
+            nextLn.forEachIndexed { i, li -> run {
+                s = s.replace(li, "\n" + li)
+            }}
+            return s
         }
 
         @Deprecated("Not handy")
@@ -279,7 +289,7 @@ class TosGet {
             val td = ArrayList<String>()
             for (e in td2) {
                 if (e.text().isNotEmpty() && e.attr("class").toLowerCase() != "hidden") {
-                    td.add(e.text());
+                    td.add(e.text())
                 }
             }
             if (td.size > 0) {
@@ -293,7 +303,7 @@ class TosGet {
         fun getIcon(element: Element): IconInfo {
             val es = element.getElementsByClass("internal")
 
-            val n = es.size;
+            val n = es.size
             val info = IconInfo()
             if (n > 0) {
                 val e = es.get(0)
@@ -346,7 +356,7 @@ class ImageFileInfo {
 //    val nos = element.getElementsByTag("noscript")
 //    val x: Element
 //    val imgs: Elements?
-//    val size = nos?.size ?: 0;
+//    val size = nos?.size ?: 0
 //    if (size > 0) {
 //        x = nos[0]
 //        imgs = x?.getElementsByTag("img")

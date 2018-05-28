@@ -338,8 +338,6 @@ public class TosCardCreator {
         if (list.size() > 0) {
             c.skillPowBattleName = list.get(0);
             c.skillPowBattleLink = list.get(1);
-            //c.skillAwakenRecallBattleName = list.get(1);
-            //c.skillAwakenRecallBattleLink = list.get(2);
         }
     }
 

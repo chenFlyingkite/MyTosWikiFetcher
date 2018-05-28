@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000}
-from gson, (12457 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (12458 items, basePath = http://zh.tos.wikia.com, offset = null)
 #0000 -> http://zh.tos.wikia.com/wiki/001, (id = 116891, title = 001, url = /wiki/001, ns = 0)
 Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, -1, 62] => 61
@@ -19083,7 +19083,8 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 ---------------------
-links: 10045 has %, 254 are crafts
+---------------------
+links: 10046 has %, 254 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
 2137 cards
 1965 cards not duplicate
