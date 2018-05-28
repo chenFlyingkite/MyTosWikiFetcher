@@ -10,6 +10,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import util.data.Range;
 import util.logging.L;
 import util.logging.LF;
@@ -18,11 +19,14 @@ import util.tool.TextUtil;
 import util.tool.TicTac2;
 import wikia.articles.UnexpandedListArticleResultSet;
 
-import java.io.*;
-import java.net.ConnectException;
-import java.net.MalformedURLException;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.URL;
-import java.sql.ResultSet;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -30,6 +34,7 @@ import java.util.concurrent.Executors;
 public class TosWikiBaseFetcher {
     public static final String wikiBaseZh = "http://zh.tos.wikia.com";
     public static final String wikiBaseEn = "http://towerofsaviors.wikia.com";
+    public static final String wikiFileZh = "http://zh.tos.wikia.com/wiki/File:";
 
     public static final String zhApi1 = wikiBaseZh + "/api/v1";
     public static final String enApi1 = wikiBaseEn + "/api/v1";
@@ -126,6 +131,15 @@ public class TosWikiBaseFetcher {
         } else {
             return TosGet.me.getIcon(doc);
         }
+    }
+
+    protected String getPoem(Document doc) {
+        Elements poem = doc.getElementsByClass("poem");
+        int n = poem == null ? 0 : poem.size();
+        if (n > 0) {
+            return poem.get(0).html();
+        }
+        return "";
     }
 
     protected String downloadImage(String link, String folder, String name) {

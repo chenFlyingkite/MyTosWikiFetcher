@@ -38,6 +38,23 @@ class TosGet {
             return null
         }
 
+        fun getImgInfo2(element: Element?): ImageInfo2 {
+            val info = ImageInfo2()
+            if (element != null) {
+                val imgs = getImageTag(element)
+                val s = imgs?.size ?: 0
+                if (s > 0) {
+                    val item = imgs?.get(0)
+                    info.alt = item?.attr("alt") ?: ""
+                    info.link = item?.attr("src") ?: ""
+                    info.imageName = item?.attr("data-image-name") ?: ""
+                    info.width = Integer.parseInt(item?.attr("width"))
+                    info.height = Integer.parseInt(item?.attr("height"))
+                }
+            }
+            return info
+        }
+
         fun getHtml(element: Element): String {
             return element.html() ?: ""
         }
@@ -344,6 +361,18 @@ open class TableInfo {
 
 class StageInfo : TableInfo() {
     var title: String = ""
+}
+
+class ImageInfo2 {
+    var imageName = ""
+    var alt = ""
+    var width = 0
+    var height = 0
+    var link = ""
+
+    fun isEmpty() : Boolean {
+        return TextUtil.isEmpty(link) && TextUtil.isEmpty(imageName)
+    }
 }
 
 class ImageFileInfo {
