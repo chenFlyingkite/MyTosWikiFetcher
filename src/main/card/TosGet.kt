@@ -278,8 +278,8 @@ class TosGet {
 
         fun getCardDetailsNormed(doc: Document): String {
             var s = getCardDetails(doc)
-            val nextLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊")
-            val twoLn = arrayOf(0, 2, 3)
+            val nextLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊", "隊伍效果")
+            val twoLn = arrayOf(0, 2, 3, 4)
 
             nextLn.forEachIndexed { i, li -> run {
                 var pre = "\n"
