@@ -57,7 +57,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
     private List<String> getTestLinks() {
         List<String> list = Arrays.asList(
-                "http://zh.tos.wikia.com/wiki/003"
+                "http://zh.tos.wikia.com/wiki/1041"
 
         );
         //return list;

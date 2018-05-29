@@ -278,13 +278,14 @@ class TosGet {
 
         fun getCardDetailsNormed(doc: Document): String {
             var s = getCardDetails(doc)
-            val nextLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊", "隊伍效果")
-            val twoLn = arrayOf(0, 2, 3, 4)
+            val oneLn = arrayOf("發動條件")
+            val newLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊", "隊伍效果"
+                , "素材用途", "指定系列包括", "此素材出處", "此潛解素材出處", "此進化素材出處", "此強化素材出處")
 
-            nextLn.forEachIndexed { i, li -> run {
-                var pre = "\n"
-                if (i in twoLn) {
-                    pre = "\n\n"
+            newLn.forEachIndexed { i, li: String -> run {
+                var pre = "\n\n"
+                if (oneLn.contains(li)) {
+                    pre = "\n"
                 }
                 s = s.replace(li, pre + "" + li)
             }}
