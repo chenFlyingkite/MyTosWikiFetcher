@@ -42,5 +42,4 @@ public class TosWikiPageFetcher extends TosWikiBaseFetcher {
             downloadImage(icf.getLink(), folder, icf.getName());
         }
     }
-
 }

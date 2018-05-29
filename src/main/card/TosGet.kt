@@ -55,6 +55,35 @@ class TosGet {
             return info
         }
 
+        fun getTosPageImageInfo(element: Element?): ImageInfo2? {
+            if (element == null) {
+                return null
+            } else {
+                val info = ImageInfo2()
+                val imgs = element.getElementsByTag("img")
+                val s = imgs?.size ?: 0
+                if (s > 0) {
+                    val item = imgs?.get(0)
+                    info.alt = item?.attr("alt") ?: ""
+                    info.link = item?.attr("src") ?: ""
+                    info.width = Integer.parseInt(item?.attr("width"))
+                    info.height = Integer.parseInt(item?.attr("height"))
+                }
+                return info
+            }
+        }
+
+        fun getTosPageEntryContent(doc: Document): String {
+            val info = ImageInfo2()
+            val conts = doc.getElementsByClass("entry-content");
+            val n = conts?.size ?: 0
+            if (n > 0) {
+                val entry = conts[0]
+                return entry.html()
+            }
+            return ""
+        }
+
         fun getHtml(element: Element): String {
             return element.html() ?: ""
         }
