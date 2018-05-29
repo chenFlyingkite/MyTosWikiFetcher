@@ -51,6 +51,11 @@ public class PngDiffRequest extends PngRequest {
     }
 
     public void diff() {
+        // Step : Start diff, same = its color, diff -> magneta
+        diff(0xFFFF00FF);
+    }
+
+    public void diff(int diffColor) {
         if (imgA == null || imgB == null) return;
 
         final int wa = imgA.getWidth();
@@ -63,8 +68,7 @@ public class PngDiffRequest extends PngRequest {
         // Step : Prepare the diff file
         BufferedImage diff = new BufferedImage(maxW, maxH, BufferedImage.TYPE_INT_ARGB);
 
-        // Step : Start diff, same = its color, diff -> magneta
-        final int diffColor = 0xFFFF00FF;
+        // Step : Start diff, same = its color, diff -> diffColor
         RGBInfo infoA;
         RGBInfo infoB;
         mClock.tic();
