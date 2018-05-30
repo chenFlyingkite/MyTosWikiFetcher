@@ -2,6 +2,7 @@ package main.card
 
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
+import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
 import util.tool.TextUtil
 
@@ -298,7 +299,8 @@ class TosGet {
                 if (size > 0) {
                     val ele = first?.childNode(size - 1)
                     if (ele is Element) {
-                        return ele.text()
+                        //return ele.text()
+                        return concatTextNodes(ele)
                     }
                 }
             }
@@ -309,16 +311,36 @@ class TosGet {
             var s = getCardDetails(doc)
             val oneLn = arrayOf("發動條件")
             val newLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊", "隊伍效果"
+                , "組合技能：", "機械族特性", "當所有機械族成員"//, "條件："
                 , "素材用途", "指定系列包括", "此素材出處", "此潛解素材出處", "此進化素材出處", "此強化素材出處")
 
+
             newLn.forEachIndexed { i, li: String -> run {
-                var pre = "\n\n"
+                var pre = "\n"
                 if (oneLn.contains(li)) {
-                    pre = "\n"
+                    //pre = "\n"
                 }
                 s = s.replace(li, pre + "" + li)
             }}
+
             return s
+        }
+
+        fun concatTextNodes(e: Element): String {
+            val nodes = e.childNodes()//e.textNodes()
+            var s = ""
+            nodes.forEachIndexed { i, node -> run {
+                var str = ""
+                if (node is TextNode) {
+                    str = node.text().trim()
+                } else if (node is Element) {
+                    str = node.text().trim()
+                }
+                if (str.isNotEmpty()) {
+                    s += str + "\n"
+                }
+            }}
+            return s;
         }
 
         @Deprecated("Not handy")
