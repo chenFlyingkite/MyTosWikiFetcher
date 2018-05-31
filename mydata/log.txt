@@ -3763,7 +3763,8 @@ Title = 克蘇魯 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, -1, 62] => 61
 ---------------------
 #0941 -> http://zh.tos.wikia.com/wiki/1770, (id = 255508, title = 1770, url = /wiki/1770, ns = 0)
-Title = 1770 | Tower of Saviors 維基 | FANDOM powered by Wikia
+Title = 庫洛洛 | Tower of Saviors 維基 | FANDOM powered by Wikia
+anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 #0942 -> http://zh.tos.wikia.com/wiki/1774, (id = 255509, title = 1774, url = /wiki/1774, ns = 0)
 Title = 凱特 | Tower of Saviors 維基 | FANDOM powered by Wikia
@@ -19236,5 +19237,5 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 links: 10124 has %, 254 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
-2152 cards
-1980 cards not duplicate
+2153 cards
+1981 cards not duplicate
