@@ -6,6 +6,14 @@ public class Rect2 {
     public int right;
     public int bottom;
 
+    public static Rect2 atLTWH(int left, int top, int width, int height) {
+        return new Rect2(left, top, left + width, top + height);
+    }
+
+    public static Rect2 atXYWH(int centerX, int centerY, int width, int height) {
+        return new Rect2(centerX - width / 2, centerY - height / 2, centerX + width / 2, centerY + height / 2);
+    }
+
     public static Rect2 ofSize(int width, int height) {
         Rect2 r = new Rect2();
         r.right = r.left + width;

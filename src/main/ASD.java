@@ -21,7 +21,40 @@ public class ASD {
     public static void run() {
         tt.reset();
         tt.tic();
-        //file();
+        getMonsterEat();
+        tt.tac("Done");
+    }
+
+    private static void getMonsterEat() {
+        int w = 160;
+        //Rect2 r = Rect2.atLTWH(1160, 2635, 160, 160);
+        Rect2 r = Rect2.atXYWH(1240, 2700, 320, 320);
+        getImage("eatMonster", "Screenshot_20180531-015212.png", r, "3");
+    }
+
+    private static void getImage(String folder, String src, Rect2 imageRect, String dst) {
+        int w = imageRect.width();
+        int h = imageRect.height();
+        final String base = "Logos\\Output\\" + folder;
+
+        // Crop icon
+        PngParam p = new PngParam("Logos\\Source\\" + src)
+                .size(w, h);
+        Rect2 r = Rect2.ofSize(w, h);
+        final int x = imageRect.left, y = imageRect.top;
+
+        String name = base + "\\New folder\\" + dst + ".png";
+        r.offsetTo(x, y);
+        PngCreator.from(p).copy(r)//.eraseCorners()
+                .into(name);
+        L.log("created %s", name);
+
+        // Diff folder
+        PngParam dp = new PngParam(base);
+        PngDiffer.from(dp).diff();
+    }
+
+    private static void getLogos() {
         a();
         b();
         get_1_5();
@@ -32,7 +65,6 @@ public class ASD {
         get_23_28();
         get_25_30();
         getBig("Big", "Screenshot_20180521-095833.png", 12, 1337, 1);
-        tt.tac("Done");
     }
 
     private static void a() {

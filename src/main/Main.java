@@ -1,6 +1,5 @@
 package main;
 
-import main.fetcher.TosWikiCardFetcher;
 import util.logging.L;
 import util.tool.StringUtil;
 import util.tool.TicTac;
@@ -10,14 +9,14 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //TosWikiIconFetcher.me.run();
-        TosWikiCardFetcher.me.run();
+        //TosWikiCardFetcher.me.run();
         //TosWikiPageFetcher.me.run();
         //TosPageArchiveFetcher.me.run();
         //TosWikiFilePeeker.me.run();
         //TosWikiSummonerLevelFetcher.me.run();
         //TosWikiImageFileFetcher.me.run();
         //MobileComm.run();
-        //ASD.run();
+        ASD.run();
         //TosWikiStageFetcher.me.run();
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
