@@ -315,13 +315,9 @@ class TosGet {
                 , "素材用途", "指定系列包括", "此素材出處", "此潛解素材出處", "此進化素材出處", "此強化素材出處")
 
 
-            newLn.forEachIndexed { i, li: String -> run {
-                var pre = "\n"
-                if (oneLn.contains(li)) {
-                    //pre = "\n"
-                }
-                s = s.replace(li, pre + "" + li)
-            }}
+//            newLn.forEachIndexed { i, li: String -> run {
+//                s = s.replace(li, "\n" + li)
+//            }}
 
             return s
         }
@@ -331,15 +327,20 @@ class TosGet {
             var s = ""
             nodes.forEachIndexed { i, node -> run {
                 var str = ""
+                var tag = ""
                 if (node is TextNode) {
                     str = node.text().trim()
                 } else if (node is Element) {
                     str = node.text().trim()
+                    tag = node.tagName()
                 }
-                if (str.isNotEmpty()) {
+                if ("br" == tag) {
                     s += str + "\n"
+                } else if (str.isNotEmpty()) {
+                    s += str
                 }
             }}
+            //print("s = -> $s")
             return s;
         }
 

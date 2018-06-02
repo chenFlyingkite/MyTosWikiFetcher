@@ -51,7 +51,7 @@ public class PngDiffRequest extends PngRequest {
     }
 
     public void diff() {
-        // Step : Start diff, same = its color, diff -> magneta
+        // Step : Start diff, same = its color, diff -> magenta
         diff(0xFFFF00FF);
     }
 
