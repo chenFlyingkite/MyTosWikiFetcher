@@ -12,7 +12,7 @@ public class TosPageArchiveFetcher extends TosWikiBaseFetcher {
     private static final String folder = "myPageTos";
     private static final String tosArchive = "http://www.towerofsaviors.com/zh/archives";
     private LF mLf = new LF(folder);
-    private static final int archiveId = 22871;
+    private static final int archiveId = 22952;
 
     private String getPage() {
         // 【神魔之塔×獵人×冒險開始】慶祝活動詳情

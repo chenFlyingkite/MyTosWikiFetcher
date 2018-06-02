@@ -16,7 +16,9 @@ public class TosWikiPageFetcher extends TosWikiBaseFetcher {
 
     private String getPage() {
         // http://zh.tos.wikia.com/wiki/神魔之塔×獵人×冒險開始
-        return "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%C3%97%E7%8D%B5%E4%BA%BA%C3%97%E5%86%92%E9%9A%AA%E9%96%8B%E5%A7%8B";
+        //return "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%C3%97%E7%8D%B5%E4%BA%BA%C3%97%E5%86%92%E9%9A%AA%E9%96%8B%E5%A7%8B";
+        // 護衛×千鈞一髮×直擊
+        return "http://zh.tos.wikia.com/wiki/%E8%AD%B7%E8%A1%9B%C3%97%E5%8D%83%E9%88%9E%E4%B8%80%E9%AB%AE%C3%97%E7%9B%B4%E6%93%8A";
     }
 
     public void run() {
