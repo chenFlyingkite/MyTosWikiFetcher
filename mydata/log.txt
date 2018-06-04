@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000}
-from gson, (12575 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (12577 items, basePath = http://zh.tos.wikia.com, offset = null)
 #0000 -> http://zh.tos.wikia.com/wiki/001, (id = 116891, title = 001, url = /wiki/001, ns = 0)
 Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, -1, 62] => 61
@@ -8921,7 +8921,7 @@ Title = Test2/Def | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
 #2416 -> http://zh.tos.wikia.com/wiki/V/M, (id = 139473, title = V/M, url = /wiki/V/M, ns = 0)
-Title = V/M | Tower of Saviors 維基 | FANDOM powered by Wikia
+Title = 寵物圖鑒V01-V50 | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 #2417 -> http://zh.tos.wikia.com/wiki/V01, (id = 140194, title = V01, url = /wiki/V01, ns = 0)
 Title = 烏蘇拉 | Tower of Saviors 維基 | FANDOM powered by Wikia
@@ -19261,7 +19261,9 @@ anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
 ---------------------
 ---------------------
 ---------------------
-links: 10142 has %, 254 are crafts
+---------------------
+---------------------
+links: 10144 has %, 254 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
 2155 cards
 1983 cards not duplicate
