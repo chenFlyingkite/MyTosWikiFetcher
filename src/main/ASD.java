@@ -26,7 +26,17 @@ public class ASD {
         getMissions();
         getNums();
         getMonsterEat();
+        getPrizeIcons();
         tt.tac("Done");
+    }
+
+    private static void getPrizeIcons() {
+        getIcon("prize", "Screenshot_20180603-022221.png", 69, 1012, "a", 5);
+        getIcon("prize", "Screenshot_20180603-022305.png", 69,  881, "b", 5);
+        getIcon("prize", "Screenshot_20180603-022326.png", 69,  855, "c", 5);
+        getIcon("prize", "Screenshot_20180603-022349.png", 69,  873, "d", 5);
+        getIcon("prize", "Screenshot_20180603-022359.png", 69,  867, "e", 5);
+        getIcon("prize", "Screenshot_20180603-022429.png", 69,  880, "f", 5);
     }
 
     private static void getPlusMinus() {
