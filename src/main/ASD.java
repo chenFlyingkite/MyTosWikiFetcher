@@ -21,167 +21,147 @@ public class ASD {
     public static void run() {
         tt.reset();
         tt.tic();
+        getLogos();
+        getPlusMinus();
+        getMissions();
+        getNums();
         getMonsterEat();
         tt.tac("Done");
     }
 
+    private static void getPlusMinus() {
+        String folder = "sign";
+        String src = "Screenshot_20180602-131106.png";
+        Rect2[] rects = new Rect2[2];
+        String prefix = "";
+
+        final int sx = 1393, sy = 1689;
+        rects[0] = Rect2.atLTWH(sx, sy, 187, 187);
+        rects[1] = Rect2.atLTWH(sx, sy + 400, 187, 187);
+
+        for (int i = 0; i < 2; i++) {
+            getImageR(folder, src, rects[i], prefix + "" + i + "");
+        }
+    }
+
+    // Get images of Mission Club
+    private static void getMissions() {
+        getMission("mission", "Screenshot_20180602-012851.png", "a", 308);
+        getMission("mission", "Screenshot_20180604-022215.png", "b", 291);
+        getMission("mission", "Screenshot_20180604-022645.png", "c", 340);
+    }
+
+    private static void getMission(String folder, String src, String prefix, int w0) {
+        final int w = 346;
+        final int h = 346;
+        Rect2 center = Rect2.atLTWH(913, 1807, w0, w0);
+        Rect2 r0 = Rect2.atLTWH(131, 1041, w, h);
+        List<Rect2> rects = createRects(5, r0, 388, 0);
+        rects.add(0, center);
+        for (int i = 0; i < rects.size(); i++) {
+            getImageR(folder, src, rects.get(i), prefix + "" + i);
+        }
+    }
+
+    // New version for number images
+    private static void getNums() {
+        getNumbers("nums", "nums\\Screenshot_20180601-005206.png", 95, 853, "a", 6);
+        getNumbers("nums", "nums\\Screenshot_20180601-005257.png", 95, 869, "b", 6);
+    }
+
     private static void getMonsterEat() {
-        int w = 160;
-        //Rect2 r = Rect2.atLTWH(1160, 2635, 160, 160);
         Rect2 r = Rect2.atXYWH(1240, 2700, 320, 320);
-        getImage("eatMonster", "Screenshot_20180531-015212.png", r, "3");
+        getImage("eatMonster", "Screenshot_20180531-015212.png", r, "0");
     }
 
-    private static void getImage(String folder, String src, Rect2 imageRect, String dst) {
-        int w = imageRect.width();
-        int h = imageRect.height();
-        final String base = "Logos\\Output\\" + folder;
-
-        // Crop icon
-        PngParam p = new PngParam("Logos\\Source\\" + src)
-                .size(w, h);
-        Rect2 r = Rect2.ofSize(w, h);
-        final int x = imageRect.left, y = imageRect.top;
-
-        String name = base + "\\New folder\\" + dst + ".png";
-        r.offsetTo(x, y);
-        PngCreator.from(p).copy(r)//.eraseCorners()
-                .into(name);
-        L.log("created %s", name);
-
-        // Diff folder
-        PngParam dp = new PngParam(base);
-        PngDiffer.from(dp).diff();
-    }
-
+    // Get the event icons & number
     private static void getLogos() {
-        a();
-        b();
-        get_1_5();
-        get_6_9();
-        get_10_14();
-        get_15_19();
-        get_18_22();
-        get_23_28();
-        get_25_30();
+        getIcon("icons", "Screenshot_20180517-010049.png", 69, 894, "a", 6);
+        getIcon("icons", "Screenshot_20180517-010106.png", 69, 874, "b", 6);
+        getIcon("icons", "Screenshot_20180604-022155.png", 69, 857, "c", 6);
+        getNumbers("num", "Screenshot_20180508-014834.png", 95, 1102, "a", 5);
+        getNumbers("num", "Screenshot_20180508-014849.png", 95, 1052, "b", 5);
+        getNumbers("num", "Screenshot_20180508-014901.png", 95, 1137, "c", 5);
+        getNumbers("num", "Screenshot_20180508-014917.png", 95, 1109, "d", 5);
+        getNumbers("num", "Screenshot_20180508-014933.png", 95, 879, "e", 6);
+        getNumbers("num", "Screenshot_20180514-020822.png", 95, 869, "f", 6);
+        getNumbers("num", "Screenshot_20180517-142710.png", 95, 879, "g", 6);
         getBig("Big", "Screenshot_20180521-095833.png", 12, 1337, 1);
     }
 
-    private static void a() {
-        getIcon("a", "Screenshot_20180517-010049.png", 69, 894);
+    private static void getIcon(String folder, String src, int sx, int sy, String prefix, int cardN) {
+        final int w = 340;
+        final int dy = 422;
+
+        // Creating rects
+        Rect2 r0 = Rect2.atLTWH(sx, sy, w, w);
+        List<Rect2> rs = createRects(cardN, r0, 0, dy);
+        // get Rounded image
+        for (int i = 0; i < rs.size(); i++) {
+            getImageR(folder, src, rs.get(i), prefix + "" + i);
+        }
     }
 
-    private static void b() {
-        getIcon("b", "Screenshot_20180517-010106.png", 69, 874);
+    private static void getBig(String folder, String src, int sx, int sy, int cardN) {
+        final int w = 820;
+        // Creating rects
+        Rect2 r0 = Rect2.atLTWH(sx, sy, w, w);
+        getImageR(folder, src, r0, "0");
     }
 
-    private static void getIcon(String folder, String imageName, int sx, int sy) {
+    private static void getNumbers(String folder, String src, int sx, int sy, String prefix, int cardN) {
+        final int w = 325;
+        final int dy = 422;
+
+        // Creating rects
+        Rect2 r0 = Rect2.atLTWH(sx, sy, w, w);
+        List<Rect2> rs = createRects(cardN, r0, 0, dy);
+        // get Rounded image
+        for (int i = 0; i < rs.size(); i++) {
+            getImageR(folder, src, rs.get(i), prefix + "" + i);
+        }
+    }
+
+    private static void getImage(String folder, String src, Rect2 rect, String dst) {
+        int w = rect.width();
+        int h = rect.height();
         final String base = "Logos\\Output\\" + folder;
+        String name = base + "\\" + dst + ".png";
 
         // Crop icon
-        PngParam p = new PngParam("Logos\\Source\\" + imageName)
-                .size(340, 340)
-                ;
-        Rect2 r = Rect2.ofSize(340, 340);
+        PngParam p = new PngParam("Logos\\Source\\" + src).size(w, h);
+        PngCreator.from(p).copy(rect).into(name);
+        L.log("created %s", name);
+    }
 
-        final int x = sx, y = sy, dy = 422;
-        //r.offsetTo(69, 874); //獎賞 , V
-        r.offsetTo(x, y); //競技場 (68, 1297)
-        //r.offsetTo(69, 1718); //我的禮包
-        PngCreator.from(p).copy(r).eraseCorners()
-                .into(base + "\\n.png");
+    // Get the rounded image
+    private static void getImageR(String folder, String src, Rect2 rect, String dst) {
+        int w = rect.width();
+        int h = rect.height();
+        final String base = "Logos\\Output\\" + folder;
+        String name = base + "\\" + dst + ".png";
 
-        for (int i = 0; i < 6; i++) {
-            String name = base + "\\New folder\\" + i + ".png";
-            r.offsetTo(x, y + dy * i);
-            PngCreator.from(p).copy(r).eraseCorners()
-                    .into(name);
-            L.log("created %s", name);
-        }
+        // Crop icon
+        PngParam p = new PngParam("Logos\\Source\\" + src).size(w, h);
+        PngCreator.from(p).copy(rect).eraseCorners().into(name);
+        L.log("created %s", name);
+    }
 
+    private static void diff(String folder) {
         // Diff folder
-        PngParam dp = new PngParam(base);
+        PngParam dp = new PngParam(folder);
         PngDiffer.from(dp).diff();
     }
 
-    private static void getBig(String folder, String imageName, int sx, int sy, int cardN) {
-        final String base = "Logos\\Output\\" + folder;
-
-        // Crop icon
-        PngParam p = new PngParam("Logos\\Source\\" + imageName)
-                .size(820, 820)
-                ;
-        Rect2 r = Rect2.ofSize(820, 820);
-        final int x = sx, y = sy, dy = 422;
-        r.offsetTo(x, y);
-        PngCreator.from(p).copy(r).eraseCorners()
-                .into(base + "\\n.png");
-
-        for (int i = 0; i < cardN; i++) {
-            String name = base + "\\New folder\\" + i + ".png";
-            r.offsetTo(x, y + dy * i);
-            PngCreator.from(p).copy(r).eraseCorners()
-                    .into(name);
-            L.log("created %s", name);
+    private static List<Rect2> createRects(int N, Rect2 srcRect, int dx, int dy) {
+        // Creating rects
+        List<Rect2> list = new ArrayList<>();
+        list.add(srcRect);
+        for (int i = 1; i < N; i++) {
+            Rect2 r = list.get(i - 1);
+            list.add(Rect2.atLTWH(r.left + dx, r.top + dy, r.width(), r.height()));
         }
-
-        // Diff folder
-        PngParam dp = new PngParam(base);
-        PngDiffer.from(dp).diff();
-    }
-
-    private static void get_1_5() {
-        get_x_y("num", "Screenshot_20180508-014834.png", 95, 1102, 5);
-    }
-
-    private static void get_6_9() {
-        get_x_y("num2", "Screenshot_20180508-014849.png", 95, 1052, 5);
-    }
-
-    private static void get_10_14() {
-        get_x_y("num3", "Screenshot_20180508-014901.png", 95, 1137, 5);
-    }
-
-    private static void get_15_19() {
-        get_x_y("num4", "Screenshot_20180508-014917.png", 95, 1109, 5);
-    }
-
-    private static void get_18_22() {
-        get_x_y("num5", "Screenshot_20180508-014933.png", 95, 879, 6);
-    }
-
-    private static void get_23_28() {
-        get_x_y("num6", "Screenshot_20180514-020822.png", 95, 869, 6);
-    }
-
-    private static void get_25_30() {
-        get_x_y("num7", "Screenshot_20180517-142710.png", 95, 879, 6);
-    }
-
-    private static void get_x_y(String folder, String imageName, int sx, int sy, int cardN) {
-        final String base = "Logos\\Output\\" + folder;
-
-        // Crop icon
-        PngParam p = new PngParam("Logos\\Source\\" + imageName)
-                .size(325, 325)
-                ;
-        Rect2 r = Rect2.ofSize(325, 325);
-        final int x = sx, y = sy, dy = 422;
-        r.offsetTo(x, y);
-        PngCreator.from(p).copy(r).eraseCorners()
-                .into(base + "\\n.png");
-
-        for (int i = 0; i < cardN; i++) {
-            String name = base + "\\New folder\\" + i + ".png";
-            r.offsetTo(x, y + dy * i);
-            PngCreator.from(p).copy(r).eraseCorners()
-                    .into(name);
-            L.log("created %s", name);
-        }
-
-        // Diff folder
-        PngParam dp = new PngParam(base);
-        PngDiffer.from(dp).diff();
+        return list;
     }
 
     private static void file() {
