@@ -1,26 +1,26 @@
 Linking http://towerofsaviors.wikia.com/api/v1/Articles/List?namespaces=6&limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://towerofsaviors.wikia.com/api/v1/Articles/List?namespaces=6&limit=2500000}
-from gson, (8009 items, basePath = http://towerofsaviors.wikia.com, offset = null)
+from gson, (8211 items, basePath = http://towerofsaviors.wikia.com, offset = null)
 ----- Users -----
-JoetjeF => 3234
-Lycentia => 933
+JoetjeF => 3406
+Lycentia => 922
 RaccoonKun => 872
-Wingwing007 => 545
+Wingwing007 => 546
 Towerofsaviors => 315
 Btoky => 177
 Aekun => 77
 Polly689 => 73
 (A.P)*Selden* :) => 70
-568736 => 41
+568736 => 48
 Kukingkong => 37
 Ericwong99 => 35
+SexyBoobsy => 28
 Pogotan => 27
 Jared Grace => 26
-SexyBoobsy => 26
 Queltza => 21
-Ghostrick Frost => 13
+Ghostrick Frost => 19
+Oriceles => 13
 Blueeighthnote => 12
-Oriceles => 12
 Thanyou => 11
 Emma2002 => 10
 Preranut.laothanasin => 10

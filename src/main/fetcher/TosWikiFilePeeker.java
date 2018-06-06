@@ -124,6 +124,8 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
 
     private Runnable runPeekFiles(int tid, ResultSet set, int from, int end) {
         return () -> {
+            boolean printOmit = false;
+
             LF lf = new LF(folder, tid + ".txt");
             // Open logging files
             lf.getFile().open(false);
@@ -148,10 +150,14 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
                     ok++;
                 } else if (isMusic) {
                     musicLinks.add(link);
-                    lf.log("#%s Omit Music => %s", i, link);
+                    if (printOmit) {
+                        lf.log("#%s Omit Music => %s", i, link);
+                    }
                     L.log("#%s Omit Music => %s", i, link);
                 } else {
-                    lf.log("#%s Omit => %s", i, link);
+                    if (printOmit) {
+                        lf.log("#%s Omit => %s", i, link);
+                    }
                 }
             }
 
@@ -175,7 +181,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
         if (doc == null) return info;
 
         // Step 2: Find the <center> nodes
-        logf.log("Title = %s, Children = %s", doc.title(), doc.getAllElements().size());
+        logf.log("Title = %s", doc.title());
         Elements fileInfo = doc.getElementsByClass("fileInfo");
         info.html = TosGet.me.getHtmlAt(0, fileInfo);
 
