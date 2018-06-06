@@ -21,12 +21,12 @@ public class ASD {
     public static void run() {
         tt.reset();
         tt.tic();
-        getLogos();
-        getPlusMinus();
+        //getLogos();
+        //getPlusMinus();
         getMissions();
-        getNums();
-        getMonsterEat();
-        getPrizeIcons();
+        //getNums();
+        //getMonsterEat();
+        //getPrizeIcons();
         tt.tac("Done");
     }
 
@@ -59,6 +59,8 @@ public class ASD {
         getMission("mission", "Screenshot_20180602-012851.png", "a", 308);
         getMission("mission", "Screenshot_20180604-022215.png", "b", 291);
         getMission("mission", "Screenshot_20180604-022645.png", "c", 340);
+        getMission("mission", "Screenshot_20180604-232548.png", "d", 340);
+        getMission("mission", "Screenshot_20180604-232619.png", "e", 340);
     }
 
     private static void getMission(String folder, String src, String prefix, int w0) {
