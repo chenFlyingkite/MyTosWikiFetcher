@@ -1,11 +1,7 @@
 package main.fetcher;
 
-import main.card.CardTds;
-import main.card.IconInfo;
-import main.card.TosCard;
-import main.card.TosCardCreator;
+import main.card.*;
 import main.card.TosCardCreator.CardInfo;
-import main.card.TosGet;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -22,11 +18,7 @@ import util.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     private TosWikiCardFetcher() {}
@@ -88,9 +80,10 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lfc.setLogToL(false);
 
         // Required data
-        int percent = 0, crafts = 0;
-        List<TosCard> cards = new ArrayList<>();
+        int percent = 0, crafts = 0, mvps = 0;
         Set<String> cardSet = new HashSet<>();
+        Set<String> cardSeriesSet = new TreeSet<>();
+        List<TosCard> cards = new ArrayList<>();
         List<TosCard> cardsNoDup = new ArrayList<>();
 
         tt.tic();
@@ -111,12 +104,19 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             }
 
             boolean hasPercent = link.contains("%");
-            boolean isCraft = link.contains("/wiki/C");
+            boolean isCraft = link.matches(".+/wiki/C\\d+");
+            boolean isSkin = link.matches(".+/wiki/S\\d+"); // 動態造型
+            boolean isM = link.matches(".+/wiki/M\\d+"); // 72柱神
+            boolean isV = link.matches(".+/wiki/V\\d+"); // 迪士尼
+            boolean isP = link.matches(".+/wiki/P\\d+"); // 討伐戰
             if (hasPercent) {
                 percent++;
             } else if (isCraft) {
                 crafts++;
                 //L.log("Craft #%s -> %s", i, link);
+            } else if (isSkin || isM || isP || isV) {
+                mvps++;
+                //L.log("MVPS #%s -> %s", i, link);
             } else {
                 // Step 3: For valid links, get its card info
                 Lf.log("#%04d -> %s, %s", i, link, useTest ? "" : set.getItems()[i]);
@@ -128,6 +128,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                     Lfc.log("X_X, No card %s", card.wikiLink); // For 龍刻
                 } else {
                     cards.add(tosCard);
+                    cardSeriesSet.add(tosCard.series);
                     // Use id as key, Add to non-duplicated
                     // For BigBang series, it has same name but different id
                     // http://zh.tos.wikia.com/wiki/611
@@ -159,6 +160,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
         Lf.log("links: %s has %%, %s are crafts", percent, crafts);
         Lf.log("sizes are %s", itemsN);
+        Lf.log("%s series => %s", cardSeriesSet.size(), cardSeriesSet);
         Lf.log("%s cards", cards.size());
         Lf.log("%s cards not duplicate", cardsNoDup.size());
         Lf.getFile().close();
