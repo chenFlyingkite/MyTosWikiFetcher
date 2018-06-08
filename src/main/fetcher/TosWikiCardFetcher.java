@@ -128,11 +128,11 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                     Lfc.log("X_X, No card %s", card.wikiLink); // For 龍刻
                 } else {
                     cards.add(tosCard);
-                    // Use name + id as key, Add to non-duplicated
+                    // Use id as key, Add to non-duplicated
                     // For BigBang series, it has same name but different id
                     // http://zh.tos.wikia.com/wiki/611
                     // http://zh.tos.wikia.com/wiki/676
-                    String key = tosCard.idNorm + "_" + tosCard.name;
+                    String key = tosCard.idNorm;
                     boolean hasKey = cardSet.contains(key);
                     if (hasKey) {
                         Lf.log("%s exists key = %s", i, key);
