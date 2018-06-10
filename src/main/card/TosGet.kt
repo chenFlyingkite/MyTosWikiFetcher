@@ -56,7 +56,7 @@ class TosGet {
             return info
         }
 
-        fun getTosMainInfo(element: Element?): HomeTable {
+        fun getTosMainInfo(element: Element?, wikiBase: String): HomeTable {
             val homeTable = HomeTable()
             if (element == null) return homeTable
             val child = element.children()
@@ -69,6 +69,7 @@ class TosGet {
             for (tr in trs) {
                 val row = HomeRow()
                 val list = ArrayList<Element>()
+                var link = ""
 
                 val chd = tr.children()
                 val n = chd?.size ?: 0
@@ -76,7 +77,17 @@ class TosGet {
                     val texts = ArrayList<String>()
                     for (ch in chd) {
                         list.add(ch)
-                        texts.add(ch.text())
+
+                        val img = getImageTag(ch)
+                        if (img == null) {
+                            texts.add(ch.text())
+                        } else {
+                            val taga = ch.getElementsByTag("a")
+                            val an = taga?.size ?: 0
+                            if (an > 0) {
+                                link = wikiBase + "" + taga[0].attr("href")
+                            }
+                        }
                     }
                     //println("${texts.size}, child = $texts")
                 }
@@ -84,6 +95,7 @@ class TosGet {
                 row.dateStart = asLong(tr.attr("data-start"))
                 row.dateEnd = asLong(tr.attr("data-end"))
                 row.tds = list
+                row.link = link
                 //println("row = $row")
                 allRows.add(row)
             }
@@ -473,6 +485,7 @@ class HomeTable {
 class HomeRow {
     var dateStart :Long = 0
     var dateEnd :Long = 0
+    var link = ""
     var tds = ArrayList<Element>()
 
     fun asTexts() : List<String> {
@@ -484,7 +497,7 @@ class HomeRow {
     }
 
     override fun toString(): String {
-        return "$dateStart ~ $dateEnd -> ${asTexts()}"
+        return "$dateStart ~ $dateEnd -> ${asTexts()}\n  link = $link"
     }
 }
 

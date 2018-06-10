@@ -35,7 +35,7 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         if (main == null) return;
         int n = main.children().size();
         if (n < 4) return;
-        HomeTable table = TosGet.me.getTosMainInfo(main);
+        HomeTable table = TosGet.me.getTosMainInfo(main, wikiBaseZh);
         mLf.log("" + table.getTitle());
         for (HomeRow row : table.getRows()) {
             mLf.log("" + row);
