@@ -56,6 +56,51 @@ class TosGet {
             return info
         }
 
+        fun getTosMainInfo(element: Element?): HomeTable {
+            val homeTable = HomeTable()
+            if (element == null) return homeTable
+            val child = element.children()
+            // 1. Fetch title
+            val title = child.get(0).text()
+            homeTable.title = title
+
+            val allRows = ArrayList<HomeRow>()
+            val trs = child.get(1).getElementsByTag("tr")
+            for (tr in trs) {
+                val row = HomeRow()
+                val list = ArrayList<Element>()
+
+                val chd = tr.children()
+                val n = chd?.size ?: 0
+                if (n > 0) {
+                    val texts = ArrayList<String>()
+                    for (ch in chd) {
+                        list.add(ch)
+                        texts.add(ch.text())
+                    }
+                    //println("${texts.size}, child = $texts")
+                }
+                // Add to data holder
+                row.dateStart = asLong(tr.attr("data-start"))
+                row.dateEnd = asLong(tr.attr("data-end"))
+                row.tds = list
+                //println("row = $row")
+                allRows.add(row)
+            }
+            homeTable.rows.addAll(allRows)
+
+            return homeTable
+        }
+
+        private fun asLong(text :String?, failed :Long = 0) :Long {
+            var value = failed
+            try {
+                value = text?.toLong() ?: failed
+            } catch (e :NumberFormatException) {
+            }
+            return value
+        }
+
         fun getTosPageImageInfo(element: Element?): ImageInfo2? {
             if (element == null) {
                 return null
@@ -414,6 +459,33 @@ open class TableInfo {
 
 class StageInfo : TableInfo() {
     var title: String = ""
+}
+
+class HomeTable {
+    var title = ""
+    val rows = ArrayList<HomeRow>()
+
+    fun isEmpty() : Boolean {
+        return false
+        //return TextUtil.isEmpty(link) && TextUtil.isEmpty(imageName)
+    }
+}
+class HomeRow {
+    var dateStart :Long = 0
+    var dateEnd :Long = 0
+    var tds = ArrayList<Element>()
+
+    fun asTexts() : List<String> {
+        val list = ArrayList<String>()
+        for (td in tds) {
+            list.add(td.text())
+        }
+        return list
+    }
+
+    override fun toString(): String {
+        return "$dateStart ~ $dateEnd -> ${asTexts()}"
+    }
 }
 
 class ImageInfo2 {
