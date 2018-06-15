@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000}
-from gson, (12590 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (12641 items, basePath = http://zh.tos.wikia.com, offset = null)
 #0000 -> http://zh.tos.wikia.com/wiki/001, (id = 116891, title = 001, url = /wiki/001, ns = 0)
 Title = 莫莉 | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, 61, -1, -1, -1, -1, 62] => 61
@@ -8746,43 +8746,68 @@ Title = BIGBANG元素師 | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
 ---------------------
-#2371 -> http://zh.tos.wikia.com/wiki/DAESUNG, (id = 152865, title = DAESUNG, url = /wiki/DAESUNG, ns = 0)
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+#2396 -> http://zh.tos.wikia.com/wiki/DAESUNG, (id = 152865, title = DAESUNG, url = /wiki/DAESUNG, ns = 0)
 Title = DAESUNG | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2371 exists key = 0611
+2396 exists key = 0611
 ---------------------
-#2372 -> http://zh.tos.wikia.com/wiki/DAESUNG(676), (id = 172926, title = DAESUNG(676), url = /wiki/DAESUNG(676), ns = 0)
+#2397 -> http://zh.tos.wikia.com/wiki/DAESUNG(676), (id = 172926, title = DAESUNG(676), url = /wiki/DAESUNG(676), ns = 0)
 Title = DAESUNG(676) | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2372 exists key = 0676
+2397 exists key = 0676
 ---------------------
-#2373 -> http://zh.tos.wikia.com/wiki/Downfall, (id = 240255, title = Downfall, url = /wiki/Downfall, ns = 0)
+#2398 -> http://zh.tos.wikia.com/wiki/Downfall, (id = 240255, title = Downfall, url = /wiki/Downfall, ns = 0)
 Title = Downfall | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
-#2375 -> http://zh.tos.wikia.com/wiki/Follow_The_Black_Rabbit, (id = 240252, title = Follow The Black Rabbit, url = /wiki/Follow_The_Black_Rabbit, ns = 0)
+#2400 -> http://zh.tos.wikia.com/wiki/Follow_The_Black_Rabbit, (id = 240252, title = Follow The Black Rabbit, url = /wiki/Follow_The_Black_Rabbit, ns = 0)
 Title = Follow The Black Rabbit | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
-#2376 -> http://zh.tos.wikia.com/wiki/G-Dragon, (id = 152873, title = G-Dragon, url = /wiki/G-Dragon, ns = 0)
+#2401 -> http://zh.tos.wikia.com/wiki/G-Dragon, (id = 152873, title = G-Dragon, url = /wiki/G-Dragon, ns = 0)
 Title = G-Dragon | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2376 exists key = 0615
+2401 exists key = 0615
 ---------------------
-#2377 -> http://zh.tos.wikia.com/wiki/G-Dragon(684), (id = 174399, title = G-Dragon(684), url = /wiki/G-Dragon(684), ns = 0)
+#2402 -> http://zh.tos.wikia.com/wiki/G-Dragon(684), (id = 174399, title = G-Dragon(684), url = /wiki/G-Dragon(684), ns = 0)
 Title = G-Dragon(684) | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2377 exists key = 0684
+2402 exists key = 0684
 ---------------------
-#2378 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
+#2403 -> http://zh.tos.wikia.com/wiki/Homepage/Mobile, (id = 94166, title = Homepage/Mobile, url = /wiki/Homepage/Mobile, ns = 0)
 Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
-#2379 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
+#2404 -> http://zh.tos.wikia.com/wiki/Hugochau/sandbox2, (id = 134996, title = Hugochau/sandbox2, url = /wiki/Hugochau/sandbox2, ns = 0)
 Title = User:Hugochau/sandbox2 | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
-#2380 -> http://zh.tos.wikia.com/wiki/I_will_never_let_you_go, (id = 240254, title = I will never let you go, url = /wiki/I_will_never_let_you_go, ns = 0)
+#2405 -> http://zh.tos.wikia.com/wiki/I_will_never_let_you_go, (id = 240254, title = I will never let you go, url = /wiki/I_will_never_let_you_go, ns = 0)
 Title = I will never let you go | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
-#2381 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
+#2406 -> http://zh.tos.wikia.com/wiki/M, (id = 173425, title = M, url = /wiki/M, ns = 0)
 Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
@@ -8804,59 +8829,59 @@ Title = M | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
 ---------------------
-#2401 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
+#2426 -> http://zh.tos.wikia.com/wiki/Main_Page, (id = 4, title = Main Page, url = /wiki/Main_Page, ns = 0)
 Title = Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
 ---------------------
 ---------------------
 ---------------------
-#2406 -> http://zh.tos.wikia.com/wiki/SEUNGRI, (id = 152869, title = SEUNGRI, url = /wiki/SEUNGRI, ns = 0)
+#2431 -> http://zh.tos.wikia.com/wiki/SEUNGRI, (id = 152869, title = SEUNGRI, url = /wiki/SEUNGRI, ns = 0)
 Title = SEUNGRI | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2406 exists key = 0613
+2431 exists key = 0613
 ---------------------
-#2407 -> http://zh.tos.wikia.com/wiki/SEUNGRI(680), (id = 174397, title = SEUNGRI(680), url = /wiki/SEUNGRI(680), ns = 0)
+#2432 -> http://zh.tos.wikia.com/wiki/SEUNGRI(680), (id = 174397, title = SEUNGRI(680), url = /wiki/SEUNGRI(680), ns = 0)
 Title = SEUNGRI(680) | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2407 exists key = 0680
+2432 exists key = 0680
 ---------------------
-#2408 -> http://zh.tos.wikia.com/wiki/T.O.P, (id = 152871, title = T.O.P, url = /wiki/T.O.P, ns = 0)
+#2433 -> http://zh.tos.wikia.com/wiki/T.O.P, (id = 152871, title = T.O.P, url = /wiki/T.O.P, ns = 0)
 Title = T.O.P | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2408 exists key = 0614
+2433 exists key = 0614
 ---------------------
-#2409 -> http://zh.tos.wikia.com/wiki/T.O.P(682), (id = 174398, title = T.O.P(682), url = /wiki/T.O.P(682), ns = 0)
+#2434 -> http://zh.tos.wikia.com/wiki/T.O.P(682), (id = 174398, title = T.O.P(682), url = /wiki/T.O.P(682), ns = 0)
 Title = T.O.P(682) | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2409 exists key = 0682
+2434 exists key = 0682
 ---------------------
-#2410 -> http://zh.tos.wikia.com/wiki/TAEYANG, (id = 152867, title = TAEYANG, url = /wiki/TAEYANG, ns = 0)
+#2435 -> http://zh.tos.wikia.com/wiki/TAEYANG, (id = 152867, title = TAEYANG, url = /wiki/TAEYANG, ns = 0)
 Title = TAEYANG | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2410 exists key = 0612
+2435 exists key = 0612
 ---------------------
-#2411 -> http://zh.tos.wikia.com/wiki/TAEYANG(678), (id = 174396, title = TAEYANG(678), url = /wiki/TAEYANG(678), ns = 0)
+#2436 -> http://zh.tos.wikia.com/wiki/TAEYANG(678), (id = 174396, title = TAEYANG(678), url = /wiki/TAEYANG(678), ns = 0)
 Title = TAEYANG(678) | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, 61, -1, -1, 63] => 61
-2411 exists key = 0678
+2436 exists key = 0678
 ---------------------
 ---------------------
 ---------------------
-#2414 -> http://zh.tos.wikia.com/wiki/Terry, (id = 246554, title = Terry, url = /wiki/Terry, ns = 0)
+#2439 -> http://zh.tos.wikia.com/wiki/Terry, (id = 246554, title = Terry, url = /wiki/Terry, ns = 0)
 Title = Terry | Tower of Saviors 維基 | FANDOM powered by Wikia
 anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 61] => 61
-2414 exists key = 1589
+2439 exists key = 1589
 ---------------------
 ---------------------
-#2416 -> http://zh.tos.wikia.com/wiki/Test2, (id = 248104, title = Test2, url = /wiki/Test2, ns = 0)
+#2441 -> http://zh.tos.wikia.com/wiki/Test2, (id = 248104, title = Test2, url = /wiki/Test2, ns = 0)
 Title = Test2 | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
-#2417 -> http://zh.tos.wikia.com/wiki/Test2/Def, (id = 248103, title = Test2/Def, url = /wiki/Test2/Def, ns = 0)
+#2442 -> http://zh.tos.wikia.com/wiki/Test2/Def, (id = 248103, title = Test2/Def, url = /wiki/Test2/Def, ns = 0)
 Title = Test2/Def | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
-#2419 -> http://zh.tos.wikia.com/wiki/V/M, (id = 139473, title = V/M, url = /wiki/V/M, ns = 0)
+#2444 -> http://zh.tos.wikia.com/wiki/V/M, (id = 139473, title = V/M, url = /wiki/V/M, ns = 0)
 Title = 寵物圖鑒V01-V50 | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
@@ -19029,7 +19054,33 @@ Title = 寵物圖鑒V01-V50 | Tower of Saviors 維基 | FANDOM powered by Wikia
 ---------------------
 ---------------------
 ---------------------
-links: 10154 has %, 254 are crafts
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+---------------------
+links: 10180 has %, 279 are crafts
 sizes are [16, 32, 18, 22, 24, 28, 31]
 177 series => [B.Duck, BIGBANG元素師, 七十二柱魔神, 七原罪, 三國, 三國 ‧ 貳, 三國小兵, 三教頂峰, 不死英雄, 中國神, 中國神幻化, 中國神煉化, 中國神獸, 主角, 仙劍列傳, 仙劍靈傑, 仙劍靈獸, 修羅場, 修道仙妖, 修驗道式神, 傳世神器, 傳教士, 八仙, 八仙素材, 公會任務, 公會戰, 列王之爭, 創塔者們, 劍靈, 北域巨人, 北域遺族, 北域霸獸, 北歐神, 北歐神幻化, 北歐神煉化, 協助者, 古希臘神, 古蹟源龍, 可口羊駝, 史萊姆, 吉祥物, 命運女神, 圓桌騎士, 地獄魔王, 地精, 埃及神, 埃及神幻化, 埃及神煉化, 墮天, 大和, 大富翁, 大富翁 ‧ 神明, 大蛇的眷屬, 天竺, 奇想典故, 女王之塔, 妖女, 妖嬈花夢, 宇宙序章, 寧芙, 封王, 封神演義, 巨像, 巨神兵, 巫女, 巴比倫主神, 巴比倫神明, 布袋小偶, 希臘妖獸, 希臘神, 希臘神像, 幻境惡棍, 強力武裝, 強化素材, 怪物彈珠, 怪物彈珠 ‧ 英雄, 慶節精靈, 憶念, 戰慄級, 拳皇, 新手夥伴, 新革童話, 旅人的夥伴, 星詠之歌姬, 果實精靈, 機偶使者, 機偶合體, 機偶夥伴, 機械獸, 機械神兵, 機龍, 武者烈魂, 武魂附體, 死亡騎士, 死物附靈, 海上霸者, 潛能解放素材, 無名勇士, 狼人, 獵人×獵人, 獸伴, 王的護衛, 玩具精靈, 畫緣相遇, 異界龍, 異神使徒, 瘋頭, 百鬼夜行 ‧ 妖魅, 百鬼夜行 ‧ 怪譚, 百鬼夜行 ‧ 惡鬼, 碎羽墮落者, 神界守衛, 神話創世, 神魔員工, 科學少女, 童話仙蹤, 競技場, 笨小魔, 粉碎亂鬥, 粉碎狂熱, 精靈, 約誓之翼, 耀脈星芒, 聖酒女武神, 自然德魯依, 英靈地精, 英靈女孩, 荒誕精靈, 蜥蜴戰士, 街頭流氓, 西方魔獸, 要塞兵團, 討伐戰, 誓約之花, 諸界看守者, 豐腴珍獸, 貓公爵傭兵團, 超獸魔神, 軒轅仙獸, 軒轅列傳, 追擊始源, 逐願邪星, 進化素材, 遊俠, 遠古的恐懼, 遠古神龍, 遠洋的旅人, 遠洋的英雄, 部落精獸, 都市傳說, 金屬生命, 鐵皮部隊, 防龍, 隱士支配者, 霹靂布袋戲, 靈殿狛犬, 靈獸役使, 靈魂精髓, 革新英雄, 風格樂團, 高手隱士, 鬼魅奸佞, 魔像, 魔境住民, 魔境入侵者, 魔幻嘍囉, 魔幼龍, 魔族始源, 魔法女孩, 魔變凶龍, 鮮紅恩典, 鮮紅恩典幻化, 鮮紅恩典煉化, 黃道十二宮, 黑鐵學徒, 龍僕, 龍牙棋]
 2094 cards

@@ -26,6 +26,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     private final LF Lf = new LF("mydata");
     private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000";
     private final LF Lfc = new LF("mydata", "ca.json");
+    private final LF LfPage = new LF("mydata", "pages.txt");
 
     @Override
     public String getAPILink() {
@@ -78,6 +79,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lf.setLogToL(!mFetchAll);
         Lfc.getFile().delete().open();
         Lfc.setLogToL(false);
+        LfPage.getFile().delete().open();
+        LfPage.setLogToL(false);
 
         // Required data
         int percent = 0, crafts = 0, mvps = 0;
@@ -101,6 +104,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 tt.tac("%s fetchCard ", i - 1);
                 tt.tic();
                 L.log("#%s -> %s", i, link);
+                LfPage.log("#%s -> %s", i, link);
             }
 
             boolean hasPercent = link.contains("%");
@@ -165,6 +169,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lf.log("%s cards not duplicate", cardsNoDup.size());
         Lf.getFile().close();
         Lfc.getFile().close();
+        LfPage.getFile().close();
 
         writeToJson(cardsNoDup);
     }
