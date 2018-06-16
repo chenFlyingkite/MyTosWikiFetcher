@@ -38,11 +38,11 @@ public class ASD {
     private static void getCrop() {
         Rect2 r;
         r = Rect2.atLTWH(0, 2048, 2160, 1080);
-        getImage("play", "play//Screenshot_20180512-230227.png", r, "1");
+        getImage("play", "play/Screenshot_20180512-230227.png", r, "1");
         r = Rect2.atLTWH(0, 432, 2160, 3121);
-        getImage("play", "play//Screenshot_20180616-185554.png", r, "2");
+        getImage("play", "play/Screenshot_20180616-185554.png", r, "2");
         r = Rect2.atLTWH(0, 3, 1024, 500);
-        getImage("play", "play//play.png", r, "play");
+        getImage("play", "play/play.png", r, "play");
     }
 
     private static void getPrizeIcons() {
@@ -92,8 +92,8 @@ public class ASD {
 
     // New version for number images
     private static void getNums() {
-        getNumbers("nums", "nums\\Screenshot_20180601-005206.png", 95, 853, "a", 6);
-        getNumbers("nums", "nums\\Screenshot_20180601-005257.png", 95, 869, "b", 6);
+        getNumbers("nums", "nums/Screenshot_20180601-005206.png", 95, 853, "a", 6);
+        getNumbers("nums", "nums/Screenshot_20180601-005257.png", 95, 869, "b", 6);
     }
 
     private static void getMonsterEat() {
@@ -151,19 +151,19 @@ public class ASD {
 
     /**
      * Returns the cropped image
-     * @param folder saved file at "Logos\\Output\\" + folder
-     * @param src image source from "Logos\\Source\\" + src
+     * @param folder saved file at "Logos/Output/" + folder
+     * @param src image source from "Logos/Source/" + src
      * @param rect crop src image at specific range
      * @param dst file output as (dst + ".png") in folder
      */
     private static void getImage(String folder, String src, Rect2 rect, String dst) {
         int w = rect.width();
         int h = rect.height();
-        final String base = "Logos\\Output\\" + folder;
-        String name = base + "\\" + dst + ".png";
+        final String base = "Logos/Output/" + folder;
+        String name = base + "/" + dst + ".png";
 
         // Crop icon
-        PngParam p = new PngParam("Logos\\Source\\" + src).size(w, h);
+        PngParam p = new PngParam("Logos/Source/" + src).size(w, h);
         PngCreator.from(p).copy(rect).into(name);
         L.log("created %s", name);
     }
@@ -176,11 +176,11 @@ public class ASD {
     private static void getImageR(String folder, String src, Rect2 rect, String dst) {
         int w = rect.width();
         int h = rect.height();
-        final String base = "Logos\\Output\\" + folder;
-        String name = base + "\\" + dst + ".png";
+        final String base = "Logos/Output/" + folder;
+        String name = base + "/" + dst + ".png";
 
         // Crop icon
-        PngParam p = new PngParam("Logos\\Source\\" + src).size(w, h);
+        PngParam p = new PngParam("Logos/Source/" + src).size(w, h);
         PngCreator.from(p).copy(rect).eraseCorners().into(name);
         L.log("created %s", name);
     }
