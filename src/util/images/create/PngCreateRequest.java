@@ -1,5 +1,6 @@
 package util.images.create;
 
+import util.MathUtil;
 import util.data.Rect2;
 import util.images.base.PngParam;
 import util.images.base.PngRequest;
@@ -56,18 +57,19 @@ public class PngCreateRequest extends PngRequest {
         final int w = rect.width();
         final int h = rect.height();
 
-        // Checking valid parameter
-        Rect2 valid = new Rect2(0, 0, srcImg.getWidth() - w, srcImg.getHeight() - h);
-        if (!rect.equals(allDstRect) && !valid.contains(x, y)) {
-            L.log("Invalid position (%s, %s)", x, y);
-            return this;
-        }
-
         // Step : Copy image
         mClock.tic();
         for (int i = 0; i < w; i++) {
             for (int j = 0; j < h; j++) {
-                int rgba = srcImg.getRGB(x + i, y + j);
+                int rgba;
+                int sx = x + i;
+                int sy = y + j;
+                boolean valid = MathUtil.isInRange(sx, 0, srcImg.getWidth()) && MathUtil.isInRange(sy, 0, srcImg.getHeight());
+                if (valid) {
+                    rgba = srcImg.getRGB(sx, sy);
+                } else {
+                    rgba = 0; // Black if OutOfBound
+                }
                 dstImg.setRGB(i, j, rgba);
             }
         }

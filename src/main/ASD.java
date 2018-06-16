@@ -13,7 +13,11 @@ import util.tool.TicTac2;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
 
 public class ASD {
     private static final TicTac2 tt = new TicTac2();
@@ -23,11 +27,22 @@ public class ASD {
         tt.tic();
         //getLogos();
         //getPlusMinus();
-        getMissions();
+        //getMissions();
         //getNums();
         //getMonsterEat();
         //getPrizeIcons();
+        getCrop();
         tt.tac("Done");
+    }
+
+    private static void getCrop() {
+        Rect2 r;
+        r = Rect2.atLTWH(0, 2048, 2160, 1080);
+        getImage("play", "play//Screenshot_20180512-230227.png", r, "1");
+        r = Rect2.atLTWH(0, 432, 2160, 3121);
+        getImage("play", "play//Screenshot_20180616-185554.png", r, "2");
+        r = Rect2.atLTWH(0, 3, 1024, 500);
+        getImage("play", "play//play.png", r, "play");
     }
 
     private static void getPrizeIcons() {
@@ -134,6 +149,13 @@ public class ASD {
         }
     }
 
+    /**
+     * Returns the cropped image
+     * @param folder saved file at "Logos\\Output\\" + folder
+     * @param src image source from "Logos\\Source\\" + src
+     * @param rect crop src image at specific range
+     * @param dst file output as (dst + ".png") in folder
+     */
     private static void getImage(String folder, String src, Rect2 rect, String dst) {
         int w = rect.width();
         int h = rect.height();
@@ -146,7 +168,11 @@ public class ASD {
         L.log("created %s", name);
     }
 
-    // Get the rounded image
+    /**
+     * Get the rounded cropped image
+     * parameters are same as {@link #getImage(String, String, Rect2, String)}
+     * @see #getImage(String, String, Rect2, String)
+     */
     private static void getImageR(String folder, String src, Rect2 rect, String dst) {
         int w = rect.width();
         int h = rect.height();
