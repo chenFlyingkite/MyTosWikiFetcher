@@ -104,7 +104,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 tt.tac("%s fetchCard ", i - 1);
                 tt.tic();
                 L.log("#%s -> %s", i, link);
-                LfPage.log("#%s -> %s", i, link);
+                LfPage.log("%s", link);
             }
 
             boolean hasPercent = link.contains("%");
