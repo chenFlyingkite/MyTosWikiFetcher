@@ -26,6 +26,7 @@ public class TosCardCreator {
         public List<String> ameStages = new ArrayList<>();
         public List<String> awkStages = new ArrayList<>();
         public List<String> powStages = new ArrayList<>();
+        public List<String> virStages = new ArrayList<>();
     }
 
 //  node length, page
@@ -338,6 +339,12 @@ public class TosCardCreator {
         if (list.size() > 0) {
             c.skillPowBattleName = list.get(0);
             c.skillPowBattleLink = list.get(1);
+        }
+
+        list = info.virStages;
+        if (list.size() > 0) {
+            c.skillVirBattleLink = list.get(0);
+            c.skillVirBattleLink = list.get(1);
         }
     }
 

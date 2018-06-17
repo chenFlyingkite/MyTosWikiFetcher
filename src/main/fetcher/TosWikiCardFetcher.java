@@ -50,8 +50,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
     private List<String> getTestLinks() {
         List<String> list = Arrays.asList(
-                "http://zh.tos.wikia.com/wiki/043"
-                ,"http://zh.tos.wikia.com/wiki/1777"
+                "http://zh.tos.wikia.com/wiki/595"
+                //,"http://zh.tos.wikia.com/wiki/1777"
 
         );
         //return list;
@@ -445,6 +445,25 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             } else {
                 // Missing the 潛能解放關卡, it is added in previous monster
                 //L.log("ERROR!!!!! Missing 潛能解放關卡 : %s -> %s ", tds.get(0), info.wikiLink);
+            }
+        }
+
+        // Fetch if has 異空轉生
+        ax = 8;
+        if (anchors[ax] >= 0) {
+            String stageName = tds.get(anchors[ax] + 1);
+            // Find the icf from last to front
+            boolean found = false;
+            for (int i = iconInfo.size() - 1; i >= 0 && !found; i--) {
+                IconInfo icf = iconInfo.get(i);
+                if (icf.getName().equals(stageName)) {
+                    found = true;
+                    info.virStages.add(stageName); // Stage name
+                    info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
+                    L.log("> %s, %s", tds.get(0), stageName);
+                    L.log("> %s", wikiBaseZh + icf.getLink());
+                    L.log(">-----");
+                }
             }
         }
     }
