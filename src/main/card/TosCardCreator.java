@@ -348,7 +348,7 @@ public class TosCardCreator {
         }
     }
 
-    private String normEvoId(String s) {
+    public String normEvoId(String s) {
         boolean endI = s != null && s.endsWith("i");
         if (endI) {
             // Parse "12i" to "0012"

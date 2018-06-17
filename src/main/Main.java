@@ -1,6 +1,6 @@
 package main;
 
-import main.fetcher.TosWikiCardFetcher;
+import main.fetcher.TosAmeSkillFetcher;
 import util.logging.L;
 import util.tool.StringUtil;
 import util.tool.TicTac;
@@ -11,7 +11,8 @@ public class Main {
         TicTac.tic();
         //TosWikiIconFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
-        TosWikiCardFetcher.me.run();
+        //TosWikiCardFetcher.me.run();
+        TosAmeSkillFetcher.me.run();
         //TosWikiPageFetcher.me.run();
         //TosPageArchiveFetcher.me.run();
         //TosWikiFilePeeker.me.run();

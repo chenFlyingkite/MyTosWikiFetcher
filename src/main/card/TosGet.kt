@@ -1,5 +1,6 @@
 package main.card
 
+import com.google.gson.annotations.SerializedName
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
@@ -211,6 +212,55 @@ class TosGet {
                 info.cells.add(item)
             }}
             return info
+        }
+
+        fun getAmeSkillTable(es: Elements, baseWiki: String): List<AmeSkillInfo> {
+            val result = ArrayList<AmeSkillInfo>()
+            // Each table
+            for (i in 0 until es.size) {
+                val ei = es[i]
+                val itemTrs = ei.getElementsByTag("tr")
+                val nTr = itemTrs?.size ?: 0
+                for (j in 1 until nTr) {
+                    val rowTds = itemTrs[j].getElementsByTag("td")
+                    val nTd = rowTds?.size ?: 0
+                    if (nTd == 5) {
+                        val ame = AmeSkillInfo()
+                        ame.skill = getSkill(rowTds[0], baseWiki)
+                        ame.skillCDMin = Integer.parseInt(rowTds[1].text())
+                        ame.skillCDMax = Integer.parseInt(rowTds[2].text())
+                        ame.skillDesc = rowTds[4].text()
+                        // Fill in monsters
+                        val child = rowTds[3].children()
+                        val nch = child?.size ?: 0
+                        for (k in 0 until nch){
+                            if (child[k] is Element) {
+                                val s = TosCardCreator.me.normEvoId(getImgAlt(child[k]))
+                                if (!TextUtil.isEmpty(s)) {
+                                    ame.monsters.add(s)
+                                }
+                            }
+                        }
+                        result.add(ame)
+                    } else {
+                        print("Omit this items: $nTd tds => $rowTds")
+                    }
+                }
+            }
+            return result
+        }
+
+        fun getSkill(e: Element, baseWiki: String): Skill {
+            val r = Skill()
+            val a = e.getElementsByTag("a")
+            r.wikiLink = baseWiki + a.attr("href")
+            var s = a.text()
+            if (s.isEmpty()) {
+                s = a.attr("title")
+            }
+            r.name = s
+
+            return r
         }
 
         fun getImageFileInfo(doc: Document, wikiBase: String): List<ImageFileInfo> {
@@ -467,6 +517,35 @@ class CardTds {
 open class TableInfo {
     val headers: ArrayList<String> = ArrayList()
     val cells: ArrayList<String> = ArrayList()
+}
+
+class AmeSkillInfo {
+    @SerializedName("skill")
+    var skill = Skill()
+    @SerializedName("skillCDMin")
+    var skillCDMin = -1
+    @SerializedName("skillCDMax")
+    var skillCDMax = -1
+    @SerializedName("skillDesc")
+    var skillDesc = ""
+    @SerializedName("skillMonsters")
+    var monsters = ArrayList<String>() // of idNorm
+
+    override fun toString(): String {
+        return "$skillCDMin ~ $skillCDMax -> $skill\n => $skillDesc\nmon = $monsters"
+    }
+}
+
+class Skill {
+    @SerializedName("name")
+    var name = ""
+
+    @SerializedName("wikiLink")
+    var wikiLink = ""
+
+    override fun toString(): String {
+        return "Skill = $name => $wikiLink"
+    }
 }
 
 class StageInfo : TableInfo() {
