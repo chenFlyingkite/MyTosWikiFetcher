@@ -21,12 +21,12 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runna
 
     private static final String wikiPageBase = zh ? wikiBaseZh : wikiBaseEn;
     private static final String tosWiki = wikiPageBase +
-        (zh ? "/wiki/Special:圖片"
+        (zh ? "/wiki/Special:%E5%9B%BE%E7%89%87"
             : "/wiki/Special:Images");
     private static final int PAGES = zh ? 300 : 146;
     private static final String folder = zh ? "myImagesFile" : "myImagesFileEng";
     // http://zh.tos.wikia.com/wiki/Special:圖片
-    // https://towerofsaviors.wikia.com//wiki/Special:Images
+    // https://towerofsaviors.wikia.com/wiki/Special:Images
 
     private final LF mLf = new LF(folder);
     private final LF mLfImage = new LF(folder, "imageInfo.txt");
