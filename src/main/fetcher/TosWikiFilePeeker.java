@@ -14,7 +14,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
     private TosWikiFilePeeker() {}
     public static final TosWikiFilePeeker me = new TosWikiFilePeeker();
 
-    private final boolean zh = false;
+    private final boolean zh = true;
     private final String folder = zh ? "myPeekFiles" : "myPeekFilesEng";
     private final LF Lf = new LF(folder);
     private final String tosApi = (zh ? zhApi1 : enApi1)
