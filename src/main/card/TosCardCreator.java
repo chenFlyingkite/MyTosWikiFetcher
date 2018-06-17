@@ -343,7 +343,7 @@ public class TosCardCreator {
 
         list = info.virStages;
         if (list.size() > 0) {
-            c.skillVirBattleLink = list.get(0);
+            c.skillVirBattleName = list.get(0);
             c.skillVirBattleLink = list.get(1);
         }
     }

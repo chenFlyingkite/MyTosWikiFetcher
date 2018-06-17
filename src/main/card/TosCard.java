@@ -249,7 +249,7 @@ public class TosCard {
     public String skillPowBattleLink = "";
 
     //------------
-    //---- Virtual Rebirth stage, 潛能解放關卡
+    //---- Virtual Rebirth stage, 異空轉生關卡
     //------------
 
     /** Virtual Rebirth stage, like "迷茫的岔路 ‧ 暗" */

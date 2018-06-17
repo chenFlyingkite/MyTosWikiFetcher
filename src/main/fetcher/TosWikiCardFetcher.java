@@ -460,9 +460,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                     found = true;
                     info.virStages.add(stageName); // Stage name
                     info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
-                    L.log("> %s, %s", tds.get(0), stageName);
-                    L.log("> %s", wikiBaseZh + icf.getLink());
-                    L.log(">-----");
                 }
             }
         }
