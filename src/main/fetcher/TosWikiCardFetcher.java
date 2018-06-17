@@ -48,7 +48,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
     private boolean runChecker = false;
 
-    private List<String> getTestLinks() {
+    @Override
+    protected List<String> getTestLinks() {
         List<String> list = Arrays.asList(
                 "http://zh.tos.wikia.com/wiki/595"
                 //,"http://zh.tos.wikia.com/wiki/1777"
@@ -64,7 +65,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         mFetchAll = 0 < 3;
 
         // Get the range sets
-        Source source = getSource();
+        Source source = getSource(from, prefetch);
         if (source == null) return;
         ResultSet set = source.results;
         Range rng = source.range;
@@ -92,13 +93,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         tt.tic();
         for (int i = rng.min; i < rng.max; i++) {
             // Get link
-            String link = "";
-            if (useTest) {
-                link = source.links.get(i);
-            } else {
-                UnexpandedArticle a = set.getItems()[i];
-                link = set.getBasePath() + "" + a.getUrl();
-            }
+            String link = getSourceLinkAt(source, i);
 
             if (mFetchAll) {
                 tt.tac("%s fetchCard ", i - 1);
@@ -172,10 +167,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         LfPage.getFile().close();
 
         writeToJson(cardsNoDup);
-    }
-
-    private boolean useTest() {
-        return getTestLinks().size() > 0;
     }
 
     @Deprecated
@@ -519,31 +510,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             //Lf.log("image #%s = %s", index + 1, img);
         }
         return img;
-    }
-
-
-    private Source getSource() {
-        // Get the range sets
-        List<String> tests = getTestLinks();
-        boolean useTest = useTest();
-        Source src = new Source();
-        if (useTest) {
-            src.results = new ResultSet();
-            src.range = new Range(0, tests.size());
-            src.links = tests;
-        } else {
-            src.results = getApiResults();
-            if (!hasResult(src.results)) return null;
-
-            src.range = getRange(src.results, from, prefetch);
-        }
-        return src;
-    }
-
-    private class Source {
-        private ResultSet results;
-        private Range range;
-        private List<String> links = new ArrayList<>();
     }
 
 // English Wiki

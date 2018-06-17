@@ -17,6 +17,7 @@ import util.logging.LF;
 import util.tool.IOUtil;
 import util.tool.TextUtil;
 import util.tool.TicTac2;
+import wikia.articles.UnexpandedArticle;
 import wikia.articles.UnexpandedListArticleResultSet;
 
 import java.io.BufferedInputStream;
@@ -27,6 +28,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -240,6 +242,51 @@ public class TosWikiBaseFetcher {
                 lf.getFile().close();
             }
         };
+    }
+
+
+    protected List<String> getTestLinks() {
+        return new ArrayList<>();
+    }
+
+    protected boolean useTest() {
+        return getTestLinks().size() > 0;
+    }
+
+    protected Source getSource(int from, int prefetch) {
+        // Get the range sets
+        List<String> tests = getTestLinks();
+        boolean useTest = useTest();
+        Source src = new Source();
+        if (useTest) {
+            src.results = new ResultSet();
+            src.range = new Range(0, tests.size());
+            src.links = tests;
+        } else {
+            src.results = getApiResults();
+            if (!hasResult(src.results)) return null;
+
+            src.range = getRange(src.results, from, prefetch);
+        }
+        return src;
+    }
+
+    protected String getSourceLinkAt(Source s, int i) {
+        ResultSet set = s.results;
+        String link;
+        if (useTest()) {
+            link = s.links.get(i);
+        } else {
+            UnexpandedArticle a = set.getItems()[i];
+            link = set.getBasePath() + "" + a.getUrl();
+        }
+        return link;
+    }
+
+    protected class Source {
+        public ResultSet results;
+        public Range range;
+        public List<String> links = new ArrayList<>();
     }
 
     // class abbreviation

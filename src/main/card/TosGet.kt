@@ -214,8 +214,8 @@ class TosGet {
             return info
         }
 
-        fun getAmeSkillTable(es: Elements, baseWiki: String): List<AmeSkillInfo> {
-            val result = ArrayList<AmeSkillInfo>()
+        fun getAmeSkillTable(es: Elements, baseWiki: String): List<SkillInfo> {
+            val result = ArrayList<SkillInfo>()
             // Each table
             for (i in 0 until es.size) {
                 val ei = es[i]
@@ -225,8 +225,8 @@ class TosGet {
                     val rowTds = itemTrs[j].getElementsByTag("td")
                     val nTd = rowTds?.size ?: 0
                     if (nTd == 5) {
-                        val ame = AmeSkillInfo()
-                        ame.skill = getSkill(rowTds[0], baseWiki)
+                        val ame = SkillInfo()
+                        getSkill(ame, rowTds[0], baseWiki)
                         ame.skillCDMin = Integer.parseInt(rowTds[1].text())
                         ame.skillCDMax = Integer.parseInt(rowTds[2].text())
                         ame.skillDesc = rowTds[4].text()
@@ -250,15 +250,56 @@ class TosGet {
             return result
         }
 
-        fun getSkill(e: Element, baseWiki: String): Skill {
-            val r = Skill()
+        fun getActiveSkillTable(es: Elements, baseWiki: String): SkillInfo {
+            // Each table
+            val ame = SkillInfo()
+            val ei = es[0]
+            val itemTrs = ei.getElementsByTag("tr")
+            val nTr = itemTrs?.size ?: 0
+            if (nTr > 5) {
+                // itemTr[0] is header, omit it
+                ame.skillName = getTdText(itemTrs[1], 0);// itemTrs[0].getElementsByTag("td")
+                ame.skillLink = ei.baseUri()
+                ame.skillCDMin = Integer.parseInt(getTdText(itemTrs[2], 0))
+                ame.skillCDMax = Integer.parseInt(getTdText(itemTrs[3], 0))
+                ame.skillDesc = itemTrs[4].text()
+                // Fill in monsters
+                val end = nTr - 1
+                val td0 = getTdElement(itemTrs[end], 0)
+                if (td0 != null) {
+                    val s = TosCardCreator.me.normEvoId(getImgAlt(td0))
+                    if (!TextUtil.isEmpty(s)) {
+                        ame.monsters.add(s)
+                    }
+                }
+            } else {
+                print("Omit this items: $nTr trs => ${ei.baseUri()}")
+            }
+            return ame
+        }
+
+        fun getTdText(e: Element, index: Int): String {
+            return getTdElement(e, index)?.text() ?: ""
+        }
+
+        fun getTdElement(e: Element, index: Int): Element? {
+            val tds = e.getElementsByTag("td")
+            val n = tds?.size ?: 0
+            if (n > index) {
+                return tds[index]
+            }
+            return null
+        }
+
+        fun getSkill(ame: SkillInfo?, e: Element, baseWiki: String): SkillInfo {
+            val r = ame ?: SkillInfo()
             val a = e.getElementsByTag("a")
-            r.wikiLink = baseWiki + a.attr("href")
+            r.skillLink = baseWiki + a.attr("href")
             var s = a.text()
             if (s.isEmpty()) {
                 s = a.attr("title")
             }
-            r.name = s
+            r.skillName = s
 
             return r
         }
@@ -519,9 +560,11 @@ open class TableInfo {
     val cells: ArrayList<String> = ArrayList()
 }
 
-class AmeSkillInfo {
-    @SerializedName("skill")
-    var skill = Skill()
+class SkillInfo {
+    @SerializedName("skillName")
+    var skillName = ""
+    @SerializedName("skillLink")
+    var skillLink = ""
     @SerializedName("skillCDMin")
     var skillCDMin = -1
     @SerializedName("skillCDMax")
@@ -532,21 +575,10 @@ class AmeSkillInfo {
     var monsters = ArrayList<String>() // of idNorm
 
     override fun toString(): String {
-        return "$skillCDMin ~ $skillCDMax -> $skill\n => $skillDesc\nmon = $monsters"
+        return "$skillCDMin ~ $skillCDMax -> $skillName => $skillLink\n => $skillDesc\nmon = $monsters"
     }
 }
 
-class Skill {
-    @SerializedName("name")
-    var name = ""
-
-    @SerializedName("wikiLink")
-    var wikiLink = ""
-
-    override fun toString(): String {
-        return "Skill = $name => $wikiLink"
-    }
-}
 
 class StageInfo : TableInfo() {
     var title: String = ""

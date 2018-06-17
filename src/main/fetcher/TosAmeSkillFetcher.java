@@ -1,6 +1,6 @@
 package main.fetcher;
 
-import main.card.AmeSkillInfo;
+import main.card.SkillInfo;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -26,8 +26,7 @@ public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
         Document doc = getDocument(getPage());
         clock.tic();
         getTables(doc);
-        clock.tac("Image OK");
-        //mLf.log(getPoem(doc));
+        clock.tac("Amelioration Skills OK");
 
         mLf.getFile().close();
     }
@@ -35,14 +34,14 @@ public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
     private void getTables(Document doc) {
         Elements main = doc.getElementsByClass("wikitable");
         if (main == null) return;
-        List<AmeSkillInfo> info = TosGet.me.getAmeSkillTable(main, wikiBaseZh);
+        List<SkillInfo> info = TosGet.me.getAmeSkillTable(main, wikiBaseZh);
 
         mLf.log("%s skills", info.size());
-        for (AmeSkillInfo a : info) {
+        for (SkillInfo a : info) {
             mLf.log("%s", a);
         }
-        AmeSkillInfo[] ainfo = info.toArray(new AmeSkillInfo[info.size()]);
-        String msg = mGson.toJson(ainfo, AmeSkillInfo[].class);
+        SkillInfo[] ainfo = info.toArray(new SkillInfo[info.size()]);
+        String msg = mGson.toJson(ainfo, SkillInfo[].class);
         mLfSkills.setLogToL(false);
         mLfSkills.getFile().delete().open(false);
         mLfSkills.log(msg);
