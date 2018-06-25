@@ -94,7 +94,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E4%B8%89%E5%8E%9F%E5%88%A9%E5%88%83_%E2%80%A7_%E4%BA%BA%E6%97%8F",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "技能效果 1 回合內，首 30 粒掉落的符石必定為水人族、火人族及木人族符石",
+    "skillDesc": "技能效果 1 回合內，消除符石後首 30 粒掉落的符石必定為水人族、火人族及木人族符石",
     "skillMonsters": [
       "1693"
     ]
@@ -1437,6 +1437,16 @@
     "skillDesc": "技能效果 3 回合內，水屬性攻擊力 1.8 倍及全隊回復力變 0；並於第 3 回合結束時，完全回復生命力",
     "skillMonsters": [
       "1164"
+    ]
+  },
+  {
+    "skillName": "動力提升 ‧ 光芒",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%8B%95%E5%8A%9B%E6%8F%90%E5%8D%87_%E2%80%A7_%E5%85%89%E8%8A%92",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "技能效果 1 回合內，自身攻擊變為 160 萬光屬性攻擊 (自身需發動攻擊)；機械族成員的行動值提升 5%",
+    "skillMonsters": [
+      "1743"
     ]
   },
   {
@@ -4198,6 +4208,16 @@
     ]
   },
   {
+    "skillName": "森谷圍城之勢",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E8%B0%B7%E5%9C%8D%E5%9F%8E%E4%B9%8B%E5%8B%A2",
+    "skillCDMin": 23,
+    "skillCDMax": 10,
+    "skillDesc": "技能效果 木符石轉化為木神族強化符石，其他符石轉化為木符石。若全隊均為木屬性神族成員，1 回合內，連擊 (Combo) 數目增加 5",
+    "skillMonsters": [
+      "1755"
+    ]
+  },
+  {
     "skillName": "森野之力",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E9%87%8E%E4%B9%8B%E5%8A%9B",
     "skillCDMin": 17,
@@ -5355,6 +5375,16 @@
     "skillDesc": "技能效果 將所有符石轉化為水符石",
     "skillMonsters": [
       "0024"
+    ]
+  },
+  {
+    "skillName": "滄海圍城之勢",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%BB%84%E6%B5%B7%E5%9C%8D%E5%9F%8E%E4%B9%8B%E5%8B%A2",
+    "skillCDMin": 23,
+    "skillCDMax": 10,
+    "skillDesc": "技能效果 水符石轉化為水神族強化符石，其他符石轉化為水符石。若全隊均為水屬性神族成員，1 回合內，連擊 (Combo) 數目增加 5",
+    "skillMonsters": [
+      "1753"
     ]
   },
   {
@@ -6962,7 +6992,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%AC%8A%E5%85%AB%E5%92%AB%E9%8F%A1",
     "skillCDMin": 19,
     "skillCDMax": 10,
-    "skillDesc": "技能效果 將所有符石轉化為神族符石；1 回合內，吸收本回合首個發動攻擊的敵人的攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力",
+    "skillDesc": "技能效果 將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力",
     "skillMonsters": [
       "1426"
     ]
@@ -8563,7 +8593,9 @@
     "skillCDMin": 12,
     "skillCDMax": 1,
     "skillDesc": "技能效果 對全體敵人造成累積戰鬥回合 (需要消除符石) 倍化 10,000 點的暗屬性傷害，最大 100,000 點。當累積至最多 100,000 點時，發動技能時自身攻擊力 2 倍。發動技能後戰鬥回合將重新累積",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1750"
+    ]
   },
   {
     "skillName": "蓄能攻擊 ‧ 暗",
@@ -8601,7 +8633,9 @@
     "skillCDMin": 12,
     "skillCDMax": 1,
     "skillDesc": "技能效果 對全體敵人造成累積戰鬥回合 (需要消除符石) 倍化 10,000 點的水屬性傷害，最大 100,000 點。當累積至最多 100,000 點時，發動技能時自身攻擊力 2 倍。發動技能後戰鬥回合將重新累積",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1746"
+    ]
   },
   {
     "skillName": "蓄能攻擊 ‧ 火",
@@ -8619,7 +8653,9 @@
     "skillCDMin": 12,
     "skillCDMax": 1,
     "skillDesc": "技能效果 對全體敵人造成累積戰鬥回合 (需要消除符石) 倍化 10,000 點的火屬性傷害，最大 100,000 點。當累積至最多 100,000 點時，發動技能時自身攻擊力 2 倍。發動技能後戰鬥回合將重新累積",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1747"
+    ]
   },
   {
     "skillName": "蓄能攻擊 ‧ 玄光",
@@ -8627,7 +8663,9 @@
     "skillCDMin": 12,
     "skillCDMax": 1,
     "skillDesc": "技能效果 對全體敵人造成累積戰鬥回合 (需要消除符石) 倍化 10,000 點的光屬性傷害，最大 100,000 點。當累積至最多 100,000 點時，發動技能時自身攻擊力 2 倍。發動技能後戰鬥回合將重新累積",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1749"
+    ]
   },
   {
     "skillName": "蓄能攻擊 ‧ 藤木",
@@ -8635,7 +8673,9 @@
     "skillCDMin": 12,
     "skillCDMax": 1,
     "skillDesc": "技能效果 對全體敵人造成累積戰鬥回合 (需要消除符石) 倍化 10,000 點的木屬性傷害，最大 100,000 點。當累積至最多 100,000 點時，發動技能時自身攻擊力 2 倍。發動技能後戰鬥回合將重新累積",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1748"
+    ]
   },
   {
     "skillName": "蓄能暴擊 ‧ 光",
@@ -9105,6 +9145,16 @@
     "skillDesc": "技能效果 3 回合內，敵方防禦力下降 90%",
     "skillMonsters": [
       "0036"
+    ]
+  },
+  {
+    "skillName": "變身",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E8%AE%8A%E8%BA%AB",
+    "skillCDMin": 8,
+    "skillCDMax": 8,
+    "skillDesc": "技能效果 變身成明鏡之諜 ‧ 冰花，隊伍中其他水屬性成員的主動技能 CD 減少 1",
+    "skillMonsters": [
+      "1166"
     ]
   },
   {
