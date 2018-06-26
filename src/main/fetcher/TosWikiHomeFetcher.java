@@ -24,8 +24,7 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         Document doc = getDocument(getPage());
         clock.tic();
         getMain(doc);
-        clock.tac("Image OK");
-        //mLf.log(getPoem(doc));
+        clock.tac("Main OK");
 
         mLf.getFile().close();
     }
@@ -40,15 +39,5 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         for (HomeRow row : table.getRows()) {
             mLf.log("" + row);
         }
-
-//        Elements imgs = doc.getElementsByClass("image image-thumbnail");
-//        if (imgs != null) {
-//            Element e1 = imgs.get(0);
-//            ImageInfo2 info = TosGet.me.getImgInfo2(e1);
-//
-//            String link = wikiFileZh + "" + info.getImageName();
-//            IconInfo icf = getIconInfo(link);
-//            downloadImage(icf.getLink(), folder, icf.getName());
-//        }
     }
 }
