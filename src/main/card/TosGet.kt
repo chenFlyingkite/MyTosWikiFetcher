@@ -262,7 +262,7 @@ class TosGet {
                 ame.skillLink = ei.baseUri()
                 ame.skillCDMin = Integer.parseInt(getTdText(itemTrs[2], 0))
                 ame.skillCDMax = Integer.parseInt(getTdText(itemTrs[3], 0))
-                ame.skillDesc = itemTrs[4].text()
+                ame.skillDesc = getTdText(itemTrs[4], 0)
                 // Fill in monsters
                 val end = nTr - 1
                 val td0 = getTdElement(itemTrs[end], 0)
