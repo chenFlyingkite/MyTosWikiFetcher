@@ -27,6 +27,7 @@ public class Main {
         //MobileComm.run();
         //ASD.run();
         //TosWikiStageFetcher.me.run();
+        //ClusterMain.INSTANCE.main(args);
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
