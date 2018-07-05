@@ -3,6 +3,7 @@ package util.datamining.clustering.algo
 import util.datamining.clustering.util.CLClus
 import util.datamining.clustering.util.IDPair
 import util.logging.LF
+import util.math.Statistics
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -35,32 +36,54 @@ class CLHistogram<T: CLClus<T>> : Runnable {
 
     override fun run() {
         log.file.open(false)
-
+        log.setLogToL(false)
         val groupIds = ArrayList<Int>()
-        var group = NO_ID
+        var groupCount = NO_ID
+        var groupI: Int
         var subdata: List<T>
         val preKGroups = ArrayList<Int>()
         for (i in 0 until dataset.size) {
             subdata = dataset.subList(0, i)
             preKGroups.clear()
-            //getKNN()
-            for (j in 0 until i) {
-                preKGroups.add(j)
-                //groups.add()
-                var y = dataset[j]
+            val x = dataset[i]
+            val neighbor = getKNN(x, i, 31, subdata)
+            log.log("--> #$i : x = $x")
 
+            if (neighbor.size == 0) {
+                groupCount++
+                groupI = groupCount
+            } else {
+                // Take the list's ids out
+                val ids = ArrayList<Int>()
+                for (id in neighbor) {
+                    ids.add(groupIds[id.k])
+                }
+                val modes = Statistics.mode(ids)
+                log.log("    ids = $ids, mode = $modes")
+                groupI = ids[modes[0]] // First mode's group number
             }
-            //result.clusterIds[i] = group
-
-            //result
-            groupIds.add(group)
-
+            groupIds.add(groupI)
+            log.log("  in g# = $groupI, NN = $neighbor")
+            log.log("  => groupIds = $groupIds")
         }
 
-        //val c = ClusteringBySynchronization.ClusterInfo()
+        log.setLogToL(true)
+        // init
+        val grouping = ArrayList<ArrayList<T>>()
+        for (i in 0..groupCount) {
+            grouping.add(ArrayList())
+        }
+        for (i in 0 until dataset.size) {
+            val gi = grouping[groupIds[i]]
+            gi.add(dataset[i])
+        }
+        log.log("--- Group done with ----")
+        for (i in 0..groupCount) {
+            log.log("#$i => ${grouping[i]}")
+        }
+        log.log("--- End ----")
 
         log.file.close()
-        //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
     private fun getKNN(x: T, xIndex: Int, k: Int, set: List<T>): List<IDPair> {
@@ -70,16 +93,18 @@ class CLHistogram<T: CLClus<T>> : Runnable {
             if (i == xIndex) continue
 
             val y = set[i]
-            val dist = x.distance(y)
-            val p = IDPair(i, dist)
-            //val n = Collections.binarySearch(knnIndices, p, compareBy({it.v}, {it.k}))
-            val n = Collections.binarySearch(indices, p)
+            if (x.isSimilarTo(y)) {
+                val dist = x.distance(y)
+                val p = IDPair(i, dist)
+                //val n = Collections.binarySearch(knnIndices, p, compareBy({it.v}, {it.k}))
+                val n = Collections.binarySearch(indices, p)
 
-            if (n < 0) {
-                indices.add(-n-1, p)
-            }
-            if (indices.size > k) {
-                indices.removeAt(k)
+                if (n < 0) {
+                    indices.add(-n-1, p)
+                }
+                if (indices.size > k) {
+                    indices.removeAt(k)
+                }
             }
         }
         return indices

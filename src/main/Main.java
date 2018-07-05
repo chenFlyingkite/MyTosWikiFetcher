@@ -4,6 +4,7 @@ import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
 import main.fetcher.TosWikiCardFetcher;
 import main.fetcher.TosWikiHomeFetcher;
+import util.datamining.clustering.ClusterMain;
 import util.logging.L;
 import util.tool.StringUtil;
 import util.tool.TicTac;
@@ -13,7 +14,7 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        if (true) {
+        if (false) {
             TosWikiHomeFetcher.me.run();
             TosWikiCardFetcher.me.run();
             TosAmeSkillFetcher.me.run();
@@ -29,7 +30,7 @@ public class Main {
         //MobileComm.run();
         //ASD.run();
         //TosWikiStageFetcher.me.run();
-        //ClusterMain.INSTANCE.main(args);
+        ClusterMain.INSTANCE.main(args);
         //Statistics.run();
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
