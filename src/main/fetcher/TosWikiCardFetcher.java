@@ -230,10 +230,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             if (set != null && set.getItems() != null) {
                 // Step 2: Determine the range of parsing
                 int min = 0, max = set.getItems().length;
-//                if (!fetchAll) {
-//                    min = Math.max(min, from);
-//                    max = Math.min(max, from + prefetch);
-//                }
                 tt.setLog(false);
                 tt.tic();
                 for (int i = min; i < max; i++) {
@@ -330,18 +326,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         }
     }
 
-    private String[] mAnchor = {"基本屬性", "主動技"
-            , "昇華" // Amelioration
-            , "極限突破" // Awaken recall
-            , "進化列表" // Evolve
-            , "合體列表" // Combination
-            , "潛能解放" // Power release
-            , "異空轉生" // Virtual rebirth
-            , "異力轉換"
-            , "武裝龍刻"
-            , "來源"
-    };
-
     private CardInfo getCardInfo(String link) {
         CardInfo info = new CardInfo();
 
@@ -371,17 +355,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             }
             if (tds != null) {
                 // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
-                String[] anchor = {"基本屬性", "主動技"
-                        , "昇華" // Amelioration
-                        , "極限突破" // Awaken recall
-                        , "進化列表" // Evolve
-                        , "合體列表" // Combination
-                        , "潛能解放" // Power release
-                        , "異空轉生" // Virtual rebirth
-                        , "異力轉換"
-                        , "武裝龍刻"
-                        , "來源"};
-                anchor = Anchors.allNames();
+                String[] anchor = Anchors.allNames();
                 int[] anchors = getAnchors(tds, anchor);
 
                 // Adding basic hp/exp info for card
@@ -411,12 +385,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
                 // Add skill of active & leader
                 for (int i = anchors[1]; i < min; i++) {
-                    // There exists 競技場 elements (81 cards, 莫莉&伊登&希臘), we omit it & include 昇華
-//                    if (anchors[2] >= 0 && isInRange(i, anchors[2], anchors[3] >= 0 ? anchors[3] : min)) {
-//                        //L.log("oooomit: anchor = %s, %s @ %s", anchors[2], i, tds.get(i));
-//                    } else {
-                        cardInfo.add(tds.get(i));
-                    //}
+                    cardInfo.add(tds.get(i));
                 }
 
                 // TODO : node info
@@ -524,19 +493,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 info.virStages.add(name); // Stage name
                 info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
             }
-            /*
-            String stageName = tds.get(anchors[ax] + 1);
-            // Find the icf from last to front
-            boolean found = false;
-            for (int i = iconInfo.size() - 1; i >= 0 && !found; i--) {
-                IconInfo icf = iconInfo.get(i);
-                if (icf.getName().equals(stageName)) {
-                    found = true;
-                    info.virStages.add(stageName); // Stage name
-                    info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
-                }
-            }
-            */
         }
     }
 
