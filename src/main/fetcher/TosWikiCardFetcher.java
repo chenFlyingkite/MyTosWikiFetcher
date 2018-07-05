@@ -9,7 +9,7 @@ import okhttp3.ResponseBody;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import util.MathUtil;
+import util.math.MathUtil;
 import util.data.Range;
 import util.logging.L;
 import util.logging.LF;
@@ -50,13 +50,34 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
     @Override
     protected List<String> getTestLinks() {
-        List<String> list = Arrays.asList(
-                "http://zh.tos.wikia.com/wiki/595"
-                //,"http://zh.tos.wikia.com/wiki/1777"
-
-        );
-        //return list;
-        return new ArrayList<>();
+        List<String> link = new ArrayList<>();
+        Collections.addAll(link
+                // 昇華
+                , "http://zh.tos.wikia.com/wiki/004" // 水元素賢者莫莉
+                // 合體
+                , "http://zh.tos.wikia.com/wiki/597" // 連肢機偶 · 格蕾琴與海森堡
+                // 突破
+                , "http://zh.tos.wikia.com/wiki/818" // 憶念雙子 ‧ 加斯陀與波魯克斯
+                //雙技能
+                , "http://zh.tos.wikia.com/wiki/1166" // 冰花
+                , "http://zh.tos.wikia.com/wiki/1063" // 鳴動威嚴 ‧ 摩迪與曼尼
+                // 潛能解放
+                , "http://zh.tos.wikia.com/wiki/230" // 白臉金毛 ‧ 妲己
+                // 異空轉生
+                , "http://zh.tos.wikia.com/wiki/595" // 傾世媚狐 ‧ 蘇妲己
+                , "http://zh.tos.wikia.com/wiki/1082" // 孤高龍王 ‧ 敖廣
+                , "http://zh.tos.wikia.com/wiki/1777" // 斯芬克斯
+                //---
+                , "http://zh.tos.wikia.com/wiki/001" // TosCardCreator = 18
+                , "http://zh.tos.wikia.com/wiki/024" // TosCardCreator = 28
+                , "http://zh.tos.wikia.com/wiki/1001" // TosCardCreator = 16
+                , "http://zh.tos.wikia.com/wiki/1017" // TosCardCreator = 22
+                , "http://zh.tos.wikia.com/wiki/1063" // TosCardCreator = 32
+                , "http://zh.tos.wikia.com/wiki/651" // TosCardCreator = 24
+                , "http://zh.tos.wikia.com/wiki/656" // TosCardCreator = 31
+                );
+        link.clear(); // uncomment this if use test links
+        return link;
     }
 
     public void run() {
@@ -275,6 +296,51 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     }
 
     private Set<Integer> itemsN = new HashSet<>();
+    private enum Anchors {
+        BasicProperty ("基本屬性"),
+        ActiveSkills  ("主動技"),
+        Amelioration  ("昇華"),
+        AwakenRecall  ("極限突破"),
+        Evolution     ("進化列表"),
+        Combination   ("合體列表"),
+        PowerRelease  ("潛能解放"),
+        VirtualRebirth("異空轉生"),
+        VirRebirTrans ("異力轉換"),
+        Dragonware    ("武裝龍刻"),
+        Origin        ("來源"),
+        ;
+
+        final String name;
+        Anchors(String s) {
+            name = s;
+        }
+
+        public int id() {
+            return ordinal();
+        }
+
+        public static String[] allNames() {
+            Anchors[] cs = values();
+            String[] ns = new String[cs.length];
+
+            for (int i = 0; i < cs.length; i++) {
+                ns[i] = cs[i].name;
+            }
+            return ns;
+        }
+    }
+
+    private String[] mAnchor = {"基本屬性", "主動技"
+            , "昇華" // Amelioration
+            , "極限突破" // Awaken recall
+            , "進化列表" // Evolve
+            , "合體列表" // Combination
+            , "潛能解放" // Power release
+            , "異空轉生" // Virtual rebirth
+            , "異力轉換"
+            , "武裝龍刻"
+            , "來源"
+    };
 
     private CardInfo getCardInfo(String link) {
         CardInfo info = new CardInfo();
@@ -306,14 +372,16 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             if (tds != null) {
                 // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
                 String[] anchor = {"基本屬性", "主動技"
-                        , "競技場 防守技能"
                         , "昇華" // Amelioration
                         , "極限突破" // Awaken recall
                         , "進化列表" // Evolve
                         , "合體列表" // Combination
                         , "潛能解放" // Power release
                         , "異空轉生" // Virtual rebirth
-                        , "異力轉換", "來源"};
+                        , "異力轉換"
+                        , "武裝龍刻"
+                        , "來源"};
+                anchor = Anchors.allNames();
                 int[] anchors = getAnchors(tds, anchor);
 
                 // Adding basic hp/exp info for card
@@ -324,7 +392,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 addAmeAwkInfo(info, ameInfo, anchors, tds);
 
                 // Find the end of card
-                int min = getPositiveMin(anchors, 4, anchors.length);
+                int min = getPositiveMin(anchors, Anchors.AwakenRecall.id(), anchors.length);
                 if (logAnchor) {
                     Lf.log("anchors => %s => %s", Arrays.toString(anchors), min);
                 }
@@ -344,11 +412,11 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 // Add skill of active & leader
                 for (int i = anchors[1]; i < min; i++) {
                     // There exists 競技場 elements (81 cards, 莫莉&伊登&希臘), we omit it & include 昇華
-                    if (anchors[2] >= 0 && isInRange(i, anchors[2], anchors[3] >= 0 ? anchors[3] : min)) {
-                        //L.log("oooomit: anchor = %s, %s @ %s", anchors[2], i, tds.get(i));
-                    } else {
+//                    if (anchors[2] >= 0 && isInRange(i, anchors[2], anchors[3] >= 0 ? anchors[3] : min)) {
+//                        //L.log("oooomit: anchor = %s, %s @ %s", anchors[2], i, tds.get(i));
+//                    } else {
                         cardInfo.add(tds.get(i));
-                    }
+                    //}
                 }
 
                 // TODO : node info
@@ -403,21 +471,25 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
         // Fetch if has 昇華關卡
         ax = 3;
+        ax = Anchors.Amelioration.id();
         if (anchors[ax] >= 0) {
-            IconInfo icf = iconInfo.get(0);
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            if (icf.getName().equals(tds.get(at - 1))) {
-                info.ameStages.add(icf.getName());
+            String name = tds.get(at - 1);
+            IconInfo icf = getIconInfoByName(name, iconInfo);
+            if (icf != null) {
+                info.ameStages.add(name);
                 info.ameStages.add(wikiBaseZh + icf.getLink());
             }
         }
 
         // Fetch if has 突破關卡
         ax = 4;
+        ax = Anchors.AwakenRecall.id();
         if (anchors[ax] >= 0) {
-            IconInfo icf = iconInfo.get(1);
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            if (icf.getName().equals(tds.get(at - 1))) {
+            String name = tds.get(at - 1);
+            IconInfo icf = getIconInfoByName(name, iconInfo);
+            if (icf != null) {
                 info.awkStages.add(tds.get(anchors[ax] + 1)); // Skill name
                 info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
                 info.awkStages.add(wikiBaseZh + icf.getLink()); // battle link
@@ -426,12 +498,14 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
         // Fetch if has 潛能解放
         ax = 7;
+        ax = Anchors.PowerRelease.id();
         if (anchors[ax] >= 0) {
-            IconInfo icf = iconInfo.get(iconInfo.size() - 1);
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            if (icf.getName().equals(tds.get(at - 1))) {
+            String name = tds.get(at - 1);
+            IconInfo icf = getIconInfoByName(name, iconInfo);
+            if (icf != null) {
                 //info.powStages.add(tds.get(anchors[ax] + 1)); // Skill name
-                info.powStages.add(tds.get(at - 1)); // = icf.getName(), stage name
+                info.powStages.add(name); // = icf.getName(), stage name
                 info.powStages.add(wikiBaseZh + icf.getLink()); // battle link
             } else {
                 // Missing the 潛能解放關卡, it is added in previous monster
@@ -441,7 +515,16 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
         // Fetch if has 異空轉生
         ax = 8;
+        ax = Anchors.VirtualRebirth.id();
         if (anchors[ax] >= 0) {
+            int at = getPositiveMin(anchors, ax + 1, anchors.length);
+            String name = tds.get(at - 1);
+            IconInfo icf = getIconInfoByName(name, iconInfo);
+            if (icf != null) {
+                info.virStages.add(name); // Stage name
+                info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
+            }
+            /*
             String stageName = tds.get(anchors[ax] + 1);
             // Find the icf from last to front
             boolean found = false;
@@ -453,7 +536,17 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                     info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
                 }
             }
+            */
         }
+    }
+
+    private IconInfo getIconInfoByName(String name, List<IconInfo> iconInfo) {
+        for (IconInfo i : iconInfo) {
+            if (i.getName().equals(name)) {
+                return i;
+            }
+        }
+        return null;
     }
 
     private <T> int[] getAnchors(List<T> list, T[] anchor) {

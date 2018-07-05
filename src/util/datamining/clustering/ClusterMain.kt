@@ -11,6 +11,11 @@ object ClusterMain {
         val dataset = get_1D()
         L.log("set = $dataset")
 
+
+        //CLHistogram().run()
+    }
+
+    private fun runSync(dataset: List<Data>) {
         val cs = ClusteringBySynchronization<Data>()
         cs.setDataSet(dataset)
         cs.run()

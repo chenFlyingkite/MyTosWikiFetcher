@@ -1,6 +1,6 @@
 package util.datamining.clustering.algo
 
-import util.MathUtil
+import util.math.MathUtil
 import util.datamining.clustering.util.Clusterable
 import util.datamining.clustering.util.PngMaker
 import util.logging.LF
@@ -264,7 +264,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         return ClusterInfo(clusterIds, clusterSizes)
     }
 
-    class ClusterInfo(cId: List<Int>, cSize: List<Int>) {
+    class ClusterInfo(cId: List<Int> = ArrayList(), cSize: List<Int> = ArrayList()) {
         val clusterIds = cId
         val clusterSize = cSize
 
@@ -381,7 +381,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         return knnIndices
     }
 
-    private class DataK(i: Int = 0, dist: Double = 0.0): Comparable<DataK> {
+    class DataK(i: Int = 0, dist: Double = 0.0): Comparable<DataK> {
         var k: Int = i
         var v: Double = dist
 

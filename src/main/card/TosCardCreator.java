@@ -264,10 +264,8 @@ public class TosCardCreator {
     }
 
     private void fillEvolution(TosCard c, CardInfo info) {
-        // Depends on CardFetcher's anchors
-        if (info.anchors[5] < 0) return;
-
         List<String> list = info.cardTds.getEvolve();
+        if (list.size() == 0) return;
 
         int plus = list.indexOf("EvoPlus");
         int end = list.lastIndexOf("EvoArrow");
@@ -298,9 +296,8 @@ public class TosCardCreator {
     }
 
     private void fillCombination(TosCard c, CardInfo info) {
-        if (info.anchors[6] < 0) return;
-
         List<String> list = info.cardTds.getCombine();
+        if (list.size() == 0) return;
 
         // Omit tail, Fill in the combine material
         for (int i = 0; i < list.size() - 1; i++) {

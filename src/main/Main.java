@@ -13,10 +13,12 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        TosWikiHomeFetcher.me.run();
-        TosWikiCardFetcher.me.run();
-        TosAmeSkillFetcher.me.run();
-        TosActiveSkillFetcher.me.run();
+        if (true) {
+            TosWikiHomeFetcher.me.run();
+            TosWikiCardFetcher.me.run();
+            TosAmeSkillFetcher.me.run();
+            TosActiveSkillFetcher.me.run();
+        }
         //-- Seldom
         //TosWikiPageFetcher.me.run();
         //TosPageArchiveFetcher.me.run();
@@ -28,6 +30,7 @@ public class Main {
         //ASD.run();
         //TosWikiStageFetcher.me.run();
         //ClusterMain.INSTANCE.main(args);
+        //Statistics.run();
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));

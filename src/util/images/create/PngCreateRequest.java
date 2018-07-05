@@ -1,6 +1,6 @@
 package util.images.create;
 
-import util.MathUtil;
+import util.math.MathUtil;
 import util.data.Rect2;
 import util.images.base.PngParam;
 import util.images.base.PngRequest;

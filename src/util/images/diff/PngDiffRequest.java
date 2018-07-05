@@ -1,6 +1,6 @@
 package util.images.diff;
 
-import util.MathUtil;
+import util.math.MathUtil;
 import util.images.base.PngParam;
 import util.images.base.PngRequest;
 import util.logging.L;
