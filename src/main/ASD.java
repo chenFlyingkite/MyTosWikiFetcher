@@ -34,7 +34,8 @@ public class ASD {
         //getLogos();
         //getPlusMinus();
         //getMissions();
-        getNums();
+        //getNums();
+        getActiveIcons();
         //getMonsterEat();
         //getPrizeIcons();
         //getCrop();
@@ -71,6 +72,28 @@ public class ASD {
         private <T> void y(T t, Consumer<T> a) {
             a.accept(t);
         }
+    }
+
+    private static void getActiveIcons() {
+        Rect2 r;
+        // ARNA
+        r = Rect2.atLTWH(328, 1590, 185, 80);
+        getImage("skills", "skills/Screenshot_20180705-224752.png", r, "1");
+        // Active
+        r = Rect2.atLTWH(132, 2285, 250, 80);
+        getImage("skills", "skills/Screenshot_20180705-224752.png", r, "2");
+        // Leader
+        r = Rect2.atLTWH(132, 3011, 250, 80);
+        getImage("skills", "skills/Screenshot_20180705-224752.png", r, "3");
+        // TRAD
+        r = Rect2.atLTWH(133, 1585, 185, 80);
+        getImage("skills", "skills/Screenshot_20180705-224743.png", r, "4");
+        // Active
+        r = Rect2.atLTWH(132, 2285, 250, 80);
+        getImage("skills", "skills/Screenshot_20180705-224743.png", r, "5");
+        // Leader
+        r = Rect2.atLTWH(132, 3011, 250, 80);
+        getImage("skills", "skills/Screenshot_20180705-224743.png", r, "6");
     }
 
     private static void getCrop() {

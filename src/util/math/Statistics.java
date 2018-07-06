@@ -31,6 +31,28 @@ public class Statistics {
         return var;
     }
 
+    public static <T extends Number> double min(List<T> data) {
+        double min = data.get(0).doubleValue();
+        for (T t : data) {
+            double d = t.doubleValue();
+            if (d < min) {
+                min = d;
+            }
+        }
+        return min;
+    }
+
+    public static <T extends Number> double max(List<T> data) {
+        double max = data.get(0).doubleValue();
+        for (T t : data) {
+            double d = t.doubleValue();
+            if (d > max) {
+                max = d;
+            }
+        }
+        return max;
+    }
+
     public static <T extends Number> double deviation(List<T> data) {
         return Math.sqrt(variance(data));
     }

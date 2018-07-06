@@ -24,7 +24,7 @@ object ClusterMain {
         L.log("set2 = $d")
 
         L.log("--- Random ---")
-        d = get_DR(50, 0, 20)
+        d = get_DR(50, 0, 10)
         runHist(d)
         L.log("orig set = $d")
         Collections.sort(d)
@@ -86,7 +86,7 @@ object ClusterMain {
         }
 
         override fun isSimilarTo(y: Data): Boolean {
-            return distance(y) < 4
+            return distance(y) < 1
         }
 
         override fun toString(): String {

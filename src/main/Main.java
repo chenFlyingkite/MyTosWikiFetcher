@@ -3,6 +3,7 @@ package main;
 import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
 import main.fetcher.TosWikiCardFetcher;
+import main.fetcher.TosWikiFilePeeker;
 import main.fetcher.TosWikiHomeFetcher;
 import util.datamining.clustering.ClusterMain;
 import util.logging.L;
@@ -23,9 +24,9 @@ public class Main {
         //-- Seldom
         //TosWikiPageFetcher.me.run();
         //TosPageArchiveFetcher.me.run();
-        //TosWikiFilePeeker.me.run();
         //TosWikiIconFetcher.me.run();
         //TosWikiSummonerLevelFetcher.me.run();
+        TosWikiFilePeeker.me.run();
         //TosWikiImageFileFetcher.me.run();
         //MobileComm.run();
         //ASD.run();

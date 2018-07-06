@@ -2,7 +2,7 @@ package util.datamining.clustering.algo
 
 import util.datamining.clustering.util.CLClus
 import util.datamining.clustering.util.IDPair
-import util.logging.LF
+import util.logging.L
 import util.math.Statistics
 import java.util.*
 import kotlin.collections.ArrayList
@@ -11,7 +11,7 @@ class CLHistogram<T: CLClus<T>> : Runnable {
     private val dataset = ArrayList<T>()
 
     private val folder = "datamining/clustering/CLhis"
-    private val log = LF(folder)
+    private val log = L.getImpl()//LF(folder)
 
     private val NO_ID = -1
 
@@ -35,8 +35,8 @@ class CLHistogram<T: CLClus<T>> : Runnable {
     }
 
     override fun run() {
-        log.file.open(false)
-        log.setLogToL(false)
+        //log.file.open(false)
+        //log.setLogToL(false)
         val groupIds = ArrayList<Int>()
         var groupCount = NO_ID
         var groupI: Int
@@ -46,7 +46,7 @@ class CLHistogram<T: CLClus<T>> : Runnable {
             subdata = dataset.subList(0, i)
             preKGroups.clear()
             val x = dataset[i]
-            val neighbor = getKNN(x, i, 31, subdata)
+            val neighbor = getKNN(x, i, 20, subdata)
             log.log("--> #$i : x = $x")
 
             if (neighbor.size == 0) {
@@ -67,7 +67,7 @@ class CLHistogram<T: CLClus<T>> : Runnable {
             log.log("  => groupIds = $groupIds")
         }
 
-        log.setLogToL(true)
+        //log.setLogToL(true)
         // init
         val grouping = ArrayList<ArrayList<T>>()
         for (i in 0..groupCount) {
@@ -79,11 +79,19 @@ class CLHistogram<T: CLClus<T>> : Runnable {
         }
         log.log("--- Group done with ----")
         for (i in 0..groupCount) {
-            log.log("#$i => ${grouping[i]}")
+            // Statistics
+            val list = ArrayList<Double>()
+            for (d in grouping[i]) {
+                list.add(d.getXi(0))
+            }
+            // Common logging
+            val mM = "(m, M) = (%02.1f, %2.1f)".format(Statistics.min(list), Statistics.max(list))
+            val us = "(u, s) = (%2.2f, %2.2f)".format(Statistics.mean(list), Statistics.deviation(list))
+            log.log("#$i => $mM, $us, ${grouping[i]}")
         }
         log.log("--- End ----")
 
-        log.file.close()
+        //log.file.close()
     }
 
     private fun getKNN(x: T, xIndex: Int, k: Int, set: List<T>): List<IDPair> {

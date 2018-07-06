@@ -126,7 +126,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
         return () -> {
             boolean printOmit = false;
 
-            LF lf = new LF(folder, tid + ".txt");
+            LF lf = new LF(folder, "temp/" + tid + ".txt");
             // Open logging files
             lf.getFile().open(false);
             lf.setLogToL(!mFetchAll);
