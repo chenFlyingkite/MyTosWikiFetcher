@@ -20,6 +20,7 @@ public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
         return "http://zh.tos.wikia.com/wiki/%E4%B8%BB%E5%8B%95%E6%8A%80%E5%88%97%E8%A1%A8/%E6%98%87%E8%8F%AF%E6%8A%80%E8%83%BD";
     }
 
+    @Override
     public void run() {
         mLf.getFile().open(false);
 

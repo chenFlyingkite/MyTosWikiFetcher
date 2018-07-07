@@ -33,7 +33,7 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class TosWikiBaseFetcher {
+public class TosWikiBaseFetcher implements Runnable {
     public static final String wikiBaseZh = "http://zh.tos.wikia.com";
     public static final String wikiBaseEn = "http://towerofsaviors.wikia.com";
     public static final String wikiFileZh = "http://zh.tos.wikia.com/wiki/File:";
@@ -281,6 +281,11 @@ public class TosWikiBaseFetcher {
             link = set.getBasePath() + "" + a.getUrl();
         }
         return link;
+    }
+
+    @Override
+    public void run() {
+
     }
 
     protected class Source {

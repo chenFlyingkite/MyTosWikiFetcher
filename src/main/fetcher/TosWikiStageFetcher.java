@@ -1,17 +1,15 @@
 package main.fetcher;
 
 import main.card.StageInfo;
-import main.card.TableInfo;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import util.logging.LF;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TosWikiStageFetcher extends TosWikiBaseFetcher implements Runnable {
+public class TosWikiStageFetcher extends TosWikiBaseFetcher {
     private TosWikiStageFetcher() {}
     public  static final TosWikiStageFetcher me = new TosWikiStageFetcher();
 

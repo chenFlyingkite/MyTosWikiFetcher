@@ -21,6 +21,7 @@ public class TosWikiPageFetcher extends TosWikiBaseFetcher {
         return "http://zh.tos.wikia.com/wiki/%E8%AD%B7%E8%A1%9B%C3%97%E5%8D%83%E9%88%9E%E4%B8%80%E9%AB%AE%C3%97%E7%9B%B4%E6%93%8A";
     }
 
+    @Override
     public void run() {
         mLf.getFile().open(false);
 

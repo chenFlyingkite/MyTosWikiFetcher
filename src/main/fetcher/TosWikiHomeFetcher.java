@@ -18,6 +18,7 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         return "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_%E7%B9%81%E4%B8%AD%E7%B6%AD%E5%9F%BA";
     }
 
+    @Override
     public void run() {
         mLf.getFile().open(false);
 

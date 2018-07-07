@@ -1,18 +1,12 @@
 package main.fetcher;
 
 import main.card.IconInfo;
-import main.card.TosGet;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import util.data.Range;
-import util.logging.L;
 import util.logging.LF;
 import util.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
-import java.io.IOException;
-
-public class TosWikiIconFetcher extends TosWikiBaseFetcher implements Runnable {
+public class TosWikiIconFetcher extends TosWikiBaseFetcher {
     private TosWikiIconFetcher() {}
     public static final TosWikiIconFetcher me = new TosWikiIconFetcher();
 

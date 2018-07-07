@@ -39,6 +39,7 @@ public class TosActiveSkillFetcher extends TosWikiBaseFetcher {
         return super.getTestLinks();
     }
 
+    @Override
     public void run() {
         // About 1 min 30 sec
         mFetchAll = 0 < 3;

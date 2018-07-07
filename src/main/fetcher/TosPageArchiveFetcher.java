@@ -20,6 +20,7 @@ public class TosPageArchiveFetcher extends TosWikiBaseFetcher {
         return tosArchive + "/" + archiveId;
     }
 
+    @Override
     public void run() {
         mLf.getFile().open(false);
 

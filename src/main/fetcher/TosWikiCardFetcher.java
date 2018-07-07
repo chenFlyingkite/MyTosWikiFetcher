@@ -80,6 +80,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return link;
     }
 
+    @Override
     public void run() {
         // About 5 min 36 sec
         // Parameters setting

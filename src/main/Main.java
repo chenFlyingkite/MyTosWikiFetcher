@@ -35,5 +35,21 @@ public class Main {
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
     }
+//
+//    private static void parallel(Runnable... runs) {
+//        for (Runnable r : runs) {
+//            cache.submit(new Runnable() {
+//                private TicTac2 clk = new TicTac2();
+//                @Override
+//                public void run() {
+//                    clk.tic();
+//                    r.run();
+//                    clk.tac("%s Ended", r.getClass().getSimpleName());
+//                }
+//            });
+//        }
+//    }
+//
+//    private static final ExecutorService cache = Executors.newCachedThreadPool();
 
 }

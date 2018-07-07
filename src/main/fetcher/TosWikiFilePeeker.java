@@ -10,7 +10,7 @@ import wikia.articles.UnexpandedArticle;
 
 import java.util.*;
 
-public class TosWikiFilePeeker extends TosWikiBaseFetcher implements Runnable {
+public class TosWikiFilePeeker extends TosWikiBaseFetcher {
     private TosWikiFilePeeker() {}
     public static final TosWikiFilePeeker me = new TosWikiFilePeeker();
 

@@ -13,7 +13,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-public class TosWikiImageFileFetcher extends TosWikiBaseFetcher implements Runnable {
+public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
     private TosWikiImageFileFetcher() { }
     public static final TosWikiImageFileFetcher me = new TosWikiImageFileFetcher();
 

@@ -8,7 +8,7 @@ import util.logging.LF;
 
 import java.util.List;
 
-public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher implements Runnable {
+public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher {
     private TosWikiSummonerLevelFetcher() {}
     public static final TosWikiSummonerLevelFetcher me = new TosWikiSummonerLevelFetcher();
 
