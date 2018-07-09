@@ -70,7 +70,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
 
     // TODO :Download the wanted file here
     private boolean canDownload(ImageFileInfo info) {
-        List<String> listZh = Arrays.asList("Wingwing007", "Hugochau", "Btoky", "Towerofsaviors");
+        List<String> listZh = Arrays.asList("Btoky", "Hugochau", "Wingwing007", "Ahhei0403", "Towerofsaviors");
         List<String> listEn = Arrays.asList("JoetjeF", "Lycentia", "RaccoonKun", "Wingwing007", "Towerofsaviors");
         List<String> list = zh ? listZh : listEn;
         //return false;
