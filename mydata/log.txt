@@ -3854,7 +3854,7 @@ anchors => [10, 53, 65, -1, -1, -1, -1, -1, -1, -1, 75] => 75
 ---------------------
 #0962 -> http://zh.tos.wikia.com/wiki/1788, (id = 257157, title = 1788, url = /wiki/1788, ns = 0)
 Title = 幻海 | Tower of Saviors 維基 | FANDOM powered by Wikia
-anchors => [10, 53, -1, -1, -1, -1, -1, -1, -1, -1, 65] => 65
+anchors => [10, 53, 65, -1, -1, -1, -1, -1, -1, -1, 75] => 75
 ---------------------
 #0963 -> http://zh.tos.wikia.com/wiki/1789, (id = 257158, title = 1789, url = /wiki/1789, ns = 0)
 Title = 少女 ‧ 幻海 | Tower of Saviors 維基 | FANDOM powered by Wikia
