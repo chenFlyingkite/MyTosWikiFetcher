@@ -350,6 +350,16 @@
     ]
   },
   {
+    "skillName": "修羅旋風拳",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E4%BF%AE%E7%BE%85%E6%97%8B%E9%A2%A8%E6%8B%B3",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "所有木符石由左上方開始向下排序。1 回合內，每直行首批消除 1 組 5 粒或以上符石時，該直行將產生 2 粒木妖族符石",
+    "skillMonsters": [
+      "1805"
+    ]
+  },
+  {
     "skillName": "偷天換日 ‧ 心",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%81%B7%E5%A4%A9%E6%8F%9B%E6%97%A5_%E2%80%A7_%E5%BF%83",
     "skillCDMin": 22,
@@ -1087,6 +1097,16 @@
     "skillDesc": "1 回合內，所受傷害減少 40%；若隊伍中有人類及魔族成員時，效果持續 2 回合",
     "skillMonsters": [
       "0781"
+    ]
+  },
+  {
+    "skillName": "冰之淚",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%86%B0%E4%B9%8B%E6%B7%9A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，凍結敵方全體，使受影響目標無法行動並轉為水屬性，效果期間延長移動符石時間 5 秒",
+    "skillMonsters": [
+      "1807"
     ]
   },
   {
@@ -2260,6 +2280,16 @@
     ]
   },
   {
+    "skillName": "妖狐形態",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%8B%90%E5%BD%A2%E6%85%8B",
+    "skillCDMin": 8,
+    "skillCDMax": 8,
+    "skillDesc": "變身；「藏馬」以外的妖精及魔族成員的主動技能 CD 減少 1；1 回合內，可任意移動符石而不會發動消除",
+    "skillMonsters": [
+      "1790"
+    ]
+  },
+  {
     "skillName": "妾之心扉",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%A6%BE%E4%B9%8B%E5%BF%83%E6%89%89",
     "skillCDMin": 19,
@@ -2427,6 +2457,16 @@
     "skillDesc": "隨機將 2 直行的符石轉化為暗符石；1 回合內，該 2 直行所在隊伍欄成員的攻擊力提升：人類成員攻擊力 5 倍及非人類成員攻擊力 2.5 倍",
     "skillMonsters": [
       "1580"
+    ]
+  },
+  {
+    "skillName": "巨大靈丸",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B7%A8%E5%A4%A7%E9%9D%88%E4%B8%B8",
+    "skillCDMin": 16,
+    "skillCDMax": 10,
+    "skillDesc": "所有符石隨機轉化為水強化、光強化及心強化符石。1 回合內，合計消除的水、光或心符石愈多，自身攻擊力愈高，消除 30 粒可提升至最大 9 倍。下回合開始時，人類、妖精類及魔族成員所在直行的符石轉化為該成員屬性的強化符石",
+    "skillMonsters": [
+      "1787"
     ]
   },
   {
@@ -3207,6 +3247,16 @@
     "skillDesc": "10 秒內，可任意移動符石而不會發動消除，達成 8 連擊 (Combo) 或以上，火屬性攻擊力 2 倍",
     "skillMonsters": [
       "0482"
+    ]
+  },
+  {
+    "skillName": "擬態假人",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%93%AC%E6%85%8B%E5%81%87%E4%BA%BA",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "1 回合內，首次所受傷害不會使你死亡；下回合隨機將 6 粒符石轉化為暗符石，並將所有符石轉化為強化符石",
+    "skillMonsters": [
+      "1797"
     ]
   },
   {
@@ -4318,6 +4368,16 @@
     ]
   },
   {
+    "skillName": "樹靈妖斬拳",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A8%B9%E9%9D%88%E5%A6%96%E6%96%AC%E6%8B%B3",
+    "skillCDMin": 11,
+    "skillCDMax": 5,
+    "skillDesc": "2 回合內，自身攻擊力 4 倍；若有擊斃敵人時，該回合不會扣減技能持續回合",
+    "skillMonsters": [
+      "1791"
+    ]
+  },
+  {
     "skillName": "機動重炮",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E5%8B%95%E9%87%8D%E7%82%AE",
     "skillCDMin": 20,
@@ -4465,6 +4525,16 @@
     "skillDesc": "直接引爆場上所有符石並掉落強化符石。2 回合內，神族攻擊力 1.5 倍",
     "skillMonsters": [
       "1497"
+    ]
+  },
+  {
+    "skillName": "次元刀",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%AC%A1%E5%85%83%E5%88%80",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，隊長及戰友所在直行的符石轉化為該成員屬性的符石；若隊長及戰友均為幽☆遊☆白書系列角色，全隊攻擊力 1.8 倍",
+    "skillMonsters": [
+      "1792"
     ]
   },
   {
@@ -5215,6 +5285,16 @@
     "skillDesc": "火符石與心符石轉化為水符石；同時將木符石轉換為心符石",
     "skillMonsters": [
       "0591"
+    ]
+  },
+  {
+    "skillName": "浪濤歸一 ‧ 魔",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B5%AA%E6%BF%A4%E6%AD%B8%E4%B8%80_%E2%80%A7_%E9%AD%94",
+    "skillCDMin": 21,
+    "skillCDMax": 10,
+    "skillDesc": "所有符石轉化為魔族符石；1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍",
+    "skillMonsters": [
+      "1808"
     ]
   },
   {
@@ -9668,6 +9748,46 @@
     ]
   },
   {
+    "skillName": "邪王炎殺劍",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%82%AA%E7%8E%8B%E7%82%8E%E6%AE%BA%E5%8A%8D",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "自身直行的符石轉化為暗魔族強化符石；隊伍中火屬性魔族成員所在直行的符石轉化為火魔族強化符石",
+    "skillMonsters": [
+      "1794"
+    ]
+  },
+  {
+    "skillName": "邪王炎殺煉獄焦",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%82%AA%E7%8E%8B%E7%82%8E%E6%AE%BA%E7%85%89%E7%8D%84%E7%84%A6",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "木符石轉化為暗魔族符石，心符石轉化為火魔族符石",
+    "skillMonsters": [
+      "1793"
+    ]
+  },
+  {
+    "skillName": "邪王炎殺黑龍波",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%82%AA%E7%8E%8B%E7%82%8E%E6%AE%BA%E9%BB%91%E9%BE%8D%E6%B3%A2",
+    "skillCDMin": 18,
+    "skillCDMax": 12,
+    "skillDesc": "1 回合內，將移動符石時觸碰的首 8 粒符石轉化為暗魔族強化符石；自身攻擊力 15 倍 (攻擊力不可與其他成員共享)；將我方所受傷害直接轉化為我方生命力",
+    "skillMonsters": [
+      "1794"
+    ]
+  },
+  {
+    "skillName": "邪眼",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%82%AA%E7%9C%BC",
+    "skillCDMin": 6,
+    "skillCDMax": 6,
+    "skillDesc": "變身；1 回合內，累積戰鬥回合數 (需消除符石) 愈多，所有符石兼具火及暗符石效果愈多，10 回合可兼具最多 100%",
+    "skillMonsters": [
+      "1793"
+    ]
+  },
+  {
     "skillName": "邪魔大號令",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%82%AA%E9%AD%94%E5%A4%A7%E8%99%9F%E4%BB%A4",
     "skillCDMin": 24,
@@ -10258,6 +10378,26 @@
     ]
   },
   {
+    "skillName": "靈丸",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%9D%88%E4%B8%B8",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "將 9 粒符石轉化為 3 粒水強化、3 粒光強化及 3 粒心強化符石。1 回合內，合計消除的水、光或心符石愈多，自身攻擊力愈高，消除 15 粒可提升至最大 7 倍",
+    "skillMonsters": [
+      "1786"
+    ]
+  },
+  {
+    "skillName": "靈丸 (幻海)",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%9D%88%E4%B8%B8_(%E5%B9%BB%E6%B5%B7)",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "將 3 粒符石轉化為火符石 (心符石優先轉換)；1 回合內，自身攻擊轉化為水屬性；合計消除的水、火及木符石愈多，自身攻擊力愈高，消除 10 粒可提升至最大 5 倍",
+    "skillMonsters": [
+      "1788"
+    ]
+  },
+  {
     "skillName": "靈之回饋",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%9D%88%E4%B9%8B%E5%9B%9E%E9%A5%8B",
     "skillCDMin": 17,
@@ -10303,6 +10443,16 @@
     "skillDesc": "回復相當於龍類成員的生命力",
     "skillMonsters": [
       "0290"
+    ]
+  },
+  {
+    "skillName": "靈光鏡反衝",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%9D%88%E5%85%89%E9%8F%A1%E5%8F%8D%E8%A1%9D",
+    "skillCDMin": 13,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內，以敵方攻擊力對敵方進行水屬性反擊，此傷害無視防禦力；所受傷害減少 90%",
+    "skillMonsters": [
+      "1789"
     ]
   },
   {
@@ -10496,6 +10646,16 @@
     ]
   },
   {
+    "skillName": "風華円舞陣",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%A2%A8%E8%8F%AF%E5%86%86%E8%88%9E%E9%99%A3",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "所有符石隨機轉換，同時木符石出現率上升，並將木符石以木妖族符石代替",
+    "skillMonsters": [
+      "1790"
+    ]
+  },
+  {
     "skillName": "馴化之鞭",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%A6%B4%E5%8C%96%E4%B9%8B%E9%9E%AD",
     "skillCDMin": 20,
@@ -10603,6 +10763,16 @@
     "skillDesc": "2 回合內，水屬性成員愈多，水屬性攻擊力愈高，最大 1.5 倍",
     "skillMonsters": [
       "0841"
+    ]
+  },
+  {
+    "skillName": "鬥神之擊",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AC%A5%E7%A5%9E%E4%B9%8B%E6%93%8A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "水及光符石轉化為強化符石，暗符石轉化為心強化符石。1 回合內，自身對人類以外目標攻擊力提升 5 倍",
+    "skillMonsters": [
+      "1795"
     ]
   },
   {
@@ -10796,6 +10966,26 @@
     ]
   },
   {
+    "skillName": "魔古忌流煉破反衝壁",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%8F%A4%E5%BF%8C%E6%B5%81%E7%85%89%E7%A0%B4%E5%8F%8D%E8%A1%9D%E5%A3%81",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "木符石轉化為妖族符石；1 回合內，吸收本回合首次發動攻擊的敵人的攻擊傷害，並以所吸收攻擊力的 50 倍對其進行木屬性反擊",
+    "skillMonsters": [
+      "1799"
+    ]
+  },
+  {
+    "skillName": "魔封環",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%B0%81%E7%92%B0",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內，減少 90% 所受傷害，將 5 粒符石轉化為心符石 (水及木符石優先轉換)",
+    "skillMonsters": [
+      "1796"
+    ]
+  },
+  {
     "skillName": "魔念擴散",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%BF%B5%E6%93%B4%E6%95%A3",
     "skillCDMin": 18,
@@ -10903,6 +11093,16 @@
     "skillDesc": "2 回合內，隊伍成員的種族愈多，全隊攻擊力及回復力愈高，5 個種族可達至最大 2 倍",
     "skillMonsters": [
       "0674"
+    ]
+  },
+  {
+    "skillName": "魔界植物召喚",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E7%95%8C%E6%A4%8D%E7%89%A9%E5%8F%AC%E5%96%9A",
+    "skillCDMin": 14,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，引爆最左及最右直行的符石，以掉落木妖族強化符石；並引爆其餘直行符石，以掉落強化符石；木屬性及妖精類攻擊力 2.5 倍",
+    "skillMonsters": [
+      "1791"
     ]
   },
   {
