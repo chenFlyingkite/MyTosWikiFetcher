@@ -59,7 +59,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 , "http://zh.tos.wikia.com/wiki/597" // 連肢機偶 · 格蕾琴與海森堡
                 // 突破
                 , "http://zh.tos.wikia.com/wiki/818" // 憶念雙子 ‧ 加斯陀與波魯克斯
-                //雙技能
+                // 雙技能
                 , "http://zh.tos.wikia.com/wiki/1166" // 冰花
                 , "http://zh.tos.wikia.com/wiki/1063" // 鳴動威嚴 ‧ 摩迪與曼尼
                 // 潛能解放

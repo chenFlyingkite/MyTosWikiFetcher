@@ -185,7 +185,7 @@ public class TosCardCreator {
             // http://zh.tos.wikia.com/wiki/961 ~ 965
         }
 
-        if (c.skillAmeliorationBattleName.length()> 0 && c.skillAmeliorationCost1 == 0) {
+        if (c.skillAmeBattleName.length()> 0 && c.skillAmeCost1 == 0) {
             log.log("HaveAme but no cost? %s", c.wikiLink);
         }
     }
@@ -321,15 +321,15 @@ public class TosCardCreator {
         // Fill in Amelioration stage name & link
         list = info.ameStages;
         if (list.size() > 0) {
-            c.skillAmeliorationBattleName = list.get(0);
-            c.skillAmeliorationBattleLink = list.get(1);
+            c.skillAmeBattleName = list.get(0);
+            c.skillAmeBattleLink = list.get(1);
         }
 
         list = info.awkStages;
         if (list.size() > 0) {
-            c.skillAwakenRecallName = list.get(0);
-            c.skillAwakenRecallBattleName = list.get(1);
-            c.skillAwakenRecallBattleLink = list.get(2);
+            c.skillAwkName = list.get(0);
+            c.skillAwkBattleName = list.get(1);
+            c.skillAwkBattleLink = list.get(2);
         }
 
         list = info.powStages;
@@ -408,16 +408,16 @@ public class TosCardCreator {
 
     private void fillAmelioration(TosCard c, List<String> list) {
         //-- Skill Leader name #15
-        c.skillAmeliorationName1 = list.get(0);
-        c.skillAmeliorationCost1 = Integer.parseInt(list.get(1));
-        c.skillAmeliorationName2 = list.get(2);
-        c.skillAmeliorationCost2 = Integer.parseInt(list.get(3));
+        c.skillAmeName1 = list.get(0);
+        c.skillAmeCost1 = Integer.parseInt(list.get(1));
+        c.skillAmeName2 = list.get(2);
+        c.skillAmeCost2 = Integer.parseInt(list.get(3));
         if (list.size() <= 4) return;
 
-        c.skillAmeliorationName3 = list.get(4);
-        c.skillAmeliorationCost3 = Integer.parseInt(list.get(5));
-        c.skillAmeliorationName4 = list.get(6);
-        c.skillAmeliorationCost4 = Integer.parseInt(list.get(7));
+        c.skillAmeName3 = list.get(4);
+        c.skillAmeCost3 = Integer.parseInt(list.get(5));
+        c.skillAmeName4 = list.get(6);
+        c.skillAmeCost4 = Integer.parseInt(list.get(7));
     }
 
 }

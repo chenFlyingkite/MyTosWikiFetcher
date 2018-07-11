@@ -224,38 +224,47 @@ class TosGet {
                 for (j in 1 until nTr) {
                     val rowTds = itemTrs[j].getElementsByTag("td")
                     val nTd = rowTds?.size ?: 0
+
+                    // The indices for rowTds
+                    var idx: IntArray? = null
                     if (nTd == 5) { // 主動技列表/昇華技能
-                        val ame = SkillInfo()
-                        getSkill(ame, rowTds[0], baseWiki)
-                        ame.skillCDMin = Integer.parseInt(rowTds[1].text())
-                        ame.skillCDMax = Integer.parseInt(rowTds[2].text())
-                        ame.skillDesc = rowTds[4].text()
-                        // Fill in monsters
-                        val child = rowTds[3].children()
-                        val nch = child?.size ?: 0
-                        for (k in 0 until nch){
-                            if (child[k] is Element) {
-                                val s = TosCardCreator.me.normEvoId(getImgAlt(child[k]))
-                                if (!TextUtil.isEmpty(s)) {
-                                    ame.monsters.add(s)
-                                }
-                            }
-                        }
-                        result.add(ame)
+                        idx = intArrayOf(0, 1, 2, 3, 4)
                     } else if (nTd == 3) { // 隊長技列表/昇華技能
+                        idx = intArrayOf(0, -1, -1, 1, 2)
+                    } else {
+
+                    }
+
+                    if (idx != null) {
                         val ame = SkillInfo()
-                        getSkill(ame, rowTds[0], baseWiki)
-                        //ame.skillCDMin = Integer.parseInt(rowTds[1].text())
-                        //ame.skillCDMax = Integer.parseInt(rowTds[2].text())
-                        ame.skillDesc = rowTds[2].text()
+                        var k: Int
+                        k = idx[0]
+                        if (k >= 0) {
+                            getSkill(ame, rowTds[k], baseWiki)
+                        }
+                        k = idx[1]
+                        if (k >= 0) {
+                            ame.skillCDMin = Integer.parseInt(rowTds[k].text())
+                        }
+                        k = idx[2]
+                        if (k >= 0) {
+                            ame.skillCDMax = Integer.parseInt(rowTds[k].text())
+                        }
+                        k = idx[4]
+                        if (k >= 0) {
+                            ame.skillDesc = rowTds[k].text()
+                        }
                         // Fill in monsters
-                        val child = rowTds[1].children()
-                        val nch = child?.size ?: 0
-                        for (k in 0 until nch){
-                            if (child[k] is Element) {
-                                val s = TosCardCreator.me.normEvoId(getImgAlt(child[k]))
-                                if (!TextUtil.isEmpty(s)) {
-                                    ame.monsters.add(s)
+                        k = idx[3]
+                        if (k >= 0) {
+                            val child = rowTds[k].children()
+                            val nch = child?.size ?: 0
+                            for (m in 0 until nch) {
+                                if (child[m] is Element) {
+                                    val s = TosCardCreator.me.normEvoId(getImgAlt(child[m]))
+                                    if (!TextUtil.isEmpty(s)) {
+                                        ame.monsters.add(s)
+                                    }
                                 }
                             }
                         }
@@ -620,9 +629,27 @@ class HomeRow {
     fun asTexts() : List<String> {
         val list = ArrayList<String>()
         for (td in tds) {
-            list.add(td.text())
+            //list.add(td.text())
+            list.add(txts(td))
         }
         return list
+    }
+
+    // Similar to td.text(), but we also takes the span node's title
+    fun txts(td: Element): String {
+        var sb = StringBuilder()
+        for (cn in td.childNodes()) {
+            if (cn is TextNode) {
+                sb.append(cn.text())
+            } else if (cn is Element) {
+                var s = cn.text()
+                if (s.isEmpty()) {
+                    s = cn.attr("title") // Fetch 魔法石 x 1, 共 x7
+                }
+                sb.append(s)
+            }
+        }
+        return sb.toString().trim()
     }
 
     override fun toString(): String {

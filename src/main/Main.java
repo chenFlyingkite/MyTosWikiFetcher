@@ -19,7 +19,6 @@ public class Main {
             TosAmeSkillFetcher.me.run();
             TosActiveSkillFetcher.me.run();
         }
-        TosAmeSkillFetcher.me.run();
         //-- Seldom
         //TosWikiPageFetcher.me.run();
         //TosPageArchiveFetcher.me.run();
