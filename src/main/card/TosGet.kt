@@ -224,7 +224,7 @@ class TosGet {
                 for (j in 1 until nTr) {
                     val rowTds = itemTrs[j].getElementsByTag("td")
                     val nTd = rowTds?.size ?: 0
-                    if (nTd == 5) {
+                    if (nTd == 5) { // 主動技列表/昇華技能
                         val ame = SkillInfo()
                         getSkill(ame, rowTds[0], baseWiki)
                         ame.skillCDMin = Integer.parseInt(rowTds[1].text())
@@ -232,6 +232,24 @@ class TosGet {
                         ame.skillDesc = rowTds[4].text()
                         // Fill in monsters
                         val child = rowTds[3].children()
+                        val nch = child?.size ?: 0
+                        for (k in 0 until nch){
+                            if (child[k] is Element) {
+                                val s = TosCardCreator.me.normEvoId(getImgAlt(child[k]))
+                                if (!TextUtil.isEmpty(s)) {
+                                    ame.monsters.add(s)
+                                }
+                            }
+                        }
+                        result.add(ame)
+                    } else if (nTd == 3) { // 隊長技列表/昇華技能
+                        val ame = SkillInfo()
+                        getSkill(ame, rowTds[0], baseWiki)
+                        //ame.skillCDMin = Integer.parseInt(rowTds[1].text())
+                        //ame.skillCDMax = Integer.parseInt(rowTds[2].text())
+                        ame.skillDesc = rowTds[2].text()
+                        // Fill in monsters
+                        val child = rowTds[1].children()
                         val nch = child?.size ?: 0
                         for (k in 0 until nch){
                             if (child[k] is Element) {

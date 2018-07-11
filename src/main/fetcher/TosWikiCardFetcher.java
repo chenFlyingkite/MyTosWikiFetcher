@@ -55,6 +55,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 // 昇華
                 , "http://zh.tos.wikia.com/wiki/004" // 水元素賢者莫莉
                 // 合體
+                , "http://zh.tos.wikia.com/wiki/724" // 鬼面魔刃 ‧ 源義經
                 , "http://zh.tos.wikia.com/wiki/597" // 連肢機偶 · 格蕾琴與海森堡
                 // 突破
                 , "http://zh.tos.wikia.com/wiki/818" // 憶念雙子 ‧ 加斯陀與波魯克斯
@@ -440,7 +441,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         int ax;
 
         // Fetch if has 昇華關卡
-        ax = 3;
         ax = Anchors.Amelioration.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
@@ -453,7 +453,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         }
 
         // Fetch if has 突破關卡
-        ax = 4;
         ax = Anchors.AwakenRecall.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
@@ -467,7 +466,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         }
 
         // Fetch if has 潛能解放
-        ax = 7;
         ax = Anchors.PowerRelease.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
@@ -484,7 +482,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         }
 
         // Fetch if has 異空轉生
-        ax = 8;
         ax = Anchors.VirtualRebirth.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
