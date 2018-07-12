@@ -13,7 +13,7 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        if (false) {
+        if (true) {
             TosWikiHomeFetcher.me.run();
             TosWikiCardFetcher.me.run();
             TosAmeSkillFetcher.me.run();

@@ -21,12 +21,14 @@ public class Statistics {
     }
 
     public static <T extends Number> double variance(List<T> data) {
+        // μ = mean
         final double mean = mean(data);
         double var = 0, dx;
         int n = data.size();
         for (T d : data) {
+            // Sum up (x_i - μ)^2
             dx = d.doubleValue() - mean;
-            var += dx * dx / n;
+            var += dx / n * dx;
         }
         return var;
     }
