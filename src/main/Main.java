@@ -15,8 +15,8 @@ public class Main {
         //-- Regular
         if (true) {
             TosWikiHomeFetcher.me.run();
-            TosWikiCardFetcher.me.run();
             TosAmeSkillFetcher.me.run();
+            TosWikiCardFetcher.me.run(); // Need to be run after AmeSkill & Active Skill fetchers
             TosActiveSkillFetcher.me.run();
         }
         //-- Seldom

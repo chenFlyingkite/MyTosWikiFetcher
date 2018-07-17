@@ -62,32 +62,35 @@ public final class TC {
     public static final String evolveTo = "evolveTo";
     public static final String combineFrom = "combineFrom";
     public static final String combineTo = "combineTo";
+    public static final String skillChange = "skillChange";
 
     // Automation
     public static void g() {
-        f("idNorm", "wikiLink", "name", "attribute", "icon", "bigImage",
-                "id", "rarity", "cost", "race", "series", "LvMax", "ExpMax",
-                "maxHP", "maxAttack", "maxRecovery",
-                "minHP", "minAttack", "minRecovery", "expCurve",
-                "minExpSacrifice", "perLvExpSacrifice",
-                "maxMUPerLevel", "maxTUAllLevel", "cardDetails",
-                "skillName1", "skillDesc1", "skillCDMin1", "skillCDMax1",
-                "skillName2", "skillDesc2", "skillCDMin2", "skillCDMax2",
-                "skillLeaderName", "skillLeaderDesc",
-                "skillAmeBattleName", "skillAmeBattleLink",
-                "skillAmeName1", "skillAmeCost1",
-                "skillAmeName2", "skillAmeCost2",
-                "skillAmeName3", "skillAmeCost3",
-                "skillAmeName4", "skillAmeCost4",
-                "skillAwkName",
-                "skillAwkBattleName", "skillAwkBattleLink",
-                "skillPowBattleName", "skillPowBattleLink",
-                "skillVirBattleName", "skillVirBattleLink",
-                "evolveFrom", "evolveNeed", "evolveTo",
-                "combineFrom", "combineTo");
+        f(idNorm, wikiLink, name, attribute, icon, bigImage,
+                id, rarity, cost, race, series, LvMax, ExpMax,
+                maxHP, maxAttack, maxRecovery,
+                minHP, minAttack, minRecovery, expCurve,
+                minExpSacrifice, perLvExpSacrifice,
+                maxMUPerLevel, maxTUAllLevel, cardDetails,
+                skillName1, skillDesc1, skillCDMin1, skillCDMax1,
+                skillName2, skillDesc2, skillCDMin2, skillCDMax2,
+                skillLeaderName, skillLeaderDesc,
+                skillAmeBattleName, skillAmeBattleLink,
+                skillAmeName1, skillAmeCost1,
+                skillAmeName2, skillAmeCost2,
+                skillAmeName3, skillAmeCost3,
+                skillAmeName4, skillAmeCost4,
+                skillAwkName,
+                skillAwkBattleName, skillAwkBattleLink,
+                skillPowBattleName, skillPowBattleLink,
+                skillVirBattleName, skillVirBattleLink,
+                evolveFrom, evolveNeed, evolveTo,
+                combineFrom, combineTo,
+                skillChange);
     }
 
     private static void f(String... param) {
+
         for (String s : param) {
             L.log("public static final String %s = \"%s\";", s, s);
         }

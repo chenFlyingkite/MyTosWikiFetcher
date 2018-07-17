@@ -287,4 +287,13 @@ public class TosCard {
     /** Combination material cards idNorm */
     @SerializedName(TC.combineTo)
     public List<String> combineTo = new ArrayList<>();
+
+
+    //------------
+    //---- Skill change, 技能變更
+    //------------
+
+    /** Skill change contents */
+    @SerializedName(TC.skillChange)
+    public List<Skill> skillChange = new ArrayList<>();
 }

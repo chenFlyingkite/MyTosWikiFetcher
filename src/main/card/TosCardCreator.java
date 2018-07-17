@@ -1,5 +1,6 @@
 package main.card;
 
+import main.fetcher.TosAmeSkillFetcher;
 import util.logging.Loggable;
 import util.tool.TicTac2;
 
@@ -7,10 +8,14 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 public class TosCardCreator {
     private TosCardCreator() {}
     public static final TosCardCreator me = new TosCardCreator();
+
+    private Map<String, List<Skill>> skillChangeLeader;
+    private Map<String, List<Skill>> skillChangeActive;
 
     public static class CardInfo {
         public List<String> data = new ArrayList<>();
@@ -39,6 +44,11 @@ public class TosCardCreator {
 //31, card = http://zh.tos.wikia.com/wiki/656
 
     public TosCard asTosCard(CardInfo info) {
+        // Prepare other data
+        skillChangeLeader = TosAmeSkillFetcher.getAllSkillsLeader();
+        skillChangeActive = TosAmeSkillFetcher.getAllSkillsActive();
+
+        // Main body
         TosCard c = null;
 
         if (info != null) {
@@ -199,6 +209,7 @@ public class TosCardCreator {
         fillEvolution(c, info);
         c.cardDetails = info.detailsHtml;
         fillStageLinks(c, info);
+        fillSkillChange(c);
     }
 
     private void fillLinks(TosCard c, CardInfo info) {
@@ -343,6 +354,19 @@ public class TosCardCreator {
             c.skillVirBattleName = list.get(0);
             c.skillVirBattleLink = list.get(1);
         }
+    }
+
+    private void fillSkillChange(TosCard c) {
+        List<Skill> ldr = skillChangeLeader.get(c.idNorm);
+        List<Skill> act = skillChangeActive.get(c.idNorm);
+        List<Skill> all = new ArrayList<>();
+        if (act != null) {
+            all.addAll(act);
+        }
+        if (ldr != null) {
+            all.addAll(ldr);
+        }
+        c.skillChange = all;
     }
 
     public String normEvoId(String s) {
