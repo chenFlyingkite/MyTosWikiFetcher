@@ -288,7 +288,6 @@ public class TosCard {
     @SerializedName(TC.combineTo)
     public List<String> combineTo = new ArrayList<>();
 
-
     //------------
     //---- Skill change, 技能變更
     //------------

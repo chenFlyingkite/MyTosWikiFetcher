@@ -970,6 +970,16 @@
     ]
   },
   {
+    "skillName": "全能量 100% 中的 100%",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%A8%E8%83%BD%E9%87%8F_100%25_%E4%B8%AD%E7%9A%84_100%25",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "首批消除 5 粒或以上暗符石，自身攻擊力 5.5 倍，其後每回合需要首批消除的暗符石數量 +1，達成條件時自身攻擊力額外提升 1.5 倍，最大 10 倍。效果持續至沒有達成條件",
+    "skillMonsters": [
+      "1802"
+    ]
+  },
+  {
     "skillName": "兩儀加冕 ‧ 水",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%A9%E5%84%80%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%B0%B4",
     "skillCDMin": 19,
@@ -2940,6 +2950,16 @@
     ]
   },
   {
+    "skillName": "怒號",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%80%92%E8%99%9F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "首批消除 5 粒或以上暗符石，自身攻擊力 5.5 倍，其後每回合需要首批消除的暗符石數量 +1，達成條件時自身攻擊力額外提升 1.5 倍，最大 10 倍。效果持續至沒有達成條件",
+    "skillMonsters": [
+      "1817"
+    ]
+  },
+  {
     "skillName": "思潮迸發",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%80%9D%E6%BD%AE%E8%BF%B8%E7%99%BC",
     "skillCDMin": 18,
@@ -3047,6 +3067,16 @@
     "skillDesc": "1 回合内，全隊攻擊力 2.5 倍；下一回合全隊回復力變 0",
     "skillMonsters": [
       "1183"
+    ]
+  },
+  {
+    "skillName": "指彈",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%8C%87%E5%BD%88",
+    "skillCDMin": 9,
+    "skillCDMax": 3,
+    "skillDesc": "將 4 粒符石轉化為暗強化符石 (心符石優先轉換)",
+    "skillMonsters": [
+      "1802"
     ]
   },
   {
