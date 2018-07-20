@@ -2,6 +2,7 @@ package main;
 
 import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
+import main.fetcher.TosWikiArticlesFetcher;
 import main.fetcher.TosWikiCardFetcher;
 import main.fetcher.TosWikiHomeFetcher;
 import util.logging.L;
@@ -13,12 +14,13 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        if (true) {
+        if (false) {
             TosWikiHomeFetcher.me.run();
             TosAmeSkillFetcher.me.run();
             TosWikiCardFetcher.me.run(); // Need to be run after AmeSkill & Active Skill fetchers
             TosActiveSkillFetcher.me.run();
         }
+        TosWikiArticlesFetcher.me.run();
         //-- Seldom
         //TosWikiPageFetcher.me.run();
         //TosPageArchiveFetcher.me.run();

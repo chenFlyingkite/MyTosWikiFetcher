@@ -1,7 +1,12 @@
-package wikia.articles
+package wikia.articles.result;
 
 import com.google.gson.annotations.SerializedName
+import wikia.articles.UnexpandedArticle
 
+/**
+ * Get articles list in alphabetical order
+ * URL: /api/v1/Articles/List
+ */
 open class UnexpandedListArticleResultSet (
     @SerializedName("items")
     val items: Array<UnexpandedArticle>? = null

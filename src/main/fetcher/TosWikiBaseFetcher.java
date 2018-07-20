@@ -18,7 +18,7 @@ import util.tool.IOUtil;
 import util.tool.TextUtil;
 import util.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
-import wikia.articles.UnexpandedListArticleResultSet;
+import wikia.articles.result.UnexpandedListArticleResultSet;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -112,6 +112,44 @@ public class TosWikiBaseFetcher implements Runnable {
             apiLf.getFile().close();
         }
         return set;
+    }
+
+    public String getApiBody(final String apiLink, final LF apiLf) {
+        if (apiLf == null || TextUtil.isEmpty(apiLink)) return null;
+
+        // Delete the logging file
+        apiLf.getFile().delete().open();
+        apiLf.setLogToL(!mFetchAll);
+
+        OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder().url(apiLink).build();
+        String answer = "";
+        try {
+            Response response;
+            ResponseBody body;
+
+            // Step 1: Fetch all links from Wikia API
+            apiLf.log("Linking %s", apiLink);
+
+            onNewCallStart();
+            clock.tic();
+            response = client.newCall(request).execute();
+            clock.tac("%s", response);
+            apiLf.log("response = %s", response);
+            onNewCallEnded();
+
+            clock.tic();
+            body = response.body();
+            if (body != null) {
+                answer = body.string();
+            }
+            clock.tac("body length = %s", answer.length());
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            apiLf.getFile().close();
+        }
+        return answer;
     }
 
     protected final Range getRange(ResultSet set, int from, int prefetch) {
