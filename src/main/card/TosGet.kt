@@ -305,6 +305,48 @@ class TosGet {
             return ame
         }
 
+        fun getCardItems(e: Element?, baseWiki: String) : List<CardItem>  {
+            val ans = ArrayList<CardItem>()
+            if (e == null) return emptyList()
+
+            val s = e.getElementsByTag("a")
+            for (item in s) {
+                //
+                val valid = item.hasClass("image image-thumbnail link-internal")
+                if (valid) {
+                    val c = CardItem()
+                    c.link = baseWiki + item.attr("href")
+                    c.title = item.attr("title")
+
+                    val n = item.children()?.size ?: 0
+                    if (n > 0) {
+                        val img = item.child(0)
+                        c.id = TosCardCreator.me.normEvoId(img.attr("alt"))
+                    }
+                    ans.add(c)
+                }
+            }
+            return ans
+        }
+
+        fun getCardGroup(e: Element?, baseWiki: String) : List<String>  {
+            val ans = ArrayList<String>()
+            if (e == null) return emptyList()
+
+            val s = e.getElementsByTag("li")
+            for (item in s) {
+                // Take the 1st <a> or we should use item.child(0) ?
+                val ax = item.getElementsByTag("a")
+                val n = ax?.size ?: 0
+                if (n > 0) {
+                    // Take the 1st a
+                    val href = ax[0].attr("href")
+                    ans.add(baseWiki + href)
+                }
+            }
+            return ans
+        }
+
         fun getTdText(e: Element, index: Int): String {
             return getTdElement(e, index)?.text() ?: ""
         }
@@ -670,15 +712,26 @@ class ImageInfo2 {
 }
 
 class ImageFileInfo {
-    var wikiPage: String = ""
-    var title: String = ""
-    var uploader: String = ""
-    var filename: String = ""
+    var wikiPage = ""
+    var title = ""
+    var uploader = ""
+    var filename = ""
 
     override fun toString(): String {
         return "$uploader => $title => $filename => $wikiPage"
     }
 }
+
+class CardItem {
+    var title = ""
+    var id = ""
+    var link = ""
+
+    override fun toString(): String {
+        return "#$id : $title -> $link"
+    }
+}
+
 //
 //fun TosGet.getImage(element: Element) :String {
 //    val nos = element.getElementsByTag("noscript")

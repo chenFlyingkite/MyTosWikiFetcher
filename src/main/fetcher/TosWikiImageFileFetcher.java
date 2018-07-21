@@ -17,13 +17,13 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
     private TosWikiImageFileFetcher() { }
     public static final TosWikiImageFileFetcher me = new TosWikiImageFileFetcher();
 
-    private static final boolean zh = true;
+    private static final boolean zh = false;
 
     private static final String wikiPageBase = zh ? wikiBaseZh : wikiBaseEn;
     private static final String tosWiki = wikiPageBase +
         (zh ? "/wiki/Special:%E5%9B%BE%E7%89%87"
             : "/wiki/Special:Images");
-    private static final int PAGES = zh ? 301 : 148;
+    private static final int PAGES = zh ? 303 : 150;
     private static final String folder = zh ? "myImagesFile" : "myImagesFileEng";
     // http://zh.tos.wikia.com/wiki/Special:圖片
     // https://towerofsaviors.wikia.com/wiki/Special:Images

@@ -27,6 +27,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000";
     private final LF Lfc = new LF("mydata", "ca.json");
     private final LF LfPage = new LF("mydata", "pages.txt");
+    private final LF LfCard = new LF("mydata", "cardList.json");
+    public final String TOS_ALL_CARD = LfCard.getFile().toString();//"mydata/cardList.json";
 
     @Override
     public String getAPILink() {
@@ -189,7 +191,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lfc.getFile().close();
         LfPage.getFile().close();
 
-        writeToJson(cardsNoDup);
+        writeToJson(LfCard, cardsNoDup);
     }
 
     @Deprecated
@@ -268,9 +270,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lf.getFile().close();
     }
 
-    private void writeToJson(List<TosCard> cardList) {
+    private void writeToJson(LF f, List<TosCard> cardList) {
         TicTac2 clk = new TicTac2();
-        LF f = new LF("mydata", "cardList.json");
         f.setLogToL(false);
         cardList.sort((c1, c2) -> {
             int n1 = Integer.parseInt(c1.idNorm);
