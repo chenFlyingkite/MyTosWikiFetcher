@@ -2970,6 +2970,16 @@
     ]
   },
   {
+    "skillName": "怨呼障縛壁",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%80%A8%E5%91%BC%E9%9A%9C%E7%B8%9B%E5%A3%81",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "水符石轉化為妖族強化符石；1 回合內，消除妖族符石時，妖精類攻擊力 1.5 倍",
+    "skillMonsters": [
+      "1806"
+    ]
+  },
+  {
     "skillName": "惑靈術",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%83%91%E9%9D%88%E8%A1%93",
     "skillCDMin": 18,
@@ -3557,6 +3567,16 @@
     "skillDesc": "1 回合內，全隊攻擊力 1.5 倍，並解除所有成員被封鎖的技能及清除敵人身上的控制技能 (此技能無視封鎖技能)。發動技能的回合若擊斃所有敵人，下一回合全隊攻擊力 2.5 倍",
     "skillMonsters": [
       "0485"
+    ]
+  },
+  {
+    "skillName": "斷空束縛",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%96%B7%E7%A9%BA%E6%9D%9F%E7%B8%9B",
+    "skillCDMin": 22,
+    "skillCDMax": 9,
+    "skillDesc": "點選 1 橫行及 1 直行的符石並引爆，以掉落魔族強化符石；1 回合內，消除符石後首 20 粒掉落的符石必定為火及暗符石",
+    "skillMonsters": [
+      "1798"
     ]
   },
   {
@@ -4315,6 +4335,16 @@
     "skillDesc": "1 回合內，木屬性及獸類攻擊力 1.5 倍",
     "skillMonsters": [
       "1226"
+    ]
+  },
+  {
+    "skillName": "森野之力 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E9%87%8E%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，木屬性及獸類攻擊力 1.5 倍，木屬性獸類攻擊力則提升至 1.8 倍",
+    "skillMonsters": [
+      "1392"
     ]
   },
   {
@@ -5758,6 +5788,16 @@
     ]
   },
   {
+    "skillName": "炙熱爪擊 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%82%99%E7%86%B1%E7%88%AA%E6%93%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "將 10 個固定位置的符石轉化為火強化符石。1 回合內，火屬性攻擊力 2 倍，火屬性獸類及獸類攻擊力 3 倍",
+    "skillMonsters": [
+      "1391"
+    ]
+  },
+  {
     "skillName": "烈火鬥心",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%83%88%E7%81%AB%E9%AC%A5%E5%BF%83",
     "skillCDMin": 17,
@@ -6725,6 +6765,16 @@
     "skillDesc": "完全回復生命力。1 回合內，迴避所有攻擊；此外，2 回合內，所有符石兼具木符石效果",
     "skillMonsters": [
       "1226"
+    ]
+  },
+  {
+    "skillName": "疾走無影 ‧ 獸",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%96%BE%E8%B5%B0%E7%84%A1%E5%BD%B1_%E2%80%A7_%E7%8D%B8",
+    "skillCDMin": 27,
+    "skillCDMax": 16,
+    "skillDesc": "完全回復生命力。1 回合內，迴避所有攻擊；2 回合內，所有符石兼具隊伍中獸類成員屬性效果",
+    "skillMonsters": [
+      "1392"
     ]
   },
   {
@@ -10866,6 +10916,16 @@
     ]
   },
   {
+    "skillName": "魅影術 ‧ 煉",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%85%E5%BD%B1%E8%A1%93_%E2%80%A7_%E7%85%89",
+    "skillCDMin": 17,
+    "skillCDMax": 3,
+    "skillDesc": "將 4 至 7 粒符石轉化為暗強化符石 (水、火及木符石優先轉換)；若隊伍中有 4 個以上龍類成員時，轉化 7 粒暗強化符石的機率大幅提升",
+    "skillMonsters": [
+      "1394"
+    ]
+  },
+  {
     "skillName": "魅影迷霧",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%85%E5%BD%B1%E8%BF%B7%E9%9C%A7",
     "skillCDMin": 22,
@@ -11193,6 +11253,16 @@
     "skillDesc": "消耗現有 20% 生命力，1 回合內，迴避所有敵人的攻擊。下回合開始前，將所有符石轉化為強化符石，且全隊攻擊力 1.5 倍",
     "skillMonsters": [
       "1228"
+    ]
+  },
+  {
+    "skillName": "麒麟之傲 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%BA%92%E9%BA%9F%E4%B9%8B%E5%82%B2_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 23,
+    "skillCDMax": 12,
+    "skillDesc": "1 回合內，迴避所有敵人的攻擊。下回合開始前，所有符石轉化為龍族強化符石，全隊攻擊力 1.5 倍",
+    "skillMonsters": [
+      "1393"
     ]
   },
   {

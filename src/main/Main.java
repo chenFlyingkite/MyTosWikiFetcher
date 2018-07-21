@@ -14,7 +14,7 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        if (false) {
+        if (true) {
             TosWikiHomeFetcher.me.run();
             TosAmeSkillFetcher.me.run();
             TosWikiCardFetcher.me.run(); // Need to be run after AmeSkill & Active Skill fetchers
