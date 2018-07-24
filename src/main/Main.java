@@ -13,9 +13,9 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
-import util.logging.L;
-import util.tool.StringUtil;
-import util.tool.TicTac;
+import flyingkite.logging.L;
+import flyingkite.tool.StringUtil;
+import flyingkite.tool.TicTac;
 
 public class Main {
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ public class Main {
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
     }
-//
+
 //    private static void parallel(Runnable... runs) {
 //        for (Runnable r : runs) {
 //            cache.submit(new Runnable() {

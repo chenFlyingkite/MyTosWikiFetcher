@@ -1,8 +1,6 @@
 package main.ptt
 
-import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
-import util.logging.L
 
 open class MobileCommGet {
     companion object me {

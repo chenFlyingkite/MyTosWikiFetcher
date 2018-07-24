@@ -4,7 +4,7 @@ import main.card.StageInfo;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import util.logging.LF;
+import flyingkite.logging.LF;
 
 import java.util.ArrayList;
 import java.util.List;

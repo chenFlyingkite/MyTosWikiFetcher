@@ -2,7 +2,7 @@ package main.fetcher;
 
 import com.google.gson.Gson;
 import main.card.TosCard;
-import util.logging.L;
+import flyingkite.logging.L;
 
 import java.util.HashMap;
 import java.util.List;

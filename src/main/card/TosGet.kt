@@ -5,7 +5,7 @@ import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
-import util.tool.TextUtil
+import flyingkite.tool.TextUtil
 
 class TosGet {
     companion object me {

@@ -4,7 +4,7 @@ import main.card.ImageInfo2;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import util.logging.LF;
+import flyingkite.logging.LF;
 
 public class TosPageArchiveFetcher extends TosWikiBaseFetcher {
     private TosPageArchiveFetcher() {}

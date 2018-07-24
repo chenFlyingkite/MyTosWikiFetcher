@@ -1,6 +1,6 @@
 package main.misc;
 
-import util.logging.L;
+import flyingkite.logging.L;
 
 public class FilePeeker implements Runnable {
 

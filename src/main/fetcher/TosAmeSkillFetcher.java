@@ -5,7 +5,7 @@ import main.card.SkillInfo;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import util.logging.LF;
+import flyingkite.logging.LF;
 
 import java.util.ArrayList;
 import java.util.List;

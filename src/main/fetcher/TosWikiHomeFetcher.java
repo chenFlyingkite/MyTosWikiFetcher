@@ -5,7 +5,7 @@ import main.card.HomeTable;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import util.logging.LF;
+import flyingkite.logging.LF;
 
 public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
     private TosWikiHomeFetcher() {}

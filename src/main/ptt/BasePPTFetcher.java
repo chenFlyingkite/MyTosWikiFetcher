@@ -1,20 +1,11 @@
 package main.ptt;
 
-import main.fetcher.TosWikiBaseFetcher;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import util.logging.L;
-import util.tool.TicTac2;
+import flyingkite.tool.TicTac2;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public abstract class BasePPTFetcher {
     protected static final String pptCC = "https://www.ptt.cc";

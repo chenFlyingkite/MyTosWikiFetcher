@@ -11,12 +11,12 @@ import okhttp3.ResponseBody;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import util.data.Range;
-import util.logging.L;
-import util.logging.LF;
-import util.tool.IOUtil;
-import util.tool.TextUtil;
-import util.tool.TicTac2;
+import flyingkite.data.Range;
+import flyingkite.logging.L;
+import flyingkite.logging.LF;
+import flyingkite.tool.IOUtil;
+import flyingkite.tool.TextUtil;
+import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 import wikia.articles.result.UnexpandedListArticleResultSet;
 

@@ -1,6 +1,6 @@
 package main.fetcher;
 
-import util.logging.LF;
+import flyingkite.logging.LF;
 import wikia.articles.NewArticleResultSet;
 import wikia.articles.result.WAResult;
 

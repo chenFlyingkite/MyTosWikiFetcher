@@ -1,9 +1,9 @@
 package main.fetcher;
 
 import main.card.IconInfo;
-import util.data.Range;
-import util.logging.LF;
-import util.tool.TicTac2;
+import flyingkite.data.Range;
+import flyingkite.logging.LF;
+import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
 public class TosWikiIconFetcher extends TosWikiBaseFetcher {

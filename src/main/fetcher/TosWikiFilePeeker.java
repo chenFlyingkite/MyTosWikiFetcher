@@ -3,9 +3,9 @@ package main.fetcher;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import util.logging.L;
-import util.logging.LF;
-import util.tool.TicTac2;
+import flyingkite.logging.L;
+import flyingkite.logging.LF;
+import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
 import java.util.*;

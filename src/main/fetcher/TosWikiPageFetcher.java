@@ -6,7 +6,7 @@ import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import util.logging.LF;
+import flyingkite.logging.LF;
 
 public class TosWikiPageFetcher extends TosWikiBaseFetcher {
     private TosWikiPageFetcher() {}
