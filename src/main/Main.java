@@ -13,7 +13,7 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
-import flyingkite.logging.L;
+import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TicTac;
 

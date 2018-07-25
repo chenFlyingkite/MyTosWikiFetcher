@@ -2,10 +2,9 @@ package flyingkite.datamining.clustering.algo
 
 import flyingkite.datamining.clustering.util.CLClus
 import flyingkite.datamining.clustering.util.IDPair
-import flyingkite.logging.L
+import flyingkite.log.L
 import flyingkite.math.Statistics
 import java.util.*
-import kotlin.collections.ArrayList
 
 class CLHistogram<T: CLClus<T>> : Runnable {
     private val dataset = ArrayList<T>()
@@ -58,9 +57,9 @@ class CLHistogram<T: CLClus<T>> : Runnable {
                 for (id in neighbor) {
                     ids.add(groupIds[id.k])
                 }
-                val modes = Statistics.mode(ids)
-                log.log("    ids = $ids, mode = $modes")
-                groupI = ids[modes[0]] // First mode's group number
+                val modes = Statistics.modeIndices(ids)
+                log.log("    ids = $ids, modeIndices = $modes")
+                groupI = ids[modes[0]] // First modeIndices's group number
             }
             groupIds.add(groupI)
             log.log("  in g# = $groupI, NN = $neighbor")
@@ -79,7 +78,7 @@ class CLHistogram<T: CLClus<T>> : Runnable {
         }
         log.log("--- Group done with ----")
         for (i in 0..groupCount) {
-            // Statistics
+            // Statistic
             val list = ArrayList<Double>()
             for (d in grouping[i]) {
                 list.add(d.getXi(0))
@@ -92,6 +91,39 @@ class CLHistogram<T: CLClus<T>> : Runnable {
         log.log("--- End ----")
 
         //log.file.close()
+    }
+
+    /**
+     * The incremental grouping method
+     * @param x New data
+     * @param sublist Previous dataset that x will join (so x is not yet in sublist)
+     * @param groupIds Previous dataset's groupIds, with data_i is in group of groupIds(i)
+     */
+    fun findGroup(x: T, sublist: List<T>, groupIds: List<Int>, algo_K: Int): Int {
+        val i = sublist.size // regard as last new item
+
+        if (sublist.isEmpty() && groupIds.isEmpty()) return 0
+
+        // Find the k-nearest-neighbor of x in dataset[0:i]
+        val neighbor = getKNN(x, i, algo_K, sublist)
+        //log("--> #%s : x = %s", i, x)
+
+        val groupI: Int
+        if (neighbor.isEmpty()) {
+            // No one is nearby to x, -> create the new group
+            groupI = 1 + Statistics.max(groupIds) as Int
+        } else {
+            // Take the list's ids out
+            val ids = ArrayList<Int>()
+            for (id in neighbor) {
+                ids.add(groupIds[id.k])
+            }
+            // Get the mode of group number
+            val modes = Statistics.modeIndices(ids)
+            //log("    ids = %s, mode = %s", ids, modes)
+            groupI = ids[modes[0]] // Assign to 1st mode group number
+        }
+        return groupI
     }
 
     private fun getKNN(x: T, xIndex: Int, k: Int, set: List<T>): List<IDPair> {

@@ -1,7 +1,7 @@
 package main.ptt;
 
 import org.jsoup.select.Elements;
-import flyingkite.logging.L;
+import flyingkite.log.L;
 
 import java.util.List;
 

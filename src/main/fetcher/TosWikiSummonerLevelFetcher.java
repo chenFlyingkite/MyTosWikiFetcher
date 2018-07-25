@@ -4,7 +4,7 @@ import main.card.TableInfo;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import flyingkite.logging.LF;
+import flyingkite.log.LF;
 
 import java.util.List;
 

@@ -1,9 +1,9 @@
 package flyingkite.datamining.clustering.algo
 
-import flyingkite.math.MathUtil
 import flyingkite.datamining.clustering.util.Clusterable
 import flyingkite.datamining.clustering.util.PngMaker
-import flyingkite.logging.LF
+import flyingkite.log.LF
+import flyingkite.math.MathUtil
 import flyingkite.tool.TicTac2
 import java.awt.image.BufferedImage
 import java.io.File

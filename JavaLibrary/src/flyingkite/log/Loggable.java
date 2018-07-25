@@ -1,8 +1,10 @@
-package flyingkite.logging;
+package flyingkite.log;
 
 import java.util.Locale;
 
-public interface Loggable {
+import flyingkite.functional.LogSS;
+
+public interface Loggable extends Formattable {
     /**
      * Writing the log with message
      * @param msg The message to be logged
@@ -16,6 +18,15 @@ public interface Loggable {
      * @see String#format(Locale, String, Object...)
      */
     default void log(String format, Object... param) {
-        log(String.format(Locale.US, format, param));
+        log(_fmt(format, param));
+
+    }
+
+    default void printLog(LogSS ss, String tag, String message) {
+        ss.run(tag, message);
+    }
+
+    default void printfLog(LogSS ss, String tag, String format, Object... param) {
+        printLog(ss, tag, _fmt(format, param));
     }
 }

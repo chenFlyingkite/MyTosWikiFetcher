@@ -1,13 +1,17 @@
 package flyingkite.files;
 
-import flyingkite.logging.L;
-import flyingkite.logging.LF;
-import flyingkite.tool.IOUtil;
-import flyingkite.tool.TicTacLF;
-
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+import flyingkite.log.L;
+import flyingkite.log.LF;
+import flyingkite.tool.IOUtil;
+import flyingkite.tool.TicTacLF;
 
 public class CSVTable {
     public static final String COMMA = ",";
@@ -39,7 +43,7 @@ public class CSVTable {
     public static CSVTable readCSVFile(String path, OnReadCSV onRead) {
         CSVTable table = new CSVTable();
         List<Map<String, String>> data = new ArrayList<>();
-        if (FileUtil.isMissing(path)) {
+        if (FileUtil.isGone(path)) {
             if (onRead != null) {
                 onRead.onMissingFile(path);
             }

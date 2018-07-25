@@ -2,7 +2,7 @@ package main.fetcher;
 
 import main.card.IconInfo;
 import flyingkite.data.Range;
-import flyingkite.logging.LF;
+import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 

@@ -11,8 +11,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import flyingkite.math.MathUtil;
 import flyingkite.data.Range;
-import flyingkite.logging.L;
-import flyingkite.logging.LF;
+import flyingkite.log.L;
+import flyingkite.log.LF;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
@@ -100,7 +100,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         TicTac2 tt = new TicTac2();
         tt.setLog(false);
 
-        // Open logging files
+        // Open log files
         Lf.getFile().open();
         Lf.setLogToL(!mFetchAll);
         Lfc.getFile().delete().open();

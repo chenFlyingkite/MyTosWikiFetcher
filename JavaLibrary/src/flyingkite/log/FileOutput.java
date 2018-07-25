@@ -1,4 +1,4 @@
-package flyingkite.logging;
+package flyingkite.log;
 
 import flyingkite.tool.IOUtil;
 
@@ -6,16 +6,14 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Locale;
 
-public class FileOutput {
+public class FileOutput implements Loggable {
     private PrintWriter pw;
     private FileOutputStream fos;
     private File file;
 
     public FileOutput(String name) {
-        file = new File(name);
-        validate();
+        this(new File(name));
     }
 
     public FileOutput(File file1) {
@@ -49,12 +47,18 @@ public class FileOutput {
         } catch (IOException e) {
             e.printStackTrace();
             IOUtil.closeIt(fos, pw);
+        } finally { // Should not close it since this is open
         }
         return this;
     }
 
+    @Override
+    public void log(String msg) {
+        writeln(msg);
+    }
+
     public FileOutput writeln(String format, Object... param) {
-        return writeln(String.format(Locale.US, format, param));
+        return writeln(_fmt(format, param));
     }
 
     public FileOutput writeln(String msg) {

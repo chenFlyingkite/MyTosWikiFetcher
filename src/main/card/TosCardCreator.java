@@ -1,7 +1,7 @@
 package main.card;
 
 import main.fetcher.TosAmeSkillFetcher;
-import flyingkite.logging.Loggable;
+import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
 
 import java.util.ArrayList;

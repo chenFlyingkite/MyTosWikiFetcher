@@ -1,8 +1,5 @@
 package flyingkite.math;
 
-import flyingkite.datamining.clustering.util.IDPair;
-import flyingkite.logging.L;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,7 +7,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import flyingkite.datamining.clustering.util.IIPair;
+import flyingkite.log.L;
+
 public class Statistics {
+    /**
+     * https://en.wikipedia.org/wiki/Mean
+     */
     public static <T extends Number> double mean(List<T> data) {
         double mean = 0;
         int n = data.size();
@@ -20,97 +23,132 @@ public class Statistics {
         return mean;
     }
 
-    public static <T extends Number> double variance(List<T> data) {
+    /**
+     * variance of Sample
+     * https://en.wikipedia.org/wiki/Variance#Sample_variance
+     * @param sample true if sample, false if population
+     */
+    public static <T extends Number> double variance(List<T> data, boolean sample) {
         // μ = mean
         final double mean = mean(data);
         double var = 0, dx;
         int n = data.size();
+        int div = sample ? n - 1 : n;
         for (T d : data) {
             // Sum up (x_i - μ)^2
             dx = d.doubleValue() - mean;
-            var += dx / n * dx;
+            var += dx * dx / div;
         }
         return var;
     }
 
-    public static <T extends Number> double min(List<T> data) {
-        double min = data.get(0).doubleValue();
-        for (T t : data) {
-            double d = t.doubleValue();
-            if (d < min) {
-                min = d;
-            }
-        }
-        return min;
+    /**
+     * deviation of sample
+     * @param sample true if sample, false if population
+     */
+    public static <T extends Number> double deviation(List<T> data, boolean sample) {
+        return Math.sqrt(variance(data, sample));
     }
 
-    public static <T extends Number> double max(List<T> data) {
-        double max = data.get(0).doubleValue();
-        for (T t : data) {
-            double d = t.doubleValue();
-            if (d > max) {
-                max = d;
-            }
-        }
-        return max;
+    /**
+     * variance of Sample
+     * https://en.wikipedia.org/wiki/Variance#Sample_variance
+     */
+    public static <T extends Number> double variance(List<T> data) {
+        return variance(data, true);
     }
 
+    /**
+     * deviation of sample
+     */
     public static <T extends Number> double deviation(List<T> data) {
-        return Math.sqrt(variance(data));
+        return Math.sqrt(variance(data, true));
     }
 
+
+
+    public static <T extends Comparable<T>> T min(List<T> data) {
+        return Collections.min(data);
+    }
+
+    public static <T extends Comparable<T>> T max(List<T> data) {
+        return Collections.max(data);
+    }
+
+    /**
+     * https://en.wikipedia.org/wiki/Median
+     */
     public static <T extends Number> double median(List<T> data) {
-        return quartile(2, data);
+        List<Double> sorted = sortedDouble(data);
+        return mid(sorted);
     }
 
-    private static <T extends Number> double quartile(int qi, List<T> data) {
-        // Add data and sort them
+    private static <T extends Number> List<Double> sortedDouble(List<T> data) {
+        // Sort on double value
         List<Double> sorted = new ArrayList<>();
         for (T t : data) {
             sorted.add(t.doubleValue());
         }
         Collections.sort(sorted);
+        return sorted;
+    }
 
-        // Take the quartile
+    private static double mid(List<Double> sorted) {
+        // size = 2 * q + r, 0 <= r < 2
         int size = sorted.size();
-        if (qi == 2) {
-            int q = size / 2;
-            int r = size % 2;
-            if (r == 1) {
-                return sorted.get(q);
-            } else {
-                return 0.5 * sorted.get(q - 1) + 0.5 * sorted.get(q);
-            }
+        int q = size / 2;
+        int r = size % 2;
+        if (r == 1) {
+            return sorted.get(q);
+        } else {
+            return 0.5 * sorted.get(q - 1) + 0.5 * sorted.get(q);
         }
-        return Math.sqrt(variance(data));
+    }
+
+    /**
+     * https://en.wikipedia.org/wiki/Median
+     */
+    public static <T extends Number> double quartile_1(List<T> data) {
+        List<Double> sorted = sortedDouble(data);
+        int n = sorted.size();
+        return mid(sorted.subList(0, (n + 1) / 2));
+    }
+
+    /**
+     * https://en.wikipedia.org/wiki/Median
+     */
+    public static <T extends Number> double quartile_3(List<T> data) {
+        List<Double> sorted = sortedDouble(data);
+        int n = sorted.size();
+        return mid(sorted.subList((n + 1) / 2, n));
     }
 
     /**
      * Returns the indices of mode in data, (we returns the index of item)
      * Use data[result[0]] to take the 1st mode number
      */
-    public static <T extends Number> List<Integer> mode(List<T> data) {
-        Map<T, IDPair> map = new HashMap<>();
+    public static <T extends Number> List<Integer> modeIndices(List<T> data) {
+        Map<T, IIPair> map = new HashMap<>();
         // Count the set as {value -> (index, count), ...}
-        IDPair p;
+        IIPair p;
         for (int i = 0; i < data.size(); i++) {
             T d = data.get(i);
             if (map.containsKey(d)) {
                 p = map.get(d);
                 p.setV(p.getV() + 1);
             } else {
-                p = new IDPair(i, 1);
+                p = new IIPair(i, 1);
             }
             map.put(d, p);
         }
         // Sort (index, count) in map
-        List<IDPair> counts = new ArrayList<>(map.values());
+        List<IIPair> counts = new ArrayList<>(map.values());
         Collections.sort(counts);
         // Take those count is max as indices
-        int max = (int) counts.get(counts.size() - 1).getV();
+        int max = counts.get(counts.size() - 1).getV();
         List<Integer> indices = new ArrayList<>();
-        for (IDPair pair : counts) {
-            if (max == (int)pair.getV()) {
+        for (IIPair pair : counts) {
+            if (max == pair.getV()) {
                 indices.add(pair.getK());
             }
         }
@@ -120,21 +158,22 @@ public class Statistics {
     public static void run() {
         double x;
         List<Integer> y;
-        x = Statistics.mean(Arrays.asList(1, 2, 3, 4, 5, 6));
+        x = mean(Arrays.asList(1, 2, 3, 4, 5, 6));
         L.log("x = %s", x);
-        x = Statistics.variance(Arrays.asList(1, 2, 3, 4, 5, 6));
+        x = variance(Arrays.asList(1, 2, 3, 4, 5, 6));
         L.log("x = %s", x);
-        x = Statistics.deviation(Arrays.asList(1, 2, 3, 4, 5, 6));
+        x = deviation(Arrays.asList(1, 2, 3, 4, 5, 6));
         L.log("x = %s", x);
-        x = Statistics.mean(Arrays.asList(1.5, 2.5, 3.5, 4.5, 5.5, 6.5));
+        x = mean(Arrays.asList(1.5, 2.5, 3.5, 4.5, 5.5, 6.5));
         L.log("x = %s", x);
-        y = Statistics.mode(Arrays.asList(1, 2, 3, 4, 5, 6, 6));
+        y = modeIndices(Arrays.asList(1, 2, 3, 4, 5, 6, 6));
         L.log("y = %s", y);
-        y = Statistics.mode(Arrays.asList(-1, -1, -1, -1, 0, 0, 0, 0, 1, 2, 3, 3, 3, 3, 4, 5, 6, 6));
+        y = modeIndices(Arrays.asList(-1, -1, -1, -1, 0, 0, 0, 0, 1, 2, 3, 3, 3, 3, 4, 5, 6, 6));
         L.log("y = %s", y);
-        x = quartile(2, Arrays.asList(6, 47, 49, 15, 42, 41, 7, 39, 43, 40, 36));
+        // https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0
+        x = median(Arrays.asList(6, 47, 49, 15, 42, 41, 7, 39, 43, 40, 36));
         L.log("x = %s", x);
-        x = quartile(2, Arrays.asList(7, 15, 36, 39, 40, 41));
+        x = median(Arrays.asList(7, 15, 36, 39, 40, 41));
         L.log("x = %s", x);
     }
 }

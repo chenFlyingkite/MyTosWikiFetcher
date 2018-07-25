@@ -1,6 +1,6 @@
 package main.card;
 
-import flyingkite.logging.L;
+import flyingkite.log.L;
 
 public final class TC {
     private TC() {}

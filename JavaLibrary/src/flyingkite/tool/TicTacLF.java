@@ -1,6 +1,6 @@
 package flyingkite.tool;
 
-import flyingkite.logging.LF;
+import flyingkite.log.LF;
 
 public class TicTacLF extends TicTac2 {
     private LF logFile;
@@ -8,6 +8,10 @@ public class TicTacLF extends TicTac2 {
     public TicTacLF(LF file) {
         logFile = file;
         logFile.getFile().open();
+    }
+
+    public LF getLogFile() {
+        return logFile;
     }
 
     @Override

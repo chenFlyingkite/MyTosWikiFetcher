@@ -5,8 +5,8 @@ import main.card.ImageFileInfo;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import flyingkite.files.FileUtil;
-import flyingkite.logging.L;
-import flyingkite.logging.LF;
+import flyingkite.log.L;
+import flyingkite.log.LF;
 import flyingkite.tool.TextUtil;
 
 import java.io.File;

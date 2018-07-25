@@ -12,8 +12,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import flyingkite.data.Range;
-import flyingkite.logging.L;
-import flyingkite.logging.LF;
+import flyingkite.log.L;
+import flyingkite.log.LF;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
@@ -72,7 +72,7 @@ public class TosWikiBaseFetcher implements Runnable {
     public ResultSet getApiResults(final String apiLink, final LF apiLf) {
         if (apiLf == null || TextUtil.isEmpty(apiLink)) return null;
 
-        // Delete the logging file
+        // Delete the log file
         apiLf.getFile().delete().open();
         apiLf.setLogToL(!mFetchAll);
 
@@ -117,7 +117,7 @@ public class TosWikiBaseFetcher implements Runnable {
     public String getApiBody(final String apiLink, final LF apiLf) {
         if (apiLf == null || TextUtil.isEmpty(apiLink)) return null;
 
-        // Delete the logging file
+        // Delete the log file
         apiLf.getFile().delete().open();
         apiLf.setLogToL(!mFetchAll);
 
@@ -272,7 +272,7 @@ public class TosWikiBaseFetcher implements Runnable {
             @Override
             public void run() {
                 LF lf = lfFile;
-                // Open logging files
+                // Open log files
                 lf.getFile().open(false);
                 for (String s : list) {
                     lf.log(s);

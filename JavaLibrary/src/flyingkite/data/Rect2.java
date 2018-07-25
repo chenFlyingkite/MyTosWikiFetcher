@@ -1,5 +1,8 @@
 package flyingkite.data;
 
+/**
+ * android.graphics.Rect;
+ */
 public class Rect2 {
     public int left;
     public int top;

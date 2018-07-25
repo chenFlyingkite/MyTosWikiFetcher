@@ -3,8 +3,8 @@ package main.fetcher;
 import main.card.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import flyingkite.logging.L;
-import flyingkite.logging.LF;
+import flyingkite.log.L;
+import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
@@ -127,7 +127,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher {
             boolean printOmit = false;
 
             LF lf = new LF(folder, "temp/" + tid + ".txt");
-            // Open logging files
+            // Open log files
             lf.getFile().open(false);
             lf.setLogToL(!mFetchAll);
 
