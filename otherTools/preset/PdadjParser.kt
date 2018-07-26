@@ -14,19 +14,19 @@ class PdadjParser {
         val gson = Gson()
         val gson2 = GsonBuilder().setPrettyPrinting().create()
 
-        fun parse(str: String): EffectPdadj? {
+        fun parse(str: String) : EffectPdadj? {
             return gson.fromJson(str, EffectPdadj::class.java)
         }
 
-        fun parseFile(file: File): EffectPdadj? {
+        fun parseFile(file: File) : EffectPdadj? {
             return parse(getReader(file))
         }
 
-        fun parseAsset(assetFile: String, am: AssetManager): EffectPdadj? {
+        fun parseAsset(assetFile: String, am: AssetManager) : EffectPdadj? {
             return parse(getReader(assetFile, am))
         }
 
-        fun parse(reader: Reader?): EffectPdadj? {
+        fun parse(reader: Reader?) : EffectPdadj? {
             if (reader == null) {
                 return null
             } else {
@@ -34,7 +34,7 @@ class PdadjParser {
             }
         }
 
-        private fun getReader(assetFile: String, am: AssetManager): Reader? {
+        private fun getReader(assetFile: String, am: AssetManager) : Reader? {
             try {
                 return InputStreamReader(am.open(assetFile))
             } catch (e: IOException) {
@@ -43,7 +43,7 @@ class PdadjParser {
             }
         }
 
-        private fun getReader(file: File): Reader? {
+        private fun getReader(file: File) : Reader? {
             try {
                 return FileReader(file)
             } catch (e: IOException) {

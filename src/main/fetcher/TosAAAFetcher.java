@@ -15,6 +15,13 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
 
     @Override
     public void run() {
+        mLf.getFile().open(false);
+        clock.tic();
+        // Start here
 
+
+
+        clock.tac("%s Done", tag());
+        mLf.getFile().close();
     }
 }

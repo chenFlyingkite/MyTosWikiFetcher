@@ -14,13 +14,13 @@ class CLHistogram<T: CLClus<T>> : Runnable {
 
     private val NO_ID = -1
 
-    fun setDataSet(set: List<T>): CLHistogram<T> {
+    fun setDataSet(set: List<T>) : CLHistogram<T> {
         copy(set, dataset)
 
         return this
     }
 
-    private fun copy(set: List<T>, list: MutableList<T>): List<T> {
+    private fun copy(set: List<T>, list: MutableList<T>) : List<T> {
         list.clear()
         for (i in 0 until set.size) {
             list.add(set[i].copy())
@@ -99,7 +99,7 @@ class CLHistogram<T: CLClus<T>> : Runnable {
      * @param sublist Previous dataset that x will join (so x is not yet in sublist)
      * @param groupIds Previous dataset's groupIds, with data_i is in group of groupIds(i)
      */
-    fun findGroup(x: T, sublist: List<T>, groupIds: List<Int>, algo_K: Int): Int {
+    fun findGroup(x: T, sublist: List<T>, groupIds: List<Int>, algo_K: Int) : Int {
         val i = sublist.size // regard as last new item
 
         if (sublist.isEmpty() && groupIds.isEmpty()) return 0
@@ -126,7 +126,7 @@ class CLHistogram<T: CLClus<T>> : Runnable {
         return groupI
     }
 
-    private fun getKNN(x: T, xIndex: Int, k: Int, set: List<T>): List<IDPair> {
+    private fun getKNN(x: T, xIndex: Int, k: Int, set: List<T>) : List<IDPair> {
         val indices = ArrayList<IDPair>()
         for (i in 0 until set.size) {
             // Omit index of x itself

@@ -13,7 +13,7 @@ open class MobileCommArticle(
     ,
     val author : String?
 ) {
-    override fun toString(): String {
+    override fun toString() : String {
         return "$nrec, $mark, $author, $date , $title, $link"
     }
 

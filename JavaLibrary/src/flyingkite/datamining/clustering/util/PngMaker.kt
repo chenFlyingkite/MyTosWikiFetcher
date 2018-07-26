@@ -23,11 +23,11 @@ object PngMaker {
             , Color(128, 128,   0)
     )
 
-    fun getColorModed(i: Int): Color {
+    fun getColorModed(i: Int) : Color {
         return colors[i % colors.size]
     }
 
-    fun loadImage(f: File): BufferedImage? {
+    fun loadImage(f: File) : BufferedImage? {
         // Step : Load image by ImageIO
         var img: BufferedImage? = null
         try {
@@ -39,7 +39,7 @@ object PngMaker {
         return img
     }
 
-    fun _png(name: String): String {
+    fun _png(name: String) : String {
         if (!name.endsWith(".png")) {
             return "$name.png"
         }

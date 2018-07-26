@@ -43,7 +43,7 @@ object ClusterMain {
         cs.run()
     }
 
-    private fun get_1D(): List<Data> {
+    private fun get_1D() : List<Data> {
         val list = ArrayList<Data>()
         val s = arrayOf(1, 5, 3, 4, 2, 9, 10)
         for (i in s) {
@@ -55,7 +55,7 @@ object ClusterMain {
         return list
     }
 
-    private fun get_D2(): List<Data> {
+    private fun get_D2() : List<Data> {
         val list = ArrayList<Data>()
         val s = doubleArrayOf(1.05, 0.0, 1.1, 1.0, 1.2, 2.0, 1.3, 3.0, 1.4, 4.0, 1.5, 5.0, 1.6, 6.0)
         for (i in s) {
@@ -68,7 +68,7 @@ object ClusterMain {
     }
 
 
-    private fun get_DR(size: Int, min: Int = 0, max: Int = 20): List<Data> {
+    private fun get_DR(size: Int, min: Int = 0, max: Int = 20) : List<Data> {
         val list = ArrayList<Data>()
         val rm = Random()
         val rng = max - min
@@ -81,27 +81,27 @@ object ClusterMain {
 
     class Data(value: Double = 0.0) : Clusterable<Data>, CLClus<Data>, Comparable<Data> {
         var x = value
-        override fun distance(y: Data): Double {
+        override fun distance(y: Data) : Double {
             return Math.abs(x - y.x)
         }
 
-        override fun isSimilarTo(y: Data): Boolean {
+        override fun isSimilarTo(y: Data) : Boolean {
             return distance(y) < 1
         }
 
-        override fun toString(): String {
+        override fun toString() : String {
             return "$x"
         }
 
-        override fun copy(): Data {
+        override fun copy() : Data {
             return Data(x)
         }
 
-        override fun getDimension(): Int {
+        override fun getDimension() : Int {
             return 1
         }
 
-        override fun getXi(i: Int): Double {
+        override fun getXi(i: Int) : Double {
             return x
         }
 
@@ -109,7 +109,7 @@ object ClusterMain {
             x = xi
         }
 
-        override fun compareTo(other: Data): Int {
+        override fun compareTo(other: Data) : Int {
             return when {
                 x > other.x -> 1
                 x < other.x -> -1

@@ -6,6 +6,7 @@ import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
 import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
+import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
@@ -26,12 +27,14 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        boolean regl = true; // Regular
+        boolean regl = false; // Regular
         boolean parl = true; // Parallel
         // 神魔主頁內容
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);
         }
+        runParallel(false, TosCraftFetcher.me);
+        //runParallel(parl, TosEnemySkillFetcher.me);
         // 技能內容
         if (regl) {
             // 主動技

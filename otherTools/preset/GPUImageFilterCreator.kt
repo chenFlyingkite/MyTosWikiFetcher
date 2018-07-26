@@ -18,7 +18,7 @@ import kotlin.reflect.KFunction1
 import kotlin.reflect.KFunction2
 
 object GPUImageFilterCreator {
-    fun toGPUImageFilter(effect: EffectPdadj?): GPUImageFilter? {
+    fun toGPUImageFilter(effect: EffectPdadj?) : GPUImageFilter? {
         if (effect == null) return null
 
         val filter = GPUImageFilterGroup(false)
@@ -39,7 +39,7 @@ object GPUImageFilterCreator {
     // public class EffectXmlParser
     // package com.cyberlink.photodirector.kernelctrl.glviewengine
     //public class GPUImageFilterBuilder
-    fun getGPUImageFilter(params: Map<String, String>, version: String): GPUImageFilter? {
+    fun getGPUImageFilter(params: Map<String, String>, version: String) : GPUImageFilter? {
         val name = params["name"]
 
         when (version) {
@@ -181,7 +181,7 @@ object GPUImageFilterCreator {
     /**
      * [0.1, 0.2, 0.3] => float[]{0.1, 0.2, 0.3}
      */
-    private fun parseFloatArray(str: String?): FloatArray? {
+    private fun parseFloatArray(str: String?) : FloatArray? {
         if (str == null) {
             return null
         } else {

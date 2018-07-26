@@ -10,7 +10,7 @@ open class OriginalDimension (
     val height :Int = 0
 )
 {
-    override fun toString(): String {
+    override fun toString() : String {
         return "$width x $height"
     }
 }

@@ -293,6 +293,18 @@ public class TosWikiBaseFetcher implements Runnable {
         return msg;
     }
 
+    protected final String tag() {
+        return getClass().getSimpleName();
+    }
+
+    public <T> void printList(List<T> list, LF lg, String name) {
+        lg.log("%s %s", list.size(), name);
+        for (int i = 0; i < list.size(); i++) {
+            T a = list.get(i);
+            lg.log("%s", a);
+        }
+    }
+
 
     protected List<String> getTestLinks() {
         return new ArrayList<>();

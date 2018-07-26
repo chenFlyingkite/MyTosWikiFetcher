@@ -1,11 +1,14 @@
 package main.card
 
 import com.google.gson.annotations.SerializedName
+import flyingkite.log.L
 import flyingkite.tool.TextUtil
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
+import java.util.*
+import kotlin.collections.ArrayList
 
 class TosGet {
     companion object me {
@@ -15,7 +18,7 @@ class TosGet {
 
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
-        fun getImage(element: Element): String {
+        fun getImage(element: Element) : String {
             val imgs = getImageTag(element)
             val s = imgs?.size ?: 0
             if (s > 0) {
@@ -24,7 +27,7 @@ class TosGet {
             return ""
         }
 
-        fun getImageTag(element: Element): Elements? {
+        fun getImageTag(element: Element) : Elements? {
             val nos = element.getElementsByTag("noscript")
             val size = nos?.size ?: 0
             if (size > 0) {
@@ -34,7 +37,7 @@ class TosGet {
             return null
         }
 
-        fun getImgAlt(element: Element): String? {
+        fun getImgAlt(element: Element) : String? {
             val imgs = element.getElementsByTag("img")
             if (imgs.size > 0) {
                 return imgs[0].attr("alt")
@@ -42,7 +45,7 @@ class TosGet {
             return null
         }
 
-        fun getImgInfo2(element: Element?): ImageInfo2 {
+        fun getImgInfo2(element: Element?) : ImageInfo2 {
             val info = ImageInfo2()
             if (element != null) {
                 val imgs = getImageTag(element)
@@ -59,7 +62,7 @@ class TosGet {
             return info
         }
 
-        fun getTosMainInfo(element: Element?, wikiBase: String): HomeTable {
+        fun getTosMainInfo(element: Element?, wikiBase: String) : HomeTable {
             val homeTable = HomeTable()
             if (element == null) return homeTable
             val child = element.children()
@@ -116,7 +119,7 @@ class TosGet {
             return value
         }
 
-        fun getTosPageImageInfo(element: Element?): ImageInfo2? {
+        fun getTosPageImageInfo(element: Element?) : ImageInfo2? {
             if (element == null) {
                 return null
             } else {
@@ -134,7 +137,7 @@ class TosGet {
             }
         }
 
-        fun getTosPageEntryContent(doc: Document): String {
+        fun getTosPageEntryContent(doc: Document) : String {
             val info = ImageInfo2()
             val conts = doc.getElementsByClass("entry-content");
             val n = conts?.size ?: 0
@@ -145,15 +148,15 @@ class TosGet {
             return ""
         }
 
-        fun getHtml(element: Element): String {
+        fun getHtml(element: Element) : String {
             return element.html() ?: ""
         }
 
-        fun getHtmlAt(index: Int, elements: Elements): String {
+        fun getHtmlAt(index: Int, elements: Elements) : String {
             return elements.get(index)?.html() ?: ""
         }
 
-        fun getSummonerTable(index: Int, elements: Elements): TableInfo {
+        fun getSummonerTable(index: Int, elements: Elements) : TableInfo {
             val info = TableInfo()
             val no = index >= elements.size
             if (no) return info
@@ -161,7 +164,7 @@ class TosGet {
             return getSummonerTable(elements[index])
         }
 
-        fun getSummonerTable(element: Element): TableInfo {
+        fun getSummonerTable(element: Element) : TableInfo {
             val info = TableInfo()
 
             val ths = element.getElementsByTag("th")
@@ -176,7 +179,7 @@ class TosGet {
             return info
         }
 
-        fun getStageTable(element: Element): StageInfo {
+        fun getStageTable(element: Element) : StageInfo {
             val info = StageInfo()
 
             val ths = element.getElementsByTag("th")
@@ -216,7 +219,7 @@ class TosGet {
             return info
         }
 
-        fun getAmeSkillTable(es: Elements, baseWiki: String): List<SkillInfo> {
+        fun getAmeSkillTable(es: Elements, baseWiki: String) : List<SkillInfo> {
             val result = ArrayList<SkillInfo>()
             // Each table
             for (i in 0 until es.size) {
@@ -279,7 +282,7 @@ class TosGet {
             return result
         }
 
-        fun getActiveSkillTable(es: Elements, baseWiki: String): SkillInfo {
+        fun getActiveSkillTable(es: Elements, baseWiki: String) : SkillInfo {
             // Each table
             val ame = SkillInfo()
             val ei = es[0]
@@ -312,7 +315,7 @@ class TosGet {
          */
         fun getCardItems(e: Element?, baseWiki: String) : List<CardItem>  {
             val ans = ArrayList<CardItem>()
-            if (e == null) return emptyList()
+            if (e == null) return ans
 
             val s = e.getElementsByTag("a")
             for (item in s) {
@@ -339,7 +342,7 @@ class TosGet {
          */
         fun getLiAHref(e: Element?, baseWiki: String) : List<String>  {
             val ans = ArrayList<String>()
-            if (e == null) return emptyList()
+            if (e == null) return ans
 
             val s = e.getElementsByTag("li")
             for (item in s) {
@@ -358,9 +361,9 @@ class TosGet {
         /**
          * Fetch <a>'s item as skill
          */
-        fun getSkillItems(e: Element?, baseWiki: String) : List<EnemySkill>  {
+        fun getSkillItems(e: Element?, baseWiki: String) : List<EnemySkill> {
             val ans = ArrayList<EnemySkill>()
-            if (e == null) return emptyList()
+            if (e == null) return ans
 
             val s = e.getElementsByTag("td")
             val max = s.size / 3;
@@ -376,7 +379,7 @@ class TosGet {
                 for (axi in ax) {
                     if (axi.hasClass(imageClass)) {
                         val aimg = axi.child(0)
-                        val si = EnemySkillIcon()
+                        val si = SimpleIcon()
                         // For 1~3 icons, its data-src did not fill in content
                         // Need "https://vignette.wikia.nocookie.net/tos/images"...
                         si.iconLink = getVignette(aimg, "data-src", "src")
@@ -397,10 +400,11 @@ class TosGet {
             return ans
         }
 
-        fun getVignette(e: Element, vararg attrs: String): String {
+        fun getVignette(e: Element, vararg attrs: String) : String {
             var img = ""
             for (key in attrs) {
                 img = e.attr(key)
+                L.log("Vig = %s", img)
                 if (img.startsWith("https://vignette.wikia.nocookie.net/tos/images")) {
                     return img
                 }
@@ -408,11 +412,123 @@ class TosGet {
             return img
         }
 
-        fun getTdText(e: Element, index: Int): String {
+        /**
+         * Fetch <span>'s item as simple craft
+         */
+        fun getSimpleCraftItems(e: Element?, baseWiki: String) : List<SimpleCraft> {
+            val ans = ArrayList<SimpleCraft>()
+            if (e == null) return ans
+
+            val s = e.getElementsByTag("span")
+            val max = s.size;
+            for (i in 0 until max) {
+                val si = s[i];
+                if (si.hasClass("tt-text")) {
+                    val c = SimpleCraft()
+                    //c.name = si.attr("data-texttip").substringAfter("<br>")
+
+                    // Take the 1st <img> or we should use item.child(0).child(0) ?
+                    // <a><img/></a>
+                    val ax = si.getElementsByTag("a")
+                    if (ax.size == 0) continue
+                    val a = ax[0]
+                    val gx = si.getElementsByTag("img")
+                    if(gx.size == 0) continue
+                    val g = gx[0]
+                    c.name = a.attr("title")
+                    c.link = baseWiki + a.attr("href")
+                    //c.id = g.attr("alt")
+                    c.idNorm = normCraftId(g.attr("alt"))
+                    c.icon.iconLink = getVignette(g, "data-src", "src")
+                    c.icon.iconKey = g.attr("data-image-key")
+                    ans.add(c)
+                } else {
+
+                }
+            }
+            return ans
+        }
+
+        private fun normCraftId(s: String): String {
+            val beginC = s.startsWith("C")
+            if (beginC) {
+                return String.format(Locale.US, "%04d", s.substring(1).toInt())
+            } else{
+                return s
+            }
+        }
+
+        /**
+         * Fetch <span>'s item & simple craft as craft
+         */
+        fun getCraft(e: Element?, simple: SimpleCraft, baseWiki: String) : Craft {
+            val ans = Craft(simple)
+            if (e == null) return ans
+
+            val s = e.getElementsByTag("td")
+            val max = s.size;
+            val a = s[1].text().equals(ans.name)
+            ans.rarity = s[3].text().replace("★", "").trim().toInt()
+            ans.level = s[4].text().replace("Lv.", "", true).trim().toInt()
+            ans.attrLimit = s[5].text()
+            ans.raceLimit = s[6].text()
+            ans.mode = s[8].text()
+            ans.charge = s[9].text()
+            val index = getAnchors(s, "技能", "來源")
+            val skillN = (index[1] - index[0] - 1) / 2
+            for (i in 0 until skillN) {
+                val at = index[0] + 2 * i
+                val cs = CraftSkill()
+                cs.level = i + 1
+                cs.detail = s[at + 1].text()
+                cs.score = s[at + 2].text().substringAfter("：").toInt()
+                ans.craftSkill.add(cs)
+            }
+//            for (i in 0 until max) {
+//                val si = s[i];
+//                if (si.hasClass("tt-text")) {
+//                    val c = SimpleCraft()
+//                    //c.name = si.attr("data-texttip").substringAfter("<br>")
+//
+//                    // Take the 1st <img> or we should use item.child(0).child(0) ?
+//                    // <a><img/></a>
+//                    val ax = si.getElementsByTag("a")
+//                    if (ax.size == 0) continue
+//                    val a = ax[0]
+//                    val gx = si.getElementsByTag("img")
+//                    if(gx.size == 0) continue
+//                    val g = gx[0]
+//                    c.name = a.attr("title")
+//                    c.link = baseWiki + a.attr("href")
+//                    //c.id = g.attr("alt")
+//                    c.idNorm = normCraftId(g.attr("alt"))
+//                    c.icon.iconLink = g.attr("src")
+//                    c.icon.iconKey = g.attr("data-image-key")
+//                } else {
+//
+//                }
+//            }
+            return ans
+        }
+
+        private fun getAnchors(e: Elements, vararg s: String) : IntArray {
+            val ans = IntArray(s.size)
+            ans.fill(-1)
+            for (i in 0 until e.size) {
+                for (j in 0 until s.size) {
+                    if (ans[j] < 0 && s[j].equals(e[i].text())) {
+                        ans[j] = i
+                    }
+                }
+            }
+            return ans
+        }
+
+        fun getTdText(e: Element, index: Int) : String {
             return getTdElement(e, index)?.text() ?: ""
         }
 
-        fun getTdElement(e: Element, index: Int): Element? {
+        fun getTdElement(e: Element, index: Int) : Element? {
             val tds = e.getElementsByTag("td")
             val n = tds?.size ?: 0
             if (n > index) {
@@ -421,7 +537,7 @@ class TosGet {
             return null
         }
 
-        fun getSkill(ame: SkillInfo?, e: Element, baseWiki: String): SkillInfo {
+        fun getSkill(ame: SkillInfo?, e: Element, baseWiki: String) : SkillInfo {
             val r = ame ?: SkillInfo()
             val a = e.getElementsByTag("a")
             r.skillLink = baseWiki + a.attr("href")
@@ -434,7 +550,7 @@ class TosGet {
             return r
         }
 
-        fun getImageFileInfo(doc: Document, wikiBase: String): List<ImageFileInfo> {
+        fun getImageFileInfo(doc: Document, wikiBase: String) : List<ImageFileInfo> {
             val allInfo = ArrayList<ImageFileInfo>()
             val content = doc.getElementById("mw-content-text")
             if (content != null) {
@@ -464,7 +580,7 @@ class TosGet {
             return allInfo
         }
 
-        private fun isSameSize(vararg elements: Elements): Boolean {
+        private fun isSameSize(vararg elements: Elements) : Boolean {
             if (elements.size > 1) {
                 val n = elements[0].size
                 for (e in elements) {
@@ -478,7 +594,7 @@ class TosGet {
 
         // Extract for TosCard
         // http://zh.tos.wikia.com/wiki/001
-        fun getCardTds(element: Element): CardTds? {
+        fun getCardTds(element: Element) : CardTds? {
             val td2 = element.getElementsByTag("td")
 
             val result = CardTds()
@@ -567,7 +683,7 @@ class TosGet {
             return result
         }
 
-        fun getCardDetails(doc: Document): String {
+        fun getCardDetails(doc: Document) : String {
             //((Element) details.get(0).childNodes.get(4)).text()
             val details = doc.getElementsByClass("module move")
             val s1 = details?.size ?: 0
@@ -585,7 +701,7 @@ class TosGet {
             return ""
         }
 
-        fun getCardDetailsNormed(doc: Document): String {
+        fun getCardDetailsNormed(doc: Document) : String {
             var s = getCardDetails(doc)
             val oneLn = arrayOf("發動條件")
             val newLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊", "隊伍效果"
@@ -600,7 +716,7 @@ class TosGet {
             return s
         }
 
-        fun concatTextNodes(e: Element): String {
+        fun concatTextNodes(e: Element) : String {
             val nodes = e.childNodes()//e.textNodes()
             var s = ""
             nodes.forEachIndexed { i, node -> run {
@@ -623,7 +739,7 @@ class TosGet {
         }
 
         @Deprecated("Not handy")
-        fun getTr(element: Element): MutableList<String>? {
+        fun getTr(element: Element) : MutableList<String>? {
             val tbody = element.child(0)?.child(0)
             val chi = tbody?.children()
             val trs = ArrayList<Element>()
@@ -653,7 +769,7 @@ class TosGet {
 
         // Extract for icons
         // view-source:http://towerofsaviors.wikia.com/wiki/File:InvWater.png
-        fun getIcon(element: Element): IconInfo {
+        fun getIcon(element: Element) : IconInfo {
             val es = element.getElementsByClass("internal")
 
             val n = es.size
@@ -704,7 +820,7 @@ class SkillInfo {
     @SerializedName("skillMonsters")
     var monsters = ArrayList<String>() // of idNorm
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "$skillCDMin ~ $skillCDMax -> $skillName => $skillLink\n => $skillDesc\nmon = $monsters"
     }
 }
@@ -740,8 +856,8 @@ class HomeRow {
     }
 
     // Similar to td.text(), but we also takes the span node's title
-    fun txts(td: Element): String {
-        var sb = StringBuilder()
+    fun txts(td: Element) : String {
+        val sb = StringBuilder()
         for (cn in td.childNodes()) {
             if (cn is TextNode) {
                 sb.append(cn.text())
@@ -756,7 +872,7 @@ class HomeRow {
         return sb.toString().trim()
     }
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "$dateStart ~ $dateEnd -> ${asTexts()}\n  link = $link"
     }
 }
@@ -779,7 +895,7 @@ class ImageFileInfo {
     var uploader = ""
     var filename = ""
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "$uploader => $title => $filename => $wikiPage"
     }
 }
@@ -789,7 +905,7 @@ class CardItem {
     var id = ""
     var link = ""
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "#$id : $title -> $link"
     }
 }
@@ -811,22 +927,84 @@ class EnemySkill {
     @SerializedName("esCode")
     var esCode = "" // Enemy Skill code, like {{ES1}}
     @SerializedName("icons")
-    val icons = ArrayList<EnemySkillIcon>()
+    val icons = ArrayList<SimpleIcon>()
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "#$id  $esCode : [${icons.size}]  -> $name -> $detail -> $link"
     }
 }
 
-class EnemySkillIcon {
+class SimpleIcon {
     @SerializedName("iconLink")
     var iconLink = ""
 
     @SerializedName("iconKey")
     var iconKey = ""
-    override fun toString(): String {
+    override fun toString() : String {
         return "$iconKey $iconLink"
     }
+}
+
+open class SimpleCraft {
+    @SerializedName("idNorm")
+    var idNorm = "" // %4d
+    @SerializedName("name")
+    var name = ""
+    @SerializedName("link")
+    var link = ""
+    @SerializedName("icon")
+    var icon = SimpleIcon()
+
+    constructor()
+    constructor(a : SimpleCraft) {
+        name = a.name
+        link = a.link
+        icon = a.icon
+        idNorm = a.idNorm
+    }
+
+    override fun toString() : String {
+        return "#$idNorm : $name -> $link"
+    }
+}
+
+class Craft : SimpleCraft {
+    @SerializedName("rarity")
+    var rarity = 0 // 1, 2, 3
+    @SerializedName("level")
+    var level = 0
+    @SerializedName("attrLimit")
+    var attrLimit = ""
+    @SerializedName("raceLimit")
+    var raceLimit = ""
+    @SerializedName("mode")
+    var mode = ""
+    @SerializedName("charge")
+    var charge = ""
+    @SerializedName("craftSkill")
+    var craftSkill = ArrayList<CraftSkill>()
+
+    constructor()
+    constructor(a : SimpleCraft) : super(a) {
+    }
+
+    override fun toString(): String {
+        return "${super.toString()}\n $rarity★ Lv. $level\n $attrLimit $raceLimit\n $craftSkill"
+    }
+}
+
+class CraftSkill {
+    @SerializedName("level")
+    var level = 0
+    @SerializedName("score")
+    var score = 0
+    @SerializedName("detail")
+    var detail = ""
+
+    override fun toString(): String {
+        return "$level : $score -> $detail"
+    }
+
 }
 
 //

@@ -33,7 +33,7 @@ open class NewArticleResultSet (
     @SerializedName("title")
     val title :String = ""
 ) {
-    override fun toString(): String {
+    override fun toString() : String {
         return "#$id : $creation_date, ${creator}, $title, $url"
     }
 }

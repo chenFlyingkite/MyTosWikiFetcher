@@ -4,7 +4,7 @@ class IDPair(key: Int = 0, value: Double = 0.0) : Comparable<IDPair> {
     var k: Int = key
     var v: Double = value
 
-    override fun compareTo(other: IDPair): Int {
+    override fun compareTo(other: IDPair) : Int {
         return when {
             v < other.v -> -1
             v > other.v -> 1
@@ -14,7 +14,7 @@ class IDPair(key: Int = 0, value: Double = 0.0) : Comparable<IDPair> {
         }
     }
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "(%s, %.3f)".format(k, v)
     }
     //https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/types.html

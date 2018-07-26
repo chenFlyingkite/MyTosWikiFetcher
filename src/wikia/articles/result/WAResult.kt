@@ -15,7 +15,7 @@ open class WAResult<T> (
     @SerializedName("basepath")
     val basepath :String =""
 ) {
-    override fun toString(): String {
+    override fun toString() : String {
         return "${items.size} items based at $basepath"
     }
 }

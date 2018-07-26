@@ -32,11 +32,11 @@ open class UnexpandedArticle (
     val nameSpace: Int = 0
     */
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "(id = $id, title = $title, url = $url, ns = $nameSpace)"
     }
 
-    fun copy(): UnexpandedArticle {
+    fun copy() : UnexpandedArticle {
         return UnexpandedArticle(id, title, url, nameSpace)
     }
 }

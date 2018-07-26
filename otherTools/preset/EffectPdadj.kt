@@ -20,11 +20,11 @@ class EffectPdadj {
     @SerializedName("body")
     var body: List<Map<String, String>> = ArrayList<HashMap<String, String>>()
 
-    override fun toString(): String {
+    override fun toString() : String {
         return GsonBuilder().setPrettyPrinting().create().toJson(this)
     }
 
-    fun toGPUImageFilter(): GPUImageFilter? {
+    fun toGPUImageFilter() : GPUImageFilter? {
         return GPUImageFilterCreator.toGPUImageFilter(this)
     }
 }
@@ -36,7 +36,7 @@ class Extras {
     @SerializedName("minAppVersion")
     var minAppVersion = ""
 
-    override fun toString(): String {
+    override fun toString() : String {
         return GsonBuilder().setPrettyPrinting().create().toJson(this)
     }
 }

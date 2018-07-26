@@ -28,7 +28,7 @@ open class UnexpandedListArticleResultSet (
     val basePath: String? = null
     */
 
-    override fun toString(): String {
+    override fun toString() : String {
         val size = items?.size ?: "N/A"
 
         return "($size items, basePath = $basePath, offset = $offset)"
@@ -48,7 +48,7 @@ open class UnexpandedListArticleResultSet(
         private val basePath: String? = null
 ){
 
-    override fun toString(): String {
+    override fun toString() : String {
         val size = items?.size ?: "N/A"
         return "($size items, offset = $offset, basePath = $basePath)"
     }

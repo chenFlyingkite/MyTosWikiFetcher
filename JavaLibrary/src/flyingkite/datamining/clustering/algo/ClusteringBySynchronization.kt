@@ -38,7 +38,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
     private var allRange = 1.0
 
 
-    fun setDataSet(set: List<T>): ClusteringBySynchronization<T> {
+    fun setDataSet(set: List<T>) : ClusteringBySynchronization<T> {
         val x = ArrayList<T>()
         for (i in 0 until set.size) {
             x.add(set[i].copy())
@@ -117,7 +117,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
     }
 
     // This is SynC's core algorithm
-    private fun dynamicalClustering(): ClusterInfo {
+    private fun dynamicalClustering() : ClusterInfo {
         var done = false
         //log.log("t, cluster order = ${clusterOrderParameter()}")
         asPng("t", dataset, 0)
@@ -158,7 +158,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         return getClusters()
     }
 
-    private fun MinimunDescriptionLength(cinfo: ClusterInfo): Double {
+    private fun MinimunDescriptionLength(cinfo: ClusterInfo) : Double {
         // Summation of L(D, M) = L(M) + L(D|M)
         // where, d-dimension data as
         // K clusters, C_i = i-th cluster in dataset, i=1..K
@@ -210,7 +210,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
     }
 
     // f^^(x)
-    private fun evalF_head(x: T): Double {
+    private fun evalF_head(x: T) : Double {
         val N = dataset.size
         val d = x.getDimension()
 
@@ -227,7 +227,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         return fi / N
     }
 
-    private fun evalKDE(x: T, y: T, di: Int): Double {
+    private fun evalKDE(x: T, y: T, di: Int) : Double {
         val N = dataset.size
         val d = x.getDimension()
         val hi = 0.9 * Math.pow(N * 1.0, -1.0/(d+4))
@@ -236,7 +236,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         return one_sqtwoPi * Math.exp(- z * z / 2.0)
     }
 
-    private fun getClusters(): ClusterInfo {
+    private fun getClusters() : ClusterInfo {
         val NO_ID = -1
         val clusterIds = ArrayList<Int>()
         val clusterSizes = ArrayList<Int>()
@@ -268,7 +268,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         val clusterIds = cId
         val clusterSize = cSize
 
-        override fun toString(): String {
+        override fun toString() : String {
             return "size = $clusterSize, clusterIds = $clusterIds"
         }
     }
@@ -294,7 +294,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
     }
 
     // Eq. 7
-    private fun clusterOrderParameter(): Double {
+    private fun clusterOrderParameter() : Double {
         var n = 0
         var sum = 0.0
         for (i in 0 until dataset.size) {
@@ -327,7 +327,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
      *              if noAdd < 0, noAdd will not be in neighbor even if x in ε
      * @return neighbor
      */
-    private fun epsilonNeighborhood(x: T, noAdd: Int = -1): List<Int> {
+    private fun epsilonNeighborhood(x: T, noAdd: Int = -1) : List<Int> {
         val neighbor = ArrayList<Int>()
         for (i in 0 until dataset.size) {
             val y = dataset[i]
@@ -344,7 +344,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         return neighbor
     }
 
-    private fun getAvgKNNDistance(k: Int): Double {
+    private fun getAvgKNNDistance(k: Int) : Double {
         var n = 0
         var sum = 0.0
         for (i in 0 until dataset.size) {
@@ -359,7 +359,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
     }
 
     // xIndex : The index of object x, we will exclude it in result list
-    private fun KNearestNeighborhood(x: T, xIndex: Int, k: Int = 3): List<DataK> {
+    private fun KNearestNeighborhood(x: T, xIndex: Int, k: Int = 3) : List<DataK> {
         val knnIndices = ArrayList<DataK>()
         for (i in 0 until dataset.size) {
             if (i != xIndex) {
@@ -381,11 +381,11 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
         return knnIndices
     }
 
-    class DataK(i: Int = 0, dist: Double = 0.0): Comparable<DataK> {
+    class DataK(i: Int = 0, dist: Double = 0.0) : Comparable<DataK> {
         var k: Int = i
         var v: Double = dist
 
-        override fun compareTo(other: DataK): Int {
+        override fun compareTo(other: DataK) : Int {
             return when {
                 v < other.v -> -1
                 v > other.v -> 1
@@ -395,7 +395,7 @@ class ClusteringBySynchronization<T: Clusterable<T>> : Runnable {
             }
         }
 
-        override fun toString(): String {
+        override fun toString() : String {
             return "(%s, %.3f)".format(k, v)
         }
     }

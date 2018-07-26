@@ -4,7 +4,7 @@ import org.jsoup.select.Elements
 
 open class MobileCommGet {
     companion object me {
-        fun get(elements: Elements?): List<MobileCommArticle> {
+        fun get(elements: Elements?) : List<MobileCommArticle> {
             val list = ArrayList<MobileCommArticle>();
             if (elements != null) {
                 for (ei in elements) {

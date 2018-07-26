@@ -4,7 +4,7 @@ class IIPair(key: Int = 0, value: Int = 0) : Comparable<IIPair> {
     var k: Int = key
     var v: Int = value
 
-    override fun compareTo(other: IIPair): Int {
+    override fun compareTo(other: IIPair) : Int {
         return when {
             v < other.v -> -1
             v > other.v -> 1
@@ -14,7 +14,7 @@ class IIPair(key: Int = 0, value: Int = 0) : Comparable<IIPair> {
         }
     }
 
-    override fun toString(): String {
+    override fun toString() : String {
         return "(%s, %s)".format(k, v)
     }
 }
