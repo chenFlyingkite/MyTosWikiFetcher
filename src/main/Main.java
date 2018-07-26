@@ -1,7 +1,12 @@
 package main;
 
+import flyingkite.log.L;
+import flyingkite.tool.StringUtil;
+import flyingkite.tool.ThreadUtil;
+import flyingkite.tool.TicTac;
 import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
+import main.fetcher.TosEnemySkillFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
 import main.fetcher.TosWikiCardFetcher;
@@ -13,31 +18,35 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
-import flyingkite.log.L;
-import flyingkite.tool.StringUtil;
-import flyingkite.tool.TicTac;
+
+import java.util.concurrent.ExecutorService;
 
 public class Main {
     public static void main(String[] args) {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
+        boolean regl = true; // Regular
+        boolean parl = true; // Parallel
         // 神魔主頁內容
-        if (true) {
-            TosWikiHomeFetcher.me.run();
+        if (regl) {
+            runParallel(parl, TosWikiHomeFetcher.me);
         }
         // 技能內容
-        if (true) {
-            TosActiveSkillFetcher.me.run();
+        if (regl) {
+            // 主動技
+            runParallel(parl, TosActiveSkillFetcher.me);
+            // 敵人技能
+            runParallel(parl, TosEnemySkillFetcher.me);
         }
         // 維基動態
-        if (true) {
+        if (regl) {
             // 最近動態
-            TosWikiArticlesFetcher.me.run();
+            runParallel(parl, TosWikiArticlesFetcher.me);
         }
         // 卡片內容
         // TosAmeSkillFetcher > TosWikiCardFetcher > TosWikiCardsLister
-        if (true) {
+        if (regl) {
             TosAmeSkillFetcher.me.run();
             TosWikiCardFetcher.me.run(); // Need to be run after AmeSkill & Active Skill fetchers
             TosWikiCardsLister.me.run();
@@ -62,6 +71,16 @@ public class Main {
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
     }
 
+    private static void runParallel(boolean parallel, Runnable... rs) {
+        for (Runnable r : rs) {
+            if (parallel) {
+                cache.submit(r);
+            } else {
+                r.run();
+            }
+        }
+    }
+
 //    private static void parallel(Runnable... runs) {
 //        for (Runnable r : runs) {
 //            cache.submit(new Runnable() {
@@ -76,6 +95,7 @@ public class Main {
 //        }
 //    }
 //
-//    private static final ExecutorService cache = Executors.newCachedThreadPool();
+    private static final ExecutorService cache = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 10);
+    //Executors.newCachedThreadPool();
 
 }

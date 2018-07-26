@@ -67,13 +67,7 @@ public class TosActiveSkillFetcher extends TosWikiBaseFetcher {
         clock.tac("Active Skill OK");
 
         mLf.log("%s skills", skills.size());
-        SkillInfo[] ainfo = skills.toArray(new SkillInfo[skills.size()]);
-        String msg = mGson.toJson(ainfo, SkillInfo[].class);
-        mLfSkills.setLogToL(false);
-        mLfSkills.getFile().delete().open(false);
-        mLfSkills.log(msg);
-        mLfSkills.getFile().close();
-
+        writeAsGson(skills, mLfSkills);
         mLf.getFile().close();
     }
 

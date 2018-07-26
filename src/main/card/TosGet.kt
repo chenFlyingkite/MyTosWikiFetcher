@@ -1,15 +1,17 @@
 package main.card
 
 import com.google.gson.annotations.SerializedName
+import flyingkite.tool.TextUtil
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
-import flyingkite.tool.TextUtil
 
 class TosGet {
     companion object me {
         private val printTdHtml = false
+        private val zhLinkFile = "http://zh.tos.wikia.com/wiki/File:";
+        private val imageClass = "image image-thumbnail link-internal";
 
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
@@ -305,15 +307,18 @@ class TosGet {
             return ame
         }
 
+        /**
+         * Fetch <a>'s item as CardItem
+         */
         fun getCardItems(e: Element?, baseWiki: String) : List<CardItem>  {
             val ans = ArrayList<CardItem>()
             if (e == null) return emptyList()
 
             val s = e.getElementsByTag("a")
             for (item in s) {
-                //
-                val valid = item.hasClass("image image-thumbnail link-internal")
+                val valid = item.hasClass(imageClass)
                 if (valid) {
+                    // Start parse here
                     val c = CardItem()
                     c.link = baseWiki + item.attr("href")
                     c.title = item.attr("title")
@@ -329,7 +334,10 @@ class TosGet {
             return ans
         }
 
-        fun getCardGroup(e: Element?, baseWiki: String) : List<String>  {
+        /**
+         * Get the element's all <li><a href="/link"></li> -> baseWiki + "/link"
+         */
+        fun getLiAHref(e: Element?, baseWiki: String) : List<String>  {
             val ans = ArrayList<String>()
             if (e == null) return emptyList()
 
@@ -345,6 +353,59 @@ class TosGet {
                 }
             }
             return ans
+        }
+
+        /**
+         * Fetch <a>'s item as skill
+         */
+        fun getSkillItems(e: Element?, baseWiki: String) : List<EnemySkill>  {
+            val ans = ArrayList<EnemySkill>()
+            if (e == null) return emptyList()
+
+            val s = e.getElementsByTag("td")
+            val max = s.size / 3;
+            for (i in 0 until max) {
+                val c = EnemySkill()
+                var k = 3 * i;
+                // <td>1</td>
+                c.id = s[k].text()
+                // <td>{{ES1}}</td>
+                c.esCode = s[k + 2].text();
+
+                val ax = s[k + 1].getElementsByTag("a")
+                for (axi in ax) {
+                    if (axi.hasClass(imageClass)) {
+                        val aimg = axi.child(0)
+                        val si = EnemySkillIcon()
+                        // For 1~3 icons, its data-src did not fill in content
+                        // Need "https://vignette.wikia.nocookie.net/tos/images"...
+                        si.iconLink = getVignette(aimg, "data-src", "src")
+                        si.iconKey = aimg.attr("data-image-key")
+                        //si.iconKey = zhLinkFile + aimg.attr("data-image-key")
+                        c.icons.add(si)
+                    } else {
+                        if (c.name.isEmpty()) {
+                            c.name = axi.text()
+                            val des = axi.child(0).attr("data-texttip")
+                            c.detail = des.substringAfter("<br>")//.replace("<br>", "\n")
+                            c.link = baseWiki + axi.attr("href")
+                        }
+                    }
+                }
+                ans.add(c)
+            }
+            return ans
+        }
+
+        fun getVignette(e: Element, vararg attrs: String): String {
+            var img = ""
+            for (key in attrs) {
+                img = e.attr(key)
+                if (img.startsWith("https://vignette.wikia.nocookie.net/tos/images")) {
+                    return img
+                }
+            }
+            return img
         }
 
         fun getTdText(e: Element, index: Int): String {
@@ -491,7 +552,7 @@ class TosGet {
         fun getCardImagedLink(doc: Document) : List<IconInfo> {
             val result = ArrayList<IconInfo>()
             val monster = doc.getElementById("monster-data")
-            val imgs = monster?.getElementsByClass("image image-thumbnail link-internal")
+            val imgs = monster?.getElementsByClass(imageClass)
 
             val imgSize = imgs?.size ?: 0
             for (i in 0 until imgSize) {
@@ -662,6 +723,7 @@ class HomeTable {
         //return TextUtil.isEmpty(link) && TextUtil.isEmpty(imageName)
     }
 }
+
 class HomeRow {
     var dateStart :Long = 0
     var dateEnd :Long = 0
@@ -729,6 +791,41 @@ class CardItem {
 
     override fun toString(): String {
         return "#$id : $title -> $link"
+    }
+}
+
+/**
+ * Item in 關卡敵人技能/1-500
+ *
+ * view-source:http://zh.tos.wikia.com/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1-500
+ */
+class EnemySkill {
+    @SerializedName("id")
+    var id = ""
+    @SerializedName("link")
+    var link = "" // Enemy skill link
+    @SerializedName("name")
+    var name = ""
+    @SerializedName("detail")
+    var detail = ""
+    @SerializedName("esCode")
+    var esCode = "" // Enemy Skill code, like {{ES1}}
+    @SerializedName("icons")
+    val icons = ArrayList<EnemySkillIcon>()
+
+    override fun toString(): String {
+        return "#$id  $esCode : [${icons.size}]  -> $name -> $detail -> $link"
+    }
+}
+
+class EnemySkillIcon {
+    @SerializedName("iconLink")
+    var iconLink = ""
+
+    @SerializedName("iconKey")
+    var iconKey = ""
+    override fun toString(): String {
+        return "$iconKey $iconLink"
     }
 }
 

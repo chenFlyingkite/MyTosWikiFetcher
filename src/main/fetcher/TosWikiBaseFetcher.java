@@ -282,6 +282,17 @@ public class TosWikiBaseFetcher implements Runnable {
         };
     }
 
+    protected <T> String writeAsGson(T array, LF lg) {
+        // Convert to String
+        String msg = mGson.toJson(array, array.getClass());
+        // Write to file
+        lg.setLogToL(false);
+        lg.getFile().open(false);
+        lg.log(msg);
+        lg.getFile().close();
+        return msg;
+    }
+
 
     protected List<String> getTestLinks() {
         return new ArrayList<>();

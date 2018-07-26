@@ -191,7 +191,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lfc.getFile().close();
         LfPage.getFile().close();
 
-        writeToJson(LfCard, cardsNoDup);
+        saveCardsToGson(LfCard, cardsNoDup);
     }
 
     @Deprecated
@@ -270,7 +270,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         Lf.getFile().close();
     }
 
-    private void writeToJson(LF f, List<TosCard> cardList) {
+    private void saveCardsToGson(LF f, List<TosCard> cardList) {
         TicTac2 clk = new TicTac2();
         f.setLogToL(false);
         cardList.sort((c1, c2) -> {
@@ -280,17 +280,13 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         });
 
         // Step 1: Write cardList to json file
-        f.getFile().delete().open();
-        TosCard[] arr = cardList.toArray(new TosCard[cardList.size()]);
         clk.tic();
-        String json = mGson.toJson(arr, TosCard[].class);
-        clk.tac("%s cards written", arr.length);
-        f.log(json);
-        f.getFile().close();
+        String msg = writeAsGson(cardList, f);
+        clk.tac("%s cards written", cardList.size());
 
         // Step 2: Try to parsing back to know its performance
         clk.tic();
-        TosCard[] cardA = mGson.fromJson(json, TosCard[].class);
+        TosCard[] cardA = mGson.fromJson(msg, TosCard[].class);
         clk.tac("%s cards parsed back", cardA.length);
     }
 
