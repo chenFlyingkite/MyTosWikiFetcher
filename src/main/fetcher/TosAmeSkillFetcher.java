@@ -33,7 +33,7 @@ public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
         clock.tic();
         fetchedActive = getTables(activeSkills, mAmeAct);
         fetchedLeader = getTables(leaderSkills, mAmeLdr);
-        clock.tac("Amelioration Skills OK");
+        clock.tac("Amelioration Skills OK Done %s", tag());
 
         mLf.getFile().close();
     }

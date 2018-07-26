@@ -64,7 +64,7 @@ public class TosActiveSkillFetcher extends TosWikiBaseFetcher {
             }
         }
 
-        clock.tac("Active Skill OK");
+        clock.tac("Active Skill Done %s", tag());
 
         mLf.log("%s skills", skills.size());
         writeAsGson(skills, mLfSkills);

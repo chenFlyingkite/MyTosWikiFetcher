@@ -27,7 +27,7 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        boolean regl = false; // Regular
+        boolean regl = true; // Regular
         boolean parl = true; // Parallel
         // 神魔主頁內容
         if (regl) {
@@ -39,11 +39,9 @@ public class Main {
             runParallel(parl, TosActiveSkillFetcher.me);
             // 敵人技能
             runParallel(parl, TosEnemySkillFetcher.me);
-            //
-            runParallel(false, TosCraftFetcher.me);
+            // 龍刻
+            runParallel(parl, TosCraftFetcher.me);
         }
-        runParallel(parl, TosEnemySkillFetcher.me);
-        runParallel(false, TosCraftFetcher.me);
         // 維基動態
         if (regl) {
             // 最近動態
@@ -100,7 +98,9 @@ public class Main {
 //        }
 //    }
 //
-    private static final ExecutorService cache = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 10);
+    private static final ExecutorService cache
+    //    = Executors.newCachedThreadPool();
+        = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 10);
     //Executors.newCachedThreadPool();
 
 }

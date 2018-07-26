@@ -39,7 +39,7 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
         // Fetch armed crafts
         loadAllCrafts(craftArmPage, mArmLite, mArmCraft);
 
-        clock.tac("%s Done", tag());
+        clock.tac("Crafts & Armed craft OK Done %s", tag());
         mLf.getFile().close();
     }
 

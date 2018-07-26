@@ -48,7 +48,7 @@ public class TosEnemySkillFetcher extends TosWikiBaseFetcher {
         clock.tac("Fetched %s Enemy Skills", n);
         clock.tic();
         writeAsGson(allItems, mEsj);
-        clock.tac("%s Enemy skill written", n);
+        clock.tac("%s Enemy skill written Done OK %s", n, tag());
         mLf.getFile().close();
     }
 

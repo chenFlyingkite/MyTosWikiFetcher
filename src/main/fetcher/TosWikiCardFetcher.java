@@ -192,6 +192,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         LfPage.getFile().close();
 
         saveCardsToGson(LfCard, cardsNoDup);
+        L.log("Tos Card OK Done %s", tag());
     }
 
     @Deprecated
