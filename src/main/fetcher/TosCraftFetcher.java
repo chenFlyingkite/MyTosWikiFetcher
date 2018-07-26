@@ -18,6 +18,8 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
     private LF mLf = new LF(folder);
     private LF mLite = new LF(folder, "craftLite.json");
     private LF mCraft = new LF(folder, "crafts.json");
+    private LF mArmLite = new LF(folder, "armCraftLite.json");
+    private LF mArmCraft = new LF(folder, "armCrafts.json");
     // 龍刻圖鑒
     private static final String craftPage = "http://zh.tos.wikia.com/wiki/%E9%BE%8D%E5%88%BB%E5%9C%96%E9%91%92";
     // 龍刻武裝圖鑒
@@ -28,16 +30,35 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
         mLf.getFile().open(false);
         clock.tic();
         // Start here
+        List<SimpleCraft> lite;
+        List<Craft> craft;
 
-        List<SimpleCraft> lite = getSimpleCraft(craftPage);
-        mLf.log("%s crafts in page", lite.size());
-        writeAsGson(lite, mLite);
-        List<Craft> crafts = getCraft(lite);
-        printList(crafts, mLf, "crafts");
-        writeAsGson(crafts, mCraft);
+        // Fetch normal crafts
+        loadAllCrafts(craftPage, mLite, mCraft);
+
+        // Fetch armed crafts
+        loadAllCrafts(craftArmPage, mArmLite, mArmCraft);
 
         clock.tac("%s Done", tag());
         mLf.getFile().close();
+    }
+
+    private List<Craft> loadAllCrafts(String page, LF lfLite, LF lfFull) {
+        return loadCrafts(loadSimpleCraft(page, lfLite), lfFull);
+    }
+
+    private List<SimpleCraft> loadSimpleCraft(String page, LF lfLite) {
+        List<SimpleCraft> lite = getSimpleCraft(page);
+        mLf.log("%s crafts in page %s", lite.size(), page);
+        writeAsGson(lite, lfLite);
+        return lite;
+    }
+
+    private List<Craft> loadCrafts(List<SimpleCraft> lite, LF lfFull) {
+        List<Craft> crafts = getCraft(lite);
+        printList(crafts, mLf, "crafts");
+        writeAsGson(crafts, lfFull);
+        return crafts;
     }
 
     private List<SimpleCraft> getSimpleCraft(String link) {

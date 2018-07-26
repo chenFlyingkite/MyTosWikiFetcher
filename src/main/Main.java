@@ -33,15 +33,17 @@ public class Main {
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);
         }
-        runParallel(false, TosCraftFetcher.me);
-        //runParallel(parl, TosEnemySkillFetcher.me);
         // 技能內容
         if (regl) {
             // 主動技
             runParallel(parl, TosActiveSkillFetcher.me);
             // 敵人技能
             runParallel(parl, TosEnemySkillFetcher.me);
+            //
+            runParallel(false, TosCraftFetcher.me);
         }
+        runParallel(parl, TosEnemySkillFetcher.me);
+        runParallel(false, TosCraftFetcher.me);
         // 維基動態
         if (regl) {
             // 最近動態

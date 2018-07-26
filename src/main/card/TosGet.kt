@@ -1,7 +1,7 @@
 package main.card
 
 import com.google.gson.annotations.SerializedName
-import flyingkite.log.L
+import flyingkite.functional.MeetSS
 import flyingkite.tool.TextUtil
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
@@ -266,7 +266,7 @@ class TosGet {
                             val nch = child?.size ?: 0
                             for (m in 0 until nch) {
                                 if (child[m] is Element) {
-                                    val s = TosCardCreator.me.normEvoId(getImgAlt(child[m]))
+                                    val s = normEvoId(getImgAlt(child[m]))
                                     if (!TextUtil.isEmpty(s)) {
                                         ame.monsters.add(s)
                                     }
@@ -281,6 +281,7 @@ class TosGet {
             }
             return result
         }
+
 
         fun getActiveSkillTable(es: Elements, baseWiki: String) : SkillInfo {
             // Each table
@@ -299,7 +300,7 @@ class TosGet {
                 val end = nTr - 1
                 val td0 = getTdElement(itemTrs[end], 0)
                 if (td0 != null) {
-                    val s = TosCardCreator.me.normEvoId(getImgAlt(td0))
+                    val s = normEvoId(getImgAlt(td0))
                     if (!TextUtil.isEmpty(s)) {
                         ame.monsters.add(s)
                     }
@@ -329,7 +330,7 @@ class TosGet {
                     val n = item.children()?.size ?: 0
                     if (n > 0) {
                         val img = item.child(0)
-                        c.id = TosCardCreator.me.normEvoId(img.attr("alt"))
+                        c.id = normEvoId(img.attr("alt"))
                     }
                     ans.add(c)
                 }
@@ -404,7 +405,6 @@ class TosGet {
             var img = ""
             for (key in attrs) {
                 img = e.attr(key)
-                L.log("Vig = %s", img)
                 if (img.startsWith("https://vignette.wikia.nocookie.net/tos/images")) {
                     return img
                 }
@@ -449,6 +449,17 @@ class TosGet {
             return ans
         }
 
+
+        private fun normEvoId(s: String?): String {
+            val endI = s != null && s.endsWith("i")
+            if (endI && s != null) {
+                // Parse "12i" to "0012"
+                return String.format(Locale.US, "%04d", s.substring(0, s.length - 1).toInt())
+            } else {
+                return s ?: ""
+            }
+        }
+
         private fun normCraftId(s: String): String {
             val beginC = s.startsWith("C")
             if (beginC) {
@@ -462,6 +473,78 @@ class TosGet {
          * Fetch <span>'s item & simple craft as craft
          */
         fun getCraft(e: Element?, simple: SimpleCraft, baseWiki: String) : Craft {
+            val ans = Craft(simple)
+            if (e == null) return ans
+
+            val s = e.getElementsByTag("td")
+            val isArm = isArmCraft(e)
+            if (isArm) {
+                ans.rarity = s[3].text().replace("★", "").trim().toInt()
+                ans.level = s[4].text().replace("Lv.", "", true).trim().toInt()
+                ans.mode = s[7].text()
+                ans.charge = s[8].text()
+
+                // find card limit
+                val cl = s[5].getElementsByTag("a")
+                for (c in cl) {
+                    val ci = getImageTag(c) // i-th card
+                    val cn = ci?.size ?: 0
+                    if (ci != null && cn > 0) {
+                        ans.cardLimit.add(normEvoId(ci[0].attr("alt")))
+                    }
+                }
+
+                val anx = getAnchors(s, "技能", "能力提升")
+                var up = anx[0]
+                if (up >= 0) {
+                    for (i in anx[0] + 1 until anx[1]) {
+                        val cs = CraftSkill()
+                        cs.level = i - anx[0]
+                        cs.detail = s[i].text()
+                        ans.craftSkill.add(cs)
+                    }
+                }
+
+                up = anx[1]
+                if (up >= 0) {
+                    ans.upHp = s[up + 1].text()
+                    ans.upAttack = s[up + 2].text()
+                    ans.upRecovery = s[up + 3].text()
+                }
+            } else {
+                ans.rarity = s[3].text().replace("★", "").trim().toInt()
+                ans.level = s[4].text().replace("Lv.", "", true).trim().toInt()
+                ans.attrLimit = s[5].text()
+                ans.raceLimit = s[6].text()
+                ans.mode = s[8].text()
+                ans.charge = s[9].text()
+                val index = getAnchors(s, "技能", "來源")
+                val skillN = (index[1] - index[0] - 1) / 2
+                for (i in 0 until skillN) {
+                    val at = index[0] + 2 * i
+                    val cs = CraftSkill()
+                    cs.level = i + 1
+                    cs.detail = s[at + 1].text()
+                    cs.score = s[at + 2].text().substringAfter("：").toInt()
+                    ans.craftSkill.add(cs)
+                }
+            }
+            return ans
+        }
+
+        private fun isArmCraft(e: Element) : Boolean {
+            val s = e.getElementsByTag("th")
+            val a = getAnchorsContain(s
+                    , "卡片 限制", "生命力", "攻擊力", "回復力"
+                    , "能力提升", "屬性 限制", "種族 限制")
+            var isArm = a[0] >= 0 || a[1] >= 0 || a[2] >= 0 || a[3] >= 0
+            return isArm
+        }
+
+        /**
+         * Fetch <span>'s item & simple craft as craft
+         */
+        fun getArmCraft(e: Element?, simple: SimpleCraft, baseWiki: String) : Craft {
             val ans = Craft(simple)
             if (e == null) return ans
 
@@ -484,39 +567,48 @@ class TosGet {
                 cs.score = s[at + 2].text().substringAfter("：").toInt()
                 ans.craftSkill.add(cs)
             }
-//            for (i in 0 until max) {
-//                val si = s[i];
-//                if (si.hasClass("tt-text")) {
-//                    val c = SimpleCraft()
-//                    //c.name = si.attr("data-texttip").substringAfter("<br>")
-//
-//                    // Take the 1st <img> or we should use item.child(0).child(0) ?
-//                    // <a><img/></a>
-//                    val ax = si.getElementsByTag("a")
-//                    if (ax.size == 0) continue
-//                    val a = ax[0]
-//                    val gx = si.getElementsByTag("img")
-//                    if(gx.size == 0) continue
-//                    val g = gx[0]
-//                    c.name = a.attr("title")
-//                    c.link = baseWiki + a.attr("href")
-//                    //c.id = g.attr("alt")
-//                    c.idNorm = normCraftId(g.attr("alt"))
-//                    c.icon.iconLink = g.attr("src")
-//                    c.icon.iconKey = g.attr("data-image-key")
-//                } else {
-//
-//                }
-//            }
             return ans
         }
 
+        private fun getAnchorsContain(e: Elements, vararg s: String) : IntArray {
+            return getAnchorsMeet(strContain, e, *s);
+        }
+
         private fun getAnchors(e: Elements, vararg s: String) : IntArray {
+            return getAnchorsMeet(strEqual, e, *s);
+        }
+
+
+        private val strEqual = object : MeetSS<String, Boolean> {
+            override fun meet(a: String?, b: String?): Boolean {
+                if (a == null) {
+                    return b == null
+                } else {
+                    return a.equals(b)
+                }
+            }
+        }
+
+        private val strContain = object : MeetSS<String, Boolean> {
+            override fun meet(a: String?, b: String?): Boolean {
+                if (a == null) {
+                    return b == null
+                } else {
+                    if (b == null) {
+                        return false
+                    } else {
+                        return a.contains(b)
+                    }
+                }
+            }
+        }
+
+        private fun getAnchorsMeet(f: MeetSS<String, Boolean>, e: Elements, vararg s: String) : IntArray {
             val ans = IntArray(s.size)
             ans.fill(-1)
             for (i in 0 until e.size) {
                 for (j in 0 until s.size) {
-                    if (ans[j] < 0 && s[j].equals(e[i].text())) {
+                    if (ans[j] < 0 && f.meet(e[i].text(), s[j])) {
                         ans[j] = i
                     }
                 }
@@ -969,14 +1061,11 @@ open class SimpleCraft {
 }
 
 class Craft : SimpleCraft {
+    // Both have
     @SerializedName("rarity")
     var rarity = 0 // 1, 2, 3
     @SerializedName("level")
     var level = 0
-    @SerializedName("attrLimit")
-    var attrLimit = ""
-    @SerializedName("raceLimit")
-    var raceLimit = ""
     @SerializedName("mode")
     var mode = ""
     @SerializedName("charge")
@@ -984,12 +1073,31 @@ class Craft : SimpleCraft {
     @SerializedName("craftSkill")
     var craftSkill = ArrayList<CraftSkill>()
 
+    //-- For Common
+    @SerializedName("attrLimit")
+    var attrLimit = ""
+    @SerializedName("raceLimit")
+    var raceLimit = ""
+
+    //-- For Arm
+    @SerializedName("cardLimit")
+    var cardLimit = ArrayList<String>()
+    @SerializedName("upHp")
+    var upHp = ""
+    @SerializedName("upAttack")
+    var upAttack = ""
+    @SerializedName("upRecovery")
+    var upRecovery = ""
+
     constructor()
     constructor(a : SimpleCraft) : super(a) {
     }
 
     override fun toString(): String {
-        return "${super.toString()}\n $rarity★ Lv. $level\n $attrLimit $raceLimit\n $craftSkill"
+        return "${super.toString()}\n" +
+                "$rarity★ Lv. $level $upHp $upAttack $upRecovery $mode $charge\n" +
+                "$cardLimit $attrLimit $raceLimit\n" +
+                "$craftSkill"
     }
 }
 
@@ -1004,7 +1112,6 @@ class CraftSkill {
     override fun toString(): String {
         return "$level : $score -> $detail"
     }
-
 }
 
 //
