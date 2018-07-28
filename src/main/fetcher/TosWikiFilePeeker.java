@@ -1,6 +1,6 @@
 package main.fetcher;
 
-import main.card.TosGet;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import flyingkite.log.L;

@@ -361,11 +361,11 @@
     ]
   },
   {
-    "skillName": "玄虛幻變 ‧ 木",
-    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E6%9C%A8",
+    "skillName": "玄虛幻變 ‧ 木葉",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E6%9C%A8%E8%91%89",
     "skillCDMin": 15,
     "skillCDMax": 6,
-    "skillDesc": "1 回合內，木屬性攻擊力 1.5 倍；並將移動符石時觸碰的首 6 粒符石轉化為木符石",
+    "skillDesc": "1 回合內，木屬性攻擊力 1.5 倍；並將移動符石時觸碰的首 6 粒符石轉化為木強化符石",
     "skillMonsters": [
       "1203"
     ]

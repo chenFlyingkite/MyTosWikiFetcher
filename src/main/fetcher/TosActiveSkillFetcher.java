@@ -1,23 +1,29 @@
 package main.fetcher;
 
-import main.card.SkillInfo;
-import main.card.TosGet;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 import flyingkite.data.Range;
 import flyingkite.log.LF;
+import flyingkite.tool.GsonUtil;
+import main.card.Skill;
+import main.kt.SkillInfo;
+import main.kt.TosGet;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class TosActiveSkillFetcher extends TosWikiBaseFetcher {
     private TosActiveSkillFetcher() {}
     public static final TosActiveSkillFetcher me = new TosActiveSkillFetcher();
     private static final String folder = "myActSkill";
     private LF mLf = new LF(folder);
-    private LF mLfSkills = new LF(folder, "actSkills");
+    private LF mLfSkills = new LF(folder, "actSkills.json");
     private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E4%B8%BB%E5%8B%95%E6%8A%80";
+    private static List<SkillInfo> allActives = new ArrayList<>();
+    private File outJson = mLfSkills.getFile().getFile();
 
     @Override
     public String getAPILink() {
@@ -65,6 +71,7 @@ public class TosActiveSkillFetcher extends TosWikiBaseFetcher {
         }
 
         clock.tac("Active Skill Done %s", tag());
+        allActives = skills;
 
         mLf.log("%s skills", skills.size());
         writeAsGson(skills, mLfSkills);
@@ -75,5 +82,10 @@ public class TosActiveSkillFetcher extends TosWikiBaseFetcher {
         Elements main = doc.getElementsByClass("wikitable");
         if (main == null) return null;
         return TosGet.me.getActiveSkillTable(main, wikiBaseZh);
+    }
+
+    public Map<String, List<Skill>> getActiveSkills() {
+        SkillInfo[] list = GsonUtil.loadFile(outJson, SkillInfo[].class);
+        return TosAmeSkillFetcher.getAllSkills(Arrays.asList(list));
     }
 }

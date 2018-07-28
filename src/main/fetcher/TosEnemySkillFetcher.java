@@ -1,8 +1,8 @@
 package main.fetcher;
 
 import flyingkite.log.LF;
-import main.card.EnemySkill;
-import main.card.TosGet;
+import main.kt.EnemySkill;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 

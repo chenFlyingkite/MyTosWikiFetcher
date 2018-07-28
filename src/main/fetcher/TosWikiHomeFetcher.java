@@ -1,8 +1,8 @@
 package main.fetcher;
 
-import main.card.HomeRow;
-import main.card.HomeTable;
-import main.card.TosGet;
+import main.kt.HomeRow;
+import main.kt.HomeTable;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import flyingkite.log.LF;

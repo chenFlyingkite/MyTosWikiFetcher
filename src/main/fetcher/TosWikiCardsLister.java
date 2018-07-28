@@ -1,8 +1,8 @@
 package main.fetcher;
 
-import main.card.CardItem;
+import main.kt.CardItem;
 import main.card.TosCard;
-import main.card.TosGet;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import flyingkite.log.LF;
@@ -17,8 +17,10 @@ import java.util.Set;
 public class TosWikiCardsLister extends TosWikiBaseFetcher {
     private TosWikiCardsLister() {}
     public static final TosWikiCardsLister me = new TosWikiCardsLister();
-    private static final String folder = "mydata";
-    private LF mLf = new LF(folder, "log_lister.txt");
+    private static final String folder = "myCard";
+    private LF mLf = new LF(folder, "log_links.txt");
+    private LF mLfLink = new LF(folder, "links.txt");
+    public String VALAID_LINKS = mLfLink.getFile().getFile().toString();
 
     // /wiki/圖鑑
     private static final String tosCardLists = "http://zh.tos.wikia.com/wiki/%E5%9C%96%E9%91%92";
@@ -45,9 +47,32 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
                 }
             }
         }
-        mLf.log("Total %s cards in 圖鑑", n);
-        findMissingCard(allItems);
+        mLf.log("%s cards in 圖鑑", n);
+        allItems = removeInvalidCards(allItems);
+        mLf.log("%s cards is 有效", allItems.size());
+        CardItem[] a = allItems.toArray(new CardItem[0]);
+        GsonUtil.writeFile(mLfLink.getFile().getFile(), mGson.toJson(a, CardItem[].class));
         mLf.getFile().close();
+    }
+
+    private List<CardItem> removeInvalidCards(List<CardItem> allItems) {
+        // #6024 : S24 Terry(造型) -> http://zh.tos.wikia.com/wiki/Terry(%E9%80%A0%E5%9E%8B)
+        // #6025 : S25 Terence(造型) -> http://zh.tos.wikia.com/wiki/Terence(%E9%80%A0%E5%9E%8B)
+        String[] ids = {"6024", "6025"};
+
+        List<CardItem> ans = new ArrayList<>();
+        for (CardItem c : allItems) {
+            boolean valid = true;
+            for (int i = 0; i < ids.length; i++) {
+                if (c.getId().equals(ids[i])) {
+                    valid = false;
+                }
+            }
+            if (valid) {
+                ans.add(c);
+            }
+        }
+        return ans;
     }
 
     private List<String> getCardGroups() {
@@ -64,6 +89,7 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
         return TosGet.me.getCardItems(main, wikiBaseZh);
     }
 
+    @Deprecated
     private void findMissingCard(List<CardItem> ids) {
         TosCard[] allCards = GsonUtil.load(IOUtil.getReader(TOS_ALL_CARD), TosCard[].class);
         Set<String> normIds = new HashSet<>();

@@ -35,16 +35,25 @@ public class ASD {
         //getPlusMinus();
         //getMissions();
         //getNums();
-        getActiveIcons();
+        //getActiveIcons();
         //getMonsterEat();
         //getPrizeIcons();
         //getCrop();
         //new RunInvokeMethod().run();
         //Jsoner.json();
+        getCrafts();
         tt.tac("Done");
     }
 
-
+    private static void getCrafts() {
+        Rect2 r;
+        // Normal crafts
+        r = Rect2.atLTWH(70, 1970, 340, 340);
+        getImageR("crafts", "Screenshot_20180727-140815.png", r, "1");
+        // Armed crafts,
+        r = Rect2.atLTWH(70, 2390, 340, 340);
+        getImageR("crafts", "Screenshot_20180727-140815.png", r, "2");
+    }
 
     private static class RunInvokeMethod implements Runnable {
 

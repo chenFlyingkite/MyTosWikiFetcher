@@ -294,5 +294,5 @@ public class TosCard {
 
     /** Skill change contents */
     @SerializedName(TC.skillChange)
-    public List<Skill> skillChange = new ArrayList<>();
+    public List<SkillLite> skillChange = new ArrayList<>();
 }

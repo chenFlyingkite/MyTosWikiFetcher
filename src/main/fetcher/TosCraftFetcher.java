@@ -1,9 +1,9 @@
 package main.fetcher;
 
 import flyingkite.log.LF;
-import main.card.Craft;
-import main.card.SimpleCraft;
-import main.card.TosGet;
+import main.kt.Craft;
+import main.kt.SimpleCraft;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;

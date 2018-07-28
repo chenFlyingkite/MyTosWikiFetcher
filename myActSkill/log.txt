@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E4%B8%BB%E5%8B%95%E6%8A%80
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E4%B8%BB%E5%8B%95%E6%8A%80}
-from gson, (1146 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (1150 items, basePath = http://zh.tos.wikia.com, offset = null)
 MAX 版 禁千貳百拾壹式 ‧ 八稚女 => http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX 版 裏百八式 ‧ 大蛇薙 => http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX 版 超必殺忍蜂 => http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -478,6 +478,7 @@ V 字殺手 => http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 毒害 => http://zh.tos.wikia.com/wiki/%E6%AF%92%E5%AE%B3
 毒水之泉 => http://zh.tos.wikia.com/wiki/%E6%AF%92%E6%B0%B4%E4%B9%8B%E6%B3%89
 氣燄迫人 => http://zh.tos.wikia.com/wiki/%E6%B0%A3%E7%87%84%E8%BF%AB%E4%BA%BA
+氣鋼鬥衣 => http://zh.tos.wikia.com/wiki/%E6%B0%A3%E9%8B%BC%E9%AC%A5%E8%A1%A3
 水之仙女 => http://zh.tos.wikia.com/wiki/%E6%B0%B4%E4%B9%8B%E4%BB%99%E5%A5%B3
 水之活靈 => http://zh.tos.wikia.com/wiki/%E6%B0%B4%E4%B9%8B%E6%B4%BB%E9%9D%88
 水之流 => http://zh.tos.wikia.com/wiki/%E6%B0%B4%E4%B9%8B%E6%B5%81
@@ -929,6 +930,9 @@ V 字殺手 => http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 血肉相搏 => http://zh.tos.wikia.com/wiki/%E8%A1%80%E8%82%89%E7%9B%B8%E6%90%8F
 血魔法咒 ‧ 光 => http://zh.tos.wikia.com/wiki/%E8%A1%80%E9%AD%94%E6%B3%95%E5%92%92_%E2%80%A7_%E5%85%89
 血魔法咒 ‧ 木 => http://zh.tos.wikia.com/wiki/%E8%A1%80%E9%AD%94%E6%B3%95%E5%92%92_%E2%80%A7_%E6%9C%A8
+裂破風陣拳 => http://zh.tos.wikia.com/wiki/%E8%A3%82%E7%A0%B4%E9%A2%A8%E9%99%A3%E6%8B%B3
+裂蹴紅球波 => http://zh.tos.wikia.com/wiki/%E8%A3%82%E8%B9%B4%E7%B4%85%E7%90%83%E6%B3%A2
+裂蹴紫炎彈 => http://zh.tos.wikia.com/wiki/%E8%A3%82%E8%B9%B4%E7%B4%AB%E7%82%8E%E5%BD%88
 裏百八式 ‧ 八酒杯 => http://zh.tos.wikia.com/wiki/%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%85%AB%E9%85%92%E6%9D%AF
 裏面八拾五活 ‧ 零技之礎 => http://zh.tos.wikia.com/wiki/%E8%A3%8F%E9%9D%A2%E5%85%AB%E6%8B%BE%E4%BA%94%E6%B4%BB_%E2%80%A7_%E9%9B%B6%E6%8A%80%E4%B9%8B%E7%A4%8E
 裝甲破壞 => http://zh.tos.wikia.com/wiki/%E8%A3%9D%E7%94%B2%E7%A0%B4%E5%A3%9E
@@ -1147,4 +1151,4 @@ V 字殺手 => http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍淵之力 => http://zh.tos.wikia.com/wiki/%E9%BE%8D%E6%B7%B5%E4%B9%8B%E5%8A%9B
 龍魂共鳴 => http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴 ‧ 暗流 => http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
-1146 skills
+1150 skills

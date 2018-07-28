@@ -1,8 +1,8 @@
 package main.fetcher;
 
-import main.card.IconInfo;
-import main.card.ImageInfo2;
-import main.card.TosGet;
+import main.kt.IconInfo;
+import main.kt.ImageInfo2;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;

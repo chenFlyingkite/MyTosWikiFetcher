@@ -1,8 +1,8 @@
 package main.fetcher;
 
-import main.card.IconInfo;
-import main.card.ImageFileInfo;
-import main.card.TosGet;
+import main.kt.IconInfo;
+import main.kt.ImageFileInfo;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import flyingkite.files.FileUtil;
 import flyingkite.log.L;

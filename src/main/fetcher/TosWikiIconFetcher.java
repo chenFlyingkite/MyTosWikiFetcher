@@ -1,6 +1,6 @@
 package main.fetcher;
 
-import main.card.IconInfo;
+import main.kt.IconInfo;
 import flyingkite.data.Range;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;

@@ -21,6 +21,10 @@ public class FileOutput implements Loggable {
         validate();
     }
 
+    public File getFile() {
+        return file;
+    }
+
     private void validate() {
         if (file.exists() && file.isDirectory()) {
             file.delete();

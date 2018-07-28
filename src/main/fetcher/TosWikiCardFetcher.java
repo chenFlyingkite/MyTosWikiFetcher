@@ -1,7 +1,18 @@
 package main.fetcher;
 
-import main.card.*;
+import flyingkite.data.Range;
+import flyingkite.log.L;
+import flyingkite.log.LF;
+import flyingkite.tool.TextUtil;
+import flyingkite.tool.TicTac2;
+import main.card.TosCard;
+import main.card.TosCardCreator;
 import main.card.TosCardCreator.CardInfo;
+import main.fetcher.data.Anchors;
+import main.kt.CardTds;
+import main.kt.IconInfo;
+import main.kt.SkillInfo;
+import main.kt.TosGet;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -9,17 +20,21 @@ import okhttp3.ResponseBody;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import flyingkite.math.MathUtil;
-import flyingkite.data.Range;
-import flyingkite.log.L;
-import flyingkite.log.LF;
-import flyingkite.tool.TextUtil;
-import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
+/**
+ * Old card fetcher depends on API results, and api may lack of pages
+ */
+@Deprecated
 public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     private TosWikiCardFetcher() {}
     public static final TosWikiCardFetcher me = new TosWikiCardFetcher();
@@ -78,7 +93,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 , "http://zh.tos.wikia.com/wiki/1063" // TosCardCreator = 32
                 , "http://zh.tos.wikia.com/wiki/651" // TosCardCreator = 24
                 , "http://zh.tos.wikia.com/wiki/656" // TosCardCreator = 31
-                );
+        );
         link.clear(); // uncomment this if use test links
         return link;
     }
@@ -292,39 +307,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
     }
 
     private Set<Integer> itemsN = new HashSet<>();
-    private enum Anchors {
-        BasicProperty ("基本屬性"),
-        ActiveSkills  ("主動技"),
-        Amelioration  ("昇華"),
-        AwakenRecall  ("極限突破"),
-        Evolution     ("進化列表"),
-        Combination   ("合體列表"),
-        PowerRelease  ("潛能解放"),
-        VirtualRebirth("異空轉生"),
-        VirRebirTrans ("異力轉換"),
-        Dragonware    ("武裝龍刻"),
-        Origin        ("來源"),
-        ;
-
-        final String name;
-        Anchors(String s) {
-            name = s;
-        }
-
-        public int id() {
-            return ordinal();
-        }
-
-        public static String[] allNames() {
-            Anchors[] cs = values();
-            String[] ns = new String[cs.length];
-
-            for (int i = 0; i < cs.length; i++) {
-                ns[i] = cs[i].name;
-            }
-            return ns;
-        }
-    }
 
     private CardInfo getCardInfo(String link) {
         CardInfo info = new CardInfo();
@@ -356,14 +338,14 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             if (tds != null) {
                 // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
                 String[] anchor = Anchors.allNames();
-                int[] anchors = getAnchors(tds, anchor);
+                int[] anchors = findAnchors(tds, anchor);
 
                 // Adding basic hp/exp info for card
                 addHpInfo(info, anchors, tds);
                 addExpInfo(info, anchors, tds);
                 // Adding amelioration/awaken info for card
                 List<IconInfo> ameInfo = TosGet.me.getCardImagedLink(doc);
-                addAmeAwkInfo(info, ameInfo, anchors, tds);
+                addAmeAwkInfo(info, ameInfo, anchors, tds, cardTds);
 
                 // Find the end of card
                 int min = getPositiveMin(anchors, Anchors.AwakenRecall.id(), anchors.length);
@@ -414,10 +396,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         return info;
     }
 
-    private boolean isInRange(long value, long min, long max) {
-        return MathUtil.isInRange(value, min, max);
-    }
-
     private void addHpInfo(CardInfo info, int[] anchors, List<String> tds) {
         int maxhpStart = anchors[0] + 1;
         info.hpValues.addAll(tds.subList(maxhpStart, maxhpStart + 3));
@@ -432,7 +410,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         info.expInfos.add(tds.get(sacrifyExpStart + 6)); // Sacrifice Exp per Lv
     }
 
-    private void addAmeAwkInfo(CardInfo info, List<IconInfo> iconInfo, int[] anchors, List<String> tds) {
+    private void addAmeAwkInfo(CardInfo info, List<IconInfo> iconInfo, int[] anchors, List<String> tds, CardTds rawCard) {
         boolean empty = iconInfo == null || iconInfo.size() == 0;
 
         if (empty) return;
@@ -448,6 +426,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 info.ameStages.add(name);
                 info.ameStages.add(wikiBaseZh + icf.getLink());
             }
+
+            getSkillChange(info, rawCard.getRawTds(), anchors[ax] + 1, at - 1);
         }
 
         // Fetch if has 突破關卡
@@ -492,6 +472,20 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         }
     }
 
+    private void getSkillChange(CardInfo info, Elements raw, int from, int to) {
+        // Check amelioration skills for skill change
+        Elements delta;
+        for (int i = from; i < to; i += 2) {
+            delta = raw.get(i).getElementsByTag("a");
+            for (Element dl : delta) {
+                SkillInfo si = new SkillInfo();
+                si.setSkillLink(wikiBaseZh + dl.attr("href"));
+                si.setSkillName(dl.attr("title"));
+                info.skillChange.add(si);
+            }
+        }
+    }
+
     private IconInfo getIconInfoByName(String name, List<IconInfo> iconInfo) {
         for (IconInfo i : iconInfo) {
             if (i.getName().equals(name)) {
@@ -499,24 +493,6 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
             }
         }
         return null;
-    }
-
-    private <T> int[] getAnchors(List<T> list, T[] anchor) {
-        int n = list.size();
-        int an = anchor.length;
-        int[] anchors = new int[an];
-        // init as -1
-        Arrays.fill(anchors, -1);
-
-        for (int i = 0; i < n; i++) {
-            T si = list.get(i);
-            for (int j = 0; j < an; j++) {
-                if (anchors[j] < 0 && anchor[j].equals(si)) {
-                    anchors[j] = i;
-                }
-            }
-        }
-        return anchors;
     }
 
     private int getPositiveMin(int[] numbers, int start, int end) {

@@ -1,8 +1,11 @@
 package main.card;
 
-import main.fetcher.TosAmeSkillFetcher;
 import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
+import main.fetcher.TosActiveSkillFetcher;
+import main.fetcher.TosAmeSkillFetcher;
+import main.kt.CardTds;
+import main.kt.SkillInfo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,9 +16,6 @@ import java.util.Map;
 public class TosCardCreator {
     private TosCardCreator() {}
     public static final TosCardCreator me = new TosCardCreator();
-
-    private Map<String, List<Skill>> skillChangeLeader;
-    private Map<String, List<Skill>> skillChangeActive;
 
     public static class CardInfo {
         public List<String> data = new ArrayList<>();
@@ -32,6 +32,7 @@ public class TosCardCreator {
         public List<String> awkStages = new ArrayList<>();
         public List<String> powStages = new ArrayList<>();
         public List<String> virStages = new ArrayList<>();
+        public List<SkillInfo> skillChange = new ArrayList<>();
     }
 
 //  node length, page
@@ -43,10 +44,27 @@ public class TosCardCreator {
 //24, card = http://zh.tos.wikia.com/wiki/651
 //31, card = http://zh.tos.wikia.com/wiki/656
 
+    private Map<String, List<Skill>> skillActive;
+    private Map<String, List<Skill>> skillChangeLeader;
+    private Map<String, List<Skill>> skillChangeActive;
+
+    private void loadAllSkills() {
+        if (skillActive == null) {
+            skillActive = TosActiveSkillFetcher.me.getActiveSkills();
+        }
+        if (skillChangeLeader == null) {
+            skillChangeLeader = TosAmeSkillFetcher.me.getAllSkillsLeader();
+        }
+        if (skillChangeActive == null) {
+            skillChangeActive = TosAmeSkillFetcher.me.getAllSkillsActive();
+        }
+    }
+
     public TosCard asTosCard(CardInfo info) {
         // Prepare other data
-        skillChangeLeader = TosAmeSkillFetcher.getAllSkillsLeader();
-        skillChangeActive = TosAmeSkillFetcher.getAllSkillsActive();
+        //skillChangeLeader = TosAmeSkillFetcher.getAllSkillsLeader();
+        //skillChangeActive = TosAmeSkillFetcher.getAllSkillsActive();
+        loadAllSkills();
 
         // Main body
         TosCard c = null;
@@ -195,7 +213,7 @@ public class TosCardCreator {
             // http://zh.tos.wikia.com/wiki/961 ~ 965
         }
 
-        if (c.skillAmeBattleName.length()> 0 && c.skillAmeCost1 == 0) {
+        if (c.skillAmeBattleName.length() > 0 && c.skillAmeCost1 == 0) {
             log.log("HaveAme but no cost? %s", c.wikiLink);
         }
     }
@@ -209,7 +227,7 @@ public class TosCardCreator {
         fillEvolution(c, info);
         c.cardDetails = info.detailsHtml;
         fillStageLinks(c, info);
-        fillSkillChange(c);
+        fillSkillChange(c, info);
     }
 
     private void fillLinks(TosCard c, CardInfo info) {
@@ -356,17 +374,38 @@ public class TosCardCreator {
         }
     }
 
-    private void fillSkillChange(TosCard c) {
-        List<Skill> ldr = skillChangeLeader.get(c.idNorm);
-        List<Skill> act = skillChangeActive.get(c.idNorm);
+    private void fillSkillChange(TosCard c, CardInfo info) {
         List<Skill> all = new ArrayList<>();
-        if (act != null) {
-            all.addAll(act);
+        for (SkillInfo s : info.skillChange) {
+            addSkillsFromTable(all, s, c);
         }
-        if (ldr != null) {
-            all.addAll(ldr);
+        for (Skill s : all) {
+            c.skillChange.add(s.lite());
         }
-        c.skillChange = all;
+    }
+
+    private void addSkillsFromTable(List<Skill> all, SkillInfo s, TosCard c) {
+        boolean added = false;
+        added = addSkills(all, skillChangeLeader, c, s);
+        if (added) return;
+        added = addSkills(all, skillActive, c, s);
+        if (added) return;
+        added = addSkills(all, skillChangeActive, c, s);
+    }
+
+    private boolean addSkills(List<Skill> all, Map<String, List<Skill>> skillsToAdd, TosCard c, SkillInfo info) {
+        if (skillsToAdd == null) return false;
+
+        List<Skill> s = skillsToAdd.get(c.idNorm);
+        if (s != null) {
+            for (Skill t : s) {
+                if (t.wikiLink.equals(info.getSkillLink())) {
+                    all.add(t);
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     public String normEvoId(String s) {

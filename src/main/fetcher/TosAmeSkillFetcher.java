@@ -1,13 +1,16 @@
 package main.fetcher;
 
+import flyingkite.tool.GsonUtil;
 import main.card.Skill;
-import main.card.SkillInfo;
-import main.card.TosGet;
+import main.kt.SkillInfo;
+import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import flyingkite.log.LF;
 
+import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -25,6 +28,8 @@ public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
     private static final String activeSkills = "http://zh.tos.wikia.com/wiki/%E4%B8%BB%E5%8B%95%E6%8A%80%E5%88%97%E8%A1%A8/%E6%98%87%E8%8F%AF%E6%8A%80%E8%83%BD";
     private static List<SkillInfo> fetchedLeader;
     private static List<SkillInfo> fetchedActive;
+    private File outActJson = mAmeAct.getFile().getFile();
+    private File outLdrJson = mAmeLdr.getFile().getFile();
 
     @Override
     public void run() {
@@ -59,14 +64,16 @@ public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
         return TosGet.me.getAmeSkillTable(main, wikiBaseZh);
     }
 
-    public static Map<String, List<Skill>> getAllSkillsActive() {
-        return getAllSkills(fetchedActive);
+    public Map<String, List<Skill>> getAllSkillsActive() {
+        SkillInfo[] list = GsonUtil.loadFile(outActJson, SkillInfo[].class);
+        return getAllSkills(Arrays.asList(list));
     }
-    public static Map<String, List<Skill>> getAllSkillsLeader() {
-        return getAllSkills(fetchedLeader);
+    public Map<String, List<Skill>> getAllSkillsLeader() {
+        SkillInfo[] list = GsonUtil.loadFile(outLdrJson, SkillInfo[].class);
+        return getAllSkills(Arrays.asList(list));
     }
 
-    private static Map<String, List<Skill>> getAllSkills(List<SkillInfo> skills) {
+    public static Map<String, List<Skill>> getAllSkills(List<SkillInfo> skills) {
         Map<String, List<Skill>> map = new TreeMap<>();
         for (SkillInfo si : skills) {
             for (String s : si.getMonsters()) {

@@ -2,15 +2,16 @@ package main;
 
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
+import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
 import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
+import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
-import main.fetcher.TosWikiCardFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiFilePeeker;
 import main.fetcher.TosWikiHomeFetcher;
@@ -20,6 +21,7 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 
+import java.util.Arrays;
 import java.util.concurrent.ExecutorService;
 
 public class Main {
@@ -35,8 +37,6 @@ public class Main {
         }
         // 技能內容
         if (regl) {
-            // 主動技
-            runParallel(parl, TosActiveSkillFetcher.me);
             // 敵人技能
             runParallel(parl, TosEnemySkillFetcher.me);
             // 龍刻
@@ -50,9 +50,16 @@ public class Main {
         // 卡片內容
         // TosAmeSkillFetcher > TosWikiCardFetcher > TosWikiCardsLister
         if (regl) {
-            TosAmeSkillFetcher.me.run();
-            TosWikiCardFetcher.me.run(); // Need to be run after AmeSkill & Active Skill fetchers
-            TosWikiCardsLister.me.run();
+            // Old one, Deprecated
+            //TosWikiCardFetcher.me.run(); // Need to be run after AmeSkill & Active Skill fetchers
+            //TosWikiCardsLister.me.run();
+
+            TaskMonitorUtil.join(Arrays.asList(
+                    TosWikiCardsLister.me
+                    , TosActiveSkillFetcher.me
+                    , TosAmeSkillFetcher.me
+                    ), TosCardFetcher.me
+            );
         }
 
         //-- Seldom
@@ -66,7 +73,10 @@ public class Main {
             TosWikiStageFetcher.me.run();
         }
         //MobileComm.run();
-        //ASD.run();
+        // Others misc
+        if (false) {
+            ASD.run();
+        }
         //ClusterMain.INSTANCE.main(args);
         //Statistics.run();
         TicTac.tac("Main ended");
@@ -101,6 +111,5 @@ public class Main {
     private static final ExecutorService cache
     //    = Executors.newCachedThreadPool();
         = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 10);
-    //Executors.newCachedThreadPool();
 
 }

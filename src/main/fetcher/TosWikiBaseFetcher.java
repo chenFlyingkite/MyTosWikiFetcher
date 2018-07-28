@@ -2,8 +2,8 @@ package main.fetcher;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import main.card.IconInfo;
-import main.card.TosGet;
+import main.kt.IconInfo;
+import main.kt.TosGet;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -29,6 +29,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -305,6 +306,24 @@ public class TosWikiBaseFetcher implements Runnable {
         }
     }
 
+
+    protected <T> int[] findAnchors(List<T> list, T[] anchor) {
+        int n = list.size();
+        int an = anchor.length;
+        int[] anchors = new int[an];
+        // init as -1
+        Arrays.fill(anchors, -1);
+
+        for (int i = 0; i < n; i++) {
+            T si = list.get(i);
+            for (int j = 0; j < an; j++) {
+                if (anchors[j] < 0 && anchor[j].equals(si)) {
+                    anchors[j] = i;
+                }
+            }
+        }
+        return anchors;
+    }
 
     protected List<String> getTestLinks() {
         return new ArrayList<>();
