@@ -138,6 +138,10 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         info.wikiLink = link;
         info.bigImage = getImage(centers, 0);
         info.icon = getImage(centers, 1);
+        // Fill in idNorm from mid of top 11 icons
+        Elements rowCard = doc.getElementsByTag("table").get(0).getElementsByTag("td");
+        Element spot = rowCard.get(rowCard.size() / 2);
+        info.idNorm = TosGet.me.getImageTag(spot).attr("alt");
 
         // Get main content table
         Element main = doc.getElementById("monster-data");

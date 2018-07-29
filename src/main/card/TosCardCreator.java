@@ -25,6 +25,7 @@ public class TosCardCreator {
         public String icon = "";
         public String bigImage = "";
         public String wikiLink = "";
+        public String idNorm = "";
         public List<String> hpValues = new ArrayList<>();
         public List<String> expInfos = new ArrayList<>();
         public String detailsHtml = "";
@@ -220,7 +221,7 @@ public class TosCardCreator {
 
     private void fillCommon(TosCard c, CardInfo info) {
         fillLinks(c, info);
-        fillCardIds(c, info.data.subList(0, 10));
+        fillCardIds(c, info);
         fillHPValues(c, info.hpValues);
         fillExpInfo(c, info.expInfos);
         fillCombination(c, info);
@@ -418,7 +419,8 @@ public class TosCardCreator {
         }
     }
 
-    private void fillCardIds(TosCard c, List<String> list) {
+    private void fillCardIds(TosCard c, CardInfo info) {
+        List<String> list = info.data;
         c.name = list.get(0);
         c.attribute = list.get(1);
         c.id = list.get(2);
@@ -429,20 +431,24 @@ public class TosCardCreator {
         c.LvMax = Integer.parseInt(list.get(7));
         //-- Exp curve #8
         c.ExpMax = Long.parseLong(list.get(9));
-
-        setNormId(c);
+        setNormId(c, info.idNorm);
     }
 
     // Fill in Normalized ID
-    private void setNormId(TosCard c) {
-        c.idNorm = String.format(Locale.US, "%04d", Integer.parseInt(c.id));
+    private void setNormId(TosCard c, String xxi) {
+        if (!xxi.isEmpty()) {
+            c.idNorm = normEvoId(xxi);
+        } else {
+            // old one for the deprecated one
+            c.idNorm = String.format(Locale.US, "%04d", Integer.parseInt(c.id));
 
-        int end = c.wikiLink.lastIndexOf("/") + 1;
-        String s = c.wikiLink.substring(end);
-        if (s.matches("[0-9]+")) {
-            int num = Integer.parseInt(s);
-            if (6000 <= num && num < 7000) { // This is those card of 造型, like "id": "481", -> 水妹
-                c.idNorm = String.format(Locale.US, "%04d", num);
+            int end = c.wikiLink.lastIndexOf("/") + 1;
+            String s = c.wikiLink.substring(end);
+            if (s.matches("[0-9]+")) {
+                int num = Integer.parseInt(s);
+                if (6000 <= num && num < 7000) { // This is those card of 造型, like "id": "481", -> 水妹
+                    c.idNorm = String.format(Locale.US, "%04d", num);
+                }
             }
         }
     }
