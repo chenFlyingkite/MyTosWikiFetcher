@@ -2,21 +2,23 @@ package main;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import org.jsoup.Connection;
-import org.jsoup.Jsoup;
 import flyingkite.data.Rect2;
 import flyingkite.images.base.PngParam;
 import flyingkite.images.create.PngCreator;
 import flyingkite.images.diff.PngDiffer;
+import flyingkite.images.resize.PngResizer;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
+import org.jsoup.Connection;
+import org.jsoup.Jsoup;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -41,8 +43,87 @@ public class ASD {
         //getCrop();
         //new RunInvokeMethod().run();
         //Jsoner.json();
-        getCrafts();
+        //getCrafts();
+
+        //scale();
+        scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
+        //diff();
         tt.tac("Done");
+    }
+
+    // Diff the image in folder
+    private static void diff() {
+        int wide = 640;
+        PngParam p = new PngParam("D:\\PMP_Android_Face\\Dal" + wide + "\\2013PowerStar6");
+        PngDiffer.from(p).diff();
+    }
+
+    private static void scaleAllImage(String folder, String[] subs, int wide) {
+        TicTac2 t = new TicTac2();
+        String main = folder;
+        String[] sub = subs;
+        t.tic();
+        for (int z = 0; z < sub.length; z++) {
+            t.tic();
+            // Crop icon
+            File src = new File(main + "\\" + sub[z]);
+            File[] images = src.listFiles((dir, name) -> {
+                int lastDot = name.lastIndexOf(".");
+                return ".jpg".equalsIgnoreCase(name.substring(lastDot));
+            });
+            t.tac("List jpgs in %s", src);
+
+            printThem(images);
+            final String dstFolder = main + wide + "\\" + sub[z];
+            if (images != null) {
+                t.tic();
+                for (int i = 0; i < images.length; i++) {
+                    File f = images[i];
+                    File dst = new File(dstFolder, f.getName());
+                    PngParam p = new PngParam(f);
+                    t.tic();
+                    PngResizer.from(p).longSide(wide).into(dst);
+                    t.tac("Image OK -> %s", dst);
+                }
+                t.tac("All %s images OK in %s", images.length, sub[z]);
+            }
+        }
+        t.tac("All images OK in %s", main);
+    }
+
+    // Conform all the images in folder with same long side
+    private static void scale() {
+        TicTac2 t = new TicTac2();
+        String main = "D:\\PMP_Android_Face\\Dal";
+        String[] sub = {"2013PowerStar6", "2012Year End Party"};
+        t.tic();
+        for (int z = 0; z < sub.length; z++) {
+            t.tic();
+            // Crop icon
+            File src = new File(main + "\\" + sub[z]);
+            File[] images = src.listFiles((dir, name) -> {
+                int lastDot = name.lastIndexOf(".");
+                return ".jpg".equalsIgnoreCase(name.substring(lastDot));
+            });
+            t.tac("List jpgs in %s", src);
+
+            printThem(images);
+            final int wide = 640;
+            final String dstFolder = main + wide + "\\" + sub[z];
+            if (images != null) {
+                t.tic();
+                for (int i = 0; i < images.length; i++) {
+                    File f = images[i];
+                    File dst = new File(dstFolder, f.getName());
+                    PngParam p = new PngParam(f);
+                    t.tic();
+                    PngResizer.from(p).longSide(wide).into(dst);
+                    t.tac("Image OK -> %s", dst);
+                }
+                t.tac("All %s images OK in %s", images.length, sub[z]);
+            }
+        }
+        t.tac("All images OK in %s", main);
     }
 
     private static void getCrafts() {
@@ -321,7 +402,7 @@ public class ASD {
 
                     allSets.add(tags);
 
-                    printSet(tags);
+                    printThem(tags);
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
@@ -331,14 +412,25 @@ public class ASD {
             Set<String> both = new HashSet<>(allSets.get(0));
             both.retainAll(allSets.get(1));
             L.log(" Ended -----");
-            printSet(both);
+            printThem(both);
         }
     }
 
-    private static <T> void printSet(Set<T> set) {
-        L.log("size = %s", set.size());
-        for (T s : set) {
-            L.log(" -> %s", s);
+    private static <T> void printThem(Collection<T> c) {
+        L.log("Collection size = %s", c == null ? "N/A" : c.size());
+        if (c != null) {
+            for (T t : c) {
+                L.log(" -> %s", t);
+            }
+        }
+    }
+
+    private static <T> void printThem(T[] a) {
+        L.log("Array size = %s", a == null ? "N/A" : a.length);
+        if (a != null) {
+            for (T t : a) {
+                L.log(" -> %s", t);
+            }
         }
     }
 

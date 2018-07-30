@@ -95,8 +95,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         for (int i = 0; i < pages.size(); i++) {
             String link = pages.get(i);
             L.log("#%s -> %s", i, link);
-            mLf.log("#%s ->", i);
-            mLf.log("       %s", link);
+            mLf.log("%s", link);
             // Fetch metadata from link
             CardInfo cInfo = getCardInfo(link);
 

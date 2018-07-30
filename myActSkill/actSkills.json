@@ -4773,7 +4773,9 @@
     "skillCDMin": 8,
     "skillCDMax": 8,
     "skillDesc": "變身；1 回合內，消除所有附加效果，每消除 1 個效果，減少 25% 所受傷害，最多減少 100%",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1803"
+    ]
   },
   {
     "skillName": "水之仙女",
@@ -9291,7 +9293,9 @@
     "skillCDMin": 11,
     "skillCDMax": 5,
     "skillDesc": "減少 20% 所受傷害，每回合結束時，對全體敵人造成 25 萬光屬性傷害 (需消除符石)，效果會在進入下一層數 (Wave) 時消失",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1804"
+    ]
   },
   {
     "skillName": "裂蹴紅球波",
@@ -9299,7 +9303,9 @@
     "skillCDMin": 17,
     "skillCDMax": 6,
     "skillDesc": "光符石轉化為人族強化符石。1 回合內，合計消除 6 粒或以上的光或暗符石時，個人追打自身攻擊力 2 倍的暗屬性攻擊 3 次",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1803"
+    ]
   },
   {
     "skillName": "裂蹴紫炎彈",
@@ -9307,7 +9313,9 @@
     "skillCDMin": 12,
     "skillCDMax": 6,
     "skillDesc": "光符石轉化為人族強化符石。1 回合內，合計消除 6 粒或以上的光或暗符石時，個人追打自身攻擊力 2 倍的暗屬性攻擊 5 次。以 50% 敵方所受傷害分別對其他敵人造成傷害",
-    "skillMonsters": []
+    "skillMonsters": [
+      "1804"
+    ]
   },
   {
     "skillName": "裏百八式 ‧ 八酒杯",

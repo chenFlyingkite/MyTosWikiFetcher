@@ -27,6 +27,7 @@ public class PngCreateRequest extends PngRequest {
         mClock.tic();
         // Step : Load image of PNG
         srcImg = loadImage(f);
+
         mClock.tac("ImageIO read << " + f.getAbsolutePath());
 
         if (srcImg == null) {
