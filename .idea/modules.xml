@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaLibrary/JavaLibrary.iml" filepath="$PROJECT_DIR$/JavaLibrary/JavaLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaXLibrary/JavaXLibrary.iml" filepath="$PROJECT_DIR$/JavaXLibrary/JavaXLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyTosWikiFetcher.iml" filepath="$PROJECT_DIR$/MyTosWikiFetcher.iml" />
     </modules>
   </component>

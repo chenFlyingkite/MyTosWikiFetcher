@@ -1,6 +1,6 @@
-package flyingkite.images.resize;
+package flyingkite.javaxlibrary.images.resize;
 
-import flyingkite.images.base.PngParam;
+import flyingkite.javaxlibrary.images.base.PngParam;
 
 public class PngResizer {
 

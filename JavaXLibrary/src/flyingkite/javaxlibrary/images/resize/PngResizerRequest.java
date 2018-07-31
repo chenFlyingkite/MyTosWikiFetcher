@@ -1,7 +1,7 @@
-package flyingkite.images.resize;
+package flyingkite.javaxlibrary.images.resize;
 
-import flyingkite.images.base.PngParam;
-import flyingkite.images.base.PngRequest;
+import flyingkite.javaxlibrary.images.base.PngParam;
+import flyingkite.javaxlibrary.images.base.PngRequest;
 import flyingkite.log.L;
 
 import java.awt.*;

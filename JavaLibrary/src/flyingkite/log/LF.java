@@ -1,8 +1,8 @@
 package flyingkite.log;
 
-import flyingkite.files.CSVTable;
-
 import java.io.File;
+
+import flyingkite.files.CSVTable;
 
 /**
  * The class for logging message to console log and file
