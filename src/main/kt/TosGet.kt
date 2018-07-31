@@ -439,7 +439,7 @@ class TosGet {
                     c.link = baseWiki + a.attr("href")
                     //c.id = g.attr("alt")
                     c.idNorm = normCraftId(g.attr("alt"))
-                    c.icon.iconLink = getVignette(g, "data-src", "src")
+                    c.icon.iconLink = getVignette(g, "data-src", "src")// = getIconLink(si)
                     c.icon.iconKey = g.attr("data-image-key")
                     ans.add(c)
                 } else {
@@ -447,6 +447,14 @@ class TosGet {
                 }
             }
             return ans
+        }
+
+        private fun getIconLink(e: Element) : String {
+            val gx = e.getElementsByTag("img")
+            if (gx.size == 0) return ""
+
+            val g = gx[0]
+            return getVignette(g, "data-src", "src")
         }
 
 
@@ -477,7 +485,10 @@ class TosGet {
             if (e == null) return ans
 
             val s = e.getElementsByTag("td")
+            // Update the icon link to be large one
             val isArm = isArmCraft(e)
+            ans.icon.iconLink = getIconLink(s[0]);
+
             if (isArm) {
                 ans.rarity = s[3].text().replace("★", "").trim().toInt()
                 ans.level = s[4].text().replace("Lv.", "", true).trim().toInt()

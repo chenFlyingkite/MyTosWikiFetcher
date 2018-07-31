@@ -29,14 +29,14 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        boolean regl = true; // Regular
+        boolean regl = false; // Regular
         boolean parl = true; // Parallel
         // 神魔主頁內容
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);
         }
         // 技能內容
-        if (regl) {
+        if (regl || true) {
             // 敵人技能
             runParallel(parl, TosEnemySkillFetcher.me);
             // 龍刻
