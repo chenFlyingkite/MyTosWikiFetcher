@@ -1168,5 +1168,230 @@
       "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d6/C3155.png/revision/latest/scale-to-width-down/60?cb\u003d20180611085600\u0026path-prefix\u003dzh",
       "iconKey": "C3155.png"
     }
+  },
+  {
+    "idNorm": "3156",
+    "name": "皇祐水盾龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%9A%87%E7%A5%90%E6%B0%B4%E7%9B%BE%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/92/C3156.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104323\u0026path-prefix\u003dzh",
+      "iconKey": "C3156.png"
+    }
+  },
+  {
+    "idNorm": "3157",
+    "name": "皇祐水盾龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%9A%87%E7%A5%90%E6%B0%B4%E7%9B%BE%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/C3157.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104324\u0026path-prefix\u003dzh",
+      "iconKey": "C3157.png"
+    }
+  },
+  {
+    "idNorm": "3158",
+    "name": "皇祐水盾龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%9A%87%E7%A5%90%E6%B0%B4%E7%9B%BE%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/fb/C3158.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104324\u0026path-prefix\u003dzh",
+      "iconKey": "C3158.png"
+    }
+  },
+  {
+    "idNorm": "3159",
+    "name": "皇祐水盾龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%9A%87%E7%A5%90%E6%B0%B4%E7%9B%BE%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/40/C3159.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104325\u0026path-prefix\u003dzh",
+      "iconKey": "C3159.png"
+    }
+  },
+  {
+    "idNorm": "3160",
+    "name": "皇祐水盾龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%9A%87%E7%A5%90%E6%B0%B4%E7%9B%BE%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/df/C3160.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104326\u0026path-prefix\u003dzh",
+      "iconKey": "C3160.png"
+    }
+  },
+  {
+    "idNorm": "3161",
+    "name": "熾焱巨斧龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%86%BE%E7%84%B1%E5%B7%A8%E6%96%A7%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f4/C3161.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104326\u0026path-prefix\u003dzh",
+      "iconKey": "C3161.png"
+    }
+  },
+  {
+    "idNorm": "3162",
+    "name": "熾焱巨斧龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%86%BE%E7%84%B1%E5%B7%A8%E6%96%A7%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6a/C3162.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104327\u0026path-prefix\u003dzh",
+      "iconKey": "C3162.png"
+    }
+  },
+  {
+    "idNorm": "3163",
+    "name": "熾焱巨斧龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%86%BE%E7%84%B1%E5%B7%A8%E6%96%A7%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/C3163.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104327\u0026path-prefix\u003dzh",
+      "iconKey": "C3163.png"
+    }
+  },
+  {
+    "idNorm": "3164",
+    "name": "熾焱巨斧龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%86%BE%E7%84%B1%E5%B7%A8%E6%96%A7%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6a/C3164.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104328\u0026path-prefix\u003dzh",
+      "iconKey": "C3164.png"
+    }
+  },
+  {
+    "idNorm": "3165",
+    "name": "熾焱巨斧龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%86%BE%E7%84%B1%E5%B7%A8%E6%96%A7%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3d/C3165.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104328\u0026path-prefix\u003dzh",
+      "iconKey": "C3165.png"
+    }
+  },
+  {
+    "idNorm": "3166",
+    "name": "悠古弓箭龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%82%A0%E5%8F%A4%E5%BC%93%E7%AE%AD%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/fe/C3166.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104329\u0026path-prefix\u003dzh",
+      "iconKey": "C3166.png"
+    }
+  },
+  {
+    "idNorm": "3167",
+    "name": "悠古弓箭龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%82%A0%E5%8F%A4%E5%BC%93%E7%AE%AD%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/db/C3167.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104329\u0026path-prefix\u003dzh",
+      "iconKey": "C3167.png"
+    }
+  },
+  {
+    "idNorm": "3168",
+    "name": "悠古弓箭龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%82%A0%E5%8F%A4%E5%BC%93%E7%AE%AD%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/63/C3168.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104330\u0026path-prefix\u003dzh",
+      "iconKey": "C3168.png"
+    }
+  },
+  {
+    "idNorm": "3169",
+    "name": "悠古弓箭龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%82%A0%E5%8F%A4%E5%BC%93%E7%AE%AD%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4c/C3169.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104330\u0026path-prefix\u003dzh",
+      "iconKey": "C3169.png"
+    }
+  },
+  {
+    "idNorm": "3170",
+    "name": "悠古弓箭龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%82%A0%E5%8F%A4%E5%BC%93%E7%AE%AD%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/C3170.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104331\u0026path-prefix\u003dzh",
+      "iconKey": "C3170.png"
+    }
+  },
+  {
+    "idNorm": "3171",
+    "name": "聖耀長槍龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E8%80%80%E9%95%B7%E6%A7%8D%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/C3171.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104331\u0026path-prefix\u003dzh",
+      "iconKey": "C3171.png"
+    }
+  },
+  {
+    "idNorm": "3172",
+    "name": "聖耀長槍龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E8%80%80%E9%95%B7%E6%A7%8D%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ef/C3172.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104332\u0026path-prefix\u003dzh",
+      "iconKey": "C3172.png"
+    }
+  },
+  {
+    "idNorm": "3173",
+    "name": "聖耀長槍龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E8%80%80%E9%95%B7%E6%A7%8D%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/73/C3173.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104333\u0026path-prefix\u003dzh",
+      "iconKey": "C3173.png"
+    }
+  },
+  {
+    "idNorm": "3174",
+    "name": "聖耀長槍龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E8%80%80%E9%95%B7%E6%A7%8D%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6c/C3174.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104333\u0026path-prefix\u003dzh",
+      "iconKey": "C3174.png"
+    }
+  },
+  {
+    "idNorm": "3175",
+    "name": "聖耀長槍龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E8%80%80%E9%95%B7%E6%A7%8D%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/30/C3175.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104334\u0026path-prefix\u003dzh",
+      "iconKey": "C3175.png"
+    }
+  },
+  {
+    "idNorm": "3176",
+    "name": "暗影邪刀龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%9A%97%E5%BD%B1%E9%82%AA%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/C3176.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104341\u0026path-prefix\u003dzh",
+      "iconKey": "C3176.png"
+    }
+  },
+  {
+    "idNorm": "3177",
+    "name": "暗影邪刀龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%9A%97%E5%BD%B1%E9%82%AA%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/92/C3177.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104342\u0026path-prefix\u003dzh",
+      "iconKey": "C3177.png"
+    }
+  },
+  {
+    "idNorm": "3178",
+    "name": "暗影邪刀龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%9A%97%E5%BD%B1%E9%82%AA%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/21/C3178.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104342\u0026path-prefix\u003dzh",
+      "iconKey": "C3178.png"
+    }
+  },
+  {
+    "idNorm": "3179",
+    "name": "暗影邪刀龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%9A%97%E5%BD%B1%E9%82%AA%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/C3179.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104343\u0026path-prefix\u003dzh",
+      "iconKey": "C3179.png"
+    }
+  },
+  {
+    "idNorm": "3180",
+    "name": "暗影邪刀龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%9A%97%E5%BD%B1%E9%82%AA%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/50/C3180.png/revision/latest/scale-to-width-down/60?cb\u003d20180801104343\u0026path-prefix\u003dzh",
+      "iconKey": "C3180.png"
+    }
   }
 ]
