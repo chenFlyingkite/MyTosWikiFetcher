@@ -498,11 +498,19 @@ class TosGet {
                 // find card limit
                 val cl = s[5].getElementsByTag("a")
                 for (c in cl) {
+                    // Add the card name
+                    ans.cardLimitName.add(c.attr("title"))
+                    // Add the card normId
                     val ci = getImageTag(c) // i-th card
                     val cn = ci?.size ?: 0
                     if (ci != null && cn > 0) {
                         ans.cardLimit.add(normEvoId(ci[0].attr("alt")))
                     }
+                }
+                // Self checking the limit should name length
+                if (ans.cardLimit.size != ans.cardLimitName.size) {
+                    println("!! Craft card limit should same but\n" +
+                            "ids = ${ans.cardLimit}\nname = ${ans.cardLimitName}\n")
                 }
 
                 val anx = getAnchors(s, "技能", "能力提升")
@@ -1114,6 +1122,8 @@ class Craft : SimpleCraft {
     //-- For Arm
     @SerializedName("cardLimit")
     var cardLimit = ArrayList<String>()
+    @SerializedName("cardLimitName")
+    var cardLimitName = ArrayList<String>()
     @SerializedName("upHp")
     var upHp = ""
     @SerializedName("upAttack")
@@ -1128,7 +1138,7 @@ class Craft : SimpleCraft {
     override fun toString(): String {
         return "${super.toString()}\n" +
                 "$rarity★ Lv. $level $upHp $upAttack $upRecovery $mode $charge\n" +
-                "$cardLimit $attrLimit $raceLimit\n" +
+                "$cardLimit $cardLimitName $attrLimit $raceLimit\n" +
                 "$craftSkill"
     }
 }
