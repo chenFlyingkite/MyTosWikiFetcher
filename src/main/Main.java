@@ -110,6 +110,6 @@ public class Main {
 //
     private static final ExecutorService cache
     //    = Executors.newCachedThreadPool();
-        = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 10);
+        = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 20);
 
 }

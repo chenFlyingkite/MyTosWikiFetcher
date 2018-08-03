@@ -10741,17 +10741,17 @@
   {
     "id": "782",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/782",
-    "name": "無視減傷 ‧ 隱藏 ‧ 結",
+    "name": "無視減傷 ‧ 隱藏-結",
     "detail": "敵人會無視所有減傷效果和意志技能。\u003cbr\u003e\u003cbr\u003e敵人死亡後，會將所有符石轉化為隱藏符石",
     "esCode": "{{ES782}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
-        "iconKey": "SI224.png"
-      },
-      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI251.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
       }
     ]
   },
@@ -20790,12 +20790,16 @@
     "esCode": "{{ES1559}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
-        "iconKey": "SI236.png"
-      },
-      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
         "iconKey": "SI121.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
+        "iconKey": "SI236.png"
       }
     ]
   },
@@ -25788,27 +25792,6 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
         "iconKey": "SI013.png"
-      }
-    ]
-  },
-  {
-    "id": "1850",
-    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1850",
-    "name": "指定拳王全體技能回復-人神2倍攻 ‧ 隨機轉木",
-    "detail": "召喚師隊伍中有烈陽赤炎 ‧ 草薙京及紫藍之月 ‧ 八神庵時，敵人會將召喚師所有主動技能 CD 變 0，並在 7 回合內，使人類及神族成員的攻擊力提升 2 倍。\u003cbr\u003e每回合移動符石前，敵人會隨機將 1 種符石轉化為木符石。",
-    "esCode": "{{ES1850}}",
-    "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/91/SI125.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102456\u0026path-prefix\u003dzh",
-        "iconKey": "SI125.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/8e/SI157.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102645\u0026path-prefix\u003dzh",
-        "iconKey": "SI157.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
       }
     ]
   },
@@ -36925,7 +36908,7 @@
   {
     "id": "2835",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2835",
-    "name": "攻前盾 ‧ 攻後左右席捲 ‧ 無法控制",
+    "name": "攻前盾 ‧ 攻後左右暴風 ‧ 無法控制",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e受到敵人攻擊時，暴風席捲最左方及最右方直行的位置；暴風位置內的符石無法被消除或引爆，該位置一經觸碰，即時停止移動符石。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES2835}}",
     "icons": [
