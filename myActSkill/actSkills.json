@@ -5978,6 +5978,16 @@
     ]
   },
   {
+    "skillName": "無止煉獄",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E6%AD%A2%E7%85%89%E7%8D%84",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "每首批消除 1 組火屬性的連擊 (Combo) 時，個人追打火屬性攻擊 1 次，並於下回合開始時將 1 粒符石轉化為火符石，最多追打 4 次及轉化 4 粒；效果持續至沒有首批消除 4 粒或以上火符石",
+    "skillMonsters": [
+      "7015"
+    ]
+  },
+  {
     "skillName": "無畏之心",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E7%95%8F%E4%B9%8B%E5%BF%83",
     "skillCDMin": 17,
@@ -8185,6 +8195,16 @@
     "skillDesc": "1 回合內，每直行消除一組 4 粒或以上符石時 (只計算首批消除的符石)，該直行將產生 2 粒心符石",
     "skillMonsters": [
       "1480"
+    ]
+  },
+  {
+    "skillName": "絕命危機",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%B5%95%E5%91%BD%E5%8D%B1%E6%A9%9F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "自身生命力扣至 1，並將被扣減的生命力加入自身攻擊力 (攻擊力不可與其他成員共享)",
+    "skillMonsters": [
+      "1810"
     ]
   },
   {

@@ -8846,7 +8846,7 @@
   {
     "id": "661",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/661",
-    "name": "攻後轉水4",
+    "name": "攻後轉水4顆",
     "detail": "當受到敵人攻擊時，場上隨機 4 粒符石會轉化為水符石",
     "esCode": "{{ES661}}",
     "icons": [
@@ -8859,7 +8859,7 @@
   {
     "id": "662",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/662",
-    "name": "攻後轉火4",
+    "name": "攻後轉火4顆",
     "detail": "當受到敵人攻擊時，場上隨機 4 粒符石會轉化為火符石",
     "esCode": "{{ES662}}",
     "icons": [
@@ -8872,7 +8872,7 @@
   {
     "id": "663",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/663",
-    "name": "攻後轉木4",
+    "name": "攻後轉木4顆",
     "detail": "當受到敵人攻擊時，場上隨機 4 粒符石會轉化為木符石",
     "esCode": "{{ES663}}",
     "icons": [

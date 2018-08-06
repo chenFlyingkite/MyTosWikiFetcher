@@ -8990,6 +8990,11 @@
     "link": "http://zh.tos.wikia.com/wiki/%E7%89%A1%E4%B8%B9"
   },
   {
+    "title": "No. 1810 守約之鎧 ‧ 德耳塔",
+    "id": "1810",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%AE%88%E7%B4%84%E4%B9%8B%E9%8E%A7_%E2%80%A7_%E5%BE%B7%E8%80%B3%E5%A1%94"
+  },
+  {
     "title": "No. 1817 戶愚呂弟 80%",
     "id": "1817",
     "link": "http://zh.tos.wikia.com/wiki/%E6%88%B6%E6%84%9A%E5%91%82%E5%BC%9F_80%25"
@@ -9885,6 +9890,11 @@
     "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E5%85%89%E6%B0%A3_%E2%80%A7_%E4%BB%99%E6%B0%B4%E5%BF%8D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)"
   },
   {
+    "title": "S197 比翼浪花 ‧ 卡珊德拉",
+    "id": "6197",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%AF%94%E7%BF%BC%E6%B5%AA%E8%8A%B1_%E2%80%A7_%E5%8D%A1%E7%8F%8A%E5%BE%B7%E6%8B%89"
+  },
+  {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
     "id": "7001",
     "link": "http://zh.tos.wikia.com/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2"
@@ -9953,6 +9963,11 @@
     "title": "P14 蘭陵王 ‧ 高長恭",
     "id": "7014",
     "link": "http://zh.tos.wikia.com/wiki/%E8%98%AD%E9%99%B5%E7%8E%8B_%E2%80%A7_%E9%AB%98%E9%95%B7%E6%81%AD"
+  },
+  {
+    "title": "P15 獠牙怒蟒 ‧ 穆修素",
+    "id": "7015",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%8D%A0%E7%89%99%E6%80%92%E8%9F%92_%E2%80%A7_%E7%A9%86%E4%BF%AE%E7%B4%A0"
   },
   {
     "title": "V1 烏蘇拉",
