@@ -10,8 +10,10 @@ import flyingkite.javaxlibrary.images.resize.PngResizer;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.IOUtil;
+import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
+import main.card.TosCard;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 
@@ -46,9 +48,40 @@ public class ASD {
         //getCrafts();
 
         //scale();
-        scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
+        //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
+        loadCardsCSV();
         tt.tac("Done");
+    }
+
+    private static void loadCardsCSV() {
+        TicTac2 clk = new TicTac2();
+        Gson mGson = new Gson();
+
+        File fc = new File("myCard", "cardList.json");
+        // Try to parsing back to know its performance
+        clk.tic();
+        TosCard[] allCards = GsonUtil.loadFile(fc, TosCard[].class);
+        clk.tac("%s cards loaded", allCards.length);
+
+        for (TosCard c : allCards) {
+            L.log(sc(c));
+        }
+        // To file
+        /*
+        LF csv = new LF("myCard", "x.txt");
+        //csv.setLogToL(false);
+        csv.getFile().open(false);
+        csv.log("idNorm,name");
+        for (TosCard c : allCards) {
+            csv.log(sc(c));
+        }
+        csv.getFile().close();
+        */
+    }
+
+    private static String sc(TosCard c) {
+        return String.format("#%4s,%s\n      %s\n      %s", c.idNorm, c.name, c.skillDesc1 + "," + c.skillDesc2, c.skillLeaderDesc);
     }
 
     // Diff the image in folder
