@@ -34,6 +34,7 @@ public class TosCardCreator {
         public List<String> powStages = new ArrayList<>();
         public List<String> virStages = new ArrayList<>();
         public List<SkillInfo> skillChange = new ArrayList<>();
+        public List<String> sameSkills = new ArrayList<>();
     }
 
 //  node length, page
@@ -227,6 +228,7 @@ public class TosCardCreator {
         fillCombination(c, info);
         fillEvolution(c, info);
         c.cardDetails = info.detailsHtml;
+        c.sameSkills = info.sameSkills;
         fillStageLinks(c, info);
         fillSkillChange(c, info);
     }

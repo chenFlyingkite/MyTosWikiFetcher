@@ -796,25 +796,30 @@ class TosGet {
             return result
         }
 
-        fun getCardDetails(doc: Document) : String {
+        fun getCardDetails(doc: Document) : CardDetail {
+            val de = CardDetail()
             //((Element) details.get(0).childNodes.get(4)).text()
             val details = doc.getElementsByClass("module move")
             val s1 = details?.size ?: 0
-            if (s1 > 0) {
-                val first = details?.get(0)
-                val size = first?.childNodeSize() ?: 0
+            if (s1 > 0 && details != null) {
+                val first = details[0]
+                val size = first.childNodeSize()
                 if (size > 0) {
-                    val ele = first?.childNode(size - 1)
+                    val ele = first.childNode(size - 1)
                     if (ele is Element) {
                         //return ele.text()
-                        return concatTextNodes(ele)
+                        de.detail = concatTextNodes(ele)
+                        val tas = ele.getElementsByClass(imageClass)
+                        for (a in tas) {
+                            de.sameSkills.add(normEvoId(getImgAlt(a)))
+                        }
                     }
                 }
             }
-            return ""
+            return de
         }
 
-        fun getCardDetailsNormed(doc: Document) : String {
+        fun getCardDetailsNormed(doc: Document) : CardDetail {
             var s = getCardDetails(doc)
             val oneLn = arrayOf("發動條件")
             val newLn = arrayOf("隊伍技能", "發動條件", "合成時加入技能", "＊", "隊伍效果"
@@ -1153,6 +1158,15 @@ class CraftSkill {
 
     override fun toString(): String {
         return "$level : $score -> $detail"
+    }
+}
+
+class CardDetail {
+    var detail = ""
+    var sameSkills = ArrayList<String>()
+
+    override fun toString(): String {
+        return "$sameSkills -> $detail"
     }
 }
 

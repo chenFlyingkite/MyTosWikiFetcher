@@ -63,6 +63,7 @@ public final class TC {
     public static final String combineFrom = "combineFrom";
     public static final String combineTo = "combineTo";
     public static final String skillChange = "skillChange";
+    public static final String sameSkills = "sameSkills";
 
     // Automation
     public static void g() {
@@ -86,7 +87,7 @@ public final class TC {
                 skillVirBattleName, skillVirBattleLink,
                 evolveFrom, evolveNeed, evolveTo,
                 combineFrom, combineTo,
-                skillChange);
+                skillChange, sameSkills);
     }
 
     private static void f(String... param) {

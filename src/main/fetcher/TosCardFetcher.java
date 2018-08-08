@@ -10,6 +10,7 @@ import main.card.TosCard;
 import main.card.TosCardCreator;
 import main.card.TosCardCreator.CardInfo;
 import main.fetcher.data.Anchors;
+import main.kt.CardDetail;
 import main.kt.CardItem;
 import main.kt.CardTds;
 import main.kt.IconInfo;
@@ -188,7 +189,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
 
         // -- Finishing fetching card's information --
         // Get card details
-        info.detailsHtml = TosGet.me.getCardDetailsNormed(doc);
+        CardDetail a = TosGet.me.getCardDetails(doc);
+        info.detailsHtml = a.getDetail();
+        info.sameSkills = a.getSameSkills();
 
         return info;
     }

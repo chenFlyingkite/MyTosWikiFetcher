@@ -120,7 +120,7 @@ public class TosCard {
     //---- Card Details, 卡片資訊
     //------------
 
-    /** Evolution to card idNorm */
+    /** Card info, have 組合技，隊長技 */
     @SerializedName(TC.cardDetails)
     public String cardDetails = "";
 
@@ -295,4 +295,8 @@ public class TosCard {
     /** Skill change contents */
     @SerializedName(TC.skillChange)
     public List<SkillLite> skillChange = new ArrayList<>();
+
+    /** Skill eating cards, from cardDetail */
+    @SerializedName(TC.sameSkills)
+    public List<String> sameSkills = new ArrayList<>();
 }
