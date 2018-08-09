@@ -63,35 +63,28 @@ public class ASD {
         clk.tic();
         TosCard[] allCards = GsonUtil.loadFile(fc, TosCard[].class);
         clk.tac("%s cards loaded", allCards.length);
-        String key = "消除所有附加效果";
-        int sn = 0, tn = 0;
-
         for (TosCard c : allCards) {
-            String s = c.skillDesc1 + " & " + c.skillDesc2;
-            String t = c.cardDetails;
-            if (s.contains(key)) {
-                L.log(sc(c));
-                sn++;
-            }
-            if (t.contains(key)) {
-                L.log("detail\n" + sc(c));
-                tn++;
-            }
-            //L.log(sc(c));
+            L.log("#%s, Evo = %s", c.idNorm, c.evolveInfo);
         }
 
-        L.log("%s in skill, %s in detail", sn, tn);
-        // To file
-        /*
-        LF csv = new LF("myCard", "x.txt");
-        //csv.setLogToL(false);
-        csv.getFile().open(false);
-        csv.log("idNorm,name");
-        for (TosCard c : allCards) {
-            csv.log(sc(c));
-        }
-        csv.getFile().close();
-        */
+//        String key = "消除所有附加效果";
+//        int sn = 0, tn = 0;
+//
+//        for (TosCard c : allCards) {
+//            String s = c.skillDesc1 + " & " + c.skillDesc2;
+//            String t = c.cardDetails;
+//            if (s.contains(key)) {
+//                L.log(sc(c));
+//                sn++;
+//            }
+//            if (t.contains(key)) {
+//                L.log("detail\n" + sc(c));
+//                tn++;
+//            }
+//            //L.log(sc(c));
+//        }
+//
+//        L.log("%s in skill, %s in detail", sn, tn);
     }
 
     private static String sc(TosCard c) {

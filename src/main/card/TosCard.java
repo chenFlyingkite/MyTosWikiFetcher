@@ -276,17 +276,8 @@ public class TosCard {
     //---- Evolution, 卡片進化
     //------------
 
-    /** Evolution from card idNorm */
-    @SerializedName(TC.evolveFrom)
-    public String evolveFrom = "";
-
-    /** Evolution material card idNorm */
-    @SerializedName(TC.evolveNeed)
-    public List<String> evolveNeed = new ArrayList<>();
-
-    /** Evolution to card idNorm */
-    @SerializedName(TC.evolveTo)
-    public String evolveTo = "";
+    @SerializedName(TC.evolveInfo)
+    public List<Evolve> evolveInfo = new ArrayList<>();
 
     //------------
     //---- Skill change, 技能變更

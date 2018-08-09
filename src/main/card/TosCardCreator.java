@@ -1,5 +1,6 @@
 package main.card;
 
+import flyingkite.log.L;
 import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
 import main.fetcher.TosActiveSkillFetcher;
@@ -35,6 +36,17 @@ public class TosCardCreator {
         public List<String> virStages = new ArrayList<>();
         public List<SkillInfo> skillChange = new ArrayList<>();
         public List<String> sameSkills = new ArrayList<>();
+    }
+
+    private class EvoMeta {
+        /** Evolution from card idNorm */
+        public String evolveFrom = "";
+
+        /** Evolution material card idNorm */
+        public List<String> evolveNeed = new ArrayList<>();
+
+        /** Evolution to card idNorm */
+        public String evolveTo = "";
     }
 
 //  node length, page
@@ -197,8 +209,8 @@ public class TosCardCreator {
     public void inspectCard(TosCard c, Loggable log) {
         if (c == null) return;
 
-        if (c.evolveFrom.length() > 0 && !c.idNorm.equals(c.evolveFrom)) {
-            log.log("Evolve not self? %s", c.wikiLink);
+        //if (c.evolveFrom.length() > 0 && !c.idNorm.equals(c.evolveFrom)) {
+            //log.log("Evolve not self? %s", c.wikiLink);
             // 禮物黑手黨 ‧ 馴鹿組
             // http://zh.tos.wikia.com/wiki/1308
             // 日月巨狼 ‧ 芬爾厄
@@ -213,7 +225,7 @@ public class TosCardCreator {
             // http://zh.tos.wikia.com/wiki/721 ~ 725
             // 憂懼之罪 ‧ 梅塔特隆
             // http://zh.tos.wikia.com/wiki/961 ~ 965
-        }
+        //}
 
         if (c.skillAmeBattleName.length() > 0 && c.skillAmeCost1 == 0) {
             log.log("HaveAme but no cost? %s", c.wikiLink);
@@ -298,6 +310,7 @@ public class TosCardCreator {
     private void fillEvolution(TosCard c, CardInfo info) {
         List<String> list = info.cardTds.getEvolve();
         if (list.size() == 0) return;
+        EvoMeta em = new EvoMeta();
 
         int plus = list.indexOf("EvoPlus");
         int end = list.lastIndexOf("EvoArrow");
@@ -307,24 +320,82 @@ public class TosCardCreator {
         } else if (end > 0) {
             fmIndex = end;
         }
-        if (plus > 0 && fmIndex > 0) {
-            c.evolveFrom = list.get(fmIndex - 1);
+        if (plus > 0) {
+            em.evolveFrom = list.get(fmIndex - 1);
 
             if (0 < end && end < list.size() - 1) {
-                c.evolveTo = list.get(end + 1);
-                c.evolveNeed = fmIndex == end
+                em.evolveTo = list.get(end + 1);
+                em.evolveNeed = fmIndex == end
                         ? new ArrayList<>()
-                        : new ArrayList<>(list.subList(fmIndex + 1, end));
+                        : new ArrayList<>(list.subList(fmIndex, end + 1));
             }
         }
 
         // Normalize
-        c.evolveFrom = normEvoId(c.evolveFrom);
-        c.evolveTo = normEvoId(c.evolveTo);
-        for (int i = 0; i < c.evolveNeed.size(); i++) {
-            String s = c.evolveNeed.get(i);
-            c.evolveNeed.set(i, normEvoId(s));
+        normEvo(c, em);
+    }
+
+    private void normEvo(TosCard c, EvoMeta em) {
+        List<String> evo = new ArrayList<>();
+        if (!em.evolveFrom.isEmpty()) {
+            evo.add(normEvoId(em.evolveFrom));
         }
+        for (int i = 0; i < em.evolveNeed.size(); i++) {
+            String s = em.evolveNeed.get(i);
+            if (!s.isEmpty()) {
+                evo.add(normEvoId(s));
+            }
+        }
+        if (!em.evolveTo.isEmpty()) {
+            evo.add(normEvoId(em.evolveTo));
+        }
+
+        List<Evolve> evos = new ArrayList<>();
+        int n = 0;
+        int MAX = evo.size();
+        int plus = -1, arrow = -1;
+        while (n < MAX) {
+            plus = indexOf(evo, "EvoPlus", plus + 1, MAX);//evo.indexOf("EvoPlus");
+            arrow = indexOf(evo, "EvoArrow", arrow + 1, MAX);//evo.indexOf("EvoArrow");
+            Evolve e = null;
+            if (plus < 0 && arrow < 0) { // Common evolve
+                e = sliceEvolve(n, MAX - 1, evo);
+                n = MAX;
+            } else if (plus >= 0 && arrow >= 0) {
+                e = sliceEvolve(n, arrow + 1, plus + 1, arrow, evo);
+                n = arrow + 2;
+            } else {
+                L.log("XXX X_X");
+            }
+            if (e != null) {
+                evos.add(e);
+            }
+        }
+        c.evolveInfo = evos;
+    }
+
+    private int indexOf(List<String> list, String o, int from, int to) {
+        if (o == null) {
+            for (int i = from; i < to; i++)
+                if (list.get(i) == null)
+                    return i;
+        } else {
+            for (int i = from; i < to; i++)
+                if (o.equals(list.get(i)))
+                    return i;
+        }
+        return -1;
+    }
+
+    private Evolve sliceEvolve(int from, int to, List<String> evo) {
+        return sliceEvolve(from, to, from + 1, to, evo);
+    }
+    private Evolve sliceEvolve(int fromAt, int toAt, int from, int to, List<String> evo) {
+        Evolve e = new Evolve();
+        e.evolveFrom = evo.get(fromAt);
+        e.evolveTo = evo.get(toAt);
+        e.evolveNeed = evo.subList(from, to);
+        return e;
     }
 
     private void fillCombination(TosCard c, CardInfo info) {

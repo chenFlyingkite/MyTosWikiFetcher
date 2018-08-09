@@ -54,7 +54,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "http://zh.tos.wikia.com/wiki/595" // 傾世媚狐 ‧ 蘇妲己
                 , "http://zh.tos.wikia.com/wiki/1082" // 孤高龍王 ‧ 敖廣
                 , "http://zh.tos.wikia.com/wiki/1777" // 斯芬克斯
-                //---
+        );
+        //---
+        Collections.addAll(link
                 , "http://zh.tos.wikia.com/wiki/001" // TosCardCreator = 18
                 , "http://zh.tos.wikia.com/wiki/024" // TosCardCreator = 28
                 , "http://zh.tos.wikia.com/wiki/1001" // TosCardCreator = 16

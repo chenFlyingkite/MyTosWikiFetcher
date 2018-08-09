@@ -721,6 +721,7 @@ class TosGet {
                 val isEvo = i > 0 && td2[i - 1].text().contains("進化列表")
                 val isCom = i > 0 && td2[i - 1].text().contains("合體列表")
                 val isPow = i > 0 && td2[i - 1].text().contains("潛能解放") // Power Release
+                val isVir = i > 0 && td2[i - 1].text().contains("異空轉生")
 
                 val e = td2[i]
 
@@ -748,7 +749,7 @@ class TosGet {
                         val alt = getImgAlt(nos)
                         if (alt != null) {
                             inImgs.add(alt)
-                            if (isEvo || isPow) {
+                            if (isEvo || isPow || isVir) {
                                 evos.add(alt)
                             } else if (isCom) {
                                 coms.add(alt)

@@ -57,6 +57,7 @@ public final class TC {
     public static final String skillPowBattleLink = "skillPowBattleLink";
     public static final String skillVirBattleName = "skillVirBattleName";
     public static final String skillVirBattleLink = "skillVirBattleLink";
+    public static final String evolveInfo = "evolveInfo";
     public static final String evolveFrom = "evolveFrom";
     public static final String evolveNeed = "evolveNeed";
     public static final String evolveTo = "evolveTo";
