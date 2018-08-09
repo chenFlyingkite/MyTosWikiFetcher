@@ -9,8 +9,8 @@ import flyingkite.javaxlibrary.images.diff.PngDiffer;
 import flyingkite.javaxlibrary.images.resize.PngResizer;
 import flyingkite.log.L;
 import flyingkite.log.LF;
-import flyingkite.tool.IOUtil;
 import flyingkite.tool.GsonUtil;
+import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
 import main.card.TosCard;
@@ -63,10 +63,24 @@ public class ASD {
         clk.tic();
         TosCard[] allCards = GsonUtil.loadFile(fc, TosCard[].class);
         clk.tac("%s cards loaded", allCards.length);
+        String key = "消除所有附加效果";
+        int sn = 0, tn = 0;
 
         for (TosCard c : allCards) {
-            L.log(sc(c));
+            String s = c.skillDesc1 + " & " + c.skillDesc2;
+            String t = c.cardDetails;
+            if (s.contains(key)) {
+                L.log(sc(c));
+                sn++;
+            }
+            if (t.contains(key)) {
+                L.log("detail\n" + sc(c));
+                tn++;
+            }
+            //L.log(sc(c));
         }
+
+        L.log("%s in skill, %s in detail", sn, tn);
         // To file
         /*
         LF csv = new LF("myCard", "x.txt");
@@ -81,7 +95,11 @@ public class ASD {
     }
 
     private static String sc(TosCard c) {
-        return String.format("#%4s,%s\n      %s\n      %s", c.idNorm, c.name, c.skillDesc1 + "," + c.skillDesc2, c.skillLeaderDesc);
+        return "#" + c.idNorm + "," + c.name
+            + "\n      " + c.skillDesc1 + "," + c.skillDesc2
+            + "\n      " + c.skillLeaderDesc
+        ;
+        //return String.format("#%4s,%s\n      %s\n      %s", c.idNorm, c.name, c.skillDesc1 + "," + c.skillDesc2, c.skillLeaderDesc);
     }
 
     // Diff the image in folder
