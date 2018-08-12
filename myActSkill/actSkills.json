@@ -1190,6 +1190,16 @@
     ]
   },
   {
+    "skillName": "冷冽斷頭刀",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%86%B7%E5%86%BD%E6%96%B7%E9%A0%AD%E5%88%80",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "最頂 1 橫行的符石轉化為水強化符石；1 回合內，消除最底 1 橫行內的所有符石時，全隊攻擊力 2.5 倍",
+    "skillMonsters": [
+      "1816"
+    ]
+  },
+  {
     "skillName": "冷煞霜刃",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%86%B7%E7%85%9E%E9%9C%9C%E5%88%83",
     "skillCDMin": 24,
@@ -3060,6 +3070,16 @@
     ]
   },
   {
+    "skillName": "拖延術",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%8B%96%E5%BB%B6%E8%A1%93",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，自身不能對敵方造成傷害，減少 20% 所受傷害；下回合開始時，隨機 3 個人類成員所在直行的符石轉化為該成員屬性的符石",
+    "skillMonsters": [
+      "1779"
+    ]
+  },
+  {
     "skillName": "拚力迎戰",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%8B%9A%E5%8A%9B%E8%BF%8E%E6%88%B0",
     "skillCDMin": 19,
@@ -4702,7 +4722,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%AD%B8%E4%B8%80%E4%B9%8B%E5%BF%97",
     "skillCDMin": 24,
     "skillCDMax": 10,
-    "skillDesc": "1 回合內，消除符石的種類愈多 (只計算首批消除的符石)，自身攻擊力愈高，最大 12 倍 (攻擊力不可與其他成員共享)",
+    "skillDesc": "1 回合內，消除符石的種類愈多 (只計算首批消除的符石)，自身攻擊力愈高，最大 12 倍",
     "skillMonsters": [
       "7002"
     ]
@@ -8202,7 +8222,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%B5%95%E5%91%BD%E5%8D%B1%E6%A9%9F",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "自身生命力扣至 1，並將被扣減的生命力加入自身攻擊力 (攻擊力不可與其他成員共享)",
+    "skillDesc": "自身生命力扣至 1，1 回合內將被扣減的生命力加入自身攻擊力 (攻擊力不可與其他成員共享)",
     "skillMonsters": [
       "1810"
     ]

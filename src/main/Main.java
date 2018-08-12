@@ -61,6 +61,9 @@ public class Main {
                     ), TosCardFetcher.me
             );
         }
+        if (!regl) {
+            TosCardFetcher.me.run();
+        }
 
         //-- Seldom
         if (false) {

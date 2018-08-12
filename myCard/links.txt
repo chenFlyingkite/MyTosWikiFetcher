@@ -8870,6 +8870,11 @@
     "link": "http://zh.tos.wikia.com/wiki/%E8%87%AA%E7%94%B1%E7%AB%A5%E5%BF%83_%E2%80%A7_%E5%B0%8F%E6%98%8E"
   },
   {
+    "title": "No. 1779 見習魔導士 ‧ 朗杰",
+    "id": "1779",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%A6%8B%E7%BF%92%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E6%9C%97%E6%9D%B0"
+  },
+  {
     "title": "No. 1785 阿路加",
     "id": "1785",
     "link": "http://zh.tos.wikia.com/wiki/%E9%98%BF%E8%B7%AF%E5%8A%A0"
@@ -8993,6 +8998,21 @@
     "title": "No. 1810 守約之鎧 ‧ 德耳塔",
     "id": "1810",
     "link": "http://zh.tos.wikia.com/wiki/%E5%AE%88%E7%B4%84%E4%B9%8B%E9%8E%A7_%E2%80%A7_%E5%BE%B7%E8%80%B3%E5%A1%94"
+  },
+  {
+    "title": "No. 1812 天火賢者",
+    "id": "1812",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%81%AB%E8%B3%A2%E8%80%85"
+  },
+  {
+    "title": "No. 1815 無夜賢者",
+    "id": "1815",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E5%A4%9C%E8%B3%A2%E8%80%85"
+  },
+  {
+    "title": "No. 1816 斷頭裁決 ‧ 夏爾",
+    "id": "1816",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%96%B7%E9%A0%AD%E8%A3%81%E6%B1%BA_%E2%80%A7_%E5%A4%8F%E7%88%BE"
   },
   {
     "title": "No. 1817 戶愚呂弟 80%",
@@ -9780,6 +9800,11 @@
     "link": "http://zh.tos.wikia.com/wiki/%E8%89%BE%E7%88%BE%E8%8A%99%E8%90%8A%E5%A7%86%E7%9A%84%E5%A5%B3%E7%8E%8B_%E2%80%A7_%E8%98%BF%E6%96%AF(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)"
   },
   {
+    "title": "No. 6167 維珍尼亞",
+    "id": "6167",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%B6%AD%E7%8F%8D%E5%B0%BC%E4%BA%9E"
+  },
+  {
     "title": "S168 資源堪察 ‧ 拉法葉爾",
     "id": "6168",
     "link": "http://zh.tos.wikia.com/wiki/%E8%B3%87%E6%BA%90%E5%A0%AA%E5%AF%9F_%E2%80%A7_%E6%8B%89%E6%B3%95%E8%91%89%E7%88%BE"
@@ -9888,6 +9913,11 @@
     "title": "S195 聖光氣 ‧ 仙水忍(動態造型)",
     "id": "6195",
     "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E5%85%89%E6%B0%A3_%E2%80%A7_%E4%BB%99%E6%B0%B4%E5%BF%8D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)"
+  },
+  {
+    "title": "S196 斷頭裁決 ‧ 夏爾(動態造型)",
+    "id": "6196",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%96%B7%E9%A0%AD%E8%A3%81%E6%B1%BA_%E2%80%A7_%E5%A4%8F%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)"
   },
   {
     "title": "S197 比翼浪花 ‧ 卡珊德拉",

@@ -64,27 +64,34 @@ public class ASD {
         TosCard[] allCards = GsonUtil.loadFile(fc, TosCard[].class);
         clk.tac("%s cards loaded", allCards.length);
         for (TosCard c : allCards) {
-            L.log("#%s, Evo = %s", c.idNorm, c.evolveInfo);
+            if (c.combineFrom.size() > 0) {
+                L.log("#%s, Cmb = %s -> %s", c.idNorm, c.combineFrom, c.combineTo);
+            }
         }
 
-//        String key = "消除所有附加效果";
-//        int sn = 0, tn = 0;
-//
-//        for (TosCard c : allCards) {
-//            String s = c.skillDesc1 + " & " + c.skillDesc2;
-//            String t = c.cardDetails;
-//            if (s.contains(key)) {
-//                L.log(sc(c));
-//                sn++;
-//            }
-//            if (t.contains(key)) {
-//                L.log("detail\n" + sc(c));
-//                tn++;
-//            }
-//            //L.log(sc(c));
-//        }
-//
-//        L.log("%s in skill, %s in detail", sn, tn);
+        // Find cards
+        //findCards("效果持續至", allCards);
+
+    }
+
+    private static void findCards(String key, TosCard[] allCards) {
+        int sn = 0, tn = 0;
+
+        for (TosCard c : allCards) {
+            String s = c.skillDesc1 + " & " + c.skillDesc2;
+            String t = c.cardDetails;
+            if (s.contains(key)) {
+                L.log(sc(c));
+                sn++;
+            }
+            if (t.contains(key)) {
+                L.log("detail\n" + sc(c));
+                tn++;
+            }
+            //L.log(sc(c));
+        }
+
+        L.log("%s in skill, %s in detail", sn, tn);
     }
 
     private static String sc(TosCard c) {

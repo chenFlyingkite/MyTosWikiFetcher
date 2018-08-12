@@ -801,18 +801,20 @@ class TosGet {
             val de = CardDetail()
             //((Element) details.get(0).childNodes.get(4)).text()
             val details = doc.getElementsByClass("module move")
-            val s1 = details?.size ?: 0
-            if (s1 > 0 && details != null) {
-                val first = details[0]
-                val size = first.childNodeSize()
-                if (size > 0) {
-                    val ele = first.childNode(size - 1)
-                    if (ele is Element) {
-                        //return ele.text()
-                        de.detail = concatTextNodes(ele)
-                        val tas = ele.getElementsByClass(imageClass)
-                        for (a in tas) {
-                            de.sameSkills.add(normEvoId(getImgAlt(a)))
+
+            for (det in details) {
+                val cif = det.text().indexOf("卡牌資訊")
+                if (cif in 0..9) { // Fine card info node, not story node
+                    val size = det.childNodeSize()
+                    if (size > 0) {
+                        val ele = det.childNode(size - 1)
+                        if (ele is Element) {
+                            //return ele.text()
+                            de.detail = concatTextNodes(ele)
+                            val tas = ele.getElementsByClass(imageClass)
+                            for (a in tas) {
+                                de.sameSkills.add(normEvoId(getImgAlt(a)))
+                            }
                         }
                     }
                 }
