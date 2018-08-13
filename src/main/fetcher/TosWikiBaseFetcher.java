@@ -33,6 +33,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class TosWikiBaseFetcher implements Runnable {
     public static final String wikiBaseZh = "http://zh.tos.wikia.com";
@@ -122,7 +123,9 @@ public class TosWikiBaseFetcher implements Runnable {
         apiLf.getFile().delete().open();
         apiLf.setLogToL(!mFetchAll);
 
-        OkHttpClient client = new OkHttpClient();
+        OkHttpClient client = new OkHttpClient().newBuilder()
+                .readTimeout(20, TimeUnit.SECONDS)
+                .build();
         Request request = new Request.Builder().url(apiLink).build();
         String answer = "";
         try {

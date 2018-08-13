@@ -5,7 +5,9 @@ import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
 import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
+import main.fetcher.TosCraftFetcher;
 import main.kt.CardTds;
+import main.kt.Craft;
 import main.kt.SkillInfo;
 
 import java.util.ArrayList;
@@ -29,7 +31,7 @@ public class TosCardCreator {
         public String idNorm = "";
         public List<String> hpValues = new ArrayList<>();
         public List<String> expInfos = new ArrayList<>();
-        public String detailsHtml = "";
+        public String details = "";
         public List<String> ameStages = new ArrayList<>();
         public List<String> awkStages = new ArrayList<>();
         public List<String> powStages = new ArrayList<>();
@@ -61,6 +63,7 @@ public class TosCardCreator {
     private Map<String, List<Skill>> skillActive;
     private Map<String, List<Skill>> skillChangeLeader;
     private Map<String, List<Skill>> skillChangeActive;
+    private Map<String, List<Craft>> allArmCrafts;
 
     private void loadAllSkills() {
         if (skillActive == null) {
@@ -71,6 +74,9 @@ public class TosCardCreator {
         }
         if (skillChangeActive == null) {
             skillChangeActive = TosAmeSkillFetcher.me.getAllSkillsActive();
+        }
+        if (allArmCrafts == null) {
+            allArmCrafts = TosCraftFetcher.me.getArmCrafts();
         }
     }
 
@@ -239,7 +245,9 @@ public class TosCardCreator {
         fillExpInfo(c, info.expInfos);
         fillCombination(c, info);
         fillEvolution(c, info);
-        c.cardDetails = info.detailsHtml;
+        fillVirRebirth(c, info);
+        fillArmCraft(c, info);
+        c.cardDetails = info.details;
         c.sameSkills = info.sameSkills;
         fillStageLinks(c, info);
         fillSkillChange(c, info);
@@ -329,6 +337,11 @@ public class TosCardCreator {
                         ? new ArrayList<>()
                         : new ArrayList<>(list.subList(fmIndex, end + 1));
             }
+        } else if (plus < 0 && 0 <= end && end < list.size() - 1) { // Only have arrow
+            if (info.virStages.size() > 0) { // Has Virtual rebirth
+                c.rebirthFrom = normId_nnnni(list.get(end - 1)); // list[0]
+                return;
+            }
         }
 
         // Normalize
@@ -338,16 +351,16 @@ public class TosCardCreator {
     private void normEvo(TosCard c, EvoMeta em) {
         List<String> evo = new ArrayList<>();
         if (!em.evolveFrom.isEmpty()) {
-            evo.add(normEvoId(em.evolveFrom));
+            evo.add(normId_nnnni(em.evolveFrom));
         }
         for (int i = 0; i < em.evolveNeed.size(); i++) {
             String s = em.evolveNeed.get(i);
             if (!s.isEmpty()) {
-                evo.add(normEvoId(s));
+                evo.add(normId_nnnni(s));
             }
         }
         if (!em.evolveTo.isEmpty()) {
-            evo.add(normEvoId(em.evolveTo));
+            evo.add(normId_nnnni(em.evolveTo));
         }
 
         List<Evolve> evos = new ArrayList<>();
@@ -408,16 +421,42 @@ public class TosCardCreator {
             boolean endI = s.endsWith("i");
             boolean evos = s.contains("Evo"); // EvoPlus or EvoArrow
             if (endI && !evos) {
-                c.combineFrom.add(normEvoId(s));
+                c.combineFrom.add(normId_nnnni(s));
             }
         }
 
         // Add the combined card
         int end = list.lastIndexOf("EvoArrow");
         if (end < list.size() - 1) {
-            c.combineTo.add(normEvoId(list.get(end + 1)));
+            c.combineTo.add(normId_nnnni(list.get(end + 1)));
         }
     }
+
+    private void fillVirRebirth(TosCard c, CardInfo info) {
+        List<String> list = info.cardTds.getRebirth();
+        if (list.size() == 0) return;
+        c.rebirthChange = normId_nnnni(list.get(0));
+    }
+
+    private void fillArmCraft(TosCard c, CardInfo info) {
+        List<String> list = info.cardTds.getArmCraft();
+        //if (list.size() == 0) return;
+        for (int i = 0; i < list.size(); i++) {
+            c.armCrafts.add(normId_Cnnnn(list.get(i)));
+        }
+        List<Craft> crafts = allArmCrafts.get(c.idNorm);
+        if (crafts != null) {
+            for (Craft cf : crafts) {
+                String id = cf.getIdNorm();
+                if (c.armCrafts.contains(id)) {
+                    // OK
+                } else { // Add it
+                    c.armCrafts.add(id);
+                }
+            }
+        }
+    }
+
 
     private void fillStageLinks(TosCard c, CardInfo info) {
         List<String> list;
@@ -482,11 +521,22 @@ public class TosCardCreator {
         return false;
     }
 
-    public String normEvoId(String s) {
+    public String normId_nnnni(String s) {
         boolean endI = s != null && s.endsWith("i");
         if (endI) {
             // Parse "12i" to "0012"
             return String.format(Locale.US, "%04d", Integer.parseInt(s.substring(0, s.length() - 1)));
+        } else {
+            return s;
+        }
+    }
+
+    public String normId_Cnnnn(String s) {
+        boolean beginC = s != null && s.startsWith("C");
+        if (beginC) {
+            // Parse "C3101" to "3101"
+            //return String.format(Locale.US, "%04d", Integer.parseInt(s.substring(0, s.length() - 1)));
+            return s.substring(1);
         } else {
             return s;
         }
@@ -510,7 +560,7 @@ public class TosCardCreator {
     // Fill in Normalized ID
     private void setNormId(TosCard c, String xxi) {
         if (!xxi.isEmpty()) {
-            c.idNorm = normEvoId(xxi);
+            c.idNorm = normId_nnnni(xxi);
         } else {
             // old one for the deprecated one
             c.idNorm = String.format(Locale.US, "%04d", Integer.parseInt(c.id));

@@ -391,7 +391,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         }
 
         // Step 5 : Get the card details
-        info.detailsHtml = TosGet.me.getCardDetailsNormed(doc).getDetail();
+        info.details = TosGet.me.getCardDetailsNormed(doc).getDetail();
 
         return info;
     }

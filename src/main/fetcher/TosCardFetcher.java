@@ -66,6 +66,10 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "http://zh.tos.wikia.com/wiki/656" // TosCardCreator = 31
         );
         link.clear(); // uncomment this if use test links
+        //link.add("http://zh.tos.wikia.com/wiki/1089"); // 妲己
+        //link.add("http://zh.tos.wikia.com/wiki/1090");
+        //link.add("http://zh.tos.wikia.com/wiki/595");
+        //link.add("http://zh.tos.wikia.com/wiki/230");
         return link;
     }
 
@@ -192,7 +196,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // -- Finishing fetching card's information --
         // Get card details
         CardDetail a = TosGet.me.getCardDetails(doc);
-        info.detailsHtml = a.getDetail();
+        info.details = a.getDetail();
         info.sameSkills = a.getSameSkills();
 
         return info;

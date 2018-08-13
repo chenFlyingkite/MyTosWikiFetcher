@@ -260,6 +260,14 @@ public class TosCard {
     @SerializedName(TC.skillVirBattleLink)
     public String skillVirBattleLink = "";
 
+    /** Virtual Rebirth from card, like "傾世媚狐 ‧ 蘇妲己" #595 */
+    @SerializedName(TC.rebirthFrom)
+    public String rebirthFrom = "";
+
+    /** Virtual Rebirth change, like "善心狐仙 ‧ 蘇妲己" #1090 */
+    @SerializedName(TC.rebirthChange)
+    public String rebirthChange = "";
+
     //------------
     //---- Combination, 卡片合體
     //------------
@@ -290,4 +298,8 @@ public class TosCard {
     /** Skill eating cards, from cardDetail */
     @SerializedName(TC.sameSkills)
     public List<String> sameSkills = new ArrayList<>();
+
+    /** Arm crafts, like #3101 #3102 #3103 #3104 #3105 */
+    @SerializedName(TC.armCrafts)
+    public List<String> armCrafts = new ArrayList<>();
 }

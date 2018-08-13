@@ -41,7 +41,7 @@ public class Main {
             // 敵人技能
             runParallel(parl, TosEnemySkillFetcher.me);
             // 龍刻
-            runParallel(parl, TosCraftFetcher.me);
+            //runParallel(parl, TosCraftFetcher.me);
         }
         // 維基動態
         if (regl) {
@@ -57,20 +57,23 @@ public class Main {
 
             TaskMonitorUtil.join(Arrays.asList(
                     TosWikiCardsLister.me
-                    , TosActiveSkillFetcher.me
-                    , TosAmeSkillFetcher.me
+                    , TosActiveSkillFetcher.me // For skill change
+                    , TosAmeSkillFetcher.me // For skill change
+                    , TosCraftFetcher.me
                     ), TosCardFetcher.me
             );
         }
         if (!regl) {
-            //TosCardFetcher.me.run();
-            for (int i = -3; i < 30; i++) {
-                long x = GammaFunction.gammaN(i);
-                L.log("G(%s) = %s", i, x);
-            }
-            for (int i = -3; i < 500; i++) {
-                double x = GammaFunction.gammaN2(i);
-                L.log("G(%s / 2) = %s", i, x);
+            TosCardFetcher.me.run();
+            if (false) {
+                for (int i = -3; i < 30; i++) {
+                    long x = GammaFunction.gammaN(i);
+                    L.log("G(%s) = %s", i, x);
+                }
+                for (int i = -3; i < 500; i++) {
+                    double x = GammaFunction.gammaN2(i);
+                    L.log("G(%s / 2) = %s", i, x);
+                }
             }
         }
 

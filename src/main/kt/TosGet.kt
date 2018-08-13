@@ -714,6 +714,8 @@ class TosGet {
             val inImgs = result.Images
             val evos = result.Evolve
             val coms = result.Combine
+            val virs = result.Rebirth
+            val arms = result.ArmCraft
             var x = 0
             val td2n = td2?.size ?: 0
             for (i in 0 until td2n) {
@@ -722,6 +724,10 @@ class TosGet {
                 val isCom = i > 0 && td2[i - 1].text().contains("合體列表")
                 val isPow = i > 0 && td2[i - 1].text().contains("潛能解放") // Power Release
                 val isVir = i > 0 && td2[i - 1].text().contains("異空轉生")
+                val isVr2 = i > 0 && td2[i - 1].text().contains("異力轉換")
+                val isArm = i > 0 && td2[i - 1].text().contains("武裝龍刻")
+                val isVr3 = i > 1 && td2[i - 2].text().contains("異空轉生")
+                            && td2[i].attr("colspan") == "3"
 
                 val e = td2[i]
 
@@ -753,6 +759,12 @@ class TosGet {
                                 evos.add(alt)
                             } else if (isCom) {
                                 coms.add(alt)
+                            } else if (isVr2 || isVr3) {
+                                virs.add(alt)
+                            } else if (isArm) {
+                                arms.add(alt)
+                            } else {
+                                alt;
                             }
                         }
                     }
@@ -921,6 +933,8 @@ class CardTds {
     val Images: MutableList<String> = ArrayList()
     val Evolve: MutableList<String> = ArrayList()
     val Combine: MutableList<String> = ArrayList()
+    val Rebirth: MutableList<String> = ArrayList()
+    val ArmCraft: MutableList<String> = ArrayList()
 }
 
 open class TableInfo {
