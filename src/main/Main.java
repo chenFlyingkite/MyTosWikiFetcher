@@ -1,6 +1,7 @@
 package main;
 
 import flyingkite.log.L;
+import flyingkite.math.GammaFunction;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
@@ -62,7 +63,15 @@ public class Main {
             );
         }
         if (!regl) {
-            TosCardFetcher.me.run();
+            //TosCardFetcher.me.run();
+            for (int i = -3; i < 30; i++) {
+                long x = GammaFunction.gammaN(i);
+                L.log("G(%s) = %s", i, x);
+            }
+            for (int i = -3; i < 500; i++) {
+                double x = GammaFunction.gammaN2(i);
+                L.log("G(%s / 2) = %s", i, x);
+            }
         }
 
         //-- Seldom
