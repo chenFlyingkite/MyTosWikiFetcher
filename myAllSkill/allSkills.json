@@ -1974,8 +1974,8 @@
     "type": "主動技",
     "skillName": "冷冽斷頭刀",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%86%B7%E5%86%BD%E6%96%B7%E9%A0%AD%E5%88%80",
-    "skillCDMin": 18,
-    "skillCDMax": 7,
+    "skillCDMin": 17,
+    "skillCDMax": 6,
     "skillDesc": "最頂 1 橫行的符石轉化為水強化符石；1 回合內，消除最底 1 橫行內的所有符石時，全隊攻擊力 2.5 倍",
     "skillMonsters": []
   },
