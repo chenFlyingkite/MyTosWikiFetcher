@@ -12,6 +12,7 @@ import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
 import main.fetcher.TosPageArchiveFetcher;
+import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiFilePeeker;
@@ -30,7 +31,7 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        boolean regl = true; // Regular
+        boolean regl = false; // Regular
         boolean parl = true; // Parallel
         // 神魔主頁內容
         if (regl) {
@@ -42,6 +43,8 @@ public class Main {
             runParallel(parl, TosEnemySkillFetcher.me);
             // 龍刻
             //runParallel(parl, TosCraftFetcher.me);
+            // 全部技能
+            runParallel(parl, TosSkillFetcher.me);
         }
         // 維基動態
         if (regl) {
@@ -63,8 +66,9 @@ public class Main {
                     ), TosCardFetcher.me
             );
         }
+        //TosSkillFetcher.me.run();
         if (!regl) {
-            TosCardFetcher.me.run();
+            //TosCardFetcher.me.run();
             if (false) {
                 for (int i = -3; i < 30; i++) {
                     long x = GammaFunction.gammaN(i);

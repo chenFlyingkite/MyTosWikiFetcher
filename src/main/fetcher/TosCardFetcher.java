@@ -22,6 +22,7 @@ import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -66,6 +67,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "http://zh.tos.wikia.com/wiki/656" // TosCardCreator = 31
         );
         link.clear(); // uncomment this if use test links
+        //link.add("http://zh.tos.wikia.com/wiki/24");
+        //link.add("http://zh.tos.wikia.com/wiki/4");
         //link.add("http://zh.tos.wikia.com/wiki/1089"); // 妲己
         //link.add("http://zh.tos.wikia.com/wiki/1090");
         //link.add("http://zh.tos.wikia.com/wiki/595");
@@ -161,6 +164,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // Only take from 0 ~ "基本屬性", "主動技" to end (before "競技場 防守技能" or "來源")
         String[] anchor = Anchors.allNames();
         int[] anchors = findAnchors(tds, anchor);
+        info.anchors = Arrays.copyOf(anchors, anchor.length);
 
         // Adding basic hp/exp info for card
         addHpInfo(info, anchors, tds);
@@ -310,7 +314,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     }
 
     // Find min = min(anchors[start : end]), and ignore -1 negative values,
-    private int getPositiveMin(int[] numbers, int start, int end) {
+    public static int getPositiveMin(int[] numbers, int start, int end) {
         int min = numbers[start];
         for (int i = start; i < end; i++) {
             if (numbers[i] >= 0) {

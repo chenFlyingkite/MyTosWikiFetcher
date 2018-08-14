@@ -282,6 +282,57 @@ class TosGet {
             return result
         }
 
+        fun getAllSkillTable(es: Elements) : List<SkillInfo2> {
+            // Each table
+            // 5 Types = [技能類型 隊長技, 技能類型 組合技, 技能類型 主動技, 技能類型 隊長技 ‧ 昇華, 技能類型 主動技 ‧ 昇華]
+            // 隊長技 : 妖精領域
+            // 組合技 : 三原圍城 ‧ 強
+            // 主動技 : 三原利刃 ‧ 人族
+            // 隊長技 ‧ 昇華 : 護甲金尊
+            // 主動技 ‧ 昇華 : 諸刃轟擊
+            // seems not important?
+            val skis = ArrayList<SkillInfo2>()
+            for (e in es) {
+                val ski = SkillInfo2()
+                val tds = e.getElementsByTag("td")
+
+                ski.type = tds[0].text()
+                ski.skillLink = e.baseUri()
+                when (ski.type) {
+                    "隊長技", "隊長技 ‧ 昇華" -> {
+                        ski.skillName = getTextAt(tds, 1)
+                        ski.skillDesc = getTextAt(tds, 2)
+                    }
+                    "主動技", "主動技 ‧ 昇華" -> {
+                        ski.skillName = getTextAt(tds, 1)
+                        ski.skillCDMin = getTextAt(tds, 2).toInt()
+                        ski.skillCDMax = getTextAt(tds, 3).toInt()
+                        ski.skillDesc = getTextAt(tds, 4)
+                    }
+                    "組合技" -> {
+                        ski.skillName = getTextAt(tds, 1)
+                        ski.skillCDMin = getTextAt(tds, 2).toInt()
+                        ski.skillDesc = getTextAt(tds, 3)
+                    }
+                    else -> {
+                        //L.log("Omit %s", ski.type)
+                        ski.type = ""
+                    }
+                }
+                skis.add(ski)
+            }
+
+            return skis
+        }
+
+        private fun getTextAt(e: Elements, k: Int) : String {
+            if (0 <= k && k < e.size) {
+                return e[k].text()
+            } else {
+                return ""
+            }
+        }
+
 
         fun getActiveSkillTable(es: Elements, baseWiki: String) : SkillInfo {
             // Each table
@@ -942,7 +993,7 @@ open class TableInfo {
     val cells: ArrayList<String> = ArrayList()
 }
 
-class SkillInfo {
+open class SkillInfo {
     @SerializedName("skillName")
     var skillName = ""
     @SerializedName("skillLink")
@@ -959,6 +1010,10 @@ class SkillInfo {
     override fun toString() : String {
         return "$skillCDMin ~ $skillCDMax -> $skillName => $skillLink\n => $skillDesc\nmon = $monsters"
     }
+}
+
+class SkillInfo2 : SkillInfo() {
+    var type = ""
 }
 
 class SkillLite {

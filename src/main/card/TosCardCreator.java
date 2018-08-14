@@ -5,10 +5,13 @@ import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
 import main.fetcher.TosActiveSkillFetcher;
 import main.fetcher.TosAmeSkillFetcher;
+import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.kt.CardTds;
 import main.kt.Craft;
 import main.kt.SkillInfo;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -494,6 +497,26 @@ public class TosCardCreator {
         }
         for (Skill s : all) {
             c.skillChange.add(s.lite());
+        }
+
+        if (info.anchors[2] >= 0) {
+            int sum = 0;
+
+            int ax = 2;
+            int[] anchors = info.anchors;
+            int at = TosCardFetcher.getPositiveMin(anchors, ax + 1, anchors.length);
+            at = at - info.ameStages.size() / 2;
+            Elements es = info.cardTds.getRawTds();
+            for (int i = anchors[ax]; i < at; i++) {
+                Element ei = es.get(i);
+                if (ei != null) {
+                    Elements eas = ei.getElementsByTag("a");
+                    sum += eas.size();
+                }
+            }
+            if (sum != c.skillChange.size()) {
+                L.log("X_X_X %s skills but add %s", sum, c.skillChange.size());
+            }
         }
     }
 
