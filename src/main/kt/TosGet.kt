@@ -3,6 +3,7 @@ package main.kt
 import com.google.gson.annotations.SerializedName
 import flyingkite.functional.MeetSS
 import flyingkite.tool.TextUtil
+import main.card.SkillLite
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
@@ -13,8 +14,8 @@ import kotlin.collections.ArrayList
 class TosGet {
     companion object me {
         private val printTdHtml = false
-        private val zhLinkFile = "http://zh.tos.wikia.com/wiki/File:";
-        private val imageClass = "image image-thumbnail link-internal";
+        private val zhLinkFile = "http://zh.tos.wikia.com/wiki/File:"
+        private val imageClass = "image image-thumbnail link-internal"
 
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
@@ -139,7 +140,7 @@ class TosGet {
 
         fun getTosPageEntryContent(doc: Document) : String {
             val info = ImageInfo2()
-            val conts = doc.getElementsByClass("entry-content");
+            val conts = doc.getElementsByClass("entry-content")
             val n = conts?.size ?: 0
             if (n > 0) {
                 val entry = conts[0]
@@ -242,7 +243,7 @@ class TosGet {
 
                     if (idx != null) {
                         val ame = SkillInfo()
-                        var k: Int
+                        var k = 0
                         k = idx[0]
                         if (k >= 0) {
                             getSkill(ame, rowTds[k], baseWiki)
@@ -298,31 +299,74 @@ class TosGet {
 
                 ski.type = tds[0].text()
                 ski.skillLink = e.baseUri()
+                var valid = true
                 when (ski.type) {
-                    "隊長技", "隊長技 ‧ 昇華" -> {
+                    "隊長技" -> {
+                        // 隊長技 : 護甲金身
                         ski.skillName = getTextAt(tds, 1)
                         ski.skillDesc = getTextAt(tds, 2)
+                        ski.monsters = getImgAltIds(tds[3])
                     }
-                    "主動技", "主動技 ‧ 昇華" -> {
+                    "隊長技 ‧ 昇華" -> {
+                        // 昇華後 : 護甲金身 ‧ 強
+                        ski.skillName = getTextAt(tds, 1)
+                        ski.skillDesc = getTextAt(tds, 2)
+                        ski.monsters = getImgAltIds(tds[4])
+                    }
+                    "主動技" -> {
+                        // 主動技 : 金睛火眼 ‧ 凝煉
                         ski.skillName = getTextAt(tds, 1)
                         ski.skillCDMin = getTextAt(tds, 2).toInt()
                         ski.skillCDMax = getTextAt(tds, 3).toInt()
                         ski.skillDesc = getTextAt(tds, 4)
+                        ski.monsters = getImgAltIds(tds[5])
+                    }
+                    "主動技 ‧ 昇華" -> {
+                        // 昇華後 : 金睛真火 ‧ 凝煉
+                        ski.skillName = getTextAt(tds, 1)
+                        ski.skillCDMin = getTextAt(tds, 2).toInt()
+                        ski.skillCDMax = getTextAt(tds, 3).toInt()
+                        ski.skillDesc = getTextAt(tds, 4)
+                        // 6
+                        ski.monsters = getImgAltIds(tds.last())
+                        //L.log("ZZZ %s %s -> %s", tds.size, ski.skillName, e.baseUri())
                     }
                     "組合技" -> {
+                        // 三原獵刃
                         ski.skillName = getTextAt(tds, 1)
                         ski.skillCDMin = getTextAt(tds, 2).toInt()
                         ski.skillDesc = getTextAt(tds, 3)
+                        ski.monsters = getImgAltIds(tds[4])
                     }
                     else -> {
                         //L.log("Omit %s", ski.type)
-                        ski.type = ""
+                        valid = false
                     }
                 }
-                skis.add(ski)
+                if (valid) {
+                    skis.add(ski)
+                }
             }
 
             return skis
+        }
+        
+        private fun getImgAltIds(e: Element) : MutableList<String> {
+            val list = ArrayList<String>()
+            val imgs = e.getElementsByTag("img")
+            for (img in imgs) {
+                val inNos = img.parent().tagName() == "noscript"
+                if (inNos) {
+                    // omit since is <noscript><img/></noscript>
+                } else {
+                    list.add(normEvoId(img.attr("alt")))
+                }
+            }
+            return list
+        }
+
+        private fun getAltId(e: Element) : String {
+            return normEvoId(getImgAlt(e))
         }
 
         private fun getTextAt(e: Elements, k: Int) : String {
@@ -342,7 +386,7 @@ class TosGet {
             val nTr = itemTrs?.size ?: 0
             if (nTr > 5) {
                 // itemTr[0] is header, omit it
-                ame.skillName = getTdText(itemTrs[1], 0);// itemTrs[0].getElementsByTag("td")
+                ame.skillName = getTdText(itemTrs[1], 0)// itemTrs[0].getElementsByTag("td")
                 ame.skillLink = ei.baseUri()
                 ame.skillCDMin = Integer.parseInt(getTdText(itemTrs[2], 0))
                 ame.skillCDMax = Integer.parseInt(getTdText(itemTrs[3], 0))
@@ -418,14 +462,14 @@ class TosGet {
             if (e == null) return ans
 
             val s = e.getElementsByTag("td")
-            val max = s.size / 3;
+            val max = s.size / 3
             for (i in 0 until max) {
                 val c = EnemySkill()
-                var k = 3 * i;
+                var k = 3 * i
                 // <td>1</td>
                 c.id = s[k].text()
                 // <td>{{ES1}}</td>
-                c.esCode = s[k + 2].text();
+                c.esCode = s[k + 2].text()
 
                 val ax = s[k + 1].getElementsByTag("a")
                 for (axi in ax) {
@@ -471,9 +515,9 @@ class TosGet {
             if (e == null) return ans
 
             val s = e.getElementsByTag("span")
-            val max = s.size;
+            val max = s.size
             for (i in 0 until max) {
-                val si = s[i];
+                val si = s[i]
                 if (si.hasClass("tt-text")) {
                     val c = SimpleCraft()
                     //c.name = si.attr("data-texttip").substringAfter("<br>")
@@ -538,7 +582,7 @@ class TosGet {
             val s = e.getElementsByTag("td")
             // Update the icon link to be large one
             val isArm = isArmCraft(e)
-            ans.icon.iconLink = getIconLink(s[0]);
+            ans.icon.iconLink = getIconLink(s[0])
 
             if (isArm) {
                 ans.rarity = s[3].text().replace("★", "").trim().toInt()
@@ -619,7 +663,7 @@ class TosGet {
             if (e == null) return ans
 
             val s = e.getElementsByTag("td")
-            val max = s.size;
+            val max = s.size
             val a = s[1].text().equals(ans.name)
             ans.rarity = s[3].text().replace("★", "").trim().toInt()
             ans.level = s[4].text().replace("Lv.", "", true).trim().toInt()
@@ -641,11 +685,11 @@ class TosGet {
         }
 
         private fun getAnchorsContain(e: Elements, vararg s: String) : IntArray {
-            return getAnchorsMeet(strContain, e, *s);
+            return getAnchorsMeet(strContain, e, *s)
         }
 
         private fun getAnchors(e: Elements, vararg s: String) : IntArray {
-            return getAnchorsMeet(strEqual, e, *s);
+            return getAnchorsMeet(strEqual, e, *s)
         }
 
 
@@ -815,7 +859,7 @@ class TosGet {
                             } else if (isArm) {
                                 arms.add(alt)
                             } else {
-                                alt;
+                                alt
                             }
                         }
                     }
@@ -919,7 +963,7 @@ class TosGet {
                 }
             }}
             //print("s = -> $s")
-            return s;
+            return s
         }
 
         @Deprecated("Not handy")
@@ -1005,30 +1049,24 @@ open class SkillInfo {
     @SerializedName("skillDesc")
     var skillDesc = ""
     @SerializedName("skillMonsters")
-    var monsters = ArrayList<String>() // of idNorm
+    var monsters: MutableList<String> = ArrayList() // of idNorm
 
     override fun toString() : String {
         return "$skillCDMin ~ $skillCDMax -> $skillName => $skillLink\n => $skillDesc\nmon = $monsters"
+    }
+
+    fun lite(): SkillLite {
+        val s = SkillLite()
+        s.name = skillName;
+        s.cdMin = skillCDMin;
+        s.cdMax = skillCDMax;
+        s.effect = skillDesc;
+        return s
     }
 }
 
 class SkillInfo2 : SkillInfo() {
     var type = ""
-}
-
-class SkillLite {
-    @SerializedName("skillName")
-    var skillName = ""
-    @SerializedName("skillCDMin")
-    var skillCDMin = -1
-    @SerializedName("skillCDMax")
-    var skillCDMax = -1
-    @SerializedName("skillDesc")
-    var skillDesc = ""
-
-    override fun toString() : String {
-        return "Lite : $skillCDMin ~ $skillCDMax -> $skillName => $skillDesc"
-    }
 }
 
 

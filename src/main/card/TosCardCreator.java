@@ -3,13 +3,14 @@ package main.card;
 import flyingkite.log.L;
 import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
-import main.fetcher.TosActiveSkillFetcher;
-import main.fetcher.TosAmeSkillFetcher;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
+import main.fetcher.TosSkillFetcher;
+import main.fetcher.TosSkillFetcher.AllSkill;
 import main.kt.CardTds;
 import main.kt.Craft;
 import main.kt.SkillInfo;
+import main.kt.SkillInfo2;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
@@ -63,23 +64,27 @@ public class TosCardCreator {
 //24, card = http://zh.tos.wikia.com/wiki/651
 //31, card = http://zh.tos.wikia.com/wiki/656
 
-    private Map<String, List<Skill>> skillActive;
-    private Map<String, List<Skill>> skillChangeLeader;
-    private Map<String, List<Skill>> skillChangeActive;
+//    private Map<String, List<Skill>> skillActive;
+//    private Map<String, List<Skill>> skillChangeLeader;
+//    private Map<String, List<Skill>> skillChangeActive;
     private Map<String, List<Craft>> allArmCrafts;
+    private AllSkill allTypeSkills;
 
     private void loadAllSkills() {
-        if (skillActive == null) {
-            skillActive = TosActiveSkillFetcher.me.getActiveSkills();
-        }
-        if (skillChangeLeader == null) {
-            skillChangeLeader = TosAmeSkillFetcher.me.getAllSkillsLeader();
-        }
-        if (skillChangeActive == null) {
-            skillChangeActive = TosAmeSkillFetcher.me.getAllSkillsActive();
-        }
+//        if (skillActive == null) {
+//            skillActive = TosActiveSkillFetcher.me.getActiveSkills();
+//        }
+//        if (skillChangeLeader == null) {
+//            skillChangeLeader = TosAmeSkillFetcher.me.getAllSkillsLeader();
+//        }
+//        if (skillChangeActive == null) {
+//            skillChangeActive = TosAmeSkillFetcher.me.getAllSkillsActive();
+//        }
         if (allArmCrafts == null) {
             allArmCrafts = TosCraftFetcher.me.getArmCrafts();
+        }
+        if (allTypeSkills == null) {
+            allTypeSkills = TosSkillFetcher.me.getAllTypedSkills();
         }
     }
 
@@ -491,55 +496,69 @@ public class TosCardCreator {
     }
 
     private void fillSkillChange(TosCard c, CardInfo info) {
-        List<Skill> all = new ArrayList<>();
-        for (SkillInfo s : info.skillChange) {
-            addSkillsFromTable(all, s, c);
-        }
-        for (Skill s : all) {
-            c.skillChange.add(s.lite());
+        List<Element> ameChg = new ArrayList<>();
+
+        if (c.idNorm.equals("1379")) {
+            c.idNorm.length();
         }
 
-        if (info.anchors[2] >= 0) {
-            int sum = 0;
-
-            int ax = 2;
-            int[] anchors = info.anchors;
+        int ax = 2;
+        int[] anchors = info.anchors;
+        int anxer = anchors[ax];
+        if (anxer >= 0) { // See any skills change in amelioration
             int at = TosCardFetcher.getPositiveMin(anchors, ax + 1, anchors.length);
             at = at - info.ameStages.size() / 2;
             Elements es = info.cardTds.getRawTds();
-            for (int i = anchors[ax]; i < at; i++) {
+            for (int i = anxer; i < at; i++) {
                 Element ei = es.get(i);
                 if (ei != null) {
                     Elements eas = ei.getElementsByTag("a");
-                    sum += eas.size();
+                    ameChg.addAll(eas);
                 }
             }
-            if (sum != c.skillChange.size()) {
-                L.log("X_X_X %s skills but add %s", sum, c.skillChange.size());
+        }
+
+        if (ameChg.size() > 0) {
+            // Find all changed skill info
+            List<SkillInfo2> sinf = new ArrayList<>();
+            for (Element e : ameChg) {
+                String name = e.attr("title");
+                boolean add = addSkills(sinf, name, c.idNorm);
+                if (!add) {
+                    L.log("XX_XXXZZ miss skill %s, %s", c.idNorm, name);
+                }
             }
+            // Convert to Skill
+            for (SkillInfo2 s : sinf) {
+                c.skillChange.add(s.lite());
+            }
+            c.skillChange.size();
         }
     }
 
-    private void addSkillsFromTable(List<Skill> all, SkillInfo s, TosCard c) {
-        boolean added = false;
-        added = addSkills(all, skillChangeLeader, c, s);
-        if (added) return;
-        added = addSkills(all, skillActive, c, s);
-        if (added) return;
-        added = addSkills(all, skillChangeActive, c, s);
+    private boolean addSkills(List<SkillInfo2> box, String key, String idNorm) {
+        List<Map<String, List<SkillInfo2>>> findOrder = Arrays.asList(
+                allTypeSkills.ameLeader, allTypeSkills.ameActive
+                , allTypeSkills.leader, allTypeSkills.active
+        );
+
+        boolean added;
+        for (Map<String, List<SkillInfo2>> m : findOrder) {
+            added = addSkills(box, m, key, idNorm);
+            if (added) {
+                return true;
+            }
+        }
+        return false;
     }
 
-    private boolean addSkills(List<Skill> all, Map<String, List<Skill>> skillsToAdd, TosCard c, SkillInfo info) {
-        if (skillsToAdd == null) return false;
+    private boolean addSkills(List<SkillInfo2> box, Map<String, List<SkillInfo2>> table, String key, String idNorm) {
+        if (table == null) return false;
 
-        List<Skill> s = skillsToAdd.get(c.idNorm);
+        List<SkillInfo2> s = table.get(key);
         if (s != null) {
-            for (Skill t : s) {
-                if (t.wikiLink.equals(info.getSkillLink())) {
-                    all.add(t);
-                    return true;
-                }
-            }
+            box.add(s.get(s.size() - 1));
+            return true;
         }
         return false;
     }

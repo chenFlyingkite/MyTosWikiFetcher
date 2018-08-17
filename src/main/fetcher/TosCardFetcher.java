@@ -67,10 +67,10 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "http://zh.tos.wikia.com/wiki/656" // TosCardCreator = 31
         );
         link.clear(); // uncomment this if use test links
-        //link.add("http://zh.tos.wikia.com/wiki/24");
-        //link.add("http://zh.tos.wikia.com/wiki/4");
-        //link.add("http://zh.tos.wikia.com/wiki/1089"); // 妲己
-        //link.add("http://zh.tos.wikia.com/wiki/1090");
+//        link.add("http://zh.tos.wikia.com/wiki/1380");
+//        link.add("http://zh.tos.wikia.com/wiki/1381");
+//        link.add("http://zh.tos.wikia.com/wiki/6070"); // 妲己
+//        link.add("http://zh.tos.wikia.com/wiki/6174");
         //link.add("http://zh.tos.wikia.com/wiki/595");
         //link.add("http://zh.tos.wikia.com/wiki/230");
         return link;

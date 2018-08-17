@@ -25,7 +25,7 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         Document doc = getDocument(getPage());
         clock.tic();
         getMain(doc);
-        clock.tac("Main OK");
+        clock.tac("TosWikiHomeFetcher OK");
 
         mLf.getFile().close();
     }

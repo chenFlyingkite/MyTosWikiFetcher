@@ -2,12 +2,12 @@ package main;
 
 import flyingkite.log.L;
 import flyingkite.math.GammaFunction;
+import flyingkite.math.Math2;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
-import main.fetcher.TosActiveSkillFetcher;
-import main.fetcher.TosAmeSkillFetcher;
+import flyingkite.tool.TicTac2;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -23,7 +23,9 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 
+import java.math.BigInteger;
 import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 
 public class Main {
@@ -44,7 +46,7 @@ public class Main {
             // 龍刻
             //runParallel(parl, TosCraftFetcher.me);
             // 全部技能
-            runParallel(parl, TosSkillFetcher.me);
+            //runParallel(parl, TosSkillFetcher.me);
         }
         // 維基動態
         if (regl) {
@@ -52,31 +54,32 @@ public class Main {
             runParallel(parl, TosWikiArticlesFetcher.me);
         }
         // 卡片內容
-        // TosAmeSkillFetcher > TosWikiCardFetcher > TosWikiCardsLister
+        // Skill change + Craft + Card List -> Card Fetcher
+        List<Runnable> beforeCard = Arrays.asList(
+                TosWikiCardsLister.me
+                , TosSkillFetcher.me
+                , TosCraftFetcher.me
+        );
+        Runnable endCard = TosCardFetcher.me;
         if (regl) {
-            // Old one, Deprecated
-            //TosWikiCardFetcher.me.run(); // Need to be run after AmeSkill & Active Skill fetchers
-            //TosWikiCardsLister.me.run();
-
-            TaskMonitorUtil.join(Arrays.asList(
-                    TosWikiCardsLister.me
-                    , TosActiveSkillFetcher.me // For skill change
-                    , TosAmeSkillFetcher.me // For skill change
-                    , TosCraftFetcher.me
-                    ), TosCardFetcher.me
-            );
+            TaskMonitorUtil.join(beforeCard, endCard);
         }
         //TosSkillFetcher.me.run();
-        if (!regl) {
-            //TosCardFetcher.me.run();
-            if (false) {
-                for (int i = -3; i < 30; i++) {
-                    long x = GammaFunction.gammaN(i);
-                    L.log("G(%s) = %s", i, x);
-                }
-                for (int i = -3; i < 500; i++) {
-                    double x = GammaFunction.gammaN2(i);
-                    L.log("G(%s / 2) = %s", i, x);
+        //TosCardFetcher.me.run();
+        if (!regl && false) {
+            if (true) {
+
+            }
+            if (true) {
+                TicTac2 c = new TicTac2();
+
+                for (int i = 0; i < 50; i++) {
+                    BigInteger x = GammaFunction.gammaN(i);
+                    BigInteger y = Math2.factorial(i);
+                    BigInteger z = x.subtract(y);
+                    if (z.compareTo(BigInteger.ZERO) != 0) {
+                        L.log("x = %s\ny = %s\nz = %s", x, y, z);
+                    }
                 }
             }
         }

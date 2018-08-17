@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+@Deprecated
 public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
     private TosAmeSkillFetcher() {}
     public static final TosAmeSkillFetcher me = new TosAmeSkillFetcher();
