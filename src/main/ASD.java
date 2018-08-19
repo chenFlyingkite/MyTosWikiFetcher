@@ -9,6 +9,9 @@ import flyingkite.javaxlibrary.images.diff.PngDiffer;
 import flyingkite.javaxlibrary.images.resize.PngResizer;
 import flyingkite.log.L;
 import flyingkite.log.LF;
+import flyingkite.math.ChiSquarePearson;
+import flyingkite.math.ChiSquareTable;
+import flyingkite.math.DiscreteSample;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
@@ -46,11 +49,12 @@ public class ASD {
         //new RunInvokeMethod().run();
         //Jsoner.json();
         //getCrafts();
+        getMainIcons();
 
         //scale();
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
-        loadCardsCSV();
+        //loadCardsCSV();
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
         tt.tac("Done");
     }
@@ -72,7 +76,20 @@ public class ASD {
 
         // Find cards
         //findCards("效果持續至", allCards);
+    }
 
+    private static void chiTest() {
+        int draws = 20;
+        DiscreteSample s = new DiscreteSample(8);
+        double[] pdf = new double[]{0.025, 0.1, 0.1, 0.155, 0.155, 0.155, 0.155, 0.155};
+        s.setPdf(pdf);
+        for (int i = 0; i < 20; i++) {
+            s.clearSample();
+            s.drawSample(draws);
+            s.evalObservePdf();
+            boolean acc = ChiSquarePearson.acceptH0(s, ChiSquareTable.getChiTailArea(7, ChiSquareTable._100));
+            L.log("#%s ->\n%s\n => Chi %s\n-----\n", i, s, acc ? "accept" : "reject");
+        }
     }
 
     private static void findCards(String key, TosCard[] allCards) {
@@ -243,6 +260,14 @@ public class ASD {
             }
         }
         t.tac("All images OK in %s", main);
+    }
+
+
+    private static void getMainIcons() {
+        getIcon("shop", "Screenshot_20180819-174853.png", 69, 869, "a", 6);
+        Rect2 r = Rect2.atLTWH(684, 190, 190, 100);
+        getImage("shop", "Screenshot_20180819-174853.png", r, "0");
+        getImageR("shop", "Screenshot_20180819-174853.png", r, "0r");
     }
 
     private static void getCrafts() {

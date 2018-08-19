@@ -1,8 +1,6 @@
 package main;
 
 import flyingkite.log.L;
-import flyingkite.math.GammaFunction;
-import flyingkite.math.Math2;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
@@ -23,7 +21,6 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 
-import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -66,21 +63,9 @@ public class Main {
         }
         //TosSkillFetcher.me.run();
         //TosCardFetcher.me.run();
-        if (!regl && false) {
+        if (!regl) {
+            TicTac2 c = new TicTac2();
             if (true) {
-
-            }
-            if (true) {
-                TicTac2 c = new TicTac2();
-
-                for (int i = 0; i < 50; i++) {
-                    BigInteger x = GammaFunction.gammaN(i);
-                    BigInteger y = Math2.factorial(i);
-                    BigInteger z = x.subtract(y);
-                    if (z.compareTo(BigInteger.ZERO) != 0) {
-                        L.log("x = %s\ny = %s\nz = %s", x, y, z);
-                    }
-                }
             }
         }
 
