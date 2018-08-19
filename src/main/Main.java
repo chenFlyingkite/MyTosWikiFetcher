@@ -1,5 +1,9 @@
 package main;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
@@ -20,10 +24,6 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.ExecutorService;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,5 +1,18 @@
 package main;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.function.Consumer;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import flyingkite.data.Rect2;
@@ -12,6 +25,7 @@ import flyingkite.log.LF;
 import flyingkite.math.ChiSquarePearson;
 import flyingkite.math.ChiSquareTable;
 import flyingkite.math.DiscreteSample;
+import flyingkite.math.Statistics;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
@@ -19,18 +33,6 @@ import flyingkite.tool.TicTac2;
 import main.card.TosCard;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.function.Consumer;
 
 public class ASD {
     private static final TicTac2 tt = new TicTac2();
@@ -49,7 +51,9 @@ public class ASD {
         //new RunInvokeMethod().run();
         //Jsoner.json();
         //getCrafts();
-        getMainIcons();
+        //getMainIcons();
+        chiTest();
+        //test();
 
         //scale();
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
@@ -79,16 +83,51 @@ public class ASD {
     }
 
     private static void chiTest() {
+        int runs = 50;
         int draws = 20;
         DiscreteSample s = new DiscreteSample(8);
         double[] pdf = new double[]{0.025, 0.1, 0.1, 0.155, 0.155, 0.155, 0.155, 0.155};
+        List<Double> w = new ArrayList<>();
+        for (double d : pdf) {
+            w.add(d);
+        }
+        //w.clear();
+        //w.addAll(Arrays.asList(1.0, 5.0, 10.0, 10.0, 5.0, 1.0));
+        double skewPDF = Statistics.skewness(w);
         s.setPdf(pdf);
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < runs; i++) {
             s.clearSample();
             s.drawSample(draws);
             s.evalObservePdf();
             boolean acc = ChiSquarePearson.acceptH0(s, ChiSquareTable.getChiTailArea(7, ChiSquareTable._100));
-            L.log("#%s ->\n%s\n => Chi %s\n-----\n", i, s, acc ? "accept" : "reject");
+            List<Double> v = new ArrayList<>();
+            for (double d : s.observePdf) {
+                v.add(d);
+            }
+
+            double skew = Statistics.skewness(v);
+
+            double euro = draws * s.cdf[2];
+            double got = s.observe[0] + s.observe[1] + s.observe[2];
+            boolean isEu = got >= euro;
+
+            L.log(" euro = %s, get = %s => isEuro = %s", euro, got, isEu);
+            L.log("#%s ->\n%s\n => Chi %s\n Skew = %s\n SPdf = %s-----\n", i, s, acc ? "accept" : "qwe reject", skew, skewPDF);
+        }
+    }
+
+    private static void test() {
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 1));
+
+        for (int i = 2; i < 21; i++) {
+            double sku = Statistics.skewness(list);
+            L.log("skew = %s\n : %s\n---", sku, list);
+
+            list.add(1);
+            for (int j = list.size() - 2; j > 0; j--) {
+                int x = list.get(j) + list.get(j - 1);
+                list.set(j, x);
+            }
         }
     }
 
