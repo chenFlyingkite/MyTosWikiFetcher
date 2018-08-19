@@ -1,14 +1,14 @@
 package flyingkite.math;
 
-import flyingkite.log.L;
-import flyingkite.log.Loggable;
-
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Arrays;
 
+import flyingkite.log.L;
+import flyingkite.log.Loggable;
+
 /**
- * 多項式分布
+ *
  * https://en.wikipedia.org/wiki/Multinomial_distribution
  *
  */
