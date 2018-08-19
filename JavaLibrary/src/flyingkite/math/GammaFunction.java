@@ -1,5 +1,8 @@
 package flyingkite.math;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+
 /**
  * Γ function
  * Γ γ gamma
@@ -41,14 +44,15 @@ public class GammaFunction {
      * G(20) = 2432902008176640000
      * G(21) = -4249290049419214848
      */
-    public static long gammaN(int n) {
-        if (n < 0) return 0;
+    public static BigInteger gammaN(int n) {
+        if (n < 0) return BigInteger.ZERO;
 
-        long g1 = 1;
-        long gn = g1;
+        BigInteger gn = BigInteger.ONE;
 
+        BigInteger bi = new BigInteger("2");
         for (int i = 2; i <= n; i++) {
-            gn = gn * i;
+            gn = gn.multiply(bi);
+            bi = bi.add(BigInteger.ONE);
         }
         return gn;
     }
@@ -56,14 +60,15 @@ public class GammaFunction {
     /**
      * Double version for {@link #gammaN(int)}
      */
-    public static double gammaNDouble(int n) {
-        if (n < 0) return 0;
+    public static BigDecimal gammaNDecimal(int n) {
+        if (n < 0) return BigDecimal.ZERO;
 
-        double g1 = 1;
-        double gn = g1;
+        BigDecimal gn = BigDecimal.ONE;
 
+        BigDecimal bi = new BigDecimal("2");
         for (int i = 2; i <= n; i++) {
-            gn = gn * i;
+            gn = gn.multiply(bi);
+            bi = bi.add(BigDecimal.ONE);
         }
         return gn;
     }
@@ -77,19 +82,16 @@ public class GammaFunction {
      * G(341 / 2) = 1.2863434254974502E307
      * G(342 / 2) = Infinity
      */
-    public static double gammaN2(int n) {
-        if (n < 0) return 0;
+    public static BigDecimal gammaN2(int n) {
+        if (n <= 0) return BigDecimal.ZERO;
+        BigDecimal s;
         if (n % 2 == 0) {
-            return gammaNDouble(n / 2);
+            s = BigDecimal.ONE;
+        } else {
+            s = BigDecimal.valueOf(Math.sqrt(Math.PI));
         }
-
-        double g1 = Math.sqrt(Math.PI);
-        double gn = g1;
-
-        for (int i = 3; i <= n; i += 2) {
-            gn = gn * (i - 1) / 2;
-        }
-        return gn;
+        int k = (n + 1) / 2;
+        return s.multiply(gammaNDecimal(k));
 
     }
 }

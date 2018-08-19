@@ -1,14 +1,14 @@
 package flyingkite.math;
 
+import flyingkite.data.IIPair;
+import flyingkite.log.L;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import flyingkite.data.IIPair;
-import flyingkite.log.L;
 
 public class Statistics {
     /**
