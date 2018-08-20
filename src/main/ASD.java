@@ -52,13 +52,14 @@ public class ASD {
         //Jsoner.json();
         //getCrafts();
         //getMainIcons();
-        chiTest();
+        //chiTest();
         //test();
+        //getFriendPointsCards();
 
         //scale();
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
-        //loadCardsCSV();
+        loadCardsCSV();
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
         tt.tac("Done");
     }
@@ -80,6 +81,7 @@ public class ASD {
 
         // Find cards
         //findCards("效果持續至", allCards);
+        findCards("將黑白符石變回原來色調", allCards);
     }
 
     private static void chiTest() {
@@ -148,7 +150,7 @@ public class ASD {
             //L.log(sc(c));
         }
 
-        L.log("%s in skill, %s in detail", sn, tn);
+        L.log("%s in skill, %s in detail, key = %s", sn, tn, key);
     }
 
     private static String sc(TosCard c) {
@@ -211,6 +213,16 @@ public class ASD {
             }
             L.log("table.put(%3s, new Double[]{%s});", cell[0], sk);
         }
+    }
+
+    private static void getFriendPointsCards() {
+        int sx = 191;
+        int sy = 1491;
+        int ny = 1885; // next y
+        getFriendCards("friend", "Screenshot_20180816-145053.png", sx, sy, "a", 5);// x502 y1799 555
+        getFriendCards("friend", "Screenshot_20180816-145053.png", sx, ny, "b", 5);// x502 y1799 555
+        getFriendCards("friend", "Screenshot_20180817-014006.png", sx, sy, "c", 5);// x502 y1799 555
+        getFriendCards("friend", "Screenshot_20180817-014006.png", sx, ny, "d", 5);// x502 y1799 555
     }
 
     // Diff the image in folder
@@ -477,6 +489,19 @@ public class ASD {
         // Creating rects
         Rect2 r0 = Rect2.atLTWH(sx, sy, w, w);
         List<Rect2> rs = createRects(cardN, r0, 0, dy);
+        // get Rounded image
+        for (int i = 0; i < rs.size(); i++) {
+            getImageR(folder, src, rs.get(i), prefix + "" + i);
+        }
+    }
+
+    private static void getFriendCards(String folder, String src, int sx, int sy, String prefix, int cardN) {
+        final int w = 310;
+        final int dx = 365;
+
+        // Creating rects
+        Rect2 r0 = Rect2.atLTWH(sx, sy, w, w);
+        List<Rect2> rs = createRects(cardN, r0, dx, 0);
         // get Rounded image
         for (int i = 0; i < rs.size(); i++) {
             getImageR(folder, src, rs.get(i), prefix + "" + i);

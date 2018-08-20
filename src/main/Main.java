@@ -32,6 +32,11 @@ public class Main {
         //-- Regular
         boolean regl = true; // Regular
         boolean parl = true; // Parallel
+        // 維基動態
+        if (regl) {
+            // 最近動態
+            runParallel(parl, TosWikiArticlesFetcher.me);
+        }
         // 神魔主頁內容
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);
@@ -44,11 +49,6 @@ public class Main {
             //runParallel(parl, TosCraftFetcher.me);
             // 全部技能
             //runParallel(parl, TosSkillFetcher.me);
-        }
-        // 維基動態
-        if (regl) {
-            // 最近動態
-            runParallel(parl, TosWikiArticlesFetcher.me);
         }
         // 卡片內容
         // Skill change + Craft + Card List -> Card Fetcher
@@ -66,6 +66,7 @@ public class Main {
         if (!regl) {
             TicTac2 c = new TicTac2();
             if (true) {
+                //endCard.run();
             }
         }
 

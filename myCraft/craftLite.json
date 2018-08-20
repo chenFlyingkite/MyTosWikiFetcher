@@ -2203,5 +2203,374 @@
       "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7f/C245.png/revision/latest/scale-to-width-down/60?cb\u003d20180530054551\u0026path-prefix\u003dzh",
       "iconKey": "C245.png"
     }
+  },
+  {
+    "idNorm": "0246",
+    "name": "虛之狂暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%99%9B%E4%B9%8B%E7%8B%82%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/85/C246.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111921\u0026path-prefix\u003dzh",
+      "iconKey": "C246.png"
+    }
+  },
+  {
+    "idNorm": "0247",
+    "name": "漩之屏息龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BC%A9%E4%B9%8B%E5%B1%8F%E6%81%AF%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/C247.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111922\u0026path-prefix\u003dzh",
+      "iconKey": "C247.png"
+    }
+  },
+  {
+    "idNorm": "0248",
+    "name": "煉之屏息龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%89%E4%B9%8B%E5%B1%8F%E6%81%AF%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c4/C248.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111923\u0026path-prefix\u003dzh",
+      "iconKey": "C248.png"
+    }
+  },
+  {
+    "idNorm": "0249",
+    "name": "森之屏息龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E4%B9%8B%E5%B1%8F%E6%81%AF%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/66/C249.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111923\u0026path-prefix\u003dzh",
+      "iconKey": "C249.png"
+    }
+  },
+  {
+    "idNorm": "0250",
+    "name": "耀之屏息龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%80%80%E4%B9%8B%E5%B1%8F%E6%81%AF%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/21/C250.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111924\u0026path-prefix\u003dzh",
+      "iconKey": "C250.png"
+    }
+  },
+  {
+    "idNorm": "0251",
+    "name": "影之屏息龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%BD%B1%E4%B9%8B%E5%B1%8F%E6%81%AF%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2e/C251.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111924\u0026path-prefix\u003dzh",
+      "iconKey": "C251.png"
+    }
+  },
+  {
+    "idNorm": "0252",
+    "name": "連之屏息龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%80%A3%E4%B9%8B%E5%B1%8F%E6%81%AF%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/C252.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111925\u0026path-prefix\u003dzh",
+      "iconKey": "C252.png"
+    }
+  },
+  {
+    "idNorm": "0253",
+    "name": "連之狂暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%80%A3%E4%B9%8B%E7%8B%82%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2f/C253.png/revision/latest/scale-to-width-down/60?cb\u003d20180820113926\u0026path-prefix\u003dzh",
+      "iconKey": "C253.png"
+    }
+  },
+  {
+    "idNorm": "0254",
+    "name": "漩之狂暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BC%A9%E4%B9%8B%E7%8B%82%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/C254.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111925\u0026path-prefix\u003dzh",
+      "iconKey": "C254.png"
+    }
+  },
+  {
+    "idNorm": "0255",
+    "name": "煉之狂暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%89%E4%B9%8B%E7%8B%82%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f8/C255.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111926\u0026path-prefix\u003dzh",
+      "iconKey": "C255.png"
+    }
+  },
+  {
+    "idNorm": "0256",
+    "name": "森之狂暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E4%B9%8B%E7%8B%82%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e7/C256.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111927\u0026path-prefix\u003dzh",
+      "iconKey": "C256.png"
+    }
+  },
+  {
+    "idNorm": "0257",
+    "name": "耀之狂暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%80%80%E4%B9%8B%E7%8B%82%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f8/C257.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111927\u0026path-prefix\u003dzh",
+      "iconKey": "C257.png"
+    }
+  },
+  {
+    "idNorm": "0258",
+    "name": "影之狂暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%BD%B1%E4%B9%8B%E7%8B%82%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/C258.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111928\u0026path-prefix\u003dzh",
+      "iconKey": "C258.png"
+    }
+  },
+  {
+    "idNorm": "0259",
+    "name": "連之越時龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%80%A3%E4%B9%8B%E8%B6%8A%E6%99%82%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/C259.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111928\u0026path-prefix\u003dzh",
+      "iconKey": "C259.png"
+    }
+  },
+  {
+    "idNorm": "0260",
+    "name": "虛之越時龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%99%9B%E4%B9%8B%E8%B6%8A%E6%99%82%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/02/C260.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111929\u0026path-prefix\u003dzh",
+      "iconKey": "C260.png"
+    }
+  },
+  {
+    "idNorm": "0261",
+    "name": "連之王暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%80%A3%E4%B9%8B%E7%8E%8B%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/C261.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111929\u0026path-prefix\u003dzh",
+      "iconKey": "C261.png"
+    }
+  },
+  {
+    "idNorm": "0262",
+    "name": "虛之獸暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%99%9B%E4%B9%8B%E7%8D%B8%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/C262.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111930\u0026path-prefix\u003dzh",
+      "iconKey": "C262.png"
+    }
+  },
+  {
+    "idNorm": "0263",
+    "name": "連之龍暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%80%A3%E4%B9%8B%E9%BE%8D%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/60/C263.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111930\u0026path-prefix\u003dzh",
+      "iconKey": "C263.png"
+    }
+  },
+  {
+    "idNorm": "0264",
+    "name": "虛之妖暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%99%9B%E4%B9%8B%E5%A6%96%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/C264.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111931\u0026path-prefix\u003dzh",
+      "iconKey": "C264.png"
+    }
+  },
+  {
+    "idNorm": "0265",
+    "name": "連之機暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%80%A3%E4%B9%8B%E6%A9%9F%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/39/C265.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111932\u0026path-prefix\u003dzh",
+      "iconKey": "C265.png"
+    }
+  },
+  {
+    "idNorm": "0266",
+    "name": "煉之機暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%89%E4%B9%8B%E6%A9%9F%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/C266.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111955\u0026path-prefix\u003dzh",
+      "iconKey": "C266.png"
+    }
+  },
+  {
+    "idNorm": "0267",
+    "name": "森之機暴龍丸",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E4%B9%8B%E6%A9%9F%E6%9A%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/68/C267.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111956\u0026path-prefix\u003dzh",
+      "iconKey": "C267.png"
+    }
+  },
+  {
+    "idNorm": "0268",
+    "name": "漩之魔暴龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BC%A9%E4%B9%8B%E9%AD%94%E6%9A%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/11/C268.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111956\u0026path-prefix\u003dzh",
+      "iconKey": "C268.png"
+    }
+  },
+  {
+    "idNorm": "0269",
+    "name": "漩之王暴龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BC%A9%E4%B9%8B%E7%8E%8B%E6%9A%B4%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f0/C269.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111957\u0026path-prefix\u003dzh",
+      "iconKey": "C269.png"
+    }
+  },
+  {
+    "idNorm": "0270",
+    "name": "漩之神暴龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BC%A9%E4%B9%8B%E7%A5%9E%E6%9A%B4%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/95/C270.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111957\u0026path-prefix\u003dzh",
+      "iconKey": "C270.png"
+    }
+  },
+  {
+    "idNorm": "0271",
+    "name": "漩之妖暴龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BC%A9%E4%B9%8B%E5%A6%96%E6%9A%B4%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/43/C271.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111958\u0026path-prefix\u003dzh",
+      "iconKey": "C271.png"
+    }
+  },
+  {
+    "idNorm": "0272",
+    "name": "煉之妖暴龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%89%E4%B9%8B%E5%A6%96%E6%9A%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/08/C272.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111958\u0026path-prefix\u003dzh",
+      "iconKey": "C272.png"
+    }
+  },
+  {
+    "idNorm": "0273",
+    "name": "煉之龍暴龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%89%E4%B9%8B%E9%BE%8D%E6%9A%B4%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/dc/C273.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111959\u0026path-prefix\u003dzh",
+      "iconKey": "C273.png"
+    }
+  },
+  {
+    "idNorm": "0274",
+    "name": "煉之獸暴龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%89%E4%B9%8B%E7%8D%B8%E6%9A%B4%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/29/C274.png/revision/latest/scale-to-width-down/60?cb\u003d20180820111959\u0026path-prefix\u003dzh",
+      "iconKey": "C274.png"
+    }
+  },
+  {
+    "idNorm": "0275",
+    "name": "森之獸暴龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E4%B9%8B%E7%8D%B8%E6%9A%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/C275.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112000\u0026path-prefix\u003dzh",
+      "iconKey": "C275.png"
+    }
+  },
+  {
+    "idNorm": "0276",
+    "name": "森之神暴龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E4%B9%8B%E7%A5%9E%E6%9A%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e4/C276.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112001\u0026path-prefix\u003dzh",
+      "iconKey": "C276.png"
+    }
+  },
+  {
+    "idNorm": "0277",
+    "name": "森之王暴龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E4%B9%8B%E7%8E%8B%E6%9A%B4%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/C277.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112001\u0026path-prefix\u003dzh",
+      "iconKey": "C277.png"
+    }
+  },
+  {
+    "idNorm": "0278",
+    "name": "森之妖暴龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E4%B9%8B%E5%A6%96%E6%9A%B4%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/17/C278.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112002\u0026path-prefix\u003dzh",
+      "iconKey": "C278.png"
+    }
+  },
+  {
+    "idNorm": "0279",
+    "name": "耀之龍暴龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%80%80%E4%B9%8B%E9%BE%8D%E6%9A%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9d/C279.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112002\u0026path-prefix\u003dzh",
+      "iconKey": "C279.png"
+    }
+  },
+  {
+    "idNorm": "0280",
+    "name": "耀之獸暴龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%80%80%E4%B9%8B%E7%8D%B8%E6%9A%B4%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/55/C280.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112003\u0026path-prefix\u003dzh",
+      "iconKey": "C280.png"
+    }
+  },
+  {
+    "idNorm": "0281",
+    "name": "耀之魔暴龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%80%80%E4%B9%8B%E9%AD%94%E6%9A%B4%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/29/C281.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112004\u0026path-prefix\u003dzh",
+      "iconKey": "C281.png"
+    }
+  },
+  {
+    "idNorm": "0282",
+    "name": "耀之王暴龍符",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%80%80%E4%B9%8B%E7%8E%8B%E6%9A%B4%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/C282.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112004\u0026path-prefix\u003dzh",
+      "iconKey": "C282.png"
+    }
+  },
+  {
+    "idNorm": "0283",
+    "name": "影之妖暴龍紋",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%BD%B1%E4%B9%8B%E5%A6%96%E6%9A%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/C283.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112005\u0026path-prefix\u003dzh",
+      "iconKey": "C283.png"
+    }
+  },
+  {
+    "idNorm": "0284",
+    "name": "影之神暴龍咒",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%BD%B1%E4%B9%8B%E7%A5%9E%E6%9A%B4%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/fd/C284.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112005\u0026path-prefix\u003dzh",
+      "iconKey": "C284.png"
+    }
+  },
+  {
+    "idNorm": "0285",
+    "name": "影之龍暴龍印",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%BD%B1%E4%B9%8B%E9%BE%8D%E6%9A%B4%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cc/C285.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112006\u0026path-prefix\u003dzh",
+      "iconKey": "C285.png"
+    }
+  },
+  {
+    "idNorm": "0286",
+    "name": "影之獸暴龍璃",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%BD%B1%E4%B9%8B%E7%8D%B8%E6%9A%B4%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/56/C286.png/revision/latest/scale-to-width-down/60?cb\u003d20180820112013\u0026path-prefix\u003dzh",
+      "iconKey": "C286.png"
+    }
   }
 ]

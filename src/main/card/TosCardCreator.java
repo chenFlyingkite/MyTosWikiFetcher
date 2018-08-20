@@ -1,5 +1,11 @@
 package main.card;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+
 import flyingkite.log.L;
 import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
@@ -13,12 +19,6 @@ import main.kt.SkillInfo;
 import main.kt.SkillInfo2;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
 
 public class TosCardCreator {
     private TosCardCreator() {}
@@ -621,8 +621,8 @@ public class TosCardCreator {
     private void fillSkillActive(TosCard c, List<String> list) {
         //-- Skill Active name #10
         c.skillName1 = list.get(0);
-        c.skillCDMin1 = Integer.parseInt(list.get(1));
-        c.skillCDMax1 = Integer.parseInt(list.get(2));
+        c.skillCDMin1 = "1809".equals(c.idNorm) ? 0 : Integer.parseInt(list.get(1));
+        c.skillCDMax1 = "1809".equals(c.idNorm) ? 0 : Integer.parseInt(list.get(2));
         c.skillDesc1 = list.get(3);
     }
 

@@ -8995,6 +8995,11 @@
     "link": "http://zh.tos.wikia.com/wiki/%E7%89%A1%E4%B8%B9"
   },
   {
+    "title": "No. 1809 六臂爐兵",
+    "id": "1809",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%85%AD%E8%87%82%E7%88%90%E5%85%B5"
+  },
+  {
     "title": "No. 1810 守約之鎧 ‧ 德耳塔",
     "id": "1810",
     "link": "http://zh.tos.wikia.com/wiki/%E5%AE%88%E7%B4%84%E4%B9%8B%E9%8E%A7_%E2%80%A7_%E5%BE%B7%E8%80%B3%E5%A1%94"
@@ -9018,6 +9023,131 @@
     "title": "No. 1817 戶愚呂弟 80%",
     "id": "1817",
     "link": "http://zh.tos.wikia.com/wiki/%E6%88%B6%E6%84%9A%E5%91%82%E5%BC%9F_80%25"
+  },
+  {
+    "title": "No. 1836 濕婆",
+    "id": "1836",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BF%95%E5%A9%86"
+  },
+  {
+    "title": "No. 1837 大自在天 ‧ 濕婆",
+    "id": "1837",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A7%E8%87%AA%E5%9C%A8%E5%A4%A9_%E2%80%A7_%E6%BF%95%E5%A9%86"
+  },
+  {
+    "title": "No. 1838 梵天",
+    "id": "1838",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A2%B5%E5%A4%A9"
+  },
+  {
+    "title": "No. 1839 唯識無境 ‧ 梵天",
+    "id": "1839",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%94%AF%E8%AD%98%E7%84%A1%E5%A2%83_%E2%80%A7_%E6%A2%B5%E5%A4%A9"
+  },
+  {
+    "title": "No. 1840 帕爾瓦蒂",
+    "id": "1840",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%B8%95%E7%88%BE%E7%93%A6%E8%92%82"
+  },
+  {
+    "title": "No. 1841 清蓮無垢 ‧ 帕爾瓦蒂",
+    "id": "1841",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%B8%85%E8%93%AE%E7%84%A1%E5%9E%A2_%E2%80%A7_%E5%B8%95%E7%88%BE%E7%93%A6%E8%92%82"
+  },
+  {
+    "title": "No. 1842 拉克什米",
+    "id": "1842",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%8B%89%E5%85%8B%E4%BB%80%E7%B1%B3"
+  },
+  {
+    "title": "No. 1843 業惡纏身 ‧ 拉克什米",
+    "id": "1843",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A5%AD%E6%83%A1%E7%BA%8F%E8%BA%AB_%E2%80%A7_%E6%8B%89%E5%85%8B%E4%BB%80%E7%B1%B3"
+  },
+  {
+    "title": "No. 1844 毗濕奴",
+    "id": "1844",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%AF%97%E6%BF%95%E5%A5%B4"
+  },
+  {
+    "title": "No. 1845 持戒苦行 ‧ 毗濕奴",
+    "id": "1845",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%8C%81%E6%88%92%E8%8B%A6%E8%A1%8C_%E2%80%A7_%E6%AF%97%E6%BF%95%E5%A5%B4"
+  },
+  {
+    "title": "No. 1846 伐樓那",
+    "id": "1846",
+    "link": "http://zh.tos.wikia.com/wiki/%E4%BC%90%E6%A8%93%E9%82%A3"
+  },
+  {
+    "title": "No. 1847 殺生嗜血 ‧ 伐樓那",
+    "id": "1847",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%AE%BA%E7%94%9F%E5%97%9C%E8%A1%80_%E2%80%A7_%E4%BC%90%E6%A8%93%E9%82%A3"
+  },
+  {
+    "title": "No. 1848 阿耆尼",
+    "id": "1848",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%98%BF%E8%80%86%E5%B0%BC"
+  },
+  {
+    "title": "No. 1849 嗔怨無明 ‧ 阿耆尼",
+    "id": "1849",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%97%94%E6%80%A8%E7%84%A1%E6%98%8E_%E2%80%A7_%E9%98%BF%E8%80%86%E5%B0%BC"
+  },
+  {
+    "title": "No. 1850 伐樓尼",
+    "id": "1850",
+    "link": "http://zh.tos.wikia.com/wiki/%E4%BC%90%E6%A8%93%E5%B0%BC"
+  },
+  {
+    "title": "No. 1851 執迷塵垢 ‧ 伐樓尼",
+    "id": "1851",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%9F%B7%E8%BF%B7%E5%A1%B5%E5%9E%A2_%E2%80%A7_%E4%BC%90%E6%A8%93%E5%B0%BC"
+  },
+  {
+    "title": "No. 1853 燃熠比翼 ‧ 迦樓羅",
+    "id": "1853",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%87%83%E7%86%A0%E6%AF%94%E7%BF%BC_%E2%80%A7_%E8%BF%A6%E6%A8%93%E7%BE%85"
+  },
+  {
+    "title": "No. 1858 虔心象神 ‧ 葛內舍",
+    "id": "1858",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%99%94%E5%BF%83%E8%B1%A1%E7%A5%9E_%E2%80%A7_%E8%91%9B%E5%85%A7%E8%88%8D"
+  },
+  {
+    "title": "No. 1859 紺藍動甲",
+    "id": "1859",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%B4%BA%E8%97%8D%E5%8B%95%E7%94%B2"
+  },
+  {
+    "title": "No. 1860 胭紅動甲",
+    "id": "1860",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%83%AD%E7%B4%85%E5%8B%95%E7%94%B2"
+  },
+  {
+    "title": "No. 1861 青碧動甲",
+    "id": "1861",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9D%92%E7%A2%A7%E5%8B%95%E7%94%B2"
+  },
+  {
+    "title": "No. 1862 橘霧動甲",
+    "id": "1862",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A9%98%E9%9C%A7%E5%8B%95%E7%94%B2"
+  },
+  {
+    "title": "No. 1863 紫橡動甲",
+    "id": "1863",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%B4%AB%E6%A9%A1%E5%8B%95%E7%94%B2"
+  },
+  {
+    "title": "No. 1867 命途引領者 ‧ 華倫西亞",
+    "id": "1867",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%91%BD%E9%80%94%E5%BC%95%E9%A0%98%E8%80%85_%E2%80%A7_%E8%8F%AF%E5%80%AB%E8%A5%BF%E4%BA%9E"
+  },
+  {
+    "title": "No. 1870 墜落殺戮 ‧ 貝西摩斯",
+    "id": "1870",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A2%9C%E8%90%BD%E6%AE%BA%E6%88%AE_%E2%80%A7_%E8%B2%9D%E8%A5%BF%E6%91%A9%E6%96%AF"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -9600,6 +9730,11 @@
     "link": "http://zh.tos.wikia.com/wiki/%E8%90%AC%E9%AD%94%E5%9C%96%E9%A8%B0_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC"
   },
   {
+    "title": "S 帽子公爵 ‧ 蘭斯洛特",
+    "id": "6122",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%B8%BD%E5%AD%90%E5%85%AC%E7%88%B5_%E2%80%A7_%E8%98%AD%E6%96%AF%E6%B4%9B%E7%89%B9"
+  },
+  {
     "title": "S123 浮金貴公子 ‧ 豐臣秀吉",
     "id": "6123",
     "link": "http://zh.tos.wikia.com/wiki/%E6%B5%AE%E9%87%91%E8%B2%B4%E5%85%AC%E5%AD%90_%E2%80%A7_%E8%B1%90%E8%87%A3%E7%A7%80%E5%90%89"
@@ -9923,6 +10058,16 @@
     "title": "S197 比翼浪花 ‧ 卡珊德拉",
     "id": "6197",
     "link": "http://zh.tos.wikia.com/wiki/%E6%AF%94%E7%BF%BC%E6%B5%AA%E8%8A%B1_%E2%80%A7_%E5%8D%A1%E7%8F%8A%E5%BE%B7%E6%8B%89"
+  },
+  {
+    "title": "S199 夢覺涼夏 ‧ 喀耳刻",
+    "id": "6199",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A2%E8%A6%BA%E6%B6%BC%E5%A4%8F_%E2%80%A7_%E5%96%80%E8%80%B3%E5%88%BB"
+  },
+  {
+    "title": "S209 燃熠比翼 ‧ 迦樓羅(動態造型)",
+    "id": "6209",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%87%83%E7%86%A0%E6%AF%94%E7%BF%BC_%E2%80%A7_%E8%BF%A6%E6%A8%93%E7%BE%85(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
