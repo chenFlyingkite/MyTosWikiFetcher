@@ -1,25 +1,5 @@
 package main.fetcher;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import main.kt.IconInfo;
-import main.kt.TosGet;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
-import flyingkite.data.Range;
-import flyingkite.log.L;
-import flyingkite.log.LF;
-import flyingkite.tool.IOUtil;
-import flyingkite.tool.TextUtil;
-import flyingkite.tool.TicTac2;
-import wikia.articles.UnexpandedArticle;
-import wikia.articles.result.UnexpandedListArticleResultSet;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -36,6 +16,30 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import flyingkite.data.Range;
+import flyingkite.log.L;
+import flyingkite.log.LF;
+import flyingkite.tool.IOUtil;
+import flyingkite.tool.TextUtil;
+import flyingkite.tool.TicTac2;
+import javafx.event.EventHandler;
+import javafx.scene.web.WebEngine;
+import javafx.scene.web.WebEvent;
+import javafx.scene.web.WebView;
+import main.kt.IconInfo;
+import main.kt.TosGet;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+import wikia.articles.UnexpandedArticle;
+import wikia.articles.result.UnexpandedListArticleResultSet;
 
 public class TosWikiBaseFetcher implements Runnable {
     public static final String wikiBaseZh = "http://zh.tos.wikia.com";
@@ -263,14 +267,48 @@ public class TosWikiBaseFetcher implements Runnable {
         Document doc = null;
         TicTac2 ts = new TicTac2();
         ts.setLog(logTime);
+        ts.setLog(true);
         ts.tic();
         try {
-            doc = Jsoup.connect(link).timeout(40_000).get();
+            if (true) {
+                doc = Jsoup.connect(link).timeout(60_000).maxBodySize(0).get();
+            } else {
+                doc = getByOkHttp(link);
+            }
+
         } catch (IOException e) {
             e.printStackTrace();
         }
         ts.tac("JSoup OK " + link);
         return doc;
+    }
+
+    private Document getByOkHttp(String link) {
+        OkHttpClient c = new OkHttpClient();
+        Request r = new Request.Builder().url(link).build();
+        ResponseBody rb = null;
+        try {
+            rb = c.newCall(r).execute().body();
+            if (rb != null) {
+                return Jsoup.parse(rb.string());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private void g(String link) {
+        WebView w = new WebView();
+        WebEngine wen = w.getEngine();
+        wen.load(link);
+        wen.setJavaScriptEnabled(true);
+        wen.setOnStatusChanged(new EventHandler<WebEvent<String>>() {
+            @Override
+            public void handle(WebEvent<String> event) {
+                L.log("E = %s", event);
+            }
+        });
     }
 
     protected Runnable runLogToFile(LF lfFile, List<String> list) {

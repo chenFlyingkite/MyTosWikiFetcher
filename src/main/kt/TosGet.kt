@@ -426,6 +426,7 @@ class TosGet {
                     if (n > 0) {
                         val img = item.child(0)
                         c.id = normEvoId(img.attr("alt"))
+                        c.linkId = baseWiki + "/wiki/" + c.id.toInt()
                     }
                     ans.add(c)
                 }
@@ -1151,9 +1152,11 @@ class CardItem {
     var id = ""
     @SerializedName("link")
     var link = ""
+    @SerializedName("linkId")
+    var linkId = ""
 
     override fun toString() : String {
-        return "#$id : $title -> $link"
+        return "#$id : $title -> $link , $linkId"
     }
 }
 

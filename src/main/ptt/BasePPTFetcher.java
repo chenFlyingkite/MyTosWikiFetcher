@@ -1,11 +1,11 @@
 package main.ptt;
 
+import java.io.IOException;
+
+import flyingkite.tool.TicTac2;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import flyingkite.tool.TicTac2;
-
-import java.io.IOException;
 
 public abstract class BasePPTFetcher {
     protected static final String pptCC = "https://www.ptt.cc";
@@ -18,7 +18,7 @@ public abstract class BasePPTFetcher {
         Document doc;
         try {
             ttClient.tic();
-            doc = Jsoup.connect(link).timeout(40_000).get();
+            doc = Jsoup.connect(link).timeout(40_000).maxBodySize(0).get();
             ttClient.tac("Jsoup connect");
 
             if (doc == null) return null;

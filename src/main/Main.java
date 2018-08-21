@@ -32,6 +32,7 @@ public class Main {
         //-- Regular
         boolean regl = true; // Regular
         boolean parl = true; // Parallel
+        boolean onlyCard = false;
         // 維基動態
         if (regl) {
             // 最近動態
@@ -62,12 +63,12 @@ public class Main {
             TaskMonitorUtil.join(beforeCard, endCard);
         }
         //TosSkillFetcher.me.run();
-        //TosCardFetcher.me.run();
+        //TosWikiCardsLister.me.run();
+        if (onlyCard) {
+            endCard.run();
+        }
         if (!regl) {
             TicTac2 c = new TicTac2();
-            if (true) {
-                //endCard.run();
-            }
         }
 
         //-- Seldom
@@ -118,6 +119,6 @@ public class Main {
 //
     private static final ExecutorService cache
     //    = Executors.newCachedThreadPool();
-        = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 20);
+        = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 60);
 
 }

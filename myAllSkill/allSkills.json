@@ -324,6 +324,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "不渝之援",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E4%B8%8D%E6%B8%9D%E4%B9%8B%E6%8F%B4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，隊長及戰友攻擊力 4 倍；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合",
+    "skillMonsters": [
+      "1841"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "不老妙藥",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E4%B8%8D%E8%80%81%E5%A6%99%E8%97%A5",
     "skillCDMin": 20,
@@ -894,6 +905,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "仙荷之力 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E4%BB%99%E8%8D%B7%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "神族攻擊力 2 倍；每首批消除 1 組隊伍成員屬性符石或心符石時，將產生 1 粒神族強化符石，最多可產生 6 粒，效果持續至受到敵人攻擊",
+    "skillMonsters": [
+      "1704"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "伸縮自在的愛",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E4%BC%B8%E7%B8%AE%E8%87%AA%E5%9C%A8%E7%9A%84%E6%84%9B",
     "skillCDMin": 17,
@@ -1231,6 +1253,18 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "元素創念",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%89%B5%E5%BF%B5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有神族成員時，全隊攻擊力 4 倍；首批掉落「沒有首批消除」的其中 1 種屬性符石 (剩餘數量最少優先)。消除 5 種屬性符石時，全隊攻擊力額外提升 1.5 倍",
+    "skillMonsters": [
+      "1838",
+      "1839"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "元素加冕 ‧ 支配",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%94%AF%E9%85%8D",
@@ -1288,6 +1322,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "元素展變 ‧ 幽冥",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E5%B9%BD%E5%86%A5",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "點選 1 橫行的符石，並將該橫行的符石轉化為暗強化符石",
+    "skillMonsters": [
+      "0960"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "元素展變 ‧ 暗",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E6%9A%97",
     "skillCDMin": 16,
@@ -1324,6 +1369,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "元素展變 ‧ 浪濤",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E6%B5%AA%E6%BF%A4",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "點選 1 橫行的符石，並將該橫行的符石轉化為水強化符石",
+    "skillMonsters": [
+      "0956"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "元素展變 ‧ 火",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E7%81%AB",
     "skillCDMin": 16,
@@ -1332,6 +1388,39 @@
     "skillMonsters": [
       "0957",
       "0962"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素展變 ‧ 熾燄",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E7%86%BE%E7%87%84",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "點選 1 橫行的符石，並將該橫行的符石轉化為火強化符石",
+    "skillMonsters": [
+      "0957"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素展變 ‧ 玄光",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E7%8E%84%E5%85%89",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "點選 1 橫行的符石，並將該橫行的符石轉化為光強化符石",
+    "skillMonsters": [
+      "0959"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素展變 ‧ 藤木",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E8%97%A4%E6%9C%A8",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "點選 1 橫行的符石，並將該橫行的符石轉化為木強化符石",
+    "skillMonsters": [
+      "0958"
     ]
   },
   {
@@ -3244,6 +3333,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "力量的肇始",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%8A%9B%E9%87%8F%E7%9A%84%E8%82%87%E5%A7%8B",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "將黑白符石變回原來色調；1 回合內，必然延長移動符石時間 6 秒；自身攻擊力 6 倍；連擊 (Combo) 數目增加 6",
+    "skillMonsters": [
+      "1839"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "加冕之卍",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%8A%A0%E5%86%95%E4%B9%8B%E5%8D%8D",
     "skillCDMin": 19,
@@ -3417,6 +3517,17 @@
     "skillDesc": "隊伍中只有龍類成員時，龍類增加 250 點攻擊力，連擊 (Combo) 時攻擊力大幅提升 200%",
     "skillMonsters": [
       "1185"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "化厄之念",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%8C%96%E5%8E%84%E4%B9%8B%E5%BF%B5",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "將黑白符石變回原來色調；1 回合內，減少 50% 所受傷害；消除神族符石愈多，全隊攻擊力提升愈多，5 粒可提升至最大 2 倍",
+    "skillMonsters": [
+      "1845"
     ]
   },
   {
@@ -4062,6 +4173,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "因靈之力 ‧ 妖魅",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%A6%96%E9%AD%85",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "引爆心符石以掉落強化符石及增加妖精類攻擊力，引爆 8 粒可達至最大 3 倍",
+    "skillMonsters": [
+      "1232"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "因靈之力 ‧ 強獸",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7%E7%8D%B8",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "引爆心符石以掉落強化符石及增加獸類攻擊力，引爆 8 粒即可達至最大 3 倍",
+    "skillMonsters": [
+      "1235"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "因靈之力 ‧ 獸",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E7%8D%B8",
     "skillCDMin": 19,
@@ -4496,6 +4629,17 @@
     "skillDesc": "直接引爆場上所有光及暗符石以提升攻擊力，8 粒即可達至最大 2 倍",
     "skillMonsters": [
       "0917"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "天海之濤",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%A4%A9%E6%B5%B7%E4%B9%8B%E6%BF%A4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，每首批消除 2 粒水符石，將產生 1 粒水神族符石；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合",
+    "skillMonsters": [
+      "1847"
     ]
   },
   {
@@ -5579,6 +5723,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "席卷之幽冥",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B8%AD%E5%8D%B7%E4%B9%8B%E5%B9%BD%E5%86%A5",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，全隊攻擊力 1.5 倍；每首批消除 1 組暗以外的符石，必定掉落 2 粒暗符石",
+    "skillMonsters": [
+      "1554"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "帶我飛向月球",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B8%B6%E6%88%91%E9%A3%9B%E5%90%91%E6%9C%88%E7%90%83",
     "skillCDMin": 21,
@@ -5655,12 +5810,34 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "幻惑護生",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B9%BB%E6%83%91%E8%AD%B7%E7%94%9F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有神族成員時，全隊攻擊力 4 倍；同時消除光及暗符石時，全隊攻擊力及回復力 1.5 倍，並減少 20% 所受傷害",
+    "skillMonsters": [
+      "1845"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "幻櫻花海",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B9%BB%E6%AB%BB%E8%8A%B1%E6%B5%B7",
     "skillCDMin": 19,
     "skillCDMax": 8,
     "skillDesc": "根據本回合所消除的連擊 (Combo) 數目，下回合開始時將火及心以外的符石，轉化為該數目等值的火強化符石",
+    "skillMonsters": [
+      "1604"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "幻櫻花海 ‧ 魅",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B9%BB%E6%AB%BB%E8%8A%B1%E6%B5%B7_%E2%80%A7_%E9%AD%85",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "將火及心符石轉化為妖族符石。根據本回合的連擊 (Combo) 數目，下回合開始時將火及心以外的符石，轉化為該數目等值的火強化符石",
     "skillMonsters": [
       "1604"
     ]
@@ -9778,6 +9955,61 @@
   },
   {
     "type": "主動技",
+    "skillName": "機械配置 ‧ 光",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E5%85%89",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "光符石轉化為機械族符石",
+    "skillMonsters": [
+      "1862"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機械配置 ‧ 暗",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%9A%97",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "暗符石轉化為機械族符石",
+    "skillMonsters": [
+      "1863"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機械配置 ‧ 木",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%9C%A8",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "木符石轉化為機械族符石",
+    "skillMonsters": [
+      "1861"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機械配置 ‧ 水",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%B0%B4",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "水符石轉化為機械族符石",
+    "skillMonsters": [
+      "1859"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機械配置 ‧ 火",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E7%81%AB",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "火符石轉化為機械族符石",
+    "skillMonsters": [
+      "1860"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "機甲加冕",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E7%94%B2%E5%8A%A0%E5%86%95",
     "skillCDMin": 15,
@@ -10670,6 +10902,17 @@
     "skillCDMin": 16,
     "skillCDMax": 5,
     "skillDesc": "2 回合內，移動符石時觸碰的火符石轉化為水符石，觸碰的暗符石轉化為光符石",
+    "skillMonsters": [
+      "1701"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "水月光華幻變 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E5%85%89%E8%8F%AF%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "2 回合內，移動符石時觸碰的火符石轉化為水強化符石，觸碰的暗符石轉化為光強化符石",
     "skillMonsters": [
       "1701"
     ]
@@ -11833,6 +12076,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "混沌再生",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B7%B7%E6%B2%8C%E5%86%8D%E7%94%9F",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "將黑白符石變回原來色調；點選 2 直行的符石並引爆，以掉落水神族強化符石",
+    "skillMonsters": [
+      "1837"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "混沌退散",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B7%B7%E6%B2%8C%E9%80%80%E6%95%A3",
     "skillCDMin": 18,
@@ -12458,6 +12712,17 @@
       "0427",
       "0516",
       "0672"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "火焰舞動",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%84%B0%E8%88%9E%E5%8B%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，可任意移動符石而不會發動消除；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合",
+    "skillMonsters": [
+      "1849"
     ]
   },
   {
@@ -13637,6 +13902,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "燄鳥振翅",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%87%84%E9%B3%A5%E6%8C%AF%E7%BF%85",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，延長移動符石時間至 10 秒及火屬性攻擊力 1.5 倍，場上有其他附加效果時，火屬性獸類攻擊力則提升至 3 倍",
+    "skillMonsters": [
+      "1853"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "燎原境界",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%87%8E%E5%8E%9F%E5%A2%83%E7%95%8C",
@@ -14048,6 +14324,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "獸化加冕 ‧ 追擊",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E5%8A%A0%E5%86%95_%E2%80%A7_%E8%BF%BD%E6%93%8A",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "引爆隊長及戰友所在直行的符石，以掉落獸族強化符石；1 回合內，獸類成員以 30% 自身攻擊力追打隨機屬性攻擊 3 次",
+    "skillMonsters": [
+      "1867"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "獸化支援",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E6%94%AF%E6%8F%B4",
     "skillCDMin": 17,
@@ -14077,6 +14364,29 @@
     "skillDesc": "木符石轉化為木強化符石；若技能發動時場上沒有心符石，將所有符石轉化為獸族符石",
     "skillMonsters": [
       "1421"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "獸靈之力",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8D%B8%E9%9D%88%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "木符石轉化為獸族強化符石，並對全體敵人造成 25 倍「獸類成員生命力等值」的木屬性傷害",
+    "skillMonsters": [
+      "1858"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "獸類萬鈞之怒",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8D%B8%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "獸類攻擊力 4 倍",
+    "skillMonsters": [
+      "1853",
+      "1858"
     ]
   },
   {
@@ -14316,6 +14626,17 @@
     "skillDesc": "1 回合內，光屬性攻擊力 1.5 倍；並將移動符石時觸碰的首 6 粒符石轉化為光符石",
     "skillMonsters": [
       "1251"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "玄虛幻變 ‧ 幽冥",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E5%B9%BD%E5%86%A5",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，暗屬性攻擊力 1.5 倍，並將移動符石時觸碰的首 6 粒符石轉化為暗強化符石",
+    "skillMonsters": [
+      "1436"
     ]
   },
   {
@@ -15429,6 +15750,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "神力契約",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E5%8A%9B%E5%A5%91%E7%B4%84",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，同時消除光、暗及心符石時，全隊攻擊力 2.2 倍；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合",
+    "skillMonsters": [
+      "1843"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "神妖呼召",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E5%A6%96%E5%91%BC%E5%8F%AC",
     "skillCDMin": 22,
@@ -15436,6 +15768,18 @@
     "skillDesc": "神族及妖精類成員所在隊伍欄直行的符石轉化為該直行成員的種族符石；1 回合內，消除神族符石時，全隊攻擊力 2 倍，消除妖族符石時，妖精類成員追打自身屬性攻擊 1 次",
     "skillMonsters": [
       "1624"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "神妖滅世",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E5%A6%96%E6%BB%85%E4%B8%96",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有神族或妖精類成員時，全隊攻擊力 4 倍，並延長移動符石時間 1 秒。消除神族或妖族符石時，全隊攻擊力額外提升 1.5 倍",
+    "skillMonsters": [
+      "1836",
+      "1837"
     ]
   },
   {
@@ -15524,6 +15868,17 @@
       "1846",
       "1848",
       "1850"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神權之慾",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%AC%8A%E4%B9%8B%E6%85%BE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，神族攻擊力及回復力 1.5 倍；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合",
+    "skillMonsters": [
+      "1851"
     ]
   },
   {
@@ -17372,6 +17727,17 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "當隊伍中只有獸類成員時，全隊攻擊力 5 倍。每消除 3 種時 (不計重複)，掉落 1 粒暗獸族符石",
+    "skillMonsters": [
+      "1545"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "紫魅斷魂 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%B4%AB%E9%AD%85%E6%96%B7%E9%AD%82_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有獸類成員時，全隊攻擊力 5 倍及生命力 1.2 倍。每消除 3 種或以上符石時 (不計重複)，掉落 1 粒暗獸族強化符石",
     "skillMonsters": [
       "1545"
     ]
@@ -21126,6 +21492,18 @@
   },
   {
     "type": "隊長技",
+    "skillName": "酷冷之殺意 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%85%B7%E5%86%B7%E4%B9%8B%E6%AE%BA%E6%84%8F_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有火、木及暗屬性成員時，全隊攻擊力 4 倍；任意消除火、木或暗符石達 9 粒或以上，全隊攻擊力額外提升 1.8 倍",
+    "skillMonsters": [
+      "1679",
+      "1680"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "酷冷幽燄",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%85%B7%E5%86%B7%E5%B9%BD%E7%87%84",
     "skillCDMin": -1,
@@ -22289,6 +22667,18 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "延長移動符石時間 1 秒。隊伍中只有水屬性人類時，全隊攻擊力 4.5 倍；每組消除符石額外計算多 1 連擊 (Combo)；符石需 4 粒或以上相連才可發動消除",
+    "skillMonsters": [
+      "1671",
+      "1672"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "霸者盛勢 ‧ 靈之控",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%9C%B8%E8%80%85%E7%9B%9B%E5%8B%A2_%E2%80%A7_%E9%9D%88%E4%B9%8B%E6%8E%A7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "延長移動符石時間 1 秒。隊伍中只有水屬性人類時，全隊攻擊力 4.5 倍；每消除 1 組符石額外計算多 1 連擊 (Combo)；屬性符石需 4 粒或以上相連才可發動消除；心符石 2 粒或以上相連即可發動消除",
     "skillMonsters": [
       "1671",
       "1672"

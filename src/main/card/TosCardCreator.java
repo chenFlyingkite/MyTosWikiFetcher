@@ -619,7 +619,7 @@ public class TosCardCreator {
     }
 
     private void fillSkillActive(TosCard c, List<String> list) {
-        //-- Skill Active name #10
+        //-- Skill Active name #10 // TODO : Remove work around
         c.skillName1 = list.get(0);
         c.skillCDMin1 = "1809".equals(c.idNorm) ? 0 : Integer.parseInt(list.get(1));
         c.skillCDMax1 = "1809".equals(c.idNorm) ? 0 : Integer.parseInt(list.get(2));

@@ -1,13 +1,13 @@
 package main.fetcher;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import flyingkite.log.LF;
 import main.kt.EnemySkill;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class TosEnemySkillFetcher extends TosWikiBaseFetcher {
     private TosEnemySkillFetcher() {}
@@ -63,6 +63,7 @@ public class TosEnemySkillFetcher extends TosWikiBaseFetcher {
         Document doc = getDocument(link);
 
         Element main = doc.getElementById("mw-content-text");
+
         return TosGet.me.getSkillItems(main, wikiBaseZh);
     }
 }

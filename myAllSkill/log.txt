@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2029 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (2064 items, basePath = http://zh.tos.wikia.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -28,6 +28,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 不倒意志 -> http://zh.tos.wikia.com/wiki/%E4%B8%8D%E5%80%92%E6%84%8F%E5%BF%97
 不撓雄傑_‧_光 -> http://zh.tos.wikia.com/wiki/%E4%B8%8D%E6%92%93%E9%9B%84%E5%82%91_%E2%80%A7_%E5%85%89
 不撓雄傑_‧_木 -> http://zh.tos.wikia.com/wiki/%E4%B8%8D%E6%92%93%E9%9B%84%E5%82%91_%E2%80%A7_%E6%9C%A8
+不渝之援 -> http://zh.tos.wikia.com/wiki/%E4%B8%8D%E6%B8%9D%E4%B9%8B%E6%8F%B4
 不老妙藥 -> http://zh.tos.wikia.com/wiki/%E4%B8%8D%E8%80%81%E5%A6%99%E8%97%A5
 世界樹之克勞諾斯閃擊 -> http://zh.tos.wikia.com/wiki/%E4%B8%96%E7%95%8C%E6%A8%B9%E4%B9%8B%E5%85%8B%E5%8B%9E%E8%AB%BE%E6%96%AF%E9%96%83%E6%93%8A
 丹青化五靈 -> http://zh.tos.wikia.com/wiki/%E4%B8%B9%E9%9D%92%E5%8C%96%E4%BA%94%E9%9D%88
@@ -70,6 +71,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 仙劍同源_‧_強 -> http://zh.tos.wikia.com/wiki/%E4%BB%99%E5%8A%8D%E5%90%8C%E6%BA%90_%E2%80%A7_%E5%BC%B7
 仙影飄跡 -> http://zh.tos.wikia.com/wiki/%E4%BB%99%E5%BD%B1%E9%A3%84%E8%B7%A1
 仙荷之力 -> http://zh.tos.wikia.com/wiki/%E4%BB%99%E8%8D%B7%E4%B9%8B%E5%8A%9B
+仙荷之力_‧_強 -> http://zh.tos.wikia.com/wiki/%E4%BB%99%E8%8D%B7%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7
 伸縮自在的愛 -> http://zh.tos.wikia.com/wiki/%E4%BC%B8%E7%B8%AE%E8%87%AA%E5%9C%A8%E7%9A%84%E6%84%9B
 來、再一次奮起吧 -> http://zh.tos.wikia.com/wiki/%E4%BE%86%E3%80%81%E5%86%8D%E4%B8%80%E6%AC%A1%E5%A5%AE%E8%B5%B7%E5%90%A7
 俠盜之力 -> http://zh.tos.wikia.com/wiki/%E4%BF%A0%E7%9B%9C%E4%B9%8B%E5%8A%9B
@@ -101,15 +103,21 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 元素凝滙_‧_強 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%87%9D%E6%BB%99_%E2%80%A7_%E5%BC%B7
 元素凝聚 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%87%9D%E8%81%9A
 元素凝護_‧_獸 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%87%9D%E8%AD%B7_%E2%80%A7_%E7%8D%B8
+元素創念 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%89%B5%E5%BF%B5
 元素加冕_‧_支配 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%94%AF%E9%85%8D
 元素均霑 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%9D%87%E9%9C%91
 元素均霑_‧_強 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%9D%87%E9%9C%91_%E2%80%A7_%E5%BC%B7
 元素契約 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%A5%91%E7%B4%84
 元素展變_‧_光 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E5%85%89
+元素展變_‧_幽冥 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E5%B9%BD%E5%86%A5
 元素展變_‧_暗 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E6%9A%97
 元素展變_‧_木 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E6%9C%A8
 元素展變_‧_水 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E6%B0%B4
+元素展變_‧_浪濤 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E6%B5%AA%E6%BF%A4
 元素展變_‧_火 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E7%81%AB
+元素展變_‧_熾燄 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E7%86%BE%E7%87%84
+元素展變_‧_玄光 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E7%8E%84%E5%85%89
+元素展變_‧_藤木 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%B1%95%E8%AE%8A_%E2%80%A7_%E8%97%A4%E6%9C%A8
 元素掌控術 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E6%8E%8C%E6%8E%A7%E8%A1%93
 元素掌控術_‧_全 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E6%8E%8C%E6%8E%A7%E8%A1%93_%E2%80%A7_%E5%85%A8
 元素掌控術_‧_加冕 -> http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E6%8E%8C%E6%8E%A7%E8%A1%93_%E2%80%A7_%E5%8A%A0%E5%86%95
@@ -267,6 +275,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 劍緣陣法 -> http://zh.tos.wikia.com/wiki/%E5%8A%8D%E7%B7%A3%E9%99%A3%E6%B3%95
 劍走偏鋒 -> http://zh.tos.wikia.com/wiki/%E5%8A%8D%E8%B5%B0%E5%81%8F%E9%8B%92
 力量之源 -> http://zh.tos.wikia.com/wiki/%E5%8A%9B%E9%87%8F%E4%B9%8B%E6%BA%90
+力量的肇始 -> http://zh.tos.wikia.com/wiki/%E5%8A%9B%E9%87%8F%E7%9A%84%E8%82%87%E5%A7%8B
 加冕之卍 -> http://zh.tos.wikia.com/wiki/%E5%8A%A0%E5%86%95%E4%B9%8B%E5%8D%8D
 加冕之卍_‧_暗 -> http://zh.tos.wikia.com/wiki/%E5%8A%A0%E5%86%95%E4%B9%8B%E5%8D%8D_%E2%80%A7_%E6%9A%97
 加冕之卍_‧_火 -> http://zh.tos.wikia.com/wiki/%E5%8A%A0%E5%86%95%E4%B9%8B%E5%8D%8D_%E2%80%A7_%E7%81%AB
@@ -283,6 +292,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 動力提升_‧_魅影 -> http://zh.tos.wikia.com/wiki/%E5%8B%95%E5%8A%9B%E6%8F%90%E5%8D%87_%E2%80%A7_%E9%AD%85%E5%BD%B1
 勢煞龍息 -> http://zh.tos.wikia.com/wiki/%E5%8B%A2%E7%85%9E%E9%BE%8D%E6%81%AF
 勢煞龍息_‧_迸發 -> http://zh.tos.wikia.com/wiki/%E5%8B%A2%E7%85%9E%E9%BE%8D%E6%81%AF_%E2%80%A7_%E8%BF%B8%E7%99%BC
+化厄之念 -> http://zh.tos.wikia.com/wiki/%E5%8C%96%E5%8E%84%E4%B9%8B%E5%BF%B5
 化攻術 -> http://zh.tos.wikia.com/wiki/%E5%8C%96%E6%94%BB%E8%A1%93
 化靈延敵 -> http://zh.tos.wikia.com/wiki/%E5%8C%96%E9%9D%88%E5%BB%B6%E6%95%B5
 十劍擎天傲臨風 -> http://zh.tos.wikia.com/wiki/%E5%8D%81%E5%8A%8D%E6%93%8E%E5%A4%A9%E5%82%B2%E8%87%A8%E9%A2%A8
@@ -338,6 +348,8 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 回眸傾城 -> http://zh.tos.wikia.com/wiki/%E5%9B%9E%E7%9C%B8%E5%82%BE%E5%9F%8E
 因念成劍_‧_水 -> http://zh.tos.wikia.com/wiki/%E5%9B%A0%E5%BF%B5%E6%88%90%E5%8A%8D_%E2%80%A7_%E6%B0%B4
 因靈之力_‧_妖 -> http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%A6%96
+因靈之力_‧_妖魅 -> http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%A6%96%E9%AD%85
+因靈之力_‧_強獸 -> http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7%E7%8D%B8
 因靈之力_‧_獸 -> http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E7%8D%B8
 圓月幻星舞 -> http://zh.tos.wikia.com/wiki/%E5%9C%93%E6%9C%88%E5%B9%BB%E6%98%9F%E8%88%9E
 團結聚力_‧_人 -> http://zh.tos.wikia.com/wiki/%E5%9C%98%E7%B5%90%E8%81%9A%E5%8A%9B_%E2%80%A7_%E4%BA%BA
@@ -375,6 +387,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 天問三誓 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E5%95%8F%E4%B8%89%E8%AA%93
 天地流風 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E5%9C%B0%E6%B5%81%E9%A2%A8
 天女散花 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E5%A5%B3%E6%95%A3%E8%8A%B1
+天海之濤 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E6%B5%B7%E4%B9%8B%E6%BF%A4
 天狼巽閃 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%8B%BC%E5%B7%BD%E9%96%83
 天狼巽閃_‧_強 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%8B%BC%E5%B7%BD%E9%96%83_%E2%80%A7_%E5%BC%B7
 天眷之燄 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%9C%B7%E4%B9%8B%E7%87%84
@@ -459,6 +472,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 帥氣槍擊_‧_火強 -> http://zh.tos.wikia.com/wiki/%E5%B8%A5%E6%B0%A3%E6%A7%8D%E6%93%8A_%E2%80%A7_%E7%81%AB%E5%BC%B7
 帥鹿合擊 -> http://zh.tos.wikia.com/wiki/%E5%B8%A5%E9%B9%BF%E5%90%88%E6%93%8A
 席卷之幽 -> http://zh.tos.wikia.com/wiki/%E5%B8%AD%E5%8D%B7%E4%B9%8B%E5%B9%BD
+席卷之幽冥 -> http://zh.tos.wikia.com/wiki/%E5%B8%AD%E5%8D%B7%E4%B9%8B%E5%B9%BD%E5%86%A5
 帶我飛向月球 -> http://zh.tos.wikia.com/wiki/%E5%B8%B6%E6%88%91%E9%A3%9B%E5%90%91%E6%9C%88%E7%90%83
 幸運治癒_‧_光 -> http://zh.tos.wikia.com/wiki/%E5%B9%B8%E9%81%8B%E6%B2%BB%E7%99%92_%E2%80%A7_%E5%85%89
 幸運治癒_‧_暗 -> http://zh.tos.wikia.com/wiki/%E5%B9%B8%E9%81%8B%E6%B2%BB%E7%99%92_%E2%80%A7_%E6%9A%97
@@ -466,7 +480,9 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 幸運治癒_‧_水 -> http://zh.tos.wikia.com/wiki/%E5%B9%B8%E9%81%8B%E6%B2%BB%E7%99%92_%E2%80%A7_%E6%B0%B4
 幸運治癒_‧_火 -> http://zh.tos.wikia.com/wiki/%E5%B9%B8%E9%81%8B%E6%B2%BB%E7%99%92_%E2%80%A7_%E7%81%AB
 幻影流星 -> http://zh.tos.wikia.com/wiki/%E5%B9%BB%E5%BD%B1%E6%B5%81%E6%98%9F
+幻惑護生 -> http://zh.tos.wikia.com/wiki/%E5%B9%BB%E6%83%91%E8%AD%B7%E7%94%9F
 幻櫻花海 -> http://zh.tos.wikia.com/wiki/%E5%B9%BB%E6%AB%BB%E8%8A%B1%E6%B5%B7
+幻櫻花海_‧_魅 -> http://zh.tos.wikia.com/wiki/%E5%B9%BB%E6%AB%BB%E8%8A%B1%E6%B5%B7_%E2%80%A7_%E9%AD%85
 幻滅之恨 -> http://zh.tos.wikia.com/wiki/%E5%B9%BB%E6%BB%85%E4%B9%8B%E6%81%A8
 幻獸伴主 -> http://zh.tos.wikia.com/wiki/%E5%B9%BB%E7%8D%B8%E4%BC%B4%E4%B8%BB
 幻獸佐主 -> http://zh.tos.wikia.com/wiki/%E5%B9%BB%E7%8D%B8%E4%BD%90%E4%B8%BB
@@ -808,6 +824,11 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 樹靈妖斬拳 -> http://zh.tos.wikia.com/wiki/%E6%A8%B9%E9%9D%88%E5%A6%96%E6%96%AC%E6%8B%B3
 機動重炮 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E5%8B%95%E9%87%8D%E7%82%AE
 機械萬鈞之怒_‧_極 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5
+機械配置_‧_光 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E5%85%89
+機械配置_‧_暗 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%9A%97
+機械配置_‧_木 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%9C%A8
+機械配置_‧_水 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%B0%B4
+機械配置_‧_火 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E7%81%AB
 機甲加冕 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E7%94%B2%E5%8A%A0%E5%86%95
 機甲武裝加冕 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E7%94%B2%E6%AD%A6%E8%A3%9D%E5%8A%A0%E5%86%95
 橫掃千軍 -> http://zh.tos.wikia.com/wiki/%E6%A9%AB%E6%8E%83%E5%8D%83%E8%BB%8D
@@ -883,6 +904,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 水月之濤 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E4%B9%8B%E6%BF%A4
 水月光華加冕 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E5%85%89%E8%8F%AF%E5%8A%A0%E5%86%95
 水月光華幻變 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E5%85%89%E8%8F%AF%E5%B9%BB%E8%AE%8A
+水月光華幻變_‧_強 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E5%85%89%E8%8F%AF%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E5%BC%B7
 水月連擊 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E9%80%A3%E6%93%8A
 水月醉光華 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E9%86%89%E5%85%89%E8%8F%AF
 水波怒擊 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B3%A2%E6%80%92%E6%93%8A
@@ -973,6 +995,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 淨世滅靈 -> http://zh.tos.wikia.com/wiki/%E6%B7%A8%E4%B8%96%E6%BB%85%E9%9D%88
 深沉之藍 -> http://zh.tos.wikia.com/wiki/%E6%B7%B1%E6%B2%89%E4%B9%8B%E8%97%8D
 混 -> http://zh.tos.wikia.com/wiki/%E6%B7%B7
+混沌再生 -> http://zh.tos.wikia.com/wiki/%E6%B7%B7%E6%B2%8C%E5%86%8D%E7%94%9F
 混沌退散 -> http://zh.tos.wikia.com/wiki/%E6%B7%B7%E6%B2%8C%E9%80%80%E6%95%A3
 清傲之靈 -> http://zh.tos.wikia.com/wiki/%E6%B8%85%E5%82%B2%E4%B9%8B%E9%9D%88
 清靈化幽_‧_唯我 -> http://zh.tos.wikia.com/wiki/%E6%B8%85%E9%9D%88%E5%8C%96%E5%B9%BD_%E2%80%A7_%E5%94%AF%E6%88%91
@@ -1024,6 +1047,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 火焰爆撃 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%84%B0%E7%88%86%E6%92%83
 火焰爆擊_‧_盈火 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%84%B0%E7%88%86%E6%93%8A_%E2%80%A7_%E7%9B%88%E7%81%AB
 火焰猛擊 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%84%B0%E7%8C%9B%E6%93%8A
+火焰舞動 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%84%B0%E8%88%9E%E5%8B%95
 火焰轟擊 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%84%B0%E8%BD%9F%E6%93%8A
 火焰進擊 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%84%B0%E9%80%B2%E6%93%8A
 火燄舞影 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E7%87%84%E8%88%9E%E5%BD%B1
@@ -1121,6 +1145,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 燄火敕令 -> http://zh.tos.wikia.com/wiki/%E7%87%84%E7%81%AB%E6%95%95%E4%BB%A4
 燄獸萬鈞之怒_‧_極 -> http://zh.tos.wikia.com/wiki/%E7%87%84%E7%8D%B8%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5
 燄神咒術 -> http://zh.tos.wikia.com/wiki/%E7%87%84%E7%A5%9E%E5%92%92%E8%A1%93
+燄鳥振翅 -> http://zh.tos.wikia.com/wiki/%E7%87%84%E9%B3%A5%E6%8C%AF%E7%BF%85
 燎原境界 -> http://zh.tos.wikia.com/wiki/%E7%87%8E%E5%8E%9F%E5%A2%83%E7%95%8C
 爆燄之鎧 -> http://zh.tos.wikia.com/wiki/%E7%88%86%E7%87%84%E4%B9%8B%E9%8E%A7
 爆裂之幻沫 -> http://zh.tos.wikia.com/wiki/%E7%88%86%E8%A3%82%E4%B9%8B%E5%B9%BB%E6%B2%AB
@@ -1153,9 +1178,12 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 獄炎境界 -> http://zh.tos.wikia.com/wiki/%E7%8D%84%E7%82%8E%E5%A2%83%E7%95%8C
 獨一 -> http://zh.tos.wikia.com/wiki/%E7%8D%A8%E4%B8%80
 獵人激濤 -> http://zh.tos.wikia.com/wiki/%E7%8D%B5%E4%BA%BA%E6%BF%80%E6%BF%A4
+獸化加冕_‧_追擊 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E5%8A%A0%E5%86%95_%E2%80%A7_%E8%BF%BD%E6%93%8A
 獸化支援 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E6%94%AF%E6%8F%B4
 獸化支援_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E6%94%AF%E6%8F%B4_%E2%80%A7_%E5%BC%B7
 獸權加冕 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E6%AC%8A%E5%8A%A0%E5%86%95
+獸靈之力 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E9%9D%88%E4%B9%8B%E5%8A%9B
+獸類萬鈞之怒 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92
 玄光之誅罰 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E5%85%89%E4%B9%8B%E8%AA%85%E7%BD%B0
 玄光倏怒 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E5%85%89%E5%80%8F%E6%80%92
 玄光勢略 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E5%85%89%E5%8B%A2%E7%95%A5
@@ -1177,6 +1205,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 玄火追擊流 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E7%81%AB%E8%BF%BD%E6%93%8A%E6%B5%81
 玄獸之力 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E7%8D%B8%E4%B9%8B%E5%8A%9B
 玄虛幻變_‧_光 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E5%85%89
+玄虛幻變_‧_幽冥 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E5%B9%BD%E5%86%A5
 玄虛幻變_‧_暗 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E6%9A%97
 玄虛幻變_‧_木 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E6%9C%A8
 玄虛幻變_‧_木葉 -> http://zh.tos.wikia.com/wiki/%E7%8E%84%E8%99%9B%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E6%9C%A8%E8%91%89
@@ -1272,7 +1301,9 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 神之怒 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E4%B9%8B%E6%80%92
 神之滅 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E4%B9%8B%E6%BB%85
 神之秘剣_-_光炎破碎 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E4%B9%8B%E7%A7%98%E5%89%A3_-_%E5%85%89%E7%82%8E%E7%A0%B4%E7%A2%8E
+神力契約 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E5%8A%9B%E5%A5%91%E7%B4%84
 神妖呼召 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E5%A6%96%E5%91%BC%E5%8F%AC
+神妖滅世 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E5%A6%96%E6%BB%85%E4%B8%96
 神族無光的夢境 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%97%8F%E7%84%A1%E5%85%89%E7%9A%84%E5%A4%A2%E5%A2%83
 神族符能_‧_幽冥陣 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E5%B9%BD%E5%86%A5%E9%99%A3
 神族符能_‧_浪濤陣 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E6%B5%AA%E6%BF%A4%E9%99%A3
@@ -1280,6 +1311,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 神族符能_‧_玄光陣 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%8E%84%E5%85%89%E9%99%A3
 神族符能_‧_藤木陣 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E8%97%A4%E6%9C%A8%E9%99%A3
 神族萬鈞之怒 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%97%8F%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92
+神權之慾 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%AC%8A%E4%B9%8B%E6%85%BE
 神權八咫鏡 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%AC%8A%E5%85%AB%E5%92%AB%E9%8F%A1
 神權在握 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E6%AC%8A%E5%9C%A8%E6%8F%A1
 神猴之力_‧_暗 -> http://zh.tos.wikia.com/wiki/%E7%A5%9E%E7%8C%B4%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E6%9A%97
@@ -1436,6 +1468,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 紅塵一步終 -> http://zh.tos.wikia.com/wiki/%E7%B4%85%E5%A1%B5%E4%B8%80%E6%AD%A5%E7%B5%82
 紅蓮滅卻鹿盧劍 -> http://zh.tos.wikia.com/wiki/%E7%B4%85%E8%93%AE%E6%BB%85%E5%8D%BB%E9%B9%BF%E7%9B%A7%E5%8A%8D
 紫魅斷魂 -> http://zh.tos.wikia.com/wiki/%E7%B4%AB%E9%AD%85%E6%96%B7%E9%AD%82
+紫魅斷魂_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%B4%AB%E9%AD%85%E6%96%B7%E9%AD%82_%E2%80%A7_%E5%BC%B7
 紫龍捲怒濤 -> http://zh.tos.wikia.com/wiki/%E7%B4%AB%E9%BE%8D%E6%8D%B2%E6%80%92%E6%BF%A4
 終極一擊 -> http://zh.tos.wikia.com/wiki/%E7%B5%82%E6%A5%B5%E4%B8%80%E6%93%8A
 終極一擊_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%B5%82%E6%A5%B5%E4%B8%80%E6%93%8A_%E2%80%A7_%E5%BC%B7
@@ -1741,6 +1774,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 郎之心扉 -> http://zh.tos.wikia.com/wiki/%E9%83%8E%E4%B9%8B%E5%BF%83%E6%89%89
 郎情妾意 -> http://zh.tos.wikia.com/wiki/%E9%83%8E%E6%83%85%E5%A6%BE%E6%84%8F
 酷冷之殺意 -> http://zh.tos.wikia.com/wiki/%E9%85%B7%E5%86%B7%E4%B9%8B%E6%AE%BA%E6%84%8F
+酷冷之殺意_‧_強 -> http://zh.tos.wikia.com/wiki/%E9%85%B7%E5%86%B7%E4%B9%8B%E6%AE%BA%E6%84%8F_%E2%80%A7_%E5%BC%B7
 酷冷幽燄 -> http://zh.tos.wikia.com/wiki/%E9%85%B7%E5%86%B7%E5%B9%BD%E7%87%84
 酷冷幽燄_‧_強 -> http://zh.tos.wikia.com/wiki/%E9%85%B7%E5%86%B7%E5%B9%BD%E7%87%84_%E2%80%A7_%E5%BC%B7
 酷藍之意 -> http://zh.tos.wikia.com/wiki/%E9%85%B7%E8%97%8D%E4%B9%8B%E6%84%8F
@@ -1831,6 +1865,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 霸王震怒 -> http://zh.tos.wikia.com/wiki/%E9%9C%B8%E7%8E%8B%E9%9C%87%E6%80%92
 霸王震怒_‧_癒術 -> http://zh.tos.wikia.com/wiki/%E9%9C%B8%E7%8E%8B%E9%9C%87%E6%80%92_%E2%80%A7_%E7%99%92%E8%A1%93
 霸者盛勢 -> http://zh.tos.wikia.com/wiki/%E9%9C%B8%E8%80%85%E7%9B%9B%E5%8B%A2
+霸者盛勢_‧_靈之控 -> http://zh.tos.wikia.com/wiki/%E9%9C%B8%E8%80%85%E7%9B%9B%E5%8B%A2_%E2%80%A7_%E9%9D%88%E4%B9%8B%E6%8E%A7
 霸蛟龍的逆鱗 -> http://zh.tos.wikia.com/wiki/%E9%9C%B8%E8%9B%9F%E9%BE%8D%E7%9A%84%E9%80%86%E9%B1%97
 靈丸 -> http://zh.tos.wikia.com/wiki/%E9%9D%88%E4%B8%B8
 靈丸_(幻海) -> http://zh.tos.wikia.com/wiki/%E9%9D%88%E4%B8%B8_(%E5%B9%BB%E6%B5%B7)
@@ -2030,4 +2065,4 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2053 skills
+2088 skills

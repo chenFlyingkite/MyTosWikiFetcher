@@ -1,5 +1,13 @@
 package main.fetcher;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import flyingkite.collection.ListUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
@@ -19,14 +27,6 @@ import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
 
 public class TosCardFetcher extends TosWikiBaseFetcher {
     private TosCardFetcher() {}
@@ -66,9 +66,10 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "http://zh.tos.wikia.com/wiki/651" // TosCardCreator = 24
                 , "http://zh.tos.wikia.com/wiki/656" // TosCardCreator = 31
         );
+
         link.clear(); // uncomment this if use test links
-//        link.add("http://zh.tos.wikia.com/wiki/1380");
-//        link.add("http://zh.tos.wikia.com/wiki/1381");
+        //link.add("http://zh.tos.wikia.com/wiki/1058");
+        //link.add("http://zh.tos.wikia.com/wiki/1436");
 //        link.add("http://zh.tos.wikia.com/wiki/6070"); // 妲己
 //        link.add("http://zh.tos.wikia.com/wiki/6174");
         //link.add("http://zh.tos.wikia.com/wiki/595");
@@ -95,6 +96,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             clock.tac("%s cards in %s", all.length, source);
             for (CardItem c : all) {
                 pages.add(c.getLink());
+                //pages.add(c.getLinkId());
             }
         }
         mLf.log("%s cards in %s", pages.size(), source);
