@@ -267,7 +267,6 @@ public class TosWikiBaseFetcher implements Runnable {
         Document doc = null;
         TicTac2 ts = new TicTac2();
         ts.setLog(logTime);
-        ts.setLog(true);
         ts.tic();
         try {
             if (true) {
