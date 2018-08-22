@@ -5912,8 +5912,8 @@
   {
     "rarity": 2,
     "level": 2,
-    "mode": "龍刻類型",
-    "charge": "轉動龍印",
+    "mode": "轉動龍印",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
     "craftSkill": [
       {
         "level": 1,
@@ -5926,8 +5926,8 @@
         "detail": "消除 25 粒或以上符石，自身攻擊力提升 1.2 倍"
       }
     ],
-    "attrLimit": "",
-    "raceLimit": "",
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於人類成員",
     "cardLimit": [],
     "cardLimitName": [],
     "upHp": "0",

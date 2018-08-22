@@ -1,5 +1,12 @@
 package main.fetcher;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import main.kt.Craft;
@@ -8,13 +15,6 @@ import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
 
 public class TosCraftFetcher extends TosWikiBaseFetcher {
     private TosCraftFetcher() {}
@@ -86,6 +86,9 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
             item = doc.getElementsByClass("wikitable");
             if (item.size() > 1) {
                 mLf.log("%s", s);
+                if ("7002".equals(s.getIdNorm())) {
+                    s.getIdNorm(); // TODO make a good way of peek certain craft
+                }
                 Craft cr = TosGet.me.getCraft(item.get(1), s, wikiBaseZh);
                 crafts.add(cr);
             }

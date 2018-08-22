@@ -2,6 +2,7 @@ package main.kt
 
 import com.google.gson.annotations.SerializedName
 import flyingkite.functional.MeetSS
+import flyingkite.math.MathUtil
 import flyingkite.tool.TextUtil
 import main.card.SkillLite
 import org.jsoup.nodes.Document
@@ -585,28 +586,42 @@ class TosGet {
             val isArm = isArmCraft(e)
             ans.icon.iconLink = getIconLink(s[0])
 
+            val id = simple.idNorm.toLong()
+            val is7xxx = MathUtil.isInRange(id, 7000, 8000)
+
             if (isArm) {
                 ans.rarity = s[3].text().replace("★", "").trim().toInt()
                 ans.level = s[4].text().replace("Lv.", "", true).trim().toInt()
-                ans.mode = s[7].text()
-                ans.charge = s[8].text()
+
+                if (is7xxx) {
+                    ans.mode = s[8].text()
+                    ans.charge = s[9].text()
+                } else {
+                    ans.mode = s[7].text()
+                    ans.charge = s[8].text()
+                }
 
                 // find card limit
-                val cl = s[5].getElementsByTag("a")
-                for (c in cl) {
-                    // Add the card name
-                    ans.cardLimitName.add(c.attr("title"))
-                    // Add the card normId
-                    val ci = getImageTag(c) // i-th card
-                    val cn = ci?.size ?: 0
-                    if (ci != null && cn > 0) {
-                        ans.cardLimit.add(normEvoId(ci[0].attr("alt")))
+                if (is7xxx) {
+                    ans.attrLimit = s[5].text()
+                    ans.raceLimit = s[6].text()
+                } else {
+                    val cl = s[5].getElementsByTag("a")
+                    for (c in cl) {
+                        // Add the card name
+                        ans.cardLimitName.add(c.attr("title"))
+                        // Add the card normId
+                        val ci = getImageTag(c) // i-th card
+                        val cn = ci?.size ?: 0
+                        if (ci != null && cn > 0) {
+                            ans.cardLimit.add(normEvoId(ci[0].attr("alt")))
+                        }
                     }
-                }
-                // Self checking the limit should name length
-                if (ans.cardLimit.size != ans.cardLimitName.size) {
-                    println("!! Craft card limit should same but\n" +
-                            "ids = ${ans.cardLimit}\nname = ${ans.cardLimitName}\n")
+                    // Self checking the limit should name length
+                    if (ans.cardLimit.size != ans.cardLimitName.size) {
+                        println("!! Craft card limit should same but\n" +
+                                "ids = ${ans.cardLimit}\nname = ${ans.cardLimitName}\n")
+                    }
                 }
 
                 val anx = getAnchors(s, "技能", "能力提升")
