@@ -32,7 +32,7 @@ public class Main {
         //-- Regular
         boolean regl = true; // Regular
         boolean parl = true; // Parallel
-        boolean onlyCard = false;
+        boolean onlyCard = false && !regl;
         // 維基動態
         if (regl) {
             // 最近動態

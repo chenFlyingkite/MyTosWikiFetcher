@@ -907,8 +907,8 @@
     "type": "主動技",
     "skillName": "仙荷之力 ‧ 強",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E4%BB%99%E8%8D%B7%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7",
-    "skillCDMin": 17,
-    "skillCDMax": 6,
+    "skillCDMin": 16,
+    "skillCDMax": 5,
     "skillDesc": "神族攻擊力 2 倍；每首批消除 1 組隊伍成員屬性符石或心符石時，將產生 1 粒神族強化符石，最多可產生 6 粒，效果持續至受到敵人攻擊",
     "skillMonsters": [
       "1704"
@@ -4186,8 +4186,8 @@
     "type": "主動技",
     "skillName": "因靈之力 ‧ 強獸",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%9B%A0%E9%9D%88%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7%E7%8D%B8",
-    "skillCDMin": 20,
-    "skillCDMax": 9,
+    "skillCDMin": 19,
+    "skillCDMax": 8,
     "skillDesc": "引爆心符石以掉落強化符石及增加獸類攻擊力，引爆 8 粒即可達至最大 3 倍",
     "skillMonsters": [
       "1235"
@@ -10910,8 +10910,8 @@
     "type": "主動技",
     "skillName": "水月光華幻變 ‧ 強",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E5%85%89%E8%8F%AF%E5%B9%BB%E8%AE%8A_%E2%80%A7_%E5%BC%B7",
-    "skillCDMin": 17,
-    "skillCDMax": 6,
+    "skillCDMin": 16,
+    "skillCDMax": 5,
     "skillDesc": "2 回合內，移動符石時觸碰的火符石轉化為水強化符石，觸碰的暗符石轉化為光強化符石",
     "skillMonsters": [
       "1701"
@@ -12078,8 +12078,8 @@
     "type": "主動技",
     "skillName": "混沌再生",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B7%B7%E6%B2%8C%E5%86%8D%E7%94%9F",
-    "skillCDMin": 16,
-    "skillCDMax": 5,
+    "skillCDMin": 17,
+    "skillCDMax": 6,
     "skillDesc": "將黑白符石變回原來色調；點選 2 直行的符石並引爆，以掉落水神族強化符石",
     "skillMonsters": [
       "1837"
