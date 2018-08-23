@@ -577,7 +577,7 @@ class TosGet {
         /**
          * Fetch <span>'s item & simple craft as craft
          */
-        fun getCraft(e: Element?, simple: SimpleCraft, baseWiki: String) : Craft {
+        fun getCraft(e: Element?, simple: SimpleCraft) : Craft {
             val ans = Craft(simple)
             if (e == null) return ans
 

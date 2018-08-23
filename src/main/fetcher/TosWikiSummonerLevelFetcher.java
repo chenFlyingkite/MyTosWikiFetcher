@@ -1,18 +1,20 @@
 package main.fetcher;
 
+import java.util.List;
+
+import flyingkite.log.LF;
 import main.kt.TableInfo;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
-import flyingkite.log.LF;
-
-import java.util.List;
 
 public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher {
     private TosWikiSummonerLevelFetcher() {}
     public static final TosWikiSummonerLevelFetcher me = new TosWikiSummonerLevelFetcher();
 
-    private static final String enTosPage = "http://towerofsaviors.wikia.com/wiki/Summoner_Levels";
+    private static final String enPage = "http://towerofsaviors.wikia.com/wiki/Summoner_Levels";
+    // 召喚師等級資訊列表
+    private static final String zhPage = "http://zh.tos.wikia.com/wiki/%E5%8F%AC%E5%96%9A%E5%B8%AB%E7%AD%89%E7%B4%9A%E8%B3%87%E8%A8%8A%E5%88%97%E8%A1%A8";
     private static final LF mLf = new LF("mySummonerLevel");
 
     @Override
@@ -50,7 +52,7 @@ public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher {
             items = table.getCells();
             m = items.size();
             int[] align = {4, 10, 12, 3, 3, 2};
-            boolean useAlign = align.length == n;
+            boolean useAlign = n <= align.length;
             for (int i = 0; i < m; i++) {
                 int mod = i % n;
                 if (mod == 0) { // Row starts& 1st element
@@ -81,7 +83,7 @@ public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher {
     }
 
     private TableInfo getTable() {
-        Document doc = getDocument(enTosPage);
+        Document doc = getDocument(enPage);
         if (doc == null) return null;
 
         Elements tables = doc.getElementsByClass("wikitable");

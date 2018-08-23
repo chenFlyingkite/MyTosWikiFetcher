@@ -32,14 +32,18 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
 
     private File armJson = mArmCraft.getFile().getFile();
 
+    private List<String> getPeeks() {
+        List<String> a = new ArrayList<>();
+        //a.add("7002");
+        //a.clear();
+        return a;
+    }
+
     @Override
     public void run() {
+
         mLf.getFile().open(false);
         clock.tic();
-        // Start here
-        List<SimpleCraft> lite;
-        List<Craft> craft;
-
         // Fetch normal crafts
         loadAllCrafts(craftPage, mLite, mCraft);
 
@@ -78,6 +82,9 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
     private List<Craft> getCraft(List<SimpleCraft> simple) {
         List<Craft> crafts = new ArrayList<>();
 
+        List<String> peeks = getPeeks();
+        boolean hasPeek = peeks != null && peeks.size() > 0;
+
         Document doc;
         Elements item;
         mLf.setLogToFile(false);
@@ -86,11 +93,12 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
             item = doc.getElementsByClass("wikitable");
             if (item.size() > 1) {
                 mLf.log("%s", s);
-                if ("7002".equals(s.getIdNorm())) {
-                    s.getIdNorm(); // TODO make a good way of peek certain craft
+                if (hasPeek && !peeks.contains(s.getIdNorm())) {
+                    peeks.size();
+                } else {
+                    Craft cr = TosGet.me.getCraft(item.get(1), s);
+                    crafts.add(cr);
                 }
-                Craft cr = TosGet.me.getCraft(item.get(1), s, wikiBaseZh);
-                crafts.add(cr);
             }
         }
         mLf.setLogToFile(true);
