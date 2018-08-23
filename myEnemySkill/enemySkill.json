@@ -5030,7 +5030,7 @@
   {
     "id": "381",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/381",
-    "name": "軌跡腐蝕",
+    "name": "軌跡黏附",
     "detail": "敵人會黏附移動符石時所觸碰的符石，被黏附的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES381}}",
     "icons": [
@@ -6527,6 +6527,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",
+        "iconKey": "SI139.png"
       }
     ]
   },
@@ -7573,6 +7577,10 @@
     "detail": "首回合敵人會優先突擊 1 次。每當召喚師受到攻擊時，敵人會隨機凍結場上 2 粒符石，3 回合內不能消除該符石",
     "esCode": "{{ES572}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI219.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102908\u0026path-prefix\u003dzh",
         "iconKey": "SI219.png"
@@ -8677,7 +8685,7 @@
   {
     "id": "648",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/648",
-    "name": "(5回回復減少50%)",
+    "name": "(5回回復力減弱50%)",
     "detail": "5 回合內，回復力減少 50%",
     "esCode": "{{ES648}}",
     "icons": [
@@ -9533,7 +9541,7 @@
   {
     "id": "700",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/700",
-    "name": "首消隨機Combo追擊盾",
+    "name": "首消隨機Combo追擊弱盾",
     "detail": "隨機指定連擊 (Combo) 數，當達成或接近指定的連擊 (Combo) (差距為 2 連擊 (Combo) 或以下) 才會對敵人造成攻擊傷害 (需消除符石及只計算首批消除的符石)。達成上述指定的連擊 (Combo) 數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多",
     "esCode": "{{ES700}}",
     "icons": [
@@ -11821,7 +11829,7 @@
   {
     "id": "854",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/854",
-    "name": "無法控制 ‧ 扣血50% ‧ 殺伴狂暴5000%",
+    "name": "無法控制 ‧ 扣血50% ‧ 喪伴狂硬50倍-扣血100%",
     "detail": "敵人會無視所有控制技能，並在每回合扣除召喚師 50% 生命力；當有其他敵人被擊斃，下回合開始，敵人的防禦力提升至 50 倍，並在每回合將扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES854}}",
     "icons": [
@@ -11830,8 +11838,8 @@
         "iconKey": "SI124.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
-        "iconKey": "SI251.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI253.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI253.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",
@@ -13140,7 +13148,7 @@
   {
     "id": "941",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/941",
-    "name": "無視減傷 ‧ 化血圍城-心化血鎖定",
+    "name": "無視減傷 ‧ 化血圍城-心化血符石",
     "detail": "敵人會無視所有減傷效果和意志技能。\u003cbr\u003e首回合敵人會鎖定所有符石，其後每回合會鎖定場上的心符石；如有鎖定的符石未被消除時，敵人回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES941}}",
     "icons": [
@@ -13651,14 +13659,10 @@
   {
     "id": "976",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/976",
-    "name": "強化盾 ‧ 轉屬 ‧ 剋屬盾 ‧ 木鎖定 ‧ 未消引爆20%",
+    "name": "強化盾 ‧ 棄攻轉屬 ‧ 剋屬盾 ‧ 木引爆符石20%",
     "detail": "敵人只會受到強化符石的攻擊傷害。\u003cbr\u003e只有克制敵人屬性的攻擊才會對敵人造成傷害。敵人每隔 1 次 (CD 0) 便會放棄發動攻擊機會，並轉換自身屬性。\u003cbr\u003e每回合移動符石前，敵人會鎖定場上的木符石；如有鎖定的符石未被消除時，符石會被引爆，每粒被引爆的符石，將扣除召喚師 20% 生命力",
     "esCode": "{{ES976}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
-        "iconKey": "SI168.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
         "iconKey": "SI254.png"
@@ -13666,6 +13670,14 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cc/SI049.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
         "iconKey": "SI049.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
+        "iconKey": "SI168.png"
       }
     ]
   },
@@ -15559,7 +15571,7 @@
   {
     "id": "1100",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1100",
-    "name": "突擊65% ‧ 每回1-4風化3000 ‧ 血弱追擊",
+    "name": "突擊65% ‧ 1-4顆風化趨狂3000 ‧ 血弱追擊",
     "detail": "首回合敵人會優先突擊 1 次，並隨機將 2 粒符石風化；其後每回合敵人會隨機將 1 粒符石風化，敵人生命力愈低時，會風化愈多的符石，最多 4 粒。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害。\u003cbr\u003e敵人生命力愈低時，連擊次數愈多",
     "esCode": "{{ES1100}}",
     "icons": [
@@ -17763,7 +17775,7 @@
   {
     "id": "1262",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1262",
-    "name": "化血圍城-木心化血鎖定 ‧ 心禁消",
+    "name": "化血圍城-木心化血符石 ‧ 心禁消",
     "detail": "首回合敵人會鎖定所有符石，其後每回合會鎖定場上的木及心符石；如有鎖定的符石未被消除時，敵人會回復相等於該回合召喚師所造成的血量。\u003cbr\u003e心符石無法被消除",
     "esCode": "{{ES1262}}",
     "icons": [
@@ -18620,7 +18632,7 @@
   {
     "id": "1319",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1319",
-    "name": "八重風化 ‧ 先",
+    "name": "風化8顆-先",
     "detail": "每回合移動符石前，隨機將 8 粒符石風化，風化符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1319}}",
     "icons": [
@@ -19509,13 +19521,17 @@
   {
     "id": "1384",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1384",
-    "name": "首回凍結6 ‧ 攻後冰火轉化20% ‧ 攻前盾",
+    "name": "攻前盾 ‧ 首回凍結6顆 ‧ 攻後冰火轉化20%",
     "detail": "首回合敵人會隨機凍結 6 粒符石，其後受到敵人攻擊時，將場上的凍結符石解凍，並燃燒其位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。",
     "esCode": "{{ES1384}}",
     "icons": [
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI219.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102908\u0026path-prefix\u003dzh",
+        "iconKey": "SI219.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
@@ -20120,7 +20136,7 @@
   {
     "id": "1419",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1419",
-    "name": "初級拼圖盾 ‧ 限 ‧ 連續反擊50%",
+    "name": "初級拼圖盾-限-連續反擊50%",
     "detail": "符石需以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。若召喚師無法達成上述條件，敵人會連續反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES1419}}",
     "icons": [
@@ -20678,6 +20694,10 @@
     "detail": "首回合敵人會隨機將 1 種符石轉化為水符石。\u003cbr\u003e當敵人首次發動攻擊時，隨機將 1 橫行的符石轉化為水符石；第 2 次發動攻擊時，隨機將 1 直行的符石轉化為水符石。以上攻擊循環周而復始。\u003cbr\u003e消除水屬性的連擊 (Combo) 時 (只計算首批消除的符石)，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES1461}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
         "iconKey": "SI047.png"
@@ -21695,6 +21715,10 @@
     "esCode": "{{ES1533}}",
     "icons": [
       {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI228.png"
       }
@@ -21703,10 +21727,14 @@
   {
     "id": "1534",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1534",
-    "name": "火符石腐蝕",
+    "name": "火位置黏附",
     "detail": "每回合敵人會黏附火符石所在的位置，該位置的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1534}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI228.png"
@@ -21716,10 +21744,14 @@
   {
     "id": "1535",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1535",
-    "name": "木符石腐蝕",
+    "name": "木位置黏附",
     "detail": "每回合敵人會黏附木符石所在的位置，該位置的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1535}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI228.png"
@@ -21729,10 +21761,14 @@
   {
     "id": "1536",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1536",
-    "name": "光符石腐蝕",
+    "name": "光位置黏附",
     "detail": "每回合敵人會黏附光符石所在的位置，該位置的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1536}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI228.png"
@@ -21742,10 +21778,14 @@
   {
     "id": "1537",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1537",
-    "name": "暗符石腐蝕",
+    "name": "暗位置黏附",
     "detail": "每回合敵人會黏附暗符石所在的位置，該位置的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1537}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI305.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI305.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI228.png"
@@ -21755,10 +21795,14 @@
   {
     "id": "1538",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1538",
-    "name": "心符石腐蝕",
+    "name": "心位置黏附",
     "detail": "每回合敵人會黏附心符石所在的位置，該位置的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1538}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI228.png"
@@ -22197,12 +22241,24 @@
     "esCode": "{{ES1567}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9a/SI110.png/revision/latest/scale-to-width-down/22?cb\u003d20180224153045\u0026path-prefix\u003dzh",
-        "iconKey": "SI110.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI012.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI114.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142345\u0026path-prefix\u003dzh",
+        "iconKey": "SI114.png"
       }
     ]
   },
@@ -22283,6 +22339,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
@@ -22443,6 +22503,14 @@
     "detail": "消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。連擊 (Combo) 只計算首批消除的符石。\u003cbr\u003e每回合移動符石前，敵人會電擊 2 粒光符石；如有符石被電擊而未消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1582}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI116.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142346\u0026path-prefix\u003dzh",
+        "iconKey": "SI116.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
         "iconKey": "SI236.png"
@@ -22759,13 +22827,25 @@
   {
     "id": "1602",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1602",
-    "name": "連擊 ‧ 越戰越強 ‧ 穩定提升 ‧ 火木鎖定 ‧ 消除減攻10%",
+    "name": "連擊 ‧ 越戰越強-石 ‧ 火木鎖定弱化鎖定10%",
     "detail": "敵人會在 1 回合內連續攻擊 2 次。\u003cbr\u003e敵人生命力愈低時，攻擊力會作一定幅度的提升。\u003cbr\u003e每回合移動符石前，敵人會鎖定場上的火及木符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 10% (發動龍刻脈動視作消除場上的鎖定符石)",
     "esCode": "{{ES1602}}",
     "icons": [
       {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e1/SI167.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI167.png"
+      },
+      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
         "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI337.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI337.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI338.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI338.png"
       }
     ]
   },
@@ -23842,21 +23922,25 @@
   {
     "id": "1671",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1671",
-    "name": "魔族剋制 ‧ 攻 ‧ 鎖 ‧ 同屬防禦90% ‧ 半血下回隱藏圍城",
+    "name": "獵魔-技能封鎖 ‧ 同屬防禦90% ‧ 血弱50%-隱藏圍城",
     "detail": "首回合敵人會永久封鎖魔族成員的主動技能，召喚師隊伍中有魔族成員時，敵人攻擊力提升。\u003cbr\u003e與敵人屬性相同的攻擊傷害減至 10%。\u003cbr\u003e敵人當前生命力少於 50% 時，下回合將所有符石轉化為隱藏符石",
     "esCode": "{{ES1671}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
-        "iconKey": "SI224.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/73/SI068.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102109\u0026path-prefix\u003dzh",
+        "iconKey": "SI068.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/73/SI068.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102109\u0026path-prefix\u003dzh",
-        "iconKey": "SI068.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
       }
     ]
   },
@@ -23935,13 +24019,17 @@
   {
     "id": "1676",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1676",
-    "name": "附加消除 ‧ 首回木風化3000 ‧ 魔族剋制-攻",
+    "name": "附加消除 ‧ 首回木風化3000 ‧ 獵魔",
     "detail": "首回合敵人會消除召喚師所有附加效果，及將所有木符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害。\u003cbr\u003e召喚師隊伍中有魔族成員時，敵人攻擊力提升",
     "esCode": "{{ES1676}}",
     "icons": [
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
@@ -24491,7 +24579,7 @@
   {
     "id": "1712",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1712",
-    "name": "三重風化15000 ‧ 先",
+    "name": "三重風化15000-先",
     "detail": "每回合移動符石前，隨機將 3 粒符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害",
     "esCode": "{{ES1712}}",
     "icons": [
@@ -24699,7 +24787,7 @@
   {
     "id": "1728",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1728",
-    "name": "雙重石化3 ‧ 未消敵防1000倍",
+    "name": "3顆雙層石化-1000倍",
     "detail": "每回合移動符石前，隨機將 3 粒符石「雙重石化」，移動符石並消除石化符石四側其中 1 個位置的符石可解除「一重石化」(首批消除的符石每次只可解除「一重石化」)；如有石化符石未被消除時，敵人的防禦力提升 1000 倍",
     "esCode": "{{ES1728}}",
     "icons": [
@@ -25243,6 +25331,10 @@
         "iconKey": "SI015.png"
       },
       {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI122.png"
       },
@@ -25635,12 +25727,16 @@
         "iconKey": "SI016.png"
       },
       {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
         "iconKey": "SI047.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9a/SI110.png/revision/latest/scale-to-width-down/22?cb\u003d20180224153045\u0026path-prefix\u003dzh",
-        "iconKey": "SI110.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI113.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142345\u0026path-prefix\u003dzh",
+        "iconKey": "SI113.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
@@ -27711,10 +27807,14 @@
   {
     "id": "1888",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1888",
-    "name": "木屬強化初級拼圖盾-限",
+    "name": "木強化初級拼圖盾-限",
     "detail": "需以指定的形狀消除相應數量的木強化符石 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES1888}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI023.png/revision/latest/scale-to-width-down/22?cb\u003d20150223133501\u0026path-prefix\u003dzh",
+        "iconKey": "SI023.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
         "iconKey": "SI181.png"
@@ -27888,10 +27988,14 @@
   {
     "id": "1901",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1901",
-    "name": "暗強化屬中級拼圖盾",
+    "name": "暗強化中級拼圖盾",
     "detail": "需以指定的形狀消除相應數量的暗強化符石 (可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES1901}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7c/SI025.png/revision/latest/scale-to-width-down/22?cb\u003d20150223133517\u0026path-prefix\u003dzh",
+        "iconKey": "SI025.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
         "iconKey": "SI181.png"
@@ -28269,7 +28373,7 @@
   {
     "id": "1922",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1922",
-    "name": "火外防禦90% ‧ 首消全心盾 ‧ 9重隱藏符石15%",
+    "name": "火外防禦90% ‧ 首消全心盾 ‧ 15%隱藏9顆符石",
     "detail": "敵人會令火屬性以外的攻擊傷害減至 10%。\u003cbr\u003e消除場上所有心符石才能對敵人造成攻擊傷害 (需消除心符石及只計算首批消除的符石)。\u003cbr\u003e首回合敵人會隨機將 9 粒符石轉化為隱藏符石，並在每回合大幅的掉落隱藏符石",
     "esCode": "{{ES1922}}",
     "icons": [
@@ -28950,7 +29054,7 @@
   {
     "id": "1955",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1955",
-    "name": "火木幻變 ‧ 12+火木符石盾",
+    "name": "火木幻變 ‧ 單次12+火木符石盾",
     "detail": "敵人會分別將 2 個位置轉化為火及木屬幻變空間，經過幻變空間的符石 (不包括轉珠期間被移動的符石) 會轉化為該幻變空間的屬性符石。\u003cbr\u003e消除 12 粒或以上的火符石及 12 粒或以上的木符石，才會對敵人造成攻擊傷害",
     "esCode": "{{ES1955}}",
     "icons": [
@@ -28959,12 +29063,12 @@
         "iconKey": "SI227.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/fe/SI034.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
-        "iconKey": "SI034.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2f/SI032.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101559\u0026path-prefix\u003dzh",
+        "iconKey": "SI032.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI035.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
-        "iconKey": "SI035.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/31/SI033.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI033.png"
       }
     ]
   },
@@ -29642,6 +29746,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
@@ -34423,7 +34531,7 @@
   {
     "id": "2252",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2252",
-    "name": "雙重睡眠鎖定-轉 ‧ 甦醒傷害吸收-狂怒500% ‧ 無法控制",
+    "name": "雙重5倍睡眠符石-轉 ‧ 無法控制",
     "detail": "首回合敵人會進入睡眠狀態，睡眠狀態期間敵人不會發動攻擊。睡眠期間每回合移動符石時，隨機鎖定 2 粒符石；鎖定符石一經觸碰，即時停止移動符石、敵人會回復相等於該回合召喚師所造成傷害的血量，並隨即甦醒、下回合敵人攻擊力提升 5 倍並無視所有減傷效果和意志技能。\u003cbr\u003e\u003cbr\u003e敵人會無視所有控制技能",
     "esCode": "{{ES2252}}",
     "icons": [
@@ -37144,8 +37252,12 @@
         "iconKey": "SI160.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI011.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
@@ -37597,6 +37709,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
         "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
       }
     ]
   },
@@ -37847,7 +37963,7 @@
   {
     "id": "2426",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2426",
-    "name": "人類外技能重置 ‧ 軌跡黏附 ‧ 剋屬防禦90%",
+    "name": "人外技能重置 ‧ 軌跡黏附 ‧ 非剋屬防禦90%",
     "detail": "首回合人類以外成員的主動技能 CD 及累積戰鬥回合數重置。\u003cbr\u003e黏附移動符石時所觸碰的符石，被黏附的符石一經觸碰，即時停止移動符石。\u003cbr\u003e非克制敵人屬性的攻擊傷害減至 10%",
     "esCode": "{{ES2426}}",
     "icons": [
