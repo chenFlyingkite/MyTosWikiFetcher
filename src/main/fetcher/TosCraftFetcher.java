@@ -89,16 +89,15 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
         Elements item;
         mLf.setLogToFile(false);
         for (SimpleCraft s : simple) {
+            if (hasPeek && !peeks.contains(s.getIdNorm())) {
+                continue;
+            }
             doc = getDocument(s.getLink());
             item = doc.getElementsByClass("wikitable");
             if (item.size() > 1) {
                 mLf.log("%s", s);
-                if (hasPeek && !peeks.contains(s.getIdNorm())) {
-                    peeks.size();
-                } else {
-                    Craft cr = TosGet.me.getCraft(item.get(1), s);
-                    crafts.add(cr);
-                }
+                Craft cr = TosGet.me.getCraft(item.get(1), s);
+                crafts.add(cr);
             }
         }
         mLf.setLogToFile(true);

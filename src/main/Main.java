@@ -62,6 +62,7 @@ public class Main {
         if (regl) {
             TaskMonitorUtil.join(beforeCard, endCard);
         }
+        //TosCraftFetcher.me.run();
         //TosSkillFetcher.me.run();
         //TosWikiCardsLister.me.run();
         if (onlyCard) {
