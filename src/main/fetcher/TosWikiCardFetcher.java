@@ -1,5 +1,14 @@
 package main.fetcher;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
 import flyingkite.data.Range;
 import flyingkite.log.L;
 import flyingkite.log.LF;
@@ -21,15 +30,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import wikia.articles.UnexpandedArticle;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
 /**
  * Old card fetcher depends on API results, and api may lack of pages
@@ -191,7 +191,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
 
         if (runChecker) {
             Lf.log("------ Checker Start -------");
-            TosWikiChecker.me.check(cards);
+            TosWikiChecker.me.check();
             Lf.log("------ Checker End -------");
         }
 

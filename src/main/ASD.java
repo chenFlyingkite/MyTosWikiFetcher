@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -74,15 +75,31 @@ public class ASD {
         clk.tic();
         TosCard[] allCards = GsonUtil.loadFile(fc, TosCard[].class);
         clk.tac("%s cards loaded", allCards.length);
-//        for (TosCard c : allCards) {
+
+        Map<String, TosCard> map = new HashMap<>();
+        for (TosCard c : allCards) {
 //            if (c.combineFrom.size() > 0) {
 //                L.log("#%s, Cmb = %s -> %s", c.idNorm, c.combineFrom, c.combineTo);
 //            }
-//        }
+            if (map.containsKey(c.idNorm)) {
+                L.log("X_X Duplicate on %s", c.idNorm);
+            }
+            map.put(c.idNorm, c);
+        }
+
+        for (TosCard c : allCards) {
+            TosCard d = map.get(c.idNorm);
+            if (d == null) {
+                L.log("Missing card %s", c.idNorm);
+            }
+            if (d != null) {
+
+            }
+        }
 
         // Find cards
         //findCards("效果持續至", allCards);
-        findCards("傷害減少", allCards);
+        //findCards("傷害減少", allCards);
     }
 
     private static void chiTest() {

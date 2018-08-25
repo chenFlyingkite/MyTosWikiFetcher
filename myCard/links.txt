@@ -10830,6 +10830,66 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1817"
   },
   {
+    "title": "No. 1821 睿哲始祖 ‧ 阿特拉哈西斯",
+    "id": "1821",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%9D%BF%E5%93%B2%E5%A7%8B%E7%A5%96_%E2%80%A7_%E9%98%BF%E7%89%B9%E6%8B%89%E5%93%88%E8%A5%BF%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/1821"
+  },
+  {
+    "title": "No. 1822 思研求知 ‧ 阿特拉哈西斯",
+    "id": "1822",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%80%9D%E7%A0%94%E6%B1%82%E7%9F%A5_%E2%80%A7_%E9%98%BF%E7%89%B9%E6%8B%89%E5%93%88%E8%A5%BF%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/1822"
+  },
+  {
+    "title": "No. 1823 桀傲戰領 ‧ 尼努爾塔",
+    "id": "1823",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A1%80%E5%82%B2%E6%88%B0%E9%A0%98_%E2%80%A7_%E5%B0%BC%E5%8A%AA%E7%88%BE%E5%A1%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/1823"
+  },
+  {
+    "title": "No. 1824 驍戰啟悟 ‧ 尼努爾塔",
+    "id": "1824",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%A9%8D%E6%88%B0%E5%95%9F%E6%82%9F_%E2%80%A7_%E5%B0%BC%E5%8A%AA%E7%88%BE%E5%A1%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/1824"
+  },
+  {
+    "title": "No. 1825 仁心王者 ‧ 杜穆濟",
+    "id": "1825",
+    "link": "http://zh.tos.wikia.com/wiki/%E4%BB%81%E5%BF%83%E7%8E%8B%E8%80%85_%E2%80%A7_%E6%9D%9C%E7%A9%86%E6%BF%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/1825"
+  },
+  {
+    "title": "No. 1826 無私犧牲 ‧ 杜穆濟",
+    "id": "1826",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E7%A7%81%E7%8A%A7%E7%89%B2_%E2%80%A7_%E6%9D%9C%E7%A9%86%E6%BF%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/1826"
+  },
+  {
+    "title": "No. 1827 貞潔之月 ‧ 伊南娜",
+    "id": "1827",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%B2%9E%E6%BD%94%E4%B9%8B%E6%9C%88_%E2%80%A7_%E4%BC%8A%E5%8D%97%E5%A8%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/1827"
+  },
+  {
+    "title": "No. 1828 依戀漣漪 ‧ 伊南娜",
+    "id": "1828",
+    "link": "http://zh.tos.wikia.com/wiki/%E4%BE%9D%E6%88%80%E6%BC%A3%E6%BC%AA_%E2%80%A7_%E4%BC%8A%E5%8D%97%E5%A8%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/1828"
+  },
+  {
+    "title": "No. 1829 濁化疾神 ‧ 納姆塔爾",
+    "id": "1829",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BF%81%E5%8C%96%E7%96%BE%E7%A5%9E_%E2%80%A7_%E7%B4%8D%E5%A7%86%E5%A1%94%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/1829"
+  },
+  {
+    "title": "No. 1830 破梏命運 ‧ 納姆塔爾",
+    "id": "1830",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%A0%B4%E6%A2%8F%E5%91%BD%E9%81%8B_%E2%80%A7_%E7%B4%8D%E5%A7%86%E5%A1%94%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/1830"
+  },
+  {
     "title": "No. 1836 濕婆",
     "id": "1836",
     "link": "http://zh.tos.wikia.com/wiki/%E6%BF%95%E5%A9%86",
@@ -10968,6 +11028,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1863"
   },
   {
+    "title": "No. 1865 機巧治癒 ‧ 蘭布達",
+    "id": "1865",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E5%B7%A7%E6%B2%BB%E7%99%92_%E2%80%A7_%E8%98%AD%E5%B8%83%E9%81%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/1865"
+  },
+  {
     "title": "No. 1867 命途引領者 ‧ 華倫西亞",
     "id": "1867",
     "link": "http://zh.tos.wikia.com/wiki/%E5%91%BD%E9%80%94%E5%BC%95%E9%A0%98%E8%80%85_%E2%80%A7_%E8%8F%AF%E5%80%AB%E8%A5%BF%E4%BA%9E",
@@ -10978,6 +11044,42 @@
     "id": "1870",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A2%9C%E8%90%BD%E6%AE%BA%E6%88%AE_%E2%80%A7_%E8%B2%9D%E8%A5%BF%E6%91%A9%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/1870"
+  },
+  {
+    "title": "No. 1872 菜鳥廚師 ‧ 點心娘",
+    "id": "1872",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%8F%9C%E9%B3%A5%E5%BB%9A%E5%B8%AB_%E2%80%A7_%E9%BB%9E%E5%BF%83%E5%A8%98",
+    "linkId": "http://zh.tos.wikia.com/wiki/1872"
+  },
+  {
+    "title": "No. 1873 酥脆春卷",
+    "id": "1873",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%85%A5%E8%84%86%E6%98%A5%E5%8D%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/1873"
+  },
+  {
+    "title": "No. 1874 晶瑩蝦餃",
+    "id": "1874",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%99%B6%E7%91%A9%E8%9D%A6%E9%A4%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/1874"
+  },
+  {
+    "title": "No. 1875 飽足糯米雞",
+    "id": "1875",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%A3%BD%E8%B6%B3%E7%B3%AF%E7%B1%B3%E9%9B%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/1875"
+  },
+  {
+    "title": "No. 1876 嫩滑燒賣",
+    "id": "1876",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%AB%A9%E6%BB%91%E7%87%92%E8%B3%A3",
+    "linkId": "http://zh.tos.wikia.com/wiki/1876"
+  },
+  {
+    "title": "No. 1877 濃香牛肉球",
+    "id": "1877",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%BF%83%E9%A6%99%E7%89%9B%E8%82%89%E7%90%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/1877"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -11940,6 +12042,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6169"
   },
   {
+    "title": "S170 宇宙巡航 ‧ 沙利葉",
+    "id": "6170",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%AE%87%E5%AE%99%E5%B7%A1%E8%88%AA_%E2%80%A7_%E6%B2%99%E5%88%A9%E8%91%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/6170"
+  },
+  {
     "title": "S171 太空飛行 ‧ 加百列",
     "id": "6171",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A4%AA%E7%A9%BA%E9%A3%9B%E8%A1%8C_%E2%80%A7_%E5%8A%A0%E7%99%BE%E5%88%97",
@@ -12076,6 +12184,12 @@
     "id": "6199",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A2%E8%A6%BA%E6%B6%BC%E5%A4%8F_%E2%80%A7_%E5%96%80%E8%80%B3%E5%88%BB",
     "linkId": "http://zh.tos.wikia.com/wiki/6199"
+  },
+  {
+    "title": "S206 唯識無境 ‧ 梵天(動態造型)",
+    "id": "6206",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%94%AF%E8%AD%98%E7%84%A1%E5%A2%83_%E2%80%A7_%E6%A2%B5%E5%A4%A9(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6206"
   },
   {
     "title": "S209 燃熠比翼 ‧ 迦樓羅(動態造型)",
@@ -12442,6 +12556,126 @@
     "id": "8045",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A7%E5%A3%9E%E8%9B%8B%E5%BD%BC%E5%BE%B7",
     "linkId": "http://zh.tos.wikia.com/wiki/8045"
+  },
+  {
+    "title": "No. 8046 A 調存音石",
+    "id": "8046",
+    "link": "http://zh.tos.wikia.com/wiki/A_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8046"
+  },
+  {
+    "title": "No. 8047 B 調存音石",
+    "id": "8047",
+    "link": "http://zh.tos.wikia.com/wiki/B_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8047"
+  },
+  {
+    "title": "No. 8048 C 調存音石",
+    "id": "8048",
+    "link": "http://zh.tos.wikia.com/wiki/C_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8048"
+  },
+  {
+    "title": "No. 8049 D 調存音石",
+    "id": "8049",
+    "link": "http://zh.tos.wikia.com/wiki/D_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8049"
+  },
+  {
+    "title": "No. 8050 E 調存音石",
+    "id": "8050",
+    "link": "http://zh.tos.wikia.com/wiki/E_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8050"
+  },
+  {
+    "title": "No. 8051 a 調存音石",
+    "id": "8051",
+    "link": "http://zh.tos.wikia.com/wiki/A_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8051"
+  },
+  {
+    "title": "No. 8052 b 調存音石",
+    "id": "8052",
+    "link": "http://zh.tos.wikia.com/wiki/B_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8052"
+  },
+  {
+    "title": "No. 8053 c 調存音石",
+    "id": "8053",
+    "link": "http://zh.tos.wikia.com/wiki/C_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8053"
+  },
+  {
+    "title": "No. 8054 d 調存音石",
+    "id": "8054",
+    "link": "http://zh.tos.wikia.com/wiki/D_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8054"
+  },
+  {
+    "title": "No. 8055 e 調存音石",
+    "id": "8055",
+    "link": "http://zh.tos.wikia.com/wiki/E_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8055"
+  },
+  {
+    "title": "No. 8056 F 調存音石",
+    "id": "8056",
+    "link": "http://zh.tos.wikia.com/wiki/F_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8056"
+  },
+  {
+    "title": "No. 8057 G 調存音石",
+    "id": "8057",
+    "link": "http://zh.tos.wikia.com/wiki/G_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8057"
+  },
+  {
+    "title": "No. 8058 1 度存音石",
+    "id": "8058",
+    "link": "http://zh.tos.wikia.com/wiki/1_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8058"
+  },
+  {
+    "title": "No. 8059 2 度存音石",
+    "id": "8059",
+    "link": "http://zh.tos.wikia.com/wiki/2_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8059"
+  },
+  {
+    "title": "No. 8060 3 度存音石",
+    "id": "8060",
+    "link": "http://zh.tos.wikia.com/wiki/3_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8060"
+  },
+  {
+    "title": "No. 8061 f 調存音石",
+    "id": "8061",
+    "link": "http://zh.tos.wikia.com/wiki/F_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8061"
+  },
+  {
+    "title": "No. 8062 g 調存音石",
+    "id": "8062",
+    "link": "http://zh.tos.wikia.com/wiki/G_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8062"
+  },
+  {
+    "title": "No. 8063 4 度存音石",
+    "id": "8063",
+    "link": "http://zh.tos.wikia.com/wiki/4_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8063"
+  },
+  {
+    "title": "No. 8064 5 度存音石",
+    "id": "8064",
+    "link": "http://zh.tos.wikia.com/wiki/5_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8064"
+  },
+  {
+    "title": "No. 8065 6 度存音石",
+    "id": "8065",
+    "link": "http://zh.tos.wikia.com/wiki/6_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/8065"
   },
   {
     "title": "M1 威沛",

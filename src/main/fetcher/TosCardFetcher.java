@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 import flyingkite.collection.ListUtil;
 import flyingkite.log.L;
@@ -80,7 +81,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     // Records card types by metadata length
     private Set<Integer> cardDataN = new HashSet<>();
     // Records card series
-    private Set<String> cardSeries = new HashSet<>();
+    private Set<String> cardSeries = new TreeSet<>();
 
     @Override
     public void run() {

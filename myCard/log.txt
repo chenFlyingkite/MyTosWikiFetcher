@@ -1,4 +1,4 @@
-2090 cards in myCard\links.txt
+2129 cards in myCard\links.txt
 http://zh.tos.wikia.com/wiki/%E8%8E%AB%E8%8E%89
 http://zh.tos.wikia.com/wiki/%E9%AB%98%E7%B4%9A%E6%B0%B4%E8%A1%93%E5%A3%AB%E8%8E%AB%E8%8E%89
 http://zh.tos.wikia.com/wiki/%E6%B0%B4%E9%AD%94%E6%B3%95%E5%B8%AB%E8%8E%AB%E8%8E%89
@@ -1804,6 +1804,16 @@ http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%81%AB%E8%B3%A2%E8%80%85
 http://zh.tos.wikia.com/wiki/%E7%84%A1%E5%A4%9C%E8%B3%A2%E8%80%85
 http://zh.tos.wikia.com/wiki/%E6%96%B7%E9%A0%AD%E8%A3%81%E6%B1%BA_%E2%80%A7_%E5%A4%8F%E7%88%BE
 http://zh.tos.wikia.com/wiki/%E6%88%B6%E6%84%9A%E5%91%82%E5%BC%9F_80%25
+http://zh.tos.wikia.com/wiki/%E7%9D%BF%E5%93%B2%E5%A7%8B%E7%A5%96_%E2%80%A7_%E9%98%BF%E7%89%B9%E6%8B%89%E5%93%88%E8%A5%BF%E6%96%AF
+http://zh.tos.wikia.com/wiki/%E6%80%9D%E7%A0%94%E6%B1%82%E7%9F%A5_%E2%80%A7_%E9%98%BF%E7%89%B9%E6%8B%89%E5%93%88%E8%A5%BF%E6%96%AF
+http://zh.tos.wikia.com/wiki/%E6%A1%80%E5%82%B2%E6%88%B0%E9%A0%98_%E2%80%A7_%E5%B0%BC%E5%8A%AA%E7%88%BE%E5%A1%94
+http://zh.tos.wikia.com/wiki/%E9%A9%8D%E6%88%B0%E5%95%9F%E6%82%9F_%E2%80%A7_%E5%B0%BC%E5%8A%AA%E7%88%BE%E5%A1%94
+http://zh.tos.wikia.com/wiki/%E4%BB%81%E5%BF%83%E7%8E%8B%E8%80%85_%E2%80%A7_%E6%9D%9C%E7%A9%86%E6%BF%9F
+http://zh.tos.wikia.com/wiki/%E7%84%A1%E7%A7%81%E7%8A%A7%E7%89%B2_%E2%80%A7_%E6%9D%9C%E7%A9%86%E6%BF%9F
+http://zh.tos.wikia.com/wiki/%E8%B2%9E%E6%BD%94%E4%B9%8B%E6%9C%88_%E2%80%A7_%E4%BC%8A%E5%8D%97%E5%A8%9C
+http://zh.tos.wikia.com/wiki/%E4%BE%9D%E6%88%80%E6%BC%A3%E6%BC%AA_%E2%80%A7_%E4%BC%8A%E5%8D%97%E5%A8%9C
+http://zh.tos.wikia.com/wiki/%E6%BF%81%E5%8C%96%E7%96%BE%E7%A5%9E_%E2%80%A7_%E7%B4%8D%E5%A7%86%E5%A1%94%E7%88%BE
+http://zh.tos.wikia.com/wiki/%E7%A0%B4%E6%A2%8F%E5%91%BD%E9%81%8B_%E2%80%A7_%E7%B4%8D%E5%A7%86%E5%A1%94%E7%88%BE
 http://zh.tos.wikia.com/wiki/%E6%BF%95%E5%A9%86
 http://zh.tos.wikia.com/wiki/%E5%A4%A7%E8%87%AA%E5%9C%A8%E5%A4%A9_%E2%80%A7_%E6%BF%95%E5%A9%86
 http://zh.tos.wikia.com/wiki/%E6%A2%B5%E5%A4%A9
@@ -1827,8 +1837,15 @@ http://zh.tos.wikia.com/wiki/%E8%83%AD%E7%B4%85%E5%8B%95%E7%94%B2
 http://zh.tos.wikia.com/wiki/%E9%9D%92%E7%A2%A7%E5%8B%95%E7%94%B2
 http://zh.tos.wikia.com/wiki/%E6%A9%98%E9%9C%A7%E5%8B%95%E7%94%B2
 http://zh.tos.wikia.com/wiki/%E7%B4%AB%E6%A9%A1%E5%8B%95%E7%94%B2
+http://zh.tos.wikia.com/wiki/%E6%A9%9F%E5%B7%A7%E6%B2%BB%E7%99%92_%E2%80%A7_%E8%98%AD%E5%B8%83%E9%81%94
 http://zh.tos.wikia.com/wiki/%E5%91%BD%E9%80%94%E5%BC%95%E9%A0%98%E8%80%85_%E2%80%A7_%E8%8F%AF%E5%80%AB%E8%A5%BF%E4%BA%9E
 http://zh.tos.wikia.com/wiki/%E5%A2%9C%E8%90%BD%E6%AE%BA%E6%88%AE_%E2%80%A7_%E8%B2%9D%E8%A5%BF%E6%91%A9%E6%96%AF
+http://zh.tos.wikia.com/wiki/%E8%8F%9C%E9%B3%A5%E5%BB%9A%E5%B8%AB_%E2%80%A7_%E9%BB%9E%E5%BF%83%E5%A8%98
+http://zh.tos.wikia.com/wiki/%E9%85%A5%E8%84%86%E6%98%A5%E5%8D%B7
+http://zh.tos.wikia.com/wiki/%E6%99%B6%E7%91%A9%E8%9D%A6%E9%A4%83
+http://zh.tos.wikia.com/wiki/%E9%A3%BD%E8%B6%B3%E7%B3%AF%E7%B1%B3%E9%9B%9E
+http://zh.tos.wikia.com/wiki/%E5%AB%A9%E6%BB%91%E7%87%92%E8%B3%A3
+http://zh.tos.wikia.com/wiki/%E6%BF%83%E9%A6%99%E7%89%9B%E8%82%89%E7%90%83
 http://zh.tos.wikia.com/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7
 http://zh.tos.wikia.com/wiki/%E6%B7%98%E6%B0%A3%E5%89%AA%E5%88%80%E6%89%8B_%E2%80%A7_%E6%96%AF%E5%BA%AB%E7%88%BE%E5%BE%B7
 http://zh.tos.wikia.com/wiki/%E7%94%9C%E9%85%92%E8%A1%80%E6%97%8F_%E2%80%A7_%E8%96%87%E5%85%92%E4%B8%B9%E8%92%82
@@ -1989,6 +2006,7 @@ http://zh.tos.wikia.com/wiki/%E8%89%BE%E7%88%BE%E8%8A%99%E8%90%8A%E5%A7%86%E7%9A
 http://zh.tos.wikia.com/wiki/%E7%B6%AD%E7%8F%8D%E5%B0%BC%E4%BA%9E
 http://zh.tos.wikia.com/wiki/%E8%B3%87%E6%BA%90%E5%A0%AA%E5%AF%9F_%E2%80%A7_%E6%8B%89%E6%B3%95%E8%91%89%E7%88%BE
 http://zh.tos.wikia.com/wiki/%E6%88%B0%E8%BB%8A%E5%A5%B3%E9%83%8E_%E2%80%A7_%E7%83%8F%E5%88%97%E7%88%BE
+http://zh.tos.wikia.com/wiki/%E5%AE%87%E5%AE%99%E5%B7%A1%E8%88%AA_%E2%80%A7_%E6%B2%99%E5%88%A9%E8%91%89
 http://zh.tos.wikia.com/wiki/%E5%A4%AA%E7%A9%BA%E9%A3%9B%E8%A1%8C_%E2%80%A7_%E5%8A%A0%E7%99%BE%E5%88%97
 http://zh.tos.wikia.com/wiki/%E7%A7%98%E5%AF%86%E7%9B%A3%E5%AF%9F_%E2%80%A7_%E6%8B%89%E8%B2%B4%E7%88%BE
 http://zh.tos.wikia.com/wiki/%E7%95%B0%E7%9E%B3%E9%86%AB%E8%80%85_%E2%80%A7_%E6%A1%94%E6%A2%97(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
@@ -2012,6 +2030,7 @@ http://zh.tos.wikia.com/wiki/%E8%81%96%E5%85%89%E6%B0%A3_%E2%80%A7_%E4%BB%99%E6%
 http://zh.tos.wikia.com/wiki/%E6%96%B7%E9%A0%AD%E8%A3%81%E6%B1%BA_%E2%80%A7_%E5%A4%8F%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E6%AF%94%E7%BF%BC%E6%B5%AA%E8%8A%B1_%E2%80%A7_%E5%8D%A1%E7%8F%8A%E5%BE%B7%E6%8B%89
 http://zh.tos.wikia.com/wiki/%E5%A4%A2%E8%A6%BA%E6%B6%BC%E5%A4%8F_%E2%80%A7_%E5%96%80%E8%80%B3%E5%88%BB
+http://zh.tos.wikia.com/wiki/%E5%94%AF%E8%AD%98%E7%84%A1%E5%A2%83_%E2%80%A7_%E6%A2%B5%E5%A4%A9(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E7%87%83%E7%86%A0%E6%AF%94%E7%BF%BC_%E2%80%A7_%E8%BF%A6%E6%A8%93%E7%BE%85(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2
 http://zh.tos.wikia.com/wiki/%E5%A4%A7%E9%99%B0%E9%99%BD%E5%B8%AB_%E2%80%A7_%E5%AE%89%E5%80%8D%E6%99%B4%E6%98%8E
@@ -2073,6 +2092,26 @@ http://zh.tos.wikia.com/wiki/%E7%B4%A1%E7%B4%97%E5%B7%AB%E5%A9%86
 http://zh.tos.wikia.com/wiki/%E7%85%89%E8%97%A5%E5%AD%B8%E5%BE%92
 http://zh.tos.wikia.com/wiki/%E7%85%89%E6%AF%92%E8%97%A5%E5%B8%AB
 http://zh.tos.wikia.com/wiki/%E5%A4%A7%E5%A3%9E%E8%9B%8B%E5%BD%BC%E5%BE%B7
+http://zh.tos.wikia.com/wiki/A_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/B_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/C_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/D_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/E_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/A_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/B_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/C_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/D_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/E_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/F_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/G_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/1_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/2_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/3_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/F_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/G_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/4_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/5_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3
+http://zh.tos.wikia.com/wiki/6_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3
 http://zh.tos.wikia.com/wiki/%E5%A8%81%E6%B2%9B
 http://zh.tos.wikia.com/wiki/%E6%B5%AA%E6%B7%98%E5%A5%B3%E5%85%AC%E7%88%B5_%C2%B7_%E5%A8%81%E6%B2%9B
 http://zh.tos.wikia.com/wiki/%E9%A6%AC%E5%8A%A0%E9%8C%AB%E4%BA%9E
@@ -2090,4 +2129,4 @@ http://zh.tos.wikia.com/wiki/%E5%9C%B0%E7%8D%84%E5%A4%A7%E5%85%AC_%C2%B7_%E4%BA%
 http://zh.tos.wikia.com/wiki/%E4%B8%96%E7%95%8C%E7%9A%84%E6%99%BA%E6%85%A7_%C2%B7_%E6%89%80%E7%BE%85%E9%96%80%E7%8E%8B
 http://zh.tos.wikia.com/wiki/%E7%8D%A8%E8%A7%92%E5%85%AC%E7%88%B5_%C2%B7_%E5%AE%89%E5%BA%A6%E8%A5%BF%E4%BA%9E%E6%96%AF
 7 metadata = [16, 32, 18, 22, 24, 28, 31]
-191 series = [機龍, 碎羽墮落者, 中國神獸, 遠洋的英雄, 機偶使者, 風格樂團, 鮮紅恩典煉化, 可口羊駝, 果實精靈, 公會任務, 北域遺族, 幽☆遊☆白書, 北歐神, 鮮紅恩典, 三國小兵, 新革童話, 仙劍靈獸, 史萊姆, 怪物彈珠, 吉祥物, 神魔員工, 魔法女孩, 三國, 獵人×獵人, 傳世神器, 希臘神幻化, 西方魔獸, 狼人, 潛能解放素材, 墮天, 逐願邪星, 童話仙蹤, 機械神兵, 仙劍靈傑, 新手夥伴, 魔變凶龍, 素材, 幻境惡棍, 遠古的恐懼, 巴比倫神明, 超獸魔神, 八仙素材, 奧羅茲遺族, 精靈, 魔族始源, 武術大會參賽者, 仙劍列傳, 魔幻嘍囉, 科學少女, B.Duck, 大和, 隱士支配者, 部落精獸, 劍靈, 遠洋的旅人, 異神使徒, 奇想典故, 七十二柱魔神, 自然德魯依, 靈魂精髓, 修驗道式神, 魔境入侵者, 鐵皮部隊, 怪物彈珠 ‧ 英雄, 妖嬈花夢, 希臘妖獸, 宇宙序章, 北歐神幻化, 魔境住民, 北域巨人, 畫緣相遇, 大富翁 ‧ 神明, 女王之塔(系列), 神話創世, 街頭流氓, 玩具精靈, 機偶夥伴, 大蛇的眷屬, 海上霸者, 耀脈星芒, 粉碎狂熱, 古蹟源龍, 軒轅列傳, 百鬼夜行 ‧ 惡鬼, 埃及神, 地精, 女王之塔, 約誓之翼, 大富翁, 修羅場, 進化素材, 武魂附體, 中國神煉化, 三國 ‧ 貳, 防龍, 王的護衛, 誓約之花, 金屬生命, 瘋頭, 英靈地精, 靈殿狛犬, 中國神, 機偶合體, 北歐神煉化, 中國神幻化, 協助者, 妖女, 三教頂峰, 笨小魔, 遠古神龍, 寧芙, 諸界看守者, 列王之爭, 傳教士, 不死英雄, 強化素材, 戰鬥魔導士, 封王, 埃及神煉化, 無名勇士, 粉碎亂鬥, 黃道十二宮, 命運女神, 追擊始源, 地獄魔王, 印度神, BIGBANG元素師, 埃及神幻化, 獸伴, 靈界獸, 霹靂布袋戲, 魔族賢者, 死亡騎士, 魔幼龍, 龍牙棋, 創塔者們, 軒轅仙獸, 巴比倫主神, 古希臘神, 討伐戰, 修道仙妖, 貓公爵傭兵團, 七原罪, 荒誕精靈, 八仙, 英靈女孩, 機械城的守護者, 星詠之歌姬, 遊俠, 聖酒女武神, 公會戰, 死物附靈, 北域霸獸, 希臘神像, 鬼魅奸佞, 巨神兵, 旅人的夥伴, 豐腴珍獸, 靈獸役使, 要塞兵團, 希臘神煉化, 圓桌騎士, 武者烈魂, 機械小兵, 蜥蜴戰士, 希臘神, 巫女, 鮮紅恩典幻化, 布袋小偶, 魔像, 高手隱士, 動能兵, 巨像, 神界守衛, 都市傳說, 強力武裝, 競技場, 憶念, 異界龍, 黑鐵學徒, 拳皇, 慶節精靈, 百鬼夜行 ‧ 妖魅, 封神演義, 天竺, 戰慄級, 機械獸, 龍僕, 革新英雄, 主角, 百鬼夜行 ‧ 怪譚]
+195 series = [B.Duck, BIGBANG元素師, 七十二柱魔神, 七原罪, 三國, 三國 ‧ 貳, 三國小兵, 三教頂峰, 不死英雄, 中國神, 中國神幻化, 中國神煉化, 中國神獸, 主角, 仙劍列傳, 仙劍靈傑, 仙劍靈獸, 修羅場, 修道仙妖, 修驗道式神, 傳世神器, 傳教士, 八仙, 八仙素材, 公會任務, 公會戰, 列王之爭, 創塔者們, 劍靈, 動能兵, 北域巨人, 北域遺族, 北域霸獸, 北歐神, 北歐神幻化, 北歐神煉化, 協助者, 印度神, 古希臘神, 古蹟源龍, 可口羊駝, 史萊姆, 吉祥物, 命運女神, 圓桌騎士, 地獄魔王, 地精, 埃及神, 埃及神幻化, 埃及神煉化, 墮天, 大和, 大富翁, 大富翁 ‧ 神明, 大蛇的眷屬, 天竺, 奇想典故, 奧羅茲遺族, 女王之塔, 女王之塔(系列), 妖女, 妖嬈花夢, 存音石, 宇宙序章, 寧芙, 封王, 封神演義, 巨像, 巨神兵, 巫女, 巴比倫主神, 巴比倫主神幻化, 巴比倫主神煉化, 巴比倫神明, 布袋小偶, 希臘妖獸, 希臘神, 希臘神像, 希臘神幻化, 希臘神煉化, 幻境惡棍, 幽☆遊☆白書, 強力武裝, 強化素材, 怪物彈珠, 怪物彈珠 ‧ 英雄, 慶節精靈, 憶念, 戰慄級, 戰鬥魔導士, 拳皇, 新手夥伴, 新革童話, 旅人的夥伴, 星詠之歌姬, 果實精靈, 機偶使者, 機偶合體, 機偶夥伴, 機械城的守護者, 機械小兵, 機械獸, 機械神兵, 機龍, 武者烈魂, 武術大會參賽者, 武魂附體, 死亡騎士, 死物附靈, 海上霸者, 潛能解放素材, 無名勇士, 狼人, 獵人×獵人, 獸伴, 王的護衛, 玩具精靈, 珍饈美點, 畫緣相遇, 異界龍, 異神使徒, 瘋頭, 百鬼夜行 ‧ 妖魅, 百鬼夜行 ‧ 怪譚, 百鬼夜行 ‧ 惡鬼, 碎羽墮落者, 神界守衛, 神話創世, 神魔員工, 科學少女, 童話仙蹤, 競技場, 笨小魔, 粉碎亂鬥, 粉碎狂熱, 精靈, 約誓之翼, 素材, 耀脈星芒, 聖酒女武神, 自然德魯依, 英靈地精, 英靈女孩, 荒誕精靈, 蜥蜴戰士, 街頭流氓, 西方魔獸, 要塞兵團, 討伐戰, 誓約之花, 諸界看守者, 豐腴珍獸, 貓公爵傭兵團, 超獸魔神, 軒轅仙獸, 軒轅列傳, 追擊始源, 逐願邪星, 進化素材, 遊俠, 遠古的恐懼, 遠古神龍, 遠洋的旅人, 遠洋的英雄, 部落精獸, 都市傳說, 金屬生命, 鐵皮部隊, 防龍, 隱士支配者, 霹靂布袋戲, 靈殿狛犬, 靈獸役使, 靈界獸, 靈魂精髓, 革新英雄, 風格樂團, 高手隱士, 鬼魅奸佞, 魔像, 魔境住民, 魔境入侵者, 魔幻嘍囉, 魔幼龍, 魔族始源, 魔族賢者, 魔法女孩, 魔變凶龍, 鮮紅恩典, 鮮紅恩典幻化, 鮮紅恩典煉化, 黃道十二宮, 黑鐵學徒, 龍僕, 龍牙棋]
