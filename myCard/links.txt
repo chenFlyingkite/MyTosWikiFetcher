@@ -12588,33 +12588,33 @@
     "linkId": "http://zh.tos.wikia.com/wiki/8050"
   },
   {
-    "title": "No. 8051 a 調存音石",
+    "title": "No. 8051 ａ 調存音石",
     "id": "8051",
-    "link": "http://zh.tos.wikia.com/wiki/A_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A1_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8051"
   },
   {
-    "title": "No. 8052 b 調存音石",
+    "title": "No. 8052 ｂ 調存音石",
     "id": "8052",
-    "link": "http://zh.tos.wikia.com/wiki/B_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A2_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8052"
   },
   {
-    "title": "No. 8053 c 調存音石",
+    "title": "No. 8053 ｃ 調存音石",
     "id": "8053",
-    "link": "http://zh.tos.wikia.com/wiki/C_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A3_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8053"
   },
   {
-    "title": "No. 8054 d 調存音石",
+    "title": "No. 8054 ｄ 調存音石",
     "id": "8054",
-    "link": "http://zh.tos.wikia.com/wiki/D_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A4_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8054"
   },
   {
-    "title": "No. 8055 e 調存音石",
+    "title": "No. 8055 ｅ 調存音石",
     "id": "8055",
-    "link": "http://zh.tos.wikia.com/wiki/E_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A5_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8055"
   },
   {
@@ -12648,15 +12648,15 @@
     "linkId": "http://zh.tos.wikia.com/wiki/8060"
   },
   {
-    "title": "No. 8061 f 調存音石",
+    "title": "No. 8061 ｆ 調存音石",
     "id": "8061",
-    "link": "http://zh.tos.wikia.com/wiki/F_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A6_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8061"
   },
   {
-    "title": "No. 8062 g 調存音石",
+    "title": "No. 8062 ｇ 調存音石",
     "id": "8062",
-    "link": "http://zh.tos.wikia.com/wiki/G_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
+    "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A7_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8062"
   },
   {

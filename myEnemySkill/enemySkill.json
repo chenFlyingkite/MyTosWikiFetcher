@@ -8207,10 +8207,18 @@
   {
     "id": "618",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/618",
-    "name": "(5回火暗防禦盾) ‧ 無視減傷 ‧ 攻後燃燒10%",
+    "name": "首回敵轉木 ‧ (5回火暗防禦盾) ‧ 無視減傷 ‧ 攻後燃燒10%",
     "detail": "首回合敵人會轉變換為木屬性。\u003cbr\u003e5 回合內，火及暗屬性的攻擊無法對敵人造成傷害。敵人會無視所有減傷效果和意志技能，每當召喚師受到攻擊時，敵人會隨機燃燒 1 個位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES618}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d8/SI018.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI018.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3c/SI050.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185646\u0026path-prefix\u003dzh",
+        "iconKey": "SI050.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI229.png"
@@ -8218,10 +8226,6 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI251.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3c/SI050.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185646\u0026path-prefix\u003dzh",
-        "iconKey": "SI050.png"
       }
     ]
   },
@@ -8341,17 +8345,29 @@
   {
     "id": "624",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/624",
-    "name": "攻前盾 ‧ 中毒40% ‧ 攻後封技4回 ‧ 越攻越強",
+    "name": "敵轉火 ‧ 攻前盾 ‧ 中毒40% ‧ 攻後鎖技4回 ‧ 越攻越強",
     "detail": "首回合敵人會轉變換為火屬性。\u003cbr\u003e敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。敵人會令全隊中毒，在每回合扣除召喚師 40% 生命力，直至敵人死亡；每當召喚師受到攻擊時，敵人會封鎖所有成員的主動技能，持續 4 回合。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES624}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
-        "iconKey": "SI188.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI017.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI017.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI259.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI259.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI135.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102459\u0026path-prefix\u003dzh",
+        "iconKey": "SI135.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
       }
     ]
   },
