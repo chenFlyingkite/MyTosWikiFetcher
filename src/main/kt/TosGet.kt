@@ -852,6 +852,23 @@ class TosGet {
                         // Inner html contains <table>, like "昇華"
                         || tables > 0
 
+                // This is to peek the no need nodes
+//                if (e.text().isEmpty()) {
+//                    print("---- isEmpty ----")
+//                    print(e.html())
+//                    println("--------")
+//                }
+//                if (e.attr("class").toLowerCase() == "hidden") {
+//                    print("---- Hidden>0 ----")
+//                    print(e.text())
+//                    println("--------")
+//                }
+//                if (tables > 0) {
+//                    print("---- Table>0 ----")
+//                    print(e.text())
+//                    println("--------")
+//                }
+
                 // Takes the images of evolution
                 val noscript = e.getElementsByTag("noscript")
 
@@ -865,7 +882,10 @@ class TosGet {
                     for (nos in noscript) {
                         val alt = getImgAlt(nos)
                         if (alt != null) {
-                            inImgs.add(alt)
+                            // Add for no table, exclude duplicate Refine1~4
+                            if (tables == 0) {
+                                inImgs.add(alt)
+                            }
                             if (isEvo || isPow || isVir) {
                                 evos.add(alt)
                             } else if (isCom) {
