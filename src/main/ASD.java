@@ -31,6 +31,7 @@ import flyingkite.tool.GsonUtil;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
+import main.card.Evolve;
 import main.card.TosCard;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -60,8 +61,8 @@ public class ASD {
         //scale();
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
-        //loadCardsCSV();
-        formatting();
+        loadCardsCSV();
+        //formatting();
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
         tt.tac("Done");
     }
@@ -93,7 +94,18 @@ public class ASD {
                 L.log("Missing card %s", c.idNorm);
             }
             if (d != null) {
-
+                boolean has0257 = false;
+                for (Evolve ev : d.evolveInfo) {
+                    for (String s : ev.evolveNeed) {
+                        if ("0257".equals(s)) {
+                            has0257 = true;
+                            L.log("Here found ev = %s", ev);
+                        }
+                    }
+                }
+                if (has0257) {
+                    L.log("Card id = %s", c.idNorm);
+                }
             }
         }
 

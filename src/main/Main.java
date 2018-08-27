@@ -64,7 +64,7 @@ public class Main {
         }
         //TosCraftFetcher.me.run();
         //TosSkillFetcher.me.run();
-        //TosWikiCardsLister.me.run();
+        //TosCardFetcher.me.run();
         if (onlyCard) {
             endCard.run();
         }
