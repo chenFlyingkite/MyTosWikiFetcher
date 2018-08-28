@@ -9,7 +9,6 @@ import java.util.Map;
 import flyingkite.log.L;
 import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
-import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosSkillFetcher.AllSkill;
@@ -17,8 +16,6 @@ import main.kt.CardTds;
 import main.kt.Craft;
 import main.kt.SkillInfo;
 import main.kt.SkillInfo2;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 public class TosCardCreator {
     private TosCardCreator() {}
@@ -386,7 +383,7 @@ public class TosCardCreator {
                 e = sliceEvolve(n, arrow + 1, plus + 1, arrow, evo);
                 n = arrow + 2;
             } else {
-                L.log("XXX X_X");
+                L.log("X_X wrong Evolution");
             }
             if (e != null) {
                 evos.add(e);
@@ -465,7 +462,6 @@ public class TosCardCreator {
         }
     }
 
-
     private void fillStageLinks(TosCard c, CardInfo info) {
         List<String> list;
         // Fill in Amelioration stage name & link
@@ -496,43 +492,18 @@ public class TosCardCreator {
     }
 
     private void fillSkillChange(TosCard c, CardInfo info) {
-        List<Element> ameChg = new ArrayList<>();
-
-        if (c.idNorm.equals("1379")) {
-            c.idNorm.length();
-        }
-
-        int ax = 2;
-        int[] anchors = info.anchors;
-        int anxer = anchors[ax];
-        if (anxer >= 0) { // See any skills change in amelioration
-            int at = TosCardFetcher.getPositiveMin(anchors, ax + 1, anchors.length);
-            at = at - info.ameStages.size() / 2;
-            Elements es = info.cardTds.getRawTds();
-            for (int i = anxer; i < at; i++) {
-                Element ei = es.get(i);
-                if (ei != null) {
-                    Elements eas = ei.getElementsByTag("a");
-                    ameChg.addAll(eas);
-                }
+        // Find all changed skill info
+        List<SkillInfo2> sinf = new ArrayList<>();
+        for (SkillInfo e : info.skillChange) {
+            String name = e.getSkillName();
+            boolean add = addSkills(sinf, name, c.idNorm);
+            if (!add) {
+                L.log("X_X missing skill %s, %s", c.idNorm, name);
             }
         }
-
-        if (ameChg.size() > 0) {
-            // Find all changed skill info
-            List<SkillInfo2> sinf = new ArrayList<>();
-            for (Element e : ameChg) {
-                String name = e.attr("title");
-                boolean add = addSkills(sinf, name, c.idNorm);
-                if (!add) {
-                    L.log("XX_XXXZZ miss skill %s, %s", c.idNorm, name);
-                }
-            }
-            // Convert to Skill
-            for (SkillInfo2 s : sinf) {
-                c.skillChange.add(s.lite());
-            }
-            c.skillChange.size();
+        // Convert to Skill
+        for (SkillInfo2 s : sinf) {
+            c.skillChange.add(s.lite());
         }
     }
 

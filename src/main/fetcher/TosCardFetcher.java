@@ -69,7 +69,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         );
 
         link.clear(); // uncomment this if use test links
-        //link.add("http://zh.tos.wikia.com/wiki/595");
+        //link.add("http://zh.tos.wikia.com/wiki/826");
         //link.add("http://zh.tos.wikia.com/wiki/1216");
         //link.add("http://zh.tos.wikia.com/wiki/1436");
 //        link.add("http://zh.tos.wikia.com/wiki/6070"); // 妲己
@@ -253,6 +253,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
                 info.awkStages.add(wikiBaseZh + icf.getLink()); // battle link
             }
+
+            getSkillChange(info, rawCard.getRawTds(), anchors[ax] + 1, at - 1);
         }
 
         // Fetch if has 潛能解放
