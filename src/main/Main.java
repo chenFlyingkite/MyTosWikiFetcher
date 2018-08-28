@@ -32,7 +32,6 @@ public class Main {
         //-- Regular
         boolean regl = true; // Regular
         boolean parl = true; // Parallel
-        boolean onlyCard = false && !regl;
         // 維基動態
         if (regl) {
             // 最近動態
@@ -65,9 +64,6 @@ public class Main {
         //TosCraftFetcher.me.run();
         //TosSkillFetcher.me.run();
         //TosCardFetcher.me.run();
-        if (onlyCard) {
-            endCard.run();
-        }
         if (!regl) {
             TicTac2 c = new TicTac2();
         }

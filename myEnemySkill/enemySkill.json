@@ -6818,7 +6818,7 @@
   {
     "id": "517",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/517",
-    "name": "燃燒10% ‧ 延伸",
+    "name": "擴散燃燒10%",
     "detail": "敵人會隨機燃燒 1 個位置，其後每回合燃燒範圍延伸至周邊的其中 1 個位置。每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES517}}",
     "icons": [
@@ -9303,16 +9303,24 @@
     "esCode": "{{ES685}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI011.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
-        "iconKey": "SI165.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI212.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI212.png"
       }
     ]
   },
@@ -11040,7 +11048,7 @@
   {
     "id": "801",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/801",
-    "name": "累積12+相剋符石盾",
+    "name": "循環累積12+相剋符石盾",
     "detail": "召喚師需累積消除 12 粒或以上、克制敵人屬性的符石 (不受轉換屬性技能影響)，才會對敵人造成攻擊傷害 。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊",
     "esCode": "{{ES801}}",
     "icons": [
@@ -12484,12 +12492,12 @@
     "esCode": "{{ES894}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI212.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
-        "iconKey": "SI212.png"
-      },
-      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
         "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI212.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI212.png"
       }
     ]
   },
@@ -16384,17 +16392,21 @@
   {
     "id": "1162",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1162",
-    "name": "無視減傷 ‧ 強化盾 ‧ 反擊100% ‧ 雙重風化3000 ‧ 先",
+    "name": "無視減傷 ‧ 強化盾-反擊100% ‧ 雙重風化3000-先",
     "detail": "敵人無視所有減傷效果和意志技能。\u003cbr\u003e敵人只會受到強化符石的攻擊傷害；若受到非強化符石的攻擊，敵人會反擊自身 100% 攻擊傷害。\u003cbr\u003e每回合隨機將 2 粒符石風化，一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害",
     "esCode": "{{ES1162}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI254.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
         "iconKey": "SI221.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
-        "iconKey": "SI254.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
       }
     ]
   },
@@ -24543,7 +24555,7 @@
   {
     "id": "1708",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1708",
-    "name": "雙重風化15000 ‧ 先",
+    "name": "雙重風化15000-先",
     "detail": "每回合移動符石前，隨機將 2 粒符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害",
     "esCode": "{{ES1708}}",
     "icons": [
@@ -25174,7 +25186,7 @@
   {
     "id": "1751",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1751",
-    "name": "獸類技能重置 ‧ 獸類剋制-攻 ‧ 隱身-隱攻(98回軌跡燃燒1000)",
+    "name": "獸類技能重置 ‧ 獵獸 ‧ 隱身-隱攻(98回軌跡燃燒1000)",
     "detail": "首回合敵人會將獸類成員的主動技能 CD 重置，召喚師隊伍中有獸類成員時，敵人攻擊力提升。\u003cbr\u003e敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，98 回合內敵人會燃燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 1000 點的傷害",
     "esCode": "{{ES1751}}",
     "icons": [
@@ -25200,12 +25212,20 @@
     "esCode": "{{ES1752}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI124.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI012.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
       }
     ]
   },
@@ -25434,17 +25454,25 @@
   {
     "id": "1763",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1763",
-    "name": "敵轉光 ‧ 連擊 ‧ 低血追擊 ‧ 命懸一線 ‧ 心轉光 ‧ 每回攻擊隨機轉光",
+    "name": "敵轉光 ‧ 命懸一線-心轉光-攻後1種轉光 ‧ 連擊-血弱追擊",
     "detail": "首回合敵人會轉換成光屬性。\u003cbr\u003e敵人會在 1 回合內連續攻擊 2 次，敵人生命力愈低時，連擊次數愈多。\u003cbr\u003e首回合敵人會令召喚師生命力剩 1 點，並將心符石轉化為光符石。每回合敵人發動攻擊時，會將隨機 1 種符石轉化為光符石",
     "esCode": "{{ES1763}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI014.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/af/SI019.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101356\u0026path-prefix\u003dzh",
+        "iconKey": "SI019.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
         "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e1/SI167.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI167.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
