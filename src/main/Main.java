@@ -61,11 +61,14 @@ public class Main {
         if (regl) {
             TaskMonitorUtil.join(beforeCard, endCard);
         }
-        //TosCraftFetcher.me.run();
-        //TosSkillFetcher.me.run();
-        //TosCardFetcher.me.run();
-        if (!regl) {
+
+        if (false) {
             TicTac2 c = new TicTac2();
+            c.tic();
+            //TosCraftFetcher.me.run();
+            //TosSkillFetcher.me.run();
+            TosCardFetcher.me.run();
+            c.tac("Partly fetch OK");
         }
 
         //-- Seldom
