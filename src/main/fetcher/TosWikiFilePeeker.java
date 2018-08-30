@@ -1,14 +1,20 @@
 package main.fetcher;
 
-import main.kt.TosGet;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
+import main.kt.TosGet;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import wikia.articles.UnexpandedArticle;
-
-import java.util.*;
 
 public class TosWikiFilePeeker extends TosWikiBaseFetcher {
     private TosWikiFilePeeker() {}
@@ -23,6 +29,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher {
 
     private List<Map<String, List<String>>> imageMaps = Collections.synchronizedList(new ArrayList<>());
     private List<String> musicLinks = Collections.synchronizedList(new ArrayList<>());
+    private final int topUser = 10;
 
     @Override
     public String getAPILink() {
@@ -111,7 +118,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher {
 
         //Select the top 4 users that their information is most useful
         // But image link duplicates?
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < topUser; i++) {
             String k = allK.get(i);
             List<String> allImages = all.get(k);
             Collections.sort(allImages);

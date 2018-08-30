@@ -1,6 +1,7 @@
 package main;
 
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 
@@ -27,6 +28,7 @@ import main.fetcher.TosWikiSummonerLevelFetcher;
 
 public class Main {
     public static void main(String[] args) {
+        L.log("" + new Date());
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
@@ -91,6 +93,7 @@ public class Main {
         TicTac.tac("Main ended");
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
+        L.log("" + new Date());
     }
 
     private static void runParallel(boolean parallel, Runnable... rs) {

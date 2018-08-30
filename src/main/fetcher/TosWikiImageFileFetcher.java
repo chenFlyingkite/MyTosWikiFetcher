@@ -1,17 +1,17 @@
 package main.fetcher;
 
-import main.kt.IconInfo;
-import main.kt.ImageFileInfo;
-import main.kt.TosGet;
-import org.jsoup.nodes.Document;
+import java.io.File;
+import java.util.Arrays;
+import java.util.List;
+
 import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TextUtil;
-
-import java.io.File;
-import java.util.Arrays;
-import java.util.List;
+import main.kt.IconInfo;
+import main.kt.ImageFileInfo;
+import main.kt.TosGet;
+import org.jsoup.nodes.Document;
 
 public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
     private TosWikiImageFileFetcher() { }
@@ -23,7 +23,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
     private static final String tosWiki = wikiPageBase +
         (zh ? "/wiki/Special:%E5%9B%BE%E7%89%87"
             : "/wiki/Special:Images");
-    private static final int PAGES = zh ? 303 : 150;
+    private static final int PAGES = zh ? 309 : 155;
     private static final String folder = zh ? "myImagesFile" : "myImagesFileEng";
     // http://zh.tos.wikia.com/wiki/Special:圖片
     // https://towerofsaviors.wikia.com/wiki/Special:Images
@@ -70,8 +70,10 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
 
     // TODO :Download the wanted file here
     private boolean canDownload(ImageFileInfo info) {
-        List<String> listZh = Arrays.asList("Btoky", "Hugochau", "Wingwing007", "Ahhei0403", "Towerofsaviors");
-        List<String> listEn = Arrays.asList("JoetjeF", "Lycentia", "RaccoonKun", "Wingwing007", "Towerofsaviors");
+        List<String> listZh = Arrays.asList("Btoky" , "Hugochau", "Wingwing007", "Towerofsaviors", "Ahhei0403", "Imnoob92"
+                , "568736", "Wallance1992", "Eeepc900", "Blueeighthnote", "BrockF5");
+        List<String> listEn = Arrays.asList("JoetjeF", "Lycentia", "RaccoonKun", "Wingwing007", "Towerofsaviors"
+                , "Btoky", "Aekun");
         List<String> list = zh ? listZh : listEn;
         //return false;
         return list.contains(info.getUploader());
