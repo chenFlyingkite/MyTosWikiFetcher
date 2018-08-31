@@ -5315,6 +5315,15 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "妖魅之靈",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%A6%96%E9%AD%85%E4%B9%8B%E9%9D%88",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "火符石轉化為心妖族強化符石",
+    "skillMonsters": []
+  },
+  {
     "type": "隊長技",
     "skillName": "妖魔伴主",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%A6%96%E9%AD%94%E4%BC%B4%E4%B8%BB",
@@ -6836,6 +6845,15 @@
     "skillMonsters": [
       "0923"
     ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "憂鬱之藍",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%86%82%E9%AC%B1%E4%B9%8B%E8%97%8D",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，延長移動符石時間至 10 秒，神族及妖精類攻擊力及回復力 1.5 倍；若隊伍中有 2 個或以上妖精類成員時，其他符石兼具 50% 水符石效果",
+    "skillMonsters": []
   },
   {
     "type": "主動技",
@@ -15694,6 +15712,15 @@
     "skillMonsters": [
       "1628"
     ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "破冰絕電之濤",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A0%B4%E5%86%B0%E7%B5%95%E9%9B%BB%E4%B9%8B%E6%BF%A4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "引爆凍結及電擊符石，以掉落水強化符石",
+    "skillMonsters": []
   },
   {
     "type": "主動技",
