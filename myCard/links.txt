@@ -11028,6 +11028,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1863"
   },
   {
+    "title": "No. 1864 歌者信徒 ‧ 桑拿坦",
+    "id": "1864",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%AD%8C%E8%80%85%E4%BF%A1%E5%BE%92_%E2%80%A7_%E6%A1%91%E6%8B%BF%E5%9D%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/1864"
+  },
+  {
     "title": "No. 1865 機巧治癒 ‧ 蘭布達",
     "id": "1865",
     "link": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E5%B7%A7%E6%B2%BB%E7%99%92_%E2%80%A7_%E8%98%AD%E5%B8%83%E9%81%94",
