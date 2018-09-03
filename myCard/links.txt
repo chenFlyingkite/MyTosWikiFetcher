@@ -10986,6 +10986,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1851"
   },
   {
+    "title": "No. 1852 畸孿共生 ‧ 派拉瓦與南迪",
+    "id": "1852",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%95%B8%E5%AD%BF%E5%85%B1%E7%94%9F_%E2%80%A7_%E6%B4%BE%E6%8B%89%E7%93%A6%E8%88%87%E5%8D%97%E8%BF%AA",
+    "linkId": "http://zh.tos.wikia.com/wiki/1852"
+  },
+  {
     "title": "No. 1853 燃熠比翼 ‧ 迦樓羅",
     "id": "1853",
     "link": "http://zh.tos.wikia.com/wiki/%E7%87%83%E7%86%A0%E6%AF%94%E7%BF%BC_%E2%80%A7_%E8%BF%A6%E6%A8%93%E7%BE%85",
@@ -11784,6 +11790,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6118"
   },
   {
+    "title": "S120 西部牛仔 ‧ 哈沙",
+    "id": "6120",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%A5%BF%E9%83%A8%E7%89%9B%E4%BB%94_%E2%80%A7_%E5%93%88%E6%B2%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/6120"
+  },
+  {
     "title": "S122 帽子公爵 ‧ 蘭斯洛特",
     "id": "6122",
     "link": "http://zh.tos.wikia.com/wiki/%E5%B8%BD%E5%AD%90%E5%85%AC%E7%88%B5_%E2%80%A7_%E8%98%AD%E6%96%AF%E6%B4%9B%E7%89%B9",
@@ -12226,6 +12238,12 @@
     "id": "6206",
     "link": "http://zh.tos.wikia.com/wiki/%E5%94%AF%E8%AD%98%E7%84%A1%E5%A2%83_%E2%80%A7_%E6%A2%B5%E5%A4%A9(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6206"
+  },
+  {
+    "title": "S208 畸孿共生 ‧ 派拉瓦與南迪(動態造型)",
+    "id": "6208",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%95%B8%E5%AD%BF%E5%85%B1%E7%94%9F_%E2%80%A7_%E6%B4%BE%E6%8B%89%E7%93%A6%E8%88%87%E5%8D%97%E8%BF%AA(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6208"
   },
   {
     "title": "S209 燃熠比翼 ‧ 迦樓羅(動態造型)",

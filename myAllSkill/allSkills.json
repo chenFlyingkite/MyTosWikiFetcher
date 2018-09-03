@@ -4051,7 +4051,7 @@
     "type": "主動技",
     "skillName": "喝口茶吃個包",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%96%9D%E5%8F%A3%E8%8C%B6%E5%90%83%E5%80%8B%E5%8C%85",
-    "skillCDMin": 19,
+    "skillCDMin": 22,
     "skillCDMax": 8,
     "skillDesc": "3 回合內，生命力未滿時，根據隊伍中人類成員的數量，回復相應的生命力，6 個人類成員可回復最多 15000 點生命力",
     "skillMonsters": [
@@ -12096,7 +12096,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B5%B7%E9%80%A3%E7%92%B0",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "1 回合內，延長移動符石時間至 10 秒，消除的連擊 (Combo) 數目愈多時，全隊攻擊力愈高，10 連擊 (Combo) 可達至最大 2.5 倍",
+    "skillDesc": "1 回合內，延長移動符石時間至 10 秒，消除符石的組數愈多時，全隊攻擊力愈高，消除 10 組可達至最大 2.5 倍",
     "skillMonsters": [
       "1237"
     ]
