@@ -180,7 +180,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // Find the end of card
         int min = getPositiveMin(anchors, Anchors.AwakenRecall.id(), anchors.length);
         L.log("Evos = %s", cardTds.getImages());
-        //info.anchors = Arrays.copyOf(anchors, anchors.length); // Unused variable
         info.cardTds = cardTds;
 
         // Abbreviation

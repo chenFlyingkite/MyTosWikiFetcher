@@ -330,7 +330,6 @@ class TosGet {
                         ski.skillDesc = getTextAt(tds, 4)
                         // 6
                         ski.monsters = getImgAltIds(tds.last())
-                        //L.log("ZZZ %s %s -> %s", tds.size, ski.skillName, e.baseUri())
                     }
                     "組合技" -> {
                         // 三原獵刃
@@ -340,7 +339,6 @@ class TosGet {
                         ski.monsters = getImgAltIds(tds[4])
                     }
                     else -> {
-                        //L.log("Omit %s", ski.type)
                         valid = false
                     }
                 }
@@ -482,7 +480,6 @@ class TosGet {
                         // Need "https://vignette.wikia.nocookie.net/tos/images"...
                         si.iconLink = getVignette(aimg, "data-src", "src")
                         si.iconKey = aimg.attr("data-image-key")
-                        //si.iconKey = zhLinkFile + aimg.attr("data-image-key")
                         c.icons.add(si)
                     } else {
                         if (c.name.isEmpty()) {
@@ -522,7 +519,6 @@ class TosGet {
                 val si = s[i]
                 if (si.hasClass("tt-text")) {
                     val c = SimpleCraft()
-                    //c.name = si.attr("data-texttip").substringAfter("<br>")
 
                     // Take the 1st <img> or we should use item.child(0).child(0) ?
                     // <a><img/></a>
@@ -793,7 +789,6 @@ class TosGet {
                         info.wikiPage = wikiBase + "" + light[i].attr("href")
                         info.uploader = user[i].text()
                         info.filename = major[i].attr("data-image-name")
-                        //println("#$i -> ${info.title} >> ${info.uploader} >> ${info.filename}\n    ${info.wikiPage}\n")
                         allInfo.add(info)
                     }
                 }
@@ -942,7 +937,6 @@ class TosGet {
 
         fun getCardDetails(doc: Document) : CardDetail {
             val de = CardDetail()
-            //((Element) details.get(0).childNodes.get(4)).text()
             val details = doc.getElementsByClass("module move")
 
             for (det in details) {
@@ -981,7 +975,7 @@ class TosGet {
         }
 
         fun concatTextNodes(e: Element) : String {
-            val nodes = e.childNodes()//e.textNodes()
+            val nodes = e.childNodes()
             var s = ""
             nodes.forEachIndexed { i, node -> run {
                 var str = ""
@@ -998,7 +992,6 @@ class TosGet {
                     s += str
                 }
             }}
-            //print("s = -> $s")
             return s
         }
 
@@ -1317,20 +1310,3 @@ class CardDetail {
         return "$sameSkills -> $detail"
     }
 }
-
-//
-//fun TosGet.getImage(element: Element) :String {
-//    val nos = element.getElementsByTag("noscript")
-//    val x: Element
-//    val imgs: Elements?
-//    val size = nos?.size ?: 0
-//    if (size > 0) {
-//        x = nos[0]
-//        imgs = x?.getElementsByTag("img")
-//        val s = imgs?.size ?: 0
-//        if (s > 0) {
-//            return imgs?.get(0)?.attr("src") ?: ""
-//        }
-//    }
-//    return ""
-//}

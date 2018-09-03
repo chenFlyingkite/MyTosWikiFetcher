@@ -61,22 +61,10 @@ public class TosCardCreator {
 //24, card = http://zh.tos.wikia.com/wiki/651
 //31, card = http://zh.tos.wikia.com/wiki/656
 
-//    private Map<String, List<Skill>> skillActive;
-//    private Map<String, List<Skill>> skillChangeLeader;
-//    private Map<String, List<Skill>> skillChangeActive;
     private Map<String, List<Craft>> allArmCrafts;
     private AllSkill allTypeSkills;
 
     private void loadAllSkills() {
-//        if (skillActive == null) {
-//            skillActive = TosActiveSkillFetcher.me.getActiveSkills();
-//        }
-//        if (skillChangeLeader == null) {
-//            skillChangeLeader = TosAmeSkillFetcher.me.getAllSkillsLeader();
-//        }
-//        if (skillChangeActive == null) {
-//            skillChangeActive = TosAmeSkillFetcher.me.getAllSkillsActive();
-//        }
         if (allArmCrafts == null) {
             allArmCrafts = TosCraftFetcher.me.getArmCrafts();
         }
@@ -87,8 +75,6 @@ public class TosCardCreator {
 
     public TosCard asTosCard(CardInfo info) {
         // Prepare other data
-        //skillChangeLeader = TosAmeSkillFetcher.getAllSkillsLeader();
-        //skillChangeActive = TosAmeSkillFetcher.getAllSkillsActive();
         loadAllSkills();
 
         // Main body
