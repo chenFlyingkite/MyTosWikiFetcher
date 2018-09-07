@@ -1,9 +1,9 @@
 package main.card;
 
-import com.google.gson.annotations.SerializedName;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.google.gson.annotations.SerializedName;
 
 public class TosCard {
     //------------
@@ -125,6 +125,18 @@ public class TosCard {
     public String cardDetails = "";
 
     //------------
+    //---- Leader Skill, 隊長技能
+    //------------
+
+    /** Leader skill name, like "光之狂怒" */
+    @SerializedName(TC.skillLeaderName)
+    public String skillLeaderName = "";
+
+    /** Leader skill description, like "光屬性攻擊力 2.5 倍" */
+    @SerializedName(TC.skillLeaderDesc)
+    public String skillLeaderDesc = "";
+
+    //------------
     //---- Active Skill 1, 主動技能1
     //------------
 
@@ -163,18 +175,6 @@ public class TosCard {
     /** Active skill 2 CD max Lv, like 10 */
     @SerializedName(TC.skillCDMax2)
     public int skillCDMax2;
-
-    //------------
-    //---- Leader Skill, 隊長技能
-    //------------
-
-    /** Leader skill name, like "光之狂怒" */
-    @SerializedName(TC.skillLeaderName)
-    public String skillLeaderName = "";
-
-    /** Leader skill description, like "光屬性攻擊力 2.5 倍" */
-    @SerializedName(TC.skillLeaderDesc)
-    public String skillLeaderDesc = "";
 
     //------------
     //---- Amelioration Skill, 昇華技能
