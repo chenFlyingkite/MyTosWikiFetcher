@@ -31,7 +31,6 @@ import flyingkite.tool.GsonUtil;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
-import main.card.Evolve;
 import main.card.TosCard;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -61,8 +60,8 @@ public class ASD {
         //scale();
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
-        //loadCardsCSV();
-        formatting();
+        loadCardsCSV();
+        //formatting();
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
         tt.tac("Done");
     }
@@ -77,17 +76,16 @@ public class ASD {
         TosCard[] allCards = GsonUtil.loadFile(fc, TosCard[].class);
         clk.tac("%s cards loaded", allCards.length);
 
+        // Put cards as map
         Map<String, TosCard> map = new HashMap<>();
         for (TosCard c : allCards) {
-//            if (c.combineFrom.size() > 0) {
-//                L.log("#%s, Cmb = %s -> %s", c.idNorm, c.combineFrom, c.combineTo);
-//            }
             if (map.containsKey(c.idNorm)) {
                 L.log("X_X Duplicate on %s", c.idNorm);
             }
             map.put(c.idNorm, c);
         }
 
+        /*
         for (TosCard c : allCards) {
             TosCard d = map.get(c.idNorm);
             if (d == null) {
@@ -108,9 +106,10 @@ public class ASD {
                 }
             }
         }
+        */
 
         // Find cards
-        //findCards("效果持續至", allCards);
+        findCards("將場上的符石變回原始模樣", allCards);
         //findCards("傷害減少", allCards);
     }
 

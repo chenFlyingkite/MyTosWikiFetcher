@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2101 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (2106 items, basePath = http://zh.tos.wikia.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -306,6 +306,8 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 千年之約_‧_木 -> http://zh.tos.wikia.com/wiki/%E5%8D%83%E5%B9%B4%E4%B9%8B%E7%B4%84_%E2%80%A7_%E6%9C%A8
 千年之約_‧_水 -> http://zh.tos.wikia.com/wiki/%E5%8D%83%E5%B9%B4%E4%B9%8B%E7%B4%84_%E2%80%A7_%E6%B0%B4
 千年之約_‧_火 -> http://zh.tos.wikia.com/wiki/%E5%8D%83%E5%B9%B4%E4%B9%8B%E7%B4%84_%E2%80%A7_%E7%81%AB
+千秋的傳承 -> http://zh.tos.wikia.com/wiki/%E5%8D%83%E7%A7%8B%E7%9A%84%E5%82%B3%E6%89%BF
+千秋的傳承_‧_日夜交迭 -> http://zh.tos.wikia.com/wiki/%E5%8D%83%E7%A7%8B%E7%9A%84%E5%82%B3%E6%89%BF_%E2%80%A7_%E6%97%A5%E5%A4%9C%E4%BA%A4%E8%BF%AD
 印記之念_‧_光 -> http://zh.tos.wikia.com/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89
 印記之念_‧_光華 -> http://zh.tos.wikia.com/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89%E8%8F%AF
 印記之念_‧_暗 -> http://zh.tos.wikia.com/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%9A%97
@@ -540,6 +542,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 強化傳承_‧_水 -> http://zh.tos.wikia.com/wiki/%E5%BC%B7%E5%8C%96%E5%82%B3%E6%89%BF_%E2%80%A7_%E6%B0%B4
 強化傳承_‧_火 -> http://zh.tos.wikia.com/wiki/%E5%BC%B7%E5%8C%96%E5%82%B3%E6%89%BF_%E2%80%A7_%E7%81%AB
 強悍之力量 -> http://zh.tos.wikia.com/wiki/%E5%BC%B7%E6%82%8D%E4%B9%8B%E5%8A%9B%E9%87%8F
+強悍之志 -> http://zh.tos.wikia.com/wiki/%E5%BC%B7%E6%82%8D%E4%B9%8B%E5%BF%97
 彩虹的衝擊 -> http://zh.tos.wikia.com/wiki/%E5%BD%A9%E8%99%B9%E7%9A%84%E8%A1%9D%E6%93%8A
 御劍飛行 -> http://zh.tos.wikia.com/wiki/%E5%BE%A1%E5%8A%8D%E9%A3%9B%E8%A1%8C
 御靈旋 -> http://zh.tos.wikia.com/wiki/%E5%BE%A1%E9%9D%88%E6%97%8B
@@ -940,6 +943,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 水靈飄灑 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E9%9D%88%E9%A3%84%E7%81%91
 水龍之濤 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E9%BE%8D%E4%B9%8B%E6%BF%A4
 永恆幻夢 -> http://zh.tos.wikia.com/wiki/%E6%B0%B8%E6%81%86%E5%B9%BB%E5%A4%A2
+永生之護 -> http://zh.tos.wikia.com/wiki/%E6%B0%B8%E7%94%9F%E4%B9%8B%E8%AD%B7
 汪洋大號令 -> http://zh.tos.wikia.com/wiki/%E6%B1%AA%E6%B4%8B%E5%A4%A7%E8%99%9F%E4%BB%A4
 沒有技能 -> http://zh.tos.wikia.com/wiki/%E6%B2%92%E6%9C%89%E6%8A%80%E8%83%BD
 治療之心 -> http://zh.tos.wikia.com/wiki/%E6%B2%BB%E7%99%82%E4%B9%8B%E5%BF%83
@@ -1197,6 +1201,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 獄炎境界 -> http://zh.tos.wikia.com/wiki/%E7%8D%84%E7%82%8E%E5%A2%83%E7%95%8C
 獨一 -> http://zh.tos.wikia.com/wiki/%E7%8D%A8%E4%B8%80
 獵人激濤 -> http://zh.tos.wikia.com/wiki/%E7%8D%B5%E4%BA%BA%E6%BF%80%E6%BF%A4
+獸力召喚 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8A%9B%E5%8F%AC%E5%96%9A
 獸化加冕_‧_追擊 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E5%8A%A0%E5%86%95_%E2%80%A7_%E8%BF%BD%E6%93%8A
 獸化支援 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E6%94%AF%E6%8F%B4
 獸化支援_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E6%94%AF%E6%8F%B4_%E2%80%A7_%E5%BC%B7
@@ -2102,4 +2107,4 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2125 skills
+2130 skills

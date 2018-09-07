@@ -10830,6 +10830,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1817"
   },
   {
+    "title": "No. 1818 煌耀女帝 ‧ 美索不達米亞",
+    "id": "1818",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%8C%E8%80%80%E5%A5%B3%E5%B8%9D_%E2%80%A7_%E7%BE%8E%E7%B4%A2%E4%B8%8D%E9%81%94%E7%B1%B3%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/1818"
+  },
+  {
     "title": "No. 1821 睿哲始祖 ‧ 阿特拉哈西斯",
     "id": "1821",
     "link": "http://zh.tos.wikia.com/wiki/%E7%9D%BF%E5%93%B2%E5%A7%8B%E7%A5%96_%E2%80%A7_%E9%98%BF%E7%89%B9%E6%8B%89%E5%93%88%E8%A5%BF%E6%96%AF",
@@ -10998,6 +11004,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1853"
   },
   {
+    "title": "No. 1856 富悅財婪 ‧ 俱毗羅",
+    "id": "1856",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%AF%8C%E6%82%85%E8%B2%A1%E5%A9%AA_%E2%80%A7_%E4%BF%B1%E6%AF%97%E7%BE%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/1856"
+  },
+  {
     "title": "No. 1858 虔心象神 ‧ 葛內舍",
     "id": "1858",
     "link": "http://zh.tos.wikia.com/wiki/%E8%99%94%E5%BF%83%E8%B1%A1%E7%A5%9E_%E2%80%A7_%E8%91%9B%E5%85%A7%E8%88%8D",
@@ -11044,6 +11056,12 @@
     "id": "1865",
     "link": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E5%B7%A7%E6%B2%BB%E7%99%92_%E2%80%A7_%E8%98%AD%E5%B8%83%E9%81%94",
     "linkId": "http://zh.tos.wikia.com/wiki/1865"
+  },
+  {
+    "title": "No. 1866 孤伶之獸 ‧ 席茲",
+    "id": "1866",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%AD%A4%E4%BC%B6%E4%B9%8B%E7%8D%B8_%E2%80%A7_%E5%B8%AD%E8%8C%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/1866"
   },
   {
     "title": "No. 1867 命途引領者 ‧ 華倫西亞",
@@ -12240,6 +12258,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6206"
   },
   {
+    "title": "S207 持戒苦行 ‧ 毗濕奴(動態造型)",
+    "id": "6207",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%8C%81%E6%88%92%E8%8B%A6%E8%A1%8C_%E2%80%A7_%E6%AF%97%E6%BF%95%E5%A5%B4(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6207"
+  },
+  {
     "title": "S208 畸孿共生 ‧ 派拉瓦與南迪(動態造型)",
     "id": "6208",
     "link": "http://zh.tos.wikia.com/wiki/%E7%95%B8%E5%AD%BF%E5%85%B1%E7%94%9F_%E2%80%A7_%E6%B4%BE%E6%8B%89%E7%93%A6%E8%88%87%E5%8D%97%E8%BF%AA(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
@@ -12250,6 +12274,12 @@
     "id": "6209",
     "link": "http://zh.tos.wikia.com/wiki/%E7%87%83%E7%86%A0%E6%AF%94%E7%BF%BC_%E2%80%A7_%E8%BF%A6%E6%A8%93%E7%BE%85(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6209"
+  },
+  {
+    "title": "S211 煌耀女帝 ‧ 美索不達米亞(動態造型)",
+    "id": "6211",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%85%8C%E8%80%80%E5%A5%B3%E5%B8%9D_%E2%80%A7_%E7%BE%8E%E7%B4%A2%E4%B8%8D%E9%81%94%E7%B1%B3%E4%BA%9E(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6211"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

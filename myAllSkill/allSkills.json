@@ -3688,6 +3688,26 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "千秋的傳承",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%8D%83%E7%A7%8B%E7%9A%84%E5%82%B3%E6%89%BF",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "木屬性攻擊力 4 倍，木屬性人類攻擊力則 5 倍；必然延長移動符石時間 2.5 秒；每消除 1 組光或暗符石，於該回合結束時，將 1 粒符石 (木及心符石優先轉換) 轉化為人族強化符石，最多 30 粒",
+    "skillMonsters": [
+      "1818"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "千秋的傳承 ‧ 日夜交迭",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%8D%83%E7%A7%8B%E7%9A%84%E5%82%B3%E6%89%BF_%E2%80%A7_%E6%97%A5%E5%A4%9C%E4%BA%A4%E8%BF%AD",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "木屬性攻擊力 4 倍，木屬性人類攻擊力則 5 倍；必然延長移動符石時間 2.5 秒；每消除 1 組光或暗符石，於回合結束時，將 1 粒符石 (木及心符石優先轉換) 轉化為人族強化符石，最多 30 粒。2 粒光或暗符石相連，即可發動消除，所有符石掉落機率不受其他技能影響 (包括改變掉落符石屬性的技能)",
+    "skillMonsters": []
+  },
+  {
     "type": "主動技",
     "skillName": "印記之念 ‧ 光",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89",
@@ -6524,6 +6544,17 @@
     "skillDesc": "隊伍中只有妖精類及魔族成員時，每累計消除 1 粒符石，全隊攻擊力持續提升，最多可提升至 7 倍",
     "skillMonsters": [
       "1771"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "強悍之志",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%BC%B7%E6%82%8D%E4%B9%8B%E5%BF%97",
+    "skillCDMin": 14,
+    "skillCDMax": 5,
+    "skillDesc": "達成 4 連擊 (Combo) 或以上時，個人追打光及暗屬性攻擊 1 次；達成 6 連擊 (Combo) 或以上時，自身攻擊力 3 倍；達成 8 連擊 (Combo) 或以上時，自身攻擊無視「固定連擊盾」。效果持續至沒有達成 4 連擊 (Combo) 或以上",
+    "skillMonsters": [
+      "1818"
     ]
   },
   {
@@ -11329,6 +11360,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "永生之護",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B0%B8%E7%94%9F%E4%B9%8B%E8%AD%B7",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "若全隊均為神族成員：2 回合內，減少 80% 所受傷害，隊長及戰友攻擊力提升 3.5 倍；反之，2 回合內，減少 50% 所受傷害，隊長及戰友攻擊力提升 2 倍",
+    "skillMonsters": [
+      "1856"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "汪洋大號令",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B1%AA%E6%B4%8B%E5%A4%A7%E8%99%9F%E4%BB%A4",
     "skillCDMin": 18,
@@ -14534,6 +14576,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "獸力召喚",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8A%9B%E5%8F%AC%E5%96%9A",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "獸類成員所在直行的符石轉化為獸族符石；1 回合內，獸類成員追打自身攻擊力 2.5 倍的光屬性攻擊 1 次",
+    "skillMonsters": [
+      "1866"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "獸化加冕 ‧ 追擊",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%8D%B8%E5%8C%96%E5%8A%A0%E5%86%95_%E2%80%A7_%E8%BF%BD%E6%93%8A",
     "skillCDMin": 19,
@@ -16088,7 +16141,8 @@
       "1844",
       "1846",
       "1848",
-      "1850"
+      "1850",
+      "1856"
     ]
   },
   {
@@ -18763,6 +18817,7 @@
       "1444",
       "1504",
       "1751",
+      "1866",
       "8019"
     ]
   },
