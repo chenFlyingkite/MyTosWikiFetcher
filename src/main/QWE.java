@@ -16,17 +16,28 @@ public class QWE {
     public static void run() {
         clk.tic();
         genTosEvent();
+        genStageMemo();
         clk.tac("genTosEvent OK");
     }
 
     private static void genTosEvent() {
-        // For the src file text,
-        // Output the dst file as each line + "\n"
-        String folder = "D:\\GitHub\\MyTosWiki\\playstore\\tos";
-        String name = "tosEvent.txt";
+        genLines("D:\\GitHub\\MyTosWiki\\playstore\\tos", "tosEvent.txt");
+    }
+
+    private static void genStageMemo() {
+        genLines("D:\\GitHub\\MyTosWiki\\playstore\\stage memo", "memo.txt");
+    }
+
+    private static void genLines(String folder, String name) {
         File src = new File(folder, name);
         File dst = new File(folder, "z" + name);
+        printNewLines(src, dst);
+    }
 
+    /** For the src file text,
+     * Output the dst file as each line + "\n"
+     */
+    private static void printNewLines(File src, File dst) {
         Scanner fis = null;
         PrintWriter fos = null;
         try {
