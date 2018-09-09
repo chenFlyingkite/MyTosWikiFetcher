@@ -6386,7 +6386,7 @@
   {
     "id": "485",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/485",
-    "name": "屬性剋制 ‧ 弱",
+    "name": "多屬剋制",
     "detail": "召喚師隊伍中成員屬性愈多，全隊攻擊力愈低",
     "esCode": "{{ES485}}",
     "icons": [
@@ -17837,10 +17837,14 @@
   {
     "id": "1264",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1264",
-    "name": "首消10+Combo盾 ‧ 越戰越強 ‧ 銀",
+    "name": "首消10+Combo盾 ‧ 越戰越強-銀",
     "detail": "10 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。(只計算首批消除的符石)\u003cbr\u003e敵人生命力愈低時，攻擊力會大幅提升。",
     "esCode": "{{ES1264}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI108.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI108.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
         "iconKey": "SI188.png"
@@ -17850,10 +17854,14 @@
   {
     "id": "1265",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1265",
-    "name": "首消8+Combo盾 ‧ 越戰越強 ‧ 銅",
+    "name": "首消8+Combo盾 ‧ 越戰越強-銅",
     "detail": "8 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。(只計算首批消除的符石)\u003cbr\u003e敵人生命力愈低時，攻擊力會提升。",
     "esCode": "{{ES1265}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/36/SI106.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
+        "iconKey": "SI106.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
         "iconKey": "SI188.png"
@@ -28988,7 +28996,7 @@
   {
     "id": "1949",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1949",
-    "name": "木暗幻變 ‧ 15+木暗符石盾",
+    "name": "1515+木暗幻變盾",
     "detail": "敵人會分別將 2 個位置轉化為木及暗屬幻變空間，經過幻變空間的符石 (不包括轉珠期間被移動的符石) 會轉化為該幻變空間的屬性符石。\u003cbr\u003e消除 15 粒或以上的木符石及 15 粒或以上的暗符石，才會對敵人造成攻擊傷害",
     "esCode": "{{ES1949}}",
     "icons": [
@@ -37669,7 +37677,7 @@
   {
     "id": "2408",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2408",
-    "name": "[3回減攻70%] ‧ 7+Combo追擊盾",
+    "name": "[5回減攻70%] ‧ 7+Combo追擊盾",
     "detail": "5 回合內，全隊攻擊力減至 30%。\u003cbr\u003e 7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊",
     "esCode": "{{ES2408}}",
     "icons": [
@@ -46283,7 +46291,7 @@
   {
     "id": "2905",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2905",
-    "name": "技能封鎖 ‧ 心化血符石 ‧ 無視減傷",
+    "name": "技能封鎖 ‧ 化血圍城-心化血符石 ‧ 無視減傷",
     "detail": "首回合敵人會永久封鎖所有成員的主動技能。\u003cbr\u003e首回合鎖定場上所有符石，其後每回合鎖定場上的心符石；如有鎖定的符石未被消除時，敵人回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e敵人無視所有減傷效果和意志技能",
     "esCode": "{{ES2905}}",
     "icons": [
@@ -46292,8 +46300,8 @@
         "iconKey": "SI122.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4c/SI218.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102908\u0026path-prefix\u003dzh",
-        "iconKey": "SI218.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI232.png/revision/latest/scale-to-width-down/22?cb\u003d20150223133550\u0026path-prefix\u003dzh",
+        "iconKey": "SI232.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
