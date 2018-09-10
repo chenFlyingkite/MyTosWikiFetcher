@@ -32,7 +32,7 @@ public class Main {
         long tic = System.currentTimeMillis();
         TicTac.tic();
         //-- Regular
-        boolean regl = true; // Regular
+        boolean regl = 1 > 0; // Regular
         boolean parl = true; // Parallel
         // 維基動態
         if (regl) {
