@@ -822,6 +822,7 @@ class TosGet {
             val coms = result.Combine
             val virs = result.Rebirth
             val arms = result.ArmCraft
+            val swch = result.Switching
             var x = 0
             val td2n = td2?.size ?: 0
             for (i in 0 until td2n) {
@@ -867,10 +868,14 @@ class TosGet {
                 // Takes the images of evolution
                 val noscript = e.getElementsByTag("noscript")
 
+                // Check if switch 變身
+                val isSwt = hasKeyInText("EvoArrow", noscript)
+
                 if (!noNeed) {
                     rawTds.add(e)
                     td.add(e.text())
-                } else if (noscript.size > 0) {
+                }
+                if (noscript.size > 0) {
                     x++
 
                     // We want the evolution's icons
@@ -889,6 +894,11 @@ class TosGet {
                                 virs.add(alt)
                             } else if (isArm) {
                                 arms.add(alt)
+                            } else if (isSwt) {
+                                val endI = alt.matches(Regex("\\d+i")) //  1167i
+                                if (endI) {
+                                    swch.add(alt)
+                                }
                             } else {
                                 alt
                             }
@@ -915,6 +925,16 @@ class TosGet {
                 return result
             }
             return null
+        }
+
+        fun hasKeyInText(key: String, es: Elements) : Boolean {
+            for (e in es) {
+                val alt = getImgAlt(e)
+                if (alt != null && alt.contains(key)) {
+                    return true
+                }
+            }
+            return false
         }
 
         fun getCardImagedLink(doc: Document) : List<IconInfo> {
@@ -1059,6 +1079,7 @@ class CardTds {
     val Combine: MutableList<String> = ArrayList()
     val Rebirth: MutableList<String> = ArrayList()
     val ArmCraft: MutableList<String> = ArrayList()
+    val Switching: MutableList<String> = ArrayList()
 }
 
 open class TableInfo {

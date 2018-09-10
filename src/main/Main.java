@@ -64,7 +64,7 @@ public class Main {
             TaskMonitorUtil.join(beforeCard, endCard);
         }
 
-        if (false) {
+        if (0 > 0) {
             TicTac2 c = new TicTac2();
             c.tic();
             //TosCraftFetcher.me.run();

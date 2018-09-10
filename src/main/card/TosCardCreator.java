@@ -238,6 +238,7 @@ public class TosCardCreator {
         fillEvolution(c, info);
         fillVirRebirth(c, info);
         fillArmCraft(c, info);
+        fillSwitch(c, info);
         c.cardDetails = info.details;
         c.sameSkills = info.sameSkills;
         fillStageLinks(c, info);
@@ -427,6 +428,12 @@ public class TosCardCreator {
         List<String> list = info.cardTds.getRebirth();
         if (list.size() == 0) return;
         c.rebirthChange = normId_nnnni(list.get(0));
+    }
+
+    private void fillSwitch(TosCard c, CardInfo info) {
+        List<String> list = info.cardTds.getSwitching();
+        if (list.size() == 0) return;
+        c.switchChange = normId_nnnni(list.get(0));
     }
 
     private void fillArmCraft(TosCard c, CardInfo info) {

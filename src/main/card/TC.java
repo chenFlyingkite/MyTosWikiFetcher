@@ -68,6 +68,7 @@ public final class TC {
     public static final String rebirthFrom = "rebirthFrom";
     public static final String rebirthChange = "rebirthChange";
     public static final String armCrafts = "armCrafts";
+    public static final String switchChange = "switchChange";
 
     // Automation
     public static void g() {
@@ -79,6 +80,7 @@ public final class TC {
                 maxMUPerLevel, maxTUAllLevel, cardDetails,
                 skillName1, skillDesc1, skillCDMin1, skillCDMax1,
                 skillName2, skillDesc2, skillCDMin2, skillCDMax2,
+                switchChange,
                 skillLeaderName, skillLeaderDesc,
                 skillAmeBattleName, skillAmeBattleLink,
                 skillAmeName1, skillAmeCost1,
