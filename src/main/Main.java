@@ -14,6 +14,7 @@ import flyingkite.tool.TicTac2;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
+import main.fetcher.TosMainStageFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
@@ -82,12 +83,13 @@ public class Main {
             TosWikiFilePeeker.me.run();
             TosWikiImageFileFetcher.me.run();
             TosWikiStageFetcher.me.run();
+            TosMainStageFetcher.me.run();
         }
         //MobileComm.run();
         // Others misc
         if (0 > 0) { // left value 1 = yes, 0 = no
-            //ASD.run();
-            QWE.run();
+            ASD.run();
+            //QWE.run();
         }
         //ClusterMain.INSTANCE.main(args);
         //Statistics.run();

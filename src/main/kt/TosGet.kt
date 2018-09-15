@@ -140,7 +140,6 @@ class TosGet {
         }
 
         fun getTosPageEntryContent(doc: Document) : String {
-            val info = ImageInfo2()
             val conts = doc.getElementsByClass("entry-content")
             val n = conts?.size ?: 0
             if (n > 0) {
@@ -452,6 +451,115 @@ class TosGet {
                 }
             }
             return ans
+        }
+
+        fun getMainStages(e: Element?, baseWiki: String) : List<MainStage> {
+            val ans = ArrayList<MainStage>()
+            if (e == null) return ans
+
+            val items = e.getElementsByClass("tabbertab")
+
+            for (i in 0 until items.size) {
+                val item = items[i]
+                val tit = item.attr("title")
+                val eas = item.getElementsByClass(imageClass)
+                val bs = item.getElementsByTag("b")
+                val bs2 = item.getElementsByTag("b") // use for looping pack
+                var k = 0 // The index of eas
+
+                val main = MainStage()
+                main.title = bs[0].text()
+                if (eas != null) {
+                    var pack = intArrayOf(0)
+                    var nine = false
+                    var six = false
+
+                    when (tit) {
+                        "第10封印" -> {
+                            pack = intArrayOf(5)
+                            bs2.removeAt(0)
+                        }
+                        "第7-9封印" -> {
+                            nine = true
+                            pack = intArrayOf(1, 2, 2, // 9
+                                    1, 3, 3, 3, 3, 3, // 8
+                                    6) // 7
+                            bs2.removeAt(11) // <b>第七封印</b>
+                            bs2.removeAt(4) // <b>第八封印</b>
+                            bs2.removeAt(0) // <b>第九封印</b>
+                        }
+                        "第1-6封印" -> {
+                            six = true
+                            pack = intArrayOf(6, 6, 6, 6, 6, 7)
+                        }
+                    }
+                    var main2 = MainStage()
+                    pack.forEachIndexed { pk, pv ->
+                        if (nine) {
+                            // Split info
+                            when (pk) {
+                                0 -> {
+                                    main2 = MainStage()
+                                    main2.title = bs[0].text()
+                                }
+                                3 -> { // <b>第八封印</b>
+                                    main2 = MainStage()
+                                    main2.title = bs[4].text()
+                                }
+                                9 -> { // <b>第七封印</b>
+                                    main2 = MainStage()
+                                    main2.title = bs[11].text()
+                                }
+                            }
+                        } else if (six) {
+                            // Create new stage info
+                            main2 = MainStage()
+                            main2.title = bs[pk].text()
+                        }
+
+                        val subs = StageGroup()
+                        if (nine && pk < bs2.size) {
+                            subs.group = bs2[pk].text()
+                        }
+                        for (zi in 0 until pv) {
+                            val ea = eas[k]
+                            val ms = getStageInfo(ea, baseWiki)
+                            subs.stages.add(ms)
+                            k++
+                        }
+
+                        if (nine || six) {
+                            main2.substages.add(subs)
+                            if (nine) {
+                                if (pk in intArrayOf(2, 8, 9)) {
+                                    // add for 第7-9封印
+                                    ans.add(main2)
+                                }
+                            } else if (six) {
+                                // add for 第1-6封印
+                                ans.add(main2)
+                            }
+                        } else {
+                            main.substages.add(subs)
+                        }
+                    }
+
+                    // add only when 第十封印
+                    if (nine || six) {
+                    } else {
+                        ans.add(main)
+                    }
+                }
+            }
+            return ans
+        }
+
+        private fun getStageInfo(e: Element, baseWiki: String) : Stage {
+            val m = Stage()
+            m.icon = getAltId(e)
+            m.link = baseWiki + e.attr("href")
+            m.name = e.attr("title")
+            return m
         }
 
         /**
@@ -1062,6 +1170,50 @@ class TosGet {
     }
 }
 
+class MainStage {
+    @SerializedName("title")
+    var title = "" // 第十封印
+
+    @SerializedName("substages")
+    val substages = ArrayList<StageGroup>()
+
+    override fun toString(): String {
+        return "$title : \n  $substages"
+    }
+}
+
+class StageGroup {
+    @SerializedName("group")
+    var group = "" // 殺戮戰窟 in 10
+
+    @SerializedName("stages")
+    val stages = ArrayList<Stage>()
+
+    override fun toString(): String {
+        var s = group + " > \n"
+        for (i in 0 until stages.size) {
+            val si = stages[i]
+            s += "  #$i = $si\n"
+        }
+        return s
+    }
+}
+
+class Stage {
+    @SerializedName("link")
+    var link = ""
+
+    @SerializedName("name")
+    var name = ""
+
+    @SerializedName("icon")
+    var icon = ""
+
+    override fun toString(): String {
+        return "$icon, $name -> $link"
+    }
+}
+
 class IconInfo {
     var link: String = ""
     var name: String = ""
@@ -1107,10 +1259,10 @@ open class SkillInfo {
 
     fun lite(): SkillLite {
         val s = SkillLite()
-        s.name = skillName;
-        s.cdMin = skillCDMin;
-        s.cdMax = skillCDMax;
-        s.effect = skillDesc;
+        s.name = skillName
+        s.cdMin = skillCDMin
+        s.cdMax = skillCDMax
+        s.effect = skillDesc
         return s
     }
 }
