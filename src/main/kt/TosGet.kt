@@ -1154,10 +1154,6 @@ class TosGet {
                 , "素材用途", "指定系列包括", "此素材出處", "此潛解素材出處", "此進化素材出處", "此強化素材出處")
 
 
-//            newLn.forEachIndexed { i, li: String -> run {
-//                s = s.replace(li, "\n" + li)
-//            }}
-
             return s
         }
 

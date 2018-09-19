@@ -27,7 +27,7 @@ class StageGroup {
     val stages = ArrayList<Stage>()
 
     override fun toString(): String {
-        var s = group + " > \n"
+        var s = "$group > \n"
         for (i in 0 until stages.size) {
             val si = stages[i]
             s += "  #$i = $si\n"
