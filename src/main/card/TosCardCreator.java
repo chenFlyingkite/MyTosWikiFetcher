@@ -14,6 +14,7 @@ import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosSkillFetcher.AllSkill;
 import main.kt.CardTds;
 import main.kt.Craft;
+import main.kt.NameLink;
 import main.kt.SkillInfo;
 import main.kt.SkillInfo2;
 
@@ -35,7 +36,7 @@ public class TosCardCreator {
         public String details = "";
         public List<String> ameStages = new ArrayList<>();
         public List<String> awkStages = new ArrayList<>();
-        public List<String> powStages = new ArrayList<>();
+        public List<NameLink> powStages = new ArrayList<>();
         public List<String> virStages = new ArrayList<>();
         public List<SkillInfo> skillChange = new ArrayList<>();
         public List<String> sameSkills = new ArrayList<>();
@@ -329,11 +330,6 @@ public class TosCardCreator {
                         ? new ArrayList<>()
                         : new ArrayList<>(list.subList(fmIndex, end + 1));
             }
-        } else if (plus < 0 && 0 <= end && end < list.size() - 1) { // Only have arrow
-            if (info.virStages.size() > 0) { // Has Virtual rebirth
-                c.rebirthFrom = normId_nnnni(list.get(end - 1)); // list[0]
-                return;
-            }
         }
 
         // Normalize
@@ -426,8 +422,11 @@ public class TosCardCreator {
 
     private void fillVirRebirth(TosCard c, CardInfo info) {
         List<String> list = info.cardTds.getRebirth();
-        if (list.size() == 0) return;
-        c.rebirthChange = normId_nnnni(list.get(0));
+        int n = list.size();
+        if (n < 1) return;
+        c.rebirthFrom = normId_nnnni(list.get(0));
+        if (n < 4) return;
+        c.rebirthChange = normId_nnnni(list.get(3));
     }
 
     private void fillSwitch(TosCard c, CardInfo info) {
@@ -471,11 +470,7 @@ public class TosCardCreator {
             c.skillAwkBattleLink = list.get(2);
         }
 
-        list = info.powStages;
-        if (list.size() > 0) {
-            c.skillPowBattleName = list.get(0);
-            c.skillPowBattleLink = list.get(1);
-        }
+        c.skillPowBattle.addAll(info.powStages);
 
         list = info.virStages;
         if (list.size() > 0) {

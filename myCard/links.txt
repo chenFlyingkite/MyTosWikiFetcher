@@ -10650,6 +10650,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1779"
   },
   {
+    "title": "No. 1781 顛世的魔音 ‧ 朗杰",
+    "id": "1781",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%A1%9B%E4%B8%96%E7%9A%84%E9%AD%94%E9%9F%B3_%E2%80%A7_%E6%9C%97%E6%9D%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/1781"
+  },
+  {
     "title": "No. 1785 阿路加",
     "id": "1785",
     "link": "http://zh.tos.wikia.com/wiki/%E9%98%BF%E8%B7%AF%E5%8A%A0",
@@ -11044,6 +11050,12 @@
     "id": "1856",
     "link": "http://zh.tos.wikia.com/wiki/%E5%AF%8C%E6%82%85%E8%B2%A1%E5%A9%AA_%E2%80%A7_%E4%BF%B1%E6%AF%97%E7%BE%85",
     "linkId": "http://zh.tos.wikia.com/wiki/1856"
+  },
+  {
+    "title": "No. 1857 背城之旅龍 ‧ 藍托",
+    "id": "1857",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%83%8C%E5%9F%8E%E4%B9%8B%E6%97%85%E9%BE%8D_%E2%80%A7_%E8%97%8D%E6%89%98",
+    "linkId": "http://zh.tos.wikia.com/wiki/1857"
   },
   {
     "title": "No. 1858 虔心象神 ‧ 葛內舍",
@@ -12258,6 +12270,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6197"
   },
   {
+    "title": "S198 熱潮浪漫 ‧ 美狄亞",
+    "id": "6198",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%86%B1%E6%BD%AE%E6%B5%AA%E6%BC%AB_%E2%80%A7_%E7%BE%8E%E7%8B%84%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/6198"
+  },
+  {
     "title": "S199 夢覺涼夏 ‧ 喀耳刻",
     "id": "6199",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A2%E8%A6%BA%E6%B6%BC%E5%A4%8F_%E2%80%A7_%E5%96%80%E8%80%B3%E5%88%BB",
@@ -12294,6 +12312,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6204"
   },
   {
+    "title": "S205 大自在天 ‧ 濕婆(動態造型)",
+    "id": "6205",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A7%E8%87%AA%E5%9C%A8%E5%A4%A9_%E2%80%A7_%E6%BF%95%E5%A9%86(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6205"
+  },
+  {
     "title": "S206 唯識無境 ‧ 梵天(動態造型)",
     "id": "6206",
     "link": "http://zh.tos.wikia.com/wiki/%E5%94%AF%E8%AD%98%E7%84%A1%E5%A2%83_%E2%80%A7_%E6%A2%B5%E5%A4%A9(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
@@ -12316,6 +12340,12 @@
     "id": "6209",
     "link": "http://zh.tos.wikia.com/wiki/%E7%87%83%E7%86%A0%E6%AF%94%E7%BF%BC_%E2%80%A7_%E8%BF%A6%E6%A8%93%E7%BE%85(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6209"
+  },
+  {
+    "title": "S210 脈輪師尊 ‧ 因陀羅(動態造型)",
+    "id": "6210",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%84%88%E8%BC%AA%E5%B8%AB%E5%B0%8A_%E2%80%A7_%E5%9B%A0%E9%99%80%E7%BE%85(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6210"
   },
   {
     "title": "S211 煌耀女帝 ‧ 美索不達米亞(動態造型)",
@@ -12684,121 +12714,121 @@
     "linkId": "http://zh.tos.wikia.com/wiki/8045"
   },
   {
-    "title": "No. 8046 A 調存音石",
+    "title": "N1 A 調存音石",
     "id": "8046",
     "link": "http://zh.tos.wikia.com/wiki/A_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8046"
   },
   {
-    "title": "No. 8047 B 調存音石",
+    "title": "N2 B 調存音石",
     "id": "8047",
     "link": "http://zh.tos.wikia.com/wiki/B_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8047"
   },
   {
-    "title": "No. 8048 C 調存音石",
+    "title": "N3 C 調存音石",
     "id": "8048",
     "link": "http://zh.tos.wikia.com/wiki/C_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8048"
   },
   {
-    "title": "No. 8049 D 調存音石",
+    "title": "N4 D 調存音石",
     "id": "8049",
     "link": "http://zh.tos.wikia.com/wiki/D_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8049"
   },
   {
-    "title": "No. 8050 E 調存音石",
+    "title": "N5 E 調存音石",
     "id": "8050",
     "link": "http://zh.tos.wikia.com/wiki/E_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8050"
   },
   {
-    "title": "No. 8051 ａ 調存音石",
+    "title": "N6 ａ 調存音石",
     "id": "8051",
     "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A1_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8051"
   },
   {
-    "title": "No. 8052 ｂ 調存音石",
+    "title": "N7 ｂ 調存音石",
     "id": "8052",
     "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A2_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8052"
   },
   {
-    "title": "No. 8053 ｃ 調存音石",
+    "title": "N8 ｃ 調存音石",
     "id": "8053",
     "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A3_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8053"
   },
   {
-    "title": "No. 8054 ｄ 調存音石",
+    "title": "N9 ｄ 調存音石",
     "id": "8054",
     "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A4_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8054"
   },
   {
-    "title": "No. 8055 ｅ 調存音石",
+    "title": "N10 ｅ 調存音石",
     "id": "8055",
     "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A5_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8055"
   },
   {
-    "title": "No. 8056 F 調存音石",
+    "title": "N11 F 調存音石",
     "id": "8056",
     "link": "http://zh.tos.wikia.com/wiki/F_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8056"
   },
   {
-    "title": "No. 8057 G 調存音石",
+    "title": "N12 G 調存音石",
     "id": "8057",
     "link": "http://zh.tos.wikia.com/wiki/G_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8057"
   },
   {
-    "title": "No. 8058 1 度存音石",
+    "title": "N13 1 度存音石",
     "id": "8058",
     "link": "http://zh.tos.wikia.com/wiki/1_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8058"
   },
   {
-    "title": "No. 8059 2 度存音石",
+    "title": "N14 2 度存音石",
     "id": "8059",
     "link": "http://zh.tos.wikia.com/wiki/2_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8059"
   },
   {
-    "title": "No. 8060 3 度存音石",
+    "title": "N15 3 度存音石",
     "id": "8060",
     "link": "http://zh.tos.wikia.com/wiki/3_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8060"
   },
   {
-    "title": "No. 8061 ｆ 調存音石",
+    "title": "N16 ｆ 調存音石",
     "id": "8061",
     "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A6_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8061"
   },
   {
-    "title": "No. 8062 ｇ 調存音石",
+    "title": "N17 ｇ 調存音石",
     "id": "8062",
     "link": "http://zh.tos.wikia.com/wiki/%EF%BC%A7_%E8%AA%BF%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8062"
   },
   {
-    "title": "No. 8063 4 度存音石",
+    "title": "N18 4 度存音石",
     "id": "8063",
     "link": "http://zh.tos.wikia.com/wiki/4_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8063"
   },
   {
-    "title": "No. 8064 5 度存音石",
+    "title": "N19 5 度存音石",
     "id": "8064",
     "link": "http://zh.tos.wikia.com/wiki/5_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8064"
   },
   {
-    "title": "No. 8065 6 度存音石",
+    "title": "N20 6 度存音石",
     "id": "8065",
     "link": "http://zh.tos.wikia.com/wiki/6_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8065"

@@ -62,8 +62,8 @@ public class ASD {
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
         //loadCardsCSV();
-        //getEnochianTower();
-        scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\enochian", 400);
+        getEnochianTower();
+        //scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\enochian", 400);
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
         tt.tac("Done");
     }
@@ -252,8 +252,13 @@ public class ASD {
     }
 
     private static void getEnochianTower() {
-        Rect2 r = Rect2.atLTWH(680, 1480, 800, 800);
+        Rect2 r;
+        r = Rect2.atLTWH(680, 1480, 800, 800);
         getImageR("enochian", "Screenshot_20180915-225351.png", r, "0");
+        r = Rect2.atLTWH(0, 700, 600, 600);
+        getImageR("enochian", "Screenshot_20180915-225351.png", r, "1");
+
+        scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\enochian", 400);
     }
 
     private static void scaleImage(String folder, int wide) {

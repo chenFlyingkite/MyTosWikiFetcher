@@ -1,6 +1,6 @@
 package main.fetcher;
 
-import main.kt.IconInfo;
+import main.kt.NameLink;
 import flyingkite.data.Range;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
@@ -46,7 +46,7 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
 
             if (a.getNameSpace() == 6) {
                 tt.tic();
-                IconInfo info = getIconInfo(link);
+                NameLink info = getIconInfo(link);
                 downloadImage(info.getLink(), "myIcons", info.getName());
                 tt.tac("OK, %s", info.getName());
             } else {

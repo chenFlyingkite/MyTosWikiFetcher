@@ -19,7 +19,7 @@ import main.card.TosCardCreator;
 import main.card.TosCardCreator.CardInfo;
 import main.fetcher.data.Anchors;
 import main.kt.CardTds;
-import main.kt.IconInfo;
+import main.kt.NameLink;
 import main.kt.SkillInfo;
 import main.kt.TosGet;
 import okhttp3.OkHttpClient;
@@ -344,7 +344,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
                 addHpInfo(info, anchors, tds);
                 addExpInfo(info, anchors, tds);
                 // Adding amelioration/awaken info for card
-                List<IconInfo> ameInfo = TosGet.me.getCardImagedLink(doc);
+                List<NameLink> ameInfo = TosGet.me.getCardImagedLink(doc);
                 addAmeAwkInfo(info, ameInfo, anchors, tds, cardTds);
 
                 // Find the end of card
@@ -410,8 +410,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         info.expInfos.add(tds.get(sacrifyExpStart + 6)); // Sacrifice Exp per Lv
     }
 
-    private void addAmeAwkInfo(CardInfo info, List<IconInfo> iconInfo, int[] anchors, List<String> tds, CardTds rawCard) {
-        boolean empty = iconInfo == null || iconInfo.size() == 0;
+    private void addAmeAwkInfo(CardInfo info, List<NameLink> nameLink, int[] anchors, List<String> tds, CardTds rawCard) {
+        boolean empty = nameLink == null || nameLink.size() == 0;
 
         if (empty) return;
         int ax;
@@ -421,7 +421,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
             String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
+            NameLink icf = getIconInfoByName(name, nameLink);
             if (icf != null) {
                 info.ameStages.add(name);
                 info.ameStages.add(wikiBaseZh + icf.getLink());
@@ -435,7 +435,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
             String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
+            NameLink icf = getIconInfoByName(name, nameLink);
             if (icf != null) {
                 info.awkStages.add(tds.get(anchors[ax] + 1)); // Skill name
                 info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
@@ -446,17 +446,18 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         // Fetch if has 潛能解放
         ax = Anchors.PowerRelease.id();
         if (anchors[ax] >= 0) {
-            int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
-            if (icf != null) {
-                //info.powStages.add(tds.get(anchors[ax] + 1)); // Skill name
-                info.powStages.add(name); // = icf.getName(), stage name
-                info.powStages.add(wikiBaseZh + icf.getLink()); // battle link
-            } else {
-                // Missing the 潛能解放關卡, it is added in previous monster
-                //L.log("ERROR!!!!! Missing 潛能解放關卡 : %s -> %s ", tds.get(0), info.wikiLink);
-            }
+//            int at = getPositiveMin(anchors, ax + 1, anchors.length);
+//            String name = tds.get(at - 1);
+//            NameLink icf = getIconInfoByName(name, nameLink);
+//            if (icf != null) {
+//                //info.powStages.add(tds.get(anchors[ax] + 1)); // Skill name
+//                info.powStages.add(name); // = icf.getName(), stage name
+//                info.powStages.add(wikiBaseZh + icf.getLink()); // battle link
+//            } else {
+//                // Missing the 潛能解放關卡, it is added in previous monster
+//                //L.log("ERROR!!!!! Missing 潛能解放關卡 : %s -> %s ", tds.get(0), info.wikiLink);
+//            }
+            info.powStages.addAll(rawCard.getPowRel());
         }
 
         // Fetch if has 異空轉生
@@ -464,7 +465,7 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
             String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
+            NameLink icf = getIconInfoByName(name, nameLink);
             if (icf != null) {
                 info.virStages.add(name); // Stage name
                 info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
@@ -486,8 +487,8 @@ public class TosWikiCardFetcher extends TosWikiBaseFetcher {
         }
     }
 
-    private IconInfo getIconInfoByName(String name, List<IconInfo> iconInfo) {
-        for (IconInfo i : iconInfo) {
+    private NameLink getIconInfoByName(String name, List<NameLink> nameLink) {
+        for (NameLink i : nameLink) {
             if (i.getName().equals(name)) {
                 return i;
             }

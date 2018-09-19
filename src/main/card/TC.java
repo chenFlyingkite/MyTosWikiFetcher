@@ -53,8 +53,7 @@ public final class TC {
     public static final String skillAwkName = "skillAwkName";
     public static final String skillAwkBattleName = "skillAwkBattleName";
     public static final String skillAwkBattleLink = "skillAwkBattleLink";
-    public static final String skillPowBattleName = "skillPowBattleName";
-    public static final String skillPowBattleLink = "skillPowBattleLink";
+    public static final String skillPowBattle = "skillPowBattle";
     public static final String skillVirBattleName = "skillVirBattleName";
     public static final String skillVirBattleLink = "skillVirBattleLink";
     public static final String evolveInfo = "evolveInfo";
@@ -89,7 +88,7 @@ public final class TC {
                 skillAmeName4, skillAmeCost4,
                 skillAwkName,
                 skillAwkBattleName, skillAwkBattleLink,
-                skillPowBattleName, skillPowBattleLink,
+                skillPowBattle,
                 skillVirBattleName, skillVirBattleLink,
                 evolveFrom, evolveNeed, evolveTo,
                 combineFrom, combineTo,

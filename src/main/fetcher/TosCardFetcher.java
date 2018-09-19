@@ -19,10 +19,11 @@ import main.card.TosCard;
 import main.card.TosCardCreator;
 import main.card.TosCardCreator.CardInfo;
 import main.fetcher.data.Anchors;
+import main.kt.Awaken;
 import main.kt.CardDetail;
 import main.kt.CardItem;
 import main.kt.CardTds;
-import main.kt.IconInfo;
+import main.kt.NameLink;
 import main.kt.SkillInfo;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
@@ -36,6 +37,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     private LF mLf = new LF(folder);
     private LF mCardJson = new LF(folder, "cardList.json");
     private String source = TosWikiCardsLister.me.VALAID_LINKS;
+
+    // Raise up if fixing card content
+    private final boolean fixing = 0 > 0;
 
     private List<String> getTests() {
         List<String> link = new ArrayList<>();
@@ -69,13 +73,18 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         );
 
         link.clear(); // uncomment this if use test links
-        //link.add("http://zh.tos.wikia.com/wiki/1166");
-        //link.add("http://zh.tos.wikia.com/wiki/1790");
+        //link.add("http://zh.tos.wikia.com/wiki/711"); // 伊莉莎白
+        //link.add("http://zh.tos.wikia.com/wiki/1327"); // 伊莉莎白
+        //link.add("http://zh.tos.wikia.com/wiki/6200");
+
         //link.add("http://zh.tos.wikia.com/wiki/1436");
-//        link.add("http://zh.tos.wikia.com/wiki/6070"); // 妲己
-//        link.add("http://zh.tos.wikia.com/wiki/6174");
+        //link.add("http://zh.tos.wikia.com/wiki/6070"); // 妲己
+        //link.add("http://zh.tos.wikia.com/wiki/6174");
         //link.add("http://zh.tos.wikia.com/wiki/595");
         //link.add("http://zh.tos.wikia.com/wiki/230");
+        if (!fixing) {
+            link.clear();
+        }
         return link;
     }
 
@@ -98,7 +107,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             clock.tac("%s cards in %s", all.length, source);
             for (CardItem c : all) {
                 pages.add(c.getLink());
-                //pages.add(c.getLinkId());
             }
         }
         mLf.log("%s cards in %s", pages.size(), source);
@@ -121,6 +129,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             } else {
                 allCards.add(card);
                 cardSeries.add(card.series);
+                if (fixing) {
+                    L.log("#%s -> \n%s\n", i, mGson.toJson(card));
+                }
             }
         }
         clock.tac("Card parsed");
@@ -128,7 +139,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         mLf.log("%s metadata = %s", cardDataN.size(), cardDataN);
         mLf.log("%s series = %s", cardSeries.size(), cardSeries);
         mLf.getFile().close();
-        saveCardsToGson(mCardJson, allCards);
+        if (!fixing) {
+            saveCardsToGson(mCardJson, allCards);
+        }
 
         long dur;
         dur = clock.tac("%s Done", tag());
@@ -174,7 +187,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         addHpInfo(info, anchors, tds);
         addExpInfo(info, anchors, tds);
         // Adding amelioration/awaken info for card
-        List<IconInfo> ameInfo = TosGet.me.getCardImagedLink(doc);
+        List<NameLink> ameInfo = TosGet.me.getCardImagedLink(doc);
         addAmeAwkInfo(info, ameInfo, anchors, tds, cardTds);
 
         // Find the end of card
@@ -223,19 +236,17 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         c.expInfos.add(tds.get(sacExp + 6)); // Sacrifice Exp per Lv
     }
 
-    private void addAmeAwkInfo(CardInfo info, List<IconInfo> iconInfo, int[] anchors, List<String> tds, CardTds rawCard) {
-        if (ListUtil.isEmpty(iconInfo)) return;
+    private void addAmeAwkInfo(CardInfo info, List<NameLink> nameLink, int[] anchors, List<String> tds, CardTds rawCard) {
+        if (ListUtil.isEmpty(nameLink)) return;
         int ax;
 
         // Fetch if has 昇華關卡
         ax = Anchors.Amelioration.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
-            if (icf != null) {
-                info.ameStages.add(name);
-                info.ameStages.add(wikiBaseZh + icf.getLink());
+            for (NameLink nk : rawCard.getAmelio()) {
+                info.ameStages.add(nk.getName());
+                info.ameStages.add(nk.getLink());
             }
 
             getSkillChange(info, rawCard.getRawTds(), anchors[ax] + 1, at - 1);
@@ -245,12 +256,19 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         ax = Anchors.AwakenRecall.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
-            if (icf != null) {
-                info.awkStages.add(tds.get(anchors[ax] + 1)); // Skill name
-                info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
-                info.awkStages.add(wikiBaseZh + icf.getLink()); // battle link
+            // Old way, Deprecated
+//            String name = tds.get(at - 1);
+//            NameLink icf = getIconInfoByName(name, nameLink);
+//            if (icf != null) {
+//                info.awkStages.add(tds.get(anchors[ax] + 1)); // Skill name
+//                info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
+//                info.awkStages.add(wikiBaseZh + icf.getLink()); // battle link
+//            }
+
+            for (Awaken a : rawCard.getAwaken()) {
+                info.awkStages.add(a.getSkill());
+                info.awkStages.add(a.getName());
+                info.awkStages.add(a.getLink());
             }
 
             getSkillChange(info, rawCard.getRawTds(), anchors[ax] + 1, at - 1);
@@ -259,25 +277,15 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // Fetch if has 潛能解放
         ax = Anchors.PowerRelease.id();
         if (anchors[ax] >= 0) {
-            int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
-            if (icf != null) {
-                //info.powStages.add(tds.get(anchors[ax] + 1)); // Skill name
-                info.powStages.add(name); // = icf.getName(), stage name
-                info.powStages.add(wikiBaseZh + icf.getLink()); // battle link
-            }
+            info.powStages.addAll(rawCard.getPowRel());
         }
 
         // Fetch if has 異空轉生
         ax = Anchors.VirtualRebirth.id();
         if (anchors[ax] >= 0) {
-            int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            String name = tds.get(at - 1);
-            IconInfo icf = getIconInfoByName(name, iconInfo);
-            if (icf != null) {
-                info.virStages.add(name); // Stage name
-                info.virStages.add(wikiBaseZh + icf.getLink()); // Battle link
+            for (NameLink nk : rawCard.getVirReb()) {
+                info.virStages.add(nk.getName());
+                info.virStages.add(nk.getLink());
             }
         }
     }
@@ -333,8 +341,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         return min;
     }
 
-    private IconInfo getIconInfoByName(String name, List<IconInfo> iconInfo) {
-        for (IconInfo i : iconInfo) {
+    private NameLink getIconInfoByName(String name, List<NameLink> nameLink) {
+        for (NameLink i : nameLink) {
             if (i.getName().equals(name)) {
                 return i;
             }

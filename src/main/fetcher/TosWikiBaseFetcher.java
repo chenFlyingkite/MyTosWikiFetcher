@@ -29,7 +29,7 @@ import javafx.event.EventHandler;
 import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebEvent;
 import javafx.scene.web.WebView;
-import main.kt.IconInfo;
+import main.kt.NameLink;
 import main.kt.TosGet;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -174,10 +174,10 @@ public class TosWikiBaseFetcher implements Runnable {
         return new Range(min, max);
     }
 
-    protected IconInfo getIconInfo(String link) {
+    protected NameLink getIconInfo(String link) {
         Document doc = getDocument(link);
         if (doc == null) {
-            return new IconInfo();
+            return new NameLink();
         } else {
             return TosGet.me.getIcon(doc);
         }

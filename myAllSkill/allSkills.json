@@ -2655,6 +2655,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "冥靈 ‧ 呑噬",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%86%A5%E9%9D%88_%E2%80%A7_%E5%91%91%E5%99%AC",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "光及心符石轉化為心強化符石，水及暗符石轉化為暗強化符石。發動技能時，若我方生命力為 1，1 回合內，自身攻擊力基值提升 2000 點 (不能疊加)",
+    "skillMonsters": [
+      "1835"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "冰之淚",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%86%B0%E4%B9%8B%E6%B7%9A",
     "skillCDMin": 17,
@@ -9908,6 +9919,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "森野 ‧ 靈念",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E9%87%8E_%E2%80%A7_%E9%9D%88%E5%BF%B5",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "將 5 粒符石轉化為心強化符石 (光及暗符石優先轉換)。1 回合內，心符石兼具 50% 木符石效果；隊伍中每多 1 個木屬性機械族成員，兼具效果額外提升 50%，最多可提升至 300%",
+    "skillMonsters": [
+      "1833"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "森野之力",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E9%87%8E%E4%B9%8B%E5%8A%9B",
     "skillCDMin": 17,
@@ -10097,6 +10119,39 @@
   },
   {
     "type": "隊長技",
+    "skillName": "機械之暴虐",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E4%B9%8B%E6%9A%B4%E8%99%90",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有機械族及龍類成員時，全隊攻擊力 4.5 倍及增加 300 點攻擊力；機械族成員所在直行消除 1 組 3 粒或以上符石時，該成員攻擊力提升 1.5 倍",
+    "skillMonsters": [
+      "1831"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機械之甦醒",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E4%B9%8B%E7%94%A6%E9%86%92",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "機械族及獸類回復力 3 倍；消除心符石時，回復「機械族及獸類成員生命力等值」5% 的生命力",
+    "skillMonsters": [
+      "1832"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機械之靈核",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E4%B9%8B%E9%9D%88%E6%A0%B8",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "機械族及獸類生命力 3 倍；當受到攻擊後，於下回合發動攻擊前對全體敵人造成「機械族及獸類成員生命力等值」5 倍的無屬性傷害 (需消除符石)",
+    "skillMonsters": [
+      "1833"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "機械始動",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E5%A7%8B%E5%8B%95",
     "skillCDMin": -1,
@@ -10170,6 +10225,28 @@
     "skillDesc": "火符石轉化為機械族符石",
     "skillMonsters": [
       "1860"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機獸之暴 ‧ 光",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E7%8D%B8%E4%B9%8B%E6%9A%B4_%E2%80%A7_%E5%85%89",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有機械族及獸類成員時，全隊攻擊力 5 倍；光屬性兼具 50% 其他屬性符石效果 (可疊加)；消除 5 連擊 (Combo) 或以上時，機械族成員的行動值提升 5%；當所有機械族成員的行動值達至 100% 時，自身攻擊力 2 倍",
+    "skillMonsters": [
+      "1834"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機獸之暴 ‧ 暗",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E7%8D%B8%E4%B9%8B%E6%9A%B4_%E2%80%A7_%E6%9A%97",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有機械族及獸類成員時，全隊攻擊力 5 倍；暗屬性兼具 50% 其他屬性符石效果 (可疊加)；消除 5 連擊 (Combo) 或以上時，機械族成員的行動值提升 5%；當所有機械族成員的行動值達至 100% 時，自身攻擊力 2 倍",
+    "skillMonsters": [
+      "1835"
     ]
   },
   {
@@ -11349,6 +11426,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "水龍捲",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B0%B4%E9%BE%8D%E6%8D%B2",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "隨機將 2 個機械族成員直行的符石轉化為水強化符石。若隊長及戰友均為機械族成員，1 回合內，隊長及戰友的攻擊力 2.5 倍",
+    "skillMonsters": [
+      "1831"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "永恆幻夢",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B0%B8%E6%81%86%E5%B9%BB%E5%A4%A2",
     "skillCDMin": 21,
@@ -11979,6 +12067,17 @@
     "skillDesc": "每首批消除 1 組符石，將產生 1 粒水符石；每累計消除 3 粒水符石，將產生 1 粒水強化符石",
     "skillMonsters": [
       "1356"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "浴火鳳凰",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B5%B4%E7%81%AB%E9%B3%B3%E5%87%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "自身生命力扣至 1 (生命力為 1 時無法發動技能)。1 回合內，每直行首批消除 1 組 5 粒或以上符石時，必定產生 4 粒火強化符石；2 或以上直行首批消除 1 組 5 粒或以上符石時，完全回復生命力",
+    "skillMonsters": [
+      "1832"
     ]
   },
   {
@@ -16142,6 +16241,7 @@
       "1846",
       "1848",
       "1850",
+      "1854",
       "1856"
     ]
   },
@@ -16188,6 +16288,17 @@
     "skillDesc": "1 回合內，暗屬性及獸類攻擊力 2.5 倍；而且所有成員無視屬性相剋",
     "skillMonsters": [
       "1255"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神界之宰",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E7%95%8C%E4%B9%8B%E5%AE%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "將 7 個固定位置的符石轉化為光神族符石；1 回合內，以神族及魔族其中造成的最大傷害轉換為全隊神族及魔族的傷害",
+    "skillMonsters": [
+      "1854"
     ]
   },
   {
@@ -22973,6 +23084,17 @@
     "skillDesc": "對全體敵人造成 15,000 點光屬性傷害，此傷害無視防禦力",
     "skillMonsters": [
       "0574"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雷電 ‧ 怒哮",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%9B%B7%E9%9B%BB_%E2%80%A7_%E6%80%92%E5%93%AE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，獸類及機械族攻擊力 1.5 倍，無視全體敵人 80% 的防禦力；若發動技能時自身行動值達至 100%，攻擊力提升至 2 倍，並無視全體敵人的防禦力",
+    "skillMonsters": [
+      "1834"
     ]
   },
   {

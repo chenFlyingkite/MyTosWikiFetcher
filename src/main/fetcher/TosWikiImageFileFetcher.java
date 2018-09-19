@@ -8,7 +8,7 @@ import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TextUtil;
-import main.kt.IconInfo;
+import main.kt.NameLink;
 import main.kt.ImageFileInfo;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
@@ -89,7 +89,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
                     L.log("HiError s = %s", link);
                 }
 
-                IconInfo icf = getIconInfo(link);
+                NameLink icf = getIconInfo(link);
                 icf = retry(10, icf, link);
 
                 String s = downloadImage(icf.getLink(), folder, icf.getName());
@@ -100,7 +100,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
                 }
             }
 
-            private IconInfo retry(int times, IconInfo icf, String link) {
+            private NameLink retry(int times, NameLink icf, String link) {
                 int n = 0;
                 while (icf.isEmpty() && n < times) {
                     try {
@@ -115,7 +115,7 @@ public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
                 return icf;
             }
 
-            private String retryDL(int times, String fos, IconInfo icf, String link) {
+            private String retryDL(int times, String fos, NameLink icf, String link) {
                 int n = 0;
                 while (TextUtil.isEmpty(fos) && n < times) {
                     try {

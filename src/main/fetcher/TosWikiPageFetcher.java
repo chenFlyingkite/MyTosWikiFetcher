@@ -1,6 +1,6 @@
 package main.fetcher;
 
-import main.kt.IconInfo;
+import main.kt.NameLink;
 import main.kt.ImageInfo2;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
@@ -41,7 +41,7 @@ public class TosWikiPageFetcher extends TosWikiBaseFetcher {
             ImageInfo2 info = TosGet.me.getImgInfo2(e1);
 
             String link = wikiFileZh + "" + info.getImageName();
-            IconInfo icf = getIconInfo(link);
+            NameLink icf = getIconInfo(link);
             downloadImage(icf.getLink(), folder, icf.getName());
         }
     }

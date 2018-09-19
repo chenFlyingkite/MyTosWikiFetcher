@@ -65,6 +65,7 @@ public class Main {
             TaskMonitorUtil.join(beforeCard, endCard);
         }
 
+        // Fetch cards only
         if (0 > 0) {
             TicTac2 c = new TicTac2();
             c.tic();

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.google.gson.annotations.SerializedName;
+import main.kt.NameLink;
 
 public class TosCard {
     //------------
@@ -244,13 +245,9 @@ public class TosCard {
     //---- Power Release stage, 潛能解放關卡
     //------------
 
-    /** Power Release stage, like "記憶的水鏡" */
-    @SerializedName(TC.skillPowBattleName)
-    public String skillPowBattleName = "";
-
-    /** Power Release stage, like "http://zh.tos.wikia.com/wiki/%E8%A8%98%E6%86%B6%E7%9A%84%E6%B0%B4%E9%8F%A1" */
-    @SerializedName(TC.skillPowBattleLink)
-    public String skillPowBattleLink = "";
+    /** Power Release stages */
+    @SerializedName(TC.skillPowBattle)
+    public List<NameLink> skillPowBattle = new ArrayList<>();
 
     //------------
     //---- Virtual Rebirth stage, 異空轉生關卡
