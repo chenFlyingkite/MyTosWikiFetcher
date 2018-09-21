@@ -12890,6 +12890,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "火影魔法",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%81%AB%E5%BD%B1%E9%AD%94%E6%B3%95",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類攻擊力 3.5 倍；合計消除 6 粒或以上的水或火符石時，人類攻擊力額外提升 1.5 倍；水及火屬性傷害減少 30%",
+    "skillMonsters": [
+      "1781"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "火暗移魂",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%81%AB%E6%9A%97%E7%A7%BB%E9%AD%82",
@@ -13328,6 +13339,17 @@
     "skillDesc": "將 10 個固定位置的符石轉化為火強化符石。1 回合內，火屬性攻擊力 2 倍，火屬性獸類及獸類攻擊力 3 倍",
     "skillMonsters": [
       "1391"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "烈火凶勢",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%83%88%E7%81%AB%E5%87%B6%E5%8B%A2",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，自身不能對敵方造成傷害，減少 60% 所受傷害；下回合火屬性及人類成員攻擊力提升 2 倍，火屬性傷害可克制水屬性目標",
+    "skillMonsters": [
+      "1781"
     ]
   },
   {
@@ -25609,6 +25631,28 @@
     "skillDesc": "1 回合內，隊伍的龍類成員愈多，水屬性及龍類攻擊力愈高，4 個龍類成員即可達至最大 2 倍",
     "skillMonsters": [
       "1121"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "龍量之約",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%87%8F%E4%B9%8B%E7%B4%84",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "隊伍中有人類、神族或魔族成員時，隨機將 15 粒符石轉化為強化符石，隊伍中齊集上述 3 個種族的成員時，則將所有符石轉化為強化符石；隊伍中有龍類、獸類或妖精類成員時，1 回合內，全隊攻擊力 2 倍，隊伍中齊集上述 3 個種族的成員時，則全隊攻擊力 2.5 倍；若隊伍中有機械族成員時，1 回合內，完全回復生命力及無視全體敵人的防禦力",
+    "skillMonsters": [
+      "1857"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "龍類萬鈞之怒",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "龍類攻擊力 4 倍",
+    "skillMonsters": [
+      "1857"
     ]
   },
   {

@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2117 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (2121 items, basePath = http://zh.tos.wikia.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -1066,6 +1066,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 火影約章 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E5%BD%B1%E7%B4%84%E7%AB%A0
 火影約章_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E5%BD%B1%E7%B4%84%E7%AB%A0_%E2%80%A7_%E5%BC%B7
 火影連擊 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E5%BD%B1%E9%80%A3%E6%93%8A
+火影魔法 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E5%BD%B1%E9%AD%94%E6%B3%95
 火暗移魂 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E6%9A%97%E7%A7%BB%E9%AD%82
 火木堅甲之賦 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E6%9C%A8%E5%A0%85%E7%94%B2%E4%B9%8B%E8%B3%A6
 火木堅甲之賦_‧_突破 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E6%9C%A8%E5%A0%85%E7%94%B2%E4%B9%8B%E8%B3%A6_%E2%80%A7_%E7%AA%81%E7%A0%B4
@@ -1097,6 +1098,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 炎海護牆 -> http://zh.tos.wikia.com/wiki/%E7%82%8E%E6%B5%B7%E8%AD%B7%E7%89%86
 炙熱爪擊 -> http://zh.tos.wikia.com/wiki/%E7%82%99%E7%86%B1%E7%88%AA%E6%93%8A
 炙熱爪擊_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%82%99%E7%86%B1%E7%88%AA%E6%93%8A_%E2%80%A7_%E5%BC%B7
+烈火凶勢 -> http://zh.tos.wikia.com/wiki/%E7%83%88%E7%81%AB%E5%87%B6%E5%8B%A2
 烈火鬥心 -> http://zh.tos.wikia.com/wiki/%E7%83%88%E7%81%AB%E9%AC%A5%E5%BF%83
 烈炎一擊 -> http://zh.tos.wikia.com/wiki/%E7%83%88%E7%82%8E%E4%B8%80%E6%93%8A
 烈炎崩擊 -> http://zh.tos.wikia.com/wiki/%E7%83%88%E7%82%8E%E5%B4%A9%E6%93%8A
@@ -2113,9 +2115,11 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍捲風擊 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E6%8D%B2%E9%A2%A8%E6%93%8A
 龍攻代守 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E6%94%BB%E4%BB%A3%E5%AE%88
 龍淵之力 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E6%B7%B5%E4%B9%8B%E5%8A%9B
+龍量之約 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%87%8F%E4%B9%8B%E7%B4%84
+龍類萬鈞之怒 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92
 龍魂伴主 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E4%BC%B4%E4%B8%BB
 龍魂佐主 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E4%BD%90%E4%B8%BB
 龍魂共鳴 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2141 skills
+2145 skills

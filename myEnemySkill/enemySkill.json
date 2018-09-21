@@ -385,7 +385,7 @@
   {
     "id": "32",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/32",
-    "name": "神族剋制 ‧ 攻",
+    "name": "3倍獵神",
     "detail": "召喚師隊伍中有神族成員時，敵人攻擊力提升",
     "esCode": "{{ES32}}",
     "icons": [
@@ -15098,7 +15098,7 @@
   {
     "id": "1067",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1067",
-    "name": "攻後轉光4",
+    "name": "攻後轉光4顆",
     "detail": "當受到敵人攻擊時，敵人會隨機將 4 粒符石轉化為光符石",
     "esCode": "{{ES1067}}",
     "icons": [
@@ -25216,7 +25216,7 @@
   {
     "id": "1749",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1749",
-    "name": "(98回心禁消) ‧ 強化盾 ‧ 神族-技能重置-攻擊提升",
+    "name": "(98回心禁消) ‧ 強化盾 ‧ 3倍獵神-技能重置",
     "detail": "98 回合內，心符石無法被消除。\u003cbr\u003e敵人只會受到強化符石的攻擊傷害。\u003cbr\u003e首回合敵人會將神類成員的主動技能 CD 重置，召喚師隊伍中有神族成員時，敵人攻擊力提升",
     "esCode": "{{ES1749}}",
     "icons": [
@@ -25229,12 +25229,12 @@
         "iconKey": "SI254.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
-      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI067.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102109\u0026path-prefix\u003dzh",
         "iconKey": "SI067.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
       }
     ]
   },
@@ -27643,7 +27643,7 @@
   {
     "id": "1868",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1868",
-    "name": "暗攻盾 ‧ 技能封鎖 ‧ 人魔剋制-攻",
+    "name": "暗攻盾 ‧ 技能封鎖 ‧ 獵人魔",
     "detail": "只有暗屬性的攻擊才會對敵人造成攻擊傷害。\u003cbr\u003e首回合敵人會永久封鎖所有成員的主動技能。\u003cbr\u003e若召喚師隊伍中有魔族或人類成員時，敵人攻擊力提升",
     "esCode": "{{ES1868}}",
     "icons": [
@@ -27664,21 +27664,25 @@
   {
     "id": "1869",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1869",
-    "name": "暗攻無效 ‧ 單直行轉暗-雙直行暗轉光 ‧ 首消暗追擊零化",
+    "name": "暗屬防禦盾 ‧ 單直行轉暗-雙直行暗轉光 ‧ 首消暗追擊零化",
     "detail": "暗屬性的攻擊無法對敵人造成攻擊傷害。\u003cbr\u003e首回合敵人會將單數直行的符石轉化為暗符石，並將雙數直行的暗符石轉化為光符石。\u003cbr\u003e消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。連擊 (Combo) 只計算首批消除的符石",
     "esCode": "{{ES1869}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
-        "iconKey": "SI257.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI005.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101207\u0026path-prefix\u003dzh",
+        "iconKey": "SI005.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/25/SI056.png/revision/latest/scale-to-width-down/22?cb\u003d20150622155913\u0026path-prefix\u003dzh",
+        "iconKey": "SI056.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
         "iconKey": "SI047.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9a/SI110.png/revision/latest/scale-to-width-down/22?cb\u003d20180224153045\u0026path-prefix\u003dzh",
-        "iconKey": "SI110.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/SI117.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142347\u0026path-prefix\u003dzh",
+        "iconKey": "SI117.png"
       }
     ]
   },
