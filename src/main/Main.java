@@ -90,7 +90,7 @@ public class Main {
         // Others misc
         if (0 > 0) { // left value 1 = yes, 0 = no
             ASD.run();
-            //QWE.run();
+            //QWE.run(); // Firebase comments
         }
         //ClusterMain.INSTANCE.main(args);
         //Statistics.run();

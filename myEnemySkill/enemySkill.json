@@ -359,7 +359,7 @@
   {
     "id": "30",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/30",
-    "name": "人類剋制 ‧ 攻",
+    "name": "3倍獵人",
     "detail": "召喚師隊伍中有人類成員時，敵人攻擊力提升",
     "esCode": "{{ES30}}",
     "icons": [
@@ -372,7 +372,7 @@
   {
     "id": "31",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/31",
-    "name": "龍類剋制 ‧ 攻",
+    "name": "3倍獵龍",
     "detail": "召喚師隊伍中有龍類成員時，敵人攻擊力提升",
     "esCode": "{{ES31}}",
     "icons": [
@@ -398,7 +398,7 @@
   {
     "id": "33",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/33",
-    "name": "妖精剋制 ‧ 攻",
+    "name": "3倍獵妖",
     "detail": "召喚師隊伍中有妖精類成員時，敵人攻擊力提升",
     "esCode": "{{ES33}}",
     "icons": [
@@ -411,7 +411,7 @@
   {
     "id": "34",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/34",
-    "name": "獸類剋制 ‧ 攻",
+    "name": "3倍獵獸",
     "detail": "召喚師隊伍有獸類成員時，敵人攻擊力提升",
     "esCode": "{{ES34}}",
     "icons": [
@@ -1572,7 +1572,7 @@
   {
     "id": "123",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/123",
-    "name": "問號符石5 ‧ 15%",
+    "name": "15%隱藏符石5顆",
     "detail": "大幅掉落隱藏符石",
     "esCode": "{{ES123}}",
     "icons": [
@@ -1715,7 +1715,7 @@
   {
     "id": "134",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/134",
-    "name": "魔族剋制 ‧ 攻",
+    "name": "3倍獵魔",
     "detail": "召喚師隊伍中有魔族成員時，敵人攻擊力提升",
     "esCode": "{{ES134}}",
     "icons": [
@@ -2404,7 +2404,7 @@
   {
     "id": "187",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/187",
-    "name": "風化3000 ‧ 轉",
+    "name": "風化3000-轉",
     "detail": "每回合移動符石時，隨機將 1 粒符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害",
     "esCode": "{{ES187}}",
     "icons": [
@@ -9019,21 +9019,29 @@
   {
     "id": "670",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/670",
-    "name": "附加消除 ‧ 木心輪轉 ‧ 消木吸血2%",
+    "name": "附加消除 ‧ 隨機木心輪轉 ‧ 消木吸血2%",
     "detail": "敵人會先制消除召喚師所有附加效果。首回合敵人會將隨機 1 種符石轉化為木符石，次回合將木符石轉化為心符石，以上攻擊循環周而復始。每消除 1 粒木符石，下回合將吸取召喚師 2 % 生命力，每回合累積直至敵人死亡為止",
     "esCode": "{{ES670}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI013.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI135.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102459\u0026path-prefix\u003dzh",
         "iconKey": "SI135.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI123.png"
       }
     ]
   },
@@ -12221,16 +12229,16 @@
     "esCode": "{{ES878}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ec/SI242.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103118\u0026path-prefix\u003dzh",
-        "iconKey": "SI242.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
         "iconKey": "SI227.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI160.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ec/SI242.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103118\u0026path-prefix\u003dzh",
+        "iconKey": "SI242.png"
       }
     ]
   },
@@ -14263,16 +14271,16 @@
     "esCode": "{{ES1010}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3d/SI216.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
-        "iconKey": "SI216.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
         "iconKey": "SI236.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI160.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3d/SI216.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI216.png"
       }
     ]
   },
@@ -14566,21 +14574,21 @@
   {
     "id": "1028",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1028",
-    "name": "隱身 ‧ 隱攻命懸一線 ‧ (98回中毒40%)",
+    "name": "隱身 ‧ 隱攻命懸一線-(98回中毒40%)",
     "detail": "敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，召喚師生命力剩 1 點，並於 98 回合內每回合被扣除 40% 生命力",
     "esCode": "{{ES1028}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI162.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
-        "iconKey": "SI162.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
         "iconKey": "SI161.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
-        "iconKey": "SI250.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI135.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102459\u0026path-prefix\u003dzh",
+        "iconKey": "SI135.png"
       }
     ]
   },
@@ -18167,7 +18175,7 @@
   {
     "id": "1282",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1282",
-    "name": "回復變0 ‧ 首回命懸一線-四重電擊",
+    "name": "回復力變0 ‧ 首回命懸一線-四角電擊",
     "detail": "敵人會令召喚師的回復力變 0。\u003cbr\u003e首回合敵人會讓召喚師生命力剩 1 點及隨機電擊 4 粒符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1282}}",
     "icons": [
@@ -18662,7 +18670,7 @@
   {
     "id": "1317",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1317",
-    "name": "六重風化 ‧ 先",
+    "name": "六重風化-先",
     "detail": "每回合移動符石前，隨機將 6 粒符石風化，風化符石一經觸碰，即時停止移動符石",
     "esCode": "{{ES1317}}",
     "icons": [
