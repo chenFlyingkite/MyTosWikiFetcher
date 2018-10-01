@@ -2,6 +2,7 @@ Linking http://zh.tos.wikia.com/api/v1/Articles/New?minArticleQuality=10&limit=2
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/New?minArticleQuality=10&limit=200}
 100 items in /api/v1/Articles/New
 id, creation_date, creator, title, url
+259685, 20180928133103, Hugochau, 為神魔的世界獻上祝福, http://zh.tos.wikia.com/wiki/%E7%82%BA%E7%A5%9E%E9%AD%94%E7%9A%84%E4%B8%96%E7%95%8C%E7%8D%BB%E4%B8%8A%E7%A5%9D%E7%A6%8F
 259644, 20180924173513, BrockF5, 競技場晉級試煉/第十次, http://zh.tos.wikia.com/wiki/%E7%AB%B6%E6%8A%80%E5%A0%B4%E6%99%89%E7%B4%9A%E8%A9%A6%E7%85%89/%E7%AC%AC%E5%8D%81%E6%AC%A1
 259643, 20180924163935, Hugochau, 神魔會專屬 ‧ 中秋節節慶, http://zh.tos.wikia.com/wiki/%E7%A5%9E%E9%AD%94%E6%9C%83%E5%B0%88%E5%B1%AC_%E2%80%A7_%E4%B8%AD%E7%A7%8B%E7%AF%80%E7%AF%80%E6%85%B6
 259636, 20180924062753, Wingwing007, 白鎧虎嘯, http://zh.tos.wikia.com/wiki/%E7%99%BD%E9%8E%A7%E8%99%8E%E5%98%AF
@@ -12,6 +13,7 @@ id, creation_date, creator, title, url
 259584, 20180921162213, Wingwing007, 俯瞰世界的巨龍, http://zh.tos.wikia.com/wiki/%E4%BF%AF%E7%9E%B0%E4%B8%96%E7%95%8C%E7%9A%84%E5%B7%A8%E9%BE%8D
 259552, 20180919110726, Hugochau, 戰鬥魔導士, http://zh.tos.wikia.com/wiki/%E6%88%B0%E9%AC%A5%E9%AD%94%E5%B0%8E%E5%A3%AB
 259551, 20180919105530, 風頭的家族, 懸浮蒼空的龐影, http://zh.tos.wikia.com/wiki/%E6%87%B8%E6%B5%AE%E8%92%BC%E7%A9%BA%E7%9A%84%E9%BE%90%E5%BD%B1
+259511, 20180918211900, Btoky, 青鋼龍吟, http://zh.tos.wikia.com/wiki/%E9%9D%92%E9%8B%BC%E9%BE%8D%E5%90%9F
 259441, 20180917161431, Sunny-Leu, 妖精頌唱靈魂的歌謠, http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%B2%BE%E9%A0%8C%E5%94%B1%E9%9D%88%E9%AD%82%E7%9A%84%E6%AD%8C%E8%AC%A0
 259440, 20180917161309, Sunny-Leu, 化成攻擊的戰歌, http://zh.tos.wikia.com/wiki/%E5%8C%96%E6%88%90%E6%94%BB%E6%93%8A%E7%9A%84%E6%88%B0%E6%AD%8C
 259439, 20180917160508, Sunny-Leu, 戛然而止的頌歌, http://zh.tos.wikia.com/wiki/%E6%88%9B%E7%84%B6%E8%80%8C%E6%AD%A2%E7%9A%84%E9%A0%8C%E6%AD%8C
@@ -100,5 +102,3 @@ id, creation_date, creator, title, url
 258191, 20180819121917, 施答答, 初轉脈輪, http://zh.tos.wikia.com/wiki/%E5%88%9D%E8%BD%89%E8%84%88%E8%BC%AA
 258175, 20180818135456, Hugochau, 朱翼降臨, http://zh.tos.wikia.com/wiki/%E6%9C%B1%E7%BF%BC%E9%99%8D%E8%87%A8
 258103, 20180814092752, Wingwing007, 機械城之傳 ‧ 機偶篇第四章, http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E5%9F%8E%E4%B9%8B%E5%82%B3_%E2%80%A7_%E6%A9%9F%E5%81%B6%E7%AF%87%E7%AC%AC%E5%9B%9B%E7%AB%A0
-258102, 20180814092750, Wingwing007, 機械城之傳 ‧ 機偶篇第三章, http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E5%9F%8E%E4%B9%8B%E5%82%B3_%E2%80%A7_%E6%A9%9F%E5%81%B6%E7%AF%87%E7%AC%AC%E4%B8%89%E7%AB%A0
-258101, 20180814085213, Wingwing007, 機械城之傳 ‧ 主線第十二章, http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E5%9F%8E%E4%B9%8B%E5%82%B3_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0
