@@ -61,8 +61,8 @@ public class ASD {
         //scale();
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
-        //loadCardsCSV();
-        getEnochianTower();
+        loadCardsCSV();
+        //getEnochianTower();
         //scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\enochian", 400);
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
         tt.tac("Done");
@@ -111,7 +111,8 @@ public class ASD {
         */
 
         // Find cards
-        findCards("將場上的符石變回原始模樣", allCards);
+        findCards("掉落率降至", allCards);
+        findCards("掉落機率降至", allCards);
         //findCards("傷害減少", allCards);
     }
 
