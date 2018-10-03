@@ -11166,6 +11166,132 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1877"
   },
   {
+    "title": "No. 1878 部件 ‧ 飛船",
+    "id": "1878",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%83%A8%E4%BB%B6_%E2%80%A7_%E9%A3%9B%E8%88%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/1878"
+  },
+  {
+    "title": "No. 1879 部件 ‧ 大炮",
+    "id": "1879",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%83%A8%E4%BB%B6_%E2%80%A7_%E5%A4%A7%E7%82%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/1879"
+  },
+  {
+    "title": "No. 1880 部件 ‧ 機翼",
+    "id": "1880",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%83%A8%E4%BB%B6_%E2%80%A7_%E6%A9%9F%E7%BF%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/1880"
+  },
+  {
+    "title": "No. 1881 斬毀屏障 ‧ 魔式幻兵",
+    "id": "1881",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%96%AC%E6%AF%80%E5%B1%8F%E9%9A%9C_%E2%80%A7_%E9%AD%94%E5%BC%8F%E5%B9%BB%E5%85%B5",
+    "linkId": "http://zh.tos.wikia.com/wiki/1881"
+  },
+  {
+    "title": "No. 1882 智障女神 ‧ 阿克婭",
+    "id": "1882",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%99%BA%E9%9A%9C%E5%A5%B3%E7%A5%9E_%E2%80%A7_%E9%98%BF%E5%85%8B%E5%A9%AD",
+    "linkId": "http://zh.tos.wikia.com/wiki/1882"
+  },
+  {
+    "title": "No. 1883 華麗爆裂 ‧ 惠惠",
+    "id": "1883",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%8F%AF%E9%BA%97%E7%88%86%E8%A3%82_%E2%80%A7_%E6%83%A0%E6%83%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/1883"
+  },
+  {
+    "title": "No. 1884 鬼畜小偷 ‧ 和真",
+    "id": "1884",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%AC%BC%E7%95%9C%E5%B0%8F%E5%81%B7_%E2%80%A7_%E5%92%8C%E7%9C%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/1884"
+  },
+  {
+    "title": "No. 1885 受辱狂歡 ‧ 達克妮絲",
+    "id": "1885",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%8F%97%E8%BE%B1%E7%8B%82%E6%AD%A1_%E2%80%A7_%E9%81%94%E5%85%8B%E5%A6%AE%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/1885"
+  },
+  {
+    "title": "No. 1886 不變美貌 ‧ 維茲",
+    "id": "1886",
+    "link": "http://zh.tos.wikia.com/wiki/%E4%B8%8D%E8%AE%8A%E7%BE%8E%E8%B2%8C_%E2%80%A7_%E7%B6%AD%E8%8C%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/1886"
+  },
+  {
+    "title": "No. 1887 魔劍的持有者 ‧ 御劍響夜",
+    "id": "1887",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%8A%8D%E7%9A%84%E6%8C%81%E6%9C%89%E8%80%85_%E2%80%A7_%E5%BE%A1%E5%8A%8D%E9%9F%BF%E5%A4%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/1887"
+  },
+  {
+    "title": "No. 1888 羞澀法師 ‧ 芸芸",
+    "id": "1888",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%BE%9E%E6%BE%80%E6%B3%95%E5%B8%AB_%E2%80%A7_%E8%8A%B8%E8%8A%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/1888"
+  },
+  {
+    "title": "No. 1889 神速盜竊 ‧ 克莉絲",
+    "id": "1889",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%A5%9E%E9%80%9F%E7%9B%9C%E7%AB%8A_%E2%80%A7_%E5%85%8B%E8%8E%89%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/1889"
+  },
+  {
+    "title": "No. 1890 地獄公爵 ‧ 巴尼爾",
+    "id": "1890",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%9C%B0%E7%8D%84%E5%85%AC%E7%88%B5_%E2%80%A7_%E5%B7%B4%E5%B0%BC%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/1890"
+  },
+  {
+    "title": "No. 1893 公會接待員 ‧ 露娜",
+    "id": "1893",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%85%AC%E6%9C%83%E6%8E%A5%E5%BE%85%E5%93%A1_%E2%80%A7_%E9%9C%B2%E5%A8%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/1893"
+  },
+  {
+    "title": "No. 1896 奔跑蜥蝪",
+    "id": "1896",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A5%94%E8%B7%91%E8%9C%A5%E8%9D%AA",
+    "linkId": "http://zh.tos.wikia.com/wiki/1896"
+  },
+  {
+    "title": "No. 1897 高麗菜",
+    "id": "1897",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%AB%98%E9%BA%97%E8%8F%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/1897"
+  },
+  {
+    "title": "No. 1899 青蛙 ‧ 水",
+    "id": "1899",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9D%92%E8%9B%99_%E2%80%A7_%E6%B0%B4",
+    "linkId": "http://zh.tos.wikia.com/wiki/1899"
+  },
+  {
+    "title": "No. 1900 青蛙 ‧ 火",
+    "id": "1900",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9D%92%E8%9B%99_%E2%80%A7_%E7%81%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/1900"
+  },
+  {
+    "title": "No. 1901 青蛙 ‧ 木",
+    "id": "1901",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9D%92%E8%9B%99_%E2%80%A7_%E6%9C%A8",
+    "linkId": "http://zh.tos.wikia.com/wiki/1901"
+  },
+  {
+    "title": "No. 1902 青蛙 ‧ 光",
+    "id": "1902",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9D%92%E8%9B%99_%E2%80%A7_%E5%85%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/1902"
+  },
+  {
+    "title": "No. 1903 青蛙 ‧ 暗",
+    "id": "1903",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9D%92%E8%9B%99_%E2%80%A7_%E6%9A%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/1903"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "http://zh.tos.wikia.com/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
