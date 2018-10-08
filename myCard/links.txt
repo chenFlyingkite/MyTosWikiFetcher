@@ -10812,10 +10812,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1810"
   },
   {
+    "title": "No. 1811 冰霜賢者",
+    "id": "1811",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%86%B0%E9%9C%9C%E8%B3%A2%E8%80%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/1811"
+  },
+  {
     "title": "No. 1812 天火賢者",
     "id": "1812",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%81%AB%E8%B3%A2%E8%80%85",
     "linkId": "http://zh.tos.wikia.com/wiki/1812"
+  },
+  {
+    "title": "No. 1813 枯木賢者",
+    "id": "1813",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%9E%AF%E6%9C%A8%E8%B3%A2%E8%80%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/1813"
   },
   {
     "title": "No. 1815 無夜賢者",
@@ -11250,6 +11262,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1893"
   },
   {
+    "title": "No. 1894 淘氣女神 ‧ 艾莉絲",
+    "id": "1894",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%B7%98%E6%B0%A3%E5%A5%B3%E7%A5%9E_%E2%80%A7_%E8%89%BE%E8%8E%89%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/1894"
+  },
+  {
+    "title": "No. 1895 冬將軍",
+    "id": "1895",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%86%AC%E5%B0%87%E8%BB%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/1895"
+  },
+  {
     "title": "No. 1896 奔跑蜥蝪",
     "id": "1896",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A5%94%E8%B7%91%E8%9C%A5%E8%9D%AA",
@@ -11260,6 +11284,12 @@
     "id": "1897",
     "link": "http://zh.tos.wikia.com/wiki/%E9%AB%98%E9%BA%97%E8%8F%9C",
     "linkId": "http://zh.tos.wikia.com/wiki/1897"
+  },
+  {
+    "title": "No. 1898 雪精靈",
+    "id": "1898",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9B%AA%E7%B2%BE%E9%9D%88",
+    "linkId": "http://zh.tos.wikia.com/wiki/1898"
   },
   {
     "title": "No. 1899 青蛙 ‧ 水",
