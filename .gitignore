@@ -31,3 +31,6 @@ hs_err_pid*
 
 #ignore my file
 */temp/*
+
+# Kotlin modules
+*.kotlin_module
