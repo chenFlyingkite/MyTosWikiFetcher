@@ -1,18 +1,18 @@
 package main.fetcher;
 
-import main.kt.CardItem;
-import main.card.TosCard;
-import main.kt.TosGet;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import flyingkite.log.LF;
-import flyingkite.tool.GsonUtil;
-import flyingkite.tool.IOUtil;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import flyingkite.log.LF;
+import flyingkite.tool.GsonUtil;
+import flyingkite.tool.IOUtil;
+import main.card.TosCard;
+import main.kt.CardItem;
+import main.kt.TosGet;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
 public class TosWikiCardsLister extends TosWikiBaseFetcher {
     private TosWikiCardsLister() {}
@@ -35,7 +35,7 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
         List<CardItem> allItems = new ArrayList<>();
         for (String s : groups) {
             mLf.log("%s", s);
-            List<CardItem> cards =  getCardsInLink(s);
+            List<CardItem> cards = getCardsInLink(s);
             allItems.addAll(cards);
             n += cards.size();
             // Print out all the cards

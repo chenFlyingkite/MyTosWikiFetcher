@@ -32,8 +32,9 @@ public class Main {
         L.log("" + new Date());
         long tic = System.currentTimeMillis();
         TicTac.tic();
+        boolean fixCard = 0 > 0;
         //-- Regular
-        boolean regl = 1 > 0; // Regular
+        boolean regl = 1 > 0 && !fixCard; // Regular
         boolean parl = true; // Parallel
         // 維基動態
         if (regl) {
@@ -66,7 +67,7 @@ public class Main {
         }
 
         // Fetch cards only
-        if (0 > 0) {
+        if (fixCard) {
             TicTac2 c = new TicTac2();
             c.tic();
             //TosCraftFetcher.me.run();

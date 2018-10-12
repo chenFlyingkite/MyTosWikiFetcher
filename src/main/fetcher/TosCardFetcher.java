@@ -73,7 +73,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         );
 
         link.clear(); // uncomment this if use test links
-        //link.add("http://zh.tos.wikia.com/wiki/711"); // 伊莉莎白
+        link.add("http://zh.tos.wikia.com/wiki/6218"); // 伊莉莎白
         //link.add("http://zh.tos.wikia.com/wiki/1327"); // 伊莉莎白
         //link.add("http://zh.tos.wikia.com/wiki/6200");
 
