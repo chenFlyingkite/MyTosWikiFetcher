@@ -10754,6 +10754,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "死亡宣告",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%AD%BB%E4%BA%A1%E5%AE%A3%E5%91%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "對 1 個人類敵人施以詛咒：每回合消耗敵人 15% 總生命力，效果持續至受到敵人攻擊",
+    "skillMonsters": [
+      "1891"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "死神的圓舞曲",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%AD%BB%E7%A5%9E%E7%9A%84%E5%9C%93%E8%88%9E%E6%9B%B2",
     "skillCDMin": 19,
@@ -11610,7 +11621,9 @@
       "1777",
       "1785",
       "1801",
+      "1811",
       "1812",
+      "1813",
       "1815",
       "1897",
       "1898",
@@ -25227,7 +25240,8 @@
     "skillMonsters": [
       "1623",
       "1773",
-      "1797"
+      "1797",
+      "1891"
     ]
   },
   {

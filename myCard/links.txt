@@ -11256,6 +11256,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1890"
   },
   {
+    "title": "No. 1891 無頭騎士 ‧ 貝爾迪亞",
+    "id": "1891",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E9%A0%AD%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E8%B2%9D%E7%88%BE%E8%BF%AA%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/1891"
+  },
+  {
     "title": "No. 1893 公會接待員 ‧ 露娜",
     "id": "1893",
     "link": "http://zh.tos.wikia.com/wiki/%E5%85%AC%E6%9C%83%E6%8E%A5%E5%BE%85%E5%93%A1_%E2%80%A7_%E9%9C%B2%E5%A8%9C",
@@ -12510,6 +12516,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6211"
   },
   {
+    "title": "S214 不羈韁繩 ‧ 銅丸",
+    "id": "6214",
+    "link": "http://zh.tos.wikia.com/wiki/%E4%B8%8D%E7%BE%88%E9%9F%81%E7%B9%A9_%E2%80%A7_%E9%8A%85%E4%B8%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/6214"
+  },
+  {
     "title": "S218 受辱狂歡 ‧ 達克妮絲(動態造型)",
     "id": "6218",
     "link": "http://zh.tos.wikia.com/wiki/%E5%8F%97%E8%BE%B1%E7%8B%82%E6%AD%A1_%E2%80%A7_%E9%81%94%E5%85%8B%E5%A6%AE%E7%B5%B2(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
@@ -12520,6 +12532,12 @@
     "id": "6219",
     "link": "http://zh.tos.wikia.com/wiki/%E5%9C%B0%E7%8D%84%E5%85%AC%E7%88%B5_%E2%80%A7_%E5%B7%B4%E5%B0%BC%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6219"
+  },
+  {
+    "title": "S220 無頭騎士 ‧ 貝爾迪亞(動態造型)",
+    "id": "6220",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E9%A0%AD%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E8%B2%9D%E7%88%BE%E8%BF%AA%E4%BA%9E(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6220"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

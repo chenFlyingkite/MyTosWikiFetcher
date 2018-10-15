@@ -31149,7 +31149,7 @@
   {
     "id": "1923",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1923",
-    "name": "溢補盾 ‧ 滅心狂擊",
+    "name": "溢補盾 ‧ 心引爆狂擊",
     "detail": "召喚師完全回復生命力後，剩餘的回復力會轉化為攻擊力。\u003cbr\u003e每回合結束前，敵人會引爆所有心符石，引爆的符石數量愈多，敵人下一次的攻擊力愈高",
     "esCode": "{{ES1923}}",
     "icons": [
@@ -39448,7 +39448,7 @@
   {
     "id": "2350",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2350",
-    "name": "隱身-隱攻(1回技能封鎖-98回扣血70%)",
+    "name": "隱身-隱攻(1回攻擊零化-98回扣血70%)",
     "detail": "敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，1 回合內全隊攻擊力減至 0，並於 98 回合內每回合被扣除 70% 生命力",
     "esCode": "{{ES2350}}",
     "icons": [
@@ -39457,8 +39457,8 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI122.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI158.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e4/SI129.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
@@ -39469,7 +39469,7 @@
   {
     "id": "2351",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2351",
-    "name": "隱身-隱攻(3回技能封鎖-98回扣血70%)",
+    "name": "隱身-隱攻(3回攻擊零化-98回扣血70%)",
     "detail": "敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊， 回合內全隊攻擊力減至 0，並於 98 回合內每回合被扣除 70% 生命力",
     "esCode": "{{ES2351}}",
     "icons": [
@@ -39478,8 +39478,8 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI122.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI158.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e4/SI129.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
@@ -39490,7 +39490,7 @@
   {
     "id": "2352",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2352",
-    "name": "隱身-隱攻(5回技能封鎖-98回扣血70%)",
+    "name": "隱身-隱攻(5回攻擊零化-98回扣血70%)",
     "detail": "敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，5 回合內全隊攻擊力減至 0，並於 98 回合內每回合被扣除 70% 生命力",
     "esCode": "{{ES2352}}",
     "icons": [
@@ -39499,8 +39499,8 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI122.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI158.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e4/SI129.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
