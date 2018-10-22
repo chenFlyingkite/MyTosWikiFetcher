@@ -12525,7 +12525,7 @@
   {
     "id": "874",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/874",
-    "name": "六重軌跡隱藏",
+    "name": "軌跡隱藏",
     "detail": "敵人會將移動符石時所觸碰的符石轉化為隱藏符石",
     "esCode": "{{ES874}}",
     "icons": [
@@ -19779,7 +19779,7 @@
   {
     "id": "1309",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1309",
-    "name": "突擊25% ‧ 25%盾 ‧ 三重燃燒10%",
+    "name": "突擊25% ‧ 25%盾 ‧ 攻後三重燃燒10%",
     "detail": "每回合攻擊最多只能造成敵人生命力 25% 的傷害 (主動技能除外)。\u003cbr\u003e首回合敵人會優先突擊 1 次。\u003cbr\u003e當受到敵人攻擊時，敵人會隨機燃燒 3 個位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES1309}}",
     "icons": [
@@ -49563,7 +49563,7 @@
   {
     "id": "2924",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2924",
-    "name": "CD1 ‧ 技能封鎖 ‧ 光引爆狂擊-龍脈吸收減傷 ‧ 無視減傷",
+    "name": "CD1 ‧ 技能封鎖1回 ‧ 光引爆狂擊-龍脈吸收減傷 ‧ 無視減傷",
     "detail": "攻擊頻率變為 CD 1。\u003cbr\u003e首回合封鎖所有成員的主動技能 1 回合。\u003cbr\u003e首回合引爆所有光符石，以永久提升攻擊力；並吸取龍脈儀的能量，以永久減少所受傷害。\u003cbr\u003e敵人無視所有減傷效果和意志技能",
     "esCode": "{{ES2924}}",
     "icons": [
@@ -50155,7 +50155,7 @@
   {
     "id": "2956",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2956",
-    "name": "[7回生命倒數] ‧ 自殺",
+    "name": "(7回生命倒數) ‧ 自殺",
     "detail": "首回合敵人會對召喚師施加永久的負面狀態：召喚師會於 7 回合後死亡。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2956}}",
     "icons": [
@@ -50286,8 +50286,12 @@
         "iconKey": "SI002.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI158.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/13/SI336.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI336.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6e/SI341.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153351\u0026path-prefix\u003dzh",
+        "iconKey": "SI341.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",
@@ -50307,8 +50311,8 @@
         "iconKey": "SI002.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI158.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/13/SI336.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI336.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",

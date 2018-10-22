@@ -92,7 +92,7 @@ class TosGet {
                             val taga = ch.getElementsByTag("a")
                             val an = taga?.size ?: 0
                             if (an > 0) {
-                                link = wikiBase + "" + taga[0].attr("href")
+                                link = getWikiLink(taga[0].attr("href"), wikiBase)
                             }
                         }
                     }
@@ -416,7 +416,7 @@ class TosGet {
                 if (valid) {
                     // Start parse here
                     val c = CardItem()
-                    c.link = baseWiki + item.attr("href")
+                    c.link = getWikiLink(item.attr("href"), baseWiki)
                     c.title = item.attr("title")
 
                     val n = item.children()?.size ?: 0
@@ -593,7 +593,7 @@ class TosGet {
                             c.name = axi.text()
                             val des = axi.child(0).attr("data-texttip")
                             c.detail = des.substringAfter("<br>")//.replace("<br>", "\n")
-                            c.link = baseWiki + axi.attr("href")
+                            c.link = getWikiLink(axi.attr("href"), baseWiki)
                         }
                     }
                 }
@@ -636,7 +636,7 @@ class TosGet {
                     if(gx.size == 0) continue
                     val g = gx[0]
                     c.name = a.attr("title")
-                    c.link = baseWiki + a.attr("href")
+                    c.link = getWikiLink(a.attr("href"), baseWiki)
                     //c.id = g.attr("alt")
                     c.idNorm = normCraftId(g.attr("alt"))
                     c.icon.iconLink = getVignette(g, "data-src", "src")// = getIconLink(si)
@@ -647,6 +647,17 @@ class TosGet {
                 }
             }
             return ans
+        }
+
+        private fun getWikiLink(src: String, baseWiki: String) : String {
+            // Handle for the link with baseWiki prefix
+            if (src.isEmpty()) {
+                return src
+            } else if (src.startsWith(baseWiki)) {
+                return src
+            } else {
+                return baseWiki + src
+            }
         }
 
         private fun getIconLink(e: Element) : String {
@@ -865,7 +876,7 @@ class TosGet {
         fun getSkill(ame: SkillInfo?, e: Element, baseWiki: String) : SkillInfo {
             val r = ame ?: SkillInfo()
             val a = e.getElementsByTag("a")
-            r.skillLink = baseWiki + a.attr("href")
+            r.skillLink = getWikiLink(a.attr("href"), baseWiki)
             var s = a.text()
             if (s.isEmpty()) {
                 s = a.attr("title")
@@ -1113,7 +1124,7 @@ class TosGet {
             for (i in 0 until imgSize) {
                 val ei = imgs?.get(i)
                 val info = NameLink()
-                info.link = ei?.attr("href") ?: ""
+                info.link = getWikiLink(ei?.attr("href") ?: "", wikiBaseZh)
                 info.name = ei?.attr("title") ?: ""
                 if (!info.isEmpty()) {
                     result.add(info)
@@ -1215,8 +1226,8 @@ class TosGet {
             val n = es.size
             val info = NameLink()
             if (n > 0) {
-                val e = es.get(0)
-                info.link = e.attr("href")
+                val e = es[0]
+                info.link = getWikiLink(e.attr("href"), wikiBaseZh)
                 info.name = e.attr("title") // [0]
                 //info.name = e.attr("download") // [1]
             }
@@ -1225,7 +1236,7 @@ class TosGet {
 
         private fun asIconInfo(e: Element) : NameLink {
             val info = NameLink()
-            info.link = wikiBaseZh + e.attr("href")
+            info.link = getWikiLink(e.attr("href"), wikiBaseZh)
             info.name = e.text()//e.attr("title")
             return info
         }

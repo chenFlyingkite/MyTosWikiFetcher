@@ -1,4 +1,4 @@
-2187 cards in myCard\links.txt
+2192 cards in myCard\links.txt
 http://zh.tos.wikia.com/wiki/%E8%8E%AB%E8%8E%89
 http://zh.tos.wikia.com/wiki/%E9%AB%98%E7%B4%9A%E6%B0%B4%E8%A1%93%E5%A3%AB%E8%8E%AB%E8%8E%89
 http://zh.tos.wikia.com/wiki/%E6%B0%B4%E9%AD%94%E6%B3%95%E5%B8%AB%E8%8E%AB%E8%8E%89
@@ -1393,6 +1393,8 @@ http://zh.tos.wikia.com/wiki/%E6%B7%A8%E9%82%AA%E9%99%8D%E6%83%A1_%E2%80%A7_%E9%
 http://zh.tos.wikia.com/wiki/%E9%A9%85%E9%80%90%E6%83%A1%E5%BF%B5_%E2%80%A7_%E5%93%88%E6%B2%99
 http://zh.tos.wikia.com/wiki/%E5%A0%85%E9%9F%8C%E9%BA%9F%E5%BF%83_%E2%80%A7_%E9%8A%85%E4%B8%B8
 http://zh.tos.wikia.com/wiki/%E7%A9%B6%E6%A5%B5%E7%BE%8E%E9%A3%9F%E5%AE%B6_%E2%80%A7_%E5%90%91%E6%97%A5%E8%91%B5
+http://zh.tos.wikia.com/wiki/%E7%9F%A5%E8%AD%98%E7%9A%84%E5%88%80%E9%8B%92_%E2%80%A7_%E5%AE%89%E5%8A%AA
+http://zh.tos.wikia.com/wiki/%E6%98%9F%E6%BA%90%E5%A5%87%E7%A8%AE
 http://zh.tos.wikia.com/wiki/%E5%8F%B0%E5%BC%8F%E7%98%8B%E9%A0%AD
 http://zh.tos.wikia.com/wiki/%E6%B8%AF%E5%BC%8F%E7%98%8B%E9%A0%AD
 http://zh.tos.wikia.com/wiki/%E9%8A%85%E7%98%8B%E9%A0%AD
@@ -1876,6 +1878,7 @@ http://zh.tos.wikia.com/wiki/%E7%BE%9E%E6%BE%80%E6%B3%95%E5%B8%AB_%E2%80%A7_%E8%
 http://zh.tos.wikia.com/wiki/%E7%A5%9E%E9%80%9F%E7%9B%9C%E7%AB%8A_%E2%80%A7_%E5%85%8B%E8%8E%89%E7%B5%B2
 http://zh.tos.wikia.com/wiki/%E5%9C%B0%E7%8D%84%E5%85%AC%E7%88%B5_%E2%80%A7_%E5%B7%B4%E5%B0%BC%E7%88%BE
 http://zh.tos.wikia.com/wiki/%E7%84%A1%E9%A0%AD%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E8%B2%9D%E7%88%BE%E8%BF%AA%E4%BA%9E
+http://zh.tos.wikia.com/wiki/%E6%AF%80%E6%BB%85%E8%80%85_%E2%80%A7_%E6%A9%9F%E5%8B%95%E8%A6%81%E5%A1%9E
 http://zh.tos.wikia.com/wiki/%E5%85%AC%E6%9C%83%E6%8E%A5%E5%BE%85%E5%93%A1_%E2%80%A7_%E9%9C%B2%E5%A8%9C
 http://zh.tos.wikia.com/wiki/%E6%B7%98%E6%B0%A3%E5%A5%B3%E7%A5%9E_%E2%80%A7_%E8%89%BE%E8%8E%89%E7%B5%B2
 http://zh.tos.wikia.com/wiki/%E5%86%AC%E5%B0%87%E8%BB%8D
@@ -2086,6 +2089,8 @@ http://zh.tos.wikia.com/wiki/%E7%87%83%E7%86%A0%E6%AF%94%E7%BF%BC_%E2%80%A7_%E8%
 http://zh.tos.wikia.com/wiki/%E8%84%88%E8%BC%AA%E5%B8%AB%E5%B0%8A_%E2%80%A7_%E5%9B%A0%E9%99%80%E7%BE%85(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E7%85%8C%E8%80%80%E5%A5%B3%E5%B8%9D_%E2%80%A7_%E7%BE%8E%E7%B4%A2%E4%B8%8D%E9%81%94%E7%B1%B3%E4%BA%9E(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E4%B8%8D%E7%BE%88%E9%9F%81%E7%B9%A9_%E2%80%A7_%E9%8A%85%E4%B8%B8
+http://zh.tos.wikia.com/wiki/%E6%99%BA%E9%9A%9C%E5%A5%B3%E7%A5%9E_%E2%80%A7_%E9%98%BF%E5%85%8B%E5%A9%AD(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
+http://zh.tos.wikia.com/wiki/%E8%8F%AF%E9%BA%97%E7%88%86%E8%A3%82_%E2%80%A7_%E6%83%A0%E6%83%A0(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E5%8F%97%E8%BE%B1%E7%8B%82%E6%AD%A1_%E2%80%A7_%E9%81%94%E5%85%8B%E5%A6%AE%E7%B5%B2(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E5%9C%B0%E7%8D%84%E5%85%AC%E7%88%B5_%E2%80%A7_%E5%B7%B4%E5%B0%BC%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 http://zh.tos.wikia.com/wiki/%E7%84%A1%E9%A0%AD%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E8%B2%9D%E7%88%BE%E8%BF%AA%E4%BA%9E(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)

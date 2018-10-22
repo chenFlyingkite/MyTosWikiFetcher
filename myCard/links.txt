@@ -8364,6 +8364,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1394"
   },
   {
+    "title": "No. 1397 知識的刀鋒 ‧ 安努",
+    "id": "1397",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%9F%A5%E8%AD%98%E7%9A%84%E5%88%80%E9%8B%92_%E2%80%A7_%E5%AE%89%E5%8A%AA",
+    "linkId": "http://zh.tos.wikia.com/wiki/1397"
+  },
+  {
+    "title": "No. 1398 星源奇種",
+    "id": "1398",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%98%9F%E6%BA%90%E5%A5%87%E7%A8%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/1398"
+  },
+  {
     "title": "No. 1399 台式瘋頭",
     "id": "1399",
     "link": "http://zh.tos.wikia.com/wiki/%E5%8F%B0%E5%BC%8F%E7%98%8B%E9%A0%AD",
@@ -11262,6 +11274,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1891"
   },
   {
+    "title": "No. 1892 毀滅者 ‧ 機動要塞",
+    "id": "1892",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%AF%80%E6%BB%85%E8%80%85_%E2%80%A7_%E6%A9%9F%E5%8B%95%E8%A6%81%E5%A1%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/1892"
+  },
+  {
     "title": "No. 1893 公會接待員 ‧ 露娜",
     "id": "1893",
     "link": "http://zh.tos.wikia.com/wiki/%E5%85%AC%E6%9C%83%E6%8E%A5%E5%BE%85%E5%93%A1_%E2%80%A7_%E9%9C%B2%E5%A8%9C",
@@ -12520,6 +12538,18 @@
     "id": "6214",
     "link": "http://zh.tos.wikia.com/wiki/%E4%B8%8D%E7%BE%88%E9%9F%81%E7%B9%A9_%E2%80%A7_%E9%8A%85%E4%B8%B8",
     "linkId": "http://zh.tos.wikia.com/wiki/6214"
+  },
+  {
+    "title": "S216 智障女神 ‧ 阿克婭(動態造型)",
+    "id": "6216",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%99%BA%E9%9A%9C%E5%A5%B3%E7%A5%9E_%E2%80%A7_%E9%98%BF%E5%85%8B%E5%A9%AD(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6216"
+  },
+  {
+    "title": "S217 華麗爆裂 ‧ 惠惠(動態造型)",
+    "id": "6217",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%8F%AF%E9%BA%97%E7%88%86%E8%A3%82_%E2%80%A7_%E6%83%A0%E6%83%A0(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6217"
   },
   {
     "title": "S218 受辱狂歡 ‧ 達克妮絲(動態造型)",
