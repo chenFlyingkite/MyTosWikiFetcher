@@ -40539,7 +40539,7 @@
   {
     "id": "2409",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2409",
-    "name": "[3回減攻99%] ‧ 9+Combo追擊盾",
+    "name": "[5回減攻99%] ‧ 9+Combo追擊盾",
     "detail": "5 回合內，全隊攻擊力減至 1%。\u003cbr\u003e 9 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊",
     "esCode": "{{ES2409}}",
     "icons": [
@@ -40657,6 +40657,10 @@
     "detail": "首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e9 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。\u003cbr\u003e(達成條件前，無法進行回復)",
     "esCode": "{{ES2415}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48124,14 +48128,10 @@
   {
     "id": "2854",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2854",
-    "name": "附加消除 ‧ 首消全水-(5回攻擊+150%)-非全水-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消全水-[5回攻擊+150%]-非全水-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除場上所有水符石 (需消除水符石)，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2854}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48149,14 +48149,10 @@
   {
     "id": "2855",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2855",
-    "name": "附加消除 ‧ 首消全火-(5回攻擊+150%)-非全火-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消全火-[5回攻擊+150%]-非全火-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除場上所有火符石 (需消除火符石)，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2855}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48174,14 +48170,10 @@
   {
     "id": "2856",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2856",
-    "name": "附加消除 ‧ 首消全木-(5回攻擊+150%)-非全木-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消全木-[5回攻擊+150%]-非全木-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除場上所有木符石 (需消除木符石)，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2856}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48199,14 +48191,10 @@
   {
     "id": "2857",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2857",
-    "name": "附加消除 ‧ 首消全光-(5回攻擊+150%)-非全光-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消全光-[5回攻擊+150%]-非全光-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除場上所有光符石 (需消除光符石)，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2857}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48224,14 +48212,10 @@
   {
     "id": "2858",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2858",
-    "name": "附加消除 ‧ 首消全暗-(5回攻擊+150%)-非全暗-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消全暗-[5回攻擊+150%]-非全暗-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除場上所有暗符石 (需消除暗符石)，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2858}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48249,14 +48233,10 @@
   {
     "id": "2859",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2859",
-    "name": "附加消除 ‧ 首消指定水-(5回攻擊+150%)-非指定水-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消指定水-[5回攻擊+150%]-非指定水-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除指定數量的水符石，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2859}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48274,14 +48254,10 @@
   {
     "id": "2860",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2860",
-    "name": "附加消除 ‧ 首消指定火-(5回攻擊+150%)-非指定火-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消指定火-[5回攻擊+150%]-非指定火-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除指定數量的火符石，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2860}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48299,14 +48275,10 @@
   {
     "id": "2861",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2861",
-    "name": "附加消除 ‧ 首消指定木-(5回攻擊+150%)-非指定木-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消指定木-[5回攻擊+150%]-非指定木-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除指定數量的木符石，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2861}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48324,14 +48296,10 @@
   {
     "id": "2862",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2862",
-    "name": "附加消除 ‧ 首消指定光-(5回攻擊+150%)-非指定光-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消指定光-[5回攻擊+150%]-非指定光-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除指定數量的光符石，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2862}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -48349,14 +48317,10 @@
   {
     "id": "2863",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2863",
-    "name": "附加消除 ‧ 首消指定暗-(5回攻擊+150%)-非指定暗-(5回攻擊-50%) ‧ 自殺",
+    "name": "附加消除 ‧ 首消指定暗-[5回攻擊+150%]-非指定暗-[5回攻擊-50%] ‧ 自殺",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e首批消除指定數量的暗符石，5 回合內，全隊攻擊力提升 1.5 倍；反之，5 回合內，全隊攻擊力減少 50%。\u003cbr\u003e敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能",
     "esCode": "{{ES2863}}",
     "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
-      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
@@ -50736,7 +50700,7 @@
   {
     "id": "2981",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2981",
-    "name": "首回6顆風化9000-每回1顆 ‧ 強化盾 ‧ 首消木傷害吸收",
+    "name": "首回6顆風化9000-每回2顆 ‧ 強化盾 ‧ 首消木傷害吸收",
     "detail": "首回合隨機將 6 粒符石風化，其後每回合移動符石前隨機將 2 粒符石風化。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 9000 點傷害。\u003cbr\u003e敵人只會受到強化符石的攻擊傷害。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES2981}}",
     "icons": [
@@ -50757,7 +50721,7 @@
   {
     "id": "2982",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2982",
-    "name": "首回9顆風化15000-每回1顆 ‧ 強化盾 ‧ 首消木傷害吸收",
+    "name": "首回9顆風化15000-每回3顆 ‧ 強化盾 ‧ 首消木傷害吸收",
     "detail": "首回合隨機將 9 粒符石風化，其後每回合移動符石前隨機將 3 粒符石風化。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害。\u003cbr\u003e敵人只會受到強化符石的攻擊傷害。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES2982}}",
     "icons": [
@@ -51032,8 +50996,12 @@
         "iconKey": "SI002.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI158.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/13/SI336.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI336.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI338.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI338.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e1/SI167.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
@@ -51173,7 +51141,7 @@
   {
     "id": "2998",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2998",
-    "name": "CD1 ‧ 暗攻盾 ‧ 首消7+Combo盾 ‧ 強化防禦盾",
+    "name": "CD1 ‧ 暗攻盾 ‧ 首消7Combo盾 ‧ 強化防禦盾",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e只有暗屬性的攻擊才會對敵人造成傷害。\u003cbr\u003e首批消除 7 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e消除強化符石不會對敵人造成傷害",
     "esCode": "{{ES2998}}",
     "icons": [
@@ -51186,8 +51154,12 @@
         "iconKey": "SI005.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI105.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
-        "iconKey": "SI105.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI087.png/revision/latest/scale-to-width-down/22?cb\u003d20170125043439\u0026path-prefix\u003dzh",
+        "iconKey": "SI087.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI230.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102912\u0026path-prefix\u003dzh",
+        "iconKey": "SI230.png"
       }
     ]
   },
