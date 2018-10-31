@@ -25148,7 +25148,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%8F%A4%E5%BF%8C%E6%B5%81%E7%85%89%E7%A0%B4%E5%8F%8D%E8%A1%9D%E5%A3%81",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "木符石轉化為妖族符石；1 回合內，吸收本回合首次發動攻擊的敵人的攻擊傷害，並以所吸收攻擊力的 50 倍對其進行木屬性反擊",
+    "skillDesc": "木符石轉化為妖族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 50 倍對其進行木屬性反擊",
     "skillMonsters": [
       "1799"
     ]

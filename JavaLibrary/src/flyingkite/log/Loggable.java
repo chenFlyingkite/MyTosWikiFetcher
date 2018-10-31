@@ -19,7 +19,6 @@ public interface Loggable extends Formattable {
      */
     default void log(String format, Object... param) {
         log(_fmt(format, param));
-
     }
 
     default void printLog(LogSS ss, String tag, String message) {

@@ -1,14 +1,14 @@
 package flyingkite.javaxlibrary.images.base;
 
-import flyingkite.files.FileUtil;
-import flyingkite.tool.TicTac2;
-
-import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import javax.imageio.ImageIO;
 
-public class PngRequest {
+import flyingkite.files.FileUtil;
+import flyingkite.tool.TicTac2;
+
+public class PngRequest implements ColorUtil, ImageUtil {
     private static final String TAG = "PngRequest";
     protected final boolean DEBUG = false;
 
