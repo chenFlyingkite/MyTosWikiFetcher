@@ -1,13 +1,13 @@
 package flyingkite.javaxlibrary.images.diff;
 
-import flyingkite.javaxlibrary.images.base.PngParam;
-import flyingkite.javaxlibrary.images.base.PngRequest;
-import flyingkite.math.MathUtil;
-import flyingkite.log.L;
-
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.Arrays;
+
+import flyingkite.javaxlibrary.images.base.PngParam;
+import flyingkite.javaxlibrary.images.base.PngRequest;
+import flyingkite.javaxlibrary.images.data.RGBInfo;
+import flyingkite.log.L;
 
 public class PngDiffRequest extends PngRequest {
     private static final String TAG = "PngDiffRequest";
@@ -103,19 +103,5 @@ public class PngDiffRequest extends PngRequest {
 
         // Step : Write to file
         into(diff, diffFile);
-    }
-
-    private static class RGBInfo {
-        private boolean hasColor;
-        private int argb;
-
-        private RGBInfo(BufferedImage image, int x, int y) {
-            hasColor = MathUtil.isInRange(x, 0, image.getWidth()) &&
-                    MathUtil.isInRange(y, 0, image.getHeight());
-
-            if (hasColor) {
-                argb = image.getRGB(x, y);
-            }
-        }
     }
 }

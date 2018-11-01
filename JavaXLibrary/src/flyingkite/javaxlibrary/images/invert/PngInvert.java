@@ -6,33 +6,32 @@ import flyingkite.javaxlibrary.images.base.ImageUtil;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.tool.TicTac2;
 
-public class PngInvert {
+public class PngInvert implements ImageUtil {
     public static PngInvertRequest from(PngParam param) {
         return new PngInvertRequest(param);
     }
+    public static final PngInvert me = new PngInvert();
 
-    private static ImageUtil util = new ImageUtil() {};
-
-    public static void invert(String path, String name) {
+    public void invert(String srcPath, String dstPath) {
         TicTac2 t = new TicTac2();
         t.tic();
-        PngParam p = new PngParam(path);
-        PngInvert.from(p).into(name);
-        t.tac("Created %s", name);
+        PngParam p = new PngParam(srcPath);
+        PngInvert.from(p).into(dstPath);
+        t.tac("Created %s", dstPath);
     }
 
-    public static void invertImages(String src, String dst) {
-        if (src == null || dst == null) return;
+    public void invertImages(String srcFolder, String dstFolder) {
+        if (srcFolder == null || dstFolder == null) return;
 
-        File sf = new File(src);
+        File sf = new File(srcFolder);
         File[] sfs = sf.listFiles((file) -> {
-            return util.isImage(file.getAbsolutePath());
+            return isImage(file.getAbsolutePath());
         });
 
         if (sfs != null) {
             for (int i = 0; i < sfs.length; i++) {
                 File f = sfs[i];
-                File d = new File(dst, f.getName());
+                File d = new File(dstFolder, f.getName());
                 invert(f.getAbsolutePath(), d.getAbsolutePath());
             }
         }

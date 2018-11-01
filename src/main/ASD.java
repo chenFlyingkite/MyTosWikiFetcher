@@ -62,7 +62,7 @@ public class ASD {
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
         loadCardsCSV();
-        //PngInvert.invertImages("Logos/A", "Logos/B");
+        //PngInvert.me.invertImages("Logos/A", "Logos/B");
         //getEnochianTower();
         //scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\enochian", 400);
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
