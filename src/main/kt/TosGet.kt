@@ -470,12 +470,14 @@ class TosGet {
                 main.title = bs[0].text()
                 if (eas != null) {
                     var pack = intArrayOf(0)
+                    var ten = false
                     var nine = false
                     var six = false
 
                     when (tit) {
                         "第10封印" -> {
-                            pack = intArrayOf(5, 5)
+                            ten = true
+                            pack = intArrayOf(5, 5, 5)
                             bs2.removeAt(0)
                         }
                         "第7-9封印" -> {
@@ -494,7 +496,16 @@ class TosGet {
                     }
                     var main2 = MainStage()
                     pack.forEachIndexed { pk, pv ->
-                        if (nine) {
+                        if (ten) {
+                            when (pk) {
+                                0 -> {
+                                    main2 = MainStage()
+                                    main2.title = bs[0].text()
+                                }
+                                else -> {
+                                }
+                            }
+                        } else if (nine) {
                             // Split info
                             when (pk) {
                                 0 -> {
@@ -517,8 +528,10 @@ class TosGet {
                         }
 
                         val subs = StageGroup()
-                        if (nine && pk < bs2.size) {
-                            subs.group = bs2[pk].text()
+                        if (ten || nine) {
+                            if (pk < bs2.size) {
+                                subs.group = bs2[pk].text()
+                            }
                         }
                         for (zi in 0 until pv) {
                             val ea = eas[k]
@@ -527,26 +540,30 @@ class TosGet {
                             k++
                         }
 
-                        if (nine || six) {
+                        //if (nine || six) {
                             main2.substages.add(subs)
-                            if (nine) {
-                                if (pk in intArrayOf(2, 8, 9)) {
-                                    // add for 第7-9封印
-                                    ans.add(main2)
-                                }
-                            } else if (six) {
-                                // add for 第1-6封印
+                        if (ten) {
+                            if (pk in intArrayOf(0, 6, 11)) {
                                 ans.add(main2)
                             }
-                        } else {
-                            main.substages.add(subs)
+                        } else if (nine) {
+                            if (pk in intArrayOf(2, 8, 9)) {
+                                // add for 第7-9封印
+                                ans.add(main2)
+                            }
+                        } else if (six) {
+                            // add for 第1-6封印
+                            ans.add(main2)
                         }
+                        //} else {
+                        //    main.substages.add(subs)
+                        //}
                     }
 
                     // add only when 第十封印
                     if (nine || six) {
                     } else {
-                        ans.add(main)
+                        //ans.add(main)
                     }
                 }
             }
@@ -556,7 +573,7 @@ class TosGet {
         private fun getStageInfo(e: Element, baseWiki: String) : Stage {
             val m = Stage()
             m.icon = getAltId(e)
-            m.link = baseWiki + e.attr("href")
+            m.link = getWikiLink(e.attr("href"), baseWiki)
             m.name = e.attr("title")
             return m
         }
