@@ -9225,6 +9225,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "曼妙的尖叫 ‧ 火烤",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%9B%BC%E5%A6%99%E7%9A%84%E5%B0%96%E5%8F%AB_%E2%80%A7_%E7%81%AB%E7%83%A4",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "2 回合內，隨機將 3 粒符石轉化為火強化符石，移動符石時觸碰的火符石轉化為獸族符石",
+    "skillMonsters": [
+      "1904"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "曼妙的旋律",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%9B%BC%E5%A6%99%E7%9A%84%E6%97%8B%E5%BE%8B",
     "skillCDMin": 16,
@@ -11379,6 +11390,17 @@
     "skillDesc": "將最左方直行的符石轉化為水符石，並將最右方直行的符石轉化為光符石；1 回合內，水屬性成員追打光屬性攻擊 1 次，光屬性成員則追打水屬性攻擊 1 次",
     "skillMonsters": [
       "1287"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "水月魔法",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%9C%88%E9%AD%94%E6%B3%95",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類攻擊力 3.5 倍；合計消除 6 粒或上的水或木符石時，人類攻擊力額外提升 1.5 倍；水及木屬性傷害減少 30%",
+    "skillMonsters": [
+      "1780"
     ]
   },
   {
@@ -15495,6 +15517,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "用冰之道",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%94%A8%E5%86%B0%E4%B9%8B%E9%81%93",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，自身不能對敵方做成傷害，所受傷害減少 60%；下回合其他符石兼具 150% 水符石效果",
+    "skillMonsters": [
+      "1780"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "界限突破",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%95%8C%E9%99%90%E7%AA%81%E7%A0%B4",
     "skillCDMin": 18,
@@ -16115,7 +16148,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%9F%B3%E7%A0%B4%E9%A9%9A%E5%A4%A9_%E2%80%A7_%E7%8B%82%E9%BE%8D",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有龍類成員時，龍類攻擊力 6.5 倍及生命力 1.6 倍。每回合移動及消除符石後的 3 秒內，可點選 1 橫行的符石並引爆，每引爆 1 粒光以外的符石，全隊攻擊力額外提升，引爆 6 粒可提升至最大 2.2 倍。光符石兼具其他屬性符石效果",
+    "skillDesc": "隊伍中只有龍類成員時：龍類攻擊力 6.5 倍及生命力 1.6 倍；每回合移動及消除符石後的 3 秒內，可點選 1 橫行的符石並引爆，每引爆 1 粒光以外的符石，全隊攻擊力額外提升，引爆 6 粒可提升至最大 2.2 倍；光符石兼具其他屬性符石效果",
     "skillMonsters": []
   },
   {
@@ -25693,6 +25726,23 @@
       "0713",
       "0714",
       "0715"
+    ]
+  },
+  {
+    "type": "組合技",
+    "skillName": "鮮血約誓 ‧ 成魔",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AE%AE%E8%A1%80%E7%B4%84%E8%AA%93_%E2%80%A7_%E6%88%90%E9%AD%94",
+    "skillCDMin": 50,
+    "skillCDMax": -1,
+    "skillDesc": "1 回合內，消除 3 種或以上的符石，全隊攻擊力 3 倍；下回合隨機將 3 個魔族成員直行的符石轉化為魔族強化符石；技能發動回合擊斃敵人的數量總和，將轉化為效果持續回合 (主動技能除外)；若有擊斃敵人時，該回合不會扣減技能持續回合",
+    "skillMonsters": [
+      "1395",
+      "EvoPlus",
+      "1326",
+      "1328",
+      "1330",
+      "1332",
+      "1334"
     ]
   },
   {

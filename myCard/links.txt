@@ -10674,6 +10674,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1779"
   },
   {
+    "title": "No. 1780 雪閃的烙冰 ‧ 朗杰",
+    "id": "1780",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9B%AA%E9%96%83%E7%9A%84%E7%83%99%E5%86%B0_%E2%80%A7_%E6%9C%97%E6%9D%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/1780"
+  },
+  {
     "title": "No. 1781 顛世的魔音 ‧ 朗杰",
     "id": "1781",
     "link": "http://zh.tos.wikia.com/wiki/%E9%A1%9B%E4%B8%96%E7%9A%84%E9%AD%94%E9%9F%B3_%E2%80%A7_%E6%9C%97%E6%9D%B0",
@@ -11362,6 +11368,12 @@
     "id": "1903",
     "link": "http://zh.tos.wikia.com/wiki/%E9%9D%92%E8%9B%99_%E2%80%A7_%E6%9A%97",
     "linkId": "http://zh.tos.wikia.com/wiki/1903"
+  },
+  {
+    "title": "No. 1904 銅牛蒸獄 ‧ 皮爾婁",
+    "id": "1904",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%8A%85%E7%89%9B%E8%92%B8%E7%8D%84_%E2%80%A7_%E7%9A%AE%E7%88%BE%E5%A9%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/1904"
   },
   {
     "title": "No. 1905 爽脆酸甜 ‧ 青蘋果",
@@ -12612,6 +12624,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6223"
   },
   {
+    "title": "S236 銅牛蒸獄 ‧ 皮爾婁(動態造型)",
+    "id": "6236",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%8A%85%E7%89%9B%E8%92%B8%E7%8D%84_%E2%80%A7_%E7%9A%AE%E7%88%BE%E5%A9%81(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6236"
+  },
+  {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
     "id": "7001",
     "link": "http://zh.tos.wikia.com/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2",
@@ -12700,6 +12718,12 @@
     "id": "7015",
     "link": "http://zh.tos.wikia.com/wiki/%E7%8D%A0%E7%89%99%E6%80%92%E8%9F%92_%E2%80%A7_%E7%A9%86%E4%BF%AE%E7%B4%A0",
     "linkId": "http://zh.tos.wikia.com/wiki/7015"
+  },
+  {
+    "title": "P17 月色吸血姬 ‧ 特蕾西亞",
+    "id": "7017",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%9C%88%E8%89%B2%E5%90%B8%E8%A1%80%E5%A7%AC_%E2%80%A7_%E7%89%B9%E8%95%BE%E8%A5%BF%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/7017"
   },
   {
     "title": "V1 烏蘇拉",
