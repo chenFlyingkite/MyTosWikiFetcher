@@ -25146,6 +25146,15 @@
   },
   {
     "type": "主動技",
+    "skillName": "魔劍格拉墨 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%8A%8D%E6%A0%BC%E6%8B%89%E5%A2%A8_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "點擊元素法陣上的 1 粒符石，並將該種符石引爆，以掉落該種符石以外的符石。1 回合內，若場上有其他附加效果時，全隊攻擊力 2.5 倍",
+    "skillMonsters": []
+  },
+  {
+    "type": "主動技",
     "skillName": "魔力召喚",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%8A%9B%E5%8F%AC%E5%96%9A",
     "skillCDMin": 21,
