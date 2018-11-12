@@ -50446,7 +50446,7 @@
   {
     "id": "2971",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2971",
-    "name": "[3回攻擊力變0] ‧ 先攻當前99% ‧ 越扣越強50%",
+    "name": "[3回攻擊力變0] ‧ 先攻當前99% ‧ 越扣越強50% ‧ 無法控制",
     "detail": "首回合優先扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)。\u003cbr\u003e 3 回合內，召喚師攻擊變 0。\u003cbr\u003e首回合敵人發動攻擊時會扣除召喚師 50% 生命力 (無視所有減傷效果和意志技能)；受到敵人攻擊次數愈多時，攻擊力會持續提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES2971}}",
     "icons": [
@@ -51242,5 +51242,797 @@
         "iconKey": "SI161.png"
       }
     ]
+  },
+  {
+    "id": "3004",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3004}}",
+    "icons": []
+  },
+  {
+    "id": "3005",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3005}}",
+    "icons": []
+  },
+  {
+    "id": "3006",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3006}}",
+    "icons": []
+  },
+  {
+    "id": "3007",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3007}}",
+    "icons": []
+  },
+  {
+    "id": "3008",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3008}}",
+    "icons": []
+  },
+  {
+    "id": "3009",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3009}}",
+    "icons": []
+  },
+  {
+    "id": "3010",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3010}}",
+    "icons": []
+  },
+  {
+    "id": "3011",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3011}}",
+    "icons": []
+  },
+  {
+    "id": "3012",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3012}}",
+    "icons": []
+  },
+  {
+    "id": "3013",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3013}}",
+    "icons": []
+  },
+  {
+    "id": "3014",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3014}}",
+    "icons": []
+  },
+  {
+    "id": "3015",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3015}}",
+    "icons": []
+  },
+  {
+    "id": "3016",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3016}}",
+    "icons": []
+  },
+  {
+    "id": "3017",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3017}}",
+    "icons": []
+  },
+  {
+    "id": "3018",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3018}}",
+    "icons": []
+  },
+  {
+    "id": "3019",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3019}}",
+    "icons": []
+  },
+  {
+    "id": "3020",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3020}}",
+    "icons": []
+  },
+  {
+    "id": "3021",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3021}}",
+    "icons": []
+  },
+  {
+    "id": "3022",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3022}}",
+    "icons": []
+  },
+  {
+    "id": "3023",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3023}}",
+    "icons": []
+  },
+  {
+    "id": "3024",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3024}}",
+    "icons": []
+  },
+  {
+    "id": "3025",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3025}}",
+    "icons": []
+  },
+  {
+    "id": "3026",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3026}}",
+    "icons": []
+  },
+  {
+    "id": "3027",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3027}}",
+    "icons": []
+  },
+  {
+    "id": "3028",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3028}}",
+    "icons": []
+  },
+  {
+    "id": "3029",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3029}}",
+    "icons": []
+  },
+  {
+    "id": "3030",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3030}}",
+    "icons": []
+  },
+  {
+    "id": "3031",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3031}}",
+    "icons": []
+  },
+  {
+    "id": "3032",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3032}}",
+    "icons": []
+  },
+  {
+    "id": "3033",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3033}}",
+    "icons": []
+  },
+  {
+    "id": "3034",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3034}}",
+    "icons": []
+  },
+  {
+    "id": "3035",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3035}}",
+    "icons": []
+  },
+  {
+    "id": "3036",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3036}}",
+    "icons": []
+  },
+  {
+    "id": "3037",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3037}}",
+    "icons": []
+  },
+  {
+    "id": "3038",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3038}}",
+    "icons": []
+  },
+  {
+    "id": "3039",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3039}}",
+    "icons": []
+  },
+  {
+    "id": "3040",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3040}}",
+    "icons": []
+  },
+  {
+    "id": "3041",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3041}}",
+    "icons": []
+  },
+  {
+    "id": "3042",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3042}}",
+    "icons": []
+  },
+  {
+    "id": "3043",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3043}}",
+    "icons": []
+  },
+  {
+    "id": "3044",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3044}}",
+    "icons": []
+  },
+  {
+    "id": "3045",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3045}}",
+    "icons": []
+  },
+  {
+    "id": "3046",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3046}}",
+    "icons": []
+  },
+  {
+    "id": "3047",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3047}}",
+    "icons": []
+  },
+  {
+    "id": "3048",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3048}}",
+    "icons": []
+  },
+  {
+    "id": "3049",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3049}}",
+    "icons": []
+  },
+  {
+    "id": "3050",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3050}}",
+    "icons": []
+  },
+  {
+    "id": "3051",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3051}}",
+    "icons": []
+  },
+  {
+    "id": "3052",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3052}}",
+    "icons": []
+  },
+  {
+    "id": "3053",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3053}}",
+    "icons": []
+  },
+  {
+    "id": "3054",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3054}}",
+    "icons": []
+  },
+  {
+    "id": "3055",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3055}}",
+    "icons": []
+  },
+  {
+    "id": "3056",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3056}}",
+    "icons": []
+  },
+  {
+    "id": "3057",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3057}}",
+    "icons": []
+  },
+  {
+    "id": "3058",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3058}}",
+    "icons": []
+  },
+  {
+    "id": "3059",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3059}}",
+    "icons": []
+  },
+  {
+    "id": "3060",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3060}}",
+    "icons": []
+  },
+  {
+    "id": "3061",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3061}}",
+    "icons": []
+  },
+  {
+    "id": "3062",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3062}}",
+    "icons": []
+  },
+  {
+    "id": "3063",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3063}}",
+    "icons": []
+  },
+  {
+    "id": "3064",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3064}}",
+    "icons": []
+  },
+  {
+    "id": "3065",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3065}}",
+    "icons": []
+  },
+  {
+    "id": "3066",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3066}}",
+    "icons": []
+  },
+  {
+    "id": "3067",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3067}}",
+    "icons": []
+  },
+  {
+    "id": "3068",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3068}}",
+    "icons": []
+  },
+  {
+    "id": "3069",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3069}}",
+    "icons": []
+  },
+  {
+    "id": "3070",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3070}}",
+    "icons": []
+  },
+  {
+    "id": "3071",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3071}}",
+    "icons": []
+  },
+  {
+    "id": "3072",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3072}}",
+    "icons": []
+  },
+  {
+    "id": "3073",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3073}}",
+    "icons": []
+  },
+  {
+    "id": "3074",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3074}}",
+    "icons": []
+  },
+  {
+    "id": "3075",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3075}}",
+    "icons": []
+  },
+  {
+    "id": "3076",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3076}}",
+    "icons": []
+  },
+  {
+    "id": "3077",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3077}}",
+    "icons": []
+  },
+  {
+    "id": "3078",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3078}}",
+    "icons": []
+  },
+  {
+    "id": "3079",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3079}}",
+    "icons": []
+  },
+  {
+    "id": "3080",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3080}}",
+    "icons": []
+  },
+  {
+    "id": "3081",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3081}}",
+    "icons": []
+  },
+  {
+    "id": "3082",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3082}}",
+    "icons": []
+  },
+  {
+    "id": "3083",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3083}}",
+    "icons": []
+  },
+  {
+    "id": "3084",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3084}}",
+    "icons": []
+  },
+  {
+    "id": "3085",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3085}}",
+    "icons": []
+  },
+  {
+    "id": "3086",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3086}}",
+    "icons": []
+  },
+  {
+    "id": "3087",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3087}}",
+    "icons": []
+  },
+  {
+    "id": "3088",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3088}}",
+    "icons": []
+  },
+  {
+    "id": "3089",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3089}}",
+    "icons": []
+  },
+  {
+    "id": "3090",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3090}}",
+    "icons": []
+  },
+  {
+    "id": "3091",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3091}}",
+    "icons": []
+  },
+  {
+    "id": "3092",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3092}}",
+    "icons": []
+  },
+  {
+    "id": "3093",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3093}}",
+    "icons": []
+  },
+  {
+    "id": "3094",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3094}}",
+    "icons": []
+  },
+  {
+    "id": "3095",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3095}}",
+    "icons": []
+  },
+  {
+    "id": "3096",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3096}}",
+    "icons": []
+  },
+  {
+    "id": "3097",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3097}}",
+    "icons": []
+  },
+  {
+    "id": "3098",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3098}}",
+    "icons": []
+  },
+  {
+    "id": "3099",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3099}}",
+    "icons": []
+  },
+  {
+    "id": "3100",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3100}}",
+    "icons": []
+  },
+  {
+    "id": "3101",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3101}}",
+    "icons": []
+  },
+  {
+    "id": "3102",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES3102}}",
+    "icons": []
   }
 ]

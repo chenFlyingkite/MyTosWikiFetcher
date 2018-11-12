@@ -89,7 +89,7 @@ public class Main {
         }
         //MobileComm.run();
         // Others misc
-        if (0 > 0) { // left value 1 = yes, 0 = no
+        if (1 > 0) { // left value 1 = yes, 0 = no
             //ASD.run();
             QWE.run(); // Firebase comments
         }
