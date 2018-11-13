@@ -51245,794 +51245,2529 @@
   },
   {
     "id": "3004",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3004",
+    "name": "先攻 ‧ 攻後固定形轉光-外光轉別屬 ‧ 首消光追擊零化 ‧ 無法控制",
+    "detail": "首回合優先攻擊 1 次。每次受到敵人攻擊時，將 12 個固定位置的符石轉化為光符石，並將其他的光符石隨機轉化為水、火、木及暗符石。\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3004}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI116.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142346\u0026path-prefix\u003dzh",
+        "iconKey": "SI116.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3005",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3005",
+    "name": "[3回攻擊零化] ‧ 首消三屬傷害吸收-反擊200% ‧ 無視減傷",
+    "detail": "3 回合內，召喚師攻擊變 0。\u003cbr\u003e首批消除水、火或木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 200% 攻擊傷害。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3005}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI158.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI037.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101601\u0026path-prefix\u003dzh",
+        "iconKey": "SI037.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3006",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3006",
+    "name": "攻前盾 ‧ 首攻非獸族符石引爆狂擊減傷",
+    "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e首次攻擊時，引爆所有非獸族符石，引爆的符石數量愈多，敵人的攻擊力愈高及所受傷害減少愈多",
     "esCode": "{{ES3006}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ec/SI082.png/revision/latest/scale-to-width-down/22?cb\u003d20170914005708\u0026path-prefix\u003dzh",
+        "iconKey": "SI082.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
+        "iconKey": "SI168.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI253.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI253.png"
+      }
+    ]
   },
   {
     "id": "3007",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3007",
+    "name": "攻前盾 ‧ 首攻非獸族符石引爆狂擊減傷",
+    "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e首次攻擊時，引爆所有非獸族符石，引爆的符石數量愈多，敵人的攻擊力愈高及所受傷害減少愈多",
     "esCode": "{{ES3007}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ec/SI082.png/revision/latest/scale-to-width-down/22?cb\u003d20170914005708\u0026path-prefix\u003dzh",
+        "iconKey": "SI082.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
+        "iconKey": "SI168.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI253.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI253.png"
+      }
+    ]
   },
   {
     "id": "3008",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3008",
+    "name": "攻前盾 ‧ 首攻獸外附加消除-技能重置 ‧ 首消暗追擊零化",
+    "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e首回合召喚師受到敵人攻擊時，消除獸類以外成員所有附加效果及重置獸類以外成員的技能 CD 及累積戰鬥回合數。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多",
     "esCode": "{{ES3008}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/SI117.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142347\u0026path-prefix\u003dzh",
+        "iconKey": "SI117.png"
+      }
+    ]
   },
   {
     "id": "3009",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3009",
+    "name": "固定形轉光心-外珠隱藏轉別屬 ‧ 2秒轉珠 ‧ 首消暗傷害吸收",
+    "detail": "分別將 2 個及 6 個固定位置的符石轉化為光及心符石，並將其他位置的符石轉化為隱藏的水、火、木及暗符石。\u003cbr\u003e移動符石時間會縮短至 2 秒。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3009}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      }
+    ]
   },
   {
     "id": "3010",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3010",
+    "name": "固定形轉光心-外珠隱藏轉別屬 ‧ 6+Combo盾 ‧ 首消全光盾",
+    "detail": "分別將 2 個及 6 個固定位置的符石轉化為光及心符石，並將其他位置的符石轉化為隱藏的水、火、木及暗符石。\u003cbr\u003e首批消除 6 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除場上所有光符石才能對敵人造成攻擊傷害 (需消除光符石)",
     "esCode": "{{ES3010}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b5/SI104.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
+        "iconKey": "SI104.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/fe/SI034.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI034.png"
+      }
+    ]
   },
   {
     "id": "3011",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3011",
+    "name": "缺獸-技能封鎖 ‧ 越扣越強25% ‧ 首消火傷害吸收",
+    "detail": "隊伍中沒有獸類成員時，封鎖所有成員的主動技能。\u003cbr\u003e首回合敵人發動攻擊時會扣除召喚師 25% 生命力 (無視所有減傷效果和意志技能)；受到敵人攻擊次數愈多時，攻擊力會持續提升。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 時，敵人回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3011}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",
+        "iconKey": "SI139.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI012.png"
+      }
+    ]
   },
   {
     "id": "3012",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3012",
+    "name": "中毒70% ‧ 首回全水冰封 ‧ 首消全水盾",
+    "detail": "所有成員中毒，每回合扣除召喚師 70% 生命力，直至敵人死亡。\u003cbr\u003e首回合凍結場上的水符石，3 回合內不能消除該符石。\u003cbr\u003e首批消除場上所有水符石才能對敵人造成攻擊傷害 (需消除水符石)",
     "esCode": "{{ES3012}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI135.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102459\u0026path-prefix\u003dzh",
+        "iconKey": "SI135.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI219.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102908\u0026path-prefix\u003dzh",
+        "iconKey": "SI219.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ec/SI031.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101559\u0026path-prefix\u003dzh",
+        "iconKey": "SI031.png"
+      }
+    ]
   },
   {
     "id": "3013",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3013",
+    "name": "中毒70% ‧ 首回全火冰封 ‧ 首消全火盾",
+    "detail": "所有成員中毒，每回合扣除召喚師 70% 生命力，直至敵人死亡。\u003cbr\u003e首回合凍結場上的火符石，3 回合內不能消除該符石。\u003cbr\u003e首批消除場上所有火符石才能對敵人造成攻擊傷害 (需消除火符石)",
     "esCode": "{{ES3013}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI135.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102459\u0026path-prefix\u003dzh",
+        "iconKey": "SI135.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI219.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102908\u0026path-prefix\u003dzh",
+        "iconKey": "SI219.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2f/SI032.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101559\u0026path-prefix\u003dzh",
+        "iconKey": "SI032.png"
+      }
+    ]
   },
   {
     "id": "3014",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3014",
+    "name": "中毒70% ‧ 首回全木冰封 ‧ 首消全木盾",
+    "detail": "所有成員中毒，每回合扣除召喚師 70% 生命力，直至敵人死亡。\u003cbr\u003e首回合凍結場上的木符石，3 回合內不能消除該符石。\u003cbr\u003e首批消除場上所有木符石才能對敵人造成攻擊傷害 (需消除木符石)",
     "esCode": "{{ES3014}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI135.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102459\u0026path-prefix\u003dzh",
+        "iconKey": "SI135.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI219.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102908\u0026path-prefix\u003dzh",
+        "iconKey": "SI219.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/31/SI033.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI033.png"
+      }
+    ]
   },
   {
     "id": "3015",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3015",
+    "name": "CD3 ‧ 附加消除重置 ‧ 五屬強化盾 ‧ 無法控制",
+    "detail": "敵人首次攻擊變為 CD 3。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e同時消除水強化、火強化、木強化、光強化及暗強化符石才會對敵人造成攻擊傷害。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3015}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6a/SI248.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103120\u0026path-prefix\u003dzh",
+        "iconKey": "SI248.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3016",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3016",
+    "name": "雙重黏附 ‧ 扣血50%",
+    "detail": "隨機黏附 2 個位置，該位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e每回合敵人發動攻擊時會扣除召喚師 50% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3016}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/16/SI128.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
+        "iconKey": "SI128.png"
+      }
+    ]
   },
   {
     "id": "3017",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3017",
+    "name": "三重黏附 ‧ 扣血70% ‧ 不倒意志50%",
+    "detail": "隨機黏附 3 個位置，該位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e每回合敵人發動攻擊時會扣除召喚師 70% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人當前生命力大於 50% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會完全回復生命力 (只發動 1 次)",
     "esCode": "{{ES3017}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e4/SI129.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
+        "iconKey": "SI129.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI261.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185652\u0026path-prefix\u003dzh",
+        "iconKey": "SI261.png"
+      }
+    ]
   },
   {
     "id": "3018",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3018",
+    "name": "四重黏附 ‧ 扣血90% ‧ 必殺不倒意志50%",
+    "detail": "隨機黏附 4 個位置，該位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e每回合敵人發動攻擊時會扣除召喚師 90% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人當前生命力大於 50% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會完全回復生命力 (只發動 1 次)，每回合發動攻擊時扣除召喚師的生命力更提升至 100%",
     "esCode": "{{ES3018}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ee/SI131.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102458\u0026path-prefix\u003dzh",
+        "iconKey": "SI131.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI261.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185652\u0026path-prefix\u003dzh",
+        "iconKey": "SI261.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      }
+    ]
   },
   {
     "id": "3019",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3019",
+    "name": "突擊10% ‧ 雙重燃燒10% ‧ 隨機轉心",
+    "detail": "首回合優先突擊 1 次，受此攻擊後隨機燃燒 2 個位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e每回合隨機將 1 種屬性符石轉換為轉符石",
     "esCode": "{{ES3019}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      }
+    ]
   },
   {
     "id": "3020",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3020",
+    "name": "突擊65% ‧ 三重燃燒10% ‧ 隨機轉心 ‧ 首消心傷害吸收",
+    "detail": "首回合優先突擊 1 次，受此攻擊後隨機燃燒 3 個位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e每回合隨機將 1 種屬性符石轉換為心符石。\u003cbr\u003e首批消除心符石時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3020}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI045.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI045.png"
+      }
+    ]
   },
   {
     "id": "3021",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3021",
+    "name": "先攻 ‧ 四重燃燒20% ‧ 隨機轉心 ‧ 首消心傷害吸收",
+    "detail": "首回合優先攻擊 1 次，受此攻擊後隨機燃燒 4 個位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e每回合隨機將 1 種屬性符石轉換為心符石。\u003cbr\u003e首批消除心符石時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3021}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI045.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI045.png"
+      }
+    ]
   },
   {
     "id": "3022",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3022",
+    "name": "突擊10%-2顆轉水風化3000 ‧ 5+Combo盾",
+    "detail": "首回合優先突擊 1 次，受此攻擊後隨機將 2 粒水符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害。\u003cbr\u003e5 連擊 (Combo) 或以上才會對敵人造成攻擊傷害",
     "esCode": "{{ES3022}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f7/SI103.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102325\u0026path-prefix\u003dzh",
+        "iconKey": "SI103.png"
+      }
+    ]
   },
   {
     "id": "3023",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3023",
+    "name": "突擊65%-3顆轉水風化9000 ‧ 6+Combo追擊盾",
+    "detail": "首回合優先突擊 1 次，受此攻擊後隨機將 3 粒水符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 9000 點傷害。\u003cbr\u003e6 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3023}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b5/SI104.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
+        "iconKey": "SI104.png"
+      }
+    ]
   },
   {
     "id": "3024",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3024",
+    "name": "先攻-4顆轉水風化15000 ‧ 7+Combo追擊盾",
+    "detail": "首回合優先攻擊 1 次，受此攻擊後隨機將 4 粒水符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害。\u003cbr\u003e7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3024}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI105.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
+        "iconKey": "SI105.png"
+      }
+    ]
   },
   {
     "id": "3025",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3025",
+    "name": "首回隨機轉水 ‧ 首消水追擊零化 ‧ 水火防禦盾",
+    "detail": "首回合隨機將 1 種符石轉化為水符石。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的水屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e水及火屬性的攻擊無法對敵人造成傷害",
     "esCode": "{{ES3025}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI113.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142345\u0026path-prefix\u003dzh",
+        "iconKey": "SI113.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cd/SI001.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091341\u0026path-prefix\u003dzh",
+        "iconKey": "SI001.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ed/SI002.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091445\u0026path-prefix\u003dzh",
+        "iconKey": "SI002.png"
+      }
+    ]
   },
   {
     "id": "3026",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3026",
+    "name": "CD1 ‧ 先攻當前99% ‧ 心圍城 ‧ 心禁消",
+    "detail": "敵人首次攻擊變為 CD 1，並優先扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)。\u003cbr\u003e將所有符石轉化為心符石。\u003cbr\u003e心符石無法被消除",
     "esCode": "{{ES3026}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/48/SI043.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101603\u0026path-prefix\u003dzh",
+        "iconKey": "SI043.png"
+      }
+    ]
   },
   {
     "id": "3027",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3027",
+    "name": "隨機轉水 ‧ 首消水追擊零化 ‧ 水火防禦盾",
+    "detail": "每回合隨機將 1 種符石轉化為水符石。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的水屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e水及火屬性的攻擊無法對敵人造成傷害",
     "esCode": "{{ES3027}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI113.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142345\u0026path-prefix\u003dzh",
+        "iconKey": "SI113.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cd/SI001.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091341\u0026path-prefix\u003dzh",
+        "iconKey": "SI001.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ed/SI002.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091445\u0026path-prefix\u003dzh",
+        "iconKey": "SI002.png"
+      }
+    ]
   },
   {
     "id": "3028",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3028",
+    "name": "CD1 ‧ 先攻當前99% ‧ 心圍城 ‧ 心禁消 ‧ 2倍不倒意志40%",
+    "detail": "敵人首次攻擊變為 CD 1，並優先扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)。\u003cbr\u003e將所有符石轉化為心符石。\u003cbr\u003e心符石無法被消除。\u003cbr\u003e敵人當前生命力大於 40% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會完全回復生命力 (只發動 1 次)，並提升攻擊力及生命力 2 倍",
     "esCode": "{{ES3028}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/48/SI043.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101603\u0026path-prefix\u003dzh",
+        "iconKey": "SI043.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI261.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185652\u0026path-prefix\u003dzh",
+        "iconKey": "SI261.png"
+      }
+    ]
   },
   {
     "id": "3029",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3029",
+    "name": "CD1 ‧ 先攻當前99% ‧ 心圍城 ‧ 心禁消 ‧ 2倍不倒意志60%",
+    "detail": "敵人首次攻擊變為 CD 1，並優先扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)。\u003cbr\u003e將所有符石轉化為心符石。\u003cbr\u003e心符石無法被消除。\u003cbr\u003e敵人當前生命力大於 60% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會完全回復生命力 (只發動 1 次)，並提升攻擊力及生命力 2 倍",
     "esCode": "{{ES3029}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/48/SI043.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101603\u0026path-prefix\u003dzh",
+        "iconKey": "SI043.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI261.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185652\u0026path-prefix\u003dzh",
+        "iconKey": "SI261.png"
+      }
+    ]
   },
   {
     "id": "3030",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3030",
+    "name": "隨機上下射擊 ‧ 暗外防禦90% ‧ 首消5Combo盾 ‧ 首消光追擊零化",
+    "detail": "首回合隨機射擊最頂或最底 1 橫行的位置，被射擊的位置一經觸碰，即時停止移動符石及無法對敵人造成攻擊傷害。\u003cbr\u003e暗屬性以外的攻擊傷害減至 10%。\u003cbr\u003e首批消除 5 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多",
     "esCode": "{{ES3030}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/32/SI225.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI225.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI005.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101207\u0026path-prefix\u003dzh",
+        "iconKey": "SI005.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/02/SI095.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102323\u0026path-prefix\u003dzh",
+        "iconKey": "SI095.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI116.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142346\u0026path-prefix\u003dzh",
+        "iconKey": "SI116.png"
+      }
+    ]
   },
   {
     "id": "3031",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3031",
+    "name": "隨機左右射擊 ‧ 暗攻盾 ‧ 首消6Combo盾 ‧ 首消光追擊零化",
+    "detail": "首回合隨機射擊最左或最右方 1 直行的位置，被射擊的位置一經觸碰，即時停止移動符石及無法對敵人造成攻擊傷害。\u003cbr\u003e只有暗屬性的攻擊才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除 6 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多",
     "esCode": "{{ES3031}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/32/SI225.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI225.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI005.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101207\u0026path-prefix\u003dzh",
+        "iconKey": "SI005.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a7/SI096.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102323\u0026path-prefix\u003dzh",
+        "iconKey": "SI096.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI116.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142346\u0026path-prefix\u003dzh",
+        "iconKey": "SI116.png"
+      }
+    ]
   },
   {
     "id": "3032",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3032",
+    "name": "首消暗傷害吸收 ‧ 含神獸外-技能重置-[7回攻弱50%]",
+    "detail": "首批消除暗屬性的連擊 (Combo) 時 ，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e隊伍中有神族及獸類以外成員時：重置所有成員的技能 CD 及累積戰鬥回合數；7 回合內，全隊攻擊減至 50%",
     "esCode": "{{ES3032}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI158.png"
+      }
+    ]
   },
   {
     "id": "3033",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3033",
+    "name": "隨機轉暗 ‧ 首消暗傷害吸收 ‧ 含神獸外-技能重置-[7回攻弱50%]",
+    "detail": "每回合隨機將 1 種符石轉化為暗符石。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時 ，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e隊伍中有神族及獸類以外成員時：重置所有成員的技能 CD 及累積戰鬥回合數；7 回合內，全隊攻擊減至 50%",
     "esCode": "{{ES3033}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI305.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI305.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI158.png"
+      }
+    ]
   },
   {
     "id": "3034",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3034",
+    "name": "突擊65%-隨機縱橫轉木 ‧ 首消木傷害吸收",
+    "detail": "首回合優先突擊 1 次，並隨機將 1 橫行及 1 直行的符石轉化為木符石。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3034}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI013.png"
+      }
+    ]
   },
   {
     "id": "3035",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3035",
+    "name": "突擊65%-隨機縱橫轉木 ‧ 首消木傷害吸收-連續反擊50%",
+    "detail": "首回合優先突擊 1 次，並隨機將 1 橫行及 1 直行的符石轉化為木符石。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES3035}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI013.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      }
+    ]
   },
   {
     "id": "3036",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3036",
+    "name": "突擊65%-隨機縱橫轉木風化9000 ‧ 首消木傷害吸收-連續反擊50%",
+    "detail": "首回合優先突擊 1 次，並隨機將 1 橫行及 1 直行的符石風化及轉化為木符石。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 9000 點傷害。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES3036}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI013.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      }
+    ]
   },
   {
     "id": "3037",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3037",
+    "name": "突擊65%-機將縱橫轉木 ‧ 木縱橫輪轉 ‧ 首消木傷害吸收-連續反擊50%",
+    "detail": "首回合優先突擊 1 次，並隨機將 1 橫行及 1 直行的符石轉化為木符石。其後首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為木符石。以上攻擊循環周而復始。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES3037}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI013.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      }
+    ]
   },
   {
     "id": "3038",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3038",
+    "name": "突擊65%-隨機縱橫轉木風化9000 ‧ 木縱橫輪轉 ‧ 首消木傷害吸收-連續反擊50%",
+    "detail": "首回合優先突擊 1 次，並隨機將 1 橫行及 1 直行的符石風化及轉化為木符石。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害。\u003cbr\u003e其後首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為木符石。以上攻擊循環周而復始。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES3038}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI013.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      }
+    ]
   },
   {
     "id": "3039",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3039",
+    "name": "CD1 ‧ 剋屬初級拼圖盾-限 ‧ 越攻越強 ‧ 無法控制",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e需以指定的形狀消除克制敵人屬性的符石 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時並會連撃 2 次。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3039}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
+        "iconKey": "SI181.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3040",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3040",
+    "name": "CD1 ‧ 首回6顆雙層石化1000倍 ‧ 無法控制-無減傷傷",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e首回合隨機將 6 粒符石「雙重石化」，移動符石並消除石化符石四側其中 1 個位置的符石可解除「一重石化」(首批消除的符石每次只可解除「一重石化」)；如有石化符石未被消除時，敵人的防禦力提升 1000 倍。\u003cbr\u003e敵人無視所有控制技能、減傷效果和意志技能",
     "esCode": "{{ES3040}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI237.png/revision/latest/scale-to-width-down/22?cb\u003d20170801234915\u0026path-prefix\u003dzh",
+        "iconKey": "SI237.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3041",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3041",
+    "name": "CD1 ‧ 火攻盾 ‧ 五次受攻盾50% ‧ 無視減傷",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e只有火屬性的攻擊才會對敵人造成攻擊傷害。\u003cbr\u003e敵人死亡後會復活，直至召喚師受到 5 次攻擊；首 5 次復活中，每 1 次復活會令敵人的攻擊力減少 50%。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3041}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ed/SI002.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091445\u0026path-prefix\u003dzh",
+        "iconKey": "SI002.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/36/SI211.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102905\u0026path-prefix\u003dzh",
+        "iconKey": "SI211.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3042",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3042",
+    "name": "CD1 ‧ 2秒轉珠 ‧ 五次受攻盾20% ‧ 無視減傷",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e移動符石時間會縮短至 2 秒。\u003cbr\u003e敵人死亡後會復活，直至召喚師受到 5 次攻擊；首 5 次復活中，每 1 次復活會令敵人的攻擊力減少 20%。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3042}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/36/SI211.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102905\u0026path-prefix\u003dzh",
+        "iconKey": "SI211.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3043",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3043",
+    "name": "CD1 ‧ 首消指定Combo狂擊盾20%",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e敵人不受任何攻擊傷害 (包括主動技) 及無視所有控制技能。\u003cbr\u003e首批消除指定的連擊 (Combo)，可扣除敵人 20% 生命力；若沒有首批消除指定的連擊 (Combo)，敵人攻擊力會大幅提升",
     "esCode": "{{ES3043}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI257.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9a/SI110.png/revision/latest/scale-to-width-down/22?cb\u003d20180224153045\u0026path-prefix\u003dzh",
+        "iconKey": "SI110.png"
+      }
+    ]
   },
   {
     "id": "3044",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3044",
+    "name": "先攻 ‧ 二五直行轉火 ‧ 隨機轉火 ‧ 消火減時0.2-1秒 ‧ 首消火攻擊零化",
+    "detail": "首回合優先攻擊 1 次，並將第 2 及第 5 直行的符石轉化為火符石。\u003cbr\u003e每回合隨機將 1 種屬性符石轉化為火符石，每消除 1 粒火符石，減少下回合移動符石時間 0.2 秒，消除 1 粒火強化符石，減少下回合移動符石時間 1 秒 (最大減至 1 秒時間)。\u003cbr\u003e首批消除火符石時 ，該回合無法對敵人造成攻擊傷害",
     "esCode": "{{ES3044}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI337.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI337.png"
+      }
+    ]
   },
   {
     "id": "3045",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3045",
+    "name": "先攻 ‧ 單數橫行轉火 ‧ 隨機轉火-血弱50%雙轉火 ‧ 消火減時0.2-1秒 ‧ 首消火攻擊零化 ‧ 血弱50%超狂擊2倍",
+    "detail": "首回合優先攻擊 1 次，並將單數橫行的符石轉化為火符石。\u003cbr\u003e每回合隨機將 1 種屬性符石轉化為火符石，敵人生命力為 50% 以下時，則隨機將 2 種屬性符石轉化為火符石；每消除 1 粒火符石，減少下回合移動符石時間 0.2 秒，消除 1 粒火強化符石，減少下回合移動符石時間 1 秒 (最大減至 1 秒時間)。\u003cbr\u003e首批消除火符石時 ，該回合無法對敵人造成攻擊傷害。\u003cbr\u003e敵人生命力為 50% 以下時，攻擊力提升 2 倍並無視所有減傷效果和意志技能",
     "esCode": "{{ES3045}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI337.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI337.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      }
+    ]
   },
   {
     "id": "3046",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3046",
+    "name": "先攻 ‧ 火圍城 ‧ 隨機轉火-血弱50%雙轉火 ‧ 消火減時0.2-1秒 ‧ 首消火攻擊零化 ‧ 血弱50%超狂擊3倍",
+    "detail": "首回合優先攻擊 1 次，並將所有符石轉化為火符石。\u003cbr\u003e每回合隨機將 1 種屬性符石轉化為火符石，敵人生命力為 50% 以下時，則隨機將 2 種屬性符石轉化為火符石；每消除 1 粒火符石，減少下回合移動符石時間 0.2 秒，消除 1 粒火強化符石，減少下回合移動符石時間 1 秒 (最大減至 1 秒時間)。\u003cbr\u003e首批消除火符石時 ，該回合無法對敵人造成攻擊傷害。\u003cbr\u003e敵人生命力為 50% 以下時，攻擊力提升 3 倍並無視所有減傷效果和意志技能",
     "esCode": "{{ES3046}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI337.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
+        "iconKey": "SI337.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      }
+    ]
   },
   {
     "id": "3047",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3047",
+    "name": "CD2 ‧ 首回4顆雙層石化10000倍 ‧ 轉珠技無效 ‧ 扣血100%",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e首回合隨機將 4 粒符石「雙重石化」，移動符石並消除石化符石四側其中 1 個位置的符石可解除「一重石化」(首批消除的符石每次只可解除「一重石化」)；如有石化符石未被消除時，敵人的防禦力提升 10000 倍。\u003cbr\u003e所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3047}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI237.png/revision/latest/scale-to-width-down/22?cb\u003d20170801234915\u0026path-prefix\u003dzh",
+        "iconKey": "SI237.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
+        "iconKey": "SI058.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      }
+    ]
   },
   {
     "id": "3048",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3048",
+    "name": "CD2 ‧ 首回4顆三層石化10000倍 ‧ 轉珠技無效 ‧ 扣血100%",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e首回合隨機將 4 粒符石「三重石化」，移動符石並消除石化符石四側其中 1 個位置的符石可解除「一重石化」(首批消除的符石每次只可解除「一重石化」)；如有石化符石未被消除時，敵人的防禦力提升 10000 倍。\u003cbr\u003e所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3048}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI237.png/revision/latest/scale-to-width-down/22?cb\u003d20170801234915\u0026path-prefix\u003dzh",
+        "iconKey": "SI237.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
+        "iconKey": "SI058.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      }
+    ]
   },
   {
     "id": "3049",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3049",
+    "name": "CD2 ‧ 首回4顆雙層石化10000倍 ‧ 轉珠技無效 ‧ 扣血100% ‧ 軌跡燃燒2000",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e首回合隨機將 4 粒符石「雙重石化」，移動符石並消除石化符石四側其中 1 個位置的符石可解除「一重石化」(首批消除的符石每次只可解除「一重石化」)；如有石化符石未被消除時，敵人的防禦力提升 10000 倍。\u003cbr\u003e所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)。\u003cbr\u003e燃燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 2000 點的傷害。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3049}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI237.png/revision/latest/scale-to-width-down/22?cb\u003d20170801234915\u0026path-prefix\u003dzh",
+        "iconKey": "SI237.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
+        "iconKey": "SI058.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      }
+    ]
   },
   {
     "id": "3050",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3050",
+    "name": "CD2 ‧ 首回4顆三層石化10000倍 ‧ 轉珠技無效 ‧ 扣血100% ‧ 軌跡燃燒5000",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e首回合隨機將 4 粒符石「三重石化」，移動符石並消除石化符石四側其中 1 個位置的符石可解除「一重石化」(首批消除的符石每次只可解除「一重石化」)；如有石化符石未被消除時，敵人的防禦力提升 10000 倍。\u003cbr\u003e所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)。\u003cbr\u003e燃燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 5000 點的傷害。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3050}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI237.png/revision/latest/scale-to-width-down/22?cb\u003d20170801234915\u0026path-prefix\u003dzh",
+        "iconKey": "SI237.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
+        "iconKey": "SI058.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      }
+    ]
   },
   {
     "id": "3051",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3051",
+    "name": "4顆追擊隱藏 ‧ 首消暗傷害吸收",
+    "detail": "每回合隨機將 4 粒符石轉化為隱藏符石；場上的隱藏符石愈多，敵人的連擊次數愈多。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時 ，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3051}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      }
+    ]
   },
   {
     "id": "3052",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3052",
+    "name": "8顆追擊隱藏 ‧ 首消暗傷害吸收",
+    "detail": "每回合隨機將 8 粒符石轉化為隱藏符石；場上的隱藏符石愈多，敵人的連擊次數愈多。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時 ，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3052}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      }
+    ]
   },
   {
     "id": "3053",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3053",
+    "name": "12顆追擊隱藏 ‧ 首消暗傷害吸收 ‧ 神攻盾",
+    "detail": "每回合隨機將 12 粒符石轉化為隱藏符石；場上的隱藏符石愈多，敵人的連擊次數愈多。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時 ，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e只有神族成員的攻擊才會對敵人造成傷害",
     "esCode": "{{ES3053}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/57/SI061.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102107\u0026path-prefix\u003dzh",
+        "iconKey": "SI061.png"
+      }
+    ]
   },
   {
     "id": "3054",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3054",
+    "name": "16顆追擊隱藏 ‧ 首消暗傷害吸收 ‧ 神攻盾",
+    "detail": "每回合隨機將 16 粒符石轉化為隱藏符石；場上的隱藏符石愈多，敵人的連擊次數愈多。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時 ，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e只有神族成員的攻擊才會對敵人造成傷害",
     "esCode": "{{ES3054}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/57/SI061.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102107\u0026path-prefix\u003dzh",
+        "iconKey": "SI061.png"
+      }
+    ]
   },
   {
     "id": "3055",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3055",
+    "name": "始終盾 ‧ 攻後回復衰弱20% ‧ 溢補盾",
+    "detail": "每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e當受到敵人攻擊後，全隊回復力減少 20%；受到敵人攻擊次數愈多時，回復力會持續遞減，最多減少 100%。\u003cbr\u003e召喚師完全回復生命力後，剩餘的回復力會轉化為攻擊力",
     "esCode": "{{ES3055}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI233.png/revision/latest/scale-to-width-down/22?cb\u003d20150712170520\u0026path-prefix\u003dzh",
+        "iconKey": "SI233.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/SI217.png/revision/latest/scale-to-width-down/22?cb\u003d20160317074601\u0026path-prefix\u003dzh",
+        "iconKey": "SI217.png"
+      }
+    ]
   },
   {
     "id": "3056",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3056",
+    "name": "始終盾 ‧ 攻後回復衰弱25% ‧ 溢補盾",
+    "detail": "每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e當受到敵人攻擊後，全隊回復力減少 25%；受到敵人攻擊次數愈多時，回復力會持續遞減，最多減少 100%。\u003cbr\u003e召喚師完全回復生命力後，剩餘的回復力會轉化為攻擊力",
     "esCode": "{{ES3056}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI233.png/revision/latest/scale-to-width-down/22?cb\u003d20150712170520\u0026path-prefix\u003dzh",
+        "iconKey": "SI233.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/SI217.png/revision/latest/scale-to-width-down/22?cb\u003d20160317074601\u0026path-prefix\u003dzh",
+        "iconKey": "SI217.png"
+      }
+    ]
   },
   {
     "id": "3057",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3057",
+    "name": "黑白符石 ‧ 首消暗外屬攻擊零化 ‧ 無法控制",
+    "detail": "所有符石變為黑白色。\u003cbr\u003e首批消除水、火、木或光符石，無法對敵人造成攻擊傷害。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3057}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI005.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101207\u0026path-prefix\u003dzh",
+        "iconKey": "SI005.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3058",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3058",
+    "name": "[5回攻擊力變0] ‧ 光外超級技能重置 ‧ 黑白符石",
+    "detail": "5 回合內，全隊攻擊力減至 0。\u003cbr\u003e首回合將光屬性以外成員的主動技能 CD、EP 及累積戰鬥回合數重置。\u003cbr\u003e所有符石轉化為黑白色",
     "esCode": "{{ES3058}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI158.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
+      }
+    ]
   },
   {
     "id": "3059",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3059",
+    "name": "暗弱化鎖定100% ‧ 強化盾 ‧ 神攻盾",
+    "detail": "每回合移動符石前，鎖定場上的暗符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 100% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人只會受到強化符石的攻擊傷害。\u003cbr\u003e只有神族成員的攻擊才會對敵人造成傷害",
     "esCode": "{{ES3059}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0b/SI340.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153351\u0026path-prefix\u003dzh",
+        "iconKey": "SI340.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI254.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/57/SI061.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102107\u0026path-prefix\u003dzh",
+        "iconKey": "SI061.png"
+      }
+    ]
   },
   {
     "id": "3060",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3060",
+    "name": "扣血70% ‧ 縱橫射擊 ‧ 光暗盾",
+    "detail": "每回合敵人發動攻擊時會扣除召喚師 70% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人會在 CD 2 時射擊 1 直行的位置，並在 CD 1 時射擊 1 橫行的位置，被射擊的位置一經觸碰，即時停止移動符石。\u003cbr\u003e同時消除光及暗符石才會對敵人造成攻擊傷害",
     "esCode": "{{ES3060}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e4/SI129.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
+        "iconKey": "SI129.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/32/SI225.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI225.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI241.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103118\u0026path-prefix\u003dzh",
+        "iconKey": "SI241.png"
+      }
+    ]
   },
   {
     "id": "3061",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3061",
+    "name": "扣血90% ‧ 縱橫射擊 ‧ 光暗強化盾",
+    "detail": "每回合敵人發動攻擊時會扣除召喚師 90% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人會在 CD 2 時射擊 1 直行的位置，並在 CD 1 時射擊 1 橫行的位置，被射擊的位置一經觸碰，即時停止移動符石。\u003cbr\u003e同時消除光強化及暗強化符石才會對敵人造成攻擊傷害",
     "esCode": "{{ES3061}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ee/SI131.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102458\u0026path-prefix\u003dzh",
+        "iconKey": "SI131.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/32/SI225.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI225.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI245.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103119\u0026path-prefix\u003dzh",
+        "iconKey": "SI245.png"
+      }
+    ]
   },
   {
     "id": "3062",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3062",
+    "name": "無限回復 ‧ 軌跡燃燒2000 ‧ 光暗盾-限",
+    "detail": "敵人每回合會完全回復生命力。\u003cbr\u003e燃燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 2000 點的傷害。\u003cbr\u003e召喚師需同時符合以下兩個條件，才會對敵人造成攻擊傷害：同時消除光及暗符石；不能消除水符石、火符石或木符石 (只計算首批消除的符石)",
     "esCode": "{{ES3062}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI212.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI212.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI241.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103118\u0026path-prefix\u003dzh",
+        "iconKey": "SI241.png"
+      }
+    ]
   },
   {
     "id": "3063",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3063",
+    "name": "無限回復 ‧ 軌跡燃燒5000 ‧ 光暗強化盾-限",
+    "detail": "敵人每回合會完全回復生命力。\u003cbr\u003e燃燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 5000 點的傷害。\u003cbr\u003e召喚師需同時符合以下兩個條件，才會對敵人造成攻擊傷害：同時消除光強化及暗強化符石；不能消除水符石、火符石或木符石 (只計算首批消除的符石)",
     "esCode": "{{ES3063}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI212.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI212.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI245.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103119\u0026path-prefix\u003dzh",
+        "iconKey": "SI245.png"
+      }
+    ]
   },
   {
     "id": "3064",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3064",
+    "name": "CD2 ‧ 首消4Combo盾 ‧ 扣血100% ‧ 12+12+水暗幻變盾",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e首批消除 4 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人會分別將 2 個位置轉化為水及暗屬幻變空間，經過幻變空間的符石 (不包括轉珠期間被移動的符石) 會轉化為該幻變空間的屬性符石。\u003cbr\u003e消除 12 粒或以上水符石及 12 粒或以上暗符石，才會對敵人造成攻擊傷害",
     "esCode": "{{ES3064}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI094.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102323\u0026path-prefix\u003dzh",
+        "iconKey": "SI094.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
+        "iconKey": "SI227.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ec/SI031.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101559\u0026path-prefix\u003dzh",
+        "iconKey": "SI031.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI035.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI035.png"
+      }
+    ]
   },
   {
     "id": "3065",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3065",
+    "name": "CD1 ‧ 首消6Combo盾 ‧ 扣血100% ‧ 15+15+水暗幻變盾",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e首批消除 6 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人會分別將 2 個位置轉化為水及暗屬幻變空間，經過幻變空間的符石 (不包括轉珠期間被移動的符石) 會轉化為該幻變空間的屬性符石。\u003cbr\u003e消除 15 粒或以上水符石及 15 粒或以上暗符石，才會對敵人造成攻擊傷害",
     "esCode": "{{ES3065}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a7/SI096.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102323\u0026path-prefix\u003dzh",
+        "iconKey": "SI096.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
+        "iconKey": "SI227.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ec/SI031.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101559\u0026path-prefix\u003dzh",
+        "iconKey": "SI031.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI035.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI035.png"
+      }
+    ]
   },
   {
     "id": "3066",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3066",
+    "name": "隨機轉水 ‧ 攻後水橫縱輪轉 ‧ 2秒轉珠",
+    "detail": "首回合隨機將 1 種符石轉化為水符石。\u003cbr\u003e當敵人首次發動攻擊時，隨機將 1 橫行的符石轉化為水符石；當第 2 次發動攻擊時，隨機將 1 直行的符石轉化為水符石。以上攻擊循環周而復始。\u003cbr\u003e移動符石時間會縮短至 2 秒",
     "esCode": "{{ES3066}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      }
+    ]
   },
   {
     "id": "3067",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3067",
+    "name": "2秒轉珠 ‧ 8+Combo盾 ‧ 首消水傷害吸收",
+    "detail": "移動符石時間會縮短至 2 秒。\u003cbr\u003e8 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時 ，敵人回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3067}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/36/SI106.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
+        "iconKey": "SI106.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      }
+    ]
   },
   {
     "id": "3068",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3068",
+    "name": "2秒轉珠 ‧ 10+Combo盾 ‧ 首消水傷害吸收",
+    "detail": "移動符石時間會縮短至 2 秒。\u003cbr\u003e10 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時 ，敵人回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3068}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI108.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI108.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      }
+    ]
   },
   {
     "id": "3069",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3069",
+    "name": "20+Combo盾 ‧ 首消水傷害吸收 ‧ 轉珠技無效",
+    "detail": "20 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時 ，敵人回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)",
     "esCode": "{{ES3069}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI109.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI109.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
+        "iconKey": "SI058.png"
+      }
+    ]
   },
   {
     "id": "3070",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3070",
+    "name": "2秒轉珠 ‧ 8+Combo盾 ‧ 首消水傷害吸收",
+    "detail": "移動符石時間會縮短至 2 秒。\u003cbr\u003e8 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時 ，敵人回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3070}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/36/SI106.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
+        "iconKey": "SI106.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      }
+    ]
   },
   {
     "id": "3071",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3071",
+    "name": "2秒轉珠 ‧ 10+Combo追擊盾 ‧ 首消水傷害吸收",
+    "detail": "移動符石時間會縮短至 2 秒。\u003cbr\u003e10 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時 ，敵人回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3071}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI108.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI108.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      }
+    ]
   },
   {
     "id": "3072",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3072",
+    "name": "20+Combo追擊盾 ‧ 首消水傷害吸收 ‧ 轉珠技無效",
+    "detail": "20 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時 ，敵人回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)",
     "esCode": "{{ES3072}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI109.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI109.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
+        "iconKey": "SI058.png"
+      }
+    ]
   },
   {
     "id": "3073",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3073",
+    "name": "[3回回復力變0] ‧ 10+Combo盾 ‧ 禁消水",
+    "detail": "3 回合內，全隊回復力減至 0。\u003cbr\u003e10 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。\u003cbr\u003e水符石無法被消除",
     "esCode": "{{ES3073}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI156.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102645\u0026path-prefix\u003dzh",
+        "iconKey": "SI156.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI108.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI108.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b4/SI038.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101601\u0026path-prefix\u003dzh",
+        "iconKey": "SI038.png"
+      }
+    ]
   },
   {
     "id": "3074",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3074",
+    "name": "[5回回復力變0] ‧ 20+Combo盾 ‧ 禁消水 ‧ 轉珠技無效",
+    "detail": "5 回合內，全隊回復力減至 0。\u003cbr\u003e20 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。\u003cbr\u003e水符石無法被消除。\u003cbr\u003e所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)",
     "esCode": "{{ES3074}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI156.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102645\u0026path-prefix\u003dzh",
+        "iconKey": "SI156.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI109.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI109.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b4/SI038.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101601\u0026path-prefix\u003dzh",
+        "iconKey": "SI038.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
+        "iconKey": "SI058.png"
+      }
+    ]
   },
   {
     "id": "3075",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3075",
+    "name": "命懸一線 ‧ 軌跡靈化800 ‧ 缺血盾 ‧ 扣血50%",
+    "detail": "首回合召喚師生命力剩 1 點。\u003cbr\u003e靈化移動符石時所觸碰的符石，每觸碰 1 粒被靈化的符石，召喚師回復 800 點生命力。\u003cbr\u003e召喚師在消除符石前生命力未滿，才能對敵人造成攻擊傷害 (包括主動技)。\u003cbr\u003e每回合敵人發動攻擊時會扣除召喚師 50% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3075}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/07/SI213.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI213.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1b/SI256.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI256.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/16/SI128.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
+        "iconKey": "SI128.png"
+      }
+    ]
   },
   {
     "id": "3076",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3076",
+    "name": "命懸一線 ‧ 軌跡靈化800 ‧ 缺血盾 ‧ 扣血70%",
+    "detail": "首回合召喚師生命力剩 1 點。\u003cbr\u003e靈化移動符石時所觸碰的符石，每觸碰 1 粒被靈化的符石，召喚師回復 800 點生命力。\u003cbr\u003e召喚師在消除符石前生命力未滿，才能對敵人造成攻擊傷害 (包括主動技)。\u003cbr\u003e每回合敵人發動攻擊時會扣除召喚師 70% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3076}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/07/SI213.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI213.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1b/SI256.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI256.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e4/SI129.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
+        "iconKey": "SI129.png"
+      }
+    ]
   },
   {
     "id": "3077",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3077",
+    "name": "命懸一線 ‧ 軌跡靈化800 ‧ 缺血盾 ‧ 扣血90%",
+    "detail": "首回合召喚師生命力剩 1 點。\u003cbr\u003e靈化移動符石時所觸碰的符石，每觸碰 1 粒被靈化的符石，召喚師回復 800 點生命力。\u003cbr\u003e召喚師在消除符石前生命力未滿，才能對敵人造成攻擊傷害 (包括主動技)。\u003cbr\u003e每回合敵人發動攻擊時會扣除召喚師 90% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3077}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/07/SI213.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI213.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1b/SI256.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI256.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ee/SI131.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102458\u0026path-prefix\u003dzh",
+        "iconKey": "SI131.png"
+      }
+    ]
   },
   {
     "id": "3078",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3078",
+    "name": "CD1 ‧ 生命回復 ‧ 越攻越強 ‧ 缺血盾 ‧ 無法控制",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e首回合完全回復召喚師的生命力。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時並會連撃 2 次。\u003cbr\u003e召喚師在消除符石前生命力未滿，才能對敵人造成攻擊傷害 (包括主動技)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3078}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0e/SI214.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI214.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1b/SI256.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI256.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3079",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3079",
+    "name": "CD1 ‧ 生命回復 ‧ 四重燃燒20% ‧ 缺血盾",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e首回合完全回復召喚師的生命力。\u003cbr\u003e隨機燃燒 4 個位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e召喚師在消除符石前生命力未滿，才能對敵人造成攻擊傷害 (包括主動技)",
     "esCode": "{{ES3079}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0e/SI214.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
+        "iconKey": "SI214.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1b/SI256.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI256.png"
+      }
+    ]
   },
   {
     "id": "3080",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3080",
+    "name": "敵轉水 ‧ 循環累積15+相剋符石盾 ‧ 越攻越強 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為水屬性。\u003cbr\u003e召喚師需累積消除 15 粒或以上、克制敵人屬性的符石 (不受轉換屬性技能影響)，才會對敵人造成攻擊傷害。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3080}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI016.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI016.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3081",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3081",
+    "name": "敵轉水 ‧ 首回附加消除重置-化血圍城 ‧ 心禁消 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為水屬性。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e首回合鎖定場上所有符石，如有鎖定的符石未被消除時，敵人回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e心符石無法被消除。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3081}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI016.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI016.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI232.png/revision/latest/scale-to-width-down/22?cb\u003d20150223133550\u0026path-prefix\u003dzh",
+        "iconKey": "SI232.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/48/SI043.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101603\u0026path-prefix\u003dzh",
+        "iconKey": "SI043.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3082",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3082",
+    "name": "敵轉火 ‧ 循環累積15+相剋符石盾 ‧ 越攻越強 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為火屬性。\u003cbr\u003e召喚師需累積消除 15 粒或以上、克制敵人屬性的符石 (不受轉換屬性技能影響)，才會對敵人造成攻擊傷害。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3082}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI017.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI017.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3083",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3083",
+    "name": "敵轉火 ‧ 首回附加消除重置-冰封圍城 ‧ 9+Combo追擊盾 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為火屬性。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e首回合凍結場上所有符石，3 回合內不能消除該符石。\u003cbr\u003e9 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3083}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/28/SI017.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI017.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/77/SI219.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102908\u0026path-prefix\u003dzh",
+        "iconKey": "SI219.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d2/SI107.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI107.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3084",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3084",
+    "name": "敵轉木 ‧ 循環累積15+相剋符石盾 ‧ 越攻越強 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為木屬性。\u003cbr\u003e召喚師需累積消除 15 粒或以上、克制敵人屬性的符石 (不受轉換屬性技能影響)，才會對敵人造成攻擊傷害。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3084}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d8/SI018.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI018.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
+        "iconKey": "SI188.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3085",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3085",
+    "name": "敵轉木 ‧ 首回附加消除重置 ‧ 軌跡燃燒5000 ‧ 首消全木盾 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為木屬性。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e燃燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 5000 點的傷害。\u003cbr\u003e首批消除場上所有木符石才能對敵人造成攻擊傷害 (需消除木符石)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3085}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d8/SI018.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
+        "iconKey": "SI018.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/31/SI033.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI033.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3086",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3086",
+    "name": "敵轉光 ‧ 滅光增攻 ‧ 光禁消 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為光屬性。\u003cbr\u003e每回合結束前，引爆所有光符石，引爆的符石數量愈多，敵人下一次的攻擊力愈高。\u003cbr\u003e光符石無法被消除。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3086}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/af/SI019.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101356\u0026path-prefix\u003dzh",
+        "iconKey": "SI019.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
+        "iconKey": "SI168.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/83/SI041.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101602\u0026path-prefix\u003dzh",
+        "iconKey": "SI041.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3087",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3087",
+    "name": "敵轉光 ‧ 首回附加消除重置 ‧ 迷惑符石 ‧ 首消火追擊零化 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為光屬性。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e無法看透符石的本質。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的火屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3087}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/af/SI019.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101356\u0026path-prefix\u003dzh",
+        "iconKey": "SI019.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
+        "iconKey": "SI227.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI114.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142345\u0026path-prefix\u003dzh",
+        "iconKey": "SI114.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3088",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3088",
+    "name": "敵轉暗 ‧ 滅暗增攻 ‧ 暗禁消 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為暗屬性。\u003cbr\u003e每回合結束前，引爆所有暗符石，引爆的符石數量愈多，敵人下一次的攻擊力愈高。\u003cbr\u003e暗符石無法被消除。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3088}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI020.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101356\u0026path-prefix\u003dzh",
+        "iconKey": "SI020.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI305.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI305.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
+        "iconKey": "SI168.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d9/SI042.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101603\u0026path-prefix\u003dzh",
+        "iconKey": "SI042.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3089",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3089",
+    "name": "敵轉暗 ‧ 首回附加消除重置 ‧ 迷惑符石 ‧ 首消水追擊零化 ‧ 無法控制",
+    "detail": "首回合敵人會轉換為暗屬性。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e無法看透符石的本質。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的水屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3089}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI020.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101356\u0026path-prefix\u003dzh",
+        "iconKey": "SI020.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
+        "iconKey": "SI227.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI113.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142345\u0026path-prefix\u003dzh",
+        "iconKey": "SI113.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3090",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3090",
+    "name": "首消指定符石追擊盾 ‧ 25%盾 ‧ 無法控制",
+    "detail": "首批消除指定數量的符石，才會對敵人造成攻擊傷害。達成條件時，敵人不會發動攻擊；反之，差距的符石數量愈多，敵人的攻擊次數愈多。\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 25% 的傷害 (主動技除外)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3090}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI257.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3091",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3091",
+    "name": "附加消除 ‧ 攻前盾 ‧ 先攻當前99%-隱藏圍城 ‧ 首消暗傷害吸收 ‧ 無法控制",
+    "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e首次攻擊時，敵人會扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)；受此攻擊後將所有符石轉化為隱藏符石。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3091}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3092",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3092",
+    "name": "✕形燃燒20% ‧ 首消全木盾 ‧ 越攻越強",
+    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有木符石才能對敵人造成攻擊傷害 (需消除木符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
     "esCode": "{{ES3092}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/31/SI033.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI033.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3093",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3093",
+    "name": "✕形燃燒20% ‧ 首消全光盾 ‧ 越攻越強",
+    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有光符石才能對敵人造成攻擊傷害 (需消除光符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
     "esCode": "{{ES3093}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/fe/SI034.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI034.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3094",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3094",
+    "name": "✕形燃燒20% ‧ 首消全暗盾 ‧ 越攻越強",
+    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有暗符石才能對敵人造成攻擊傷害 (需消除暗符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
     "esCode": "{{ES3094}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cf/SI035.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101600\u0026path-prefix\u003dzh",
+        "iconKey": "SI035.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3095",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3095",
+    "name": "首消13顆符石盾 ‧ 強化防禦盾 ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 13 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e消除強化符石不會對敵人造成傷害。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3095}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI230.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102912\u0026path-prefix\u003dzh",
+        "iconKey": "SI230.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3096",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3096",
+    "name": "首消17顆符石盾 ‧ 強化防禦盾 ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 17 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e消除強化符石不會對敵人造成傷害。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3096}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI230.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102912\u0026path-prefix\u003dzh",
+        "iconKey": "SI230.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3097",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3097",
+    "name": "首消23顆符石盾 ‧ 強化防禦盾 ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 23 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e消除強化符石不會對敵人造成傷害。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3097}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI230.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102912\u0026path-prefix\u003dzh",
+        "iconKey": "SI230.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3098",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3098",
+    "name": "首消27顆符石盾 ‧ 強化防禦盾 ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 27 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e消除強化符石不會對敵人造成傷害。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3098}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI230.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102912\u0026path-prefix\u003dzh",
+        "iconKey": "SI230.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3099",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3099",
+    "name": "首消13顆符石盾 ‧ 強化防禦90% ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 13 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e強化符石所造成的傷害減至 10%。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3099}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e6/SI238.png/revision/latest/scale-to-width-down/22?cb\u003d20170913135609\u0026path-prefix\u003dzh",
+        "iconKey": "SI238.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3100",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3100",
+    "name": "首消17顆符石盾 ‧ 強化防禦90% ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 17 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e強化符石所造成的傷害減至 10%。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3100}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e6/SI238.png/revision/latest/scale-to-width-down/22?cb\u003d20170913135609\u0026path-prefix\u003dzh",
+        "iconKey": "SI238.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3101",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3101",
+    "name": "首消23顆符石盾 ‧ 強化防禦90% ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 23 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e強化符石所造成的傷害減至 10%。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3101}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e6/SI238.png/revision/latest/scale-to-width-down/22?cb\u003d20170913135609\u0026path-prefix\u003dzh",
+        "iconKey": "SI238.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3102",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3102",
+    "name": "首消27顆符石盾 ‧ 強化防禦90% ‧ 始終盾 ‧ 無視減傷",
+    "detail": "首批消除 27 粒符石才會對敵人造成攻擊傷害。\u003cbr\u003e強化符石所造成的傷害減至 10%。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3102}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e6/SI238.png/revision/latest/scale-to-width-down/22?cb\u003d20170913135609\u0026path-prefix\u003dzh",
+        "iconKey": "SI238.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   }
 ]
