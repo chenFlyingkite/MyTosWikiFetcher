@@ -609,7 +609,7 @@ class TosGet {
                         if (c.name.isEmpty()) {
                             c.name = axi.text()
                             val des = axi.child(0).attr("data-texttip")
-                            c.detail = des.substringAfter("<br>")//.replace("<br>", "\n")
+                            c.detail = des.substringAfter("<br>").substringBefore("<br><img")//.replace("<br>", "\n")
                             c.link = getWikiLink(axi.attr("href"), baseWiki)
                         }
                     }
@@ -755,22 +755,32 @@ class TosGet {
                     }
                 }
 
-                val anx = getAnchors(s, "技能", "能力提升")
+                // Header of Row
+                val anx = getAnchors(s, "技能", "召喚獸能力提升", "附加技能效果")
+                // 1st
                 var up = anx[0]
                 if (up >= 0) {
-                    for (i in anx[0] + 1 until anx[1]) {
-                        val cs = CraftSkill()
-                        cs.level = i - anx[0]
-                        cs.detail = s[i].text()
-                        ans.craftSkill.add(cs)
-                    }
+                    val sks =  getCraftSkills(s, up, anx[1])
+                    ans.craftSkill.addAll(sks)
                 }
 
+                // 2nd
                 up = anx[1]
                 if (up >= 0) {
                     ans.upHp = s[up + 1].text()
                     ans.upAttack = s[up + 2].text()
                     ans.upRecovery = s[up + 3].text()
+                }
+
+                // 3rd
+                up = anx[2]
+                if (up >= 0) {
+                    for (i in up + 1 until s.size) {
+                        val cs = CraftSkill()
+                        cs.level = i - up
+                        cs.detail = s[i].text()
+                        ans.extraSkill.add(cs)
+                    }
                 }
             } else {
                 ans.rarity = s[3].text().replace("★", "").trim().toInt()
@@ -779,16 +789,26 @@ class TosGet {
                 ans.raceLimit = s[6].text()
                 ans.mode = s[8].text()
                 ans.charge = s[9].text()
-                val index = getAnchors(s, "技能", "來源")
-                val skillN = (index[1] - index[0] - 1) / 2
-                for (i in 0 until skillN) {
-                    val at = index[0] + 2 * i
-                    val cs = CraftSkill()
-                    cs.level = i + 1
-                    cs.detail = s[at + 1].text()
-                    cs.score = s[at + 2].text().substringAfter("：").toInt()
-                    ans.craftSkill.add(cs)
-                }
+                // Header of Row
+                val x = getAnchors(s, "技能", "來源")
+                val sks =  getCraftSkills(s, x[0], x[1])
+                ans.craftSkill.addAll(sks)
+            }
+            return ans
+        }
+
+        // parse llike => Skill1 , 1 回合內，隊伍回復力提升 50% , 發動積分：2000
+        private fun getCraftSkills(s: Elements, from: Int, to: Int) : List<CraftSkill> {
+            val ans = ArrayList<CraftSkill>()
+            val k = 2 // k elements as craft
+            val skillN = (to - from - 1) / k // skillN crafts
+            for (i in 0 until skillN) {
+                val at = from + k * i
+                val cs = CraftSkill()
+                cs.level = i + 1
+                cs.detail = s[at + 1].text()
+                cs.score = s[at + 2].text().substringAfter("：").toInt()
+                ans.add(cs)
             }
             return ans
         }

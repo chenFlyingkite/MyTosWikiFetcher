@@ -285,6 +285,8 @@ class Craft : SimpleCraft {
     var charge = ""
     @SerializedName("craftSkill")
     var craftSkill = ArrayList<CraftSkill>()
+    @SerializedName("extraSkill")
+    var extraSkill = ArrayList<CraftSkill>()
 
     //-- For Common
     @SerializedName("attrLimit")

@@ -9546,7 +9546,7 @@
     "id": "680",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/680",
     "name": "？形隱藏 ‧ 15%隱藏3顆符石",
-    "detail": "敵人會將固定位置的符石轉化為隱藏符石，並在每回合大幅的掉落隱藏符石\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/6/63/SUP-SI-001.png/revision/latest?cb\u003d20181001062326\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會將固定位置的符石轉化為隱藏符石，並在每回合大幅的掉落隱藏符石",
     "esCode": "{{ES680}}",
     "icons": [
       {
@@ -9559,7 +9559,7 @@
     "id": "681",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/681",
     "name": "？形隱藏 ‧ 15%隱藏4顆符石",
-    "detail": "敵人會將固定位置的符石轉化為隱藏符石，並在每回合大幅的掉落隱藏符石\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/6/63/SUP-SI-001.png/revision/latest?cb\u003d20181001062326\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會將固定位置的符石轉化為隱藏符石，並在每回合大幅的掉落隱藏符石",
     "esCode": "{{ES681}}",
     "icons": [
       {
@@ -9572,7 +9572,7 @@
     "id": "682",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/682",
     "name": "？形隱藏 ‧ 15%隱藏5顆符石",
-    "detail": "敵人會將固定位置的符石轉化為隱藏符石，並在每回合大幅的掉落隱藏符石\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/6/63/SUP-SI-001.png/revision/latest?cb\u003d20181001062326\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會將固定位置的符石轉化為隱藏符石，並在每回合大幅的掉落隱藏符石",
     "esCode": "{{ES682}}",
     "icons": [
       {
@@ -9785,7 +9785,7 @@
     "id": "691",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/691",
     "name": "首回腳板形轉光-光轉心 ‧ 同屬防禦75% ‧ 連擊-血弱趨狂",
-    "detail": "首回合敵人會先制將固定位置的符石轉化為光符石，並將其他的光符石轉化為心符石。與敵人屬性相同的攻擊傷害減至 25%。敵人會在 1 回合內連續攻擊 2 次，敵人生命力愈低時，連擊次數愈多。\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/0/0e/SUP-SI-002.png/revision/latest?cb\u003d20180929093233\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會先制將固定位置的符石轉化為光符石，並將其他的光符石轉化為心符石。與敵人屬性相同的攻擊傷害減至 25%。敵人會在 1 回合內連續攻擊 2 次，敵人生命力愈低時，連擊次數愈多。",
     "esCode": "{{ES691}}",
     "icons": [
       {
@@ -9810,7 +9810,7 @@
     "id": "692",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/692",
     "name": "首回腳板形轉光-光轉心 ‧ 同屬防禦90% ‧ 連擊-血弱趨狂",
-    "detail": "首回合敵人會先制將固定位置的符石轉化為光符石，並將其他的光符石轉化為心符石。與敵人屬性相同的攻擊傷害減至 10%。敵人會在 1 回合內連續攻擊 2 次，敵人生命力愈低時，連擊次數愈多。\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/0/0e/SUP-SI-002.png/revision/latest?cb\u003d20180929093233\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會先制將固定位置的符石轉化為光符石，並將其他的光符石轉化為心符石。與敵人屬性相同的攻擊傷害減至 10%。敵人會在 1 回合內連續攻擊 2 次，敵人生命力愈低時，連擊次數愈多。",
     "esCode": "{{ES692}}",
     "icons": [
       {
@@ -9933,7 +9933,7 @@
     "id": "699",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/699",
     "name": "首回心形轉心化血-每回心化血",
-    "detail": "首回合敵人會將固定位置的符石轉化為心符石，並將其他的心符石轉化為敵人屬性的符石。其後每回合敵人會鎖定場上的心符石；如有鎖定的心符石未被消除時，敵人回復相等於該回合召喚師所造成傷害的血量\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/6/68/SUP-SI-003.png/revision/latest?cb\u003d20181001062327\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會將固定位置的符石轉化為心符石，並將其他的心符石轉化為敵人屬性的符石。其後每回合敵人會鎖定場上的心符石；如有鎖定的心符石未被消除時，敵人回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES699}}",
     "icons": [
       {
@@ -11322,7 +11322,7 @@
     "id": "794",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/794",
     "name": "↘形燃燒10%",
-    "detail": "敵人會燃燒 5 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/2/22/SUP-SI-004.png/revision/latest?cb\u003d20181001062328\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會燃燒 5 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES794}}",
     "icons": [
       {
@@ -11335,7 +11335,7 @@
     "id": "795",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/795",
     "name": "↙形燃燒10%",
-    "detail": "敵人會燃燒 5 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/c/c7/SUP-SI-005.png/revision/latest?cb\u003d20181001062328\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會燃燒 5 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES795}}",
     "icons": [
       {
@@ -11348,7 +11348,7 @@
     "id": "796",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/796",
     "name": "✕形燃燒10%",
-    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES796}}",
     "icons": [
       {
@@ -11361,7 +11361,7 @@
     "id": "797",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/797",
     "name": "↘形風化-結",
-    "detail": "敵人死亡後會將 5 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/4/44/SUP-SI-007.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人死亡後會將 5 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石。",
     "esCode": "{{ES797}}",
     "icons": [
       {
@@ -11374,7 +11374,7 @@
     "id": "798",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/798",
     "name": "↙形風化-結",
-    "detail": "敵人死亡後會將 5 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/c/c0/SUP-SI-008.png/revision/latest?cb\u003d20181001062330\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人死亡後會將 5 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石。",
     "esCode": "{{ES798}}",
     "icons": [
       {
@@ -11387,7 +11387,7 @@
     "id": "799",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/799",
     "name": "✕形風化-結",
-    "detail": "敵人死亡後會將 10 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/f/ff/SUP-SI-009.png/revision/latest?cb\u003d20181001062330\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人死亡後會將 10 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石。",
     "esCode": "{{ES799}}",
     "icons": [
       {
@@ -13049,7 +13049,7 @@
     "id": "907",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/907",
     "name": "突擊10% ‧ 攻後雪花形凍結",
-    "detail": "首回合敵人會優先突擊 1 次。\u003cbr\u003e當首次受到敵人攻擊時，敵人會將固定位置的符石凍結；如有符石處於凍結狀態而未被消除時，3 回合內不能消除該符石\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/2/2f/SUP-SI-010.png/revision/latest?cb\u003d20181001062331\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會優先突擊 1 次。\u003cbr\u003e當首次受到敵人攻擊時，敵人會將固定位置的符石凍結；如有符石處於凍結狀態而未被消除時，3 回合內不能消除該符石",
     "esCode": "{{ES907}}",
     "icons": [
       {
@@ -13066,7 +13066,7 @@
     "id": "908",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/908",
     "name": "突擊10% ‧ 攻後雪花形冰封",
-    "detail": "首回合敵人會優先突擊 1 次。\u003cbr\u003e當首次受到敵人攻擊時，敵人會將固定位置的符石凍結，3 回合內不能消除該符石\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/2/2f/SUP-SI-010.png/revision/latest?cb\u003d20181001062331\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會優先突擊 1 次。\u003cbr\u003e當首次受到敵人攻擊時，敵人會將固定位置的符石凍結，3 回合內不能消除該符石",
     "esCode": "{{ES908}}",
     "icons": [
       {
@@ -14472,7 +14472,7 @@
     "id": "984",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/984",
     "name": "溢補盾 ‧ 心形轉心-其他轉敵屬 ‧ 隨機轉心",
-    "detail": "召喚師完全回復生命力後，剩餘的回復力會轉化為攻擊力。\u003cbr\u003e首回合敵人會將固定位置的符石轉化為心符石，並將其他的符石轉化為敵人屬性的符石。其後每回合敵人會將隨機 1 種符石轉化為心符石\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/b/b6/SUP-SI-011.png/revision/latest?cb\u003d20181001062332\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "召喚師完全回復生命力後，剩餘的回復力會轉化為攻擊力。\u003cbr\u003e首回合敵人會將固定位置的符石轉化為心符石，並將其他的符石轉化為敵人屬性的符石。其後每回合敵人會將隨機 1 種符石轉化為心符石",
     "esCode": "{{ES984}}",
     "icons": [
       {
@@ -17976,7 +17976,7 @@
     "id": "1201",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1201",
     "name": "(3回減攻99%) ‧ 初怒-✕形風化3000 ‧ 無法控制",
-    "detail": "首回合敵人的攻擊力會大幅提升，並將 10 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害。\u003cbr\u003e3 回合內，敵人會令所有成員的攻擊傷害減至 1%。\u003cbr\u003e敵人會無視所有控制技能\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/f/ff/SUP-SI-009.png/revision/latest?cb\u003d20181001062330\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人的攻擊力會大幅提升，並將 10 個固定位置的符石風化。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害。\u003cbr\u003e3 回合內，敵人會令所有成員的攻擊傷害減至 1%。\u003cbr\u003e敵人會無視所有控制技能",
     "esCode": "{{ES1201}}",
     "icons": [
       {
@@ -26631,7 +26631,7 @@
     "id": "1688",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1688",
     "name": "附加消除-技能重置-龍脈重置 ‧ 五屬刷新 ‧ 首消隨機Combo盾-轉 ‧ 10%強盾",
-    "detail": "首回合敵人會消除召喚師所有附加效果，其技能 CD 將被重置，同時清空龍脈儀的能量。\u003cbr\u003e每回合敵人會將所有符石轉換為固定數量的屬性符石。\u003cbr\u003e在開始移動符石時，出現隨機指定的連擊 (Combo) 數，當達成指定的連擊 (Combo) 才會對敵人做成攻擊傷害 (需消除符石及只計算首批消除的符石)。達成上述指定的連擊 (Combo) 數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 10% 的傷害，且主動技能無法對其造成傷害。",
+    "detail": "首回合消除召喚師所有附加效果，所有成員的技能 CD 及累積戰鬥回合數將被重置，同時清空龍脈儀的能量。\u003cbr\u003e每回合敵人會將所有符石轉換為固定數量的屬性符石。\u003cbr\u003e在開始移動符石時，出現隨機指定的連擊 (Combo) 數，當達成指定的連擊 (Combo) 才會對敵人做成攻擊傷害 (需消除符石及只計算首批消除的符石)。達成上述指定的連擊 (Combo) 數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 10% 的傷害，且主動技能無法對其造成傷害。",
     "esCode": "{{ES1688}}",
     "icons": [
       {
@@ -29385,7 +29385,7 @@
     "id": "1834",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1834",
     "name": "突擊10% ‧ 心形轉心弱化鎖定10%-心轉光 ‧ 無法控制",
-    "detail": "首回合敵人會優先突擊 1 次，同時將 13 個固定位置的符石轉化為鎖定的心符石，並將固定位置以外的心符石轉化為光符石。每消除 1 粒被鎖定的符石，全隊攻擊力減少 10% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人會無視所有控制技能\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/f/fd/SUP-SI-012.png/revision/latest?cb\u003d20181001062332\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會優先突擊 1 次，同時將 13 個固定位置的符石轉化為鎖定的心符石，並將固定位置以外的心符石轉化為光符石。每消除 1 粒被鎖定的符石，全隊攻擊力減少 10% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人會無視所有控制技能",
     "esCode": "{{ES1834}}",
     "icons": [
       {
@@ -29431,7 +29431,7 @@
     "id": "1836",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1836",
     "name": "突擊10% ‧ 心形轉心弱化鎖定20%-心轉光 ‧ 無法控制",
-    "detail": "首回合敵人會優先突擊 1 次，同時將 13 個固定位置的符石轉化為鎖定的心符石，並將固定位置以外的心符石轉化為光符石。每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人會無視所有控制技能\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/f/fd/SUP-SI-012.png/revision/latest?cb\u003d20181001062332\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會優先突擊 1 次，同時將 13 個固定位置的符石轉化為鎖定的心符石，並將固定位置以外的心符石轉化為光符石。每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人會無視所有控制技能",
     "esCode": "{{ES1836}}",
     "icons": [
       {
@@ -29481,7 +29481,7 @@
     "id": "1838",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1838",
     "name": "突擊65% ‧ 心形轉心弱化鎖定20%-心轉光 ‧ 無法控制",
-    "detail": "首回合敵人會優先突擊 1 次，同時將 13 個固定位置的符石轉化為鎖定的心符石，並將固定位置以外的心符石轉化為光符石。每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人會無視所有控制技能\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/f/fd/SUP-SI-012.png/revision/latest?cb\u003d20181001062332\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會優先突擊 1 次，同時將 13 個固定位置的符石轉化為鎖定的心符石，並將固定位置以外的心符石轉化為光符石。每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人會無視所有控制技能",
     "esCode": "{{ES1838}}",
     "icons": [
       {
@@ -31167,7 +31167,7 @@
     "id": "1924",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1924",
     "name": "附加消除重置 ‧ 首回火木固定轉化-光轉木 ‧ 首消木追擊零化",
-    "detail": "首回合敵人會消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e首回合敵人會分別將 16 個及 14 個固定位置的符石轉化為火符石及木符石，其後每回合將光符石轉化為木符石。\u003cbr\u003e消除木屬性的連擊 (Combo) 會令全隊攻擊無效，消除的木屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。連擊 (Combo) 只計算首批消除的符石\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/6/61/SUP-SI-013.png/revision/latest?cb\u003d20181001062333\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合敵人會消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e首回合敵人會分別將 16 個及 14 個固定位置的符石轉化為火符石及木符石，其後每回合將光符石轉化為木符石。\u003cbr\u003e消除木屬性的連擊 (Combo) 會令全隊攻擊無效，消除的木屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。連擊 (Combo) 只計算首批消除的符石",
     "esCode": "{{ES1924}}",
     "icons": [
       {
@@ -35446,7 +35446,7 @@
     "id": "2147",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2147",
     "name": "同屬防禦75% ‧ 龍類禁錮 ‧ ✕形燃燒10%",
-    "detail": "與敵人屬性相同的攻擊傷害減至 25%。\u003cbr\u003e首回合敵人會永久封鎖龍類成員的主動技能及其攻擊。\u003cbr\u003e敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "與敵人屬性相同的攻擊傷害減至 25%。\u003cbr\u003e首回合敵人會永久封鎖龍類成員的主動技能及其攻擊。\u003cbr\u003e敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES2147}}",
     "icons": [
       {
@@ -35467,7 +35467,7 @@
     "id": "2148",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2148",
     "name": "同屬防禦90% ‧ 龍類禁錮 ‧ ✕形燃燒10%",
-    "detail": "與敵人屬性相同的攻擊傷害減至 10%。\u003cbr\u003e首回合敵人會永久封鎖龍類成員的主動技能及其攻擊。\u003cbr\u003e敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "與敵人屬性相同的攻擊傷害減至 10%。\u003cbr\u003e首回合敵人會永久封鎖龍類成員的主動技能及其攻擊。\u003cbr\u003e敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
     "esCode": "{{ES2148}}",
     "icons": [
       {
@@ -39041,7 +39041,7 @@
     "id": "2330",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2330",
     "name": "✕形燃燒10% ‧ 首消全水盾 ‧ 越攻越強",
-    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e消除場上所有水符石才能對敵人造成攻擊傷害 (需消除水符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e消除場上所有水符石才能對敵人造成攻擊傷害 (需消除水符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES2330}}",
     "icons": [
       {
@@ -39062,7 +39062,7 @@
     "id": "2331",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2331",
     "name": "✕形燃燒10% ‧ 首消全火盾 ‧ 越攻越強",
-    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e消除場上所有火符石才能對敵人造成攻擊傷害 (需消除火符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e消除場上所有火符石才能對敵人造成攻擊傷害 (需消除火符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES2331}}",
     "icons": [
       {
@@ -39083,7 +39083,7 @@
     "id": "2332",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2332",
     "name": "✕形燃燒20% ‧ 首消全水盾 ‧ 越攻越強",
-    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e消除場上所有水符石才能對敵人造成攻擊傷害 (需消除水符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e消除場上所有水符石才能對敵人造成攻擊傷害 (需消除水符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES2332}}",
     "icons": [
       {
@@ -39104,7 +39104,7 @@
     "id": "2333",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2333",
     "name": "✕形燃燒20% ‧ 首消全火盾 ‧ 越攻越強",
-    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e消除場上所有火符石才能對敵人造成攻擊傷害 (需消除火符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e消除場上所有火符石才能對敵人造成攻擊傷害 (需消除火符石及只計算首批消除的符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES2333}}",
     "icons": [
       {
@@ -49176,7 +49176,7 @@
     "id": "2908",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2908",
     "name": "先攻 ‧ 火心固定轉化-攻後轉直火 ‧ 首消火追擊零化 ‧ 首消全心盾",
-    "detail": "首回合優先攻擊 1 次。\u003cbr\u003e首回合將固定位置的符石轉化為火及心符石，並將其他的火及心符石分別轉化為水及木符石；其後每次受到敵人攻擊時，隨機將 1 直行的符石轉化為火符石。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的火屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e首批消除場上所有心符石才能對敵人造成攻擊傷害 (需消除心符石)\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/e/e8/SUP-SI-014.png/revision/latest?cb\u003d20181001062333\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合優先攻擊 1 次。\u003cbr\u003e首回合將固定位置的符石轉化為火及心符石，並將其他的火及心符石分別轉化為水及木符石；其後每次受到敵人攻擊時，隨機將 1 直行的符石轉化為火符石。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的火屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e首批消除場上所有心符石才能對敵人造成攻擊傷害 (需消除心符石)",
     "esCode": "{{ES2908}}",
     "icons": [
       {
@@ -49226,7 +49226,7 @@
     "id": "2910",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2910",
     "name": "先攻 ‧ 火心固定轉化-攻後轉直火 ‧ 首消火追擊零化 ‧ 首消全心盾 ‧ 獸類禁錮",
-    "detail": "首回合優先攻擊 1 次。\u003cbr\u003e首回合將固定位置的符石轉化為火及心符石，並將其他的火符石及心符石分別轉化為水及木符石；其後每次受到敵人攻擊時，隨機將 1 直行的符石轉化為火符石。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的火屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e首回合敵人會永久封鎖獸類成員的主動技能及其攻擊\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/e/e8/SUP-SI-014.png/revision/latest?cb\u003d20181001062333\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "首回合優先攻擊 1 次。\u003cbr\u003e首回合將固定位置的符石轉化為火及心符石，並將其他的火符石及心符石分別轉化為水及木符石；其後每次受到敵人攻擊時，隨機將 1 直行的符石轉化為火符石。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的火屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e首回合敵人會永久封鎖獸類成員的主動技能及其攻擊",
     "esCode": "{{ES2910}}",
     "icons": [
       {
@@ -52727,7 +52727,7 @@
   {
     "id": "3061",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3061",
-    "name": "扣血90% ‧ 縱橫射擊 ‧ 光暗強化盾",
+    "name": "扣血90% ‧ 縱橫射擊 ‧ 強化光暗盾",
     "detail": "每回合敵人發動攻擊時會扣除召喚師 90% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人會在 CD 2 時射擊 1 直行的位置，並在 CD 1 時射擊 1 橫行的位置，被射擊的位置一經觸碰，即時停止移動符石。\u003cbr\u003e同時消除光強化及暗強化符石才會對敵人造成攻擊傷害",
     "esCode": "{{ES3061}}",
     "icons": [
@@ -52769,7 +52769,7 @@
   {
     "id": "3063",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3063",
-    "name": "無限回復 ‧ 軌跡燃燒5000 ‧ 光暗強化盾-限",
+    "name": "無限回復 ‧ 軌跡燃燒5000 ‧ 強化光暗盾-限",
     "detail": "敵人每回合會完全回復生命力。\u003cbr\u003e燃燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 5000 點的傷害。\u003cbr\u003e召喚師需同時符合以下兩個條件，才會對敵人造成攻擊傷害：同時消除光強化及暗強化符石；不能消除水符石、火符石或木符石 (只計算首批消除的符石)",
     "esCode": "{{ES3063}}",
     "icons": [
@@ -53456,13 +53456,13 @@
   {
     "id": "3090",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3090",
-    "name": "首消指定符石追擊盾 ‧ 25%盾 ‧ 無法控制",
+    "name": "首消隨機16~25顆符石追擊盾 ‧ 25%盾 ‧ 無法控制",
     "detail": "首批消除指定數量的符石，才會對敵人造成攻擊傷害。達成條件時，敵人不會發動攻擊；反之，差距的符石數量愈多，敵人的攻擊次數愈多。\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 25% 的傷害 (主動技除外)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3090}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI048.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101605\u0026path-prefix\u003dzh",
+        "iconKey": "SI048.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
@@ -53477,7 +53477,7 @@
   {
     "id": "3091",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3091",
-    "name": "附加消除 ‧ 攻前盾 ‧ 先攻當前99%-隱藏圍城 ‧ 首消暗傷害吸收 ‧ 無法控制",
+    "name": "附加消除 ‧ 攻前盾 ‧ 首攻當前99%-隱藏圍城 ‧ 首消暗傷害吸收 ‧ 無法控制",
     "detail": "首回合敵人會消除召喚師所有附加效果。\u003cbr\u003e敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e首次攻擊時，敵人會扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)；受此攻擊後將所有符石轉化為隱藏符石。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3091}}",
     "icons": [
@@ -53511,7 +53511,7 @@
     "id": "3092",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3092",
     "name": "✕形燃燒20% ‧ 首消全木盾 ‧ 越攻越強",
-    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有木符石才能對敵人造成攻擊傷害 (需消除木符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有木符石才能對敵人造成攻擊傷害 (需消除木符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3092}}",
     "icons": [
       {
@@ -53532,7 +53532,7 @@
     "id": "3093",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3093",
     "name": "✕形燃燒20% ‧ 首消全光盾 ‧ 越攻越強",
-    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有光符石才能對敵人造成攻擊傷害 (需消除光符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有光符石才能對敵人造成攻擊傷害 (需消除光符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3093}}",
     "icons": [
       {
@@ -53553,7 +53553,7 @@
     "id": "3094",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3094",
     "name": "✕形燃燒20% ‧ 首消全暗盾 ‧ 越攻越強",
-    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有暗符石才能對敵人造成攻擊傷害 (需消除暗符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次\u003cbr\u003e\u003cimg src\u003d\"https://vignette.wikia.nocookie.net/tos/images/d/d5/SUP-SI-006.png/revision/latest?cb\u003d20181001062329\u0026path-prefix\u003dzh\" width\u003d\"250\"\u003e",
+    "detail": "敵人會燃燒 10 個固定位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除場上所有暗符石才能對敵人造成攻擊傷害 (需消除暗符石)。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3094}}",
     "icons": [
       {
