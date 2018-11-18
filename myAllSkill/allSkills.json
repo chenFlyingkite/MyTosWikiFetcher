@@ -12129,6 +12129,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "流水邪術",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B5%81%E6%B0%B4%E9%82%AA%E8%A1%93",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "最頂 1 橫行的符石轉化為心符石，最右方 1 直行的 4 粒符石轉化為水妖族符石",
+    "skillMonsters": [
+      "7016"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "流水魔影",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B5%81%E6%B0%B4%E9%AD%94%E5%BD%B1",
@@ -21654,6 +21665,17 @@
     "skillDesc": "變身；1 回合內，迴避敵人首次攻擊",
     "skillMonsters": [
       "1766"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "貓療術",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E8%B2%93%E7%99%82%E8%A1%93",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "3 回合內，根據隊伍中獸類成員的數量，回復相應的生命力，6 個獸類成員可回復最多 15000 點生命力；於單數層數 (Wave) 發動此技能，此技能回復量 2 倍及最多可回復 30000 點生命力",
+    "skillMonsters": [
+      "1937"
     ]
   },
   {

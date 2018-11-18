@@ -39,8 +39,9 @@ public class Main {
         // 維基動態
         if (regl) {
             // 最近動態
-            runParallel(parl, TosWikiArticlesFetcher.me);
+            //runParallel(parl, TosWikiArticlesFetcher.me);
         }
+        TosWikiArticlesFetcher.me.run();
         // 神魔主頁內容
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);
