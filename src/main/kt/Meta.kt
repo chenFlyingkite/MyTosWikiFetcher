@@ -36,7 +36,7 @@ class StageGroup {
     }
 }
 
-class Stage {
+open class Stage {
     @SerializedName("link")
     var link = ""
 
@@ -51,6 +51,15 @@ class Stage {
     }
 }
 
+open class RelicStage : Stage() {
+    @SerializedName("coin")
+    var coin = 0
+
+    override fun toString(): String {
+        return "$$coin = ${super.toString()}"
+    }
+}
+
 open class NameLink {
     @SerializedName("link")
     var link = ""
@@ -60,6 +69,10 @@ open class NameLink {
 
     fun isEmpty() : Boolean {
         return TextUtil.isEmpty(link) && TextUtil.isEmpty(name)
+    }
+
+    override fun toString(): String {
+        return "$name -> $link"
     }
 }
 

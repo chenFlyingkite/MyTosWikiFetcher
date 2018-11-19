@@ -266,7 +266,7 @@ class TosGet {
                             val nch = child?.size ?: 0
                             for (m in 0 until nch) {
                                 if (child[m] is Element) {
-                                    val s = normEvoId(getImgAlt(child[m]))
+                                    val s = getAltId(child[m])
                                     if (!TextUtil.isEmpty(s)) {
                                         ame.monsters.add(s)
                                     }
@@ -356,14 +356,14 @@ class TosGet {
                 if (inNos) {
                     // omit since is <noscript><img/></noscript>
                 } else {
-                    list.add(normEvoId(img.attr("alt")))
+                    list.add(normCardId(img.attr("alt")))
                 }
             }
             return list
         }
 
         private fun getAltId(e: Element) : String {
-            return normEvoId(getImgAlt(e))
+            return normCardId(getImgAlt(e))
         }
 
         private fun getTextAt(e: Elements, k: Int) : String {
@@ -392,7 +392,7 @@ class TosGet {
                 val end = nTr - 1
                 val td0 = getTdElement(itemTrs[end], 0)
                 if (td0 != null) {
-                    val s = normEvoId(getImgAlt(td0))
+                    val s = getAltId(td0)
                     if (!TextUtil.isEmpty(s)) {
                         ame.monsters.add(s)
                     }
@@ -422,7 +422,7 @@ class TosGet {
                     val n = item.children()?.size ?: 0
                     if (n > 0) {
                         val img = item.child(0)
-                        c.id = normEvoId(img.attr("alt"))
+                        c.id = normCardId(img.attr("alt"))
                         c.linkId = baseWiki + "/wiki/" + c.id.toInt()
                     }
                     ans.add(c)
@@ -630,6 +630,34 @@ class TosGet {
             return img
         }
 
+        fun getRelicPassStages(e: Element?, baseWiki: String) : List<RelicStage> {
+            val ans = ArrayList<RelicStage>()
+            if (e == null) return ans
+
+            val im = e.getElementsByClass(imageClass)
+            val tt = e.getElementsByClass("tt-text")
+
+            // Assert their size
+            if (im.size != tt.size) {
+                println("Why table has ${im.size} images & ${tt.size} tt-texts?")
+            }
+
+            // Start to parse
+            val n = Math.min(im.size, tt.size)
+            for (i in 0 until n) {
+                val imi = im[i]
+                val tti = tt[i]
+                val rs = RelicStage()
+                rs.name = imi.attr("title")
+                rs.link = getWikiLink(imi.attr("href"), baseWiki)
+                rs.icon = getAltId(imi)
+                rs.coin = tti.parent().text().replace("x ", "").toInt()
+                ans.add(rs)
+            }
+
+            return ans
+        }
+
         /**
          * Fetch <span>'s item as simple craft
          */
@@ -666,7 +694,7 @@ class TosGet {
             return ans
         }
 
-        private fun getWikiLink(src: String, baseWiki: String) : String {
+        fun getWikiLink(src: String, baseWiki: String) : String {
             // Handle for the link with baseWiki prefix
             if (src.isEmpty()) {
                 return src
@@ -686,7 +714,7 @@ class TosGet {
         }
 
 
-        private fun normEvoId(s: String?): String {
+        private fun normCardId(s: String?): String {
             val endI = s != null && s.endsWith("i")
             if (endI && s != null) {
                 // Parse "12i" to "0012"
@@ -745,7 +773,7 @@ class TosGet {
                         val ci = getImageTag(c) // i-th card
                         val cn = ci?.size ?: 0
                         if (ci != null && cn > 0) {
-                            ans.cardLimit.add(normEvoId(ci[0].attr("alt")))
+                            ans.cardLimit.add(normCardId(ci[0].attr("alt")))
                         }
                     }
                     // Self checking the limit should name length
@@ -1185,7 +1213,7 @@ class TosGet {
                             de.detail = concatTextNodes(ele)
                             val tas = ele.getElementsByClass(imageClass)
                             for (a in tas) {
-                                de.sameSkills.add(normEvoId(getImgAlt(a)))
+                                de.sameSkills.add(getAltId(a))
                             }
                         }
                     }

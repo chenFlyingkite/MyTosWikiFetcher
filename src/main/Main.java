@@ -14,6 +14,7 @@ import flyingkite.tool.TicTac2;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
+import main.fetcher.TosLostRelicPassFetcher;
 import main.fetcher.TosMainStageFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
@@ -39,9 +40,9 @@ public class Main {
         // 維基動態
         if (regl) {
             // 最近動態
-            //runParallel(parl, TosWikiArticlesFetcher.me);
+            runParallel(parl, TosWikiArticlesFetcher.me);
+            //TosWikiArticlesFetcher.me.run();
         }
-        TosWikiArticlesFetcher.me.run();
         // 神魔主頁內容
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);
@@ -54,6 +55,8 @@ public class Main {
             //runParallel(parl, TosCraftFetcher.me);
             // 全部技能
             //runParallel(parl, TosSkillFetcher.me);
+            // 遺跡特許
+            runParallel(parl, TosLostRelicPassFetcher.me);
         }
         // 卡片內容
         // Skill change + Craft + Card List -> Card Fetcher

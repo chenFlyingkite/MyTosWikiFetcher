@@ -258,6 +258,21 @@ public class TosWikiBaseFetcher implements Runnable {
         return sb.toString();
     }
 
+    public String wikiLink(String src) {
+        return wikiLink(src, wikiBaseZh);
+    }
+
+    public String wikiLink(String src, String baseWiki){
+        // Handle for the link with baseWiki prefix
+        if (src.isEmpty()) {
+            return src;
+        } else if (src.startsWith(baseWiki)) {
+            return src;
+        } else {
+            return baseWiki + src;
+        }
+    }
+
     public Document getDocument(String link) {
         return getDocument(link, false);
     }
