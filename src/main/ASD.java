@@ -259,6 +259,8 @@ public class ASD {
         getImageR("enochian", "Screenshot_20180915-225351.png", r, "0");
         r = Rect2.atLTWH(0, 700, 600, 600);
         getImageR("enochian", "Screenshot_20180915-225351.png", r, "1");
+        r = Rect2.atLTWH(1050, 1200, 600, 600);
+        getImageR("enochian", "Screenshot_20181120-191640.png", r, "2");
 
         scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\enochian", 400);
     }

@@ -31,20 +31,21 @@ public class TosLostRelicPassFetcher extends TosWikiBaseFetcher {
 
         List<NameLink> li = getFlyTabs(getPage());
         mLf.log("%s pages", li.size());
-        List<RelicStage> stages = new ArrayList<>();
+        List<List<RelicStage>> allStages = new ArrayList<>();
         for (int i = 0; i < li.size(); i++) {
             NameLink n = li.get(i);
             mLf.log("#%s %s", i, n);
-            stages = getRelicPassStages(n.getLink());
+            List<RelicStage> stages = getRelicPassStages(n.getLink());
             for (int j = 0; j < stages.size(); j++) {
                 mLf.log("  -> #%s %s", j, stages.get(j));
             }
+            allStages.add(stages);
         }
 
         clock.tac("%s Done", tag());
 
         // Writing gson
-        writeAsGson(stages, mRelic);
+        writeAsGson(allStages, mRelic);
 
         mLf.getFile().close();
     }
