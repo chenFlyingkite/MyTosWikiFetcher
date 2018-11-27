@@ -1336,6 +1336,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "元素協力 ‧ 獸",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%8D%94%E5%8A%9B_%E2%80%A7_%E7%8D%B8",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中有 3 個或以上屬性成員時，獸類攻擊力 4 倍",
+    "skillMonsters": [
+      "1942"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "元素均霑",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%83%E7%B4%A0%E5%9D%87%E9%9C%91",
@@ -4159,6 +4170,17 @@
     "skillDesc": "1 回合內，個人追打自身攻擊力 3 倍的攻擊 1 次。若身旁的成員同為火屬性或龍類，同得此效果",
     "skillMonsters": [
       "1652"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "吞食記錄",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%90%9E%E9%A3%9F%E8%A8%98%E9%8C%84",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "心符石轉化為強化符石，水、火及木符石轉化為獸族符石。1 回合內，將掉落的水、火及木符石以獸族強化符石代替",
+    "skillMonsters": [
+      "1942"
     ]
   },
   {
@@ -10526,6 +10548,28 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "機械零件 ‧ 木",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%9B%B6%E4%BB%B6_%E2%80%A7_%E6%9C%A8",
+    "skillCDMin": 14,
+    "skillCDMax": 3,
+    "skillDesc": "隨機將 3 粒木符石轉化為機械族強化符石",
+    "skillMonsters": [
+      "1908"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機械零件 ‧ 火",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E9%9B%B6%E4%BB%B6_%E2%80%A7_%E7%81%AB",
+    "skillCDMin": 14,
+    "skillCDMax": 3,
+    "skillDesc": "隨機將 3 粒火符石轉化為機械族強化符石",
+    "skillMonsters": [
+      "1909"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "機獸之暴 ‧ 光",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E7%8D%B8%E4%B9%8B%E6%9A%B4_%E2%80%A7_%E5%85%89",
@@ -16767,6 +16811,7 @@
       "1854",
       "1856",
       "1894",
+      "1920",
       "9017"
     ]
   },
@@ -18696,6 +18741,17 @@
       "0150",
       "0151",
       "0883"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "符紋秘術",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%AC%A6%E7%B4%8B%E7%A7%98%E8%A1%93",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "將最底 1 橫行的符石轉化為 3 粒光符石及 3 粒心符石，並將最左及最右方各 1 直行的 4 粒符石轉化為暗符石；技能發動回合若有擊斃敵人，於回合結束時完全回復生命力",
+    "skillMonsters": [
+      "1920"
     ]
   },
   {

@@ -24,7 +24,10 @@ public class PngInvert implements ImageUtil {
         if (srcFolder == null || dstFolder == null) return;
 
         File sf = new File(srcFolder);
-        File[] sfs = sf.listFiles((file) -> {
+        File[] sfs;
+
+        // List images
+        sfs = sf.listFiles((file) -> {
             return isImage(file.getAbsolutePath());
         });
 
@@ -33,6 +36,19 @@ public class PngInvert implements ImageUtil {
                 File f = sfs[i];
                 File d = new File(dstFolder, f.getName());
                 invert(f.getAbsolutePath(), d.getAbsolutePath());
+            }
+        }
+
+        // List folders
+        sfs = sf.listFiles((file) -> {
+            return file.isDirectory();
+        });
+
+        if (sfs != null) {
+            for (int i = 0; i < sfs.length; i++) {
+                File f = sfs[i];
+                String n = File.separator + f.getName();
+                invertImages(srcFolder + n, dstFolder + n);
             }
         }
     }

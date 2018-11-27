@@ -11382,6 +11382,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1905"
   },
   {
+    "title": "No. 1908 魔法的原始碼 ‧ Android",
+    "id": "1908",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9A%84%E5%8E%9F%E5%A7%8B%E7%A2%BC_%E2%80%A7_Android",
+    "linkId": "http://zh.tos.wikia.com/wiki/1908"
+  },
+  {
+    "title": "No. 1909 機械人的詠願 ‧ Android",
+    "id": "1909",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%A9%9F%E6%A2%B0%E4%BA%BA%E7%9A%84%E8%A9%A0%E9%A1%98_%E2%80%A7_Android",
+    "linkId": "http://zh.tos.wikia.com/wiki/1909"
+  },
+  {
     "title": "No. 1916 約定盟誓 ‧ 索貝克",
     "id": "1916",
     "link": "http://zh.tos.wikia.com/wiki/%E7%B4%84%E5%AE%9A%E7%9B%9F%E8%AA%93_%E2%80%A7_%E7%B4%A2%E8%B2%9D%E5%85%8B",
@@ -11524,6 +11536,12 @@
     "id": "1941",
     "link": "http://zh.tos.wikia.com/wiki/%E6%8E%A2%E5%81%B5%E6%83%85%E5%A0%B1_%E2%80%A7_%E4%B8%80%E6%AF%9B",
     "linkId": "http://zh.tos.wikia.com/wiki/1941"
+  },
+  {
+    "title": "No. 1942 蒐集本色 ‧ 二毛",
+    "id": "1942",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%92%90%E9%9B%86%E6%9C%AC%E8%89%B2_%E2%80%A7_%E4%BA%8C%E6%AF%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/1942"
   },
   {
     "title": "No. 1946 萬魔壟斷 ‧  薩魯曼",
