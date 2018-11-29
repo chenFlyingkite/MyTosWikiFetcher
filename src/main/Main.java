@@ -41,8 +41,8 @@ public class Main {
         if (regl) {
             // 最近動態
             runParallel(parl, TosWikiArticlesFetcher.me);
-            //TosWikiArticlesFetcher.me.run();
         }
+        //TosWikiArticlesFetcher.me.run();
         // 神魔主頁內容
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);

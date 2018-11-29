@@ -31426,8 +31426,8 @@
   {
     "id": "1936",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1936",
-    "name": "軌跡隱藏 ‧ 光暗盾-限 ‧ 無限回復",
-    "detail": "敵人會持續將移動符石時所觸碰的符石轉化為隱藏符石。\u003cbr\u003e召喚師需同時符合以下兩個條件，才會對敵人造成攻擊傷害：同時消除光及暗符石；不能消除水、火或木符石 (只計算首批消除的符石)。\u003cbr\u003e敵人每回合會完全回復生命力",
+    "name": "軌跡隱藏 ‧ 強化光暗盾-限 ‧ 無限回復",
+    "detail": "敵人會持續將移動符石時所觸碰的符石轉化為隱藏符石。\u003cbr\u003e召喚師需同時符合以下兩個條件，才會對敵人造成攻擊傷害：同時消除光強化及暗強化符石；不能消除水、火或木符石 (只計算首批消除的符石)。\u003cbr\u003e敵人每回合會完全回復生命力",
     "esCode": "{{ES1936}}",
     "icons": [
       {
@@ -31435,8 +31435,8 @@
         "iconKey": "SI224.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI241.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103118\u0026path-prefix\u003dzh",
-        "iconKey": "SI241.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI245.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103119\u0026path-prefix\u003dzh",
+        "iconKey": "SI245.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI212.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
@@ -53377,7 +53377,7 @@
   {
     "id": "3087",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3087",
-    "name": "敵轉光 ‧ 首回附加消除重置 ‧ 迷惑符石 ‧ 首消火追擊零化 ‧ 無法控制",
+    "name": "敵轉光 ‧ 附加消除重置 ‧ 迷惑符石 ‧ 首消火追擊零化 ‧ 無法控制",
     "detail": "首回合敵人會轉換為光屬性。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e無法看透符石的本質。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的火屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3087}}",
     "icons": [
