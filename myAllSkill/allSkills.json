@@ -14755,6 +14755,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "爆烈之肌",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%88%86%E7%83%88%E4%B9%8B%E8%82%8C",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "引爆場上所有符石，以掉落該直行獸類成員屬性的符石，獸類以外成員直行的符石則隨機掉落",
+    "skillMonsters": [
+      "1938"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "爆燄之鎧",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%88%86%E7%87%84%E4%B9%8B%E9%8E%A7",
