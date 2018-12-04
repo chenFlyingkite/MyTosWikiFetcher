@@ -570,6 +570,34 @@ class TosGet {
             return ans
         }
 
+        fun getStoryStages(e: Element, baseWiki: String) : List<StageGroup> {
+            val list = ArrayList<StageGroup>()
+            val tit = e.getElementsByClass("titleBar2")
+            val stg = e.getElementsByTag("a")
+            val cnt = intArrayOf(6, 6
+                    , 5, 5, 5, 5, 5, 5, 5
+                    // , 7, 5, 5, 5 // Disney
+            )
+
+            var k = 0
+            for (i in 0 until cnt.size) {
+                val sg = StageGroup()
+                sg.group = tit[i].text()
+                val st = sg.stages
+                val ni = cnt[i]
+                for (j in 0 until ni) {
+                    val g = Stage()
+                    g.icon = getAltId(stg[k])
+                    g.name = stg[k + 1].text()
+                    g.link = getWikiLink(stg[k].attr("href"), baseWiki)
+                    st.add(g)
+                    k += 2
+                }
+                list.add(sg)
+            }
+            return list
+        }
+
         private fun getStageInfo(e: Element, baseWiki: String) : Stage {
             val m = Stage()
             m.icon = getAltId(e)

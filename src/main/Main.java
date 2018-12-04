@@ -18,6 +18,7 @@ import main.fetcher.TosLostRelicPassFetcher;
 import main.fetcher.TosMainStageFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
+import main.fetcher.TosStoryStageFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiFilePeeker;
@@ -90,6 +91,7 @@ public class Main {
             TosWikiImageFileFetcher.me.run();
             TosWikiStageFetcher.me.run();
             TosMainStageFetcher.me.run();
+            TosStoryStageFetcher.me.run();
         }
         //MobileComm.run();
         // Others misc

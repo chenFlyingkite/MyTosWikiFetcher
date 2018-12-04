@@ -64,6 +64,7 @@ public class ASD {
         loadCardsCSV();
         //PngInvert.me.invertImages("Logos/A", "Logos/B");
         //getEnochianTower();
+        //getStoryDragon();
         //scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\enochian", 400);
         //scaleAllImage("D:\\GitHub\\MyTosWiki\\app\\src\\main\\res\\drawable-xxxhdpi", new String[]{"x"}, 100);
         tt.tac("Done");
@@ -251,6 +252,13 @@ public class ASD {
             }
             L.log("table.put(%3s, new Double[]{%s});", cell[0], sk);
         }
+    }
+
+    private static void getStoryDragon() {
+        Rect2 r;
+        r = Rect2.atLTWH(1426, 660, 600, 600);
+        getImageR("story", "Screenshot_20181204-033329.png", r, "0");
+        scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\story", 400);
     }
 
     private static void getEnochianTower() {
