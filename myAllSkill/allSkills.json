@@ -2503,7 +2503,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%85%A9%E5%84%80",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "所受傷害 30% 轉化為我方生命力",
+    "skillDesc": "所受傷害 30% (不包括敵技傷害) 轉化為我方生命力",
     "skillMonsters": [
       "0152",
       "0153",
@@ -5964,6 +5964,17 @@
     "skillDesc": "1 回合內，自身攻擊力 2.5 倍。若身旁的成員同為水屬性或魔族，同得此效果",
     "skillMonsters": [
       "0737"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "屠殺之勢 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B1%A0%E6%AE%BA%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內，自身及身旁成員的攻擊力 2.5 倍，若身旁的成員同為水屬性或魔族，該成員攻擊力提升至 5 倍",
+    "skillMonsters": [
+      "1953"
     ]
   },
   {
@@ -9807,6 +9818,17 @@
     "skillDesc": "將 5 粒符石轉化為木神族強化符石 (心符石優先轉換)。1 回合內，每首批消除 1 粒神族符石，回復 3000 點生命力，首批消除 30 粒可回復最多 90000 點生命力",
     "skillMonsters": [
       "1707"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "木葉攻勢",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%9C%A8%E8%91%89%E6%94%BB%E5%8B%A2",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，個人追打自身攻擊力 3 倍的木屬性攻擊 2 次；發動技能時，若場上有獸族符石，技能效果變為持續 3 回合",
+    "skillMonsters": [
+      "1943"
     ]
   },
   {
@@ -14178,6 +14200,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "無我之力",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E6%88%91%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "自身以外所有成員的攻擊力 2 倍。若隊伍中沒有「唯識無境 ‧ 梵天」，受到的傷害提升 1.5 倍。(效果會在再次發動此技能或死亡後消失)",
+    "skillMonsters": [
+      "1855"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "無止煉獄",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E6%AD%A2%E7%85%89%E7%8D%84",
     "skillCDMin": 19,
@@ -17557,7 +17590,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E5%87%9D%E5%8C%AF%E3%83%BB%E6%A5%B5%E5%85%89",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中有 4 種或以上的種族成員時，光屬性攻擊力 4.5 倍，所有成員的攻擊力基值跟隨攻擊力基值最高的成員，所有成員的回復力跟隨回復力最高的成員",
+    "skillDesc": "隊伍中有 4 種或以上的種族成員時，光屬性攻擊力 4.5 倍，所有成員的攻擊力基值跟隨攻擊力基值最高的成員，所有成員的回復力跟隨回復力最高的成員 (不包括進入關卡後的基值加乘)",
     "skillMonsters": []
   },
   {
@@ -24234,7 +24267,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%9D%88%E6%9C%A8%E7%84%A1%E9%87%8F",
     "skillCDMin": 17,
     "skillCDMax": 8,
-    "skillDesc": "將場上所有符石轉化為固定數量的心符石及木強化符石",
+    "skillDesc": "將場上所有符石轉化為固定數量及位置的心符石及木強化符石",
     "skillMonsters": [
       "1428",
       "1429"
@@ -25712,7 +25745,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%80%A7%E6%B5%81%E6%B7%8C",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "水屬性攻擊力 2.5 倍及魔族攻擊力 3 倍",
+    "skillDesc": "水屬性攻擊力 2.5 倍及魔族攻擊力 3 倍，水屬性魔族攻擊力則 7.5 倍",
     "skillMonsters": [
       "1395"
     ]
@@ -25953,6 +25986,17 @@
     "skillDesc": "水屬性攻擊力 2.5 倍。當生命力少於 50% 時，心符石效果提升至 300% (效果不能疊加)",
     "skillMonsters": [
       "0737"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "魔魅之靈泉 ‧ 強",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E9%AD%85%E4%B9%8B%E9%9D%88%E6%B3%89_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "水屬性攻擊力 4.5 倍。當生命力少於 50% 時，心符石效果提升 300% (效果不能疊加)",
+    "skillMonsters": [
+      "1953"
     ]
   },
   {

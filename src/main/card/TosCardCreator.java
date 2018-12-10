@@ -85,6 +85,7 @@ public class TosCardCreator {
             int n = info.data.size();
             switch (n) {
                 case 18: c = asTosCard_18(info); break;
+                case 27: // For 1831~1835
                 case 28: c = asTosCard_28(info); break;
                 case 16: c = asTosCard_16(info); break;
                 case 22: c = asTosCard_22(info); break;

@@ -11088,6 +11088,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1854"
   },
   {
+    "title": "No. 1855 無限知性 ‧ 莎塔如帕",
+    "id": "1855",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E9%99%90%E7%9F%A5%E6%80%A7_%E2%80%A7_%E8%8E%8E%E5%A1%94%E5%A6%82%E5%B8%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/1855"
+  },
+  {
     "title": "No. 1856 富悅財婪 ‧ 俱毗羅",
     "id": "1856",
     "link": "http://zh.tos.wikia.com/wiki/%E5%AF%8C%E6%82%85%E8%B2%A1%E5%A9%AA_%E2%80%A7_%E4%BF%B1%E6%AF%97%E7%BE%85",
@@ -11550,6 +11556,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1942"
   },
   {
+    "title": "No. 1943 小聰明獻策 ‧ 三毛",
+    "id": "1943",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%B0%8F%E8%81%B0%E6%98%8E%E7%8D%BB%E7%AD%96_%E2%80%A7_%E4%B8%89%E6%AF%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/1943"
+  },
+  {
     "title": "No. 1946 萬魔壟斷 ‧  薩魯曼",
     "id": "1946",
     "link": "http://zh.tos.wikia.com/wiki/%E8%90%AC%E9%AD%94%E5%A3%9F%E6%96%B7_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -11590,6 +11602,18 @@
     "id": "1952",
     "link": "http://zh.tos.wikia.com/wiki/%E4%B9%9D%E9%A0%AD%E5%90%90%E8%88%8C_%E2%80%A7_%E6%B5%B7%E5%BE%B7%E6%8B%89",
     "linkId": "http://zh.tos.wikia.com/wiki/1952"
+  },
+  {
+    "title": "No. 1953 泯滅陰陽 ‧ 蘆屋道滿",
+    "id": "1953",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%B3%AF%E6%BB%85%E9%99%B0%E9%99%BD_%E2%80%A7_%E8%98%86%E5%B1%8B%E9%81%93%E6%BB%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/1953"
+  },
+  {
+    "title": "No. 1954 六目蜈蚣",
+    "id": "1954",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%85%AD%E7%9B%AE%E8%9C%88%E8%9A%A3",
+    "linkId": "http://zh.tos.wikia.com/wiki/1954"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

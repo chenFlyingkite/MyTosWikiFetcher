@@ -49262,7 +49262,7 @@
   {
     "id": "2911",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2911",
-    "name": "命懸一線 ‧ 軌跡燃燒5000 ‧ 水屬強化高級拼圖盾",
+    "name": "命懸一線 ‧ 軌跡燃燒5000 ‧ 水強化高級拼圖盾",
     "detail": "首回合敵人會令召喚師生命力剩 1 點。燒移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成 5000 點的傷害。\u003cbr\u003e需以指定的形狀消除相應數量的水強化符石 (可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES2911}}",
     "icons": [
@@ -49275,8 +49275,8 @@
         "iconKey": "SI229.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
-        "iconKey": "SI301.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/50/SI021.png/revision/latest/scale-to-width-down/22?cb\u003d20150223133427\u0026path-prefix\u003dzh",
+        "iconKey": "SI021.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
@@ -51254,7 +51254,7 @@
   {
     "id": "3004",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3004",
-    "name": "先攻 ‧ 攻後固定形轉光-外光轉別屬 ‧ 首消光追擊零化 ‧ 無法控制",
+    "name": "先攻 ‧ 攻後爪形轉光-外光轉別屬 ‧ 首消光追擊零化 ‧ 無法控制",
     "detail": "首回合優先攻擊 1 次。每次受到敵人攻擊時，將 12 個固定位置的符石轉化為光符石，並將其他的光符石隨機轉化為水、火、木及暗符石。\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3004}}",
     "icons": [
@@ -51720,17 +51720,13 @@
   {
     "id": "3022",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3022",
-    "name": "突擊10%-2顆轉水風化3000 ‧ 5+Combo盾",
+    "name": "突擊10%-2顆水風化3000 ‧ 5+Combo盾",
     "detail": "首回合優先突擊 1 次，受此攻擊後隨機將 2 粒水符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害。\u003cbr\u003e5 連擊 (Combo) 或以上才會對敵人造成攻擊傷害",
     "esCode": "{{ES3022}}",
     "icons": [
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
         "iconKey": "SI160.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
@@ -51749,17 +51745,13 @@
   {
     "id": "3023",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3023",
-    "name": "突擊65%-3顆轉水風化9000 ‧ 6+Combo追擊盾",
+    "name": "突擊65%-3顆水風化9000 ‧ 6+Combo追擊盾",
     "detail": "首回合優先突擊 1 次，受此攻擊後隨機將 3 粒水符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 9000 點傷害。\u003cbr\u003e6 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3023}}",
     "icons": [
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
         "iconKey": "SI160.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
@@ -51778,17 +51770,13 @@
   {
     "id": "3024",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3024",
-    "name": "先攻-4顆轉水風化15000 ‧ 7+Combo追擊盾",
+    "name": "先攻-4顆水風化15000 ‧ 7+Combo追擊盾",
     "detail": "首回合優先攻擊 1 次，受此攻擊後隨機將 4 粒水符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害。\u003cbr\u003e7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e敵人無視所有控制技能",
     "esCode": "{{ES3024}}",
     "icons": [
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
         "iconKey": "SI160.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
