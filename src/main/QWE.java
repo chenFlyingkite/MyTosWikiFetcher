@@ -21,11 +21,11 @@ public class QWE {
     }
 
     private static void genTosEvent() {
-        genLines("D:\\GitHub\\MyTosWiki\\playstore\\tos", "tosEvent.txt");
+        genLines("..\\MyTosWiki\\playstore\\tos", "tosEvent.txt");
     }
 
     private static void genStageMemo() {
-        genLines("D:\\GitHub\\MyTosWiki\\playstore\\stage memo", "memo.txt");
+        genLines("..\\MyTosWiki\\playstore\\stage memo", "memo.txt");
     }
 
     private static void genLines(String folder, String name) {
