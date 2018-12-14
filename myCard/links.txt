@@ -10860,6 +10860,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1813"
   },
   {
+    "title": "No. 1814 華光賢者",
+    "id": "1814",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%8F%AF%E5%85%89%E8%B3%A2%E8%80%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/1814"
+  },
+  {
     "title": "No. 1815 無夜賢者",
     "id": "1815",
     "link": "http://zh.tos.wikia.com/wiki/%E7%84%A1%E5%A4%9C%E8%B3%A2%E8%80%85",
@@ -11182,6 +11188,12 @@
     "id": "1870",
     "link": "http://zh.tos.wikia.com/wiki/%E5%A2%9C%E8%90%BD%E6%AE%BA%E6%88%AE_%E2%80%A7_%E8%B2%9D%E8%A5%BF%E6%91%A9%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/1870"
+  },
+  {
+    "title": "No. 1871 毀世的重生者 ‧ 夏馬西",
+    "id": "1871",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%AF%80%E4%B8%96%E7%9A%84%E9%87%8D%E7%94%9F%E8%80%85_%E2%80%A7_%E5%A4%8F%E9%A6%AC%E8%A5%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/1871"
   },
   {
     "title": "No. 1872 菜鳥廚師 ‧ 點心娘",
@@ -11536,6 +11548,12 @@
     "id": "1938",
     "link": "http://zh.tos.wikia.com/wiki/%E6%AF%9B%E6%8B%B3%E9%87%8D%E6%93%8A_%E2%80%A7_%E9%90%B5%E6%8B%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/1938"
+  },
+  {
+    "title": "No. 1939 詭譎專研 ‧ 布洛傑特",
+    "id": "1939",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%A9%AD%E8%AD%8E%E5%B0%88%E7%A0%94_%E2%80%A7_%E5%B8%83%E6%B4%9B%E5%82%91%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/1939"
   },
   {
     "title": "No. 1940 家貲萬貫 ‧ 庫利南",

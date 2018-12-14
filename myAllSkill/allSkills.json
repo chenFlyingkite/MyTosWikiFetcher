@@ -2537,7 +2537,8 @@
       "1715",
       "1756",
       "1757",
-      "1758"
+      "1758",
+      "1954"
     ]
   },
   {
@@ -5161,6 +5162,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "奪目的光與影",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%A5%AA%E7%9B%AE%E7%9A%84%E5%85%89%E8%88%87%E5%BD%B1",
+    "skillCDMin": 21,
+    "skillCDMax": 10,
+    "skillDesc": "所有符石轉化為固定數量的光及暗符石；於雙數層數 (Wave) 發動此技能，則轉化為固定數量的光強化及暗強化符石",
+    "skillMonsters": [
+      "1939"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "奪魂鐮刃",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%A5%AA%E9%AD%82%E9%90%AE%E5%88%83",
     "skillCDMin": 17,
@@ -6534,7 +6546,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B9%BD%E9%AD%82%E7%9A%84%E5%8A%9B%E9%87%8F",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有獸類成員時，全隊生命力 2 倍及攻擊力 5.5 倍；每回合扣自身總生命力 10%；每消除 1 粒獸族符石，回復 5% 總生命力",
+    "skillDesc": "隊伍中只有獸類成員時，全隊生命力 2 倍及攻擊力 5.5 倍；每回合扣除自身總生命力 10%；每消除 1 粒獸族符石，回復 5% 總生命力",
     "skillMonsters": [
       "1926"
     ]
@@ -10866,7 +10878,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%AD%83%E8%A1%80%E4%B9%8B%E7%9B%9F",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "龍類攻擊力 3 倍及生命力 2 倍，每回合扣自身總生命力 10%",
+    "skillDesc": "龍類攻擊力 3 倍及生命力 2 倍，每回合扣除自身總生命力 10%",
     "skillMonsters": [
       "0290"
     ]
@@ -10877,7 +10889,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%AD%83%E8%A1%80%E4%B9%8B%E7%9B%9F%E8%AA%93",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "龍類攻擊力 3.5 倍及生命力 2 倍，每回合扣自身總生命力 10%",
+    "skillDesc": "龍類攻擊力 3.5 倍及生命力 2 倍，每回合扣除自身總生命力 10%",
     "skillMonsters": [
       "0850"
     ]
@@ -11876,6 +11888,17 @@
     "skillDesc": "水符石轉化為水強化符石，同時將火符石與心符石轉化為水符石",
     "skillMonsters": [
       "1022"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "決勝的謀略",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B1%BA%E5%8B%9D%E7%9A%84%E8%AC%80%E7%95%A5",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "隨機引爆 3 個神族成員直行的符石，以掉落該直行成員屬性的強化符石",
+    "skillMonsters": [
+      "1919"
     ]
   },
   {
@@ -22929,6 +22952,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "醉心魔研",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%86%89%E5%BF%83%E9%AD%94%E7%A0%94",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有魔族成員時：魔族攻擊力 4 倍及生命力 1.5 倍；生命力全滿時，全隊攻擊力額外提升 1.5 倍；每消除 1 粒魔族符石，回復 1500 點生命力",
+    "skillMonsters": [
+      "1814"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "醉眼朦朧",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E9%86%89%E7%9C%BC%E6%9C%A6%E6%9C%A7",
@@ -25942,6 +25976,17 @@
     "skillDesc": "1 回合內，引爆最左及最右直行的符石，以掉落木妖族強化符石；並引爆其餘直行符石，以掉落強化符石；木屬性及妖精類攻擊力 2.5 倍",
     "skillMonsters": [
       "1791"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔術的力量",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E8%A1%93%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "2 回合內，光屬性及魔族攻擊力 2 倍；若隊伍中只有魔族成員時，無視全體敵人的防禦力",
+    "skillMonsters": [
+      "1814"
     ]
   },
   {
