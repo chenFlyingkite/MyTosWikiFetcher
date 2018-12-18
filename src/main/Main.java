@@ -131,7 +131,7 @@ public class Main {
 
     private static void copyToMyTosWiki() {
         List<Pair<String, String>> paths = new ArrayList<>();
-        String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\A\\";
+        String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\";
         paths.add(as("myCard/cardList.json", asset + "cardList.json"));
         paths.add(as("myCraft/crafts.json", asset + "crafts.json"));
         paths.add(as("myCraft/armCrafts.json", asset + "armCrafts.json"));
