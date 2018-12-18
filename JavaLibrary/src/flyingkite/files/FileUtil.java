@@ -3,6 +3,8 @@ package flyingkite.files;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -11,7 +13,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import flyingkite.log.L;
 import flyingkite.tool.IOUtil;
+import flyingkite.tool.TextUtil;
 
 public class FileUtil {
 
@@ -106,6 +110,25 @@ public class FileUtil {
             e.printStackTrace();
         } finally {
             IOUtil.closeIt(is, fos);
+        }
+    }
+
+    public static void copy(String source, String target) {
+        if (TextUtil.isEmpty(source) || TextUtil.isEmpty(target)) return;
+
+        FileInputStream fin = null;
+        FileOutputStream fout = null;
+        try {
+            File dst = new File(target);
+            dst.getParentFile().mkdirs();
+            fin = new FileInputStream(new File(source));
+            fout = new FileOutputStream(new File(target));
+            copy(fin, fout);
+            L.log("copy : %s\n to  -> %s", source, target);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            IOUtil.closeIt(fin, fout);
         }
     }
 

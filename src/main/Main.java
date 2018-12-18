@@ -1,16 +1,19 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 
+import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
+import kotlin.Pair;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -31,6 +34,11 @@ import main.fetcher.TosWikiSummonerLevelFetcher;
 
 public class Main {
     public static void main(String[] args) {
+        fetch();
+        //copyToMyTosWiki();
+    }
+
+    private static void fetch() {
         L.log("" + new Date());
         long tic = System.currentTimeMillis();
         TicTac.tic();
@@ -119,6 +127,25 @@ public class Main {
                 r.run();
             }
         }
+    }
+
+    private static void copyToMyTosWiki() {
+        List<Pair<String, String>> paths = new ArrayList<>();
+        String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\A\\";
+        paths.add(as("myCard/cardList.json", asset + "cardList.json"));
+        paths.add(as("myCraft/crafts.json", asset + "crafts.json"));
+        paths.add(as("myCraft/armCrafts.json", asset + "armCrafts.json"));
+        paths.add(as("myLostRelicPass/relicPass.json", asset + "relicPass.json"));
+        paths.add(as("myMainStage/mainStage.json", asset + "mainStage.json"));
+        paths.add(as("myStoryStage/storyStage.json", asset + "storyStage.json"));
+
+        for (Pair<String, String> pair : paths) {
+            FileUtil.copy(pair.getFirst(), pair.getSecond());
+        }
+    }
+
+    private static <M, N> Pair<M, N> as(M m, N n) {
+        return new Pair<>(m, n);
     }
 
 //    private static void parallel(Runnable... runs) {
