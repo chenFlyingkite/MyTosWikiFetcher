@@ -477,7 +477,7 @@ class TosGet {
                     when (tit) {
                         "第10封印" -> {
                             ten = true
-                            pack = intArrayOf(5, 5, 5)
+                            pack = intArrayOf(5, 5, 5, 5)
                             bs2.removeAt(0)
                         }
                         "第7-9封印" -> {

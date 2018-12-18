@@ -30,11 +30,11 @@
   #4 = 0656, 機偶的守護之心 -> http://zh.tos.wikia.com/wiki/%E6%A9%9F%E5%81%B6%E7%9A%84%E5%AE%88%E8%AD%B7%E4%B9%8B%E5%BF%83
 
 青木原古閣 > 
-  #0 = 0729, 煉獄的火 -> http://zh.tos.wikia.com/wiki/%E7%85%89%E7%8D%84%E7%9A%84%E7%81%AB
-  #1 = 0731, 錯向的風 -> http://zh.tos.wikia.com/wiki/%E9%8C%AF%E5%90%91%E7%9A%84%E9%A2%A8
-  #2 = 0735, 守候的影 -> http://zh.tos.wikia.com/wiki/%E5%AE%88%E5%80%99%E7%9A%84%E5%BD%B1
-  #3 = 0727, 孤寂的雪 -> http://zh.tos.wikia.com/wiki/%E5%AD%A4%E5%AF%82%E7%9A%84%E9%9B%AA
-  #4 = 0733, 希望的光 -> http://zh.tos.wikia.com/wiki/%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%85%89
+  #0 = 1127, 煉獄的火 -> http://zh.tos.wikia.com/wiki/%E7%85%89%E7%8D%84%E7%9A%84%E7%81%AB
+  #1 = 1128, 錯向的風 -> http://zh.tos.wikia.com/wiki/%E9%8C%AF%E5%90%91%E7%9A%84%E9%A2%A8
+  #2 = 1130, 守候的影 -> http://zh.tos.wikia.com/wiki/%E5%AE%88%E5%80%99%E7%9A%84%E5%BD%B1
+  #3 = 1126, 孤寂的雪 -> http://zh.tos.wikia.com/wiki/%E5%AD%A4%E5%AF%82%E7%9A%84%E9%9B%AA
+  #4 = 1129, 希望的光 -> http://zh.tos.wikia.com/wiki/%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%85%89
 
 聖地阿斯嘉特 > 
   #0 = 1065, 不赦之淚 -> http://zh.tos.wikia.com/wiki/%E4%B8%8D%E8%B5%A6%E4%B9%8B%E6%B7%9A

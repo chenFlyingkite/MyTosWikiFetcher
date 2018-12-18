@@ -58,6 +58,10 @@ public class Main {
             //runParallel(parl, TosSkillFetcher.me);
             // 遺跡特許
             runParallel(parl, TosLostRelicPassFetcher.me);
+            // 主線關卡
+            runParallel(parl, TosMainStageFetcher.me);
+            // 旅人的記憶
+            runParallel(parl, TosStoryStageFetcher.me);
         }
         // 卡片內容
         // Skill change + Craft + Card List -> Card Fetcher
