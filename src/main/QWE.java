@@ -5,8 +5,11 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 import java.util.Scanner;
 
+import flyingkite.files.FileUtil;
+import flyingkite.log.L;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TicTac2;
 
@@ -21,17 +24,34 @@ public class QWE {
     }
 
     private static void genTosEvent() {
-        genLines("..\\MyTosWiki\\playstore\\tos", "tosEvent.txt");
+        genLineAndPrint("..\\MyTosWiki\\playstore\\tos", "tosEvent.txt");
     }
 
     private static void genStageMemo() {
-        genLines("..\\MyTosWiki\\playstore\\stage memo", "memo.txt");
+        genLineAndPrint("..\\MyTosWiki\\playstore\\stage memo", "memo.txt");
     }
 
-    private static void genLines(String folder, String name) {
+    private static void genLineAndPrint(String folder, String name) {
+        String gen = genLines(folder, name);
+        printFile(gen);
+    }
+
+    private static String genLines(String folder, String name) {
         File src = new File(folder, name);
         File dst = new File(folder, "z" + name);
         printNewLines(src, dst);
+        return dst.getPath();
+    }
+
+    private static void printFile(String path) {
+        List<String> data = FileUtil.readFromFile(path);
+        if (data != null) {
+            L.log("File : %s", path);
+            for (String s : data) {
+                L.log(s);
+            }
+            L.log("File Ended : %s", path);
+        }
     }
 
     /** For the src file text,

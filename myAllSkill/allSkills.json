@@ -96,7 +96,7 @@
     "skillLink": "http://zh.tos.wikia.com/wiki/%E4%B8%80%E7%9E%AC%E5%A5%87%E8%B9%9F",
     "skillCDMin": 22,
     "skillCDMax": 8,
-    "skillDesc": "1 回合內，發動技能時若有 3 個或以上的人類或妖精類成員攻擊力基值為 1500 或以下，全隊攻擊力 2.6 倍；反之，直接引爆場上光及暗符石，以掉落火及心符石。若隊伍中有「沉思的賢者．山特古羅斯」，可以同時獲得以上兩個效果",
+    "skillDesc": "1 回合內，發動技能時若有 3 個或以上的人類或妖精類成員攻擊力基值為 1500 或以下，全隊攻擊力 2.6 倍；反之，引爆場上光及暗符石，以掉落火及心符石。若隊伍中有「沉思的賢者．山特古羅斯」或「參透的賢者 ‧ 山特古羅斯」，可以同時獲得以上兩個效果",
     "skillMonsters": [
       "1658"
     ]
@@ -3368,6 +3368,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "出其不意之肌力",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%87%BA%E5%85%B6%E4%B8%8D%E6%84%8F%E4%B9%8B%E8%82%8C%E5%8A%9B",
+    "skillCDMin": 24,
+    "skillCDMax": 10,
+    "skillDesc": "15 秒，可任意移動符石而不會發動消除。1 回合內，人類及妖精類攻擊力 2 倍",
+    "skillMonsters": [
+      "1944"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "刀龍金輝",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E5%88%80%E9%BE%8D%E9%87%91%E8%BC%9D",
     "skillCDMin": 16,
@@ -5998,6 +6009,17 @@
     "skillDesc": "連擊 (Combo) 數為雙數時，全隊攻擊力 5 倍",
     "skillMonsters": [
       "0671"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "巧靈深思之力",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E5%B7%A7%E9%9D%88%E6%B7%B1%E6%80%9D%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類及妖精類攻擊力 6 倍",
+    "skillMonsters": [
+      "1944"
     ]
   },
   {
@@ -9877,6 +9899,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "木葉魔法",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%9C%A8%E8%91%89%E9%AD%94%E6%B3%95",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類攻擊力 3.5 倍；合計消除 6 粒或以上的火或木符石時，人類攻擊力額外提升 1.5 倍；火及木屬性傷害減少 30%",
+    "skillMonsters": [
+      "1782"
+    ]
+  },
+  {
     "type": "組合技",
     "skillName": "木靈強化加冕",
     "skillLink": "http://zh.tos.wikia.com/wiki/%E6%9C%A8%E9%9D%88%E5%BC%B7%E5%8C%96%E5%8A%A0%E5%86%95",
@@ -10301,6 +10334,17 @@
     "skillDesc": "1 回合內，木屬性及獸類攻擊力 1.5 倍，木屬性獸類攻擊力則提升至 1.8 倍",
     "skillMonsters": [
       "1392"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "森野之護",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%A3%AE%E9%87%8E%E4%B9%8B%E8%AD%B7",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，自身不能對敵方造成傷害，減少 60% 所受傷害。下回合減少 90% 所受傷害，受到敵人的攻擊傷害時，以 50 倍自身攻擊力對其進行木屬性反擊，此傷害無視防禦力",
+    "skillMonsters": [
+      "1782"
     ]
   },
   {
@@ -11810,6 +11854,17 @@
     "skillDesc": "1 回合內，水屬性攻擊力及回復力 1.5 倍；場上有其他附加效果時，則提升至 2.25 倍",
     "skillMonsters": [
       "1559"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "水靈召喚",
+    "skillLink": "http://zh.tos.wikia.com/wiki/%E6%B0%B4%E9%9D%88%E5%8F%AC%E5%96%9A",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，人類及機械族攻擊力及回復力 1.6 倍；首批掉落的 15 粒符石必定為水及心符石",
+    "skillMonsters": [
+      "1910"
     ]
   },
   {

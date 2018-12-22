@@ -113,8 +113,8 @@ public class ASD {
         */
 
         // Find cards
-        findCards("掉落率降至", allCards);
-        findCards("掉落機率降至", allCards);
+        findCards("變身", allCards);
+        //findCards("掉落機率降至", allCards);
         //findCards("傷害減少", allCards);
     }
 
@@ -174,19 +174,22 @@ public class ASD {
             String s = c.skillDesc1 + " & " + c.skillDesc2;
             String t = c.cardDetails;
             String u = c.skillLeaderDesc;
+            String exist = "";
             if (s.contains(key)) {
-                L.log(sc(c));
                 sn++;
+                exist += " Skill,";
             }
             if (t.contains(key)) {
-                L.log("detail\n" + sc(c));
+                exist += " Detail,";
                 tn++;
             }
             if (u.contains(key)) {
-                L.log("Leader\n" + sc(c));
+                exist += " Leader";
                 un++;
             }
-            //L.log(sc(c));
+            if (!exist.isEmpty()) {
+                L.log(exist + "\n" + sc(c));
+            }
         }
 
         L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, key);

@@ -8064,9 +8064,9 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1344"
   },
   {
-    "title": "No. 1345 回憶吞食‧ 伊莎貝爾",
+    "title": "No. 1345 回憶吞食 ‧ 伊莎貝爾",
     "id": "1345",
-    "link": "http://zh.tos.wikia.com/wiki/%E5%9B%9E%E6%86%B6%E5%90%9E%E9%A3%9F%E2%80%A7_%E4%BC%8A%E8%8E%8E%E8%B2%9D%E7%88%BE",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%9B%9E%E6%86%B6%E5%90%9E%E9%A3%9F_%E2%80%A7_%E4%BC%8A%E8%8E%8E%E8%B2%9D%E7%88%BE",
     "linkId": "http://zh.tos.wikia.com/wiki/1345"
   },
   {
@@ -10686,6 +10686,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1781"
   },
   {
+    "title": "No. 1782 沐木的生靈 ‧ 朗杰",
+    "id": "1782",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%B2%90%E6%9C%A8%E7%9A%84%E7%94%9F%E9%9D%88_%E2%80%A7_%E6%9C%97%E6%9D%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/1782"
+  },
+  {
     "title": "No. 1785 阿路加",
     "id": "1785",
     "link": "http://zh.tos.wikia.com/wiki/%E9%98%BF%E8%B7%AF%E5%8A%A0",
@@ -11412,6 +11418,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1909"
   },
   {
+    "title": "No. 1910 科技與魔法 ‧ Android 與莫莉",
+    "id": "1910",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%A7%91%E6%8A%80%E8%88%87%E9%AD%94%E6%B3%95_%E2%80%A7_Android_%E8%88%87%E8%8E%AB%E8%8E%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/1910"
+  },
+  {
     "title": "No. 1916 約定盟誓 ‧ 索貝克",
     "id": "1916",
     "link": "http://zh.tos.wikia.com/wiki/%E7%B4%84%E5%AE%9A%E7%9B%9F%E8%AA%93_%E2%80%A7_%E7%B4%A2%E8%B2%9D%E5%85%8B",
@@ -11578,6 +11590,18 @@
     "id": "1943",
     "link": "http://zh.tos.wikia.com/wiki/%E5%B0%8F%E8%81%B0%E6%98%8E%E7%8D%BB%E7%AD%96_%E2%80%A7_%E4%B8%89%E6%AF%9B",
     "linkId": "http://zh.tos.wikia.com/wiki/1943"
+  },
+  {
+    "title": "No. 1944 參透的賢者 ‧ 山特古羅斯",
+    "id": "1944",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%8F%83%E9%80%8F%E7%9A%84%E8%B3%A2%E8%80%85_%E2%80%A7_%E5%B1%B1%E7%89%B9%E5%8F%A4%E7%BE%85%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/1944"
+  },
+  {
+    "title": "No. 1945 聖誕麋鹿",
+    "id": "1945",
+    "link": "http://zh.tos.wikia.com/wiki/%E8%81%96%E8%AA%95%E9%BA%8B%E9%B9%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/1945"
   },
   {
     "title": "No. 1946 萬魔壟斷 ‧  薩魯曼",
