@@ -12954,6 +12954,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6230"
   },
   {
+    "title": "S235 箝魄軍閥 ‧ 陶德",
+    "id": "6235",
+    "link": "http://zh.tos.wikia.com/wiki/%E7%AE%9D%E9%AD%84%E8%BB%8D%E9%96%A5_%E2%80%A7_%E9%99%B6%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/6235"
+  },
+  {
     "title": "S236 銅牛蒸獄 ‧ 皮爾婁(動態造型)",
     "id": "6236",
     "link": "http://zh.tos.wikia.com/wiki/%E9%8A%85%E7%89%9B%E8%92%B8%E7%8D%84_%E2%80%A7_%E7%9A%AE%E7%88%BE%E5%A9%81(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
