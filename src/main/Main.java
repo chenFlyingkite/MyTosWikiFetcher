@@ -22,6 +22,7 @@ import main.fetcher.TosMainStageFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosStoryStageFetcher;
+import main.fetcher.TosVoidRealmFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiFilePeeker;
@@ -31,6 +32,7 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
+import main.kt.CopyInfo;
 
 public class Main {
     public static void main(String[] args) {
@@ -70,6 +72,8 @@ public class Main {
             runParallel(parl, TosMainStageFetcher.me);
             // 旅人的記憶
             runParallel(parl, TosStoryStageFetcher.me);
+            // 虛影世界
+            runParallel(parl, TosVoidRealmFetcher.me);
         }
         // 卡片內容
         // Skill change + Craft + Card List -> Card Fetcher
@@ -130,22 +134,23 @@ public class Main {
     }
 
     private static void copyToMyTosWiki() {
-        List<Pair<String, String>> paths = new ArrayList<>();
+        List<CopyInfo> paths = new ArrayList<>();
         String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\";
-        paths.add(as("myCard/cardList.json", asset + "cardList.json"));
-        paths.add(as("myCraft/crafts.json", asset + "crafts.json"));
-        paths.add(as("myCraft/armCrafts.json", asset + "armCrafts.json"));
-        paths.add(as("myLostRelicPass/relicPass.json", asset + "relicPass.json"));
-        paths.add(as("myMainStage/mainStage.json", asset + "mainStage.json"));
-        paths.add(as("myStoryStage/storyStage.json", asset + "storyStage.json"));
+        paths.add(as(         "myCard/",   "cardList.json", asset));
+        paths.add(as(        "myCraft/",     "crafts.json", asset));
+        paths.add(as(        "myCraft/",  "armCrafts.json", asset));
+        paths.add(as("myLostRelicPass/",  "relicPass.json", asset));
+        paths.add(as(    "myMainStage/",  "mainStage.json", asset));
+        paths.add(as(   "myStoryStage/", "storyStage.json", asset));
+        paths.add(as(    "myVoidRealm/",  "voidRealm.json", asset));
 
-        for (Pair<String, String> pair : paths) {
-            FileUtil.copy(pair.getFirst(), pair.getSecond());
+        for (CopyInfo i : paths) {
+            FileUtil.copy(i.getSrcName(), i.getDstName());
         }
     }
 
-    private static <M, N> Pair<M, N> as(M m, N n) {
-        return new Pair<>(m, n);
+    private static CopyInfo as(String srcFolder, String name, String dstFolder) {
+        return new CopyInfo(srcFolder, srcFolder + name, dstFolder, dstFolder + name);
     }
 
 //    private static void parallel(Runnable... runs) {

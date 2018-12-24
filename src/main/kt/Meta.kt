@@ -382,3 +382,10 @@ enum class CardPart(_key: String) {
         return this
     }
 }
+
+open class CopyInfo(srcF : String, srcN : String, dstF : String, dstN : String) {
+    var srcFolder = srcF
+    var srcName = srcN
+    var dstFolder = dstF
+    var dstName = dstN
+}

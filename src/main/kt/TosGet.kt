@@ -9,6 +9,7 @@ import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
 import java.util.*
 import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 class TosGet {
     companion object me {
@@ -683,6 +684,108 @@ class TosGet {
                 ans.add(rs)
             }
 
+            return ans
+        }
+
+        // Similar with getMainStages()
+        fun getVoidRealmStages(e: Element?, baseWiki: String) : List<MainStage> {
+            val ans = ArrayList<MainStage>()
+            if (e == null) return ans
+
+            val items = e.getElementsByClass("tabbertab")
+
+            for (i in 0 until items.size) {
+                val item = items[i]
+                val tit = item.attr("title")
+                val eas = item.getElementsByClass(imageClass)
+                val bs = item.getElementsByTag("b")
+                val bs2 = item.getElementsByTag("b") // use for looping pack
+                var k = 0 // The index of eas
+
+                val main = MainStage()
+                main.title = bs[0].text()
+                if (eas != null) {
+                    var pack = intArrayOf(0)
+                    var hero = false
+                    var iron = false
+                    val map = HashMap<Int, Int>()
+
+                    when (tit) {
+                        "英靈時代" -> {
+                            hero = true
+                            // 序章 1
+                            // 分支一︰奧丁支線 2, 4, 1, 1, 1, 2, 1, 1, 1
+                            // 分支二︰洛基支線 5, 1, 1, 1, 1, 3, 1,
+                            // 終章 3
+                            pack = intArrayOf(
+                                    1, // 序章
+                                    2, 4, 1, 1, 1, 2, 1, 1, 1, //分支一︰奧丁支線
+                                    5, 1, 1, 1, 1, 3, 1, // 分支二︰洛基支線
+                                    3 // 終章
+                            )
+                            // Remove the header of group title for group name
+                            bs2.removeAt(21) // 終章
+                            bs2.removeAt(12) // 分支二
+                            bs2.removeAt(2) // 分支一
+                            bs2.removeAt(0) // 序章
+                            // (0, 0) initial,
+                            // (x, y) bold title indices
+                            // for sub-stage x (left part bold title count), its title is at y
+                            // map[key] = value
+                            map[0] = 0
+                            map[1] = 2
+                            map[10] = 12
+                            map[17] = 21
+                        }
+                        "黑鐵時代" -> {
+                            iron = true
+                            // 分支一︰狂魔支線 16
+                            // 分支二︰玩具支線 15, 4
+                            // 分支三︰機械支線 10, 12
+                            pack = intArrayOf(16, // 分支一︰狂魔支線
+                                    15, 4, // 分支二︰玩具支線
+                                    10, 12) // 分支三︰機械支線
+                            bs2.removeAt(5) // 分支三
+                            bs2.removeAt(2) // 分支二
+                            bs2.removeAt(0) // 分支一
+                            map[0] = 0
+                            map[1] = 2
+                            map[3] = 5
+                        }
+                    }
+                    var main2 = MainStage()
+                    pack.forEachIndexed { pk, pv ->
+                        if (hero || iron) {
+                            val v = map[pk]
+                            if (v != null) {
+                                main2 = MainStage()
+                                main2.title = bs[v].text()
+                            }
+                        }
+
+                        val subs = StageGroup()
+                        if (pk < bs2.size) {
+                            subs.group = bs2[pk].text()
+                        }
+
+                        for (zi in 0 until pv) {
+                            val ea = eas[k]
+                            val ms = getStageInfo(ea, baseWiki)
+                            subs.stages.add(ms)
+                            k++
+                        }
+
+                        main2.substages.add(subs)
+                        if (hero || iron) {
+                            if (pk in map.keys) {
+                                ans.add(main2)
+                            }
+                        } else {
+                            main.substages.add(subs)
+                        }
+                    }
+                }
+            }
             return ans
         }
 
