@@ -21478,7 +21478,7 @@
   {
     "id": "1404",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1404",
-    "name": "神魔技能封鎖 ‧ 電擊2顆 ‧ 首消暗追擊零化",
+    "name": "神魔技能封鎖 ‧ 暗電擊2顆 ‧ 首消暗追擊零化",
     "detail": "首回合敵人會永久封鎖神族及魔族成員的主動技能。\u003cbr\u003e每回合移動符石前，敵人會電擊 2 粒暗符石；如有符石被電擊而未消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。連擊 (Combo) 只計算首批消除的符石",
     "esCode": "{{ES1404}}",
     "icons": [
@@ -22821,8 +22821,8 @@
     "esCode": "{{ES1482}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
-        "iconKey": "SI301.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
@@ -49763,6 +49763,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
+        "iconKey": "SI236.png"
       }
     ]
   },
@@ -49900,6 +49904,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
         "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
       }
     ]
   },
@@ -53765,5 +53773,403 @@
         "iconKey": "SI251.png"
       }
     ]
+  },
+  {
+    "id": "3103",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3103",
+    "name": "暗攻零化 ‧ 首回心轉暗 ‧ 黑白符石 ‧ 首消暗攻擊零化",
+    "detail": "暗屬性的攻擊無法對敵人造成攻擊傷害。\u003cbr\u003e首回合將所有心符石轉化為暗符石。\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e首批消除暗符石時 ，該回合無法對敵人造成攻擊傷害",
+    "esCode": "{{ES3103}}",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI005.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101207\u0026path-prefix\u003dzh",
+        "iconKey": "SI005.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      }
+    ]
+  },
+  {
+    "id": "3104",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3104",
+    "name": "暗攻零化 ‧ 首回心轉暗 ‧ 黑白符石",
+    "detail": "暗屬性的攻擊無法對敵人造成攻擊傷害。\u003cbr\u003e首回合將所有心符石轉化為暗符石。\u003cbr\u003e所有符石變為黑白色",
+    "esCode": "{{ES3104}}",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6b/SI005.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101207\u0026path-prefix\u003dzh",
+        "iconKey": "SI005.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
+      }
+    ]
+  },
+  {
+    "id": "3105",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3105",
+    "name": "含格雷-CD2-首回水轉心 ‧ 攻後水橫縱輪轉 ‧ 血弱50%-水符石燃燒10%",
+    "detail": "當隊伍中有冰之魔導士 ‧ 格雷時，敵人首次攻擊變為 CD 2 及首回合將場上的水符石轉化為心符石。\u003cbr\u003e首次受到敵人攻擊時，隨機將 1 直行的符石轉化為水符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為水符石。以上攻擊循環周而復始。\u003cbr\u003e敵人生命力為 50% 或以下時，下回合移動符石前燃燒場上水符石所在的位置；每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
+    "esCode": "{{ES3105}}",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      }
+    ]
+  },
+  {
+    "id": "3106",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3106",
+    "name": "含格雷-CD2-首回水轉心 ‧ 攻後水橫縱輪轉 ‧ 血弱50%-水符石燃燒10% ‧ 首消水傷害零化",
+    "detail": "當隊伍中有冰之魔導士 ‧ 格雷時，敵人首次攻擊變為 CD 2 及首回合將場上的水符石轉化為心符石。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時 ，該回合無法對敵人造成攻擊傷害。\u003cbr\u003e首次受到敵人攻擊時，隨機將 1 直行的符石轉化為水符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為水符石。以上攻擊循環周而復始。\u003cbr\u003e敵人生命力為 50% 或以下時，下回合移動符石前燃燒場上水符石所在的位置；每觸碰被燃燒的位置，將扣除召喚師 10% 生命力",
+    "esCode": "{{ES3106}}",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      }
+    ]
+  },
+  {
+    "id": "3107",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3107",
+    "name": "含格雷-CD2-首回水轉心 ‧ 攻後水橫縱輪轉 ‧ 血弱50%-水符石燃燒20% ‧ 首消水傷害吸收-反擊200%",
+    "detail": "當隊伍中有冰之魔導士 ‧ 格雷時，敵人首次攻擊變為 CD 2 及首回合將場上的水符石轉化為心符石。\u003cbr\u003e首批消除水屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 200% 攻擊傷害。\u003cbr\u003e首次受到敵人攻擊時，隨機將 1 直行的符石轉化為水符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為水符石。以上攻擊循環周而復始。\u003cbr\u003e敵人生命力為 50% 或以下時，下回合移動符石前燃燒場上水符石所在的位置；每觸碰被燃燒的位置，將扣除召喚師 20% 生命力",
+    "esCode": "{{ES3107}}",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      }
+    ]
+  },
+  {
+    "id": "3108",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3108",
+    "name": "(5回轉珠減1秒) ‧ 2倍不倒意志30%-半回-4顆冰玫瑰3000",
+    "detail": "5 回合內，移動符石時間減少 1 秒。\u003cbr\u003e敵人當前生命力大於 30% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，敵人回復 50% 生命力 (只發動 1 次)。\u003cbr\u003e當敵人生命力曾為 30% 或以下時，下回合開始敵人的攻擊力永久提升 2 倍，並隨機將 4 粒符石轉化為冰玫瑰 (只發動 1 次)；冰玫瑰一經觸碰，即時停止移動符石，並對召喚師造成 3000 點傷害",
+    "esCode": "{{ES3108}}",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI261.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185652\u0026path-prefix\u003dzh",
+        "iconKey": "SI261.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b5/SI201.png/revision/latest/scale-to-width-down/22?cb\u003d20190102165557\u0026path-prefix\u003dzh",
+        "iconKey": "SI201.png"
+      }
+    ]
+  },
+  {
+    "id": "3109",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3109",
+    "name": "敵技3109",
+    "detail": "5 回合內，移動符石時間減少 2 秒。\u003cbr\u003e敵人當前生命力大於 30% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，敵人回復 70% 生命力 (只發動 1 次)。\u003cbr\u003e當敵人生命力曾為 30% 或以下時，下回合開始敵人的攻擊力永久提升 2 倍，並隨機將 8 粒符石轉化為冰玫瑰 (只發動 1 次)；冰玫瑰一經觸碰，即時停止移動符石，並對召喚師造成 6000 點傷害",
+    "esCode": "{{ES3109}}",
+    "icons": []
+  },
+  {
+    "id": "3110",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3110",
+    "name": "敵技3110",
+    "detail": "5 回合內，移動符石時間減少 3 秒。\u003cbr\u003e敵人當前生命力大於 30% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，敵人完全回復生命力 (只發動 1 次)。\u003cbr\u003e當敵人生命力曾為 30% 或以下時，下回合開始敵人的攻擊力永久提升 2 倍，並隨機將 12 粒符石轉化為冰玫瑰 (只發動 1 次)；冰玫瑰一經觸碰，即時停止移動符石，並對召喚師造成 9000 點傷害",
+    "esCode": "{{ES3110}}",
+    "icons": []
+  },
+  {
+    "id": "3111",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3111",
+    "name": "敵技3111",
+    "detail": "敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能。\u003cbr\u003e當隊伍中有「FAIRY TAIL 公會成員」(包括 FAIRY TAIL 石抽系列角色、梅比斯、馬卡羅夫、茱比亞及龐沙利利) 時，其主動技能 CD 變 0",
+    "esCode": "{{ES3111}}",
+    "icons": []
+  },
+  {
+    "id": "3112",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3112",
+    "name": "敵技3112",
+    "detail": "敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能。\u003cbr\u003e當隊伍中有「FAIRY TAIL 公會成員」(包括 FAIRY TAIL 石抽系列角色、梅比斯、馬卡羅夫、茱比亞及龐沙利利) 時：其主動技能 CD 變 0；7 回合內，其攻擊力提升 2 倍",
+    "esCode": "{{ES3112}}",
+    "icons": []
+  },
+  {
+    "id": "3113",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3113",
+    "name": "敵技3113",
+    "detail": "封鎖妖精女王 ‧ 艾爾莎的主動技能及其攻擊。\u003cbr\u003e3 回合內，火之滅龍魔導士 ‧ 納茲的攻擊力提升 3 倍。\u003cbr\u003e首回合優先攻擊 1 次，並隨機燃燒 2 個位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除水、光或暗符石及對敵人造成傷害時，該回合無法對敵人造成攻擊傷害，且敵人會反擊自身 200% 攻擊傷害",
+    "esCode": "{{ES3113}}",
+    "icons": []
+  },
+  {
+    "id": "3114",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3114",
+    "name": "敵技3114",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e首回合電擊固定 7 個位置的符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3114}}",
+    "icons": []
+  },
+  {
+    "id": "3115",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3115",
+    "name": "敵技3115",
+    "detail": "火屬性的攻擊無法對敵人造成攻擊傷害。\u003cbr\u003e首次受到敵人攻擊時，隨機將 1 直行的符石轉化為火符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為火符石。以上攻擊循環周而復始。\u003cbr\u003e隨機燃燒 1 個位置，其後每回合燃燒範圍延伸至周邊的其中 2 個位置。每觸碰被燃燒的位置，將扣除召喚師 20% 生命力",
+    "esCode": "{{ES3115}}",
+    "icons": []
+  },
+  {
+    "id": "3116",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3116",
+    "name": "敵技3116",
+    "detail": "火屬性的攻擊無法對敵人造成攻擊傷害。\u003cbr\u003e敵人當前生命力大於 1% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，敵人完全回復生命力 (只發動 1 次)，並提升生命力及攻擊力 2 倍。\u003cbr\u003e對每個發動攻擊的成員，造成 3000 點的傷害。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3116}}",
+    "icons": []
+  },
+  {
+    "id": "3117",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3117",
+    "name": "敵技3117",
+    "detail": "火屬性的攻擊無法對敵人造成攻擊傷害。\u003cbr\u003e敵人當前生命力大於 1% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，敵人完全回復生命力 (只發動 1 次)，並提升生命力及攻擊力 2 倍。\u003cbr\u003e對每個發動攻擊的成員，造成 3000 點的傷害。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3117}}",
+    "icons": []
+  },
+  {
+    "id": "3118",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3118",
+    "name": "敵技3118",
+    "detail": "清除所有附加效果及重置所有成員的主動技能 CD、EP 及累積戰鬥回合數；若隊伍中有妖精軍師 ‧ 梅比斯或火之滅龍魔導士 ‧ 納茲，則不會觸發上述技能。\u003cbr\u003e首回合將最左方及最右方直行的符石變為隱藏符石。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e召喚師的回復力變 0",
+    "esCode": "{{ES3118}}",
+    "icons": []
+  },
+  {
+    "id": "3119",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3119",
+    "name": "敵技3119",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e暗屬性攻擊傷害減至 1%。\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e同時消除水、火、木、光及暗符石才會對敵人造成攻擊傷害。\u003cbr\u003e心符石無法被消除",
+    "esCode": "{{ES3119}}",
+    "icons": []
+  },
+  {
+    "id": "3120",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3120",
+    "name": "敵技3120",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e暗屬性攻擊傷害減至 1%。\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e同時消除水強化、火強化、木強化、光強化及暗強化符石才會對敵人造成攻擊傷害。\u003cbr\u003e心符石無法被消除",
+    "esCode": "{{ES3120}}",
+    "icons": []
+  },
+  {
+    "id": "3121",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3121",
+    "name": "敵技3121",
+    "detail": "累積消除 50 粒或以上的火符石，才會對敵人造成攻擊傷害。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊。\u003cbr\u003e每回合黏附火符石所在的位置，並將火符石轉化為木符石；黏附位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3121}}",
+    "icons": []
+  },
+  {
+    "id": "3122",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3122",
+    "name": "敵技3122",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e每回合移動符石前將所有木符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害。\u003cbr\u003e首批消除木屬性的連擊　(Combo) 會令全隊攻擊無效，首批消除的木屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3122}}",
+    "icons": []
+  },
+  {
+    "id": "3123",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3123",
+    "name": "敵技3123",
+    "detail": "累積消除 50 粒或以上的暗符石，才會對敵人造成攻擊傷害。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊。\u003cbr\u003e首回合電擊所有暗符石，並將暗符石轉化為光符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3123}}",
+    "icons": []
+  },
+  {
+    "id": "3124",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3124",
+    "name": "敵技3124",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e首回合清空龍脈儀的能量。\u003cbr\u003e需以指定的形狀消除相應數量的暗強化符石 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3124}}",
+    "icons": []
+  },
+  {
+    "id": "3125",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3125",
+    "name": "敵技3125",
+    "detail": "累積消除 50 粒或以上的光符石，才會對敵人造成攻擊傷害。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊。\u003cbr\u003e首回合鎖定場上的光符石，並轉化為暗符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3125}}",
+    "icons": []
+  },
+  {
+    "id": "3126",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3126",
+    "name": "敵技3126",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e首回合引爆所有暗符石，以永久提升攻擊力；並吸取龍脈儀的能量，以永久減少所受傷害。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3126}}",
+    "icons": []
+  },
+  {
+    "id": "3127",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3127",
+    "name": "敵技3127",
+    "detail": "首回合及每回合結束前，引爆所有心符石，引爆的符石數量愈多，敵人下一次的攻擊力愈高。\u003cbr\u003e首批消除場上所有心符石才能對敵人造成攻擊傷害 (需消除心符石)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3127}}",
+    "icons": []
+  },
+  {
+    "id": "3128",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3128",
+    "name": "敵技3128",
+    "detail": "所有攻擊傷害無效 (包括所有技能)。\u003cbr\u003e清空龍脈儀的能量、重置機械族以外成員的主動技能 CD、EP 及累積戰鬥回合數",
+    "esCode": "{{ES3128}}",
+    "icons": []
+  },
+  {
+    "id": "3129",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3129",
+    "name": "敵技3129",
+    "detail": "所有攻擊傷害無效 (包括所有技能)。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)。\u003cbr\u003e無視所有減傷效果和意志技能",
+    "esCode": "{{ES3129}}",
+    "icons": []
+  },
+  {
+    "id": "3130",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3130",
+    "name": "敵技3130",
+    "detail": "所有攻擊傷害無效 (包括所有技能)。\u003cbr\u003e首回合隨機將 1 橫行及 1 直行的符石轉化為隱藏符石。\u003cbr\u003e首批消除光屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 100% 攻擊傷害",
+    "esCode": "{{ES3130}}",
+    "icons": []
+  },
+  {
+    "id": "3131",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3131",
+    "name": "敵技3131",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e首回合鎖定場上所有符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 20%(發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3131}}",
+    "icons": []
+  },
+  {
+    "id": "3132",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3132",
+    "name": "敵技3132",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e不能點擊及發動龍刻脈動。\u003cbr\u003e首回合鎖定場上所有符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 20%(發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3132}}",
+    "icons": []
+  },
+  {
+    "id": "3133",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3133",
+    "name": "敵技3133",
+    "detail": "4 回合內，召喚師攻擊變 0。\u003cbr\u003e每回合隨機將 1 種屬性符石轉化為光符石。\u003cbr\u003e無視所有控制技能",
+    "esCode": "{{ES3133}}",
+    "icons": []
+  },
+  {
+    "id": "3134",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3134",
+    "name": "敵技3134",
+    "detail": "首回合完全回復召喚師的生命力。\u003cbr\u003e首次受到敵人攻擊時，隨機將 1 直行的符石轉化為光符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為光符石。以上攻擊循環周而復始。\u003cbr\u003e9 連擊 (Combo) 或以上才會對敵人造成攻擊傷害。\u003cbr\u003e移動符石時間變為 9 秒",
+    "esCode": "{{ES3134}}",
+    "icons": []
+  },
+  {
+    "id": "3135",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3135",
+    "name": "敵技3135",
+    "detail": "首回合優先突擊 1 次，並隨機黏附 2 格位置，該位置一經觸碰，即時停止移動符石。\u003cbr\u003e每回合發動攻擊時會扣除召喚師 50% 生命力 (無視所有減傷效果和意志技能)",
+    "esCode": "{{ES3135}}",
+    "icons": []
+  },
+  {
+    "id": "3136",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3136",
+    "name": "敵技3136",
+    "detail": "首回合優先突擊 1 次，並隨機黏附 3 格位置，該位置一經觸碰，即時停止移動符石。\u003cbr\u003e每回合發動攻擊時會扣除召喚師 70% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人當前生命力大於 50% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會完全回復生命力 (只發動 1 次)",
+    "esCode": "{{ES3136}}",
+    "icons": []
+  },
+  {
+    "id": "3137",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3137",
+    "name": "敵技3137",
+    "detail": "首回合優先攻擊 1 次，並隨機黏附 4 格位置，該位置一經觸碰，即時停止移動符石。\u003cbr\u003e每回合發動攻擊時會扣除召喚師 90% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人當前生命力大於 50% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會完全回復生命力 (只發動 1 次)，每回合發動攻擊時扣除召喚師的生命力更提升至 100%",
+    "esCode": "{{ES3137}}",
+    "icons": []
   }
 ]

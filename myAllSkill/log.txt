@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2209 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (2234 items, basePath = http://zh.tos.wikia.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -418,6 +418,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 天狼巽閃_‧_強 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%8B%BC%E5%B7%BD%E9%96%83_%E2%80%A7_%E5%BC%B7
 天眷之燄 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%9C%B7%E4%B9%8B%E7%87%84
 天神史特萊克突擊 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E7%A5%9E%E5%8F%B2%E7%89%B9%E8%90%8A%E5%85%8B%E7%AA%81%E6%93%8A
+天輪・五芒星之劍 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E8%BC%AA%E3%83%BB%E4%BA%94%E8%8A%92%E6%98%9F%E4%B9%8B%E5%8A%8D
 天降夜露 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E9%99%8D%E5%A4%9C%E9%9C%B2
 天降甘露_‧_木 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E9%99%8D%E7%94%98%E9%9C%B2_%E2%80%A7_%E6%9C%A8
 天雷極地 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E9%9B%B7%E6%A5%B5%E5%9C%B0
@@ -430,6 +431,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 天魔道_‧_暗 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E9%AD%94%E9%81%93_%E2%80%A7_%E6%9A%97
 天魔道_‧_木 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E9%AD%94%E9%81%93_%E2%80%A7_%E6%9C%A8
 天龍泣 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E9%BE%8D%E6%B3%A3
+天龍的翼擊 -> http://zh.tos.wikia.com/wiki/%E5%A4%A9%E9%BE%8D%E7%9A%84%E7%BF%BC%E6%93%8A
 太初一擊 -> http://zh.tos.wikia.com/wiki/%E5%A4%AA%E5%88%9D%E4%B8%80%E6%93%8A
 夾腳拖 -> http://zh.tos.wikia.com/wiki/%E5%A4%BE%E8%85%B3%E6%8B%96
 奇犽之體能 -> http://zh.tos.wikia.com/wiki/%E5%A5%87%E7%8A%BD%E4%B9%8B%E9%AB%94%E8%83%BD
@@ -463,6 +465,8 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 妖精萬鈞之怒 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%B2%BE%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92
 妖精萬鈞之怒_‧_靈泉 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%B2%BE%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E9%9D%88%E6%B3%89
 妖精護界 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%B2%BE%E8%AD%B7%E7%95%8C
+妖精軍師 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%B2%BE%E8%BB%8D%E5%B8%AB
+妖精軍師的戰術 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%B2%BE%E8%BB%8D%E5%B8%AB%E7%9A%84%E6%88%B0%E8%A1%93
 妖精領域 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E7%B2%BE%E9%A0%98%E5%9F%9F
 妖靈鞭_‧_水 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E9%9D%88%E9%9E%AD_%E2%80%A7_%E6%B0%B4
 妖魅之靈 -> http://zh.tos.wikia.com/wiki/%E5%A6%96%E9%AD%85%E4%B9%8B%E9%9D%88
@@ -500,6 +504,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 屠殺契機 -> http://zh.tos.wikia.com/wiki/%E5%B1%A0%E6%AE%BA%E5%A5%91%E6%A9%9F
 巧靈深思之力 -> http://zh.tos.wikia.com/wiki/%E5%B7%A7%E9%9D%88%E6%B7%B1%E6%80%9D%E4%B9%8B%E5%8A%9B
 巨人壓殺 -> http://zh.tos.wikia.com/wiki/%E5%B7%A8%E4%BA%BA%E5%A3%93%E6%AE%BA
+巨劍降臨 -> http://zh.tos.wikia.com/wiki/%E5%B7%A8%E5%8A%8D%E9%99%8D%E8%87%A8
 巨力之腕 -> http://zh.tos.wikia.com/wiki/%E5%B7%A8%E5%8A%9B%E4%B9%8B%E8%85%95
 巨大靈丸 -> http://zh.tos.wikia.com/wiki/%E5%B7%A8%E5%A4%A7%E9%9D%88%E4%B8%B8
 巴尼爾式殺人光線 -> http://zh.tos.wikia.com/wiki/%E5%B7%B4%E5%B0%BC%E7%88%BE%E5%BC%8F%E6%AE%BA%E4%BA%BA%E5%85%89%E7%B7%9A
@@ -635,6 +640,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 捨靈喚魄 -> http://zh.tos.wikia.com/wiki/%E6%8D%A8%E9%9D%88%E5%96%9A%E9%AD%84
 掃蕩叛逆 -> http://zh.tos.wikia.com/wiki/%E6%8E%83%E8%95%A9%E5%8F%9B%E9%80%86
 採靈術 -> http://zh.tos.wikia.com/wiki/%E6%8E%A1%E9%9D%88%E8%A1%93
+接收 -> http://zh.tos.wikia.com/wiki/%E6%8E%A5%E6%94%B6
 控壓 -> http://zh.tos.wikia.com/wiki/%E6%8E%A7%E5%A3%93
 掩眼幻術 -> http://zh.tos.wikia.com/wiki/%E6%8E%A9%E7%9C%BC%E5%B9%BB%E8%A1%93
 掩眼魔靈_‧_幽暗 -> http://zh.tos.wikia.com/wiki/%E6%8E%A9%E7%9C%BC%E9%AD%94%E9%9D%88_%E2%80%A7_%E5%B9%BD%E6%9A%97
@@ -643,10 +649,12 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 掩眼魔靈_‧_水波 -> http://zh.tos.wikia.com/wiki/%E6%8E%A9%E7%9C%BC%E9%AD%94%E9%9D%88_%E2%80%A7_%E6%B0%B4%E6%B3%A2
 掩眼魔靈_‧_火 -> http://zh.tos.wikia.com/wiki/%E6%8E%A9%E7%9C%BC%E9%AD%94%E9%9D%88_%E2%80%A7_%E7%81%AB
 掩眼魔靈_‧_火燄 -> http://zh.tos.wikia.com/wiki/%E6%8E%A9%E7%9C%BC%E9%AD%94%E9%9D%88_%E2%80%A7_%E7%81%AB%E7%87%84
+換裝魔法 -> http://zh.tos.wikia.com/wiki/%E6%8F%9B%E8%A3%9D%E9%AD%94%E6%B3%95
 援之寄意 -> http://zh.tos.wikia.com/wiki/%E6%8F%B4%E4%B9%8B%E5%AF%84%E6%84%8F
 搶天奪日 -> http://zh.tos.wikia.com/wiki/%E6%90%B6%E5%A4%A9%E5%A5%AA%E6%97%A5
 搶天奪日_‧_心 -> http://zh.tos.wikia.com/wiki/%E6%90%B6%E5%A4%A9%E5%A5%AA%E6%97%A5_%E2%80%A7_%E5%BF%83
 摧滅_‧_無聲 -> http://zh.tos.wikia.com/wiki/%E6%91%A7%E6%BB%85_%E2%80%A7_%E7%84%A1%E8%81%B2
+撒旦之魂 -> http://zh.tos.wikia.com/wiki/%E6%92%92%E6%97%A6%E4%B9%8B%E9%AD%82
 撒旦王權 -> http://zh.tos.wikia.com/wiki/%E6%92%92%E6%97%A6%E7%8E%8B%E6%AC%8A
 撥雨撩雲 -> http://zh.tos.wikia.com/wiki/%E6%92%A5%E9%9B%A8%E6%92%A9%E9%9B%B2
 操縱之火 -> http://zh.tos.wikia.com/wiki/%E6%93%8D%E7%B8%B1%E4%B9%8B%E7%81%AB
@@ -714,7 +722,9 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 星火棋陣 -> http://zh.tos.wikia.com/wiki/%E6%98%9F%E7%81%AB%E6%A3%8B%E9%99%A3
 星落欄柵 -> http://zh.tos.wikia.com/wiki/%E6%98%9F%E8%90%BD%E6%AC%84%E6%9F%B5
 星陣 -> http://zh.tos.wikia.com/wiki/%E6%98%9F%E9%99%A3
+星靈召喚・水瓶座 -> http://zh.tos.wikia.com/wiki/%E6%98%9F%E9%9D%88%E5%8F%AC%E5%96%9A%E3%83%BB%E6%B0%B4%E7%93%B6%E5%BA%A7
 星靈結界 -> http://zh.tos.wikia.com/wiki/%E6%98%9F%E9%9D%88%E7%B5%90%E7%95%8C
+星靈魔法 -> http://zh.tos.wikia.com/wiki/%E6%98%9F%E9%9D%88%E9%AD%94%E6%B3%95
 時之格鬥術 -> http://zh.tos.wikia.com/wiki/%E6%99%82%E4%B9%8B%E6%A0%BC%E9%AC%A5%E8%A1%93
 時空裂縫 -> http://zh.tos.wikia.com/wiki/%E6%99%82%E7%A9%BA%E8%A3%82%E7%B8%AB
 時間凍結 -> http://zh.tos.wikia.com/wiki/%E6%99%82%E9%96%93%E5%87%8D%E7%B5%90
@@ -980,6 +990,8 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 水波猛擊 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B3%A2%E7%8C%9B%E6%93%8A
 水波轟擊 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B3%A2%E8%BD%9F%E6%93%8A
 水波進擊 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B3%A2%E9%80%B2%E6%93%8A
+水流昇霞 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B5%81%E6%98%87%E9%9C%9E
+水流魔法 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B5%81%E9%AD%94%E6%B3%95
 水浪_‧_驅動 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B5%AA_%E2%80%A7_%E9%A9%85%E5%8B%95
 水浪之護守 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E6%B5%AA%E4%B9%8B%E8%AD%B7%E5%AE%88
 水火堅甲之賦 -> http://zh.tos.wikia.com/wiki/%E6%B0%B4%E7%81%AB%E5%A0%85%E7%94%B2%E4%B9%8B%E8%B3%A6
@@ -1081,6 +1093,10 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 滅恨之光_‧_護 -> http://zh.tos.wikia.com/wiki/%E6%BB%85%E6%81%A8%E4%B9%8B%E5%85%89_%E2%80%A7_%E8%AD%B7
 滅族之燄 -> http://zh.tos.wikia.com/wiki/%E6%BB%85%E6%97%8F%E4%B9%8B%E7%87%84
 滅絕之噬 -> http://zh.tos.wikia.com/wiki/%E6%BB%85%E7%B5%95%E4%B9%8B%E5%99%AC
+滅龍魔法・天空 -> http://zh.tos.wikia.com/wiki/%E6%BB%85%E9%BE%8D%E9%AD%94%E6%B3%95%E3%83%BB%E5%A4%A9%E7%A9%BA
+滅龍魔法・炎 -> http://zh.tos.wikia.com/wiki/%E6%BB%85%E9%BE%8D%E9%AD%94%E6%B3%95%E3%83%BB%E7%82%8E
+滅龍魔法・鐵 -> http://zh.tos.wikia.com/wiki/%E6%BB%85%E9%BE%8D%E9%AD%94%E6%B3%95%E3%83%BB%E9%90%B5
+滅龍魔法・雷 -> http://zh.tos.wikia.com/wiki/%E6%BB%85%E9%BE%8D%E9%AD%94%E6%B3%95%E3%83%BB%E9%9B%B7
 漫天薔薇之瓣 -> http://zh.tos.wikia.com/wiki/%E6%BC%AB%E5%A4%A9%E8%96%94%E8%96%87%E4%B9%8B%E7%93%A3
 潛能激發 -> http://zh.tos.wikia.com/wiki/%E6%BD%9B%E8%83%BD%E6%BF%80%E7%99%BC
 激濤之鎧 -> http://zh.tos.wikia.com/wiki/%E6%BF%80%E6%BF%A4%E4%B9%8B%E9%8E%A7
@@ -1134,6 +1150,8 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 火靈附攻_‧_水波 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E9%9D%88%E9%99%84%E6%94%BB_%E2%80%A7_%E6%B0%B4%E6%B3%A2
 火靈飄灑 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E9%9D%88%E9%A3%84%E7%81%91
 火龍大進擊 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E9%BE%8D%E5%A4%A7%E9%80%B2%E6%93%8A
+火龍的咆哮 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E9%BE%8D%E7%9A%84%E5%92%86%E5%93%AE
+火龍的鐵拳 -> http://zh.tos.wikia.com/wiki/%E7%81%AB%E9%BE%8D%E7%9A%84%E9%90%B5%E6%8B%B3
 灼熱境界 -> http://zh.tos.wikia.com/wiki/%E7%81%BC%E7%86%B1%E5%A2%83%E7%95%8C
 灼熱盾擊 -> http://zh.tos.wikia.com/wiki/%E7%81%BC%E7%86%B1%E7%9B%BE%E6%93%8A
 灼熱盾擊_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%81%BC%E7%86%B1%E7%9B%BE%E6%93%8A_%E2%80%A7_%E5%BC%B7
@@ -1142,6 +1160,8 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 炎海聖之壁 -> http://zh.tos.wikia.com/wiki/%E7%82%8E%E6%B5%B7%E8%81%96%E4%B9%8B%E5%A3%81
 炎海聖之鐵壁 -> http://zh.tos.wikia.com/wiki/%E7%82%8E%E6%B5%B7%E8%81%96%E4%B9%8B%E9%90%B5%E5%A3%81
 炎海護牆 -> http://zh.tos.wikia.com/wiki/%E7%82%8E%E6%B5%B7%E8%AD%B7%E7%89%86
+炎龍王 -> http://zh.tos.wikia.com/wiki/%E7%82%8E%E9%BE%8D%E7%8E%8B
+炎龍王的咆哮 -> http://zh.tos.wikia.com/wiki/%E7%82%8E%E9%BE%8D%E7%8E%8B%E7%9A%84%E5%92%86%E5%93%AE
 炙熱爪擊 -> http://zh.tos.wikia.com/wiki/%E7%82%99%E7%86%B1%E7%88%AA%E6%93%8A
 炙熱爪擊_‧_強 -> http://zh.tos.wikia.com/wiki/%E7%82%99%E7%86%B1%E7%88%AA%E6%93%8A_%E2%80%A7_%E5%BC%B7
 烈火凶勢 -> http://zh.tos.wikia.com/wiki/%E7%83%88%E7%81%AB%E5%87%B6%E5%8B%A2
@@ -1867,6 +1887,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 速戰決意 -> http://zh.tos.wikia.com/wiki/%E9%80%9F%E6%88%B0%E6%B1%BA%E6%84%8F
 速戰速決 -> http://zh.tos.wikia.com/wiki/%E9%80%9F%E6%88%B0%E9%80%9F%E6%B1%BA
 速戰速決_‧_強 -> http://zh.tos.wikia.com/wiki/%E9%80%9F%E6%88%B0%E9%80%9F%E6%B1%BA_%E2%80%A7_%E5%BC%B7
+造型魔法・冰 -> http://zh.tos.wikia.com/wiki/%E9%80%A0%E5%9E%8B%E9%AD%94%E6%B3%95%E3%83%BB%E5%86%B0
 連擊之盾 -> http://zh.tos.wikia.com/wiki/%E9%80%A3%E6%93%8A%E4%B9%8B%E7%9B%BE
 連擊格鬥術 -> http://zh.tos.wikia.com/wiki/%E9%80%A3%E6%93%8A%E6%A0%BC%E9%AC%A5%E8%A1%93
 連珠_‧_雪炮 -> http://zh.tos.wikia.com/wiki/%E9%80%A3%E7%8F%A0_%E2%80%A7_%E9%9B%AA%E7%82%AE
@@ -1939,6 +1960,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 鐵壁陣勢_‧_木 -> http://zh.tos.wikia.com/wiki/%E9%90%B5%E5%A3%81%E9%99%A3%E5%8B%A2_%E2%80%A7_%E6%9C%A8
 鐵壁陣勢_‧_水 -> http://zh.tos.wikia.com/wiki/%E9%90%B5%E5%A3%81%E9%99%A3%E5%8B%A2_%E2%80%A7_%E6%B0%B4
 鐵壁陣勢_‧_火 -> http://zh.tos.wikia.com/wiki/%E9%90%B5%E5%A3%81%E9%99%A3%E5%8B%A2_%E2%80%A7_%E7%81%AB
+鐵龍劍 -> http://zh.tos.wikia.com/wiki/%E9%90%B5%E9%BE%8D%E5%8A%8D
 鑽石冰刃 -> http://zh.tos.wikia.com/wiki/%E9%91%BD%E7%9F%B3%E5%86%B0%E5%88%83
 閃光彈 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E5%BD%88
 閃光怒擊 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E6%80%92%E6%93%8A
@@ -1948,6 +1970,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 閃光爆擊 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%93%8A
 閃光爆擊_‧_盈光 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%93%8A_%E2%80%A7_%E7%9B%88%E5%85%89
 閃光猛擊 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E7%8C%9B%E6%93%8A
+閃光猛擊_‧_強 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E7%8C%9B%E6%93%8A_%E2%80%A7_%E5%BC%B7
 閃光轟擊 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E8%BD%9F%E6%93%8A
 閃光進擊 -> http://zh.tos.wikia.com/wiki/%E9%96%83%E5%85%89%E9%80%B2%E6%93%8A
 闇炎聖之壁 -> http://zh.tos.wikia.com/wiki/%E9%97%87%E7%82%8E%E8%81%96%E4%B9%8B%E5%A3%81
@@ -1961,6 +1984,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 防禦姿勢_‧_火 -> http://zh.tos.wikia.com/wiki/%E9%98%B2%E7%A6%A6%E5%A7%BF%E5%8B%A2_%E2%80%A7_%E7%81%AB
 防禦鐵壁 -> http://zh.tos.wikia.com/wiki/%E9%98%B2%E7%A6%A6%E9%90%B5%E5%A3%81
 附纏約定 -> http://zh.tos.wikia.com/wiki/%E9%99%84%E7%BA%8F%E7%B4%84%E5%AE%9A
+限界突破_一勢亂舞 -> http://zh.tos.wikia.com/wiki/%E9%99%90%E7%95%8C%E7%AA%81%E7%A0%B4_%E4%B8%80%E5%8B%A2%E4%BA%82%E8%88%9E
 除威去脅 -> http://zh.tos.wikia.com/wiki/%E9%99%A4%E5%A8%81%E5%8E%BB%E8%84%85
 陰寒狂潮 -> http://zh.tos.wikia.com/wiki/%E9%99%B0%E5%AF%92%E7%8B%82%E6%BD%AE
 陰陽之怒 -> http://zh.tos.wikia.com/wiki/%E9%99%B0%E9%99%BD%E4%B9%8B%E6%80%92
@@ -2175,6 +2199,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 鮮血約誓 -> http://zh.tos.wikia.com/wiki/%E9%AE%AE%E8%A1%80%E7%B4%84%E8%AA%93
 鮮血約誓_‧_成魔 -> http://zh.tos.wikia.com/wiki/%E9%AE%AE%E8%A1%80%E7%B4%84%E8%AA%93_%E2%80%A7_%E6%88%90%E9%AD%94
 鳳凰天舞腳 -> http://zh.tos.wikia.com/wiki/%E9%B3%B3%E5%87%B0%E5%A4%A9%E8%88%9E%E8%85%B3
+鳴御雷 -> http://zh.tos.wikia.com/wiki/%E9%B3%B4%E5%BE%A1%E9%9B%B7
 鹿力同心_‧_火 -> http://zh.tos.wikia.com/wiki/%E9%B9%BF%E5%8A%9B%E5%90%8C%E5%BF%83_%E2%80%A7_%E7%81%AB
 麒麟之傲 -> http://zh.tos.wikia.com/wiki/%E9%BA%92%E9%BA%9F%E4%B9%8B%E5%82%B2
 麒麟之傲_‧_強 -> http://zh.tos.wikia.com/wiki/%E9%BA%92%E9%BA%9F%E4%B9%8B%E5%82%B2_%E2%80%A7_%E5%BC%B7
@@ -2210,4 +2235,4 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2233 skills
+2258 skills
