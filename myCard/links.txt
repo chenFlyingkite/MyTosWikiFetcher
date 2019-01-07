@@ -11706,10 +11706,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1962"
   },
   {
+    "title": "No. 1963 魔女之罪 ‧ 傑拉爾",
+    "id": "1963",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%AD%94%E5%A5%B3%E4%B9%8B%E7%BD%AA_%E2%80%A7_%E5%82%91%E6%8B%89%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/1963"
+  },
+  {
     "title": "No. 1964 炎龍王 ‧ 伊格尼爾",
     "id": "1964",
     "link": "http://zh.tos.wikia.com/wiki/%E7%82%8E%E9%BE%8D%E7%8E%8B_%E2%80%A7_%E4%BC%8A%E6%A0%BC%E5%B0%BC%E7%88%BE",
     "linkId": "http://zh.tos.wikia.com/wiki/1964"
+  },
+  {
+    "title": "No. 1967 妖尾會長 ‧ 馬卡羅夫",
+    "id": "1967",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A6%96%E5%B0%BE%E6%9C%83%E9%95%B7_%E2%80%A7_%E9%A6%AC%E5%8D%A1%E7%BE%85%E5%A4%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/1967"
   },
   {
     "title": "No. 1968 最強之貓 ‧ 龐沙利利",
@@ -11722,6 +11734,12 @@
     "id": "1969",
     "link": "http://zh.tos.wikia.com/wiki/%E6%B0%B4%E4%B9%8B%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E8%8C%B1%E6%AF%94%E4%BA%9E",
     "linkId": "http://zh.tos.wikia.com/wiki/1969"
+  },
+  {
+    "title": "No. 1970 時間操控 ‧ 烏璐緹雅",
+    "id": "1970",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%99%82%E9%96%93%E6%93%8D%E6%8E%A7_%E2%80%A7_%E7%83%8F%E7%92%90%E7%B7%B9%E9%9B%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/1970"
   },
   {
     "title": "No. 1971 妖精軍師 ‧ 梅比斯",
