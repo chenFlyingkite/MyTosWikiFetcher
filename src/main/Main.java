@@ -13,7 +13,6 @@ import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
-import kotlin.Pair;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;

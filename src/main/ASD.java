@@ -112,9 +112,15 @@ public class ASD {
         }
         */
 
+        // 轉化為強化符石 #1541,宿命扭轉 ‧ 蛇夫座斯克勒
+        // 所有符石隨機轉換 #0285,元素操縱者 ‧ 迪亞布羅
+        // 所有符石隨機轉化 #1787,魔人 ‧ 幽助
+        // 所有符石轉化為 #0562,黃衣魅影 ‧ 哈斯塔 & #0542,三清祖師 ‧ 元始天尊
+        // 所有符石轉化為強化符石 #1762,小傑
         // Find cards
-        //findCardSkill("受到敵人攻擊", allCards);
-        findCardAme("召喚獸技能冷卻回合", allCards);
+        findCardSkill("轉化為強化符石", allCards);
+        L.log("--**--\n\n\n--**--");
+        //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("掉落機率降至", allCards);
         //findCardSkill("傷害減少", allCards);
     }
