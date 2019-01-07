@@ -73,7 +73,6 @@ public class ASD {
 
     private static void loadCardsCSV() {
         TicTac2 clk = new TicTac2();
-        Gson mGson = new Gson();
 
         File fc = new File("myCard", "cardList.json");
         // Try to parsing back to know its performance
@@ -114,9 +113,10 @@ public class ASD {
         */
 
         // Find cards
-        findCards("變身", allCards);
-        //findCards("掉落機率降至", allCards);
-        //findCards("傷害減少", allCards);
+        //findCardSkill("受到敵人攻擊", allCards);
+        findCardAme("召喚獸技能冷卻回合", allCards);
+        //findCardSkill("掉落機率降至", allCards);
+        //findCardSkill("傷害減少", allCards);
     }
 
     private static void chiTest() {
@@ -168,7 +168,46 @@ public class ASD {
         }
     }
 
-    private static void findCards(String key, TosCard[] allCards) {
+    private static void findCardAme(String key, TosCard[] allCards) {
+        int nc = 0;
+        for (TosCard c : allCards) {
+            boolean hasAme = !c.skillAmeName1.isEmpty();
+            if (hasAme) {
+                char[] cs = new char[4];
+                cs[0] = exist(key, c.skillAmeName1);
+                cs[1] = exist(key, c.skillAmeName2);
+                cs[2] = exist(key, c.skillAmeName3);
+                cs[3] = exist(key, c.skillAmeName4);
+
+                String s = String.valueOf(cs);
+                if (s.contains("O")) {
+                    nc++;
+
+                    String t = "";
+                    t += cs[0] + " : " + c.skillAmeName1 + "\n";
+                    t += cs[1] + " : " + c.skillAmeName2 + "\n";
+                    t += cs[2] + " : " + c.skillAmeName3 + "\n";
+                    t += cs[3] + " : " + c.skillAmeName4 + "\n";
+
+                    L.log("%s\n%s\n", sc(c), t);
+                }
+            }
+        }
+
+        L.log("%s in Amelioration, key = %s", nc, key);
+    }
+
+    private static char exist(String key, String content) {
+        if (content == null || content.isEmpty()) {
+            return 'N';
+        } else if (content.contains(key)) {
+            return 'O';
+        } else {
+            return 'X';
+        }
+    }
+
+    private static void findCardSkill(String key, TosCard[] allCards) {
         int sn = 0, tn = 0, un = 0;
 
         for (TosCard c : allCards) {

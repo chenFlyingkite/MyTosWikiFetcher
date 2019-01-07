@@ -68,6 +68,7 @@ public final class TC {
     public static final String rebirthChange = "rebirthChange";
     public static final String armCrafts = "armCrafts";
     public static final String switchChange = "switchChange";
+    public static final String skillCDMaxAme = "skillCDMaxAme";
 
     // Automation
     public static void g() {
@@ -86,6 +87,7 @@ public final class TC {
                 skillAmeName2, skillAmeCost2,
                 skillAmeName3, skillAmeCost3,
                 skillAmeName4, skillAmeCost4,
+                skillCDMaxAme,
                 skillAwkName,
                 skillAwkBattleName, skillAwkBattleLink,
                 skillPowBattle,

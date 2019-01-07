@@ -92,6 +92,9 @@ public class TosCardCreator {
                 case 24: c = asTosCard_24(info); break;
                 case 31: c = asTosCard_31(info); break;
             }
+            if (c != null) {
+                updateCDMinAme(c);
+            }
         }
         return c;
     }
@@ -579,10 +582,9 @@ public class TosCardCreator {
 
     private void fillSkillActive(TosCard c, List<String> list) {
         //-- Skill Active name #10
-        boolean pass = false; //"1809".equals(c.idNorm);
         c.skillName1 = list.get(0);
-        c.skillCDMin1 = pass ? 0 : Integer.parseInt(list.get(1));
-        c.skillCDMax1 = pass ? 0 : Integer.parseInt(list.get(2));
+        c.skillCDMin1 = Integer.parseInt(list.get(1));
+        c.skillCDMax1 = Integer.parseInt(list.get(2));
         c.skillDesc1 = list.get(3);
     }
 
@@ -612,6 +614,19 @@ public class TosCardCreator {
         c.skillAmeCost3 = Integer.parseInt(list.get(5));
         c.skillAmeName4 = list.get(6);
         c.skillAmeCost4 = Integer.parseInt(list.get(7));
+    }
+
+    private void updateCDMinAme(TosCard c) {
+        c.skillCDMaxAme = c.skillCDMax1;
+        final String key = "召喚獸技能冷卻回合 - ";
+        String[] s = {c.skillAmeName1, c.skillAmeName2, c.skillAmeName3, c.skillAmeName4};
+        for (String t : s) {
+            int p = t.indexOf(key);
+            if (p >= 0) {
+                String subCD = t.substring(p + key.length());
+                c.skillCDMaxAme -= Integer.parseInt(subCD);
+            }
+        }
     }
 
 }
