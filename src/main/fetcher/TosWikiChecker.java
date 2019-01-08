@@ -1,34 +1,29 @@
 package main.fetcher;
 
+import com.google.gson.Gson;
+import flyingkite.log.L;
+import flyingkite.tool.GsonUtil;
+import flyingkite.tool.TextUtil;
+import main.card.Evolve;
+import main.card.TosCard;
+import main.fetcher.data.Counter;
+
 import java.io.File;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.google.gson.Gson;
-import flyingkite.log.L;
-import flyingkite.tool.GsonUtil;
-import flyingkite.tool.TextUtil;
-import flyingkite.tool.TicTac2;
-import main.card.Evolve;
-import main.card.TosCard;
-
 public class TosWikiChecker {
     private TosWikiChecker() {}
     public static final TosWikiChecker me = new TosWikiChecker();
     private Gson gson = new Gson();
+    private File source = new File("myCard", "cardList.json");
 
     private Map<String, TosCard> allmap = new HashMap<>();
 
     public List<TosCard> check() {
-        TicTac2 clk = new TicTac2();
-        File fc = new File("myCard", "cardList.json");
-        // Try to parsing back to know its performance
-        clk.tic();
-        TosCard[] allCards = GsonUtil.loadFile(fc, TosCard[].class);
-        clk.tac("%s cards loaded", allCards.length);
-        List<TosCard> cards = Arrays.asList(allCards);
+        List<TosCard> cards = load();
 
         createMap(cards);
         L.log("--- Check missing");
@@ -36,6 +31,11 @@ public class TosWikiChecker {
         L.log("--- Check Duplicate");
         checkDuplicate(cards);
         return cards;
+    }
+
+    private List<TosCard> load() {
+        TosCard[] allCards = GsonUtil.loadFile(source, TosCard[].class);
+        return Arrays.asList(allCards);
     }
 
     private void createMap(List<TosCard> all) {
@@ -46,6 +46,54 @@ public class TosWikiChecker {
             }
             allmap.put(c.idNorm, c);
         }
+    }
+
+    public void checkCards() {
+        checkCards(load());
+    }
+
+    private void checkCards(List<TosCard> allCards) {
+        Counter<TosCard> attr = new Counter<TosCard>() {
+            @Override
+            public String key(TosCard c) {
+                return c.attribute;
+            }
+
+            @Override
+            public List<TosCard> getData() {
+                return allCards;
+            }
+        };
+
+        Counter<TosCard> race = new Counter<TosCard>() {
+            @Override
+            public String key(TosCard c) {
+                return c.race;
+            }
+
+            @Override
+            public List<TosCard> getData() {
+                return allCards;
+            }
+        };
+
+        Counter<TosCard> star = new Counter<TosCard>() {
+            @Override
+            public String key(TosCard c) {
+                return c.rarity + "★";
+            }
+
+            @Override
+            public List<TosCard> getData() {
+                return allCards;
+            }
+        };
+        Map<String, Integer> a = attr.count();
+        Map<String, Integer> r = race.count();
+        Map<String, Integer> s = star.count();
+        L.log("A = %s", a);
+        L.log("R = %s", r);
+        L.log("S = %s", s);
     }
 
     private void checkMissingCard(List<TosCard> all) {

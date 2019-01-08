@@ -1,14 +1,5 @@
 package main.fetcher;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
-
 import flyingkite.collection.ListUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
@@ -29,6 +20,15 @@ import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class TosCardFetcher extends TosWikiBaseFetcher {
     private TosCardFetcher() {}

@@ -1,19 +1,5 @@
 package main;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.function.Consumer;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import flyingkite.data.Rect2;
@@ -34,6 +20,20 @@ import flyingkite.tool.TicTac2;
 import main.card.TosCard;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.function.Consumer;
 
 public class ASD {
     private static final TicTac2 tt = new TicTac2();

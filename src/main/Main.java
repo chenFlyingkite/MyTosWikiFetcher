@@ -1,11 +1,5 @@
 package main;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.concurrent.ExecutorService;
-
 import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
@@ -33,6 +27,12 @@ import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.kt.CopyInfo;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+
 public class Main {
     public static void main(String[] args) {
         fetch();
@@ -45,7 +45,7 @@ public class Main {
         TicTac.tic();
         boolean fixCard = 0 > 0;
         //-- Regular
-        boolean regl = 1 > 0 && !fixCard; // Regular
+        boolean regl = 0 > 0 && !fixCard; // Regular
         boolean parl = true; // Parallel
         // 維基動態
         if (regl) {
@@ -113,6 +113,7 @@ public class Main {
         if (1 > 0) { // left value 1 = yes, 0 = no
             //ASD.run();
             QWE.run(); // Firebase comments
+            //TosWikiChecker.me.checkCards();
         }
         //ClusterMain.INSTANCE.main(args);
         //Statistics.run();
