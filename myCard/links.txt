@@ -13062,6 +13062,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6230"
   },
   {
+    "title": "S234 殘虐軍帥 ‧ 傑克",
+    "id": "6234",
+    "link": "http://zh.tos.wikia.com/wiki/%E6%AE%98%E8%99%90%E8%BB%8D%E5%B8%A5_%E2%80%A7_%E5%82%91%E5%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/6234"
+  },
+  {
     "title": "S235 箝魄軍閥 ‧ 陶德",
     "id": "6235",
     "link": "http://zh.tos.wikia.com/wiki/%E7%AE%9D%E9%AD%84%E8%BB%8D%E9%96%A5_%E2%80%A7_%E9%99%B6%E5%BE%B7",

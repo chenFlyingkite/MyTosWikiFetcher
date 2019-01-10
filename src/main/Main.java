@@ -45,7 +45,7 @@ public class Main {
         TicTac.tic();
         boolean fixCard = 0 > 0;
         //-- Regular
-        boolean regl = 0 > 0 && !fixCard; // Regular
+        boolean regl = 1 > 0 && !fixCard; // Regular
         boolean parl = true; // Parallel
         // 維基動態
         if (regl) {
