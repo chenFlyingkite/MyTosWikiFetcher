@@ -15831,12 +15831,8 @@
     "esCode": "{{ES1067}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
-        "iconKey": "SI304.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI014.png"
       }
     ]
   },
@@ -50219,7 +50215,7 @@
   {
     "id": "2960",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2960",
-    "name": "含神-神族禁錮-隱藏圍城 ‧ 首消暗追擊零化 ‧ 無法控制",
+    "name": "含神-全員禁錮-隱藏圍城 ‧ 首消暗追擊零化 ‧ 無法控制",
     "detail": "隊伍中有神族成員時，敵人永久封鎖所有成員的主動技能及其攻擊，並將所有符石轉化為隱藏符石。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e敵人會無視所有控制技能",
     "esCode": "{{ES2960}}",
     "icons": [
@@ -50378,7 +50374,7 @@
   {
     "id": "2967",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2967",
-    "name": "(5回轉珠減1秒) ‧ 始終盾",
+    "name": "(5回轉珠減1秒) ‧ 左上右下始終盾",
     "detail": "5 回合內，移動符石時間減少 1 秒。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復 (達成條件前，無法進行回復)",
     "esCode": "{{ES2967}}",
     "icons": [
@@ -50395,7 +50391,7 @@
   {
     "id": "2968",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2968",
-    "name": "(5回轉珠減2秒) ‧ 隱藏符石-轉 ‧ 始終盾",
+    "name": "(5回轉珠減2秒) ‧ 隱藏符石-轉 ‧ 左上右下始終盾",
     "detail": "5 回合內，移動符石時間減少 2 秒。\u003cbr\u003e每回合開始移動符石時，才會顯示場上的符石。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復 (達成條件前，無法進行回復)",
     "esCode": "{{ES2968}}",
     "icons": [
@@ -50416,7 +50412,7 @@
   {
     "id": "2969",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2969",
-    "name": "(5回轉珠減3秒) ‧ 隱藏符石-轉 ‧ 始終盾",
+    "name": "(5回轉珠減3秒) ‧ 隱藏符石-轉 ‧ 左下右上終盾",
     "detail": "5 回合內，移動符石時間減少 3 秒。\u003cbr\u003e每回合開始移動符石時，才會顯示場上的符石。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復 (達成條件前，無法進行回復)",
     "esCode": "{{ES2969}}",
     "icons": [
@@ -54023,7 +54019,7 @@
   {
     "id": "3113",
     "link": "http://zh.tos.wikia.com/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3113",
-    "name": "先攻-雙重燃燒20% ‧ 艾爾莎禁錮 ‧ 納茲3倍攻 ‧ 首消水光暗傷害零化-反擊200%",
+    "name": "先攻-雙重燃燒20% ‧ 艾爾莎禁錮 ‧ [3回納茲3倍攻] ‧ 首消水光暗傷害零化-反擊200%",
     "detail": "封鎖妖精女王 ‧ 艾爾莎的主動技能及其攻擊。\u003cbr\u003e3 回合內，火之滅龍魔導士 ‧ 納茲的攻擊力提升 3 倍。\u003cbr\u003e首回合優先攻擊 1 次，並隨機燃燒 2 個位置，每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e首批消除水、光或暗符石及對敵人造成傷害時，該回合無法對敵人造成攻擊傷害，且敵人會反擊自身 200% 攻擊傷害",
     "esCode": "{{ES3113}}",
     "icons": [
@@ -54044,16 +54040,12 @@
         "iconKey": "SI157.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI011.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2b/SI030.png/revision/latest/scale-to-width-down/22?cb\u003d20190111133857\u0026path-prefix\u003dzh",
+        "iconKey": "SI030.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI014.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI015.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
       }
     ]
   },
@@ -54073,8 +54065,8 @@
         "iconKey": "SI236.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d2/SI107.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
-        "iconKey": "SI107.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI105.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
+        "iconKey": "SI105.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
