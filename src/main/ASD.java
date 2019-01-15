@@ -62,6 +62,7 @@ public class ASD {
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
         loadCardsCSV();
+        //getV16Icons();
         //getVoidRealm();
         //PngInvert.me.invertImages("Logos/A", "Logos/B");
         //getEnochianTower();
@@ -304,6 +305,16 @@ public class ASD {
         r = Rect2.atLTWH(1560, 2560, 600, 600);
         getImageR("realm", "Screenshot_20181225-161727.png", r, "0");
         scaleImage("D:\\GitHub\\MyTosWikiFetcher\\Logos\\Output\\realm", 400);
+    }
+
+    private static void getV16Icons() {
+        Rect2 r;
+        r = Rect2.atXYWH(1991, 2817, 100, 100);
+        getImageR("v16", "Screenshot_20190115-170235.png", r, "0");
+        r = Rect2.atXYWH(2025, 1789, 155, 86);
+        getImageR("v16", "Screenshot_20190115-170321.png", r, "1");
+        r = Rect2.atXYWH( 135, 1789, 155, 86);
+        getImageR("v16", "Screenshot_20190115-170333.png", r, "2");
     }
 
     private static void getStoryDragon() {
