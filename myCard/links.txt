@@ -10896,6 +10896,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1818"
   },
   {
+    "title": "No. 1820 雛鳥騎士 ‧ 瘋頭",
+    "id": "1820",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9B%9B%E9%B3%A5%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E7%98%8B%E9%A0%AD",
+    "linkId": "http://zh.tos.wikia.com/wiki/1820"
+  },
+  {
     "title": "No. 1821 睿哲始祖 ‧ 阿特拉哈西斯",
     "id": "1821",
     "link": "http://zh.tos.wikia.com/wiki/%E7%9D%BF%E5%93%B2%E5%A7%8B%E7%A5%96_%E2%80%A7_%E9%98%BF%E7%89%B9%E6%8B%89%E5%93%88%E8%A5%BF%E6%96%AF",
@@ -11718,6 +11724,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1964"
   },
   {
+    "title": "No. 1965 黑魔導士 ‧ 瑟雷夫",
+    "id": "1965",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%BB%91%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E7%91%9F%E9%9B%B7%E5%A4%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/1965"
+  },
+  {
     "title": "No. 1966 闇之翼 ‧ 亞克諾羅基亞",
     "id": "1966",
     "link": "http://zh.tos.wikia.com/wiki/%E9%97%87%E4%B9%8B%E7%BF%BC_%E2%80%A7_%E4%BA%9E%E5%85%8B%E8%AB%BE%E7%BE%85%E5%9F%BA%E4%BA%9E",
@@ -11770,6 +11782,12 @@
     "id": "1979",
     "link": "http://zh.tos.wikia.com/wiki/%E6%9B%88%E8%8A%92%E9%9D%88%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/1979"
+  },
+  {
+    "title": "No. 1982 大乘儆惡 ‧ 唐三藏",
+    "id": "1982",
+    "link": "http://zh.tos.wikia.com/wiki/%E5%A4%A7%E4%B9%98%E5%84%86%E6%83%A1_%E2%80%A7_%E5%94%90%E4%B8%89%E8%97%8F",
+    "linkId": "http://zh.tos.wikia.com/wiki/1982"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -12472,6 +12490,12 @@
     "id": "6120",
     "link": "http://zh.tos.wikia.com/wiki/%E8%A5%BF%E9%83%A8%E7%89%9B%E4%BB%94_%E2%80%A7_%E5%93%88%E6%B2%99",
     "linkId": "http://zh.tos.wikia.com/wiki/6120"
+  },
+  {
+    "title": "S121 雋永神姿 · 奧丁",
+    "id": "6121",
+    "link": "http://zh.tos.wikia.com/wiki/%E9%9B%8B%E6%B0%B8%E7%A5%9E%E5%A7%BF_%C2%B7_%E5%A5%A7%E4%B8%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/6121"
   },
   {
     "title": "S122 帽子公爵 ‧ 蘭斯洛特",

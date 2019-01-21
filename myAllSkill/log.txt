@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2250 items, basePath = http://zh.tos.wikia.com, offset = null)
+from gson, (2254 items, basePath = http://zh.tos.wikia.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> http://zh.tos.wikia.com/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -574,6 +574,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 引領之帥 -> http://zh.tos.wikia.com/wiki/%E5%BC%95%E9%A0%98%E4%B9%8B%E5%B8%A5
 引領之帥_‧_強 -> http://zh.tos.wikia.com/wiki/%E5%BC%95%E9%A0%98%E4%B9%8B%E5%B8%A5_%E2%80%A7_%E5%BC%B7
 引領之燄 -> http://zh.tos.wikia.com/wiki/%E5%BC%95%E9%A0%98%E4%B9%8B%E7%87%84
+弘揚大義_‧_除障 -> http://zh.tos.wikia.com/wiki/%E5%BC%98%E6%8F%9A%E5%A4%A7%E7%BE%A9_%E2%80%A7_%E9%99%A4%E9%9A%9C
 弱孤延敵 -> http://zh.tos.wikia.com/wiki/%E5%BC%B1%E5%AD%A4%E5%BB%B6%E6%95%B5
 弱孤懈敵 -> http://zh.tos.wikia.com/wiki/%E5%BC%B1%E5%AD%A4%E6%87%88%E6%95%B5
 弱孤自療 -> http://zh.tos.wikia.com/wiki/%E5%BC%B1%E5%AD%A4%E8%87%AA%E7%99%82
@@ -946,6 +947,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 歸一之志 -> http://zh.tos.wikia.com/wiki/%E6%AD%B8%E4%B8%80%E4%B9%8B%E5%BF%97
 歸元結念 -> http://zh.tos.wikia.com/wiki/%E6%AD%B8%E5%85%83%E7%B5%90%E5%BF%B5
 死亡宣告 -> http://zh.tos.wikia.com/wiki/%E6%AD%BB%E4%BA%A1%E5%AE%A3%E5%91%8A
+死亡狩獵 -> http://zh.tos.wikia.com/wiki/%E6%AD%BB%E4%BA%A1%E7%8B%A9%E7%8D%B5
 死神的圓舞曲 -> http://zh.tos.wikia.com/wiki/%E6%AD%BB%E7%A5%9E%E7%9A%84%E5%9C%93%E8%88%9E%E6%9B%B2
 死靈之源 -> http://zh.tos.wikia.com/wiki/%E6%AD%BB%E9%9D%88%E4%B9%8B%E6%BA%90
 殘妒之火 -> http://zh.tos.wikia.com/wiki/%E6%AE%98%E5%A6%92%E4%B9%8B%E7%81%AB
@@ -1503,6 +1505,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 種族凝匯_‧_光 -> http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E5%87%9D%E5%8C%AF_%E2%80%A7_%E5%85%89
 種族凝匯_‧_極光 -> http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E5%87%9D%E5%8C%AF_%E2%80%A7_%E6%A5%B5%E5%85%89
 種族凝匯・極光 -> http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E5%87%9D%E5%8C%AF%E3%83%BB%E6%A5%B5%E5%85%89
+種族凝滙_‧_光之暴 -> http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E5%87%9D%E6%BB%99_%E2%80%A7_%E5%85%89%E4%B9%8B%E6%9A%B4
 種族符石_‧_幽冥 -> http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E7%AC%A6%E7%9F%B3_%E2%80%A7_%E5%B9%BD%E5%86%A5
 種族符石_‧_浪濤 -> http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E7%AC%A6%E7%9F%B3_%E2%80%A7_%E6%B5%AA%E6%BF%A4
 種族符石_‧_熾燄 -> http://zh.tos.wikia.com/wiki/%E7%A8%AE%E6%97%8F%E7%AC%A6%E7%9F%B3_%E2%80%A7_%E7%86%BE%E7%87%84
@@ -2224,6 +2227,7 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 黑洞瞬擊 -> http://zh.tos.wikia.com/wiki/%E9%BB%91%E6%B4%9E%E7%9E%AC%E6%93%8A
 黑洞重擊 -> http://zh.tos.wikia.com/wiki/%E9%BB%91%E6%B4%9E%E9%87%8D%E6%93%8A
 黑隱法 -> http://zh.tos.wikia.com/wiki/%E9%BB%91%E9%9A%B1%E6%B3%95
+黑魔法 -> http://zh.tos.wikia.com/wiki/%E9%BB%91%E9%AD%94%E6%B3%95
 黑龍的咆哮 -> http://zh.tos.wikia.com/wiki/%E9%BB%91%E9%BE%8D%E7%9A%84%E5%92%86%E5%93%AE
 默娘之雨打漂萍 -> http://zh.tos.wikia.com/wiki/%E9%BB%98%E5%A8%98%E4%B9%8B%E9%9B%A8%E6%89%93%E6%BC%82%E8%90%8D
 點滴加冕_‧_水 -> http://zh.tos.wikia.com/wiki/%E9%BB%9E%E6%BB%B4%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%B0%B4
@@ -2251,4 +2255,4 @@ V_字殺手 -> http://zh.tos.wikia.com/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> http://zh.tos.wikia.com/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2274 skills
+2278 skills
