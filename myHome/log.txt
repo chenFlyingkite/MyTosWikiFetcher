@@ -2,59 +2,59 @@
 0 ~ 0 -> [開始, 結束, 活動/關卡]
   link = 
 1548320400 ~ 1548665940 -> [1月24日(四) 17:00, 1月28日(一) 16:59, TGS 神魔格鬥擂台 – 報名賽 ※特別任務]
-  link = http://zh.tos.wikia.com/wiki/TGS_%E7%A5%9E%E9%AD%94%E6%A0%BC%E9%AC%A5%E6%93%82%E5%8F%B0_%E2%80%93_%E5%A0%B1%E5%90%8D%E8%B3%BD
+  link = https://tos.fandom.com/zh/wiki/TGS_%E7%A5%9E%E9%AD%94%E6%A0%BC%E9%AC%A5%E6%93%82%E5%8F%B0_%E2%80%93_%E5%A0%B1%E5%90%8D%E8%B3%BD
 1548259200 ~ 1548691200 -> [1月24日(四), 1月28日(一), 踏上千里之行 ※特別任務]
-  link = http://zh.tos.wikia.com/wiki/%E8%B8%8F%E4%B8%8A%E5%8D%83%E9%87%8C%E4%B9%8B%E8%A1%8C
+  link = https://tos.fandom.com/zh/wiki/%E8%B8%8F%E4%B8%8A%E5%8D%83%E9%87%8C%E4%B9%8B%E8%A1%8C
 1547395200 ~ 1548259200 -> [1月14日(一), 1月23日(三), 燃燒的戰魂 ※光屬性關卡體力消耗減半]
-  link = http://zh.tos.wikia.com/wiki/%E7%87%83%E7%87%92%E7%9A%84%E6%88%B0%E9%AD%82
+  link = https://tos.fandom.com/zh/wiki/%E7%87%83%E7%87%92%E7%9A%84%E6%88%B0%E9%AD%82
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 人類的牽絆 ※雙週關卡 (只適用於港澳台新馬泰地區)]
-  link = http://zh.tos.wikia.com/wiki/%E4%BA%BA%E9%A1%9E%E7%9A%84%E7%89%BD%E7%B5%86
+  link = https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E7%9A%84%E7%89%BD%E7%B5%86
 1546790400 ~ 1548777600 -> [1月07日(一), 1月29日(二), 已進化時間之弧 ※雙週關卡 (只適用於港澳台新馬泰地區)]
-  link = http://zh.tos.wikia.com/wiki/%E5%B7%B2%E9%80%B2%E5%8C%96%E6%99%82%E9%96%93%E4%B9%8B%E5%BC%A7
+  link = https://tos.fandom.com/zh/wiki/%E5%B7%B2%E9%80%B2%E5%8C%96%E6%99%82%E9%96%93%E4%B9%8B%E5%BC%A7
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 追逐秘寶的傳說 ‧ 水 ※雙週關卡 (只適用於其他地區)]
-  link = http://zh.tos.wikia.com/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%B0%B4
+  link = https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%B0%B4
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 追逐秘寶的傳說 ‧ 火 ※雙週關卡 (只適用於其他地區)]
-  link = http://zh.tos.wikia.com/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E7%81%AB
+  link = https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E7%81%AB
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 追逐秘寶的傳說 ‧ 木 ※雙週關卡 (只適用於其他地區)]
-  link = http://zh.tos.wikia.com/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9C%A8
+  link = https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9C%A8
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 追逐秘寶的傳說 ‧ 光 ※雙週關卡 (只適用於其他地區)]
-  link = http://zh.tos.wikia.com/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E5%85%89
+  link = https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E5%85%89
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 追逐秘寶的傳說 ‧ 暗 ※雙週關卡 (只適用於其他地區)]
-  link = http://zh.tos.wikia.com/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9A%97
+  link = https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%80%90%E7%A7%98%E5%AF%B6%E7%9A%84%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9A%97
 1546358400 ~ 1547395200 -> [1月02日(三), 1月13日(星期日), 雙刀的羈絆 ※復刻雙週提升掉落率]
-  link = http://zh.tos.wikia.com/wiki/%E9%9B%99%E5%88%80%E7%9A%84%E7%BE%88%E7%B5%86
+  link = https://tos.fandom.com/zh/wiki/%E9%9B%99%E5%88%80%E7%9A%84%E7%BE%88%E7%B5%86
 1547395200 ~ 1548604800 -> [1月14日(一), 1月27日(星期日), 未能實現的約定 ※復刻雙週提升掉落率]
-  link = http://zh.tos.wikia.com/wiki/%E6%9C%AA%E8%83%BD%E5%AF%A6%E7%8F%BE%E7%9A%84%E7%B4%84%E5%AE%9A
+  link = https://tos.fandom.com/zh/wiki/%E6%9C%AA%E8%83%BD%E5%AF%A6%E7%8F%BE%E7%9A%84%E7%B4%84%E5%AE%9A
 1548604800 ~ 1549814400 -> [1月28日(一), 2月10日(星期日), 暗夜的黑手 ※復刻雙週提升掉落率]
-  link = http://zh.tos.wikia.com/wiki/%E6%9A%97%E5%A4%9C%E7%9A%84%E9%BB%91%E6%89%8B
+  link = https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%A4%9C%E7%9A%84%E9%BB%91%E6%89%8B
 1548432000 ~ 1549814400 -> [1月26日(星期六), 2月10日(星期日), 海浪八音盒 ※復刻雙週提升掉落率]
-  link = http://zh.tos.wikia.com/wiki/%E6%B5%B7%E6%B5%AA%E5%85%AB%E9%9F%B3%E7%9B%92
+  link = https://tos.fandom.com/zh/wiki/%E6%B5%B7%E6%B5%AA%E5%85%AB%E9%9F%B3%E7%9B%92
 1548432000 ~ 1549814400 -> [1月26日(星期六), 2月10日(星期日), 焚風自鳴琴 ※復刻雙週提升掉落率]
-  link = http://zh.tos.wikia.com/wiki/%E7%84%9A%E9%A2%A8%E8%87%AA%E9%B3%B4%E7%90%B4
+  link = https://tos.fandom.com/zh/wiki/%E7%84%9A%E9%A2%A8%E8%87%AA%E9%B3%B4%E7%90%B4
 1548432000 ~ 1549814400 -> [1月26日(星期六), 2月10日(星期日), 風詠音樂盒 ※復刻雙週提升掉落率]
-  link = http://zh.tos.wikia.com/wiki/%E9%A2%A8%E8%A9%A0%E9%9F%B3%E6%A8%82%E7%9B%92
+  link = https://tos.fandom.com/zh/wiki/%E9%A2%A8%E8%A9%A0%E9%9F%B3%E6%A8%82%E7%9B%92
 1548432000 ~ 1549814400 -> [1月26日(星期六), 2月10日(星期日), 星詠之歌姬 ※復刻雙週提升掉落率]
-  link = http://zh.tos.wikia.com/wiki/%E6%98%9F%E8%A9%A0%E4%B9%8B%E6%AD%8C%E5%A7%AC
+  link = https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%A9%A0%E4%B9%8B%E6%AD%8C%E5%A7%AC
 1547820000 ~ 1547999940 -> [1月18日(五) 22:00, 1月20日(星期日) 23:59, 八腳馬騎士 ※夢魘級]
-  link = http://zh.tos.wikia.com/wiki/%E5%85%AB%E8%85%B3%E9%A6%AC%E9%A8%8E%E5%A3%AB
+  link = https://tos.fandom.com/zh/wiki/%E5%85%AB%E8%85%B3%E9%A6%AC%E9%A8%8E%E5%A3%AB
 1547820000 ~ 1547999940 -> [1月18日(五) 22:00, 1月20日(星期日) 23:59, 無盡的破壞 ※地獄級]
-  link = http://zh.tos.wikia.com/wiki/%E7%84%A1%E7%9B%A1%E7%9A%84%E7%A0%B4%E5%A3%9E
+  link = https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%9B%A1%E7%9A%84%E7%A0%B4%E5%A3%9E
 1548424800 ~ 1548777540 -> [1月25日(五) 22:00, 1月29日(二) 23:59, 無可匹敵的黑魔法 ※夢魘級 (只適用於港澳台新馬泰地區)]
-  link = http://zh.tos.wikia.com/wiki/%E7%84%A1%E5%8F%AF%E5%8C%B9%E6%95%B5%E7%9A%84%E9%BB%91%E9%AD%94%E6%B3%95
+  link = https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%8F%AF%E5%8C%B9%E6%95%B5%E7%9A%84%E9%BB%91%E9%AD%94%E6%B3%95
 1548424800 ~ 1548691140 -> [1月25日(五) 22:00, 1月28日(一) 23:59, 塵封之書 ※地獄級]
-  link = http://zh.tos.wikia.com/wiki/%E5%A1%B5%E5%B0%81%E4%B9%8B%E6%9B%B8
+  link = https://tos.fandom.com/zh/wiki/%E5%A1%B5%E5%B0%81%E4%B9%8B%E6%9B%B8
 1548424800 ~ 1548691140 -> [1月25日(五) 22:00, 1月28日(一) 23:59, 甦醒之花 ※地獄級]
-  link = http://zh.tos.wikia.com/wiki/%E7%94%A6%E9%86%92%E4%B9%8B%E8%8A%B1
+  link = https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E4%B9%8B%E8%8A%B1
 0 ~ 0 -> [全新討伐戰『暗黑之翼張開』]
   link = 
 1547395200 ~ 1548259200 -> [1月14日(一), 1月23日(三), 絕望的降臨]
-  link = http://zh.tos.wikia.com/wiki/%E7%B5%95%E6%9C%9B%E7%9A%84%E9%99%8D%E8%87%A8
+  link = https://tos.fandom.com/zh/wiki/%E7%B5%95%E6%9C%9B%E7%9A%84%E9%99%8D%E8%87%A8
 0 ~ 0 -> [妖尾之炎席捲神魔]
   link = 
 0 ~ 0 -> [『FAIRY TAIL』系列所有相關活動和獎勵只適用於香港、澳門、台灣、新加坡、馬來西亞、泰國地區]
   link = 
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 魔法石封印卡活動『妖精光輝』 活動期間開放『妖精光輝』抽卡選項，當中包含 8 位『FAIRY TAIL』系列角色。 當中包括︰ 進行『妖精光輝』抽卡選項時，每 35 抽必中 6 星角色「火之滅龍魔導士 ‧ 納茲」]
-  link = http://zh.tos.wikia.com/wiki/%E6%98%9F%E9%9D%88%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E9%9C%B2%E8%A5%BF
+  link = https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9D%88%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E9%9C%B2%E8%A5%BF
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 活動期間『FAIRY TAIL』系列進行強化合成時，必定獲得超絕或完美強化]
   link = 
 1546358400 ~ 1548777600 -> [1月02日(三), 1月29日(二), 活動期間『FAIRY TAIL』系列角色進行分解時，獲得的靈魂數將提升至200]
@@ -68,45 +68,45 @@
 0 ~ 0 -> [魔女之罪的建立]
   link = 
 1546790400 ~ 1547222400 -> [1月07日(一), 1月11日(五), 每天登入︰ 魔法石 × 1，共 × 5]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1547136000 ~ 1547222400 -> [1月11日(五), 魔法石封印活動『追逐妖精尾巴』 活動當日於『妖精光輝』封印中，獲得稀有角色的機率將大幅提升]
   link = 
 1547136000 ~ 1548777600 -> [1月11日(五), 1月29日(二), 於『魔法石銘之封印（上）』、『魔法石刻之封印（下）』或『妖精光輝』卡匣進行抽卡動作，可獲 S245 火之滅龍魔導士 ‧ 納茲(動態造型) 火之滅龍魔導士 ‧ 納茲(動態造型)]
-  link = http://zh.tos.wikia.com/wiki/%E7%81%AB%E4%B9%8B%E6%BB%85%E9%BE%8D%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E7%B4%8D%E8%8C%B2(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
+  link = https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E6%BB%85%E9%BE%8D%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E7%B4%8D%E8%8C%B2(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 1546790400 ~ 1546963200 -> [1月07日(一), 1月08日(二), 首次使用 魔法石 回復體力，將可額外獲得 體力回復劑 1 支(無使用期限)]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1546963200 ~ 1547136000 -> [1月09日(三), 1月10日(四), 首次使用 魔法石 回復體力，將可額外獲得 體力回復劑 1 支(無使用期限)]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1547222400 ~ 1547395200 -> [1月12日(星期六), 1月13日(星期日), 登入︰ 限時體力回復劑 × 1 (必須於活動期間使用)]
   link = 
 1547049600 ~ 1547136000 -> [1月10日(四), 靈魂之日 關卡體力消耗減半]
-  link = http://zh.tos.wikia.com/wiki/%E9%9D%88%E9%AD%82%E4%B9%8B%E6%97%A5
+  link = https://tos.fandom.com/zh/wiki/%E9%9D%88%E9%AD%82%E4%B9%8B%E6%97%A5
 1547222400 ~ 1547395200 -> [1月12日(星期六), 1月13日(星期日), 靈魂之日 關卡體力消耗減半]
-  link = http://zh.tos.wikia.com/wiki/%E9%9D%88%E9%AD%82%E4%B9%8B%E6%97%A5
+  link = https://tos.fandom.com/zh/wiki/%E9%9D%88%E9%AD%82%E4%B9%8B%E6%97%A5
 0 ~ 0 -> [龍王祭]
   link = 
 1547395200 ~ 1547827200 -> [1月14日(一), 1月18日(五), 每天登入︰ 魔法石 × 1，共 × 5]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1547395200 ~ 1548777600 -> [1月14日(一), 1月29日(二), 「妖精女王 ‧ 艾爾莎」動態造型將於『行商要塞』中的『靈魂商店』有售]
   link = 
 1547395200 ~ 1548259200 -> [1月14日(一), 1月23日(三), 『行商要塞』新架上市]
   link = 
 1547395200 ~ 1547568000 -> [1月14日(一), 1月15日(二), 首次使用 魔法石 回復戰靈，將可額外獲得 戰靈回復劑 1 支(無使用期限)]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1547568000 ~ 1547740800 -> [1月16日(三), 1月17日(四), 首次使用 魔法石 回復戰靈，將可額外獲得 戰靈回復劑 1 支(無使用期限)]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1547827200 ~ 1548000000 -> [1月19日(星期六), 1月20日(星期日), 登入︰ 限時體力回復劑 × 1 (必須於活動期間使用)]
   link = 
 0 ~ 0 -> [降於古老大地上的禁語]
   link = 
 1548000000 ~ 1548432000 -> [1月21日(一), 1月25日(五), 每天登入︰ 魔法石 × 1，共 × 5]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1548345600 ~ 1548432000 -> [1月25日(五), 登入︰ No. 292 人面怪鳥 × 1]
-  link = http://zh.tos.wikia.com/wiki/%E4%BA%BA%E9%9D%A2%E6%80%AA%E9%B3%A5
+  link = https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%9D%A2%E6%80%AA%E9%B3%A5
 1548432000 ~ 1548518400 -> [1月26日(星期六), 登入︰ No. 429 追憶旅人 No. 430 號角手加拉爾 No. 502 覓果幻獸 No. 503 原始滄龍 No. 504 魅果精靈 No. 505 審判魔人 × 隨機 1 隻]
-  link = http://zh.tos.wikia.com/wiki/%E8%BF%BD%E6%86%B6%E6%97%85%E4%BA%BA
+  link = https://tos.fandom.com/zh/wiki/%E8%BF%BD%E6%86%B6%E6%97%85%E4%BA%BA
 1548518400 ~ 1548604800 -> [1月27日(星期日), 登入︰ 魔法石 × 6]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1548518400 ~ 1548604800 -> [1月27日(星期日), 登入︰ 金幣 × 6,000,000]
   link = 
 1548518400 ~ 1548604800 -> [1月27日(星期日), 登入︰ 體力回復劑 × 6]
@@ -114,11 +114,11 @@
 1548518400 ~ 1548604800 -> [1月27日(星期日), 登入︰ 靈魂 × 6000]
   link = 
 1548518400 ~ 1548604800 -> [1月27日(星期日), 登入︰ No. 1800 人面鳥騎士 ‧ 瘋頭 × 1]
-  link = http://zh.tos.wikia.com/wiki/%E4%BA%BA%E9%9D%A2%E9%B3%A5%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E7%98%8B%E9%A0%AD
+  link = https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%9D%A2%E9%B3%A5%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E7%98%8B%E9%A0%AD
 1548518400 ~ 1548604800 -> [1月27日(星期日), 『ALL MAX 由你選』 × 1 隻 (條件性自選召喚獸)]
   link = 
 1548604800 ~ 1548691200 -> [1月28日(一), 登入︰ No. 1631 賢者羊駝 No. 1632 鬥士羊駝 No. 1633 醫師羊駝 No. 1634 牧師羊駝 No. 1635 舞者羊駝 × 各 1 隻]
-  link = http://zh.tos.wikia.com/wiki/%E8%B3%A2%E8%80%85%E7%BE%8A%E9%A7%9D
+  link = https://tos.fandom.com/zh/wiki/%E8%B3%A2%E8%80%85%E7%BE%8A%E9%A7%9D
 1548432000 ~ 1548604800 -> [1月26日(星期六), 1月27日(星期日), 登入︰ 限時體力回復劑 × 1 (必須於活動期間使用)]
   link = 
 1548518400 ~ 2524579200 -> [1月27日(星期日), 12月31日(五), 『2019－2020 年度周歲獎賞』：「六彩斑斕 ‧ 蠑子」 1 隻 獲得條件： 由 2019 年 1 月 27 日至 2020 年 1 月 26 日， 召喚師只要在建立帳戶滿一年後，即可於建立帳戶的周年日子(即建立帳戶之同月同日) 登入後獲取。]
@@ -128,9 +128,9 @@
 1548000000 ~ 1549814400 -> [1月21日(一), 2月10日(星期日), 活動期間所有主線任務關卡(包括一至十封)，每次進場只需消耗 6 點體力]
   link = 
 1548259200 ~ 1548432000 -> [1月24日(四), 1月25日(五), 首次使用 魔法石 回復體力，將可額外獲得 體力回復劑 1 支(無使用期限)]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1548432000 ~ 1548604800 -> [1月26日(星期六), 1月27日(星期日), 首次使用 魔法石 回復體力，將可額外獲得 體力回復劑 1 支(無使用期限)]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 0 ~ 0 -> [六週年特製『狂歡命運儀』]
   link = 
 1546444800 ~ 1549814400 -> [1月03日(四), 2月10日(星期日), 活動期間，狂歡命運儀其中獎項「布蘭克之匙 15 把」將定期轉換為不同的特別獎賞，並提升出現機率]
@@ -172,9 +172,9 @@
 0 ~ 0 -> [六週年連環登入賞]
   link = 
 1546790400 ~ 1546876800 -> [1月07日(一), 登入︰ 魔法石 × 1 及 No. 617 人面雛鳥 × 2]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1546876800 ~ 1546963200 -> [1月08日(二), 登入︰ No. 2008 銀咒 × 1 及 布蘭克之匙 × 20]
-  link = http://zh.tos.wikia.com/wiki/%E9%8A%80%E5%92%92
+  link = https://tos.fandom.com/zh/wiki/%E9%8A%80%E5%92%92
 1546963200 ~ 1547049600 -> [1月09日(三), 登入︰ 體力回復劑 × 1 及 靈魂 × 200]
   link = 
 1547049600 ~ 1547136000 -> [1月10日(四), 登入︰ 金幣 × 1,000,000 及 戰賞 × 200]
@@ -182,9 +182,9 @@
 1547136000 ~ 1547222400 -> [1月11日(五), 登入︰ 古幣 × 10 及 友情點數 × 2000]
   link = 
 1547395200 ~ 1547481600 -> [1月14日(一), 登入︰ 魔法石 × 1 及 No. 617 人面雛鳥 × 3]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1547481600 ~ 1547568000 -> [1月15日(二), 登入︰ No. 2009 銀符 × 1 及 布蘭克之匙 × 30]
-  link = http://zh.tos.wikia.com/wiki/%E9%8A%80%E7%AC%A6
+  link = https://tos.fandom.com/zh/wiki/%E9%8A%80%E7%AC%A6
 1547568000 ~ 1547654400 -> [1月16日(三), 登入︰ 體力回復劑 × 1 及 靈魂 × 300]
   link = 
 1547654400 ~ 1547740800 -> [1月17日(四), 登入︰ 金幣 × 1,000,000 及 戰賞 × 300]
@@ -192,9 +192,9 @@
 1547740800 ~ 1547827200 -> [1月18日(五), 登入︰ 古幣 × 10 及 友情點數 × 3000]
   link = 
 1548000000 ~ 1548086400 -> [1月21日(一), 登入︰ 魔法石 × 1 及 No. 617 人面雛鳥 × 6]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1548086400 ~ 1548172800 -> [1月22日(二), 登入︰ No. 2009 銀符 × 1 及 布蘭克之匙 × 60]
-  link = http://zh.tos.wikia.com/wiki/%E9%8A%80%E7%AC%A6
+  link = https://tos.fandom.com/zh/wiki/%E9%8A%80%E7%AC%A6
 1548172800 ~ 1548259200 -> [1月23日(三), 登入︰ 體力回復劑 × 1 及 靈魂 × 600]
   link = 
 1548259200 ~ 1548345600 -> [1月24日(四), 登入︰ 金幣 × 1,000,000 及 戰賞 × 600]
@@ -202,9 +202,9 @@
 1548345600 ~ 1548432000 -> [1月25日(五), 登入︰ 古幣 × 10 及 友情點數 × 6000]
   link = 
 1548604800 ~ 1548691200 -> [1月28日(一), 登入︰ 魔法石 × 1 及 No. 617 人面雛鳥 × 3]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1548691200 ~ 1548777600 -> [1月29日(二), 登入︰ No. 2010 銀璃 × 1 及 布蘭克之匙 × 30]
-  link = http://zh.tos.wikia.com/wiki/%E9%8A%80%E7%92%83
+  link = https://tos.fandom.com/zh/wiki/%E9%8A%80%E7%92%83
 1548777600 ~ 1548864000 -> [1月30日(三), 登入︰ 體力回復劑 × 1 及 靈魂 × 300]
   link = 
 1548864000 ~ 1548950400 -> [1月31日(四), 登入︰ 金幣 × 1,000,000 及 戰賞 × 300]
@@ -212,9 +212,9 @@
 1548950400 ~ 1549036800 -> [2月01日(五), 登入︰ 古幣 × 10 及 友情點數 × 3000]
   link = 
 1549209600 ~ 1549296000 -> [2月04日(一), 登入︰ 魔法石 × 1 及 No. 617 人面雛鳥 × 3]
-  link = http://zh.tos.wikia.com/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1549296000 ~ 1549382400 -> [2月05日(二), 登入︰ No. 2010 銀璃 × 1 及 布蘭克之匙 × 30]
-  link = http://zh.tos.wikia.com/wiki/%E9%8A%80%E7%92%83
+  link = https://tos.fandom.com/zh/wiki/%E9%8A%80%E7%92%83
 1549382400 ~ 1549468800 -> [2月06日(三), 登入︰ 體力回復劑 × 1 及 靈魂 × 300]
   link = 
 1549468800 ~ 1549555200 -> [2月07日(四), 登入︰ 金幣 × 1,000,000 及 戰賞 × 300]

@@ -1,10 +1,5 @@
 package main.fetcher;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.IOUtil;
@@ -13,6 +8,11 @@ import main.kt.CardItem;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class TosWikiCardsLister extends TosWikiBaseFetcher {
     private TosWikiCardsLister() {}
@@ -23,7 +23,8 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
     public String VALAID_LINKS = mLfLink.getFile().getFile().toString();
 
     // /wiki/圖鑑
-    private static final String tosCardLists = "http://zh.tos.wikia.com/wiki/%E5%9C%96%E9%91%92";
+    //private static final String tosCardLists = "http://zh.tos.wikia.com/wiki/%E5%9C%96%E9%91%92";
+    private static final String tosCardLists = "https://tos.fandom.com/zh/wiki/%E5%9C%96%E9%91%92";
     private static final String TOS_ALL_CARD = TosWikiCardFetcher.me.TOS_ALL_CARD;
 
     @Override

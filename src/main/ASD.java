@@ -114,8 +114,8 @@ public class ASD {
         */
 
         // Find cards
-        findCardSkill("其累計技能回合將增加600", allCards);
-        findCardSkill("其累計技能回合將增加 600", allCards);
+        findCardSkill("迴避", allCards);
+        //findCardSkill("其累計技能回合將增加 600", allCards);
         L.log("--**--\n\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("掉落機率降至", allCards);

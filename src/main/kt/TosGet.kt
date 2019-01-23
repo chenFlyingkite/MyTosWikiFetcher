@@ -14,9 +14,11 @@ import kotlin.collections.HashMap
 class TosGet {
     companion object me {
         private val printTdHtml = false
-        private val zhLinkFile = "http://zh.tos.wikia.com/wiki/File:"
+        @Deprecated("")
+        private val zhLinkFile = "http://zh.tos.wikia.com/wiki/File:" // TODO : Update link
         private val imageClass = "image image-thumbnail link-internal"
-        private val wikiBaseZh = "http://zh.tos.wikia.com"
+        private val wikiBaseZh = "https://tos.fandom.com"
+        private val wikiBaseZhOld = "http://zh.tos.wikia.com"
 
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
@@ -424,7 +426,7 @@ class TosGet {
                     if (n > 0) {
                         val img = item.child(0)
                         c.id = normCardId(img.attr("alt"))
-                        c.linkId = baseWiki + "/wiki/" + c.id.toInt()
+                        c.linkId = wikiBaseZhOld + "/wiki/" + c.id.toInt()
                     }
                     ans.add(c)
                 }
