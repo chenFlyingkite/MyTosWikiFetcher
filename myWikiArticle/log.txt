@@ -2,6 +2,7 @@ Linking http://zh.tos.wikia.com/api/v1/Articles/New?minArticleQuality=10&limit=2
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/New?minArticleQuality=10&limit=200}
 100 items in /api/v1/Articles/New
 id, creation_date, creator, title, url
+263200, 20190123131552, Hugochau, 追求更強, https://tos.fandom.com/zh/wiki/%E8%BF%BD%E6%B1%82%E6%9B%B4%E5%BC%B7
 263154, 20190119053054, Hugochau, 無可匹敵的黑魔法, https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%8F%AF%E5%8C%B9%E6%95%B5%E7%9A%84%E9%BB%91%E9%AD%94%E6%B3%95
 263107, 20190118151910, Wingwing007, 降於古老大地上的禁語, https://tos.fandom.com/zh/wiki/%E9%99%8D%E6%96%BC%E5%8F%A4%E8%80%81%E5%A4%A7%E5%9C%B0%E4%B8%8A%E7%9A%84%E7%A6%81%E8%AA%9E
 263072, 20190118125901, Wingwing007, 大乘儆惡 ‧ 唐三藏, https://tos.fandom.com/zh/wiki/%E5%A4%A7%E4%B9%98%E5%84%86%E6%83%A1_%E2%80%A7_%E5%94%90%E4%B8%89%E8%97%8F
@@ -101,4 +102,3 @@ id, creation_date, creator, title, url
 261782, 20181203090522, Wingwing007 bot, 龍首戰戈龍璃, https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%A6%96%E6%88%B0%E6%88%88%E9%BE%8D%E7%92%83
 261781, 20181203090520, Wingwing007 bot, 龍首戰戈龍符, https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%A6%96%E6%88%B0%E6%88%88%E9%BE%8D%E7%AC%A6
 261780, 20181203090518, Wingwing007 bot, 龍首戰戈龍咒, https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%A6%96%E6%88%B0%E6%88%88%E9%BE%8D%E5%92%92
-261779, 20181203090516, Wingwing007 bot, 龍首戰戈龍印, https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%A6%96%E6%88%B0%E6%88%88%E9%BE%8D%E5%8D%B0

@@ -11412,6 +11412,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1905"
   },
   {
+    "title": "No. 1907 飽滿馥香 ‧ 香蕉",
+    "id": "1907",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A3%BD%E6%BB%BF%E9%A6%A5%E9%A6%99_%E2%80%A7_%E9%A6%99%E8%95%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/1907"
+  },
+  {
     "title": "No. 1908 魔法的原始碼 ‧ Android",
     "id": "1908",
     "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9A%84%E5%8E%9F%E5%A7%8B%E7%A2%BC_%E2%80%A7_Android",
@@ -11778,16 +11784,40 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1973"
   },
   {
+    "title": "No. 1975 奪霸凶猴 ‧ 猿真",
+    "id": "1975",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A5%AA%E9%9C%B8%E5%87%B6%E7%8C%B4_%E2%80%A7_%E7%8C%BF%E7%9C%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/1975"
+  },
+  {
     "title": "No. 1979 曈芒靈石",
     "id": "1979",
     "link": "https://tos.fandom.com/zh/wiki/%E6%9B%88%E8%8A%92%E9%9D%88%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/1979"
   },
   {
+    "title": "No. 1981 迅殺芭扇 ‧ 羅剎女",
+    "id": "1981",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BF%85%E6%AE%BA%E8%8A%AD%E6%89%87_%E2%80%A7_%E7%BE%85%E5%89%8E%E5%A5%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/1981"
+  },
+  {
     "title": "No. 1982 大乘儆惡 ‧ 唐三藏",
     "id": "1982",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E4%B9%98%E5%84%86%E6%83%A1_%E2%80%A7_%E5%94%90%E4%B8%89%E8%97%8F",
     "linkId": "http://zh.tos.wikia.com/wiki/1982"
+  },
+  {
+    "title": "No. 1983 千古一帝 ‧ 秦始皇",
+    "id": "1983",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8D%83%E5%8F%A4%E4%B8%80%E5%B8%9D_%E2%80%A7_%E7%A7%A6%E5%A7%8B%E7%9A%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/1983"
+  },
+  {
+    "title": "No. 1985 六彩斑斕 ‧ 蠑子",
+    "id": "1985",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%85%AD%E5%BD%A9%E6%96%91%E6%96%95_%E2%80%A7_%E8%A0%91%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/1985"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -13156,6 +13186,12 @@
     "id": "6248",
     "link": "https://tos.fandom.com/zh/wiki/%E7%82%8E%E9%BE%8D%E7%8E%8B_%E2%80%A7_%E4%BC%8A%E6%A0%BC%E5%B0%BC%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6248"
+  },
+  {
+    "title": "S250 千古一帝 ‧ 秦始皇(動態造型)",
+    "id": "6250",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8D%83%E5%8F%A4%E4%B8%80%E5%B8%9D_%E2%80%A7_%E7%A7%A6%E5%A7%8B%E7%9A%87(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6250"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
