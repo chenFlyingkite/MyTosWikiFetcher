@@ -37,6 +37,7 @@ public class Main {
     public static void main(String[] args) {
         fetch();
         //copyToMyTosWiki();
+        //TosWikiArticlesFetcher.me.run();
     }
 
     private static void fetch() {
@@ -52,7 +53,6 @@ public class Main {
             // 最近動態
             runParallel(parl, TosWikiArticlesFetcher.me);
         }
-        //TosWikiArticlesFetcher.me.run();
         // 神魔主頁內容
         if (regl) {
             runParallel(parl, TosWikiHomeFetcher.me);
