@@ -11820,6 +11820,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1985"
   },
   {
+    "title": "No. 1986 仙逸清靈 ‧ 妍希",
+    "id": "1986",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BB%99%E9%80%B8%E6%B8%85%E9%9D%88_%E2%80%A7_%E5%A6%8D%E5%B8%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/1986"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
