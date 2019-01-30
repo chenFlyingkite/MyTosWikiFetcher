@@ -105,8 +105,6 @@ public class Main {
             TosWikiFilePeeker.me.run();
             TosWikiImageFileFetcher.me.run();
             TosWikiStageFetcher.me.run();
-            TosMainStageFetcher.me.run();
-            TosStoryStageFetcher.me.run();
         }
         //MobileComm.run();
         // Others misc

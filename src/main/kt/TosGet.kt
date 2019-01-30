@@ -71,11 +71,11 @@ class TosGet {
             if (element == null) return homeTable
             val child = element.children()
             // 1. Fetch title
-            val title = child.get(0).text()
+            val title = child.get(0).text() // class="titleBar1"
             homeTable.title = title
 
             val allRows = ArrayList<HomeRow>()
-            val trs = child.get(1).getElementsByTag("tr")
+            val trs = child.get(2).getElementsByTag("tr") // class="wikitable"
             for (tr in trs) {
                 val row = HomeRow()
                 val list = ArrayList<Element>()
