@@ -90,35 +90,15 @@ public class ASD {
             map.put(c.idNorm, c);
         }
 
-        /*
-        for (TosCard c : allCards) {
-            TosCard d = map.get(c.idNorm);
-            if (d == null) {
-                L.log("Missing card %s", c.idNorm);
-            }
-            if (d != null) {
-                boolean has0257 = false;
-                for (Evolve ev : d.evolveInfo) {
-                    for (String s : ev.evolveNeed) {
-                        if ("0257".equals(s)) {
-                            has0257 = true;
-                            L.log("Here found ev = %s", ev);
-                        }
-                    }
-                }
-                if (has0257) {
-                    L.log("Card id = %s", c.idNorm);
-                }
-            }
-        }
-        */
-
         // Find cards
-        findCardSkill("迴避", allCards);
+        findCardSkill("造成", allCards); // 對單一敵人造成
+//        findCardSkill("造成敵全體", allCards);
+//        findCardSkill("造成敵方全體", allCards);
+//        findCardSkill("對敵方全體造成", allCards);
+//        findCardSkill("對全體敵人造成", allCards);
         //findCardSkill("其累計技能回合將增加 600", allCards);
         L.log("--**--\n\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
-        //findCardSkill("掉落機率降至", allCards);
         //findCardSkill("傷害減少", allCards);
     }
 
@@ -212,7 +192,8 @@ public class ASD {
 
     private static void findCardSkill(String key, TosCard[] allCards) {
         int sn = 0, tn = 0, un = 0;
-
+        L.log("--**--\n");
+        int m = 0;
         for (TosCard c : allCards) {
             String s = c.skillDesc1 + " & " + c.skillDesc2;
             String t = c.cardDetails;
@@ -232,16 +213,22 @@ public class ASD {
             }
             if (!exist.isEmpty()) {
                 L.log(exist + "\n" + sc(c));
+
+                if (c.race.contains("素材")) {
+                    m++;
+                    //L.log(exist + "\n" + sc(c));
+                }
             }
         }
 
         L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, key);
+        L.log("%s in 素材", m);
     }
 
     private static String sc(TosCard c) {
         return "#" + c.idNorm + "," + c.name
-            + "\n      " + c.skillDesc1 + "," + c.skillDesc2
-            + "\n      " + c.skillLeaderDesc
+            + "\n  " + c.skillDesc1 + "," + c.skillDesc2
+            + "\n  " + c.skillLeaderDesc
         ;
         //return String.format("#%4s,%s\n      %s\n      %s", c.idNorm, c.name, c.skillDesc1 + "," + c.skillDesc2, c.skillLeaderDesc);
     }

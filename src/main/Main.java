@@ -18,6 +18,7 @@ import main.fetcher.TosStoryStageFetcher;
 import main.fetcher.TosVoidRealmFetcher;
 import main.fetcher.TosWikiArticlesFetcher;
 import main.fetcher.TosWikiCardsLister;
+import main.fetcher.TosWikiChecker;
 import main.fetcher.TosWikiFilePeeker;
 import main.fetcher.TosWikiHomeFetcher;
 import main.fetcher.TosWikiIconFetcher;
@@ -38,6 +39,7 @@ public class Main {
         fetch();
         //copyToMyTosWiki();
         //TosWikiArticlesFetcher.me.run();
+        //misc();
     }
 
     private static void fetch() {
@@ -109,9 +111,7 @@ public class Main {
         //MobileComm.run();
         // Others misc
         if (1 > 0) { // left value 1 = yes, 0 = no
-            //ASD.run();
             QWE.run(); // Firebase comments
-            //TosWikiChecker.me.checkCards();
         }
         //ClusterMain.INSTANCE.main(args);
         //Statistics.run();
@@ -119,6 +119,11 @@ public class Main {
         long tac = System.currentTimeMillis();
         L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
         L.log("" + new Date());
+    }
+
+    private static void misc() {
+        ASD.run();
+        TosWikiChecker.me.cardStatistics();
     }
 
     private static void runParallel(boolean parallel, Runnable... rs) {

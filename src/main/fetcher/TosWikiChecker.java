@@ -48,11 +48,11 @@ public class TosWikiChecker {
         }
     }
 
-    public void checkCards() {
-        checkCards(load());
+    public void cardStatistics() {
+        cardStatistics(load());
     }
 
-    private void checkCards(List<TosCard> allCards) {
+    private void cardStatistics(List<TosCard> allCards) {
         Counter<TosCard> attr = new Counter<TosCard>() {
             @Override
             public String key(TosCard c) {
