@@ -107,7 +107,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%80%E9%AB%AE%E5%8D%83%E9%88%9E",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "使全體敵人防禦力下降 90%，持續 3 回合；並延遲其行動 1 回合",
+    "skillDesc": "無視全體敵人 90% 的防禦力，持續 3 回合；並延遲其行動 1 回合",
     "skillMonsters": [
       "0514"
     ]
@@ -939,6 +939,17 @@
     "skillMonsters": [
       "0892",
       "0894"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "仙女下凡",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "隨機將 9 粒符石轉化為 3 粒光神族強化、3 粒暗神族強化及 3 粒心神族強化符石。1 回合內，連擊 (Combo) 數目增加 9",
+    "skillMonsters": [
+      "1984"
     ]
   },
   {
@@ -2908,7 +2919,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E5%B0%81%E4%B9%8B%E5%BF%83",
     "skillCDMin": 17,
     "skillCDMax": 8,
-    "skillDesc": "我方回復力減至0，並將原有回復力的 2.5 倍加入自身攻擊力 (效果會在再次發動此技能或死亡後消失）",
+    "skillDesc": "我方回復力減至 0，並將每個成員自身回復力的 2.5 倍各自加入自身攻擊力 (效果會在再次發動此技能或死亡後消失)",
     "skillMonsters": [
       "0344",
       "0345"
@@ -2953,7 +2964,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E9%9C%9C%E7%B5%95%E5%91%BD",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "我方回復力減至 0，並將原有回復力的 3.5 倍加入自身攻擊力 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 4",
+    "skillDesc": "我方回復力減至 0，並將每個成員自身回復力的 3.5 倍各自加入自身攻擊力 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 4",
     "skillMonsters": [
       "1046"
     ]
@@ -5770,7 +5781,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%9D%88%E9%9E%AD_%E2%80%A7_%E6%B0%B4",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有水屬性妖精類成員時，全隊攻擊力 4.25 倍，並將我方回復力的 1.75 倍加入自身攻擊力",
+    "skillDesc": "隊伍中只有水屬性妖精類成員時，全隊攻擊力 4.25 倍，並將每個成員自身回復力的 1.75 倍各自加入自身攻擊力",
     "skillMonsters": [
       "1247"
     ]
@@ -5817,6 +5828,17 @@
     "skillDesc": "當隊伍中只有人類及 1 個或以上魔族或妖精類成員時，人類攻擊力 4.5 倍，魔族及妖精類攻擊力 3.5 倍",
     "skillMonsters": [
       "0659"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "妖魔萬鈞之怒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%94%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "妖精類及魔族攻擊力 4 倍",
+    "skillMonsters": [
+      "1974"
     ]
   },
   {
@@ -7092,7 +7114,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BE%A1%E5%8A%8D%E9%A3%9B%E8%A1%8C",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "1 回合內，同時消除水、火及木符石時，全體敵人防禦力下降 80%；同時消除光及暗符石時，全隊攻擊力 1.5 倍；消除心符石時，心符石效果提升至 250%。(只計算首批消除的符石)",
+    "skillDesc": "1 回合內，同時消除水、火及木符石時，無視全體敵人 80% 的防禦力；同時消除光及暗符石時，全隊攻擊力 1.5 倍；消除心符石時，心符石效果提升至 250%。(只計算首批消除的符石)",
     "skillMonsters": [
       "0745"
     ]
@@ -12380,7 +12402,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B3%A1%E6%B2%AB%E7%88%86%E7%A0%B4",
     "skillCDMin": 19,
     "skillCDMax": 10,
-    "skillDesc": "累積 3 回合內敵方所受傷害的 70% 再爆發，此傷害無視屬性及防禦力",
+    "skillDesc": "累積 3 回合內敵方所受傷害的 70% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力",
     "skillMonsters": [
       "0294",
       "0295",
@@ -12393,7 +12415,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B3%A1%E6%B2%AB%E7%88%86%E8%A3%82_%E2%80%A7_%E5%8A%A0%E5%86%95",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "每回合敵方所受傷害的 110% 再爆發，此傷害無視屬性及防禦力，效果持續 2 回合；每回合結束時，所有符石轉化為強化符石",
+    "skillDesc": "每回合敵方所受傷害的 110% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力，效果持續 2 回合；每回合結束時，所有符石轉化為強化符石",
     "skillMonsters": [
       "1341"
     ]
@@ -14480,6 +14502,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "無上光榮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E4%B8%8A%E5%85%89%E6%A6%AE",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，自身不能對敵方造成傷害，減少 60% 所受傷害；回合結束時，將場上數量最多的 2 種屬性符石轉化為光人族強化符石",
+    "skillMonsters": [
+      "1783"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "無價的瑰寶",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%83%B9%E7%9A%84%E7%91%B0%E5%AF%B6",
     "skillCDMin": 1,
@@ -15305,7 +15338,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%88%86%E8%A3%82%E4%B9%8B%E5%B9%BB%E6%B2%AB",
     "skillCDMin": 19,
     "skillCDMax": 10,
-    "skillDesc": "累積 2 回合內敵方所受傷害的 110% 再爆發，此傷害無視屬性及防禦力",
+    "skillDesc": "累積 2 回合內敵方所受傷害的 110% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力",
     "skillMonsters": [
       "0296"
     ]
@@ -16020,6 +16053,17 @@
     "skillMonsters": [
       "0997",
       "0998"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "玄冥魔法",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E9%AD%94%E6%B3%95",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類攻擊力 3.5 倍；合計消除 6 粒或以上的光或暗符石時，人類攻擊力額外提升 1.5 倍；光及暗屬性傷害減少 30%",
+    "skillMonsters": [
+      "1783"
     ]
   },
   {
@@ -19858,6 +19902,17 @@
     "skillDesc": "1 回合內，光屬性攻擊力 1.6 倍；隨機引爆場上 3 粒被電擊的符石，以掉落光強化符石",
     "skillMonsters": [
       "1630"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "絞之絕殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%9E%E4%B9%8B%E7%B5%95%E6%AE%BA",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "消除 1 組 5 粒或以上的符石時，該回合全隊攻擊力提升：消除組數愈多，該回合全隊攻擊力提升愈多，消除 3 組可達至最大 2.6 倍，效果會在進入下一層數 (Wave) 時消失",
+    "skillMonsters": [
+      "1974"
     ]
   },
   {
@@ -27219,7 +27274,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%94%BB%E4%BB%A3%E5%AE%88",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "龍類攻擊力 2 倍，我方龍類的回復力加入自身攻擊力；消除心符石可回復固定百分比的已損失生命力 ( 每粒心符石回復百分比相等於隊伍龍類數量的兩倍 )",
+    "skillDesc": "龍類攻擊力 2 倍，每個龍類成員自身回復力各自加入自身攻擊力；消除心符石可回復固定百分比的已損失生命力 ( 每粒心符石回復百分比相等於隊伍龍類數量的兩倍 )",
     "skillMonsters": [
       "0571",
       "0572",

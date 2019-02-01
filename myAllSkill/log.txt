@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2262 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2267 items, basePath = https://tos.fandom.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -74,6 +74,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 人魔之怒 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%AD%94%E4%B9%8B%E6%80%92
 仙劍同源 -> https://tos.fandom.com/zh/wiki/%E4%BB%99%E5%8A%8D%E5%90%8C%E6%BA%90
 仙劍同源_‧_強 -> https://tos.fandom.com/zh/wiki/%E4%BB%99%E5%8A%8D%E5%90%8C%E6%BA%90_%E2%80%A7_%E5%BC%B7
+仙女下凡 -> https://tos.fandom.com/zh/wiki/%E4%BB%99%E5%A5%B3%E4%B8%8B%E5%87%A1
 仙影飄跡 -> https://tos.fandom.com/zh/wiki/%E4%BB%99%E5%BD%B1%E9%A3%84%E8%B7%A1
 仙荷之力 -> https://tos.fandom.com/zh/wiki/%E4%BB%99%E8%8D%B7%E4%B9%8B%E5%8A%9B
 仙荷之力_‧_強 -> https://tos.fandom.com/zh/wiki/%E4%BB%99%E8%8D%B7%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7
@@ -485,6 +486,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 妖魅咒訣 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%85%E5%92%92%E8%A8%A3
 妖魔伴主 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%94%E4%BC%B4%E4%B8%BB
 妖魔佐主 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%94%E4%BD%90%E4%B8%BB
+妖魔萬鈞之怒 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%94%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92
 妖魔輔主 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%94%E8%BC%94%E4%B8%BB
 妾之心扉 -> https://tos.fandom.com/zh/wiki/%E5%A6%BE%E4%B9%8B%E5%BF%83%E6%89%89
 嫩桃賜力 -> https://tos.fandom.com/zh/wiki/%E5%AB%A9%E6%A1%83%E8%B3%9C%E5%8A%9B
@@ -1198,6 +1200,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 焚炎端絡脈 -> https://tos.fandom.com/zh/wiki/%E7%84%9A%E7%82%8E%E7%AB%AF%E7%B5%A1%E8%84%88
 焚燒大號令 -> https://tos.fandom.com/zh/wiki/%E7%84%9A%E7%87%92%E5%A4%A7%E8%99%9F%E4%BB%A4
 焚燒大號令_‧_加冕 -> https://tos.fandom.com/zh/wiki/%E7%84%9A%E7%87%92%E5%A4%A7%E8%99%9F%E4%BB%A4_%E2%80%A7_%E5%8A%A0%E5%86%95
+無上光榮 -> https://tos.fandom.com/zh/wiki/%E7%84%A1%E4%B8%8A%E5%85%89%E6%A6%AE
 無價的瑰寶 -> https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%83%B9%E7%9A%84%E7%91%B0%E5%AF%B6
 無名指追魂鍊 -> https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%90%8D%E6%8C%87%E8%BF%BD%E9%AD%82%E9%8D%8A
 無垠幻像_‧_浪濤 -> https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%9E%A0%E5%B9%BB%E5%83%8F_%E2%80%A7_%E6%B5%AA%E6%BF%A4
@@ -1330,6 +1333,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 玄冥絕塵 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E7%B5%95%E5%A1%B5
 玄冥絕塵_‧_聚靈 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E7%B5%95%E5%A1%B5_%E2%80%A7_%E8%81%9A%E9%9D%88
 玄冥靈量 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E9%9D%88%E9%87%8F
+玄冥魔法 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E9%AD%94%E6%B3%95
 玄冰亂滄溟 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%B0%E4%BA%82%E6%BB%84%E6%BA%9F
 玄火追擊流 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E7%81%AB%E8%BF%BD%E6%93%8A%E6%B5%81
 玄獸之力 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E7%8D%B8%E4%B9%8B%E5%8A%9B
@@ -1656,6 +1660,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 絕對零度 -> https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%B0%8D%E9%9B%B6%E5%BA%A6
 絕殺格鬥術 -> https://tos.fandom.com/zh/wiki/%E7%B5%95%E6%AE%BA%E6%A0%BC%E9%AC%A5%E8%A1%93
 絕電之玄 -> https://tos.fandom.com/zh/wiki/%E7%B5%95%E9%9B%BB%E4%B9%8B%E7%8E%84
+絞之絕殺 -> https://tos.fandom.com/zh/wiki/%E7%B5%9E%E4%B9%8B%E7%B5%95%E6%AE%BA
 絳紫之惑 -> https://tos.fandom.com/zh/wiki/%E7%B5%B3%E7%B4%AB%E4%B9%8B%E6%83%91
 絶對時間 -> https://tos.fandom.com/zh/wiki/%E7%B5%B6%E5%B0%8D%E6%99%82%E9%96%93
 綺煌的深層_‧_世界 -> https://tos.fandom.com/zh/wiki/%E7%B6%BA%E7%85%8C%E7%9A%84%E6%B7%B1%E5%B1%A4_%E2%80%A7_%E4%B8%96%E7%95%8C
@@ -2263,4 +2268,4 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2286 skills
+2291 skills

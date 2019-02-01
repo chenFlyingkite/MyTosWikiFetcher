@@ -91,7 +91,7 @@ public class ASD {
         }
 
         // Find cards
-        findCardSkill("造成", allCards); // 對單一敵人造成
+        findCardSkill("防禦力下降", allCards);
 //        findCardSkill("造成敵全體", allCards);
 //        findCardSkill("造成敵方全體", allCards);
 //        findCardSkill("對敵方全體造成", allCards);
