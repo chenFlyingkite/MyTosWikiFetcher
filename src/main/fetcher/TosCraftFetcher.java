@@ -1,12 +1,5 @@
 package main.fetcher;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import main.kt.Craft;
@@ -15,6 +8,13 @@ import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class TosCraftFetcher extends TosWikiBaseFetcher {
     private TosCraftFetcher() {}
@@ -26,9 +26,9 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
     private LF mArmLite = new LF(folder, "armCraftLite.json");
     private LF mArmCraft = new LF(folder, "armCrafts.json");
     // 龍刻圖鑒
-    private static final String craftPage = "http://zh.tos.wikia.com/wiki/%E9%BE%8D%E5%88%BB%E5%9C%96%E9%91%92";
+    private static final String craftPage = "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E5%9C%96%E9%91%92";
     // 龍刻武裝圖鑒
-    private static final String craftArmPage = "http://zh.tos.wikia.com/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92";
+    private static final String craftArmPage = "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92";
 
     private File armJson = mArmCraft.getFile().getFile();
 
@@ -94,9 +94,10 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
             }
             doc = getDocument(s.getLink());
             item = doc.getElementsByClass("wikitable");
-            if (item.size() > 1) {
+            Element e = item.last();
+            if (e != null) {
                 mLf.log("%s", s);
-                Craft cr = TosGet.me.getCraft(item.get(1), s);
+                Craft cr = TosGet.me.getCraft(e, s);
                 crafts.add(cr);
             }
         }

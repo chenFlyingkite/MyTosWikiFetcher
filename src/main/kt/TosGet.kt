@@ -811,7 +811,7 @@ class TosGet {
                     if (ax.size == 0) continue
                     val a = ax[0]
                     val gx = si.getElementsByTag("img")
-                    if(gx.size == 0) continue
+                    if (gx.size == 0) continue
                     val g = gx[0]
                     c.name = a.attr("title")
                     c.link = getWikiLink(a.attr("href"), baseWiki)
