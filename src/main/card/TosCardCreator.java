@@ -1,11 +1,5 @@
 package main.card;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-
 import flyingkite.log.L;
 import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
@@ -17,6 +11,12 @@ import main.kt.Craft;
 import main.kt.NameLink;
 import main.kt.SkillInfo;
 import main.kt.SkillInfo2;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
 
 public class TosCardCreator {
     private TosCardCreator() {}
@@ -93,12 +93,11 @@ public class TosCardCreator {
                 case 31: c = asTosCard_31(info); break;
             }
             if (c != null) {
-                updateCDMinAme(c);
+                updateAmes(c);
             }
         }
         return c;
     }
-
 
     private TosCard asTosCard_18(CardInfo info) {
         List<String> list = info.data;
@@ -616,17 +615,53 @@ public class TosCardCreator {
         c.skillAmeCost4 = Integer.parseInt(list.get(7));
     }
 
+    private void updateAmes(TosCard c) {
+        updateHPAme(c);
+        updateAttackAme(c);
+        updateRecoveryAme(c);
+        updateCDMinAme(c);
+    }
+
+    private void updateHPAme(TosCard c) {
+        c.maxHPAme = c.maxHP;
+        int add = getAmeChange(c, "召喚獸生命力 + ");
+        c.maxHPAme += add;
+    }
+
+    private void updateAttackAme(TosCard c) {
+        c.maxAttackAme = c.maxAttack;
+        int add = getAmeChange(c, "召喚獸攻擊力 + ");
+        c.maxAttackAme += add;
+    }
+
+
+    private void updateRecoveryAme(TosCard c) {
+        c.maxRecoveryAme = c.maxRecovery;
+        int add = getAmeChange(c, "召喚獸回復力 + ");
+        c.maxRecoveryAme += add;
+    }
+
+
     private void updateCDMinAme(TosCard c) {
         c.skillCDMaxAme = c.skillCDMax1;
-        final String key = "召喚獸技能冷卻回合 - ";
+        int add = getAmeChange(c, "召喚獸技能冷卻回合 - ");
+        c.skillCDMaxAme -= add;
+    }
+
+    private int getAmeChange(TosCard c, String key) {
         String[] s = {c.skillAmeName1, c.skillAmeName2, c.skillAmeName3, c.skillAmeName4};
+        int sum = 0;
         for (String t : s) {
             int p = t.indexOf(key);
             if (p >= 0) {
-                String subCD = t.substring(p + key.length());
-                c.skillCDMaxAme -= Integer.parseInt(subCD);
+                String word = t.substring(p + key.length());
+                String[] items = word.replaceAll(" ", "").split("[,|召]");
+                if (items.length > 0) {
+                    sum += Integer.parseInt(items[0]);
+                }
             }
         }
+        return sum;
     }
 
 }

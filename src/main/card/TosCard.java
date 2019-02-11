@@ -1,10 +1,10 @@
 package main.card;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.google.gson.annotations.SerializedName;
 import main.kt.NameLink;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TosCard {
     //------------
@@ -75,6 +75,22 @@ public class TosCard {
     @SerializedName(TC.maxRecovery)
     public long maxRecovery;
 
+    //------------
+    //---- Amelioration benefit, 昇華提升能力
+    //---- on HP, Attack, Recovery, Skill CD
+    //------------
+    /** Ame + Max Heath point, like 129 */
+    @SerializedName(TC.maxHPAme)
+    public long maxHPAme;
+
+    /** Ame + Max Attack, like 71 */
+    @SerializedName(TC.maxAttackAme)
+    public long maxAttackAme;
+
+    /** Ame + Max Recovery, like 24 */
+    @SerializedName(TC.maxRecoveryAme)
+    public long maxRecoveryAme;
+
     /** Min Heath point, like 86 */
     @SerializedName(TC.minHP)
     public long minHP;
@@ -137,7 +153,6 @@ public class TosCard {
     @SerializedName(TC.skillLeaderDesc)
     public String skillLeaderDesc = "";
 
-    // Only 127 cards has amelioration benefit
     /** Active skill CD max = skillCDMax1 + amelioration, see #1261 拉法葉爾 */
     @SerializedName(TC.skillCDMaxAme)
     public int skillCDMaxAme;

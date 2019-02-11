@@ -639,8 +639,10 @@ class TosGet {
                     } else {
                         if (c.name.isEmpty()) {
                             c.name = axi.text()
-                            val des = axi.child(0).attr("data-texttip")
-                            c.detail = des.substringAfter("<br>").substringBefore("<br><img")//.replace("<br>", "\n")
+                            if (axi.children().isNotEmpty()) {
+                                val des = axi.child(0).attr("data-texttip")
+                                c.detail = des.substringAfter("<br>").substringBefore("<br><img")//.replace("<br>", "\n")
+                            }
                             c.link = getWikiLink(axi.attr("href"), baseWiki)
                         }
                     }

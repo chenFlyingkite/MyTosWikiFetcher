@@ -54688,5 +54688,590 @@
         "iconKey": "SI261.png"
       }
     ]
+  },
+  {
+    "id": "3138",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3138",
+    "name": "水引爆減時0.2-1秒 ‧ 無法控制",
+    "detail": "每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.2 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.2 秒 (最多減至 1 秒及部分時間技能受影響)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/da/SI312.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034623\u0026path-prefix\u003dzh",
+        "iconKey": "SI312.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3139",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3139",
+    "name": "[3回禁消水]-水引爆減時0.3-1秒 ‧ 無法控制",
+    "detail": "3 回合內，水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.3 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "3 回合內，水符石無法被消除。每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.3 秒 (最多減至 1 秒及部分時間技能受影響)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b4/SI038.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101601\u0026path-prefix\u003dzh",
+        "iconKey": "SI038.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/da/SI312.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034623\u0026path-prefix\u003dzh",
+        "iconKey": "SI312.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3140",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3140",
+    "name": "水禁消 ‧ 水引爆減時0.5-1秒 ‧ 無法控制",
+    "detail": "水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "水符石無法被消除。每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒及部分時間技能受影響)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b4/SI038.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101601\u0026path-prefix\u003dzh",
+        "iconKey": "SI038.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/da/SI312.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034623\u0026path-prefix\u003dzh",
+        "iconKey": "SI312.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3141",
+    "link": "",
+    "name": "首回轉水 ‧ 水禁消 ‧ 水引爆減時0.5-1秒 ‧ 無法控制",
+    "detail": "首回合將所有符石轉化為水符石。\u003cbr\u003e水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "首回合將所有符石轉化為水符石。水符石無法被消除。每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒及部分時間技能受影響)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b4/SI038.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101601\u0026path-prefix\u003dzh",
+        "iconKey": "SI038.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/da/SI312.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034623\u0026path-prefix\u003dzh",
+        "iconKey": "SI312.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3142",
+    "link": "",
+    "name": "火引爆增攻0.2-7倍 ‧ 無法控制",
+    "detail": "每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.2 倍 (最大 7 倍)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.2 倍 (最大 7 倍)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI313.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI313.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3143",
+    "link": "",
+    "name": "[3回火禁消]-火引爆增攻0.3-10倍 ‧ 無法控制",
+    "detail": "3 回合內，火符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.3 倍 (最大 10 倍)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "3 回合內，火符石無法被消除。每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.3 倍 (最大 10 倍)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1f/SI039.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101602\u0026path-prefix\u003dzh",
+        "iconKey": "SI039.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI313.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI313.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3144",
+    "link": "",
+    "name": "火禁消-火引爆增攻0.5-16倍 ‧ 無法控制",
+    "detail": "火符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.5 倍 (最大 16 倍)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "火符石無法被消除。每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.5 倍 (最大 16 倍)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1f/SI039.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101602\u0026path-prefix\u003dzh",
+        "iconKey": "SI039.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI313.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI313.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3145",
+    "link": "",
+    "name": "首回轉火 ‧ 火禁消-火引爆增攻0.5-16倍 ‧ 無法控制",
+    "detail": "首回合將所有符石轉化為火符石。\u003cbr\u003e火符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.5 倍 (最大 16 倍)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "首回合將所有符石轉化為火符石。火符石無法被消除。每回合結束時，引爆所有火符石：每引爆 1 粒火符石，敵人下一次的攻擊力提升 0.5 倍 (最大 16 倍)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI012.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1f/SI039.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101602\u0026path-prefix\u003dzh",
+        "iconKey": "SI039.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI313.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI313.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3146",
+    "link": "",
+    "name": "木引爆減攻2-50% ‧ 無法控制",
+    "detail": "每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 2% (最多減少 50%)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 2% (最多減少 50%)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/09/SI314.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI314.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3147",
+    "link": "",
+    "name": "[3回木禁消]-木引爆減攻3-50% ‧ 無法控制",
+    "detail": "3 回合內，木符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 3% (最多減少 70%)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "3 回合內，木符石無法被消除。每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 3% (最多減少 70%)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI040.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101602\u0026path-prefix\u003dzh",
+        "iconKey": "SI040.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/09/SI314.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI314.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3148",
+    "link": "",
+    "name": "木禁消-木引爆減攻5-90% ‧ 無法控制",
+    "detail": "木符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 5% (最多減少 90%)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "木符石無法被消除。每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 5% (最多減少 90%)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI040.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101602\u0026path-prefix\u003dzh",
+        "iconKey": "SI040.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/09/SI314.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI314.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3149",
+    "link": "",
+    "name": "首回轉木 ‧ 木禁消-木引爆減攻5-90% ‧ 無法控制",
+    "detail": "首回合將所有符石轉化為木符石。\u003cbr\u003e木符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 5% (最多減少 90%)。\u003cbr\u003e無視所有控制技能",
+    "esCode": "首回合將所有符石轉化為木符石。木符石無法被消除。每回合結束時，引爆所有木符石：每引爆 1 粒木符石，下回合全隊攻擊力減少 5% (最多減少 90%)。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI013.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI040.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101602\u0026path-prefix\u003dzh",
+        "iconKey": "SI040.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/09/SI314.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034624\u0026path-prefix\u003dzh",
+        "iconKey": "SI314.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3150",
+    "link": "",
+    "name": "先攻當前99%-四角燃燒20% ‧ 迷惑符石 ‧ 自殘20%",
+    "detail": "首回合優先扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)，並燃燒 4 個角落的位置；每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。\u003cbr\u003e無法看透符石的本質。\u003cbr\u003e敵人每回合會扣除自身生命力 20%，持續至死亡，期間不受任何攻擊傷害及無視所有控制技能",
+    "esCode": "首回合優先扣除召喚師 99% 現有生命力 (受減傷或增傷效果影響)，並燃燒 4 個角落的位置；每觸碰被燃燒的位置，將扣除召喚師 20% 生命力。無法看透符石的本質。敵人每回合會扣除自身生命力 20%，持續至死亡，期間不受任何攻擊傷害及無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
+        "iconKey": "SI227.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
+        "iconKey": "SI161.png"
+      }
+    ]
+  },
+  {
+    "id": "3151",
+    "link": "",
+    "name": "CD2 ‧ 隨機轉火 ‧ 剋屬拼圖盾-限 ‧ 首消火傷害吸收",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e每回合隨機將 1 種屬性符石轉化為火符石。\u003cbr\u003e需以指定的形狀消除克制敵人屬性的符石 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 時，敵人回復相等於該回合召喚師所造成傷害的血量",
+    "esCode": "敵人首次攻擊變為 CD 2。每回合隨機將 1 種屬性符石轉化為火符石。需以指定的形狀消除克制敵人屬性的符石 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。首批消除火屬性的連擊 (Combo) 時，敵人回復相等於該回合召喚師所造成傷害的血量",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
+        "iconKey": "SI181.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI012.png"
+      }
+    ]
+  },
+  {
+    "id": "3152",
+    "link": "",
+    "name": "CD2 ‧ 隨機轉火 ‧ 敵屬初級拼圖盾-限 ‧ 首消火傷害吸收",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e每回合隨機將 1 種屬性符石轉化為火符石。\u003cbr\u003e需以與敵人相同屬性的符石，以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。\u003cbr\u003e首批消除火屬性的連擊 (Combo) 時，敵人回復相等於該回合召喚師所造成傷害的血量",
+    "esCode": "敵人首次攻擊變為 CD 2。每回合隨機將 1 種屬性符石轉化為火符石。需以與敵人相同屬性的符石，以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。首批消除火屬性的連擊 (Combo) 時，敵人回復相等於該回合召喚師所造成傷害的血量",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
+        "iconKey": "SI181.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI012.png"
+      }
+    ]
+  },
+  {
+    "id": "3153",
+    "link": "",
+    "name": "暗電擊3顆 ‧ 首消暗追擊零化 ‧ 無法控制",
+    "detail": "每回合電擊 3 粒暗符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e無視所有控制技能",
+    "esCode": "每回合電擊 3 粒暗符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。首批消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
+        "iconKey": "SI236.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/SI117.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142347\u0026path-prefix\u003dzh",
+        "iconKey": "SI117.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3154",
+    "link": "",
+    "name": "40擊盾 ‧ 攻後電擊3顆 ‧ 無法控制",
+    "detail": "需對敵人進行 40 次攻擊後，才能對其造成攻擊傷害。\u003cbr\u003e當受到敵人攻擊時，隨機電擊 3 粒符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e無視所有控制技能",
+    "esCode": "需對敵人進行 40 次攻擊後，才能對其造成攻擊傷害。當受到敵人攻擊時，隨機電擊 3 粒符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。無視所有控制技能",
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
+        "iconKey": "SI236.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
+  },
+  {
+    "id": "3155",
+    "link": "",
+    "name": "Template:ES3155",
+    "detail": "",
+    "esCode": "每回合將所有符石轉化為 10 粒與敵人相同屬性的符石及其他種類符石各 4 粒。召喚師需消除與敵人相同屬性的符石 (不能首批消除)，敵人才會扣除自身生命力 20%，並轉換自身屬性。敵人不受任何攻擊傷害、無視所有控制技能、減傷效果和意志技能",
+    "icons": []
+  },
+  {
+    "id": "3156",
+    "link": "",
+    "name": "Template:ES3156",
+    "detail": "",
+    "esCode": "敵人首次攻擊變為 CD 1。首回合永久封鎖機械族以外成員的主動技能。敵人生命力愈低時，攻擊力會大幅提升，達到一定血量時並會連撃 2 次。無視所有控制技能",
+    "icons": []
+  },
+  {
+    "id": "3157",
+    "link": "",
+    "name": "Template:ES3157",
+    "detail": "",
+    "esCode": "首回合優先突擊 1 次，並將 3 直行的符石轉化為光符石。光符石無法被消除。每回合結束時，引爆所有光符石：每引爆 1 粒光符石，敵人下一次的攻擊力提升 0.5 倍 (最大 16 倍)。無視所有控制技能",
+    "icons": []
+  },
+  {
+    "id": "3158",
+    "link": "",
+    "name": "Template:ES3158",
+    "detail": "",
+    "esCode": "敵人首次攻擊變為 CD 3。首批消除光屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。每回合敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)。無視所有控制技能",
+    "icons": []
+  },
+  {
+    "id": "3159",
+    "link": "",
+    "name": "Template:ES3159",
+    "detail": "",
+    "esCode": "敵人首次攻擊變為 CD 1。每回合射擊 1 直行的位置，被射擊的位置一經觸碰，即時停止移動符石。首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。無視所有控制技能",
+    "icons": []
+  },
+  {
+    "id": "3160",
+    "link": "",
+    "name": "Template:ES3160",
+    "detail": "",
+    "esCode": "木屬性以外的攻擊傷害減至 25%。首回合隨機將 1 種符石轉化為水符石。當敵人首次發動攻擊時，隨機將 1 橫行的符石轉化為水符石；當第 2 次發動攻擊時，隨機將 1 直行的符石轉化為水符石。以上攻擊循環周而復始。首批消除水屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的水屬性連擊 (Combo) 愈多，敵人的連擊次數愈多",
+    "icons": []
+  },
+  {
+    "id": "3161",
+    "link": "",
+    "name": "Template:ES3161",
+    "detail": "",
+    "esCode": "木屬性以外的攻擊傷害減至 10%。首回合隨機將 1 種符石轉化為水符石。當敵人首次發動攻擊時，隨機將 1 橫行的符石轉化為水符石；當第 2 次發動攻擊時，隨機將 1 直行的符石轉化為水符石。以上攻擊循環周而復始。首批消除水屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的水屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。無視所有控制技能",
+    "icons": []
+  },
+  {
+    "id": "3162",
+    "link": "",
+    "name": "Template:ES3162",
+    "detail": "",
+    "esCode": "敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能。當隊伍中有 6 星科研敍論系列角色時： 7 回合內，機械族及人類成員的攻擊力提升 2 倍",
+    "icons": []
+  },
+  {
+    "id": "3163",
+    "link": "",
+    "name": "Template:ES3163",
+    "detail": "",
+    "esCode": "當隊伍中有 6 星科研敍論系列角色時： 7 回合內，機械族及人類成員的攻擊力提升 2 倍。每回合隨機將最左方或最右方 1 直行的符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 9000 點傷害。7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊",
+    "icons": []
+  },
+  {
+    "id": "3164",
+    "link": "",
+    "name": "Template:ES3164",
+    "detail": "",
+    "esCode": "只有光屬性的攻擊才會對敵人造成傷害。重置所有成員的主動技能 CD、EP 及累積戰鬥回合數。6 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊",
+    "icons": []
+  },
+  {
+    "id": "3165",
+    "link": "",
+    "name": "Template:ES3165",
+    "detail": "",
+    "esCode": "只有光屬性的攻擊才會對敵人造成傷害。重置所有成員的主動技能 CD、EP 及累積戰鬥回合數。9 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊",
+    "icons": []
+  },
+  {
+    "id": "3166",
+    "link": "",
+    "name": "Template:ES3166",
+    "detail": "",
+    "esCode": "敵人首次攻擊變為 CD 4。首回合將所有符石隨機轉換，並隨機電擊最左方或最右方 1 直行的符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。移動符石時間變為 6 秒。敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
+    "icons": []
+  },
+  {
+    "id": "3167",
+    "link": "",
+    "name": "Template:ES3167",
+    "detail": "",
+    "esCode": "敵人首次攻擊變為 CD 3。首回合將所有符石隨機轉換，並電擊最左方及最右方 1 直行的符石；如有符石被電擊而未被消除時，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。移動符石時間變為 4 秒。敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
+    "icons": []
+  },
+  {
+    "id": "3168",
+    "link": "",
+    "name": "Template:ES3168",
+    "detail": "",
+    "esCode": "首批消除火符石時 ，該回合無法對敵人造成攻擊傷害。敵人生命力愈低時，攻擊力會提升，達到一定血量時並會連撃 2 次。CD 2 時射擊 1 直行的位置，並在 CD 1 時射擊 1 橫行的位置，被射擊的位置一經觸碰，即時停止移動符石及無法對敵人造成攻擊傷害",
+    "icons": []
+  },
+  {
+    "id": "3169",
+    "link": "",
+    "name": "Template:ES3169",
+    "detail": "",
+    "esCode": "首批消除火符石時 ，該回合無法對敵人造成攻擊傷害。敵人生命力愈低時，攻擊力會大幅提升，達到一定血量時並會連撃 2 次。CD 2 時射擊 1 直行的位置，並在 CD 1 時射擊 1 橫行的位置，被射擊的位置一經觸碰，即時停止移動符石及無法對敵人造成攻擊傷害",
+    "icons": []
+  },
+  {
+    "id": "3170",
+    "link": "",
+    "name": "Template:ES3170",
+    "detail": "",
+    "esCode": "隨機黏附 2 或 3 個位置，該位置的符石一經觸碰，即時停止移動符石。首次受到敵人攻擊時，隨機將 1 橫行的符石轉化為心符石；第 2 次受到敵人攻擊時，隨機將 1 直行的符石轉化為心符石。以上攻擊循環周而復始",
+    "icons": []
+  },
+  {
+    "id": "3171",
+    "link": "",
+    "name": "Template:ES3171",
+    "detail": "",
+    "esCode": "召喚師的回復力變 0。靈化移動符石時所觸碰的符石，每觸碰 1 粒被靈化的符石，召喚師回復 800 點生命力。首次受到敵人攻擊時，隨機將 1 橫行的符石轉化為心符石；第 2 次受到敵人攻擊時，隨機將 1 直行的符石轉化為心符石。以上攻擊循環周而復始。每回合敵人發動攻擊時會扣除召喚師 90% 生命力 (無視所有減傷效果和意志技能)",
+    "icons": []
+  },
+  {
+    "id": "3172",
+    "link": "",
+    "name": "Template:ES3172",
+    "detail": "",
+    "esCode": "由此直至戰鬥結束：每首批消除 1 組符石，將產生 1 粒毒化符石；每消除 1 粒毒化符石，將扣除召喚師 20% 生命力",
+    "icons": []
+  },
+  {
+    "id": "3173",
+    "link": "",
+    "name": "Template:ES3173",
+    "detail": "",
+    "esCode": "由此直至死亡或戰鬥結束：每首批消除 1 組符石，將產生 1 粒毒化符石；每消除 1 粒毒化符石，將扣除召喚師 20% 生命力",
+    "icons": []
+  },
+  {
+    "id": "3174",
+    "link": "",
+    "name": "Template:ES3174",
+    "detail": "",
+    "esCode": "由此直至戰鬥結束：每回合隨機轉化 1 至 3 粒毒化符石，次回合每粒毒化符石會感染至其周邊的其中 1 粒符石；每消除 1 粒毒化符石，將扣除召喚師 20% 生命力",
+    "icons": []
+  },
+  {
+    "id": "3175",
+    "link": "",
+    "name": "Template:ES3175",
+    "detail": "",
+    "esCode": "由此直至死亡或戰鬥結束：每回合隨機轉化 1 至 3 粒毒化符石，次回合每粒毒化符石會感染至其周邊的其中 1 個位置；每消除 1 粒毒化符石，將扣除召喚師 20% 生命力",
+    "icons": []
+  },
+  {
+    "id": "3176",
+    "link": "",
+    "name": "Template:ES3176",
+    "detail": "",
+    "esCode": "首批消除水屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害",
+    "icons": []
+  },
+  {
+    "id": "3177",
+    "link": "",
+    "name": "Template:ES3177",
+    "detail": "",
+    "esCode": "首批消除火屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害",
+    "icons": []
+  },
+  {
+    "id": "3178",
+    "link": "",
+    "name": "Template:ES3178",
+    "detail": "",
+    "esCode": "首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害",
+    "icons": []
+  },
+  {
+    "id": "3179",
+    "link": "",
+    "name": "Template:ES3179",
+    "detail": "",
+    "esCode": "首批消除光屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害",
+    "icons": []
+  },
+  {
+    "id": "3180",
+    "link": "",
+    "name": "Template:ES3180",
+    "detail": "",
+    "esCode": "首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害",
+    "icons": []
+  },
+  {
+    "id": "3181",
+    "link": "",
+    "name": "Template:ES3181",
+    "detail": "",
+    "esCode": "首批消除心符石及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害",
+    "icons": []
   }
 ]

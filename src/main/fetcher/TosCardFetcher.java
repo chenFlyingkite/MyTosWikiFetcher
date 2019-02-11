@@ -45,43 +45,43 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         List<String> link = new ArrayList<>();
         Collections.addAll(link
                 // 昇華
-                , "http://zh.tos.wikia.com/wiki/004" // 水元素賢者莫莉
+                , "https://tos.fandom.com/zh/wiki/004" // 水元素賢者莫莉
                 // 合體
-                , "http://zh.tos.wikia.com/wiki/724" // 鬼面魔刃 ‧ 源義經
-                , "http://zh.tos.wikia.com/wiki/597" // 連肢機偶 · 格蕾琴與海森堡
+                , "https://tos.fandom.com/zh/wiki/724" // 鬼面魔刃 ‧ 源義經
+                , "https://tos.fandom.com/zh/wiki/597" // 連肢機偶 · 格蕾琴與海森堡
                 // 突破
-                , "http://zh.tos.wikia.com/wiki/818" // 憶念雙子 ‧ 加斯陀與波魯克斯
+                , "https://tos.fandom.com/zh/wiki/818" // 憶念雙子 ‧ 加斯陀與波魯克斯
                 // 雙技能
-                , "http://zh.tos.wikia.com/wiki/1166" // 冰花
-                , "http://zh.tos.wikia.com/wiki/1063" // 鳴動威嚴 ‧ 摩迪與曼尼
+                , "https://tos.fandom.com/zh/wiki/1166" // 冰花
+                , "https://tos.fandom.com/zh/wiki/1063" // 鳴動威嚴 ‧ 摩迪與曼尼
                 // 潛能解放
-                , "http://zh.tos.wikia.com/wiki/230" // 白臉金毛 ‧ 妲己
+                , "https://tos.fandom.com/zh/wiki/230" // 白臉金毛 ‧ 妲己
                 // 異空轉生
-                , "http://zh.tos.wikia.com/wiki/595" // 傾世媚狐 ‧ 蘇妲己
-                , "http://zh.tos.wikia.com/wiki/1082" // 孤高龍王 ‧ 敖廣
-                , "http://zh.tos.wikia.com/wiki/1777" // 斯芬克斯
+                , "https://tos.fandom.com/zh/wiki/595" // 傾世媚狐 ‧ 蘇妲己
+                , "https://tos.fandom.com/zh/wiki/1082" // 孤高龍王 ‧ 敖廣
+                , "https://tos.fandom.com/zh/wiki/1777" // 斯芬克斯
         );
         //---
         Collections.addAll(link
-                , "http://zh.tos.wikia.com/wiki/001" // TosCardCreator = 18
-                , "http://zh.tos.wikia.com/wiki/024" // TosCardCreator = 28
-                , "http://zh.tos.wikia.com/wiki/1001" // TosCardCreator = 16
-                , "http://zh.tos.wikia.com/wiki/1017" // TosCardCreator = 22
-                , "http://zh.tos.wikia.com/wiki/1063" // TosCardCreator = 32
-                , "http://zh.tos.wikia.com/wiki/651" // TosCardCreator = 24
-                , "http://zh.tos.wikia.com/wiki/656" // TosCardCreator = 31
+                , "https://tos.fandom.com/zh/wiki/001" // TosCardCreator = 18
+                , "https://tos.fandom.com/zh/wiki/024" // TosCardCreator = 28
+                , "https://tos.fandom.com/zh/wiki/1001" // TosCardCreator = 16
+                , "https://tos.fandom.com/zh/wiki/1017" // TosCardCreator = 22
+                , "https://tos.fandom.com/zh/wiki/1063" // TosCardCreator = 32
+                , "https://tos.fandom.com/zh/wiki/651" // TosCardCreator = 24
+                , "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
         );
 
-        link.clear(); // uncomment this if use test links
-        link.add("http://zh.tos.wikia.com/wiki/1831");
-        //link.add("http://zh.tos.wikia.com/wiki/1327"); // 伊莉莎白
-        //link.add("http://zh.tos.wikia.com/wiki/6200");
+        //link.clear(); // uncomment this if use test links
+        //link.add("https://tos.fandom.com/zh/wiki/1831");
+        //link.add("https://tos.fandom.com/zh/wiki/1327"); // 伊莉莎白
+        //link.add("https://tos.fandom.com/zh/wiki/6200");
 
-        //link.add("http://zh.tos.wikia.com/wiki/1436");
-        //link.add("http://zh.tos.wikia.com/wiki/6070"); // 妲己
-        //link.add("http://zh.tos.wikia.com/wiki/6174");
-        //link.add("http://zh.tos.wikia.com/wiki/595");
-        //link.add("http://zh.tos.wikia.com/wiki/230");
+        //link.add("https://tos.fandom.com/zh/wiki/1436");
+        //link.add("https://tos.fandom.com/zh/wiki/6070"); // 妲己
+        //link.add("https://tos.fandom.com/zh/wiki/6174");
+        //link.add("https://tos.fandom.com/zh/wiki/595");
+        //link.add("https://tos.fandom.com/zh/wiki/230");
         if (!fixing) {
             link.clear();
         }

@@ -91,12 +91,10 @@ public class ASD {
         }
 
         // Find cards
-        findCardSkill("防禦力下降", allCards);
-//        findCardSkill("造成敵全體", allCards);
-//        findCardSkill("造成敵方全體", allCards);
-//        findCardSkill("對敵方全體造成", allCards);
-//        findCardSkill("對全體敵人造成", allCards);
-        //findCardSkill("其累計技能回合將增加 600", allCards);
+        findCardSkill("種族符石", allCards);
+        findCardSkill("種族強化符石", allCards);
+        //findCardSkill("族符石", allCards);
+        //findCardSkill("族強化符石", allCards);
         L.log("--**--\n\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("傷害減少", allCards);
