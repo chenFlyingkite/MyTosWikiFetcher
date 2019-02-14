@@ -91,8 +91,8 @@ public class ASD {
         }
 
         // Find cards
-        findCardSkill("種族符石", allCards);
-        findCardSkill("種族強化符石", allCards);
+        findCardSkill("移動符石時間增加", allCards); // 延長移動符石時間, 移動符石時間延長, 移動符石時間增加
+        //findCardSkill("種族強化符石", allCards);
         //findCardSkill("族符石", allCards);
         //findCardSkill("族強化符石", allCards);
         L.log("--**--\n\n\n--**--");
@@ -193,7 +193,7 @@ public class ASD {
         L.log("--**--\n");
         int m = 0;
         for (TosCard c : allCards) {
-            String s = c.skillDesc1 + " & " + c.skillDesc2;
+            String s = c.skillDesc1 + " & " + c.skillDesc2 + " & " + c.skillAwkName;
             String t = c.cardDetails;
             String u = c.skillLeaderDesc;
             String exist = "";
