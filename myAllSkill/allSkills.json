@@ -10755,6 +10755,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "極樂之魅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A5%B5%E6%A8%82%E4%B9%8B%E9%AD%85",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內，自身攻擊力 5 倍 (攻擊力不可與其他成員共享)；發動技能時若「道德反詰法 ‧ 蘇格拉底」及「理想世界 ‧ 柏拉圖」的行動值達至 100% 時，自身攻擊力則提升至 10 倍",
+    "skillMonsters": [
+      "2024"
+    ]
+  },
+  {
     "type": "主動技 ‧ 昇華",
     "skillName": "極限解放 ‧ 幽冥",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A5%B5%E9%99%90%E8%A7%A3%E6%94%BE_%E2%80%A7_%E5%B9%BD%E5%86%A5",
@@ -11107,6 +11118,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "機甲吐焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E7%94%B2%E5%90%90%E7%84%B0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "隨機將 2 個機械族成員直行的符石轉化為火強化符石；若隊長及戰友均為機械族時，1 回合內，隊長及戰友攻擊力 2.5 倍",
+    "skillMonsters": [
+      "1992"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "機甲武裝加冕",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E7%94%B2%E6%AD%A6%E8%A3%9D%E5%8A%A0%E5%86%95",
     "skillCDMin": 25,
@@ -11114,6 +11136,17 @@
     "skillDesc": "機械族成員所在隊伍欄直行的符石轉化為強化符石。1 回合內，機械族成員的攻擊力及回復力 1.6 倍",
     "skillMonsters": [
       "1725"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機甲魅鐮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E7%94%B2%E9%AD%85%E9%90%AE",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "隨機將 2 個機械族成員直行的符石轉化為暗強化符石；若隊長及戰友均為機械族時，1 回合內，隊長及戰友攻擊力 2.5 倍",
+    "skillMonsters": [
+      "1995"
     ]
   },
   {
@@ -12925,6 +12958,17 @@
     "skillMonsters": [
       "1222",
       "1390"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "浪濤如虹",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E5%A6%82%E8%99%B9",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "火及心符石轉化為心強化符石，水及暗符石轉化為水強化符石；機械族成員的行動值提升 30%。若此時所有機械族成員的行動值達至 100%，自身主動技能 CD 減少 2",
+    "skillMonsters": [
+      "1991"
     ]
   },
   {
@@ -24804,6 +24848,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "雷電之槍 ‧ 改",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E9%9B%BB%E4%B9%8B%E6%A7%8D_%E2%80%A7_%E6%94%B9",
+    "skillCDMin": 16,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內，自身攻擊力 3 倍，隊伍中機械族成員愈多，自身攻擊力提升愈多，5 個機械族成員可提升至最大 8 倍",
+    "skillMonsters": [
+      "1725"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "雷電之鎧",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E9%9B%BB%E4%B9%8B%E9%8E%A7",
@@ -24850,6 +24905,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "電光如虹",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E5%85%89%E5%A6%82%E8%99%B9",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "暗及心符石轉化為心強化符石，光及火符石轉化為光強化符石。機械族成員的行動值提升 30%；若此時所有機械族成員的行動值達至 100%，自身主動技能 CD 減少 2",
+    "skillMonsters": [
+      "1994"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "電光石火",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E5%85%89%E7%9F%B3%E7%81%AB",
     "skillCDMin": 12,
@@ -24890,6 +24956,17 @@
     "skillDesc": "光屬性攻擊力 2.5 倍；消除最底一橫行內的所有符石時，自身攻擊力額外提升 3 倍，若使用相同的隊長及戰友時，自身攻擊力額外提升至 9 倍",
     "skillMonsters": [
       "1094"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "電流石化",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E6%B5%81%E7%9F%B3%E5%8C%96",
+    "skillCDMin": 21,
+    "skillCDMax": 10,
+    "skillDesc": "電擊敵方全體，使受影響目標無法行動，持續 3 回合。效果期間機械族攻擊力 1.5 倍",
+    "skillMonsters": [
+      "1993"
     ]
   },
   {
