@@ -91,9 +91,9 @@ public class ASD {
         }
 
         // Find cards
-        findCardSkill("移動符石時間增加", allCards); // 延長移動符石時間, 移動符石時間延長, 移動符石時間增加
-        //findCardSkill("種族強化符石", allCards);
-        //findCardSkill("族符石", allCards);
+        //findCardSkill("移動符石時間增加", allCards); // 延長移動符石時間, 移動符石時間延長, 移動符石時間增加
+        findCardSkill("種族強化符石", allCards);
+        findCardSkill("種族符石", allCards);
         //findCardSkill("族強化符石", allCards);
         L.log("--**--\n\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);

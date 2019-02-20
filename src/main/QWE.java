@@ -1,5 +1,10 @@
 package main;
 
+import flyingkite.files.FileUtil;
+import flyingkite.log.L;
+import flyingkite.tool.IOUtil;
+import flyingkite.tool.TicTac2;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,19 +13,19 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.Scanner;
 
-import flyingkite.files.FileUtil;
-import flyingkite.log.L;
-import flyingkite.tool.IOUtil;
-import flyingkite.tool.TicTac2;
-
 public class QWE {
     private static TicTac2 clk = new TicTac2();
 
     public static void run() {
         clk.tic();
+        genFarmPool();
         genTosEvent();
         genStageMemo();
         clk.tac("genTosEvent OK");
+    }
+
+    private static void genFarmPool() {
+        genLineAndPrint("..\\MyTosWiki\\playstore\\farm", "farm.txt");
     }
 
     private static void genTosEvent() {
