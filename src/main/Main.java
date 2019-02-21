@@ -40,6 +40,7 @@ public class Main {
         //copyToMyTosWiki();
         //TosWikiArticlesFetcher.me.run();
         //misc();
+        //QWE.run();
     }
 
     private static void fetch() {

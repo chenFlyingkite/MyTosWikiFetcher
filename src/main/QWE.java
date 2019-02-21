@@ -21,7 +21,12 @@ public class QWE {
         genFarmPool();
         genTosEvent();
         genStageMemo();
+        //genDailyMission();
         clk.tac("genTosEvent OK");
+    }
+
+    private static void genDailyMission() {
+        genLineAndPrint("..\\MyTosWiki\\playstore\\daily", "daily.txt");
     }
 
     private static void genFarmPool() {

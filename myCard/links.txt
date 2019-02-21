@@ -11970,10 +11970,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2021"
   },
   {
+    "title": "No. 2022 理想世界 ‧ 柏拉圖",
+    "id": "2022",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%90%86%E6%83%B3%E4%B8%96%E7%95%8C_%E2%80%A7_%E6%9F%8F%E6%8B%89%E5%9C%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2022"
+  },
+  {
     "title": "No. 2024 乙太紛裂 ‧ 亞里士多德",
     "id": "2024",
     "link": "https://tos.fandom.com/zh/wiki/%E4%B9%99%E5%A4%AA%E7%B4%9B%E8%A3%82_%E2%80%A7_%E4%BA%9E%E9%87%8C%E5%A3%AB%E5%A4%9A%E5%BE%B7",
     "linkId": "http://zh.tos.wikia.com/wiki/2024"
+  },
+  {
+    "title": "No. 2027 可塑性生命 · 薛丁格",
+    "id": "2027",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8F%AF%E5%A1%91%E6%80%A7%E7%94%9F%E5%91%BD_%C2%B7_%E8%96%9B%E4%B8%81%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2027"
   },
   {
     "title": "No. 2028 鍊合化光 · 佩脫拉",
@@ -11986,6 +11998,12 @@
     "id": "2030",
     "link": "https://tos.fandom.com/zh/wiki/%E6%88%91%E6%80%9D%E6%95%85%E6%88%91%E5%9C%A8_%E2%80%A7_%E7%AC%9B%E5%8D%A1%E5%85%92",
     "linkId": "http://zh.tos.wikia.com/wiki/2030"
+  },
+  {
+    "title": "No. 2032 定義質疑 ‧ 波以耳",
+    "id": "2032",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%9A%E7%BE%A9%E8%B3%AA%E7%96%91_%E2%80%A7_%E6%B3%A2%E4%BB%A5%E8%80%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2032"
   },
   {
     "title": "No. 2033 甜心女僕 · 蒂芙妮",

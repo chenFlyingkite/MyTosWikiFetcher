@@ -10184,6 +10184,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "木石震天",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E7%9F%B3%E9%9C%87%E5%A4%A9",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，消除木符石的數量愈多，自身攻擊力愈高，消除 30 粒可達至最高 10 倍 (攻擊力不可與其他成員共享)",
+    "skillMonsters": [
+      "2032"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "木葉 ‧ 猛擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E8%91%89_%E2%80%A7_%E7%8C%9B%E6%93%8A",
     "skillCDMin": 14,
@@ -10921,6 +10932,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "機械化的紀錄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%8C%96%E7%9A%84%E7%B4%80%E9%8C%84",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "2 回合內，將火、木及暗符石轉化為機械族強化符石；發動技能時若「道德反詰法 ‧ 蘇格拉底」及「乙太紛裂 ‧ 亞里士多德」的行動值達至 100% 時，所有符石轉化為機械族強化符石",
+    "skillMonsters": [
+      "2022"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "機械始動",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%A7%8B%E5%8B%95",
@@ -10930,6 +10952,17 @@
     "skillMonsters": [
       "1809",
       "2024"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機械實驗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%AF%A6%E9%A9%97",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "引爆隊伍中攻擊力基值最高的 3 個機械族成員直行的符石，以掉落該直行成員屬性的符石；若發動技能時我方生命力為 1，機械族成員的主動技能 CD 減少 2",
+    "skillMonsters": [
+      "2027"
     ]
   },
   {
