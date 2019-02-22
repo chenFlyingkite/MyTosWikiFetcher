@@ -13356,6 +13356,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6237"
   },
   {
+    "title": "S238 吉祥飛舞 ‧ 凱莉",
+    "id": "6238",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%90%89%E7%A5%A5%E9%A3%9B%E8%88%9E_%E2%80%A7_%E5%87%B1%E8%8E%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/6238"
+  },
+  {
     "title": "S239 送福迎春 ‧ 波比",
     "id": "6239",
     "link": "https://tos.fandom.com/zh/wiki/%E9%80%81%E7%A6%8F%E8%BF%8E%E6%98%A5_%E2%80%A7_%E6%B3%A2%E6%AF%94",
