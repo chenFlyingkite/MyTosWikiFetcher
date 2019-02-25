@@ -35,7 +35,11 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
     private List<String> getPeeks() {
         List<String> a = new ArrayList<>();
         //a.add("7002");
-        //a.clear();
+        //a.add("3083"); // #3083 : 龍王劍龍咒 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E7%8E%8B%E5%8A%8D%E9%BE%8D%E5%92%92
+        //a.add("3154"); // #3154 : 冥界寶杖龍符 -> https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E5%AF%B6%E6%9D%96%E9%BE%8D%E7%AC%A6
+        //a.add("3257"); // #3257 : 玄獸武刃龍咒 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E7%8D%B8%E6%AD%A6%E5%88%83%E9%BE%8D%E5%92%92
+        //a.add("3258"); // #3258 : 玄獸武刃龍符 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E7%8D%B8%E6%AD%A6%E5%88%83%E9%BE%8D%E7%AC%A6
+        a.clear();
         return a;
     }
 

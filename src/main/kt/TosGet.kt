@@ -31,14 +31,15 @@ class TosGet {
             return ""
         }
 
-        fun getImageTag(element: Element) : Elements? {
-            val nos = element.getElementsByTag("noscript")
+        fun getImageTag(e: Element) : Elements? {
+            val nos = e.getElementsByTag("noscript")
             val size = nos?.size ?: 0
             if (size > 0) {
                 val x = nos[0]
                 return x?.getElementsByTag("img")
+            } else {
+                return e.getElementsByTag("img")
             }
-            return null
         }
 
         fun getImgAlt(element: Element) : String? {
