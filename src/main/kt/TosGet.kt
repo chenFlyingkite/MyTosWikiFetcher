@@ -19,6 +19,7 @@ class TosGet {
         private val imageClass = "image image-thumbnail link-internal"
         private val wikiBaseZh = "https://tos.fandom.com"
         private val wikiBaseZhOld = "http://zh.tos.wikia.com"
+        private val imageSrc = "https://vignette.wikia.nocookie.net"
 
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
@@ -835,6 +836,8 @@ class TosGet {
             if (src.isEmpty()) {
                 return src
             } else if (src.startsWith(baseWiki)) {
+                return src
+            } else if (src.startsWith(imageSrc)) {
                 return src
             } else {
                 return baseWiki + src

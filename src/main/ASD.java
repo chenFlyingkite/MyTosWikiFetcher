@@ -61,6 +61,7 @@ public class ASD {
         //scale();
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
+        //getStones();
         loadCardsCSV();
         //getV16Icons();
         //getVoidRealm();
@@ -441,6 +442,44 @@ public class ASD {
             }
         }
         t.tac("All images OK in %s", main);
+    }
+
+    private static void getStones() {
+        // https://github.com/tinghan33704/tos_simulator/tree/master/img
+        getRunestone30("stone", "stones/20190301_124230.jpg", "a_");
+        getRunestone30("stone", "stones/20190301_124310.jpg", "b_");
+        getRunestone30("stone", "stones/20190301_124422.jpg", "c_");
+        getRunestone30("stone", "stones/20190301_124527.jpg", "d_");
+        getRunestone30("stone", "stones/20190301_124642.jpg", "e_");
+        getRunestone30("stone", "stones/20190301_124740.jpg", "f_");
+        getRunestone30("stone", "stones/20190301_124806.jpg", "g_");
+    }
+
+    private static void runDiffFolder() {
+        diff("Logos/Output/diff");
+    }
+
+    private static void getRunestone30(String out, String src, String prefix) {
+        int x0 = 0; // left most
+        int y0 = 870; // top most
+        int w = 180; // width
+        int h = 180; // height
+
+        // Creating 30 rects
+        Rect2[] rs = new Rect2[30];
+        int r = 6; // rows
+        int c = 5; // column
+        for (int i = 0; i < c; i++) {
+            for (int j = 0; j < r; j++) {
+                int k = r * i + j;
+                rs[k] = Rect2.atLTWH(x0 + j * w, y0 + i * h, w, h);
+            }
+        }
+
+        // get rect images
+        for (int i = 0; i < rs.length; i++) {
+            getImage(out, src, rs[i], prefix + "" + i);
+        }
     }
 
 

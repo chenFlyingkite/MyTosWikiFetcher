@@ -1,29 +1,29 @@
 package main.fetcher;
 
-import java.io.File;
-import java.util.Arrays;
-import java.util.List;
-
 import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TextUtil;
-import main.kt.NameLink;
 import main.kt.ImageFileInfo;
+import main.kt.NameLink;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
+
+import java.io.File;
+import java.util.Arrays;
+import java.util.List;
 
 public class TosWikiImageFileFetcher extends TosWikiBaseFetcher {
     private TosWikiImageFileFetcher() { }
     public static final TosWikiImageFileFetcher me = new TosWikiImageFileFetcher();
 
-    private static final boolean zh = false;
+    private static final boolean zh = true;
 
     private static final String wikiPageBase = zh ? wikiBaseZh : wikiBaseEn;
     private static final String tosWiki = wikiPageBase +
-        (zh ? "/wiki/Special:%E5%9B%BE%E7%89%87"
+        (zh ? "/zh/wiki/Special:%E5%9B%BE%E7%89%87"
             : "/wiki/Special:Images");
-    private static final int PAGES = zh ? 309 : 155;
+    private static final int PAGES = zh ? 324 : 168;
     private static final String folder = zh ? "myImagesFile" : "myImagesFileEng";
     // http://zh.tos.wikia.com/wiki/Special:圖片
     // https://towerofsaviors.wikia.com/wiki/Special:Images
