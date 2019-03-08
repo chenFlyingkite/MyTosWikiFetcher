@@ -18,6 +18,8 @@ import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
 import main.card.TosCard;
+import main.kt.Craft;
+import main.kt.CraftSkill;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 
@@ -28,6 +30,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -62,7 +65,10 @@ public class ASD {
         //scaleAllImage("D:\\PMP_Android_Face\\Amber", new String[]{"original"}, 640);
         //diff();
         //getStones();
-        loadCardsCSV();
+
+        //loadAllCards();
+        loadAllCrafts();
+
         //getV16Icons();
         //getVoidRealm();
         //PngInvert.me.invertImages("Logos/A", "Logos/B");
@@ -73,7 +79,7 @@ public class ASD {
         tt.tac("Done");
     }
 
-    private static void loadCardsCSV() {
+    private static void loadAllCards() {
         TicTac2 clk = new TicTac2();
 
         File fc = new File("myCard", "cardList.json");
@@ -100,6 +106,40 @@ public class ASD {
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("傷害減少", allCards);
     }
+
+    private static void loadAllCrafts() {
+        File fc = new File("myCraft", "crafts.json");
+        Craft[] craftsNorm = GsonUtil.loadFile(fc, Craft[].class);
+        L.log("%s crafts", craftsNorm.length);
+        Set<String> skillsNorm = new LinkedHashSet<>();
+        for (Craft c : craftsNorm) {
+            for (CraftSkill s : c.getCraftSkill()) {
+                skillsNorm.add(s.getDetail());
+            }
+        }
+        L.log("%s skillsNorm", skillsNorm.size());
+//        for (String s : skillsNorm) {
+//            L.log("%s", s);
+//        }
+        L.log("\n");
+
+
+        File fa = new File("myCraft", "armCrafts.json");
+        Craft[] craftsArm = GsonUtil.loadFile(fa, Craft[].class);
+        L.log("%s arm crafts", craftsArm.length);
+
+        Set<String> skillsArm = new HashSet<>();
+        for (Craft c : craftsArm) {
+            for (CraftSkill s : c.getCraftSkill()) {
+                skillsArm.add(s.getDetail());
+            }
+        }
+        L.log("%s skillsArm", skillsArm.size());
+//        for (String s : skillsArm) {
+//            L.log("%s", s);
+//        }
+    }
+
 
     private static void chiTest() {
         int runs = 50;

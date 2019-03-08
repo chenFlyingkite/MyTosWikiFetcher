@@ -11874,6 +11874,42 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1995"
   },
   {
+    "title": "No. 1999 捨杜",
+    "id": "1999",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8D%A8%E6%9D%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/1999"
+  },
+  {
+    "title": "No. 2001 誅滅戰劍 · 費雷",
+    "id": "2001",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%AA%85%E6%BB%85%E6%88%B0%E5%8A%8D_%C2%B7_%E8%B2%BB%E9%9B%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2001"
+  },
+  {
+    "title": "No. 2002 超然焚烈 · 提爾",
+    "id": "2002",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E7%84%B6%E7%84%9A%E7%83%88_%C2%B7_%E6%8F%90%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2002"
+  },
+  {
+    "title": "No. 2003 終章詠嘆 · 費蕾雅",
+    "id": "2003",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E7%AB%A0%E8%A9%A0%E5%98%86_%C2%B7_%E8%B2%BB%E8%95%BE%E9%9B%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/2003"
+  },
+  {
+    "title": "No. 2004 擎天萬鈞 · 索爾",
+    "id": "2004",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%93%8E%E5%A4%A9%E8%90%AC%E9%88%9E_%C2%B7_%E7%B4%A2%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2004"
+  },
+  {
+    "title": "No. 2005 罪愆篡改 · 洛基",
+    "id": "2005",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BD%AA%E6%84%86%E7%AF%A1%E6%94%B9_%C2%B7_%E6%B4%9B%E5%9F%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/2005"
+  },
+  {
     "title": "No. 2006 愛因斯坦",
     "id": "2006",
     "link": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E5%9B%A0%E6%96%AF%E5%9D%A6",
@@ -11976,6 +12012,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2022"
   },
   {
+    "title": "No. 2023 引力牽繫 ‧ 哥白尼",
+    "id": "2023",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BC%95%E5%8A%9B%E7%89%BD%E7%B9%AB_%E2%80%A7_%E5%93%A5%E7%99%BD%E5%B0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2023"
+  },
+  {
     "title": "No. 2024 乙太紛裂 ‧ 亞里士多德",
     "id": "2024",
     "link": "https://tos.fandom.com/zh/wiki/%E4%B9%99%E5%A4%AA%E7%B4%9B%E8%A3%82_%E2%80%A7_%E4%BA%9E%E9%87%8C%E5%A3%AB%E5%A4%9A%E5%BE%B7",
@@ -12004,6 +12046,12 @@
     "id": "2030",
     "link": "https://tos.fandom.com/zh/wiki/%E6%88%91%E6%80%9D%E6%95%85%E6%88%91%E5%9C%A8_%E2%80%A7_%E7%AC%9B%E5%8D%A1%E5%85%92",
     "linkId": "http://zh.tos.wikia.com/wiki/2030"
+  },
+  {
+    "title": "No. 2031 經驗匯聚 ‧ 培根",
+    "id": "2031",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B6%93%E9%A9%97%E5%8C%AF%E8%81%9A_%E2%80%A7_%E5%9F%B9%E6%A0%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2031"
   },
   {
     "title": "No. 2032 定義質疑 ‧ 波以耳",
@@ -12972,7 +13020,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6166"
   },
   {
-    "title": "No. 6167 維珍尼亞",
+    "title": "S167 維珍尼亞",
     "id": "6167",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B6%AD%E7%8F%8D%E5%B0%BC%E4%BA%9E",
     "linkId": "http://zh.tos.wikia.com/wiki/6167"
@@ -14046,7 +14094,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/9016"
   },
   {
-    "title": "M17 萬娃主人 ‧ 托比",
+    "title": "No. 9017 萬娃主人 ‧ 托比",
     "id": "9017",
     "link": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E5%A8%83%E4%B8%BB%E4%BA%BA_%E2%80%A7_%E6%89%98%E6%AF%94",
     "linkId": "http://zh.tos.wikia.com/wiki/9017"

@@ -17773,7 +17773,7 @@
   {
     "id": "1191",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1191",
-    "name": "迷惑符石 ‧ 初級拼圖盾-限",
+    "name": "迷惑符石 ‧ 高級拼圖盾-限",
     "detail": "敵人會令召喚師無法看透符石的本質。\u003cbr\u003e符石需以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES1191}}",
     "icons": [
@@ -21302,7 +21302,7 @@
   {
     "id": "1396",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1396",
-    "name": "首回隱藏8顆 ‧ 隱身-隱攻3回回復力變0 ‧ 初級拼圖盾",
+    "name": "首回隱藏8顆 ‧ 隱身-隱攻3回回復力變0 ‧ 高級拼圖盾",
     "detail": "首回合敵人隨機將 8 粒符石轉化為隱藏符石。\u003cbr\u003e敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，3 回合內回復力變 0。\u003cbr\u003e符石需以指定的形狀消除 (可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES1396}}",
     "icons": [
@@ -21327,7 +21327,7 @@
   {
     "id": "1397",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1397",
-    "name": "首回隱藏12顆 ‧ 隱身-隱攻3回回復力變0 ‧ 初級拼圖盾-限",
+    "name": "首回隱藏12顆 ‧ 隱身-隱攻3回回復力變0 ‧ 高級拼圖盾-限",
     "detail": "首回合敵人隨機將 12 粒符石轉化為隱藏符石。\u003cbr\u003e敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，3 回合內回復力變 0。\u003cbr\u003e符石需以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES1397}}",
     "icons": [
@@ -21352,7 +21352,7 @@
   {
     "id": "1398",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1398",
-    "name": "首回隱藏8顆 ‧ 隱身-隱攻封鎖4回 ‧ 初級拼圖盾",
+    "name": "首回隱藏8顆 ‧ 隱身-隱攻封鎖4回 ‧ 高級拼圖盾",
     "detail": "首回合敵人隨機將 8 粒符石轉化為隱藏符石。\u003cbr\u003e敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的主動技能 4 回合。\u003cbr\u003e符石需以指定的形狀消除 (可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES1398}}",
     "icons": [
@@ -21377,7 +21377,7 @@
   {
     "id": "1399",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1399",
-    "name": "首回隱藏12顆 ‧ 隱身-隱攻封鎖4回 ‧ 初級拼圖盾-限",
+    "name": "首回隱藏12顆 ‧ 隱身-隱攻封鎖4回 ‧ 高級拼圖盾-限",
     "detail": "首回合敵人隨機將 12 粒符石轉化為隱藏符石。\u003cbr\u003e敵人會隱身，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的主動技能 4 回合。\u003cbr\u003e符石需以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害",
     "esCode": "{{ES1399}}",
     "icons": [
@@ -36760,11 +36760,11 @@
     "esCode": "{{ES2217}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -36781,11 +36781,11 @@
     "esCode": "{{ES2218}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -36802,11 +36802,11 @@
     "esCode": "{{ES2219}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -37430,11 +37430,11 @@
     "esCode": "{{ES2251}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -37451,11 +37451,11 @@
     "esCode": "{{ES2252}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -37472,11 +37472,11 @@
     "esCode": "{{ES2253}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -37493,11 +37493,11 @@
     "esCode": "{{ES2254}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -37514,11 +37514,11 @@
     "esCode": "{{ES2255}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -37535,11 +37535,11 @@
     "esCode": "{{ES2256}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -40821,11 +40821,11 @@
     "esCode": "{{ES2422}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -40842,11 +40842,11 @@
     "esCode": "{{ES2423}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140035\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b8/SI200.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155948\u0026path-prefix\u003dzh",
         "iconKey": "SI200.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20171217141702\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI239.png/revision/latest/scale-to-width-down/22?cb\u003d20190302155925\u0026path-prefix\u003dzh",
         "iconKey": "SI239.png"
       },
       {
@@ -54709,7 +54709,7 @@
     "id": "3138",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3138",
     "name": "水引爆減時0.2-1秒 ‧ 無法控制",
-    "detail": "每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.2 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "detail": "每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.2 秒 (最多減至 1 秒)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3138}}",
     "icons": [
       {
@@ -54726,7 +54726,7 @@
     "id": "3139",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3139",
     "name": "(3回禁消水)-水引爆減時0.3-1秒 ‧ 無法控制",
-    "detail": "3 回合內，水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.3 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "detail": "3 回合內，水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.3 秒 (最多減至 1 秒)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3139}}",
     "icons": [
       {
@@ -54747,7 +54747,7 @@
     "id": "3140",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3140",
     "name": "水禁消 ‧ 水引爆減時0.5-1秒 ‧ 無法控制",
-    "detail": "水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "detail": "水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3140}}",
     "icons": [
       {
@@ -54768,7 +54768,7 @@
     "id": "3141",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3141",
     "name": "首回轉水 ‧ 水禁消 ‧ 水引爆減時0.5-1秒 ‧ 無法控制",
-    "detail": "首回合將所有符石轉化為水符石。\u003cbr\u003e水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒及部分時間技能受影響)。\u003cbr\u003e無視所有控制技能",
+    "detail": "首回合將所有符石轉化為水符石。\u003cbr\u003e水符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有水符石：每引爆 1 粒水符石，減少下回合移動符石時間 0.5 秒 (最多減至 1 秒)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3141}}",
     "icons": [
       {
@@ -55252,7 +55252,7 @@
   {
     "id": "3162",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3162",
-    "name": "天惠6星科研敍論[7回人機2倍攻] ‧ 自殺",
+    "name": "天惠6星科研敍論-[7回人機2倍攻] ‧ 自殺",
     "detail": "敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能。\u003cbr\u003e當隊伍中有 6 星科研敍論系列角色時： 7 回合內，機械族及人類成員的攻擊力提升 2 倍",
     "esCode": "{{ES3162}}",
     "icons": [
@@ -55269,7 +55269,7 @@
   {
     "id": "3163",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3163",
-    "name": "天惠6星科研敍論[7回人機2倍攻] ‧ 隨機兩則直行風化9000 ‧ 7+Combo追擊盾",
+    "name": "天惠6星科研敍論-[7回人機2倍攻] ‧ 隨機側行風化9000 ‧ 7+Combo追擊盾",
     "detail": "當隊伍中有 6 星科研敍論系列角色時： 7 回合內，機械族及人類成員的攻擊力提升 2 倍。\u003cbr\u003e每回合隨機將最左方或最右方 1 直行的符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 9000 點傷害。\u003cbr\u003e7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊",
     "esCode": "{{ES3163}}",
     "icons": [
@@ -55478,8 +55478,8 @@
   {
     "id": "3172",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3172",
-    "name": "毒化詛咒20%",
-    "detail": "由此直至戰鬥結束：每首批消除 1 組符石，將產生 1 粒毒化符石；每消除 1 粒毒化符石，將扣除召喚師 20% 生命力",
+    "name": "細菌感染20%",
+    "detail": "召喚師受到細菌感染直至戰鬥結束：每首批消除 1 組符石，將產生 1 粒細菌符石；每消除 1 粒細菌符石，將扣除召喚師 20% 生命力",
     "esCode": "{{ES3172}}",
     "icons": [
       {
@@ -55504,8 +55504,8 @@
   {
     "id": "3174",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3174",
-    "name": "擴散1-3顆毒化詛咒20%",
-    "detail": "由此直至戰鬥結束：每回合隨機轉化 1 至 3 粒毒化符石，次回合每粒毒化符石會感染至其周邊的其中 1 粒符石；每消除 1 粒毒化符石，將扣除召喚師 20% 生命力",
+    "name": "擴散1-3顆細菌感染20%",
+    "detail": "召喚師受到細菌感染直至戰鬥結束：每回合隨機轉化 1 至 3 粒細菌符石，次回合每粒細菌符石會感染至其周邊的其中 1 粒符石；每消除 1 粒細菌符石，將扣除召喚師 20% 生命力",
     "esCode": "{{ES3174}}",
     "icons": [
       {

@@ -37,11 +37,11 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         fetch();
-        //TosCraftFetcher.me.run();
         //copyToMyTosWiki();
         //TosWikiArticlesFetcher.me.run();
         //misc();
         //QWE.run();
+        //ASD.run();
     }
 
     private static void fetch() {
