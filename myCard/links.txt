@@ -13500,6 +13500,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6262"
   },
   {
+    "title": "S263 引力牽繫 ‧ 哥白尼(動態造型)",
+    "id": "6263",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BC%95%E5%8A%9B%E7%89%BD%E7%B9%AB_%E2%80%A7_%E5%93%A5%E7%99%BD%E5%B0%BC(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6263"
+  },
+  {
     "title": "S264 乙太紛裂 ‧ 亞里士多德(動態造型)",
     "id": "6264",
     "link": "https://tos.fandom.com/zh/wiki/%E4%B9%99%E5%A4%AA%E7%B4%9B%E8%A3%82_%E2%80%A7_%E4%BA%9E%E9%87%8C%E5%A3%AB%E5%A4%9A%E5%BE%B7(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
