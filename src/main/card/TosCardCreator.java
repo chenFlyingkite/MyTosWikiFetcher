@@ -89,6 +89,7 @@ public class TosCardCreator {
                 case 28: c = asTosCard_28(info); break;
                 case 16: c = asTosCard_16(info); break;
                 case 22: c = asTosCard_22(info); break;
+                case 33:
                 case 32: c = asTosCard_32(info); break;
                 case 24: c = asTosCard_24(info); break;
                 case 31: c = asTosCard_31(info); break;

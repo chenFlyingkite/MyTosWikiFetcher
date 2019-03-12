@@ -39,7 +39,7 @@ public class Main {
         fetch();
         //copyToMyTosWiki();
         //TosWikiArticlesFetcher.me.run();
-        //misc();
+        //TosCardFetcher.me.run();
         //QWE.run();
         //ASD.run();
     }
