@@ -2696,6 +2696,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "全速航行",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A8%E9%80%9F%E8%88%AA%E8%A1%8C",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，機械族成員追打水、火及木屬性攻擊各 1 次；回合結束時，將水、火及木符石轉化為強化符石",
+    "skillMonsters": [
+      "2025"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "兩儀",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A9%E5%84%80",
@@ -11777,6 +11788,17 @@
     "skillDesc": "每回合全隊攻擊力持續提升，最大 2.5 倍，效果會在進入下一層數 (Wave) 時消失",
     "skillMonsters": [
       "7007"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "死魂召喚",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AD%BB%E9%AD%82%E5%8F%AC%E5%96%9A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，自身不能對敵方造成傷害，減少 60% 所受傷害；下回合自身攻擊力 2 倍，附加效果愈多，攻擊力額外提升愈多，4 個附加效果可提升至最大 8 倍",
+    "skillMonsters": [
+      "1784"
     ]
   },
   {

@@ -2,6 +2,7 @@ Linking http://zh.tos.wikia.com/api/v1/Articles/New?minArticleQuality=10&limit=2
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/New?minArticleQuality=10&limit=200}
 100 items in /api/v1/Articles/New
 id, creation_date, creator, title, url
+264805, 20190315043031, Wingwing007, 離開古舊的世界, https://tos.fandom.com/zh/wiki/%E9%9B%A2%E9%96%8B%E5%8F%A4%E8%88%8A%E7%9A%84%E4%B8%96%E7%95%8C
 264758, 20190311160224, Hugochau, 第十一屆巴哈姆特遊戲動漫大賞, https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%86%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB%E5%A4%A7%E8%B3%9E
 264743, 20190310164227, Wingwing007, 狹縫之門 ‧ 捨杜, https://tos.fandom.com/zh/wiki/%E7%8B%B9%E7%B8%AB%E4%B9%8B%E9%96%80_%E2%80%A7_%E6%8D%A8%E6%9D%9C
 264742, 20190310041657, Wingwing007, 北域諸神的蛻變, https://tos.fandom.com/zh/wiki/%E5%8C%97%E5%9F%9F%E8%AB%B8%E7%A5%9E%E7%9A%84%E8%9B%BB%E8%AE%8A
@@ -101,4 +102,3 @@ id, creation_date, creator, title, url
 263470, 20190201081754, Wingwing007, 武裝修道者, https://tos.fandom.com/zh/wiki/%E6%AD%A6%E8%A3%9D%E4%BF%AE%E9%81%93%E8%80%85
 263469, 20190201081752, Wingwing007, 一搧千丈遠, https://tos.fandom.com/zh/wiki/%E4%B8%80%E6%90%A7%E5%8D%83%E4%B8%88%E9%81%A0
 263381, 20190127161153, Wingwing007, 第二屆武術大會, https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E5%B1%86%E6%AD%A6%E8%A1%93%E5%A4%A7%E6%9C%83
-263365, 20190127122950, Wingwing007, 快要壞掉的節奏, https://tos.fandom.com/zh/wiki/%E5%BF%AB%E8%A6%81%E5%A3%9E%E6%8E%89%E7%9A%84%E7%AF%80%E5%A5%8F
