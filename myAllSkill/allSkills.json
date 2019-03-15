@@ -6587,7 +6587,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E6%BB%85%E4%B9%8B%E6%81%A8",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "隊伍中有 3 個或以上的屬性成員時，連擊 (Combo) 時攻擊力提升 30%，效果持續至自身沒有發動攻擊為止",
+    "skillDesc": "隊伍中有 3 個或以上的屬性成員時，連擊 (Combo) 時攻擊力提升 30%，效果持續至自身沒有發動攻擊",
     "skillMonsters": [
       "1606"
     ]
@@ -10929,7 +10929,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%87%8E%E7%B5%90%E7%95%8C",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "木屬性及獸類攻擊力 1.5 倍，木符石兼具所有屬性符石效果，直至沒有消除木符石為止",
+    "skillDesc": "木屬性及獸類攻擊力 1.5 倍，木符石兼具其他屬性符石效果，效果持續至沒有消除木符石",
     "skillMonsters": [
       "7012"
     ]
@@ -16027,7 +16027,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E9%AD%94%E6%9A%B4%E6%88%BE",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "魔族攻擊力提升 1.5 倍，直至受到敵人攻擊為止。效果持續期間技能不會冷卻",
+    "skillDesc": "魔族攻擊力提升 1.5 倍，效果持續至受到敵人攻擊。效果持續期間技能不會冷卻",
     "skillMonsters": [
       "0734",
       "0735"
@@ -16039,7 +16039,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E9%AD%94%E6%9A%B4%E6%88%BE_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "魔族攻擊力提升 1.8 倍，直至受到敵人攻擊為止",
+    "skillDesc": "魔族攻擊力提升 1.8 倍，效果持續至受到敵人攻擊",
     "skillMonsters": [
       "1130"
     ]
@@ -20406,7 +20406,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%B3%E7%B4%AB%E4%B9%8B%E6%83%91",
     "skillCDMin": 17,
     "skillCDMax": 8,
-    "skillDesc": "暗屬性及人類攻擊力 1.5 倍，所受傷害減少 50%，直至受到敵人攻擊為止",
+    "skillDesc": "暗屬性及人類攻擊力 1.5 倍，減少 50% 所受傷害，效果持續至受到敵人攻擊",
     "skillMonsters": [
       "1208"
     ]
