@@ -82,6 +82,10 @@ public class BotGoldPassbook implements Runnable {
                 evalBuySell(j, i, table);
             }
         }
+        mLf.log("----------");
+        for (int i = 1; i < 6; i++) {
+            evalBuySellWeek(i, table);
+        }
         mLf.log("\n\n");
 
         for (List<String> list : table) {
@@ -89,11 +93,36 @@ public class BotGoldPassbook implements Runnable {
         }
     }
 
+    private void evalBuySellWeek(int buyAt, List<List<String>> table) {
+        List<String> buys = table.get(buyAt);
+        int n = buys.size() / 2; // transaction times
+        //n = 2;
+        int endB = 0;
+        int endS = 0;
+        // perform buy, sell, buy, sell on weekly
+        for (int i = 0; i < n; i++) {
+            String[] thiz = buys.get(2*i).split(",");
+            String[] prev = buys.get(2*i + 1).split(",");
+            int b, s;
+            // end with buy
+            b = Integer.parseInt(thiz[4]); //
+            s = Integer.parseInt(prev[3]); //
+            endB += s - b;
+
+            // end with sell
+            b = Integer.parseInt(thiz[3]); //
+            s = Integer.parseInt(prev[4]); //
+            endS += s - b;
+        }
+        double avg = 0.5 * (endB + endS);
+        mLf.log("buy & sell weekly at %s     =>  %s data, avg = %.1f, bsb = $%s, sbs = %s", buyAt, n, avg, endB, endS);
+    }
+
     private void evalBuySell(int buyAt, int sellAt, List<List<String>> table) {
         List<String> buys = table.get(buyAt);
         List<String> sells = table.get(sellAt);
         int n = Math.min(buys.size(), sells.size());
-        //n = 4; // eval n records(weeks)
+        //n = 2; // eval n records(weeks)
 
         int sum = 0;
         // 日期 牌價幣別 商品重量 本行買入價格 本行賣出價格
@@ -101,6 +130,7 @@ public class BotGoldPassbook implements Runnable {
             int buyP = Integer.parseInt(buys.get(i).split(",")[4]); //
             int sellP = Integer.parseInt(sells.get(i).split(",")[3]); //
             sum += sellP - buyP;
+            //mLf.log("%s - %s", sellP, buyP);
         }
         mLf.log("buy %s sell %s     =>     %s data gets $%s", buyAt, sellAt, n, sum);
     }

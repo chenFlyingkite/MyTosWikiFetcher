@@ -1,15 +1,21 @@
 Linking https://rate.bot.com.tw/gold/chart/year/TWD
 request sent
 buy 1 sell 2     =>     48 data gets $-786
-buy 1 sell 3     =>     48 data gets $-711
-buy 2 sell 3     =>     49 data gets $-668
+buy 1 sell 3     =>     48 data gets $-714
+buy 2 sell 3     =>     49 data gets $-671
 buy 1 sell 4     =>     48 data gets $-830
 buy 2 sell 4     =>     49 data gets $-796
-buy 3 sell 4     =>     49 data gets $-861
+buy 3 sell 4     =>     49 data gets $-858
 buy 1 sell 5     =>     48 data gets $-857
 buy 2 sell 5     =>     49 data gets $-813
-buy 3 sell 5     =>     49 data gets $-878
+buy 3 sell 5     =>     49 data gets $-875
 buy 4 sell 5     =>     49 data gets $-748
+----------
+buy & sell weekly at 1     =>  24 data, avg = -47.5, bsb = $-407, sbs = 312
+buy & sell weekly at 2     =>  24 data, avg = -7.0, bsb = $-365, sbs = 351
+buy & sell weekly at 3     =>  25 data, avg = -103.0, bsb = $-477, sbs = 271
+buy & sell weekly at 4     =>  24 data, avg = -96.0, bsb = $-454, sbs = 262
+buy & sell weekly at 5     =>  24 data, avg = -71.0, bsb = $-430, sbs = 288
 
 
 
@@ -114,7 +120,7 @@ buy 4 sell 5     =>     49 data gets $-748
   [47] 2018/04/03,新台幣 (TWD),1公克,1248,1263
   [48] 2018/03/27,新台幣 (TWD),1公克,1260,1275
 50 items
-  [ 0] 2019/03/20,新台幣 (TWD),1公克,1285,1301
+  [ 0] 2019/03/20,新台幣 (TWD),1公克,1282,1298
   [ 1] 2019/03/13,新台幣 (TWD),1公克,1287,1303
   [ 2] 2019/03/06,新台幣 (TWD),1公克,1270,1286
   [ 3] 2019/02/27,新台幣 (TWD),1公克,1303,1319
