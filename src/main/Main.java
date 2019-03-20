@@ -7,6 +7,7 @@ import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
+import main.fetcher.BotGoldPassbook;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -27,6 +28,7 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.kt.CopyInfo;
+import org.omg.CORBA.PRIVATE_MEMBER;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -36,6 +38,7 @@ import java.util.concurrent.ExecutorService;
 
 public class Main {
     public static void main(String[] args) {
+        //gold();
         fetch();
         //copyToMyTosWiki();
         //TosWikiArticlesFetcher.me.run();
@@ -126,6 +129,10 @@ public class Main {
     private static void misc() {
         ASD.run();
         TosWikiChecker.me.cardStatistics();
+    }
+
+    private static void gold() {
+        new BotGoldPassbook().run();
     }
 
     private static void runParallel(boolean parallel, Runnable... rs) {
