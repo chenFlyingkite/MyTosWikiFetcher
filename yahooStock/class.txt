@@ -1,0 +1,138 @@
+[
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A4%F4%AAd",
+    "clazz": "水泥"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%AD%B9%AB%7E",
+    "clazz": "食品"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B6%EC%BD%A6",
+    "clazz": "塑膠"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%AF%BC%C2%B4",
+    "clazz": "紡織"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B9q%BE%F7",
+    "clazz": "電機"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B9q%BE%B9%B9q%C6l",
+    "clazz": "電器電纜"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A4%C6%BE%C7",
+    "clazz": "化學"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A5%CD%A7%DE%C2%E5%C0%F8",
+    "clazz": "生技醫療"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%AC%C1%BC%FE",
+    "clazz": "玻璃"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B3y%AF%C8",
+    "clazz": "造紙"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%BF%FB%C5K",
+    "clazz": "鋼鐵"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%BE%F3%BD%A6",
+    "clazz": "橡膠"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A8T%A8%AE",
+    "clazz": "汽車"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A5b%BE%C9%C5%E9",
+    "clazz": "半導體"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B9q%B8%A3%B6g%C3%E4",
+    "clazz": "電腦週邊"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A5%FA%B9q",
+    "clazz": "光電"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B3q%ABH%BA%F4%B8%F4",
+    "clazz": "通信網路"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B9q%A4l%B9s%B2%D5%A5%F3",
+    "clazz": "電子零組件"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B9q%A4l%B3q%B8%F4",
+    "clazz": "電子通路"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B8%EA%B0T%AAA%B0%C8",
+    "clazz": "資訊服務"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A8%E4%A5%A6%B9q%A4l",
+    "clazz": "其它電子"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%C0%E7%AB%D8",
+    "clazz": "營建"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%AF%E8%B9B",
+    "clazz": "航運"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%C6%5B%A5%FA",
+    "clazz": "觀光"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%AA%F7%BF%C4",
+    "clazz": "金融"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%B6T%A9%F6%A6%CA%B3f",
+    "clazz": "貿易百貨"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%AAo%B9q%BFU%AE%F0",
+    "clazz": "油電燃氣"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A8%E4%A5L",
+    "clazz": "其他"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A6s%B0U%BE%CC%C3%D2",
+    "clazz": "存託憑證"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A5%AB%BB%7B%C1%CA",
+    "clazz": "市認購"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A5%AB%BB%7B%B0%E2",
+    "clazz": "市認售"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%AB%FC%BC%C6%C3%FE",
+    "clazz": "指數類"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003dETF",
+    "clazz": "ETF"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/s/list.php?c\u003d%A8%FC%AFq%C3%D2%A8%E9",
+    "clazz": "受益證券"
+  }
+]

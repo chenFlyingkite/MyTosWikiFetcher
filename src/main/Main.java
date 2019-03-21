@@ -27,8 +27,8 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
+import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
-import org.omg.CORBA.PRIVATE_MEMBER;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -39,7 +39,8 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //gold();
-        fetch();
+        stock();
+        //fetch();
         //copyToMyTosWiki();
         //TosWikiArticlesFetcher.me.run();
         //TosCardFetcher.me.run();
@@ -133,6 +134,10 @@ public class Main {
 
     private static void gold() {
         new BotGoldPassbook().run();
+    }
+
+    private static void stock() {
+        YahooStockFetcher.me.parse();
     }
 
     private static void runParallel(boolean parallel, Runnable... rs) {

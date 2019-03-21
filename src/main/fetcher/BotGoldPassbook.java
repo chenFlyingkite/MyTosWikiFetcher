@@ -1,18 +1,14 @@
 package main.fetcher;
 
-import flyingkite.log.L;
 import flyingkite.log.LF;
+import flyingkite.math.Statistics;
 import flyingkite.tool.TicTac2;
+import main.fetcher.web.OnWebLfTT;
+import main.fetcher.web.WebFetcher;
 import main.kt.BotGet;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-import okhttp3.ResponseBody;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -20,42 +16,21 @@ import java.util.List;
 public class BotGoldPassbook implements Runnable {
     private LF mLf = new LF("botGold");
     private TicTac2 clock = new TicTac2();
+    private WebFetcher fetcher = new WebFetcher();
 
     public String mainLink() {
         return "https://rate.bot.com.tw/gold/chart/year/TWD";
     }
 
-    public String sendRequest() {
-        String link = mainLink();
-        OkHttpClient client = new OkHttpClient();
-        Request req = new Request.Builder().url(link).build();
-        String body = null;
-
-        // Delete the log file
-        mLf.getFile().delete().open();
-        try {
-            Response res;
-            mLf.log("Linking %s", link);
-            clock.tic();
-            res = client.newCall(req).execute();
-            clock.tac("request sent");
-            mLf.log("request sent");
-            ResponseBody rb = res.body();
-            if (rb != null) {
-                body = rb.string();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            mLf.getFile().close();
-        }
-        return body;
+    public Document sendRequest() {
+        return fetcher.sendAndParseDom(mainLink(), onWeb);
     }
+
+    private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
 
     @Override
     public void run() {
-        String body = sendRequest();
-        Document doc = Jsoup.parse(body);
+        Document doc = sendRequest();
         Elements es = doc.getElementsByTag("table");
         List<String> data = BotGet.me.goldTable(es);
         mLf.getFile().open();
@@ -77,6 +52,8 @@ public class BotGoldPassbook implements Runnable {
             table.get(d.getDay()).add(s);
         }
 
+        evalStatistics(data);
+        mLf.log("----------");
         for (int i = 2; i < 6; i++) { // sell at
             for (int j = 1; j < i; j++) { // buy at
                 evalBuySell(j, i, table);
@@ -91,6 +68,28 @@ public class BotGoldPassbook implements Runnable {
         for (List<String> list : table) {
             printAll(list);
         }
+    }
+
+    private void evalStatistics(List<String> data) {
+        List<Integer> dx = new ArrayList<>();
+        List<Integer> dy = new ArrayList<>();
+        for (int i = 1; i < data.size(); i++) {
+            String[] d = data.get(i-1).split(",");
+            String[] c = data.get(i).split(",");
+            int thiz = Integer.parseInt(d[3]);
+            int prev = Integer.parseInt(c[3]);
+            int dt = thiz - prev;
+            dx.add(dt);
+            dy.add(Math.abs(dt));
+        }
+        double mdx = Statistics.mean(dx);
+        double mdy = Statistics.mean(dy);
+        double ddx = Statistics.deviation(dx);
+        double ddy = Statistics.deviation(dy);
+
+        mLf.log("Daily volatility on %s data", data.size());
+        mLf.log("      mean = %.2f,     std = %.2f", mdx, ddx);
+        mLf.log("  abs.mean = %.2f, abs.std = %.2f", mdy, ddy);
     }
 
     private void evalBuySellWeek(int buyAt, List<List<String>> table) {
