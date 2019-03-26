@@ -1,12 +1,12 @@
 package main.fetcher;
 
-import java.util.List;
-
 import flyingkite.log.LF;
 import main.kt.TableInfo;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
+
+import java.util.List;
 
 public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher {
     private TosWikiSummonerLevelFetcher() {}
@@ -87,6 +87,7 @@ public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher {
         if (doc == null) return null;
 
         Elements tables = doc.getElementsByClass("wikitable");
+        // Need fix on :After LV 300, team slot = 20 + (lv-300) / 20
         return TosGet.me.getSummonerTable(0, tables);
     }
 

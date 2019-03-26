@@ -74,7 +74,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         );
 
         //link.clear(); // uncomment this if use test links
-        //link.add("https://tos.fandom.com/zh/wiki/2001");
+        //link.add("https://tos.fandom.com/zh/wiki/2005");
         //link.add("https://tos.fandom.com/zh/wiki/1327"); // 伊莉莎白
         //link.add("https://tos.fandom.com/zh/wiki/6200");
 

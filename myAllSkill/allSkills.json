@@ -971,6 +971,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "人類集權",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E9%9B%86%E6%AC%8A",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中有 3 種或以上屬性成員時：人類攻擊力 4 倍",
+    "skillMonsters": [
+      "2074"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "人魔之怒",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%AD%94%E4%B9%8B%E6%80%92",
     "skillCDMin": -1,
@@ -1209,6 +1220,18 @@
       "0595",
       "1089",
       "1090"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "傾世魅顏",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%82%BE%E4%B8%96%E9%AD%85%E9%A1%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有魔族或妖精類成員時：全隊生命力、攻擊力及回復力 1.5 倍；每首批消除 1 個角落的符石時，全隊攻擊力提升 1.25 倍，4 個角落可達至最大 5 倍",
+    "skillMonsters": [
+      "2059",
+      "2060"
     ]
   },
   {
@@ -4979,6 +5002,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "大地猛擊 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E5%9C%B0%E7%8C%9B%E6%93%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 19,
+    "skillCDMax": 10,
+    "skillDesc": "對敵方全體造成 20 倍木屬性傷害",
+    "skillMonsters": [
+      "2055"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "大地轟擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E5%9C%B0%E8%BD%9F%E6%93%8A",
     "skillCDMin": 19,
@@ -7597,6 +7631,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "慾念之誘",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%85%BE%E5%BF%B5%E4%B9%8B%E8%AA%98",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "木符石轉化為妖族符石。1 回合內，隊伍成員攻擊次數 (不計炮擊) 愈多，所受傷害減少愈多，10 次攻擊可減少最多 100% 所受傷害",
+    "skillMonsters": [
+      "2056"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "憂鬱之藍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%86%82%E9%AC%B1%E4%B9%8B%E8%97%8D",
     "skillCDMin": 19,
@@ -9516,6 +9561,19 @@
       "0174",
       "0291",
       "0619"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "暗影猛擊 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%8C%9B%E6%93%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 19,
+    "skillCDMax": 10,
+    "skillDesc": "對敵方全體造成 20 倍暗屬性傷害",
+    "skillMonsters": [
+      "1980",
+      "2059",
+      "2065"
     ]
   },
   {
@@ -12456,6 +12514,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "水波猛擊 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%B3%A2%E7%8C%9B%E6%93%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 19,
+    "skillCDMax": 10,
+    "skillDesc": "對敵方全體造成 20 倍水屬性傷害",
+    "skillMonsters": [
+      "2051"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "水波轟擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%B3%A2%E8%BD%9F%E6%93%8A",
     "skillCDMin": 19,
@@ -14412,6 +14481,18 @@
       "0427",
       "0516",
       "0672"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "火焰猛擊 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E7%8C%9B%E6%93%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 19,
+    "skillCDMax": 10,
+    "skillDesc": "對敵方全體造成 20 倍火屬性傷害",
+    "skillMonsters": [
+      "2053",
+      "2061"
     ]
   },
   {
@@ -18408,6 +18489,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "禁果之惑",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A6%81%E6%9E%9C%E4%B9%8B%E6%83%91",
+    "skillCDMin": 14,
+    "skillCDMax": 3,
+    "skillDesc": "火及心符石轉化為魔族強化符石，若隊長及戰友均為「魔性原罪 · 夏娃」時，所有「魔性原罪 · 夏娃」獲得 1 個禁果",
+    "skillMonsters": [
+      "2054"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "秘密的約定",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A7%98%E5%AF%86%E7%9A%84%E7%B4%84%E5%AE%9A",
     "skillCDMin": 24,
@@ -19986,6 +20078,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "紅顏之暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B4%85%E9%A1%8F%E4%B9%8B%E6%9A%B4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "隊長及戰友攻擊力 2.5 倍，效果持續至首批消除心符石",
+    "skillMonsters": [
+      "2066"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "紫魅斷魂",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B4%AB%E9%AD%85%E6%96%B7%E9%AD%82",
@@ -20016,6 +20119,17 @@
     "skillDesc": "隨機將 9 粒符石分別轉化為 3 粒火強化符石、3 粒水符石及 3 粒木符石。同時發動水、火及木屬性攻擊時，當前技能 CD 減少 2",
     "skillMonsters": [
       "1515"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "細水情堅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B4%B0%E6%B0%B4%E6%83%85%E5%A0%85",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "隨機將 2 個人類成員直行的符石轉化為水人族強化符石。2 回合內，敵方全體轉為火屬性",
+    "skillMonsters": [
+      "2073"
     ]
   },
   {
@@ -20567,6 +20681,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "羞花之迷",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BE%9E%E8%8A%B1%E4%B9%8B%E8%BF%B7",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "消除所有附加效果及完全回復生命力。發動技能時若所有成員的回復力基值相同，「殉愛杳渺 · 楊玉環」以外所有成員的主動技能 CD 減少 1",
+    "skillMonsters": [
+      "2064"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "群族共鳴",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BE%A4%E6%97%8F%E5%85%B1%E9%B3%B4",
     "skillCDMin": 19,
@@ -20667,6 +20792,17 @@
     "skillDesc": "隊伍中只有機械族；或只有機械族及人類成員時，全隊攻擊力 4 倍及生命力 1.3 倍；心符石兼具 50% 所有屬性符石效果 (可疊加)",
     "skillMonsters": [
       "1728"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "翩躚起舞",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BF%A9%E8%BA%9A%E8%B5%B7%E8%88%9E",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "點選 2 直行的符石，將之轉化為暗魔族強化符石；1 回合內，魔族及妖精類攻擊力 2 倍",
+    "skillMonsters": [
+      "2060"
     ]
   },
   {
@@ -21535,6 +21671,17 @@
     "skillDesc": "隊伍中只有龍類成員時，龍類攻擊力 4 倍及生命力 1.25 倍",
     "skillMonsters": [
       "1228"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "落雁之魅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%90%BD%E9%9B%81%E4%B9%8B%E9%AD%85",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "妖精類攻擊力 1.5 倍；每首批消除 1 組符石時，將產生 1 粒妖族強化符石，最多可產生 8 粒，效果持續至沒有消除種族符石",
+    "skillMonsters": [
+      "2068"
     ]
   },
   {
@@ -22604,6 +22751,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "親嚐禁果",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A6%AA%E5%9A%90%E7%A6%81%E6%9E%9C",
+    "skillCDMin": 14,
+    "skillCDMax": 3,
+    "skillDesc": "若隊長及戰友均為「魔性原罪 · 夏娃」時，消耗戰友的 2 個禁果以發動技能：1 回合內，火屬性及魔族攻擊力 2.2 倍，「魔性原罪 · 夏娃」的攻擊無視敵人防禦力",
+    "skillMonsters": [
+      "2054"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "解咒魔法",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A7%A3%E5%92%92%E9%AD%94%E6%B3%95",
     "skillCDMin": 18,
@@ -22995,6 +23153,17 @@
     "skillDesc": "1 回合內，火屬性攻擊力 2 倍，於 10 秒內可任意移動符石而不會發動消除；若擊斃所有敵人，下回合火屬性攻擊力 2 倍",
     "skillMonsters": [
       "1206"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "赤燄術 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B5%A4%E7%87%84%E8%A1%93_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 14,
+    "skillCDMax": 3,
+    "skillDesc": "隨機將 4 至 8 粒符石轉化為火強化符石 (光及暗符石優先轉換)",
+    "skillMonsters": [
+      "2074"
     ]
   },
   {
@@ -24115,6 +24284,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "醉人之姿",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%86%89%E4%BA%BA%E4%B9%8B%E5%A7%BF",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "2 回合內，可任意移動符石而不會發動消除，水屬性及妖精類攻擊力 2 倍",
+    "skillMonsters": [
+      "2052"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "醉仙望月步",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%86%89%E4%BB%99%E6%9C%9B%E6%9C%88%E6%AD%A5",
     "skillCDMin": 26,
@@ -25097,6 +25277,17 @@
     "skillDesc": "連續引爆火屬性以外的符石 3 次，並根據引爆的符石數量倍化自身攻擊力對敵方全體造成火屬性傷害。1 回合內，消除 8 粒或以上的火符石，火屬性攻擊力 1.5 倍",
     "skillMonsters": [
       "1297"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "集權之謀",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%86%E6%AC%8A%E4%B9%8B%E8%AC%80",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "引爆隊伍成員屬性以外的符石，以掉落強化符石。1 回合內，延長移動符石時間至 12 秒；每首批消除 2 組符石，魔族及光屬性成員以 30% 自身攻擊力追打光屬性攻擊 1 次，最多可追打 5 次",
+    "skillMonsters": [
+      "2058"
     ]
   },
   {
@@ -27022,6 +27213,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "魔媚之焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%AA%9A%E4%B9%8B%E7%84%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，移動符石時觸碰的符石轉化為魔族符石；攻擊力基值最高 (最左方) 的魔族成員追打自身攻擊 1 次",
+    "skillMonsters": [
+      "2062"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "魔封環",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%B0%81%E7%92%B0",
     "skillCDMin": 18,
@@ -27029,6 +27231,18 @@
     "skillDesc": "1 回合內，減少 90% 所受傷害，將 5 粒符石轉化為心符石 (水及木符石優先轉換)",
     "skillMonsters": [
       "1796"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "魔念之罪",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%BF%B5%E4%B9%8B%E7%BD%AA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有魔族或妖精類成員時：全隊攻擊力 6 倍及生命力 2 倍；所有屬性符石兼具 25% 其他屬性符石效果 (可疊加)；每回合回復相等於隊伍中所有「魔性原罪 · 夏娃」攻擊力基值總和的生命力 (需消除符石)",
+    "skillMonsters": [
+      "2053",
+      "2054"
     ]
   },
   {
@@ -27213,6 +27427,27 @@
       "2028",
       "7017"
     ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "魔曌之勢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%9B%8C%E4%B9%8B%E5%8B%A2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有魔族成員時：魔族攻擊力 4 倍，光屬性魔族攻擊力則 5 倍；消除魔族符石時，全隊攻擊力額外提升 2 倍",
+    "skillMonsters": [
+      "2057",
+      "2058"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "魔曌之勢 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%9B%8C%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有魔族成員時：魔族攻擊力 4 倍，光屬性魔族攻擊力則 5 倍；消除魔族符石時，全隊攻擊力額外提升 2 倍。以屬性符石開始轉珠時：該種屬性符石兼具其他符石效果，移動符石時觸碰的首 5 粒符石轉化為該屬性魔族強化符石。減少 90% 所受傷害，受到 5 次攻擊後變為減少 45% 所受傷害",
+    "skillMonsters": []
   },
   {
     "type": "主動技",
@@ -27401,6 +27636,21 @@
     "skillDesc": "水屬性攻擊力 4.5 倍。當生命力少於 50% 時，心符石效果提升至 300% (效果不能疊加)",
     "skillMonsters": [
       "1953"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "魔魅合擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%AD%85%E5%90%88%E6%93%8A",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "妖精類及魔族攻擊力 4.5 倍，消除妖族符石或魔族符石時，妖精類及魔族成員追打自身攻擊 1 次",
+    "skillMonsters": [
+      "2052",
+      "2056",
+      "2062",
+      "2064",
+      "2066"
     ]
   },
   {

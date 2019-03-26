@@ -40,12 +40,22 @@ public class Main {
     public static void main(String[] args) {
         //gold();
         //stock();
+
         fetch();
         //copyToMyTosWiki();
-        //TosWikiArticlesFetcher.me.run();
         //TosCardFetcher.me.run();
+        //TosWikiArticlesFetcher.me.run();
         //QWE.run();
         //ASD.run();
+        //print();
+    }
+
+    private static void print() {
+        //Printing After LV 300, team slot = 20 + (lv-300) / 20
+        for (int i = 300; i < 900; i++) {
+            int lv = 20 + (i - 300) / 20;
+            L.log("%s -> %02d},", i, lv);
+        }
     }
 
     private static void fetch() {

@@ -11,6 +11,7 @@ public enum Anchors {
     VirtualRebirth("異空轉生"),
     VirRebirTrans ("異力轉換"),
     Dragonware    ("武裝龍刻"),
+    SupremeReckon ("究極融煉"),
     Origin        ("來源"),
     ;
 
