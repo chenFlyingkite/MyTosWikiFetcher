@@ -39,8 +39,8 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //gold();
-        stock();
-        //fetch();
+        //stock();
+        fetch();
         //copyToMyTosWiki();
         //TosWikiArticlesFetcher.me.run();
         //TosCardFetcher.me.run();

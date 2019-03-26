@@ -11814,6 +11814,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1979"
   },
   {
+    "title": "No. 1980 影吟靈石",
+    "id": "1980",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BD%B1%E5%90%9F%E9%9D%88%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/1980"
+  },
+  {
     "title": "No. 1981 迅殺芭扇 ‧ 羅剎女",
     "id": "1981",
     "link": "https://tos.fandom.com/zh/wiki/%E8%BF%85%E6%AE%BA%E8%8A%AD%E6%89%87_%E2%80%A7_%E7%BE%85%E5%89%8E%E5%A5%B3",
@@ -12076,6 +12082,132 @@
     "id": "2033",
     "link": "https://tos.fandom.com/zh/wiki/%E7%94%9C%E5%BF%83%E5%A5%B3%E5%83%95_%C2%B7_%E8%92%82%E8%8A%99%E5%A6%AE",
     "linkId": "http://zh.tos.wikia.com/wiki/2033"
+  },
+  {
+    "title": "No. 2051 驪姬",
+    "id": "2051",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A9%AA%E5%A7%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2051"
+  },
+  {
+    "title": "No. 2052 母愛啟蒙 · 驪姬",
+    "id": "2052",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AF%8D%E6%84%9B%E5%95%9F%E8%92%99_%C2%B7_%E9%A9%AA%E5%A7%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2052"
+  },
+  {
+    "title": "No. 2053 夏娃",
+    "id": "2053",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%8F%E5%A8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2053"
+  },
+  {
+    "title": "No. 2054 魔性原罪 · 夏娃",
+    "id": "2054",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%80%A7%E5%8E%9F%E7%BD%AA_%C2%B7_%E5%A4%8F%E5%A8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2054"
+  },
+  {
+    "title": "No. 2055 龍陽君",
+    "id": "2055",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%99%BD%E5%90%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2055"
+  },
+  {
+    "title": "No. 2056 斷袖縱情 · 龍陽君",
+    "id": "2056",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%96%B7%E8%A2%96%E7%B8%B1%E6%83%85_%C2%B7_%E9%BE%8D%E9%99%BD%E5%90%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2056"
+  },
+  {
+    "title": "No. 2057 武則天",
+    "id": "2057",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AD%A6%E5%89%87%E5%A4%A9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2057"
+  },
+  {
+    "title": "No. 2058 后儀天下 · 武則天",
+    "id": "2058",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%90%8E%E5%84%80%E5%A4%A9%E4%B8%8B_%C2%B7_%E6%AD%A6%E5%89%87%E5%A4%A9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2058"
+  },
+  {
+    "title": "No. 2059 克麗奧",
+    "id": "2059",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%85%8B%E9%BA%97%E5%A5%A7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2059"
+  },
+  {
+    "title": "No. 2060 艷后爭鳴 · 克麗奧",
+    "id": "2060",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%89%B7%E5%90%8E%E7%88%AD%E9%B3%B4_%C2%B7_%E5%85%8B%E9%BA%97%E5%A5%A7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2060"
+  },
+  {
+    "title": "No. 2061 褒姒",
+    "id": "2061",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%A4%92%E5%A7%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2061"
+  },
+  {
+    "title": "No. 2062 禍國魔娃 · 褒姒",
+    "id": "2062",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A6%8D%E5%9C%8B%E9%AD%94%E5%A8%83_%C2%B7_%E8%A4%92%E5%A7%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2062"
+  },
+  {
+    "title": "No. 2063 楊玉環",
+    "id": "2063",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A5%8A%E7%8E%89%E7%92%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2063"
+  },
+  {
+    "title": "No. 2064 殉愛杳渺 · 楊玉環",
+    "id": "2064",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AE%89%E6%84%9B%E6%9D%B3%E6%B8%BA_%C2%B7_%E6%A5%8A%E7%8E%89%E7%92%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2064"
+  },
+  {
+    "title": "No. 2065 妺喜",
+    "id": "2065",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A6%BA%E5%96%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2065"
+  },
+  {
+    "title": "No. 2066 烈女勳章 · 妺喜",
+    "id": "2066",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%83%88%E5%A5%B3%E5%8B%B3%E7%AB%A0_%C2%B7_%E5%A6%BA%E5%96%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2066"
+  },
+  {
+    "title": "No. 2068 落雁琴姬 · 王昭君",
+    "id": "2068",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%90%BD%E9%9B%81%E7%90%B4%E5%A7%AC_%C2%B7_%E7%8E%8B%E6%98%AD%E5%90%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2068"
+  },
+  {
+    "title": "No. 2073 虛憶迴夢 · 虞姬",
+    "id": "2073",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%99%9B%E6%86%B6%E8%BF%B4%E5%A4%A2_%C2%B7_%E8%99%9E%E5%A7%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2073"
+  },
+  {
+    "title": "No. 2074 俏漢柔情 · 李蓮英",
+    "id": "2074",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BF%8F%E6%BC%A2%E6%9F%94%E6%83%85_%C2%B7_%E6%9D%8E%E8%93%AE%E8%8B%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2074"
+  },
+  {
+    "title": "No. 2077 金童",
+    "id": "2077",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%AB%A5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2077"
+  },
+  {
+    "title": "No. 2078 玉女",
+    "id": "2078",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8E%89%E5%A5%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2078"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -13498,6 +13630,12 @@
     "id": "6252",
     "link": "https://tos.fandom.com/zh/wiki/%E8%8A%8D%E8%8A%B1%E6%84%9B%E6%88%80_%E2%80%A7_%E5%A6%8D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6252"
+  },
+  {
+    "title": "S254 高雅冷絕 ‧ 雪女",
+    "id": "6254",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E9%9B%85%E5%86%B7%E7%B5%95_%E2%80%A7_%E9%9B%AA%E5%A5%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/6254"
   },
   {
     "title": "S259 時空相對論 ‧ 愛因斯坦(動態造型)",

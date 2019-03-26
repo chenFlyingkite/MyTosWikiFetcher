@@ -79,7 +79,7 @@ open class YahooGet {
             // 公積配股
             val stock3 = toMoney(tds[17].text())
 
-            return cash + stock + stock2 + stock3
+            return cash + stock// + stock2 + stock3
         }
 
         @Deprecated("Wrong with class page")
