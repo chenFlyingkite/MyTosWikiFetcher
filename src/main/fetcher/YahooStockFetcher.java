@@ -30,9 +30,9 @@ public class YahooStockFetcher implements Runnable {
         return "https://tw.stock.yahoo.com/h/getclass.php";
     }
 
-    private List<StockInfo> marketLinks(String prefix) { // 集中市場當日行情表
+    private List<StockInfo> marketLinks() { // 集中市場當日行情表
         Document doc = fetcher.sendAndParseDom(classLink(), onWeb);
-        LF clazzLf = new LF(FOLDER, prefix + "_class.txt");
+        LF clazzLf = new LF(FOLDER, "m_class.txt");
 
         Elements es = doc.getElementsByTag("table");
         List<StockInfo> si = YahooGet.me.classTable(es.get(5));
@@ -51,9 +51,9 @@ public class YahooStockFetcher implements Runnable {
         //金融      貿易百貨     油電燃氣      其他
     }
 
-    private List<StockInfo> tableLinks(String prefix) { // 櫃檯買賣市場行情
+    private List<StockInfo> tableLinks() { // 櫃檯買賣市場行情
         Document doc = fetcher.sendAndParseDom(classLink(), onWeb);
-        LF clazzLf = new LF(FOLDER, prefix + "_class.txt");
+        LF clazzLf = new LF(FOLDER, "t_class.txt");
 
         Elements es = doc.getElementsByTag("table");
         List<StockInfo> si = YahooGet.me.classTable(es.get(8));
@@ -73,8 +73,8 @@ public class YahooStockFetcher implements Runnable {
     }
 
     public void parse() {
-        findMarket(marketLinks("m"), "m");
-        findMarket(tableLinks("t"), "t");
+        findMarket(marketLinks(), "m");
+        findMarket(tableLinks(), "t");
     }
 
     private void findMarket(List<StockInfo> all, String prefix) { // 集中市場
