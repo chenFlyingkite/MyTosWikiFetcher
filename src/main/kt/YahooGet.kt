@@ -1,5 +1,6 @@
 package main.kt
 
+import flyingkite.log.L
 import main.fetcher.data.StockInfo
 import main.fetcher.web.WebFetcher
 import org.jsoup.nodes.Element
@@ -63,11 +64,15 @@ open class YahooGet {
             return "https://tw.stock.yahoo.com/d/s/company_$id.html"
         }
 
-        fun dividend(id : String) : Double {
+        fun dividend(id : String) : DoubleArray {
             // "https://tw.stock.yahoo.com/d/s/company_1101.html"
             val link = "https://tw.stock.yahoo.com/d/s/company_$id.html"
             val doc = fetcher.sendAndParseDom(link, null)
             val tables = doc.getElementsByTag("table")
+            if (tables.size < 2) {
+                L.log("X_X Link not found dividend %s", link)
+                return doubleArrayOf(-1.0, -1.0, -1.0, -1.0)
+            }
             val e = tables[2]
             val tds = e.getElementsByTag("td")
             // 現金股利
@@ -79,7 +84,7 @@ open class YahooGet {
             // 公積配股
             val stock3 = toMoney(tds[17].text())
 
-            return cash + stock// + stock2 + stock3
+            return doubleArrayOf(cash, stock, stock2, stock3)
         }
 
         @Deprecated("Wrong with class page")

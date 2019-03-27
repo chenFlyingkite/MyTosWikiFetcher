@@ -14,15 +14,15 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 public class YahooStockFetcher implements Runnable {
     public static final YahooStockFetcher me = new YahooStockFetcher();
 
-    private LF mLf = new LF("yahooStock");
-    private LF clazzLf = new LF("yahooStock", "class.txt");
+    private static final String FOLDER = "yahooStock";
+    private LF mLf = new LF(FOLDER);
+    private LF clazzLf = new LF(FOLDER, "class.txt");
     private TicTac2 clock = new TicTac2();
     private WebFetcher fetcher = new WebFetcher();
     private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
@@ -53,7 +53,8 @@ public class YahooStockFetcher implements Runnable {
 
     public void parse() {
         List<StockInfo> all = links();
-        List<MoneyInfo> money = new ArrayList<>();
+        List<MoneyInfo> cash1 = new ArrayList<>();
+        List<MoneyInfo> cash2 = new ArrayList<>();
         for (int i = 0; i < all.size(); i++) {
             StockInfo si = all.get(i);
             if (i > 0 && "其他".equals(all.get(i-1).clazz)) {
@@ -72,21 +73,45 @@ public class YahooStockFetcher implements Runnable {
             for (int j = 0; j < list.size(); j++) {
                 String item = list.get(j);
                 String id = item.substring(0, 4);
-                double div = YahooGet.me.dividend(id);
+                double[] divs = YahooGet.me.dividend(id);
                 double price = YahooGet.me.price(id);
+                double p2 = prices.get(j);
+                // Create for cash
                 MoneyInfo m = new MoneyInfo();
                 m.name = item;
-                m.d1 = div;
-                double p2 = prices.get(j);
+                m.d1 = divs[0];
                 m.d2 = p2;
                 m.link = YahooGet.me.companyLink(id);
-                money.add(m);
-                mLf.log("%s = %s元 / %s元", item, div, p2);
+                cash1.add(m);
+                // Create for cash + stock
+                MoneyInfo m2 = m.copy();
+                m2.d1 = divs[0] + divs[1];
+                cash2.add(m2);
+                mLf.log("%s = %s元 / %s元", item, m2.d1, p2);
             }
             mLf.setLogToFile(true);
         }
         mLf.log("--------------");
-        Collections.sort(money, new Comparator<MoneyInfo>() {
+        sortByRateReturn(cash1);
+        sortByRateReturn(cash2);
+        LF lf1 = new LF(FOLDER, "cash.txt");
+        LF lf2 = new LF(FOLDER, "cash+stock.txt");
+        printToFile(cash1, lf1);
+        printToFile(cash2, lf2);
+        mLf.getFile().close();
+    }
+
+    private void printToFile(List<MoneyInfo> list, LF lf) {
+        lf.getFile().delete().open();
+        for (int i = 0; i < list.size(); i++) {
+            MoneyInfo m = list.get(i);
+            lf.log("#%03d = %s => %.3f%% , link = \n  %s", i, m, 100 * m.d1 / m.d2, m.link);
+        }
+        lf.getFile().close();
+    }
+
+    private void sortByRateReturn(List<MoneyInfo> list) {
+        list.sort(new Comparator<MoneyInfo>() {
             @Override
             public int compare(MoneyInfo o1, MoneyInfo o2) {
                 if (max(o1)) {
@@ -108,12 +133,6 @@ public class YahooStockFetcher implements Runnable {
                 return false;
             }
         });
-        for (int i = 0; i < money.size(); i++) {
-            MoneyInfo m = money.get(i);
-            mLf.log("#%s = %s => %.3f%% , link = %s", i, m, 100 * m.d1 / m.d2, m.link);
-        }
-        mLf.log("--------------");
-        mLf.getFile().close();
     }
 
     private void print(List<String> s) {
