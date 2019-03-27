@@ -22,7 +22,6 @@ public class YahooStockFetcher implements Runnable {
 
     private static final String FOLDER = "yahooStock";
     private LF mLf = new LF(FOLDER);
-    private LF clazzLf = new LF(FOLDER, "class.txt");
     private TicTac2 clock = new TicTac2();
     private WebFetcher fetcher = new WebFetcher();
     private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
@@ -31,8 +30,9 @@ public class YahooStockFetcher implements Runnable {
         return "https://tw.stock.yahoo.com/h/getclass.php";
     }
 
-    public List<StockInfo> links() {
+    private List<StockInfo> marketLinks(String prefix) { // 集中市場當日行情表
         Document doc = fetcher.sendAndParseDom(classLink(), onWeb);
+        LF clazzLf = new LF(FOLDER, prefix + "_class.txt");
 
         Elements es = doc.getElementsByTag("table");
         List<StockInfo> si = YahooGet.me.classTable(es.get(5));
@@ -51,12 +51,41 @@ public class YahooStockFetcher implements Runnable {
         //金融      貿易百貨     油電燃氣      其他
     }
 
+    private List<StockInfo> tableLinks(String prefix) { // 櫃檯買賣市場行情
+        Document doc = fetcher.sendAndParseDom(classLink(), onWeb);
+        LF clazzLf = new LF(FOLDER, prefix + "_class.txt");
+
+        Elements es = doc.getElementsByTag("table");
+        List<StockInfo> si = YahooGet.me.classTable(es.get(8));
+        clazzLf.getFile().open();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        GsonUtil.writeFile(clazzLf.getFile().getFile(), gson.toJson(si));
+        clazzLf.getFile().close();
+        //return si.subList(10, 11);
+        return si;
+        // 食品         塑膠       紡織       電機
+        // 電器     化工        生技  油電
+        // 鋼鐵   橡膠   半導  電腦
+        // 光電  通信   電零 通路
+        // 資服  他電 營建  航運
+        // 觀光  金融  貿易 指數類
+        // 其他
+    }
+
     public void parse() {
-        List<StockInfo> all = links();
+        findMarket(marketLinks("m"), "m");
+        findMarket(tableLinks("t"), "t");
+    }
+
+    private void findMarket(List<StockInfo> all, String prefix) { // 集中市場
+        //List<StockInfo> all = links();
         List<MoneyInfo> cash1 = new ArrayList<>();
         List<MoneyInfo> cash2 = new ArrayList<>();
         for (int i = 0; i < all.size(); i++) {
             StockInfo si = all.get(i);
+            if ("指數類".equals(si.clazz)) {
+                continue;
+            }
             if (i > 0 && "其他".equals(all.get(i-1).clazz)) {
                 break;
             }
@@ -91,11 +120,12 @@ public class YahooStockFetcher implements Runnable {
             }
             mLf.setLogToFile(true);
         }
+        mLf.getFile().open();
         mLf.log("--------------");
         sortByRateReturn(cash1);
         sortByRateReturn(cash2);
-        LF lf1 = new LF(FOLDER, "cash.txt");
-        LF lf2 = new LF(FOLDER, "cash+stock.txt");
+        LF lf1 = new LF(FOLDER, prefix + "_cash.txt");
+        LF lf2 = new LF(FOLDER, prefix + "_cash+stock.txt");
         printToFile(cash1, lf1);
         printToFile(cash2, lf2);
         mLf.getFile().close();

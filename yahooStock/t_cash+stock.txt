@@ -1,0 +1,1472 @@
+#000 = 4109 穆拉德加捷 : 0.0, 0.0 => NaN% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4109.html
+#001 = 6222 上揚 : 0.0, 0.0 => NaN% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6222.html
+#002 = 3431 長天 : 0.0, 0.0 => NaN% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3431.html
+#003 = 5480 統盟 : 0.57, 0.0 => Infinity% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5480.html
+#004 = 8107 大億金茂 : 7.0, 24.6 => 28.455% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8107.html
+#005 = 6026 福邦證 : 1.38, 8.69 => 15.880% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6026.html
+#006 = 5604 中連貨 : 3.75, 35.0 => 10.714% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5604.html
+#007 = 6441 廣錠 : 4.5, 43.5 => 10.345% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6441.html
+#008 = 3310 佳穎 : 5.0, 49.45 => 10.111% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3310.html
+#009 = 5213 亞昕 : 2.0, 20.15 => 9.926% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5213.html
+#010 = 2596 綠意 : 2.27, 23.3 => 9.742% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2596.html
+#011 = 4714 永捷 : 1.58, 16.25 => 9.723% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4714.html
+#012 = 6151 晉倫 : 2.0, 20.85 => 9.592% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6151.html
+#013 = 3402 漢科 : 3.0, 31.35 => 9.569% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3402.html
+#014 = 6279 胡連 : 8.0, 86.5 => 9.249% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6279.html
+#015 = 5245 智晶 : 5.0, 54.2 => 9.225% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5245.html
+#016 = 5015 華祺 : 4.2, 47.1 => 8.917% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5015.html
+#017 = 6613 朋億 : 15.0, 172.0 => 8.721% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6613.html
+#018 = 8354 冠好 : 1.7999999999999998, 20.85 => 8.633% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8354.html
+#019 = 1595 川寶 : 4.0, 46.6 => 8.584% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1595.html
+#020 = 4207 環泰 : 1.05, 12.35 => 8.502% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4207.html
+#021 = 6488 環球晶 : 25.0, 294.5 => 8.489% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6488.html
+#022 = 6654 天正國際 : 6.0, 71.0 => 8.451% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6654.html
+#023 = 4987 科誠 : 5.12, 60.7 => 8.435% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4987.html
+#024 = 4401 東隆興 : 3.0, 35.65 => 8.415% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4401.html
+#025 = 8066 來思達 : 10.0, 120.5 => 8.299% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8066.html
+#026 = 3623 富晶通 : 2.5, 30.2 => 8.278% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3623.html
+#027 = 8155 博智 : 5.5, 67.1 => 8.197% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8155.html
+#028 = 5536 聖暉 : 15.0, 183.5 => 8.174% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5536.html
+#029 = 6266 泰詠 : 2.44, 29.85 => 8.174% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6266.html
+#030 = 5356 協益 : 2.0, 24.65 => 8.114% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5356.html
+#031 = 5508 永信建 : 2.86, 35.25 => 8.113% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5508.html
+#032 = 8433 弘帆 : 5.05, 63.0 => 8.016% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8433.html
+#033 = 6486 互動 : 4.8, 60.0 => 8.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6486.html
+#034 = 8042 金山電 : 2.94, 36.8 => 7.989% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8042.html
+#035 = 3526 凡甲 : 5.2, 65.6 => 7.927% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3526.html
+#036 = 6186 新潤 : 1.5, 19.05 => 7.874% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6186.html
+#037 = 1813 寶利徠 : 2.0, 25.45 => 7.859% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1813.html
+#038 = 5220 萬達光電 : 3.0, 38.25 => 7.843% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5220.html
+#039 = 5820 日盛金 : 0.74, 9.49 => 7.798% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5820.html
+#040 = 5403 中菲 : 3.0, 38.65 => 7.762% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5403.html
+#041 = 2065 世豐 : 2.7, 34.8 => 7.759% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2065.html
+#042 = 6123 上奇 : 3.6, 46.6 => 7.725% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6123.html
+#043 = 1593 祺驊 : 4.0, 51.8 => 7.722% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1593.html
+#044 = 3092 鴻碩 : 4.2, 54.6 => 7.692% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3092.html
+#045 = 6175 立敦 : 2.0, 26.15 => 7.648% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6175.html
+#046 = 2063 世鎧 : 3.0, 39.3 => 7.634% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2063.html
+#047 = 3332 幸康 : 3.0, 39.3 => 7.634% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3332.html
+#048 = 6292 迅德 : 2.3, 30.3 => 7.591% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6292.html
+#049 = 5317 凱美 : 4.0, 52.8 => 7.576% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5317.html
+#050 = 6220 岳豐 : 2.3, 30.4 => 7.566% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6220.html
+#051 = 8941 關中 : 4.0, 52.9 => 7.561% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8941.html
+#052 = 6640 均華 : 3.0, 39.7 => 7.557% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6640.html
+#053 = 6161 捷波 : 1.6, 21.25 => 7.529% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6161.html
+#054 = 3537 堡達 : 2.4, 31.9 => 7.524% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3537.html
+#055 = 2233 宇隆 : 6.01, 79.9 => 7.522% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2233.html
+#056 = 6496 科懋 : 4.0, 53.2 => 7.519% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6496.html
+#057 = 4707 磐亞 : 0.7999999999999999, 10.7 => 7.477% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4707.html
+#058 = 9962 有益 : 0.9, 12.05 => 7.469% , link = 
+  https://tw.stock.yahoo.com/d/s/company_9962.html
+#059 = 6574 霈方 : 6.16, 83.0 => 7.422% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6574.html
+#060 = 6203 海韻電 : 2.5, 33.7 => 7.418% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6203.html
+#061 = 6270 倍微 : 1.0, 13.5 => 7.407% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6270.html
+#062 = 6210 慶生 : 2.6, 35.15 => 7.397% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6210.html
+#063 = 5512 力麒 : 0.7, 9.51 => 7.361% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5512.html
+#064 = 4550 長佳 : 1.25, 17.05 => 7.331% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4550.html
+#065 = 3567 逸昌 : 2.0, 27.3 => 7.326% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3567.html
+#066 = 8942 森鉅 : 5.5, 75.3 => 7.304% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8942.html
+#067 = 5410 國眾 : 1.3, 17.85 => 7.283% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5410.html
+#068 = 2916 滿心 : 1.4, 19.35 => 7.235% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2916.html
+#069 = 5371 中光電 : 3.5, 48.5 => 7.216% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5371.html
+#070 = 8342 益張 : 3.5, 48.6 => 7.202% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8342.html
+#071 = 8091 翔名 : 5.68, 79.1 => 7.181% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8091.html
+#072 = 4305 世坤 : 2.6, 36.25 => 7.172% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4305.html
+#073 = 6218 豪勉 : 1.6, 22.45 => 7.127% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6218.html
+#074 = 6212 理銘 : 3.0, 42.1 => 7.126% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6212.html
+#075 = 8916 光隆 : 3.5, 49.15 => 7.121% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8916.html
+#076 = 5511 德昌 : 2.1, 29.6 => 7.095% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5511.html
+#077 = 6667 信紘科 : 2.8, 39.5 => 7.089% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6667.html
+#078 = 3556 禾瑞亞 : 3.3, 46.6 => 7.082% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3556.html
+#079 = 6577 勁豐 : 4.5, 64.2 => 7.009% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6577.html
+#080 = 6664 群翊 : 4.0, 57.1 => 7.005% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6664.html
+#081 = 5016 松和 : 2.5, 35.7 => 7.003% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5016.html
+#082 = 3211 順達 : 3.5, 50.0 => 7.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3211.html
+#083 = 5609 中菲行 : 1.5, 21.45 => 6.993% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5609.html
+#084 = 5878 台名 : 3.2, 46.0 => 6.957% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5878.html
+#085 = 3388 崇越電 : 5.1, 73.8 => 6.911% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3388.html
+#086 = 6208 日揚 : 1.7, 24.6 => 6.911% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6208.html
+#087 = 6263 普萊德 : 4.3, 62.3 => 6.902% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6263.html
+#088 = 6494 九齊 : 2.2, 32.0 => 6.875% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6494.html
+#089 = 3206 志豐 : 1.8, 26.25 => 6.857% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3206.html
+#090 = 4972 湯石照明 : 2.3, 33.75 => 6.815% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4972.html
+#091 = 5438 東友 : 1.05, 15.45 => 6.796% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5438.html
+#092 = 6182 合晶 : 2.5, 36.8 => 6.793% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6182.html
+#093 = 8415 大國鋼 : 2.4, 35.45 => 6.770% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8415.html
+#094 = 6187 萬潤 : 3.1, 45.85 => 6.761% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6187.html
+#095 = 8048 德勝 : 2.2, 32.65 => 6.738% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8048.html
+#096 = 8358 金居 : 2.2, 32.7 => 6.728% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8358.html
+#097 = 3131 弘塑 : 8.0, 119.0 => 6.723% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3131.html
+#098 = 6532 瑞耘 : 2.3, 34.5 => 6.667% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6532.html
+#099 = 6195 詩肯 : 3.0, 45.05 => 6.659% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6195.html
+#100 = 5102 富強 : 1.0, 15.05 => 6.645% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5102.html
+#101 = 4527 方土霖 : 2.0, 30.2 => 6.623% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4527.html
+#102 = 6104 創惟 : 2.36, 35.65 => 6.620% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6104.html
+#103 = 4974 亞泰 : 3.1, 47.0 => 6.596% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4974.html
+#104 = 3213 茂訊 : 2.8, 42.5 => 6.588% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3213.html
+#105 = 4973 廣穎 : 1.2, 18.3 => 6.557% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4973.html
+#106 = 8916A 光隆甲特 : 3.5, 53.5 => 6.542% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8916.html
+#107 = 6261 久元 : 3.0, 45.9 => 6.536% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6261.html
+#108 = 6609 瀧澤科 : 2.2, 33.8 => 6.509% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6609.html
+#109 = 8424 惠普 : 3.8, 58.5 => 6.496% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8424.html
+#110 = 2064 晉椿 : 1.0, 15.4 => 6.494% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2064.html
+#111 = 5353 台林 : 1.12, 17.3 => 6.474% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5353.html
+#112 = 3118 進階 : 1.9, 29.35 => 6.474% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3118.html
+#113 = 6506 雙邦 : 1.2, 18.55 => 6.469% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6506.html
+#114 = 3088 艾訊 : 3.75, 58.0 => 6.466% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3088.html
+#115 = 8423 保綠-KY : 1.5, 23.2 => 6.466% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8423.html
+#116 = 5209 新鼎 : 2.78, 43.0 => 6.465% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5209.html
+#117 = 2643 捷迅 : 2.0, 31.0 => 6.452% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2643.html
+#118 = 4417 金洲 : 2.5, 38.8 => 6.443% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4417.html
+#119 = 6221 晉泰 : 2.5, 38.8 => 6.443% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6221.html
+#120 = 6560 欣普羅 : 3.0, 46.7 => 6.424% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6560.html
+#121 = 8383 千附 : 2.5, 39.1 => 6.394% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8383.html
+#122 = 6154 順發 : 1.0, 15.75 => 6.349% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6154.html
+#123 = 4568 科際精密 : 4.43, 70.0 => 6.329% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4568.html
+#124 = 3563 牧德 : 27.0, 427.5 => 6.316% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3563.html
+#125 = 3303 岱稜 : 1.6, 25.4 => 6.299% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3303.html
+#126 = 4138 曜亞 : 3.15, 50.2 => 6.275% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4138.html
+#127 = 5315 光聯 : 1.5, 23.95 => 6.263% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5315.html
+#128 = 8435 鉅邁 : 3.2, 51.1 => 6.262% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8435.html
+#129 = 8069 元太 : 2.1, 33.65 => 6.241% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8069.html
+#130 = 6593 台灣銘板 : 1.8, 28.85 => 6.239% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6593.html
+#131 = 3285 微端 : 1.2, 19.25 => 6.234% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3285.html
+#132 = 8182 加高 : 1.1, 17.65 => 6.232% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8182.html
+#133 = 4513 福裕 : 0.8, 12.85 => 6.226% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4513.html
+#134 = 6411 晶焱 : 4.8, 77.2 => 6.218% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6411.html
+#135 = 6457 紘康 : 1.81, 29.15 => 6.209% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6457.html
+#136 = 4538 大詠城 : 1.2, 19.4 => 6.186% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4538.html
+#137 = 6548 長華科 : 17.0, 275.0 => 6.182% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6548.html
+#138 = 8401 白紗科 : 0.84, 13.6 => 6.176% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8401.html
+#139 = 8074 鉅橡 : 1.24, 20.1 => 6.169% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8074.html
+#140 = 3078 僑威 : 1.75, 28.4 => 6.162% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3078.html
+#141 = 4173 久裕 : 1.04, 16.9 => 6.154% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4173.html
+#142 = 6530 創威 : 1.0, 16.3 => 6.135% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6530.html
+#143 = 4907 富宇 : 1.5, 24.45 => 6.135% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4907.html
+#144 = 5312 寶島科 : 3.8, 62.1 => 6.119% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5312.html
+#145 = 2221 大甲 : 2.1, 34.35 => 6.114% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2221.html
+#146 = 8032 光菱 : 1.7, 27.85 => 6.104% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8032.html
+#147 = 6023 元大期 : 2.8, 46.05 => 6.080% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6023.html
+#148 = 8109 博大 : 5.5, 91.2 => 6.031% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8109.html
+#149 = 8905 裕國 : 1.0, 16.6 => 6.024% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8905.html
+#150 = 2640 大車隊 : 3.8, 63.1 => 6.022% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2640.html
+#151 = 6207 雷科 : 1.8, 29.95 => 6.010% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6207.html
+#152 = 8099 大世科 : 1.08, 18.0 => 6.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8099.html
+#153 = 4767 誠泰科技 : 1.2, 20.0 => 6.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4767.html
+#154 = 8410 森田 : 1.65, 27.5 => 6.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8410.html
+#155 = 6435 大中 : 7.07, 118.0 => 5.992% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6435.html
+#156 = 5392 應華 : 2.1, 35.15 => 5.974% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5392.html
+#157 = 3323 加百裕 : 2.0, 33.5 => 5.970% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3323.html
+#158 = 3071 協禧 : 1.2, 20.1 => 5.970% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3071.html
+#159 = 8416 實威 : 7.5, 126.5 => 5.929% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8416.html
+#160 = 8083 瑞穎 : 8.8, 149.0 => 5.906% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8083.html
+#161 = 8928 鉅明 : 1.5, 25.45 => 5.894% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8928.html
+#162 = 1570 力肯 : 0.8, 13.6 => 5.882% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1570.html
+#163 = 6227 茂綸 : 1.5, 25.6 => 5.859% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6227.html
+#164 = 8349 �矬� : 4.66, 80.4 => 5.796% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8349.html
+#165 = 3492 長盛 : 1.2, 20.75 => 5.783% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3492.html
+#166 = 3426 台興 : 3.0, 52.2 => 5.747% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3426.html
+#167 = 6803 崑鼎 : 10.82, 188.5 => 5.740% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6803.html
+#168 = 1788 杏昌 : 6.0, 105.0 => 5.714% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1788.html
+#169 = 4995 晶達 : 2.26, 39.8 => 5.678% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4995.html
+#170 = 6470 宇智 : 2.5, 44.15 => 5.663% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6470.html
+#171 = 8924 大田 : 1.2, 21.3 => 5.634% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8924.html
+#172 = 3217 優群 : 3.0, 53.4 => 5.618% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3217.html
+#173 = 3558 神準 : 6.0, 107.5 => 5.581% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3558.html
+#174 = 8938 明安 : 2.2, 39.6 => 5.556% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8938.html
+#175 = 5011 久陽 : 1.0, 18.05 => 5.540% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5011.html
+#176 = 8049 晶采 : 1.4, 25.3 => 5.534% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8049.html
+#177 = 3264 欣銓 : 1.6, 28.95 => 5.527% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3264.html
+#178 = 1268 漢來美食 : 6.88, 124.5 => 5.526% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1268.html
+#179 = 8054 安國 : 1.0, 18.1 => 5.525% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8054.html
+#180 = 3531 先益 : 1.2, 21.75 => 5.517% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3531.html
+#181 = 1787 福盈科 : 1.5, 27.2 => 5.515% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1787.html
+#182 = 3580 友威科 : 2.1, 38.3 => 5.483% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3580.html
+#183 = 2070 精湛 : 2.0, 36.5 => 5.479% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2070.html
+#184 = 4542 科嶠 : 1.2, 21.95 => 5.467% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4542.html
+#185 = 4105 東洋 : 4.5, 82.6 => 5.448% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4105.html
+#186 = 5439 高技 : 2.8, 52.0 => 5.385% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5439.html
+#187 = 1580 新麥 : 6.5, 121.0 => 5.372% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1580.html
+#188 = 3226 至寶電 : 3.0, 56.0 => 5.357% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3226.html
+#189 = 3479 安勤 : 2.6, 48.55 => 5.355% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3479.html
+#190 = 5425 台半 : 3.0, 56.1 => 5.348% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5425.html
+#191 = 5493 三聯 : 1.6, 30.0 => 5.333% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5493.html
+#192 = 1336 台翰 : 0.8, 15.05 => 5.316% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1336.html
+#193 = 4563 百德 : 3.0, 56.5 => 5.310% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4563.html
+#194 = 6204 艾華 : 1.1, 20.9 => 5.263% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6204.html
+#195 = 4303 信立 : 1.2, 22.8 => 5.263% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4303.html
+#196 = 5603 陸海 : 0.6, 11.4 => 5.263% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5603.html
+#197 = 2729 瓦城 : 13.6, 259.5 => 5.241% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2729.html
+#198 = 2235 謚源 : 3.0, 57.3 => 5.236% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2235.html
+#199 = 4549 桓達 : 4.5, 86.6 => 5.196% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4549.html
+#200 = 5201 凱衛 : 1.4, 27.1 => 5.166% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5201.html
+#201 = 8050 廣積 : 2.0, 38.75 => 5.161% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8050.html
+#202 = 1264 德麥 : 11.0, 213.5 => 5.152% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1264.html
+#203 = 2732 六角 : 4.5, 88.0 => 5.114% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2732.html
+#204 = 6248 沛波 : 0.7, 13.7 => 5.109% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6248.html
+#205 = 4706 大恭 : 1.0, 19.6 => 5.102% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4706.html
+#206 = 3227 原相 : 4.47, 88.0 => 5.080% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3227.html
+#207 = 6590 普鴻 : 1.5, 29.7 => 5.051% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6590.html
+#208 = 5464 霖宏 : 1.0, 19.85 => 5.038% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5464.html
+#209 = 6190 萬泰科 : 1.0, 19.95 => 5.013% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6190.html
+#210 = 4933 友輝 : 1.62, 32.35 => 5.008% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4933.html
+#211 = 4735 豪展 : 2.1, 41.95 => 5.006% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4735.html
+#212 = 6242 立康 : 2.5, 50.0 => 5.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6242.html
+#213 = 6616 特昇-KY : 1.0, 20.05 => 4.988% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6616.html
+#214 = 5289 宜鼎 : 6.2, 125.5 => 4.940% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5289.html
+#215 = 5386 青雲 : 2.0, 40.6 => 4.926% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5386.html
+#216 = 4543 萬在 : 1.0, 20.35 => 4.914% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4543.html
+#217 = 3491 昇達科 : 4.0, 81.4 => 4.914% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3491.html
+#218 = 3646 艾恩特 : 1.0, 20.35 => 4.914% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3646.html
+#219 = 4561 健椿 : 1.38, 28.1 => 4.911% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4561.html
+#220 = 3684 榮昌 : 1.5, 30.6 => 4.902% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3684.html
+#221 = 5443 均豪 : 1.22, 24.9 => 4.900% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5443.html
+#222 = 3265 台星科 : 1.2, 24.55 => 4.888% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3265.html
+#223 = 3093 港建 : 1.3, 26.6 => 4.887% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3093.html
+#224 = 5474 聰泰 : 3.8, 77.8 => 4.884% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5474.html
+#225 = 5299 杰力 : 5.1, 104.5 => 4.880% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5299.html
+#226 = 3625 西勝 : 1.0, 20.5 => 4.878% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3625.html
+#227 = 5489 彩富 : 2.0, 41.1 => 4.866% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5489.html
+#228 = 6514 芮特-KY : 2.5, 51.5 => 4.854% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6514.html
+#229 = 3570 大塚 : 3.0, 61.9 => 4.847% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3570.html
+#230 = 4430 耀億 : 1.5, 31.0 => 4.839% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4430.html
+#231 = 8064 東捷 : 1.0, 20.75 => 4.819% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8064.html
+#232 = 3236 千如 : 1.2, 24.9 => 4.819% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3236.html
+#233 = 6569 醫揚 : 7.5, 156.0 => 4.808% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6569.html
+#234 = 5347 世界 : 3.2, 67.0 => 4.776% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5347.html
+#235 = 8930 青鋼 : 0.6, 12.6 => 4.762% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8930.html
+#236 = 3527 聚積 : 5.0, 105.5 => 4.739% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3527.html
+#237 = 5212 凌網 : 1.5, 31.95 => 4.695% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5212.html
+#238 = 2726 雅茗-KY : 3.0, 64.0 => 4.688% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2726.html
+#239 = 5905 南仁湖 : 0.35, 7.48 => 4.679% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5905.html
+#240 = 6570 維田 : 1.8, 38.5 => 4.675% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6570.html
+#241 = 3675 德微 : 2.0, 42.8 => 4.673% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3675.html
+#242 = 4744 皇將 : 1.5, 32.1 => 4.673% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4744.html
+#243 = 6185 幃翔 : 0.7, 15.0 => 4.667% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6185.html
+#244 = 3484 崧騰 : 1.3, 27.9 => 4.659% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3484.html
+#245 = 8176 智捷 : 0.6, 12.9 => 4.651% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8176.html
+#246 = 3171 新洲 : 0.5, 10.75 => 4.651% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3171.html
+#247 = 4754 國碳科 : 2.6, 56.1 => 4.635% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4754.html
+#248 = 3441 聯一光 : 1.5, 32.4 => 4.630% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3441.html
+#249 = 3290 東浦 : 1.0, 21.6 => 4.630% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3290.html
+#250 = 4175 杏一 : 2.9299999999999997, 63.3 => 4.629% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4175.html
+#251 = 3390 旭軟 : 1.1, 23.8 => 4.622% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3390.html
+#252 = 4741 泓瀚 : 1.95, 42.3 => 4.610% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4741.html
+#253 = 5487 通泰 : 1.5, 32.7 => 4.587% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5487.html
+#254 = 8908 欣雄 : 1.8, 39.5 => 4.557% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8908.html
+#255 = 9951 皇田 : 4.2, 92.4 => 4.545% , link = 
+  https://tw.stock.yahoo.com/d/s/company_9951.html
+#256 = 8255 朋程 : 5.0, 111.0 => 4.505% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8255.html
+#257 = 1565 精華 : 26.5, 590.0 => 4.492% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1565.html
+#258 = 5483 中美晶 : 3.0, 66.9 => 4.484% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5483.html
+#259 = 5223 安力-KY : 2.3, 51.5 => 4.466% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5223.html
+#260 = 3577 泓格 : 1.7, 38.1 => 4.462% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3577.html
+#261 = 4506 崇友 : 2.6, 58.5 => 4.444% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4506.html
+#262 = 3709 鑫聯大投控 : 0.8, 18.0 => 4.444% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3709.html
+#263 = 3581 博磊 : 0.7, 15.8 => 4.430% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3581.html
+#264 = 5206 坤悅 : 0.7, 15.8 => 4.430% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5206.html
+#265 = 1259 安心 : 3.0, 67.8 => 4.425% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1259.html
+#266 = 3541 西柏 : 4.0, 90.5 => 4.420% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3541.html
+#267 = 3548 兆利 : 3.02, 68.5 => 4.409% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3548.html
+#268 = 3444 利機 : 1.0, 22.7 => 4.405% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3444.html
+#269 = 5864 致和證 : 0.5, 11.35 => 4.405% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5864.html
+#270 = 5904 寶雅 : 15.75, 358.0 => 4.399% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5904.html
+#271 = 8437 大地-KY : 10.75, 244.5 => 4.397% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8437.html
+#272 = 5460 同協 : 0.5, 11.4 => 4.386% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5460.html
+#273 = 8931 大汽電 : 1.1, 25.1 => 4.382% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8931.html
+#274 = 8299 群聯 : 13.0, 297.0 => 4.377% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8299.html
+#275 = 8917 欣泰 : 2.1, 48.05 => 4.370% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8917.html
+#276 = 3689 湧德 : 1.2, 27.55 => 4.356% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3689.html
+#277 = 5276 達輝-KY : 0.54, 12.45 => 4.337% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5276.html
+#278 = 6561 是方 : 7.5, 173.0 => 4.335% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6561.html
+#279 = 6438 迅得 : 2.8, 64.6 => 4.334% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6438.html
+#280 = 4510 高鋒 : 0.65, 15.0 => 4.333% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4510.html
+#281 = 8932 宏大 : 0.6, 13.9 => 4.317% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8932.html
+#282 = 3611 鼎翰 : 11.0, 255.0 => 4.314% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3611.html
+#283 = 4534 慶騰 : 0.5, 11.6 => 4.310% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4534.html
+#284 = 4947 昂寶-KY : 8.0, 186.5 => 4.290% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4947.html
+#285 = 4420 光明 : 1.6, 37.4 => 4.278% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4420.html
+#286 = 8111 立�� : 0.45, 10.55 => 4.265% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8111.html
+#287 = 4126 太醫 : 3.2, 75.1 => 4.261% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4126.html
+#288 = 4114 健喬 : 1.2, 28.35 => 4.233% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4114.html
+#289 = 4760 勤凱 : 1.4, 33.1 => 4.230% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4760.html
+#290 = 6274 台燿 : 4.5, 106.5 => 4.225% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6274.html
+#291 = 1777 生泰 : 3.3, 78.3 => 4.215% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1777.html
+#292 = 6425 易發 : 2.1, 50.0 => 4.200% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6425.html
+#293 = 6219 富旺 : 0.64, 15.25 => 4.197% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6219.html
+#294 = 6143 振曜 : 2.0, 47.7 => 4.193% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6143.html
+#295 = 6179 亞通 : 1.5, 35.8 => 4.190% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6179.html
+#296 = 3218 大學光 : 1.2, 28.85 => 4.159% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3218.html
+#297 = 3628 盈正 : 1.5, 36.1 => 4.155% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3628.html
+#298 = 6238 勝麗 : 7.98, 193.0 => 4.135% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6238.html
+#299 = 3169 亞信 : 1.8, 43.55 => 4.133% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3169.html
+#300 = 4163 鐿鈦 : 4.5, 109.0 => 4.128% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4163.html
+#301 = 6472 保瑞 : 6.0, 145.5 => 4.124% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6472.html
+#302 = 6121 新普 : 10.0, 244.0 => 4.098% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6121.html
+#303 = 5530 龍巖 : 2.5, 61.4 => 4.072% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5530.html
+#304 = 5520 力泰 : 1.2, 29.5 => 4.068% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5520.html
+#305 = 6114 久威 : 2.0, 49.35 => 4.053% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6114.html
+#306 = 2937 集雅社 : 0.7, 17.3 => 4.046% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2937.html
+#307 = 4153 鈺緯 : 1.48, 36.7 => 4.033% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4153.html
+#308 = 4205 中華食 : 2.8, 69.5 => 4.029% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4205.html
+#309 = 5291 邑昇 : 0.8, 19.9 => 4.020% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5291.html
+#310 = 5230 雷笛克光學 : 1.2, 29.85 => 4.020% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5230.html
+#311 = 1752 南光 : 1.2, 29.95 => 4.007% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1752.html
+#312 = 3652 精聯 : 0.7, 17.5 => 4.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3652.html
+#313 = 6418 詠昇 : 1.1, 27.6 => 3.986% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6418.html
+#314 = 4528 江興鍛 : 2.1, 52.7 => 3.985% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4528.html
+#315 = 5306 桂盟 : 4.5, 113.0 => 3.982% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5306.html
+#316 = 6156 松上 : 0.8, 20.15 => 3.970% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6156.html
+#317 = 3152 璟德 : 9.88, 249.0 => 3.968% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3152.html
+#318 = 3540 曜越 : 1.3, 32.8 => 3.963% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3540.html
+#319 = 4432 銘旺實 : 1.16, 29.3 => 3.959% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4432.html
+#320 = 4747 強生 : 1.65, 41.8 => 3.947% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4747.html
+#321 = 6568 宏觀 : 6.0, 152.0 => 3.947% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6568.html
+#322 = 1597 直得 : 3.5, 89.1 => 3.928% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1597.html
+#323 = 3624 光頡 : 1.2, 30.6 => 3.922% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3624.html
+#324 = 3587 閎康 : 3.0, 76.5 => 3.922% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3587.html
+#325 = 4129 聯合 : 2.0, 51.7 => 3.868% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4129.html
+#326 = 6603 富強鑫 : 0.5, 13.05 => 3.831% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6603.html
+#327 = 1815 富喬 : 0.65, 17.0 => 3.824% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1815.html
+#328 = 4556 旭然 : 1.25, 32.8 => 3.811% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4556.html
+#329 = 6194 育富 : 0.75, 19.75 => 3.797% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6194.html
+#330 = 6556 勝品 : 1.2, 32.0 => 3.750% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6556.html
+#331 = 3455 由田 : 3.0, 80.1 => 3.745% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3455.html
+#332 = 3144 新揚科 : 1.0, 26.8 => 3.731% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3144.html
+#333 = 6138 茂達 : 2.4, 64.8 => 3.704% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6138.html
+#334 = 2066 世德 : 3.02, 81.9 => 3.687% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2066.html
+#335 = 8929 富堡 : 1.0, 28.0 => 3.571% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8929.html
+#336 = 8403 盛弘 : 1.0, 28.2 => 3.546% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8403.html
+#337 = 3489 森寶 : 0.3, 8.49 => 3.534% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3489.html
+#338 = 8421 旭源 : 0.6, 17.05 => 3.519% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8421.html
+#339 = 6163 華電網 : 0.5, 14.25 => 3.509% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6163.html
+#340 = 4502 健信 : 1.75, 50.0 => 3.500% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4502.html
+#341 = 4533 協易機 : 0.45, 12.9 => 3.488% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4533.html
+#342 = 3297 杭特 : 0.5, 14.35 => 3.484% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3297.html
+#343 = 6146 耕興 : 6.199999999999999, 178.0 => 3.483% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6146.html
+#344 = 4116 明基醫 : 1.35, 38.9 => 3.470% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4116.html
+#345 = 4535 至興 : 1.15, 33.35 => 3.448% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4535.html
+#346 = 4123 晟德 : 2.89, 85.0 => 3.400% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4123.html
+#347 = 4905 台聯電 : 2.07, 61.3 => 3.377% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4905.html
+#348 = 4107 邦特 : 4.0, 119.5 => 3.347% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4107.html
+#349 = 6462 神盾 : 8.1, 242.0 => 3.347% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6462.html
+#350 = 4541 晟田 : 1.1, 33.0 => 3.333% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4541.html
+#351 = 1566 捷邦 : 0.58, 17.45 => 3.324% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1566.html
+#352 = 3552 同致 : 2.0, 60.2 => 3.322% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3552.html
+#353 = 6147 頎邦 : 2.35, 71.1 => 3.305% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6147.html
+#354 = 8240 華宏 : 0.85, 25.9 => 3.282% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8240.html
+#355 = 6158 禾昌 : 1.22, 37.25 => 3.275% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6158.html
+#356 = 8420 明揚 : 0.8, 24.45 => 3.272% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8420.html
+#357 = 3141 晶宏 : 1.51, 46.3 => 3.261% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3141.html
+#358 = 6594 展匯科 : 0.75, 23.05 => 3.254% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6594.html
+#359 = 6469 大樹 : 2.55, 78.4 => 3.253% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6469.html
+#360 = 6246 臺龍 : 0.4, 12.35 => 3.239% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6246.html
+#361 = 6231 系微 : 1.5, 46.75 => 3.209% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6231.html
+#362 = 4711 永純 : 0.5, 15.6 => 3.205% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4711.html
+#363 = 6174 安�� : 0.5, 15.7 => 3.185% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6174.html
+#364 = 4721 美琪瑪 : 2.4, 75.7 => 3.170% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4721.html
+#365 = 6021 大慶證 : 0.35, 11.05 => 3.167% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6021.html
+#366 = 6229 研通 : 0.46, 14.6 => 3.151% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6229.html
+#367 = 4908 前鼎 : 0.81, 25.85 => 3.133% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4908.html
+#368 = 3147 大綜 : 1.7, 54.5 => 3.119% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3147.html
+#369 = 6217 中探針 : 0.7, 22.45 => 3.118% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6217.html
+#370 = 8440 綠電 : 0.5, 16.25 => 3.077% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8440.html
+#371 = 3551 世禾 : 1.2, 39.1 => 3.069% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3551.html
+#372 = 4120 友華 : 1.8, 58.8 => 3.061% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4120.html
+#373 = 6188 廣明 : 1.2, 39.3 => 3.053% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6188.html
+#374 = 8390 金益鼎 : 0.45, 14.8 => 3.041% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8390.html
+#375 = 4971 IET-KY : 2.0, 67.0 => 2.985% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4971.html
+#376 = 3178 公準 : 1.0, 33.6 => 2.976% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3178.html
+#377 = 3363 上詮 : 1.5, 50.5 => 2.970% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3363.html
+#378 = 6245 立端 : 2.2, 74.4 => 2.957% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6245.html
+#379 = 6150 撼訊 : 2.0, 67.9 => 2.946% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6150.html
+#380 = 4113 聯上 : 0.37, 12.7 => 2.913% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4113.html
+#381 = 6290 良維 : 1.5, 51.5 => 2.913% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6290.html
+#382 = 4736 泰博 : 4.9, 168.5 => 2.908% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4736.html
+#383 = 6126 信音 : 0.3, 10.35 => 2.899% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6126.html
+#384 = 1569 濱川 : 0.6, 20.75 => 2.892% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1569.html
+#385 = 4416 三圓 : 2.0, 69.3 => 2.886% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4416.html
+#386 = 6223 旺矽 : 2.0, 69.9 => 2.861% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6223.html
+#387 = 3490 單井 : 0.5, 17.6 => 2.841% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3490.html
+#388 = 3354 律勝 : 0.5, 17.6 => 2.841% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3354.html
+#389 = 2067 嘉鋼 : 0.4, 14.2 => 2.817% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2067.html
+#390 = 3373 熱映 : 0.5, 17.75 => 2.817% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3373.html
+#391 = 8086 宏捷科 : 1.5, 53.9 => 2.783% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8086.html
+#392 = 8024 佑華 : 0.3, 10.8 => 2.778% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8024.html
+#393 = 4716 大立 : 0.4, 14.5 => 2.759% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4716.html
+#394 = 4130 健亞 : 0.8, 29.15 => 2.744% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4130.html
+#395 = 4909 新復興 : 0.6, 21.9 => 2.740% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4909.html
+#396 = 4804 大略-KY : 0.5, 18.6 => 2.688% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4804.html
+#397 = 3114 好德 : 1.0, 37.4 => 2.674% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3114.html
+#398 = 3188 鑫龍騰 : 0.5, 18.8 => 2.660% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3188.html
+#399 = 3128 昇銳 : 0.4, 15.05 => 2.658% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3128.html
+#400 = 6512 啟發電 : 0.47, 17.7 => 2.655% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6512.html
+#401 = 4745 合富-KY : 1.2, 45.7 => 2.626% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4745.html
+#402 = 8147 正淩 : 0.75, 28.7 => 2.613% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8147.html
+#403 = 5903 全家 : 5.8, 222.0 => 2.613% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5903.html
+#404 = 1599 宏佳騰 : 1.01, 38.95 => 2.593% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1599.html
+#405 = 3306 鼎天 : 0.5, 19.35 => 2.584% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3306.html
+#406 = 5281 大峽谷-KY : 1.0, 38.75 => 2.581% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5281.html
+#407 = 3289 宜特 : 1.0, 38.9 => 2.571% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3289.html
+#408 = 5274 信驊 : 18.0, 707.0 => 2.546% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5274.html
+#409 = 6275 元山 : 0.6, 23.6 => 2.542% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6275.html
+#410 = 3272 東碩 : 1.0, 39.55 => 2.528% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3272.html
+#411 = 4939 亞電 : 0.5, 19.85 => 2.519% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4939.html
+#412 = 1591 駿吉-KY : 1.0, 39.9 => 2.506% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1591.html
+#413 = 8234 新漢 : 0.6, 24.05 => 2.495% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8234.html
+#414 = 6643 M31 : 7.0, 283.5 => 2.469% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6643.html
+#415 = 6284 佳邦 : 0.8, 32.55 => 2.458% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6284.html
+#416 = 8921 沈氏 : 0.35, 14.25 => 2.456% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8921.html
+#417 = 3105 穩懋 : 5.0, 204.0 => 2.451% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3105.html
+#418 = 5543 崇佑-KY : 0.5, 20.45 => 2.445% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5543.html
+#419 = 8076 伍豐 : 1.0, 41.35 => 2.418% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8076.html
+#420 = 6538 倉和 : 1.3, 53.8 => 2.416% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6538.html
+#421 = 3529 力旺 : 8.0, 331.5 => 2.413% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3529.html
+#422 = 6510 精測 : 10.0, 415.0 => 2.410% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6510.html
+#423 = 4966 譜瑞-KY : 12.41, 522.0 => 2.377% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4966.html
+#424 = 3663 鑫科 : 0.4, 17.05 => 2.346% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3663.html
+#425 = 7402 邑錡 : 1.2, 51.5 => 2.330% , link = 
+  https://tw.stock.yahoo.com/d/s/company_7402.html
+#426 = 4160 創源 : 0.63, 27.4 => 2.299% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4160.html
+#427 = 8444 綠河-KY : 2.0, 87.0 => 2.299% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8444.html
+#428 = 4111 濟生 : 0.6, 26.2 => 2.290% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4111.html
+#429 = 8432 東生華 : 1.6, 70.0 => 2.286% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8432.html
+#430 = 6234 高僑 : 0.6, 26.25 => 2.286% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6234.html
+#431 = 4953 緯軟 : 2.7, 120.0 => 2.250% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4953.html
+#432 = 3322 建舜電 : 0.25, 11.2 => 2.232% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3322.html
+#433 = 8183 精星 : 0.4, 18.0 => 2.222% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8183.html
+#434 = 2928 紅馬-KY : 0.79, 35.6 => 2.219% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2928.html
+#435 = 5481 新華 : 0.4, 18.05 => 2.216% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5481.html
+#436 = 5704 老爺知 : 0.5, 22.7 => 2.203% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5704.html
+#437 = 8279 生展 : 2.5, 116.0 => 2.155% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8279.html
+#438 = 8289 泰藝電 : 0.3, 14.0 => 2.143% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8289.html
+#439 = 5490 同亨 : 0.5, 23.4 => 2.137% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5490.html
+#440 = 5009 榮剛 : 0.45, 21.15 => 2.128% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5009.html
+#441 = 3221 台嘉碩 : 0.42, 19.8 => 2.121% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3221.html
+#442 = 5523 豐謙 : 0.2, 9.51 => 2.103% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5523.html
+#443 = 8406 金可-KY : 5.0, 238.0 => 2.101% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8406.html
+#444 = 6509 聚和 : 0.4, 19.05 => 2.100% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6509.html
+#445 = 3284 太普高 : 0.3, 14.35 => 2.091% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3284.html
+#446 = 3317 尼克森 : 0.7, 33.9 => 2.065% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3317.html
+#447 = 6173 信昌電 : 1.5, 73.4 => 2.044% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6173.html
+#448 = 8043 蜜望實 : 0.8, 39.15 => 2.043% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8043.html
+#449 = 8436 大江 : 8.5, 417.0 => 2.038% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8436.html
+#450 = 6247 淇譽電 : 0.2, 9.93 => 2.014% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6247.html
+#451 = 5211 蒙恬 : 0.32, 16.2 => 1.975% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5211.html
+#452 = 4991 環宇-KY : 1.2, 61.2 => 1.961% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4991.html
+#453 = 3594 磐儀 : 0.5, 25.9 => 1.931% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3594.html
+#454 = 3499 環天科 : 0.35, 18.45 => 1.897% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3499.html
+#455 = 6615 慧智 : 2.0, 105.5 => 1.896% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6615.html
+#456 = 4503 金雨 : 0.5, 26.8 => 1.866% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4503.html
+#457 = 5013 強新 : 0.5, 26.9 => 1.859% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5013.html
+#458 = 3615 安可 : 0.3, 16.25 => 1.846% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3615.html
+#459 = 4728 雙美 : 1.2, 65.1 => 1.843% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4728.html
+#460 = 3081 聯亞 : 5.0, 272.0 => 1.838% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3081.html
+#461 = 6426 統新 : 1.5, 82.1 => 1.827% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6426.html
+#462 = 3434 哲固 : 0.3, 16.7 => 1.796% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3434.html
+#463 = 6171 亞銳士 : 0.2, 11.45 => 1.747% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6171.html
+#464 = 8027 鈦昇 : 0.5, 29.2 => 1.712% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8027.html
+#465 = 4161 聿新科 : 0.51, 29.85 => 1.709% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4161.html
+#466 = 3672 康聯訊 : 0.3, 17.75 => 1.690% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3672.html
+#467 = 5465 富驊 : 0.27, 16.0 => 1.688% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5465.html
+#468 = 3685 元創精密 : 0.6, 37.25 => 1.611% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3685.html
+#469 = 4183 福永生技 : 0.3, 18.65 => 1.609% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4183.html
+#470 = 9960 邁達康 : 0.45, 28.0 => 1.607% , link = 
+  https://tw.stock.yahoo.com/d/s/company_9960.html
+#471 = 3483 力致 : 0.7, 44.0 => 1.591% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3483.html
+#472 = 3360 尚立 : 0.4, 25.55 => 1.566% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3360.html
+#473 = 6465 威潤 : 1.0, 64.0 => 1.563% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6465.html
+#474 = 6432 今展科 : 0.38, 25.0 => 1.520% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6432.html
+#475 = 4433 興采 : 0.5, 33.4 => 1.497% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4433.html
+#476 = 2745 五福 : 0.3, 20.2 => 1.485% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2745.html
+#477 = 6127 九豪 : 0.25, 17.05 => 1.466% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6127.html
+#478 = 5514 三豐 : 0.2, 13.75 => 1.455% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5514.html
+#479 = 3294 英濟 : 0.23, 16.05 => 1.433% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3294.html
+#480 = 6237 驊訊 : 0.25, 17.75 => 1.408% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6237.html
+#481 = 8088 品安 : 0.19, 13.55 => 1.402% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8088.html
+#482 = 3163 波若威 : 0.6, 46.5 => 1.290% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3163.html
+#483 = 3609 東林 : 0.2, 15.6 => 1.282% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3609.html
+#484 = 6199 天品 : 0.2, 15.6 => 1.282% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6199.html
+#485 = 6417 韋僑 : 0.6, 48.5 => 1.237% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6417.html
+#486 = 2718 晶悅 : 0.2, 16.65 => 1.201% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2718.html
+#487 = 8927 北基 : 0.2, 16.8 => 1.190% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8927.html
+#488 = 3324 雙鴻 : 1.5, 128.0 => 1.172% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3324.html
+#489 = 5432 達威 : 0.5, 43.15 => 1.159% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5432.html
+#490 = 8071 能率網通 : 0.15, 13.0 => 1.154% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8071.html
+#491 = 1796 金穎生技 : 0.5, 43.45 => 1.151% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1796.html
+#492 = 2230 泰茂 : 0.15, 13.4 => 1.119% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2230.html
+#493 = 5601 台聯櫃 : 0.3, 26.8 => 1.119% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5601.html
+#494 = 6499 益安 : 1.0, 91.2 => 1.096% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6499.html
+#495 = 3232 昱捷 : 0.2, 18.9 => 1.058% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3232.html
+#496 = 4162 智擎 : 1.0, 106.0 => 0.943% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4162.html
+#497 = 6109 亞元 : 0.1, 11.05 => 0.905% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6109.html
+#498 = 1586 和勤 : 0.30000000000000004, 34.3 => 0.875% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1586.html
+#499 = 4121 優盛 : 0.1, 11.45 => 0.873% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4121.html
+#500 = 6612 奈米醫材 : 0.51, 63.0 => 0.810% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6612.html
+#501 = 3680 家登 : 0.25, 30.95 => 0.808% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3680.html
+#502 = 1784 訊聯 : 0.28, 34.7 => 0.807% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1784.html
+#503 = 5703 亞都 : 0.2, 26.0 => 0.769% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5703.html
+#504 = 3707 漢磊 : 0.15, 20.2 => 0.743% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3707.html
+#505 = 6523 達爾膚 : 0.45, 67.0 => 0.672% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6523.html
+#506 = 2736 高野 : 0.1, 17.35 => 0.576% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2736.html
+#507 = 3362 先進光 : 0.30000000000000004, 58.0 => 0.517% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3362.html
+#508 = 8455 大拓-KY : 0.17, 33.0 => 0.515% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8455.html
+#509 = 3260 威剛 : 0.2, 40.1 => 0.499% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3260.html
+#510 = 6020 大展證 : 0.03, 13.0 => 0.231% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6020.html
+#511 = 1258 其祥-KY : 0.0, 22.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1258.html
+#512 = 4712 南璋 : 0.0, 14.95 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4712.html
+#513 = 4304 勝昱 : 0.0, 6.72 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4304.html
+#514 = 9950 萬國通 : 0.0, 12.95 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_9950.html
+#515 = 4402 福大 : 0.0, 5.42 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4402.html
+#516 = 4406 新昕纖 : 0.0, 8.89 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4406.html
+#517 = 4413 飛寶企業 : 0.0, 11.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4413.html
+#518 = 4419 元勝 : 0.0, 8.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4419.html
+#519 = 4429 聚紡 : 0.0, 21.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4429.html
+#520 = 3162 精確 : 0.0, 20.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3162.html
+#521 = 3379 彬台 : 0.0, 10.85 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3379.html
+#522 = 4523 永彰 : 0.0, 12.65 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4523.html
+#523 = 4530 宏易 : 0.0, 5.56 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4530.html
+#524 = 6122 擎邦 : 0.0, 9.62 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6122.html
+#525 = 2061 風青 : 0.0, 8.98 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2061.html
+#526 = 4609 唐鋒 : 0.0, 11.75 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4609.html
+#527 = 1742 台蠟 : 0.0, 21.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1742.html
+#528 = 4702 中美實 : 0.0, 3.31 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4702.html
+#529 = 1781 合世 : 0.0, 10.85 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1781.html
+#530 = 1795 美時 : 0.0, 125.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1795.html
+#531 = 1799 易威 : 0.0, 12.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1799.html
+#532 = 3176 基亞 : 0.0, 59.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3176.html
+#533 = 3205 佰研 : 0.0, 49.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3205.html
+#534 = 4102 永日 : 0.0, 15.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4102.html
+#535 = 4127 天良 : 0.0, 11.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4127.html
+#536 = 4128 中天 : 0.0, 15.25 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4128.html
+#537 = 4131 晶宇 : 0.0, 7.68 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4131.html
+#538 = 4139 馬光-KY : 0.0, 41.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4139.html
+#539 = 4147 中裕 : 0.0, 168.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4147.html
+#540 = 4152 台微體 : 0.0, 92.8 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4152.html
+#541 = 4154 康樂-KY : 0.0, 23.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4154.html
+#542 = 4157 太景*-KY : 0.0, 17.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4157.html
+#543 = 4167 展旺 : 0.0, 21.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4167.html
+#544 = 4168 醣聯 : 0.0, 23.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4168.html
+#545 = 4174 浩鼎 : 0.0, 161.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4174.html
+#546 = 4180 安成藥 : 0.0, 71.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4180.html
+#547 = 4188 安克 : 0.0, 27.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4188.html
+#548 = 4192 杏國 : 0.0, 28.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4192.html
+#549 = 4198 環瑞醫 : 0.0, 6.33 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4198.html
+#550 = 4726 永昕 : 0.0, 26.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4726.html
+#551 = 4743 合一 : 0.0, 29.75 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4743.html
+#552 = 4911 德英 : 0.0, 47.9 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4911.html
+#553 = 6130 星寶國際 : 0.0, 29.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6130.html
+#554 = 6446 藥華藥 : 0.0, 162.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6446.html
+#555 = 6461 益得 : 0.0, 26.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6461.html
+#556 = 6492 生華科 : 0.0, 70.9 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6492.html
+#557 = 6497 亞獅康-KY : 0.0, 26.75 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6497.html
+#558 = 6535 順藥 : 0.0, 31.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6535.html
+#559 = 6547 高端疫苗 : 0.0, 35.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6547.html
+#560 = 6576 逸達 : 0.0, 90.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6576.html
+#561 = 6662 樂斯科 : 0.0, 51.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6662.html
+#562 = 8409 商之器 : 0.0, 16.85 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8409.html
+#563 = 2035 唐榮 : 0.0, 40.7 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2035.html
+#564 = 5014 建錩 : 0.0, 8.85 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5014.html
+#565 = 3073 凱柏實業 : 0.0, 5.73 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3073.html
+#566 = 3122 笙泉 : 0.0, 12.8 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3122.html
+#567 = 3219 倚強 : 0.0, 14.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3219.html
+#568 = 3228 金麗科 : 0.0, 22.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3228.html
+#569 = 3259 鑫創 : 0.0, 22.65 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3259.html
+#570 = 3268 海德威 : 0.0, 11.65 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3268.html
+#571 = 3372 典範 : 0.0, 3.9 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3372.html
+#572 = 3374 精材 : 0.0, 41.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3374.html
+#573 = 3438 類比科 : 0.0, 20.9 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3438.html
+#574 = 3555 重鵬 : 0.0, 31.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3555.html
+#575 = 5272 笙科 : 0.0, 21.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5272.html
+#576 = 5302 太欣 : 0.0, 5.87 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5302.html
+#577 = 5314 世紀 : 0.0, 5.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5314.html
+#578 = 5344 立衛 : 0.0, 7.38 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5344.html
+#579 = 5351 鈺創 : 0.0, 10.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5351.html
+#580 = 5468 凱鈺 : 0.0, 3.88 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5468.html
+#581 = 6103 合邦 : 0.0, 11.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6103.html
+#582 = 6129 普誠 : 0.0, 8.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6129.html
+#583 = 6198 凌泰 : 0.0, 17.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6198.html
+#584 = 6233 旺玖 : 0.0, 8.02 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6233.html
+#585 = 6287 元隆 : 0.0, 2.99 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6287.html
+#586 = 6291 沛亨 : 0.0, 13.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6291.html
+#587 = 6485 點序 : 0.0, 44.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6485.html
+#588 = 8040 九暘電 : 0.0, 6.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8040.html
+#589 = 8277 商丞 : 0.0, 8.53 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8277.html
+#590 = 3287 廣寰科 : 0.0, 7.47 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3287.html
+#591 = 3325 旭品 : 0.0, 13.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3325.html
+#592 = 3521 鴻翊 : 0.0, 25.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3521.html
+#593 = 3693 營邦 : 0.0, 48.8 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3693.html
+#594 = 4924 欣厚-KY : 0.0, 8.96 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4924.html
+#595 = 5304 鼎創達 : 0.0, 3.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5304.html
+#596 = 5426 振發 : 0.0, 14.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5426.html
+#597 = 5450 寶聯通 : 0.0, 20.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5450.html
+#598 = 6160 欣技 : 0.0, 21.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6160.html
+#599 = 6228 全譜 : 0.0, 6.73 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6228.html
+#600 = 6276 安鈦克 : 0.0, 11.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6276.html
+#601 = 3066 李洲 : 0.0, 6.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3066.html
+#602 = 3230 錦明 : 0.0, 5.22 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3230.html
+#603 = 3339 泰谷 : 0.0, 5.42 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3339.html
+#604 = 3452 益通 : 0.0, 3.59 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3452.html
+#605 = 3516 亞帝歐 : 0.0, 13.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3516.html
+#606 = 3522 御頂 : 0.0, 27.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3522.html
+#607 = 3523 迎輝 : 0.0, 13.55 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3523.html
+#608 = 3562 頂晶科 : 0.0, 6.42 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3562.html
+#609 = 3629 地心引力 : 0.0, 23.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3629.html
+#610 = 3630 新鉅科 : 0.0, 105.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3630.html
+#611 = 3666 光耀 : 0.0, 15.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3666.html
+#612 = 3691 碩禾 : 0.0, 84.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3691.html
+#613 = 4729 熒茂 : 0.0, 14.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4729.html
+#614 = 4944 兆遠 : 0.0, 12.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4944.html
+#615 = 5251 天鉞電 : 0.0, 15.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5251.html
+#616 = 6125 廣運 : 0.0, 11.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6125.html
+#617 = 6167 久正 : 0.0, 8.02 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6167.html
+#618 = 6244 茂迪 : 0.0, 8.46 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6244.html
+#619 = 6419 京晨科 : 0.0, 9.28 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6419.html
+#620 = 8087 華鎂鑫 : 0.0, 8.46 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8087.html
+#621 = 3095 及成 : 0.0, 2.89 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3095.html
+#622 = 3234 光環 : 0.0, 35.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3234.html
+#623 = 3466 致振 : 0.0, 18.25 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3466.html
+#624 = 3564 其陽 : 0.0, 24.25 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3564.html
+#625 = 3632 研勤 : 0.0, 12.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3632.html
+#626 = 3664 安瑞-KY : 0.0, 14.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3664.html
+#627 = 4903 聯光通 : 0.0, 16.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4903.html
+#628 = 4979 華星光 : 0.0, 25.85 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4979.html
+#629 = 5348 系通 : 0.0, 10.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5348.html
+#630 = 6170 統振 : 0.0, 12.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6170.html
+#631 = 6241 易通展 : 0.0, 10.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6241.html
+#632 = 8034 榮群 : 0.0, 9.28 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8034.html
+#633 = 8059 凱碩 : 0.0, 6.78 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8059.html
+#634 = 8097 常珵 : 0.0, 12.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8097.html
+#635 = 8171 天宇 : 0.0, 12.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8171.html
+#636 = 1333 恩得利 : 0.0, 2.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1333.html
+#637 = 3089 元炬 : 0.0, 16.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3089.html
+#638 = 3115 寶島極 : 0.0, 21.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3115.html
+#639 = 3191 和進 : 0.0, 18.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3191.html
+#640 = 3202 樺晟 : 0.0, 18.95 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3202.html
+#641 = 3207 耀勝 : 0.0, 11.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3207.html
+#642 = 3276 宇環 : 0.0, 9.95 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3276.html
+#643 = 3288 點晶 : 0.0, 9.48 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3288.html
+#644 = 3313 斐成 : 0.0, 23.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3313.html
+#645 = 3465 進泰電子 : 0.0, 31.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3465.html
+#646 = 3511 矽瑪 : 0.0, 40.75 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3511.html
+#647 = 3512 皇龍 : 0.0, 28.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3512.html
+#648 = 3520 振維 : 0.0, 9.72 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3520.html
+#649 = 3631 晟楠 : 0.0, 23.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3631.html
+#650 = 3710 連展投控 : 0.0, 6.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3710.html
+#651 = 5227 立凱-KY : 0.0, 15.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5227.html
+#652 = 5309 系統 : 0.0, 7.47 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5309.html
+#653 = 5321 友銓 : 0.0, 47.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5321.html
+#654 = 5328 華容 : 0.0, 8.7 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5328.html
+#655 = 5340 建榮 : 0.0, 24.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5340.html
+#656 = 5345 天揚 : 0.0, 7.14 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5345.html
+#657 = 5349 先豐 : 0.0, 33.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5349.html
+#658 = 5355 佳總 : 0.0, 4.99 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5355.html
+#659 = 5381 合正 : 0.0, 4.67 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5381.html
+#660 = 5398 慕康生醫 : 0.0, 20.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5398.html
+#661 = 5457 宣德 : 0.0, 57.7 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5457.html
+#662 = 5475 德宏 : 0.0, 7.22 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5475.html
+#663 = 5488 松普 : 0.0, 8.67 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5488.html
+#664 = 5498 凱崴 : 0.0, 9.48 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5498.html
+#665 = 6124 業強 : 0.0, 26.65 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6124.html
+#666 = 6134 萬旭 : 0.0, 8.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6134.html
+#667 = 6259 百徽 : 0.0, 2.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6259.html
+#668 = 8038 長園科 : 0.0, 65.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8038.html
+#669 = 8080 奧斯特 : 0.0, 3.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8080.html
+#670 = 8093 保銳 : 0.0, 6.34 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8093.html
+#671 = 8121 越峰 : 0.0, 14.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8121.html
+#672 = 8287 英格爾 : 0.0, 3.65 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8287.html
+#673 = 8291 尚茂 : 0.0, 4.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8291.html
+#674 = 3224 三顧 : 0.0, 65.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3224.html
+#675 = 6113 亞矽 : 0.0, 7.67 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6113.html
+#676 = 6118 建達 : 0.0, 11.75 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6118.html
+#677 = 6265 方土昶 : 0.0, 5.75 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6265.html
+#678 = 8067 志旭 : 0.0, 6.69 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8067.html
+#679 = 8068 全達 : 0.0, 19.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8068.html
+#680 = 8084 巨虹 : 0.0, 37.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8084.html
+#681 = 8096 擎亞 : 0.0, 9.83 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8096.html
+#682 = 3085 新零售 : 0.0, 7.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3085.html
+#683 = 5202 力新 : 0.0, 17.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5202.html
+#684 = 5210 寶碩 : 0.0, 11.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5210.html
+#685 = 5310 天剛 : 0.0, 40.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5310.html
+#686 = 6140 訊達 : 0.0, 11.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6140.html
+#687 = 6148 驊宏資 : 0.0, 13.05 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6148.html
+#688 = 6240 松崗 : 0.0, 28.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6240.html
+#689 = 6404 通訊-KY : 0.0, 14.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6404.html
+#690 = 1785 光洋科 : 0.0, 18.7 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1785.html
+#691 = 3067 全域 : 0.0, 9.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3067.html
+#692 = 3498 陽程 : 0.0, 31.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3498.html
+#693 = 3508 位速 : 0.0, 38.4 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3508.html
+#694 = 3642 駿熠電 : 0.0, 14.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3642.html
+#695 = 4554 橙的 : 0.0, 18.15 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4554.html
+#696 = 5205 中茂 : 0.0, 10.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5205.html
+#697 = 5383 金利 : 0.0, 7.21 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5383.html
+#698 = 5452 佶優 : 0.0, 6.36 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5452.html
+#699 = 8047 星雲 : 0.0, 10.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8047.html
+#700 = 8085 福華 : 0.0, 4.87 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8085.html
+#701 = 8092 建暐 : 0.0, 9.35 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8092.html
+#702 = 8431 匯鑽科 : 0.0, 52.8 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8431.html
+#703 = 5324 士開 : 0.0, 10.45 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5324.html
+#704 = 5455 昇益 : 0.0, 27.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5455.html
+#705 = 5516 雙喜 : 0.0, 11.7 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5516.html
+#706 = 5529 志嘉 : 0.0, 7.33 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5529.html
+#707 = 6264 富裔 : 0.0, 6.17 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6264.html
+#708 = 2641 正德 : 0.0, 7.96 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2641.html
+#709 = 2719 燦星旅 : 0.0, 7.24 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2719.html
+#710 = 2724 富驛-KY : 0.0, 3.24 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2724.html
+#711 = 2734 易飛網 : 0.0, 12.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2734.html
+#712 = 2740 天蔥 : 0.0, 20.8 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2740.html
+#713 = 3252 海灣 : 0.0, 21.2 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_3252.html
+#714 = 5301 寶得利 : 0.0, 22.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5301.html
+#715 = 5364 力麗店 : 0.0, 20.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5364.html
+#716 = 5701 劍湖山 : 0.0, 1.93 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5701.html
+#717 = 8077 洛�� : 0.0, 17.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8077.html
+#718 = 6015 宏遠證 : 0.0, 6.57 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6015.html
+#719 = 6016 康和證 : 0.0, 7.39 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6016.html
+#720 = 2924 東凌-KY : 0.0, 35.3 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_2924.html
+#721 = 5902 德記 : 0.0, 9.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_5902.html
+#722 = 1584 精剛 : 0.0, 8.01 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_1584.html
+#723 = 4529 淳紳 : 0.0, 23.85 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4529.html
+#724 = 4950 牧東 : 0.0, 14.8 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_4950.html
+#725 = 6236 康呈 : 0.0, 16.95 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_6236.html
+#726 = 8418 捷必勝-KY : 0.0, 15.6 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8418.html
+#727 = 8426 紅木-KY : 0.0, 22.1 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8426.html
+#728 = 8476 台境 : 0.0, 18.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8476.html
+#729 = 8906 花王 : 0.0, 17.95 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8906.html
+#730 = 8913 全銓 : 0.0, 20.0 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8913.html
+#731 = 8933 愛地雅 : 0.0, 8.02 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8933.html
+#732 = 8934 衡平 : 0.0, 37.5 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8934.html
+#733 = 8935 邦泰 : 0.0, 8.24 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8935.html
+#734 = 8936 國統 : 0.0, 22.75 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8936.html
+#735 = 8937 合騏 : 0.0, 16.95 => 0.000% , link = 
+  https://tw.stock.yahoo.com/d/s/company_8937.html

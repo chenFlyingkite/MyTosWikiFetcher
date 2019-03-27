@@ -18,10 +18,13 @@ open class YahooGet {
                 val td = tds[i]
                 val si = StockInfo()
                 si.clazz = td.text()
-                val sl = td.getElementsByTag("a")[0].attr("href")
-                val end = sl.substring(0, sl.indexOf("&"))
-                si.link = baseLink + end
-                all.add(si)
+                val aa = td.getElementsByTag("a")
+                if (aa.size > 0) {
+                    val sl = aa[0].attr("href")
+                    val end = sl.substring(0, sl.indexOf("&"))
+                    si.link = baseLink + end
+                    all.add(si)
+                }
             }
             return all
         }
