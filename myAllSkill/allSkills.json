@@ -27607,6 +27607,15 @@
   },
   {
     "type": "主動技",
+    "skillName": "魔鬼的使命",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%AC%BC%E7%9A%84%E4%BD%BF%E5%91%BD",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，敵方互相或自我進行 1 次攻擊；效果期間，自身攻擊力跟隨隊長的攻擊力，個人追打水、火、木、光、暗屬性攻擊各 1 次",
+    "skillMonsters": []
+  },
+  {
+    "type": "主動技",
     "skillName": "魔魂附體",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%AD%82%E9%99%84%E9%AB%94",
     "skillCDMin": 44,

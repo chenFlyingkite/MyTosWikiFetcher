@@ -12186,6 +12186,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2068"
   },
   {
+    "title": "No. 2070 誘食禁果 ‧ 烏洛波",
+    "id": "2070",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%AA%98%E9%A3%9F%E7%A6%81%E6%9E%9C_%E2%80%A7_%E7%83%8F%E6%B4%9B%E6%B3%A2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2070"
+  },
+  {
     "title": "No. 2073 虛憶迴夢 · 虞姬",
     "id": "2073",
     "link": "https://tos.fandom.com/zh/wiki/%E8%99%9B%E6%86%B6%E8%BF%B4%E5%A4%A2_%C2%B7_%E8%99%9E%E5%A7%AC",
@@ -13240,6 +13246,12 @@
     "id": "6178",
     "link": "https://tos.fandom.com/zh/wiki/%E8%88%9E%E6%A7%8D%E5%A6%82%E5%BD%B1_%E2%80%A7_%E5%A5%A7%E8%A5%BF%E5%88%A9%E6%96%AF(%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6178"
+  },
+  {
+    "title": "S179 Terry(動態造型)",
+    "id": "6179",
+    "link": "https://tos.fandom.com/zh/wiki/Terry(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6179"
   },
   {
     "title": "S182 神速 ‧ 奇犽(動態造型)",
