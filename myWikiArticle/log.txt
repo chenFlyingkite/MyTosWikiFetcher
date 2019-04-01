@@ -2,6 +2,7 @@ Linking http://zh.tos.wikia.com/api/v1/Articles/New?minArticleQuality=10&limit=2
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/New?minArticleQuality=10&limit=200}
 100 items in /api/v1/Articles/New
 id, creation_date, creator, title, url
+265330, 20190331021346, Hugochau, 一人一獸的秘密對話, https://tos.fandom.com/zh/wiki/%E4%B8%80%E4%BA%BA%E4%B8%80%E7%8D%B8%E7%9A%84%E7%A7%98%E5%AF%86%E5%B0%8D%E8%A9%B1
 265294, 20190328160551, Hugochau, 巴哈年度十大遊戲之冠, https://tos.fandom.com/zh/wiki/%E5%B7%B4%E5%93%88%E5%B9%B4%E5%BA%A6%E5%8D%81%E5%A4%A7%E9%81%8A%E6%88%B2%E4%B9%8B%E5%86%A0
 265278, 20190326025202, Hugochau, 狹縫之門 ‧ 忠誠侍童, https://tos.fandom.com/zh/wiki/%E7%8B%B9%E7%B8%AB%E4%B9%8B%E9%96%80_%E2%80%A7_%E5%BF%A0%E8%AA%A0%E4%BE%8D%E7%AB%A5
 265268, 20190325110736, Hugochau, 以愛擁抱施虐者, https://tos.fandom.com/zh/wiki/%E4%BB%A5%E6%84%9B%E6%93%81%E6%8A%B1%E6%96%BD%E8%99%90%E8%80%85
@@ -101,4 +102,3 @@ id, creation_date, creator, title, url
 263994, 20190213081658, Wingwing007, 虛之炮擊龍印, https://tos.fandom.com/zh/wiki/%E8%99%9B%E4%B9%8B%E7%82%AE%E6%93%8A%E9%BE%8D%E5%8D%B0
 263993, 20190213081657, Wingwing007, 虛之炮擊龍咒, https://tos.fandom.com/zh/wiki/%E8%99%9B%E4%B9%8B%E7%82%AE%E6%93%8A%E9%BE%8D%E5%92%92
 263992, 20190213081655, Wingwing007, 虛之炮擊龍紋, https://tos.fandom.com/zh/wiki/%E8%99%9B%E4%B9%8B%E7%82%AE%E6%93%8A%E9%BE%8D%E7%B4%8B
-263951, 20190213065838, Hugochau, 好女僕的完美教條, https://tos.fandom.com/zh/wiki/%E5%A5%BD%E5%A5%B3%E5%83%95%E7%9A%84%E5%AE%8C%E7%BE%8E%E6%95%99%E6%A2%9D
