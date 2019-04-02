@@ -27613,7 +27613,9 @@
     "skillCDMin": 19,
     "skillCDMax": 8,
     "skillDesc": "1 回合內，敵方互相或自我進行 1 次攻擊；效果期間，自身攻擊力跟隨隊長的攻擊力，個人追打水、火、木、光、暗屬性攻擊各 1 次",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2070"
+    ]
   },
   {
     "type": "主動技",
