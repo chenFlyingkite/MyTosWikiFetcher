@@ -22413,7 +22413,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%99%9B%E7%A9%BA%E9%87%8D%E6%93%8A",
     "skillCDMin": 24,
     "skillCDMax": 10,
-    "skillDesc": "一回合内，全隊以 50% 攻擊力追打水、火及木屬性攻擊各 1 次",
+    "skillDesc": "1 回合内，所有成員以 50% 攻擊力追打水、火及木屬性攻擊各 1 次",
     "skillMonsters": [
       "1188"
     ]
