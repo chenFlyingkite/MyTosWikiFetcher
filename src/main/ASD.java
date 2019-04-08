@@ -66,8 +66,8 @@ public class ASD {
         //diff();
         //getStones();
 
-        //loadAllCards();
-        loadAllCrafts();
+        loadAllCards();
+        //loadAllCrafts();
 
         //getV16Icons();
         //getVoidRealm();
