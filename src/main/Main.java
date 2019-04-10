@@ -8,6 +8,7 @@ import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
+import main.fetcher.TosAAAFetcher;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -41,6 +42,7 @@ public class Main {
         //gold();
         //stock();
 
+        //TosAAAFetcher.me.run();
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
