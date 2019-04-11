@@ -1,27 +1,82 @@
 package main.fetcher;
 
+import flyingkite.log.L;
 import flyingkite.log.LF;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
 public class TosAAAFetcher extends TosWikiBaseFetcher {
     private TosAAAFetcher() {}
     public static final TosAAAFetcher me = new TosAAAFetcher();
-    private static final String folder = "myEnemySkill";
+    private static final String folder = "myAAA";
     private LF mLf = new LF(folder);
 
     private String getPage() {
         // 關卡敵人技能/敵人技能列表
-        return "http://zh.tos.wikia.com/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD%E5%88%97%E8%A1%A8";
+        //return "http://zh.tos.wikia.com/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD%E5%88%97%E8%A1%A8";
+        return "https://review.towerofsaviors.com/199215954";
     }
 
     @Override
     public void run() {
-        mLf.getFile().open(false);
-        clock.tic();
-        // Start here
+
+        Document d = getDocument(getPage());
+        String ds = d.toString();
+        String album = find(ds, 0, "album_str : '", "'.split(\",\")");
+        L.log("album = \n%s\n", album);
+        String[] albs = album.split(",");
+        L.log("%s lines", albs.length);
+        for (int i = 0; i < albs.length; i++) {
+            L.log("#%04d : %s", i, albs[i]);
+        }
+        L.log("\n\n");
+
+        String inventory = find(ds, 0, "inventory_str : '", "'.split(\",\")");
+        L.log("inventory_str  = \n%s\n", inventory);
+        String[] invs = inventory.split(",");
+        L.log("%s lines", invs.length);
+        for (int i = 0; i < invs.length; i++) {
+            L.log("#%04d : %s", i, invs[i]);
+            String[] a = invs[i].split("[|]");
+            int x = Integer.parseInt(a[7]);
+            if (x != 0) {
+                L.log("QWE x = %s", x);
+            }
+        }
+
+//        let temp = {
+//                id : parseInt(c[0]),
+//                cardId : parseInt(c[1]),
+//                exp : parseInt(c[2]),
+//                level : parseInt(c[3]),
+//                skLevel : parseInt(c[4]),
+//                createdAt : parseInt(c[5]),
+//                soul : parseInt(c[6]),
+//                unknown : parseInt(c[7]), // added soul to amelioration
+//                refineLevel : parseInt(c[8]),
+//                skinId : parseInt(c[9]),
+//                skExp : parseInt(c[10]),
+//                normalSkillCd : parseInt(c[11]),
+//            };
+//
 
 
+        //L.log("d = \n%s", d);
+//        mLf.getFile().open(false);
+//        clock.tic();
+//        // Start here
+//
+//
+//
+//        clock.tac("%s Done", tag());
+//        mLf.getFile().close();
+    }
 
-        clock.tac("%s Done", tag());
-        mLf.getFile().close();
+    private String find(String src, int pos, String head, String tail) {
+        int a = src.indexOf(head, pos);
+        if (a < 0) return "";
+        int b = src.indexOf(tail, a);
+
+        return src.substring(a + head.length(), b);
     }
 }

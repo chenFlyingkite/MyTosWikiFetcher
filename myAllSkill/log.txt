@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2371 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2375 items, basePath = https://tos.fandom.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -30,12 +30,14 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 不倒意志 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E5%80%92%E6%84%8F%E5%BF%97
 不撓雄傑_‧_光 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%92%93%E9%9B%84%E5%82%91_%E2%80%A7_%E5%85%89
 不撓雄傑_‧_木 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%92%93%E9%9B%84%E5%82%91_%E2%80%A7_%E6%9C%A8
+不死復活術 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E5%BE%A9%E6%B4%BB%E8%A1%93
 不死神授_‧_光 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E7%A5%9E%E6%8E%88_%E2%80%A7_%E5%85%89
 不死神授_‧_暗 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E7%A5%9E%E6%8E%88_%E2%80%A7_%E6%9A%97
 不死神授_‧_木 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E7%A5%9E%E6%8E%88_%E2%80%A7_%E6%9C%A8
 不死神授_‧_水 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E7%A5%9E%E6%8E%88_%E2%80%A7_%E6%B0%B4
 不死神授_‧_火 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E7%A5%9E%E6%8E%88_%E2%80%A7_%E7%81%AB
 不渝之援 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%B8%9D%E4%B9%8B%E6%8F%B4
+不滅之械 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%BB%85%E4%B9%8B%E6%A2%B0
 不老妙藥 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%80%81%E5%A6%99%E8%97%A5
 不老魔法 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%80%81%E9%AD%94%E6%B3%95
 世界樹之克勞諾斯閃擊 -> https://tos.fandom.com/zh/wiki/%E4%B8%96%E7%95%8C%E6%A8%B9%E4%B9%8B%E5%85%8B%E5%8B%9E%E8%AB%BE%E6%96%AF%E9%96%83%E6%93%8A
@@ -619,6 +621,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 復甦之力 -> https://tos.fandom.com/zh/wiki/%E5%BE%A9%E7%94%A6%E4%B9%8B%E5%8A%9B
 心中的火苖 -> https://tos.fandom.com/zh/wiki/%E5%BF%83%E4%B8%AD%E7%9A%84%E7%81%AB%E8%8B%96
 心之連動 -> https://tos.fandom.com/zh/wiki/%E5%BF%83%E4%B9%8B%E9%80%A3%E5%8B%95
+心之連動_‧_強 -> https://tos.fandom.com/zh/wiki/%E5%BF%83%E4%B9%8B%E9%80%A3%E5%8B%95_%E2%80%A7_%E5%BC%B7
 心花夏放 -> https://tos.fandom.com/zh/wiki/%E5%BF%83%E8%8A%B1%E5%A4%8F%E6%94%BE
 忠義_‧_燄火 -> https://tos.fandom.com/zh/wiki/%E5%BF%A0%E7%BE%A9_%E2%80%A7_%E7%87%84%E7%81%AB
 念之強勢_‧_光 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E5%BC%B7%E5%8B%A2_%E2%80%A7_%E5%85%89
@@ -1828,6 +1831,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 蓄勢暴擊 -> https://tos.fandom.com/zh/wiki/%E8%93%84%E5%8B%A2%E6%9A%B4%E6%93%8A
 蓄能傳承_‧_心 -> https://tos.fandom.com/zh/wiki/%E8%93%84%E8%83%BD%E5%82%B3%E6%89%BF_%E2%80%A7_%E5%BF%83
 蓄能傳承_‧_煉靈 -> https://tos.fandom.com/zh/wiki/%E8%93%84%E8%83%BD%E5%82%B3%E6%89%BF_%E2%80%A7_%E7%85%89%E9%9D%88
+蓄能傳承_‧_靈心 -> https://tos.fandom.com/zh/wiki/%E8%93%84%E8%83%BD%E5%82%B3%E6%89%BF_%E2%80%A7_%E9%9D%88%E5%BF%83
 蓄能加冕_‧_木 -> https://tos.fandom.com/zh/wiki/%E8%93%84%E8%83%BD%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%9C%A8
 蓄能加冕_‧_火 -> https://tos.fandom.com/zh/wiki/%E8%93%84%E8%83%BD%E5%8A%A0%E5%86%95_%E2%80%A7_%E7%81%AB
 蓄能攻擊_‧_光 -> https://tos.fandom.com/zh/wiki/%E8%93%84%E8%83%BD%E6%94%BB%E6%93%8A_%E2%80%A7_%E5%85%89
@@ -2372,4 +2376,4 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2395 skills
+2399 skills

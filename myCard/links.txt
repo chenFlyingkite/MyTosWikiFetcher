@@ -12084,6 +12084,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2033"
   },
   {
+    "title": "No. 2034 最佳寵物 · 米異蛋",
+    "id": "2034",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%80%E4%BD%B3%E5%AF%B5%E7%89%A9_%C2%B7_%E7%B1%B3%E7%95%B0%E8%9B%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2034"
+  },
+  {
     "title": "No. 2041 盈水劍舞 · 冰花",
     "id": "2041",
     "link": "https://tos.fandom.com/zh/wiki/%E7%9B%88%E6%B0%B4%E5%8A%8D%E8%88%9E_%C2%B7_%E5%86%B0%E8%8A%B1",
@@ -12286,6 +12292,18 @@
     "id": "2078",
     "link": "https://tos.fandom.com/zh/wiki/%E7%8E%89%E5%A5%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/2078"
+  },
+  {
+    "title": "No. 2079 雍容絕代 ‧ 紅心女王",
+    "id": "2079",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%8D%E5%AE%B9%E7%B5%95%E4%BB%A3_%E2%80%A7_%E7%B4%85%E5%BF%83%E5%A5%B3%E7%8E%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2079"
+  },
+  {
+    "title": "No. 2080 糖心咖啡",
+    "id": "2080",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B3%96%E5%BF%83%E5%92%96%E5%95%A1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2080"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

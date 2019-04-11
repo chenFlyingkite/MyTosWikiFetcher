@@ -346,6 +346,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "不死復活術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E5%BE%A9%E6%B4%BB%E8%A1%93",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "自身生命力扣至 1 (生命力為 1 時無法發動技能)，本回合所受傷害不會使你死亡。若發動技能時所有機械族成員的行動值達至 100%，於回合結束時完全回復生命力",
+    "skillMonsters": [
+      "2034"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "不死神授 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E7%A5%9E%E6%8E%88_%E2%80%A7_%E5%85%89",
     "skillCDMin": 19,
@@ -408,6 +419,17 @@
     "skillDesc": "1 回合內，隊長及戰友攻擊力 4 倍；隊伍中每多 1 個神族成員，額外增加 1 回合效果，最多持續 5 回合",
     "skillMonsters": [
       "1841"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "不滅之械",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%BB%85%E4%B9%8B%E6%A2%B0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "機械族攻擊力 2 倍；當前生命力大於 70% 時，下一次所受傷害不會使你死亡 (同 1 回合只發動 1 次)",
+    "skillMonsters": [
+      "2034"
     ]
   },
   {
@@ -7406,6 +7428,17 @@
     "skillDesc": "每累計消除 3 粒心符石 ，將產生 1 粒心強化符石",
     "skillMonsters": [
       "0496"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "心之連動 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E4%B9%8B%E9%80%A3%E5%8B%95_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "每首批消除 1 組符石，將產生 1 粒心符石；每累計消除 3 粒心符石，將產生 1 粒心強化符石；消除 8 連擊 (Combo) 或以上，全隊攻擊力 1.5 倍",
+    "skillMonsters": [
+      "2079"
     ]
   },
   {
@@ -21900,6 +21933,17 @@
     "skillDesc": "將與累積戰鬥回合數同等數量的符石轉化為心強化符石，最多 7 粒。發動技能後會將戰鬥回合數重置",
     "skillMonsters": [
       "1195"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "蓄能傳承 ‧ 靈心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%93%84%E8%83%BD%E5%82%B3%E6%89%BF_%E2%80%A7_%E9%9D%88%E5%BF%83",
+    "skillCDMin": 15,
+    "skillCDMax": 1,
+    "skillDesc": "將與累積戰鬥回合數 (需消除符石) 同等數量的符石轉為心強化符石，最多 7 粒；當累積至最多 7 粒時發動技能，1 回合內，自身攻擊力 7 倍，發動技能後會將累積戰鬥回合數重置",
+    "skillMonsters": [
+      "2079"
     ]
   },
   {
