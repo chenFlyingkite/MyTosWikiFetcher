@@ -2,6 +2,8 @@ package main.fetcher;
 
 import flyingkite.log.L;
 import flyingkite.log.LF;
+import flyingkite.tool.TicTac;
+import flyingkite.tool.TicTac2;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
@@ -19,8 +21,11 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
 
     @Override
     public void run() {
-
+        TicTac2 t = new TicTac2();
+        t.tic();
         Document d = getDocument(getPage());
+        t.tac("TAC get doc");
+        t.tic();
         String ds = d.toString();
         String album = find(ds, 0, "album_str : '", "'.split(\",\")");
         L.log("album = \n%s\n", album);
@@ -30,8 +35,12 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
             L.log("#%04d : %s", i, albs[i]);
         }
         L.log("\n\n");
+        t.tac("TAC get album");
 
+        t.tic();
         String inventory = find(ds, 0, "inventory_str : '", "'.split(\",\")");
+        t.tac("TAC Inv");
+        t.tic();
         L.log("inventory_str  = \n%s\n", inventory);
         String[] invs = inventory.split(",");
         L.log("%s lines", invs.length);
@@ -43,6 +52,7 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
                 L.log("QWE x = %s", x);
             }
         }
+        t.tac("TAC INVS");
 
 //        let temp = {
 //                id : parseInt(c[0]),
