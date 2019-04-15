@@ -2,7 +2,9 @@ package main;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import flyingkite.data.Rect2;
+import flyingkite.functional.MeetSS;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.javaxlibrary.images.diff.PngDiffer;
@@ -37,6 +39,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.function.Consumer;
+import java.util.regex.Pattern;
 
 public class ASD {
     private static final TicTac2 tt = new TicTac2();
@@ -98,10 +101,11 @@ public class ASD {
         }
 
         // Find cards
-        //findCardSkill("移動符石時間增加", allCards); // 延長移動符石時間, 移動符石時間延長, 移動符石時間增加
-        findCardSkill("種族強化符石", allCards);
-        findCardSkill("種族符石", allCards);
+        //findCardSkill("延遲", allCards); // 延長移動符石時間, 移動符石時間延長, 移動符石時間增加
+        //findCardSkill("種族強化符石", allCards);
+        //findCardSkill("種族符石", allCards);
         //findCardSkill("族強化符石", allCards);
+        findCardSkill("轉化(|為)(光|光強化)(神族|魔族|人族|獸族|龍族|妖族|機械族|)符石", true, allCards);
         L.log("--**--\n\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("傷害減少", allCards);
@@ -229,7 +233,20 @@ public class ASD {
         }
     }
 
-    private static void findCardSkill(String key, TosCard[] allCards) {
+    private static void findCardSkill(String key, boolean regex, TosCard[] allCards) {
+        // Define match condition
+        MeetSS<String, Boolean> cond;
+        if (regex) {
+            cond = (a, b) -> {
+                return Pattern.compile(b).matcher(a).find();
+            };
+        } else {
+            cond = (a, b) -> {
+                return a.contains(b);
+            };
+        }
+
+        // Major part
         int sn = 0, tn = 0, un = 0;
         L.log("--**--\n");
         int m = 0;
@@ -238,15 +255,15 @@ public class ASD {
             String t = c.cardDetails;
             String u = c.skillLeaderDesc;
             String exist = "";
-            if (s.contains(key)) {
+            if (cond.meet(s, key)) {
                 sn++;
                 exist += " Skill,";
             }
-            if (t.contains(key)) {
+            if (cond.meet(t, key)) {
                 exist += " Detail,";
                 tn++;
             }
-            if (u.contains(key)) {
+            if (cond.meet(u, key)) {
                 exist += " Leader";
                 un++;
             }
@@ -262,6 +279,10 @@ public class ASD {
 
         L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, key);
         L.log("%s in 素材", m);
+    }
+
+    private static void findCardSkill(String key, TosCard[] allCards) {
+        findCardSkill(key, false, allCards);
     }
 
     private static String sc(TosCard c) {
