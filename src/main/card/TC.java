@@ -72,6 +72,10 @@ public final class TC {
     public static final String maxHPAme = "maxHPAme";
     public static final String maxAttackAme = "maxAttackAme";
     public static final String maxRecoveryAme = "maxRecoveryAme";
+    // Abbreviation
+    public static final String evFm = "evFm";
+    public static final String evLn = "evLn";
+    public static final String evTo = "evTo";
 
     // Automation
     public static void g() {

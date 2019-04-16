@@ -10,6 +10,7 @@ import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
 import main.fetcher.TosAAAFetcher;
 import main.fetcher.TosCardFetcher;
+import main.fetcher.TosCardInfos;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
 import main.fetcher.TosLostRelicPassFetcher;
@@ -50,6 +51,8 @@ public class Main {
         //QWE.run();
         //ASD.run();
         //print();
+
+        //TosCardInfos.me.run(); // creating evolution info
     }
 
     private static void print() {

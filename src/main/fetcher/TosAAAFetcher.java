@@ -7,6 +7,11 @@ import flyingkite.tool.TicTac2;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
 public class TosAAAFetcher extends TosWikiBaseFetcher {
     private TosAAAFetcher() {}
     public static final TosAAAFetcher me = new TosAAAFetcher();
@@ -36,23 +41,28 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
         }
         L.log("\n\n");
         t.tac("TAC get album");
+        statistics("album", albs);
 
-        t.tic();
-        String inventory = find(ds, 0, "inventory_str : '", "'.split(\",\")");
-        t.tac("TAC Inv");
-        t.tic();
-        L.log("inventory_str  = \n%s\n", inventory);
-        String[] invs = inventory.split(",");
-        L.log("%s lines", invs.length);
-        for (int i = 0; i < invs.length; i++) {
-            L.log("#%04d : %s", i, invs[i]);
-            String[] a = invs[i].split("[|]");
-            int x = Integer.parseInt(a[7]);
-            if (x != 0) {
-                L.log("QWE x = %s", x);
+
+        if (false) {
+            t.tic();
+            String inventory = find(ds, 0, "inventory_str : '", "'.split(\",\")");
+            t.tac("TAC Inv");
+            t.tic();
+            L.log("inventory_str  = \n%s\n", inventory);
+            String[] invs = inventory.split(",");
+            L.log("%s lines", invs.length);
+            for (int i = 0; i < invs.length; i++) {
+                L.log("#%04d : %s", i, invs[i]);
+                String[] a = invs[i].split("[|]");
+                int x = Integer.parseInt(a[7]);
+                if (x != 0) {
+                    L.log("QWE x = %s", x);
+                }
             }
+            t.tac("TAC INVS");
+            statistics("inventory", invs);
         }
-        t.tac("TAC INVS");
 
 //        let temp = {
 //                id : parseInt(c[0]),
@@ -61,9 +71,9 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
 //                level : parseInt(c[3]),
 //                skLevel : parseInt(c[4]),
 //                createdAt : parseInt(c[5]),
-//                soul : parseInt(c[6]),
+//                soul : parseInt(c[6]), // soul gain if sell
 //                unknown : parseInt(c[7]), // added soul to amelioration
-//                refineLevel : parseInt(c[8]),
+//                refineLevel : parseInt(c[8]), // refine 5 = 突破
 //                skinId : parseInt(c[9]),
 //                skExp : parseInt(c[10]),
 //                normalSkillCd : parseInt(c[11]),
@@ -80,6 +90,38 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
 //
 //        clock.tac("%s Done", tag());
 //        mLf.getFile().close();
+    }
+
+    private void statistics(String prefix, String[] data) {
+        // n records
+        int n = data.length;
+        if (n == 0) return;
+
+        // m columns
+        int m = data[0].split("[|]").length;
+        List<Set<Integer>> sets = new ArrayList<>();
+        for (int i = 0; i < m; i++) {
+            sets.add(new TreeSet<>());
+        }
+
+        for (int i = 0; i < n; i++) {
+            String[] di = data[i].split("[|]");
+            for (int j = 0; j < m; j++) {
+                int xij = Integer.parseInt(di[j]);
+                Set<Integer> sj = sets.get(j);
+                sj.add(xij);
+                if (j == 2 && xij == 10) {
+                    L.log("data = %s", data[i]);
+                }
+            }
+        }
+
+        L.log("For %s", prefix);
+        for (int i = 0; i < m; i++) {
+            Set<Integer> s = sets.get(i);
+            L.log("#%s has %s items = %s", i, s.size(), s);
+        }
+        //---
     }
 
     private String find(String src, int pos, String head, String tail) {
