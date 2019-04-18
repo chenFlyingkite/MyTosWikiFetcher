@@ -58,6 +58,7 @@
   -> #16 $250000 = 1077, 遺跡特許 ‧ 一諾千金 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E4%B8%80%E8%AB%BE%E5%8D%83%E9%87%91
   -> #17 $250000 = 0737, 遺跡特許 ‧ 不甘之恨 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E4%B8%8D%E7%94%98%E4%B9%8B%E6%81%A8
   -> #18 $250000 = 1163, 遺跡特許 ‧ 海上的秘密交易 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%B5%B7%E4%B8%8A%E7%9A%84%E7%A7%98%E5%AF%86%E4%BA%A4%E6%98%93
+  -> #19 $250000 = 1100, 遺跡特許 ‧ 眾魔的帝君 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%9C%BE%E9%AD%94%E7%9A%84%E5%B8%9D%E5%90%9B
 #3 雙週遺跡 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1/%E9%9B%99%E9%80%B1%E9%81%BA%E8%B7%A1
   -> #0 $200000 = 0636, 遺跡特許 ‧ 水惡鬼的血契 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%B0%B4%E6%83%A1%E9%AC%BC%E7%9A%84%E8%A1%80%E5%A5%91
   -> #1 $200000 = 0637, 遺跡特許 ‧ 火惡鬼的血契 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%81%AB%E6%83%A1%E9%AC%BC%E7%9A%84%E8%A1%80%E5%A5%91
@@ -110,3 +111,13 @@
   -> #48 $200000 = 0813, 遺跡特許 ‧ 綻放的花 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%B6%BB%E6%94%BE%E7%9A%84%E8%8A%B1
   -> #49 $200000 = 0814, 遺跡特許 ‧ 母的遺憾 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%AF%8D%E7%9A%84%E9%81%BA%E6%86%BE
   -> #50 $200000 = 0815, 遺跡特許 ‧ 巫醫之念 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%B7%AB%E9%86%AB%E4%B9%8B%E5%BF%B5
+  -> #51 $200000 = 0350, 遺跡特許 ‧ 傭兵的戰場 ‧ 水 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%82%AD%E5%85%B5%E7%9A%84%E6%88%B0%E5%A0%B4_%E2%80%A7_%E6%B0%B4
+  -> #52 $200000 = 0351, 遺跡特許 ‧ 傭兵的戰場 ‧ 火 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%82%AD%E5%85%B5%E7%9A%84%E6%88%B0%E5%A0%B4_%E2%80%A7_%E7%81%AB
+  -> #53 $200000 = 0352, 遺跡特許 ‧ 傭兵的戰場 ‧ 木 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%82%AD%E5%85%B5%E7%9A%84%E6%88%B0%E5%A0%B4_%E2%80%A7_%E6%9C%A8
+  -> #54 $200000 = 0353, 遺跡特許 ‧ 傭兵的戰場 ‧ 光 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%82%AD%E5%85%B5%E7%9A%84%E6%88%B0%E5%A0%B4_%E2%80%A7_%E5%85%89
+  -> #55 $200000 = 0354, 遺跡特許 ‧ 傭兵的戰場 ‧ 暗 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%82%AD%E5%85%B5%E7%9A%84%E6%88%B0%E5%A0%B4_%E2%80%A7_%E6%9A%97
+  -> #56 $200000 = 0552, 遺跡特許 ‧ 驚濤異族的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E9%A9%9A%E6%BF%A4%E7%95%B0%E6%97%8F%E7%9A%84%E6%81%90%E6%80%96
+  -> #57 $200000 = 0554, 遺跡特許 ‧ 活火蔓延的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%B4%BB%E7%81%AB%E8%94%93%E5%BB%B6%E7%9A%84%E6%81%90%E6%80%96
+  -> #58 $200000 = 0556, 遺跡特許 ‧ 噬魂祖蟾的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%99%AC%E9%AD%82%E7%A5%96%E8%9F%BE%E7%9A%84%E6%81%90%E6%80%96
+  -> #59 $200000 = 0558, 遺跡特許 ‧ 異端古神的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%95%B0%E7%AB%AF%E5%8F%A4%E7%A5%9E%E7%9A%84%E6%81%90%E6%80%96
+  -> #60 $200000 = 0560, 遺跡特許 ‧ 星族異種的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%98%9F%E6%97%8F%E7%95%B0%E7%A8%AE%E7%9A%84%E6%81%90%E6%80%96

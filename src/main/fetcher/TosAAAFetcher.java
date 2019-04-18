@@ -2,13 +2,21 @@ package main.fetcher;
 
 import flyingkite.log.L;
 import flyingkite.log.LF;
+import flyingkite.math.MathUtil;
+import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
+import main.card.TosCard;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -17,6 +25,8 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
     public static final TosAAAFetcher me = new TosAAAFetcher();
     private static final String folder = "myAAA";
     private LF mLf = new LF(folder);
+    private TicTac2 clk = new TicTac2();
+    private Map<String, TosCard> allCards = new HashMap<>();
 
     private String getPage() {
         // 關卡敵人技能/敵人技能列表
@@ -26,43 +36,15 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
 
     @Override
     public void run() {
-        TicTac2 t = new TicTac2();
-        t.tic();
+        loadAllCards();
+        clk.tic();
         Document d = getDocument(getPage());
-        t.tac("TAC get doc");
-        t.tic();
-        String ds = d.toString();
-        String album = find(ds, 0, "album_str : '", "'.split(\",\")");
-        L.log("album = \n%s\n", album);
-        String[] albs = album.split(",");
-        L.log("%s lines", albs.length);
-        for (int i = 0; i < albs.length; i++) {
-            L.log("#%04d : %s", i, albs[i]);
-        }
-        L.log("\n\n");
-        t.tac("TAC get album");
-        statistics("album", albs);
+        clk.tac("TAC get doc");
+        String data = d.toString();
 
+        //albums(data);
 
-        if (false) {
-            t.tic();
-            String inventory = find(ds, 0, "inventory_str : '", "'.split(\",\")");
-            t.tac("TAC Inv");
-            t.tic();
-            L.log("inventory_str  = \n%s\n", inventory);
-            String[] invs = inventory.split(",");
-            L.log("%s lines", invs.length);
-            for (int i = 0; i < invs.length; i++) {
-                L.log("#%04d : %s", i, invs[i]);
-                String[] a = invs[i].split("[|]");
-                int x = Integer.parseInt(a[7]);
-                if (x != 0) {
-                    L.log("QWE x = %s", x);
-                }
-            }
-            t.tac("TAC INVS");
-            statistics("inventory", invs);
-        }
+        inventory(data);
 
 //        let temp = {
 //                id : parseInt(c[0]),
@@ -92,6 +74,40 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
 //        mLf.getFile().close();
     }
 
+    private void albums(String data) {
+        String album = find(data, 0, "album_str : '", "'.split(\",\")");
+        L.log("album = \n%s\n", album);
+        String[] albs = album.split(",");
+        print(albs);
+        L.log("\n\n");
+        statistics("album", albs);
+    }
+
+    private void inventory(String data) {
+        String inventory = find(data, 0, "inventory_str : '", "'.split(\",\")");
+        L.log("inventory_str  = \n%s\n", inventory);
+        String[] invs = inventory.split(",");
+        print(invs);
+        for (int i = 0; i < invs.length; i++) {
+            String[] a = invs[i].split("[|]");
+            int x = Integer.parseInt(a[7]);
+            if (x != 0) {
+                L.log("QWE x = %s", x);
+            }
+        }
+        L.log("\n\n");
+        statistics("inventory", invs);
+    }
+
+    private <T> void print(T[] d) {
+        if (d == null) return;
+
+        L.log("%s items", d.length);
+        for (int i = 0; i < d.length; i++) {
+            L.log("#%04d : %s", i, d[i]);
+        }
+    }
+
     private void statistics(String prefix, String[] data) {
         // n records
         int n = data.length;
@@ -114,6 +130,17 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
                     L.log("data = %s", data[i]);
                 }
             }
+
+            String idNorm = idNorm(di[1]);
+            int slv = Integer.parseInt(di[4]);
+            TosCard c = allCards.get(idNorm);
+            // can train
+            boolean sk = MathUtil.isInRange(1, slv, c.skillCDMax1);
+            if (c.sameSkills.size() > 2 && sk) {
+                if (c.rarity >= 5) {
+                    L.log("Skills = %s\n  %s\n", data[i], sc(c));
+                }
+            }
         }
 
         L.log("For %s", prefix);
@@ -130,5 +157,33 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
         int b = src.indexOf(tail, a);
 
         return src.substring(a + head.length(), b);
+    }
+
+    private static String sc(TosCard c) {
+        return "#" + c.idNorm + "," + c.name
+                + "\n  " + c.skillDesc1 + "," + c.skillDesc2
+                + "\n  " + c.skillLeaderDesc
+                ;
+        //return String.format("#%4s,%s\n      %s\n      %s", c.idNorm, c.name, c.skillDesc1 + "," + c.skillDesc2, c.skillLeaderDesc);
+    }
+
+    private void loadAllCards() {
+        List<TosCard> all = load();
+        allCards.clear();
+        for (TosCard c : all) {
+            allCards.put(c.idNorm, c);
+        }
+    }
+
+
+    private List<TosCard> load() {
+        File source = new File("myCard", "cardList.json");
+        TosCard[] allCards = GsonUtil.loadFile(source, TosCard[].class);
+        return Arrays.asList(allCards);
+    }
+
+    private String idNorm(String s) {
+        int n = Integer.parseInt(s);
+        return String.format(java.util.Locale.US, "%04d", n);
     }
 }
