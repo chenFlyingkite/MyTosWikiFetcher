@@ -770,6 +770,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "人彘之愛",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E5%BD%98%E4%B9%8B%E6%84%9B",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "發動技能及每回合開始時，將 2 粒符石轉化為木強化符石 (心及水符石優先轉換)；首批消除 2 組或以上木符石時，自身及左旁的木屬性成員攻擊力 2.5 倍。效果會在關閉此技能或死亡後消失",
+    "skillMonsters": [
+      "2067"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "人族戰略 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E7%95%A5_%E2%80%A7_%E5%85%89",
     "skillCDMin": 19,
@@ -18855,6 +18866,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "稀世力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A8%80%E4%B8%96%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "水屬性及人類攻擊力 6 倍；必然延長移動符石時間 1 秒；火及木符石兼具 50% 心符石效果 (可疊加)；同時消除水、火、木符石時，個人以 50% 自身攻擊力追打水、火、木屬性攻擊各 1 次",
+    "skillMonsters": [
+      "2081"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "種族凝匯 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A8%AE%E6%97%8F%E5%87%9D%E5%8C%AF_%E2%80%A7_%E5%85%89",
     "skillCDMin": -1,
@@ -24822,6 +24844,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "金璧之護",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%92%A7%E4%B9%8B%E8%AD%B7",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "引爆火及心符石，以掉落火及心以外強化符石；1 回合內，減少 30% 所受傷害，場上有其他附加效果時，則減少 60% 所受傷害",
+    "skillMonsters": [
+      "2072"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "金睛火眼",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%9D%9B%E7%81%AB%E7%9C%BC",
     "skillCDMin": 24,
@@ -27047,6 +27080,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "魅影術 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E5%BD%B1%E8%A1%93_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 14,
+    "skillCDMax": 3,
+    "skillDesc": "隨機將 4 至 8 粒符石轉化為暗強化符石 (水、火及木符石優先轉換)",
+    "skillMonsters": [
+      "2076"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "魅影術 ‧ 煉",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E5%BD%B1%E8%A1%93_%E2%80%A7_%E7%85%89",
     "skillCDMin": 17,
@@ -27523,6 +27567,17 @@
     "skillDesc": "1 回合內，減少 90% 所受傷害，將 5 粒符石轉化為心符石 (水及木符石優先轉換)",
     "skillMonsters": [
       "1796"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔幻之秘",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%B9%BB%E4%B9%8B%E7%A7%98",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "所有符石轉化為固定數量的水人族強化、火人族強化及木人族強化符石。1 回合內，同時消除水強化、火強化及木強化符石時，全隊攻擊力 2 倍及無視五屬盾",
+    "skillMonsters": [
+      "2081"
     ]
   },
   {
