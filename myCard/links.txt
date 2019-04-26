@@ -10908,6 +10908,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1818"
   },
   {
+    "title": "No. 1819 黃金蝦",
+    "id": "1819",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BB%83%E9%87%91%E8%9D%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/1819"
+  },
+  {
     "title": "No. 1820 雛鳥騎士 ‧ 瘋頭",
     "id": "1820",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9B%9B%E9%B3%A5%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E7%98%8B%E9%A0%AD",
@@ -12090,6 +12096,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2034"
   },
   {
+    "title": "No. 2035 新進騎士 ‧ 丹尼絲",
+    "id": "2035",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%96%B0%E9%80%B2%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E4%B8%B9%E5%B0%BC%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2035"
+  },
+  {
     "title": "No. 2041 盈水劍舞 · 冰花",
     "id": "2041",
     "link": "https://tos.fandom.com/zh/wiki/%E7%9B%88%E6%B0%B4%E5%8A%8D%E8%88%9E_%C2%B7_%E5%86%B0%E8%8A%B1",
@@ -12268,6 +12280,12 @@
     "id": "2070",
     "link": "https://tos.fandom.com/zh/wiki/%E8%AA%98%E9%A3%9F%E7%A6%81%E6%9E%9C_%E2%80%A7_%E7%83%8F%E6%B4%9B%E6%B3%A2",
     "linkId": "http://zh.tos.wikia.com/wiki/2070"
+  },
+  {
+    "title": "No. 2071 風騷母夜叉 ‧ 孫二娘",
+    "id": "2071",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A2%A8%E9%A8%B7%E6%AF%8D%E5%A4%9C%E5%8F%89_%E2%80%A7_%E5%AD%AB%E4%BA%8C%E5%A8%98",
+    "linkId": "http://zh.tos.wikia.com/wiki/2071"
   },
   {
     "title": "No. 2072 萬貫嬈后 · 慈禧",

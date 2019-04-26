@@ -791,6 +791,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "人肉包子",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E8%82%89%E5%8C%85%E5%AD%90",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "2 回合內，自身攻擊力 4 倍，個人追打火屬性攻擊 1 次；效果期間，若有擊斃敵人，自身主動技能 CD 減少 1",
+    "skillMonsters": [
+      "2071"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "人類之力",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E4%B9%8B%E5%8A%9B",
@@ -13802,7 +13813,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%A8%E4%B8%96%E4%B9%8B%E6%9D%96_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": 13,
     "skillCDMax": 8,
-    "skillDesc": "1 回合內，自身攻擊力 10 倍，並消除所有附加效果；若擊斃本層 (Wave) 所有敵人，回復 2 點 EP",
+    "skillDesc": "1 回合內，自身攻擊力 10 倍，並消除所有附加效果；若擊斃本層 (Wave) 所有敵人，自身技能 EP 增加 2",
     "skillMonsters": [
       "2042"
     ]
@@ -26781,6 +26792,17 @@
     "skillDesc": "將場上固定位置的符石轉化為光符石",
     "skillMonsters": [
       "1094"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "騎士精神",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E7%B2%BE%E7%A5%9E",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "引爆水符石以掉落水以外的強化符石。1 回合內，移動符石後首批掉落的 15 粒符石必定為人族符石；每消除 3 粒人族符石，個人追打 1 次，最多 10 次",
+    "skillMonsters": [
+      "2035"
     ]
   },
   {
