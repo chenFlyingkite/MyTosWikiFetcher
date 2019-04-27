@@ -40930,8 +40930,8 @@
         "iconKey": "SI158.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI233.png/revision/latest/scale-to-width-down/22?cb\u003d20150712170520\u0026path-prefix\u003dzh",
-        "iconKey": "SI233.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI156.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102645\u0026path-prefix\u003dzh",
+        "iconKey": "SI156.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
@@ -56595,8 +56595,8 @@
   {
     "id": "3225",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3225",
-    "name": "人類禁錮 ‧ 敵屬高級拼圖盾-限 ‧ 無視減傷",
-    "detail": "首回合永久封鎖人類成員的主動技能及其攻擊。需以與敵人相同屬性的符石，以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。無視所有減傷效果和意志技能",
+    "name": "人類禁錮 ‧ 火強化初級拼圖盾-限 ‧ 無視減傷",
+    "detail": "首回合永久封鎖人類成員的主動技能及其攻擊。\u003cbr\u003e需以指定的形狀消除相應數量的火強化符石 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3225}}",
     "icons": [
       {
