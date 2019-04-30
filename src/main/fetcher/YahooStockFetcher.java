@@ -73,11 +73,17 @@ public class YahooStockFetcher implements Runnable {
     }
 
     public void parse() {
-        findMarket(marketLinks(), "m");
-        findMarket(tableLinks(), "t");
+        List<MoneyInfo> market = findMarket(marketLinks(), "m");
+        List<MoneyInfo> table = findMarket(tableLinks(), "t");
+
+        market.sort((o1, o2) -> Double.compare(o1.d2, o2.d2));
+        printToFile(market, new LF(FOLDER, "m_price.txt"));
+
+        table.sort((o1, o2) -> Double.compare(o1.d2, o2.d2));
+        printToFile(table, new LF(FOLDER, "t_price.txt"));
     }
 
-    private void findMarket(List<StockInfo> all, String prefix) { // 集中市場
+    private List<MoneyInfo> findMarket(List<StockInfo> all, String prefix) { // 集中市場
         //List<StockInfo> all = links();
         List<MoneyInfo> cash1 = new ArrayList<>();
         List<MoneyInfo> cash2 = new ArrayList<>();
@@ -103,7 +109,7 @@ public class YahooStockFetcher implements Runnable {
                 String item = list.get(j);
                 String id = item.substring(0, 4);
                 double[] divs = YahooGet.me.dividend(id);
-                double price = YahooGet.me.price(id);
+                //double price = YahooGet.me.price(id);
                 double p2 = prices.get(j);
                 // Create for cash
                 MoneyInfo m = new MoneyInfo();
@@ -129,6 +135,7 @@ public class YahooStockFetcher implements Runnable {
         printToFile(cash1, lf1);
         printToFile(cash2, lf2);
         mLf.getFile().close();
+        return new ArrayList<>(cash1);
     }
 
     private void printToFile(List<MoneyInfo> list, LF lf) {

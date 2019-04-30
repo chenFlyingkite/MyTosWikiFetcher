@@ -249,7 +249,7 @@ public class ASD {
         // Major part
         int sn = 0, tn = 0, un = 0;
         L.log("--**--\n");
-        int m = 0;
+        int n = 0, m = 0;
         for (TosCard c : allCards) {
             String s = c.skillDesc1 + " & " + c.skillDesc2 + " & " + c.skillAwkName;
             String t = c.cardDetails;
@@ -272,13 +272,14 @@ public class ASD {
 
                 if (c.race.contains("素材")) {
                     m++;
-                    //L.log(exist + "\n" + sc(c));
+                } else {
+                    n++;
                 }
             }
         }
 
         L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, key);
-        L.log("%s in 素材", m);
+        L.log("Found %s in normal, %s in 素材", n, m);
     }
 
     private static void findCardSkill(String key, TosCard[] allCards) {
