@@ -1,12 +1,14 @@
 package main.kt
 
 import flyingkite.functional.MeetSS
+import flyingkite.log.L
 import flyingkite.math.MathUtil
 import flyingkite.tool.TextUtil
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
+import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
@@ -923,7 +925,7 @@ class TosGet {
                 }
 
                 // Header of Row
-                val anx = getAnchors(s, "技能", "召喚獸能力提升", "附加技能效果")
+                val anx = getAnchors(s, "龍刻技能", "召喚獸能力提升", "常駐附加效果")
                 // 1st
                 var up = anx[0]
                 if (up >= 0) {
@@ -957,7 +959,7 @@ class TosGet {
                 ans.mode = s[8].text()
                 ans.charge = s[9].text()
                 // Header of Row
-                val x = getAnchors(s, "技能", "來源")
+                val x = getAnchors(s, "龍刻技能", "來源")
                 val sks =  getCraftSkills(s, x[0], x[1])
                 ans.craftSkill.addAll(sks)
             }
