@@ -25,6 +25,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -146,7 +147,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
 
         long dur;
         dur = clock.tac("%s Done", tag());
-        L.log("time = %s", StringUtil.MMSSFFF(dur));
+        L.log("time = %s     at %s", StringUtil.MMSSFFF(dur), new Date());
     }
 
     private CardInfo getCardInfo(String link) {

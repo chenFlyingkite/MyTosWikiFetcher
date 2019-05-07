@@ -3646,6 +3646,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "凝聚 ‧ 聖鬥士的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%87%9D%E8%81%9A_%E2%80%A7_%E8%81%96%E9%AC%A5%E5%A3%AB%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類成員時： I. 消除 1 組符石的數目愈多，全隊攻擊力提升愈多，消除 1 組 4 粒符石攻擊力可提升 2 倍，消除 1 組 12 粒符石可提升至最大 10 倍 II. 隊伍中所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力、回復力額外提升 1.2 倍",
+    "skillMonsters": [
+      "2107"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "凶性死棋",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%87%B6%E6%80%A7%E6%AD%BB%E6%A3%8B",
@@ -4300,6 +4311,17 @@
     "skillDesc": "火屬性傷害持續提升，直至沒有消除一組 5 粒或以上的火符石 (只計算首批消除的符石)。每累計消除 20 粒符石，火屬性傷害加快提升。火屬性傷害會於每一層數 (Wave) 重置",
     "skillMonsters": [
       "1358"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "原子力雷神光速拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8E%9F%E5%AD%90%E5%8A%9B%E9%9B%B7%E7%A5%9E%E5%85%89%E9%80%9F%E6%8B%B3",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 1 回合內，個人以 50% 自身攻擊力追打光屬性攻擊 10 次 II. 若擊斃本層 (Wave) 所有敵人，自身主動技能 CD 減少 3",
+    "skillMonsters": [
+      "2125"
     ]
   },
   {
@@ -5342,6 +5364,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "天秤座黃金聖衣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%A7%A4%E5%BA%A7%E9%BB%83%E9%87%91%E8%81%96%E8%A1%A3",
+    "skillCDMin": 8,
+    "skillCDMax": 8,
+    "skillDesc": "需裝備「天秤座黃金聖衣」龍刻武裝才可發動此技能： I. 變身 II. 完全回復生命力 III. 1 回合內，木符石兼具其他屬性符石效果",
+    "skillMonsters": [
+      "2105"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "天輪・五芒星之劍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E8%BC%AA%E3%83%BB%E4%BA%94%E8%8A%92%E6%98%9F%E4%B9%8B%E5%8A%8D",
     "skillCDMin": 12,
@@ -5416,6 +5449,28 @@
       "0724",
       "0397",
       "0725"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "天馬彗星拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%A6%AC%E5%BD%97%E6%98%9F%E6%8B%B3",
+    "skillCDMin": 15,
+    "skillCDMax": 9,
+    "skillDesc": "I. 分別將 12 個及 18 個固定位置的符石轉化為光人族強化符石及心強化符石 II. 1 回合內，個人追打自身擊力 3 倍的光屬性攻擊 1 次",
+    "skillMonsters": [
+      "2108"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "天馬流星拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%A6%AC%E6%B5%81%E6%98%9F%E6%8B%B3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將 12 個固定位置的符石轉化為光強化符石 II. 1 回合內，以 30% 自身攻擊力追打光屬性攻擊 12 次",
+    "skillMonsters": [
+      "2107"
     ]
   },
   {
@@ -5495,6 +5550,28 @@
     "skillDesc": "木屬性攻擊力 2 倍，隊伍中每個魔族成員，扣除 5 %總生命力上限及增加木屬性攻擊力 0.5 倍，6 個魔族成員共扣除 30% 總生命力上限及可達至最高 5 倍木屬性攻擊力",
     "skillMonsters": [
       "1641"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "天龍之鱗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%BE%8D%E4%B9%8B%E9%B1%97",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 以左下角的符石開始轉珠時，全隊攻擊力及回復力額外提升 1.5 倍 III. 以右下角的符石開始轉珠時，移動符石時觸碰的首 3 粒符石轉化為木強化符石 IV. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillMonsters": [
+      "2105"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "天龍之鱗 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%BE%8D%E4%B9%8B%E9%B1%97_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 以左下角的符石開始轉珠時，全隊攻擊力及回復力額外提升 1.8 倍 III. 以右下角的符石開始轉珠時，移動符石時觸碰的首 3 粒符石轉化為木人族強化符石 IV. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillMonsters": [
+      "2106"
     ]
   },
   {
@@ -6348,6 +6425,28 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "射手座之箭",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B0%84%E6%89%8B%E5%BA%A7%E4%B9%8B%E7%AE%AD",
+    "skillCDMin": 16,
+    "skillCDMax": 10,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 自身攻擊力 12 倍，其他成員不能發動攻擊，此傷害無視防禦力及「指定形狀盾」敵技",
+    "skillMonsters": [
+      "2108"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "射手座黃金聖衣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B0%84%E6%89%8B%E5%BA%A7%E9%BB%83%E9%87%91%E8%81%96%E8%A1%A3",
+    "skillCDMin": 8,
+    "skillCDMax": 8,
+    "skillDesc": "需裝備「射手座黃金聖衣」龍刻武裝才可發動此技能： I. 變身 II. 引爆所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 所在直行的符石，以掉落該直行成員屬性的符石",
+    "skillMonsters": [
+      "2107"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "小傑之本能",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B0%8F%E5%82%91%E4%B9%8B%E6%9C%AC%E8%83%BD",
@@ -7061,6 +7160,39 @@
     "skillMonsters": [
       "2014",
       "2015"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "廬山昇龍霸",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BB%AC%E5%B1%B1%E6%98%87%E9%BE%8D%E9%9C%B8",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆場上所有符石，以在自身直行掉落木符石，其他直行的符石則隨機掉落 II. 1 回合內，自身攻擊力 7 倍，但受到的傷害提升 1.5 倍",
+    "skillMonsters": [
+      "2105"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "廬山百龍霸",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BB%AC%E5%B1%B1%E7%99%BE%E9%BE%8D%E9%9C%B8",
+    "skillCDMin": 16,
+    "skillCDMax": 10,
+    "skillDesc": "I. 將所有符石轉化為固定數量的木強化及心強化符石 II. 1 回合內，首批掉落的 30 粒符石必定為木及心符石",
+    "skillMonsters": [
+      "2106"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "廬山龍飛翔",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BB%AC%E5%B1%B1%E9%BE%8D%E9%A3%9B%E7%BF%94",
+    "skillCDMin": 13,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆場上所有符石，以在自身直行掉落木人族符石，其他直行的符石則隨機掉落 II. 1 回合內，自身攻擊力 7 倍",
+    "skillMonsters": [
+      "2106"
     ]
   },
   {
@@ -9171,6 +9303,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "星光滅絕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E5%85%89%E6%BB%85%E7%B5%95",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "1 回合內 I. 自身生命力愈高，全隊攻擊力愈高，最大 2.2 倍 II. 人類成員追打光屬性攻擊 1 次",
+    "skillMonsters": [
+      "2123"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "星火延展",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E7%81%AB%E5%BB%B6%E5%B1%95",
     "skillCDMin": 19,
@@ -9211,6 +9354,39 @@
     "skillDesc": "1 回合內，移動符石時間延長 2 秒，消除任何 2 橫行內的所有符石時 (只計算首批消除的符石)，全隊攻擊力 2.5 倍",
     "skillMonsters": [
       "0976"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星雲旋風",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9B%B2%E6%97%8B%E9%A2%A8",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "I. 場上外側 18 粒的符石轉化為強化符石 II. 1 回合內，全隊攻擊力 2 倍",
+    "skillMonsters": [
+      "2110"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星雲鎖鏈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9B%B2%E9%8E%96%E9%8F%88",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內： I. 自身攻擊力 3 倍 II. 將移動符石時觸碰的首 10 粒符石轉化為強化符石",
+    "skillMonsters": [
+      "2109"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星雲風暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9B%B2%E9%A2%A8%E6%9A%B4",
+    "skillCDMin": 14,
+    "skillCDMax": 8,
+    "skillDesc": "I. 場上外側 18 粒的符石轉化為暗符石，並將其他符石轉化為水、火、木、光符石各 3 粒 II. 回合結束時，對敵方全體造成 100 萬暗屬性傷害 (需消除符石)",
+    "skillMonsters": [
+      "2110"
     ]
   },
   {
@@ -10106,6 +10282,28 @@
     "skillDesc": "自身攻擊力 3 倍，每回合扣除 20% 總生命力，並在每回合發動攻擊後提升自身攻擊力 1 倍 (需要消除符石)，最大可提升至 8 倍。效果會在再次發動此技能或死亡後消失",
     "skillMonsters": [
       "1555"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "曙光女神之寬恕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9B%99%E5%85%89%E5%A5%B3%E7%A5%9E%E4%B9%8B%E5%AF%AC%E6%81%95",
+    "skillCDMin": 16,
+    "skillCDMax": 10,
+    "skillDesc": "I. 將場上的符石變回原始模樣，隨機將符石轉化為凍結符石 (3 回合內不能消除該符石)，直至場上有 7 粒凍結符石為止 II. 將其他符石轉化為水人族符石 III. 消除符石後，將凍結符石變回原始模樣 IV. 1 回合內，凍結敵方全體，使受影響目標無法行動並轉為水屬性",
+    "skillMonsters": [
+      "2102"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "曙光女神之寬恕 (卡妙)",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9B%99%E5%85%89%E5%A5%B3%E7%A5%9E%E4%B9%8B%E5%AF%AC%E6%81%95_(%E5%8D%A1%E5%A6%99)",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將第 3 及 第 4 直行的符石轉化為水強化符石 II. 1 回合內，凍結敵方全體，使受影響目標無法行動並轉為水屬性",
+    "skillMonsters": [
+      "2111"
     ]
   },
   {
@@ -12731,6 +12929,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "水瓶座黃金聖衣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E7%93%B6%E5%BA%A7%E9%BB%83%E9%87%91%E8%81%96%E8%A1%A3",
+    "skillCDMin": 8,
+    "skillCDMax": 8,
+    "skillDesc": "需裝備「水瓶座黃金聖衣」龍刻武裝才可發動此技能： I. 變身 II. 1 回合內，可任意移動符石而不會發動消除",
+    "skillMonsters": [
+      "2101"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "水霧瀰漫",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E9%9C%A7%E7%80%B0%E6%BC%AB",
     "skillCDMin": 19,
@@ -13091,6 +13300,17 @@
       "1290",
       "1479",
       "1679"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "流星拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%81%E6%98%9F%E6%8B%B3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內，自身、「天馬座 ‧ 星矢」及「黃金射手座 ‧ 星矢」以 30% 攻擊力追打水屬性攻擊 10 次",
+    "skillMonsters": [
+      "2126"
     ]
   },
   {
@@ -16423,6 +16643,17 @@
     "skillDesc": "無視敵方屬性，每回合以自身攻擊力 5 倍追打 1 次 (需要消除符石)",
     "skillMonsters": [
       "0224"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "獅子座黃金聖衣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%85%E5%AD%90%E5%BA%A7%E9%BB%83%E9%87%91%E8%81%96%E8%A1%A3",
+    "skillCDMin": 8,
+    "skillCDMax": 8,
+    "skillDesc": "需裝備「獅子座黃金聖衣」龍刻武裝才可發動此技能： I. 變身 II. 所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 所在直行的符石轉化為人族強化符石",
+    "skillMonsters": [
+      "2103"
     ]
   },
   {
@@ -20715,6 +20946,28 @@
   },
   {
     "type": "隊長技",
+    "skillName": "絕對零度 ‧ 冰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%B0%8D%E9%9B%B6%E5%BA%A6_%E2%80%A7_%E5%86%B0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類成員時： I. 連擊 (Combo) 數目愈多，全隊攻擊力提升愈多，3 連擊 (Combo) 提升 4 倍，6 連擊 (Combo) 可提升至最大 5.5 倍 II. 心符石兼具 50% 水符石效果 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillMonsters": [
+      "2101"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "絕對零度 ‧ 煉冰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%B0%8D%E9%9B%B6%E5%BA%A6_%E2%80%A7_%E7%85%89%E5%86%B0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類成員時： I. 連擊 (Combo) 數目愈多，全隊攻擊力提升愈多，3 連擊 (Combo) 提升 4 倍，8 連擊 (Combo) 可提升至最大 6.5 倍 II. 心符石兼具 50% 水符石效果 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillMonsters": [
+      "2102"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "絕殺格鬥術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E6%AE%BA%E6%A0%BC%E9%AC%A5%E8%A1%93",
     "skillCDMin": -1,
@@ -21123,6 +21376,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "聖劍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E5%8A%8D",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將木符石轉化為木人族強化符石 II. 1 回合內，自身、「天龍座 ‧ 紫龍」及「黄金天秤座 ‧ 紫龍」的攻擊力 3 倍，其攻擊無視敵人的防禦力",
+    "skillMonsters": [
+      "2112"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "聖劍 ‧ 裂光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E5%8A%8D_%E2%80%A7_%E8%A3%82%E5%85%89",
@@ -21197,6 +21461,36 @@
     "skillDesc": "隊伍中只有人類成員時，人類生命力及攻擊力 1.5 倍，光屬性人類則 2 倍；每次受到敵人攻擊時，人類攻擊力額外持續提升，最大 6 倍。連續 2 回合沒有受到敵人攻擊，攻擊力減少",
     "skillMonsters": [
       "1885"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "聖鬥士之心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E9%AC%A5%E5%A3%AB%E4%B9%8B%E5%BF%83",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 隊伍中有 3 個或以上「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 時，心符石兼具 50% 所有屬性符石效果 (可疊加)",
+    "skillMonsters": [
+      "2103",
+      "2104",
+      "2109",
+      "2110",
+      "2123",
+      "2125"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "聖鬥士之志",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E9%AC%A5%E5%A3%AB%E4%B9%8B%E5%BF%97",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 4 倍 II. 隊伍中有 3 個或以上「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 時，全隊攻擊力及回復力額外提升 1.5 倍",
+    "skillMonsters": [
+      "2111",
+      "2112",
+      "2113",
+      "2126"
     ]
   },
   {
@@ -22649,6 +22943,17 @@
     "skillMonsters": [
       "1290",
       "1291"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "處女座黃金聖衣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%99%95%E5%A5%B3%E5%BA%A7%E9%BB%83%E9%87%91%E8%81%96%E8%A1%A3",
+    "skillCDMin": 8,
+    "skillCDMax": 8,
+    "skillDesc": "需裝備「處女座黃金聖衣」龍刻武裝才可發動此技能： I. 變身 II. 1 回合內，自身攻擊力及回復力 4 倍",
+    "skillMonsters": [
+      "2109"
     ]
   },
   {
@@ -24818,6 +25123,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "金光火燄旋風拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E5%85%89%E7%81%AB%E7%87%84%E6%97%8B%E9%A2%A8%E6%8B%B3",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將 12 個固定位置的符石分別轉化為 6 粒水人族符石及 6 粒火人族符石 II. 1 回合內，個人追打水及火屬性攻擊各 5 次",
+    "skillMonsters": [
+      "2102"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "金剛不壞",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E5%89%9B%E4%B8%8D%E5%A3%9E",
@@ -25078,6 +25394,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "鑽石星塵",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%91%BD%E7%9F%B3%E6%98%9F%E5%A1%B5",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將 8 個固定位置的符石轉化為水人族符石 II. 1 回合內，以 50% 自身攻擊力追打水屬性攻擊 10 次",
+    "skillMonsters": [
+      "2101"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "閃光彈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E5%BD%88",
     "skillCDMin": 19,
@@ -25217,6 +25544,17 @@
     "skillDesc": "對敵方全體造成 3 倍光屬性傷害，若以此技能擊斃敵人，可即時再次發動此技能",
     "skillMonsters": [
       "1595"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "閃電光速拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E9%9B%BB%E5%85%89%E9%80%9F%E6%8B%B3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將心符石轉化為火強化符石 II. 將暗符石轉化為光強化符石 III. 1 回合內，連擊 (Combo) 數目增加 7",
+    "skillMonsters": [
+      "2113"
     ]
   },
   {
@@ -28242,6 +28580,39 @@
     "skillMonsters": [
       "1568",
       "1573"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "鳳凰幻魔拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%B9%BB%E9%AD%94%E6%8B%B3",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆最底 1 橫行的符石以掉落強化符石 II. 1 回合內，減少 50% 所受傷害",
+    "skillMonsters": [
+      "2103"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "鳳凰幻魔拳 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%B9%BB%E9%AD%94%E6%8B%B3_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆下方 3 橫行的符石以掉落強化符石 II. 1 回合內，減少 50% 所受傷害",
+    "skillMonsters": [
+      "2104"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "鳳翼天翔",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B3%B3%E7%BF%BC%E5%A4%A9%E7%BF%94",
+    "skillCDMin": 15,
+    "skillCDMax": 9,
+    "skillDesc": "I. 1 回合內，觸碰被燃燒的位置所受的傷害減至 0 (不包括煉獄之火所造成的傷害) II. 每首批消除 1 種符石，必定掉落 5 粒火強化符石，首批消除 6 種可掉落最多 30 粒火強化符石",
+    "skillMonsters": [
+      "2104"
     ]
   },
   {

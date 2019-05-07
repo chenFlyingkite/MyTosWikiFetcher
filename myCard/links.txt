@@ -13848,6 +13848,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6242"
   },
   {
+    "title": "S243 劍風雷動 ‧ 加斯陀與波魯克斯",
+    "id": "6243",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8A%8D%E9%A2%A8%E9%9B%B7%E5%8B%95_%E2%80%A7_%E5%8A%A0%E6%96%AF%E9%99%80%E8%88%87%E6%B3%A2%E9%AD%AF%E5%85%8B%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/6243"
+  },
+  {
     "title": "S244 星靈魔導士 ‧ 露西(動態造型)",
     "id": "6244",
     "link": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9D%88%E9%AD%94%E5%B0%8E%E5%A3%AB_%E2%80%A7_%E9%9C%B2%E8%A5%BF(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
