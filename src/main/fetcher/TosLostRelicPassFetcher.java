@@ -12,7 +12,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class TosLostRelicPassFetcher extends TosWikiBaseFetcher {
-    private TosLostRelicPassFetcher() {}
     public static final TosLostRelicPassFetcher me = new TosLostRelicPassFetcher();
     private static final String folder = "myLostRelicPass";
     private LF mLf = new LF(folder);

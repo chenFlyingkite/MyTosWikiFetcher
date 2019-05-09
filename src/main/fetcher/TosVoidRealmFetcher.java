@@ -10,7 +10,6 @@ import org.jsoup.nodes.Element;
 import java.util.List;
 
 public class TosVoidRealmFetcher extends TosWikiBaseFetcher {
-    private TosVoidRealmFetcher() {}
     public static final TosVoidRealmFetcher me = new TosVoidRealmFetcher();
     private static final String folder = "myVoidRealm";
     private LF mLf = new LF(folder);

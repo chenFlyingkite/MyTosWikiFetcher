@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Map;
 
 public class TosWikiChecker {
-    private TosWikiChecker() {}
     public static final TosWikiChecker me = new TosWikiChecker();
     private Gson gson = new Gson();
     private File source = new File("myCard", "cardList.json");

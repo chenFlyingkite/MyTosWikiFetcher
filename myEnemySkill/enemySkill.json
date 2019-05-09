@@ -56575,7 +56575,7 @@
     "id": "3224",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3224",
     "name": "人類禁錮 ‧ 敵屬初級拼圖盾-限 ‧ 無視減傷",
-    "detail": "首回合永久封鎖人類成員的主動技能及其攻擊。需以與敵人相同屬性的符石，以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。無視所有減傷效果和意志技能",
+    "detail": "首回合永久封鎖人類成員的主動技能及其攻擊。\u003cbr\u003e需以與敵人相同屬性的符石，以指定的形狀消除 (不可連同形狀外旁邊的符石消除) 才會對敵人造成攻擊傷害。\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3224}}",
     "icons": [
       {
@@ -56602,6 +56602,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/00/SI022.png/revision/latest/scale-to-width-down/22?cb\u003d20150223133456\u0026path-prefix\u003dzh",
+        "iconKey": "SI022.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
@@ -57751,7 +57755,7 @@
   {
     "id": "3273",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3273",
-    "name": "擴散燃燒10% ‧ 消心盾5% ‧ 3倍獵魔",
+    "name": "擴散燃燒10% ‧ 消心盾5% ‧ 5倍獵魔",
     "detail": "隨機燃燒 1 個位置，其後每回合燃燒範圍延伸至周邊的其中 1 個位置。每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e每消除 1 粒心符石，可扣除敵人 5% 生命力；除此以外，敵人不受任何攻擊傷害 (包括主動技)。\u003cbr\u003e隊伍中有魔族成員時，敵人攻擊力提升",
     "esCode": "{{ES3273}}",
     "icons": [
@@ -57764,15 +57768,15 @@
         "iconKey": "SI256.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/73/SI068.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102109\u0026path-prefix\u003dzh",
-        "iconKey": "SI068.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/37/SI422.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052927\u0026path-prefix\u003dzh",
+        "iconKey": "SI422.png"
       }
     ]
   },
   {
     "id": "3274",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3274",
-    "name": "雙重擴散燃燒10% ‧ 消心盾2% ‧ 5倍獵魔",
+    "name": "雙重擴散燃燒10% ‧ 消心盾2% ‧ 10倍獵魔",
     "detail": "隨機燃燒 1 個位置，其後每回合燃燒範圍延伸至周邊的其中 2 個位置。每觸碰被燃燒的位置，將扣除召喚師 10% 生命力。\u003cbr\u003e每消除 1 粒心符石，可扣除敵人 2% 生命力；除此以外，敵人不受任何攻擊傷害 (包括主動技)。\u003cbr\u003e隊伍中有魔族成員時，敵人攻擊力提升",
     "esCode": "{{ES3274}}",
     "icons": [
@@ -57785,8 +57789,8 @@
         "iconKey": "SI256.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/73/SI068.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102109\u0026path-prefix\u003dzh",
-        "iconKey": "SI068.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/44/SI429.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052931\u0026path-prefix\u003dzh",
+        "iconKey": "SI429.png"
       }
     ]
   },
@@ -57873,8 +57877,8 @@
     "esCode": "{{ES3278}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0e/SI214.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
-        "iconKey": "SI214.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
@@ -57890,8 +57894,8 @@
     "esCode": "{{ES3279}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0e/SI214.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102906\u0026path-prefix\u003dzh",
-        "iconKey": "SI214.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
@@ -58569,7 +58573,7 @@
         "iconKey": "SI159.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190506161059\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190509042512\u0026path-prefix\u003dzh",
         "iconKey": "SI270.png"
       },
       {
@@ -58598,7 +58602,7 @@
         "iconKey": "SI159.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190506161059\u0026path-prefix\u003dzh",
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190509042512\u0026path-prefix\u003dzh",
         "iconKey": "SI270.png"
       },
       {
@@ -58685,7 +58689,7 @@
   {
     "id": "3311",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3311",
-    "name": "攻前盾 ‧ 3倍獵人",
+    "name": "攻前盾 ‧ 10倍獵人",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e隊伍中有人類成員時，敵人攻擊力提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3311}}",
     "icons": [
@@ -58694,15 +58698,15 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/fa/SI069.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102110\u0026path-prefix\u003dzh",
-        "iconKey": "SI069.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7f/SI430.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052931\u0026path-prefix\u003dzh",
+        "iconKey": "SI430.png"
       }
     ]
   },
   {
     "id": "3312",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3312",
-    "name": "攻前盾 ‧ 3倍獵獸",
+    "name": "攻前盾 ‧ 10倍獵獸",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e隊伍中有獸類成員時，敵人攻擊力提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3312}}",
     "icons": [
@@ -58711,15 +58715,15 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1d/SI070.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102110\u0026path-prefix\u003dzh",
-        "iconKey": "SI070.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/13/SI431.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052932\u0026path-prefix\u003dzh",
+        "iconKey": "SI431.png"
       }
     ]
   },
   {
     "id": "3313",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3313",
-    "name": "攻前盾 ‧ 3倍獵妖",
+    "name": "攻前盾 ‧ 10倍獵妖",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e隊伍中有妖精類成員時，敵人攻擊力提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3313}}",
     "icons": [
@@ -58728,15 +58732,15 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/14/SI072.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102111\u0026path-prefix\u003dzh",
-        "iconKey": "SI072.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b2/SI433.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052933\u0026path-prefix\u003dzh",
+        "iconKey": "SI433.png"
       }
     ]
   },
   {
     "id": "3314",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3314",
-    "name": "攻前盾 ‧ 3倍獵龍",
+    "name": "攻前盾 ‧ 10倍獵龍",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e隊伍中有龍類成員時，敵人攻擊力提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3314}}",
     "icons": [
@@ -58745,15 +58749,15 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1e/SI071.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102110\u0026path-prefix\u003dzh",
-        "iconKey": "SI071.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI432.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052932\u0026path-prefix\u003dzh",
+        "iconKey": "SI432.png"
       }
     ]
   },
   {
     "id": "3315",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3315",
-    "name": "攻前盾 ‧ 3倍獵神",
+    "name": "攻前盾 ‧ 10倍獵神",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e隊伍中有神族成員時，敵人攻擊力提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3315}}",
     "icons": [
@@ -58762,15 +58766,15 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI067.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102109\u0026path-prefix\u003dzh",
-        "iconKey": "SI067.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/64/SI428.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052930\u0026path-prefix\u003dzh",
+        "iconKey": "SI428.png"
       }
     ]
   },
   {
     "id": "3316",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3316",
-    "name": "攻前盾 ‧ 3倍獵魔",
+    "name": "攻前盾 ‧ 10倍獵魔",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e隊伍中有魔族成員時，敵人攻擊力提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3316}}",
     "icons": [
@@ -58779,15 +58783,15 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/73/SI068.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102109\u0026path-prefix\u003dzh",
-        "iconKey": "SI068.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/44/SI429.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052931\u0026path-prefix\u003dzh",
+        "iconKey": "SI429.png"
       }
     ]
   },
   {
     "id": "3317",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3317",
-    "name": "攻前盾 ‧ 3倍獵機",
+    "name": "攻前盾 ‧ 10倍獵機",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e隊伍中有機械族成員時，敵人攻擊力提升。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3317}}",
     "icons": [
@@ -58796,8 +58800,8 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/60/SI059.png/revision/latest/scale-to-width-down/22?cb\u003d20180418130402\u0026path-prefix\u003dzh",
-        "iconKey": "SI059.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/da/SI434.png/revision/latest/scale-to-width-down/22?cb\u003d20181001052934\u0026path-prefix\u003dzh",
+        "iconKey": "SI434.png"
       }
     ]
   },

@@ -36,7 +36,6 @@ import wikia.articles.UnexpandedArticle;
  */
 @Deprecated
 public class TosWikiCardFetcher extends TosWikiBaseFetcher {
-    private TosWikiCardFetcher() {}
     public static final TosWikiCardFetcher me = new TosWikiCardFetcher();
     private final LF Lf = new LF("mydata");
     private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000";

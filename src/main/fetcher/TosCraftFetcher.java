@@ -17,7 +17,6 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class TosCraftFetcher extends TosWikiBaseFetcher {
-    private TosCraftFetcher() {}
     public static final TosCraftFetcher me = new TosCraftFetcher();
     private static final String folder = "myCraft";
     private LF mLf = new LF(folder);

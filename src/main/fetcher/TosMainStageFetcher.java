@@ -9,7 +9,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 public class TosMainStageFetcher extends TosWikiBaseFetcher {
-    private TosMainStageFetcher() {}
     public static final TosMainStageFetcher me = new TosMainStageFetcher();
     private static final String folder = "myMainStage";
     private LF mLf = new LF(folder);

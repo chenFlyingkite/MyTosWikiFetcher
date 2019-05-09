@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TosWikiStageFetcher extends TosWikiBaseFetcher {
-    private TosWikiStageFetcher() {}
     public  static final TosWikiStageFetcher me = new TosWikiStageFetcher();
 
     private static final String enTosPage = "http://towerofsaviors.wikia.com/wiki/Summoner_Levels";

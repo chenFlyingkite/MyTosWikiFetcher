@@ -9,7 +9,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 public class TosStoryStageFetcher extends TosWikiBaseFetcher {
-    private TosStoryStageFetcher() {}
     public static final TosStoryStageFetcher me = new TosStoryStageFetcher();
     private static final String folder = "myStoryStage";
     private LF mLf = new LF(folder);

@@ -7,7 +7,6 @@ import flyingkite.tool.TicTac2;
 import wikia.articles.UnexpandedArticle;
 
 public class TosWikiIconFetcher extends TosWikiBaseFetcher {
-    private TosWikiIconFetcher() {}
     public static final TosWikiIconFetcher me = new TosWikiIconFetcher();
 
     private final String iconsApi = "http://towerofsaviors.wikia.com/api/v1/Articles/List?category=icons&limit=250000";

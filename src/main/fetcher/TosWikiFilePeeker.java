@@ -17,7 +17,6 @@ import org.jsoup.select.Elements;
 import wikia.articles.UnexpandedArticle;
 
 public class TosWikiFilePeeker extends TosWikiBaseFetcher {
-    private TosWikiFilePeeker() {}
     public static final TosWikiFilePeeker me = new TosWikiFilePeeker();
 
     private final boolean zh = true;

@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Set;
 
 public class TosWikiCardsLister extends TosWikiBaseFetcher {
-    private TosWikiCardsLister() {}
     public static final TosWikiCardsLister me = new TosWikiCardsLister();
     private static final String folder = "myCard";
     private LF mLf = new LF(folder, "log_links.txt");
@@ -114,4 +113,8 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
             }
         }
     }
+
+    // https://tos.fandom.com/zh/api.php
+    // https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B1234%7CfullstatsMax}}
+
 }

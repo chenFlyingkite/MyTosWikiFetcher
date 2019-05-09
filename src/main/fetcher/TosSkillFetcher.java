@@ -20,7 +20,6 @@ import java.util.Map;
 import java.util.Set;
 
 public class TosSkillFetcher extends TosWikiBaseFetcher {
-    private TosSkillFetcher() {}
     public static final TosSkillFetcher me = new TosSkillFetcher();
     private static final String folder = "myAllSkill";
     private LF mLf = new LF(folder);

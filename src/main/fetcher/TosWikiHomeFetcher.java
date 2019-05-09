@@ -8,7 +8,6 @@ import org.jsoup.nodes.Element;
 import flyingkite.log.LF;
 
 public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
-    private TosWikiHomeFetcher() {}
     public static final TosWikiHomeFetcher me = new TosWikiHomeFetcher();
     private static final String folder = "myHome";
     private LF mLf = new LF(folder);

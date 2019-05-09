@@ -10,7 +10,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 public class TosEnemySkillFetcher extends TosWikiBaseFetcher {
-    private TosEnemySkillFetcher() {}
     public static final TosEnemySkillFetcher me = new TosEnemySkillFetcher();
     private static final String folder = "myEnemySkill";
     private LF mLf = new LF(folder);

@@ -133,6 +133,24 @@ public class TosCard {
     @SerializedName(TC.maxTUAllLevel)
     public int maxTUAllLevel;
 
+    /**
+     * Add on HP if LV = 99, skill = max
+     */
+    @SerializedName(TC.allMaxAddHp)
+    public int allMaxAddHp;
+
+    /**
+     * Add on Attack if LV = 99, skill = max
+     */
+    @SerializedName(TC.allMaxAddAttack)
+    public int allMaxAddAttack;
+
+    /**
+     * Add on Recovery if LV = 99, skill = max
+     */
+    @SerializedName(TC.allMaxAddRecovery)
+    public int allMaxAddRecovery;
+
     //------------
     //---- Card Details, 卡片資訊
     //------------

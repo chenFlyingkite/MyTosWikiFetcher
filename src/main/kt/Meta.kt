@@ -228,6 +228,30 @@ class CardItem {
     }
 }
 
+class FullStatsMax {
+    var AMhp = 0
+    var AMAttack = 0
+    var AMRecovery = 0
+
+    fun parse(src : String) : FullStatsMax {
+        val vs = src.split(",")
+        if (vs.size < 6) return this
+
+        AMhp = vs[3].toIntOrNull() ?: 0
+        AMAttack = vs[4].toIntOrNull() ?: 0
+        AMRecovery = vs[5].toIntOrNull() ?: 0
+        return this
+    }
+
+    fun isEmpty() : Boolean {
+        return AMhp == 0 && AMAttack == 0 && AMRecovery == 0
+    }
+
+    override fun toString(): String {
+        return "$AMhp|$AMAttack|$AMRecovery"
+    }
+}
+
 /**
  * Item in 關卡敵人技能/1-500
  *

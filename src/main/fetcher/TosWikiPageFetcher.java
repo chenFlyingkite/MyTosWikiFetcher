@@ -9,7 +9,6 @@ import org.jsoup.select.Elements;
 import flyingkite.log.LF;
 
 public class TosWikiPageFetcher extends TosWikiBaseFetcher {
-    private TosWikiPageFetcher() {}
     public static final TosWikiPageFetcher me = new TosWikiPageFetcher();
     private static final String folder = "myPage";
     private LF mLf = new LF(folder);

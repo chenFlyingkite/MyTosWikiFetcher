@@ -18,7 +18,6 @@ import java.util.Map;
 // TODO : Skills change after Amelioration miss #472's  魔之本性 ‧ 攻
 @Deprecated
 public class TosActiveSkillFetcher extends TosWikiBaseFetcher {
-    private TosActiveSkillFetcher() {}
     public static final TosActiveSkillFetcher me = new TosActiveSkillFetcher();
     private static final String folder = "myActSkill";
     private LF mLf = new LF(folder);

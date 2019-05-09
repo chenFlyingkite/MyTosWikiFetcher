@@ -3,14 +3,17 @@ package main.card;
 import flyingkite.log.L;
 import flyingkite.log.Loggable;
 import flyingkite.tool.TicTac2;
+import main.fetcher.TosCardExtras;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosSkillFetcher.AllSkill;
 import main.kt.CardTds;
 import main.kt.Craft;
+import main.kt.FullStatsMax;
 import main.kt.NameLink;
 import main.kt.SkillInfo;
 import main.kt.SkillInfo2;
+import main.kt.TosGet;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -64,19 +67,23 @@ public class TosCardCreator {
 
     private Map<String, List<Craft>> allArmCrafts;
     private AllSkill allTypeSkills;
+    private Map<String, String> allAMBonus;
 
-    private void loadAllSkills() {
+    private void loadExtraInfo() {
         if (allArmCrafts == null) {
             allArmCrafts = TosCraftFetcher.me.getArmCrafts();
         }
         if (allTypeSkills == null) {
             allTypeSkills = TosSkillFetcher.me.getAllTypedSkills();
         }
+        if (allAMBonus == null) {
+            allAMBonus = TosCardExtras.me.loadAllMaxBonus();
+        }
     }
 
     public TosCard asTosCard(CardInfo info) {
         // Prepare other data
-        loadAllSkills();
+        loadExtraInfo();
 
         // Main body
         TosCard c = null;
@@ -248,6 +255,7 @@ public class TosCardCreator {
         c.sameSkills = info.sameSkills;
         fillStageLinks(c, info);
         fillSkillChange(c, info);
+        fillAllMax(c, info);
     }
 
     private void fillLinks(TosCard c, CardInfo info) {
@@ -496,6 +504,18 @@ public class TosCardCreator {
         // Convert to Skill
         for (SkillInfo2 s : sinf) {
             c.skillChange.add(s.lite());
+        }
+    }
+
+    private void fillAllMax(TosCard c, CardInfo info) {
+        String src = allAMBonus.get(c.idNorm);
+        FullStatsMax f = new FullStatsMax().parse(src);
+        if (f.isEmpty()) {
+
+        } else {
+            c.allMaxAddHp = f.getAMhp();
+            c.allMaxAddAttack = f.getAMAttack();
+            c.allMaxAddRecovery = f.getAMRecovery();
         }
     }
 

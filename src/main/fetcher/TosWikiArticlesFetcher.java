@@ -4,8 +4,10 @@ import flyingkite.log.LF;
 import wikia.articles.NewArticleResultSet;
 import wikia.articles.result.WAResult;
 
+/**
+ * 維基動態 最近動態
+ */
 public class TosWikiArticlesFetcher extends TosWikiBaseFetcher {
-    private TosWikiArticlesFetcher() {}
     public static final TosWikiArticlesFetcher me = new TosWikiArticlesFetcher();
     private static final String folder = "myWikiArticle";
     private LF mLf = new LF(folder);

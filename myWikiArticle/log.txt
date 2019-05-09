@@ -21,6 +21,7 @@ id, creation_date, creator, title, url
 266290, 20190506095541, Tosbot, 聖鬥士之志, https://tos.fandom.com/zh/wiki/%E8%81%96%E9%AC%A5%E5%A3%AB%E4%B9%8B%E5%BF%97
 266247, 20190506051434, Tosbot, 聖鬥士星矢, https://tos.fandom.com/zh/wiki/%E8%81%96%E9%AC%A5%E5%A3%AB%E6%98%9F%E7%9F%A2
 266246, 20190506051357, Tosbot, 寵物圖鑒2101-2150, https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%89%A9%E5%9C%96%E9%91%922101-2150
+266242, 20190506041419, Tosbot, 艾奧羅斯的昇華, https://tos.fandom.com/zh/wiki/%E8%89%BE%E5%A5%A7%E7%BE%85%E6%96%AF%E7%9A%84%E6%98%87%E8%8F%AF
 266239, 20190506041224, Tosbot, 穆的昇華, https://tos.fandom.com/zh/wiki/%E7%A9%86%E7%9A%84%E6%98%87%E8%8F%AF
 266238, 20190506040732, Tosbot, 艾奧里亞的昇華, https://tos.fandom.com/zh/wiki/%E8%89%BE%E5%A5%A7%E9%87%8C%E4%BA%9E%E7%9A%84%E6%98%87%E8%8F%AF
 266236, 20190506040216, Tosbot, 修羅的昇華, https://tos.fandom.com/zh/wiki/%E4%BF%AE%E7%BE%85%E7%9A%84%E6%98%87%E8%8F%AF
@@ -101,4 +102,3 @@ id, creation_date, creator, title, url
 265524, 20190408084042, Wingwing007, 掀開傳奇的後頁 · 光, https://tos.fandom.com/zh/wiki/%E6%8E%80%E9%96%8B%E5%82%B3%E5%A5%87%E7%9A%84%E5%BE%8C%E9%A0%81_%C2%B7_%E5%85%89
 265523, 20190408084041, Wingwing007, 掀開傳奇的後頁 · 木, https://tos.fandom.com/zh/wiki/%E6%8E%80%E9%96%8B%E5%82%B3%E5%A5%87%E7%9A%84%E5%BE%8C%E9%A0%81_%C2%B7_%E6%9C%A8
 265522, 20190408084039, Wingwing007, 掀開傳奇的後頁 · 火, https://tos.fandom.com/zh/wiki/%E6%8E%80%E9%96%8B%E5%82%B3%E5%A5%87%E7%9A%84%E5%BE%8C%E9%A0%81_%C2%B7_%E7%81%AB
-265521, 20190408084038, Wingwing007, 掀開傳奇的後頁 · 水, https://tos.fandom.com/zh/wiki/%E6%8E%80%E9%96%8B%E5%82%B3%E5%A5%87%E7%9A%84%E5%BE%8C%E9%A0%81_%C2%B7_%E6%B0%B4

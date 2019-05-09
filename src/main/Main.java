@@ -8,9 +8,8 @@ import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
-import main.fetcher.TosAAAFetcher;
+import main.fetcher.TosCardExtras;
 import main.fetcher.TosCardFetcher;
-import main.fetcher.TosCardInfos;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
 import main.fetcher.TosLostRelicPassFetcher;
@@ -19,7 +18,6 @@ import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosStoryStageFetcher;
 import main.fetcher.TosVoidRealmFetcher;
-import main.fetcher.TosWikiArticlesFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiChecker;
 import main.fetcher.TosWikiFilePeeker;
@@ -31,15 +29,19 @@ import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
+import main.kt.FullStatsMax;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ExecutorService;
 
 public class Main {
     public static void main(String[] args) {
+        // Common case : load all cards, all cards only
+        // , load other miscs, copy to TosWiki
         //gold();
         //stock();
 
@@ -47,76 +49,87 @@ public class Main {
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
-        //TosWikiArticlesFetcher.me.run();
-        //QWE.run();
+        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
+
+        //MyTosWikiFirebase.run();
         //ASD.run();
         //print();
 
         //TosCardInfos.me.run(); // creating evolution info
     }
 
-    private static void print() {
-        //Printing After LV 300, team slot = 20 + (lv-300) / 20
-        for (int i = 300; i < 900; i++) {
-            int lv = 20 + (i - 300) / 20;
-            L.log("%s -> %02d},", i, lv);
-        }
+    private static void fetch() {
+        fetchMisc();
+        fetchCards();
     }
 
-    private static void fetch() {
-        L.log("" + new Date());
-        long tic = System.currentTimeMillis();
-        TicTac.tic();
-        boolean fixCard = 0 > 0;
-        //-- Regular
-        boolean regl = 1 > 0 && !fixCard; // Regular
-        boolean parl = true; // Parallel
-        // 維基動態
-        if (regl) {
-            // 最近動態
-            runParallel(parl, TosWikiArticlesFetcher.me);
-        }
-        // 神魔主頁內容
-        if (regl) {
-            runParallel(parl, TosWikiHomeFetcher.me);
-        }
-        // 技能內容
-        if (regl) {
-            // 敵人技能
-            runParallel(parl, TosEnemySkillFetcher.me);
-            // 龍刻
-            //runParallel(parl, TosCraftFetcher.me);
-            // 全部技能
-            //runParallel(parl, TosSkillFetcher.me);
-            // 遺跡特許
-            runParallel(parl, TosLostRelicPassFetcher.me);
-            // 主線關卡
-            runParallel(parl, TosMainStageFetcher.me);
-            // 旅人的記憶
-            runParallel(parl, TosStoryStageFetcher.me);
-            // 虛影世界
-            runParallel(parl, TosVoidRealmFetcher.me);
-        }
-        // 卡片內容
-        // Skill change + Craft + Card List -> Card Fetcher
-        List<Runnable> beforeCard = Arrays.asList(
-                TosWikiCardsLister.me
-                , TosSkillFetcher.me
-                , TosCraftFetcher.me
-        );
-        Runnable endCard = TosCardFetcher.me;
-        if (regl) {
-            TaskMonitorUtil.join(beforeCard, endCard);
-        }
+    private void f() {
+        //Printing After LV 300, team slot = 20 + (lv-300) / 20
+//        for (int i = 300; i < 900; i++) {
+//            int lv = 20 + (i - 300) / 20;
+//            L.log("%s -> %02d},", i, lv);
+//        }
+    }
 
-        // Fetch cards only
-        if (fixCard) {
-            TicTac2 c = new TicTac2();
-            c.tic();
+    private static void fetchCards() {
+        boolean fullRun = 1 > 0;
+        clock.tic();
+        if (fullRun) {
+            // 卡片內容
+            // Skill change + Craft + Card List -> Card Fetcher
+            List<Runnable> beforeCard = Arrays.asList(
+                    TosWikiCardsLister.me
+                    , TosSkillFetcher.me
+                    , TosCraftFetcher.me
+            );
+            Runnable endCard = TosCardFetcher.me;
+
+            TaskMonitorUtil.join(beforeCard, endCard);
+        } else {
             //TosCraftFetcher.me.run();
             //TosSkillFetcher.me.run();
             TosCardFetcher.me.run();
-            c.tac("Partly fetch OK");
+        }
+        clock.tac("Card fetched at %s", now());
+    }
+
+    private static void fetchMisc() {
+        L.log("fetchMisc : Start at %s", now());
+        clock.tic();
+        clock.tic();
+        //-- Regular
+        boolean regl = 1 > 0; // Regular
+        boolean parl = true; // Parallel
+
+        List<Runnable> run = new ArrayList<>();
+        if (regl) {
+            MyTosWikiFirebase.run();
+            // 神魔主頁內容
+            run.add(TosWikiHomeFetcher.me);
+            // 技能內容 - 卡片內容 (4 min if fast)
+            // Skill change + Craft + Card List -> Card Fetcher
+            // -  龍刻
+            //run.add(TosCraftFetcher.me);
+            // -  全部技能
+            //run.add(TosSkillFetcher.me);
+            // 敵人技能
+            run.add(TosEnemySkillFetcher.me);
+            // 遺跡特許
+            run.add(TosLostRelicPassFetcher.me);
+            // 主線關卡
+            run.add(TosMainStageFetcher.me);
+            // 旅人的記憶
+            run.add(TosStoryStageFetcher.me);
+            // 虛影世界
+            run.add(TosVoidRealmFetcher.me);
+
+
+            Runnable end = () -> {
+                long t = clock.tacL();
+                L.log("fetchMisc : Done %s", StringUtil.MMSSFFF(t));
+                L.log("now = %s", now());
+            };
+            TaskMonitorUtil.join(run, end);
         }
 
         //-- Seldom
@@ -129,17 +142,11 @@ public class Main {
             TosWikiImageFileFetcher.me.run();
             TosWikiStageFetcher.me.run();
         }
-        //MobileComm.run();
-        // Others misc
-        if (1 > 0) { // left value 1 = yes, 0 = no
-            QWE.run(); // Firebase comments
-        }
-        //ClusterMain.INSTANCE.main(args);
-        //Statistics.run();
-        TicTac.tac("Main ended");
-        long tac = System.currentTimeMillis();
-        L.log("time = %s", StringUtil.MMSSFFF(tac - tic));
-        L.log("" + new Date());
+        clock.tac("fetchMisc : End at %s", now());
+    }
+
+    private static void genFirebase() {
+        MyTosWikiFirebase.run(); // Firebase comments
     }
 
     private static void misc() {
@@ -155,7 +162,14 @@ public class Main {
         YahooStockFetcher.me.parse();
     }
 
-    private static void runParallel(boolean parallel, Runnable... rs) {
+    private static Date now() {
+        return new Date();
+    }
+
+    private static void runs(Runnable... rs) {
+        runs(true, rs);
+    }
+    private static void runs(boolean parallel, Runnable... rs) {
         for (Runnable r : rs) {
             if (parallel) {
                 cache.submit(r);
@@ -185,6 +199,55 @@ public class Main {
         return new CopyInfo(srcFolder, srcFolder + name, dstFolder, dstFolder + name);
     }
 
+
+    private static String[] envDirs() {
+        return new String[] {
+                "Environment.DIRECTORY_ALARMS"
+                , "Environment.DIRECTORY_DCIM"
+                , "Environment.DIRECTORY_DOCUMENTS"
+                , "Environment.DIRECTORY_DOWNLOADS"
+                , "Environment.DIRECTORY_MOVIES"
+                , "Environment.DIRECTORY_MUSIC"
+                , "Environment.DIRECTORY_NOTIFICATIONS"
+                , "Environment.DIRECTORY_PICTURES"
+                , "Environment.DIRECTORY_PODCASTS"
+                , "Environment.DIRECTORY_RINGTONES"
+        };
+    }
+
+    private static void p(String[] keys) {
+        for (String s : keys) {
+            s = s.trim();
+            L.log("logE(\"%-85s = %%s\", %-85s);", s, s);
+        }
+    }
+
+    private static void print() {
+        String methods = "\n" +
+                "        Environment.getRootDirectory();\n" +
+                "        Environment.getDataDirectory();\n" +
+                "        Environment.getDownloadCacheDirectory();\n" +
+                "        Environment.getExternalStorageDirectory();\n" +
+                "        Environment.getExternalStorageState();"
+                ;
+        String[] ms = methods.split("[;]");
+
+        p(envDirs());
+        p(ms);
+
+        String[] dirs = envDirs();
+        for (int i = 0; i < dirs.length; i++) {
+            dirs[i] = String.format("Environment.getExternalStoragePublicDirectory(%s)", dirs[i]);
+        }
+        p(dirs);
+
+        dirs = envDirs();
+        for (int i = 0; i < dirs.length; i++) {
+            dirs[i] = String.format("Context.getExternalFilesDir(%s)", dirs[i]);
+        }
+        p(dirs);
+    }
+
 //    private static void parallel(Runnable... runs) {
 //        for (Runnable r : runs) {
 //            cache.submit(new Runnable() {
@@ -199,8 +262,10 @@ public class Main {
 //        }
 //    }
 //
+    //https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B1234%7CfullstatsMax}}
     private static final ExecutorService cache
     //    = Executors.newCachedThreadPool();
         = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 60);
 
+    private static final TicTac2 clock = new TicTac2();
 }

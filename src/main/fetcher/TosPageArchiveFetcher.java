@@ -7,7 +7,6 @@ import org.jsoup.nodes.Element;
 import flyingkite.log.LF;
 
 public class TosPageArchiveFetcher extends TosWikiBaseFetcher {
-    private TosPageArchiveFetcher() {}
     public static final TosPageArchiveFetcher me = new TosPageArchiveFetcher();
     private static final String folder = "myPageTos";
     private static final String tosArchive = "http://www.towerofsaviors.com/zh/archives";

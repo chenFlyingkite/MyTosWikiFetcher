@@ -32,7 +32,6 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class TosCardFetcher extends TosWikiBaseFetcher {
-    private TosCardFetcher() {}
     public static final TosCardFetcher me = new TosCardFetcher();
     private static final String folder = "myCard";
     private LF mLf = new LF(folder);
@@ -74,8 +73,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/2001" // TosCardCreator = 33
         );
 
-        //link.clear(); // uncomment this if use test links
-        //link.add("https://tos.fandom.com/zh/wiki/2005");
+        link.clear(); // uncomment this if use test links
+        link.add("https://tos.fandom.com/zh/wiki/350");
         //link.add("https://tos.fandom.com/zh/wiki/1327"); // 伊莉莎白
         //link.add("https://tos.fandom.com/zh/wiki/6200");
 

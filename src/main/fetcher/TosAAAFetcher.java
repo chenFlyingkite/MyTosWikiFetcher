@@ -21,7 +21,6 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class TosAAAFetcher extends TosWikiBaseFetcher {
-    private TosAAAFetcher() {}
     public static final TosAAAFetcher me = new TosAAAFetcher();
     private static final String folder = "myAAA";
     private LF mLf = new LF(folder);
@@ -90,10 +89,6 @@ public class TosAAAFetcher extends TosWikiBaseFetcher {
         print(invs);
         for (int i = 0; i < invs.length; i++) {
             String[] a = invs[i].split("[|]");
-            int x = Integer.parseInt(a[7]);
-            if (x != 0) {
-                L.log("QWE x = %s", x);
-            }
         }
         L.log("\n\n");
         statistics("inventory", invs);

@@ -17,7 +17,6 @@ import java.util.TreeMap;
 
 @Deprecated
 public class TosAmeSkillFetcher extends TosWikiBaseFetcher {
-    private TosAmeSkillFetcher() {}
     public static final TosAmeSkillFetcher me = new TosAmeSkillFetcher();
     private static final String folder = "myAmeSkill";
     private LF mLf = new LF(folder);

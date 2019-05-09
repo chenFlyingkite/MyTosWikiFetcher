@@ -3,7 +3,6 @@ package main.fetcher;
 import main.card.TosCard;
 
 public class TosWikiFixer {
-    private TosWikiFixer() {}
 
     private enum Fixes {
         // Fixme : Fix ids 0296 -> 6006, 妖蛋造型

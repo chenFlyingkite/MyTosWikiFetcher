@@ -9,7 +9,6 @@ import org.jsoup.select.Elements;
 import java.util.List;
 
 public class TosWikiSummonerLevelFetcher extends TosWikiBaseFetcher {
-    private TosWikiSummonerLevelFetcher() {}
     public static final TosWikiSummonerLevelFetcher me = new TosWikiSummonerLevelFetcher();
 
     private static final String enPage = "http://towerofsaviors.wikia.com/wiki/Summoner_Levels";
