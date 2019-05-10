@@ -233,7 +233,9 @@ class FullStatsMax {
     var AMAttack = 0
     var AMRecovery = 0
 
-    fun parse(src : String) : FullStatsMax {
+    fun parse(src : String?) : FullStatsMax {
+        if (src == null) return this
+
         val vs = src.split(",")
         if (vs.size < 6) return this
 
@@ -243,8 +245,8 @@ class FullStatsMax {
         return this
     }
 
-    fun isEmpty() : Boolean {
-        return AMhp == 0 && AMAttack == 0 && AMRecovery == 0
+    fun exists() : Boolean {
+        return AMhp > 0 || AMAttack > 0 || AMRecovery > 0
     }
 
     override fun toString(): String {

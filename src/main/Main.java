@@ -5,10 +5,8 @@ import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
-import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
-import main.fetcher.TosCardExtras;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -29,13 +27,11 @@ import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
-import main.kt.FullStatsMax;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.ExecutorService;
 
 public class Main {
@@ -61,6 +57,8 @@ public class Main {
     private static void fetch() {
         fetchMisc();
         fetchCards();
+        //TosWikiCardsLister.me.run();
+        //TosCardFetcher.me.run();
     }
 
     private void f() {
@@ -99,7 +97,6 @@ public class Main {
         clock.tic();
         //-- Regular
         boolean regl = 1 > 0; // Regular
-        boolean parl = true; // Parallel
 
         List<Runnable> run = new ArrayList<>();
         if (regl) {

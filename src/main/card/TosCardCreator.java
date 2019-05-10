@@ -13,7 +13,6 @@ import main.kt.FullStatsMax;
 import main.kt.NameLink;
 import main.kt.SkillInfo;
 import main.kt.SkillInfo2;
-import main.kt.TosGet;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -510,9 +509,7 @@ public class TosCardCreator {
     private void fillAllMax(TosCard c, CardInfo info) {
         String src = allAMBonus.get(c.idNorm);
         FullStatsMax f = new FullStatsMax().parse(src);
-        if (f.isEmpty()) {
-
-        } else {
+        if (f.exists()) {
             c.allMaxAddHp = f.getAMhp();
             c.allMaxAddAttack = f.getAMAttack();
             c.allMaxAddRecovery = f.getAMRecovery();
