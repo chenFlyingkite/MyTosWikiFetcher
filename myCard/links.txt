@@ -13980,6 +13980,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6267"
   },
   {
+    "title": "S283 箏紅彤瓣 · 阿姆士唐",
+    "id": "6283",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AE%8F%E7%B4%85%E5%BD%A4%E7%93%A3_%C2%B7_%E9%98%BF%E5%A7%86%E5%A3%AB%E5%94%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/6283"
+  },
+  {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
     "id": "7001",
     "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2",

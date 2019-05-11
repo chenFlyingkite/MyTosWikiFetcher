@@ -3651,7 +3651,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%87%9D%E8%81%9A_%E2%80%A7_%E8%81%96%E9%AC%A5%E5%A3%AB%E7%9A%84%E5%8A%9B%E9%87%8F",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有人類成員時： I. 消除 1 組符石的數目愈多，全隊攻擊力提升愈多，消除 1 組 4 粒符石攻擊力可提升 2 倍，消除 1 組 12 粒符石可提升至最大 10 倍 II. 隊伍中所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力、回復力額外提升 1.2 倍",
+    "skillDesc": "隊伍中只有人類成員時： I. 延長移動符石時間 2 秒 II. 消除 1 組符石的數目愈多，全隊攻擊力提升愈多，消除 1 組 3 粒符石攻擊力可提升 5.5 倍，消除 1 組 12 粒符石可提升至最大 10 倍 III. 隊伍中所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力、回復力額外提升 1.2 倍",
     "skillMonsters": [
       "2107"
     ]
@@ -5375,6 +5375,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "天舞寶輪",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E8%88%9E%E5%AF%B6%E8%BC%AA",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 2 回合內，人類攻擊力 2 倍 II. 敵方全體陷入天舞戰陣：受影響目標無法行動、攻擊力及防禦力變為 0，持續 2 回合",
+    "skillMonsters": [
+      "2120"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "天輪・五芒星之劍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E8%BC%AA%E3%83%BB%E4%BA%94%E8%8A%92%E6%98%9F%E4%B9%8B%E5%8A%8D",
     "skillCDMin": 12,
@@ -6624,6 +6635,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "巨型號角",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E5%9E%8B%E8%99%9F%E8%A7%92",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 自身直行的符石轉化為火強化符石 II. 1 回合內，自身攻擊轉化為光屬性及自身攻擊力 6 倍",
+    "skillMonsters": [
+      "2115"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "巨大靈丸",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E5%A4%A7%E9%9D%88%E4%B8%B8",
     "skillCDMin": 16,
@@ -7227,7 +7249,8 @@
     "skillMonsters": [
       "0730",
       "0731",
-      "1128"
+      "1128",
+      "2119"
     ]
   },
   {
@@ -11535,7 +11558,8 @@
       "1992",
       "1993",
       "1994",
-      "1995"
+      "1995",
+      "2090"
     ]
   },
   {
@@ -19214,6 +19238,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "積屍氣冥界波",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%8D%E5%B1%8D%E6%B0%A3%E5%86%A5%E7%95%8C%E6%B3%A2",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將 10 個固定位置的符石轉化為暗強化符石 II. 1 回合內，自身攻擊力 4 倍；若敵人身上有附加效果時，自身攻擊力提升至 8 倍",
+    "skillMonsters": [
+      "2117"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "穹天之光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%B9%E5%A4%A9%E4%B9%8B%E5%85%89",
     "skillCDMin": 19,
@@ -21475,6 +21510,8 @@
       "2104",
       "2109",
       "2110",
+      "2117",
+      "2120",
       "2123",
       "2125"
     ]
@@ -21490,6 +21527,7 @@
       "2111",
       "2112",
       "2113",
+      "2115",
       "2126"
     ]
   },
@@ -26166,6 +26204,17 @@
     "skillDesc": "電擊敵方全體，使受影響目標無法行動，持續 3 回合。效果期間機械族攻擊力 1.5 倍",
     "skillMonsters": [
       "1993"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "電流論",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E6%B5%81%E8%AB%96",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "電擊敵方全體，使受影響目標無法行動，持續 1 回合。1 回合內，機械族攻擊力 1.5 倍並將移動符石時觸碰的首 6 粒符石轉化為光強化符石",
+    "skillMonsters": [
+      "2090"
     ]
   },
   {
