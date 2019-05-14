@@ -65,7 +65,7 @@ public class TosCardExtras extends TosWikiBaseFetcher {
 
                 allMaxMap.put(allItems[i].getId(), s);
                 FullStatsMax f = new FullStatsMax().parse(s);
-                if (!s.isEmpty()) {
+                if (f.exists()) {
                     m++;
                 }
             }
