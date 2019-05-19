@@ -12450,6 +12450,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2117"
   },
   {
+    "title": "No. 2118 天蠍座 ‧ 米羅",
+    "id": "2118",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E8%A0%8D%E5%BA%A7_%E2%80%A7_%E7%B1%B3%E7%BE%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/2118"
+  },
+  {
     "title": "No. 2119 雙子座",
     "id": "2119",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E5%AD%90%E5%BA%A7",
@@ -12462,10 +12468,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2120"
   },
   {
+    "title": "No. 2122 白羊座 ‧ 希歐",
+    "id": "2122",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%99%BD%E7%BE%8A%E5%BA%A7_%E2%80%A7_%E5%B8%8C%E6%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2122"
+  },
+  {
     "title": "No. 2123 白羊座 ‧ 穆",
     "id": "2123",
     "link": "https://tos.fandom.com/zh/wiki/%E7%99%BD%E7%BE%8A%E5%BA%A7_%E2%80%A7_%E7%A9%86",
     "linkId": "http://zh.tos.wikia.com/wiki/2123"
+  },
+  {
+    "title": "No. 2124 天秤座 ‧ 童虎",
+    "id": "2124",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%A7%A4%E5%BA%A7_%E2%80%A7_%E7%AB%A5%E8%99%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2124"
   },
   {
     "title": "No. 2125 射手座 ‧ 艾奧羅斯",
@@ -12478,6 +12496,12 @@
     "id": "2126",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%B7%B9%E5%BA%A7_%E2%80%A7_%E9%AD%94%E9%88%B4",
     "linkId": "http://zh.tos.wikia.com/wiki/2126"
+  },
+  {
+    "title": "No. 2127 蛇夫座 ‧ 夏依娜",
+    "id": "2127",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9B%87%E5%A4%AB%E5%BA%A7_%E2%80%A7_%E5%A4%8F%E4%BE%9D%E5%A8%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2127"
   },
   {
     "title": "No. 2128 聖域神鹿",

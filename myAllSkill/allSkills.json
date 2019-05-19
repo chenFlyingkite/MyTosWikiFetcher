@@ -7208,6 +7208,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "廬山百龍霸 (童虎)",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BB%AC%E5%B1%B1%E7%99%BE%E9%BE%8D%E9%9C%B8_(%E7%AB%A5%E8%99%8E)",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆場上所有符石，每直行首粒掉落的必定為木符石 II. 1 回合內，所有成員以 30% 攻擊力追打木屬性攻擊 10 次",
+    "skillMonsters": [
+      "2124"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "廬山龍飛翔",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BB%AC%E5%B1%B1%E9%BE%8D%E9%A3%9B%E7%BF%94",
     "skillCDMin": 13,
@@ -9333,6 +9344,17 @@
     "skillDesc": "1 回合內 I. 自身生命力愈高，全隊攻擊力愈高，最大 2.2 倍 II. 人類成員追打光屬性攻擊 1 次",
     "skillMonsters": [
       "2123"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星屑旋轉",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E5%B1%91%E6%97%8B%E8%BD%89",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將所有符石轉化為人族強化符石 II. 1 回合內，記錄「移動符石時間完結一刻」場上的符石分佈 (包括強化符石、種族符石)，並首批掉落所記錄的符石",
+    "skillMonsters": [
+      "2122"
     ]
   },
   {
@@ -14107,6 +14129,17 @@
     "skillDesc": "水屬性攻擊力 3 倍及水屬性神族攻擊力 4.5 倍；妖精類生命力、攻擊力及回復力額外提升 1.5 倍",
     "skillMonsters": [
       "1624"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "深紅毒針",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E7%B4%85%E6%AF%92%E9%87%9D",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 每消除 1 粒暗符石，個人以 30% 自身攻擊力追打火屬性攻擊 1 次，最多 14 次 II. 達成 6 連擊 (Combo) 或以上時，個人追打自身攻擊力 6 倍的暗屬性攻擊 1 次",
+    "skillMonsters": [
+      "2118"
     ]
   },
   {
@@ -22831,7 +22864,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%97%A4%E6%9C%A8%E7%99%82%E6%B3%95_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": 11,
     "skillCDMax": 6,
-    "skillDesc": "心符石轉化為木人族強化符石，每轉化 1 粒符石將提升自身攻擊力 1 倍及回復 10% 生命力，最多可提升至 8 倍及回復 100% 生命力",
+    "skillDesc": "心符石轉化為木人族強化符石，每轉化 1 粒符石將提升自身攻擊力 1 倍及回復 10% 生命力，最多可提升至 8 倍及回復至 100% 生命力",
     "skillMonsters": [
       "2046"
     ]
@@ -26115,6 +26148,17 @@
     "skillMonsters": [
       "0762",
       "0763"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雷鳴鉤爪",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E9%B3%B4%E9%89%A4%E7%88%AA",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將 6 粒符石轉化為 3 粒光人族強化及 3 粒暗人族強化符石 (水、火、木符石優先轉換) II. 1 回合內，自身攻擊轉化為光屬性、自身攻擊無視敵人的防禦力",
+    "skillMonsters": [
+      "2127"
     ]
   },
   {
