@@ -2734,5 +2734,23 @@
       "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e2/C304.png/revision/latest/scale-to-width-down/60?cb\u003d20190213070435\u0026path-prefix\u003dzh",
       "iconKey": "C304.png"
     }
+  },
+  {
+    "idNorm": "0305",
+    "name": "耀之越時龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%80%80%E4%B9%8B%E8%B6%8A%E6%99%82%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ab/C305.png/revision/latest/scale-to-width-down/60?cb\u003d20190506024802\u0026path-prefix\u003dzh",
+      "iconKey": "C305.png"
+    }
+  },
+  {
+    "idNorm": "0306",
+    "name": "影之越時龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BD%B1%E4%B9%8B%E8%B6%8A%E6%99%82%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/00/C306.png/revision/latest/scale-to-width-down/60?cb\u003d20190506024802\u0026path-prefix\u003dzh",
+      "iconKey": "C306.png"
+    }
   }
 ]

@@ -5,7 +5,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3",
     "skillCDMin": 18,
     "skillCDMax": 9,
-    "skillDesc": "MAX 版 禁千貳百拾壹式 ‧ 八稚女：1 回合內，將全體敵人的攻擊力及防禦力減至 0；自身攻擊力提升 1.5 倍，並以 30% 自身攻擊力追打 8 次暗屬性攻擊。所有成員攻擊後，再對全體敵人追打 1 次自身攻擊力 30 倍的暗屬性傷害。發動此技能時需要儲滿龍脈儀及該回合不能發動龍刻脈動",
+    "skillDesc": "MAX 版 禁千貳百拾壹式 ‧ 八稚女：1 回合內，將敵方全體的攻擊力及防禦力減至 0；自身攻擊力提升 1.5 倍，並以 30% 自身攻擊力追打 8 次暗屬性攻擊。所有成員攻擊後，再對全體敵人追打 1 次自身攻擊力 30 倍的暗屬性傷害。發動此技能時需要儲滿龍脈儀及該回合不能發動龍刻脈動",
     "skillMonsters": [
       "1575"
     ]
@@ -107,7 +107,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%80%E9%AB%AE%E5%8D%83%E9%88%9E",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "無視全體敵人 90% 的防禦力，持續 3 回合；並延遲其行動 1 回合",
+    "skillDesc": "全體敵人的防禦力減少 90%，持續 3 回合；並延遲其行動 1 回合",
     "skillMonsters": [
       "0514"
     ]
@@ -1226,7 +1226,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%82%B2%E8%A6%96%E4%B9%8B%E7%87%84",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "1 回合內，敵方全體點燃，使受影響目標無法行動並轉為火屬性；效果期間，無視全體敵人 80% 的防禦力",
+    "skillDesc": "1 回合內，敵方全體點燃，使受影響目標無法行動並轉為火屬性；效果期間，敵方全體的防禦力減少 80%",
     "skillMonsters": [
       "1702"
     ]
@@ -3356,7 +3356,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%87%9D%E6%99%82%E4%B9%8B%E5%BF%B5",
     "skillCDMin": 17,
     "skillCDMax": 8,
-    "skillDesc": "移動符石時間延長至 10 秒，於移動符石時間內，可任意移動符石而不會發動消除，並無視全體敵人的防禦力。效果持續至沒有擊斃所有敵人",
+    "skillDesc": "移動符石時間延長至 10 秒，於移動符石時間內，可任意移動符石而不會發動消除，並使敵方全體的防禦力減至 0。效果持續至沒有擊斃所有敵人",
     "skillMonsters": [
       "1430",
       "1431"
@@ -6728,7 +6728,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B8%B6%E6%88%91%E9%A3%9B%E5%90%91%E6%9C%88%E7%90%83",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "1 回合內，無視全體敵人 50% 的防禦力；個人追打暗屬性攻擊 3 次",
+    "skillDesc": "1 回合內，敵方全體的防禦力減少 50%；個人追打暗屬性攻擊 3 次",
     "skillMonsters": [
       "0845"
     ]
@@ -8532,7 +8532,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%94%BB%E5%8B%A2%E5%A6%82%E8%99%B9",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "1 回合內，達成 4 連擊 (Combo) 或以下時，無視全體敵人的防禦力；反之，所有成員攻擊力 2 倍。連擊 (Combo) 只計算首批消除的符石",
+    "skillDesc": "1 回合內，達成 4 連擊 (Combo) 或以下時，敵方全體的防禦力減至 0；反之，所有成員攻擊力 2 倍。連擊 (Combo) 只計算首批消除的符石",
     "skillMonsters": [
       "0600",
       "0601",
@@ -13757,7 +13757,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E6%AE%BA%E6%A9%9F",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "水屬性攻擊力 3.75 倍。每個連擊 (Combo) 均有 50% 機會額外計算多 1 連擊 (Combo)，最多可額外增加 10 連擊 (Combo) (機率及連擊數目可以疊加)。加乘不受其他技能影響",
+    "skillDesc": "水屬性攻擊力 3.75 倍。每消除 1 組符石均有 50% 機會額外計算多 1 連擊 (Ex. Combo)，最多可額外增加 10 連擊 (Ex. Combo) (機率及連擊數目可以疊加)。加乘不受其他技能影響",
     "skillMonsters": [
       "1237"
     ]
@@ -15962,7 +15962,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E4%B9%8B%E5%82%B2",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "1 回合內，火屬性攻擊力 1.5 倍，並無視全體敵人 90% 的防禦力",
+    "skillDesc": "1 回合內，火屬性攻擊力 1.5 倍，敵方全體的防禦力減少 90%",
     "skillMonsters": [
       "0949"
     ]
@@ -17757,6 +17757,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "皇家惡魔玫瑰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9A%87%E5%AE%B6%E6%83%A1%E9%AD%94%E7%8E%AB%E7%91%B0",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "敵方全體中毒，每回合將受到「施技者攻擊力」15 倍等值的傷害，此傷害無視防禦力及屬性並持續至死亡；效果期間，敵人的防禦力減至 0 及其攻擊力弱化 30%",
+    "skillMonsters": [
+      "2114"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "盈光術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9B%88%E5%85%89%E8%A1%93",
     "skillCDMin": 15,
@@ -18061,7 +18072,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E7%A9%BA%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E9%BE%8D",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "1 回合內，龍類攻擊力 2 倍，並無視全體敵人 90% 的防禦力",
+    "skillDesc": "1 回合內，龍類攻擊力 2 倍，敵方全體的防禦力減少 90%",
     "skillMonsters": [
       "1125"
     ]
@@ -21533,6 +21544,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "聖鬥士之喚",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E9%AC%A5%E5%A3%AB%E4%B9%8B%E5%96%9A",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力、回復力 2.5 倍",
+    "skillMonsters": [
+      "2116"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "聖鬥士之心",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E9%AC%A5%E5%A3%AB%E4%B9%8B%E5%BF%83",
     "skillCDMin": -1,
@@ -23354,7 +23376,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A3%9D%E7%94%B2%E7%A0%B4%E5%A3%9E",
     "skillCDMin": 19,
     "skillCDMax": 10,
-    "skillDesc": "3 回合內，無視全體敵人 75% 的防禦力",
+    "skillDesc": "3 回合內，敵人的防禦力減少 75%",
     "skillMonsters": [
       "0033",
       "0034",
@@ -23528,7 +23550,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AD%B7%E7%89%86%E5%B4%A9%E5%A3%9E",
     "skillCDMin": 19,
     "skillCDMax": 10,
-    "skillDesc": "3 回合內，無視全體敵人 90% 的防禦力",
+    "skillDesc": "3 回合內，全體敵人的防禦力減少 90%",
     "skillMonsters": [
       "0036"
     ]
@@ -23852,6 +23874,17 @@
     "skillDesc": "火屬性及龍類攻擊力 4.5 倍",
     "skillMonsters": [
       "1383"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "起來吧，聖鬥士們",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B5%B7%E4%BE%86%E5%90%A7%EF%BC%8C%E8%81%96%E9%AC%A5%E5%A3%AB%E5%80%91",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 回復相等於隊伍中所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力總和 II.「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的攻擊力提升 2.5 倍及主動技能 CD 減少 2",
+    "skillMonsters": [
+      "2116"
     ]
   },
   {
@@ -25257,7 +25290,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%9D%9B%E7%81%AB%E7%9C%BC",
     "skillCDMin": 24,
     "skillCDMax": 15,
-    "skillDesc": "1 回合內，無視全體敵人的防禦力",
+    "skillDesc": "1 回合內，敵方全體的防禦力減至 0",
     "skillMonsters": [
       "0227",
       "0228"
@@ -25281,7 +25314,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%9D%9B%E7%9C%9F%E7%81%AB",
     "skillCDMin": 24,
     "skillCDMax": 15,
-    "skillDesc": "1 回合內，全隊攻擊力 1.5 倍，並無視全體敵人的防禦力",
+    "skillDesc": "1 回合內，全隊攻擊力 1.5 倍，敵方全體的防禦力減至 0",
     "skillMonsters": [
       "0227",
       "0228"
@@ -25293,7 +25326,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%9D%9B%E7%9C%9F%E7%81%AB_%E2%80%A7_%E5%87%9D%E7%85%89",
     "skillCDMin": 22,
     "skillCDMax": 8,
-    "skillDesc": "3 回合內，無視全體敵人的防禦力；而且首回合全隊攻擊力 1.5 倍",
+    "skillDesc": "3 回合內，敵方全體的防禦力減至 0；而且首回合全隊攻擊力 1.5 倍",
     "skillMonsters": [
       "0594",
       "1087"
@@ -25319,6 +25352,17 @@
     "skillDesc": "2 回合內，使敵方全體無法行動；效果期間，於每回合結束時消耗敵方現有 10% 生命力",
     "skillMonsters": [
       "1769"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "銀河星爆",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%8A%80%E6%B2%B3%E6%98%9F%E7%88%86",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "I. 連續引爆水、火、木符石 2 次 1 回合內 II. 自身攻擊力 4 倍 　(攻擊力不可與其他成員共享) III. 敵人所受到的暗屬性傷害提升 2 倍",
+    "skillMonsters": [
+      "2121"
     ]
   },
   {
@@ -25436,7 +25480,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%90%B5%E9%BE%8D%E5%8A%8D",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "將自身及身旁直行 9 個指定位置的符石轉化為 6 粒暗強化符石及 3 粒暗符石；1 回合內，首批消除所有暗符石時，無視全體敵人的防禦力",
+    "skillDesc": "將自身及身旁直行 9 個指定位置的符石轉化為 6 粒暗強化符石及 3 粒暗符石；1 回合內，首批消除所有暗符石時，敵方全體的防禦力減至 0",
     "skillMonsters": [
       "1959"
     ]
@@ -26078,7 +26122,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E9%9B%BB_%E2%80%A7_%E6%80%92%E5%93%AE",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "1 回合內，獸類及機械族攻擊力 1.5 倍，無視全體敵人 80% 的防禦力；若發動技能時自身行動值達至 100%，攻擊力提升至 2 倍，並無視全體敵人的防禦力",
+    "skillDesc": "1 回合內，獸類及機械族攻擊力 1.5 倍，無視全體敵人 80% 的防禦力；若發動技能時自身行動值達至 100%，攻擊力提升至 2 倍，並使敵方全體的防禦力減至 0",
     "skillMonsters": [
       "1834"
     ]
@@ -27127,7 +27171,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A1%A7%E5%AE%88%E4%B9%8B%E7%B4%84_%E2%80%A7_%E7%86%BE%E7%87%84",
     "skillCDMin": 22,
     "skillCDMax": 8,
-    "skillDesc": "所受傷害減少 35%，直至沒有消除火及心符石，不包括主動技及隊長技",
+    "skillDesc": "所受傷害減少 35%，消除火或心符石可維持效果",
     "skillMonsters": [
       "1182"
     ]

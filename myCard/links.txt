@@ -12432,6 +12432,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2113"
   },
   {
+    "title": "No. 2114 雙魚座 ‧ 阿布羅狄",
+    "id": "2114",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E9%AD%9A%E5%BA%A7_%E2%80%A7_%E9%98%BF%E5%B8%83%E7%BE%85%E7%8B%84",
+    "linkId": "http://zh.tos.wikia.com/wiki/2114"
+  },
+  {
     "title": "No. 2115 金牛座 ‧ 阿爾德巴朗",
     "id": "2115",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%89%9B%E5%BA%A7_%E2%80%A7_%E9%98%BF%E7%88%BE%E5%BE%B7%E5%B7%B4%E6%9C%97",
@@ -12466,6 +12472,12 @@
     "id": "2120",
     "link": "https://tos.fandom.com/zh/wiki/%E8%99%95%E5%A5%B3%E5%BA%A7_%E2%80%A7_%E6%B2%99%E5%8A%A0",
     "linkId": "http://zh.tos.wikia.com/wiki/2120"
+  },
+  {
+    "title": "No. 2121 雙子座 ‧ 撒卡",
+    "id": "2121",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E5%AD%90%E5%BA%A7_%E2%80%A7_%E6%92%92%E5%8D%A1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2121"
   },
   {
     "title": "No. 2122 白羊座 ‧ 希歐",
