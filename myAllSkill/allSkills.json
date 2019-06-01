@@ -13663,6 +13663,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "浪漫疊韻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BC%AB%E7%96%8A%E9%9F%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，首批 2 粒相連的水、火、木符石可發動消除",
+    "skillMonsters": [
+      "2091"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "浪濤 ‧ 極致",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4_%E2%80%A7_%E6%A5%B5%E8%87%B4",
@@ -14230,6 +14241,17 @@
     "skillDesc": "2 回合內，完全回復生命力，若於最後一層 (Wave) 發動此技能，獸類攻擊力 2.5 倍",
     "skillMonsters": [
       "1922"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "滄浪之水",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%BB%84%E6%B5%AA%E4%B9%8B%E6%B0%B4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "消除水符石的組數愈多時，全隊攻擊力愈高，消除 4 組可達至最大 6 倍",
+    "skillMonsters": [
+      "2091"
     ]
   },
   {
@@ -16070,6 +16092,17 @@
     "skillDesc": "發動技能時，若我方生命力為 1 ，將場上的符石轉化為固定數量及位置的火強化及心強化符石；反之，最左方直行的符石轉化為火強化符石，最右方直行的符石轉化為心強化符石",
     "skillMonsters": [
       "1721"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "燃解心鎖",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%87%83%E8%A7%A3%E5%BF%83%E9%8E%96",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "隊伍中只有火屬性成員才可發動此技能： I. 解除火屬性成員被封鎖的技能 (此技能無視封鎖技能) 2 回合內 II. 心符石的掉落率降至 0，並將原有機率增加至火符石的掉落機率 III. 所有符石兼具 50% 火符石效果",
+    "skillMonsters": [
+      "2099"
     ]
   },
   {
@@ -23083,6 +23116,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "虹女之燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%99%B9%E5%A5%B3%E4%B9%8B%E7%87%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "全隊攻擊力 3.2 倍。隊伍中火屬性成員愈多，火屬性攻擊力及回復力額外提升愈多，6 個可達至最大 2.8 倍",
+    "skillMonsters": [
+      "2099"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "蛇之幻境",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9B%87%E4%B9%8B%E5%B9%BB%E5%A2%83",
@@ -23136,6 +23180,17 @@
     "skillDesc": "木符石轉化為妖族符石。1 回合內，心符石兼具 50% 木符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
     "skillMonsters": [
       "1905"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "蜜甜之妖靈 ‧ 火",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E7%81%AB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "火符石轉化為妖族符石。1 回合內，心符石兼具 50% 火符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
+    "skillMonsters": [
+      "1906"
     ]
   },
   {
