@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2431 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2441 items, basePath = https://tos.fandom.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -68,6 +68,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 人之血脈 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E4%B9%8B%E8%A1%80%E8%84%88
 人彘之愛 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E5%BD%98%E4%B9%8B%E6%84%9B
 人族戰略_‧_光 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E7%95%A5_%E2%80%A7_%E5%85%89
+人族紋章 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E7%B4%8B%E7%AB%A0
 人肉包子 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E8%82%89%E5%8C%85%E5%AD%90
 人類之力 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E4%B9%8B%E5%8A%9B
 人類之力量 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E4%B9%8B%E5%8A%9B%E9%87%8F
@@ -168,6 +169,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 元素結聚之力 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E7%B5%90%E8%81%9A%E4%B9%8B%E5%8A%9B
 元素調勻_‧_光 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%AA%BF%E5%8B%BB_%E2%80%A7_%E5%85%89
 元素調勻_‧_暗 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%AA%BF%E5%8B%BB_%E2%80%A7_%E6%9A%97
+元素調勻_‧_玄光 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%AA%BF%E5%8B%BB_%E2%80%A7_%E7%8E%84%E5%85%89
 元素護壁 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%AD%B7%E5%A3%81
 元素護壁_‧_強 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%AD%B7%E5%A3%81_%E2%80%A7_%E5%BC%B7
 元素轉移_‧_光 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%BD%89%E7%A7%BB_%E2%80%A7_%E5%85%89
@@ -512,6 +514,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 妖精軍師的戰術 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E7%B2%BE%E8%BB%8D%E5%B8%AB%E7%9A%84%E6%88%B0%E8%A1%93
 妖精領域 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E7%B2%BE%E9%A0%98%E5%9F%9F
 妖靈鞭_‧_水 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%9D%88%E9%9E%AD_%E2%80%A7_%E6%B0%B4
+妖靈鞭_‧_浪濤 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%9D%88%E9%9E%AD_%E2%80%A7_%E6%B5%AA%E6%BF%A4
 妖魅之靈 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%85%E4%B9%8B%E9%9D%88
 妖魅咒訣 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%85%E5%92%92%E8%A8%A3
 妖魔伴主 -> https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%94%E4%BC%B4%E4%B8%BB
@@ -924,6 +927,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 格鬥術 -> https://tos.fandom.com/zh/wiki/%E6%A0%BC%E9%AC%A5%E8%A1%93
 格鬥驚森 -> https://tos.fandom.com/zh/wiki/%E6%A0%BC%E9%AC%A5%E9%A9%9A%E6%A3%AE
 棄愛之光 -> https://tos.fandom.com/zh/wiki/%E6%A3%84%E6%84%9B%E4%B9%8B%E5%85%89
+棄愛之光_‧_超脫 -> https://tos.fandom.com/zh/wiki/%E6%A3%84%E6%84%9B%E4%B9%8B%E5%85%89_%E2%80%A7_%E8%B6%85%E8%84%AB
 森之力 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E4%B9%8B%E5%8A%9B
 森之怒 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E4%B9%8B%E6%80%92
 森化幻術 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E5%8C%96%E5%B9%BB%E8%A1%93
@@ -946,6 +950,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 森野敕令 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%87%8E%E6%95%95%E4%BB%A4
 森野神號 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%87%8E%E7%A5%9E%E8%99%9F
 森野結界 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%87%8E%E7%B5%90%E7%95%8C
+森魔之權勢 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%AD%94%E4%B9%8B%E6%AC%8A%E5%8B%A2
 森龍之力 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%BE%8D%E4%B9%8B%E5%8A%9B
 極樂之魅 -> https://tos.fandom.com/zh/wiki/%E6%A5%B5%E6%A8%82%E4%B9%8B%E9%AD%85
 極限解放_‧_幽冥 -> https://tos.fandom.com/zh/wiki/%E6%A5%B5%E9%99%90%E8%A7%A3%E6%94%BE_%E2%80%A7_%E5%B9%BD%E5%86%A5
@@ -1001,6 +1006,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 櫻花鬼神亂舞 -> https://tos.fandom.com/zh/wiki/%E6%AB%BB%E8%8A%B1%E9%AC%BC%E7%A5%9E%E4%BA%82%E8%88%9E
 權欲之光_‧_人 -> https://tos.fandom.com/zh/wiki/%E6%AC%8A%E6%AC%B2%E4%B9%8B%E5%85%89_%E2%80%A7_%E4%BA%BA
 權欲之森_‧_魔 -> https://tos.fandom.com/zh/wiki/%E6%AC%8A%E6%AC%B2%E4%B9%8B%E6%A3%AE_%E2%80%A7_%E9%AD%94
+權欲狂森_‧_魔 -> https://tos.fandom.com/zh/wiki/%E6%AC%8A%E6%AC%B2%E7%8B%82%E6%A3%AE_%E2%80%A7_%E9%AD%94
 次元刀 -> https://tos.fandom.com/zh/wiki/%E6%AC%A1%E5%85%83%E5%88%80
 歃血之盟 -> https://tos.fandom.com/zh/wiki/%E6%AD%83%E8%A1%80%E4%B9%8B%E7%9B%9F
 歃血之盟誓 -> https://tos.fandom.com/zh/wiki/%E6%AD%83%E8%A1%80%E4%B9%8B%E7%9B%9F%E8%AA%93
@@ -1944,11 +1950,13 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 蝕夢之靈 -> https://tos.fandom.com/zh/wiki/%E8%9D%95%E5%A4%A2%E4%B9%8B%E9%9D%88
 蝕夢之靈_‧_強 -> https://tos.fandom.com/zh/wiki/%E8%9D%95%E5%A4%A2%E4%B9%8B%E9%9D%88_%E2%80%A7_%E5%BC%B7
 蝶之翼 -> https://tos.fandom.com/zh/wiki/%E8%9D%B6%E4%B9%8B%E7%BF%BC
+蝶之翼_‧_振翅 -> https://tos.fandom.com/zh/wiki/%E8%9D%B6%E4%B9%8B%E7%BF%BC_%E2%80%A7_%E6%8C%AF%E7%BF%85
 融冰之靈 -> https://tos.fandom.com/zh/wiki/%E8%9E%8D%E5%86%B0%E4%B9%8B%E9%9D%88
 螢之化境 -> https://tos.fandom.com/zh/wiki/%E8%9E%A2%E4%B9%8B%E5%8C%96%E5%A2%83
 血燄注魂術_‧_強獸 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%87%84%E6%B3%A8%E9%AD%82%E8%A1%93_%E2%80%A7_%E5%BC%B7%E7%8D%B8
 血燄注魂術_‧_烈火 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%87%84%E6%B3%A8%E9%AD%82%E8%A1%93_%E2%80%A7_%E7%83%88%E7%81%AB
 血燄注魂術_‧_獸 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%87%84%E6%B3%A8%E9%AD%82%E8%A1%93_%E2%80%A7_%E7%8D%B8
+血祭斷魂劍 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E6%96%B7%E9%AD%82%E5%8A%8D
 血祭狂屠_‧_光 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E7%8B%82%E5%B1%A0_%E2%80%A7_%E5%85%89
 血祭狂屠_‧_暗 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E7%8B%82%E5%B1%A0_%E2%80%A7_%E6%9A%97
 血約 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%B4%84
@@ -2029,6 +2037,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 返靈 -> https://tos.fandom.com/zh/wiki/%E8%BF%94%E9%9D%88
 迷香蕩漾_‧_玄光 -> https://tos.fandom.com/zh/wiki/%E8%BF%B7%E9%A6%99%E8%95%A9%E6%BC%BE_%E2%80%A7_%E7%8E%84%E5%85%89
 追魂之幽 -> https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%AD%82%E4%B9%8B%E5%B9%BD
+追魂之幽_‧_魔暴 -> https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%AD%82%E4%B9%8B%E5%B9%BD_%E2%80%A7_%E9%AD%94%E6%9A%B4
 追魂噬 -> https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%AD%82%E5%99%AC
 追魂奪魄 -> https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%AD%82%E5%A5%AA%E9%AD%84
 逆天加冕 -> https://tos.fandom.com/zh/wiki/%E9%80%86%E5%A4%A9%E5%8A%A0%E5%86%95
@@ -2266,6 +2275,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 馴化之鞭 -> https://tos.fandom.com/zh/wiki/%E9%A6%B4%E5%8C%96%E4%B9%8B%E9%9E%AD
 馴獅之志 -> https://tos.fandom.com/zh/wiki/%E9%A6%B4%E7%8D%85%E4%B9%8B%E5%BF%97
 騎士之盟 -> https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E7%9B%9F
+騎士之魂_‧_人 -> https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E4%BA%BA
 騎士王神劍_-_王者之劍 -> https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E7%8E%8B%E7%A5%9E%E5%8A%8D_-_%E7%8E%8B%E8%80%85%E4%B9%8B%E5%8A%8D
 騎士精神 -> https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E7%B2%BE%E7%A5%9E
 驍勇之力 -> https://tos.fandom.com/zh/wiki/%E9%A9%8D%E5%8B%87%E4%B9%8B%E5%8A%9B
@@ -2432,4 +2442,4 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2456 skills
+2466 skills

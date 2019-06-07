@@ -11820,6 +11820,24 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1975"
   },
   {
+    "title": "No. 1976 縹水靈石",
+    "id": "1976",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B8%B9%E6%B0%B4%E9%9D%88%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/1976"
+  },
+  {
+    "title": "No. 1977 嗣火靈石",
+    "id": "1977",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%97%A3%E7%81%AB%E9%9D%88%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/1977"
+  },
+  {
+    "title": "No. 1978 擢秀靈石",
+    "id": "1978",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%93%A2%E7%A7%80%E9%9D%88%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/1978"
+  },
+  {
     "title": "No. 1979 曈芒靈石",
     "id": "1979",
     "link": "https://tos.fandom.com/zh/wiki/%E6%9B%88%E8%8A%92%E9%9D%88%E7%9F%B3",
@@ -12108,6 +12126,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2035"
   },
   {
+    "title": "No. 2039 拂曉聖騎士 · 丹尼絲",
+    "id": "2039",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8B%82%E6%9B%89%E8%81%96%E9%A8%8E%E5%A3%AB_%C2%B7_%E4%B8%B9%E5%B0%BC%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2039"
+  },
+  {
     "title": "No. 2041 盈水劍舞 · 冰花",
     "id": "2041",
     "link": "https://tos.fandom.com/zh/wiki/%E7%9B%88%E6%B0%B4%E5%8A%8D%E8%88%9E_%C2%B7_%E5%86%B0%E8%8A%B1",
@@ -12352,6 +12376,30 @@
     "id": "2081",
     "link": "https://tos.fandom.com/zh/wiki/%E8%81%96%E6%9D%AF%E4%B9%8B%E6%B0%B8%E6%81%AF_%C2%B7_%E8%89%BE%E8%8E%89%E4%BA%9E",
     "linkId": "http://zh.tos.wikia.com/wiki/2081"
+  },
+  {
+    "title": "No. 2085 大愛秉承 ‧ 帛曳",
+    "id": "2085",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E6%84%9B%E7%A7%89%E6%89%BF_%E2%80%A7_%E5%B8%9B%E6%9B%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2085"
+  },
+  {
+    "title": "No. 2086 至高罪咎 ‧ 撒旦",
+    "id": "2086",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%87%B3%E9%AB%98%E7%BD%AA%E5%92%8E_%E2%80%A7_%E6%92%92%E6%97%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2086"
+  },
+  {
+    "title": "No. 2087 戀棧蝶夢 ‧ 昔拉",
+    "id": "2087",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%80%E6%A3%A7%E8%9D%B6%E5%A4%A2_%E2%80%A7_%E6%98%94%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2087"
+  },
+  {
+    "title": "No. 2088 沉淪幻慾 ‧ 撒斯姆",
+    "id": "2088",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%89%E6%B7%AA%E5%B9%BB%E6%85%BE_%E2%80%A7_%E6%92%92%E6%96%AF%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2088"
   },
   {
     "title": "No. 2090 劃時代天才 · 特斯拉",

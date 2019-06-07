@@ -792,6 +792,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "人族紋章",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E7%B4%8B%E7%AB%A0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石，並將該種符石引爆，以掉落該種符石以外的符石 II. 1 回合內，首批掉落的符石必定為人族符石；每消除 2 粒人族符石，個人追打 1 次，最多 10 次",
+    "skillMonsters": [
+      "2039"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "人肉包子",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E8%82%89%E5%8C%85%E5%AD%90",
     "skillCDMin": 17,
@@ -1975,6 +1986,17 @@
     "skillMonsters": [
       "1424",
       "1425"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "元素調勻 ‧ 玄光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%AA%BF%E5%8B%BB_%E2%80%A7_%E7%8E%84%E5%85%89",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "光屬性生命力、攻擊力、回復力 2.5 倍",
+    "skillMonsters": [
+      "2085"
     ]
   },
   {
@@ -6119,6 +6141,17 @@
     "skillDesc": "隊伍中只有水屬性妖精類成員時，全隊攻擊力 4.25 倍，並將每個成員自身回復力的 1.75 倍各自加入自身攻擊力",
     "skillMonsters": [
       "1247"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "妖靈鞭 ‧ 浪濤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%9D%88%E9%9E%AD_%E2%80%A7_%E6%B5%AA%E6%BF%A4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍 II. 將每個成員自身回復力的 2 倍各自加入自身攻擊力",
+    "skillMonsters": [
+      "2087"
     ]
   },
   {
@@ -11042,6 +11075,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "棄愛之光 ‧ 超脫",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%84%E6%84%9B%E4%B9%8B%E5%85%89_%E2%80%A7_%E8%B6%85%E8%84%AB",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "自身生命力扣至 1，並對敵方全體造成「所扣除生命力」50 倍等值的光屬性傷害，此傷害無視防禦力及「強化突破」敵技",
+    "skillMonsters": [
+      "2085"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "森之力",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E4%B9%8B%E5%8A%9B",
@@ -11341,6 +11385,17 @@
     "skillDesc": "木屬性及獸類攻擊力 1.5 倍，木符石兼具其他屬性符石效果，效果持續至沒有消除木符石",
     "skillMonsters": [
       "7012"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "森魔之權勢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%AD%94%E4%B9%8B%E6%AC%8A%E5%8B%A2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，魔族攻擊力及回復力 1.6 倍，若身旁的成員同為木屬性成員，該成員攻擊力額外提升 1.5 倍",
+    "skillMonsters": [
+      "2088"
     ]
   },
   {
@@ -11973,6 +12028,17 @@
     "skillDesc": "木屬性攻擊力 2 倍；隊伍中的魔族成員愈多，木屬性攻擊力額外提升愈多，5 個魔族成員可達至最大 3.5 倍 (不計自身)。消除場上所有木符石時，木屬性攻擊力額外提升 1.5 倍 (只計算首批消除的符石)",
     "skillMonsters": [
       "1249"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "權欲狂森 ‧ 魔",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AC%8A%E6%AC%B2%E7%8B%82%E6%A3%AE_%E2%80%A7_%E9%AD%94",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 木屬性攻擊力 3.5 倍，木屬性魔族攻擊力則 5 倍 II. 首批消除場上所有木符石時，木屬性攻擊力額外提升 1.5 倍",
+    "skillMonsters": [
+      "2088"
     ]
   },
   {
@@ -23228,6 +23294,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蝶之翼 ‧ 振翅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9D%B6%E4%B9%8B%E7%BF%BC_%E2%80%A7_%E6%8C%AF%E7%BF%85",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將 3 粒符石轉化為水妖族符石 (火符石優先轉換) II. 1 回合內，減少 40% 所受傷害；同時消除水及心符石時，則減少 65% 所受傷害，而且水屬性及妖精類攻擊力 1.5 倍",
+    "skillMonsters": [
+      "2087"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "融冰之靈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%8D%E5%86%B0%E4%B9%8B%E9%9D%88",
     "skillCDMin": 17,
@@ -23277,6 +23354,17 @@
     "skillDesc": "隊伍中只有獸類成員時：全隊攻擊力 5 倍；進入關卡後所有成員的主動技能 CD 減少 5 (效果不能疊加)",
     "skillMonsters": [
       "1224"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "血祭斷魂劍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E6%96%B7%E9%AD%82%E5%8A%8D",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍 II. 消除 3 種或以上符石及自身發動攻擊時，個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次",
+    "skillMonsters": [
+      "2086"
     ]
   },
   {
@@ -24308,6 +24396,17 @@
     "skillDesc": "1 回合內，暗屬性攻擊力 2 倍，自身攻擊力額外提升 3 倍",
     "skillMonsters": [
       "1245"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "追魂之幽 ‧ 魔暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%AD%82%E4%B9%8B%E5%B9%BD_%E2%80%A7_%E9%AD%94%E6%9A%B4",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆場上所有風化符石及凍結符石 II. 將所有符石轉化為魔族符石 III. 1 回合內，暗屬性攻擊力 2 倍，自身攻擊力額外提升 3 倍",
+    "skillMonsters": [
+      "2086"
     ]
   },
   {
@@ -27311,6 +27410,17 @@
       "1454",
       "1455",
       "1459"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "騎士之魂 ‧ 人",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E4%BA%BA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類攻擊力及回復力 4.5 倍；龍脈儀全滿時，人類攻擊力額外提升 1.5 倍。每首批消除 1 種屬性符石，於回合結束時，隨機將該屬性的其中 2 粒符石轉化為人族符石",
+    "skillMonsters": [
+      "2039"
     ]
   },
   {
