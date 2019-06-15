@@ -20,6 +20,10 @@ public class PngDiffRequest extends PngRequest {
     private File diffFolder;
     private File diffFile;
 
+    /**
+     * Diff the two images in folder of param.file and output as "diff.png"
+     * PngDiffer.from(new PngParam("D:\\ZXC\\1")).diff();
+     */
     public PngDiffRequest(PngParam param) {
         reqParam = param;
         diffFolder = param.file;
@@ -43,6 +47,7 @@ public class PngDiffRequest extends PngRequest {
         // Step : Load the pngs as Image
         imgA = loadImage(child[0]);
         imgB = loadImage(child[1]);
+        //L.log("A = %s\n B = %s", child[0], child[1]);
 
         if (imgA == null || imgB == null) {
             L.log("Fail to load image A = %s, B = %s", child[0], child[1]);

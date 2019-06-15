@@ -1,12 +1,16 @@
 package main;
 
 import flyingkite.files.FileUtil;
+import flyingkite.javaxlibrary.images.base.PngParam;
+import flyingkite.javaxlibrary.images.diff.PngDiffRequest;
+import flyingkite.javaxlibrary.images.diff.PngDiffer;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
+import main.fetcher.TosCardExtras;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -15,6 +19,7 @@ import main.fetcher.TosMainStageFetcher;
 import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosStoryStageFetcher;
+import main.fetcher.TosUltimateStageFetcher;
 import main.fetcher.TosVoidRealmFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiChecker;
@@ -42,10 +47,10 @@ public class Main {
         //stock();
 
         //TosAAAFetcher.me.run();
+        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
-        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
 
         //MyTosWikiFirebase.run();
         //ASD.run();
@@ -119,6 +124,8 @@ public class Main {
             run.add(TosStoryStageFetcher.me);
             // 虛影世界
             run.add(TosVoidRealmFetcher.me);
+            // 地獄級關卡
+            run.add(TosUltimateStageFetcher.me);
 
 
             Runnable end = () -> {
@@ -179,13 +186,14 @@ public class Main {
     private static void copyToMyTosWiki() {
         List<CopyInfo> paths = new ArrayList<>();
         String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\";
-        paths.add(as(         "myCard/",   "cardList.json", asset));
-        paths.add(as(        "myCraft/",     "crafts.json", asset));
-        paths.add(as(        "myCraft/",  "armCrafts.json", asset));
-        paths.add(as("myLostRelicPass/",  "relicPass.json", asset));
-        paths.add(as(    "myMainStage/",  "mainStage.json", asset));
-        paths.add(as(   "myStoryStage/", "storyStage.json", asset));
-        paths.add(as(    "myVoidRealm/",  "voidRealm.json", asset));
+        paths.add(as(         "myCard/",     "cardList.json", asset));
+        paths.add(as(        "myCraft/",       "crafts.json", asset));
+        paths.add(as(        "myCraft/",    "armCrafts.json", asset));
+        paths.add(as("myLostRelicPass/",    "relicPass.json", asset));
+        paths.add(as(    "myMainStage/",    "mainStage.json", asset));
+        paths.add(as(   "myStoryStage/",   "storyStage.json", asset));
+        paths.add(as(    "myVoidRealm/",    "voidRealm.json", asset));
+        paths.add(as("myUltimateStage/","ultimateStage.json", asset));
 
         for (CopyInfo i : paths) {
             FileUtil.copy(i.getSrcName(), i.getDstName());

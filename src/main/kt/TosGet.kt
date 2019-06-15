@@ -619,6 +619,21 @@ class TosGet {
             return ans
         }
 
+        fun getUltimateStages(e: Element, baseWiki: String) : List<Stage> {
+            val list = ArrayList<Stage>()
+            val mob = e.getElementsByClass("mobileHide")
+            if (mob.size == 0) return list
+
+            val stg = mob[0].getElementsByClass(imageClass)
+
+            for (i in 0 until stg.size) {
+                val ei = stg[i]
+                val si = getStageInfo(ei, baseWiki)
+                list.add(si)
+            }
+            return list
+        }
+
         fun getStoryStages(e: Element, baseWiki: String) : List<StageGroup> {
             val list = ArrayList<StageGroup>()
             val tit = e.getElementsByClass("titleBar2")
