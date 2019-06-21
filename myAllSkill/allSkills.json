@@ -243,6 +243,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "三原靈冕化陣 ‧ 神燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%89%E5%8E%9F%E9%9D%88%E5%86%95%E5%8C%96%E9%99%A3_%E2%80%A7_%E7%A5%9E%E7%87%84",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "所有符石隨機轉化為水強化、火強化、木強化及心強化符石，同時火符石出現率上升，並將火符石以火神族強化符石代替",
+    "skillMonsters": [
+      "2083"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "三原靈陣 ‧ 血燄",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%89%E5%8E%9F%E9%9D%88%E9%99%A3_%E2%80%A7_%E8%A1%80%E7%87%84",
     "skillCDMin": 19,
@@ -559,7 +570,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B9%BE%E5%9D%A4%E5%A4%AA%E6%A5%B5%E9%99%A3",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有神族或獸類成員時： I. 全隊攻擊力 3.5 倍、生命力及回復力 1.4 倍 II. 隊伍中有 3 種或以上屬性成員時，全隊攻擊力額外 2 倍 III. 消除神族符石時，獸類攻擊力額外 1.5 倍",
+    "skillDesc": "隊伍中只有神族或獸類成員時： I. 全隊攻擊力 3.5 倍、生命力及回復力 1.4 倍 II. 隊伍中有 3 種或以上屬性成員時 ➭ 全隊攻擊力額外 2 倍 III. 消除神族符石時，獸類攻擊力額外 1.5 倍",
     "skillMonsters": [
       "2130"
     ]
@@ -1895,7 +1906,8 @@
     "skillMonsters": [
       "1941",
       "2129",
-      "2134"
+      "2134",
+      "2140"
     ]
   },
   {
@@ -3698,7 +3710,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%87%9D%E8%81%9A_%E2%80%A7_%E8%81%96%E9%AC%A5%E5%A3%AB%E7%9A%84%E5%8A%9B%E9%87%8F",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有人類成員時： I. 延長移動符石時間 2 秒 II. 消除 1 組符石的數目愈多，全隊攻擊力提升愈多，消除 1 組 3 粒符石攻擊力可提升 5.5 倍，消除 1 組 12 粒符石可提升至最大 10 倍 III. 隊伍中所有「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力、回復力額外提升 1.2 倍",
+    "skillDesc": "隊伍中只有人類成員時： I. 延長移動符石時間 2 秒 II. 消除 1 組符石的數目愈多 ➭ 全隊攻擊力提升愈多 ➭ 消除 1 組 3 粒符石攻擊力可提升 5.5 倍 ➭ 消除 1 組 12 粒符石可提升至最大 10 倍 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的 生命力、攻擊力及回復力額外提升 1.2 倍",
     "skillMonsters": [
       "2107"
     ]
@@ -4678,6 +4690,15 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "喋血戰意・虹",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%96%8B%E8%A1%80%E6%88%B0%E6%84%8F%E3%83%BB%E8%99%B9",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 所有成員攻擊力提升 2 倍 II. 同時火符石掉落機率提升 　(效果會在關閉此技能或死亡後消失) 此技能可隨時關閉 ➭ 關閉時，當前技能 CD 減少 4",
+    "skillMonsters": []
+  },
+  {
     "type": "隊長技",
     "skillName": "喋血狂屠",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%96%8B%E8%A1%80%E7%8B%82%E5%B1%A0",
@@ -5025,6 +5046,17 @@
       "1035",
       "1036",
       "1420"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "大地之極權",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E5%9C%B0%E4%B9%8B%E6%A5%B5%E6%AC%8A",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "木屬性攻擊力 4.5 倍及回復力 2 倍",
+    "skillMonsters": [
+      "2084"
     ]
   },
   {
@@ -5627,7 +5659,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%BE%8D%E4%B9%8B%E9%B1%97",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 以左下角的符石開始轉珠時，全隊攻擊力及回復力額外提升 1.5 倍 III. 以右下角的符石開始轉珠時，移動符石時觸碰的首 3 粒符石轉化為木強化符石 IV. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 以左下角的符石開始轉珠時 ➭ 全隊攻擊力及回復力額外提升 1.5 倍 III. 以右下角的符石開始轉珠時 ➭ 移動符石時觸碰的首 3 粒符石 ➭ 轉化為木強化符石 IV. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的 生命力、攻擊力及回復力額外提升 1.2 倍",
     "skillMonsters": [
       "2105"
     ]
@@ -5638,7 +5670,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%BE%8D%E4%B9%8B%E9%B1%97_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 以左下角的符石開始轉珠時，全隊攻擊力及回復力額外提升 1.8 倍 III. 以右下角的符石開始轉珠時，移動符石時觸碰的首 3 粒符石轉化為木人族強化符石 IV. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 以左下角的符石開始轉珠時 ➭ 全隊攻擊力及回復力額外提升 1.8 倍 III. 以右下角的符石開始轉珠時 ➭ 移動符石時觸碰的首 3 粒符石 ➭ 轉化為木人族強化符石 IV. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的 生命力、攻擊力及回復力額外提升 1.2 倍",
     "skillMonsters": [
       "2106"
     ]
@@ -6652,7 +6684,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B1%B1%E5%B4%A9%E7%9F%B3%E8%A3%82",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 解除「石化符石」狀態 II. 所有符石隨機轉換： ➭ 木符石出現率減至 0、光符石以光人族符石代替",
+    "skillDesc": "I. 解除「石化符石」狀態 II. 所有符石隨機轉換： ➭ 木符石出現率減至 0 ➭ 光符石以光人族符石代替",
     "skillMonsters": [
       "2143"
     ]
@@ -12105,9 +12137,20 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AC%8A%E6%AC%B2%E7%8B%82%E6%A3%AE_%E2%80%A7_%E9%AD%94",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 木屬性攻擊力 3.5 倍，木屬性魔族攻擊力則 5 倍 II. 首批消除場上所有木符石時，木屬性攻擊力額外提升 1.5 倍",
+    "skillDesc": "I. 木屬性攻擊力 3.5 倍 ➭ 木屬性魔族攻擊力則 5 倍 II. 首批消除場上所有木符石時 ➭ 木屬性攻擊力額外提升 1.5 倍",
     "skillMonsters": [
       "2088"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "權欲玄環 ‧ 人",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AC%8A%E6%AC%B2%E7%8E%84%E7%92%B0_%E2%80%A7_%E4%BA%BA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 光屬性攻擊力 3.5 倍，光屬性人類則 5 倍 II. 首批消除場上所有光符石時 ➭ 光屬性攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "2089"
     ]
   },
   {
@@ -13798,6 +13841,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "浪屠殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E5%B1%A0%E6%AE%BA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 水屬性攻擊力 5.25 倍 生命力及回復力 1.3 倍 II. 每消除 1 組符石均有 50% 機會 ➭ 額外計算多 1 連擊 (Ex. Combo) ➭ 最多可額外增加 15 連擊 (Ex. Combo) 　(機率及連擊數目可以疊加) 　加乘不受其他技能影響",
+    "skillMonsters": [
+      "2082"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "浪漫疊韻",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BC%AB%E7%96%8A%E9%9F%BB",
@@ -14275,6 +14329,17 @@
     "skillDesc": "水屬性攻擊力 3 倍及水屬性神族攻擊力 4.5 倍；妖精類生命力、攻擊力及回復力額外提升 1.5 倍",
     "skillMonsters": [
       "1624"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "深海連環",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B5%B7%E9%80%A3%E7%92%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 消除符石的組數愈多時，全隊攻擊力愈高 ➭ 消除 10 組可達至最大 2.5 倍",
+    "skillMonsters": [
+      "2082"
     ]
   },
   {
@@ -16246,7 +16311,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%87%83%E8%A7%A3%E5%BF%83%E9%8E%96",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "隊伍中只有火屬性成員才可發動此技能： I. 解除火屬性成員被封鎖的技能 (此技能無視封鎖技能) 2 回合內 II. 心符石的掉落率降至 0，並將原有機率增加至火符石的掉落機率 III. 所有符石兼具 50% 火符石效果",
+    "skillDesc": "I. 解除火屬性成員被封鎖的技能 (此技能無視封鎖技能) 2 回合內 II. 心符石的掉落率降至 0，並將原有機率增加至火符石的掉落機率 III. 所有符石兼具 50% 火符石效果",
     "skillMonsters": [
       "2099"
     ]
@@ -16817,6 +16882,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "猛鷙之焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8C%9B%E9%B7%99%E4%B9%8B%E7%84%B0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "隊伍中有 3 個或以上獸類成員時： I. 發動此技能及回合結束時 ➭ 隨機將 3 粒符石轉化為獸族符石 II. 每消除 1 粒獸族符石 ➭ 減少 5% 所受傷害，最多可減少 30% 傷害 消除獸族或神族符石可維持效果",
+    "skillMonsters": [
+      "2140"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "猜猜拳",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8C%9C%E7%8C%9C%E6%8B%B3",
     "skillCDMin": 17,
@@ -17221,6 +17297,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "玄冥絕塵 ‧ 神授",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E7%B5%95%E5%A1%B5_%E2%80%A7_%E7%A5%9E%E6%8E%88",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 引爆場上所有光及暗符石 ➭ 以掉落「水、火、木及心」強化符石 II. 並將木符石轉化為強化符石 III. 若隊伍中只有神族成員時 ➭ 將木符石轉化為神族強化符石",
+    "skillMonsters": [
+      "2084"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "玄冥絕塵 ‧ 聚靈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E7%B5%95%E5%A1%B5_%E2%80%A7_%E8%81%9A%E9%9D%88",
     "skillCDMin": 17,
@@ -17341,6 +17428,17 @@
     "skillDesc": "1 回合內，木屬性攻擊力 1.5 倍；並將移動符石時觸碰的首 6 粒符石轉化為木強化符石",
     "skillMonsters": [
       "1203"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "玄虛迅幻 ‧ 電殛",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E8%99%9B%E8%BF%85%E5%B9%BB_%E2%80%A7_%E9%9B%BB%E6%AE%9B",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "2 回合內 I. 光屬性攻擊力 1.6 倍 II. 移動符石時觸碰的首 6 粒符石 ➭ 轉化為光人族強化符石",
+    "skillMonsters": [
+      "2089"
     ]
   },
   {
@@ -18196,7 +18294,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9F%AF%E5%81%A5%E4%B9%8B%E9%9D%88",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將水符石及自身直行的符石轉化為心強化符石 II. 發動技能時若自身「仙力」全滿 ➭ 1 回合內，心符石兼具 50% 木符石效果",
+    "skillDesc": "I. 將水符石及自身直行的符石 ➭ 轉化為心強化符石 II. 發動技能時若自身「仙力」全滿 ➭ 1 回合內，心符石兼具 50% 木符石效果",
     "skillMonsters": [
       "2135"
     ]
@@ -18484,7 +18582,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E4%B9%8B%E6%8C%87%E5%BC%95",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 神族攻擊力 2.5 倍 II. 隊伍中有 3 種或以上屬性成員時，全隊攻擊力額外 2 倍",
+    "skillDesc": "I. 神族攻擊力 2.5 倍 II. 隊伍中有 3 種或以上屬性成員時 ➭ 全隊攻擊力額外 2 倍",
     "skillMonsters": [
       "2146"
     ]
@@ -21256,7 +21354,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%B0%8D%E9%9B%B6%E5%BA%A6_%E2%80%A7_%E5%86%B0",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有人類成員時： I. 連擊 (Combo) 數目愈多，全隊攻擊力提升愈多，3 連擊 (Combo) 提升 4 倍，6 連擊 (Combo) 可提升至最大 5.5 倍 II. 心符石兼具 50% 水符石效果 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillDesc": "隊伍中只有人類成員時： I. 連擊 (Combo) 數目愈多 ➭ 全隊攻擊力提升愈多 ➭ 3 連擊 (Combo) 提升 4 倍 ➭ 6 連擊 (Combo) 可提升至最大 5.5 倍 II. 心符石兼具 50% 水符石效果 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的 生命力、攻擊力及回復力額外提升 1.2 倍",
     "skillMonsters": [
       "2101"
     ]
@@ -21267,7 +21365,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%B0%8D%E9%9B%B6%E5%BA%A6_%E2%80%A7_%E7%85%89%E5%86%B0",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有人類成員時： I. 連擊 (Combo) 數目愈多，全隊攻擊力提升愈多，3 連擊 (Combo) 提升 4 倍，8 連擊 (Combo) 可提升至最大 6.5 倍 II. 心符石兼具 50% 水符石效果 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力及回復力額外提升 1.2 倍",
+    "skillDesc": "隊伍中只有人類成員時： I. 連擊 (Combo) 數目愈多 ➭ 全隊攻擊力提升愈多 ➭ 3 連擊 (Combo) 提升 4 倍 ➭ 8 連擊 (Combo) 可提升至最大 6.5 倍 II. 心符石兼具 50% 水符石效果 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的 生命力、攻擊力及回復力額外提升 1.2 倍",
     "skillMonsters": [
       "2102"
     ]
@@ -23459,7 +23557,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9F%A0%E6%A1%83%E7%9B%9B%E5%AE%B4",
     "skillCDMin": 14,
     "skillCDMax": 3,
-    "skillDesc": "I. 自身以外「上古諸神」系列角色的「仙力」增加 5 點 II. 將戰友直行的符石轉化為與自身直行相同的符石 　(包括強化符石、種族符石) III. 若自身為戰友，則將自身直行的符石轉化為神族符石 IV. 發動技能時若自身「仙力」全滿 ➭ 1 回合內，連擊 (Ex. Combo) 數目增加 3",
+    "skillDesc": "I. 自身以外「上古諸神」系列角色的「仙力」增加 5 點 II. 將戰友直行的符石 ➭ 轉化為與自身直行相同的符石 　(包括強化符石、種族符石) III. 若自身為戰友 ➭ 則將自身直行的符石轉化為神族符石 IV. 發動技能時若自身「仙力」全滿 ➭ 1 回合內，連擊 (Ex. Combo) 數目增加 3",
     "skillMonsters": [
       "2132"
     ]
@@ -23501,10 +23599,19 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E6%96%B7%E9%AD%82%E5%8A%8D",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍 II. 消除 3 種或以上符石及自身發動攻擊時，個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次",
+    "skillDesc": "I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍 II. 消除 3 種或以上符石及自身發動攻擊時 ➭ 個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次",
     "skillMonsters": [
       "2086"
     ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "血祭斷魂劍 ‧ 裂心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E6%96%B7%E9%AD%82%E5%8A%8D_%E2%80%A7_%E8%A3%82%E5%BF%83",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍 II. 消除 3 種或以上符石及自身發動攻擊時 ➭ 個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次 III. 於每回合移動並消除符石後 ➭ 引爆所有心符石，直至場上沒有心符石",
+    "skillMonsters": []
   },
   {
     "type": "主動技",
@@ -23658,7 +23765,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A3%9C%E5%A4%A9%E7%85%89%E7%9F%B3",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有神族或獸類成員時： I. 全隊攻擊力 5 倍 II. 隊伍中每有 1 個 6 星「上古諸神」系列角色 ➭ 延長移動符石時間 1 秒 III. 消除神族符石時，神族及獸類攻擊力額外 2 倍",
+    "skillDesc": "隊伍中只有神族或獸類成員時： I. 全隊攻擊力 5 倍 II. 隊伍中每有 1 個 6 星「上古諸神」系列角色 ➭ 延長移動符石時間 1 秒 III. 消除神族符石時 ➭ 神族及獸類攻擊力額外 2 倍",
     "skillMonsters": [
       "2131"
     ]
@@ -23702,7 +23809,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A6%AA%E5%98%97%E7%99%BE%E8%8D%89",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "1 回合內 I. 水、光、暗及心符石兼具 50% 火及木符石效果 II. 若隊伍中有「太昊八卦 ‧ 伏羲」及「創世神女 ‧ 女媧」 ➭ 神族攻擊力及回復力 2.2 倍",
+    "skillDesc": "1 回合內 I. 水、光、暗及心符石 ➭ 兼具 50% 火及木符石效果 II. 若隊伍中有「太昊八卦 ‧ 伏羲」及「創世神女 ‧ 女媧」 ➭ 神族攻擊力及回復力 2.2 倍",
     "skillMonsters": [
       "2138"
     ]
@@ -24678,6 +24785,17 @@
     "skillCDMax": -1,
     "skillDesc": "火屬性攻擊力 3.2 倍。消除 3 種符石時，火屬性攻擊力額外提升 1.5 倍；消除 4 種或以上符石時，火屬性攻擊力則額外提升 1.8 倍。於該回合移動並消除符石後，引爆所有心符石，直至場上沒有心符石",
     "skillMonsters": []
+  },
+  {
+    "type": "隊長技",
+    "skillName": "透幻烈燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%8F%E5%B9%BB%E7%83%88%E7%87%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 4.8 倍 生命力及回復力 1.3 倍 II. 消除符石的種類愈多， 火屬性攻擊力額外提升愈多： ➭ 消除 2 種 1.5 倍 ➭ 消除 4 種可達至最大 2.1 倍",
+    "skillMonsters": [
+      "2083"
+    ]
   },
   {
     "type": "主動技",
@@ -26188,7 +26306,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%99%8D%E4%B8%96%E7%A5%9E%E5%8A%9B",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 將神族成員直行的暗符石轉化為神族符石 II. 將機械族成員直行的暗符石轉化為機械族符石 III. 1 回合內，每首批消除 1 組符石 ➭ 必定掉落 1 粒神族強化符石，最多 10 粒",
+    "skillDesc": "I. 將神族成員直行的暗符石 ➭ 轉化為神族符石 II. 將機械族成員直行的暗符石 ➭ 轉化為機械族符石 III. 1 回合內，每首批消除 1 組符石 ➭ 必定掉落 1 粒神族強化符石，最多 10 粒",
     "skillMonsters": [
       "2146"
     ]

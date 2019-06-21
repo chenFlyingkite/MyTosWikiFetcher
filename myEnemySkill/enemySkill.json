@@ -59239,6 +59239,10 @@
     "esCode": "{{ES3342}}",
     "icons": [
       {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
+      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
         "iconKey": "SI015.png"
       },
@@ -59259,6 +59263,10 @@
     "detail": "4 回合內，封鎖所有成員的主動技能。\u003cbr\u003e\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 200% 攻擊傷害。\u003cbr\u003e\u003cbr\u003e每回合以指定 (暗符石優先) 位置 (綠色漩渦) 開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)\u003cbr\u003e",
     "esCode": "{{ES3343}}",
     "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
         "iconKey": "SI015.png"

@@ -12378,6 +12378,24 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2081"
   },
   {
+    "title": "No. 2082 境界扭曲 ‧ 亞伯汗",
+    "id": "2082",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A2%83%E7%95%8C%E6%89%AD%E6%9B%B2_%E2%80%A7_%E4%BA%9E%E4%BC%AF%E6%B1%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/2082"
+  },
+  {
+    "title": "No. 2083 千變真箇 ‧ 切西亞",
+    "id": "2083",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8D%83%E8%AE%8A%E7%9C%9F%E7%AE%87_%E2%80%A7_%E5%88%87%E8%A5%BF%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2083"
+  },
+  {
+    "title": "No. 2084 情感鎖結 ‧ 瑰洱",
+    "id": "2084",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%83%85%E6%84%9F%E9%8E%96%E7%B5%90_%E2%80%A7_%E7%91%B0%E6%B4%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2084"
+  },
+  {
     "title": "No. 2085 大愛秉承 ‧ 帛曳",
     "id": "2085",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E6%84%9B%E7%A7%89%E6%89%BF_%E2%80%A7_%E5%B8%9B%E6%9B%B3",
@@ -12400,6 +12418,12 @@
     "id": "2088",
     "link": "https://tos.fandom.com/zh/wiki/%E6%B2%89%E6%B7%AA%E5%B9%BB%E6%85%BE_%E2%80%A7_%E6%92%92%E6%96%AF%E5%A7%86",
     "linkId": "http://zh.tos.wikia.com/wiki/2088"
+  },
+  {
+    "title": "No. 2089 沐浴榮譽 ‧ 瑪伊雅彌",
+    "id": "2089",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%90%E6%B5%B4%E6%A6%AE%E8%AD%BD_%E2%80%A7_%E7%91%AA%E4%BC%8A%E9%9B%85%E5%BD%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2089"
   },
   {
     "title": "No. 2090 劃時代天才 · 特斯拉",
@@ -12640,6 +12664,12 @@
     "id": "2138",
     "link": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%8D%89%E8%97%A5%E7%A5%9E_%E2%80%A7_%E7%A5%9E%E8%BE%B2",
     "linkId": "http://zh.tos.wikia.com/wiki/2138"
+  },
+  {
+    "title": "No. 2140 燃天鷙猛 ‧ 犼",
+    "id": "2140",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%87%83%E5%A4%A9%E9%B7%99%E7%8C%9B_%E2%80%A7_%E7%8A%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2140"
   },
   {
     "title": "No. 2143 毅志移山 ‧ 愚公",
