@@ -662,7 +662,7 @@ class TosGet {
             return list
         }
 
-        private fun getStageInfo(e: Element, baseWiki: String) : Stage {
+        fun getStageInfo(e: Element, baseWiki: String = wikiBaseZh) : Stage {
             val m = Stage()
             m.icon = getAltId(e)
             m.link = getWikiLink(e.attr("href"), baseWiki)

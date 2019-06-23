@@ -185,6 +185,19 @@ class HomeRow {
         return sb.toString().trim()
     }
 
+    fun isUltimate() : Boolean {
+        val hr = Math.round((dateEnd + 60 - dateStart) / 3600.0)
+        return hr == 50L;
+    }
+
+    fun toStage() : Stage {
+        val n = tds.size
+        if (n == 0) return Stage()
+
+        val ex = tds[n - 1]
+        return TosGet.getStageInfo(ex.getElementsByTag("a").first())
+    }
+
     override fun toString() : String {
         return "$dateStart ~ $dateEnd -> ${asTexts()}\n  link = $link"
     }
