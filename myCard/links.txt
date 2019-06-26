@@ -14220,6 +14220,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6284"
   },
   {
+    "title": "S285 琴瑟奏捷 ‧ 普西芬妮",
+    "id": "6285",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%90%B4%E7%91%9F%E5%A5%8F%E6%8D%B7_%E2%80%A7_%E6%99%AE%E8%A5%BF%E8%8A%AC%E5%A6%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/6285"
+  },
+  {
     "title": "S289 太昊八卦 ‧ 伏羲(動態造型)",
     "id": "6289",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%AA%E6%98%8A%E5%85%AB%E5%8D%A6_%E2%80%A7_%E4%BC%8F%E7%BE%B2(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
