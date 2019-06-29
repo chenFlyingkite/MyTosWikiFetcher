@@ -32,12 +32,17 @@ import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
+import org.jsoup.nodes.Element;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ExecutorService;
+import javax.swing.text.Document;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,6 +56,7 @@ public class Main {
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
+        //f();
 
         //MyTosWikiFirebase.run();
         //ASD.run();
@@ -66,7 +72,49 @@ public class Main {
         //TosCardFetcher.me.run();
     }
 
-    private void f() {
+    private static void f() {
+        final String iosPath = "D:\\ASD\\PhotoDirector";
+        final String andoPath = "D:\\PhotoDirector_Android\\PHD_01\\PhotoDirector\\src\\main\\res";
+        final String[] iosKey = {"Mirror"};
+        final String[] andoKey = {"common_Mirror"};
+
+        // Listing ios xliff files as xliff
+        File ios = new File(iosPath);
+        final String xlf = ".xliff";
+        List<File> fs = FileUtil.listAllFiles(ios);
+        List<File> xliff = FileUtil.findFile(fs, (z) -> {
+            return z.getName().contains(xlf);
+        });
+
+        pt(xliff);
+        L.log("xliff = %s", xliff);
+
+        String n = FileUtil.readFileAsString(new File("D:\\ASD\\PhotoDirector\\de.xcloc\\contents.json"));
+        //L.log("n = %s", n);
+
+        // string folder convert
+        Map<String, String> m = new HashMap<>();
+        m.put("pt-BR", "pt-rBR");
+        m.put("zh-Hans", "zh-rCN");
+        m.put("zh-Hant", "zh-rTW");
+
+        for (File f : xliff) {
+            String key = f.getName().replace(xlf, "");
+            String to = m.get(key);
+            if (to == null) {
+                to = key;
+            }
+
+            File ands = new File(andoPath + "/values-" + to + "/strings.xml");
+            L.log("   %s\n-> %s", f.getAbsolutePath(), ands.getAbsolutePath());
+
+            String andoAll = FileUtil.readFileAsString(ands);
+            //Document d = new Element()
+            List<String> iosStrings = FileUtil.readFromFile(f);
+
+        }
+
+
         //Printing After LV 300, team slot = 20 + (lv-300) / 20
 //        for (int i = 300; i < 900; i++) {
 //            int lv = 20 + (i - 300) / 20;
@@ -218,6 +266,14 @@ public class Main {
                 , "Environment.DIRECTORY_PODCASTS"
                 , "Environment.DIRECTORY_RINGTONES"
         };
+    }
+
+    private static <T> void pt(List<T> a) {
+        int n = a == null ? 0 : a.size();
+        L.log("%s items", n);
+        for (int i = 0; i < n; i++) {
+            L.log("#%2d : %s", i, a.get(i));
+        }
     }
 
     private static void p(String[] keys) {

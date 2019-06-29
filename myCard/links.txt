@@ -12666,16 +12666,34 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2138"
   },
   {
+    "title": "No. 2139 開天闢地 ‧ 盤古",
+    "id": "2139",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%8B%E5%A4%A9%E9%97%A2%E5%9C%B0_%E2%80%A7_%E7%9B%A4%E5%8F%A4",
+    "linkId": "http://zh.tos.wikia.com/wiki/2139"
+  },
+  {
     "title": "No. 2140 燃天鷙猛 ‧ 犼",
     "id": "2140",
     "link": "https://tos.fandom.com/zh/wiki/%E7%87%83%E5%A4%A9%E9%B7%99%E7%8C%9B_%E2%80%A7_%E7%8A%BC",
     "linkId": "http://zh.tos.wikia.com/wiki/2140"
   },
   {
+    "title": "No. 2142 逐日旅程 ‧ 夸父",
+    "id": "2142",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%90%E6%97%A5%E6%97%85%E7%A8%8B_%E2%80%A7_%E5%A4%B8%E7%88%B6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2142"
+  },
+  {
     "title": "No. 2143 毅志移山 ‧ 愚公",
     "id": "2143",
     "link": "https://tos.fandom.com/zh/wiki/%E6%AF%85%E5%BF%97%E7%A7%BB%E5%B1%B1_%E2%80%A7_%E6%84%9A%E5%85%AC",
     "linkId": "http://zh.tos.wikia.com/wiki/2143"
+  },
+  {
+    "title": "No. 2145 放蕩才情 ‧ 貪狼星",
+    "id": "2145",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%94%BE%E8%95%A9%E6%89%8D%E6%83%85_%E2%80%A7_%E8%B2%AA%E7%8B%BC%E6%98%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2145"
   },
   {
     "title": "No. 2146 眾星領導 ‧ 紫微星",

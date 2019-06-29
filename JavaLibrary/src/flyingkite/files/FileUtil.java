@@ -9,11 +9,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import flyingkite.functional.Projector;
 import flyingkite.log.L;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
@@ -162,6 +164,85 @@ public class FileUtil {
         }
         return contents;
     }
+
+    public static String readFileAsString(File file) {
+        if (isGone(file)){
+            return "";
+        }
+
+        StringBuilder sb = new StringBuilder();
+        BufferedReader br = null;
+        InputStreamReader is = null;
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream(file);
+            is = new InputStreamReader(fis, StandardCharsets.UTF_8);
+            br = new BufferedReader(is);
+
+            String line;
+            while ((line = br.readLine()) != null) {
+                sb.append(line).append("\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            IOUtil.closeIt(fis, is, br);
+        }
+        return sb.toString();
+
+    }
+
+    public static void writeToFile(File file, List<String> data, boolean append) {
+        if (isGone(file)){
+            return;
+        }
+
+        FileOutputStream fos = null;
+        PrintWriter pw = null;
+        try {
+            fos = new FileOutputStream(file, append);
+            pw = new PrintWriter(fos);
+            for (String s : data) {
+                pw.append(s).append("\r\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            IOUtil.closeIt(fos, pw);
+        }
+    }
+
+    public static List<File> findFile(List<File> list, Projector<File, Boolean> proj) {
+        List<File> ans = new ArrayList<>();
+        if (list != null) {
+            for (File f : list) {
+                boolean a = proj.get(f);
+                if (a) {
+                    ans.add(f);
+                }
+            }
+        }
+        return ans;
+    }
+
+    public static List<File> listAllFiles(File src) {
+        File[] fs = src == null ? null : src.listFiles();
+        List<File> pool = new ArrayList<>();
+        List<File> scan = new ArrayList<>();
+        if (fs != null) {
+            Collections.addAll(pool, fs);
+        }
+        while (!pool.isEmpty()) {
+            File g = pool.remove(0);
+            File[] gs = g.listFiles();
+            if (gs != null) {
+                Collections.addAll(pool, gs);
+            }
+            scan.add(g);
+        }
+        return scan;
+    }
+
     public static boolean createFile(File f) {
         if (f == null) return false;
 
