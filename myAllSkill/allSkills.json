@@ -3198,6 +3198,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "冰爽清新",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E7%88%BD%E6%B8%85%E6%96%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "消除人族符石時 ➭ 自身攻擊力 1.5 倍 ➭ 個人追打水、火、木屬性攻擊 1 次 效果持續至沒有消除人族符石",
+    "skillMonsters": [
+      "2148"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "冰霜絕命",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E9%9C%9C%E7%B5%95%E5%91%BD",
     "skillCDMin": 19,
@@ -25448,6 +25459,17 @@
     "skillDesc": "2 回合內，可任意移動符石而不會發動消除，水屬性及妖精類攻擊力 2 倍",
     "skillMonsters": [
       "2052"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "醉人甜味",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%86%89%E4%BA%BA%E7%94%9C%E5%91%B3",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將水及木符石轉化為人族強化符石 II. 1 回合內，人類攻擊力及回復力 1.5 倍 III. 若此時場上有 10 粒或以上的人族符石時 ➭ 自身主動技能 CD 減少 3",
+    "skillMonsters": [
+      "2147"
     ]
   },
   {

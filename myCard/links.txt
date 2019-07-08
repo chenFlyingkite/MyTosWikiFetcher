@@ -12702,6 +12702,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2146"
   },
   {
+    "title": "No. 2147 入口即融 ‧ 冰淇淋",
+    "id": "2147",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%85%A5%E5%8F%A3%E5%8D%B3%E8%9E%8D_%E2%80%A7_%E5%86%B0%E6%B7%87%E6%B7%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2147"
+  },
+  {
+    "title": "No. 2148 滑不溜口 ‧ 豆花",
+    "id": "2148",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BB%91%E4%B8%8D%E6%BA%9C%E5%8F%A3_%E2%80%A7_%E8%B1%86%E8%8A%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2148"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
