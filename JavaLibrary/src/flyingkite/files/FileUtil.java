@@ -203,8 +203,9 @@ public class FileUtil {
             fos = new FileOutputStream(file, append);
             pw = new PrintWriter(fos);
             for (String s : data) {
-                pw.append(s).append("\r\n");
+                pw.println(s);
             }
+            pw.flush();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

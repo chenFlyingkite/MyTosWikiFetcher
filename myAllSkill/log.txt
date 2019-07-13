@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2473 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2479 items, basePath = https://tos.fandom.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -127,6 +127,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 元素之念_‧_水 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%B0%B4
 元素之念_‧_火 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E7%81%AB
 元素之掌 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E4%B9%8B%E6%8E%8C
+元素之核 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E4%B9%8B%E6%A0%B8
 元素共鳴_‧_獸 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%85%B1%E9%B3%B4_%E2%80%A7_%E7%8D%B8
 元素共鳴_‧_龍 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%85%B1%E9%B3%B4_%E2%80%A7_%E9%BE%8D
 元素凝力 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%87%9D%E5%8A%9B
@@ -680,6 +681,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 懾魂魅靈_‧_屠殺 -> https://tos.fandom.com/zh/wiki/%E6%87%BE%E9%AD%82%E9%AD%85%E9%9D%88_%E2%80%A7_%E5%B1%A0%E6%AE%BA
 戀焦戀鎖電報 -> https://tos.fandom.com/zh/wiki/%E6%88%80%E7%84%A6%E6%88%80%E9%8E%96%E9%9B%BB%E5%A0%B1
 戰意高昂 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E6%84%8F%E9%AB%98%E6%98%82
+戰火不滅 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E4%B8%8D%E6%BB%85
 戾吞天下_‧_木 -> https://tos.fandom.com/zh/wiki/%E6%88%BE%E5%90%9E%E5%A4%A9%E4%B8%8B_%E2%80%A7_%E6%9C%A8
 戾吞天下_‧_水 -> https://tos.fandom.com/zh/wiki/%E6%88%BE%E5%90%9E%E5%A4%A9%E4%B8%8B_%E2%80%A7_%E6%B0%B4
 戾吞天下_‧_火 -> https://tos.fandom.com/zh/wiki/%E6%88%BE%E5%90%9E%E5%A4%A9%E4%B8%8B_%E2%80%A7_%E7%81%AB
@@ -1196,6 +1198,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 淨世滅靈 -> https://tos.fandom.com/zh/wiki/%E6%B7%A8%E4%B8%96%E6%BB%85%E9%9D%88
 深沉之藍 -> https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B2%89%E4%B9%8B%E8%97%8D
 深海連環 -> https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B5%B7%E9%80%A3%E7%92%B0
+深淵領域 -> https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B7%B5%E9%A0%98%E5%9F%9F
 深紅毒針 -> https://tos.fandom.com/zh/wiki/%E6%B7%B1%E7%B4%85%E6%AF%92%E9%87%9D
 混 -> https://tos.fandom.com/zh/wiki/%E6%B7%B7
 混沌再生 -> https://tos.fandom.com/zh/wiki/%E6%B7%B7%E6%B2%8C%E5%86%8D%E7%94%9F
@@ -1327,6 +1330,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 無畏之心 -> https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%95%8F%E4%B9%8B%E5%BF%83
 焰之格鬥術 -> https://tos.fandom.com/zh/wiki/%E7%84%B0%E4%B9%8B%E6%A0%BC%E9%AC%A5%E8%A1%93
 焰火引力 -> https://tos.fandom.com/zh/wiki/%E7%84%B0%E7%81%AB%E5%BC%95%E5%8A%9B
+煉丹術 -> https://tos.fandom.com/zh/wiki/%E7%85%89%E4%B8%B9%E8%A1%93
 煉寶秘術 -> https://tos.fandom.com/zh/wiki/%E7%85%89%E5%AF%B6%E7%A7%98%E8%A1%93
 煉獄之主義 -> https://tos.fandom.com/zh/wiki/%E7%85%89%E7%8D%84%E4%B9%8B%E4%B8%BB%E7%BE%A9
 煉獄之強權 -> https://tos.fandom.com/zh/wiki/%E7%85%89%E7%8D%84%E4%B9%8B%E5%BC%B7%E6%AC%8A
@@ -1488,6 +1492,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 疾走無影_‧_木葉 -> https://tos.fandom.com/zh/wiki/%E7%96%BE%E8%B5%B0%E7%84%A1%E5%BD%B1_%E2%80%A7_%E6%9C%A8%E8%91%89
 疾走無影_‧_獸 -> https://tos.fandom.com/zh/wiki/%E7%96%BE%E8%B5%B0%E7%84%A1%E5%BD%B1_%E2%80%A7_%E7%8D%B8
 疾速之浪 -> https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%80%9F%E4%B9%8B%E6%B5%AA
+疾速神力 -> https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%80%9F%E7%A5%9E%E5%8A%9B
 疾風境界 -> https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%A2%A8%E5%A2%83%E7%95%8C
 疾風迅雷 -> https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%A2%A8%E8%BF%85%E9%9B%B7
 痊癒之心 -> https://tos.fandom.com/zh/wiki/%E7%97%8A%E7%99%92%E4%B9%8B%E5%BF%83
@@ -2312,6 +2317,7 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 騎士精神 -> https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E7%B2%BE%E7%A5%9E
 驍勇之力 -> https://tos.fandom.com/zh/wiki/%E9%A9%8D%E5%8B%87%E4%B9%8B%E5%8A%9B
 驍雄之攻 -> https://tos.fandom.com/zh/wiki/%E9%A9%8D%E9%9B%84%E4%B9%8B%E6%94%BB
+驚世之步 -> https://tos.fandom.com/zh/wiki/%E9%A9%9A%E4%B8%96%E4%B9%8B%E6%AD%A5
 驚世爆破 -> https://tos.fandom.com/zh/wiki/%E9%A9%9A%E4%B8%96%E7%88%86%E7%A0%B4
 驚天之怒_‧_人 -> https://tos.fandom.com/zh/wiki/%E9%A9%9A%E5%A4%A9%E4%B9%8B%E6%80%92_%E2%80%A7_%E4%BA%BA
 驚天之怒_‧_神 -> https://tos.fandom.com/zh/wiki/%E9%A9%9A%E5%A4%A9%E4%B9%8B%E6%80%92_%E2%80%A7_%E7%A5%9E
@@ -2474,4 +2480,4 @@ V_字殺手 -> https://tos.fandom.com/zh/wiki/V_%E5%AD%97%E6%AE%BA%E6%89%8B
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2498 skills
+2504 skills

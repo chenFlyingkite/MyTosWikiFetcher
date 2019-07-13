@@ -1512,6 +1512,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "元素之核",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E4%B9%8B%E6%A0%B8",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有獸類成員時： I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍 II. 所有符石兼具 50% 其他符石效果 (可疊加)",
+    "skillMonsters": [
+      "2149"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "元素共鳴 ‧ 獸",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%85%B1%E9%B3%B4_%E2%80%A7_%E7%8D%B8",
@@ -8099,6 +8110,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "戰火不滅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E4%B8%8D%E6%BB%85",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆場上所有符石 ➭ 每直行首粒掉落的必定為火符石 II. 若隊伍中有 3 個或以上 　6 星「上古諸神」系列角色 ➭ 則效果變為掉落所在直行成員屬性的符石",
+    "skillMonsters": [
+      "2137"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "戾吞天下 ‧ 木",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%BE%E5%90%9E%E5%A4%A9%E4%B8%8B_%E2%80%A7_%E6%9C%A8",
@@ -14355,6 +14377,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "深淵領域",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B7%B5%E9%A0%98%E5%9F%9F",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 1 回合內，獸類攻擊力及回復力 2.3 倍 II. 隨機將 23 粒符石轉化為 ➭「水、火、木」非強化符石各 5 粒 ➭「光、暗」非強化符石各 4 粒 III. 首批消除 23 粒或以上符石時 ➭ 自身主動技能 CD 減少 5",
+    "skillMonsters": [
+      "1870"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "深紅毒針",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E7%B4%85%E6%AF%92%E9%87%9D",
     "skillCDMin": 18,
@@ -15949,6 +15982,17 @@
     "skillDesc": "1 回合內，首批掉落的 15 粒符石必定為火強化符石；所有掉落的火符石必定相連",
     "skillMonsters": [
       "2009"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "煉丹術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%85%89%E4%B8%B9%E8%A1%93",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 回復相當於獸類成員 2 倍的生命力 II. 1 回合內，延長移動符石時間至 12 秒",
+    "skillMonsters": [
+      "2149"
     ]
   },
   {
@@ -17831,6 +17875,17 @@
     "skillDesc": "水符石掉落率提升至 20%，消除水符石愈多，水屬性攻擊力愈高，消除 12 粒水符石可達至最大 2.2 倍，效果持續至沒有消除神族符石",
     "skillMonsters": [
       "1372"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "疾速神力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%80%9F%E7%A5%9E%E5%8A%9B",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，隊伍神族成員的屬性愈多 ➭ 神族攻擊力愈高 ➭ 4 種屬性可提升至最大 3 倍",
+    "skillMonsters": [
+      "2144"
     ]
   },
   {
@@ -25607,7 +25662,8 @@
       "0225",
       "1158",
       "1223",
-      "1225"
+      "1225",
+      "1870"
     ]
   },
   {
@@ -27824,6 +27880,17 @@
     "skillDesc": "1 回合內，連擊 (Combo) 數目愈高，自身攻擊力愈高，消除 10 連擊 (Combo) 可達至最大 15 倍",
     "skillMonsters": [
       "1672"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "驚世之步",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A9%9A%E4%B8%96%E4%B9%8B%E6%AD%A5",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 移動的步數愈多，全隊攻擊力提升愈多 ➭ 移動 20 步攻擊力可提升至最大 3 倍 若隊伍中只有獸類成員： 1 回合內 II. 獸類成員的攻擊傷害可克制敵人 III. 無視「燃燒」(不包括「煉獄之火」) IV. 無視「黏腐」敵技 V. 觸碰電擊符石時仍可移動符石",
+    "skillMonsters": [
+      "2149"
     ]
   },
   {
