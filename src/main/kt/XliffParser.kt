@@ -12,6 +12,8 @@ open class XliffParser {
     companion object me {
         fun addStringsToIos() {
             // -- Parameters :
+            // ios already have translations in other places of xibs
+            val useIosSelf = false
             // path of ios
             val iosPath = "D:\\ASD\\PHD_Strings"
             // path of Android
@@ -21,7 +23,14 @@ open class XliffParser {
             andIos["common_Mirror"] = "Mirror"
             andIos["Info_Mirror_Effect"] = "Tap to select where to apply the effect"
             andIos["common_Photo_Blender"] = "Blender"
+            val iosMe = HashMap<String, String>() // Key is unused, only use value
+            iosMe["a"] = "Take a shot"
+            iosMe["b"] = "Choose from gallery"
+            iosMe["c"] = "Open Photo"
             // apply = Produce file
+            // Try to produce : apply =  true, prefix = "f_"
+            // Delete tried   : apply = false, prefix = "f_"
+            // Write source   : apply =  true, prefix = ""
             val apply = true
             // Created file as prefix
             val prefix = ""
@@ -83,20 +92,34 @@ open class XliffParser {
                     val an = iosd.getElementsByTag("trans-unit").size
                     //L.log("%s strings in ios", an);
 
-                    val need = HashMap(andIos)
+                    var need: HashMap<String, String>
+                    if (useIosSelf) {
+                        need = HashMap(iosMe)
+                    } else {
+                        need = HashMap(andIos)
+                    }
 
-                    for (i in iosStrings.indices) {
+                    val n = iosStrings.size - 2
+                    for (i in 0..n) {
                         val si = iosStrings[i]
                         val sn = si.trim()
                         for (ka in need.keys) {
                             val vi = need[ka]
                             // Format of ios
                             val fmt = "<source>$vi</source>"
-                            val si1 = if (i + 1 == iosStrings.size) "<target>" else iosStrings[i + 1]
-                            val meet = sn.matches(fmt.toRegex()) && !si1.trim().startsWith("<target>")
+                            val si1 = iosStrings[i + 1].trim()
+                            val meet = sn.startsWith(fmt) && !si1.startsWith("<target>")
                             if (meet) {
-                                val a = andd.getElementsByAttributeValue("name", ka).first()
-                                val sa = "        <target>" + a.text() + "</target>"
+                                var sa = ""
+                                if (useIosSelf) {
+                                    val xs = iosd.getElementsMatchingOwnText(vi).first()
+                                    val a = xs.getElementsByTag("target").first()
+                                    sa = "        <target>" + a.text() + "</target>"
+                                } else {
+                                    //using from android
+                                    val a = andd.getElementsByAttributeValue("name", ka).first()
+                                    sa = "        <target>" + a.text() + "</target>"
+                                }
                                 val end = si + "\n" + sa
 
                                 L.log("-- #%04d = at ios (%s), add\n", i, key)
