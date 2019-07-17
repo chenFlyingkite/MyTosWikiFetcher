@@ -1517,7 +1517,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E4%B9%8B%E6%A0%B8",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有獸類成員時： I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍 II. 所有符石兼具 50% 其他符石效果 (可疊加)",
+    "skillDesc": "隊伍中只有獸類成員時： I. 全隊攻擊力 6 倍、生命力及回復力 1.5 倍 II. 所有符石兼具 50% 其他符石效果 (可疊加)",
     "skillMonsters": [
       "2149"
     ]
@@ -18650,6 +18650,7 @@
     "skillCDMax": -1,
     "skillDesc": "I. 神族攻擊力 2.5 倍 II. 隊伍中有 3 種或以上屬性成員時 ➭ 全隊攻擊力額外 2 倍",
     "skillMonsters": [
+      "2144",
       "2145",
       "2146"
     ]
