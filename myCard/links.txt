@@ -14262,6 +14262,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6275"
   },
   {
+    "title": "S276 旖翔木子萱 ‧ 愛格德",
+    "id": "6276",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%97%96%E7%BF%94%E6%9C%A8%E5%AD%90%E8%90%B1_%E2%80%A7_%E6%84%9B%E6%A0%BC%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/6276"
+  },
+  {
     "title": "S283 箏紅彤瓣 · 阿姆士唐",
     "id": "6283",
     "link": "https://tos.fandom.com/zh/wiki/%E7%AE%8F%E7%B4%85%E5%BD%A4%E7%93%A3_%C2%B7_%E9%98%BF%E5%A7%86%E5%A3%AB%E5%94%90",
@@ -14302,6 +14308,12 @@
     "id": "6291",
     "link": "https://tos.fandom.com/zh/wiki/%E7%91%A4%E6%B1%A0%E5%A9%89%E5%A6%97_%E2%80%A7_%E8%A5%BF%E7%8E%8B%E6%AF%8D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6291"
+  },
+  {
+    "title": "S292 舞干戚 ‧ 刑天(動態造型)",
+    "id": "6292",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%88%9E%E5%B9%B2%E6%88%9A_%E2%80%A7_%E5%88%91%E5%A4%A9(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6292"
   },
   {
     "title": "S293 百草藥神 ‧ 神農(動態造型)",
