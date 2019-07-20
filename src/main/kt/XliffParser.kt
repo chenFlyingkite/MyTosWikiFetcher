@@ -13,9 +13,9 @@ open class XliffParser {
         fun addStringsToIos() {
             // -- Parameters :
             // ios already have translations in other places of xibs
-            val useIosSelf = false
+            val useIosSelf = true
             // path of ios
-            val iosPath = "D:\\ASD\\PHD_Strings"
+            val iosPath = "D:\\ASD\\PHD_Strings\\PhotoDirector2"
             // path of Android
             val andoPath = "D:\\PhotoDirector_Android\\PHD_01\\PhotoDirector\\src\\main\\res"
             // String keys of Android.<string.name> : ios.<source>
@@ -24,9 +24,18 @@ open class XliffParser {
             andIos["Info_Mirror_Effect"] = "Tap to select where to apply the effect"
             andIos["common_Photo_Blender"] = "Blender"
             val iosMe = HashMap<String, String>() // Key is unused, only use value
+            val str = arrayListOf<String>()
+            str.add("Mirror")
+            /*
             iosMe["a"] = "Take a shot"
             iosMe["b"] = "Choose from gallery"
             iosMe["c"] = "Open Photo"
+            */
+            //-- produce as iosMe
+            for (i in 0 until str.size) {
+                iosMe[""+i] = str[i]
+            }
+            //--
             // apply = Produce file
             // Try to produce : apply =  true, prefix = "f_"
             // Delete tried   : apply = false, prefix = "f_"

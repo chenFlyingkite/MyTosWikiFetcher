@@ -12132,6 +12132,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2039"
   },
   {
+    "title": "No. 2040 馳騁女騎兵 ‧ 丹尼絲",
+    "id": "2040",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A6%B3%E9%A8%81%E5%A5%B3%E9%A8%8E%E5%85%B5_%E2%80%A7_%E4%B8%B9%E5%B0%BC%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2040"
+  },
+  {
     "title": "No. 2041 盈水劍舞 · 冰花",
     "id": "2041",
     "link": "https://tos.fandom.com/zh/wiki/%E7%9B%88%E6%B0%B4%E5%8A%8D%E8%88%9E_%C2%B7_%E5%86%B0%E8%8A%B1",
@@ -12682,6 +12688,12 @@
     "id": "2140",
     "link": "https://tos.fandom.com/zh/wiki/%E7%87%83%E5%A4%A9%E9%B7%99%E7%8C%9B_%E2%80%A7_%E7%8A%BC",
     "linkId": "http://zh.tos.wikia.com/wiki/2140"
+  },
+  {
+    "title": "No. 2141 破天滅地 ‧ 共工",
+    "id": "2141",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%A4%A9%E6%BB%85%E5%9C%B0_%E2%80%A7_%E5%85%B1%E5%B7%A5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2141"
   },
   {
     "title": "No. 2142 逐日旅程 ‧ 夸父",

@@ -13485,6 +13485,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "洪水怒濤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B4%AA%E6%B0%B4%E6%80%92%E6%BF%A4",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內，將敵方全體的防禦力減至 0 ➭ 並將被減去的防禦力加入自身攻擊力 ➭ 最多可提升至 20000 點攻擊力",
+    "skillMonsters": [
+      "2141"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "活心術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B4%BB%E5%BF%83%E8%A1%93",
     "skillCDMin": 23,
@@ -17099,6 +17110,17 @@
     "skillDesc": "I. 將自身直行的符石轉化為獸族符石 II. 發動技能時若自身「仙力」全滿 ➭ 1 回合內個人追打 8 次",
     "skillMonsters": [
       "2129"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "獸族紋章",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%97%8F%E7%B4%8B%E7%AB%A0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ➭ 並將該種符石引爆 ➭ 以掉落該種符石以外的符石 1 回合內 II. 首批掉落的符石必定為獸族符石 III. 每消除 1 粒獸族符石 ➭ 回復 2000 點生命力 ➭ 最多可回復至 100% 生命力",
+    "skillMonsters": [
+      "2040"
     ]
   },
   {
@@ -27837,6 +27859,17 @@
     "skillDesc": "人類攻擊力及回復力 4.5 倍；龍脈儀全滿時，人類攻擊力額外提升 1.5 倍。每首批消除 1 種屬性符石，於回合結束時，隨機將該屬性的其中 2 粒符石轉化為人族符石",
     "skillMonsters": [
       "2039"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "騎士之魂 ‧ 獸",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E7%8D%B8",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "獸類攻擊力 4.5 倍及增加 500 點回復力；龍脈儀全滿時，獸類攻擊力額外提升 1.5 倍。每首批消除 1 種屬性符石，於回合結束時，隨機將該屬性的其中 2 粒符石轉化為獸族符石",
+    "skillMonsters": [
+      "2040"
     ]
   },
   {
