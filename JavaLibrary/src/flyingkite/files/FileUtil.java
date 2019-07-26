@@ -127,7 +127,6 @@ public class FileUtil {
             fin = new FileInputStream(new File(source));
             fout = new FileOutputStream(new File(target));
             copy(fin, fout);
-            L.log("copy : %s\n to  -> %s", source, target);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } finally {

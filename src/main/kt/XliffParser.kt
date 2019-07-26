@@ -1,6 +1,7 @@
 package main.kt
 
 import flyingkite.files.FileUtil
+import flyingkite.functional.Projector
 import flyingkite.log.L
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Element
@@ -9,20 +10,24 @@ import java.io.IOException
 import java.util.HashMap
 
 open class XliffParser {
+    // Ruler
+    // 0         1         2         3         4         5         6
+    // 0123456789012345678901234567890123456789012345678901234567890
     companion object me {
         fun addStringsToIos() {
             // -- Parameters :
             // ios already have translations in other places of xibs
-            val useIosSelf = true
+            val useIosSelf = false
             // path of ios
             val iosPath = "D:\\ASD\\PHD_Strings\\PhotoDirector2"
+            val iosXliffPath = "D:\\ASD\\PHD_Strings\\Parsed"
             // path of Android
             val andoPath = "D:\\PhotoDirector_Android\\PHD_01\\PhotoDirector\\src\\main\\res"
             // String keys of Android.<string.name> : ios.<source>
             val andIos = HashMap<String, String>()
-            andIos["common_Mirror"] = "Mirror"
+            //andIos["common_Mirror"] = "Mirror"
             andIos["Info_Mirror_Effect"] = "Tap to select where to apply the effect"
-            andIos["common_Photo_Blender"] = "Blender"
+            //andIos["common_Photo_Blender"] = "Blender"
             val iosMe = HashMap<String, String>() // Key is unused, only use value
             val str = arrayListOf<String>()
             str.add("Mirror")
@@ -51,23 +56,25 @@ open class XliffParser {
             val ios = File(iosPath)
             val xlf = ".xliff"
             val fs = FileUtil.listAllFiles(ios)
-            val xliff = FileUtil.findFile(fs) { z ->
+            val xliff = FileUtil.findFile(fs, { z ->
                 val name = z.name
-                var omit = name == "en.xliff"
+                val isPx = name.startsWith(prefix)
+                var omit = false//name == "en.xliff"
                 if (!prefix.isEmpty()) {
-                    omit = omit or name.startsWith(prefix)
-                    if (name.startsWith(prefix) && deletePrefix) {
+                    omit = omit || isPx
+                    if (isPx && deletePrefix) {
                         L.log("Delete %s", z)
                         z.delete()
                     }
                 }
 
-                !omit && name.contains(xlf)
-            }
+                !omit && name.contains(xlf)// && name == "fr.xliff"
+            })
 
-            pt<File>(xliff)
+            pt(xliff)
 
-            // String folder convert---
+            // String folder map : [pt-BR] -> [pt-rBR] (ios -> android)
+            // => [pt-BR].xliff -> values-[pt-rBR]/string.xml
             val m = HashMap<String, String>()
             m["pt-BR"] = "pt-rBR"
             m["zh-Hans"] = "zh-rCN"
@@ -79,77 +86,95 @@ open class XliffParser {
             }
 
             for (ioss in xliff) {
-                // Get string file mapping
-                val key = ioss.name.replace(xlf, "")
-                var to: String? = m[key]
-                if (to == null) {
-                    to = key
-                }
-                val ands = File("$andoPath/values-$to/strings.xml")
-                L.log("   %s\n-> %s", ioss.absolutePath, ands.absolutePath)
+                if (ioss.name == "en.xliff") {
+                    // Copy xliffs to folder
+                    val fn = File(ioss.parent, prefix + ioss.name)
+                    val fx = File(iosXliffPath, prefix + ioss.name)
+                    fx.parentFile.mkdirs()
+                    FileUtil.copy(fn.absolutePath, fx.absolutePath)
+                } else {
+                    // ioss = ios string
+                    // ands = android string
+                    // Get string file mapping
+                    val key = ioss.name.replace(xlf, "")
+                    val to = m[key] ?: key
+                    val ands = File("$andoPath/values-$to/strings.xml")
+                    L.log("   %s\n-> %s", ioss.absolutePath, ands.absolutePath)
 
-                //String andoAll = FileUtil.readFileAsString(ands);
-                // old way
-                // https://howtodoinjava.com/xml/parse-string-to-xml-dom/
-                val iosStrings = FileUtil.readFromFile(ioss)
-                try {
-                    val andd = Jsoup.parse(ands, "UTF-8")
-                    val aa = andd.getElementsByTag("string").size
-                    //L.log("%s strings in android", aa);
+                    //String andoAll = FileUtil.readFileAsString(ands);
+                    // old way
+                    // https://howtodoinjava.com/xml/parse-string-to-xml-dom/
+                    val iosStrings = FileUtil.readFromFile(ioss)
+                    try {
+                        // Find android's nodes, <string>
+                        val andd = Jsoup.parse(ands, "UTF-8")
+                        val aa = andd.getElementsByTag("string").size
+                        //L.log("%s strings in android", aa);
 
-                    val iosd = Jsoup.parse(ioss, "UTF-8")
-                    val an = iosd.getElementsByTag("trans-unit").size
-                    //L.log("%s strings in ios", an);
+                        // Find ios's nodes, <trans-unit>
+                        val iosd = Jsoup.parse(ioss, "UTF-8")
+                        val an = iosd.getElementsByTag("trans-unit").size
+                        //L.log("%s strings in ios", an);
 
-                    var need: HashMap<String, String>
-                    if (useIosSelf) {
-                        need = HashMap(iosMe)
-                    } else {
-                        need = HashMap(andIos)
-                    }
+                        val need = if (useIosSelf) iosMe else andIos
 
-                    val n = iosStrings.size - 2
-                    for (i in 0..n) {
-                        val si = iosStrings[i]
-                        val sn = si.trim()
-                        for (ka in need.keys) {
-                            val vi = need[ka]
-                            // Format of ios
-                            val fmt = "<source>$vi</source>"
-                            val si1 = iosStrings[i + 1].trim()
-                            val meet = sn.startsWith(fmt) && !si1.startsWith("<target>")
-                            if (meet) {
-                                var sa = ""
-                                if (useIosSelf) {
-                                    val xs = iosd.getElementsMatchingOwnText(vi).first()
-                                    val a = xs.getElementsByTag("target").first()
-                                    sa = "        <target>" + a.text() + "</target>"
-                                } else {
-                                    //using from android
-                                    val a = andd.getElementsByAttributeValue("name", ka).first()
-                                    sa = "        <target>" + a.text() + "</target>"
-                                }
-                                val end = si + "\n" + sa
+                        val n = iosStrings.size - 2
+                        for (i in 0..n) {
+                            //line #i = si
+                            val si = iosStrings[i]
+                            val sn = si.trim()
+                            val lead = "        "
+                            for (ka in need.keys) {
+                                val vi = need[ka]
+                                // Format of ios
+                                val fmt = "<source>$vi</source>"
+                                val si1 = iosStrings[i + 1].trim()
+                                // Meet if it has source node, no target node
+                                val meet = sn.startsWith(fmt) && !si1.startsWith("<target>")
+                                if (meet) {
+                                    var a: Element
+                                    if (useIosSelf) {
+                                        val xs = iosd.getElementsMatchingOwnText(vi).first()
+                                        a = xs.getElementsByTag("target").first()
+                                    } else {
+                                        //using from android
+                                        a = andd.getElementsByAttributeValue("name", ka).first()
+                                    }
+                                    // Target string is s
+                                    var s = a.text()
+                                    // TODO : \n ?
+                                    // Replacing \' to '
+                                    s = s.replace("\\'", "'")
 
-                                L.log("-- #%04d = at ios (%s), add\n", i, key)
-                                L.log("%s\n", end)
-                                if (apply) {
-                                    iosStrings[i] = end
+                                    // Compose target string and print if apply
+                                    val sa = "$lead<target>$s</target>"
+                                    val end = si + "\n" + sa
+
+                                    L.log("-- #%04d = at ios (%s), add\n", i, key)
+                                    L.log("%s\n", end)
+                                    if (apply) {
+                                        iosStrings[i] = end
+                                    }
                                 }
                             }
                         }
-                    }
-                    if (apply) {
-                        val fn = File(ioss.parent, prefix + ioss.name)
-                        fn.delete()
-                        fn.createNewFile()
-                        FileUtil.writeToFile(fn, iosStrings, false)
-                    }
-                    L.log("===")
-                } catch (e: IOException) {
-                    e.printStackTrace()
-                }
+                        if (apply) {
+                            // Write to file
+                            val fn = File(ioss.parent, prefix + ioss.name)
+                            fn.delete()
+                            fn.createNewFile()
+                            FileUtil.writeToFile(fn, iosStrings, false)
 
+                            // Copy xliffs to folder
+                            val fx = File(iosXliffPath, prefix + ioss.name)
+                            fx.parentFile.mkdirs()
+                            FileUtil.copy(fn.absolutePath, fx.absolutePath)
+                        }
+                        L.log("===")
+                    } catch (e: IOException) {
+                        e.printStackTrace()
+                    }
+                }
             }
         }
 

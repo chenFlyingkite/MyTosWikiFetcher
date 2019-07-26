@@ -1,6 +1,5 @@
 package main;
 
-import com.sun.org.apache.bcel.internal.generic.LLOAD;
 import flyingkite.files.FileUtil;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.diff.PngDiffRequest;
@@ -39,9 +38,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -49,9 +45,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
-import javax.swing.text.StyledEditorKit;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 
 public class Main {
     public static void main(String[] args) {
@@ -61,9 +54,9 @@ public class Main {
         //stock();
 
         //TosAAAFetcher.me.run();
-        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
-        //fetch();
-        copyToMyTosWiki();
+        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
+        fetch();
+        //copyToMyTosWiki();
         //TosCardFetcher.me.run();
 
         //XliffParser.me.addStringsToIos();
@@ -205,7 +198,10 @@ public class Main {
         paths.add(as("myUltimateStage/","ultimateStage.json", asset));
 
         for (CopyInfo i : paths) {
-            FileUtil.copy(i.getSrcName(), i.getDstName());
+            String source = i.getSrcName();
+            String target = i.getDstName();
+            FileUtil.copy(source, target);
+            L.log("copy : %s\n to  -> %s", source, target);
         }
     }
 
