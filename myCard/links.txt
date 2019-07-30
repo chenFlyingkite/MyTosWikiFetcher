@@ -12744,6 +12744,96 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2149"
   },
   {
+    "title": "No. 2150 超人ZERO",
+    "id": "2150",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BAZERO",
+    "linkId": "http://zh.tos.wikia.com/wiki/2150"
+  },
+  {
+    "title": "No. 2151 超人ZERO (無限形態)",
+    "id": "2151",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BAZERO_(%E7%84%A1%E9%99%90%E5%BD%A2%E6%85%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2151"
+  },
+  {
+    "title": "No. 2152 超人太郎",
+    "id": "2152",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E5%A4%AA%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2152"
+  },
+  {
+    "title": "No. 2153 超人佳亞",
+    "id": "2153",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E4%BD%B3%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2153"
+  },
+  {
+    "title": "No. 2154 超人ORB",
+    "id": "2154",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BAORB",
+    "linkId": "http://zh.tos.wikia.com/wiki/2154"
+  },
+  {
+    "title": "No. 2155 超人帝拿",
+    "id": "2155",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E5%B8%9D%E6%8B%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2155"
+  },
+  {
+    "title": "No. 2156 超人七星俠",
+    "id": "2156",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E4%B8%83%E6%98%9F%E4%BF%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2156"
+  },
+  {
+    "title": "No. 2157 超人迪加",
+    "id": "2157",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E8%BF%AA%E5%8A%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2157"
+  },
+  {
+    "title": "No. 2158 閃耀迪加",
+    "id": "2158",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E8%80%80%E8%BF%AA%E5%8A%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2158"
+  },
+  {
+    "title": "No. 2159 超人吉田",
+    "id": "2159",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E5%90%89%E7%94%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2159"
+  },
+  {
+    "title": "No. 2160 宇宙恐龍 ‧ 積頓",
+    "id": "2160",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%87%E5%AE%99%E6%81%90%E9%BE%8D_%E2%80%A7_%E7%A9%8D%E9%A0%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/2160"
+  },
+  {
+    "title": "No. 2164 邪神卡達諾佐亞",
+    "id": "2164",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E7%A5%9E%E5%8D%A1%E9%81%94%E8%AB%BE%E4%BD%90%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2164"
+  },
+  {
+    "title": "No. 2166 哥莫拉",
+    "id": "2166",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%93%A5%E8%8E%AB%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2166"
+  },
+  {
+    "title": "No. 2168 宇宙機械人 ‧ 金古橋",
+    "id": "2168",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%87%E5%AE%99%E6%A9%9F%E6%A2%B0%E4%BA%BA_%E2%80%A7_%E9%87%91%E5%8F%A4%E6%A9%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2168"
+  },
+  {
+    "title": "No. 2170 比格蒙",
+    "id": "2170",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AF%94%E6%A0%BC%E8%92%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/2170"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
