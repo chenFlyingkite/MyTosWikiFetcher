@@ -59359,7 +59359,7 @@
   {
     "id": "3348",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3348",
-    "name": "突擊-橫行轉水 ‧ 木攻盾 ‧ 首消水傷害吸收",
+    "name": "突擊10%-橫行轉水 ‧ 木攻盾 ‧ 首消水傷害吸收",
     "detail": "只有木屬性的攻擊才會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e首回合優先突擊 1 次，並隨機將 1 橫行的符石轉化為水符石。\u003cbr\u003e\u003cbr\u003e首批消除水屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES3348}}",
     "icons": [
@@ -59417,7 +59417,7 @@
   {
     "id": "3350",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3350",
-    "name": "突擊-縱橫轉水 ‧ 木攻盾 ‧ 首消水傷害吸收-反擊200%",
+    "name": "突擊10%-縱橫轉水 ‧ 木攻盾 ‧ 首消水傷害吸收-反擊200%",
     "detail": "只有木屬性的攻擊才會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e首回合優先攻擊 1 次，並隨機將 1 橫行及 1 直行的符石轉化為水符石。\u003cbr\u003e\u003cbr\u003e首批消除水屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量，並會反擊自身 200% 攻擊傷害\u003cbr\u003e",
     "esCode": "{{ES3350}}",
     "icons": [
@@ -60062,7 +60062,16 @@
     "name": "首殺盾 ‧ 無視減傷",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3377}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      }
+    ]
   },
   {
     "id": "3378",
@@ -60070,7 +60079,20 @@
     "name": "首殺盾 ‧ 無視減傷 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能、減傷效果和意志技能",
     "esCode": "{{ES3378}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3379",
@@ -60078,7 +60100,24 @@
     "name": "首殺盾 ‧ 攻後水縱橫輪轉 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e當首次受到敵人攻擊時，隨機將 1 直行的符石轉化為水符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為水符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3379}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI301.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3380",
@@ -60086,7 +60125,24 @@
     "name": "首殺盾 ‧ 攻後火縱橫輪轉 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e當首次受到敵人攻擊時，隨機將 1 直行的符石轉化為火符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為火符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3380}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3381",
@@ -60094,7 +60150,24 @@
     "name": "首殺盾 ‧ 攻後木縱橫輪轉 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e當首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為木符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3381}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI303.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3382",
@@ -60102,7 +60175,24 @@
     "name": "首殺盾 ‧ 攻後光縱橫輪轉 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e當首次受到敵人攻擊時，隨機將 1 直行的符石轉化為光符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為光符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3382}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3383",
@@ -60110,7 +60200,24 @@
     "name": "首殺盾 ‧ 攻後暗縱橫輪轉 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e當首次受到敵人攻擊時，隨機將 1 直行的符石轉化為暗符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為暗符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3383}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI305.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI305.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3384",
@@ -60118,7 +60225,24 @@
     "name": "首殺盾 ‧ 攻後心縱橫輪轉 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e當首次受到敵人攻擊時，隨機將 1 直行的符石轉化為心符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為心符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3384}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
+        "iconKey": "SI306.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3385",
@@ -60126,7 +60250,20 @@
     "name": "首殺盾 ‧ 迷惑符石 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e無法看透符石的本質。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3385}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
+        "iconKey": "SI227.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3386",
@@ -60134,7 +60271,20 @@
     "name": "首殺盾 ‧ 黑白符石 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e所有符石變為\u003cfont color\u003dyellow\u003e黑白色\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3386}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3387",
@@ -60142,7 +60292,20 @@
     "name": "首殺盾 ‧ 2秒轉珠 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e移動符石時間會縮短至 \u003cfont color\u003dyellow\u003e2 秒\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3387}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3388",
@@ -60150,7 +60313,20 @@
     "name": "首殺盾 ‧ 1顆風化6000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機將 \u003cfont color\u003dyellow\u003e1 粒符石風化\u003c/font\u003e，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 \u003cfont color\u003dyellow\u003e6000 點\u003c/font\u003e傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3388}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3389",
@@ -60158,7 +60334,20 @@
     "name": "首殺盾 ‧ 1顆風化15000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機將 \u003cfont color\u003dyellow\u003e1 粒符石風化\u003c/font\u003e，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 \u003cfont color\u003dyellow\u003e15000 點\u003c/font\u003e傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3389}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3390",
@@ -60166,7 +60355,20 @@
     "name": "首殺盾 ‧ 2顆風化6000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機將 \u003cfont color\u003dyellow\u003e2 粒符石風化\u003c/font\u003e，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 \u003cfont color\u003dyellow\u003e6000 點\u003c/font\u003e傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3390}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3391",
@@ -60174,7 +60376,20 @@
     "name": "首殺盾 ‧ 2顆風化15000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機將 \u003cfont color\u003dyellow\u003e2 粒符石風化\u003c/font\u003e，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 \u003cfont color\u003dyellow\u003e15000 點\u003c/font\u003e傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3391}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3392",
@@ -60182,7 +60397,20 @@
     "name": "首殺盾 ‧ 3顆風化6000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機將 \u003cfont color\u003dyellow\u003e3 粒符石風化\u003c/font\u003e，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 \u003cfont color\u003dyellow\u003e6000 點\u003c/font\u003e傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3392}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3393",
@@ -60190,7 +60418,20 @@
     "name": "首殺盾 ‧ 3顆風化15000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機將 \u003cfont color\u003dyellow\u003e3 粒符石風化\u003c/font\u003e，風化符石一經觸碰，即時停止移動符石，並對召喚師造成 \u003cfont color\u003dyellow\u003e15000 點\u003c/font\u003e傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3393}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3394",
@@ -60198,7 +60439,20 @@
     "name": "首殺盾 ‧ 1顆電擊 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機\u003cfont color\u003dyellow\u003e電擊 1 粒\u003c/font\u003e符石；如有符石被電擊而未被消除，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3394}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
+        "iconKey": "SI236.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3395",
@@ -60206,7 +60460,20 @@
     "name": "首殺盾 ‧ 2顆電擊 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機\u003cfont color\u003dyellow\u003e電擊 2 粒\u003c/font\u003e符石；如有符石被電擊而未被消除，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3395}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
+        "iconKey": "SI236.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3396",
@@ -60214,7 +60481,20 @@
     "name": "首殺盾 ‧ 3顆電擊 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，隨機\u003cfont color\u003dyellow\u003e電擊 3 粒\u003c/font\u003e符石；如有符石被電擊而未被消除，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3396}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
+        "iconKey": "SI236.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3397",
@@ -60222,7 +60502,20 @@
     "name": "首殺盾 ‧ 黏附 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e隨機\u003cfont color\u003dyellow\u003e黏附 1 個\u003c/font\u003e位置，該位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3397}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3398",
@@ -60230,7 +60523,20 @@
     "name": "首殺盾 ‧ 雙重黏附 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e隨機\u003cfont color\u003dyellow\u003e黏附 2 個\u003c/font\u003e位置，該位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3398}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3399",
@@ -60238,7 +60544,20 @@
     "name": "首殺盾 ‧ 三重黏附 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e隨機\u003cfont color\u003dyellow\u003e黏附 3 個\u003c/font\u003e位置，該位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3399}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3400",
@@ -60246,7 +60565,20 @@
     "name": "首殺盾 ‧ 軌跡黏附 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e黏附\u003c/font\u003e移動符石時所觸碰的符石，被黏附的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3400}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3401",
@@ -60254,7 +60586,20 @@
     "name": "首殺盾 ‧ 燃燒20% ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e隨機\u003cfont color\u003dyellow\u003e燃燒 1 個\u003c/font\u003e位置，每觸碰被燃燒的位置，將扣除召喚師\u003cfont color\u003dyellow\u003e 20%\u003c/font\u003e 生命力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3401}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3402",
@@ -60262,7 +60607,20 @@
     "name": "首殺盾 ‧ 雙重燃燒20% ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e隨機\u003cfont color\u003dyellow\u003e燃燒 2 個\u003c/font\u003e位置，每觸碰被燃燒的位置，將扣除召喚師\u003cfont color\u003dyellow\u003e 20% \u003c/font\u003e生命力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3402}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3403",
@@ -60270,7 +60628,20 @@
     "name": "首殺盾 ‧ 三重燃燒20% ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e隨機\u003cfont color\u003dyellow\u003e燃燒 3 個\u003c/font\u003e位置，每觸碰被燃燒的位置，將扣除召喚師 \u003cfont color\u003dyellow\u003e20% \u003c/font\u003e生命力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3403}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3404",
@@ -60278,7 +60649,20 @@
     "name": "首殺盾 ‧ 燃燒1000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e燃燒\u003c/font\u003e移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成\u003cfont color\u003dyellow\u003e 1000 點\u003c/font\u003e的傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3404}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3405",
@@ -60286,7 +60670,20 @@
     "name": "首殺盾 ‧ 燃燒2000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e燃燒\u003c/font\u003e移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成\u003cfont color\u003dyellow\u003e 2000 點\u003c/font\u003e的傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3405}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3406",
@@ -60294,7 +60691,20 @@
     "name": "首殺盾 ‧ 燃燒5000 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e燃燒\u003c/font\u003e移動符石時所觸碰的位置，每觸碰被燃燒的位置，對召喚師造成\u003cfont color\u003dyellow\u003e 5000 點\u003c/font\u003e的傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3406}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3407",
@@ -60302,7 +60712,20 @@
     "name": "首殺盾 ‧ 50%盾 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 \u003cfont color\u003dyellow\u003e50% \u003c/font\u003e的傷害 (主動技除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3407}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI257.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3408",
@@ -60310,7 +60733,20 @@
     "name": "首殺盾 ‧ 25%盾 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 \u003cfont color\u003dyellow\u003e25%\u003c/font\u003e 的傷害 (主動技除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3408}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI257.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3409",
@@ -60318,7 +60754,20 @@
     "name": "首殺盾 ‧ 20%盾 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 \u003cfont color\u003dyellow\u003e20%\u003c/font\u003e 的傷害 (主動技除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3409}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI257.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3410",
@@ -60326,12 +60775,25 @@
     "name": "首殺盾 ‧ 10%盾 ‧ 無法控制",
     "detail": "召喚師必需先擊斃此敵人，才可以對其他敵人造成傷害。\u003cbr\u003e\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 \u003cfont color\u003dyellow\u003e10%\u003c/font\u003e 的傷害 (主動技除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3410}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI257.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3411",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3411",
-    "name": "突擊 ‧ 攻後1顆電擊 ‧ 強化盾",
+    "name": "突擊10% ‧ 攻後1顆電擊 ‧ 強化盾",
     "detail": "首回合敵人會優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e每回合敵人發動攻擊時，隨機\u003cfont color\u003dyellow\u003e電擊 1 粒\u003c/font\u003e符石；如有符石被電擊而未被消除，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cfont color\u003dyellow\u003e強化符石\u003c/font\u003e的攻擊傷害",
     "esCode": "{{ES3411}}",
     "icons": [
@@ -60352,7 +60814,7 @@
   {
     "id": "3412",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3412",
-    "name": "突擊 ‧ 攻後2顆電擊 ‧ 強化盾-反擊100%",
+    "name": "突擊25% ‧ 攻後2顆電擊 ‧ 強化盾-反擊100%",
     "detail": "首回合敵人會優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e每回合敵人發動攻擊時，隨機\u003cfont color\u003dyellow\u003e電擊 2 粒\u003c/font\u003e符石；如有符石被電擊而未被消除，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cfont color\u003dyellow\u003e強化符石\u003c/font\u003e的攻擊傷害；若受到非強化符石的攻擊，敵人會反擊自身 \u003cfont color\u003dyellow\u003e100%\u003c/font\u003e 攻擊傷害",
     "esCode": "{{ES3412}}",
     "icons": [
@@ -60377,7 +60839,7 @@
   {
     "id": "3413",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3413",
-    "name": "突擊 ‧ 攻後3顆電擊 ‧ 強化盾-反擊100%",
+    "name": "突擊65% ‧ 攻後3顆電擊 ‧ 強化盾-反擊100%",
     "detail": "首回合敵人會優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e每回合敵人發動攻擊時，隨機\u003cfont color\u003dyellow\u003e電擊 3 粒\u003c/font\u003e符石；如有符石被電擊而未被消除，該回合無法對敵人造成攻擊傷害。被電擊的符石一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cfont color\u003dyellow\u003e強化符石\u003c/font\u003e的攻擊傷害；若受到非強化符石的攻擊，敵人會反擊自身\u003cfont color\u003dyellow\u003e 100%\u003c/font\u003e 攻擊傷害",
     "esCode": "{{ES3413}}",
     "icons": [
@@ -60434,7 +60896,24 @@
     "name": "隱身-隱攻技能封鎖1回 ‧ 復活-CD1 ‧ 無法控制",
     "detail": "敵人會\u003cfont color\u003dyellow\u003e隱身\u003c/font\u003e，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的\u003cfont color\u003dyellow\u003e主動技能及其攻擊 1 回合\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，攻擊頻率變為 \u003cfont color\u003dyellow\u003eCD 1\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3415}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3d/SI216.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI216.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3416",
@@ -60442,7 +60921,24 @@
     "name": "隱身-隱攻技能封鎖3回 ‧ 復活變強2倍-CD1 ‧ 無法控制",
     "detail": "敵人會\u003cfont color\u003dyellow\u003e隱身\u003c/font\u003e，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的\u003cfont color\u003dyellow\u003e主動技能及其攻擊 3 回合\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，攻擊頻率變為\u003cfont color\u003dyellow\u003e CD 1\u003c/font\u003e，並提升\u003cfont color\u003dyellow\u003e 2 倍\u003c/font\u003e攻擊力、生命力、防禦力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3416}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3d/SI216.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI216.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3417",
@@ -60450,7 +60946,24 @@
     "name": "隱身-隱攻技能封鎖5回 ‧ 復活變強3倍-CD1 ‧ 無法控制",
     "detail": "敵人會\u003cfont color\u003dyellow\u003e隱身\u003c/font\u003e，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的\u003cfont color\u003dyellow\u003e主動技能及其攻擊 5 回合\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，攻擊頻率變為\u003cfont color\u003dyellow\u003e CD 1\u003c/font\u003e，並提升\u003cfont color\u003dyellow\u003e 3 倍\u003c/font\u003e攻擊力、生命力、防禦力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3417}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3d/SI216.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI216.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3418",
@@ -60487,7 +61000,24 @@
     "name": "3回4員禁錮 ‧ 首消水傷害吸收-反擊100% ‧ 四重霧化",
     "detail": "\u003cfont color\u003dyellow\u003e3 回合內，封鎖 4 個隊員的主動技能及其攻擊\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e水屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e100%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e每回合隨機\u003cfont color\u003dyellow\u003e霧化 4 個\u003c/font\u003e位置",
     "esCode": "{{ES3420}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI011.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/40/SI266.png/revision/latest/scale-to-width-down/22?cb\u003d20190729151634\u0026path-prefix\u003dzh",
+        "iconKey": "SI266.png"
+      }
+    ]
   },
   {
     "id": "3421",
@@ -60495,7 +61025,20 @@
     "name": "水外防禦90% ‧ 攻後雙重燃燒10% ‧ 無法控制",
     "detail": "\u003cfont color\u003dyellow\u003e水屬性以外\u003c/font\u003e的攻擊傷害減至\u003cfont color\u003dyellow\u003e 10%\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e當敵人發動攻擊時，隨機\u003cfont color\u003dyellow\u003e燃燒 2 個\u003c/font\u003e位置，每觸碰被燃燒的位置，將扣除召喚師\u003cfont color\u003dyellow\u003e 10% \u003c/font\u003e生命力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3421}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cd/SI001.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091341\u0026path-prefix\u003dzh",
+        "iconKey": "SI001.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3422",
@@ -60503,7 +61046,20 @@
     "name": "水攻盾 ‧ 攻後三重燃燒20% ‧ 無法控制",
     "detail": "只有\u003cfont color\u003dyellow\u003e水屬性\u003c/font\u003e的攻擊才會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e當敵人發動攻擊時，隨機\u003cfont color\u003dyellow\u003e燃燒 3 個\u003c/font\u003e位置，每觸碰被燃燒的位置，將扣除召喚師\u003cfont color\u003dyellow\u003e 20%\u003c/font\u003e 生命力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3422}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cd/SI001.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091341\u0026path-prefix\u003dzh",
+        "iconKey": "SI001.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3423",
@@ -60511,7 +61067,24 @@
     "name": "攻前盾 ‧ 首消光傷害吸收-反擊100% ‧ 無法控制",
     "detail": "敵人無視任何攻擊傷害，直至敵人第 1 次攻擊。\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身\u003cfont color\u003dyellow\u003e 100%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3423}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI014.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3424",
@@ -60527,7 +61100,32 @@
     "name": "首攻CD1 ‧ 首回隨機轉火 ‧ 首消火追擊零化 ‧ 無視減傷 ‧ 無法控制",
     "detail": "敵人首次攻擊變為 \u003cfont color\u003dyellow\u003eCD 1\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e首回合隨機將 1 種符石\u003cbr\u003e➭ 轉化為火符石。\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e火屬性\u003c/font\u003e的連擊 (Combo) 會令全隊攻擊無效，首批消除的火屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e無視所有控制技能、減傷效果和意志技能",
     "esCode": "{{ES3425}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
+        "iconKey": "SI302.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/15/SI114.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142345\u0026path-prefix\u003dzh",
+        "iconKey": "SI114.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3426",
@@ -60535,7 +61133,20 @@
     "name": "9+Combo追擊盾 ‧ 4秒轉珠 ‧ 無法控制",
     "detail": "\u003cfont color\u003dyellow\u003e9 連擊 (Combo) 或以上\u003c/font\u003e才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3426}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d2/SI107.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI107.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3427",
@@ -60543,7 +61154,20 @@
     "name": "9+Combo追擊盾 ‧ 底行霧化 ‧ 無法控制",
     "detail": "\u003cfont color\u003dyellow\u003e9 連擊 (Combo) 或以上\u003c/font\u003e才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多少而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e霧化最底 1 橫行\u003c/font\u003e的符石位置。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3427}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d2/SI107.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
+        "iconKey": "SI107.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/40/SI266.png/revision/latest/scale-to-width-down/22?cb\u003d20190729151634\u0026path-prefix\u003dzh",
+        "iconKey": "SI266.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3428",
@@ -60551,7 +61175,24 @@
     "name": "首攻CD1 ‧ 首回回結暗引爆增攻 ‧ 暗禁消 ‧ 無法控制",
     "detail": "敵人首次攻擊變為\u003cfont color\u003dyellow\u003e CD 1\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e首回合及每回合結束時，\u003cfont color\u003dyellow\u003e引爆\u003c/font\u003e所有\u003cfont color\u003dyellow\u003e暗符石\u003c/font\u003e，引爆的符石數量愈多，敵人下一次的攻擊力愈高。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e暗符石\u003c/font\u003e無法被消除。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3428}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c4/SI316.png/revision/latest/scale-to-width-down/22?cb\u003d20190325083822\u0026path-prefix\u003dzh",
+        "iconKey": "SI316.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d9/SI042.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101603\u0026path-prefix\u003dzh",
+        "iconKey": "SI042.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3429",
@@ -60580,7 +61221,16 @@
     "name": "首消火傷害吸收 ‧ 強化盾",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e火屬性\u003c/font\u003e的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cfont color\u003dyellow\u003e強化符石\u003c/font\u003e的攻擊傷害",
     "esCode": "{{ES3430}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI012.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI254.png"
+      }
+    ]
   },
   {
     "id": "3431",
@@ -60588,7 +61238,24 @@
     "name": "首消火傷害吸收-反擊100% ‧ 強化盾 ‧ 縱橫燃燒輪轉10%",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e火屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e100%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cfont color\u003dyellow\u003e強化符石\u003c/font\u003e的攻擊傷害\u003cbr\u003e\u003cbr\u003e首回合\u003cfont color\u003dyellow\u003e燃燒 1 橫行\u003c/font\u003e的位置，次回合則\u003cfont color\u003dyellow\u003e燃燒 1 直行\u003c/font\u003e的位置。每觸碰被燃燒的位置，將扣除召喚師\u003cfont color\u003dyellow\u003e 10%\u003c/font\u003e 生命力。以上攻擊循環周而復始。",
     "esCode": "{{ES3431}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI012.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI254.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      }
+    ]
   },
   {
     "id": "3432",
@@ -60596,7 +61263,24 @@
     "name": "首消火傷害吸收-反擊200% ‧ 強化盾 ‧ 縱橫燃燒輪轉20%",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e火屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e200%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cfont color\u003dyellow\u003e強化符石\u003c/font\u003e的攻擊傷害。\u003cbr\u003e\u003cbr\u003e首回合\u003cfont color\u003dyellow\u003e燃燒 1 橫行\u003c/font\u003e的位置，次回合則\u003cfont color\u003dyellow\u003e燃燒 1 直行\u003c/font\u003e的位置。每觸碰被燃燒的位置，將扣除召喚師 \u003cfont color\u003dyellow\u003e20%\u003c/font\u003e 生命力。以上攻擊循環周而復始",
     "esCode": "{{ES3432}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
+        "iconKey": "SI012.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
+        "iconKey": "SI254.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI229.png"
+      }
+    ]
   },
   {
     "id": "3433",
@@ -60604,7 +61288,16 @@
     "name": "首消光傷害吸收 ‧ 2秒轉珠",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e光屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e\u003cbr\u003e移動符石時間會縮短至 \u003cfont color\u003dyellow\u003e2 秒\u003c/font\u003e",
     "esCode": "{{ES3433}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI014.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      }
+    ]
   },
   {
     "id": "3434",
@@ -60612,7 +61305,28 @@
     "name": "首消光傷害吸收-反擊100% ‧ 2秒轉珠 ‧ 雙下角轉光",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e100%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e移動符石時間會縮短至\u003cfont color\u003dyellow\u003e 2 秒\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e每回合將左下角及右下角的符石轉化為光符石",
     "esCode": "{{ES3434}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI014.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      }
+    ]
   },
   {
     "id": "3435",
@@ -60620,15 +61334,57 @@
     "name": "首消光傷害吸收-反擊200% ‧ 2秒轉珠 ‧ 四角轉光",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身\u003cfont color\u003dyellow\u003e 200%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e移動符石時間會縮短至 \u003cfont color\u003dyellow\u003e2 秒\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e每回合將 4 個角落的符石轉化為光符石",
     "esCode": "{{ES3435}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI014.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI304.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      }
+    ]
   },
   {
     "id": "3436",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3436",
     "name": "獵龍刻 ‧ 缺龍刻必殺-首消暗傷害吸收-反擊200% ‧ 無視減傷 ‧ 無法控制",
-    "detail": "召喚師若\u003cfont color\u003dyellow\u003e有\u003c/font\u003e裝備龍刻：\u003cbr\u003e首回合優先攻擊 1 次，\u003cbr\u003e並\u003cfont color\u003dyellow\u003e擊碎龍脈儀\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e召喚師若\u003cfont color\u003dyellow\u003e沒有\u003c/font\u003e裝備龍刻：\u003cbr\u003e首回合令召喚師\u003cfont color\u003dyellow\u003e生命力變 0 點\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e暗屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e200%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
+    "detail": "召喚師若\u003cfont color\u003dyellow\u003e有\u003c/font\u003e裝備龍刻：\u003cbr\u003e首回合優先攻擊 1 次，\u003cbr\u003e並\u003cfont color\u003dyellow\u003e擊碎龍脈儀\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e召喚師若\u003cfont color\u003dyellow\u003e沒有\u003c/font\u003e裝備龍刻：\u003cbr\u003e首回合敵人會\u003cfont color\u003dyellow\u003e擊斃召喚師\u003c/font\u003e (不能迴避及轉化傷害為生命力)\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e暗屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e200%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3436}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/25/SI134.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102458\u0026path-prefix\u003dzh",
+        "iconKey": "SI134.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3437",
@@ -60636,15 +61392,57 @@
     "name": "先攻 ‧ 攻後固定轉暗-外暗轉別屬 ‧ 首消暗傷害吸收-反擊200% ‧ 無視減傷 ‧ 無法控制",
     "detail": "首回合\u003cfont color\u003dyellow\u003e優先攻擊\u003c/font\u003e 1 次。每次受到敵人攻擊時，將 12 個固定位置的符石轉化為暗符石，並將其他的暗符石隨機轉化為水、火、木及光符石。\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e暗屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e200%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3437}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI305.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI305.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
+        "iconKey": "SI015.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
+        "iconKey": "SI260.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3438",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3438",
-    "name": "左右暴風席捲 ‧ 光攻盾 ‧ 回復力變 0",
+    "name": "左右暴風席捲 ‧ 光攻盾 ‧ 回復力變0",
     "detail": "\u003cfont color\u003dyellow\u003e暴風\u003c/font\u003e席捲\u003cfont color\u003dyellow\u003e最左方及最右方直行\u003c/font\u003e的位置，暴風位置內的符石無法被消除或引爆，該位置一經觸碰，即時停止移動符石。\u003cbr\u003e\u003cbr\u003e只有\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的攻擊才會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e召喚師的\u003cfont color\u003dyellow\u003e回復力變 0\u003c/font\u003e",
     "esCode": "{{ES3438}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/21/SI282.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103211\u0026path-prefix\u003dzh",
+        "iconKey": "SI282.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c0/SI004.png/revision/latest/scale-to-width-down/22?cb\u003d20150217093343\u0026path-prefix\u003dzh",
+        "iconKey": "SI004.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI156.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102645\u0026path-prefix\u003dzh",
+        "iconKey": "SI156.png"
+      }
+    ]
   },
   {
     "id": "3439",
@@ -60652,7 +61450,28 @@
     "name": "突擊-雙直行邪惡符石20% ‧ 光攻盾 ‧ 無視減傷 ‧ 無法控制",
     "detail": "首回合敵人會優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次；隨機 \u003cfont color\u003dyellow\u003e2 行相連直行\u003c/font\u003e的符石被附上\u003cfont color\u003dyellow\u003e邪惡能量\u003c/font\u003e；每消除 1 粒邪惡能量符石，全隊攻擊力減少 \u003cfont color\u003dyellow\u003e20%\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e只有\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的攻擊才會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3439}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI203.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034623\u0026path-prefix\u003dzh",
+        "iconKey": "SI203.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c0/SI004.png/revision/latest/scale-to-width-down/22?cb\u003d20150217093343\u0026path-prefix\u003dzh",
+        "iconKey": "SI004.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI251.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3440",
@@ -60660,7 +61479,24 @@
     "name": "首攻CD1 ‧ 始終盾 ‧ 軌跡隱藏 ‧ 25%盾",
     "detail": "敵人首次攻擊變為\u003cfont color\u003dyellow\u003e CD 1\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。\u003cbr\u003e(達成條件前，無法進行回復)\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e每回合攻擊最多只能造成敵人生命力\u003cfont color\u003dyellow\u003e 25%\u003c/font\u003e 的傷害 (主動技除外)",
     "esCode": "{{ES3440}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI224.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
+        "iconKey": "SI257.png"
+      }
+    ]
   },
   {
     "id": "3441",
@@ -60668,7 +61504,20 @@
     "name": "100%減傷盾-越攻越弱 ‧ 始終盾 ‧ 每回暗屬技能重置",
     "detail": "敵人為 \u003cfont color\u003dyellow\u003e100% 減傷狀態\u003c/font\u003e，敵人攻擊次數愈多，減傷狀態削弱愈多。\u003cbr\u003e\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。\u003cbr\u003e(達成條件前，無法進行回復)\u003cbr\u003e\u003cbr\u003e下回合開始，每回合將\u003cfont color\u003dyellow\u003e暗屬性成員\u003c/font\u003e的\u003cfont color\u003dyellow\u003e主動技能 CD\u003c/font\u003e 及累積戰鬥回合數\u003cfont color\u003dyellow\u003e重置\u003c/font\u003e",
     "esCode": "{{ES3441}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
+        "iconKey": "SI250.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
+        "iconKey": "SI183.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
+      }
+    ]
   },
   {
     "id": "3442",
@@ -60676,7 +61525,24 @@
     "name": "首攻CD2 ‧ 強化五屬盾 ‧ 扣血100% ‧ 無法控制",
     "detail": "敵人首次攻擊變為 \u003cfont color\u003dyellow\u003eCD 2\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e同時消除水強化、火強化、木強化、光強化及暗強化符石才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時會扣除召喚師 \u003cfont color\u003dyellow\u003e100%\u003c/font\u003e 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3442}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6a/SI248.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103120\u0026path-prefix\u003dzh",
+        "iconKey": "SI248.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
+      }
+    ]
   },
   {
     "id": "3443",
@@ -60684,7 +61550,28 @@
     "name": "首攻CD1 ‧ 首回暗圍城 ‧ 暗禁消 ‧ 首消光心Combo同等盾",
     "detail": "敵人首次攻擊變為\u003cfont color\u003dyellow\u003e CD 1\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e首回合將所有符石\u003cbr\u003e➭ 轉化為暗符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e暗符石\u003c/font\u003e無法被消除。\u003cbr\u003e\u003cbr\u003e首批消除相同連擊 (Combo) 數目的光及心符石，才能對敵人造成攻擊傷害",
     "esCode": "{{ES3443}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI305.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI305.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d9/SI042.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101603\u0026path-prefix\u003dzh",
+        "iconKey": "SI042.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3f/SI179.png/revision/latest/scale-to-width-down/22?cb\u003d20190731110416\u0026path-prefix\u003dzh",
+        "iconKey": "SI179.png"
+      }
+    ]
   },
   {
     "id": "3444",
@@ -60692,6 +61579,27 @@
     "name": "首攻CD1 ‧ 首回暗圍城 ‧ 首消水木光心Combo同等盾 ‧ 越扣越強25%",
     "detail": "敵人首次攻擊變為 \u003cfont color\u003dyellow\u003eCD 1\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e首回合將所有符石\u003cbr\u003e➭ 轉化為暗符石。\u003cbr\u003e\u003cbr\u003e同時首批消除相同連擊 (Combo) 數目的水、火、木、光及心符石，才能對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e首回合敵人發動攻擊時會扣除召喚師 \u003cfont color\u003dyellow\u003e25%\u003c/font\u003e 生命力 (無視所有減傷效果和意志技能)；敵人攻擊次數愈多時，攻擊力會持續提升",
     "esCode": "{{ES3444}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI305.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
+        "iconKey": "SI305.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/db/SI180.png/revision/latest/scale-to-width-down/22?cb\u003d20190731110423\u0026path-prefix\u003dzh",
+        "iconKey": "SI180.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",
+        "iconKey": "SI139.png"
+      }
+    ]
   }
 ]
