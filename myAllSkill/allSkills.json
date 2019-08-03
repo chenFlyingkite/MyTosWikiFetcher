@@ -2900,6 +2900,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "全部毁滅吧！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A8%E9%83%A8%E6%AF%81%E6%BB%85%E5%90%A7%EF%BC%81",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "發動技能時根據當前敵人數量觸發以下效果： 1 個：1 回合內，自身攻擊力 6 倍， 自身攻擊無視敵人的防禦力； 2 個：1 回合內，自身攻擊力 4 倍， 敵方所受傷害的 50% 擴散到其他敵人身上； ≥3 個：1 回合內，自身攻擊力 2 倍， 單體攻擊轉化為全體攻擊",
+    "skillMonsters": [
+      "2171"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "兩儀",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A9%E5%84%80",
@@ -4260,6 +4271,28 @@
     "skillMonsters": [
       "1503",
       "1508"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "十字標記",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E6%A8%99%E8%A8%98",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "將 14 個固定位置的符石轉化為暗神族符石",
+    "skillMonsters": [
+      "9018"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "十字衝擊波",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E8%A1%9D%E6%93%8A%E6%B3%A2",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "將 14 個固定位置的符石轉化為暗神族符石",
+    "skillMonsters": [
+      "2169"
     ]
   },
   {
@@ -7801,7 +7834,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BD%B1%E6%B5%81%E6%8B%B3%E6%B3%95",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有神族成員時： I. 水屬性及暗屬性攻擊力 6 倍 II. 每消除 1 組 4 粒或以上符石時 ➭ 水屬性成員直行首批掉落 1 粒暗神族符石 　(最多 2 粒) ➭ 暗屬性成員直行首批掉落 1 粒水神族符石 　(最多 2 粒) III. 同時消除水及暗符石時 ➭ 減少 20% 所受傷害",
+    "skillDesc": "隊伍中只有神族成員時： I. 水屬性及暗屬性攻擊力 6 倍 II. 每消除 1 組 4 粒或以上符石時 ➭ 水屬性成員直行首批掉落 1 粒暗神族符石 　(最多 2 粒) ➭ 暗屬性成員直行首批掉落 1 粒水神族符石 　(最多 2 粒) * 其後部分掉落的符石會順序排列 III. 同時消除水及暗符石時 ➭ 減少 20% 所受傷害",
     "skillMonsters": [
       "2150"
     ]
@@ -7812,7 +7845,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BD%B1%E6%B5%81%E6%8B%B3%E6%B3%95_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有神族成員時： I. 水屬性及暗屬性攻擊力 6 倍 II. 每消除 1 組 4 粒或以上符石時 ➭ 水屬性成員直行首批掉落 　1 粒暗神族強化符石 (最多 2 粒) ➭ 暗屬性成員直行首批掉落 　1 粒水神族強化符石 (最多 2 粒) III. 同時消除水及暗符石時 ➭ 減少 20% 所受傷害",
+    "skillDesc": "隊伍中只有神族成員時： I. 水屬性及暗屬性攻擊力 6 倍 II. 每消除 1 組 4 粒或以上符石時 ➭ 水屬性成員直行首批掉落 　1 粒暗神族強化符石 (最多 2 粒) ➭ 暗屬性成員直行首批掉落 　1 粒水神族強化符石 (最多 2 粒) * 其後部分掉落的符石會順序排列 III. 同時消除水及暗符石時 ➭ 減少 20% 所受傷害",
     "skillMonsters": [
       "2151"
     ]
@@ -18608,6 +18641,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "瞬結 ‧ 黑暗力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9E%AC%E7%B5%90_%E2%80%A7_%E9%BB%91%E6%9A%97%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性及魔族攻擊力 4.5 倍 II. 消除暗符石的數量愈多 ➭ 暗屬性及魔族攻擊力額外提升愈多 ➭ 消除 10 粒可達至最大 2 倍",
+    "skillMonsters": [
+      "2161"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "矢無虛發",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9F%A2%E7%84%A1%E8%99%9B%E7%99%BC",
     "skillCDMin": -1,
@@ -18928,6 +18972,18 @@
       "2144",
       "2145",
       "2146"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "神之本",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E4%B9%8B%E6%9C%AC",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "神族攻擊力及回復力 3 倍",
+    "skillMonsters": [
+      "2169",
+      "9018"
     ]
   },
   {
@@ -23798,6 +23854,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蛇心劍 ‧ 新月斬波",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9B%87%E5%BF%83%E5%8A%8D_%E2%80%A7_%E6%96%B0%E6%9C%88%E6%96%AC%E6%B3%A2",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "發動此技能的次數愈多 ➭ 轉化暗符石的數量及 個人追打暗屬性攻擊次數愈多 第 3 次或以上發動此技能 ➭ 將 18 個固定位置的符石轉化為暗符石 ➭ 個人追打暗屬性攻擊 3 次",
+    "skillMonsters": [
+      "2161"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "蛾龍天劫",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9B%BE%E9%BE%8D%E5%A4%A9%E5%8A%AB",
     "skillCDMin": 17,
@@ -24729,17 +24796,6 @@
     "skillDesc": "每回合回復自身 7 倍回復力的生命力 (需要消除符石)",
     "skillMonsters": [
       "0484"
-    ]
-  },
-  {
-    "type": "主動技",
-    "skillName": "超震動波",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E9%9C%87%E5%8B%95%E6%B3%A2",
-    "skillCDMin": 17,
-    "skillCDMax": 6,
-    "skillDesc": "I. 解除自身及「侵略者」被封鎖的技能 　(此技能無視封鎖技能) II. 對敵方全體造成 100,000 點火屬性傷害 III. 1 回合內獸類及「侵略者」攻擊力 2.5 倍",
-    "skillMonsters": [
-      "2166"
     ]
   },
   {

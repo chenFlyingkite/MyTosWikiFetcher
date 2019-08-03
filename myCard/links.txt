@@ -12810,6 +12810,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2160"
   },
   {
+    "title": "No. 2161 無幻魔人 ‧ 撒古拉斯 撒古拉",
+    "id": "2161",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%B9%BB%E9%AD%94%E4%BA%BA_%E2%80%A7_%E6%92%92%E5%8F%A4%E6%8B%89%E6%96%AF_%E6%92%92%E5%8F%A4%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2161"
+  },
+  {
     "title": "No. 2164 邪神卡達諾佐亞",
     "id": "2164",
     "link": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E7%A5%9E%E5%8D%A1%E9%81%94%E8%AB%BE%E4%BD%90%E4%BA%9E",
@@ -12828,10 +12834,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2168"
   },
   {
+    "title": "No. 2169 超人捷德",
+    "id": "2169",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E6%8D%B7%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2169"
+  },
+  {
     "title": "No. 2170 比格蒙",
     "id": "2170",
     "link": "https://tos.fandom.com/zh/wiki/%E6%AF%94%E6%A0%BC%E8%92%99",
     "linkId": "http://zh.tos.wikia.com/wiki/2170"
+  },
+  {
+    "title": "No. 2171 迷失邪獸 ‧ 坎培斯特",
+    "id": "2171",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BF%B7%E5%A4%B1%E9%82%AA%E7%8D%B8_%E2%80%A7_%E5%9D%8E%E5%9F%B9%E6%96%AF%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2171"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -15028,5 +15046,11 @@
     "id": "9017",
     "link": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E5%A8%83%E4%B8%BB%E4%BA%BA_%E2%80%A7_%E6%89%98%E6%AF%94",
     "linkId": "http://zh.tos.wikia.com/wiki/9017"
+  },
+  {
+    "title": "No. 9018 英雄使命 ‧ 埃爾",
+    "id": "9018",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8B%B1%E9%9B%84%E4%BD%BF%E5%91%BD_%E2%80%A7_%E5%9F%83%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/9018"
   }
 ]
