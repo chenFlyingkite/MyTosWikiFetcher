@@ -19,18 +19,19 @@ open class XliffParser {
             // ios already have translations in other places of xibs
             val useIosSelf = false
             // path of ios
-            val iosPath = "D:\\ASD\\PHD_Strings\\PhotoDirector2"
+            val iosPath = "D:\\ASD\\PHD_Strings\\PhotoDirector"
             val iosXliffPath = "D:\\ASD\\PHD_Strings\\Parsed"
             // path of Android
             val andoPath = "D:\\PhotoDirector_Android\\PHD_01\\PhotoDirector\\src\\main\\res"
             // String keys of Android.<string.name> : ios.<source>
             val andIos = HashMap<String, String>()
-            //andIos["common_Mirror"] = "Mirror"
-            andIos["Info_Mirror_Effect"] = "Tap to select where to apply the effect"
-            //andIos["common_Photo_Blender"] = "Blender"
+            andIos["message_rating_title"] = "Your Photo Looks Perfect!"
+            andIos["message_rating_info"] = "We'd appreciate a good rating for PhotoDirector"
+            andIos["common_NoThanks"] = "No, thanks!"
+            andIos["common_GiveGoodRate"] = "Rate us"
             val iosMe = HashMap<String, String>() // Key is unused, only use value
             val str = arrayListOf<String>()
-            str.add("Mirror")
+            str.add("Title")
             /*
             iosMe["a"] = "Take a shot"
             iosMe["b"] = "Choose from gallery"
@@ -134,8 +135,23 @@ open class XliffParser {
                                 if (meet) {
                                     var a: Element
                                     if (useIosSelf) {
-                                        val xs = iosd.getElementsMatchingOwnText(vi).first()
-                                        a = xs.getElementsByTag("target").first()
+                                        val xss = iosd.getElementsMatchingOwnText(vi)
+                                        var xs: Element? = null
+                                        xssi@
+                                        for (xssi in xss) {
+                                            if (xs != null) break@xssi
+                                            val meet = xssi.tagName() == "trans-unit" && xssi.getElementsByTag("target").size == 1
+                                            if (meet) {
+                                                xs = xssi
+                                            }
+                                        }
+
+                                        //val xs = iosd.getElementsMatchingOwnText(vi).first()
+                                        if (xs != null) {
+                                            a = xs.getElementsByTag("target").first()
+                                        } else {
+                                            a = iosd.getElementsMatchingOwnText(vi).first()
+                                        }
                                     } else {
                                         //using from android
                                         a = andd.getElementsByAttributeValue("name", ka).first()
@@ -144,6 +160,9 @@ open class XliffParser {
                                     var s = a.text()
                                     // TODO : \n ?
                                     // Replacing \' to '
+                                    if (s.contains("\\")) {
+                                        L.log("---- has \\ => %s", s)
+                                    }
                                     s = s.replace("\\'", "'")
 
                                     // Compose target string and print if apply
