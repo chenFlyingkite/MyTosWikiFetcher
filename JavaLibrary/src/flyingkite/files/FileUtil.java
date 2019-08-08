@@ -1,24 +1,21 @@
 package flyingkite.files;
 
-import java.io.BufferedReader;
+import flyingkite.functional.Projector;
+import flyingkite.tool.IOUtil;
+import flyingkite.tool.TextUtil;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import flyingkite.functional.Projector;
-import flyingkite.log.L;
-import flyingkite.tool.IOUtil;
-import flyingkite.tool.TextUtil;
+import java.util.Scanner;
 
 public class FileUtil {
 
@@ -143,25 +140,19 @@ public class FileUtil {
             return Collections.emptyList();
         }
 
-        List<String> contents = new ArrayList<>();
-        BufferedReader br = null;
-        InputStreamReader is = null;
-        FileInputStream fis = null;
+        List<String> all = new ArrayList<>();
+        Scanner s = null;
         try {
-            fis = new FileInputStream(file);
-            is = new InputStreamReader(fis, StandardCharsets.UTF_8);
-            br = new BufferedReader(is);
-
-            String line;
-            while ((line = br.readLine()) != null) {
-                contents.add(line);
+            s = new Scanner(file);//, "UTF-8");
+            while (s.hasNextLine()) {
+                all.add(s.nextLine());
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            IOUtil.closeIt(fis, is, br);
+            IOUtil.closeIt(s);
         }
-        return contents;
+        return all;
     }
 
     public static String readFileAsString(File file) {
@@ -170,35 +161,31 @@ public class FileUtil {
         }
 
         StringBuilder sb = new StringBuilder();
-        BufferedReader br = null;
-        InputStreamReader is = null;
-        FileInputStream fis = null;
+        Scanner s = null;
         try {
-            fis = new FileInputStream(file);
-            is = new InputStreamReader(fis, StandardCharsets.UTF_8);
-            br = new BufferedReader(is);
+            s = new Scanner(file, "UTF-8");
 
-            String line;
-            while ((line = br.readLine()) != null) {
-                sb.append(line).append("\n");
+            while (s.hasNextLine()) {
+                sb.append(s.nextLine()).append("\n");
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            IOUtil.closeIt(fis, is, br);
+            IOUtil.closeIt(s);
         }
         return sb.toString();
 
     }
 
     public static void writeToFile(File file, List<String> data, boolean append) {
-        if (isGone(file)){
+        if (file == null){
             return;
         }
 
         FileOutputStream fos = null;
         PrintWriter pw = null;
         try {
+            file.createNewFile();
             fos = new FileOutputStream(file, append);
             pw = new PrintWriter(fos);
             for (String s : data) {
@@ -241,6 +228,12 @@ public class FileUtil {
             scan.add(g);
         }
         return scan;
+    }
+
+    public static List<File> listFilesWhere(File src, Projector<File, Boolean> proj) {
+        List<File> all = listAllFiles(src);
+        List<File> ans = findFile(all, proj);
+        return ans;
     }
 
     public static boolean createFile(File f) {
