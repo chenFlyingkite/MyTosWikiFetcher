@@ -12822,10 +12822,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2164"
   },
   {
+    "title": "No. 2165 超大魔王獸 ‧ 魔格禍岐大蛇",
+    "id": "2165",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E5%A4%A7%E9%AD%94%E7%8E%8B%E7%8D%B8_%E2%80%A7_%E9%AD%94%E6%A0%BC%E7%A6%8D%E5%B2%90%E5%A4%A7%E8%9B%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2165"
+  },
+  {
     "title": "No. 2166 哥莫拉",
     "id": "2166",
     "link": "https://tos.fandom.com/zh/wiki/%E5%93%A5%E8%8E%AB%E6%8B%89",
     "linkId": "http://zh.tos.wikia.com/wiki/2166"
+  },
+  {
+    "title": "No. 2167 宇宙忍者 ‧ 巴魯坦星人",
+    "id": "2167",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%87%E5%AE%99%E5%BF%8D%E8%80%85_%E2%80%A7_%E5%B7%B4%E9%AD%AF%E5%9D%A6%E6%98%9F%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/2167"
   },
   {
     "title": "No. 2168 宇宙機械人 ‧ 金古橋",
