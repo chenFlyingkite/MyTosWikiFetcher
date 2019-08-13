@@ -105,7 +105,7 @@ public class ASD {
         //findCardSkill("種族強化符石", allCards);
         //findCardSkill("種族符石", allCards);
         //findCardSkill("族強化符石", allCards);
-        findCardSkill("轉化(|為)(光|光強化)(神族|魔族|人族|獸族|龍族|妖族|機械族|)符石", true, allCards);
+        findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("傷害減少", allCards);
@@ -290,6 +290,7 @@ public class ASD {
         return "#" + c.idNorm + "," + c.name
             + "\n  " + c.skillDesc1 + "," + c.skillDesc2
             + "\n  " + c.skillLeaderDesc
+            //+ "\n  " + c.cardDetails
         ;
         //return String.format("#%4s,%s\n      %s\n      %s", c.idNorm, c.name, c.skillDesc1 + "," + c.skillDesc2, c.skillLeaderDesc);
     }
