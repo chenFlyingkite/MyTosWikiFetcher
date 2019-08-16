@@ -61447,7 +61447,7 @@
   {
     "id": "3439",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3439",
-    "name": "突擊-雙直行邪惡符石20% ‧ 光攻盾 ‧ 無視減傷 ‧ 無法控制",
+    "name": "突擊-雙直行邪惡符石20% ‧ 光攻盾 ‧ 無視減傷",
     "detail": "首回合敵人會優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次；隨機 \u003cfont color\u003dyellow\u003e2 行相連直行\u003c/font\u003e的符石被附上\u003cfont color\u003dyellow\u003e邪惡能量\u003c/font\u003e；每消除 1 粒邪惡能量符石，全隊攻擊力減少 \u003cfont color\u003dyellow\u003e20%\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e只有\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的攻擊才會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3439}}",
     "icons": [
