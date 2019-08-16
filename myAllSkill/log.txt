@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2518 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2522 items, basePath = https://tos.fandom.com, offset = null)
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
 MAX_版_超必殺忍蜂 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82
@@ -337,6 +337,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 劍緣陣法 -> https://tos.fandom.com/zh/wiki/%E5%8A%8D%E7%B7%A3%E9%99%A3%E6%B3%95
 劍走偏鋒 -> https://tos.fandom.com/zh/wiki/%E5%8A%8D%E8%B5%B0%E5%81%8F%E9%8B%92
 力量之源 -> https://tos.fandom.com/zh/wiki/%E5%8A%9B%E9%87%8F%E4%B9%8B%E6%BA%90
+力量吸取 -> https://tos.fandom.com/zh/wiki/%E5%8A%9B%E9%87%8F%E5%90%B8%E5%8F%96
 力量的肇始 -> https://tos.fandom.com/zh/wiki/%E5%8A%9B%E9%87%8F%E7%9A%84%E8%82%87%E5%A7%8B
 力量迸發的契機_‧_機械 -> https://tos.fandom.com/zh/wiki/%E5%8A%9B%E9%87%8F%E8%BF%B8%E7%99%BC%E7%9A%84%E5%A5%91%E6%A9%9F_%E2%80%A7_%E6%A9%9F%E6%A2%B0
 加冕之卍 -> https://tos.fandom.com/zh/wiki/%E5%8A%A0%E5%86%95%E4%B9%8B%E5%8D%8D
@@ -983,6 +984,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 森野結界 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%87%8E%E7%B5%90%E7%95%8C
 森魔之權勢 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%AD%94%E4%B9%8B%E6%AC%8A%E5%8B%A2
 森龍之力 -> https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%BE%8D%E4%B9%8B%E5%8A%9B
+極惡衝擊波 -> https://tos.fandom.com/zh/wiki/%E6%A5%B5%E6%83%A1%E8%A1%9D%E6%93%8A%E6%B3%A2
 極樂之魅 -> https://tos.fandom.com/zh/wiki/%E6%A5%B5%E6%A8%82%E4%B9%8B%E9%AD%85
 極限解放_‧_幽冥 -> https://tos.fandom.com/zh/wiki/%E6%A5%B5%E9%99%90%E8%A7%A3%E6%94%BE_%E2%80%A7_%E5%B9%BD%E5%86%A5
 極限解放_‧_幽冥衝擊 -> https://tos.fandom.com/zh/wiki/%E6%A5%B5%E9%99%90%E8%A7%A3%E6%94%BE_%E2%80%A7_%E5%B9%BD%E5%86%A5%E8%A1%9D%E6%93%8A
@@ -1538,6 +1540,8 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 百獸同盟_‧_強 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E7%8D%B8%E5%90%8C%E7%9B%9F_%E2%80%A7_%E5%BC%B7
 百箭穿楊 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E7%AE%AD%E7%A9%BF%E6%A5%8A
 百萬大錘蒸汽 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E5%A4%A7%E9%8C%98%E8%92%B8%E6%B1%BD
+百萬戰鬥儀 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E6%88%B0%E9%AC%A5%E5%84%80
+百萬戰鬥儀_‧_強 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E6%88%B0%E9%AC%A5%E5%84%80_%E2%80%A7_%E5%BC%B7
 百變圍城_‧_加冕 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%AE%8A%E5%9C%8D%E5%9F%8E_%E2%80%A7_%E5%8A%A0%E5%86%95
 皇家惡魔玫瑰 -> https://tos.fandom.com/zh/wiki/%E7%9A%87%E5%AE%B6%E6%83%A1%E9%AD%94%E7%8E%AB%E7%91%B0
 盈光術 -> https://tos.fandom.com/zh/wiki/%E7%9B%88%E5%85%89%E8%A1%93
@@ -2519,4 +2523,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2543 skills
+2547 skills

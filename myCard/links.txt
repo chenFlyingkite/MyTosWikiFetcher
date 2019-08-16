@@ -12816,6 +12816,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2161"
   },
   {
+    "title": "No. 2162 超人貝利亞",
+    "id": "2162",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E8%B2%9D%E5%88%A9%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2162"
+  },
+  {
+    "title": "No. 2163 超人貝利亞 凶暴形態",
+    "id": "2163",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E8%B2%9D%E5%88%A9%E4%BA%9E_%E5%87%B6%E6%9A%B4%E5%BD%A2%E6%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2163"
+  },
+  {
     "title": "No. 2164 邪神卡達諾佐亞",
     "id": "2164",
     "link": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E7%A5%9E%E5%8D%A1%E9%81%94%E8%AB%BE%E4%BD%90%E4%BA%9E",
@@ -14466,10 +14478,16 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6295"
   },
   {
-    "title": "S296 超人ZERO(動態造型)",
+    "title": "S296 超人ZERO (無限形態)(動態造型)",
     "id": "6296",
-    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BAZERO(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BAZERO_(%E7%84%A1%E9%99%90%E5%BD%A2%E6%85%8B)(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6296"
+  },
+  {
+    "title": "S301 超人貝利亞 凶暴形態(動態造型)",
+    "id": "6301",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E8%B2%9D%E5%88%A9%E4%BA%9E_%E5%87%B6%E6%9A%B4%E5%BD%A2%E6%85%8B(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6301"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

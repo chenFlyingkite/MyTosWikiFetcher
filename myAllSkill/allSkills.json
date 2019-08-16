@@ -671,7 +671,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E5%BF%B5%E5%87%9D%E5%8C%AF_%E2%80%A7_%E5%BC%B7%E6%A5%B5",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中有 5 種屬性的成員時，全隊攻擊力 2.5 倍；若有 5 種或以上的種族成員時，全隊攻擊力額外提升 2 倍",
+    "skillDesc": "隊伍中有 5 種屬性的成員時，全隊攻擊力 2.5 倍。若有 5 種或以上的種族成員時，全隊攻擊力額外提升 2 倍",
     "skillMonsters": [
       "1378"
     ]
@@ -682,7 +682,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E5%BF%B5%E5%87%9D%E5%8C%AF_%E2%80%A7_%E6%A5%B5",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中有 5 種屬性的成員時，全隊攻擊力 1.5 倍；若有 5 種或以上的種族成員時，全隊攻擊力額外提升 1.5 倍",
+    "skillDesc": "隊伍中有 5 種屬性的成員時，全隊攻擊力 1.5 倍。若有 5 種或以上的種族成員時，全隊攻擊力額外提升 1.5 倍",
     "skillMonsters": [
       "1142"
     ]
@@ -693,7 +693,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E5%BF%B5%E5%87%9D%E5%8C%AF_%E2%80%A7_%E6%A5%B5",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中有 5 種屬性的成員時，全隊攻擊力 2 倍；若有 5 種或以上的種族成員時，全隊攻擊力額外提升 2 倍",
+    "skillDesc": "隊伍中有 5 種屬性的成員時，全隊攻擊力 2 倍。若有 5 種或以上的種族成員時，全隊攻擊力額外提升 2 倍",
     "skillMonsters": [
       "1143"
     ]
@@ -4016,6 +4016,18 @@
     "skillDesc": "1 回合內，自身攻擊力 4 倍；連擊 (Combo) 數目增加 6；隊伍中每個龍類、獸類或妖精類成員將額外增加 1 連擊 (Combo)，最多可額外增加 6 連擊 (Combo)",
     "skillMonsters": [
       "1643"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "力量吸取",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8A%9B%E9%87%8F%E5%90%B8%E5%8F%96",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 4 倍 II. 消除 1 組 6 粒或以上符石時 ➭ 全隊攻擊力額外 3 倍 ➭ 減少 15% 所受傷害 III. 消除 ≥2 組 6 粒或以上符石時 ➭ 全隊攻擊力則額外 6 倍 ➭ 減少 50% 所受傷害",
+    "skillMonsters": [
+      "2162",
+      "2163"
     ]
   },
   {
@@ -11754,6 +11766,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "極惡衝擊波",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A5%B5%E6%83%A1%E8%A1%9D%E6%93%8A%E6%B3%A2",
+    "skillCDMin": 15,
+    "skillCDMax": 9,
+    "skillDesc": "I. 將最頂及最底 1 橫行的符石 ➭ 轉化為暗魔族強化符石 1 回合內 II. 自身攻擊力 10 倍 (攻擊力不可與其他成員共享) III. 自身攻擊無視全體敵人的防禦力",
+    "skillMonsters": [
+      "2163"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "極樂之魅",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A5%B5%E6%A8%82%E4%B9%8B%E9%AD%85",
     "skillCDMin": 18,
@@ -16621,6 +16644,7 @@
     "skillCDMax": -1,
     "skillDesc": "火屬性獸類攻擊力 4 倍",
     "skillMonsters": [
+      "2165",
       "2166"
     ]
   },
@@ -18393,6 +18417,28 @@
     "skillDesc": "於移動符石並消除符石後，根據首批消除的連擊 (Combo) 數目增加相同的連擊 (Combo) 數目，效果持續至達成 15 連擊 (Combo) 或以上",
     "skillMonsters": [
       "1583"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "百萬戰鬥儀",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E6%88%B0%E9%AC%A5%E5%84%80",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將暗符石轉化為魔族符石 II. 1 回合內，自身不會發動攻擊 ➭ 暗屬性成員以 2 倍攻擊力 　追打 1 次 ➭「侵略者」及「哥莫拉」 　則以 4 倍攻擊力追打 1 次",
+    "skillMonsters": [
+      "2162"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "百萬戰鬥儀 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E6%88%B0%E9%AC%A5%E5%84%80_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將暗符石轉化為魔族強化符石 II. 1 回合內，自身不會發動攻擊 ➭ 暗屬性成員以 2 倍攻擊力 　追打 1 次 ➭「侵略者」及「哥莫拉」 　則以 4 倍攻擊力追打 1 次",
+    "skillMonsters": [
+      "2163"
     ]
   },
   {
