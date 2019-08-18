@@ -10,6 +10,7 @@ import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
+import main.fetcher.TosAAAFetcher;
 import main.fetcher.TosCardExtras;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
@@ -62,10 +63,11 @@ public class Main {
         //XliffParser.me.addStringsToIos();
 
         //MyTosWikiFirebase.run();
-        //ASD.run();
+        //ASD.run(); // testing on filter cards
         //print();
 
         //TosCardInfos.me.run(); // creating evolution info
+        L.log("now = %s", now());
     }
 
     private static void fetch() {

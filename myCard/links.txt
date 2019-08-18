@@ -14484,6 +14484,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6296"
   },
   {
+    "title": "S299 宇宙恐龍 ‧ 積頓(動態造型)",
+    "id": "6299",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%87%E5%AE%99%E6%81%90%E9%BE%8D_%E2%80%A7_%E7%A9%8D%E9%A0%93(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6299"
+  },
+  {
+    "title": "S300 無幻魔人 ‧ 撒古拉斯 撒古拉(動態造型)",
+    "id": "6300",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%B9%BB%E9%AD%94%E4%BA%BA_%E2%80%A7_%E6%92%92%E5%8F%A4%E6%8B%89%E6%96%AF_%E6%92%92%E5%8F%A4%E6%8B%89(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6300"
+  },
+  {
     "title": "S301 超人貝利亞 凶暴形態(動態造型)",
     "id": "6301",
     "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA%E8%B2%9D%E5%88%A9%E4%BA%9E_%E5%87%B6%E6%9A%B4%E5%BD%A2%E6%85%8B(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",

@@ -185,9 +185,11 @@ class HomeRow {
         return sb.toString().trim()
     }
 
-    fun isUltimate() : Boolean {
-        val hr = Math.round((dateEnd + 60 - dateStart) / 3600.0)
-        return hr == 50L;
+    fun isChallenge() : Boolean {
+        // Last 50 hrs
+        //val hr = Math.round((dateEnd + 60 - dateStart) / 3600.0)
+        //return hr == 50L
+        return asTexts().toString().contains(Regex("(地獄級|夢魘級|戰慄級|雙週任務)"))
     }
 
     fun toStage() : Stage {

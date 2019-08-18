@@ -38,7 +38,7 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         mLf.log("" + table.getTitle());
         for (HomeRow row : table.getRows()) {
             mLf.log("" + row);
-            if (row.isUltimate()) {
+            if (row.isChallenge()) {
                 mLf.log(mGson.toJson(row.toStage()) + ",");
             }
         }
