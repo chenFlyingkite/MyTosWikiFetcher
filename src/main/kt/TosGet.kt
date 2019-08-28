@@ -741,11 +741,16 @@ class TosGet {
             for (i in 0 until n) {
                 val imi = im[i]
                 val tti = tt[i]
+                val coins = tti.parent().text().replace("x", "").trim();
                 val rs = RelicStage()
                 rs.name = imi.attr("title")
                 rs.link = getWikiLink(imi.attr("href"), baseWiki)
                 rs.icon = getAltId(imi)
-                rs.coin = tti.parent().text().replace("x ", "").toInt()
+                rs.coin = try {
+                    coins.toInt()
+                } catch (e: java.lang.NumberFormatException) {
+                    0
+                }
                 ans.add(rs)
             }
 

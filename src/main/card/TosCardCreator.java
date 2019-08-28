@@ -91,11 +91,11 @@ public class TosCardCreator {
             int n = info.data.size();
             switch (n) {
                 case 18: c = asTosCard_18(info); break;
-                case 27:
+                //case 27:
                 case 28: c = asTosCard_28(info); break;
                 case 16: c = asTosCard_16(info); break;
                 case 22: c = asTosCard_22(info); break;
-                case 33:
+                //case 33:
                 case 32: c = asTosCard_32(info); break;
                 case 24: c = asTosCard_24(info); break;
                 case 31: c = asTosCard_31(info); break;
@@ -127,11 +127,29 @@ public class TosCardCreator {
         TosCard c = new TosCard();
 
         fillCommon(c, info);
-        //-- Skill Active name #10
-        fillSkillActive(c, list.subList(11, 15));
-        //-- Skill Leader name #15
-        fillSkillLeader(c, list.subList(16, 18));
-        fillAmelioration(c, list.subList(19, 27));
+        // A = (超人貝利亞)  2162 : 10 = 主動技, 19 = 隊長技 22 = 昇華
+        // B = (青龍孟章神君)  24 : 10 = 主動技, 15 = 隊長技 18 = 昇華
+        boolean isA = "主動技".equals(list.get(10))
+                && "隊長技".equals(list.get(19))
+                && "昇華".equals(list.get(22))
+                ;
+
+        if (isA) {
+            //-- Skill Active name #10
+            fillSkillActive(c, list.subList(11, 15));
+            fillSkillActive2(c, list.subList(15, 19));
+            //-- Skill Leader name #15
+            fillSkillLeader(c, list.subList(19, 22));
+            //-- Amelioration name #18
+            fillAmelioration(c, list.subList(23, 27));
+        } else {
+            //-- Skill Active name #10
+            fillSkillActive(c, list.subList(11, 15));
+            //-- Skill Leader name #15
+            fillSkillLeader(c, list.subList(16, 18));
+            //-- Amelioration name #18
+            fillAmelioration(c, list.subList(19, 27));
+        }
 
         return c;
     }

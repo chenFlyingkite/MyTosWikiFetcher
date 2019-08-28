@@ -55,7 +55,6 @@ public class Main {
         //stock();
 
         //TosAAAFetcher.me.run();
-        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
@@ -71,6 +70,7 @@ public class Main {
     }
 
     private static void fetch() {
+        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
         fetchMisc();
         fetchCards();
         //TosWikiCardsLister.me.run();

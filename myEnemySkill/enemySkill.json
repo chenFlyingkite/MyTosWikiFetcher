@@ -49999,12 +49999,8 @@
     "esCode": "{{ES2947}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI013.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e2/SI145.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084323\u0026path-prefix\u003dzh",
+        "iconKey": "SI145.png"
       }
     ]
   },
@@ -54408,7 +54404,7 @@
   {
     "id": "3126",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3126",
-    "name": "CD1 ‧ 黑白符石 ‧ 首回光引爆狂擊-龍脈吸收減傷 ‧ 無法控制",
+    "name": "CD1 ‧ 黑白符石 ‧ 首回暗引爆狂擊-龍脈吸收減傷 ‧ 無法控制",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e首回合引爆所有暗符石，以永久提升攻擊力；並吸取龍脈儀的能量，以永久減少所受傷害。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3126}}",
     "icons": [
@@ -54421,12 +54417,8 @@
         "iconKey": "SI215.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI304.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063417\u0026path-prefix\u003dzh",
-        "iconKey": "SI304.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
-        "iconKey": "SI168.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c4/SI316.png/revision/latest/scale-to-width-down/22?cb\u003d20190325083822\u0026path-prefix\u003dzh",
+        "iconKey": "SI316.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6f/SI140.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153349\u0026path-prefix\u003dzh",
@@ -60893,7 +60885,7 @@
   {
     "id": "3415",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3415",
-    "name": "隱身-隱攻技能封鎖1回 ‧ 復活-CD1 ‧ 無法控制",
+    "name": "隱身-隱攻禁錮1回 ‧ 復活-CD1 ‧ 無法控制",
     "detail": "敵人會\u003cfont color\u003dyellow\u003e隱身\u003c/font\u003e，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的\u003cfont color\u003dyellow\u003e主動技能及其攻擊 1 回合\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，攻擊頻率變為 \u003cfont color\u003dyellow\u003eCD 1\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3415}}",
     "icons": [
@@ -60918,7 +60910,7 @@
   {
     "id": "3416",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3416",
-    "name": "隱身-隱攻技能封鎖3回 ‧ 復活變強2倍-CD1 ‧ 無法控制",
+    "name": "隱身-隱攻禁錮3回 ‧ 復活變強2倍-CD1 ‧ 無法控制",
     "detail": "敵人會\u003cfont color\u003dyellow\u003e隱身\u003c/font\u003e，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的\u003cfont color\u003dyellow\u003e主動技能及其攻擊 3 回合\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，攻擊頻率變為\u003cfont color\u003dyellow\u003e CD 1\u003c/font\u003e，並提升\u003cfont color\u003dyellow\u003e 2 倍\u003c/font\u003e攻擊力、生命力、防禦力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3416}}",
     "icons": [
@@ -60943,7 +60935,7 @@
   {
     "id": "3417",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3417",
-    "name": "隱身-隱攻技能封鎖5回 ‧ 復活變強3倍-CD1 ‧ 無法控制",
+    "name": "隱身-隱攻禁錮5回 ‧ 復活變強3倍-CD1 ‧ 無法控制",
     "detail": "敵人會\u003cfont color\u003dyellow\u003e隱身\u003c/font\u003e，直至發動第 1 次攻擊，隱身期間不受任何攻擊傷害 (主動技能除外) 及無視所有控制技能；當召喚師在敵人隱身期間受到攻擊，敵人會封鎖所有成員的\u003cfont color\u003dyellow\u003e主動技能及其攻擊 5 回合\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，攻擊頻率變為\u003cfont color\u003dyellow\u003e CD 1\u003c/font\u003e，並提升\u003cfont color\u003dyellow\u003e 3 倍\u003c/font\u003e攻擊力、生命力、防禦力。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3417}}",
     "icons": [
@@ -60997,7 +60989,7 @@
   {
     "id": "3420",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3420",
-    "name": "3回4員禁錮 ‧ 首消水傷害吸收-反擊100% ‧ 四重霧化",
+    "name": "3回隊員禁錮 ‧ 首消水傷害吸收-反擊100% ‧ 四重霧化",
     "detail": "\u003cfont color\u003dyellow\u003e3 回合內，封鎖 4 個隊員的主動技能及其攻擊\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e水屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e100%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e每回合隨機\u003cfont color\u003dyellow\u003e霧化 4 個\u003c/font\u003e位置",
     "esCode": "{{ES3420}}",
     "icons": [
@@ -61006,12 +60998,8 @@
         "iconKey": "SI122.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI011.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI143.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084321\u0026path-prefix\u003dzh",
+        "iconKey": "SI143.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/40/SI266.png/revision/latest/scale-to-width-down/22?cb\u003d20190729151634\u0026path-prefix\u003dzh",
@@ -61360,29 +61348,21 @@
   {
     "id": "3436",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3436",
-    "name": "擊碎龍脈-缺龍刻必殺 ‧ 首消暗傷害吸收-反擊200% ‧ 無視減傷 ‧ 無法控制",
+    "name": "擊碎龍脈-先攻-缺龍刻必殺 ‧ 首消暗傷害吸收-反擊200% ‧ 無視減傷",
     "detail": "召喚師若\u003cfont color\u003dyellow\u003e有\u003c/font\u003e裝備龍刻：\u003cbr\u003e首回合優先攻擊 1 次，\u003cbr\u003e並\u003cfont color\u003dyellow\u003e擊碎龍脈儀\u003c/font\u003e (不包括 ORB 聖劍)。\u003cbr\u003e\u003cbr\u003e召喚師若\u003cfont color\u003dyellow\u003e沒有\u003c/font\u003e裝備龍刻：\u003cbr\u003e首回合敵人會\u003cfont color\u003dyellow\u003e擊斃召喚師\u003c/font\u003e (不能迴避及轉化傷害為生命力)\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e暗屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 \u003cfont color\u003dyellow\u003e200%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3436}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/25/SI134.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102458\u0026path-prefix\u003dzh",
-        "iconKey": "SI134.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/78/SI142.png/revision/latest/scale-to-width-down/22?cb\u003d20190821094247\u0026path-prefix\u003dzh",
+        "iconKey": "SI142.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI015.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/13/SI147.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084325\u0026path-prefix\u003dzh",
+        "iconKey": "SI147.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI251.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI124.png"
       }
     ]
   },
@@ -61447,7 +61427,7 @@
   {
     "id": "3439",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3439",
-    "name": "突擊-雙直行邪惡符石20% ‧ 光攻盾 ‧ 無視減傷",
+    "name": "突擊10%-雙直行邪惡符石20% ‧ 光攻盾 ‧ 無視減傷",
     "detail": "首回合敵人會優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次；隨機 \u003cfont color\u003dyellow\u003e2 行相連直行\u003c/font\u003e的符石被附上\u003cfont color\u003dyellow\u003e邪惡能量\u003c/font\u003e；每消除 1 粒邪惡能量符石，全隊攻擊力減少 \u003cfont color\u003dyellow\u003e20%\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e只有\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的攻擊才會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和意志技能",
     "esCode": "{{ES3439}}",
     "icons": [
@@ -61456,8 +61436,8 @@
         "iconKey": "SI160.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0a/SI203.png/revision/latest/scale-to-width-down/22?cb\u003d20190211034623\u0026path-prefix\u003dzh",
-        "iconKey": "SI203.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/74/SI267.png/revision/latest/scale-to-width-down/22?cb\u003d20190821102725\u0026path-prefix\u003dzh",
+        "iconKey": "SI267.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c0/SI004.png/revision/latest/scale-to-width-down/22?cb\u003d20150217093343\u0026path-prefix\u003dzh",
@@ -61466,10 +61446,6 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
         "iconKey": "SI251.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI124.png"
       }
     ]
   },

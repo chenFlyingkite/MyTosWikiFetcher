@@ -70,14 +70,10 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/1063" // TosCardCreator = 32
                 , "https://tos.fandom.com/zh/wiki/651" // TosCardCreator = 24
                 , "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
-                , "https://tos.fandom.com/zh/wiki/2001" // TosCardCreator = 33
         );
-
         link.clear(); // uncomment this if use test links
-        link.add("https://tos.fandom.com/zh/wiki/350");
-        //link.add("https://tos.fandom.com/zh/wiki/1327"); // 伊莉莎白
-        //link.add("https://tos.fandom.com/zh/wiki/6200");
-
+        //link.add("https://tos.fandom.com/zh/wiki/24");
+        //link.add("https://tos.fandom.com/zh/wiki/2162");
         //link.add("https://tos.fandom.com/zh/wiki/1436");
         //link.add("https://tos.fandom.com/zh/wiki/6070"); // 妲己
         //link.add("https://tos.fandom.com/zh/wiki/6174");

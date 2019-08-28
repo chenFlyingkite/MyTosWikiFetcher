@@ -1,112 +1,54 @@
 活動時間表
 0 ~ 0 -> [開始, 結束, 活動/關卡]
   link = 
-0 ~ 0 -> [⬇ 所有地區 ⬇]
-  link = 
-1566316800 ~ 1566403200 -> [8月21日(三), 龍刻之日 ※體力減半]
-  link = https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E4%B9%8B%E6%97%A5
-1566489600 ~ 1566576000 -> [8月23日(五), 龍刻之日 ※體力減半]
-  link = https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E4%B9%8B%E6%97%A5
-1566662400 ~ 1566748800 -> [8月25日(星期日), 龍刻之日 ※體力減半]
-  link = https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E4%B9%8B%E6%97%A5
-1565539200 ~ 1566748800 -> [8月12日(一), 8月25日(星期日), 魔族的嫉妒 ※雙週復刻]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%97%8F%E7%9A%84%E5%AB%89%E5%A6%92
+1566748800 ~ 1567958400 -> [8月26日(一), 9月08日(星期日), 膽小怕生的仙將 ※雙週任務]
+  link = https://tos.fandom.com/zh/wiki/%E8%86%BD%E5%B0%8F%E6%80%95%E7%94%9F%E7%9A%84%E4%BB%99%E5%B0%87
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E8%86%BD%E5%B0%8F%E6%80%95%E7%94%9F%E7%9A%84%E4%BB%99%E5%B0%87",
+  "name": "膽小怕生的仙將",
+  "icon": "2173"
+},
+1566748800 ~ 1567958400 -> [8月26日(一), 9月08日(星期日), 水色霧縈 ※雙週任務]
+  link = https://tos.fandom.com/zh/wiki/%E6%B0%B4%E8%89%B2%E9%9C%A7%E7%B8%88
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E8%89%B2%E9%9C%A7%E7%B8%88",
+  "name": "水色霧縈",
+  "icon": "2174"
+},
 1566748800 ~ 1567958400 -> [8月26日(一), 9月08日(星期日), 魔族的貪婪 ※雙週復刻]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%97%8F%E7%9A%84%E8%B2%AA%E5%A9%AA
-0 ~ 0 -> [⬇ 非合作地區 ⬇]
-  link = 
-1565539200 ~ 1566748800 -> [8月12日(一), 8月25日(星期日), 寵獸傳說 ‧ 水 ※雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%B0%B4
+1566828000 ~ 1567007940 -> [8月26日(一) 22:00, 8月28日(三) 23:59, 甦醒之花 ※地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E4%B9%8B%E8%8A%B1
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%B0%B4",
-  "name": "寵獸傳說 ‧ 水",
-  "icon": "1231"
+  "link": "https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E4%B9%8B%E8%8A%B1",
+  "name": "甦醒之花",
+  "icon": "1213"
 },
-1565539200 ~ 1566748800 -> [8月12日(一), 8月25日(星期日), 寵獸傳說 ‧ 火 ※雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E7%81%AB
+1567173600 ~ 1567353540 -> [8月30日(五) 22:00, 9月01日(星期日) 23:59, 剽悍的鬥士 ※地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E5%89%BD%E6%82%8D%E7%9A%84%E9%AC%A5%E5%A3%AB
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E7%81%AB",
-  "name": "寵獸傳說 ‧ 火",
-  "icon": "1232"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%89%BD%E6%82%8D%E7%9A%84%E9%AC%A5%E5%A3%AB",
+  "name": "剽悍的鬥士",
+  "icon": "1552"
 },
-1565539200 ~ 1566748800 -> [8月12日(一), 8月25日(星期日), 寵獸傳說 ‧ 木 ※雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9C%A8
+1567173600 ~ 1567353540 -> [8月30日(五) 22:00, 9月01日(星期日) 23:59, 纖塵不染之靈 ※地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E7%BA%96%E5%A1%B5%E4%B8%8D%E6%9F%93%E4%B9%8B%E9%9D%88
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9C%A8",
-  "name": "寵獸傳說 ‧ 木",
-  "icon": "1233"
+  "link": "https://tos.fandom.com/zh/wiki/%E7%BA%96%E5%A1%B5%E4%B8%8D%E6%9F%93%E4%B9%8B%E9%9D%88",
+  "name": "纖塵不染之靈",
+  "icon": "1986"
 },
-1565539200 ~ 1566748800 -> [8月12日(一), 8月25日(星期日), 寵獸傳說 ‧ 光 ※雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E5%85%89
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E5%85%89",
-  "name": "寵獸傳說 ‧ 光",
-  "icon": "1234"
-},
-1565539200 ~ 1566748800 -> [8月12日(一), 8月25日(星期日), 寵獸傳說 ‧ 暗 ※雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9A%97
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%AF%B5%E7%8D%B8%E5%82%B3%E8%AA%AA_%E2%80%A7_%E6%9A%97",
-  "name": "寵獸傳說 ‧ 暗",
-  "icon": "1235"
-},
-0 ~ 0 -> [⬇ 合作地區 ⬇]
-  link = 
-1565798400 ~ 1566316800 -> [8月15日(四), 8月20日(二), 戰勝絕望 ※特別任務]
-  link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E5%8B%9D%E7%B5%95%E6%9C%9B
-1565539200 ~ 1566748800 -> [8月12日(一), 8月25日(星期日), 節肢宇宙人 ※雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%AF%80%E8%82%A2%E5%AE%87%E5%AE%99%E4%BA%BA
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AF%80%E8%82%A2%E5%AE%87%E5%AE%99%E4%BA%BA",
-  "name": "節肢宇宙人",
-  "icon": "2167"
-},
-1565539200 ~ 1566144000 -> [8月12日(一), 8月18日(星期日), 與超大魔王獸的激戰 ※戰慄級]
-  link = https://tos.fandom.com/zh/wiki/%E8%88%87%E8%B6%85%E5%A4%A7%E9%AD%94%E7%8E%8B%E7%8D%B8%E7%9A%84%E6%BF%80%E6%88%B0
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%88%87%E8%B6%85%E5%A4%A7%E9%AD%94%E7%8E%8B%E7%8D%B8%E7%9A%84%E6%BF%80%E6%88%B0",
-  "name": "與超大魔王獸的激戰",
-  "icon": "2165"
-},
-1566396000 ~ 1566748740 -> [8月21日(三) 22:00, 8月25日(星期日) 23:59, 漆黑的甲殼 ※地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%BC%86%E9%BB%91%E7%9A%84%E7%94%B2%E6%AE%BC
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%BC%86%E9%BB%91%E7%9A%84%E7%94%B2%E6%AE%BC",
-  "name": "漆黑的甲殼",
-  "icon": "2160"
-},
-1566396000 ~ 1566748740 -> [8月21日(三) 22:00, 8月25日(星期日) 23:59, 正義的宿敵 ※地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%AD%A3%E7%BE%A9%E7%9A%84%E5%AE%BF%E6%95%B5
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%AD%A3%E7%BE%A9%E7%9A%84%E5%AE%BF%E6%95%B5",
-  "name": "正義的宿敵",
-  "icon": "2161"
-},
-1566396000 ~ 1566748740 -> [8月21日(三) 22:00, 8月25日(星期日) 23:59, 惡勢力的野心 ※夢魘級]
-  link = https://tos.fandom.com/zh/wiki/%E6%83%A1%E5%8B%A2%E5%8A%9B%E7%9A%84%E9%87%8E%E5%BF%83
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E5%8B%A2%E5%8A%9B%E7%9A%84%E9%87%8E%E5%BF%83",
-  "name": "惡勢力的野心",
-  "icon": "2162"
-},
-1566568800 ~ 1566748740 -> [8月23日(五) 22:00, 8月25日(星期日) 23:59, 惡勢力的野心 (原生難度) ※原生夢魘級]
-  link = https://tos.fandom.com/zh/wiki/%E6%83%A1%E5%8B%A2%E5%8A%9B%E7%9A%84%E9%87%8E%E5%BF%83_(%E5%8E%9F%E7%94%9F%E9%9B%A3%E5%BA%A6)
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E5%8B%A2%E5%8A%9B%E7%9A%84%E9%87%8E%E5%BF%83_(%E5%8E%9F%E7%94%9F%E9%9B%A3%E5%BA%A6)",
-  "name": "惡勢力的野心 (原生難度)",
-  "icon": "2162"
-},
-0 ~ 0 -> [超人 ‧ 希望之光]
-  link = https://tos.fandom.com/zh/wiki/%E8%B6%85%E4%BA%BA_%E2%80%A7_%E5%B8%8C%E6%9C%9B%E4%B9%8B%E5%85%89
-1564329600 ~ 1566748800 -> [7月29日(一), 8月25日(星期日), 『光之巨人』石抽系列角色強化合成時，必定獲得超絕或完美強化]
-  link = 
-1564329600 ~ 1566748800 -> [7月29日(一), 8月25日(星期日), 『光之巨人』石抽系列角色進行分解時，獲得的靈魂數將提升至200]
-  link = 
-0 ~ 0 -> [被侵蝕的光明]
-  link = https://tos.fandom.com/zh/wiki/%E8%A2%AB%E4%BE%B5%E8%9D%95%E7%9A%84%E5%85%89%E6%98%8E
-1566144000 ~ 1566576000 -> [8月19日(一), 8月23日(五), 每天登入︰ 魔法石 × 1，共 × 5]
+0 ~ 0 -> [花之光星之影]
+  link = https://tos.fandom.com/zh/wiki/%E8%8A%B1%E4%B9%8B%E5%85%89%E6%98%9F%E4%B9%8B%E5%BD%B1
+1566748800 ~ 1567180800 -> [8月26日(一), 8月30日(五), 每天登入︰ 魔法石 × 1，共 × 5]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1566144000 ~ 1566748800 -> [8月19日(一), 8月25日(星期日), 登入︰ 個人記錄背景 超人ORB背景 × 1]
+1566748800 ~ 1567353600 -> [8月26日(一), 9月01日(星期日), 主線任務體力減半]
   link = 
-1566576000 ~ 1566748800 -> [8月24日(星期六), 8月25日(星期日), 登入︰ 限時體力回復劑 × 1 (必須於活動期間使用)]
+1566748800 ~ 1567958400 -> [8月26日(一), 9月08日(星期日), 首次單筆儲值 魔法石 15 粒 送 魔法石 15 粒]
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+1566748800 ~ 1566921600 -> [8月26日(一), 8月27日(二), 首次使用 魔法石 回復體力，額外獲得 體力回復劑 1支]
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+1566921600 ~ 1567094400 -> [8月28日(三), 8月29日(四), 首次使用 魔法石 回復體力，額外獲得 體力回復劑 1支]
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+1567180800 ~ 1567353600 -> [8月31日(星期六), 9月01日(星期日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 

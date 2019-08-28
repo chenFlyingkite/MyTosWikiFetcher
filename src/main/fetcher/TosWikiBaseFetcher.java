@@ -349,6 +349,7 @@ public class TosWikiBaseFetcher implements Runnable {
         lg.setLogToL(false);
         lg.getFile().open(false);
         lg.log(msg);
+        lg.getFile().flush();
         lg.getFile().close();
         return msg;
     }
