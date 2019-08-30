@@ -6077,6 +6077,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "妖族紋章",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E6%97%8F%E7%B4%8B%E7%AB%A0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ➭ 並將該種符石引爆 ➭ 以掉落該種符石以外的符石 1 回合內 II. 首批掉落的符石必定為妖族符石 III. 延長移動符石時間至 12 秒",
+    "skillMonsters": [
+      "2036"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "妖狐形態",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E7%8B%90%E5%BD%A2%E6%85%8B",
     "skillCDMin": 8,
@@ -11975,6 +11986,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "機械人 ‧ 萬鈞之怒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E4%BA%BA_%E2%80%A7_%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類及機械族攻擊力 4 倍",
+    "skillMonsters": [
+      "2172"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "機械化的紀錄",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%8C%96%E7%9A%84%E7%B4%80%E9%8C%84",
@@ -14762,6 +14784,17 @@
       "0757",
       "EvoPlus",
       "0767"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "清逸之森",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B8%85%E9%80%B8%E4%B9%8B%E6%A3%AE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將心符石轉化為木人族強化符石 1 回合內 II. 個人追打木屬性攻擊 5 次 III. 有 50% 機率迴避敵人攻擊",
+    "skillMonsters": [
+      "2175"
     ]
   },
   {
@@ -23829,7 +23862,8 @@
     "skillDesc": "木屬性攻擊力 4 倍及人類攻擊力 1.5 倍，木屬性人類攻擊力則 6 倍",
     "skillMonsters": [
       "2045",
-      "2046"
+      "2046",
+      "2175"
     ]
   },
   {
@@ -27310,6 +27344,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "電殛之刑",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E6%AE%9B%E4%B9%8B%E5%88%91",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "3 回合內 I. 將光符石轉化為機械族符石 II. 若移動符石前場上有電擊符石 ➭ 該回合自身攻擊力 4 倍",
+    "skillMonsters": [
+      "2172"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "電殛之屠",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E6%AE%9B%E4%B9%8B%E5%B1%A0",
     "skillCDMin": 18,
@@ -28348,6 +28393,17 @@
     "skillDesc": "人類攻擊力及回復力 4.5 倍；龍脈儀全滿時，人類攻擊力額外提升 1.5 倍。每首批消除 1 種屬性符石，於回合結束時，隨機將該屬性的其中 2 粒符石轉化為人族符石",
     "skillMonsters": [
       "2039"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "騎士之魂 ‧ 妖",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E5%A6%96",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "妖精類攻擊力及回復力 4.5 倍；龍脈儀全滿時，妖精類攻擊力額外提升 1.5 倍。每首批消除 1 種屬性符石，於回合結束時，隨機將該屬性的其中 2 粒符石轉化為妖族符石",
+    "skillMonsters": [
+      "2036"
     ]
   },
   {
