@@ -72,7 +72,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
         );
         link.clear(); // uncomment this if use test links
-        //link.add("https://tos.fandom.com/zh/wiki/24");
+        //link.add("https://tos.fandom.com/zh/wiki/2186");
         //link.add("https://tos.fandom.com/zh/wiki/2162");
         //link.add("https://tos.fandom.com/zh/wiki/1436");
         //link.add("https://tos.fandom.com/zh/wiki/6070"); // 妲己
@@ -110,6 +110,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
 
         mLf.setLogToL(test);
         clock.tic();
+        List<String> failed = new ArrayList<>();
         List<TosCard> allCards = new ArrayList<>();
         for (int i = 0; i < pages.size(); i++) {
             String link = pages.get(i);
@@ -122,7 +123,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             TosCard card = TosCardCreator.me.asTosCard(cInfo);
 
             if (card == null) {
-                L.log("X_X, No card %s", cInfo.wikiLink); // For 龍刻
+                failed.add(cInfo.wikiLink);
+                L.log("X_X, No card %s", cInfo.wikiLink);
             } else {
                 allCards.add(card);
                 cardSeries.add(card.series);
@@ -142,6 +144,14 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
 
         long dur;
         dur = clock.tac("%s Done", tag());
+
+        int no = failed.size();
+        if (no > 0) {
+            L.log("%s cards failed", no);
+            for (int i = 0; i < no; i++) {
+                L.log(" > #%2d = %s", i, failed.get(i));
+            }
+        }
         L.log("time = %s     at %s", StringUtil.MMSSFFF(dur), new Date());
     }
 
