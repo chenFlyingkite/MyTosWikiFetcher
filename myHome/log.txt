@@ -43,11 +43,11 @@
   link = 
 1567958400 ~ 1568563200 -> [9月09日(一), 9月15日(星期日), 為世界試唱 ※試玩任務]
   link = https://tos.fandom.com/zh/wiki/%E7%82%BA%E4%B8%96%E7%95%8C%E8%A9%A6%E5%94%B1
-1567958400 ~ 1569168000 -> [9月09日(一), 9月22日(星期日), 將你 MIKUMIKU 掉 ※雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%B0%87%E4%BD%A0_MIKUMIKU_%E6%8E%89
+1567958400 ~ 1569168000 -> [9月09日(一), 9月22日(星期日), 將你MIKUMIKU掉 ※雙週任務]
+  link = https://tos.fandom.com/zh/wiki/%E5%B0%87%E4%BD%A0MIKUMIKU%E6%8E%89
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%B0%87%E4%BD%A0_MIKUMIKU_%E6%8E%89",
-  "name": "將你 MIKUMIKU 掉",
+  "link": "https://tos.fandom.com/zh/wiki/%E5%B0%87%E4%BD%A0MIKUMIKU%E6%8E%89",
+  "name": "將你MIKUMIKU掉",
   "icon": "2198"
 },
 1568383200 ~ 1568649540 -> [9月13日(五) 22:00, 9月16日(一) 23:59, 旋轉直至厭倦 ※地獄級]

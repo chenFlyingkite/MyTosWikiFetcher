@@ -7182,7 +7182,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E5%BD%B1%E6%B5%81%E6%98%9F",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "全隊回復力減少 50%；消除屬性符石時，個人追打與消除符石屬性相同的攻擊各 1 次。效果持續至沒有消除 3 種或以上的屬性符石",
+    "skillDesc": "消除屬性符石時，個人追打與消除符石屬性相同的攻擊各 1 次。效果持續至沒有消除 3 種或以上的屬性符石",
     "skillMonsters": [
       "1537"
     ]
@@ -27447,7 +27447,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E9%BE%8D%E6%8E%A2%E7%8F%A0_%E2%80%A7_%E5%85%89",
     "skillCDMin": 50,
     "skillCDMax": -1,
-    "skillDesc": "心符石、暗符石及光符石轉化為光強化符石，並將自身所在隊伍欄直行的符石轉化為光符石",
+    "skillDesc": "I. 將心、光及暗符石轉化為光龍族強化符石 II. 將自身直行的符石轉化為光龍族符石",
     "skillMonsters": [
       "1069",
       "EvoPlus",
@@ -27460,7 +27460,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E9%BE%8D%E6%8E%A2%E7%8F%A0_%E2%80%A7_%E7%81%AB",
     "skillCDMin": 50,
     "skillCDMax": -1,
-    "skillDesc": "心符石、木符石及火符石轉化為火強化符石，並將自身所在隊伍欄直行的符石轉化為火符石",
+    "skillDesc": "I. 將心、木及火符石轉化為火龍族強化符石 II. 將自身直行的符石轉化為火龍族符石",
     "skillMonsters": [
       "1067",
       "EvoPlus",
@@ -28437,7 +28437,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%92%E9%BE%8D%E6%93%BA%E5%B0%BE",
     "skillCDMin": 50,
     "skillCDMax": -1,
-    "skillDesc": "心符石及水符石轉化為木符石；並回復木屬性及龍類成員 50% 生命力",
+    "skillDesc": "I. 將心及水符石轉化為木龍族強化符石 II. 回復木屬性及龍類成員 50% 生命力",
     "skillMonsters": [
       "1068",
       "EvoPlus",
