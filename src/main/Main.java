@@ -255,7 +255,7 @@ public class Main {
 
         dirs = envDirs();
         for (int i = 0; i < dirs.length; i++) {
-            dirs[i] = String.format("Context.getExternalFilesDir(%s)", dirs[i]);
+            dirs[i] = String.format("c.getExternalFilesDir(%s)", dirs[i]);
         }
         p(dirs);
     }
