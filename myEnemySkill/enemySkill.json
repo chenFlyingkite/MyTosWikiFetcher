@@ -61581,7 +61581,7 @@
   {
     "id": "3445",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3445",
-    "name": "突擊 ‧ 彈幕-銅 ‧ 蔥形轉木心-木心轉別屬 ‧ 無法控制",
+    "name": "突擊 ‧ 彈幕-銅 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e場上出現\u003cfont color\u003dyellow\u003e彈幕！\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首回合分別將 5 個及 2 個固定位置的符石轉化為木及心符石；並將其他符石轉化為木及心以外的符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3445}}",
     "icons": [
@@ -61602,7 +61602,7 @@
   {
     "id": "3446",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3446",
-    "name": "突擊 ‧ 彈幕-銀 ‧ 蔥形轉木心-木心轉別屬 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
+    "name": "突擊 ‧ 彈幕-銀 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e場上出現\u003cfont color\u003dyellow\u003e彈幕！！\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首回合分別將 5 個及 2 個固定位置的符石轉化為木及心符石；並將其他符石轉化為木及心以外的符石。\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；當第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為心符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3446}}",
     "icons": [
@@ -61623,7 +61623,7 @@
   {
     "id": "3447",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3447",
-    "name": "突擊 ‧ 彈幕-金 ‧ 蔥形轉木心-木心轉別屬 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
+    "name": "突擊 ‧ 彈幕-金 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e場上出現\u003cfont color\u003dyellow\u003e彈幕！！！\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首回合分別將 5 個及 2 個固定位置的符石轉化為木及心符石；並將其他符石轉化為木及心以外的符石。\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；當第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為心符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3447}}",
     "icons": [
@@ -63254,7 +63254,7 @@
   {
     "id": "3522",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3522",
-    "name": "軌跡隱藏 ‧ 首消4+Combo盾",
+    "name": "軌跡隱藏 ‧ 首消4Combo盾",
     "detail": "\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e4 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3522}}",
     "icons": [
@@ -63271,7 +63271,7 @@
   {
     "id": "3523",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3523",
-    "name": "軌跡隱藏 ‧ 首消5+Combo盾",
+    "name": "軌跡隱藏 ‧ 首消5Combo盾",
     "detail": "\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e5 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3523}}",
     "icons": [
@@ -63288,7 +63288,7 @@
   {
     "id": "3524",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3524",
-    "name": "軌跡隱藏 ‧ 首消6+Combo盾",
+    "name": "軌跡隱藏 ‧ 首消6Combo盾",
     "detail": "\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除\u003cfont color\u003dyellow\u003e 6 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3524}}",
     "icons": [
@@ -63305,7 +63305,7 @@
   {
     "id": "3525",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3525",
-    "name": "軌跡隱藏 ‧ 首消7+Combo盾",
+    "name": "軌跡隱藏 ‧ 首消7Combo盾",
     "detail": "\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除\u003cfont color\u003dyellow\u003e 7 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3525}}",
     "icons": [
@@ -63322,7 +63322,7 @@
   {
     "id": "3526",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3526",
-    "name": "軌跡隱藏 ‧ 首消8+Combo盾",
+    "name": "軌跡隱藏 ‧ 首消8Combo盾",
     "detail": "\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e8 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3526}}",
     "icons": [
@@ -63339,7 +63339,7 @@
   {
     "id": "3527",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3527",
-    "name": "軌跡隱藏 ‧ 首消9+Combo盾",
+    "name": "軌跡隱藏 ‧ 首消9Combo盾",
     "detail": "\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e9 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3527}}",
     "icons": [
@@ -63356,7 +63356,7 @@
   {
     "id": "3528",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3528",
-    "name": "軌跡隱藏 ‧ 首消10+Combo盾",
+    "name": "軌跡隱藏 ‧ 首消10Combo盾",
     "detail": "\u003cfont color\u003dyellow\u003e持續\u003c/font\u003e將移動符石時所觸碰的符石轉化為\u003cfont color\u003dyellow\u003e隱藏符石\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e10 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3528}}",
     "icons": [
@@ -63373,7 +63373,7 @@
   {
     "id": "3529",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3529",
-    "name": "隱藏-轉 ‧ 首消4+Combo盾",
+    "name": "隱藏-轉 ‧ 首消4Combo盾",
     "detail": "每回合開始移動符石時，\u003cbr\u003e才會顯示場上的符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e 首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e 4 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3529}}",
     "icons": [
@@ -63390,7 +63390,7 @@
   {
     "id": "3530",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3530",
-    "name": "隱藏-轉 ‧ 首消5+Combo盾",
+    "name": "隱藏-轉 ‧ 首消5Combo盾",
     "detail": "每回合開始移動符石時，\u003cbr\u003e才會顯示場上的符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e 首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e 5 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3530}}",
     "icons": [
@@ -63407,7 +63407,7 @@
   {
     "id": "3531",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3531",
-    "name": "隱藏-轉 ‧ 首消6+Combo盾",
+    "name": "隱藏-轉 ‧ 首消6Combo盾",
     "detail": "每回合開始移動符石時，\u003cbr\u003e才會顯示場上的符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e 首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e 6 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3531}}",
     "icons": [
@@ -63424,7 +63424,7 @@
   {
     "id": "3532",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3532",
-    "name": "隱藏-轉 ‧ 首消7+Combo盾",
+    "name": "隱藏-轉 ‧ 首消7Combo盾",
     "detail": "每回合開始移動符石時，\u003cbr\u003e才會顯示場上的符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e 首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e 7 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3532}}",
     "icons": [
@@ -63441,7 +63441,7 @@
   {
     "id": "3533",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3533",
-    "name": "隱藏-轉 ‧ 首消8+Combo盾",
+    "name": "隱藏-轉 ‧ 首消8Combo盾",
     "detail": "每回合開始移動符石時，\u003cbr\u003e才會顯示場上的符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e 首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e 8 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3533}}",
     "icons": [
@@ -63458,7 +63458,7 @@
   {
     "id": "3534",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3534",
-    "name": "隱藏-轉 ‧ 首消9+Combo盾",
+    "name": "隱藏-轉 ‧ 首消9Combo盾",
     "detail": "每回合開始移動符石時，\u003cbr\u003e才會顯示場上的符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e 首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e 9 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3534}}",
     "icons": [
@@ -63475,7 +63475,7 @@
   {
     "id": "3535",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3535",
-    "name": "隱藏-轉 ‧ 首消10+Combo盾",
+    "name": "隱藏-轉 ‧ 首消10Combo盾",
     "detail": "每回合開始移動符石時，\u003cbr\u003e才會顯示場上的符石。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e 首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e 10 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3535}}",
     "icons": [
@@ -63492,7 +63492,7 @@
   {
     "id": "3536",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3536",
-    "name": "硬4秒轉珠 ‧ 首消4+Combo盾",
+    "name": "硬4秒轉珠 ‧ 首消4Combo盾",
     "detail": "移動符石時間變為 \u003cfont color\u003dyellow\u003e4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e4 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3536}}",
     "icons": [
@@ -63509,7 +63509,7 @@
   {
     "id": "3537",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3537",
-    "name": "硬4秒轉珠 ‧ 首消5+Combo盾",
+    "name": "硬4秒轉珠 ‧ 首消5Combo盾",
     "detail": "移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除\u003cfont color\u003dyellow\u003e 5 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3537}}",
     "icons": [
@@ -63526,7 +63526,7 @@
   {
     "id": "3538",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3538",
-    "name": "硬4秒轉珠 ‧ 首消6+Combo盾",
+    "name": "硬4秒轉珠 ‧ 首消6Combo盾",
     "detail": "移動符石時間變為 \u003cfont color\u003dyellow\u003e4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除\u003cfont color\u003dyellow\u003e 6 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3538}}",
     "icons": [
@@ -63543,7 +63543,7 @@
   {
     "id": "3539",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3539",
-    "name": "硬4秒轉珠 ‧ 首消7+Combo盾",
+    "name": "硬4秒轉珠 ‧ 首消7Combo盾",
     "detail": "移動符石時間變為 \u003cfont color\u003dyellow\u003e4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e7 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3539}}",
     "icons": [
@@ -63560,7 +63560,7 @@
   {
     "id": "3540",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3540",
-    "name": "硬4秒轉珠 ‧ 首消8+Combo盾",
+    "name": "硬4秒轉珠 ‧ 首消8Combo盾",
     "detail": "移動符石時間變為 \u003cfont color\u003dyellow\u003e4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e8 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3540}}",
     "icons": [
@@ -63577,7 +63577,7 @@
   {
     "id": "3541",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3541",
-    "name": "硬4秒轉珠 ‧ 首消9+Combo盾",
+    "name": "硬4秒轉珠 ‧ 首消9Combo盾",
     "detail": "移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e9 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3541}}",
     "icons": [
@@ -63594,7 +63594,7 @@
   {
     "id": "3542",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3542",
-    "name": "硬4秒轉珠 ‧ 首消10+Combo盾",
+    "name": "硬4秒轉珠 ‧ 首消10Combo盾",
     "detail": "移動符石時間變為 \u003cfont color\u003dyellow\u003e4 秒\u003c/font\u003e\u003cbr\u003e (\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e\u003cfont color\u003dyellow\u003e首批\u003c/font\u003e消除 \u003cfont color\u003dyellow\u003e10 連擊 (Combo)\u003c/font\u003e\u003cbr\u003e才會對敵人造成攻擊傷害",
     "esCode": "{{ES3542}}",
     "icons": [

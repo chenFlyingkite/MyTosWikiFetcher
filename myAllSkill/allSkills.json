@@ -3915,6 +3915,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "初音綻放",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%88%9D%E9%9F%B3%E7%B6%BB%E6%94%BE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除「初音未來」被封鎖的技能 (此技能無視封鎖技能) II. 1 回合內 ⇒ 機械族攻擊力 1.5 倍 ⇒「初音未來」攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2197"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "刪除 終末",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%88%AA%E9%99%A4_%E7%B5%82%E6%9C%AB",
     "skillCDMin": 18,
@@ -7730,6 +7741,17 @@
     "skillMonsters": [
       "2195",
       "2198"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "引擎動力 ‧ 心之焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BC%95%E6%93%8E%E5%8B%95%E5%8A%9B_%E2%80%A7_%E5%BF%83%E4%B9%8B%E7%84%B0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊力 3.9 倍 II. 心符石兼具 50% 火符石效果",
+    "skillMonsters": [
+      "2197"
     ]
   },
   {
@@ -19451,6 +19473,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "神族盟約",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%9B%9F%E7%B4%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 神族攻擊力 4 倍 II. 消除 1 組 ≥5 粒符石 ⇒ 神族攻擊力額外 3 倍 III. 消除神族符石時 ⇒ 全隊攻擊力有 50% 機會額外 1.5 倍 (機率可以疊加)",
+    "skillMonsters": [
+      "2178"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "神族符能 ‧ 幽冥陣",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E5%B9%BD%E5%86%A5%E9%99%A3",
@@ -28515,6 +28548,17 @@
       "0705",
       "EvoPlus",
       "0479"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "領軍之燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A0%98%E8%BB%8D%E4%B9%8B%E7%87%84",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選元素法陣上的 1 粒符石 ⇒ 將該種符石轉化為自身屬性符石 2 回合內 II. 於回合結束時將 5 粒符石 (自身屬性及心以外符石優先轉換) ⇒ 轉化為自身屬性符石 III. 自身屬性符石兼具 50% 心符石效果",
+    "skillMonsters": [
+      "2178"
     ]
   },
   {

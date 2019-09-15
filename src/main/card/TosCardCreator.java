@@ -139,7 +139,7 @@ public class TosCardCreator {
             fillSkillActive(c, list.subList(11, 15));
             fillSkillActive2(c, list.subList(15, 19));
             //-- Skill Leader name #15
-            fillSkillLeader(c, list.subList(19, 22));
+            fillSkillLeader(c, list.subList(20, 22));
             //-- Amelioration name #18
             fillAmelioration(c, list.subList(23, 27));
         } else {
