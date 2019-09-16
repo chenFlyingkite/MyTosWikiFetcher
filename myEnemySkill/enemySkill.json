@@ -61581,7 +61581,7 @@
   {
     "id": "3445",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3445",
-    "name": "突擊 ‧ 彈幕-銅 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 無法控制",
+    "name": "突擊39 ‧ 彈幕-銅 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e場上出現\u003cfont color\u003dyellow\u003e彈幕！\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首回合分別將 5 個及 2 個固定位置的符石轉化為木及心符石；並將其他符石轉化為木及心以外的符石。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3445}}",
     "icons": [
@@ -61602,7 +61602,7 @@
   {
     "id": "3446",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3446",
-    "name": "突擊 ‧ 彈幕-銀 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
+    "name": "突擊3939 ‧ 彈幕-銀 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e場上出現\u003cfont color\u003dyellow\u003e彈幕！！\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首回合分別將 5 個及 2 個固定位置的符石轉化為木及心符石；並將其他符石轉化為木及心以外的符石。\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；當第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為心符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3446}}",
     "icons": [
@@ -61623,7 +61623,7 @@
   {
     "id": "3447",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3447",
-    "name": "突擊 ‧ 彈幕-金 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
+    "name": "突擊3939 ‧ 彈幕-金 ‧ 蔥形轉木心-蔥外轉非木心 ‧ 攻後縱橫木心輪轉 ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e場上出現\u003cfont color\u003dyellow\u003e彈幕！！！\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首回合分別將 5 個及 2 個固定位置的符石轉化為木及心符石；並將其他符石轉化為木及心以外的符石。\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；當第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為心符石。以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3447}}",
     "icons": [
