@@ -868,6 +868,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "人機動力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%A9%9F%E5%8B%95%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 人類及機械族攻擊力 3.9 倍 II. 達至 ≥5 連擊 (Combo) 時 ⇒ 人類及機械族成員以 39% 攻擊力追打 1 次",
+    "skillMonsters": [
+      "2203"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "人肉包子",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E8%82%89%E5%8C%85%E5%AD%90",
@@ -3466,7 +3477,8 @@
       "1700",
       "1800",
       "1820",
-      "1985"
+      "1985",
+      "2200"
     ]
   },
   {
@@ -6875,7 +6887,8 @@
     "skillCDMax": 5,
     "skillDesc": "所有符石隨機轉換",
     "skillMonsters": [
-      "1500"
+      "1500",
+      "2210"
     ]
   },
   {
@@ -7107,7 +7120,8 @@
     "skillCDMax": 5,
     "skillDesc": "所有符石隨機轉換",
     "skillMonsters": [
-      "1500"
+      "1500",
+      "2210"
     ]
   },
   {
@@ -7752,6 +7766,17 @@
     "skillDesc": "I. 機械族攻擊力 3.9 倍 II. 心符石兼具 50% 火符石效果",
     "skillMonsters": [
       "2197"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "引爆實驗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BC%95%E7%88%86%E5%AF%A6%E9%A9%97",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 1 回合內 　機械族成員的攻擊傷害無視攻前盾 II. 引爆所有光以外的符石 III. 對敵方全體造成 100,000 點光屬性傷害 IV. 將光符石轉化為機械族強化符石",
+    "skillMonsters": [
+      "2194"
     ]
   },
   {
@@ -12097,7 +12122,8 @@
       "2190",
       "2191",
       "2192",
-      "2193"
+      "2193",
+      "2199"
     ]
   },
   {
@@ -12187,6 +12213,17 @@
     "skillDesc": "I. 全隊攻擊力 4 倍 II. 人類成員對機械族目標攻擊力 3 倍 III. 所受機械族傷害減少 30%",
     "skillMonsters": [
       "2205"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機械狂熱",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%8B%82%E7%86%B1",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "機械族攻擊力 4.5 倍",
+    "skillMonsters": [
+      "2194"
     ]
   },
   {
@@ -13830,6 +13867,7 @@
       "2078",
       "2201",
       "2202",
+      "2211",
       "6167"
     ]
   },
@@ -14793,6 +14831,17 @@
     "skillDesc": "龍類及神族攻擊力 2 倍",
     "skillMonsters": [
       "0222"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "消失的歌聲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B6%88%E5%A4%B1%E7%9A%84%E6%AD%8C%E8%81%B2",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將隊伍成員屬性的符石 ⇒ 轉化為強化符石 II. 1 回合內 ⇒ 消除所有附加效果 ⇒ 自身以外成員攻擊力 2 倍 III. 消除的效果愈多 ⇒ 自身以外成員攻擊力提升愈多 ⇒ 最大提升至 3.9 倍",
+    "skillMonsters": [
+      "2203"
     ]
   },
   {
@@ -25510,6 +25559,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "轉轉轉不停",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BD%89%E8%BD%89%E8%BD%89%E4%B8%8D%E5%81%9C",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 發動技能及每回合開始時 ⇒ 隨機將 5 粒暗以外的符石 ⇒ 轉化為暗機械族符石 II. 每回合機械族成員的傷害持續提升 ⇒ 最大 2.4 倍 每累計消除 15 粒符石 ⇒ 機械族傷害加快提升 效果持續至沒有消除 1 組 ≥5 粒暗符石",
+    "skillMonsters": [
+      "2199"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "轟動一瞬",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BD%9F%E5%8B%95%E4%B8%80%E7%9E%AC",
     "skillCDMin": 18,
@@ -28450,7 +28510,8 @@
       "1403",
       "1600",
       "1800",
-      "1820"
+      "1820",
+      "2200"
     ]
   },
   {
