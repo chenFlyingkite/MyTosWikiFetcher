@@ -62170,7 +62170,7 @@
   {
     "id": "3470",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3470",
-    "name": "CD2 ‧ 底行轉光 ‧ 首消光傷害吸收-反擊100% ‧ 20%盾 ‧ 橫行燃燒50%",
+    "name": "CD2 ‧ 底行轉光 ‧ 首消光傷害吸收-反擊100% ‧ 20%盾 ‧ 下移上橫行燃燒50%",
     "detail": "敵人首次攻擊變為 \u003cfont color\u003dyellow\u003eCD 2\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e首回合將最底 1 橫行的符石\u003cbr\u003e⇒ 轉化為光符石\u003cbr\u003e\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身\u003cfont color\u003dyellow\u003e 100% \u003c/font\u003e攻擊傷害。\u003cbr\u003e\u003cbr\u003e每回合攻擊最多只能造成敵人生命力 \u003cfont color\u003dyellow\u003e20%\u003c/font\u003e 的傷害 (主動技除外)。\u003cbr\u003e\u003cbr\u003e每回合\u003cfont color\u003dyellow\u003e燃燒 1 橫行\u003c/font\u003e的位置，每觸碰被燃燒的位置，將扣除召喚師\u003cfont color\u003dyellow\u003e 50%\u003c/font\u003e 生命力",
     "esCode": "{{ES3470}}",
     "icons": [
