@@ -23,29 +23,36 @@ open class XliffParser {
             // ios already have translations in other places of xibs
             val useIosSelf = false
             // path of ios
-            val iosPath = "D:\\ASD\\PHD_Strings\\PhotoDirector"
+            val iosPath = "D:\\ASD\\PHD_Strings\\PhotoDirector_Psp01"
             val iosXliffPath = "D:\\ASD\\PHD_Strings\\Parsed"
             // Load the lproj files and commit to Localizable.strings
-            val targetSvn = "D:\\PhotoDirector_iOS\\Branch_MirrorBlend_2.5.1\\PhotoDirector\\PhotoDirector\\Resource"
+            val targetSvnSrc = "D:\\PhotoDirector_iOS\\Main_01"
+            //"D:\\PhotoDirector_iOS\\Branch_MirrorBlend_2.5.1\\PhotoDirector\\PhotoDirector\\Resource"
             // path of Android
-            val andPath = "D:\\PhotoDirector_Android\\PHD_01\\PhotoDirector\\src\\main\\res"
+            val andPathSrc = "D:\\PhotoDirector_Android\\PHD_01"
+            //"D:\\PhotoDirector_Android\\PHD_01\\PhotoDirector\\src\\main\\res"
             // String keys of Android.<string.name> : ios.<source>
             val andIos = HashMap<String, String>()
-//            andIos["message_rating_title"] = "Your Photo Looks Perfect!"
-//            andIos["message_rating_info"] = "We'd appreciate a good rating for PhotoDirector"
-//            andIos["common_NoThanks"] = "No, thanks!"
-//            andIos["common_GiveGoodRate"] = "Rate us"
-            andIos["dialog_Later"] = "Later"
+            //andIos["message_rating_title"] = "Your Photo Looks Perfect!"
+            //andIos["message_rating_info"] = "We'd appreciate a good rating for PhotoDirector"
+            andIos["common_PerspectiveCorrection"] = "Perspective"
+            andIos["common_Vertical"] = "Vertical"
+            andIos["common_Horizontal"] = "Horizontal"
             val str = arrayListOf<String>()
-            str.add("Dismiss")
+            //str.add("Dismiss")
             //--
+            val targetSvn = "$targetSvnSrc\\PhotoDirector\\PhotoDirector\\Resource"
+            //"D:\\PhotoDirector_iOS\\Branch_MirrorBlend_2.5.1\\PhotoDirector\\PhotoDirector\\Resource"
+            // path of Android
+            val andPath = "$andPathSrc\\PhotoDirector\\src\\main\\res"
+
             // apply = Produce file
             // Try to produce : apply =  true, prefix = "f_"
             // Delete tried   : apply = false, prefix = "f_"
             // Write source   : apply =  true, prefix = ""
-            val apply = false
+            val apply = true
             // Created file as prefix
-            val tryPrefix = ""
+            val tryPrefix = "f_"
             val deleteTry = true
 
             //------ Main body
@@ -310,7 +317,7 @@ open class XliffParser {
         fun loadLz(src : File) : Map<String, LoclzNode> {
             val ans = TreeMap<String, LoclzNode>()
             val all = FileUtil.readFromFile(src)
-            val n = all.size
+            val n = all.size - 1
             // Parse each part
             var i = 0
             while (i < n) {
