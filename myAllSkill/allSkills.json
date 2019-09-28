@@ -7769,6 +7769,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "引擎動力 ‧ 水之靈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BC%95%E6%93%8E%E5%8B%95%E5%8A%9B_%E2%80%A7_%E6%B0%B4%E4%B9%8B%E9%9D%88",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊力 3.9 倍 II. 水符石兼具 50% 心符石效果",
+    "skillMonsters": [
+      "2196"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "引爆實驗",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BC%95%E7%88%86%E5%AF%A6%E9%A9%97",
@@ -27558,6 +27569,17 @@
       "1067",
       "EvoPlus",
       "0572"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雪晶魔法",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%AA%E6%99%B6%E9%AD%94%E6%B3%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有凍結符石 II. 自身攻擊力減至 1 III. 連擊 (Combo) 時攻擊力提升 39% 效果持續至沒有達成 ≥4 連擊 (Combo)",
+    "skillMonsters": [
+      "2196"
     ]
   },
   {
