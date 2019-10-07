@@ -4631,7 +4631,7 @@
     "type": "主動技",
     "skillName": "原璧之固",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8E%9F%E7%92%A7%E4%B9%8B%E5%9B%BA",
-    "skillCDMin": 12,
+    "skillCDMin": 11,
     "skillCDMax": 6,
     "skillDesc": "3 回合內 I. 心符石的掉落率降至 0 並將原有機率增加至 ⇒ 其他符石的掉落機率 II. 隊伍不受中毒技能影響 III. 木屬性及龍類攻擊力 2 倍",
     "skillMonsters": [
@@ -19560,7 +19560,8 @@
       "2144",
       "2145",
       "2146",
-      "2173"
+      "2173",
+      "2206"
     ]
   },
   {
@@ -23700,7 +23701,7 @@
     "type": "主動技",
     "skillName": "蒼璧誘敵",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%92%BC%E7%92%A7%E8%AA%98%E6%95%B5",
-    "skillCDMin": 11,
+    "skillCDMin": 10,
     "skillCDMax": 5,
     "skillDesc": "點選元素法陣上的 1 粒符石 I. 將該種屬性符石 　轉化為龍族強化符石 II. 並將敵方全體轉為該屬性 　持續 5 回合 III. 1 回合內，自身攻擊力 5 倍",
     "skillMonsters": [
