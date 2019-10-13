@@ -12132,6 +12132,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2036"
   },
   {
+    "title": "No. 2037 勇馭龍騎士 ‧ 丹尼絲",
+    "id": "2037",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8B%87%E9%A6%AD%E9%BE%8D%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E4%B8%B9%E5%B0%BC%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2037"
+  },
+  {
     "title": "No. 2039 拂曉聖騎士 · 丹尼絲",
     "id": "2039",
     "link": "https://tos.fandom.com/zh/wiki/%E6%8B%82%E6%9B%89%E8%81%96%E9%A8%8E%E5%A3%AB_%C2%B7_%E4%B8%B9%E5%B0%BC%E7%B5%B2",
@@ -12930,6 +12936,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2179"
   },
   {
+    "title": "No. 2180 曠野弓手 ‧ 謝森沃",
+    "id": "2180",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9B%A0%E9%87%8E%E5%BC%93%E6%89%8B_%E2%80%A7_%E8%AC%9D%E6%A3%AE%E6%B2%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2180"
+  },
+  {
     "title": "No. 2181 德王顯仁 ‧ 敖廣",
     "id": "2181",
     "link": "https://tos.fandom.com/zh/wiki/%E5%BE%B7%E7%8E%8B%E9%A1%AF%E4%BB%81_%E2%80%A7_%E6%95%96%E5%BB%A3",
@@ -13108,6 +13120,12 @@
     "id": "2211",
     "link": "https://tos.fandom.com/zh/wiki/%E5%92%94%E5%95%A6%E9%9B%9E%E8%85%BF%E5%A0%A1",
     "linkId": "http://zh.tos.wikia.com/wiki/2211"
+  },
+  {
+    "title": "No. 2212 獄輪拷問 ‧ 斑點",
+    "id": "2212",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8D%84%E8%BC%AA%E6%8B%B7%E5%95%8F_%E2%80%A7_%E6%96%91%E9%BB%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2212"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

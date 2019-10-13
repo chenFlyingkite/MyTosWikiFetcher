@@ -59,6 +59,8 @@
   -> #17 $250000 = 0737, 遺跡特許 ‧ 不甘之恨 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E4%B8%8D%E7%94%98%E4%B9%8B%E6%81%A8
   -> #18 $250000 = 1163, 遺跡特許 ‧ 海上的秘密交易 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%B5%B7%E4%B8%8A%E7%9A%84%E7%A7%98%E5%AF%86%E4%BA%A4%E6%98%93
   -> #19 $250000 = 1100, 遺跡特許 ‧ 眾魔的帝君 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%9C%BE%E9%AD%94%E7%9A%84%E5%B8%9D%E5%90%9B
+  -> #20 $0 = 1134, 遺跡特許 ‧ 亙古流存的力量 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E4%BA%99%E5%8F%A4%E6%B5%81%E5%AD%98%E7%9A%84%E5%8A%9B%E9%87%8F
+  -> #21 $0 = 1164, 遺跡特許 ‧ 行使正義的懲處 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E8%A1%8C%E4%BD%BF%E6%AD%A3%E7%BE%A9%E7%9A%84%E6%87%B2%E8%99%95
 #3 雙週遺跡 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1/%E9%9B%99%E9%80%B1%E9%81%BA%E8%B7%A1
   -> #0 $200000 = 0636, 遺跡特許 ‧ 水惡鬼的血契 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%B0%B4%E6%83%A1%E9%AC%BC%E7%9A%84%E8%A1%80%E5%A5%91
   -> #1 $200000 = 0637, 遺跡特許 ‧ 火惡鬼的血契 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%81%AB%E6%83%A1%E9%AC%BC%E7%9A%84%E8%A1%80%E5%A5%91
@@ -121,6 +123,16 @@
   -> #58 $200000 = 0556, 遺跡特許 ‧ 噬魂祖蟾的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%99%AC%E9%AD%82%E7%A5%96%E8%9F%BE%E7%9A%84%E6%81%90%E6%80%96
   -> #59 $200000 = 0558, 遺跡特許 ‧ 異端古神的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%95%B0%E7%AB%AF%E5%8F%A4%E7%A5%9E%E7%9A%84%E6%81%90%E6%80%96
   -> #60 $200000 = 0560, 遺跡特許 ‧ 星族異種的恐怖 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%98%9F%E6%97%8F%E7%95%B0%E7%A8%AE%E7%9A%84%E6%81%90%E6%80%96
+  -> #61 $0 = 1051, 遺跡特許 ‧ 帶來死亡的騎士 ‧ 水 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%B8%B6%E4%BE%86%E6%AD%BB%E4%BA%A1%E7%9A%84%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E6%B0%B4
+  -> #62 $0 = 1052, 遺跡特許 ‧ 帶來死亡的騎士 ‧ 火 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%B8%B6%E4%BE%86%E6%AD%BB%E4%BA%A1%E7%9A%84%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E7%81%AB
+  -> #63 $0 = 1053, 遺跡特許 ‧ 帶來死亡的騎士 ‧ 木 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%B8%B6%E4%BE%86%E6%AD%BB%E4%BA%A1%E7%9A%84%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E6%9C%A8
+  -> #64 $0 = 1054, 遺跡特許 ‧ 帶來死亡的騎士 ‧ 光 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%B8%B6%E4%BE%86%E6%AD%BB%E4%BA%A1%E7%9A%84%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E5%85%89
+  -> #65 $0 = 1055, 遺跡特許 ‧ 帶來死亡的騎士 ‧ 暗 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%B8%B6%E4%BE%86%E6%AD%BB%E4%BA%A1%E7%9A%84%E9%A8%8E%E5%A3%AB_%E2%80%A7_%E6%9A%97
+  -> #66 $0 = 1121, 遺跡特許 ‧ 邀約人的目的 ‧ 水 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E9%82%80%E7%B4%84%E4%BA%BA%E7%9A%84%E7%9B%AE%E7%9A%84_%E2%80%A7_%E6%B0%B4
+  -> #67 $0 = 1122, 遺跡特許 ‧ 應約的風險 ‧ 火 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%87%89%E7%B4%84%E7%9A%84%E9%A2%A8%E9%9A%AA_%E2%80%A7_%E7%81%AB
+  -> #68 $0 = 1123, 遺跡特許 ‧ 尋找邀約之人 ‧ 木 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%B0%8B%E6%89%BE%E9%82%80%E7%B4%84%E4%B9%8B%E4%BA%BA_%E2%80%A7_%E6%9C%A8
+  -> #69 $0 = 1124, 遺跡特許 ‧ 離目的地不遠 ‧ 光 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E9%9B%A2%E7%9B%AE%E7%9A%84%E5%9C%B0%E4%B8%8D%E9%81%A0_%E2%80%A7_%E5%85%89
+  -> #70 $0 = 1125, 遺跡特許 ‧ 與邀約人會面 ‧ 暗 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E8%88%87%E9%82%80%E7%B4%84%E4%BA%BA%E6%9C%83%E9%9D%A2_%E2%80%A7_%E6%9A%97
 #4 突發雙週遺跡（期間限定） -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1/%E7%AA%81%E7%99%BC%E9%9B%99%E9%80%B1%E9%81%BA%E8%B7%A1
   -> #0 $200000 = 0401, 遺跡特許 ‧ 星詠之歌姬 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%98%9F%E8%A9%A0%E4%B9%8B%E6%AD%8C%E5%A7%AC
   -> #1 $200000 = 0785, 遺跡特許 ‧ 海浪八音盒 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%B5%B7%E6%B5%AA%E5%85%AB%E9%9F%B3%E7%9B%92

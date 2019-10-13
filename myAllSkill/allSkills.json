@@ -5031,6 +5031,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "嗜血之輪",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%97%9C%E8%A1%80%E4%B9%8B%E8%BC%AA",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將暗符石轉化為魔族強化符石 II. 將光及心符石轉化為心強化符石 III. 1 回合內 ⇒ 自身攻擊力 3 倍 ⇒ 自身對人類目標攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2212"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "噬狼吮血",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%99%AC%E7%8B%BC%E5%90%AE%E8%A1%80",
     "skillCDMin": 34,
@@ -6116,6 +6127,17 @@
     "skillDesc": "點選 1 橫行的符石，並將該橫行的符石轉化為心強化符石；1 回合內，妖精類攻擊力 2 倍",
     "skillMonsters": [
       "1610"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "妖之靈 ‧ 光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E9%9D%88_%E2%80%A7_%E5%85%89",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "光屬性及妖精類攻擊力及回復力 3 倍；所有屬性符石兼具 25% 心符石效果 (可疊加)",
+    "skillMonsters": [
+      "2180"
     ]
   },
   {
@@ -20953,6 +20975,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "穿魂箭",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%BF%E9%AD%82%E7%AE%AD",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "個人追打攻擊力 3 倍的攻擊 1 次 ⇒ 下回合額外增加 1 次追打 ⇒ 5 回合可增加最多 5 次追打 效果持續至沒有消除 1 組 ≥6 粒心符石",
+    "skillMonsters": [
+      "2180"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "突斬 ‧ 光月",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AA%81%E6%96%AC_%E2%80%A7_%E5%85%89%E6%9C%88",
     "skillCDMin": 17,
@@ -29050,6 +29083,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "騎士之魂 ‧ 龍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E9%BE%8D",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "龍類攻擊力 5 倍及增加 500 點回復力；龍脈儀全滿時，龍類攻擊力額外提升 1.5 倍。每首批消除 1 種屬性符石，於回合結束時，隨機將該屬性的其中 2 粒符石轉化為龍族符石",
+    "skillMonsters": [
+      "2037"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "騎士王神劍 - 王者之劍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E7%8E%8B%E7%A5%9E%E5%8A%8D_-_%E7%8E%8B%E8%80%85%E4%B9%8B%E5%8A%8D",
@@ -30196,6 +30240,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "魔獸 ‧ 萬鈞之怒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%8D%B8_%E2%80%A7_%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "獸類及魔族攻擊力 4 倍",
+    "skillMonsters": [
+      "2212"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "魔王護壁",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%8E%8B%E8%AD%B7%E5%A3%81",
@@ -30964,6 +31019,17 @@
       "0571",
       "0572",
       "0573"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "龍族紋章",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E7%B4%8B%E7%AB%A0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 點選元素法陣上的 1 粒符石 ⇒ 並將該種符石引爆 ⇒ 以掉落該種符石以外的符石 1 回合內 II. 首批掉落的符石必定為龍族符石 III. 自身攻擊力 6 倍",
+    "skillMonsters": [
+      "2037"
     ]
   },
   {

@@ -61258,7 +61258,7 @@
     "id": "3433",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3433",
     "name": "首消光傷害吸收 ‧ 2秒轉珠",
-    "detail": "首批消除\u003cfont color\u003dyellow\u003e光屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e\u003cbr\u003e移動符石時間會縮短至 \u003cfont color\u003dyellow\u003e2 秒\u003c/font\u003e",
+    "detail": "首批消除\u003cfont color\u003dyellow\u003e光屬性\u003c/font\u003e的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e\u003cbr\u003e移動符石時間會縮短至 \u003cfont color\u003dyellow\u003e2 秒\u003c/font\u003e",
     "esCode": "{{ES3433}}",
     "icons": [
       {
