@@ -1,16 +1,12 @@
 package main;
 
 import flyingkite.files.FileUtil;
-import flyingkite.javaxlibrary.images.base.PngParam;
-import flyingkite.javaxlibrary.images.diff.PngDiffRequest;
-import flyingkite.javaxlibrary.images.diff.PngDiffer;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
-import main.fetcher.TosAAAFetcher;
 import main.fetcher.TosCardExtras;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
@@ -33,18 +29,11 @@ import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
-import main.kt.XliffParser;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.ExecutorService;
 
 public class Main {
@@ -54,7 +43,7 @@ public class Main {
         //gold();
         //stock();
 
-        //TosAAAFetcher.me.run();
+        //TosUserPackFetcher.me.run();
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
@@ -151,10 +140,6 @@ public class Main {
             TosWikiStageFetcher.me.run();
         }
         clock.tac("fetchMisc : End at %s", now());
-    }
-
-    private static void genFirebase() {
-        MyTosWikiFirebase.run(); // Firebase comments
     }
 
     private static void misc() {

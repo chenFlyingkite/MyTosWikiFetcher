@@ -101,11 +101,12 @@ public class ASD {
         }
 
         // Find cards
-        //findCardSkill("延遲", allCards); // 延長移動符石時間, 移動符石時間延長, 移動符石時間增加
+        //findCardSkill("延遲", allCards);
         //findCardSkill("種族強化符石", allCards);
-        //findCardSkill("種族符石", allCards);
-        //findCardSkill("族強化符石", allCards);
-        findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
+        findCardSkill("技能 CD 減少", allCards);
+        L.log("--**--\n\n\n--**--");
+        //findCardSkill("連擊", allCards);
+        //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("傷害減少", allCards);
@@ -248,9 +249,11 @@ public class ASD {
 
         // Major part
         int sn = 0, tn = 0, un = 0;
-        L.log("--**--\n");
+        L.log("--**--");
+        //L.log("Find %s of %s", regex ? "regex" : "text", key);
         int n = 0, m = 0;
         for (TosCard c : allCards) {
+            boolean inDetail = false;
             String s = c.skillDesc1 + " & " + c.skillDesc2 + " & " + c.skillAwkName;
             String t = c.cardDetails;
             String u = c.skillLeaderDesc;
@@ -260,6 +263,7 @@ public class ASD {
                 exist += " Skill,";
             }
             if (cond.meet(t, key)) {
+                inDetail = true;
                 exist += " Detail,";
                 tn++;
             }
@@ -269,6 +273,9 @@ public class ASD {
             }
             if (!exist.isEmpty()) {
                 L.log(exist + "\n" + sc(c));
+                if (inDetail) {
+                    L.log(c.cardDetails);
+                }
 
                 if (c.race.contains("素材")) {
                     m++;

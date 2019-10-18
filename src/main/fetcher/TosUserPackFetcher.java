@@ -4,32 +4,28 @@ import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.math.MathUtil;
 import flyingkite.tool.GsonUtil;
-import flyingkite.tool.TicTac;
 import flyingkite.tool.TicTac2;
 import main.card.TosCard;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class TosAAAFetcher extends TosWikiBaseFetcher {
-    public static final TosAAAFetcher me = new TosAAAFetcher();
+public class TosUserPackFetcher extends TosWikiBaseFetcher {
+    public static final TosUserPackFetcher me = new TosUserPackFetcher();
     private static final String folder = "myAAA";
     private LF mLf = new LF(folder);
     private TicTac2 clk = new TicTac2();
     private Map<String, TosCard> allCards = new HashMap<>();
 
     private String getPage() {
-        // 關卡敵人技能/敵人技能列表
-        //return "http://zh.tos.wikia.com/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD%E5%88%97%E8%A1%A8";
+        // 神魔健檢中心：http://review.towerofsaviors.com/
         return "https://review.towerofsaviors.com/199215954";
     }
 
