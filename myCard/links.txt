@@ -11922,6 +11922,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1999"
   },
   {
+    "title": "No. 2000 天際100 ‧ 瘋頭",
+    "id": "2000",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%9A%9B100_%E2%80%A7_%E7%98%8B%E9%A0%AD",
+    "linkId": "http://zh.tos.wikia.com/wiki/2000"
+  },
+  {
     "title": "No. 2001 誅滅戰劍 · 費雷",
     "id": "2001",
     "link": "https://tos.fandom.com/zh/wiki/%E8%AA%85%E6%BB%85%E6%88%B0%E5%8A%8D_%C2%B7_%E8%B2%BB%E9%9B%B7",
@@ -13126,6 +13132,150 @@
     "id": "2212",
     "link": "https://tos.fandom.com/zh/wiki/%E7%8D%84%E8%BC%AA%E6%8B%B7%E5%95%8F_%E2%80%A7_%E6%96%91%E9%BB%9E",
     "linkId": "http://zh.tos.wikia.com/wiki/2212"
+  },
+  {
+    "title": "No. 2216 藍寶石",
+    "id": "2216",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%97%8D%E5%AF%B6%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2216"
+  },
+  {
+    "title": "No. 2217 天穹倒影 ‧ 藍寶石",
+    "id": "2217",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%A9%B9%E5%80%92%E5%BD%B1_%E2%80%A7_%E8%97%8D%E5%AF%B6%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2217"
+  },
+  {
+    "title": "No. 2218 琥珀",
+    "id": "2218",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%90%A5%E7%8F%80",
+    "linkId": "http://zh.tos.wikia.com/wiki/2218"
+  },
+  {
+    "title": "No. 2219 蟲火浮光 ‧ 琥珀",
+    "id": "2219",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9F%B2%E7%81%AB%E6%B5%AE%E5%85%89_%E2%80%A7_%E7%90%A5%E7%8F%80",
+    "linkId": "http://zh.tos.wikia.com/wiki/2219"
+  },
+  {
+    "title": "No. 2220 翡翠",
+    "id": "2220",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A1%E7%BF%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2220"
+  },
+  {
+    "title": "No. 2221 黛心盈透 ‧ 翡翠",
+    "id": "2221",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BB%9B%E5%BF%83%E7%9B%88%E9%80%8F_%E2%80%A7_%E7%BF%A1%E7%BF%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2221"
+  },
+  {
+    "title": "No. 2222 鑽石",
+    "id": "2222",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%91%BD%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2222"
+  },
+  {
+    "title": "No. 2223 恆久閃耀 ‧ 鑽石",
+    "id": "2223",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%81%86%E4%B9%85%E9%96%83%E8%80%80_%E2%80%A7_%E9%91%BD%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2223"
+  },
+  {
+    "title": "No. 2224 黑曜石",
+    "id": "2224",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BB%91%E6%9B%9C%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2224"
+  },
+  {
+    "title": "No. 2225 剛刃蝕刻 ‧ 黑曜石",
+    "id": "2225",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%89%9B%E5%88%83%E8%9D%95%E5%88%BB_%E2%80%A7_%E9%BB%91%E6%9B%9C%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2225"
+  },
+  {
+    "title": "No. 2226 紅寶石",
+    "id": "2226",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%85%E5%AF%B6%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2226"
+  },
+  {
+    "title": "No. 2227 肆妄火彩 ‧ 紅寶石",
+    "id": "2227",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%82%86%E5%A6%84%E7%81%AB%E5%BD%A9_%E2%80%A7_%E7%B4%85%E5%AF%B6%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2227"
+  },
+  {
+    "title": "No. 2228 祖母綠",
+    "id": "2228",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%96%E6%AF%8D%E7%B6%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2228"
+  },
+  {
+    "title": "No. 2229 不菲晶系 ‧ 祖母綠",
+    "id": "2229",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%8F%B2%E6%99%B6%E7%B3%BB_%E2%80%A7_%E7%A5%96%E6%AF%8D%E7%B6%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2229"
+  },
+  {
+    "title": "No. 2230 蛋白石",
+    "id": "2230",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9B%8B%E7%99%BD%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2230"
+  },
+  {
+    "title": "No. 2231 織光成夢 ‧ 蛋白石",
+    "id": "2231",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B9%94%E5%85%89%E6%88%90%E5%A4%A2_%E2%80%A7_%E8%9B%8B%E7%99%BD%E7%9F%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2231"
+  },
+  {
+    "title": "No. 2238 嬌嫩弱芒 ‧ 珍珠",
+    "id": "2238",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AC%8C%E5%AB%A9%E5%BC%B1%E8%8A%92_%E2%80%A7_%E7%8F%8D%E7%8F%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2238"
+  },
+  {
+    "title": "No. 2241 戀晶異癖 ‧ 紫水晶",
+    "id": "2241",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%80%E6%99%B6%E7%95%B0%E7%99%96_%E2%80%A7_%E7%B4%AB%E6%B0%B4%E6%99%B6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2241"
+  },
+  {
+    "title": "No. 2242 白晶簇",
+    "id": "2242",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%99%BD%E6%99%B6%E7%B0%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2242"
+  },
+  {
+    "title": "No. 2251 藍莓慕斯杯",
+    "id": "2251",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%97%8D%E8%8E%93%E6%85%95%E6%96%AF%E6%9D%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2251"
+  },
+  {
+    "title": "No. 2252 櫻桃小蛋糕",
+    "id": "2252",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E8%9B%8B%E7%B3%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/2252"
+  },
+  {
+    "title": "No. 2253 鮮果三明治",
+    "id": "2253",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AE%AE%E6%9E%9C%E4%B8%89%E6%98%8E%E6%B2%BB",
+    "linkId": "http://zh.tos.wikia.com/wiki/2253"
+  },
+  {
+    "title": "No. 2254 糖漿窩夫",
+    "id": "2254",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B3%96%E6%BC%BF%E7%AA%A9%E5%A4%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/2254"
+  },
+  {
+    "title": "No. 2255 紫葡馬卡龍",
+    "id": "2255",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%AB%E8%91%A1%E9%A6%AC%E5%8D%A1%E9%BE%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2255"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
