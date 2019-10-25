@@ -4620,9 +4620,9 @@
     "linkId": "http://zh.tos.wikia.com/wiki/770"
   },
   {
-    "title": "No. 771 琥珀",
+    "title": "No. 771 琥珀(軒轅仙獸)",
     "id": "0771",
-    "link": "https://tos.fandom.com/zh/wiki/%E7%90%A5%E7%8F%80",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%90%A5%E7%8F%80(%E8%BB%92%E8%BD%85%E4%BB%99%E7%8D%B8)",
     "linkId": "http://zh.tos.wikia.com/wiki/771"
   },
   {
@@ -14964,6 +14964,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6310"
   },
   {
+    "title": "S318 沉氣聚勁 ‧ 諾爾維",
+    "id": "6318",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%89%E6%B0%A3%E8%81%9A%E5%8B%81_%E2%80%A7_%E8%AB%BE%E7%88%BE%E7%B6%AD",
+    "linkId": "http://zh.tos.wikia.com/wiki/6318"
+  },
+  {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
     "id": "7001",
     "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2",
@@ -15454,6 +15460,12 @@
     "id": "8065",
     "link": "https://tos.fandom.com/zh/wiki/6_%E5%BA%A6%E5%AD%98%E9%9F%B3%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8065"
+  },
+  {
+    "title": "N21 聖音耀符",
+    "id": "8066",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%81%96%E9%9F%B3%E8%80%80%E7%AC%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/8066"
   },
   {
     "title": "M1 威沛",
