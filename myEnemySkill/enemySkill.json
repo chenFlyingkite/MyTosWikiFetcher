@@ -31711,7 +31711,7 @@
   {
     "id": "1949",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1949",
-    "name": "15+15+木暗幻變幻變盾",
+    "name": "15+15+木暗符石幻變盾",
     "detail": "敵人會分別將 2 個位置轉化為木及暗屬幻變空間，經過幻變空間的符石 (不包括轉珠期間被移動的符石) 會轉化為該幻變空間的屬性符石。\u003cbr\u003e消除 15 粒或以上的木符石及 15 粒或以上的暗符石，才會對敵人造成攻擊傷害",
     "esCode": "{{ES1949}}",
     "icons": [
@@ -48098,32 +48098,7 @@
   {
     "id": "2853",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2853",
-    "name": "水外防禦95% ‧ 隨機轉火8顆 ‧ 首消火攻擊零化",
-    "detail": "水屬性以外的攻擊傷害減至 5%。\u003cbr\u003e每回合隨機將 8 粒符石轉化為火符石。\u003cbr\u003e消除火符石時 (只計算首批消除的符石)，該回合無法對敵人造成攻擊傷害",
-    "esCode": "{{ES2853}}",
-    "icons": [
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cd/SI001.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091341\u0026path-prefix\u003dzh",
-        "iconKey": "SI001.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a8/SI302.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
-        "iconKey": "SI302.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI012.png"
-      }
-    ]
-  },
-  {
-    "id": "2853",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2853",
-    "name": "水外防禦95% ‧ 隨機轉火8顆 ‧ 首消火攻擊零化",
+    "name": "水外防禦95% ‧ 隨機轉火8顆 ‧ 首消火傷害無效",
     "detail": "水屬性以外的攻擊傷害減至 5%。\u003cbr\u003e每回合隨機將 8 粒符石轉化為火符石。\u003cbr\u003e消除火符石時 (只計算首批消除的符石)，該回合無法對敵人造成攻擊傷害",
     "esCode": "{{ES2853}}",
     "icons": [
@@ -62427,7 +62402,7 @@
   {
     "id": "3479",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3479",
-    "name": "每回暗圍城 ‧ 攻擊弱化90% ‧ 心幻變 ‧ 自殘20%",
+    "name": "每回暗圍城 ‧ 回復力減弱90% ‧ 心幻變 ‧ 自殘20%",
     "detail": "敵人每回合會扣除自身生命力 \u003cfont color\u003dyellow\u003e20%\u003c/font\u003e，持續至死亡，期間不受任何攻擊傷害及無視所有控制技能。\u003cbr\u003e\u003cbr\u003e每回合將所有符石\u003cbr\u003e⇒ 轉化為暗符石。\u003cbr\u003e\u003cbr\u003e全隊\u003cfont color\u003dyellow\u003e回復力減至 10%\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e隨機將 1 個位置轉化為\u003cfont color\u003dyellow\u003e心幻變空間\u003c/font\u003e，經過幻變空間的符石 (不包括轉珠期間被移動的符石) 會轉化為該幻變空間的種類符石",
     "esCode": "{{ES3479}}",
     "icons": [
@@ -62440,8 +62415,8 @@
         "iconKey": "SI047.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI158.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI233.png/revision/latest/scale-to-width-down/22?cb\u003d20150712170520\u0026path-prefix\u003dzh",
+        "iconKey": "SI233.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/75/SI306.png/revision/latest/scale-to-width-down/22?cb\u003d20180317143935\u0026path-prefix\u003dzh",
@@ -64328,7 +64303,7 @@
     "id": "3579",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3579",
     "name": "首消暗傷害吸收 ‧ 四重霧化 ‧ 霧散暈眩盾90%",
-    "detail": "首批消除暗屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e\u003cbr\u003e隨機霧化 4 個位置，\u003cbr\u003e且敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在\u003cbr\u003e暈擊或暈眩狀態，\u003cbr\u003e迷霧才會消失，並可對敵人\u003cbr\u003e造成完整攻擊傷害。",
+    "detail": "首批消除暗屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e\u003cbr\u003e隨機霧化 4 個位置，\u003cbr\u003e且敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在\u003cbr\u003e暈擊或暈眩狀態，\u003cbr\u003e下回合迷霧才會消失，\u003cbr\u003e並可對敵人造成\u003cbr\u003e完整攻擊傷害。",
     "esCode": "{{ES3579}}",
     "icons": [
       {
@@ -64374,7 +64349,7 @@
     "id": "3581",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3581",
     "name": "首消暗傷害吸收-反擊100% ‧ 八重霧化 ‧ 霧散暈眩盾90%",
-    "detail": "首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 100% 攻擊傷害。\u003cbr\u003e\u003cbr\u003e隨機霧化 8 個位置，\u003cbr\u003e且敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在\u003cbr\u003e暈擊或暈眩狀態，\u003cbr\u003e迷霧才會消失，並可對敵人\u003cbr\u003e造成完整攻擊傷害。",
+    "detail": "首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 100% 攻擊傷害。\u003cbr\u003e\u003cbr\u003e隨機霧化 8 個位置，\u003cbr\u003e且敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在\u003cbr\u003e暈擊或暈眩狀態，\u003cbr\u003e下回合迷霧才會消失，\u003cbr\u003e並可對敵人造成\u003cbr\u003e完整攻擊傷害。",
     "esCode": "{{ES3581}}",
     "icons": [
       {

@@ -6517,6 +6517,7 @@
       "2226",
       "2228",
       "2230",
+      "2240",
       "2241"
     ]
   },
@@ -11537,6 +11538,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "木葉 ‧ 妖幻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E8%91%89_%E2%80%A7_%E5%A6%96%E5%B9%BB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類攻擊力 4.5 倍 II. 回合結束時，隨機將 3 粒符石 ⇒ 轉化為木妖族符石",
+    "skillMonsters": [
+      "2233"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "木葉 ‧ 猛擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E8%91%89_%E2%80%A7_%E7%8C%9B%E6%93%8A",
@@ -12332,7 +12344,8 @@
       "2192",
       "2193",
       "2199",
-      "2204"
+      "2204",
+      "2243"
     ]
   },
   {
@@ -17689,6 +17702,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "狂野 ‧ 爆燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E9%87%8E_%E2%80%A7_%E7%88%86%E7%87%84",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆火屬性、妖精類成員直行的符石 ⇒ 掉落強化符石 1 回合內 II. 消除 ≥20 粒強化符石 ⇒ 火屬性及妖精類攻擊力 1.6 倍 ⇒ 火屬性妖精類攻擊力則 2.2 倍",
+    "skillMonsters": [
+      "2240"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "狂騎之燄",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E9%A8%8E%E4%B9%8B%E7%87%84",
     "skillCDMin": 24,
@@ -19501,6 +19525,17 @@
       "0476",
       "0477",
       "0478"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "碎落的光明",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A2%8E%E8%90%BD%E7%9A%84%E5%85%89%E6%98%8E",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆光符石以掉落心強化符石 1 回合內 II. 敵人受到的屬性傷害 2 倍 III. 敵人受到的無屬性傷害 3 倍",
+    "skillMonsters": [
+      "2233"
     ]
   },
   {
@@ -26104,6 +26139,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "逆命電流",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%86%E5%91%BD%E9%9B%BB%E6%B5%81",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 電擊敵方全體，持續 3 回合 1 回合內 II. 觸碰電擊符石時仍可移動符石 III. 自身攻擊力 3 倍",
+    "skillMonsters": [
+      "2243"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "逆天加冕",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%86%E5%A4%A9%E5%8A%A0%E5%86%95",
     "skillCDMin": 17,
@@ -28428,7 +28474,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E4%B9%8B%E5%AE%88",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "每次受到敵人攻擊時，場上隨機 3 粒符石轉化為心符石，效果持續至沒有消除心符石",
+    "skillDesc": "每次受到敵人攻擊時，場上隨機 3 粒符石轉化為心符石 (同 1 回合最多轉化 9 粒)，效果持續至沒有消除心符石",
     "skillMonsters": [
       "1156"
     ]
