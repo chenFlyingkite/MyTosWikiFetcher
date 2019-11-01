@@ -14982,10 +14982,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6310"
   },
   {
+    "title": "S313 恆久閃耀 ‧ 鑽石(動態造型)",
+    "id": "6313",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%81%86%E4%B9%85%E9%96%83%E8%80%80_%E2%80%A7_%E9%91%BD%E7%9F%B3(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6313"
+  },
+  {
     "title": "S318 沉氣聚勁 ‧ 諾爾維",
     "id": "6318",
     "link": "https://tos.fandom.com/zh/wiki/%E6%B2%89%E6%B0%A3%E8%81%9A%E5%8B%81_%E2%80%A7_%E8%AB%BE%E7%88%BE%E7%B6%AD",
     "linkId": "http://zh.tos.wikia.com/wiki/6318"
+  },
+  {
+    "title": "S320 流彩藏妒 ‧ 孔雀石(動態造型)",
+    "id": "6320",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B5%81%E5%BD%A9%E8%97%8F%E5%A6%92_%E2%80%A7_%E5%AD%94%E9%9B%80%E7%9F%B3(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6320"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
