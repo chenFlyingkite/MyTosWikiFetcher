@@ -6517,6 +6517,7 @@
       "2226",
       "2228",
       "2230",
+      "2239",
       "2240",
       "2241"
     ]
@@ -8615,6 +8616,17 @@
     "skillDesc": "I. 妖精類生命力及攻擊力 2.5 倍 II. 心符石不會發動消除 III. 每消除 1 組屬性符石時 ⇒ 回復「妖精類成員生命力等值」5% 的 生命力",
     "skillMonsters": [
       "2219"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "戀之異彩",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%80%E4%B9%8B%E7%95%B0%E5%BD%A9",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 妖精類攻擊力及回復力 2.2 倍 II. 首批消除所有心符石時 ⇒ 該回合不會扣減技能持續回合",
+    "skillMonsters": [
+      "2235"
     ]
   },
   {
@@ -13602,6 +13614,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "水月 ‧ 妖幻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%9C%88_%E2%80%A7_%E5%A6%96%E5%B9%BB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類攻擊力 4.5 倍 II. 回合結束時，隨機將 3 粒符石 ⇒ 轉化為水妖族符石",
+    "skillMonsters": [
+      "2235"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "水月 ‧ 猛擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%9C%88_%E2%80%A7_%E7%8C%9B%E6%93%8A",
@@ -14065,6 +14088,17 @@
     "skillDesc": "隨機引爆 3 個神族成員直行的符石，以掉落該直行成員屬性的強化符石",
     "skillMonsters": [
       "1919"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "沉鬱的加冕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B2%89%E9%AC%B1%E7%9A%84%E5%8A%A0%E5%86%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將所有強化符石轉化為妖族強化符石 II. 將所有非強化符石轉化為強化符石 1 回合內 III. 消除 ≥10 粒妖族符石 ⇒ 自身攻擊力 4 倍",
+    "skillMonsters": [
+      "2239"
     ]
   },
   {
@@ -19382,6 +19416,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "睿焰之礦",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9D%BF%E7%84%B0%E4%B9%8B%E7%A4%A6",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "隊伍中有 ≥2 個妖精類成員才可發動此技能： I. 將所有符石轉化為 ⇒ 固定數量及位置的「五屬及心」妖族符石",
+    "skillMonsters": [
+      "2232"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "瞬結 ‧ 黑暗力量",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9E%AC%E7%B5%90_%E2%80%A7_%E9%BB%91%E6%9A%97%E5%8A%9B%E9%87%8F",
@@ -20103,6 +20148,17 @@
     "skillDesc": "神族及火屬性攻擊力 2.5 倍；若戰友為神族時，神族攻擊力提升至 3.5 倍",
     "skillMonsters": [
       "0962"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "神聖七約",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E4%B8%83%E7%B4%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "首批消除 7 連擊 (Combo) 時 ⇒ 全隊攻擊力 7 倍",
+    "skillMonsters": [
+      "2232"
     ]
   },
   {
