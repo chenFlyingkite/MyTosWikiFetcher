@@ -13248,6 +13248,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2235"
   },
   {
+    "title": "No. 2237 沉實黝雅 ‧ 黑瑪瑙",
+    "id": "2237",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%89%E5%AF%A6%E9%BB%9D%E9%9B%85_%E2%80%A7_%E9%BB%91%E7%91%AA%E7%91%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/2237"
+  },
+  {
     "title": "No. 2238 嬌嫩弱芒 ‧ 珍珠",
     "id": "2238",
     "link": "https://tos.fandom.com/zh/wiki/%E5%AC%8C%E5%AB%A9%E5%BC%B1%E8%8A%92_%E2%80%A7_%E7%8F%8D%E7%8F%A0",
@@ -13284,6 +13290,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2243"
   },
   {
+    "title": "No. 2244 冥魂判守 ‧ 阿努比斯",
+    "id": "2244",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E9%AD%82%E5%88%A4%E5%AE%88_%E2%80%A7_%E9%98%BF%E5%8A%AA%E6%AF%94%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2244"
+  },
+  {
     "title": "No. 2251 藍莓慕斯杯",
     "id": "2251",
     "link": "https://tos.fandom.com/zh/wiki/%E8%97%8D%E8%8E%93%E6%85%95%E6%96%AF%E6%9D%AF",
@@ -13312,6 +13324,12 @@
     "id": "2255",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B4%AB%E8%91%A1%E9%A6%AC%E5%8D%A1%E9%BE%8D",
     "linkId": "http://zh.tos.wikia.com/wiki/2255"
+  },
+  {
+    "title": "No. 2258 享動舒跑 ‧ 神魔小妹",
+    "id": "2258",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BA%AB%E5%8B%95%E8%88%92%E8%B7%91_%E2%80%A7_%E7%A5%9E%E9%AD%94%E5%B0%8F%E5%A6%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2258"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

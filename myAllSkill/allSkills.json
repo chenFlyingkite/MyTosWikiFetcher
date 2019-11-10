@@ -9959,6 +9959,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "斷魂冥淵",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%96%B7%E9%AD%82%E5%86%A5%E6%B7%B5",
+    "skillCDMin": 14,
+    "skillCDMax": 5,
+    "skillDesc": "I. 全隊攻擊力 1.5 倍 II. 自身屬性符石掉落機率提升 III. 每回合開始時， 將自身屬性符石轉化為強化符石 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 引爆自身及身旁神族成員直行的符石 ⇒ 掉落強化符石 ⓶ 該回合神族攻擊力及回復力 2 倍 ⓷「冥魂判守 ‧ 阿努比斯」的技能 CD 減少 2",
+    "skillMonsters": [
+      "2244"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "斷魂辮",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%96%B7%E9%AD%82%E8%BE%AE",
     "skillCDMin": 18,
@@ -10753,6 +10764,17 @@
     "skillDesc": "暗符石轉化為水符石",
     "skillMonsters": [
       "8016"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "暗流 ‧ 妖幻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E6%B5%81_%E2%80%A7_%E5%A6%96%E5%B9%BB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類攻擊力 4.5 倍 II. 回合結束時，隨機將 3 粒符石 ⇒ 轉化為暗妖族符石",
+    "skillMonsters": [
+      "2237"
     ]
   },
   {
@@ -16624,6 +16646,17 @@
     "skillDesc": "1 回合內，自身不能對敵方造成傷害，減少 60% 所受傷害；回合結束時，將場上數量最多的 2 種屬性符石轉化為光人族強化符石",
     "skillMonsters": [
       "1783"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "無上神權",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E4%B8%8A%E7%A5%9E%E6%AC%8A",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 神族攻擊力 6 倍 II. 消除屬性強化符石時 ⇒ 該屬性攻擊力額外 1.5 倍 III. 自身發動技能時 ⇒ 神族攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "2244"
     ]
   },
   {
@@ -31077,6 +31110,17 @@
     "skillMonsters": [
       "0317",
       "0318"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "黑色秘幻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BB%91%E8%89%B2%E7%A7%98%E5%B9%BB",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "1 回合內 I. 無視「燃燒」敵技 (不包括「煉獄之火」) II. 移動的步數愈多 ⇒ 自身攻擊力提升愈高 ⇒ 移動 50 步可提升至最大 15 倍",
+    "skillMonsters": [
+      "2237"
     ]
   },
   {
