@@ -43,14 +43,14 @@ public class Main {
         //gold();
         //stock();
 
-        //TosUserPackFetcher.me.run();
+        //MyTosWikiFirebase.run();
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
 
         //XliffParser.me.addStringsToIos();
 
-        //MyTosWikiFirebase.run();
+        //TosUserPackFetcher.me.run();
         //ASD.run(); // testing on filter cards
         //print();
 
