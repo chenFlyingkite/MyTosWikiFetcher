@@ -11886,6 +11886,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1986"
   },
   {
+    "title": "No. 1990 神譜的統治 · 希拉",
+    "id": "1990",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%AD%9C%E7%9A%84%E7%B5%B1%E6%B2%BB_%C2%B7_%E5%B8%8C%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/1990"
+  },
+  {
     "title": "No. 1991 萬銃呼喚 · 克蘇魯",
     "id": "1991",
     "link": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E9%8A%83%E5%91%BC%E5%96%9A_%C2%B7_%E5%85%8B%E8%98%87%E9%AD%AF",
@@ -13240,6 +13246,12 @@
     "id": "2233",
     "link": "https://tos.fandom.com/zh/wiki/%E6%B5%81%E5%BD%A9%E8%97%8F%E5%A6%92_%E2%80%A7_%E5%AD%94%E9%9B%80%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/2233"
+  },
+  {
+    "title": "No. 2234 尊貴克拉 ‧ 極光 23",
+    "id": "2234",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8A%E8%B2%B4%E5%85%8B%E6%8B%89_%E2%80%A7_%E6%A5%B5%E5%85%89_23",
+    "linkId": "http://zh.tos.wikia.com/wiki/2234"
   },
   {
     "title": "No. 2235 水色奢華 ‧ 月光石",

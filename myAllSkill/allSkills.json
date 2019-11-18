@@ -1,6 +1,17 @@
 [
   {
     "type": "主動技",
+    "skillName": "23 的奇蹟",
+    "skillLink": "https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F",
+    "skillCDMin": 34,
+    "skillCDMax": 23,
+    "skillDesc": "I. 將光符石轉化為強化符石 1 回合內 II. 連擊 (Combo) 數目固定為 23 　(需消除符石) III. 回合結束時 ⇒ 將所有符石轉化為妖族符石",
+    "skillMonsters": [
+      "2234"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "MAX 版 禁千貳百拾壹式 ‧ 八稚女",
     "skillLink": "https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3",
     "skillCDMin": 18,
@@ -7821,6 +7832,17 @@
     "skillDesc": "2 回合內，木屬性攻擊力 1.5 倍及木屬性魔族攻擊力 2 倍；並延遲全體敵人行動 1 回合",
     "skillMonsters": [
       "1128"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "廿三締約",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BB%BF%E4%B8%89%E7%B7%A0%E7%B4%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "達成 23 連擊 (Combo) 時 ⇒ 全隊攻擊力 23 倍",
+    "skillMonsters": [
+      "2234"
     ]
   },
   {
