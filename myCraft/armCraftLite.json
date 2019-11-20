@@ -2583,6 +2583,195 @@
     }
   },
   {
+    "idNorm": "3360",
+    "name": "絮飄法棒龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%AE%E9%A3%84%E6%B3%95%E6%A3%92%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0d/C3360.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052528\u0026path-prefix\u003dzh",
+      "iconKey": "C3360.png"
+    }
+  },
+  {
+    "idNorm": "3361",
+    "name": "絮飄法棒龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%AE%E9%A3%84%E6%B3%95%E6%A3%92%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/43/C3361.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052529\u0026path-prefix\u003dzh",
+      "iconKey": "C3361.png"
+    }
+  },
+  {
+    "idNorm": "3362",
+    "name": "絮飄法棒龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%AE%E9%A3%84%E6%B3%95%E6%A3%92%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b2/C3362.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052529\u0026path-prefix\u003dzh",
+      "iconKey": "C3362.png"
+    }
+  },
+  {
+    "idNorm": "3363",
+    "name": "絮飄法棒龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%AE%E9%A3%84%E6%B3%95%E6%A3%92%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/31/C3363.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052529\u0026path-prefix\u003dzh",
+      "iconKey": "C3363.png"
+    }
+  },
+  {
+    "idNorm": "3364",
+    "name": "絮飄法棒龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%AE%E9%A3%84%E6%B3%95%E6%A3%92%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/C3364.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052530\u0026path-prefix\u003dzh",
+      "iconKey": "C3364.png"
+    }
+  },
+  {
+    "idNorm": "3365",
+    "name": "絮飄法棒龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%AE%E9%A3%84%E6%B3%95%E6%A3%92%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6a/C3365.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052530\u0026path-prefix\u003dzh",
+      "iconKey": "C3365.png"
+    }
+  },
+  {
+    "idNorm": "3366",
+    "name": "絮飄法棒龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%AE%E9%A3%84%E6%B3%95%E6%A3%92%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/C3366.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052531\u0026path-prefix\u003dzh",
+      "iconKey": "C3366.png"
+    }
+  },
+  {
+    "idNorm": "3367",
+    "name": "閃灼法棒龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%81%BC%E6%B3%95%E6%A3%92%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/21/C3367.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052532\u0026path-prefix\u003dzh",
+      "iconKey": "C3367.png"
+    }
+  },
+  {
+    "idNorm": "3368",
+    "name": "閃灼法棒龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%81%BC%E6%B3%95%E6%A3%92%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/64/C3368.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052532\u0026path-prefix\u003dzh",
+      "iconKey": "C3368.png"
+    }
+  },
+  {
+    "idNorm": "3369",
+    "name": "閃灼法棒龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%81%BC%E6%B3%95%E6%A3%92%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/db/C3369.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052533\u0026path-prefix\u003dzh",
+      "iconKey": "C3369.png"
+    }
+  },
+  {
+    "idNorm": "3370",
+    "name": "閃灼法棒龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%81%BC%E6%B3%95%E6%A3%92%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/13/C3370.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052533\u0026path-prefix\u003dzh",
+      "iconKey": "C3370.png"
+    }
+  },
+  {
+    "idNorm": "3371",
+    "name": "閃灼法棒龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%81%BC%E6%B3%95%E6%A3%92%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/C3371.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052534\u0026path-prefix\u003dzh",
+      "iconKey": "C3371.png"
+    }
+  },
+  {
+    "idNorm": "3372",
+    "name": "閃灼法棒龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%81%BC%E6%B3%95%E6%A3%92%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b0/C3372.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052534\u0026path-prefix\u003dzh",
+      "iconKey": "C3372.png"
+    }
+  },
+  {
+    "idNorm": "3373",
+    "name": "閃灼法棒龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%81%BC%E6%B3%95%E6%A3%92%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/18/C3373.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052534\u0026path-prefix\u003dzh",
+      "iconKey": "C3373.png"
+    }
+  },
+  {
+    "idNorm": "3374",
+    "name": "翠耀法棒龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E8%80%80%E6%B3%95%E6%A3%92%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b7/C3374.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052535\u0026path-prefix\u003dzh",
+      "iconKey": "C3374.png"
+    }
+  },
+  {
+    "idNorm": "3375",
+    "name": "翠耀法棒龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E8%80%80%E6%B3%95%E6%A3%92%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/44/C3375.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052535\u0026path-prefix\u003dzh",
+      "iconKey": "C3375.png"
+    }
+  },
+  {
+    "idNorm": "3376",
+    "name": "翠耀法棒龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E8%80%80%E6%B3%95%E6%A3%92%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0b/C3376.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052536\u0026path-prefix\u003dzh",
+      "iconKey": "C3376.png"
+    }
+  },
+  {
+    "idNorm": "3377",
+    "name": "翠耀法棒龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E8%80%80%E6%B3%95%E6%A3%92%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f3/C3377.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052536\u0026path-prefix\u003dzh",
+      "iconKey": "C3377.png"
+    }
+  },
+  {
+    "idNorm": "3378",
+    "name": "翠耀法棒龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E8%80%80%E6%B3%95%E6%A3%92%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/04/C3378.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052537\u0026path-prefix\u003dzh",
+      "iconKey": "C3378.png"
+    }
+  },
+  {
+    "idNorm": "3379",
+    "name": "翠耀法棒龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E8%80%80%E6%B3%95%E6%A3%92%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0e/C3379.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052537\u0026path-prefix\u003dzh",
+      "iconKey": "C3379.png"
+    }
+  },
+  {
+    "idNorm": "3380",
+    "name": "翠耀法棒龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E8%80%80%E6%B3%95%E6%A3%92%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9a/C3380.png/revision/latest/scale-to-width-down/60?cb\u003d20191115052546\u0026path-prefix\u003dzh",
+      "iconKey": "C3380.png"
+    }
+  },
+  {
     "idNorm": "3381",
     "name": "醫藥箱龍紋",
     "link": "https://tos.fandom.com/zh/wiki/%E9%86%AB%E8%97%A5%E7%AE%B1%E9%BE%8D%E7%B4%8B",
@@ -3084,6 +3273,15 @@
     "icon": {
       "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b0/C7007.png/revision/latest/scale-to-width-down/60?cb\u003d20181212054406\u0026path-prefix\u003dzh",
       "iconKey": "C7007.png"
+    }
+  },
+  {
+    "idNorm": "7031",
+    "name": "聖翼之鈴龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b4/C7031.png/revision/latest/scale-to-width-down/60?cb\u003d20191119123537\u0026path-prefix\u003dzh",
+      "iconKey": "C7031.png"
     }
   },
   {

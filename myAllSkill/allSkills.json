@@ -19033,8 +19033,8 @@
     "type": "主動技",
     "skillName": "百式觀音",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E5%BC%8F%E8%A7%80%E9%9F%B3",
-    "skillCDMin": 19,
-    "skillCDMax": 8,
+    "skillCDMin": 17,
+    "skillCDMax": 6,
     "skillDesc": "水、火、木符石轉化為光符石，暗符石轉化為心符石；並將光及心符石轉化為強化符石；1 回合內，以 10% 自身攻擊力追打光屬性攻擊 10 次；下回合自身不能發動攻擊",
     "skillMonsters": [
       "1772"
