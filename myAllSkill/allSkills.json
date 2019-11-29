@@ -688,6 +688,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "五彩綻放",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E5%BD%A9%E7%B6%BB%E6%94%BE",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "引爆所有符石 ⇒ 掉落五屬強化符石",
+    "skillMonsters": [
+      "2215"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "五念凝匯 ‧ 強極",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E5%BF%B5%E5%87%9D%E5%8C%AF_%E2%80%A7_%E5%BC%B7%E6%A5%B5",
@@ -729,6 +740,17 @@
     "skillDesc": "1 回合內，所有符石兼具其他屬性符石 50% 效果",
     "skillMonsters": [
       "7004"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "五源歸心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E6%BA%90%E6%AD%B8%E5%BF%83",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "2 回合內 所有屬性符石兼具心符石效果",
+    "skillMonsters": [
+      "2215"
     ]
   },
   {
@@ -6155,6 +6177,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "妖之號令",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E8%99%9F%E4%BB%A4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類攻擊力及回復力 4 倍 II. 消除心符石時 ⇒ 妖精類攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "2215"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "妖之靈 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E9%9D%88_%E2%80%A7_%E5%85%89",
     "skillCDMin": -1,
@@ -9145,6 +9178,17 @@
     "skillCDMax": 8,
     "skillDesc": "所有符石隨機轉換，並將心符石以心強化符石代替；2 回合內，所有屬性符石兼具 50% 心符石效果",
     "skillMonsters": []
+  },
+  {
+    "type": "主動技",
+    "skillName": "搶天奪日 ‧ 五源化靈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%90%B6%E5%A4%A9%E5%A5%AA%E6%97%A5_%E2%80%A7_%E4%BA%94%E6%BA%90%E5%8C%96%E9%9D%88",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 所有符石隨機轉換： ⇒ 心符石出現率上升 ⇒ 並以心妖族強化符石代替 II. 若隊伍中所有成員的 回復力基值相同時 ⇒ 所有屬性符石 兼具 50% 心符石效果",
+    "skillMonsters": [
+      "2214"
+    ]
   },
   {
     "type": "主動技",
@@ -15880,6 +15924,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "火影 ‧ 妖幻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E5%BD%B1_%E2%80%A7_%E5%A6%96%E5%B9%BB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類攻擊力 4.5 倍 II. 回合結束時，隨機將 3 粒符石 ⇒ 轉化為火妖族符石",
+    "skillMonsters": [
+      "2236"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "火影 ‧ 猛擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E5%BD%B1_%E2%80%A7_%E7%8C%9B%E6%93%8A",
@@ -18617,6 +18672,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "珊瑚亂舞",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8F%8A%E7%91%9A%E4%BA%82%E8%88%9E",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆敵人屬性符石 ⇒ 掉落火強化符石 1 回合內 II. 每消除 2 組符石 ⇒ 妖精類成員以 30% 自身攻擊力 　 追打火屬性攻擊 1 次 ⇒ 最多追打 5 次",
+    "skillMonsters": [
+      "2236"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "珠光流瀉",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8F%A0%E5%85%89%E6%B5%81%E7%80%89",
     "skillCDMin": 17,
@@ -18679,6 +18745,17 @@
     "skillDesc": "2 回合內，敵方所受傷害的 20% 轉化為我方生命力",
     "skillMonsters": [
       "0742"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "生命吸取 ‧ 連綿",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%94%9F%E5%91%BD%E5%90%B8%E5%8F%96_%E2%80%A7_%E9%80%A3%E7%B6%BF",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "3 回合內 I. 敵方所受傷害的 30% ⇒ 轉化為我方生命力 II. 若回合結束時隊伍回復為 0 時 ⇒ 該回合不會扣減技能持續回合",
+    "skillMonsters": [
+      "2214"
     ]
   },
   {
@@ -22933,6 +23010,17 @@
     "skillDesc": "以所受傷害 3 倍對敵方攻擊者進行相剋屬性反擊",
     "skillMonsters": [
       "0742"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "罪戮的罰則",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BD%AA%E6%88%AE%E7%9A%84%E7%BD%B0%E5%89%87",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類攻擊力 3 倍 II. 隊伍受到的傷害提升 2 倍 III. 以所受傷害 5 倍對敵方攻擊者 ⇒ 進行相克屬性反擊 (此傷害無視「強化突破」敵技)",
+    "skillMonsters": [
+      "2214"
     ]
   },
   {
@@ -29465,6 +29553,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "騎士之魂 ‧ 魔",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E9%AD%94",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "魔族攻擊力及回復力 4.5 倍；龍脈儀全滿時，魔族攻擊力額外提升 1.5 倍。每首批消除 1 種屬性符石，於回合結束時，隨機將該屬性的其中 2 粒符石轉化為魔族符石",
+    "skillMonsters": [
+      "2038"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "騎士之魂 ‧ 龍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E9%BE%8D",
     "skillCDMin": -1,
@@ -30514,6 +30613,17 @@
     "skillDesc": "所有符石轉化為魔族強化符石",
     "skillMonsters": [
       "1895"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔族紋章",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%97%8F%E7%B4%8B%E7%AB%A0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ⇒ 並將該種符石引爆 ⇒ 以掉落該種符石以外的符石 1 回合內 II. 對敵方全體造成 100,000 點木屬性傷害 (此傷害無視防禦力) III. 首批掉落的符石必定為魔族符石",
+    "skillMonsters": [
+      "2038"
     ]
   },
   {
