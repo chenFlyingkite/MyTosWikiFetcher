@@ -283,9 +283,9 @@ public class TosCardCreator {
 
     private void fillExpInfo(TosCard c, List<String> list) {
         String s = list.get(0);
-        c.expCurve = Integer.parseInt(s.substring(0, s.indexOf("萬")));
-        c.minExpSacrifice = Integer.parseInt(list.get(1));
-        c.perLvExpSacrifice = Integer.parseInt(list.get(2));
+        c.expCurve = parseInt(s.substring(0, s.indexOf("萬")));
+        c.minExpSacrifice = parseInt(list.get(1));
+        c.perLvExpSacrifice = parseInt(list.get(2));
 
         int[] maxEco = getExpUtilityLevel(c);
         c.maxMUPerLevel = maxEco[0];
@@ -328,13 +328,13 @@ public class TosCardCreator {
     }
 
     private void fillHPValues(TosCard c, List<String> list) {
-        c.maxHP = Integer.parseInt(list.get(0));
-        c.maxAttack = Integer.parseInt(list.get(1));
-        c.maxRecovery = Integer.parseInt(list.get(2));
+        c.maxHP = parseInt(list.get(0));
+        c.maxAttack = parseInt(list.get(1));
+        c.maxRecovery = parseInt(list.get(2));
 
-        c.minHP = Integer.parseInt(list.get(3));
-        c.minAttack = Integer.parseInt(list.get(4));
-        c.minRecovery = Integer.parseInt(list.get(5));
+        c.minHP = parseInt(list.get(3));
+        c.minAttack = parseInt(list.get(4));
+        c.minRecovery = parseInt(list.get(5));
     }
 
     private void fillEvolution(TosCard c, CardInfo info) {
@@ -565,7 +565,7 @@ public class TosCardCreator {
         boolean endI = s != null && s.endsWith("i");
         if (endI) {
             // Parse "12i" to "0012"
-            return String.format(Locale.US, "%04d", Integer.parseInt(s.substring(0, s.length() - 1)));
+            return String.format(Locale.US, "%04d", parseInt(s.substring(0, s.length() - 1)));
         } else {
             return s;
         }
@@ -575,7 +575,6 @@ public class TosCardCreator {
         boolean beginC = s != null && s.startsWith("C");
         if (beginC) {
             // Parse "C3101" to "3101"
-            //return String.format(Locale.US, "%04d", Integer.parseInt(s.substring(0, s.length() - 1)));
             return s.substring(1);
         } else {
             return s;
@@ -587,11 +586,11 @@ public class TosCardCreator {
         c.name = list.get(0);
         c.attribute = list.get(1);
         c.id = list.get(2);
-        c.rarity = Integer.parseInt(list.get(3).substring(0, 1));
-        c.cost = Integer.parseInt(list.get(4));
+        c.rarity = parseInt(list.get(3).substring(0, 1));
+        c.cost = parseInt(list.get(4));
         c.race = list.get(5);
         c.series = list.get(6);
-        c.LvMax = Integer.parseInt(list.get(7));
+        c.LvMax = parseInt(list.get(7));
         //-- Exp curve #8
         c.ExpMax = Long.parseLong(list.get(9));
         setNormId(c, info.idNorm);
@@ -603,12 +602,12 @@ public class TosCardCreator {
             c.idNorm = normId_nnnni(xxi);
         } else {
             // old one for the deprecated one
-            c.idNorm = String.format(Locale.US, "%04d", Integer.parseInt(c.id));
+            c.idNorm = String.format(Locale.US, "%04d", parseInt(c.id));
 
             int end = c.wikiLink.lastIndexOf("/") + 1;
             String s = c.wikiLink.substring(end);
             if (s.matches("[0-9]+")) {
-                int num = Integer.parseInt(s);
+                int num = parseInt(s);
                 if (6000 <= num && num < 7000) { // This is those card of 造型, like "id": "481", -> 水妹
                     c.idNorm = String.format(Locale.US, "%04d", num);
                 }
@@ -619,16 +618,16 @@ public class TosCardCreator {
     private void fillSkillActive(TosCard c, List<String> list) {
         //-- Skill Active name #10
         c.skillName1 = list.get(0);
-        c.skillCDMin1 = Integer.parseInt(list.get(1));
-        c.skillCDMax1 = Integer.parseInt(list.get(2));
+        c.skillCDMin1 = parseInt(list.get(1));
+        c.skillCDMax1 = parseInt(list.get(2));
         c.skillDesc1 = list.get(3);
     }
 
     private void fillSkillActive2(TosCard c, List<String> list) {
         //-- Skill Active name #10
         c.skillName2 = list.get(0);
-        c.skillCDMin2 = Integer.parseInt(list.get(1));
-        c.skillCDMax2 = Integer.parseInt(list.get(2));
+        c.skillCDMin2 = parseInt(list.get(1));
+        c.skillCDMax2 = parseInt(list.get(2));
         c.skillDesc2 = list.get(3);
     }
 
@@ -641,15 +640,15 @@ public class TosCardCreator {
     private void fillAmelioration(TosCard c, List<String> list) {
         //-- Skill Leader name #15
         c.skillAmeName1 = list.get(0);
-        c.skillAmeCost1 = Integer.parseInt(list.get(1));
+        c.skillAmeCost1 = parseInt(list.get(1));
         c.skillAmeName2 = list.get(2);
-        c.skillAmeCost2 = Integer.parseInt(list.get(3));
+        c.skillAmeCost2 = parseInt(list.get(3));
         if (list.size() <= 4) return;
 
         c.skillAmeName3 = list.get(4);
-        c.skillAmeCost3 = Integer.parseInt(list.get(5));
+        c.skillAmeCost3 = parseInt(list.get(5));
         c.skillAmeName4 = list.get(6);
-        c.skillAmeCost4 = Integer.parseInt(list.get(7));
+        c.skillAmeCost4 = parseInt(list.get(7));
     }
 
     private void updateAmes(TosCard c) {
@@ -694,11 +693,24 @@ public class TosCardCreator {
                 String word = t.substring(p + key.length());
                 String[] items = word.replaceAll(" ", "").split("[,|召]");
                 if (items.length > 0) {
-                    sum += Integer.parseInt(items[0]);
+                    sum += parseInt(items[0]);
                 }
             }
         }
         return sum;
+    }
+
+    private int parseInt(String s) {
+        return parseInt(s, 0);
+    }
+
+    private int parseInt(String s, int def) {
+        try {
+            return Integer.parseInt(s);
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            return def;
+        }
     }
 
 }

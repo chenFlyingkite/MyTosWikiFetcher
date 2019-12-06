@@ -79,6 +79,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/6174");
         //link.add("https://tos.fandom.com/zh/wiki/595");
         //link.add("https://tos.fandom.com/zh/wiki/230");
+        link.add("https://tos.fandom.com/zh/wiki/2300");
         if (!fixing) {
             link.clear();
         }
@@ -114,7 +115,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         List<TosCard> allCards = new ArrayList<>();
         for (int i = 0; i < pages.size(); i++) {
             String link = pages.get(i);
-            L.log("#%s -> %s", i, link);
+            L.log("For Link[%s]  %s", i, link);
             mLf.log("%s", link);
             // Fetch metadata from link
             CardInfo cInfo = getCardInfo(link);
@@ -162,9 +163,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         Document doc = getDocument(link);
         if (doc == null) return info;
 
-        if (getTests().isEmpty()) {
-            L.log("Title = %s", doc.title());
-        }
         Elements centers = doc.getElementsByTag("center");
 
         // Fill in icon & big image, in 1st & 2nd <center>
@@ -226,6 +224,11 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         info.details = a.getDetail();
         info.sameSkills = a.getSameSkills();
 
+        // -- Printing logs --
+        if (getTests().isEmpty()) {
+            L.log("id=%s, Title = %s", info.idNorm, doc.title());
+        }
+
         return info;
     }
 
@@ -263,15 +266,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         ax = Anchors.AwakenRecall.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            // Old way, Deprecated
-//            String name = tds.get(at - 1);
-//            NameLink icf = getIconInfoByName(name, nameLink);
-//            if (icf != null) {
-//                info.awkStages.add(tds.get(anchors[ax] + 1)); // Skill name
-//                info.awkStages.add(tds.get(anchors[ax] + 2)); // = icf.getName(), stage name
-//                info.awkStages.add(wikiBaseZh + icf.getLink()); // battle link
-//            }
-
             for (Awaken a : rawCard.getAwaken()) {
                 info.awkStages.add(a.getSkill());
                 info.awkStages.add(a.getName());

@@ -34,7 +34,7 @@ public class TaskMonitorUtil {
 
             @Override
             public String getTaskTag(int index) {
-                return preRun.get(index).getClass().getSimpleName();
+                return preRun.get(index).getClass().getSimpleName() + "_" + index;
             }
         };
         TaskMonitor.OnTaskState state =  new TaskMonitor.OnTaskState() {
@@ -46,7 +46,7 @@ public class TaskMonitorUtil {
             @Override
             public void onAllTaskDone() {
                 L.log("Task All OK");
-                ended.run();
+                runIt(ended);
             }
         };
         TaskMonitor monitor = new TaskMonitor(owner);
@@ -55,7 +55,7 @@ public class TaskMonitorUtil {
         for (int i = 0; i < preRun.size(); i++) {
             final int pos = i;
             pool.submit(() -> {
-                preRun.get(pos).run();
+                runIt(preRun.get(pos));
                 synchronized (done) {
                     done[pos] = true;
                 }
@@ -63,5 +63,15 @@ public class TaskMonitorUtil {
             });
         }
         monitor.registerClient(state);
+    }
+
+    private static void runIt(Runnable r) {
+        if (r != null) {
+            try {
+                r.run();
+            } catch (Throwable t) {
+                t.printStackTrace();
+            }
+        }
     }
 }
