@@ -38867,8 +38867,8 @@
   {
     "id": "2321",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2321",
-    "name": "附加消除重置 ‧ 3倍不倒意志30% ‧ 生命30%下-弱化鎖定圍城20%",
-    "detail": "首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e敵人當前生命力大於 30% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會回復生命力 30% (只發動 1 次)、提升攻擊力 5 倍及每回合連續攻擊 2 次。\u003cbr\u003e敵人生命力為 30% 以下時，鎖定場上所有符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)",
+    "name": "附加消除重置 ‧ 3倍不倒意志30% ‧ 生命30%下-非種族轉水-弱化鎖定圍城20%",
+    "detail": "首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e敵人當前生命力大於 30% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會回復生命力 30% (只發動 1 次)、提升攻擊力 5 倍及每回合連續攻擊 2 次。\u003cbr\u003e敵人生命力為 30% 以下時，將非種族符石轉化為水符石，並鎖定場上所有符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)",
     "esCode": "{{ES2321}}",
     "icons": [
       {
@@ -38878,6 +38878,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI123.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
