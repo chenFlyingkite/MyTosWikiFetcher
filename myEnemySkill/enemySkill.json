@@ -65290,7 +65290,7 @@
   {
     "id": "3616",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3616",
-    "name": "突擊-隨機燃燒10%轉火-攻後燃燒10% ‧ 燃燒轉火 ‧ 首消火傷害吸收",
+    "name": "突擊-隨機燃燒10%轉火-攻後疊加燃燒10% ‧ 燃燒轉火 ‧ 首消火傷害吸收",
     "detail": "首回合優先突擊 1 次，\u003cbr\u003e隨機燃燒 1 個位置，\u003cbr\u003e並將該位置的符石\u003cbr\u003e⇒ 轉化為火符石；\u003cbr\u003e\u003cbr\u003e其後每當敵人發動攻擊時，\u003cbr\u003e額外燃燒 1 個位置，\u003cbr\u003e最多可燃燒 6 個位置。\u003cbr\u003e\u003cbr\u003e回合結束時，\u003cbr\u003e將燃燒位置的符石\u003cbr\u003e⇒ 轉化為火符石；\u003cbr\u003e每觸碰被燃燒的位置\u003cbr\u003e⇒ 將扣除召喚師 10% 生命力。\u003cbr\u003e\u003cbr\u003e首批消除火屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。",
     "esCode": "{{ES3616}}",
     "icons": [
@@ -65319,7 +65319,7 @@
   {
     "id": "3617",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3617",
-    "name": "突擊-隨機燃燒20%轉火-攻後燃燒20% ‧ 燃燒轉火 ‧ 首消火傷害吸收",
+    "name": "突擊-隨機燃燒20%轉火-攻後疊加燃燒20% ‧ 燃燒轉火 ‧ 首消火傷害吸收",
     "detail": "首回合優先突擊 1 次，\u003cbr\u003e隨機燃燒 1 個位置，\u003cbr\u003e並將該位置的符石\u003cbr\u003e⇒ 轉化為火符石；\u003cbr\u003e\u003cbr\u003e其後每當敵人發動攻擊時，\u003cbr\u003e額外燃燒 1 個位置，\u003cbr\u003e最多可燃燒 6 個位置。\u003cbr\u003e\u003cbr\u003e回合結束時，\u003cbr\u003e將燃燒位置的符石\u003cbr\u003e⇒ 轉化為火符石；\u003cbr\u003e每觸碰被燃燒的位置\u003cbr\u003e⇒ 將扣除召喚師 20% 生命力。\u003cbr\u003e\u003cbr\u003e首批消除火屬性的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量。",
     "esCode": "{{ES3617}}",
     "icons": [
@@ -66410,6 +66410,10 @@
     "esCode": "{{ES3663}}",
     "icons": [
       {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI151.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102643\u0026path-prefix\u003dzh",
         "iconKey": "SI151.png"
       },
@@ -66420,13 +66424,17 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
       }
     ]
   },
   {
     "id": "3664",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3664",
-    "name": "CD1 ‧ 先隊屬1顆點燃必殺符石 ‧ 100%減傷盾-越攻越弱 ‧ 無視減傷",
+    "name": "CD1 ‧ 先隊屬1顆鎖鏈必殺符石 ‧ 100%減傷盾-越攻越弱 ‧ 無視減傷",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e鎖定 1 粒隊長屬性符石，\u003cbr\u003e若場上沒有隊長屬性符石，\u003cbr\u003e隨機將 1 粒符石轉化為\u003cbr\u003e隊長屬性符石並鎖定；\u003cbr\u003e若有鎖定符石未被消除，\u003cbr\u003e符石會被引爆，\u003cbr\u003e並令召喚師會死亡。\u003cbr\u003e\u003cbr\u003e敵人為 100% 減傷狀態，\u003cbr\u003e敵人攻擊次數愈多，\u003cbr\u003e減傷狀態削弱愈多。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和\u003cbr\u003e意志技能。",
     "esCode": "{{ES3664}}",
     "icons": [
@@ -66435,8 +66443,8 @@
         "iconKey": "SI159.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
-        "iconKey": "SI168.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d5/SI223.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI223.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
@@ -66456,6 +66464,10 @@
     "esCode": "{{ES3665}}",
     "icons": [
       {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
+        "iconKey": "SI160.png"
+      },
+      {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/de/SI151.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102643\u0026path-prefix\u003dzh",
         "iconKey": "SI151.png"
       },
@@ -66466,13 +66478,17 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
       }
     ]
   },
   {
     "id": "3666",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3666",
-    "name": "CD1 ‧ 轉隊屬2顆點燃必殺符石 ‧ 100%減傷盾-越攻越弱 ‧ 無視減傷",
+    "name": "CD1 ‧ 轉隊屬2顆鎖鏈必殺符石 ‧ 100%減傷盾-越攻越弱 ‧ 無視減傷",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e鎖定 2 粒隊長屬性符石，\u003cbr\u003e若場上隊長屬性符石不足，\u003cbr\u003e隨機將符石轉化為\u003cbr\u003e隊長屬性符石並鎖定；\u003cbr\u003e直至場上有 2 粒鎖定符石；\u003cbr\u003e若有鎖定符石未被消除，\u003cbr\u003e符石會被引爆，\u003cbr\u003e並令召喚師會死亡。\u003cbr\u003e\u003cbr\u003e敵人為 100% 減傷狀態，\u003cbr\u003e敵人攻擊次數愈多，\u003cbr\u003e減傷狀態削弱愈多。\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和\u003cbr\u003e意志技能。",
     "esCode": "{{ES3666}}",
     "icons": [
@@ -66481,8 +66497,8 @@
         "iconKey": "SI159.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bd/SI168.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102649\u0026path-prefix\u003dzh",
-        "iconKey": "SI168.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d5/SI223.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI223.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9c/SI250.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
@@ -66622,8 +66638,8 @@
         "iconKey": "SI250.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI122.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
+        "iconKey": "SI121.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
