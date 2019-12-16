@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2666 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2670 items, basePath = https://tos.fandom.com, offset = null)
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
@@ -708,7 +708,9 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 忠義_‧_燄火 -> https://tos.fandom.com/zh/wiki/%E5%BF%A0%E7%BE%A9_%E2%80%A7_%E7%87%84%E7%81%AB
 念之強勢_‧_光 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E5%BC%B7%E5%8B%A2_%E2%80%A7_%E5%85%89
 念之強勢_‧_暗 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E5%BC%B7%E5%8B%A2_%E2%80%A7_%E6%9A%97
+念之扣殺 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E6%89%A3%E6%AE%BA
 念之躍動 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E8%BA%8D%E5%8B%95
+念彈攻擊 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E5%BD%88%E6%94%BB%E6%93%8A
 念拳 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E6%8B%B3
 念線縫合 -> https://tos.fandom.com/zh/wiki/%E5%BF%B5%E7%B7%9A%E7%B8%AB%E5%90%88
 怒海蒼流 -> https://tos.fandom.com/zh/wiki/%E6%80%92%E6%B5%B7%E8%92%BC%E6%B5%81
@@ -1113,6 +1115,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 武化之水 -> https://tos.fandom.com/zh/wiki/%E6%AD%A6%E5%8C%96%E4%B9%8B%E6%B0%B4
 武化之水_‧_強 -> https://tos.fandom.com/zh/wiki/%E6%AD%A6%E5%8C%96%E4%B9%8B%E6%B0%B4_%E2%80%A7_%E5%BC%B7
 歸一之志 -> https://tos.fandom.com/zh/wiki/%E6%AD%B8%E4%B8%80%E4%B9%8B%E5%BF%97
+歸一的力量 -> https://tos.fandom.com/zh/wiki/%E6%AD%B8%E4%B8%80%E7%9A%84%E5%8A%9B%E9%87%8F
 歸元結念 -> https://tos.fandom.com/zh/wiki/%E6%AD%B8%E5%85%83%E7%B5%90%E5%BF%B5
 死亡宣告 -> https://tos.fandom.com/zh/wiki/%E6%AD%BB%E4%BA%A1%E5%AE%A3%E5%91%8A
 死亡狩獵 -> https://tos.fandom.com/zh/wiki/%E6%AD%BB%E4%BA%A1%E7%8B%A9%E7%8D%B5
@@ -1711,6 +1714,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 神界聯盟_‧_木 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%95%8C%E8%81%AF%E7%9B%9F_%E2%80%A7_%E6%9C%A8
 神界聯盟_‧_水 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%95%8C%E8%81%AF%E7%9B%9F_%E2%80%A7_%E6%B0%B4
 神界聯盟_‧_火 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%95%8C%E8%81%AF%E7%9B%9F_%E2%80%A7_%E7%81%AB
+神的左手惡魔的右手 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%9A%84%E5%B7%A6%E6%89%8B%E6%83%A1%E9%AD%94%E7%9A%84%E5%8F%B3%E6%89%8B
 神聖七約 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E4%B8%83%E7%B4%84
 神聖之主義 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E4%B9%8B%E4%B8%BB%E7%BE%A9
 神聖之強權 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E4%B9%8B%E5%BC%B7%E6%AC%8A
@@ -2667,4 +2671,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2691 skills
+2695 skills

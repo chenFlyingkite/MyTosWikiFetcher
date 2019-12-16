@@ -8420,6 +8420,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "念之扣殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E6%89%A3%E6%AE%BA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 人類攻擊力 4 倍 II. 光及暗符石互相兼具 50% 效果 III. 同時消除光及暗符石 ⇒ 人類攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "2292"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "念之躍動",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E8%BA%8D%E5%8B%95",
@@ -8432,6 +8443,17 @@
       "8042",
       "9011",
       "9012"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "念彈攻擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%B5%E5%BD%88%E6%94%BB%E6%93%8A",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆「光及暗以外」的符石 ⇒ 掉落光強化及暗強化符石 1 回合內 II. 每引爆 1 粒符石 ⇒ 自身攻擊力提升 300 點 III. 自身攻擊轉化為暗屬性 IV. 自身攻擊無視指定形狀盾",
+    "skillMonsters": [
+      "2292"
     ]
   },
   {
@@ -13250,6 +13272,17 @@
     "skillDesc": "1 回合內，消除符石的種類愈多 (只計算首批消除的符石)，自身攻擊力愈高，最大 12 倍",
     "skillMonsters": [
       "7002"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "歸一的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AD%B8%E4%B8%80%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆「火及心以外」符石 ⇒ 掉落隊伍成員屬性強化符石 1 回合內 II. 自身攻擊力 10 倍， 此傷害無視防禦力， 其他成員不能發動攻擊 III. 若隊伍中有任何「西索」 ⇒ 所受傷害不會使你死亡 IV. 若隊伍中有任何「比司吉」 ⇒ 火及心符石互相兼具效果",
+    "skillMonsters": [
+      "2295"
     ]
   },
   {
@@ -19845,7 +19878,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A3%B7%E7%81%AB%E4%B9%8B%E6%8E%8C",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 將火及暗符石轉化為火獸族強化符石 II. 發動技能時若自身「仙力」全滿 ⇒ 1 回合內，獸類成員 50% 的攻擊傷害無視攻前盾",
+    "skillDesc": "I. 將火及暗符石轉化為火獸族強化符石 II. 發動技能時若自身「仙力」全滿 ⇒ 1 回合內 獸類成員 50% 的攻擊傷害無視攻前盾",
     "skillMonsters": [
       "2134"
     ]
@@ -20404,6 +20437,17 @@
     "skillDesc": "神族及火屬性攻擊力 2.5 倍；若戰友為神族時，神族攻擊力提升至 3.5 倍",
     "skillMonsters": [
       "0962"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神的左手惡魔的右手",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%9A%84%E5%B7%A6%E6%89%8B%E6%83%A1%E9%AD%94%E7%9A%84%E5%8F%B3%E6%89%8B",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "I. 將右方 3 直行的符石 ⇒ 轉化為左方 3 直行的符石 (包括強化符石、種族符石) II. 以左下角的符石開始轉珠時 ⇒ 上述效果持續 2 回合",
+    "skillMonsters": [
+      "2296"
     ]
   },
   {

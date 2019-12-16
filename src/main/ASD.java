@@ -103,8 +103,12 @@ public class ASD {
         // Find cards
         //findCardSkill("延遲", allCards);
         //findCardSkill("種族強化符石", allCards);
-        findCardSkill("技能 CD 減少", allCards);
+        findCardSkill("五屬", allCards);
         L.log("--**--\n\n\n--**--");
+        findCardSkill("水(.{0,30})火(.{0,30})木(.{0,30})光(.{0,30})暗(.{0,30})", true, allCards);
+
+        L.log("--**--\n\n\n--**--");
+        findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
         //findCardSkill("連擊", allCards);
         //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n\n--**--");
@@ -286,6 +290,75 @@ public class ASD {
         }
 
         L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, key);
+        L.log("Found %s in normal, %s in 素材", n, m);
+    }
+
+    private static void findCardSkill(String[] keys, boolean regex, TosCard[] allCards) {
+        // Define match condition
+        MeetSS<String, Boolean> cond;
+        if (regex) {
+            cond = (a, b) -> {
+                return Pattern.compile(b).matcher(a).find();
+            };
+        } else {
+            cond = (a, b) -> {
+                return a.contains(b);
+            };
+        }
+
+        // Major part
+        int sn = 0, tn = 0, un = 0;
+        L.log("--**--");
+        //L.log("Find %s of %s", regex ? "regex" : "text", key);
+        int n = 0, m = 0;
+        for (TosCard c : allCards) {
+            boolean inDetail = false;
+            String s = c.skillDesc1 + " & " + c.skillDesc2 + " & " + c.skillAwkName;
+            String t = c.cardDetails;
+            String u = c.skillLeaderDesc;
+            String exist = "";
+            boolean skYes = true;
+            for (String k : keys) {
+                skYes &= cond.meet(s, k);
+            }
+            if (skYes) {
+                sn++;
+                exist += " Skill,";
+            }
+
+            boolean dtYes = true;
+            for (String k : keys) {
+                dtYes &= cond.meet(t, k);
+            }
+            if (dtYes) {
+                inDetail = true;
+                exist += " Detail,";
+                tn++;
+            }
+
+            boolean ldYes = true;
+            for (String k : keys) {
+                ldYes &= cond.meet(u, k);
+            }
+            if (ldYes) {
+                exist += " Leader";
+                un++;
+            }
+            if (!exist.isEmpty()) {
+                L.log(exist + "\n" + sc(c));
+                if (inDetail) {
+                    L.log(c.cardDetails);
+                }
+
+                if (c.race.contains("素材")) {
+                    m++;
+                } else {
+                    n++;
+                }
+            }
+        }
+
+        L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, Arrays.toString(keys));
         L.log("Found %s in normal, %s in 素材", n, m);
     }
 
