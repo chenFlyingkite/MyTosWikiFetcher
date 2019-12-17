@@ -18875,7 +18875,7 @@
   {
     "id": "1253",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1253",
-    "name": "心傷害吸收",
+    "name": "消心傷害吸收",
     "detail": "消除心符石的連擊 (Combo) 時，敵人會回復相等於該回合召喚師所造成傷害的血量",
     "esCode": "{{ES1253}}",
     "icons": [
@@ -65722,16 +65722,12 @@
         "iconKey": "SI159.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/14/SI081.png/revision/latest/scale-to-width-down/22?cb\u003d20170914005707\u0026path-prefix\u003dzh",
-        "iconKey": "SI081.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cc/SI354.png/revision/latest/scale-to-width-down/22?cb\u003d20191216115613\u0026path-prefix\u003dzh",
+        "iconKey": "SI354.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/86/SI235.png/revision/latest/scale-to-width-down/22?cb\u003d20150813073416\u0026path-prefix\u003dzh",
         "iconKey": "SI235.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
-        "iconKey": "SI181.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
@@ -65755,16 +65751,12 @@
         "iconKey": "SI259.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/14/SI081.png/revision/latest/scale-to-width-down/22?cb\u003d20170914005707\u0026path-prefix\u003dzh",
-        "iconKey": "SI081.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/cc/SI354.png/revision/latest/scale-to-width-down/22?cb\u003d20191216115613\u0026path-prefix\u003dzh",
+        "iconKey": "SI354.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/86/SI235.png/revision/latest/scale-to-width-down/22?cb\u003d20150813073416\u0026path-prefix\u003dzh",
         "iconKey": "SI235.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
-        "iconKey": "SI181.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
