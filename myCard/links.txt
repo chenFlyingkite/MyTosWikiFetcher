@@ -14958,16 +14958,16 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6254"
   },
   {
-    "title": "No. 6258 君臨恐懼 ‧ 阿撒托斯",
-    "id": "6258",
-    "link": "https://tos.fandom.com/zh/wiki/%E5%90%9B%E8%87%A8%E6%81%90%E6%87%BC_%E2%80%A7_%E9%98%BF%E6%92%92%E6%89%98%E6%96%AF",
-    "linkId": "http://zh.tos.wikia.com/wiki/6258"
-  },
-  {
     "title": "S257 舞會虹彩 ‧ 瑪雅",
     "id": "6257",
     "link": "https://tos.fandom.com/zh/wiki/%E8%88%9E%E6%9C%83%E8%99%B9%E5%BD%A9_%E2%80%A7_%E7%91%AA%E9%9B%85",
     "linkId": "http://zh.tos.wikia.com/wiki/6257"
+  },
+  {
+    "title": "S258 君臨恐懼 ‧ 阿撒托斯",
+    "id": "6258",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%90%9B%E8%87%A8%E6%81%90%E6%87%BC_%E2%80%A7_%E9%98%BF%E6%92%92%E6%89%98%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/6258"
   },
   {
     "title": "S259 時空相對論 ‧ 愛因斯坦(動態造型)",

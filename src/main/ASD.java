@@ -24,6 +24,9 @@ import main.kt.Craft;
 import main.kt.CraftSkill;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.io.IOException;
@@ -103,15 +106,15 @@ public class ASD {
         // Find cards
         //findCardSkill("延遲", allCards);
         //findCardSkill("種族強化符石", allCards);
-        findCardSkill("五屬", allCards);
-        L.log("--**--\n\n\n--**--");
-        findCardSkill("水(.{0,30})火(.{0,30})木(.{0,30})光(.{0,30})暗(.{0,30})", true, allCards);
+        findCardSkill("防禦力變為 0", allCards);
+        L.log("--**--\n\n--**--");
+        //findCardSkill("水(.{0,30})火(.{0,30})木(.{0,30})光(.{0,30})暗(.{0,30})", true, allCards);
 
-        L.log("--**--\n\n\n--**--");
-        findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
+        L.log("--**--\n\n--**--");
+        //findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
         //findCardSkill("連擊", allCards);
         //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
-        L.log("--**--\n\n\n--**--");
+        L.log("--**--\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("傷害減少", allCards);
     }
@@ -1289,4 +1292,77 @@ class Jsoner {
 
         return b;
     }
+
+    //---- For adding video effects
+    private static void a() {
+        // Listing ACD
+        String acdSrc = "D:\\ActionDirector_Android\\ACD_03\\ActionDirector";
+        String acdFx = acdSrc + "\\src\\main\\assets\\Effects\\VideoFx";
+        File[] fs = new File(acdFx).listFiles();
+        //List<File> fs = FileUtil.listAllFiles(new File(acdFx));
+
+        Map<String, File> acdFxs = new HashMap<>();
+        if (fs != null) {
+            L.log("%s folders in %s", fs.length, acdFx);
+            for (int i = 0; i < fs.length; i++) {
+                L.log("#%3d : %s", i, fs[i]);
+                acdFxs.put(fs[i].getName(), fs[i]);
+            }
+        }
+        L.log("---\n\n\n---");
+
+
+
+        // Parsing pdr
+        String pdr = "D:\\PowerDirector_Android\\PDR_01\\PowerDirector";
+        String pdrFx = pdr + "\\src\\main\\assets\\Effects";
+        String fxXml = "EffectList.xml";
+        File pdrFxF = new File(pdrFx, fxXml);
+
+        Map<String, Element> acds = new TreeMap<>();
+        try {
+            Document pdrDoc = Jsoup.parse(pdrFxF, "UTF-8");
+            Elements e = pdrDoc.getElementsByTag("effect");
+            for (int i = 0; i < e.size(); i++) {
+                Element ei = e.get(i);
+                L.log("#%3d = %s", i, ei);
+                // Find effect name
+                Element eiName = ei.getElementsByTag("effect_name").first();
+                String name = eiName.text();
+                if (acdFxs.get(name) != null) {
+                    //acds.add(ei);
+                    acds.put(name, ei);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        L.log("---\n\n\n---");
+        L.log("%s in acds", acds.size());
+        for (String s : acds.keySet()) {
+            Element v = acds.get(s);
+            L.log("%s", fmtNode(v));
+            //L.log("%s", v);
+        }
+        L.log("---\n\n\n---");
+    }
+
+    private static String fmtNode(Element e) {
+        StringBuilder ans = new StringBuilder("");
+        String tag = e.tagName();
+        ans.append("<").append(tag).append(">").append("\n");
+        for (Element c : e.children()) {
+            String si = c.toString().trim();
+            if (!si.isEmpty()) {
+                String s = si.replaceAll("[ \\n]", "");
+                s = s.replace("<effect_category>Fx</effect_category>", "<effect_category>VideoFx</effect_category>");
+                ans.append(" ").append(s).append("\n");
+            }
+        }
+        ans.append("</").append(tag).append(">");//.append("\n");
+
+        return ans.toString();
+    }
+    //---
 }
