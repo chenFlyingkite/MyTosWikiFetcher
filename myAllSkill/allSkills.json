@@ -4846,6 +4846,18 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "同心 ‧ 緣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%8C%E5%BF%83_%E2%80%A7_%E7%B7%A3",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 人類攻擊力 4 倍 II. 消除心符石時 ⇒ 人類攻擊力額外 1.5 倍 III. 連擊 (Combo) 時攻擊力提升 100%",
+    "skillMonsters": [
+      "2256",
+      "2257"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "同歸於盡",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%8C%E6%AD%B8%E6%96%BC%E7%9B%A1",
@@ -4936,6 +4948,17 @@
     "skillDesc": "心符石轉化為強化符石，水、火及木符石轉化為獸族符石。1 回合內，將掉落的水、火及木符石以獸族強化符石代替",
     "skillMonsters": [
       "1942"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "周而復始",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%91%A8%E8%80%8C%E5%BE%A9%E5%A7%8B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 4.5 倍 II. 下回合開始時，所有符石隨機轉換",
+    "skillMonsters": [
+      "2280"
     ]
   },
   {
@@ -5875,6 +5898,17 @@
     "skillDesc": "I. 2 回合內，人類攻擊力 2 倍 II. 敵方全體陷入天舞戰陣：受影響目標無法行動、攻擊力及防禦力變為 0，持續 2 回合",
     "skillMonsters": [
       "2120"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "天賦之能",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E8%B3%A6%E4%B9%8B%E8%83%BD",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類時： I. 全隊攻擊力 4 倍、生命力 1.3 倍 II. 減少 25% 所受傷害 III. 於成員所在直行 消除 ≥1 粒該成員屬性的符石 ⇒ 該成員攻擊力額外 2 倍 (倍率不可疊加) IV. 消除強化符石時 ⇒ 全隊攻擊力額外 1.8 倍 V. 每首批消除 1 種屬性符石 ⇒ 於回合結束時將該屬性的 其中 2 粒符石轉化為強化符石",
+    "skillMonsters": [
+      "2300"
     ]
   },
   {
@@ -10244,6 +10278,17 @@
     "skillDesc": "1 回合內 I. 自身生命力愈高，全隊攻擊力愈高，最大 2.2 倍 II. 人類成員追打光屬性攻擊 1 次",
     "skillMonsters": [
       "2123"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星宿下凡",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E5%AE%BF%E4%B8%8B%E5%87%A1",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "所有符石轉化為神族強化符石",
+    "skillMonsters": [
+      "2301"
     ]
   },
   {
@@ -18200,6 +18245,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "猜猜拳！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8C%9C%E7%8C%9C%E6%8B%B3%EF%BC%81",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內， 以指定圖示的符石開始轉珠時， 將觸發以下效果： 【剪刀】 ⓵ 全隊攻擊力及回復力 1.5 倍 【石頭】 ⓵ 自身攻擊力 6 倍 ⓶ 自身攻擊無視敵人的防禦力 【布】 ⓵ 於發動攻擊前， ⇒ 以 25 倍自身攻擊力 對敵方全體造成木屬性傷害",
+    "skillMonsters": [
+      "2300"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "猩猩之怒 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8C%A9%E7%8C%A9%E4%B9%8B%E6%80%92_%E2%80%A7_%E5%85%89",
     "skillCDMin": 19,
@@ -18364,6 +18420,17 @@
       "1853",
       "1858",
       "1975"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "玄光 ‧ 寄意",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89_%E2%80%A7_%E5%AF%84%E6%84%8F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 光符石兼具心符石效果 II. 首批掉落的 10 粒符石 ⇒ 必定為光人族符石",
+    "skillMonsters": [
+      "2256"
     ]
   },
   {
@@ -18869,6 +18936,17 @@
     "skillDesc": "水屬性攻擊力 2 倍及生命力 1.5 倍",
     "skillMonsters": [
       "0844"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "生命之音",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%94%9F%E5%91%BD%E4%B9%8B%E9%9F%B3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "發動技能後， 記錄每回合對敵人所造成的攻擊傷害 (不包括無屬性傷害及最多記錄 20 億) 3 回合內，可隨時關閉此技能，關閉時： 以 1% 累計總攻擊傷害 ⇒ 對敵方全體造成無屬性傷害 否則，此技能會在第 3 回合失效",
+    "skillMonsters": [
+      "2290"
     ]
   },
   {
@@ -20327,6 +20405,17 @@
     "skillDesc": "神族攻擊力 4.5 倍；消除暗強化符石時，全隊攻擊力有 50% 機會額外提升 1.5 倍 (機率可以疊加)",
     "skillMonsters": [
       "1440"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神武化氣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%AD%A6%E5%8C%96%E6%B0%A3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 消除所有附加效果 II. 完全回復生命力 II. 若隊伍中只有神族成員 ⇒ 1 回合內全隊攻擊力 2.5 倍",
+    "skillMonsters": [
+      "2301"
     ]
   },
   {
@@ -26553,6 +26642,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "返本歸元",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%94%E6%9C%AC%E6%AD%B8%E5%85%83",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "I. 將黑白符石變回原來色調 II. 將場上的符石變回原始模樣 III. 所有符石隨機轉換 IV. 若隊伍中只有神族成員 ⇒ 1 回合內 所有成員以 20% 攻擊力追打 2 次",
+    "skillMonsters": [
+      "2280"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "返靈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%94%E9%9D%88",
     "skillCDMin": 21,
@@ -26822,6 +26922,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "連擊 ‧ 愛意",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%A3%E6%93%8A_%E2%80%A7_%E6%84%9B%E6%84%8F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將光符石及自身直行的符石 ⇒ 轉化為人族強化符石 1 回合內 II. 每消除 2 粒光或心符石 ⇒ 額外增加 1 連擊 (Combo) ⇒ 最多可增加 15 連擊 (Combo)",
+    "skillMonsters": [
+      "2257"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "連擊之盾",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%A3%E6%93%8A%E4%B9%8B%E7%9B%BE",
     "skillCDMin": 19,
@@ -27055,6 +27166,17 @@
     "skillDesc": "I. 人類攻擊力 4 倍 II. 光及暗符石互相兼具 50% 效果 III. 同時消除光及暗符石 ⇒ 人類攻擊力額外 1.5 倍",
     "skillMonsters": [
       "2292"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "遊走聖誕街道",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%81%8A%E8%B5%B0%E8%81%96%E8%AA%95%E8%A1%97%E9%81%93",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 12 秒內，可任意移動符石而不會發動消除 II. 若此時所有機械族成員行動值達至 100% ⇒ 1 回合，機械族攻擊力及回復力 1.8 倍",
+    "skillMonsters": [
+      "2279"
     ]
   },
   {
@@ -28742,6 +28864,17 @@
     "skillDesc": "所有符石轉化為強化符石，暗符石由左上方開始向右排列；1 回合內，連擊 (Combo) 數目增加 5",
     "skillMonsters": [
       "1767"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "電光石火 ‧ 木",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E5%85%89%E7%9F%B3%E7%81%AB_%E2%80%A7_%E6%9C%A8",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 所有符石轉化為強化符石 II.木符石由左上方開始向右排列 1 回合內 III. 連擊 (Combo) 數目增加 8",
+    "skillMonsters": [
+      "2300"
     ]
   },
   {
