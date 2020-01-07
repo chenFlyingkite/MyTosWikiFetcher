@@ -13392,6 +13392,36 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2258"
   },
   {
+    "title": "No. 2259 驍銳武聖 ‧ 關羽",
+    "id": "2259",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A9%8D%E9%8A%B3%E6%AD%A6%E8%81%96_%E2%80%A7_%E9%97%9C%E7%BE%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/2259"
+  },
+  {
+    "title": "No. 2260 靈應童將 ‧ 張飛",
+    "id": "2260",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E6%87%89%E7%AB%A5%E5%B0%87_%E2%80%A7_%E5%BC%B5%E9%A3%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2260"
+  },
+  {
+    "title": "No. 2261 革導皇命 ‧ 劉備",
+    "id": "2261",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%A9%E5%B0%8E%E7%9A%87%E5%91%BD_%E2%80%A7_%E5%8A%89%E5%82%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/2261"
+  },
+  {
+    "title": "No. 2262 機謀八陣 ‧ 諸葛亮",
+    "id": "2262",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E8%AC%80%E5%85%AB%E9%99%A3_%E2%80%A7_%E8%AB%B8%E8%91%9B%E4%BA%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2262"
+  },
+  {
+    "title": "No. 2278 鋼甲熊",
+    "id": "2278",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E7%94%B2%E7%86%8A",
+    "linkId": "http://zh.tos.wikia.com/wiki/2278"
+  },
+  {
     "title": "No. 2279 鹿式 ‧ 聖誕號",
     "id": "2279",
     "link": "https://tos.fandom.com/zh/wiki/%E9%B9%BF%E5%BC%8F_%E2%80%A7_%E8%81%96%E8%AA%95%E8%99%9F",

@@ -239,6 +239,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "三原流水刃 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%89%E5%8E%9F%E6%B5%81%E6%B0%B4%E5%88%83_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將光符石轉化為水強化符石 II. 將暗符石轉化為火強化符石 III. 將心符石轉化為木強化符石 1 回合內 IV. 水符石兼具 50% 心符石效果",
+    "skillMonsters": [
+      "2259"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "三原漫布",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%89%E5%8E%9F%E6%BC%AB%E5%B8%83",
     "skillCDMin": 17,
@@ -3121,6 +3132,17 @@
     "skillDesc": "光符石與暗符石轉化為心強化符石，2 回合內，減少所受傷害 50%",
     "skillMonsters": [
       "1293"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "兩儀化靈 ‧ 結義",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A9%E5%84%80%E5%8C%96%E9%9D%88_%E2%80%A7_%E7%B5%90%E7%BE%A9",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將光及暗符石 ⇒ 轉化為心強化符石 II. 將「驍銳武聖 ‧ 關羽」及 「革導皇命 ‧ 劉備」直行的符石 ⇒ 轉化為人族強化符石 2 回合內 III. 減少 60% 所受傷害",
+    "skillMonsters": [
+      "2260"
     ]
   },
   {
@@ -11888,6 +11910,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "木靈為武 ‧ 火燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E9%9D%88%E7%82%BA%E6%AD%A6_%E2%80%A7_%E7%81%AB%E7%87%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 3 倍 II. 消除 ≥3 種符石時 ⇒ 全隊攻擊力額外 2 倍 III. 木及心符石兼具 50% 火符石效果",
+    "skillMonsters": [
+      "2260"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "木靈符籙",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E9%9D%88%E7%AC%A6%E7%B1%99",
     "skillCDMin": -1,
@@ -14212,6 +14245,17 @@
     "skillDesc": "I. 將 16 個固定位置的符石 ⇒ 轉化為水強化符石 II. 將 14 個固定位置的符石 ⇒ 轉化為心強化符石 III. 隊伍中只有機械族成員時 ⇒ 1 回合內，連擊 (Combo) 數目增加 9",
     "skillMonsters": [
       "2186"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "水靈為武 ‧ 藤木",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E9%9D%88%E7%82%BA%E6%AD%A6_%E2%80%A7_%E8%97%A4%E6%9C%A8",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 木屬性攻擊力 3 倍 II. 消除 ≥3 種符石時 ⇒ 全隊攻擊力額外 2 倍 III. 水及心符石兼具 50% 木符石效果",
+    "skillMonsters": [
+      "2261"
     ]
   },
   {
@@ -22848,6 +22892,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "結義盟誓",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%90%E7%BE%A9%E7%9B%9F%E8%AA%93",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有水、火及木屬性成員時： I. 水符石兼具 50% 其他屬性符石效果 II. 火符石兼具 50% 其他屬性符石效果 III. 木符石兼具 50% 其他屬性符石效果 IV. 消除 3 種符石時 ⇒ 全隊攻擊力 4 倍 V. 消除 ≥4 種符石時 ⇒ 全隊攻擊力 5 倍",
+    "skillMonsters": [
+      "2259"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "絕世奇玉",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E4%B8%96%E5%A5%87%E7%8E%89",
     "skillCDMin": -1,
@@ -28641,6 +28696,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "雄姿 ‧ 光華獵擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%84%E5%A7%BF_%E2%80%A7_%E5%85%89%E8%8F%AF%E7%8D%B5%E6%93%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內 I. 首批 2 粒相連的 水、火、木符石可發動消除 II. 每消除 1 組水、火或木符石 ⇒ 個人追打光屬性攻擊 1 次 ⇒ 最多可追打 10 次",
+    "skillMonsters": [
+      "2261"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "雄烈之火",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%84%E7%83%88%E4%B9%8B%E7%81%AB",
     "skillCDMin": 19,
@@ -30427,6 +30493,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "魅影連環 ‧ 戰術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E5%BD%B1%E9%80%A3%E7%92%B0_%E2%80%A7_%E6%88%B0%E8%A1%93",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將暗符石轉化為暗強化符石 II. 將水、火、木、光符石各 1 粒 ⇒ 轉化為強化符石 III. 1 回合內，連擊 (Combo) 數目增加 8",
+    "skillMonsters": [
+      "2262"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "魅惑",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E6%83%91",
     "skillCDMin": 24,
@@ -30656,6 +30733,17 @@
       "0543",
       "0722",
       "1198"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "魔之本性 ‧ 八陣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E4%B9%8B%E6%9C%AC%E6%80%A7_%E2%80%A7_%E5%85%AB%E9%99%A3",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 魔族攻擊力 3 倍、生命力及回復力 1.5 倍 II. 達至 ≥8 Combo 時 ⇒ 魔族攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2262"
     ]
   },
   {
