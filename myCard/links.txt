@@ -13344,6 +13344,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2244"
   },
   {
+    "title": "No. 2245 待勢騰龍 ‧ 布魯克",
+    "id": "2245",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BE%85%E5%8B%A2%E9%A8%B0%E9%BE%8D_%E2%80%A7_%E5%B8%83%E9%AD%AF%E5%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2245"
+  },
+  {
     "title": "No. 2251 藍莓慕斯杯",
     "id": "2251",
     "link": "https://tos.fandom.com/zh/wiki/%E8%97%8D%E8%8E%93%E6%85%95%E6%96%AF%E6%9D%AF",
@@ -13558,6 +13564,12 @@
     "id": "2301",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B4%85%E5%BD%B1%E9%9B%99%E8%BC%9D_%E2%80%A7_%E6%96%87%E6%9B%B2%E6%98%9F%E8%88%87%E6%AD%A6%E6%9B%B2%E6%98%9F",
     "linkId": "http://zh.tos.wikia.com/wiki/2301"
+  },
+  {
+    "title": "No. 2302 祿逢吉處 ‧ 祿存星",
+    "id": "2302",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%BF%E9%80%A2%E5%90%89%E8%99%95_%E2%80%A7_%E7%A5%BF%E5%AD%98%E6%98%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2302"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

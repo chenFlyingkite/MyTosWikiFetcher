@@ -4446,6 +4446,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "化吉之念",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8C%96%E5%90%89%E4%B9%8B%E5%BF%B5",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "I. 隨機將 3 粒符石 ⇒ 轉化為神族強化符石 1 回合內 II. 神族及獸類攻擊力 1.6 倍 III. 若有消除神族符石 ⇒ 則神族及獸類攻擊力提升至 2 倍",
+    "skillMonsters": [
+      "2302"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "化攻術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8C%96%E6%94%BB%E8%A1%93",
     "skillCDMin": 19,
@@ -31646,6 +31657,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "鱗光初露",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E5%88%9D%E9%9C%B2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 龍類攻擊力 3 倍 II. 當前生命力大於 70% 時 ⇒ 下一次所受傷害不會使你死亡 (同 1 回合只會發動 1 次)",
+    "skillMonsters": [
+      "2245"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "鳳凰天舞腳",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%A4%A9%E8%88%9E%E8%85%B3",
@@ -32078,6 +32100,17 @@
       "0571",
       "0572",
       "0573"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "龍族加冕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E5%8A%A0%E5%86%95",
+    "skillCDMin": 13,
+    "skillCDMax": 2,
+    "skillDesc": "I. 將累積戰鬥回合 (需消除符石) +1 數量的 符石轉化為龍族強化符石，最多 8 粒 II. 當累積至最多 8 粒時發動技能 ⇒ 所有龍類成員技能 CD 減少 1 發動技能後可轉換符石數將重新累積",
+    "skillMonsters": [
+      "2245"
     ]
   },
   {
