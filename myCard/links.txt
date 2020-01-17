@@ -15396,6 +15396,24 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6333"
   },
   {
+    "title": "S334 靈應童將 ‧ 張飛(動態造型)",
+    "id": "6334",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E6%87%89%E7%AB%A5%E5%B0%87_%E2%80%A7_%E5%BC%B5%E9%A3%9B(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6334"
+  },
+  {
+    "title": "S335 紅影雙輝 ‧ 文曲星與武曲星(動態造型)",
+    "id": "6335",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%85%E5%BD%B1%E9%9B%99%E8%BC%9D_%E2%80%A7_%E6%96%87%E6%9B%B2%E6%98%9F%E8%88%87%E6%AD%A6%E6%9B%B2%E6%98%9F(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6335"
+  },
+  {
+    "title": "S336 祿逢吉處 ‧ 祿存星(動態造型)",
+    "id": "6336",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%BF%E9%80%A2%E5%90%89%E8%99%95_%E2%80%A7_%E7%A5%BF%E5%AD%98%E6%98%9F(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6336"
+  },
+  {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
     "id": "7001",
     "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2",
