@@ -66800,7 +66800,7 @@
   {
     "id": "3678",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3678",
-    "name": "CD1 ‧ 首消光傷害吸收-反彈100% ‧ 20+Combo追擊盾",
+    "name": "CD1 ‧ 首消光傷害吸收-反彈100% ‧ 20+Combo追擊弱盾",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 100% 攻擊傷害。\u003cbr\u003e\u003cbr\u003e20 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目而提升攻擊次數，最多攻擊 6 次。",
     "esCode": "{{ES3678}}",
     "icons": [
@@ -67416,7 +67416,7 @@
   {
     "id": "3706",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3706",
-    "name": "CD2 ‧ 命懸一線 ‧ (1回致命步伐2000) ‧ 火屬防禦90%",
+    "name": "CD2 ‧ 命懸一線 ‧ (1回致命步伐2000) ‧ 火外防禦90%",
     "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e\u003cbr\u003e首回合召喚師生命力剩 1 點\u003cbr\u003e\u003cbr\u003e1 回合內，每移動 1 步，\u003cbr\u003e對召喚師造成 2000 點傷害。\u003cbr\u003e\u003cbr\u003e火屬性以外的攻擊傷害\u003cbr\u003e⇒ 減至 10%\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3706}}",
     "icons": [
@@ -67462,7 +67462,7 @@
   {
     "id": "3708",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3708",
-    "name": "CD1 ‧ 命懸一線 ‧ (1回致命步伐5000) ‧ 火屬防禦95%",
+    "name": "CD1 ‧ 命懸一線 ‧ (1回致命步伐5000) ‧ 火外防禦95%",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e首回合召喚師生命力剩 1 點\u003cbr\u003e\u003cbr\u003e1 回合內，每移動 1 步，\u003cbr\u003e對召喚師造成 5000 點傷害。\u003cbr\u003e\u003cbr\u003e火屬性以外的攻擊傷害\u003cbr\u003e⇒ 減至 5%\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3708}}",
     "icons": [
@@ -67766,7 +67766,7 @@
   {
     "id": "3720",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3720",
-    "name": "CD1 ‧ 龍族初級拼圖盾-限 ‧ 暗起手-始終盾 ‧ 中毒90%",
+    "name": "CD1 ‧ 龍族強化初級拼圖盾-限 ‧ 暗起手-始終盾 ‧ 中毒90%",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e以指定形狀消除龍族強化符石\u003cbr\u003e(不可連同形狀旁邊的符石) \u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e每回合以指定 (暗符石優先) 位置 (綠色漩渦) 開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。\u003cbr\u003e(達成條件前，無法進行回復)\u003cbr\u003e\u003cbr\u003e所有成員中毒，每回合扣除\u003cbr\u003e召喚師 90% 生命力，\u003cbr\u003e直至敵人死亡。",
     "esCode": "{{ES3720}}",
     "icons": [
@@ -67841,7 +67841,7 @@
   {
     "id": "3723",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3723",
-    "name": "CD1 ‧ 二五直行射擊 ‧ 電擊消射盾90% ‧ 7+Combo追擊盾",
+    "name": "CD1 ‧ 二五直行射擊 ‧ 電擊消射盾90% ‧ 首消7Combo盾",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e射擊第 2 及第 5 直行位置，\u003cbr\u003e被射擊的位置一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在電擊狀態，\u003cbr\u003e射擊效果才會消失，\u003cbr\u003e並可對其造成完整攻擊傷害。\u003cbr\u003e\u003cbr\u003e首批消除 7 連擊 (Combo) \u003cbr\u003e才會對敵人造成攻擊傷害。",
     "esCode": "{{ES3723}}",
     "icons": [
@@ -67858,15 +67858,15 @@
         "iconKey": "SI293.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI105.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
-        "iconKey": "SI105.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI087.png/revision/latest/scale-to-width-down/22?cb\u003d20190327114931\u0026path-prefix\u003dzh",
+        "iconKey": "SI087.png"
       }
     ]
   },
   {
     "id": "3724",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3724",
-    "name": "CD1 ‧ 二五直行射擊 ‧ 凍結消射盾90% ‧ 7+Combo追擊盾",
+    "name": "CD1 ‧ 二五直行射擊 ‧ 凍結消射盾90% ‧ 首消7Combo盾",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e射擊第 2 及第 5 直行位置，\u003cbr\u003e被射擊的位置一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在凍結狀態，\u003cbr\u003e射擊效果才會消失，\u003cbr\u003e並可對其造成完整攻擊傷害。\u003cbr\u003e\u003cbr\u003e首批消除 7 連擊 (Combo) \u003cbr\u003e才會對敵人造成攻擊傷害。",
     "esCode": "{{ES3724}}",
     "icons": [
@@ -67883,8 +67883,8 @@
         "iconKey": "SI292.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI105.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
-        "iconKey": "SI105.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI087.png/revision/latest/scale-to-width-down/22?cb\u003d20190327114931\u0026path-prefix\u003dzh",
+        "iconKey": "SI087.png"
       }
     ]
   },
@@ -67916,7 +67916,7 @@
   {
     "id": "3726",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3726",
-    "name": "命懸一線 ‧ 三回超級禁錮-硬4秒轉珠-回復力減弱95%",
+    "name": "命懸一線 ‧ 三回超級禁錮-黑白符石-硬4秒轉珠-回復力減弱95%",
     "detail": "首回合召喚師生命力剩 1 點\u003cbr\u003e\u003cbr\u003e3 回合內，封鎖所有成員的\u003cbr\u003e主動技能及其攻擊。\u003cbr\u003e(所有解鎖技能無效)\u003cbr\u003e\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e效果期間，\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e。\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)\u003cbr\u003e\u003cbr\u003e所有成員的回復力減至 5%。",
     "esCode": "{{ES3726}}",
     "icons": [
@@ -67927,6 +67927,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
@@ -67941,7 +67945,7 @@
   {
     "id": "3727",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3727",
-    "name": "命懸一線 ‧ 三回超級禁錮-首消6+Combo盾-回復力減弱95%",
+    "name": "命懸一線 ‧ 三回超級禁錮-黑白符石-首消6+Combo盾-回復力減弱95%",
     "detail": "首回合召喚師生命力剩 1 點\u003cbr\u003e\u003cbr\u003e3 回合內，封鎖所有成員的\u003cbr\u003e主動技能及其攻擊。\u003cbr\u003e(所有解鎖技能無效)\u003cbr\u003e\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e效果期間，\u003cbr\u003e首批消除 ≥6 連擊 (Combo) \u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e所有成員的回復力減至 5%。",
     "esCode": "{{ES3727}}",
     "icons": [
@@ -67952,6 +67956,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
         "iconKey": "SI122.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b5/SI104.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102326\u0026path-prefix\u003dzh",
