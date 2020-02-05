@@ -3213,6 +3213,69 @@
     }
   },
   {
+    "idNorm": "3465",
+    "name": "冒險書龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%92%E9%9A%AA%E6%9B%B8%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a1/C3465.png/revision/latest/scale-to-width-down/60?cb\u003d20200203080851\u0026path-prefix\u003dzh",
+      "iconKey": "C3465.png"
+    }
+  },
+  {
+    "idNorm": "3466",
+    "name": "冒險書龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%92%E9%9A%AA%E6%9B%B8%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/22/C3466.png/revision/latest/scale-to-width-down/60?cb\u003d20200203080851\u0026path-prefix\u003dzh",
+      "iconKey": "C3466.png"
+    }
+  },
+  {
+    "idNorm": "3467",
+    "name": "冒險書龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%92%E9%9A%AA%E6%9B%B8%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/ef/C3467.png/revision/latest/scale-to-width-down/60?cb\u003d20200203080852\u0026path-prefix\u003dzh",
+      "iconKey": "C3467.png"
+    }
+  },
+  {
+    "idNorm": "3468",
+    "name": "冒險書龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%92%E9%9A%AA%E6%9B%B8%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c0/C3468.png/revision/latest/scale-to-width-down/60?cb\u003d20200203080852\u0026path-prefix\u003dzh",
+      "iconKey": "C3468.png"
+    }
+  },
+  {
+    "idNorm": "3469",
+    "name": "冒險書龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%92%E9%9A%AA%E6%9B%B8%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/a7/C3469.png/revision/latest/scale-to-width-down/60?cb\u003d20200203080853\u0026path-prefix\u003dzh",
+      "iconKey": "C3469.png"
+    }
+  },
+  {
+    "idNorm": "3470",
+    "name": "冒險書龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%92%E9%9A%AA%E6%9B%B8%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/84/C3470.png/revision/latest/scale-to-width-down/60?cb\u003d20200203080853\u0026path-prefix\u003dzh",
+      "iconKey": "C3470.png"
+    }
+  },
+  {
+    "idNorm": "3471",
+    "name": "冒險書龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%92%E9%9A%AA%E6%9B%B8%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/58/C3471.png/revision/latest/scale-to-width-down/60?cb\u003d20200203080854\u0026path-prefix\u003dzh",
+      "iconKey": "C3471.png"
+    }
+  },
+  {
     "idNorm": "7001",
     "name": "幻之弦琴龍紋",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E4%B9%8B%E5%BC%A6%E7%90%B4%E9%BE%8D%E7%B4%8B",
@@ -3399,6 +3462,15 @@
     "icon": {
       "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/6c/C9006.png/revision/latest/scale-to-width-down/60?cb\u003d20190909200851\u0026path-prefix\u003dzh",
       "iconKey": "C9006.png"
+    }
+  },
+  {
+    "idNorm": "9007",
+    "name": "週年蛋糕龍弦",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%B1%E5%B9%B4%E8%9B%8B%E7%B3%95%E9%BE%8D%E5%BC%A6",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c1/C9007.png/revision/latest/scale-to-width-down/60?cb\u003d20200123173617\u0026path-prefix\u003dzh",
+      "iconKey": "C9007.png"
     }
   }
 ]

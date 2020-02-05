@@ -12474,10 +12474,28 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2091"
   },
   {
+    "title": "No. 2092 初序的創造論 ‧ 卡俄斯",
+    "id": "2092",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%88%9D%E5%BA%8F%E7%9A%84%E5%89%B5%E9%80%A0%E8%AB%96_%E2%80%A7_%E5%8D%A1%E4%BF%84%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2092"
+  },
+  {
+    "title": "No. 2093 神王羽琴",
+    "id": "2093",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%8E%8B%E7%BE%BD%E7%90%B4",
+    "linkId": "http://zh.tos.wikia.com/wiki/2093"
+  },
+  {
     "title": "No. 2099 喵喵大將軍 ‧ 虹伶",
     "id": "2099",
     "link": "https://tos.fandom.com/zh/wiki/%E5%96%B5%E5%96%B5%E5%A4%A7%E5%B0%87%E8%BB%8D_%E2%80%A7_%E8%99%B9%E4%BC%B6",
     "linkId": "http://zh.tos.wikia.com/wiki/2099"
+  },
+  {
+    "title": "No. 2100 夢想成真 ‧ 馬休",
+    "id": "2100",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A2%E6%83%B3%E6%88%90%E7%9C%9F_%E2%80%A7_%E9%A6%AC%E4%BC%91",
+    "linkId": "http://zh.tos.wikia.com/wiki/2100"
   },
   {
     "title": "No. 2101 天鵝座 ‧ 冰河",
@@ -13572,6 +13590,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2302"
   },
   {
+    "title": "No. 2305 破陣無雙 ‧ 項羽",
+    "id": "2305",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E9%99%A3%E7%84%A1%E9%9B%99_%E2%80%A7_%E9%A0%85%E7%BE%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/2305"
+  },
+  {
     "title": "No. 2306 卿雲護庇 ‧ 蒼璧",
     "id": "2306",
     "link": "https://tos.fandom.com/zh/wiki/%E5%8D%BF%E9%9B%B2%E8%AD%B7%E5%BA%87_%E2%80%A7_%E8%92%BC%E7%92%A7",
@@ -13632,6 +13656,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2316"
   },
   {
+    "title": "No. 2318 通天邪目 ‧ 百眼魔君",
+    "id": "2318",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%9A%E5%A4%A9%E9%82%AA%E7%9B%AE_%E2%80%A7_%E7%99%BE%E7%9C%BC%E9%AD%94%E5%90%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2318"
+  },
+  {
     "title": "No. 2319 踏風穿雲 ‧ 白龍馬",
     "id": "2319",
     "link": "https://tos.fandom.com/zh/wiki/%E8%B8%8F%E9%A2%A8%E7%A9%BF%E9%9B%B2_%E2%80%A7_%E7%99%BD%E9%BE%8D%E9%A6%AC",
@@ -13642,6 +13672,24 @@
     "id": "2322",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A9%BA%E4%B8%AD%E9%A3%9B%E4%BA%BA_%E2%80%A7_%E5%93%88%E5%80%AB%E8%88%87%E5%93%88%E7%B6%AD",
     "linkId": "http://zh.tos.wikia.com/wiki/2322"
+  },
+  {
+    "title": "No. 2323 妖舞焰花 ‧ 芙拉",
+    "id": "2323",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E8%88%9E%E7%84%B0%E8%8A%B1_%E2%80%A7_%E8%8A%99%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2323"
+  },
+  {
+    "title": "No. 2324 象嚎鞭策 ‧ 當奴",
+    "id": "2324",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B1%A1%E5%9A%8E%E9%9E%AD%E7%AD%96_%E2%80%A7_%E7%95%B6%E5%A5%B4",
+    "linkId": "http://zh.tos.wikia.com/wiki/2324"
+  },
+  {
+    "title": "No. 2327 七海瑰寶 ‧ 魟姬子",
+    "id": "2327",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B8%83%E6%B5%B7%E7%91%B0%E5%AF%B6_%E2%80%A7_%E9%AD%9F%E5%A7%AC%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2327"
   },
   {
     "title": "No. 2328 活管異物",
@@ -15120,6 +15168,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6254"
   },
   {
+    "title": "S255 豔壓群芳 ‧ 櫻",
+    "id": "6255",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B1%94%E5%A3%93%E7%BE%A4%E8%8A%B3_%E2%80%A7_%E6%AB%BB",
+    "linkId": "http://zh.tos.wikia.com/wiki/6255"
+  },
+  {
     "title": "S257 舞會虹彩 ‧ 瑪雅",
     "id": "6257",
     "link": "https://tos.fandom.com/zh/wiki/%E8%88%9E%E6%9C%83%E8%99%B9%E5%BD%A9_%E2%80%A7_%E7%91%AA%E9%9B%85",
@@ -15502,6 +15556,18 @@
     "id": "6336",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A5%BF%E9%80%A2%E5%90%89%E8%99%95_%E2%80%A7_%E7%A5%BF%E5%AD%98%E6%98%9F(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6336"
+  },
+  {
+    "title": "S337 初序的創造論 ‧ 卡俄斯(動態造型)",
+    "id": "6337",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%88%9D%E5%BA%8F%E7%9A%84%E5%89%B5%E9%80%A0%E8%AB%96_%E2%80%A7_%E5%8D%A1%E4%BF%84%E6%96%AF(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6337"
+  },
+  {
+    "title": "S339 破陣無雙 ‧ 項羽(動態造型)",
+    "id": "6339",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E9%99%A3%E7%84%A1%E9%9B%99_%E2%80%A7_%E9%A0%85%E7%BE%BD(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6339"
   },
   {
     "title": "S341 智火解析 ‧ 恩莉兒(動態造型)",
