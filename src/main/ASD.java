@@ -104,19 +104,21 @@ public class ASD {
         }
 
         // Find cards
-        //findCardSkill("延遲", allCards);
-        //findCardSkill("種族強化符石", allCards);
-        findCardSkill("防禦力變為 0", allCards);
+        // Normal
+        //findCardSkill("電擊符石", allCards);
+        findCardSkill("石化符石", allCards);
+        //findCardSkill("解除黑白符石的狀態", allCards);
         L.log("--**--\n\n--**--");
         //findCardSkill("水(.{0,30})火(.{0,30})木(.{0,30})光(.{0,30})暗(.{0,30})", true, allCards);
 
         L.log("--**--\n\n--**--");
+        // Regex
         //findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
-        //findCardSkill("連擊", allCards);
+        //findCardSkill("無視(.{0,30})「燃燒」", true, allCards);
         //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
-        //findCardSkill("傷害減少", allCards);
+        //findCardSkill("解除黑白符石的狀態", allCards);
     }
 
     private static void loadAllCrafts() {
