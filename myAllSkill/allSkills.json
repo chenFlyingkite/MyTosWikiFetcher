@@ -1368,6 +1368,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "偏執之念 ‧ 光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%81%8F%E5%9F%B7%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 消除 ≥5 種符石時 ⇒ 全隊攻擊力 5 倍 II. 每首批消除 1 連擊 (Combo) ⇒ 自身直行掉落 1 粒光強化符石",
+    "skillMonsters": [
+      "2315"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "偷天換日 ‧ 心",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%81%B7%E5%A4%A9%E6%8F%9B%E6%97%A5_%E2%80%A7_%E5%BF%83",
@@ -1819,7 +1830,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%8D%94%E5%8A%9B_%E2%80%A7_%E7%8D%B8",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中有 ≥3 個屬性成員時 ⇒ 獸類攻擊力 4 倍",
+    "skillDesc": "隊伍中有 ≥3 種屬性成員時 ⇒ 獸類攻擊力 4 倍",
     "skillMonsters": [
       "1942"
     ]
@@ -2092,7 +2103,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E7%82%BA%E5%8A%9B_%E2%80%A7_%E7%8D%B8",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中有 ≥3 個屬性成員時 ⇒ 獸類攻擊力 5 倍",
+    "skillDesc": "隊伍中有 ≥3 種屬性成員時 ⇒ 獸類攻擊力 5 倍",
     "skillMonsters": [
       "1941",
       "2129",
@@ -2858,6 +2869,17 @@
     "skillDesc": "在全部或最少 4 個成員可發動主動技時，發動此技會將所有成員技能 CD 重置：1 回合內，自身攻擊力及回復力 10 倍 (攻擊力不可與其他成員共享)",
     "skillMonsters": [
       "1349"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "光華 ‧ 妖幻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E8%8F%AF_%E2%80%A7_%E5%A6%96%E5%B9%BB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類攻擊力 4.5 倍 II. 回合結束時，隨機將 3 粒符石 ⇒ 轉化為光妖族符石",
+    "skillMonsters": [
+      "2238"
     ]
   },
   {
@@ -7075,6 +7097,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "富饒之約 ‧ 熾燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AF%8C%E9%A5%92%E4%B9%8B%E7%B4%84_%E2%80%A7_%E7%86%BE%E7%87%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 3 倍 II. 戰鬥中所獲得的金幣增加 75% (可疊加)",
+    "skillMonsters": [
+      "2320"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "富饒之約 ‧ 藤木",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AF%8C%E9%A5%92%E4%B9%8B%E7%B4%84_%E2%80%A7_%E8%97%A4%E6%9C%A8",
     "skillCDMin": -1,
@@ -7643,7 +7676,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E8%AE%8A%E4%B9%8B%E8%83%BD",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 若隊伍中有 ≤2 個屬性 ⓵ 將木符石轉化為強化符石 ⓶ 1 回合內，所有符石兼具 50% 木符石效果 II. 若隊伍中有 ≥3 個屬性 ⓵ 將場上數量最多的 2 種符石 ⇒ 轉化為強化符石 ⓶ 1 回合內，木符石兼具 50% 其他符石效果",
+    "skillDesc": "I. 若隊伍中有 ≤2 種屬性成員 ⓵ 將木符石轉化為強化符石 ⓶ 1 回合內，所有符石兼具 50% 木符石效果 II. 若隊伍中有 ≥3 種屬性成員 ⓵ 將場上數量最多的 2 種符石 ⇒ 轉化為強化符石 ⓶ 1 回合內，木符石兼具 50% 其他符石效果",
     "skillMonsters": [
       "2324"
     ]
@@ -7862,6 +7895,17 @@
     "skillDesc": "暗屬性攻擊力 4.5 倍",
     "skillMonsters": [
       "1394"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "幽冥蔽天",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E5%86%A5%E8%94%BD%E5%A4%A9",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內 I. 將敵方全體轉為暗屬性 II. 消除種族符石的數量愈多 ⇒ 全隊攻擊力提升愈多 ⇒ 消除 10 粒可達至最大 3 倍",
+    "skillMonsters": [
+      "2315"
     ]
   },
   {
@@ -8889,6 +8933,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "戀之界",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%80%E4%B9%8B%E7%95%8C",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內，延長移動符石時間至 15 秒；消除 1 組 6 粒或以上的火符石，火屬性攻擊力 2 倍",
+    "skillMonsters": [
+      "2376"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "戀之異彩",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%80%E4%B9%8B%E7%95%B0%E5%BD%A9",
     "skillCDMin": 17,
@@ -9192,6 +9247,17 @@
     "skillDesc": "1 回合内，全隊攻擊力 2.5 倍；下回合全隊回復力變 0",
     "skillMonsters": [
       "1183"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "招財納福 ‧ 火",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%8B%9B%E8%B2%A1%E7%B4%8D%E7%A6%8F_%E2%80%A7_%E7%81%AB",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆隊長及戰友直行的符石 ⇒ 掉落火強化符石 1 回合內 II. 首批消除所有火符石 ⇒ 下回合將所有符石 ⇒ 轉化為獸族符石",
+    "skillMonsters": [
+      "2320"
     ]
   },
   {
@@ -20498,6 +20564,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "神境月圓",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E5%A2%83%E6%9C%88%E5%9C%93",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 隨機將 3 個神族成員直行的符石 ⇒ 轉化為神族符石 1 回合內 II. 每消除 1 粒神族符石 ⇒ 回復 2000 點生命力 ⇒ 消除 30 粒可回復最多 60,000 點 III. 首批消除神族符石時 ⇒ 效果 II 持續 2 回合",
+    "skillMonsters": [
+      "2321"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "神女之柔",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E5%A5%B3%E4%B9%8B%E6%9F%94",
@@ -31302,6 +31379,17 @@
     "skillDesc": "所有符石轉化為固定數量的水人族強化、火人族強化及木人族強化符石。1 回合內，同時消除水強化、火強化及木強化符石時，全隊攻擊力 2 倍及無視五屬盾",
     "skillMonsters": [
       "2081"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔彩繽紛",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%BD%A9%E7%B9%BD%E7%B4%9B",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "引爆暗及心符石 ⇒ 掉落「暗及心以外」的魔族強化符石",
+    "skillMonsters": [
+      "2325"
     ]
   },
   {

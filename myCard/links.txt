@@ -4050,7 +4050,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/675"
   },
   {
-    "title": "No. 676 DAESUNG",
+    "title": "No. 676 DAESUNG(676)",
     "id": "0676",
     "link": "https://tos.fandom.com/zh/wiki/DAESUNG(676)",
     "linkId": "http://zh.tos.wikia.com/wiki/676"
@@ -4062,7 +4062,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/677"
   },
   {
-    "title": "No. 678 TAEYANG",
+    "title": "No. 678 TAEYANG(678)",
     "id": "0678",
     "link": "https://tos.fandom.com/zh/wiki/TAEYANG(678)",
     "linkId": "http://zh.tos.wikia.com/wiki/678"
@@ -4074,7 +4074,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/679"
   },
   {
-    "title": "No. 680 SEUNGRI",
+    "title": "No. 680 SEUNGRI(680)",
     "id": "0680",
     "link": "https://tos.fandom.com/zh/wiki/SEUNGRI(680)",
     "linkId": "http://zh.tos.wikia.com/wiki/680"
@@ -4086,7 +4086,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/681"
   },
   {
-    "title": "No. 682 T.O.P",
+    "title": "No. 682 T.O.P(682)",
     "id": "0682",
     "link": "https://tos.fandom.com/zh/wiki/T.O.P(682)",
     "linkId": "http://zh.tos.wikia.com/wiki/682"
@@ -4098,7 +4098,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/683"
   },
   {
-    "title": "No. 684 G-Dragon",
+    "title": "No. 684 G-Dragon(684)",
     "id": "0684",
     "link": "https://tos.fandom.com/zh/wiki/G-Dragon(684)",
     "linkId": "http://zh.tos.wikia.com/wiki/684"
@@ -13650,6 +13650,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2314"
   },
   {
+    "title": "No. 2315 心靈崩解 ‧ 撒達",
+    "id": "2315",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E9%9D%88%E5%B4%A9%E8%A7%A3_%E2%80%A7_%E6%92%92%E9%81%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/2315"
+  },
+  {
     "title": "No. 2316 雲台顯跡 ‧ 靈獸三仙",
     "id": "2316",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9B%B2%E5%8F%B0%E9%A1%AF%E8%B7%A1_%E2%80%A7_%E9%9D%88%E7%8D%B8%E4%B8%89%E4%BB%99",
@@ -13666,6 +13672,18 @@
     "id": "2319",
     "link": "https://tos.fandom.com/zh/wiki/%E8%B8%8F%E9%A2%A8%E7%A9%BF%E9%9B%B2_%E2%80%A7_%E7%99%BD%E9%BE%8D%E9%A6%AC",
     "linkId": "http://zh.tos.wikia.com/wiki/2319"
+  },
+  {
+    "title": "No. 2320 招財嬌貓 ‧ 蜜兒",
+    "id": "2320",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8B%9B%E8%B2%A1%E5%AC%8C%E8%B2%93_%E2%80%A7_%E8%9C%9C%E5%85%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2320"
+  },
+  {
+    "title": "No. 2321 上元燈節 ‧ 何仙姑",
+    "id": "2321",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B8%8A%E5%85%83%E7%87%88%E7%AF%80_%E2%80%A7_%E4%BD%95%E4%BB%99%E5%A7%91",
+    "linkId": "http://zh.tos.wikia.com/wiki/2321"
   },
   {
     "title": "No. 2322 空中飛人 ‧ 哈倫與哈維",
@@ -13686,6 +13704,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2324"
   },
   {
+    "title": "No. 2325 戲謔笑匠 ‧ 利特",
+    "id": "2325",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%B2%E8%AC%94%E7%AC%91%E5%8C%A0_%E2%80%A7_%E5%88%A9%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2325"
+  },
+  {
     "title": "No. 2327 七海瑰寶 ‧ 魟姬子",
     "id": "2327",
     "link": "https://tos.fandom.com/zh/wiki/%E4%B8%83%E6%B5%B7%E7%91%B0%E5%AF%B6_%E2%80%A7_%E9%AD%9F%E5%A7%AC%E5%AD%90",
@@ -13702,6 +13726,12 @@
     "id": "2329",
     "link": "https://tos.fandom.com/zh/wiki/%E6%99%82%E5%B9%95%E5%88%BB%E5%8A%83_%E2%80%A7_%E5%A4%8F%E9%A6%AC%E8%A5%BF",
     "linkId": "http://zh.tos.wikia.com/wiki/2329"
+  },
+  {
+    "title": "No. 2376 戀意快遞 ‧ 安琪拉",
+    "id": "2376",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%80%E6%84%8F%E5%BF%AB%E9%81%9E_%E2%80%A7_%E5%AE%89%E7%90%AA%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2376"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
