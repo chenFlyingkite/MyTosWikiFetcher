@@ -1,4 +1,4 @@
-2705 cards in myCard\links.txt
+2710 cards in myCard\links.txt
 https://tos.fandom.com/zh/wiki/%E8%8E%AB%E8%8E%89
 https://tos.fandom.com/zh/wiki/%E9%AB%98%E7%B4%9A%E6%B0%B4%E8%A1%93%E5%A3%AB%E8%8E%AB%E8%8E%89
 https://tos.fandom.com/zh/wiki/%E6%B0%B4%E9%AD%94%E6%B3%95%E5%B8%AB%E8%8E%AB%E8%8E%89
@@ -2276,6 +2276,7 @@ https://tos.fandom.com/zh/wiki/%E5%8E%B2%E7%81%AB%E6%B3%95%E5%85%B8_%E2%80%A7_%E
 https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%B6%BA%E9%BE%8D%E6%81%AF_%E2%80%A7_%E7%82%8E%E8%92%B2
 https://tos.fandom.com/zh/wiki/%E5%BF%83%E9%9D%88%E5%B4%A9%E8%A7%A3_%E2%80%A7_%E6%92%92%E9%81%94
 https://tos.fandom.com/zh/wiki/%E9%9B%B2%E5%8F%B0%E9%A1%AF%E8%B7%A1_%E2%80%A7_%E9%9D%88%E7%8D%B8%E4%B8%89%E4%BB%99
+https://tos.fandom.com/zh/wiki/%E4%B9%9D%E6%9B%B2%E7%8D%85%E5%98%AF_%E2%80%A7_%E4%B9%9D%E9%9D%88%E5%85%83%E8%81%96
 https://tos.fandom.com/zh/wiki/%E9%80%9A%E5%A4%A9%E9%82%AA%E7%9B%AE_%E2%80%A7_%E7%99%BE%E7%9C%BC%E9%AD%94%E5%90%9B
 https://tos.fandom.com/zh/wiki/%E8%B8%8F%E9%A2%A8%E7%A9%BF%E9%9B%B2_%E2%80%A7_%E7%99%BD%E9%BE%8D%E9%A6%AC
 https://tos.fandom.com/zh/wiki/%E6%8B%9B%E8%B2%A1%E5%AC%8C%E8%B2%93_%E2%80%A7_%E8%9C%9C%E5%85%92
@@ -2284,6 +2285,7 @@ https://tos.fandom.com/zh/wiki/%E7%A9%BA%E4%B8%AD%E9%A3%9B%E4%BA%BA_%E2%80%A7_%E
 https://tos.fandom.com/zh/wiki/%E5%A6%96%E8%88%9E%E7%84%B0%E8%8A%B1_%E2%80%A7_%E8%8A%99%E6%8B%89
 https://tos.fandom.com/zh/wiki/%E8%B1%A1%E5%9A%8E%E9%9E%AD%E7%AD%96_%E2%80%A7_%E7%95%B6%E5%A5%B4
 https://tos.fandom.com/zh/wiki/%E6%88%B2%E8%AC%94%E7%AC%91%E5%8C%A0_%E2%80%A7_%E5%88%A9%E7%89%B9
+https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%B7%A7%E8%BB%8C%E8%B7%A1_%E2%80%A7_%E6%84%9B%E7%90%B3
 https://tos.fandom.com/zh/wiki/%E4%B8%83%E6%B5%B7%E7%91%B0%E5%AF%B6_%E2%80%A7_%E9%AD%9F%E5%A7%AC%E5%AD%90
 https://tos.fandom.com/zh/wiki/%E6%B4%BB%E7%AE%A1%E7%95%B0%E7%89%A9
 https://tos.fandom.com/zh/wiki/%E6%99%82%E5%B9%95%E5%88%BB%E5%8A%83_%E2%80%A7_%E5%A4%8F%E9%A6%AC%E8%A5%BF
@@ -2599,8 +2601,11 @@ https://tos.fandom.com/zh/wiki/%E7%B4%85%E5%BD%B1%E9%9B%99%E8%BC%9D_%E2%80%A7_%E
 https://tos.fandom.com/zh/wiki/%E7%A5%BF%E9%80%A2%E5%90%89%E8%99%95_%E2%80%A7_%E7%A5%BF%E5%AD%98%E6%98%9F(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 https://tos.fandom.com/zh/wiki/%E5%88%9D%E5%BA%8F%E7%9A%84%E5%89%B5%E9%80%A0%E8%AB%96_%E2%80%A7_%E5%8D%A1%E4%BF%84%E6%96%AF(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 https://tos.fandom.com/zh/wiki/%E7%A0%B4%E9%99%A3%E7%84%A1%E9%9B%99_%E2%80%A7_%E9%A0%85%E7%BE%BD(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
+https://tos.fandom.com/zh/wiki/%E5%8D%BF%E9%9B%B2%E8%AD%B7%E5%BA%87_%E2%80%A7_%E8%92%BC%E7%92%A7(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 https://tos.fandom.com/zh/wiki/%E6%99%BA%E7%81%AB%E8%A7%A3%E6%9E%90_%E2%80%A7_%E6%81%A9%E8%8E%89%E5%85%92(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
+https://tos.fandom.com/zh/wiki/%E5%86%A5%E8%A1%80%E5%90%9E%E8%9D%95_%E2%80%A7_%E7%B6%AD%E6%B4%9B%E5%A6%AE%E5%8D%A1(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)
 https://tos.fandom.com/zh/wiki/%E6%96%B0%E6%98%A5%E7%91%9E%E7%8D%85_%E2%80%A7_%E8%B3%88%E6%AF%94%E7%88%BE
+https://tos.fandom.com/zh/wiki/%E7%BF%A0%E7%B6%A0%E6%B5%AA%E9%9C%9E_%E2%80%A7_%E8%B2%BB%E8%95%BE%E9%9B%85
 https://tos.fandom.com/zh/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2
 https://tos.fandom.com/zh/wiki/%E5%A4%A7%E9%99%B0%E9%99%BD%E5%B8%AB_%E2%80%A7_%E5%AE%89%E5%80%8D%E6%99%B4%E6%98%8E
 https://tos.fandom.com/zh/wiki/%E5%B7%AB%E5%B1%B1%E9%AC%BC%E5%A7%AC_%E2%80%A7_%E7%91%A4%E5%A7%AC

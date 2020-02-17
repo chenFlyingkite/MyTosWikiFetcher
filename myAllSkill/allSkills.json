@@ -423,6 +423,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "不思議之機",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%80%9D%E8%AD%B0%E4%B9%8B%E6%A9%9F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將隊長直行的符石 ⇒ 轉化為隊長屬性的機械族符石 II. 將戰友直行的符石 ⇒ 轉化為戰友屬性的機械族符石 III. 若發動技能時所有機械族成員的 行動值達至 100% ⇒ 1 回合內，隊員攻擊力 2 倍",
+    "skillMonsters": [
+      "2326"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "不撓之志 ‧ 龍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%92%93%E4%B9%8B%E5%BF%97_%E2%80%A7_%E9%BE%8D",
     "skillCDMin": 17,
@@ -615,6 +626,17 @@
     "skillDesc": "將 9 粒符石轉化為水強化符石 (火符石優先轉換)。1 回合內，首批消除所有水符石時，個人追打水屬性攻擊 9 次",
     "skillMonsters": [
       "1952"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "九口之幽",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B9%9D%E5%8F%A3%E4%B9%8B%E5%B9%BD",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將 9 個固定位置的符石 ⇒ 轉化為暗獸族強化符石 1 回合內 II. 暗符石兼具 50% 心符石效果",
+    "skillMonsters": [
+      "2317"
     ]
   },
   {
@@ -18134,6 +18156,17 @@
     "skillDesc": "I. 全隊攻擊力 4 倍 II. 每 1 種屬性成員發動攻擊時 ⇒ 個人追打自身攻擊力 2 倍的 火屬性攻擊 1 次 III. 首批消除 5 種屬性符石時 ⇒ 自身攻擊無視全體敵人的防禦力",
     "skillMonsters": [
       "1347"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "爆發之龍焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%88%86%E7%99%BC%E4%B9%8B%E9%BE%8D%E7%84%B0",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 引爆火及心符石 ⇒ 掉落火龍族符石 II. 根據「引爆符石數量」及 「龍類成員生命力等值」 ⇒ 對敵方全體造成火屬性傷害",
+    "skillMonsters": [
+      "2314"
     ]
   },
   {

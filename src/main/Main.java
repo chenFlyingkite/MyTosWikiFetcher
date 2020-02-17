@@ -66,6 +66,11 @@ public class Main {
         //TosCardFetcher.me.run();
     }
 
+    private static void ln(String fmt, Object... p) {
+        String s = p == null ? fmt : String.format(fmt, p);
+        System.out.println(s);
+    }
+
 
     private static void fetchCards() {
         boolean fullRun = 1 > 0;

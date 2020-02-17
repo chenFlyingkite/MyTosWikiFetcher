@@ -13662,6 +13662,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2316"
   },
   {
+    "title": "No. 2317 九曲獅嘯 ‧ 九靈元聖",
+    "id": "2317",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B9%9D%E6%9B%B2%E7%8D%85%E5%98%AF_%E2%80%A7_%E4%B9%9D%E9%9D%88%E5%85%83%E8%81%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2317"
+  },
+  {
     "title": "No. 2318 通天邪目 ‧ 百眼魔君",
     "id": "2318",
     "link": "https://tos.fandom.com/zh/wiki/%E9%80%9A%E5%A4%A9%E9%82%AA%E7%9B%AE_%E2%80%A7_%E7%99%BE%E7%9C%BC%E9%AD%94%E5%90%9B",
@@ -13708,6 +13714,12 @@
     "id": "2325",
     "link": "https://tos.fandom.com/zh/wiki/%E6%88%B2%E8%AC%94%E7%AC%91%E5%8C%A0_%E2%80%A7_%E5%88%A9%E7%89%B9",
     "linkId": "http://zh.tos.wikia.com/wiki/2325"
+  },
+  {
+    "title": "No. 2326 魔巧軌跡 ‧ 愛琳",
+    "id": "2326",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%B7%A7%E8%BB%8C%E8%B7%A1_%E2%80%A7_%E6%84%9B%E7%90%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2326"
   },
   {
     "title": "No. 2327 七海瑰寶 ‧ 魟姬子",
@@ -15600,16 +15612,34 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6339"
   },
   {
+    "title": "S340 卿雲護庇 ‧ 蒼璧(動態造型)",
+    "id": "6340",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8D%BF%E9%9B%B2%E8%AD%B7%E5%BA%87_%E2%80%A7_%E8%92%BC%E7%92%A7(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6340"
+  },
+  {
     "title": "S341 智火解析 ‧ 恩莉兒(動態造型)",
     "id": "6341",
     "link": "https://tos.fandom.com/zh/wiki/%E6%99%BA%E7%81%AB%E8%A7%A3%E6%9E%90_%E2%80%A7_%E6%81%A9%E8%8E%89%E5%85%92(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6341"
   },
   {
+    "title": "S342 冥血吞蝕 ‧ 維洛妮卡(動態造型)",
+    "id": "6342",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E8%A1%80%E5%90%9E%E8%9D%95_%E2%80%A7_%E7%B6%AD%E6%B4%9B%E5%A6%AE%E5%8D%A1(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6342"
+  },
+  {
     "title": "S343 新春瑞獅 ‧ 賈比爾",
     "id": "6343",
     "link": "https://tos.fandom.com/zh/wiki/%E6%96%B0%E6%98%A5%E7%91%9E%E7%8D%85_%E2%80%A7_%E8%B3%88%E6%AF%94%E7%88%BE",
     "linkId": "http://zh.tos.wikia.com/wiki/6343"
+  },
+  {
+    "title": "S344 翠綠浪霞 ‧ 費蕾雅",
+    "id": "6344",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BF%A0%E7%B6%A0%E6%B5%AA%E9%9C%9E_%E2%80%A7_%E8%B2%BB%E8%95%BE%E9%9B%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/6344"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
