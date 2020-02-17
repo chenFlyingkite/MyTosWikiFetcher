@@ -114,7 +114,7 @@ public class ASD {
         L.log("--**--\n\n--**--");
         // Regex
         //findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
-        //findCardSkill("無視(.{0,30})「燃燒」", true, allCards);
+        findCardSkill("引爆(.{0,30}) ⇒ 掉落", true, allCards);
         //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
