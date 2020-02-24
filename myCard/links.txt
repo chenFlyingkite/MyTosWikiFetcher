@@ -13440,6 +13440,36 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2262"
   },
   {
+    "title": "No. 2263 磊落懲治 ‧ 陸遜",
+    "id": "2263",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A3%8A%E8%90%BD%E6%87%B2%E6%B2%BB_%E2%80%A7_%E9%99%B8%E9%81%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2263"
+  },
+  {
+    "title": "No. 2264 忠勇烈弓 ‧ 黃忠",
+    "id": "2264",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BF%A0%E5%8B%87%E7%83%88%E5%BC%93_%E2%80%A7_%E9%BB%83%E5%BF%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2264"
+  },
+  {
+    "title": "No. 2265 炮殞華甲 ‧ 袁紹",
+    "id": "2265",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%82%AE%E6%AE%9E%E8%8F%AF%E7%94%B2_%E2%80%A7_%E8%A2%81%E7%B4%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2265"
+  },
+  {
+    "title": "No. 2266 驍猛狂者 ‧ 呂布",
+    "id": "2266",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A9%8D%E7%8C%9B%E7%8B%82%E8%80%85_%E2%80%A7_%E5%91%82%E5%B8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2266"
+  },
+  {
+    "title": "No. 2267 月華穹 ‧ 貂蟬",
+    "id": "2267",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E8%8F%AF%E7%A9%B9_%E2%80%A7_%E8%B2%82%E8%9F%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2267"
+  },
+  {
     "title": "No. 2278 鋼甲熊",
     "id": "2278",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E7%94%B2%E7%86%8A",
@@ -16140,13 +16170,13 @@
     "linkId": "http://zh.tos.wikia.com/wiki/8066"
   },
   {
-    "title": "No. 8067 瘋頭源石",
+    "title": "N22 瘋頭源石",
     "id": "8067",
     "link": "https://tos.fandom.com/zh/wiki/%E7%98%8B%E9%A0%AD%E6%BA%90%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8067"
   },
   {
-    "title": "No. 8068 金瘋頭源石",
+    "title": "N23 金瘋頭源石",
     "id": "8068",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%91%E7%98%8B%E9%A0%AD%E6%BA%90%E7%9F%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/8068"
@@ -16258,5 +16288,11 @@
     "id": "9018",
     "link": "https://tos.fandom.com/zh/wiki/%E8%8B%B1%E9%9B%84%E4%BD%BF%E5%91%BD_%E2%80%A7_%E5%9F%83%E7%88%BE",
     "linkId": "http://zh.tos.wikia.com/wiki/9018"
+  },
+  {
+    "title": "No. 9019 源光裁斷 ‧ 澤煌",
+    "id": "9019",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BA%90%E5%85%89%E8%A3%81%E6%96%B7_%E2%80%A7_%E6%BE%A4%E7%85%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/9019"
   }
 ]

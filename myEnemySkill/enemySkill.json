@@ -5815,7 +5815,7 @@
     "id": "429",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/429",
     "name": "敵外引爆狂擊",
-    "detail": "敵人每回合消除自身屬性以外的符石，所消除的符石數量愈多，敵人的攻擊力愈高",
+    "detail": "每回合將自身屬性以外的符石隨機轉化，所轉化的符石數量愈多，敵人的攻擊力愈高",
     "esCode": "{{ES429}}",
     "icons": [
       {
@@ -5828,7 +5828,7 @@
     "id": "430",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/430",
     "name": "水外引爆狂擊",
-    "detail": "敵人每回合消除水以外的符石，所消除的符石數量愈多，敵人的攻擊力愈高",
+    "detail": "每回合將水以外的符石隨機轉化，所轉化的符石數量愈多，敵人的攻擊力愈高",
     "esCode": "{{ES430}}",
     "icons": [
       {
@@ -5845,7 +5845,7 @@
     "id": "431",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/431",
     "name": "火外引爆狂擊",
-    "detail": "敵人每回合消除火以外的符石，所消除的符石數量愈多，敵人的攻擊力愈高",
+    "detail": "每回合將火以外的符石隨機轉化，所轉化的符石數量愈多，敵人的攻擊力愈高",
     "esCode": "{{ES431}}",
     "icons": [
       {
@@ -5862,7 +5862,7 @@
     "id": "432",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/432",
     "name": "木外引爆狂擊",
-    "detail": "敵人每回合消除木以外的符石，所消除的符石數量愈多，敵人的攻擊力愈高",
+    "detail": "每回合將木以外的符石隨機轉化，所轉化的符石數量愈多，敵人的攻擊力愈高",
     "esCode": "{{ES432}}",
     "icons": [
       {
@@ -5879,7 +5879,7 @@
     "id": "433",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/433",
     "name": "光外引爆狂擊",
-    "detail": "敵人每回合消除光以外的符石，所消除的符石數量愈多，敵人的攻擊力愈高",
+    "detail": "每回合將光以外的符石隨機轉化，所轉化的符石數量愈多，敵人的攻擊力愈高",
     "esCode": "{{ES433}}",
     "icons": [
       {
@@ -5896,7 +5896,7 @@
     "id": "434",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/434",
     "name": "暗外引爆狂擊",
-    "detail": "敵人每回合消除暗以外的符石，所消除的符石數量愈多，敵人的攻擊力愈高",
+    "detail": "每回合將暗以外的符石隨機轉化，所轉化的符石數量愈多，敵人的攻擊力愈高",
     "esCode": "{{ES434}}",
     "icons": [
       {
@@ -5913,7 +5913,7 @@
     "id": "435",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/435",
     "name": "心外引爆狂擊",
-    "detail": "敵人每回合消除心以外的符石，所消除的符石數量愈多，敵人的攻擊力愈高",
+    "detail": "每回合將心以外的符石隨機轉化，所轉化的符石數量愈多，敵人的攻擊力愈高",
     "esCode": "{{ES435}}",
     "icons": [
       {
@@ -55629,12 +55629,8 @@
     "esCode": "{{ES3176}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e8/SI011.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI011.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/41/SI143.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084321\u0026path-prefix\u003dzh",
+        "iconKey": "SI143.png"
       }
     ]
   },
@@ -55646,12 +55642,8 @@
     "esCode": "{{ES3177}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/79/SI012.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101353\u0026path-prefix\u003dzh",
-        "iconKey": "SI012.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b2/SI144.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084322\u0026path-prefix\u003dzh",
+        "iconKey": "SI144.png"
       }
     ]
   },
@@ -55663,12 +55655,8 @@
     "esCode": "{{ES3178}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI013.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e2/SI145.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084323\u0026path-prefix\u003dzh",
+        "iconKey": "SI145.png"
       }
     ]
   },
@@ -55680,12 +55668,8 @@
     "esCode": "{{ES3179}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI014.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/42/SI146.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084324\u0026path-prefix\u003dzh",
+        "iconKey": "SI146.png"
       }
     ]
   },
@@ -55697,12 +55681,8 @@
     "esCode": "{{ES3180}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI015.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI015.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/13/SI147.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084325\u0026path-prefix\u003dzh",
+        "iconKey": "SI147.png"
       }
     ]
   },
@@ -55714,12 +55694,8 @@
     "esCode": "{{ES3181}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4a/SI045.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI045.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/1/1c/SI148.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084325\u0026path-prefix\u003dzh",
+        "iconKey": "SI148.png"
       }
     ]
   },
@@ -62567,7 +62543,7 @@
   {
     "id": "3481",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3481",
-    "name": "首消隨機3~6Combo弱盾 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊弱盾 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3481}}",
     "icons": [
@@ -62588,7 +62564,7 @@
   {
     "id": "3482",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3482",
-    "name": "首消隨機3~6Combo盾 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊盾 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3482}}",
     "icons": [
@@ -62609,7 +62585,7 @@
   {
     "id": "3483",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3483",
-    "name": "首消隨機3~6Combo弱盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊弱盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3483}}",
     "icons": [
@@ -62630,7 +62606,7 @@
   {
     "id": "3484",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3484",
-    "name": "首消隨機3~6Combo盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3484}}",
     "icons": [
@@ -62651,7 +62627,7 @@
   {
     "id": "3485",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3485",
-    "name": "首消隨機3~6Combo弱盾 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊弱盾 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3485}}",
     "icons": [
@@ -62672,7 +62648,7 @@
   {
     "id": "3486",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3486",
-    "name": "首消隨機3~6Combo盾 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊盾 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3486}}",
     "icons": [
@@ -62693,7 +62669,7 @@
   {
     "id": "3487",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3487",
-    "name": "首消隨機3~6Combo弱盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊弱盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3487}}",
     "icons": [
@@ -62714,7 +62690,7 @@
   {
     "id": "3488",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3488",
-    "name": "首消隨機3~6Combo盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機3~6Combo追擊盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為 \u003cfont color\u003dyellow\u003e3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3488}}",
     "icons": [
@@ -62735,7 +62711,7 @@
   {
     "id": "3489",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3489",
-    "name": "首消隨機3~6Combo弱盾",
+    "name": "首消隨機4~7Combo追擊弱盾",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3489}}",
     "icons": [
@@ -62748,7 +62724,7 @@
   {
     "id": "3490",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3490",
-    "name": "首消隨機3~6Combo盾",
+    "name": "首消隨機4~7Combo追擊盾",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3490}}",
     "icons": [
@@ -62761,7 +62737,7 @@
   {
     "id": "3491",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3491",
-    "name": "首消隨機3~6Combo弱盾-轉",
+    "name": "首消隨機4~7Combo追擊弱盾-轉",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3491}}",
     "icons": [
@@ -62774,7 +62750,7 @@
   {
     "id": "3492",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3492",
-    "name": "首消隨機3~6Combo盾-轉",
+    "name": "首消隨機4~7Combo追擊盾-轉",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3492}}",
     "icons": [
@@ -62787,7 +62763,7 @@
   {
     "id": "3493",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3493",
-    "name": "首消隨機4~8Combo弱盾 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊弱盾 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3493}}",
     "icons": [
@@ -62808,7 +62784,7 @@
   {
     "id": "3494",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3494",
-    "name": "首消隨機4~8Combo盾 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊盾 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為 \u003cfont color\u003dyellow\u003e4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3494}}",
     "icons": [
@@ -62829,7 +62805,7 @@
   {
     "id": "3495",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3495",
-    "name": "首消隨機4~8Combo弱盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊弱盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3495}}",
     "icons": [
@@ -62850,7 +62826,7 @@
   {
     "id": "3496",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3496",
-    "name": "首消隨機4~8Combo盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊盾-轉 ‧ 硬4秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為 \u003cfont color\u003dyellow\u003e4 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3496}}",
     "icons": [
@@ -62871,7 +62847,7 @@
   {
     "id": "3497",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3497",
-    "name": "首消隨機4~8Combo弱盾 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊弱盾 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3497}}",
     "icons": [
@@ -62892,7 +62868,7 @@
   {
     "id": "3498",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3498",
-    "name": "首消隨機4~8Combo盾 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊盾 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為 \u003cfont color\u003dyellow\u003e3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3498}}",
     "icons": [
@@ -62913,7 +62889,7 @@
   {
     "id": "3499",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3499",
-    "name": "首消隨機4~8Combo弱盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊弱盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定或 ±2 連擊 (Combo)\u003c/font\u003e，才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3499}}",
     "icons": [
@@ -62934,7 +62910,7 @@
   {
     "id": "3500",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3500",
-    "name": "首消隨機4~8Combo盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
+    "name": "首消隨機4~7Combo追擊盾-轉 ‧ 硬3秒轉珠 ‧ 無法控制",
     "detail": "【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e移動符石時間變為\u003cfont color\u003dyellow\u003e 3 秒\u003c/font\u003e\u003cbr\u003e(\u003cfont color\u003dyellow\u003e「界限突破及排珠類」以外\u003c/font\u003e的時間技能\u003cfont color\u003dyellow\u003e失效\u003c/font\u003e)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3500}}",
     "icons": [
@@ -65257,7 +65233,7 @@
   {
     "id": "3615",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3615",
-    "name": "突擊-隨機側行暴風 ‧ 8+Combo追擊盾 ‧ 無法控制",
+    "name": "突擊2147-隨機側行暴風 ‧ 8+Combo追擊盾 ‧ 無法控制",
     "detail": "首回合優先突擊 1 次，\u003cbr\u003e受此攻擊後，暴風席捲\u003cbr\u003e最左方或最右方直行的位置，\u003cbr\u003e暴風位置內的符石\u003cbr\u003e無法被消除或引爆，\u003cbr\u003e該位置一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e8 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3615}}",
     "icons": [
@@ -65831,7 +65807,7 @@
     "id": "3640",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3640",
     "name": "CD1 ‧ 停頓符石-轉 ‧ 轉珠技無效 ‧ 無法控制",
-    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e每回合移動符石時，\u003cbr\u003e隨機鎖定 2 粒符石；\u003cbr\u003e被鎖定的符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e該回合無法對敵人\u003cbr\u003e造成攻擊傷害及回復力變 0。\u003cbr\u003e\u003cbr\u003e所有轉化符石的技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e每回合移動符石時，\u003cbr\u003e隨機鎖定 2 粒符石；\u003cbr\u003e被鎖定的符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e該回合無法對敵人\u003cbr\u003e造成攻擊傷害及回復力變 0。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3640}}",
     "icons": [
       {
@@ -66660,7 +66636,7 @@
     "id": "3673",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3673",
     "name": "CD1 ‧ 三屬盾-限 ‧ 越戰越強-金 ‧ 點燃盾90%",
-    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e需同時符合以下兩個條件，\u003cbr\u003e才會對敵人造成攻擊傷害：\u003cbr\u003e⓵ 同時消除水、火及木符石\u003cbr\u003e⓶ 不能首批消除光或暗符石\u003cbr\u003e\u003cbr\u003e敵人生命力愈低時，\u003cbr\u003e攻擊力會大幅提升，\u003cbr\u003e達到一定血量時並會連撃 2 次\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在點燃狀態，\u003cbr\u003e才會對其造成完整攻擊傷害。",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e需同時符合以下兩個條件，\u003cbr\u003e才會對敵人造成攻擊傷害：\u003cbr\u003e⓵ 同時消除水、火及木符石\u003cbr\u003e⓶ 不能首批消除光或暗符石\u003cbr\u003e\u003cbr\u003e敵人生命力愈低時，\u003cbr\u003e攻擊力會大幅提升，\u003cbr\u003e達到一定血量時會連撃 2 次\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在點燃狀態，\u003cbr\u003e才會對其造成完整攻擊傷害。",
     "esCode": "{{ES3673}}",
     "icons": [
       {
@@ -66685,7 +66661,7 @@
     "id": "3674",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3674",
     "name": "CD1 ‧ 強化三屬盾-限 ‧ 越戰越強-金 ‧ 點燃盾90%",
-    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e需同時符合以下兩個條件，\u003cbr\u003e才會對敵人造成攻擊傷害：\u003cbr\u003e⓵ 同時消除水強化、\u003cbr\u003e火強化及木強化符石\u003cbr\u003e⓶ 不能首批消除光或暗符石\u003cbr\u003e\u003cbr\u003e敵人生命力愈低時，\u003cbr\u003e攻擊力會大幅提升，\u003cbr\u003e達到一定血量時並會連撃 2 次\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在點燃狀態，\u003cbr\u003e才會對其造成完整攻擊傷害。",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e需同時符合以下兩個條件，\u003cbr\u003e才會對敵人造成攻擊傷害：\u003cbr\u003e⓵ 同時消除水強化、\u003cbr\u003e火強化及木強化符石\u003cbr\u003e⓶ 不能首批消除光或暗符石\u003cbr\u003e\u003cbr\u003e敵人生命力愈低時，\u003cbr\u003e攻擊力會大幅提升，\u003cbr\u003e達到一定血量時會連撃 2 次\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在點燃狀態，\u003cbr\u003e才會對其造成完整攻擊傷害。",
     "esCode": "{{ES3674}}",
     "icons": [
       {
@@ -67146,7 +67122,7 @@
     "id": "3695",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3695",
     "name": "轉珠技無效 ‧ 首消光追擊零化",
-    "detail": "所有轉化符石的技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
+    "detail": "所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3695}}",
     "icons": [
       {
@@ -67163,7 +67139,7 @@
     "id": "3696",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3696",
     "name": "轉珠技無效 ‧ 火暗盾 ‧ 首消光追擊零化",
-    "detail": "同時消除火及暗符石\u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e所有轉化符石的技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
+    "detail": "同時消除火及暗符石\u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3696}}",
     "icons": [
       {
@@ -67192,7 +67168,7 @@
     "id": "3697",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3697",
     "name": "轉珠技無效 ‧ 水火暗盾 ‧ 首消光追擊零化",
-    "detail": "同時消除水、火、暗符石\u003cbr\u003e才能對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e所有轉化符石的技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
+    "detail": "同時消除水、火、暗符石\u003cbr\u003e才能對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3697}}",
     "icons": [
       {
@@ -67225,7 +67201,7 @@
     "id": "3698",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3698",
     "name": "轉珠技無效 ‧ 水火木暗盾 ‧ 首消光追擊零化",
-    "detail": "同時消除水、火、木、暗符石才能對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e所有轉化符石的技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
+    "detail": "同時消除水、火、木、暗符石才能對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 會令全隊攻擊無效，消除的光屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES3698}}",
     "icons": [
       {
@@ -67384,7 +67360,7 @@
     "id": "3705",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3705",
     "name": "四重黏附 ‧ 6+Combo追擊盾 ‧ 轉珠技無效",
-    "detail": "隨機黏附 4 個位置，\u003cbr\u003e該位置的符石一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e6 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e所有轉化符石的技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。",
+    "detail": "隨機黏附 4 個位置，\u003cbr\u003e該位置的符石一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e6 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。",
     "esCode": "{{ES3705}}",
     "icons": [
       {
@@ -67430,7 +67406,7 @@
     "id": "3707",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3707",
     "name": "八重黏附 ‧ 10+Combo追擊盾 ‧ 轉珠技無效",
-    "detail": "隨機黏附 8 個位置，\u003cbr\u003e該位置的符石一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e10 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e所有轉化符石的技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。",
+    "detail": "隨機黏附 8 個位置，\u003cbr\u003e該位置的符石一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e10 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。",
     "esCode": "{{ES3707}}",
     "icons": [
       {

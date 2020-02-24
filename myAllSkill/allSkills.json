@@ -968,6 +968,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "人族戰略 ‧ 光華",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E7%95%A5_%E2%80%A7_%E5%85%89%E8%8F%AF",
+    "skillCDMin": 16,
+    "skillCDMax": 6,
+    "skillDesc": "I. 全隊回復力減少 25% II. 光屬性攻擊力 1.5 倍 III. 隊伍中只有人類成員時 ⇒ 光屬性攻擊力額外 1.6 倍 效果會在關閉此技能或死亡後消失 此技能可隨時關閉，關閉時： ⇒ 光屬性成員技能 CD 減少 1",
+    "skillMonsters": [
+      "2265"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "人族紋章",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E7%B4%8B%E7%AB%A0",
     "skillCDMin": 16,
@@ -1259,7 +1270,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BB%99%E5%8A%8D%E5%90%8C%E6%BA%90_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有水、火及木屬性的成員時，水符石兼具火及木符石效果、火符石兼具水及木符石效果，同時木符石兼具水及火符石效果 (不能疊加)；消除心符石時攻擊力有 50% 機會額外提升 1.5 倍 (機率可以疊加)。同時消除水、火及木符石時，全隊攻擊力額外提升 1.5 倍",
+    "skillDesc": "隊伍中只有水、火及木屬性的成員時： I. 水符石兼具火及木符石效果 II. 火符石兼具水及木符石效果 III. 木符石兼具水及火符石效果 (不能疊加) IV. 消除心符石時 ⇒ 攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加) V. 同時消除水、火及木符石時 ⇒ 全隊攻擊力額外 1.5 倍",
     "skillMonsters": [
       "0892",
       "0894"
@@ -2736,6 +2747,18 @@
       "0752",
       "0753",
       "0774"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "光明之戰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E6%98%8E%E4%B9%8B%E6%88%B0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 光屬性攻擊力 3 倍 II. 消除 ≥3 種符石時 ⇒ 全隊攻擊力額外 2 倍 III. 暗及心符石兼具 50% 光符石效果",
+    "skillMonsters": [
+      "2264",
+      "2265"
     ]
   },
   {
@@ -4840,6 +4863,17 @@
     "skillDesc": "I. 木屬性攻擊力 3 倍 II. 人類回復力 2 倍 III. 受到攻擊時 ⇒ 場上每粒木符石可減少 5% 所受傷害 ⇒ 最多可減少 30% 傷害 (減傷效果不可疊加)",
     "skillMonsters": [
       "1676"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "原野之守 ‧ 戰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8E%9F%E9%87%8E%E4%B9%8B%E5%AE%88_%E2%80%A7_%E6%88%B0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 木屬性攻擊力 3 倍 II. 人類回復力 3 倍 III. 消除 ≥3 種符石時 ⇒ 全隊攻擊力額外 2 倍 IV. 受到敵人攻擊時， 場上每有 1 粒木符石 ⇒ 減少 5% 所受傷害 ⇒ 6 粒可減少最多 30% 傷害",
+    "skillMonsters": [
+      "2263"
     ]
   },
   {
@@ -8940,6 +8974,17 @@
       "1291",
       "EvoPlus",
       "1296"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "懾魂魅靈 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%87%BE%E9%AD%82%E9%AD%85%E9%9D%88_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "將場上的符石轉化為 固定數量的「暗及心」強化符石",
+    "skillMonsters": [
+      "2267"
     ]
   },
   {
@@ -19153,6 +19198,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "玄靈滅絕 ‧ 暗流之擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E9%9D%88%E6%BB%85%E7%B5%95_%E2%80%A7_%E6%9A%97%E6%B5%81%E4%B9%8B%E6%93%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將光及心符石 ⇒ 轉化為暗人族強化符石 1 回合內 II. 首批消除 1 組暗符石的 數量愈多 ⇒ 連擊 (Combo) 數目增加愈多 ⇒ 消除 1 組 10 粒暗符石 可增加最多 10 連擊 (Combo)",
+    "skillMonsters": [
+      "2266"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "王之劍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%8B%E4%B9%8B%E5%8A%8D",
     "skillCDMin": 18,
@@ -21952,6 +22008,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "穿心箭 ‧ 玄光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%BF%E5%BF%83%E7%AE%AD_%E2%80%A7_%E7%8E%84%E5%85%89",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "光屬性人類成員攻擊力減至 0 ⇒ 被減去攻擊力的 1.5 倍加入自身攻擊力 (效果會在再次發動此技能或死亡後消失) 此技能可隨時關閉，關閉時， ⓵ 隨機將 6 粒符石 (光以外符石優先轉換) ⇒ 轉化為光人族強化符石 ⓶ 當前技能 CD 減少 2",
+    "skillMonsters": [
+      "2264"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "穿梭之時",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%BF%E6%A2%AD%E4%B9%8B%E6%99%82",
     "skillCDMin": 19,
@@ -24337,6 +24404,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "自然之護 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%87%AA%E7%84%B6%E4%B9%8B%E8%AD%B7_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "每首批消除 1 粒木符石 ⇒ 減少 6.25% 所受傷害 ⇒ 消除 16 粒可減少最多 100% 所受傷害 效果持續至沒有首批消除木符石 (效果持續期間技能不會冷卻)",
+    "skillMonsters": [
+      "2263"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "自然大號令",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%87%AA%E7%84%B6%E5%A4%A7%E8%99%9F%E4%BB%A4",
     "skillCDMin": 19,
@@ -25643,6 +25721,17 @@
     "skillMonsters": [
       "1290",
       "1291"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "虓虎之勇 ‧ 殺伐",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%99%93%E8%99%8E%E4%B9%8B%E5%8B%87_%E2%80%A7_%E6%AE%BA%E4%BC%90",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性攻擊力 5 倍 II. 暗屬性人類生命力及回復力 1.4 倍 III. 單體攻擊轉化為全體攻擊 IV. 必然延長移動符石時間 1 秒 V. 每消除 1 組 ≥5 粒符石時 ⇒ 暗屬性攻擊力提升 ⇒ 消除 3 組可達至最大 2.8 倍",
+    "skillMonsters": [
+      "2266"
     ]
   },
   {
@@ -28741,6 +28830,17 @@
     "skillDesc": "I. 將心符石轉化為火強化符石 II. 將暗符石轉化為光強化符石 III. 1 回合內，連擊 (Combo) 數目增加 7",
     "skillMonsters": [
       "2113"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "閉月之魅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%89%E6%9C%88%E4%B9%8B%E9%AD%85",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 心符石兼具 400% 所有屬性符石效果 II. 每回合將 3 粒「首批沒有消除」的 1 種屬性符石 (剩餘數量最少優先) ⇒ 轉化為心符石 (需消除符石)",
+    "skillMonsters": [
+      "2267"
     ]
   },
   {
@@ -32343,6 +32443,17 @@
     "skillDesc": "敵方全體點燃，使受影響目標轉為火屬性及受到自身攻擊力 60 倍的火屬性傷害，並持續到死亡；效果持續期間，觸碰被燃燒的位置所受的傷害減至 0 (不包括煉獄之火所造成的傷害)",
     "skillMonsters": [
       "1342"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "點石加冕 ‧ 光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BB%9E%E7%9F%B3%E5%8A%A0%E5%86%95_%E2%80%A7_%E5%85%89",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "點選元素法陣上的 1 粒符石，並將該種符石轉化為光強化符石",
+    "skillMonsters": [
+      "9019"
     ]
   },
   {
