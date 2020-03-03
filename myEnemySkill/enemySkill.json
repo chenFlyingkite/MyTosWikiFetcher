@@ -48975,7 +48975,7 @@
   {
     "id": "2887",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2887",
-    "name": "首攻CD2 ‧ 附加消除重置 ‧ 左右暴風 ‧ 扣血100%",
+    "name": "CD2 ‧ 附加消除重置 ‧ 左右暴風 ‧ 扣血100%",
     "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e暴風席捲最左方及最右方直行的位置，暴風位置內的符石無法被消除或引爆，該位置一經觸碰，即時停止移動符石。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES2887}}",
     "icons": [
@@ -49033,7 +49033,7 @@
   {
     "id": "2889",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2889",
-    "name": "首攻CD3 ‧ 附加消除重置 ‧ 隨機側行暴風席捲 ‧ 扣血100%",
+    "name": "CD3 ‧ 附加消除重置 ‧ 隨機側行暴風席捲 ‧ 扣血100%",
     "detail": "敵人首次攻擊變為 CD 3。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e暴風席捲最左方或最右方直行的位置，暴風位置內的符石無法被消除或引爆，該位置一經觸碰，即時停止移動符石。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES2889}}",
     "icons": [
@@ -55221,7 +55221,7 @@
   {
     "id": "3157",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3157",
-    "name": "突擊-3直行轉光 ‧ 光禁消 ‧ 光引爆增攻0.5-16倍 ‧ 無法控制",
+    "name": "突擊65%-3直行轉光 ‧ 光禁消 ‧ 光引爆增攻0.5-16倍 ‧ 無法控制",
     "detail": "首回合優先突擊 1 次，並將 3 直行的符石轉化為光符石。\u003cbr\u003e光符石無法被消除。\u003cbr\u003e每回合結束時，引爆所有光符石：每引爆 1 粒光符石，敵人下一次的攻擊力提升 0.5 倍 (最大 16 倍)。\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3157}}",
     "icons": [
@@ -55288,8 +55288,8 @@
         "iconKey": "SI225.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI014.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI116.png/revision/latest/scale-to-width-down/22?cb\u003d20171216142346\u0026path-prefix\u003dzh",
+        "iconKey": "SI116.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",

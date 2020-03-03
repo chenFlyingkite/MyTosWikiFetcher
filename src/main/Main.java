@@ -56,6 +56,7 @@ public class Main {
 
         //TosCardInfos.me.run(); // creating evolution info
         L.log("now = %s", now());
+        //new LeetCode().run();
     }
 
     private static void fetch() {
@@ -67,8 +68,7 @@ public class Main {
     }
 
     private static void ln(String fmt, Object... p) {
-        String s = p == null ? fmt : String.format(fmt, p);
-        System.out.println(s);
+        System.out.println((p == null) ? fmt : String.format(fmt, p));
     }
 
 

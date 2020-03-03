@@ -17102,6 +17102,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "烈焰功績",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%83%88%E7%84%B0%E5%8A%9F%E7%B8%BE",
+    "skillCDMin": 21,
+    "skillCDMax": 10,
+    "skillDesc": "I. 自身不能發動攻擊 II. 火屬性隊長及火屬性戰友 ⇒ 隨機追打 4 至 8 次 效果會在進入下一層數 (Wave) 時消失",
+    "skillMonsters": [
+      "2029"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "烈焰暴擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%83%88%E7%84%B0%E6%9A%B4%E6%93%8A",
     "skillCDMin": 24,
@@ -19892,6 +19903,17 @@
     "skillDesc": "將所有符石轉化為隊伍成員屬性的強化符石",
     "skillMonsters": [
       "1522"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "百變圍城 ‧ 龍族加冕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%AE%8A%E5%9C%8D%E5%9F%8E_%E2%80%A7_%E9%BE%8D%E6%97%8F%E5%8A%A0%E5%86%95",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "將所有符石轉化為 ⇒ 龍類成員屬性的龍族強化符石",
+    "skillMonsters": [
+      "2248"
     ]
   },
   {
@@ -32208,6 +32230,17 @@
     "skillDesc": "I. 龍類攻擊力 3 倍 II. 當前生命力大於 70% 時 ⇒ 下一次所受傷害不會使你死亡 (同 1 回合只會發動 1 次)",
     "skillMonsters": [
       "2245"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "鱗光萬丈 ‧ 木",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%9C%A8",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 龍類攻擊力 6 倍 II. 每個龍類成員增加 350 點回復力 III. 心符石兼具 50% 木符石效果 IV. 連擊 (Combo) 時攻擊力提升 150%",
+    "skillMonsters": [
+      "2248"
     ]
   },
   {

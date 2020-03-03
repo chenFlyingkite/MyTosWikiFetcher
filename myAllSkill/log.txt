@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2745 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2748 items, basePath = https://tos.fandom.com, offset = null)
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
@@ -1429,6 +1429,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 烈炎崩擊 -> https://tos.fandom.com/zh/wiki/%E7%83%88%E7%82%8E%E5%B4%A9%E6%93%8A
 烈炎強擊 -> https://tos.fandom.com/zh/wiki/%E7%83%88%E7%82%8E%E5%BC%B7%E6%93%8A
 烈焰之志 -> https://tos.fandom.com/zh/wiki/%E7%83%88%E7%84%B0%E4%B9%8B%E5%BF%97
+烈焰功績 -> https://tos.fandom.com/zh/wiki/%E7%83%88%E7%84%B0%E5%8A%9F%E7%B8%BE
 烈焰暴擊 -> https://tos.fandom.com/zh/wiki/%E7%83%88%E7%84%B0%E6%9A%B4%E6%93%8A
 烈焰狂擊 -> https://tos.fandom.com/zh/wiki/%E7%83%88%E7%84%B0%E7%8B%82%E6%93%8A
 烈焰猛擊 -> https://tos.fandom.com/zh/wiki/%E7%83%88%E7%84%B0%E7%8C%9B%E6%93%8A
@@ -1670,6 +1671,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 百萬戰鬥儀 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E6%88%B0%E9%AC%A5%E5%84%80
 百萬戰鬥儀_‧_強 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E6%88%B0%E9%AC%A5%E5%84%80_%E2%80%A7_%E5%BC%B7
 百變圍城_‧_加冕 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%AE%8A%E5%9C%8D%E5%9F%8E_%E2%80%A7_%E5%8A%A0%E5%86%95
+百變圍城_‧_龍族加冕 -> https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%AE%8A%E5%9C%8D%E5%9F%8E_%E2%80%A7_%E9%BE%8D%E6%97%8F%E5%8A%A0%E5%86%95
 皇家惡魔玫瑰 -> https://tos.fandom.com/zh/wiki/%E7%9A%87%E5%AE%B6%E6%83%A1%E9%AD%94%E7%8E%AB%E7%91%B0
 盈光術 -> https://tos.fandom.com/zh/wiki/%E7%9B%88%E5%85%89%E8%A1%93
 盛勢一瞬 -> https://tos.fandom.com/zh/wiki/%E7%9B%9B%E5%8B%A2%E4%B8%80%E7%9E%AC
@@ -2698,6 +2700,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 鮮血約誓 -> https://tos.fandom.com/zh/wiki/%E9%AE%AE%E8%A1%80%E7%B4%84%E8%AA%93
 鮮血約誓_‧_成魔 -> https://tos.fandom.com/zh/wiki/%E9%AE%AE%E8%A1%80%E7%B4%84%E8%AA%93_%E2%80%A7_%E6%88%90%E9%AD%94
 鱗光初露 -> https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E5%88%9D%E9%9C%B2
+鱗光萬丈_‧_木 -> https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%9C%A8
 鳳凰天舞腳 -> https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%A4%A9%E8%88%9E%E8%85%B3
 鳳凰幻魔拳 -> https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%B9%BB%E9%AD%94%E6%8B%B3
 鳳凰幻魔拳_‧_強 -> https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%B9%BB%E9%AD%94%E6%8B%B3_%E2%80%A7_%E5%BC%B7
@@ -2746,4 +2749,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2769 skills
+2772 skills
