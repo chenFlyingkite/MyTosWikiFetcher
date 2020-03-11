@@ -137,7 +137,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         clock.tac("Card parsed");
 
         mLf.log("%s metadata = %s", cardDataN.size(), cardDataN);
-        mLf.log("%s series = %s", cardSeries.size(), cardSeries);
+        mLf.log("%s series\n = %s", cardSeries.size(), cardSeries);
         mLf.getFile().close();
         if (!fixing) {
             saveCardsToGson(mCardJson, allCards);
