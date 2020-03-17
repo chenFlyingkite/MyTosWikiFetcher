@@ -52282,17 +52282,13 @@
   {
     "id": "3038",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3038",
-    "name": "突擊65%-隨機縱橫轉木風化9000 ‧ 木縱橫輪轉 ‧ 首消木傷害吸收-連續反擊50%",
+    "name": "突擊65%-縱橫轉木風化15000 ‧ 攻後木縱橫輪轉 ‧ 首消木傷害吸收-連續反擊50%",
     "detail": "首回合優先突擊 1 次，並隨機將 1 橫行及 1 直行的符石風化及轉化為木符石。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害。\u003cbr\u003e其後首次受到敵人攻擊時，隨機將 1 直行的符石轉化為木符石；第 2 次受到敵人攻擊時，隨機將 1 橫行的符石轉化為木符石。以上攻擊循環周而復始。\u003cbr\u003e首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES3038}}",
     "icons": [
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f5/SI160.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
         "iconKey": "SI160.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b1/SI303.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
@@ -52303,12 +52299,12 @@
         "iconKey": "SI221.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/96/SI013.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
-        "iconKey": "SI013.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/27/SI260.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103124\u0026path-prefix\u003dzh",
-        "iconKey": "SI260.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/e/e2/SI145.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084323\u0026path-prefix\u003dzh",
+        "iconKey": "SI145.png"
       }
     ]
   },
@@ -55703,7 +55699,7 @@
     "id": "3182",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3182",
     "name": "首消3Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 3 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 3 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3182}}",
     "icons": [
       {
@@ -55720,7 +55716,7 @@
     "id": "3183",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3183",
     "name": "首消4Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 4 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 4 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3183}}",
     "icons": [
       {
@@ -55737,7 +55733,7 @@
     "id": "3184",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3184",
     "name": "首消5Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 5 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 5 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3184}}",
     "icons": [
       {
@@ -55754,7 +55750,7 @@
     "id": "3185",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3185",
     "name": "首消6Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 6 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 6 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3185}}",
     "icons": [
       {
@@ -55771,7 +55767,7 @@
     "id": "3186",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3186",
     "name": "首消7Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 7 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 7 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3186}}",
     "icons": [
       {
@@ -55788,7 +55784,7 @@
     "id": "3187",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3187",
     "name": "首消8Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 8 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 8 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3187}}",
     "icons": [
       {
@@ -55805,7 +55801,7 @@
     "id": "3188",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3188",
     "name": "首消9Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 9 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 9 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3188}}",
     "icons": [
       {
@@ -55822,7 +55818,7 @@
     "id": "3189",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3189",
     "name": "首消10Combo盾 ‧ 越攻越強",
-    "detail": "首批消除 10 連擊 (Combo) 才會對敵人造成攻擊傷害。敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
+    "detail": "首批消除 10 連擊 (Combo) 才會對敵人造成攻擊傷害。\u003cbr\u003e敵人攻擊次數愈多時，攻擊力會大幅提升，達到一定次數時會連撃 2 次",
     "esCode": "{{ES3189}}",
     "icons": [
       {
@@ -64235,7 +64231,7 @@
   {
     "id": "3573",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3573",
-    "name": "突擊 ‧ 追擊電擊3顆-攻後引爆",
+    "name": "突擊10% ‧ 追擊電擊3顆-攻後引爆",
     "detail": "首回合優先突擊 1 次。\u003cbr\u003e\u003cbr\u003e每回合移動符石前，\u003cbr\u003e隨機電擊 3 粒符石；\u003cbr\u003e如有電擊符石未被消除，\u003cbr\u003e無法對敵人造成攻擊傷害；\u003cbr\u003e被電擊的符石一經觸碰，\u003cbr\u003e即時停止移動符石。\u003cbr\u003e\u003cbr\u003e場上的電擊符石愈多，\u003cbr\u003e敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊後，\u003cbr\u003e會引爆所有電擊符石。",
     "esCode": "{{ES3573}}",
     "icons": [
@@ -70393,7 +70389,7 @@
   {
     "id": "3824",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3824",
-    "name": "突擊-縱橫轉水風化15000 ‧ 攻後水縱橫輪轉 ‧ 首消水傷害吸收-連續反擊50%",
+    "name": "突擊65%-縱橫轉水風化15000 ‧ 攻後水縱橫輪轉 ‧ 首消水傷害吸收-連續反擊50%",
     "detail": "首回合優先突擊 1 次。\u003cbr\u003e\u003cbr\u003e隨機將 1 橫行及 1 直行符石\u003cbr\u003e風化及轉化為水符石；\u003cbr\u003e風化符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e對召喚師造成 15,000 點傷害\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，\u003cbr\u003e隨機將 1 直行的符石\u003cbr\u003e⇒ 轉化為水符石；\u003cbr\u003e第 2 次受到敵人攻擊時，\u003cbr\u003e隨機將 1 橫行的符石\u003cbr\u003e⇒ 轉化為水符石。\u003cbr\u003e以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e首批消除水屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次。",
     "esCode": "{{ES3824}}",
     "icons": [
@@ -70422,7 +70418,7 @@
   {
     "id": "3825",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3825",
-    "name": "突擊-縱橫轉火風化15000 ‧ 攻後火縱橫輪轉 ‧ 首消火傷害吸收-連續反擊50%",
+    "name": "突擊65%-縱橫轉火風化15000 ‧ 攻後火縱橫輪轉 ‧ 首消火傷害吸收-連續反擊50%",
     "detail": "首回合優先突擊 1 次。\u003cbr\u003e\u003cbr\u003e隨機將 1 橫行及 1 直行符石\u003cbr\u003e風化及轉化為火符石；\u003cbr\u003e風化符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e對召喚師造成 15,000 點傷害\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，\u003cbr\u003e隨機將 1 直行的符石\u003cbr\u003e⇒ 轉化為火符石；\u003cbr\u003e第 2 次受到敵人攻擊時，\u003cbr\u003e隨機將 1 橫行的符石\u003cbr\u003e⇒ 轉化為火符石。\u003cbr\u003e以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e首批消除火屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次。",
     "esCode": "{{ES3825}}",
     "icons": [
@@ -70451,7 +70447,7 @@
   {
     "id": "3826",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3826",
-    "name": "突擊-縱橫轉光風化15000 ‧ 攻後光縱橫輪轉 ‧ 首消光傷害吸收-連續反擊50%",
+    "name": "突擊65%-縱橫轉光風化15000 ‧ 攻後光縱橫輪轉 ‧ 首消光傷害吸收-連續反擊50%",
     "detail": "首回合優先突擊 1 次。\u003cbr\u003e\u003cbr\u003e隨機將 1 橫行及 1 直行符石\u003cbr\u003e風化及轉化為光符石；\u003cbr\u003e風化符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e對召喚師造成 15,000 點傷害\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，\u003cbr\u003e隨機將 1 直行的符石\u003cbr\u003e⇒ 轉化為光符石；\u003cbr\u003e第 2 次受到敵人攻擊時，\u003cbr\u003e隨機將 1 橫行的符石\u003cbr\u003e⇒ 轉化為光符石。\u003cbr\u003e以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e首批消除光屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次。",
     "esCode": "{{ES3826}}",
     "icons": [
@@ -70480,7 +70476,7 @@
   {
     "id": "3827",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3827",
-    "name": "突擊-縱橫轉暗風化15000 ‧ 攻後暗縱橫輪轉 ‧ 首消暗傷害吸收-連續反擊50%",
+    "name": "突擊65%-縱橫轉暗風化15000 ‧ 攻後暗縱橫輪轉 ‧ 首消暗傷害吸收-連續反擊50%",
     "detail": "首回合優先突擊 1 次。\u003cbr\u003e\u003cbr\u003e隨機將 1 橫行及 1 直行符石\u003cbr\u003e風化及轉化為暗符石；\u003cbr\u003e風化符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e對召喚師造成 15,000 點傷害\u003cbr\u003e\u003cbr\u003e其後首次受到敵人攻擊時，\u003cbr\u003e隨機將 1 直行的符石\u003cbr\u003e⇒ 轉化為暗符石；\u003cbr\u003e第 2 次受到敵人攻擊時，\u003cbr\u003e隨機將 1 橫行的符石\u003cbr\u003e⇒ 轉化為暗符石。\u003cbr\u003e以上攻擊循環周而復始。\u003cbr\u003e\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次。",
     "esCode": "{{ES3827}}",
     "icons": [
