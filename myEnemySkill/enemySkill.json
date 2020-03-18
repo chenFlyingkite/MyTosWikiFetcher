@@ -56565,8 +56565,8 @@
   {
     "id": "3221",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3221",
-    "name": "突擊 ‧ (5回致命步伐1000) ‧ 心轉敵屬 ‧ 暗屬防禦95%",
-    "detail": "首回合優先突擊 1 次，5 回合內每移動 1 步，對召喚師造成 1000 點傷害。每回合將心符石轉化為敵人屬性的符石。暗屬性攻擊傷害減至 5%",
+    "name": "突擊10% ‧ (5回致命步伐1000) ‧ 心轉敵屬 ‧ 暗屬防禦95%",
+    "detail": "首回合優先突擊 1 次，5 回合內每移動 1 步，對召喚師造成 1000 點傷害。\u003cbr\u003e每回合將心符石轉化為敵人屬性的符石。\u003cbr\u003e暗屬性攻擊傷害減至 5%",
     "esCode": "{{ES3221}}",
     "icons": [
       {
@@ -56612,7 +56612,7 @@
     "id": "3223",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3223",
     "name": "CD2 ‧ 附加消除重置 ‧ 暗引爆減傷 ‧ 扣血100%",
-    "detail": "敵人首次攻擊變為 CD 2。首回合消除召喚師所有附加效果，其技能 CD 將被重置。首回合引爆所有暗符石，以永久減少所受傷害。敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
+    "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e首回合引爆所有暗符石，以永久減少所受傷害。\u003cbr\u003e敵人發動攻擊時會扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
     "esCode": "{{ES3223}}",
     "icons": [
       {
@@ -57084,7 +57084,7 @@
     "id": "3243",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3243",
     "name": "先攻-縱橫隱藏 ‧ 首消暗追擊零化 ‧ 軌跡隱藏 ‧ 暗攻零化",
-    "detail": "首回合敵人會優先攻擊 1 次，隨機將 1 橫行及 1 直行的符石轉化為隱藏符石。首批消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。持續將移動符石時所觸碰的符石轉化為隱藏符石。暗屬性的攻擊傷害無效",
+    "detail": "首回合敵人會優先攻擊 1 次，隨機將 1 橫行及 1 直行的符石轉化為隱藏符石。\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的暗屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。\u003cbr\u003e持續將移動符石時所觸碰的符石轉化為隱藏符石。\u003cbr\u003e暗屬性的攻擊傷害無效",
     "esCode": "{{ES3243}}",
     "icons": [
       {
@@ -60072,7 +60072,7 @@
     "id": "3375",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3375",
     "name": "首消暗傷害吸收-反擊100% ‧ 暗起手始終盾",
-    "detail": "首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 100% 攻擊傷害。\u003cbr\u003e\u003cbr\u003e每回合以指定 (暗符石優先) 位置 (綠色漩渦) 開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)\u003cbr\u003e",
+    "detail": "首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 100% 攻擊傷害。\u003cbr\u003e\u003cbr\u003e每回合以指定 (暗符石優先) 位置 (綠色漩渦) 開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。(達成條件前，無法進行回復)",
     "esCode": "{{ES3375}}",
     "icons": [
       {
@@ -68428,7 +68428,7 @@
   {
     "id": "3747",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3747",
-    "name": "剋屬初級拼圖盾-限 ‧ 受傷反擊50% ‧ 復活3倍變強-轉暗-CD1 ‧ 無法控制",
+    "name": "剋屬初級拼圖盾-限 ‧ 受傷反擊50% ‧ 復活3倍變強-敵轉暗-CD1 ‧ 無法控制",
     "detail": "以指定形狀消除\u003cbr\u003e克制敵人屬性的符石\u003cbr\u003e(不可連同形狀旁邊的符石) \u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e當敵人受到攻擊時\u003cbr\u003e(主動技能及龍刻技能除外)，\u003cbr\u003e敵人反擊自身 50% 攻擊傷害\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，\u003cbr\u003e並轉換為暗屬性；\u003cbr\u003e提升 3 倍攻擊力、\u003cbr\u003e生命力、防禦力；\u003cbr\u003e攻擊頻率變為 CD 1。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3747}}",
     "icons": [
@@ -68461,7 +68461,7 @@
   {
     "id": "3748",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3748",
-    "name": "剋屬強化初級拼圖盾-限 ‧ 受傷反擊50% ‧ 復活4倍變強-轉暗-CD1 ‧ 無法控制",
+    "name": "剋屬強化初級拼圖盾-限 ‧ 受傷反擊50% ‧ 復活4倍變強-敵轉暗-CD1 ‧ 無法控制",
     "detail": "以指定形狀消除\u003cbr\u003e克制敵人屬性的強化符石\u003cbr\u003e(不可連同形狀旁邊的符石) \u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e當敵人受到攻擊時\u003cbr\u003e(主動技能及龍刻技能除外)，\u003cbr\u003e敵人反擊自身 50% 攻擊傷害\u003cbr\u003e\u003cbr\u003e敵人死亡後會復活 1 次，\u003cbr\u003e並轉換為暗屬性；\u003cbr\u003e提升 4 倍攻擊力、\u003cbr\u003e生命力、防禦力；\u003cbr\u003e攻擊頻率變為 CD 1。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3748}}",
     "icons": [
@@ -68710,7 +68710,7 @@
   {
     "id": "3757",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3757",
-    "name": "天惠「斯卡/真理追尋者」-技能回復-[7回攻擊2倍] ‧ 含伊茲米-自殺 ‧ 無法控制",
+    "name": "天惠「斯卡/真理追尋者」-技能回復-[7回攻擊2倍] ‧ 含伊茲米-自殺 ‧ 2秒轉珠 ‧ 無法控制",
     "detail": "隊中有「斯卡」或\u003cbr\u003e「真理追尋者」系列角色：\u003cbr\u003e⓵ 其主動技能 CD 變 0\u003cbr\u003e⓶ 7 回合內，其攻擊力 2 倍\u003cbr\u003e\u003cbr\u003e隊中有「伊茲米 ‧ 卡迪斯」:\u003cbr\u003e敵人扣除自身生命力 100%\u003cbr\u003e\u003cbr\u003e移動符石時間縮短至 2 秒。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3757}}",
     "icons": [
@@ -68725,6 +68725,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/90/SI161.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102647\u0026path-prefix\u003dzh",
         "iconKey": "SI161.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/3b/SI165.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102648\u0026path-prefix\u003dzh",
+        "iconKey": "SI165.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
@@ -69118,7 +69122,7 @@
   {
     "id": "3773",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3773",
-    "name": "50擊盾 ‧ 連續反擊100% ‧ 無法控制",
+    "name": "50擊盾 ‧ 受傷連續反擊100% ‧ 無法控制",
     "detail": "對敵人進行 50 次攻擊後，\u003cbr\u003e才能對其造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e當敵人受到攻擊時\u003cbr\u003e(主動技能及龍刻技能除外)\u003cbr\u003e⇒ 敵人會連續反擊\u003cbr\u003e自身 100% 攻擊傷害 2 次。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3773}}",
     "icons": [
@@ -69172,7 +69176,7 @@
   {
     "id": "3775",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3775",
-    "name": "CD1 ‧ 引爆圍城掉火 ‧ 弱轉珠技無效 ‧ 扣血100%",
+    "name": "CD1 ‧ 引爆圍城掉火 ‧ 弱轉珠技無效 ‧ 扣血100% ‧ 無法控制",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e首回合引爆所有符石\u003cbr\u003e⇒ 掉落火符石\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時會\u003cbr\u003e扣除召喚師 100% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3775}}",
     "icons": [
@@ -69191,13 +69195,17 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
         "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
       }
     ]
   },
   {
     "id": "3776",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3776",
-    "name": "CD1 ‧ 火圍城 ‧ 火禁消 ‧ 扣血100%",
+    "name": "CD1 ‧ 火圍城 ‧ 火禁消 ‧ 扣血100% ‧ 無法控制",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e首回合將所有符石\u003cbr\u003e⇒ 轉化為火符石\u003cbr\u003e\u003cbr\u003e火符石無法被消除。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時會\u003cbr\u003e扣除召喚師 100% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3776}}",
     "icons": [
@@ -69220,13 +69228,17 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
         "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
       }
     ]
   },
   {
     "id": "3777",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3777",
-    "name": "CD1 ‧ 圍城轉火弱化鎖定20% ‧ 扣血100%",
+    "name": "CD1 ‧ 圍城轉火弱化鎖定20% ‧ 扣血100% ‧ 無法控制",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e首回合將所有符石\u003cbr\u003e⇒ 轉化為火符石並鎖定；\u003cbr\u003e每消除 1 粒被鎖定的符石，\u003cbr\u003e全隊攻擊力減少 20% \u003cbr\u003e(發動龍刻脈動視作\u003cbr\u003e消除場上的鎖定符石)。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時會\u003cbr\u003e扣除召喚師 100% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3777}}",
     "icons": [
@@ -69249,6 +69261,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
         "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
       }
     ]
   },
