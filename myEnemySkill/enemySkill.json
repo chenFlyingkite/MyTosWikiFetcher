@@ -50751,7 +50751,7 @@
   {
     "id": "2978",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2978",
-    "name": "強化五屬盾 ‧ 還原符石 ‧ 外側轉水-結",
+    "name": "強化五屬盾 ‧ 還原符石-先 ‧ 外側轉水-結",
     "detail": "同時消除水強化、火強化、木強化、光強化及暗強化符石才會對敵人造成攻擊傷害。\u003cbr\u003e每回合移動符石前，將場上的符石變回原始模樣。\u003cbr\u003e敵人死亡後將場上外側的符石轉化為水符石",
     "esCode": "{{ES2978}}",
     "icons": [
@@ -50760,8 +50760,8 @@
         "iconKey": "SI248.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
-        "iconKey": "SI227.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI268.png/revision/latest/scale-to-width-down/22?cb\u003d20200318101906\u0026path-prefix\u003dzh",
+        "iconKey": "SI268.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b6/SI301.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063416\u0026path-prefix\u003dzh",
@@ -61725,7 +61725,7 @@
   {
     "id": "3451",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3451",
-    "name": "突擊25% ‧ 弱符石還原 ‧ 強化盾-反擊100% ‧ 無法控制",
+    "name": "突擊25% ‧ 首回弱符石還原 ‧ 強化盾-反擊100% ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e將場上的符石變回\u003cfont color\u003dyellow\u003e原始模樣\u003c/font\u003e\u003cbr\u003e(種族標記會保留)\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cfont color\u003dyellow\u003e強化符石\u003c/font\u003e的攻擊傷害；若受到非強化符石的攻擊，敵人會反擊自身 \u003cfont color\u003dyellow\u003e100%\u003c/font\u003e 攻擊傷害。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3451}}",
     "icons": [
@@ -61734,8 +61734,8 @@
         "iconKey": "SI160.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
-        "iconKey": "SI227.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI268.png/revision/latest/scale-to-width-down/22?cb\u003d20200318101906\u0026path-prefix\u003dzh",
+        "iconKey": "SI268.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
@@ -61754,7 +61754,7 @@
   {
     "id": "3452",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3452",
-    "name": "突擊 ‧ 符石還原 ‧ 組數追擊盾20% ‧ 無法控制",
+    "name": "突擊 ‧ 首回符石還原 ‧ 組數追擊盾20% ‧ 無法控制",
     "detail": "首回合優先\u003cfont color\u003dyellow\u003e突擊\u003c/font\u003e 1 次。\u003cbr\u003e\u003cbr\u003e將場上的符石變回\u003cfont color\u003dyellow\u003e原始模樣\u003c/font\u003e。\u003cbr\u003e\u003cbr\u003e敵人不受任何攻擊傷害 (包括主動技)。\u003cbr\u003e\u003cbr\u003e達成消除\u003cfont color\u003dyellow\u003e指定組數的種類符石\u003c/font\u003e，可扣除敵人\u003cfont color\u003dyellow\u003e 20%\u003c/font\u003e 生命力。每欠消除 1 組，敵人額外增加 1 連擊。\u003cbr\u003e\u003cbr\u003e無視所有控制技能",
     "esCode": "{{ES3452}}",
     "icons": [
@@ -61763,8 +61763,8 @@
         "iconKey": "SI160.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/93/SI227.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002133\u0026path-prefix\u003dzh",
-        "iconKey": "SI227.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI268.png/revision/latest/scale-to-width-down/22?cb\u003d20200318101906\u0026path-prefix\u003dzh",
+        "iconKey": "SI268.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/6/68/SI263.png/revision/latest/scale-to-width-down/22?cb\u003d20190325083821\u0026path-prefix\u003dzh",
@@ -65802,7 +65802,7 @@
   {
     "id": "3640",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3640",
-    "name": "CD1 ‧ 停頓符石-轉 ‧ 轉珠技無效 ‧ 無法控制",
+    "name": "CD1 ‧ 停頓符石-轉 ‧ 弱轉珠技無效 ‧ 無法控制",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e每回合移動符石時，\u003cbr\u003e隨機鎖定 2 粒符石；\u003cbr\u003e被鎖定的符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e該回合無法對敵人\u003cbr\u003e造成攻擊傷害及回復力變 0。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3640}}",
     "icons": [
@@ -66781,13 +66781,13 @@
   {
     "id": "3679",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3679",
-    "name": "符石還原 ‧ 始終電網",
+    "name": "首回符石還原 ‧ 始終電網",
     "detail": "首回合將場上的符石\u003cbr\u003e⇒ 變回原始模樣\u003cbr\u003e\u003cbr\u003e每回合根據開始轉珠及\u003cbr\u003e結束轉珠位置，\u003cbr\u003e結成方形電網。\u003cbr\u003e\u003cbr\u003e電網位置一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e該回合無法對敵人\u003cbr\u003e造成攻擊傷害。",
     "esCode": "{{ES3679}}",
     "icons": [
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190509130516\u0026path-prefix\u003dzh",
-        "iconKey": "SI270.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI268.png/revision/latest/scale-to-width-down/22?cb\u003d20200318101906\u0026path-prefix\u003dzh",
+        "iconKey": "SI268.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
@@ -68075,7 +68075,7 @@
   {
     "id": "3733",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3733",
-    "name": "強化盾-反擊100% ‧ 符石還原 ‧ 無視減傷",
+    "name": "強化盾-反擊100% ‧ 每回符石還原 ‧ 無視減傷",
     "detail": "敵人只會受到\u003cbr\u003e強化符石的攻擊傷害；\u003cbr\u003e若受到非強化符石的攻擊，\u003cbr\u003e敵人反擊自身100% 攻擊傷害\u003cbr\u003e\u003cbr\u003e每回合將場上的符石\u003cbr\u003e⇒ 變回原始模樣\u003cbr\u003e\u003cbr\u003e無視所有減傷效果和\u003cbr\u003e意志技能。",
     "esCode": "{{ES3733}}",
     "icons": [
@@ -68088,8 +68088,8 @@
         "iconKey": "SI260.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190509130516\u0026path-prefix\u003dzh",
-        "iconKey": "SI270.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI268.png/revision/latest/scale-to-width-down/22?cb\u003d20200318101906\u0026path-prefix\u003dzh",
+        "iconKey": "SI268.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
@@ -68935,7 +68935,7 @@
   {
     "id": "3766",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3766",
-    "name": "附加消除重置 ‧ 符石還原 ‧ 強化盾-反擊100% ‧ 無法控制",
+    "name": "附加消除重置-符石還原 ‧ 強化盾-反擊100% ‧ 無法控制",
     "detail": "首回合消除所有附加效果，\u003cbr\u003e其技能 CD 將被重置；\u003cbr\u003e將場上的符石變回原始模樣\u003cbr\u003e\u003cbr\u003e敵人只會受到\u003cbr\u003e強化符石的攻擊傷害；\u003cbr\u003e若受到非強化符石的攻擊，\u003cbr\u003e敵人反擊自身100% 攻擊傷害\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3766}}",
     "icons": [
@@ -68948,8 +68948,8 @@
         "iconKey": "SI123.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190509130516\u0026path-prefix\u003dzh",
-        "iconKey": "SI270.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI268.png/revision/latest/scale-to-width-down/22?cb\u003d20200318101906\u0026path-prefix\u003dzh",
+        "iconKey": "SI268.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/24/SI254.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103122\u0026path-prefix\u003dzh",
@@ -70155,7 +70155,7 @@
   {
     "id": "3814",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3814",
-    "name": "CD1 ‧ 符石還原 ‧ 軌跡黑白 ‧ 強化防禦盾 ‧ 扣血100%",
+    "name": "CD1 ‧ 首回符石還原 ‧ 軌跡黑白 ‧ 強化防禦盾 ‧ 扣血100%",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e首回合將場上的符石\u003cbr\u003e⇒ 變回原始模樣\u003cbr\u003e\u003cbr\u003e持續將移動符石時所觸碰的\u003cbr\u003e符石變為黑白色。\u003cbr\u003e\u003cbr\u003e消除強化符石\u003cbr\u003e不會對敵人造成傷害。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時會\u003cbr\u003e扣除召喚師 100% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)",
     "esCode": "{{ES3814}}",
     "icons": [
@@ -70164,8 +70164,8 @@
         "iconKey": "SI159.png"
       },
       {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/bf/SI270.png/revision/latest/scale-to-width-down/22?cb\u003d20190509130516\u0026path-prefix\u003dzh",
-        "iconKey": "SI270.png"
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/2d/SI268.png/revision/latest/scale-to-width-down/22?cb\u003d20200318101906\u0026path-prefix\u003dzh",
+        "iconKey": "SI268.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
