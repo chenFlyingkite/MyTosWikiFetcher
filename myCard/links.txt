@@ -13854,6 +13854,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2347"
   },
   {
+    "title": "No. 2348 父親大人",
+    "id": "2348",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%88%B6%E8%A6%AA%E5%A4%A7%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/2348"
+  },
+  {
     "title": "No. 2349 斯洛烏斯",
     "id": "2349",
     "link": "https://tos.fandom.com/zh/wiki/%E6%96%AF%E6%B4%9B%E7%83%8F%E6%96%AF",

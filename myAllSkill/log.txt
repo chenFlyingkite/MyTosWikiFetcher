@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2798 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2800 items, basePath = https://tos.fandom.com, offset = null)
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
@@ -836,6 +836,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 擬態假人 -> https://tos.fandom.com/zh/wiki/%E6%93%AC%E6%85%8B%E5%81%87%E4%BA%BA
 擴散 -> https://tos.fandom.com/zh/wiki/%E6%93%B4%E6%95%A3
 攝靈法陣 -> https://tos.fandom.com/zh/wiki/%E6%94%9D%E9%9D%88%E6%B3%95%E9%99%A3
+支配的力量 -> https://tos.fandom.com/zh/wiki/%E6%94%AF%E9%85%8D%E7%9A%84%E5%8A%9B%E9%87%8F
 攻前鳴擊 -> https://tos.fandom.com/zh/wiki/%E6%94%BB%E5%89%8D%E9%B3%B4%E6%93%8A
 攻勢如虹 -> https://tos.fandom.com/zh/wiki/%E6%94%BB%E5%8B%A2%E5%A6%82%E8%99%B9
 攻勢如虹_‧_指令 -> https://tos.fandom.com/zh/wiki/%E6%94%BB%E5%8B%A2%E5%A6%82%E8%99%B9_%E2%80%A7_%E6%8C%87%E4%BB%A4
@@ -2236,6 +2237,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 血燄注魂術_‧_強獸 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%87%84%E6%B3%A8%E9%AD%82%E8%A1%93_%E2%80%A7_%E5%BC%B7%E7%8D%B8
 血燄注魂術_‧_烈火 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%87%84%E6%B3%A8%E9%AD%82%E8%A1%93_%E2%80%A7_%E7%83%88%E7%81%AB
 血燄注魂術_‧_獸 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%87%84%E6%B3%A8%E9%AD%82%E8%A1%93_%E2%80%A7_%E7%8D%B8
+血的紋章 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%9A%84%E7%B4%8B%E7%AB%A0
 血祭斷魂劍 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E6%96%B7%E9%AD%82%E5%8A%8D
 血祭斷魂劍_‧_裂心 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E6%96%B7%E9%AD%82%E5%8A%8D_%E2%80%A7_%E8%A3%82%E5%BF%83
 血祭狂屠_‧_光 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%A5%AD%E7%8B%82%E5%B1%A0_%E2%80%A7_%E5%85%89
@@ -2799,4 +2801,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2822 skills
+2824 skills

@@ -3,9 +3,10 @@ package flyingkite.javaxlibrary.images.base;
 import java.io.File;
 
 public class PngParam {
+    public static final int WRAP_CONTENT = -1;
     public File file;
-    public int w = -1; // -1 = Use parent's size
-    public int h = -1;
+    public int w = WRAP_CONTENT; // -1 = Use parent's size
+    public int h = WRAP_CONTENT;
 
     public PngParam(String name) {
         this(new File(name));

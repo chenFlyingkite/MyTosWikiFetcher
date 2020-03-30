@@ -17,7 +17,7 @@ public class PngCreateRequest extends PngRequest {
     private PngParam reqParam;
     private BufferedImage srcImg;
     private BufferedImage dstImg;
-    private Rect2 allDstRect = new Rect2();
+    private Rect2 canvasRect = new Rect2();
 
     public PngCreateRequest(PngParam param) {
         File f = param.file;
@@ -38,7 +38,7 @@ public class PngCreateRequest extends PngRequest {
         int h = valueIfNegative(param.h, srcImg.getHeight());
 
         dstImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
-        allDstRect.set(0, 0, w, h);
+        canvasRect.set(0, 0, w, h);
     }
 
     @Override
@@ -61,14 +61,12 @@ public class PngCreateRequest extends PngRequest {
         mClock.tic();
         for (int i = 0; i < w; i++) {
             for (int j = 0; j < h; j++) {
-                int rgba;
                 int sx = x + i;
                 int sy = y + j;
                 boolean valid = MathUtil.isInRange(sx, 0, srcImg.getWidth()) && MathUtil.isInRange(sy, 0, srcImg.getHeight());
+                int rgba = 0; // Transparent
                 if (valid) {
                     rgba = srcImg.getRGB(sx, sy);
-                } else {
-                    rgba = 0; // Black if OutOfBound
                 }
                 dstImg.setRGB(i, j, rgba);
             }
@@ -77,8 +75,37 @@ public class PngCreateRequest extends PngRequest {
         return this;
     }
 
+    /**
+     * Copy source image range of src into destination image's range of dst
+     * treat this as translation
+     * canvas size = (2w, h)
+     * src = (0, 0, w, h), dst = (w, 0, w, h)
+     * => Make image shift right w-pixels
+     */
+    public PngCreateRequest copy(Rect2 src, Rect2 dst) {
+        final int imgW = canvasRect.width();
+        final int imgH = canvasRect.height();
+        // Step : Copy image
+        mClock.tic();
+        for (int i = 0; i < imgW; i++) {
+            for (int j = 0; j < imgH; j++) {
+                int sx = i - src.left - dst.left;
+                int sy = j - src.top - dst.top;
+                boolean valid = MathUtil.isInRange(sx, 0, srcImg.getWidth()) && MathUtil.isInRange(sy, 0, srcImg.getHeight());
+                //L.log("(% 3d, % 3d) := (% 3d, % 3d)", i, j, sx, sy);
+                int rgba = 0; // Transparent
+                if (valid) {
+                    rgba = srcImg.getRGB(sx, sy);
+                }
+                dstImg.setRGB(i, j, rgba);
+            }
+        }
+        mClock.tac(TAG + " copy " + src + " -> dst = " + dst);
+        return this;
+    }
+
     public PngCreateRequest eraseCorners() {
-        return eraseCorners(allDstRect, new int[]{9, 7, 5, 4, 3, 2, 2, 1, 1});
+        return eraseCorners(canvasRect, new int[]{9, 7, 5, 4, 3, 2, 2, 1, 1});
     }
 
     /**

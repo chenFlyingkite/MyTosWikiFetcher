@@ -1014,7 +1014,7 @@
     "type": "主動技",
     "skillName": "人族戰略 ‧ 光華",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E7%95%A5_%E2%80%A7_%E5%85%89%E8%8F%AF",
-    "skillCDMin": 16,
+    "skillCDMin": 17,
     "skillCDMax": 6,
     "skillDesc": "I. 全隊回復力減少 25% II. 光屬性攻擊力 1.5 倍 III. 隊伍中只有人類成員時 ⇒ 光屬性攻擊力額外 1.6 倍 效果會在關閉此技能或死亡後消失 此技能可隨時關閉，關閉時： ⇒ 光屬性成員技能 CD 減少 1",
     "skillMonsters": [
@@ -9833,6 +9833,17 @@
     "skillDesc": "1 回合內，水符石兼具心符石效果，同時木符石兼具火符石效果",
     "skillMonsters": [
       "0922"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "支配的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%94%AF%E9%85%8D%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 神族攻擊力 5 倍 II. 生命力全滿時 ⇒ 自身攻擊力額外 6 倍 ⇒ 自身攻擊無視敵人的防禦力 III. 當前生命力大於 80% 時 ⇒ 下一次所受傷害不會使你死亡 (同 1 回合只發動 1 次) IV. 消除 ≥5 連擊 (Combo) ⇒ 回合結束時，完全回復生命力",
+    "skillMonsters": [
+      "2348"
     ]
   },
   {
@@ -26483,6 +26494,17 @@
     "skillDesc": "隊伍中只有獸類成員時： I. 全隊攻擊力 5 倍 II. 進入關卡後所有成員的主動技能 CD 減少 5 (效果不能疊加)",
     "skillMonsters": [
       "1224"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "血的紋章",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%9A%84%E7%B4%8B%E7%AB%A0",
+    "skillCDMin": 21,
+    "skillCDMax": 10,
+    "skillDesc": "敵方不是神族才可發動此技能： I. 消除所有附加效果 II. 將場上的符石變回原始模樣 1 回合內 III. 將全體敵人的攻擊力減至 1 ⇒ 將被減去的攻擊力加入自身攻擊力 ⇒ 其他成員不能發動攻擊 IV. 延長移動符石時間至 12 秒 V. 將移動符石時觸碰的符石 ⇒ 轉化為神族強化符石",
+    "skillMonsters": [
+      "2348"
     ]
   },
   {

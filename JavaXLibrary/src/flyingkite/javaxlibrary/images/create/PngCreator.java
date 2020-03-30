@@ -46,4 +46,31 @@ public class PngCreator {
         PngCreator.from(p).copy(rect).eraseCorners().into(name);
         L.log("created %s", name);
     }
+
+    public void moveImage() {
+        // For left image, add right half blank
+        // For right image, add left half blank
+        String src = "D:\\aaa\\src\\";
+        String dst = src + "n\\";
+        final int w = 37;
+        final int h = 104;
+        Rect2 rL = Rect2.atLTWH(0, 0, w, h);
+        Rect2 rR = Rect2.atLTWH(w, 0, w, h);
+        String[] names = {
+                "btn_trim_audio_left_n.png",
+                "btn_trim_audio_right_n.png",
+                "btn_trim_title_left_n.png",
+                "btn_trim_title_right_n.png",
+                "btn_trim_vp_left_n.png",
+                "btn_trim_vp_right_n.png",
+        };
+        for (String s : names) {
+            PngParam p = new PngParam(src + s).size(2*w, h);
+            if (s.contains("left")) {
+                PngCreator.from(p).copy(rL).into(dst + s);
+            } else {
+                PngCreator.from(p).copy(rL, rR).into(dst + s);
+            }
+        }
+    }
 }
