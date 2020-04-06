@@ -57,6 +57,11 @@ public class Main {
         //TosCardInfos.me.run(); // creating evolution info
         L.log("now = %s", now());
         //new LeetCode().run();
+        //PngCreator.me.moveImage();
+        a();
+    }
+
+    private static void a() {
     }
 
     private static void fetch() {

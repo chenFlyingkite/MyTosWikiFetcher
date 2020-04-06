@@ -11922,6 +11922,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1995"
   },
   {
+    "title": "No. 1998 Terence",
+    "id": "1998",
+    "link": "https://tos.fandom.com/zh/wiki/Terence",
+    "linkId": "http://zh.tos.wikia.com/wiki/1998"
+  },
+  {
     "title": "No. 1999 捨杜",
     "id": "1999",
     "link": "https://tos.fandom.com/zh/wiki/%E6%8D%A8%E6%9D%9C",
@@ -12490,6 +12496,12 @@
     "id": "2093",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%8E%8B%E7%BE%BD%E7%90%B4",
     "linkId": "http://zh.tos.wikia.com/wiki/2093"
+  },
+  {
+    "title": "No. 2097 撥動泛音 ‧ 豎琴",
+    "id": "2097",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%92%A5%E5%8B%95%E6%B3%9B%E9%9F%B3_%E2%80%A7_%E8%B1%8E%E7%90%B4",
+    "linkId": "http://zh.tos.wikia.com/wiki/2097"
   },
   {
     "title": "No. 2099 喵喵大將軍 ‧ 虹伶",
@@ -13482,6 +13494,36 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2267"
   },
   {
+    "title": "No. 2268 悲世哀琰 ‧ 蔡文姬",
+    "id": "2268",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%82%B2%E4%B8%96%E5%93%80%E7%90%B0_%E2%80%A7_%E8%94%A1%E6%96%87%E5%A7%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2268"
+  },
+  {
+    "title": "No. 2269 霸業魔政 ‧ 曹操",
+    "id": "2269",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E6%A5%AD%E9%AD%94%E6%94%BF_%E2%80%A7_%E6%9B%B9%E6%93%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2269"
+  },
+  {
+    "title": "No. 2270 青鳥情繞 ‧ 曹丕",
+    "id": "2270",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%92%E9%B3%A5%E6%83%85%E7%B9%9E_%E2%80%A7_%E6%9B%B9%E4%B8%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/2270"
+  },
+  {
+    "title": "No. 2271 激奏戰策 ‧ 司馬懿",
+    "id": "2271",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BF%80%E5%A5%8F%E6%88%B0%E7%AD%96_%E2%80%A7_%E5%8F%B8%E9%A6%AC%E6%87%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2271"
+  },
+  {
+    "title": "No. 2272 魔瞳狂槍 ‧ 夏侯惇",
+    "id": "2272",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%9E%B3%E7%8B%82%E6%A7%8D_%E2%80%A7_%E5%A4%8F%E4%BE%AF%E6%83%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2272"
+  },
+  {
     "title": "No. 2278 鋼甲熊",
     "id": "2278",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E7%94%B2%E7%86%8A",
@@ -13782,6 +13824,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2329"
   },
   {
+    "title": "No. 2335 繪夢人生 ‧ 朵亞",
+    "id": "2335",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B9%AA%E5%A4%A2%E4%BA%BA%E7%94%9F_%E2%80%A7_%E6%9C%B5%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2335"
+  },
+  {
     "title": "No. 2336 伊茲米 ‧ 卡迪斯",
     "id": "2336",
     "link": "https://tos.fandom.com/zh/wiki/%E4%BC%8A%E8%8C%B2%E7%B1%B3_%E2%80%A7_%E5%8D%A1%E8%BF%AA%E6%96%AF",
@@ -13926,10 +13974,100 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2360"
   },
   {
+    "title": "No. 2361 瀧川凜",
+    "id": "2361",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%80%A7%E5%B7%9D%E5%87%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2361"
+  },
+  {
+    "title": "No. 2362 拉娜 ‧ 帕蒂爾",
+    "id": "2362",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8B%89%E5%A8%9C_%E2%80%A7_%E5%B8%95%E8%92%82%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2362"
+  },
+  {
+    "title": "No. 2363 奇玄泰",
+    "id": "2363",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A5%87%E7%8E%84%E6%B3%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2363"
+  },
+  {
+    "title": "No. 2364 維克托 ‧ 沃克 ‧ 格林",
+    "id": "2364",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B6%AD%E5%85%8B%E6%89%98_%E2%80%A7_%E6%B2%83%E5%85%8B_%E2%80%A7_%E6%A0%BC%E6%9E%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/2364"
+  },
+  {
+    "title": "No. 2365 絲諾克 ‧ 基爾斯",
+    "id": "2365",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%B2%E8%AB%BE%E5%85%8B_%E2%80%A7_%E5%9F%BA%E7%88%BE%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2365"
+  },
+  {
+    "title": "No. 2366 莉絲",
+    "id": "2366",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8E%89%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2366"
+  },
+  {
+    "title": "No. 2367 水流元素",
+    "id": "2367",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%B5%81%E5%85%83%E7%B4%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2367"
+  },
+  {
+    "title": "No. 2368 火焰元素",
+    "id": "2368",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E5%85%83%E7%B4%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2368"
+  },
+  {
+    "title": "No. 2369 暴風元素",
+    "id": "2369",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E9%A2%A8%E5%85%83%E7%B4%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2369"
+  },
+  {
+    "title": "No. 2370 雷光元素",
+    "id": "2370",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E5%85%83%E7%B4%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2370"
+  },
+  {
+    "title": "No. 2371 虛空元素",
+    "id": "2371",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%99%9B%E7%A9%BA%E5%85%83%E7%B4%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2371"
+  },
+  {
+    "title": "No. 2373 灰狼使 ‧ 基麗",
+    "id": "2373",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%81%B0%E7%8B%BC%E4%BD%BF_%E2%80%A7_%E5%9F%BA%E9%BA%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/2373"
+  },
+  {
+    "title": "No. 2374 動感快舞 · 普普璐",
+    "id": "2374",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8B%95%E6%84%9F%E5%BF%AB%E8%88%9E_%C2%B7_%E6%99%AE%E6%99%AE%E7%92%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2374"
+  },
+  {
+    "title": "No. 2375 舞力比拼 · 哈沙",
+    "id": "2375",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%88%9E%E5%8A%9B%E6%AF%94%E6%8B%BC_%C2%B7_%E5%93%88%E6%B2%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/2375"
+  },
+  {
     "title": "No. 2376 戀意快遞 ‧ 安琪拉",
     "id": "2376",
     "link": "https://tos.fandom.com/zh/wiki/%E6%88%80%E6%84%8F%E5%BF%AB%E9%81%9E_%E2%80%A7_%E5%AE%89%E7%90%AA%E6%8B%89",
     "linkId": "http://zh.tos.wikia.com/wiki/2376"
+  },
+  {
+    "title": "No. 2398 愚人的呵欠",
+    "id": "2398",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%84%9A%E4%BA%BA%E7%9A%84%E5%91%B5%E6%AC%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2398"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -15636,6 +15774,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6304"
   },
   {
+    "title": "S305 鎂光燈下 ‧ 美狄亞",
+    "id": "6305",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%8E%82%E5%85%89%E7%87%88%E4%B8%8B_%E2%80%A7_%E7%BE%8E%E7%8B%84%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/6305"
+  },
+  {
     "title": "S306 百變校花 ‧ 切西亞",
     "id": "6306",
     "link": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%AE%8A%E6%A0%A1%E8%8A%B1_%E2%80%A7_%E5%88%87%E8%A5%BF%E4%BA%9E",
@@ -15850,6 +15994,24 @@
     "id": "6347",
     "link": "https://tos.fandom.com/zh/wiki/%E9%98%BF%E7%88%BE%E9%A6%AE%E6%96%AF_%E2%80%A7_%E6%84%9B%E5%8A%9B%E5%85%8B(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6347"
+  },
+  {
+    "title": "S349 影中有你 ‧ 鑽石與琥珀",
+    "id": "6349",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BD%B1%E4%B8%AD%E6%9C%89%E4%BD%A0_%E2%80%A7_%E9%91%BD%E7%9F%B3%E8%88%87%E7%90%A5%E7%8F%80",
+    "linkId": "http://zh.tos.wikia.com/wiki/6349"
+  },
+  {
+    "title": "S357 青鳥情繞 ‧ 曹丕(動態造型)",
+    "id": "6357",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%92%E9%B3%A5%E6%83%85%E7%B9%9E_%E2%80%A7_%E6%9B%B9%E4%B8%95(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6357"
+  },
+  {
+    "title": "S358 瀧川凜(動態造型)",
+    "id": "6358",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%80%A7%E5%B7%9D%E5%87%9C(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6358"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

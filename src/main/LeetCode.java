@@ -196,7 +196,39 @@ public class LeetCode implements Runnable {
         return true;
     }
 
+    /**
+     * Definition for singly-linked list.
+     * public class ListNode {
+     *     int val;
+     *     ListNode next;
+     *     ListNode(int x) { val = x; }
+     * }
+     */
+    /*
+    // Return li[k] if exists, or return at tail
+    private ListNode get(ListNode head, int k) {
+        int m = 0;
+        ListNode p = head;
+        while (p != null && m < k) {
+            p = p.next;
+            m++;
+        }
+        return p;
+    }
+
+    private int size(ListNode x) {
+        int s = 0;
+        ListNode p = x;
+        while (p != null) {
+            p = p.next;
+            s++;
+        }
+        return s;
+    }
+    */
+
     private static void ln(String fmt, Object... p) {
         System.out.println((p == null) ? fmt : String.format(fmt, p));
     }
 }
+
