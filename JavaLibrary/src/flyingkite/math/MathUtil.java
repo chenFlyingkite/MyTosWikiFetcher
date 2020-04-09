@@ -77,4 +77,51 @@ public class MathUtil {
         }
         return max;
     }
+
+    /**
+     * returns Greatest Common Diviser (GCD) of a & b
+     * Let a = bq+r , gcd(a, b) = gcd(b, r)
+     * Let m = max(a, b), Time complexity = O(log(m))
+     */
+    public static long gcd(long a, long b) {
+        long x = a;
+        long y = b;
+        while (y > 0) {
+            long r = x % y;
+            x = y;
+            y = r;
+        }
+        return x;
+    }
+
+    /**
+     * returns Least Common Multiple of a & b
+     * lcm(a, b) = a * b / gcd(b, r)
+     * Let m = max(a, b), Time complexity = O(gcd()) = O(log(m))
+     */
+    public static long lcm(long a, long b) {
+        long g = gcd(a, b);
+        return a / g * b;
+    }
+
+    /**
+     * returns whether x is prime
+     * By division on possible odd numbers k, with k*k <= x
+     * Time complexity = O(sqrt(x))
+     */
+    public static boolean isPrime(long x) {
+        if (x < 10) {
+            return x == 2 || x == 3 || x == 5 || x == 7;
+        }
+
+        if (x % 2 == 0) return false;
+
+        for (int i = 3; i * i <= x; i += 2) {
+            if (x % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
