@@ -13392,6 +13392,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2248"
   },
   {
+    "title": "No. 2250 吞魂閻龍 ‧ 布魯克",
+    "id": "2250",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E9%AD%82%E9%96%BB%E9%BE%8D_%E2%80%A7_%E5%B8%83%E9%AD%AF%E5%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2250"
+  },
+  {
     "title": "No. 2251 藍莓慕斯杯",
     "id": "2251",
     "link": "https://tos.fandom.com/zh/wiki/%E8%97%8D%E8%8E%93%E6%85%95%E6%96%AF%E6%9D%AF",
@@ -14038,6 +14044,12 @@
     "id": "2371",
     "link": "https://tos.fandom.com/zh/wiki/%E8%99%9B%E7%A9%BA%E5%85%83%E7%B4%A0",
     "linkId": "http://zh.tos.wikia.com/wiki/2371"
+  },
+  {
+    "title": "No. 2372 貝貝豬",
+    "id": "2372",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B2%9D%E8%B2%9D%E8%B1%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2372"
   },
   {
     "title": "No. 2373 灰狼使 ‧ 基麗",

@@ -19366,7 +19366,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89%E5%8B%A2%E7%95%A5",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "將技能冷卻中的成員所在隊伍欄直行的符石轉化為光符石",
+    "skillDesc": "將技能冷卻中的成員 (不包括自己) 所在隊伍欄直行的符石轉化為光符石",
     "skillMonsters": [
       "1283"
     ]
