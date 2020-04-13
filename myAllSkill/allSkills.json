@@ -22191,6 +22191,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "種族之喚 ‧ 暗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A8%AE%E6%97%8F%E4%B9%8B%E5%96%9A_%E2%80%A7_%E6%9A%97",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "場上有種族符石才可發動此技能： 1 回合內， 每消除 1 種屬性符石 ⇒ 必定掉落 5 粒暗符石 ⇒ 消除 5 種可掉落最多 25 粒暗符石",
+    "skillMonsters": [
+      "2250"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "種族凝匯 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A8%AE%E6%97%8F%E5%87%9D%E5%8C%AF_%E2%80%A7_%E5%85%89",
@@ -33056,6 +33067,17 @@
     "skillDesc": "I. 龍類攻擊力 3 倍 II. 當前生命力大於 70% 時 ⇒ 下一次所受傷害不會使你死亡 (同 1 回合只會發動 1 次)",
     "skillMonsters": [
       "2245"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "鱗光萬丈 ‧ 暗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%9A%97",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 龍類攻擊力 6 倍 II. 每個龍類成員增加 350 點回復力 III. 心符石兼具 50% 暗符石效果 IV. 連擊 (Combo) 時攻擊力提升 150%",
+    "skillMonsters": [
+      "2250"
     ]
   },
   {
