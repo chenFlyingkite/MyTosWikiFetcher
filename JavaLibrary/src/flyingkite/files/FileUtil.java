@@ -106,6 +106,7 @@ public class FileUtil {
             while ((read = is.read(buffer)) != -1) {
                 fos.write(buffer, 0, read);
             }
+            fos.flush();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
