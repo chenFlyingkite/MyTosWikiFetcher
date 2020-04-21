@@ -62,6 +62,7 @@ public class Main {
     }
 
     private static void a() {
+
     }
 
     private static void fetch() {
@@ -75,7 +76,6 @@ public class Main {
     private static void ln(String fmt, Object... p) {
         System.out.println((p == null) ? fmt : String.format(fmt, p));
     }
-
 
     private static void fetchCards() {
         boolean fullRun = 1 > 0;

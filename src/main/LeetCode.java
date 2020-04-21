@@ -205,6 +205,7 @@ public class LeetCode implements Runnable {
      * }
      */
     /*
+
     // Return li[k] if exists, or return at tail
     private ListNode get(ListNode head, int k) {
         int m = 0;
@@ -225,6 +226,29 @@ public class LeetCode implements Runnable {
         }
         return s;
     }
+
+     */
+    /**
+     * Definition for a binary tree node.
+     * public class TreeNode {
+     *     int val;
+     *     TreeNode left;
+     *     TreeNode right;
+     *     TreeNode(int x) { val = x; }
+     * }
+     */
+    /*
+
+    private String ss(TreeNode x) {
+        if (x == null) {
+            return "null";
+        } else {
+            String l = (x.left == null) ? ("-") : ("" + x.left.val);
+            String r = (x.right == null) ? ("-") : ("" + x.right.val);
+            return l + " (" + x.val + ") " + r;
+        }
+    }
+
     */
 
     private static void ln(String fmt, Object... p) {
