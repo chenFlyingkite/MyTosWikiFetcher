@@ -143,6 +143,23 @@ class StageInfo : TableInfo() {
     var title: String = ""
 }
 
+class SealEventTable {
+    var title = ""
+    val rows = ArrayList<SealEventItem>()
+}
+
+
+class SealEventItem {
+    var dateStart: Long = 0
+    var dateEnd: Long = 0
+    var text = ""
+    var ids = ArrayList<String>()
+
+    override fun toString() : String {
+        return "$dateStart ~ $dateEnd -> ${text}\n  ids = $ids"
+    }
+}
+
 class HomeTable {
     var title = ""
     val rows = ArrayList<HomeRow>()

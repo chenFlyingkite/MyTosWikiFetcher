@@ -47,6 +47,7 @@ public class Main {
         fetch();
         //copyToMyTosWiki();
         //TosCardFetcher.me.run();
+        //TosWikiHomeFetcher.me.run();
 
         //XliffParser.me.addStringsToIos();
 
@@ -62,7 +63,6 @@ public class Main {
     }
 
     private static void a() {
-
     }
 
     private static void fetch() {

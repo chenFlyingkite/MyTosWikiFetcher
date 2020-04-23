@@ -125,6 +125,34 @@ class TosGet {
             return homeTable
         }
 
+        fun getTosSealEvent(element: Element?, wikiBase: String) : SealEventTable {
+            val main = SealEventTable()
+            if (element == null) return main
+
+            val tbs = element.getElementsByTag("table")
+
+            val allRows = ArrayList<SealEventItem>()
+            for (tb in tbs) {
+                val row = SealEventItem()
+
+                // Add to data holder
+                row.dateStart = asLong(tb.attr("data-start"))
+                row.dateEnd = asLong(tb.attr("data-end"))
+                row.text = tb.text()
+
+                val xs = tb.getElementsContainingOwnText("角色")
+                if (xs.size > 0) {
+                    val x = xs[0]
+                    // new cards & bird
+                    row.ids.addAll(getImgAltIds(x))
+                }
+                //println("row = $row")
+                allRows.add(row)
+            }
+            main.rows.addAll(allRows)
+            return main
+        }
+
         private fun asLong(text :String?, failed :Long = 0) :Long {
             var value = failed
             try {

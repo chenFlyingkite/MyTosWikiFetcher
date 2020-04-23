@@ -1,7 +1,10 @@
 package main.fetcher;
 
+import flyingkite.log.L;
 import main.kt.HomeRow;
 import main.kt.HomeTable;
+import main.kt.SealEventItem;
+import main.kt.SealEventTable;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -24,6 +27,7 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         Document doc = getDocument(getPage());
         clock.tic();
         getMain(doc);
+        getSealEvent(doc);
         clock.tac("TosWikiHomeFetcher OK");
 
         mLf.getFile().close();
@@ -42,5 +46,18 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
                 mLf.log(mGson.toJson(row.toStage()) + ",");
             }
         }
+    }
+
+    private void getSealEvent(Document doc) {
+        Element main = doc.getElementById("SealEvent");
+        if (main == null) return;
+        SealEventTable st = TosGet.me.getTosSealEvent(main, wikiBaseZh);
+
+        for (int i = 0; i < st.getRows().size(); i++) {
+            SealEventItem x = st.getRows().get(i);
+            L.log("#%s = %s", i, x);
+        }
+
+
     }
 }
