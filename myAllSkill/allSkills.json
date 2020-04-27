@@ -3737,7 +3737,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B7%E8%B1%94%E5%90%90%E6%AF%92",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "解除水屬性成員被封鎖的技能 (此技能無視封鎖技能)。敵方全體中毒，每回合將受到施技者攻擊力 10 倍的傷害，此傷害無視防禦力及屬性並持續到死亡",
+    "skillDesc": "解除水屬性成員被封鎖的技能 (此技能無視封鎖技能)。敵方全體中毒，每回合將受到自身攻擊力 10 倍的傷害，此傷害無視防禦力及屬性並持續到死亡",
     "skillMonsters": [
       "2017"
     ]
@@ -8487,7 +8487,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BC%95%E7%88%86%E5%AF%A6%E9%A9%97",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 1 回合內 　機械族成員的攻擊傷害無視攻前盾 II. 引爆所有光以外的符石 III. 對敵方全體造成 100,000 點光屬性傷害 IV. 將光符石轉化為機械族強化符石",
+    "skillDesc": "I. 1 回合內 　機械族成員的攻擊傷害無視「攻前盾」 II. 引爆所有光以外的符石 III. 對敵方全體造成 100,000 點光屬性傷害 IV. 將光符石轉化為機械族強化符石",
     "skillMonsters": [
       "2194"
     ]
@@ -9359,7 +9359,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E7%B4%9B%E9%A3%9B",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有獸類成員： I. 全隊攻擊力 6.5 倍 II. 每個成員增加 500 點回復力 III. 場上每有 1 個附加效果 ⇒ 全隊攻擊力額外 1.2 倍 ⇒ 最多計算 4 個附加效果 IV. 生命力未滿時 ⇒ 全隊攻擊力及回復力額外 1.5 倍 V. 首批消除 1 組 ≥5 粒符石時， 使敵方全體中毒： ⇒ 每回合受到施技者攻擊力的傷害 (此傷害無視防禦力及屬性並持續至死亡)",
+    "skillDesc": "隊伍中只有獸類成員： I. 全隊攻擊力 6.5 倍 II. 每個成員增加 500 點回復力 III. 場上每有 1 個附加效果 ⇒ 全隊攻擊力額外 1.2 倍 ⇒ 最多計算 4 個附加效果 IV. 生命力未滿時 ⇒ 全隊攻擊力及回復力額外 1.5 倍 V. 首批消除 1 組 ≥5 粒符石時， 使敵方全體中毒： ⇒ 每回合受到自身攻擊力的傷害 (此傷害無視防禦力及屬性並持續至死亡)",
     "skillMonsters": [
       "2310"
     ]
@@ -14153,7 +14153,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AF%92%E5%AE%B3",
     "skillCDMin": 19,
     "skillCDMax": 10,
-    "skillDesc": "敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡",
+    "skillDesc": "敵方全體中毒，每回合將受到自身攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡",
     "skillMonsters": [
       "0128",
       "0129",
@@ -14169,7 +14169,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AF%92%E6%B0%B4%E4%B9%8B%E6%B3%89",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "敵方全體中毒，每回合將受到施技者攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡。效果期間全隊攻擊力 1.6 倍，並延長移動符石時間至 15 秒",
+    "skillDesc": "敵方全體中毒，每回合將受到自身攻擊力的傷害，此傷害無視防禦力及屬性並持續到死亡。效果期間全隊攻擊力 1.6 倍，並延長移動符石時間至 15 秒",
     "skillMonsters": [
       "1689"
     ]
@@ -14962,6 +14962,17 @@
     "skillDesc": "需裝備「水瓶座黃金聖衣」龍刻武裝才可發動此技能： I. 變身 II. 1 回合內，可任意移動符石而不會發動消除",
     "skillMonsters": [
       "2101"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "水色塗抹",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E8%89%B2%E5%A1%97%E6%8A%B9",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 將移動符石時觸碰的首 6 粒符石 ⇒ 轉化為水妖族符石 II. 將移動符石時觸碰的水符石 ⇒ 轉化為水強化符石",
+    "skillMonsters": [
+      "2401"
     ]
   },
   {
@@ -15968,7 +15979,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%B4%E7%81%AB%E9%87%8D%E6%8B%B3",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 引爆火符石四周的符石 ⇒ 掉落強化符石 1 回合內 II. 自身攻擊力 5 倍 (攻擊力不可與其他成員共享) III. 引爆符石達 ≥8 粒 ⇒ 自身攻擊無視攻前盾",
+    "skillDesc": "I. 引爆火符石四周的符石 ⇒ 掉落強化符石 1 回合內 II. 自身攻擊力 5 倍 (攻擊力不可與其他成員共享) III. 引爆符石達 ≥8 粒 ⇒ 自身攻擊無視「攻前盾」",
     "skillMonsters": [
       "2382"
     ]
@@ -19686,6 +19697,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "玄冥絕塵 ‧ 攻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E7%B5%95%E5%A1%B5_%E2%80%A7_%E6%94%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆場上的光、暗符石 ⇒ 掉落水、火、木、心符石 1 回合內 II. 首批消除相同組數的水、火、木符石 ⇒ 無視「固定連擊盾」 III. 若發動技能時所有機械族成員的 行動值達至 100% ⇒ 所有成員額外追打 1 次",
+    "skillMonsters": [
+      "2378"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "玄冥絕塵 ‧ 神授",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E7%B5%95%E5%A1%B5_%E2%80%A7_%E7%A5%9E%E6%8E%88",
     "skillCDMin": 16,
@@ -20581,7 +20603,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9A%87%E5%AE%B6%E6%83%A1%E9%AD%94%E7%8E%AB%E7%91%B0",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "敵方全體中毒，每回合將受到「施技者攻擊力」15 倍等值的傷害，此傷害無視防禦力及屬性並持續至死亡；效果期間，敵人的防禦力減至 0 及其攻擊力弱化 30%",
+    "skillDesc": "敵方全體中毒，每回合將受到自身攻擊力 15 倍的傷害，此傷害無視防禦力及屬性並持續至死亡；效果期間，敵人的防禦力減至 0 及其攻擊力弱化 30%",
     "skillMonsters": [
       "2114"
     ]
@@ -21092,7 +21114,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A3%B7%E7%81%AB%E4%B9%8B%E6%8E%8C",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 將火及暗符石轉化為 ⇒ 火獸族強化符石 II. 發動技能時若自身「仙力」達 10 點 ⇒ 1 回合內，獸類成員 50% 的攻擊傷害 無視攻前盾",
+    "skillDesc": "I. 將火及暗符石轉化為 ⇒ 火獸族強化符石 II. 發動技能時若自身「仙力」達 10 點 ⇒ 1 回合內，獸類成員 50% 的攻擊傷害 無視「攻前盾」",
     "skillMonsters": [
       "2134"
     ]
@@ -21254,7 +21276,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E4%B9%8B%E5%B9%BB%E8%A1%93",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 將水符石轉化為光神族強化符石 II. 將火符石轉化為暗神族強化符石 III. 將木符石轉化為心神族強化符石 IV. 1 回合內，神族成員的攻擊 ⇒ 無視攻前盾 ⇒ 無視敵人的防禦力",
+    "skillDesc": "I. 將水符石轉化為光神族強化符石 II. 將火符石轉化為暗神族強化符石 III. 將木符石轉化為心神族強化符石 IV. 1 回合內，神族成員的攻擊 ⇒ 無視「攻前盾」 ⇒ 無視敵人的防禦力",
     "skillMonsters": [
       "2177"
     ]
@@ -27338,7 +27360,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AB%B8%E5%88%83%E7%9B%B4%E8%B2%AB%E8%BD%9F%E6%93%8A",
     "skillCDMin": 22,
     "skillCDMax": 8,
-    "skillDesc": "消耗現有一半的生命力， 以 150 倍自身攻擊力對敵方全體造成無屬性傷害，此傷害無視攻前盾。1 回合內，所有攻擊傷害無視攻前盾",
+    "skillDesc": "消耗現有一半的生命力， 以 150 倍自身攻擊力對敵方全體造成無屬性傷害，此傷害無視攻前盾。1 回合內，所有攻擊傷害無視「攻前盾」",
     "skillMonsters": [
       "0819"
     ]
@@ -32885,6 +32907,17 @@
     "skillDesc": "達成 4 連擊 (Combo) 或以上才會發動攻擊和回復，連擊 (Combo) 時攻擊力提升 40%，期間所有減傷效果無效 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，當前技能 CD 減少 6",
     "skillMonsters": [
       "1048"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔流之暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B5%81%E4%B9%8B%E6%9A%B4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 自身對獸類、妖精類、龍類目標 ⇒ 攻擊力 4 倍 II. 回合完結時 ⇒ 將火符石轉化為水魔族符石 III. 若有擊斃敵人 ⇒ 該回合不會扣減技能持續回合",
+    "skillMonsters": [
+      "2393"
     ]
   },
   {

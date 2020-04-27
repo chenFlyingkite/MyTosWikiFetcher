@@ -249,8 +249,24 @@ public class LeetCode implements Runnable {
         }
     }
 
+    public static int min(int[] a) {
+        int m = a[0];
+        for (int i = 1; i < a.length; i++) {
+            int x = a[i];
+            if (m > x) { // max = m < x
+                m = x;
+            }
+        }
+        ln("min = %s, a = %s", m, as(a));
+        return m;
+    }
+
     */
 
+
+    private static String as(int[] a) {
+        return Arrays.toString(a);
+    }
     private static void ln(String fmt, Object... p) {
         System.out.println((p == null) ? fmt : String.format(fmt, p));
     }

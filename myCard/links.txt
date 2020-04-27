@@ -14082,6 +14082,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2377"
   },
   {
+    "title": "No. 2378 機敢衝鋒 ‧ 多羅",
+    "id": "2378",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%95%A2%E8%A1%9D%E9%8B%92_%E2%80%A7_%E5%A4%9A%E7%BE%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/2378"
+  },
+  {
     "title": "No. 2381 編號 8299 ‧ 南納",
     "id": "2381",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B7%A8%E8%99%9F_8299_%E2%80%A7_%E5%8D%97%E7%B4%8D",
@@ -14140,6 +14146,12 @@
     "id": "2390",
     "link": "https://tos.fandom.com/zh/wiki/%E9%80%A0%E7%89%A9%E7%8B%82%E6%83%B3_%E2%80%A7_%E9%87%91%E5%9B%BA",
     "linkId": "http://zh.tos.wikia.com/wiki/2390"
+  },
+  {
+    "title": "No. 2393 未知惡靈 ‧ 澤西惡魔",
+    "id": "2393",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%AA%E7%9F%A5%E6%83%A1%E9%9D%88_%E2%80%A7_%E6%BE%A4%E8%A5%BF%E6%83%A1%E9%AD%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/2393"
   },
   {
     "title": "No. 2396 營商之道 ‧ 吉賽兒",
@@ -16092,6 +16104,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6349"
   },
   {
+    "title": "S352 子彈橫飛 · 豬八戒",
+    "id": "6352",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AD%90%E5%BD%88%E6%A9%AB%E9%A3%9B_%C2%B7_%E8%B1%AC%E5%85%AB%E6%88%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/6352"
+  },
+  {
     "title": "S357 青鳥情繞 ‧ 曹丕(動態造型)",
     "id": "6357",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9D%92%E9%B3%A5%E6%83%85%E7%B9%9E_%E2%80%A7_%E6%9B%B9%E4%B8%95(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
@@ -16102,6 +16120,12 @@
     "id": "6358",
     "link": "https://tos.fandom.com/zh/wiki/%E7%80%A7%E5%B7%9D%E5%87%9C(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6358"
+  },
+  {
+    "title": "S365 造物狂想 ‧ 金固(動態造型)",
+    "id": "6365",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%A0%E7%89%A9%E7%8B%82%E6%83%B3_%E2%80%A7_%E9%87%91%E5%9B%BA(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6365"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
