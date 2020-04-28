@@ -267,6 +267,7 @@ public class LeetCode implements Runnable {
     private static String as(int[] a) {
         return Arrays.toString(a);
     }
+
     private static void ln(String fmt, Object... p) {
         System.out.println((p == null) ? fmt : String.format(fmt, p));
     }

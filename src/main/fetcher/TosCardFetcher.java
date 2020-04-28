@@ -61,6 +61,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/1082" // 孤高龍王 ‧ 敖廣
                 , "https://tos.fandom.com/zh/wiki/1777" // 斯芬克斯
         );
+        //link.clear();
         //---
         Collections.addAll(link
                 , "https://tos.fandom.com/zh/wiki/001" // TosCardCreator = 18

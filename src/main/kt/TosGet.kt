@@ -1,20 +1,16 @@
 package main.kt
 
 import flyingkite.functional.MeetSS
-import flyingkite.log.L
 import flyingkite.math.MathUtil
 import flyingkite.tool.TextUtil
 import flyingkite.tool.TicTac2
-import main.card.TC.id
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import okhttp3.ResponseBody
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
 import java.io.IOException
-import java.lang.Exception
 import java.util.*
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
@@ -1433,15 +1429,28 @@ class TosGet {
             val de = CardDetail()
             val details = doc.getElementsByClass("module move")
 
+            var teamInfo = ""
+            var cardInfo = ""
             for (det in details) {
-                val cif = det.text().indexOf("卡牌資訊")
-                if (cif in 0..9) { // Fine card info node, not story node
+                val tif = det.text().indexOf("隊伍技能")
+                if (tif in 0..9) { // Find team info node, not story node
                     val size = det.childNodeSize()
                     if (size > 0) {
                         val ele = det.childNode(size - 1)
                         if (ele is Element) {
-                            //return ele.text()
-                            de.detail = concatTextNodes(ele)
+                            teamInfo = concatTextNodes(ele)
+                        }
+                    }
+                }
+
+                val cif = det.text().indexOf("卡牌資訊")
+                // Fill in same skills in node
+                if (cif in 0..9) { // Find card info node, not story node
+                    val size = det.childNodeSize()
+                    if (size > 0) {
+                        val ele = det.childNode(size - 1)
+                        if (ele is Element) {
+                            cardInfo = concatTextNodes(ele)
                             val tas = ele.getElementsByClass(imageClass)
                             for (a in tas) {
                                 de.sameSkills.add(getAltId(a))
@@ -1449,6 +1458,12 @@ class TosGet {
                         }
                     }
                 }
+            }
+            val noTeam = teamInfo.isEmpty()
+            if (noTeam) {
+                de.detail = cardInfo
+            } else {
+                de.detail = teamInfo + "\n\n\n" + cardInfo
             }
             return de
         }
