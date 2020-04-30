@@ -5458,6 +5458,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "嘣！嘣！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%98%A3%EF%BC%81%E5%98%A3%EF%BC%81",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "2 回合內 I. 隨機引爆 6 粒符石 ⇒ 掉落火符石 II. 敵方全體點燃，持續 2 回合",
+    "skillMonsters": [
+      "2402"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "噬狼吮血",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%99%AC%E7%8B%BC%E5%90%AE%E8%A1%80",
     "skillCDMin": 34,
@@ -13912,6 +13923,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "步步進擊 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AD%A5%E6%AD%A5%E9%80%B2%E6%93%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 首批消除 ≤4 連擊 (Combo) ⇒ 個人追打 1 次 (此傷害無視防禦力) II. 首批消除 5 至 6 連擊 (Combo) ⇒ 全隊攻擊力 2 倍 III. 首批消除 ≥7 連擊 (Combo) ⓵ 可獲得 I、II 效果 ⓶ 個人額外追打五屬攻擊各 1 次",
+    "skillMonsters": [
+      "2333"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "武之控壓",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AD%A6%E4%B9%8B%E6%8E%A7%E5%A3%93",
     "skillCDMin": 21,
@@ -21578,6 +21600,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "神族鼓舞",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E9%BC%93%E8%88%9E",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 回復 50% 生命力 1 回合內 II. 自身、神族隊長、神族戰友 ⇒ 以 50% 攻擊力追打 4 次 III. 若首批消除 ≥6 連擊 (Combo) ⇒ 當前技能 CD 減少 5",
+    "skillMonsters": [
+      "2096"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "神權之慾",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%AC%8A%E4%B9%8B%E6%85%BE",
     "skillCDMin": 17,
@@ -28534,6 +28567,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "連環陷阱 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%A3%E7%92%B0%E9%99%B7%E9%98%B1_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 達成的連擊 (Combo) 數目愈多 ⇒ 全隊攻擊力愈高 ⇒ 10 Combo 可達至最大 10 倍 II. 若 Combo 數目 \u003e10 ⇒ 則全隊攻擊力 2 倍",
+    "skillMonsters": [
+      "2333"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "連鎖聖令 ‧ 水",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%A3%E9%8E%96%E8%81%96%E4%BB%A4_%E2%80%A7_%E6%B0%B4",
     "skillCDMin": -1,
@@ -30474,6 +30518,17 @@
     "skillMonsters": [
       "0762",
       "0763"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雷霆戰意",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E9%9C%86%E6%88%B0%E6%84%8F",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 電擊敵方全體，持續 3 回合 II. 將每直行最頂 3 粒符石分別轉化為 「心、暗、光、木、火、水」強化符石 1 回合內 III. 將移動符石時觸碰的首 10 粒符石 ⇒ 轉化為神族強化符石",
+    "skillMonsters": [
+      "2392"
     ]
   },
   {

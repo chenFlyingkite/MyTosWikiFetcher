@@ -36176,7 +36176,7 @@
   {
     "id": "2178",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2178",
-    "name": "隨機轉光 ‧ 攻後光縱橫輪轉 ‧ 首消光傷害吸收 ‧ 轉珠技無效",
+    "name": "首回隨機轉光 ‧ 攻後光縱橫輪轉 ‧ 首消光傷害吸收 ‧ 弱轉珠技無效",
     "detail": "首回合隨機將 1 種符石轉化為光符石。\u003cbr\u003e當敵人首次發動攻擊時，隨機將 1 橫行的符石轉化為光符石；當第 2 次發動攻擊時，隨機將 1 直行的符石轉化為光符石。以上攻擊循環周而復始。\u003cbr\u003e消除光屬性的連擊 (Combo) 時 (只計算首批消除的符石)，敵人會回復相等於該回合召喚師所造成傷害的血量。\u003cbr\u003e敵人會令所有轉化符石的技能效果無效 (轉化種族符石而不改變符石種類的技能除外)",
     "esCode": "{{ES2178}}",
     "icons": [
@@ -36191,10 +36191,6 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b3/SI014.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101354\u0026path-prefix\u003dzh",
         "iconKey": "SI014.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/7/71/SI122.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI122.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",

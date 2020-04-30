@@ -106,7 +106,7 @@ public class ASD {
         // Find cards
         // Normal
         //findCardSkill("電擊符石", allCards);
-        findCardSkill("石化符石", allCards);
+        findCardSkill("指定形狀", allCards);
         //findCardSkill("解除黑白符石的狀態", allCards);
         L.log("--**--\n\n--**--");
         //findCardSkill("水(.{0,30})火(.{0,30})木(.{0,30})光(.{0,30})暗(.{0,30})", true, allCards);
