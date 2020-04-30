@@ -17,6 +17,7 @@ import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosStoryStageFetcher;
 import main.fetcher.TosUltimateStageFetcher;
+import main.fetcher.TosUserPackFetcher;
 import main.fetcher.TosVoidRealmFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiChecker;
@@ -46,6 +47,7 @@ public class Main {
         //MyTosWikiFirebase.run();
         fetch();
         //copyToMyTosWiki();
+        //TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
 

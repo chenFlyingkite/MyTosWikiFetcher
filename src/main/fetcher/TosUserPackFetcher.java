@@ -26,16 +26,38 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
 
     private String getPage() {
         // 神魔健檢中心：http://review.towerofsaviors.com/
-        return "https://review.towerofsaviors.com/199215954";
+        //return "https://review.towerofsaviors.com/199215954";
+        //return "https://checkupapi.tosgame.com/user/login";
+        return "https://checkupapi.tosgame.com/api/inventoryReview/getUserProfile";
+    }
+    // {"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODgyNDM5OTQsImV4cCI6MTU4ODMzMDM5NCwiaXNzIjoibWFkaGVhZCJ9.U9OE0heZ_pD8Y1rHwkS9iHZVQjMzUaZdPRRD1RgugoWljhFvk7l3WE6iV4-6KKKfMy4XfZ43CfN0DltAjbRd1A"
+    // ,"user":{"uid":199215954,"name":"Flyingkite2","campaignLoginDays":32,"level":527,"role":0},"isSuccess":1}
+
+    private Map<String, String> params() {
+        Map<String, String> m = new HashMap<>();
+        //m.put("token", "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODgyNDM5OTQsImV4cCI6MTU4ODMzMDM5NCwiaXNzIjoibWFkaGVhZCJ9.U9OE0heZ_pD8Y1rHwkS9iHZVQjMzUaZdPRRD1RgugoWljhFvk7l3WE6iV4-6KKKfMy4XfZ43CfN0DltAjbRd1A");
+        m.put("token", "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODgyNDM5OTQsImV4cCI6MTU4ODMzMDM5NCwiaXNzIjoibWFkaGVhZCJ9.U9OE0heZ_pD8Y1rHwkS9iHZVQjMzUaZdPRRD1RgugoWljhFvk7l3WE6iV4-6KKKfMy4XfZ43CfN0DltAjbRd1A");
+        m.put("aid", "408798");
+        m.put("uid", "199215954");
+
+//        m.put("aid", "489224");
+//        m.put("uid", "150372202");
+        //m.put("labels", "{\"serviceType\":\"tosCampaign\"}");
+        //m.put("serviceType", "tosCampaign");
+        m.put("includeInventory", "true");
+        return m;
     }
 
     @Override
     public void run() {
         loadAllCards();
         clk.tic();
-        Document d = getDocument(getPage());
+        Document d;// = getDocument(getPage());
+        d = getByOkHttp(getPage(), params());
+
         clk.tac("TAC get doc");
         String data = d.toString();
+        L.log("data = %s", data);
 
         //albums(data);
 

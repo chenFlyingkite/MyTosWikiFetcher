@@ -263,13 +263,19 @@ public class LeetCode implements Runnable {
 
     */
 
+    private static void pa(int[][] a) {
+        int n = a.length;
+        for (int i = 0; i < n; i++) {
+            ln("#%s : %s", i, as(a[i]));
+        }
+    }
 
     private static String as(int[] a) {
         return Arrays.toString(a);
     }
 
-    private static void ln(String fmt, Object... p) {
-        System.out.println((p == null) ? fmt : String.format(fmt, p));
+    private static void ln(String f, Object... p) {
+        System.out.println((p == null) ? f :String.format(f, p));
     }
 }
 
