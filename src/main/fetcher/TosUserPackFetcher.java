@@ -1,11 +1,13 @@
 package main.fetcher;
 
+import com.google.gson.Gson;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.math.MathUtil;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TicTac2;
 import main.card.TosCard;
+import main.fetcher.data.mypack.PackResponse;
 import org.jsoup.nodes.Document;
 
 import java.io.File;
@@ -25,8 +27,9 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
     private Map<String, TosCard> allCards = new HashMap<>();
 
     private String getPage() {
-        // 神魔健檢中心：http://review.towerofsaviors.com/
+        // 神魔健檢中心 : http://review.towerofsaviors.com/
         //return "https://review.towerofsaviors.com/199215954";
+        // new 神魔健檢中心 = https://checkup.tosgame.com/
         //return "https://checkupapi.tosgame.com/user/login";
         return "https://checkupapi.tosgame.com/api/inventoryReview/getUserProfile";
     }
@@ -52,8 +55,7 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
     public void run() {
         loadAllCards();
         clk.tic();
-        Document d;// = getDocument(getPage());
-        d = getByOkHttp(getPage(), params());
+        Document d = getByOkHttp(getPage(), params());
 
         clk.tac("TAC get doc");
         String data = d.toString();
@@ -62,6 +64,7 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
         //albums(data);
 
         inventory(data);
+        //inventoryOld(data);
 
 //        let temp = {
 //                id : parseInt(c[0]),
@@ -91,6 +94,16 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
 //        mLf.getFile().close();
     }
 
+    private void inventory(String data) {
+        String userData = find(data, 0, "<body>", "</body>").trim();
+        L.log("use data (len = %s) = \n%s\n", userData.length(), userData);
+        Gson gson = new Gson();
+        PackResponse pr = gson.fromJson(userData, PackResponse.class);
+        if (pr != null) {
+            L.log("pr = %s cards", pr.card.size());
+        }
+    }
+
     private void albums(String data) {
         String album = find(data, 0, "album_str : '", "'.split(\",\")");
         L.log("album = \n%s\n", album);
@@ -100,7 +113,9 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
         statistics("album", albs);
     }
 
-    private void inventory(String data) {
+    @Deprecated
+    // This is old way
+    private void inventoryOld(String data) {
         String inventory = find(data, 0, "inventory_str : '", "'.split(\",\")");
         L.log("inventory_str  = \n%s\n", inventory);
         String[] invs = inventory.split(",");
@@ -109,7 +124,7 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
             String[] a = invs[i].split("[|]");
         }
         L.log("\n\n");
-        statistics("inventory", invs);
+        statistics("inventoryOld", invs);
     }
 
     private <T> void print(T[] d) {

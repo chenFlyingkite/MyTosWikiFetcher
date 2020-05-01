@@ -45,9 +45,9 @@ public class Main {
         //stock();
 
         //MyTosWikiFirebase.run();
-        fetch();
+        //fetch();
         //copyToMyTosWiki();
-        //TosUserPackFetcher.me.run();
+        TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
 
@@ -68,7 +68,7 @@ public class Main {
     }
 
     private static void fetch() {
-        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
+        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
         fetchMisc();
         fetchCards();
         //TosWikiCardsLister.me.run();
