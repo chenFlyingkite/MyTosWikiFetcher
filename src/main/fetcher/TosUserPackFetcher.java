@@ -45,9 +45,8 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
 
 //        m.put("aid", "489224");
 //        m.put("uid", "150372202");
-        //m.put("labels", "{\"serviceType\":\"tosCampaign\"}");
-        //m.put("serviceType", "tosCampaign");
-        m.put("includeInventory", "true");
+        m.put("labels", "{\"serviceType\":\"tosCampaign\"}");
+        //m.put("includeInventory", "true");
         return m;
     }
 
