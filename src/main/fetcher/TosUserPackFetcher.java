@@ -8,6 +8,7 @@ import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TicTac2;
 import main.card.TosCard;
 import main.fetcher.data.mypack.PackResponse;
+import main.fetcher.data.mypack.PackTokenResponse;
 import org.jsoup.nodes.Document;
 
 import java.io.File;
@@ -26,27 +27,38 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
     private TicTac2 clk = new TicTac2();
     private Map<String, TosCard> allCards = new HashMap<>();
 
+    private boolean getToken = 0 > 0;
+
     private String getPage() {
         // 神魔健檢中心 : http://review.towerofsaviors.com/
         //return "https://review.towerofsaviors.com/199215954";
         // new 神魔健檢中心 = https://checkup.tosgame.com/
-        //return "https://checkupapi.tosgame.com/user/login";
-        return "https://checkupapi.tosgame.com/api/inventoryReview/getUserProfile";
+        if (getToken) {
+            return "https://checkupapi.tosgame.com/user/login";
+        } else {
+            return "https://checkupapi.tosgame.com/api/inventoryReview/getUserProfile";
+        }
     }
     // {"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODgyNDM5OTQsImV4cCI6MTU4ODMzMDM5NCwiaXNzIjoibWFkaGVhZCJ9.U9OE0heZ_pD8Y1rHwkS9iHZVQjMzUaZdPRRD1RgugoWljhFvk7l3WE6iV4-6KKKfMy4XfZ43CfN0DltAjbRd1A"
     // ,"user":{"uid":199215954,"name":"Flyingkite2","campaignLoginDays":32,"level":527,"role":0},"isSuccess":1}
 
     private Map<String, String> params() {
         Map<String, String> m = new HashMap<>();
-        //m.put("token", "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODgyNDM5OTQsImV4cCI6MTU4ODMzMDM5NCwiaXNzIjoibWFkaGVhZCJ9.U9OE0heZ_pD8Y1rHwkS9iHZVQjMzUaZdPRRD1RgugoWljhFvk7l3WE6iV4-6KKKfMy4XfZ43CfN0DltAjbRd1A");
-        m.put("token", "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODgyNDM5OTQsImV4cCI6MTU4ODMzMDM5NCwiaXNzIjoibWFkaGVhZCJ9.U9OE0heZ_pD8Y1rHwkS9iHZVQjMzUaZdPRRD1RgugoWljhFvk7l3WE6iV4-6KKKfMy4XfZ43CfN0DltAjbRd1A");
-        m.put("aid", "408798");
-        m.put("uid", "199215954");
+        if (1 > 0) {
+            m.put("aid", "016789");
+            m.put("uid", "199215954");
+            m.put("token", "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODg1NjI3MzIsImV4cCI6MTU4ODY0OTEzMiwiaXNzIjoibWFkaGVhZCJ9.NVITVHG4he_lfxlTCzBD5Im0aIZE5eP5BCAlPNBV5iMw63oCrGewUcTLrIKUaY4pdbWxhiR6qc_ciAZkwGlS8g");
+        } else {
+            m.put("aid", "952858");
+            m.put("uid", "150372202");
+            //m.put("token", "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjE5OTIxNTk1NCwibmFtZSI6IkZseWluZ2tpdGUyIiwiY2FtcGFpZ25Mb2dpbkRheXMiOjMyLCJsZXZlbCI6NTI3LCJyb2xlIjowLCJpYXQiOjE1ODg1NjI3MzIsImV4cCI6MTU4ODY0OTEzMiwiaXNzIjoibWFkaGVhZCJ9.NVITVHG4he_lfxlTCzBD5Im0aIZE5eP5BCAlPNBV5iMw63oCrGewUcTLrIKUaY4pdbWxhiR6qc_ciAZkwGlS8g");
+        }
 
-//        m.put("aid", "489224");
-//        m.put("uid", "150372202");
-        m.put("labels", "{\"serviceType\":\"tosCampaign\"}");
-        //m.put("includeInventory", "true");
+        if (getToken) {
+            m.put("labels", "{\"serviceType\":\"tosCampaign\"}");
+        } else {
+            m.put("includeInventory", "true");
+        }
         return m;
     }
 
@@ -62,7 +74,11 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
 
         //albums(data);
 
-        inventory(data);
+        if (getToken) {
+            fetchToken(data);
+        } else {
+            inventory(data);
+        }
         //inventoryOld(data);
 
 //        let temp = {
@@ -91,6 +107,17 @@ public class TosUserPackFetcher extends TosWikiBaseFetcher {
 //
 //        clock.tac("%s Done", tag());
 //        mLf.getFile().close();
+    }
+
+    private void fetchToken(String data) {
+        String userData = find(data, 0, "<body>", "</body>").trim();
+        L.log("use data (len = %s) = \n%s\n", userData.length(), userData);
+        Gson g = new Gson();
+        PackTokenResponse r = g.fromJson(userData, PackTokenResponse.class);
+        if (r != null) {
+            L.log("%s\n", g.toJson(r));
+            L.log("%s", r.token);
+        }
     }
 
     private void inventory(String data) {

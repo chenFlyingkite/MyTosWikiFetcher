@@ -5,15 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PackResponse {
-    @SerializedName("isSuccess")
-    public int isSuccess;
-
-    @SerializedName("errorCode")
-    public int errorCode;
-
-    @SerializedName("errorMessage")
-    public String errorMessage = "";
+public class PackResponse extends PackBaseResponse{
 
     @SerializedName("userData")
     public PackUserData userData;
