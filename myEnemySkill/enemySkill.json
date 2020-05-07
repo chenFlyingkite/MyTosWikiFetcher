@@ -56512,7 +56512,7 @@
     "id": "3219",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3219",
     "name": "CD1 ‧ 隨機轉光弱化鎖定20% ‧ 強化防禦90% ‧ 越戰越強-金",
-    "detail": "敵人首次攻擊變為 CD 1。每回合移動符石前，隨機將 1 種符石轉化為鎖定的光符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)。強化符石所造成的傷害減至 10%。敵人生命力愈低時，攻擊力會大幅提升，達到一定血量時並會連撃 2 次",
+    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e每回合移動符石前，隨機將 1 種符石轉化為鎖定的光符石；每消除 1 粒被鎖定的符石，全隊攻擊力減少 20% (發動龍刻脈動視作消除場上的鎖定符石)。\u003cbr\u003e強化符石所造成的傷害減至 10%。\u003cbr\u003e敵人生命力愈低時，攻擊力會大幅提升，達到一定血量時並會連撃 2 次",
     "esCode": "{{ES3219}}",
     "icons": [
       {
@@ -57775,8 +57775,8 @@
   {
     "id": "3271",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3271",
-    "name": "隨機3~6Combo追擊盾-轉 ‧ 始終盾 ‧ 消Combo盾20%",
-    "detail": "在開始移動符石時，出現隨機指定的連擊 (Combo) 數，當達成指定的連擊 (Combo) 才會對敵人造成攻擊傷害 (需消除符石及只計算首批消除的符石)。達成上述指定的連擊 (Combo) 數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復 (達成條件前，無法進行回復)。\u003cbr\u003e首批消除指定的連擊 (Combo)，可扣除敵人 20% 生命力；除此以外，敵人不受任何攻擊傷害 (包括主動技)",
+    "name": "隨機3~5Combo追擊盾-轉 ‧ 始終盾 ‧ 消Combo盾20%",
+    "detail": "【移動符石時顯示】\u003cbr\u003e首批消除指定的連擊 (Combo)，可扣除敵人 20% 生命力；除此以外，敵人不受任何攻擊傷害 (包括主動技)。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。\u003cbr\u003e\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復 (達成條件前，無法進行回復)。",
     "esCode": "{{ES3271}}",
     "icons": [
       {
@@ -59731,10 +59731,6 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/9/9f/SI313.png/revision/latest/scale-to-width-down/22?cb\u003d20190325083821\u0026path-prefix\u003dzh",
         "iconKey": "SI313.png"
-      },
-      {
-        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/4f/SI317.png/revision/latest/scale-to-width-down/22?cb\u003d20200420160145\u0026path-prefix\u003dzh",
-        "iconKey": "SI317.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/5a/SI251.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103121\u0026path-prefix\u003dzh",
@@ -70771,7 +70767,7 @@
   {
     "id": "3838",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3838",
-    "name": "突擊 ‧ 四重碎裂 ‧ 5+Combo追擊盾 ‧ 無法控制",
+    "name": "突擊10% ‧ 四重碎裂 ‧ 5+Combo追擊盾 ‧ 無法控制",
     "detail": "首回合優先突擊 1 次，\u003cbr\u003e並隨機碎裂 4 個位置，\u003cbr\u003e該位置內的符石\u003cbr\u003e無法被消除或引爆。\u003cbr\u003e\u003cbr\u003e5 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3838}}",
     "icons": [
@@ -70796,7 +70792,7 @@
   {
     "id": "3839",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3839",
-    "name": "突擊 ‧ 六重碎裂 ‧ 6+Combo追擊盾 ‧ 無法控制",
+    "name": "突擊10% ‧ 六重碎裂 ‧ 6+Combo追擊盾 ‧ 無法控制",
     "detail": "首回合優先突擊 1 次，\u003cbr\u003e並隨機碎裂 6 個位置，\u003cbr\u003e該位置內的符石\u003cbr\u003e無法被消除或引爆。\u003cbr\u003e\u003cbr\u003e6 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3839}}",
     "icons": [
@@ -70821,7 +70817,7 @@
   {
     "id": "3840",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3840",
-    "name": "突擊 ‧ 八重碎裂 ‧ 7+Combo追擊盾 ‧ 無法控制",
+    "name": "突擊10% ‧ 八重碎裂 ‧ 7+Combo追擊盾 ‧ 無法控制",
     "detail": "首回合優先突擊 1 次，\u003cbr\u003e並隨機碎裂 8 個位置，\u003cbr\u003e該位置內的符石\u003cbr\u003e無法被消除或引爆。\u003cbr\u003e\u003cbr\u003e7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3840}}",
     "icons": [
