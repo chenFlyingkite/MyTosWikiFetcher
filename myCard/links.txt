@@ -13536,6 +13536,36 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2272"
   },
   {
+    "title": "No. 2273 不屈鴻志 ‧ 孫策",
+    "id": "2273",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E5%B1%88%E9%B4%BB%E5%BF%97_%E2%80%A7_%E5%AD%AB%E7%AD%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2273"
+  },
+  {
+    "title": "No. 2274 聚勢披靡 ‧ 孫權",
+    "id": "2274",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%81%9A%E5%8B%A2%E6%8A%AB%E9%9D%A1_%E2%80%A7_%E5%AD%AB%E6%AC%8A",
+    "linkId": "http://zh.tos.wikia.com/wiki/2274"
+  },
+  {
+    "title": "No. 2275 葬殤修羅 ‧ 祝融",
+    "id": "2275",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%91%AC%E6%AE%A4%E4%BF%AE%E7%BE%85_%E2%80%A7_%E7%A5%9D%E8%9E%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2275"
+  },
+  {
+    "title": "No. 2276 崇高炎護 ‧ 孟獲",
+    "id": "2276",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B4%87%E9%AB%98%E7%82%8E%E8%AD%B7_%E2%80%A7_%E5%AD%9F%E7%8D%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2276"
+  },
+  {
+    "title": "No. 2277 絕戀綻芒 ‧ 大喬與小喬",
+    "id": "2277",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E6%88%80%E7%B6%BB%E8%8A%92_%E2%80%A7_%E5%A4%A7%E5%96%AC%E8%88%87%E5%B0%8F%E5%96%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2277"
+  },
+  {
     "title": "No. 2278 鋼甲熊",
     "id": "2278",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E7%94%B2%E7%86%8A",
@@ -14212,6 +14242,12 @@
     "id": "2403",
     "link": "https://tos.fandom.com/zh/wiki/%E6%91%A7%E6%AF%80%E8%97%9D%E8%A1%93_%E2%80%A7_%E6%96%90%E7%91%9E",
     "linkId": "http://zh.tos.wikia.com/wiki/2403"
+  },
+  {
+    "title": "No. 2404 裂窗噪曲 ‧ 伊芙",
+    "id": "2404",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%A3%82%E7%AA%97%E5%99%AA%E6%9B%B2_%E2%80%A7_%E4%BC%8A%E8%8A%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/2404"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -16180,6 +16216,12 @@
     "id": "6362",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B7%A8%E8%99%9F_6666_%E2%80%A7_%E4%BE%9D%E8%B2%9D%E6%80%9D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6362"
+  },
+  {
+    "title": "S364 絢爛愛慾 ‧ 維蘭瑟(動態造型)",
+    "id": "6364",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%A2%E7%88%9B%E6%84%9B%E6%85%BE_%E2%80%A7_%E7%B6%AD%E8%98%AD%E7%91%9F(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6364"
   },
   {
     "title": "S365 造物狂想 ‧ 金固(動態造型)",
