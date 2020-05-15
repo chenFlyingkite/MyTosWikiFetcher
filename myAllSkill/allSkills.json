@@ -7727,6 +7727,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "巨龍激濤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E9%BE%8D%E6%BF%80%E6%BF%A4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 若自身位於最左方 3 直行的成員位置 ⇒ 將左方 3 直行的符石分別轉化為 「水、心、水」龍族符石 II. 若自身位於最右方 3 直行的成員位置 ⇒ 將右方 3 直行的符石分別轉化為 「水、火、木」強化符石",
+    "skillMonsters": [
+      "2394"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "巴尼爾式殺人光線",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%B4%E5%B0%BC%E7%88%BE%E5%BC%8F%E6%AE%BA%E4%BA%BA%E5%85%89%E7%B7%9A",
     "skillCDMin": 17,
@@ -20683,6 +20694,17 @@
     "skillDesc": "I. 全隊攻擊力 3 倍 II. 當隊伍中只有 2 個火屬性成員時 ⇒ 全隊攻擊力提升至 5 倍及生命力 2 倍",
     "skillMonsters": [
       "1694"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "目標鎖定",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9B%AE%E6%A8%99%E9%8E%96%E5%AE%9A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "點選場上 1 粒符石， 以該符石為中心， 引爆「3x3」位置的符石。 有 80% 機率可以再次發動技能 (1 回合內最多觸發 3 次)",
+    "skillMonsters": [
+      "2403"
     ]
   },
   {

@@ -14178,6 +14178,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2393"
   },
   {
+    "title": "No. 2394 凶悍獅龍 ‧ 烏修穆迦魯",
+    "id": "2394",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%87%B6%E6%82%8D%E7%8D%85%E9%BE%8D_%E2%80%A7_%E7%83%8F%E4%BF%AE%E7%A9%86%E8%BF%A6%E9%AD%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2394"
+  },
+  {
     "title": "No. 2396 營商之道 ‧ 吉賽兒",
     "id": "2396",
     "link": "https://tos.fandom.com/zh/wiki/%E7%87%9F%E5%95%86%E4%B9%8B%E9%81%93_%E2%80%A7_%E5%90%89%E8%B3%BD%E5%85%92",
@@ -14200,6 +14206,12 @@
     "id": "2402",
     "link": "https://tos.fandom.com/zh/wiki/%E7%82%B8%E7%81%AB%E8%A1%9D%E5%A4%A9_%E2%80%A7_%E8%91%89%E5%8D%A1",
     "linkId": "http://zh.tos.wikia.com/wiki/2402"
+  },
+  {
+    "title": "No. 2403 摧毀藝術 ‧ 斐瑞",
+    "id": "2403",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%91%A7%E6%AF%80%E8%97%9D%E8%A1%93_%E2%80%A7_%E6%96%90%E7%91%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2403"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
