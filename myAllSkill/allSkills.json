@@ -14756,7 +14756,7 @@
     "type": "主動技",
     "skillName": "水月盈光術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%9C%88%E7%9B%88%E5%85%89%E8%A1%93",
-    "skillCDMin": 17,
+    "skillCDMin": 14,
     "skillCDMax": 3,
     "skillDesc": "發動此技能及下回合開始時， 將 10 粒「水及光以外」的符石 ⇒ 轉化為「水、光」人族強化符石各 5 粒",
     "skillMonsters": [
