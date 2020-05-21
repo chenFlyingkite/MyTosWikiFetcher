@@ -24769,7 +24769,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BD%AA%E6%88%AE%E7%9A%84%E7%BD%B0%E5%89%87",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 妖精類攻擊力 3 倍 II. 隊伍受到的傷害提升 2 倍 III. 以所受傷害 5 倍對敵方攻擊者 ⇒ 進行相克屬性反擊 (此傷害無視「強化突破」敵技)",
+    "skillDesc": "I. 妖精類攻擊力 3 倍 II. 隊伍受到的傷害提升 2 倍 III. 以所受傷害 5 倍對敵方攻擊者 ⇒ 進行相剋屬性反擊 (此傷害無視「強化突破」敵技)",
     "skillMonsters": [
       "2214"
     ]
@@ -28577,7 +28577,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%9F%E6%88%B0%E9%80%9F%E6%B1%BA_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "每回合剩餘的移動符石時間越多，攻擊力愈高，最少 2 倍，最大 4.5 倍",
+    "skillDesc": "每回合剩餘的移動符石時間愈多，攻擊力愈高，最少 2 倍，最大 4.5 倍",
     "skillMonsters": [
       "8013",
       "8014",
