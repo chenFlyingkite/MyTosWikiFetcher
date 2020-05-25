@@ -14136,6 +14136,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2378"
   },
   {
+    "title": "No. 2380 希望之盒 ‧ 潘朵拉",
+    "id": "2380",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%8C%E6%9C%9B%E4%B9%8B%E7%9B%92_%E2%80%A7_%E6%BD%98%E6%9C%B5%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2380"
+  },
+  {
     "title": "No. 2381 編號 8299 ‧ 南納",
     "id": "2381",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B7%A8%E8%99%9F_8299_%E2%80%A7_%E5%8D%97%E7%B4%8D",
@@ -14220,6 +14226,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2396"
   },
   {
+    "title": "No. 2397 牙仙子 ‧ 齒齒",
+    "id": "2397",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%89%99%E4%BB%99%E5%AD%90_%E2%80%A7_%E9%BD%92%E9%BD%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2397"
+  },
+  {
     "title": "No. 2398 愚人的呵欠",
     "id": "2398",
     "link": "https://tos.fandom.com/zh/wiki/%E6%84%9A%E4%BA%BA%E7%9A%84%E5%91%B5%E6%AC%A0",
@@ -14248,6 +14260,12 @@
     "id": "2404",
     "link": "https://tos.fandom.com/zh/wiki/%E8%A3%82%E7%AA%97%E5%99%AA%E6%9B%B2_%E2%80%A7_%E4%BC%8A%E8%8A%99",
     "linkId": "http://zh.tos.wikia.com/wiki/2404"
+  },
+  {
+    "title": "No. 2405 據為己有 ‧ 魯格",
+    "id": "2405",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%93%9A%E7%82%BA%E5%B7%B1%E6%9C%89_%E2%80%A7_%E9%AD%AF%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2405"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -16206,6 +16224,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6358"
   },
   {
+    "title": "S360 希望之盒 ‧ 潘朵拉(動態造型)",
+    "id": "6360",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%8C%E6%9C%9B%E4%B9%8B%E7%9B%92_%E2%80%A7_%E6%BD%98%E6%9C%B5%E6%8B%89(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6360"
+  },
+  {
     "title": "S361 編號 8299 ‧ 南納(動態造型)",
     "id": "6361",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B7%A8%E8%99%9F_8299_%E2%80%A7_%E5%8D%97%E7%B4%8D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
@@ -16216,6 +16240,12 @@
     "id": "6362",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B7%A8%E8%99%9F_6666_%E2%80%A7_%E4%BE%9D%E8%B2%9D%E6%80%9D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6362"
+  },
+  {
+    "title": "S363 無束天賦 ‧ 因其都(動態造型)",
+    "id": "6363",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E6%9D%9F%E5%A4%A9%E8%B3%A6_%E2%80%A7_%E5%9B%A0%E5%85%B6%E9%83%BD(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6363"
   },
   {
     "title": "S364 絢爛愛慾 ‧ 維蘭瑟(動態造型)",

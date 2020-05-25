@@ -17,7 +17,6 @@ import main.fetcher.TosPageArchiveFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosStoryStageFetcher;
 import main.fetcher.TosUltimateStageFetcher;
-import main.fetcher.TosUserPackFetcher;
 import main.fetcher.TosVoidRealmFetcher;
 import main.fetcher.TosWikiCardsLister;
 import main.fetcher.TosWikiChecker;
@@ -65,6 +64,7 @@ public class Main {
     }
 
     private static void a() {
+
     }
 
     private static void fetch() {

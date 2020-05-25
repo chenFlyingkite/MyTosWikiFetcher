@@ -2268,6 +2268,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "元素的音韻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E7%9A%84%E9%9F%B3%E9%9F%BB",
+    "skillCDMin": 21,
+    "skillCDMax": 7,
+    "skillDesc": "I. 10 秒內，可任意移動符石 而不會發動消除 1 回合內 II. 將移動符石時觸碰的符石 ⇒ 轉化為木妖族強化符石 III. 木屬性及妖精類成員攻擊力 1.8 倍 IV. 木屬性及妖精類成員的攻擊 ⇒ 無視「三屬盾」及「五屬盾」敵技",
+    "skillMonsters": [
+      "1869"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "元素眷佑 ‧ 聖光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E7%9C%B7%E4%BD%91_%E2%80%A7_%E8%81%96%E5%85%89",
     "skillCDMin": 17,
@@ -7059,6 +7070,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "妖靈之音",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%9D%88%E4%B9%8B%E9%9F%B3",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有妖精類成員時： I. 全隊攻擊力 4.5 倍、 生命力及回復力 1.3 倍 II. 所有屬性符石 ⇒ 兼具 50% 心符石效果",
+    "skillMonsters": [
+      "1869"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "妖靈灑雨",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%9D%88%E7%81%91%E9%9B%A8",
@@ -7348,6 +7370,17 @@
     "skillMonsters": [
       "0750",
       "0751"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "富饒之信約",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AF%8C%E9%A5%92%E4%B9%8B%E4%BF%A1%E7%B4%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 下回合開始時 ⇒ 所有符石隨機轉換 II. 戰鬥中所獲得的金幣增加 75% (可疊加)",
+    "skillMonsters": [
+      "2397"
     ]
   },
   {
@@ -10698,6 +10731,17 @@
       "1310",
       "EvoPlus",
       "2002"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "整齊排列",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%95%B4%E9%BD%8A%E6%8E%92%E5%88%97",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 自身屬性符石由左下方開始向右排列 1 回合內 II. 全隊回復力 2 倍 III. 首批消除所有自身屬性符石 ⇒ 下回合全隊回復力 2.5 倍",
+    "skillMonsters": [
+      "2397"
     ]
   },
   {
@@ -24587,6 +24631,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "絕望的詛咒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E6%9C%9B%E7%9A%84%E8%A9%9B%E5%92%92",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有風化、凍結、 弱化、電擊、石化符石 II. 點選元素法陣上的 1 種屬性 ⇒ 所有成員追打該屬性攻擊 1 次 III. 若隊伍中只有妖精類成員 ⇒ 將所有符石轉化為妖族強化符石",
+    "skillMonsters": [
+      "2380"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "絕殺格鬥術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E6%AE%BA%E6%A0%BC%E9%AC%A5%E8%A1%93",
@@ -25296,6 +25351,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "胖次之盜",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%83%96%E6%AC%A1%E4%B9%8B%E7%9B%9C",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "隨機獲得以下 1 回合效果： 【劍】 ⓵ 將左方 3 直行的符石 ⇒ 轉化為強化符石 ⓶ 妖精類攻擊力及回復力 1.5 倍 【胖次】 ⓵ 將右方 3 直行符石 ⇒ 轉化為強化符石 ⓶ 妖精類攻擊力及回復力 1.8 倍",
+    "skillMonsters": [
+      "2405"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "能源再生",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%83%BD%E6%BA%90%E5%86%8D%E7%94%9F",
     "skillCDMin": 14,
@@ -25892,6 +25958,17 @@
     "skillDesc": "關卡 \"光暗靈魂石發現\" 及 \"光暗靈魂石再現\"，其初級難度最後一層的敵人有 25% 機會轉化為萬年靈魂石 (效果可以疊加)",
     "skillMonsters": [
       "0905"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "萬惡之源",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E6%83%A1%E4%B9%8B%E6%BA%90",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類生命力、攻擊力、回復力 1.5 倍 II. 達至 ≥5 連擊 (Combo) ⇒ 全隊攻擊力額外 2 倍 III. 必然延長移動符石時間 1.5 秒 IV. 所有符石兼具 300% 其他符石效果",
+    "skillMonsters": [
+      "2380"
     ]
   },
   {
@@ -28577,7 +28654,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%9F%E6%88%B0%E9%80%9F%E6%B1%BA_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "每回合剩餘的移動符石時間愈多，攻擊力愈高，最少 2 倍，最大 4.5 倍",
+    "skillDesc": "每回合剩餘的移動符石時間愈多 ⇒ 全隊攻擊力愈高 ⇒ 最少 2 倍，最大 4.5 倍",
     "skillMonsters": [
       "8013",
       "8014",
@@ -29056,6 +29133,7 @@
       "1445",
       "1505",
       "1867",
+      "2405",
       "8020"
     ]
   },
