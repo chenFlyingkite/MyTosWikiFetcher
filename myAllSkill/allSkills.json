@@ -16096,6 +16096,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "浪濤陣勢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E9%99%A3%E5%8B%A2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "3 回合內 I. 自身攻擊力 1.5 倍 II. 發動技能及每回合結束時 ⇒ 將水符石轉化為水強化符石 III. 心符石的掉落率降至 0 IV. 將原有機率增加至 ⇒ 水符石的掉落率",
+    "skillMonsters": [
+      "2246"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "浮雲驚龍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AE%E9%9B%B2%E9%A9%9A%E9%BE%8D",
     "skillCDMin": 18,
@@ -33154,6 +33165,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "魔欲橫流",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%AC%B2%E6%A9%AB%E6%B5%81",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將所有符石轉化為 ⇒ 魔族符石 1 回合內 II. 延長移動符石時間至 25 秒 III. 迴避暗屬性敵人攻擊 IV. 若有擊斃敵人， 發動技能的「血紅野心 ‧ 魯利姆」及 最左方的「心靈崩解 ‧ 撒達」 ⇒ 技能 CD 減少 2",
+    "skillMonsters": [
+      "2391"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "魔法美容師",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%BE%8E%E5%AE%B9%E5%B8%AB",
     "skillCDMin": 15,
@@ -33641,6 +33663,17 @@
     "skillDesc": "I. 龍類攻擊力 6 倍 II. 每個龍類成員增加 350 點回復力 III. 心符石兼具 50% 木符石效果 IV. 連擊 (Combo) 時攻擊力提升 150%",
     "skillMonsters": [
       "2248"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "鱗光萬丈 ‧ 水",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%B0%B4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 龍類攻擊力 6 倍 II. 每個龍類成員增加 350 點回復力 III. 心符石兼具 50% 水符石效果 IV. 連擊 (Combo) 時攻擊力提升 150%",
+    "skillMonsters": [
+      "2246"
     ]
   },
   {
