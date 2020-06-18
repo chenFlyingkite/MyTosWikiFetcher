@@ -748,36 +748,35 @@ class TosGet {
             return img
         }
 
-        fun getRelicPassStages(e: Element?, baseWiki: String) : List<RelicStage> {
-            val ans = ArrayList<RelicStage>()
+        fun getRelicPassStages(e: Elements?, baseWiki: String) : List<List<RelicStage>> {
+            val ans = ArrayList<List<RelicStage>>()
             if (e == null) return ans
 
-            val im = e.getElementsByClass(imageClass)
-            val tt = e.getElementsByClass("tt-text")
-
-            // Assert their size
-            if (im.size != tt.size) {
-                println("Why table has ${im.size} images & ${tt.size} tt-texts?")
-            }
-
-            // Start to parse
-            val n = Math.min(im.size, tt.size)
-            for (i in 0 until n) {
-                val imi = im[i]
-                val tti = tt[i]
-                val coins = tti.parent().text().replace("x", "").trim();
-                val rs = RelicStage()
-                rs.name = imi.attr("title")
-                rs.link = getWikiLink(imi.attr("href"), baseWiki)
-                rs.icon = getAltId(imi)
-                rs.coin = try {
-                    coins.toInt()
-                } catch (e: java.lang.NumberFormatException) {
-                    0
+            for (i in 0 until e.size) {
+                val ei = e[i]
+                val im = ei.getElementsByClass(imageClass)
+                val td = ei.getElementsByTag("td")
+                //assert td.size = im.size*4
+                val rei = ArrayList<RelicStage>()
+                for (j in 0 until im.size) {
+                    val ej = im[j]
+                    val rs = RelicStage()
+                    rs.name = ej.attr("title")
+                    rs.link = getWikiLink(ej.attr("href"), baseWiki)
+                    rs.icon = getAltId(ej)
+                    var coin = ""
+                    if (i == 0) {
+                        // 200_000
+                        coin = td[3].text()
+                    } else {
+                        coin = td[4*j+3].text()
+                    }
+                    coin = coin.replace(Regex("[x,×\\s]"), "")
+                    rs.coin = coin.toIntOrNull() ?: 0
+                    rei.add(rs)
                 }
-                ans.add(rs)
+                ans.add(rei)
             }
-
             return ans
         }
 
