@@ -99,6 +99,7 @@ public class TosCardCreator {
                 case 32: c = asTosCard_32(info); break;
                 case 24: c = asTosCard_24(info); break;
                 case 31: c = asTosCard_31(info); break;
+                case 29: c = asTosCard_29(info); break;
             }
             if (c != null) {
                 updateAmes(c);
@@ -212,6 +213,22 @@ public class TosCardCreator {
         //-- Skill Leader name #15
         fillSkillLeader(c, list.subList(16, 18));
         fillAmelioration(c, list.subList(19, 23));
+
+        return c;
+    }
+
+    private TosCard asTosCard_29(CardInfo info) {
+        List<String> list = info.data;
+
+        TosCard c = new TosCard();
+
+        fillCommon(c, info);
+        //-- Skill Active name #10
+        fillSkillActive(c, list.subList(11, 15));
+        fillSkillActive2(c, list.subList(15, 19));
+        //-- Skill Leader name #19
+        fillSkillLeader(c, list.subList(20, 22));
+        fillAmelioration(c, list.subList(23, 29));
 
         return c;
     }
@@ -641,12 +658,16 @@ public class TosCardCreator {
         //-- Skill Leader name #15
         c.skillAmeName1 = list.get(0);
         c.skillAmeCost1 = parseInt(list.get(1));
+
+        if (list.size() <= 2) return;
         c.skillAmeName2 = list.get(2);
         c.skillAmeCost2 = parseInt(list.get(3));
-        if (list.size() <= 4) return;
 
+        if (list.size() <= 4) return;
         c.skillAmeName3 = list.get(4);
         c.skillAmeCost3 = parseInt(list.get(5));
+
+        if (list.size() <= 6) return;
         c.skillAmeName4 = list.get(6);
         c.skillAmeCost4 = parseInt(list.get(7));
     }

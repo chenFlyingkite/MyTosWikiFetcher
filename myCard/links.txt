@@ -14280,6 +14280,162 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2405"
   },
   {
+    "title": "No. 2406 李龍",
+    "id": "2406",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9D%8E%E9%BE%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2406"
+  },
+  {
+    "title": "No. 2407 西蒙與螺巖",
+    "id": "2407",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%A5%BF%E8%92%99%E8%88%87%E8%9E%BA%E5%B7%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2407"
+  },
+  {
+    "title": "No. 2408 卡米那與紅蓮",
+    "id": "2408",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8D%A1%E7%B1%B3%E9%82%A3%E8%88%87%E7%B4%85%E8%93%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2408"
+  },
+  {
+    "title": "No. 2409 羅修",
+    "id": "2409",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BE%85%E4%BF%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2409"
+  },
+  {
+    "title": "No. 2410 妮亞",
+    "id": "2410",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A6%AE%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2410"
+  },
+  {
+    "title": "No. 2411 庸子",
+    "id": "2411",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BA%B8%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2411"
+  },
+  {
+    "title": "No. 2412 維拉爾與鹽基",
+    "id": "2412",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B6%AD%E6%8B%89%E7%88%BE%E8%88%87%E9%B9%BD%E5%9F%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/2412"
+  },
+  {
+    "title": "No. 2413 奇坦與大王奇坦",
+    "id": "2413",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A5%87%E5%9D%A6%E8%88%87%E5%A4%A7%E7%8E%8B%E5%A5%87%E5%9D%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2413"
+  },
+  {
+    "title": "No. 2414 紅蓮螺巖",
+    "id": "2414",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%85%E8%93%AE%E8%9E%BA%E5%B7%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2414"
+  },
+  {
+    "title": "No. 2415 螺旋王四天王 ‧ 流麗的亞迪妮",
+    "id": "2415",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%8E%8B%E5%9B%9B%E5%A4%A9%E7%8E%8B_%E2%80%A7_%E6%B5%81%E9%BA%97%E7%9A%84%E4%BA%9E%E8%BF%AA%E5%A6%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2415"
+  },
+  {
+    "title": "No. 2416 螺旋王四天王 ‧ 怒濤之基米花",
+    "id": "2416",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%8E%8B%E5%9B%9B%E5%A4%A9%E7%8E%8B_%E2%80%A7_%E6%80%92%E6%BF%A4%E4%B9%8B%E5%9F%BA%E7%B1%B3%E8%8A%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2416"
+  },
+  {
+    "title": "No. 2417 螺旋王四天王 ‧ 神速的希多曼都",
+    "id": "2417",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%8E%8B%E5%9B%9B%E5%A4%A9%E7%8E%8B_%E2%80%A7_%E7%A5%9E%E9%80%9F%E7%9A%84%E5%B8%8C%E5%A4%9A%E6%9B%BC%E9%83%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/2417"
+  },
+  {
+    "title": "No. 2418 螺旋王四天王 ‧ 不動的龜亞姆",
+    "id": "2418",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%8E%8B%E5%9B%9B%E5%A4%A9%E7%8E%8B_%E2%80%A7_%E4%B8%8D%E5%8B%95%E7%9A%84%E9%BE%9C%E4%BA%9E%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2418"
+  },
+  {
+    "title": "No. 2419 螺旋王 ‧ 羅傑儂與羅善巖",
+    "id": "2419",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%8E%8B_%E2%80%A7_%E7%BE%85%E5%82%91%E5%84%82%E8%88%87%E7%BE%85%E5%96%84%E5%B7%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2419"
+  },
+  {
+    "title": "No. 2420 反螺旋族戰艦",
+    "id": "2420",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8F%8D%E8%9E%BA%E6%97%8B%E6%97%8F%E6%88%B0%E8%89%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2420"
+  },
+  {
+    "title": "No. 2421 絶對滅亡大魔神",
+    "id": "2421",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%B6%E5%B0%8D%E6%BB%85%E4%BA%A1%E5%A4%A7%E9%AD%94%E7%A5%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2421"
+  },
+  {
+    "title": "No. 2422 大紅蓮團團長 ‧ 西蒙與紅蓮螺巖",
+    "id": "2422",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E7%B4%85%E8%93%AE%E5%9C%98%E5%9C%98%E9%95%B7_%E2%80%A7_%E8%A5%BF%E8%92%99%E8%88%87%E7%B4%85%E8%93%AE%E8%9E%BA%E5%B7%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2422"
+  },
+  {
+    "title": "No. 2423 方舟紅蓮螺巖",
+    "id": "2423",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%96%B9%E8%88%9F%E7%B4%85%E8%93%AE%E8%9E%BA%E5%B7%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2423"
+  },
+  {
+    "title": "No. 2424 超銀河紅蓮螺巖",
+    "id": "2424",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E9%8A%80%E6%B2%B3%E7%B4%85%E8%93%AE%E8%9E%BA%E5%B7%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2424"
+  },
+  {
+    "title": "No. 2425 天元突破紅蓮螺巖",
+    "id": "2425",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E5%85%83%E7%AA%81%E7%A0%B4%E7%B4%85%E8%93%AE%E8%9E%BA%E5%B7%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2425"
+  },
+  {
+    "title": "No. 2426 永恆的愛 ‧ 妮亞",
+    "id": "2426",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B0%B8%E6%81%86%E7%9A%84%E6%84%9B_%E2%80%A7_%E5%A6%AE%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2426"
+  },
+  {
+    "title": "No. 2427 布塔",
+    "id": "2427",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%83%E5%A1%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/2427"
+  },
+  {
+    "title": "No. 2428 機兵 ‧ 空戰",
+    "id": "2428",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E5%85%B5_%E2%80%A7_%E7%A9%BA%E6%88%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2428"
+  },
+  {
+    "title": "No. 2429 機兵 ‧ 陸戰",
+    "id": "2429",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E5%85%B5_%E2%80%A7_%E9%99%B8%E6%88%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2429"
+  },
+  {
+    "title": "No. 2436 仲夏食靈 ‧ 小粽",
+    "id": "2436",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BB%B2%E5%A4%8F%E9%A3%9F%E9%9D%88_%E2%80%A7_%E5%B0%8F%E7%B2%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/2436"
+  },
+  {
+    "title": "No. 2439 精銳機兵 ‧ 水戰",
+    "id": "2439",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B2%BE%E9%8A%B3%E6%A9%9F%E5%85%B5_%E2%80%A7_%E6%B0%B4%E6%88%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2439"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
@@ -16218,10 +16374,28 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6349"
   },
   {
+    "title": "S351 火刃暗客 · 金角與銀角",
+    "id": "6351",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E5%88%83%E6%9A%97%E5%AE%A2_%C2%B7_%E9%87%91%E8%A7%92%E8%88%87%E9%8A%80%E8%A7%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/6351"
+  },
+  {
     "title": "S352 子彈橫飛 · 豬八戒",
     "id": "6352",
     "link": "https://tos.fandom.com/zh/wiki/%E5%AD%90%E5%BD%88%E6%A9%AB%E9%A3%9B_%C2%B7_%E8%B1%AC%E5%85%AB%E6%88%92",
     "linkId": "http://zh.tos.wikia.com/wiki/6352"
+  },
+  {
+    "title": "S353 罪惡女王 · 白骨精",
+    "id": "6353",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BD%AA%E6%83%A1%E5%A5%B3%E7%8E%8B_%C2%B7_%E7%99%BD%E9%AA%A8%E7%B2%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/6353"
+  },
+  {
+    "title": "S354 縫罪密醫 · 蜘蛛精",
+    "id": "6354",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B8%AB%E7%BD%AA%E5%AF%86%E9%86%AB_%C2%B7_%E8%9C%98%E8%9B%9B%E7%B2%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/6354"
   },
   {
     "title": "S357 青鳥情繞 ‧ 曹丕(動態造型)",
@@ -16276,6 +16450,24 @@
     "id": "6366",
     "link": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%B4%85%E9%87%8E%E5%BF%83_%E2%80%A7_%E9%AD%AF%E5%88%A9%E5%A7%86(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6366"
+  },
+  {
+    "title": "S370 大紅蓮團狙擊手 ‧ 庸子",
+    "id": "6370",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E7%B4%85%E8%93%AE%E5%9C%98%E7%8B%99%E6%93%8A%E6%89%8B_%E2%80%A7_%E5%BA%B8%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/6370"
+  },
+  {
+    "title": "S371 新政府輔佐官 ‧ 羅修",
+    "id": "6371",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%96%B0%E6%94%BF%E5%BA%9C%E8%BC%94%E4%BD%90%E5%AE%98_%E2%80%A7_%E7%BE%85%E4%BF%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/6371"
+  },
+  {
+    "title": "S372 無限決意 ‧ 妮亞",
+    "id": "6372",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E9%99%90%E6%B1%BA%E6%84%8F_%E2%80%A7_%E5%A6%AE%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/6372"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

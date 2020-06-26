@@ -529,8 +529,54 @@ class TosGet {
             val ans = ArrayList<MainStage>()
             if (e == null) return ans
 
+            val tbs = e.getElementsByClass("wikitable")
+            // 0 = 第一封印至第七封印
+            // 1 = 第八封印
+            // 2 = 第九封印
+            // 3 = 第十封印
+            for (i in 0 until tbs.size) {
+                val main = MainStage()
+                val ei = tbs[i]
+                if (i == 0) {
+                    val subs = ei.getElementsByTag("td")
+                    val stg = StageGroup()
+                    for (si in subs) {
+                        val x = Stage()
+                        val z = si.getElementsByTag("a")[0]
+                        x.name = z.attr("title")
+                        x.link = getWikiLink(z.attr("href"), baseWiki)
+                        x.icon = getAltId(si)
+                        if (x.icon.startsWith("C") || x.icon.startsWith("8")) {
+                            // 龍刻 or 存音石
+                        } else {
+                            stg.stages.add(0, x)
+                        }
+                    }
+                    // 42 stages = 6 stage * 7 group
+                    main.substages.add(0, stg)
+                } else {
+                    // Code is Similar with i = 0
+                    val subs = ei.getElementsByClass(imageClass)
+                    val stg = StageGroup()
+                    for (si in subs) {
+                        val x = Stage()
+                        val z = si.getElementsByTag("a")[0]
+                        x.name = z.attr("title")
+                        x.link = getWikiLink(z.attr("href"), baseWiki)
+                        x.icon = getAltId(si)
+                        if (x.icon.startsWith("C") || x.icon.startsWith("8")) {
+                            // 龍刻 or 存音石
+                        } else {
+                            stg.stages.add(0, x)
+                        }
+                    }
+                    main.substages.add(0, stg)
+                }
+                ans.add(0, main)
+            }
+            return ans
+            /*
             val items = e.getElementsByClass("tabbertab")
-
             for (i in 0 until items.size) {
                 val item = items[i]
                 val tit = item.attr("title")
@@ -641,6 +687,7 @@ class TosGet {
                 }
             }
             return ans
+            */
         }
 
         fun getUltimateStages(e: Element, baseWiki: String) : List<Stage> {
@@ -785,8 +832,35 @@ class TosGet {
             val ans = ArrayList<MainStage>()
             if (e == null) return ans
 
-            val items = e.getElementsByClass("tabbertab")
+            val items = e.getElementsByClass("wikitable")
+            val titles = arrayOf("魔導紀元", "英靈時代", "黑鐵時代")
+            //"混沌紀元" "英雄時代" "召喚師時代"
 
+            for (i in 0 until items.size) {
+                val main = MainStage()
+                val item = items[i]
+                val eas = item.getElementsByClass(imageClass)
+                val subs = StageGroup()
+                for (ea in eas) {
+                    val stg = getStageInfo(ea, baseWiki)
+                    subs.stages.add(stg)
+                }
+                // decide title
+                var tit = ""
+                if (i < titles.size) {
+                    tit = titles[i]
+                } else {
+                    tit = "Need update"
+                }
+                subs.group = tit
+
+                main.substages.add(subs)
+                ans.add(main)
+            }
+            return ans
+
+            /*
+            val items = e.getElementsByClass("tabbertab")
             for (i in 0 until items.size) {
                 val item = items[i]
                 val tit = item.attr("title")
@@ -880,6 +954,7 @@ class TosGet {
                 }
             }
             return ans
+            */
         }
 
         /**

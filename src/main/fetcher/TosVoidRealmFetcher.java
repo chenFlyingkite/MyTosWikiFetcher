@@ -27,7 +27,7 @@ public class TosVoidRealmFetcher extends TosWikiBaseFetcher {
         // Start here
         List<MainStage> stages = getVoidRealmStages(getPage());
         for (int j = 0; j < stages.size(); j++) {
-            mLf.log("  -> #%s %s", j, stages.get(j));
+            mLf.log("  -> #%d %s", j, stages.get(j));
         }
 
         clock.tac("%s Done", tag());

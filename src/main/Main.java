@@ -46,6 +46,9 @@ public class Main {
         //MyTosWikiFirebase.run();
         fetch();
         //copyToMyTosWiki();
+        //TosLostRelicPassFetcher.me.run();
+        //TosMainStageFetcher.me.run();
+        //TosVoidRealmFetcher.me.run();
         //TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
@@ -191,7 +194,7 @@ public class Main {
         paths.add(as(        "myCraft/",       "crafts.json", asset));
         paths.add(as(        "myCraft/",    "armCrafts.json", asset));
         paths.add(as("myLostRelicPass/",    "relicPass.json", asset));
-        paths.add(as(    "myMainStage/",    "mainStage.json", asset));
+        //paths.add(as(    "myMainStage/",    "mainStage.json", asset));
         paths.add(as(   "myStoryStage/",   "storyStage.json", asset));
         paths.add(as(    "myVoidRealm/",    "voidRealm.json", asset));
         paths.add(as("myUltimateStage/","ultimateStage.json", asset));
