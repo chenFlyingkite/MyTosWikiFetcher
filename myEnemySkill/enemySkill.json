@@ -65798,13 +65798,17 @@
   {
     "id": "3640",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3640",
-    "name": "CD1 ‧ 停頓符石-轉 ‧ 弱轉珠技無效 ‧ 無法控制",
+    "name": "CD1 ‧ 2顆停頓符石-轉 ‧ 弱轉珠技無效 ‧ 無法控制",
     "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e每回合移動符石時，\u003cbr\u003e隨機鎖定 2 粒符石；\u003cbr\u003e被鎖定的符石一經觸碰，\u003cbr\u003e即時停止移動符石，\u003cbr\u003e該回合無法對敵人\u003cbr\u003e造成攻擊傷害及回復力變 0。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e無視所有控制技能。",
     "esCode": "{{ES3640}}",
     "icons": [
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
         "iconKey": "SI159.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/5/57/SI198.png/revision/latest/scale-to-width-down/22?cb\u003d20170914005226\u0026path-prefix\u003dzh",
+        "iconKey": "SI198.png"
       },
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/d/d4/SI058.png/revision/latest/scale-to-width-down/22?cb\u003d20180319101755\u0026path-prefix\u003dzh",
