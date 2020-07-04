@@ -29830,8 +29830,8 @@
   {
     "id": "1852",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1852",
-    "name": "始終盾 ‧ 首消隨機3~6Combo盾-轉",
-    "detail": "每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。\u003cbr\u003e(達成條件前，無法進行回復)\u003cbr\u003e在開始移動符石時，出現隨機指定的連擊 (Combo) 數，當達成指定的連擊 (Combo) 才會對敵人做成攻擊傷害 (需消除符石及只計算首批消除的符石)。達成上述指定的連擊 (Combo) 數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多",
+    "name": "始終盾 ‧ 首消隨機4~6Combo盾-轉",
+    "detail": "每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。\u003cbr\u003e(達成條件前，無法進行回復)\u003cbr\u003e\u003cbr\u003e【移動符石時顯示】\u003cbr\u003e首批消除\u003cfont color\u003dyellow\u003e指定的連擊 (Combo)\u003c/font\u003e 才會對敵人造成攻擊傷害。\u003cbr\u003e達成指定連擊數，敵人不會發動攻擊；反之，差距的連擊 (Combo) 數愈多，敵人的連擊次數愈多。",
     "esCode": "{{ES1852}}",
     "icons": [
       {
@@ -51726,7 +51726,7 @@
   {
     "id": "3018",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3018",
-    "name": "四重黏附 ‧ 扣血90% ‧ 必殺不倒意志50%",
+    "name": "四重黏附 ‧ 扣血90% ‧ 不倒意志50%-回血100%-完殺",
     "detail": "隨機黏附 4 個位置，該位置的符石一經觸碰，即時停止移動符石。\u003cbr\u003e每回合敵人發動攻擊時會扣除召喚師 90% 生命力 (無視所有減傷效果和意志技能)。\u003cbr\u003e敵人當前生命力大於 50% 時，下一次所受傷害不會使其死亡 (包括主動技)。當敵人生命力剩 1 點時，會完全回復生命力 (只發動 1 次)，每回合發動攻擊時扣除召喚師的生命力更提升至 100%",
     "esCode": "{{ES3018}}",
     "icons": [
@@ -54788,6 +54788,10 @@
       {
         "iconLink": "https://vignette.wikia.nocookie.net/tos/images/2/20/SI261.png/revision/latest/scale-to-width-down/22?cb\u003d20150325185652\u0026path-prefix\u003dzh",
         "iconKey": "SI261.png"
+      },
+      {
+        "iconLink": "https://vignette.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
       }
     ]
   },
@@ -71402,7 +71406,7 @@
     "id": "3864",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3864",
     "name": "三重骷髏地型-滿能盾 ‧ 越扣越強25% ‧ 無法控制",
-    "detail": "隨機將 3 個位置\u003cbr\u003e⇒ 附加骷髏地型\u003cbr\u003e\u003cbr\u003e移動符石時須觸碰\u003cbr\u003e所有骷髏地型，\u003cbr\u003e且所有骷髏地型\u003cbr\u003e須為注滿力量狀態，\u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e首回合敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)\u003cbr\u003e敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升\u003cbr\u003e\u003cbr\u003e無視所有控制技能。\u003cbr\u003e\u003cbr\u003e骷髏地型：\u003cbr\u003e移動符石時碰到它會為它充能,\u003cbr\u003e再次碰到的話，能量會消失。\u003cbr\u003e\u003cfont color\u003dyellow\u003e4顆全充能才能發動攻擊\u003c/font\u003e",
+    "detail": "隨機將 3 個位置\u003cbr\u003e⇒ 附加骷髏地型\u003cbr\u003e\u003cbr\u003e移動符石時須觸碰\u003cbr\u003e所有骷髏地型，\u003cbr\u003e且所有骷髏地型\u003cbr\u003e須為注滿力量狀態，\u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e首回合敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)\u003cbr\u003e敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升\u003cbr\u003e\u003cbr\u003e無視所有控制技能。\u003cbr\u003e\u003cbr\u003e骷髏地型：\u003cbr\u003e移動符石時碰到它會為它充能,\u003cbr\u003e再次碰到的話，能量會消失。\u003cbr\u003e\u003cfont color\u003dyellow\u003e3顆全充能才能發動攻擊\u003c/font\u003e",
     "esCode": "{{ES3864}}",
     "icons": [
       {
@@ -72719,7 +72723,7 @@
   {
     "id": "3918",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3918",
-    "name": "CD2 ‧ 減傷90% ‧ 符石還原 ‧ 強化剋屬初級拼圖盾-限 ‧ 扣血100%",
+    "name": "CD2 ‧ 減傷90% ‧ 符石還原 ‧ 剋屬強化初級拼圖盾-限 ‧ 扣血100%",
     "detail": "敵人首次攻擊變為 CD 2。\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%。\u003cbr\u003e\u003cbr\u003e每回合將場上的符石\u003cbr\u003e⇒ 變回原始模樣\u003cbr\u003e\u003cbr\u003e以指定形狀消除\u003cbr\u003e克制敵人屬性的強化符石\u003cbr\u003e(不可連同形狀旁邊的符石) \u003cbr\u003e才會對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時會\u003cbr\u003e扣除召喚師 100% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)",
     "esCode": "{{ES3918}}",
     "icons": [
@@ -74208,7 +74212,7 @@
   {
     "id": "3995",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3995",
-    "name": "突擊-三重水幻變 ‧ 幻變轉水 ‧ 弱轉珠技無效 ‧ 首消水傷害吸收-反擊50%",
+    "name": "先攻-三重水幻變 ‧ 幻變轉水 ‧ 弱轉珠技無效 ‧ 首消水傷害吸收-反擊50%",
     "detail": "首回合優先攻擊 1 次，\u003cbr\u003e受此攻擊後，隨機將 3 個位置轉化為水屬幻變空間，經過幻變空間的符石 (不包括轉珠期間被移動的符石) 會轉化為水符石。\u003cbr\u003e\u003cbr\u003e其後每回合將幻變空間內的\u003cbr\u003e符石轉化為水符石。\u003cbr\u003e\u003cbr\u003e所有轉化符石技能效果無效\u003cbr\u003e(轉化種族符石而不改變\u003cbr\u003e符石種類的技能除外)。\u003cbr\u003e\u003cbr\u003e首批消除水屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害。",
     "esCode": "{{ES3995}}",
     "icons": [
