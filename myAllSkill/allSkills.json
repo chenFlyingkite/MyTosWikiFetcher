@@ -1352,6 +1352,15 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "人類殲滅系統發動",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E6%AE%B2%E6%BB%85%E7%B3%BB%E7%B5%B1%E7%99%BC%E5%8B%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "5 回合內 發動技能及每回合結束時： 隨機將 6 粒符石 ⇒ 轉化為暗強化符石",
+    "skillMonsters": []
+  },
+  {
     "type": "隊長技",
     "skillName": "人類萬鈞之怒",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92",
@@ -3417,7 +3426,16 @@
       "1756",
       "1757",
       "1758",
-      "1954"
+      "1945",
+      "1950",
+      "1951",
+      "1954",
+      "1999",
+      "2080",
+      "2093",
+      "2179",
+      "2278",
+      "2334"
     ]
   },
   {
@@ -4728,7 +4746,9 @@
     "skillCDMax": -1,
     "skillDesc": "10 回合內，神族攻擊力 10 倍 (只計算消除符石的回合)",
     "skillMonsters": [
-      "2097"
+      "2096",
+      "2097",
+      "2098"
     ]
   },
   {
@@ -8636,6 +8656,17 @@
     "skillDesc": "1 回合內 I. 連擊 (Combo) 數目增加 2 II. 解除所有妖精類成員被封鎖的技能 (此技能無視封鎖技能) III. 解鎖的成員愈多 ⇒ 連擊 (Combo) 數目額外增加愈多 ⇒ 6 個成員可額外增加最多 12 Combo",
     "skillMonsters": [
       "2225"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "幽魅戰姬",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E9%AD%85%E6%88%B0%E5%A7%AC",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性攻擊力 5 倍 II. 必然延長移動符石時間 2 秒 III. 首批消除所有暗符石時 ⇒ 暗屬性攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "2430"
     ]
   },
   {
@@ -13423,6 +13454,15 @@
   },
   {
     "type": "主動技",
+    "skillName": "森野之光 ‧ 靈念",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%87%8E%E4%B9%8B%E5%85%89_%E2%80%A7_%E9%9D%88%E5%BF%B5",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將 5 粒符石轉化為 ⇒ 心強化符石 (水及暗符石優先轉換) 1 回合內 II. 心符石兼具 50% 木及光符石效果 III. 隊中每多 1 個 「木或光屬性」機械族成員 ⇒ 兼具效果額外提升 50% ⇒ 最多可提升至 300%",
+    "skillMonsters": []
+  },
+  {
+    "type": "主動技",
     "skillName": "森野之力",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%87%8E%E4%B9%8B%E5%8A%9B",
     "skillCDMin": 17,
@@ -14137,6 +14177,7 @@
       "1642",
       "1648",
       "1718",
+      "2372",
       "8037",
       "8038",
       "8041"
@@ -15642,8 +15683,8 @@
     "type": "主動技",
     "skillName": "沒有技能",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B2%92%E6%9C%89%E6%8A%80%E8%83%BD",
-    "skillCDMin": 19,
-    "skillCDMax": 8,
+    "skillCDMin": 0,
+    "skillCDMax": 1,
     "skillDesc": "沒有技能",
     "skillMonsters": [
       "1001",
@@ -15653,7 +15694,9 @@
       "1005",
       "1396",
       "1398",
+      "1524",
       "1709",
+      "1735",
       "1756",
       "1757",
       "1758",
@@ -15664,10 +15707,16 @@
       "1812",
       "1813",
       "1815",
+      "1819",
       "1897",
       "1898",
+      "1945",
+      "1954",
+      "1972",
+      "1973",
       "2077",
       "2078",
+      "2080",
       "2201",
       "2202",
       "2211",
@@ -20353,6 +20402,15 @@
     "skillMonsters": [
       "2379"
     ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "玄華獨尊 ‧ 崇極",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E8%8F%AF%E7%8D%A8%E5%B0%8A_%E2%80%A7_%E5%B4%87%E6%A5%B5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 延長移動符石時間至 8 秒 II. 光及暗符石兼具 50% 心符石效果 III. 暗及心符石兼具 100% 光符石效果 IV. 水、火、木符石兼具 25% 光符石效果 V. 消除光、暗及心符石其中 2 種符石時 ⇒ 光屬性攻擊力 5 倍 VI. 光屬性成員生命力、 攻擊力及回復力 1.6 倍 VII. ≥3 粒相同種類的符石相連， 即可發動消除 VIII. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能) IX. 回合結束時，可點選「X 型」 ⇒ 引爆 10 個固定位置的符石 X. 沒有點選時，將「X 型」位置的符石 ⇒ 轉化為光強化符石",
+    "skillMonsters": []
   },
   {
     "type": "主動技",
@@ -27030,6 +27088,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蔑火戰舞",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%94%91%E7%81%AB%E6%88%B0%E8%88%9E",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 點選元素法陣上的 1 粒符石 ⇒ 將該種符石轉化為 人族強化符石 1 回合內 II. 若首批消除所有該種符石 ⇒ 自身及「破陣無雙 ‧ 項羽」 的攻擊無視「指定形狀盾」 III. 無視燃燒敵技 (不包括「煉獄之火」) IV. 消除符石種類愈多 ⇒ 全隊攻擊力愈高 ⇒ 最大可提升至 2.8 倍",
+    "skillMonsters": [
+      "2430"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "蔷薇的王冠",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%94%B7%E8%96%87%E7%9A%84%E7%8E%8B%E5%86%A0",
     "skillCDMin": 19,
@@ -27382,6 +27451,17 @@
     "skillDesc": "需裝備「處女座黃金聖衣」龍刻武裝才可發動此技能： I. 變身 II. 1 回合內，自身攻擊力及回復力 4 倍",
     "skillMonsters": [
       "2109"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "處處是琴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%99%95%E8%99%95%E6%98%AF%E7%90%B4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將單數直行最底 3 粒符石 ⇒ 轉化為暗符石 II. 將雙數直行最底 3 粒符石 ⇒ 轉化為心符石 回合結束時 III. 將單數直行最頂 3 粒符石 ⇒ 轉化為暗符石 II. 將雙數直行最頂 3 粒符石 ⇒ 轉化為心符石",
+    "skillMonsters": [
+      "2098"
     ]
   },
   {
@@ -34311,6 +34391,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "鱗光萬丈 ‧ 光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E5%85%89",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 龍類攻擊力 6 倍 II. 每個龍類成員增加 350 點回復力 III. 心符石兼具 50% 光符石效果 IV. 連擊 (Combo) 時攻擊力提升 150%",
+    "skillMonsters": [
+      "2249"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "鱗光萬丈 ‧ 暗",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%9A%97",
     "skillCDMin": -1,
@@ -34863,6 +34954,17 @@
     "skillDesc": "I. 點選元素法陣上的 1 粒符石 ⇒ 並將該種符石引爆 ⇒ 以掉落該種符石以外的符石 1 回合內 II. 首批掉落的符石必定為龍族符石 III. 自身攻擊力 6 倍",
     "skillMonsters": [
       "2037"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "龍族電光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E9%9B%BB%E5%85%89",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 電擊敵方全體，持續 3 回合 II. 將所有符石 ⇒ 轉化為龍族符石 1 回合內 III. 首批全部消除場上其中 1 種符石 ⇒ 回合結束時， 所有符石轉化為龍族符石",
+    "skillMonsters": [
+      "2249"
     ]
   },
   {
