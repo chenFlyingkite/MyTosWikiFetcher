@@ -211,6 +211,17 @@ public class Main {
         return new CopyInfo(srcFolder, srcFolder + name, dstFolder, dstFolder + name);
     }
 
+    /*
+    UID 199215954 中文版
+    UID 150372202 中文版
+    UID 192291028 中文版
+    UID 8397957   中文版
+    UID 58402658  中文版
+    UID 195014910 中文版
+    UID 237475591 中文版
+    UID 176874774 中文版
+    UID 200172730 中文版
+    */
 
     private static String[] envDirs() {
         return new String[] {

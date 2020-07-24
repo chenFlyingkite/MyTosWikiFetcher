@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (2941 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (2958 items, basePath = https://tos.fandom.com, offset = null)
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
@@ -99,6 +99,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 人族戰術_‧_火 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E8%A1%93_%E2%80%A7_%E7%81%AB
 人族紋章 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E7%B4%8B%E7%AB%A0
 人機動力 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%A9%9F%E5%8B%95%E5%8A%9B
+人神共振 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E7%A5%9E%E5%85%B1%E6%8C%AF
 人肉包子 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E8%82%89%E5%8C%85%E5%AD%90
 人類之力 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E4%B9%8B%E5%8A%9B
 人類之力量 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E4%B9%8B%E5%8A%9B%E9%87%8F
@@ -426,14 +427,19 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 千秋的傳承_‧_日夜交迭 -> https://tos.fandom.com/zh/wiki/%E5%8D%83%E7%A7%8B%E7%9A%84%E5%82%B3%E6%89%BF_%E2%80%A7_%E6%97%A5%E5%A4%9C%E4%BA%A4%E8%BF%AD
 印記之念_‧_光 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89
 印記之念_‧_光華 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89%E8%8F%AF
+印記之念_‧_光華之掌 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89%E8%8F%AF%E4%B9%8B%E6%8E%8C
 印記之念_‧_暗 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%9A%97
 印記之念_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%9A%97%E6%B5%81
+印記之念_‧_暗流之掌 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%9A%97%E6%B5%81%E4%B9%8B%E6%8E%8C
 印記之念_‧_木 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%9C%A8
+印記之念_‧_木枼之掌 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%9C%A8%E6%9E%BC%E4%B9%8B%E6%8E%8C
 印記之念_‧_木葉 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%9C%A8%E8%91%89
 印記之念_‧_水 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%B0%B4
 印記之念_‧_水月 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%B0%B4%E6%9C%88
+印記之念_‧_水月之掌 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E6%B0%B4%E6%9C%88%E4%B9%8B%E6%8E%8C
 印記之念_‧_火 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E7%81%AB
 印記之念_‧_火影 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E7%81%AB%E5%BD%B1
+印記之念_‧_火影之掌 -> https://tos.fandom.com/zh/wiki/%E5%8D%B0%E8%A8%98%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E7%81%AB%E5%BD%B1%E4%B9%8B%E6%8E%8C
 原子力雷神光速拳 -> https://tos.fandom.com/zh/wiki/%E5%8E%9F%E5%AD%90%E5%8A%9B%E9%9B%B7%E7%A5%9E%E5%85%89%E9%80%9F%E6%8B%B3
 原璧之固 -> https://tos.fandom.com/zh/wiki/%E5%8E%9F%E7%92%A7%E4%B9%8B%E5%9B%BA
 原野之守 -> https://tos.fandom.com/zh/wiki/%E5%8E%9F%E9%87%8E%E4%B9%8B%E5%AE%88
@@ -709,6 +715,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 幻龍利爪 -> https://tos.fandom.com/zh/wiki/%E5%B9%BB%E9%BE%8D%E5%88%A9%E7%88%AA
 幻龍利牙 -> https://tos.fandom.com/zh/wiki/%E5%B9%BB%E9%BE%8D%E5%88%A9%E7%89%99
 幽之化境 -> https://tos.fandom.com/zh/wiki/%E5%B9%BD%E4%B9%8B%E5%8C%96%E5%A2%83
+幽冥之勢_‧_連動 -> https://tos.fandom.com/zh/wiki/%E5%B9%BD%E5%86%A5%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95
 幽冥之誅罰 -> https://tos.fandom.com/zh/wiki/%E5%B9%BD%E5%86%A5%E4%B9%8B%E8%AA%85%E7%BD%B0
 幽冥倏怒 -> https://tos.fandom.com/zh/wiki/%E5%B9%BD%E5%86%A5%E5%80%8F%E6%80%92
 幽冥圍城 -> https://tos.fandom.com/zh/wiki/%E5%B9%BD%E5%86%A5%E5%9C%8D%E5%9F%8E
@@ -1373,6 +1380,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 浪屠殺_‧_裂心 -> https://tos.fandom.com/zh/wiki/%E6%B5%AA%E5%B1%A0%E6%AE%BA_%E2%80%A7_%E8%A3%82%E5%BF%83
 浪漫疊韻 -> https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BC%AB%E7%96%8A%E9%9F%BB
 浪濤_‧_極致 -> https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4_%E2%80%A7_%E6%A5%B5%E8%87%B4
+浪濤之勢_‧_連動 -> https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95
 浪濤之誅罰 -> https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E4%B9%8B%E8%AA%85%E7%BD%B0
 浪濤噬 -> https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E5%99%AC
 浪濤如虹 -> https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E5%A6%82%E8%99%B9
@@ -1597,6 +1605,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 熾燃神號 -> https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%83%E7%A5%9E%E8%99%9F
 熾燄之傲 -> https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E4%B9%8B%E5%82%B2
 熾燄之傲_‧_強 -> https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E4%B9%8B%E5%82%B2_%E2%80%A7_%E5%BC%B7
+熾燄之勢_‧_連動 -> https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95
 熾燄之誅罰 -> https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E4%B9%8B%E8%AA%85%E7%BD%B0
 熾燄幻術 -> https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E5%B9%BB%E8%A1%93
 熾燄怒嘯 -> https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E6%80%92%E5%98%AF
@@ -1682,6 +1691,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 獸靈之力 -> https://tos.fandom.com/zh/wiki/%E7%8D%B8%E9%9D%88%E4%B9%8B%E5%8A%9B
 獸類萬鈞之怒 -> https://tos.fandom.com/zh/wiki/%E7%8D%B8%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92
 玄光_‧_寄意 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89_%E2%80%A7_%E5%AF%84%E6%84%8F
+玄光之勢_‧_連動 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95
 玄光之濤_‧_機械 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89%E4%B9%8B%E6%BF%A4_%E2%80%A7_%E6%A9%9F%E6%A2%B0
 玄光之誅罰 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89%E4%B9%8B%E8%AA%85%E7%BD%B0
 玄光倏怒 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89%E5%80%8F%E6%80%92
@@ -1864,9 +1874,14 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 神族盟約 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%9B%9F%E7%B4%84
 神族符能_‧_幽冥陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E5%B9%BD%E5%86%A5%E9%99%A3
 神族符能_‧_浪濤陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E6%B5%AA%E6%BF%A4%E9%99%A3
+神族符能_‧_浪濤靈陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E6%B5%AA%E6%BF%A4%E9%9D%88%E9%99%A3
 神族符能_‧_熾燄陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%86%BE%E7%87%84%E9%99%A3
+神族符能_‧_熾燄靈陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%86%BE%E7%87%84%E9%9D%88%E9%99%A3
 神族符能_‧_玄光陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%8E%84%E5%85%89%E9%99%A3
+神族符能_‧_玄光靈陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%8E%84%E5%85%89%E9%9D%88%E9%99%A3
+神族符能_‧_玄冥靈陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%8E%84%E5%86%A5%E9%9D%88%E9%99%A3
 神族符能_‧_藤木陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E8%97%A4%E6%9C%A8%E9%99%A3
+神族符能_‧_藤木靈陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E8%97%A4%E6%9C%A8%E9%9D%88%E9%99%A3
 神族萬鈞之怒 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92
 神族鼓舞 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E9%BC%93%E8%88%9E
 神權之慾 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%AC%8A%E4%B9%8B%E6%85%BE
@@ -2290,6 +2305,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 藤刃之能 -> https://tos.fandom.com/zh/wiki/%E8%97%A4%E5%88%83%E4%B9%8B%E8%83%BD
 藤刃之能_‧_馭時 -> https://tos.fandom.com/zh/wiki/%E8%97%A4%E5%88%83%E4%B9%8B%E8%83%BD_%E2%80%A7_%E9%A6%AD%E6%99%82
 藤刃煞陣_‧_掌時 -> https://tos.fandom.com/zh/wiki/%E8%97%A4%E5%88%83%E7%85%9E%E9%99%A3_%E2%80%A7_%E6%8E%8C%E6%99%82
+藤木之勢_‧_連動 -> https://tos.fandom.com/zh/wiki/%E8%97%A4%E6%9C%A8%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95
 藤木之護守 -> https://tos.fandom.com/zh/wiki/%E8%97%A4%E6%9C%A8%E4%B9%8B%E8%AD%B7%E5%AE%88
 藤木之靈 -> https://tos.fandom.com/zh/wiki/%E8%97%A4%E6%9C%A8%E4%B9%8B%E9%9D%88
 藤木交纏 -> https://tos.fandom.com/zh/wiki/%E8%97%A4%E6%9C%A8%E4%BA%A4%E7%BA%8F
@@ -2333,6 +2349,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 蜜甜之妖靈_‧_光 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E5%85%89
 蜜甜之妖靈_‧_暗 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E6%9A%97
 蜜甜之妖靈_‧_木 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E6%9C%A8
+蜜甜之妖靈_‧_水 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E6%B0%B4
 蜜甜之妖靈_‧_火 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E7%81%AB
 蝕夢之靈 -> https://tos.fandom.com/zh/wiki/%E8%9D%95%E5%A4%A2%E4%B9%8B%E9%9D%88
 蝕夢之靈_‧_強 -> https://tos.fandom.com/zh/wiki/%E8%9D%95%E5%A4%A2%E4%B9%8B%E9%9D%88_%E2%80%A7_%E5%BC%B7
@@ -2942,4 +2959,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-2967 skills
+2984 skills
