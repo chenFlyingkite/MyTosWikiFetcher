@@ -12498,9 +12498,9 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2093"
   },
   {
-    "title": "No. 2094 虹花拂奏 ‧ 小號",
+    "title": "No. 2094 虹花拂奏 ‧ 上低音號",
     "id": "2094",
-    "link": "https://tos.fandom.com/zh/wiki/%E8%99%B9%E8%8A%B1%E6%8B%82%E5%A5%8F_%E2%80%A7_%E5%B0%8F%E8%99%9F",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%99%B9%E8%8A%B1%E6%8B%82%E5%A5%8F_%E2%80%A7_%E4%B8%8A%E4%BD%8E%E9%9F%B3%E8%99%9F",
     "linkId": "http://zh.tos.wikia.com/wiki/2094"
   },
   {
@@ -16624,6 +16624,24 @@
     "id": "6372",
     "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E9%99%90%E6%B1%BA%E6%84%8F_%E2%80%A7_%E5%A6%AE%E4%BA%9E",
     "linkId": "http://zh.tos.wikia.com/wiki/6372"
+  },
+  {
+    "title": "S373 獄輪拷問 ‧ 斑點(動態造型)",
+    "id": "6373",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8D%84%E8%BC%AA%E6%8B%B7%E5%95%8F_%E2%80%A7_%E6%96%91%E9%BB%9E(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6373"
+  },
+  {
+    "title": "S374 麝香貓果 · 榴槤(動態造型)",
+    "id": "6374",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BA%9D%E9%A6%99%E8%B2%93%E6%9E%9C_%C2%B7_%E6%A6%B4%E6%A7%A4(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6374"
+  },
+  {
+    "title": "S375 花漾嬌艷 · 夏娃",
+    "id": "6375",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8A%B1%E6%BC%BE%E5%AC%8C%E8%89%B7_%C2%B7_%E5%A4%8F%E5%A8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/6375"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

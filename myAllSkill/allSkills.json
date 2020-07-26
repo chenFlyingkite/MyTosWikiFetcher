@@ -599,6 +599,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "不眠夜戰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E7%9C%A0%E5%A4%9C%E6%88%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將黑白符石變回原來色調 II. 對敵方全體造成 250 萬暗屬性傷害 III. 敵方全體點燃 IV. 使受影響目標無法行動 並轉為火屬性，持續 1 回合",
+    "skillMonsters": [
+      "2395"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "不老妙藥",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%80%81%E5%A6%99%E8%97%A5",
     "skillCDMin": 20,
@@ -5579,6 +5590,28 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "啃噬之志 ‧ 日",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%95%83%E5%99%AC%E4%B9%8B%E5%BF%97_%E2%80%A7_%E6%97%A5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 增加 50% 移動符石時間 II. 全隊攻擊力 5 倍 III. 獸類生命力及回復力 1.5 倍 IV. 所有成員對暗屬性敵人攻擊力額外 2 倍 V. 於 ≥5 秒結束轉珠 ⇒ 全隊攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2447"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "啃噬之志 ‧ 月",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%95%83%E5%99%AC%E4%B9%8B%E5%BF%97_%E2%80%A7_%E6%9C%88",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 增加 50% 移動符石時間 II. 全隊攻擊力 5 倍 III. 獸類生命力及回復力 1.5 倍 IV. 所有成員對光屬性敵人攻擊力額外 2 倍 V. 於 ≥5 秒結束轉珠 ⇒ 全隊攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2449"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "啜血甦靈術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%95%9C%E8%A1%80%E7%94%A6%E9%9D%88%E8%A1%93",
@@ -5676,6 +5709,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "嗅覺衝擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%97%85%E8%A6%BA%E8%A1%9D%E6%93%8A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆妖精類成員直行符石 ⓵「願望果園精靈」成員直行 ⇒ 掉落該成員屬性妖族強化符石 ⓶ 其他成員直行 ⇒ 掉落妖族強化符石 1 回合內 II. 妖精類攻擊力 2.8 倍 III. 回合結束時， 將「願望果園精靈」成員直行符石 ⇒ 轉化為該成員屬性妖族強化符石 IV. 隊中每有 1 個「願望果園精靈」成員 ⇒ II,III 額外增加 2 回合效果 ⇒ 最多持續 5 回合",
+    "skillMonsters": [
+      "2440"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "嗜毒之靈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%97%9C%E6%AF%92%E4%B9%8B%E9%9D%88",
     "skillCDMin": 15,
@@ -5716,6 +5760,17 @@
     "skillDesc": "引爆隊伍成員屬性以外的符石，以掉落屬性符石。1 回合內，將全隊對敵方造成傷害的 2.5% 轉化為生命力 (不計算主動技傷害)，最大為生命力等值的 50% (不能疊加)",
     "skillMonsters": [
       "1522"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "噬狼吮血 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%99%AC%E7%8B%BC%E5%90%AE%E8%A1%80_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 34,
+    "skillCDMax": 5,
+    "skillDesc": "I. 引爆隊伍成員屬性以外的符石 ⇒ 掉落屬性符石 1 回合內 II. 獸類攻擊力 2 倍 III. 將全隊對敵方造成傷害的 2.5% 轉化為生命力 (不計算主動技傷害)， 最大為生命力等值的 80% (不能疊加)",
+    "skillMonsters": [
+      "2450"
     ]
   },
   {
@@ -8499,7 +8554,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E5%86%A5%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 暗屬性攻擊力 2 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒暗強化符石 III. 每累計消除 4 粒暗符石 ⇒ 將產生 1 粒暗強化符石 IV. 每累計消除 9 粒暗強化符石 ⇒ 將產生 1 粒暗神族符石",
+    "skillDesc": "I. 暗屬性攻擊力 3 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒暗強化符石 III. 每累計消除 4 粒暗符石 ⇒ 將產生 1 粒暗強化符石 IV. 每累計消除 9 粒暗強化符石 ⇒ 將產生 1 粒暗神族符石",
     "skillMonsters": [
       "2435"
     ]
@@ -9393,6 +9448,28 @@
   },
   {
     "type": "隊長技",
+    "skillName": "念之強勢 ‧ 噬日",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E5%BC%B7%E5%8B%A2_%E2%80%A7_%E5%99%AC%E6%97%A5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 減少 50% 移動符石時間 II. 全隊攻擊力 7 倍 III. 獸類生命力及回復力 1.5 倍 IV. 所受暗屬性傷害 50% (不包括敵技傷害) ⇒ 轉化為我方生命力 V. 於 5 秒內結束轉珠 ⇒ 全隊攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2446"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "念之強勢 ‧ 噬日蝕月",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E5%BC%B7%E5%8B%A2_%E2%80%A7_%E5%99%AC%E6%97%A5%E8%9D%95%E6%9C%88",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 減少 50% 移動符石時間 II. 全隊攻擊力 8 倍 III. 獸類生命力及回復力 1.5 倍 IV. 所受光及暗屬性傷害 50% (不包括敵技傷害) ⇒ 轉化為我方生命力 V. 於 5 秒內結束轉珠 ⇒ 全隊攻擊力額外 4.5 倍",
+    "skillMonsters": [
+      "2450"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "念之強勢 ‧ 暗",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E5%BC%B7%E5%8B%A2_%E2%80%A7_%E6%9A%97",
     "skillCDMin": -1,
@@ -9412,6 +9489,17 @@
     "skillMonsters": [
       "0703",
       "0704"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "念之強勢 ‧ 蝕月",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%B5%E4%B9%8B%E5%BC%B7%E5%8B%A2_%E2%80%A7_%E8%9D%95%E6%9C%88",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 減少 50% 移動符石時間 II. 全隊攻擊力 7 倍 III. 獸類生命力及回復力 1.5 倍 IV. 所受光屬性傷害 50% (不包括敵技傷害) ⇒ 轉化為我方生命力 V. 於 5 秒內結束轉珠 ⇒ 全隊攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2448"
     ]
   },
   {
@@ -15573,6 +15661,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "水靈之籟",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E9%9D%88%E4%B9%8B%E7%B1%9F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 水及心符石首批 2 粒相連 即可發動消除 II. 若首批消除 ≥20 粒符石 ⇒ 下回合將所有符石 轉化為五屬及心符石",
+    "skillMonsters": [
+      "2094"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "水靈召喚",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E9%9D%88%E5%8F%AC%E5%96%9A",
     "skillCDMin": 19,
@@ -16406,7 +16505,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 水屬性攻擊力 2 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒水強化符石 III. 每累計消除 4 粒水符石 ⇒ 將產生 1 粒水強化符石 IV. 每累計消除 9 粒水強化符石 ⇒ 將產生 1 粒水神族符石",
+    "skillDesc": "I. 水屬性攻擊力 3 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒水強化符石 III. 每累計消除 4 粒水符石 ⇒ 將產生 1 粒水強化符石 IV. 每累計消除 9 粒水強化符石 ⇒ 將產生 1 粒水神族符石",
     "skillMonsters": [
       "2431"
     ]
@@ -19139,7 +19238,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%87%84%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 火屬性攻擊力 2 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒火強化符石 III. 每累計消除 4 粒火符石 ⇒ 將產生 1 粒火強化符石 IV. 每累計消除 9 粒火強化符石 ⇒ 將產生 1 粒火神族符石",
+    "skillDesc": "I. 火屬性攻擊力 3 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒火強化符石 III. 每累計消除 4 粒火符石 ⇒ 將產生 1 粒火強化符石 IV. 每累計消除 9 粒火強化符石 ⇒ 將產生 1 粒火神族符石",
     "skillMonsters": [
       "2432"
     ]
@@ -20103,6 +20202,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "獸族本色",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%97%8F%E6%9C%AC%E8%89%B2",
+    "skillCDMin": 24,
+    "skillCDMax": 10,
+    "skillDesc": "I. 將暗符石轉化為獸族符石 II. 將黑白符石變回原來色調 3 回合內 III. 自身及自身以外攻擊力最高的 1 個獸類成員追打各 2 次",
+    "skillMonsters": [
+      "2449"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "獸族紋章",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%97%8F%E7%B4%8B%E7%AB%A0",
     "skillCDMin": 16,
@@ -20110,6 +20220,17 @@
     "skillDesc": "I. 點選元素法陣上的 1 粒符石 ⇒ 並將該種符石引爆 ⇒ 以掉落該種符石以外的符石 1 回合內 II. 首批掉落的符石必定為獸族符石 III. 每消除 1 粒獸族符石 ⇒ 回復 2000 點生命力 ⇒ 最多可回復至 100% 生命力",
     "skillMonsters": [
       "2040"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "獸族電光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%97%8F%E9%9B%BB%E5%85%89",
+    "skillCDMin": 24,
+    "skillCDMax": 10,
+    "skillDesc": "I. 將光符石轉化為獸族符石 II. 電擊敵方全體 III. 使受影響目標無法行動， 持續 3 回合 IV. 效果期間， 每消除 1 組光或暗符石 ⇒ 額外增加 2 連擊 (Combo)",
+    "skillMonsters": [
+      "2447"
     ]
   },
   {
@@ -20172,7 +20293,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 光屬性攻擊力 2 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒光強化符石 III. 每累計消除 4 粒光符石 ⇒ 將產生 1 粒光強化符石 IV. 每累計消除 9 粒光強化符石 ⇒ 將產生 1 粒光神族符石",
+    "skillDesc": "I. 光屬性攻擊力 3 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒光強化符石 III. 每累計消除 4 粒光符石 ⇒ 將產生 1 粒光強化符石 IV. 每累計消除 9 粒光強化符石 ⇒ 將產生 1 粒光神族符石",
     "skillMonsters": [
       "2434"
     ]
@@ -21337,6 +21458,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "百變圍城 ‧ 巨狼加冕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%AE%8A%E5%9C%8D%E5%9F%8E_%E2%80%A7_%E5%B7%A8%E7%8B%BC%E5%8A%A0%E5%86%95",
+    "skillCDMin": 37,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將所有符石轉化為 ⇒ 隊伍成員屬性的強化符石 1 回合內 II. 所有符石兼具其他符石效果 III. 所有成員的攻擊 ⇒ 無視「固定連擊盾」",
+    "skillMonsters": [
+      "2450"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "百變圍城 ‧ 龍族加冕",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%AE%8A%E5%9C%8D%E5%9F%8E_%E2%80%A7_%E9%BE%8D%E6%97%8F%E5%8A%A0%E5%86%95",
     "skillCDMin": 19,
@@ -22277,7 +22409,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E6%B5%AA%E6%BF%A4%E9%9D%88%E9%99%A3",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "3 回合內 I. 發動技能及每回合結束時 ⇒ 隨機將 5 粒火符石 轉化為水神族強化符石 II. 每消除 1 粒水神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ⇒ 3 回合內， 發動技能及每回合結束時 ⇒ 將 6 粒該種符石 轉化為水神族強化符石 II. 每消除 1 粒水神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
     "skillMonsters": [
       "2431"
     ]
@@ -22299,7 +22431,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%86%BE%E7%87%84%E9%9D%88%E9%99%A3",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "3 回合內 I. 發動技能及每回合結束時 ⇒ 隨機將 5 粒木符石 轉化為火神族強化符石 II. 每消除 1 粒火神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ⇒ 3 回合內， 發動技能及每回合結束時 ⇒ 將 6 粒該種符石 轉化為火神族強化符石 II. 每消除 1 粒火神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
     "skillMonsters": [
       "2432"
     ]
@@ -22321,7 +22453,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%8E%84%E5%85%89%E9%9D%88%E9%99%A3",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "3 回合內 I. 發動技能及每回合結束時 ⇒ 隨機將 5 粒暗符石 轉化為光神族強化符石 II. 每消除 1 粒光神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ⇒ 3 回合內， 發動技能及每回合結束時 ⇒ 將 6 粒該種符石 轉化為光神族強化符石 II. 每消除 1 粒光神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
     "skillMonsters": [
       "2434"
     ]
@@ -22332,7 +22464,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E7%8E%84%E5%86%A5%E9%9D%88%E9%99%A3",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "3 回合內 I. 發動技能及每回合結束時 ⇒ 隨機將 5 粒光符石 轉化為暗神族強化符石 II. 每消除 1 粒暗神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ⇒ 3 回合內， 發動技能及每回合結束時 ⇒ 將 6 粒該種符石 轉化為暗神族強化符石 II. 每消除 1 粒暗神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
     "skillMonsters": [
       "2435"
     ]
@@ -22354,7 +22486,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E8%97%A4%E6%9C%A8%E9%9D%88%E9%99%A3",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "3 回合內 I. 發動技能及每回合結束時 ⇒ 隨機將 5 粒水符石 轉化為木神族強化符石 II. 每消除 1 粒木神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
+    "skillDesc": "I. 點擊元素法陣上的 1 粒符石 ⇒ 3 回合內， 發動技能及每回合結束時 ⇒ 將 6 粒該種符石 轉化為木神族強化符石 II. 每消除 1 粒木神族符石 ⇒ 回復「隊伍總生命力 5%」 的生命力",
     "skillMonsters": [
       "2433"
     ]
@@ -23960,6 +24092,28 @@
     "skillDesc": "2 回合內，以人類其中造成最大傷害轉換為全隊人類的傷害。首批消除場上所有光符石時，下回合開始時將心符石轉化為光強化符石",
     "skillMonsters": [
       "1509"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "符文交疊 ‧ 日",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%A6%E6%96%87%E4%BA%A4%E7%96%8A_%E2%80%A7_%E6%97%A5",
+    "skillCDMin": 19,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內， 所有符石分別兼具 ⇒ 水、光、心符石效果",
+    "skillMonsters": [
+      "2446"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "符文交疊 ‧ 月",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%A6%E6%96%87%E4%BA%A4%E7%96%8A_%E2%80%A7_%E6%9C%88",
+    "skillCDMin": 19,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內， 所有符石分別兼具 ⇒ 火、木、暗符石效果",
+    "skillMonsters": [
+      "2448"
     ]
   },
   {
@@ -25934,6 +26088,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "聖神大號令 ‧ 獸",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E7%A5%9E%E5%A4%A7%E8%99%9F%E4%BB%A4_%E2%80%A7_%E7%8D%B8",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將暗及心符石轉化為 ⇒ 光獸族強化符石 1 回合內 II. 將敵方全體轉為暗屬性 III. 光符石效果提升 200%",
+    "skillMonsters": [
+      "2446"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "聖耀之強權 ‧ 獸",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E8%80%80%E4%B9%8B%E5%BC%B7%E6%AC%8A_%E2%80%A7_%E7%8D%B8",
@@ -27351,7 +27516,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%97%A4%E6%9C%A8%E4%B9%8B%E5%8B%A2_%E2%80%A7_%E9%80%A3%E5%8B%95",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 木屬性攻擊力 2 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒木強化符石 III. 每累計消除 4 粒木符石 ⇒ 將產生 1 粒木強化符石 IV. 每累計消除 9 粒木強化符石 ⇒ 將產生 1 粒木神族符石",
+    "skillDesc": "I. 木屬性攻擊力 3 倍、 生命力及回復力 1.2 倍 II. 每累計首批消除 3 粒符石 ⇒ 將產生 1 粒木強化符石 III. 每累計消除 4 粒木符石 ⇒ 將產生 1 粒木強化符石 IV. 每累計消除 9 粒木強化符石 ⇒ 將產生 1 粒木神族符石",
     "skillMonsters": [
       "2433"
     ]
@@ -30116,6 +30281,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "邪魔大號令 ‧ 獸",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E9%AD%94%E5%A4%A7%E8%99%9F%E4%BB%A4_%E2%80%A7_%E7%8D%B8",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將光及心符石轉化為 ⇒ 暗獸族強化符石 1 回合內 II. 將敵方全體轉為光屬性 III. 暗符石效果提升 200%",
+    "skillMonsters": [
+      "2448"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "郎之心扉",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%83%8E%E4%B9%8B%E5%BF%83%E6%89%89",
     "skillCDMin": 17,
@@ -31467,6 +31643,28 @@
     "skillDesc": "I. 水屬性攻擊力 2.5 倍 II. 消除 1 組 ≥5 粒水符石時 ⇒ 自身攻擊力額外 2 倍 III. 若使用相同的隊長及戰友時 ⇒ 自身攻擊力則額外 4 倍",
     "skillMonsters": [
       "1098"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雙生之光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E7%94%9F%E4%B9%8B%E5%85%89",
+    "skillCDMin": 17,
+    "skillCDMax": 3,
+    "skillDesc": "I. 將 9 個固定位置的符石 ⇒ 轉化為光強化符石 II.「泯月闇咒 · 喰月狼」 ⇒ 主動技能 CD 減少 1",
+    "skillMonsters": [
+      "2447"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雙生之暗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E7%94%9F%E4%B9%8B%E6%9A%97",
+    "skillCDMin": 17,
+    "skillCDMax": 3,
+    "skillDesc": "I. 將 9 個固定位置的符石 ⇒ 轉化為暗強化符石 II.「滅日墮怨 · 噬日狼」 ⇒ 主動技能 CD 減少 1",
+    "skillMonsters": [
+      "2449"
     ]
   },
   {
