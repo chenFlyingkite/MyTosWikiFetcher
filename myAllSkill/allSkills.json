@@ -16762,7 +16762,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E5%B1%A0%E6%AE%BA",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 水屬性攻擊力 5.25 倍 生命力及回復力 1.3 倍 II. 每消除 1 組符石均有 50% 機率 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 15 連擊 (Ex. Combo) 　(機率及連擊數目可以疊加) 　加乘不受其他技能影響",
+    "skillDesc": "I. 水屬性攻擊力 5.25 倍 生命力及回復力 1.3 倍 II. 每消除 1 組符石均有 50% 機率 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 15 連擊 (Ex. Combo) 　(機率及連擊數目可以疊加)",
     "skillMonsters": [
       "2082"
     ]
@@ -16773,7 +16773,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E5%B1%A0%E6%AE%BA_%E2%80%A7_%E8%A3%82%E5%BF%83",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 水屬性攻擊力 5.25 倍 生命力及回復力 1.3 倍 II. 每消除 1 組符石均有 50% 機率 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 15 連擊 (Ex. Combo) 　(機率及連擊數目可以疊加)。 　加乘不受其他技能影響 III. 於每回合移動符石後 ⇒ 引爆所有心符石，直至場上沒有心符石",
+    "skillDesc": "I. 水屬性攻擊力 5.25 倍 生命力及回復力 1.3 倍 II. 每消除 1 組符石均有 50% 機率 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 15 連擊 (Ex. Combo) 　(機率及連擊數目可以疊加)。 III. 於每回合移動符石後 ⇒ 引爆所有心符石，直至場上沒有心符石",
     "skillMonsters": []
   },
   {
@@ -16893,7 +16893,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E6%AE%BA%E6%A9%9F",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 水屬性攻擊力 3.75 倍 II. 每消除 1 組符石均有 50% 機率 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 10 連擊 (Ex. Combo) (機率及連擊數目可以疊加) 加乘不受其他技能影響",
+    "skillDesc": "I. 水屬性攻擊力 3.75 倍 II. 每消除 1 組符石均有 50% 機率 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 10 連擊 (Ex. Combo) (機率及連擊數目可以疊加)",
     "skillMonsters": [
       "1237"
     ]
