@@ -14634,6 +14634,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2463"
   },
   {
+    "title": "No. 2464 四大天使長 ‧ 流德雪爾",
+    "id": "2464",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%9B%9B%E5%A4%A7%E5%A4%A9%E4%BD%BF%E9%95%B7_%E2%80%A7_%E6%B5%81%E5%BE%B7%E9%9B%AA%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2464"
+  },
+  {
     "title": "No. 2465 忍耐 ‧ 多洛爾",
     "id": "2465",
     "link": "https://tos.fandom.com/zh/wiki/%E5%BF%8D%E8%80%90_%E2%80%A7_%E5%A4%9A%E6%B4%9B%E7%88%BE",
@@ -14650,6 +14656,12 @@
     "id": "2467",
     "link": "https://tos.fandom.com/zh/wiki/%E4%BF%A1%E4%BB%B0_%E2%80%A7_%E6%A2%85%E6%8B%89%E6%96%AF%E4%B8%98%E6%8B%89",
     "linkId": "http://zh.tos.wikia.com/wiki/2467"
+  },
+  {
+    "title": "No. 2468 慈愛 ‧ 艾斯塔洛薩",
+    "id": "2468",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%85%88%E6%84%9B_%E2%80%A7_%E8%89%BE%E6%96%AF%E5%A1%94%E6%B4%9B%E8%96%A9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2468"
   },
   {
     "title": "No. 2469 敬神 ‧ 賽多里斯",
@@ -16774,6 +16786,12 @@
     "id": "6376",
     "link": "https://tos.fandom.com/zh/wiki/%E8%B2%AA%E5%A9%AA%E4%B9%8B%E7%BD%AA_%E2%80%A7_%E7%8F%AD(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6376"
+  },
+  {
+    "title": "S377 怠惰之罪 ‧ 金恩(動態造型)",
+    "id": "6377",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%80%A0%E6%83%B0%E4%B9%8B%E7%BD%AA_%E2%80%A7_%E9%87%91%E6%81%A9(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6377"
   },
   {
     "title": "S378 憤怒之罪 ‧ 梅里奧達斯(動態造型)",
