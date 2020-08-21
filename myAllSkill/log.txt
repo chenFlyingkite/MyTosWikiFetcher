@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=http/1.1, code=200, message=OK, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3030 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3034 items, basePath = https://tos.fandom.com, offset = null)
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
 MAX_版_裏百八式_‧_大蛇薙 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E8%A3%8F%E7%99%BE%E5%85%AB%E5%BC%8F_%E2%80%A7_%E5%A4%A7%E8%9B%87%E8%96%99
@@ -1035,6 +1035,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 暗之魅惑 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E9%AD%85%E6%83%91
 暗之魔術 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E9%AD%94%E8%A1%93
 暗光攻擊轉化 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%85%89%E6%94%BB%E6%93%8A%E8%BD%89%E5%8C%96
+暗夜之帳 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%A4%9C%E4%B9%8B%E5%B8%B3
 暗夜獨行_‧_陰霾 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%A4%9C%E7%8D%A8%E8%A1%8C_%E2%80%A7_%E9%99%B0%E9%9C%BE
 暗屬印記 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%B1%AC%E5%8D%B0%E8%A8%98
 暗影怒擊 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E6%80%92%E6%93%8A
@@ -1859,6 +1860,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 真正姿態的重拳 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E6%AD%A3%E5%A7%BF%E6%85%8B%E7%9A%84%E9%87%8D%E6%8B%B3
 真火煉獄 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%81%AB%E7%85%89%E7%8D%84
 真火煉獄_‧_強 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%81%AB%E7%85%89%E7%8D%84_%E2%80%A7_%E5%BC%B7
+真紅的葬送 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%B4%85%E7%9A%84%E8%91%AC%E9%80%81
 真龍之淚 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E9%BE%8D%E4%B9%8B%E6%B7%9A
 真龍之源 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E9%BE%8D%E4%B9%8B%E6%BA%90
 真龍之脈 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E9%BE%8D%E4%B9%8B%E8%84%88
@@ -2978,6 +2980,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 鱗光萬丈_‧_暗 -> https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%9A%97
 鱗光萬丈_‧_木 -> https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%9C%A8
 鱗光萬丈_‧_水 -> https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E6%B0%B4
+鱗光萬丈_‧_火 -> https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E7%81%AB
 鳳凰天舞腳 -> https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%A4%A9%E8%88%9E%E8%85%B3
 鳳凰幻魔拳 -> https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%B9%BB%E9%AD%94%E6%8B%B3
 鳳凰幻魔拳_‧_強 -> https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%B9%BB%E9%AD%94%E6%8B%B3_%E2%80%A7_%E5%BC%B7
@@ -3021,6 +3024,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 龍捲風擊 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%8D%B2%E9%A2%A8%E6%93%8A
 龍攻代守 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%94%BB%E4%BB%A3%E5%AE%88
 龍族加冕 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E5%8A%A0%E5%86%95
+龍族加冕_‧_附從 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E5%8A%A0%E5%86%95_%E2%80%A7_%E9%99%84%E5%BE%9E
 龍族紋章 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E7%B4%8B%E7%AB%A0
 龍族電光 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E9%9B%BB%E5%85%89
 龍淵之力 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%B7%B5%E4%B9%8B%E5%8A%9B
@@ -3031,4 +3035,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 龍魂共鳴 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4
 龍魂共鳴_‧_暗流 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%9A%97%E6%B5%81
 龍魂輔主 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E8%BC%94%E4%B8%BB
-3055 skills
+3059 skills

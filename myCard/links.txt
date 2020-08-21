@@ -13410,6 +13410,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2246"
   },
   {
+    "title": "No. 2247 赤鱗焚龍 · 布魯克",
+    "id": "2247",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B5%A4%E9%B1%97%E7%84%9A%E9%BE%8D_%C2%B7_%E5%B8%83%E9%AD%AF%E5%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2247"
+  },
+  {
     "title": "No. 2248 角龍盤踞 ‧ 布魯克",
     "id": "2248",
     "link": "https://tos.fandom.com/zh/wiki/%E8%A7%92%E9%BE%8D%E7%9B%A4%E8%B8%9E_%E2%80%A7_%E5%B8%83%E9%AD%AF%E5%85%8B",
@@ -14668,6 +14674,12 @@
     "id": "2469",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%AC%E7%A5%9E_%E2%80%A7_%E8%B3%BD%E5%A4%9A%E9%87%8C%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/2469"
+  },
+  {
+    "title": "No. 2470 最上位魔神 ‧ 錢德勒",
+    "id": "2470",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%80%E4%B8%8A%E4%BD%8D%E9%AD%94%E7%A5%9E_%E2%80%A7_%E9%8C%A2%E5%BE%B7%E5%8B%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2470"
   },
   {
     "title": "No. 2471 紅色魔神",

@@ -12241,6 +12241,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "暗夜之帳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%A4%9C%E4%B9%8B%E5%B8%B3",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有魔族成員時： I. 全隊攻擊力 7 倍、 生命力及回復力 1.2 倍 II. 暗及心符石分別兼具 50% 其他符石效果",
+    "skillMonsters": [
+      "2470"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "暗夜獨行 ‧ 陰霾",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%A4%9C%E7%8D%A8%E8%A1%8C_%E2%80%A7_%E9%99%B0%E9%9C%BE",
@@ -22060,6 +22071,17 @@
     "skillDesc": "I. 隊員不會發動攻擊 並將隊員攻擊力的 2 倍加入自身攻擊力 II. 每回合以自身攻擊力 30 倍 ⇒ 追打無屬性傷害 1 次， 此傷害無視敵方防禦力 (需消除符石)",
     "skillMonsters": [
       "2182"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "真紅的葬送",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%B4%85%E7%9A%84%E8%91%AC%E9%80%81",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 敵方全體點燃 II. 使受影響目標轉為火屬性 III. 每回合以 200 倍自身攻擊力 ⇒ 對敵方全體造成火屬性傷害 並持續至死亡 IV. 效果持續期間 ⓵ 受影響目標防禦力變為 0 ⓶ 自身攻擊無視指定減傷抗性敵技",
+    "skillMonsters": [
+      "2470"
     ]
   },
   {
@@ -35416,6 +35438,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "鱗光萬丈 ‧ 火",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E5%85%89%E8%90%AC%E4%B8%88_%E2%80%A7_%E7%81%AB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 龍類攻擊力 6 倍 II. 每個龍類成員增加 350 點回復力 III. 心符石兼具 50% 火符石效果 IV. 連擊 (Combo) 時攻擊力提升 150%",
+    "skillMonsters": [
+      "2247"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "鳳凰天舞腳",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%B3%B3%E5%87%B0%E5%A4%A9%E8%88%9E%E8%85%B3",
@@ -35925,6 +35958,17 @@
     "skillDesc": "I. 將累積戰鬥回合 (需消除符石) +1 數量的 符石轉化為龍族強化符石，最多 8 粒 II. 當累積至最多 8 粒時發動技能 ⇒ 所有龍類成員技能 CD 減少 1 發動技能後可轉換符石數將重新累積",
     "skillMonsters": [
       "2245"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "龍族加冕 ‧ 附從",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E5%8A%A0%E5%86%95_%E2%80%A7_%E9%99%84%E5%BE%9E",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將累積戰鬥回合 (需消除符石) +2 數量的 符石轉化為龍族強化符石，最多 20 粒 1 回合內 II. 每消除 1 種隊長屬性以外的符石 ⇒ 掉落 5 粒隊長屬性符石 ⇒ 消除 4 種可掉落最多 20 粒",
+    "skillMonsters": [
+      "2247"
     ]
   },
   {
