@@ -4158,6 +4158,24 @@
     }
   },
   {
+    "idNorm": "7015",
+    "name": "靈之蓬簫龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/C7015.png/revision/latest/scale-to-width-down/60?cb\u003d20200824051132\u0026path-prefix\u003dzh",
+      "iconKey": "C7015.png"
+    }
+  },
+  {
+    "idNorm": "7016",
+    "name": "靈之蓬簫龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c0/C7016.png/revision/latest/scale-to-width-down/60?cb\u003d20200824051132\u0026path-prefix\u003dzh",
+      "iconKey": "C7016.png"
+    }
+  },
+  {
     "idNorm": "7031",
     "name": "聖翼之鈴龍咒",
     "link": "https://tos.fandom.com/zh/wiki/%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E5%92%92",

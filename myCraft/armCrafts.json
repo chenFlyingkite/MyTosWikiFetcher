@@ -28367,7 +28367,7 @@
       {
         "level": 5,
         "score": 0,
-        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日)"
+        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日) 天上天下唯我獨尊 - 隨太陽上升的力量 Lv2 隨機掉落 龍刻武裝自選券 (成功通關 艾斯卡諾的昇華 後獲得 1 張)"
       }
     ],
     "attrLimit": "",
@@ -28437,7 +28437,7 @@
       {
         "level": 5,
         "score": 0,
-        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日)"
+        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日) 天上天下唯我獨尊 - 隨太陽上升的力量 Lv2 隨機掉落 龍刻武裝自選券 (成功通關 艾斯卡諾的昇華 後獲得 1 張)"
       }
     ],
     "attrLimit": "",
@@ -28507,7 +28507,7 @@
       {
         "level": 5,
         "score": 0,
-        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日)"
+        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日) 天上天下唯我獨尊 - 隨太陽上升的力量 Lv2 隨機掉落 龍刻武裝自選券 (成功通關 艾斯卡諾的昇華 後獲得 1 張)"
       }
     ],
     "attrLimit": "",
@@ -28577,7 +28577,7 @@
       {
         "level": 5,
         "score": 0,
-        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日)"
+        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日) 天上天下唯我獨尊 - 隨太陽上升的力量 Lv2 隨機掉落 龍刻武裝自選券 (成功通關 艾斯卡諾的昇華 後獲得 1 張)"
       }
     ],
     "attrLimit": "",
@@ -28647,7 +28647,7 @@
       {
         "level": 5,
         "score": 0,
-        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日)"
+        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日) 天上天下唯我獨尊 - 隨太陽上升的力量 Lv2 隨機掉落 龍刻武裝自選券 (成功通關 艾斯卡諾的昇華 後獲得 1 張)"
       }
     ],
     "attrLimit": "",
@@ -28717,7 +28717,7 @@
       {
         "level": 5,
         "score": 0,
-        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日)"
+        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日) 天上天下唯我獨尊 - 隨太陽上升的力量 Lv2 隨機掉落 龍刻武裝自選券 (成功通關 艾斯卡諾的昇華 後獲得 1 張)"
       }
     ],
     "attrLimit": "",
@@ -28787,7 +28787,7 @@
       {
         "level": 5,
         "score": 0,
-        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日)"
+        "detail": "儲值活動『神器龍刻武裝禮包』(2020年8月3日~8月30日) 天上天下唯我獨尊 - 隨太陽上升的力量 Lv2 隨機掉落 龍刻武裝自選券 (成功通關 艾斯卡諾的昇華 後獲得 1 張)"
       }
     ],
     "attrLimit": "",
@@ -29187,6 +29187,114 @@
     "icon": {
       "iconLink": "https://vignette.wikia.nocookie.net/tos/images/b/b0/C7007.png/revision/latest/scale-to-width-down/120?cb\u003d20181212054406\u0026path-prefix\u003dzh",
       "iconKey": "C7007.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "連鎖龍紋",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，妖精類成員的回復力提升 75%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於妖精類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "0",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "7015",
+    "name": "靈之蓬簫龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/4/46/C7015.png/revision/latest/scale-to-width-down/120?cb\u003d20200824051132\u0026path-prefix\u003dzh",
+      "iconKey": "C7015.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "轉動龍印",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，妖精類成員的回復力提升 75%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "膨脹的支配 - 首次通關獎勵"
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於妖精類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "0",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "7016",
+    "name": "靈之蓬簫龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://vignette.wikia.nocookie.net/tos/images/c/c0/C7016.png/revision/latest/scale-to-width-down/120?cb\u003d20200824051132\u0026path-prefix\u003dzh",
+      "iconKey": "C7016.png"
     }
   },
   {
