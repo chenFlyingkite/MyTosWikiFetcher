@@ -81,7 +81,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/6174");
         //link.add("https://tos.fandom.com/zh/wiki/595");
         //link.add("https://tos.fandom.com/zh/wiki/230");
-        link.add("https://tos.fandom.com/zh/wiki/2300");
+        link.add("https://tos.fandom.com/zh/wiki/2055");
         //link.add("https://tos.fandom.com/zh/wiki/2425"); // 29
         if (!fixing) {
             link.clear();

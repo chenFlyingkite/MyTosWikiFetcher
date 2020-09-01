@@ -44,14 +44,14 @@ public class Main {
         //stock();
 
         //MyTosWikiFirebase.run();
-        fetch();
+        //fetch();
         //copyToMyTosWiki();
         //TosLostRelicPassFetcher.me.run();
         //TosMainStageFetcher.me.run();
         //TosVoidRealmFetcher.me.run();
         //TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
-        //TosWikiHomeFetcher.me.run();
+        TosWikiHomeFetcher.me.run();
 
         //XliffParser.me.addStringsToIos();
 
@@ -210,6 +210,26 @@ public class Main {
     private static CopyInfo as(String srcFolder, String name, String dstFolder) {
         return new CopyInfo(srcFolder, srcFolder + name, dstFolder, dstFolder + name);
     }
+
+    /*
+    #define Spaces "                                                                                "
+    #define qq(Format) printf(Format"\n")
+    #define qw(Format, ...) printf(Format"\n", __VA_ARGS__)
+    // __FILE__ gives full path from /Users/ericchen/Desktop/SVNs/PHD_iOS/....
+    //#define qwe(Format, ...) printf(Format"\n"Spaces"L #%u %s\n", __VA_ARGS__, __LINE__, __func__)
+
+    #define qq(Format)
+
+    ----
+
+    #define Spaces "                                                                                "
+    #define qq(Format) printf(""Format"\n")
+    #define qw(Format, ...) printf(""Format"\n", __VA_ARGS__)
+    // __FILE__ gives full path from /Users/ericchen/Desktop/SVNs/PHD_iOS/....
+    //#define qwe(Format, ...) printf(""Format"\n"Spaces"L #%u %s\n", __VA_ARGS__, __LINE__, __func__)
+
+    #define qq(Format)
+    */
 
     /*
     UID 199215954 中文版

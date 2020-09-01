@@ -14532,6 +14532,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2440"
   },
   {
+    "title": "No. 2441 逢迎狛犬 · 鬃角",
+    "id": "2441",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%A2%E8%BF%8E%E7%8B%9B%E7%8A%AC_%C2%B7_%E9%AC%83%E8%A7%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2441"
+  },
+  {
     "title": "No. 2446 噬日災煞 · 噬日狼",
     "id": "2446",
     "link": "https://tos.fandom.com/zh/wiki/%E5%99%AC%E6%97%A5%E7%81%BD%E7%85%9E_%C2%B7_%E5%99%AC%E6%97%A5%E7%8B%BC",
@@ -14704,6 +14710,78 @@
     "id": "2474",
     "link": "https://tos.fandom.com/zh/wiki/%E8%B1%90%E6%98%A5%E4%B9%8B%E5%A5%B3%E7%A5%9E_%C2%B7_%E5%A5%A7%E5%85%8B%E7%B4%A2",
     "linkId": "http://zh.tos.wikia.com/wiki/2474"
+  },
+  {
+    "title": "No. 2476 夏海之赤槿 · 夏娃",
+    "id": "2476",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%8F%E6%B5%B7%E4%B9%8B%E8%B5%A4%E6%A7%BF_%C2%B7_%E5%A4%8F%E5%A8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2476"
+  },
+  {
+    "title": "No. 2479 制約瓦解 ‧ 米迦勒",
+    "id": "2479",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%88%B6%E7%B4%84%E7%93%A6%E8%A7%A3_%E2%80%A7_%E7%B1%B3%E8%BF%A6%E5%8B%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2479"
+  },
+  {
+    "title": "No. 2496 命序解構 ‧ 瑪努恩",
+    "id": "2496",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%91%BD%E5%BA%8F%E8%A7%A3%E6%A7%8B_%E2%80%A7_%E7%91%AA%E5%8A%AA%E6%81%A9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2496"
+  },
+  {
+    "title": "No. 2497 蜃樓星火 ‧ 伊斯塔",
+    "id": "2497",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9C%83%E6%A8%93%E6%98%9F%E7%81%AB_%E2%80%A7_%E4%BC%8A%E6%96%AF%E5%A1%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/2497"
+  },
+  {
+    "title": "No. 2498 命軸剝奪 ‧ 諾索斯",
+    "id": "2498",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%91%BD%E8%BB%B8%E5%89%9D%E5%A5%AA_%E2%80%A7_%E8%AB%BE%E7%B4%A2%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2498"
+  },
+  {
+    "title": "No. 2499 星辰之理 ‧ 蘇因",
+    "id": "2499",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%BE%B0%E4%B9%8B%E7%90%86_%E2%80%A7_%E8%98%87%E5%9B%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2499"
+  },
+  {
+    "title": "No. 2500 魔蟲戾心 ‧ 修德梅耳",
+    "id": "2500",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E8%9F%B2%E6%88%BE%E5%BF%83_%E2%80%A7_%E4%BF%AE%E5%BE%B7%E6%A2%85%E8%80%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2500"
+  },
+  {
+    "title": "No. 2501 品嚐生命 ‧ 烏素姆",
+    "id": "2501",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%93%81%E5%9A%90%E7%94%9F%E5%91%BD_%E2%80%A7_%E7%83%8F%E7%B4%A0%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2501"
+  },
+  {
+    "title": "No. 2502 卑猥雙生 ‧ 羅伊戈與札爾",
+    "id": "2502",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8D%91%E7%8C%A5%E9%9B%99%E7%94%9F_%E2%80%A7_%E7%BE%85%E4%BC%8A%E6%88%88%E8%88%87%E6%9C%AD%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2502"
+  },
+  {
+    "title": "No. 2503 天樞光華 ‧ 安沙爾",
+    "id": "2503",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E6%A8%9E%E5%85%89%E8%8F%AF_%E2%80%A7_%E5%AE%89%E6%B2%99%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2503"
+  },
+  {
+    "title": "No. 2508 魑魅剋星 ‧ 檮杌",
+    "id": "2508",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%91%E9%AD%85%E5%89%8B%E6%98%9F_%E2%80%A7_%E6%AA%AE%E6%9D%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2508"
+  },
+  {
+    "title": "No. 2509 虹蝶",
+    "id": "2509",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%99%B9%E8%9D%B6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2509"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -16822,6 +16900,12 @@
     "id": "6380",
     "link": "https://tos.fandom.com/zh/wiki/%E8%9D%95%E6%9C%88%E6%B5%A9%E5%8A%AB_%C2%B7_%E5%96%B0%E6%9C%88%E7%8B%BC(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6380"
+  },
+  {
+    "title": "S410 相思花火 ‧ 翡翠",
+    "id": "6410",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%9B%B8%E6%80%9D%E8%8A%B1%E7%81%AB_%E2%80%A7_%E7%BF%A1%E7%BF%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/6410"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
