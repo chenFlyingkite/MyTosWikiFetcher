@@ -3073,7 +3073,8 @@
     "skillDesc": "光及暗符石互相兼具效果",
     "skillMonsters": [
       "0293",
-      "0998"
+      "0998",
+      "2479"
     ]
   },
   {
@@ -21617,6 +21618,15 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "生靈殆盡 ‧ 裂心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%94%9F%E9%9D%88%E6%AE%86%E7%9B%A1_%E2%80%A7_%E8%A3%82%E5%BF%83",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 自身屬性及魔族攻擊力 6 倍、 生命力及回復力 1.3 倍 II. 必然延長移動符石時間 2 秒 III. 木及火符石互相兼具效果 IV. 消除火符石時 ⇒ 魔族攻擊力額外 1.5 倍 V. 消除木符石時 ⇒ 自身屬性及魔族攻擊力額外 2 倍 VI. 於每回合移動符石後 ⇒ 引爆所有心符石 ⇒ 直至場上沒有心符石",
+    "skillMonsters": []
+  },
+  {
     "type": "主動技",
     "skillName": "用冰之道",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%94%A8%E5%86%B0%E4%B9%8B%E9%81%93",
@@ -24078,7 +24088,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A8%8B%E5%BA%8F%E4%BF%AE%E6%AD%A3",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "12 秒內，可任意移動符石而不會發動消除；1 回合內，暗符石兼具 50% 其他屬性符石效果",
+    "skillDesc": "I. 12 秒內，可任意移動符石 而不會發動消除 1 回合內 II. 暗符石兼具 50% 其他屬性符石效果",
     "skillMonsters": [
       "1998"
     ]
@@ -35184,6 +35194,7 @@
       "2318",
       "2391",
       "2393",
+      "2476",
       "7017"
     ]
   },

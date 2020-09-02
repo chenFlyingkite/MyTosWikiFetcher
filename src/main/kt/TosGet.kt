@@ -1016,7 +1016,7 @@ class TosGet {
 
 
         private fun normCardId(s: String?): String {
-            val endI = s != null && s.endsWith("i")
+            val endI = s != null && s.matches(Regex("(\\d+)i"))
             if (endI && s != null) {
                 // Parse "12i" to "0012"
                 return String.format(Locale.US, "%04d", s.substring(0, s.length - 1).toInt())

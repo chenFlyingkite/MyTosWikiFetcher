@@ -44,14 +44,14 @@ public class Main {
         //stock();
 
         //MyTosWikiFirebase.run();
-        //fetch();
+        fetch();
         //copyToMyTosWiki();
         //TosLostRelicPassFetcher.me.run();
         //TosMainStageFetcher.me.run();
         //TosVoidRealmFetcher.me.run();
         //TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
-        TosWikiHomeFetcher.me.run();
+        //TosWikiHomeFetcher.me.run();
 
         //XliffParser.me.addStringsToIos();
 
