@@ -3859,6 +3859,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "冰噬",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E5%99%AC",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 凍結敵方全體，持續 2 回合 1 回合內 II. 首批掉落的 10 粒符石 ⇒ 必定為水魔族符石",
+    "skillMonsters": [
+      "2505"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "冰封之心",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E5%B0%81%E4%B9%8B%E5%BF%83",
     "skillCDMin": 17,
@@ -7917,6 +7928,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "宇宙之掌",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%87%E5%AE%99%E4%B9%8B%E6%8E%8C",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 魔族攻擊力 7 倍及生命力 1.4 倍 II. 只能消除首批符石 III. ≥3 粒相同種類的符石相連 ⇒ 即可發動消除 IV. 必然延長移動符石時間 3 秒 V. 首批消除 ≥15 粒符石時 ⓵ 魔族攻擊力額外 1.5 倍 ⓶ 魔族成員的攻擊 ⇒ 無視「指定形狀盾」敵技",
+    "skillMonsters": [
+      "2480"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "守護 ‧ 集結",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%88%E8%AD%B7_%E2%80%A7_%E9%9B%86%E7%B5%90",
     "skillCDMin": -1,
@@ -9955,6 +9977,28 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "惡魔的幻象",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E9%AD%94%E7%9A%84%E5%B9%BB%E8%B1%A1",
+    "skillCDMin": 13,
+    "skillCDMax": 4,
+    "skillDesc": "I. 完全回復生命力 II. 隊中所有 「全知的惡魔 · 拉普拉斯」 ⇒ 轉化為「幻象」形態",
+    "skillMonsters": [
+      "2480"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "惡魔的真象",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E9%AD%94%E7%9A%84%E7%9C%9F%E8%B1%A1",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點擊元素法陣上的符石 2 次 ⓵ 移除首次點選的符石 ⓶ 掉落第 2 次點選的符石 II. 將所有符石轉化為 ⇒ 魔族強化符石 1 回合內 III. 可任意移動符石 而不會發動消除 IV. 魔族成員追打 1 次 V. 魔族成員 ⇒ 無視「三屬盾」 及「五屬盾」敵技 VI. 隊中所有 「全知的惡魔 · 拉普拉斯」 ⇒ 轉化為「真實」形態",
+    "skillMonsters": [
+      "2480"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "愈戰愈強",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%84%88%E6%88%B0%E6%84%88%E5%BC%B7",
@@ -10468,6 +10512,17 @@
     "skillDesc": "暗、光及心符石分別轉化為水強化、火強化及木強化符石；1 回合內，自身對魔族攻擊力提升 5 倍",
     "skillMonsters": [
       "1889"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "抗虐的魔場",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%8A%97%E8%99%90%E7%9A%84%E9%AD%94%E5%A0%B4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "隊伍中有 3 個或以上的魔族成員時： I. 增加 3 連擊 (Combo) II. 減少 30% 所受傷害 效果持續至首批消除心符石",
+    "skillMonsters": [
+      "1813"
     ]
   },
   {
@@ -29013,6 +29068,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "融冰的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%8D%E5%86%B0%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有凍結符石 1 回合內 II. 全隊攻擊力 1.8 倍 III. 延長移動符石時間至 12 秒",
+    "skillMonsters": [
+      "1811"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "螢之化境",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%A2%E4%B9%8B%E5%8C%96%E5%A2%83",
@@ -31379,7 +31445,11 @@
     "skillCDMax": -1,
     "skillDesc": "隊伍中只有魔族成員時： I. 魔族攻擊力 4 倍及生命力 1.5 倍 II. 生命力全滿時 ⇒ 全隊攻擊力額外提升 1.5 倍 III. 每消除 1 粒魔族符石 ⇒ 回復 1500 點生命力",
     "skillMonsters": [
-      "1814"
+      "1811",
+      "1812",
+      "1813",
+      "1814",
+      "1815"
     ]
   },
   {
@@ -33255,7 +33325,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E6%9C%A8%E7%84%A1%E9%87%8F_%E2%80%A7_%E9%9D%88%E5%8B%95",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 將場上所有符石轉化為 ⇒ 固定數量及位置的 「心及木神族」強化符石 1 回合內 II. 木及心符石 首批 2 粒相連即可發動消除",
+    "skillDesc": "I. 將場上所有符石轉化為 ⇒ 固定數量及位置 的 「心及木神族」強化符石 1 回合內 II. 木及心符石 首批 2 粒相連即可發動消除",
     "skillMonsters": [
       "2487"
     ]
@@ -35265,6 +35335,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "魔性蔓延",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%80%A7%E8%94%93%E5%BB%B6",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 每回合隨機將 3 粒符石 ⇒ 轉化為魔族強化符石 II. 魔族成員發動攻擊時 ⇒ 該成員額外追打 1 次 效果持續至沒有消除魔族符石",
+    "skillMonsters": [
+      "1812"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "魔息怒溢",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%81%AF%E6%80%92%E6%BA%A2",
     "skillCDMin": 18,
@@ -35392,6 +35473,7 @@
       "2393",
       "2476",
       "2504",
+      "2505",
       "7017"
     ]
   },
@@ -35647,6 +35729,17 @@
     "skillDesc": "1 回合內，全隊攻擊力 2 倍。回合結束時將場上的符石變回發動技能時的分佈",
     "skillMonsters": [
       "1198"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔骸咒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%AA%B8%E5%92%92",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 使敵方全體無法行動並轉為暗屬性 II. 每個受影響目標將轉化 3 粒暗符石",
+    "skillMonsters": [
+      "1815"
     ]
   },
   {
