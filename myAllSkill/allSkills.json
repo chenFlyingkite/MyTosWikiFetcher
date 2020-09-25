@@ -2721,6 +2721,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "光之族約",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E4%B9%8B%E6%97%8F%E7%B4%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 光屬性攻擊力 5 倍 II. 消除種族符石時 ⇒ 光屬性攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2484"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "光之治療",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E4%B9%8B%E6%B2%BB%E7%99%82",
     "skillCDMin": -1,
@@ -5177,6 +5188,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "千獸同盟",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8D%83%E7%8D%B8%E5%90%8C%E7%9B%9F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有獸類成員時 I. 全隊攻擊力 5.5 倍 II. 消除獸族符石時 ⇒ 全隊攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2483"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "千秋的傳承",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8D%83%E7%A7%8B%E7%9A%84%E5%82%B3%E6%89%BF",
     "skillCDMin": -1,
@@ -7591,7 +7613,8 @@
     "skillCDMax": -1,
     "skillDesc": "妖精類回復力 4 倍",
     "skillMonsters": [
-      "1254"
+      "1254",
+      "2366"
     ]
   },
   {
@@ -13194,6 +13217,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "月餅魔彈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E9%A4%85%E9%AD%94%E5%BD%88",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 敵方全體點燃並轉化為火屬性， 持續 2 回合 2 回合內 II. 將木符石轉化為火魔族符石 III. 將暗符石轉化為光魔族符石",
+    "skillMonsters": [
+      "2489"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "朦朧之間",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A6%E6%9C%A7%E4%B9%8B%E9%96%93",
     "skillCDMin": 18,
@@ -14578,7 +14612,8 @@
       "1993",
       "1994",
       "1995",
-      "2090"
+      "2090",
+      "2478"
     ]
   },
   {
@@ -14800,6 +14835,17 @@
     "skillDesc": "隊伍中只有獸類成員時： I. 全隊攻擊力 3 倍 II. 獸類對機械族目標攻擊力額外 2 倍",
     "skillMonsters": [
       "1932"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機魂虹彩",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E9%AD%82%E8%99%B9%E5%BD%A9",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將所有符石轉化為機械族符石 1 回合內 II. 記錄「移動符石時間完結一刻」 場上的符石分佈 (包括強化符石、種族符石) ⇒ 首批掉落所記錄的符石",
+    "skillMonsters": [
+      "2478"
     ]
   },
   {
@@ -16940,6 +16986,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "流螢幻術 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%81%E8%9E%A2%E5%B9%BB%E8%A1%93_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "3 回合內 I. 將 3 粒符石轉化為 ⇒ 光人族強化符石 (心符石優先轉換) II. 若首批消除場上所有光符石 ⇒ 下回合開始時， 將最底 1 橫行的符石 轉化為光強化符石",
+    "skillMonsters": [
+      "2484"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "流螢結陣 ‧ 初",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%81%E8%9E%A2%E7%B5%90%E9%99%A3_%E2%80%A7_%E5%88%9D",
@@ -18119,6 +18176,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "火之族約",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E6%97%8F%E7%B4%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 5 倍 II. 消除種族符石時 ⇒ 火屬性攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2482"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "火之治療",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E6%B2%BB%E7%99%82",
     "skillCDMin": -1,
@@ -19145,6 +19213,17 @@
     "skillDesc": "1 回合內，全隊攻擊力 2 倍；若技能發動時場上有 5 粒或以上的火符石，效果持續 2 回合",
     "skillMonsters": [
       "1419"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "烈燄斬 ‧ 炎",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%83%88%E7%87%84%E6%96%AC_%E2%80%A7_%E7%82%8E",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 全隊攻擊力 2 倍 II. 神族攻擊力則 2.5 倍 III. 若隊長為火屬性神族 ⇒ 火符石首批 2 粒相連即可發動消除 IV. 若技能發動時場上有 ≥5 粒火符石 ⇒ I-III 效果持續 2 回合",
+    "skillMonsters": [
+      "2482"
     ]
   },
   {
@@ -20260,6 +20339,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "燄神咒術．強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%87%84%E7%A5%9E%E5%92%92%E8%A1%93%EF%BC%8E%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性及神族攻擊力 6.5 倍 II. 神族生命力及回復力 1.5 倍 III. 火符石兼具 50% 其他符石效果 IV. 消除 1 種符石 ≥8 粒時 ⇒ 火屬性及神族攻擊力額外 2.5 倍 V. 消除 1 種符石 ≥15 粒時 ⇒ 火屬性及神族攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2486"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "燄鳥振翅",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%87%84%E9%B3%A5%E6%8C%AF%E7%BF%85",
@@ -20977,6 +21067,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "獸權加冕 ‧ 森",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%AC%8A%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%A3%AE",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將自身直行及木符石 ⇒ 轉化為木獸族強化符石 II. 若隊長為獸類 ⇒ 將龍脈儀儲滿 III. 若技能發動時場上沒有心符石 ⇒ 將所有符石轉化為獸族強化符石",
+    "skillMonsters": [
+      "2483"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "獸靈之力",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E9%9D%88%E4%B9%8B%E5%8A%9B",
     "skillCDMin": 16,
@@ -21006,6 +21107,8 @@
       "2373",
       "2375",
       "2441",
+      "2442",
+      "2443",
       "2508"
     ]
   },
@@ -23452,6 +23555,17 @@
     "skillMonsters": [
       "1426",
       "1427"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神權八咫鏡 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%AC%8A%E5%85%AB%E5%92%AB%E9%8F%A1_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 21,
+    "skillCDMax": 10,
+    "skillDesc": "I. 將所有符石轉化為神族強化符石 2 回合內 II. 吸收該回合敵人首次攻擊傷害 III. 以所吸收攻擊力的 1000 倍 ⇒ 對其進行火屬性反擊 (此傷害無視防禦力及「強化突破」敵技)",
+    "skillMonsters": [
+      "2486"
     ]
   },
   {
@@ -27189,6 +27303,17 @@
     "skillDesc": "1 回合內，消除的木符石愈多，木屬性攻擊力愈高，消除 12 粒木符石即可達至最大 2 倍 (只計算首批消除的符石)",
     "skillMonsters": [
       "0778"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "肚容百毒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%82%9A%E5%AE%B9%E7%99%BE%E6%AF%92",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "3 回合內 I. 隊伍不受中毒技能影響 II. 延長移動符石時間至 12 秒",
+    "skillMonsters": [
+      "2443"
     ]
   },
   {
@@ -35472,6 +35597,7 @@
       "2391",
       "2393",
       "2476",
+      "2489",
       "2504",
       "2505",
       "7017"
