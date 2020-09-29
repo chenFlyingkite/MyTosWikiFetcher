@@ -14,6 +14,7 @@ import javafx.scene.web.WebEvent;
 import javafx.scene.web.WebView;
 import main.kt.NameLink;
 import main.kt.TosGet;
+import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -37,6 +38,7 @@ import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -299,8 +301,33 @@ public class TosWikiBaseFetcher implements Runnable {
         return doc;
     }
 
+    public Document getByOkHttp(String link, Map<String, String> map) {
+        OkHttpClient c = new OkHttpClient();
+        HttpUrl.Builder ub = HttpUrl.parse(link).newBuilder();
+        if (map != null) {
+            for (String key : map.keySet()) {
+                String value = map.get(key);
+                ub.addQueryParameter(key, value);
+            }
+        }
+
+        Request r = new Request.Builder().url(ub.build()).build();
+        ResponseBody rb = null;
+        try {
+            rb = c.newCall(r).execute().body();
+            if (rb != null) {
+                return Jsoup.parse(rb.string());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     private Document getByOkHttp(String link) {
         OkHttpClient c = new OkHttpClient();
+        HttpUrl u = HttpUrl.parse(link);
+
         Request r = new Request.Builder().url(link).build();
         ResponseBody rb = null;
         try {

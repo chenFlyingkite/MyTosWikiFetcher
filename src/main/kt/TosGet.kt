@@ -1,20 +1,16 @@
 package main.kt
 
 import flyingkite.functional.MeetSS
-import flyingkite.log.L
 import flyingkite.math.MathUtil
 import flyingkite.tool.TextUtil
 import flyingkite.tool.TicTac2
-import main.card.TC.id
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import okhttp3.ResponseBody
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
 import java.io.IOException
-import java.lang.Exception
 import java.util.*
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
@@ -533,8 +529,54 @@ class TosGet {
             val ans = ArrayList<MainStage>()
             if (e == null) return ans
 
+            val tbs = e.getElementsByClass("wikitable")
+            // 0 = 第一封印至第七封印
+            // 1 = 第八封印
+            // 2 = 第九封印
+            // 3 = 第十封印
+            for (i in 0 until tbs.size) {
+                val main = MainStage()
+                val ei = tbs[i]
+                if (i == 0) {
+                    val subs = ei.getElementsByTag("td")
+                    val stg = StageGroup()
+                    for (si in subs) {
+                        val x = Stage()
+                        val z = si.getElementsByTag("a")[0]
+                        x.name = z.attr("title")
+                        x.link = getWikiLink(z.attr("href"), baseWiki)
+                        x.icon = getAltId(si)
+                        if (x.icon.startsWith("C") || x.icon.startsWith("8")) {
+                            // 龍刻 or 存音石
+                        } else {
+                            stg.stages.add(0, x)
+                        }
+                    }
+                    // 42 stages = 6 stage * 7 group
+                    main.substages.add(0, stg)
+                } else {
+                    // Code is Similar with i = 0
+                    val subs = ei.getElementsByClass(imageClass)
+                    val stg = StageGroup()
+                    for (si in subs) {
+                        val x = Stage()
+                        val z = si.getElementsByTag("a")[0]
+                        x.name = z.attr("title")
+                        x.link = getWikiLink(z.attr("href"), baseWiki)
+                        x.icon = getAltId(si)
+                        if (x.icon.startsWith("C") || x.icon.startsWith("8")) {
+                            // 龍刻 or 存音石
+                        } else {
+                            stg.stages.add(0, x)
+                        }
+                    }
+                    main.substages.add(0, stg)
+                }
+                ans.add(0, main)
+            }
+            return ans
+            /*
             val items = e.getElementsByClass("tabbertab")
-
             for (i in 0 until items.size) {
                 val item = items[i]
                 val tit = item.attr("title")
@@ -645,6 +687,7 @@ class TosGet {
                 }
             }
             return ans
+            */
         }
 
         fun getUltimateStages(e: Element, baseWiki: String) : List<Stage> {
@@ -752,36 +795,35 @@ class TosGet {
             return img
         }
 
-        fun getRelicPassStages(e: Element?, baseWiki: String) : List<RelicStage> {
-            val ans = ArrayList<RelicStage>()
+        fun getRelicPassStages(e: Elements?, baseWiki: String) : List<List<RelicStage>> {
+            val ans = ArrayList<List<RelicStage>>()
             if (e == null) return ans
 
-            val im = e.getElementsByClass(imageClass)
-            val tt = e.getElementsByClass("tt-text")
-
-            // Assert their size
-            if (im.size != tt.size) {
-                println("Why table has ${im.size} images & ${tt.size} tt-texts?")
-            }
-
-            // Start to parse
-            val n = Math.min(im.size, tt.size)
-            for (i in 0 until n) {
-                val imi = im[i]
-                val tti = tt[i]
-                val coins = tti.parent().text().replace("x", "").trim();
-                val rs = RelicStage()
-                rs.name = imi.attr("title")
-                rs.link = getWikiLink(imi.attr("href"), baseWiki)
-                rs.icon = getAltId(imi)
-                rs.coin = try {
-                    coins.toInt()
-                } catch (e: java.lang.NumberFormatException) {
-                    0
+            for (i in 0 until e.size) {
+                val ei = e[i]
+                val im = ei.getElementsByClass(imageClass)
+                val td = ei.getElementsByTag("td")
+                //assert td.size = im.size*4
+                val rei = ArrayList<RelicStage>()
+                for (j in 0 until im.size) {
+                    val ej = im[j]
+                    val rs = RelicStage()
+                    rs.name = ej.attr("title")
+                    rs.link = getWikiLink(ej.attr("href"), baseWiki)
+                    rs.icon = getAltId(ej)
+                    var coin = ""
+                    if (i == 0) {
+                        // 200_000
+                        coin = td[3].text()
+                    } else {
+                        coin = td[4*j+3].text()
+                    }
+                    coin = coin.replace(Regex("[x,×\\s]"), "")
+                    rs.coin = coin.toIntOrNull() ?: 0
+                    rei.add(rs)
                 }
-                ans.add(rs)
+                ans.add(rei)
             }
-
             return ans
         }
 
@@ -790,8 +832,35 @@ class TosGet {
             val ans = ArrayList<MainStage>()
             if (e == null) return ans
 
-            val items = e.getElementsByClass("tabbertab")
+            val items = e.getElementsByClass("wikitable")
+            val titles = arrayOf("魔導紀元", "英靈時代", "黑鐵時代")
+            //"混沌紀元" "英雄時代" "召喚師時代"
 
+            for (i in 0 until items.size) {
+                val main = MainStage()
+                val item = items[i]
+                val eas = item.getElementsByClass(imageClass)
+                val subs = StageGroup()
+                for (ea in eas) {
+                    val stg = getStageInfo(ea, baseWiki)
+                    subs.stages.add(stg)
+                }
+                // decide title
+                var tit = ""
+                if (i < titles.size) {
+                    tit = titles[i]
+                } else {
+                    tit = "Need update"
+                }
+                subs.group = tit
+
+                main.substages.add(subs)
+                ans.add(main)
+            }
+            return ans
+
+            /*
+            val items = e.getElementsByClass("tabbertab")
             for (i in 0 until items.size) {
                 val item = items[i]
                 val tit = item.attr("title")
@@ -885,6 +954,7 @@ class TosGet {
                 }
             }
             return ans
+            */
         }
 
         /**
@@ -946,7 +1016,7 @@ class TosGet {
 
 
         private fun normCardId(s: String?): String {
-            val endI = s != null && s.endsWith("i")
+            val endI = s != null && s.matches(Regex("(\\d+)i"))
             if (endI && s != null) {
                 // Parse "12i" to "0012"
                 return String.format(Locale.US, "%04d", s.substring(0, s.length - 1).toInt())
@@ -1433,15 +1503,28 @@ class TosGet {
             val de = CardDetail()
             val details = doc.getElementsByClass("module move")
 
+            var teamInfo = ""
+            var cardInfo = ""
             for (det in details) {
-                val cif = det.text().indexOf("卡牌資訊")
-                if (cif in 0..9) { // Fine card info node, not story node
+                val tif = det.text().indexOf("隊伍技能")
+                if (tif in 0..9) { // Find team info node, not story node
                     val size = det.childNodeSize()
                     if (size > 0) {
                         val ele = det.childNode(size - 1)
                         if (ele is Element) {
-                            //return ele.text()
-                            de.detail = concatTextNodes(ele)
+                            teamInfo = concatTextNodes(ele)
+                        }
+                    }
+                }
+
+                val cif = det.text().indexOf("卡牌資訊")
+                // Fill in same skills in node
+                if (cif in 0..9) { // Find card info node, not story node
+                    val size = det.childNodeSize()
+                    if (size > 0) {
+                        val ele = det.childNode(size - 1)
+                        if (ele is Element) {
+                            cardInfo = concatTextNodes(ele)
                             val tas = ele.getElementsByClass(imageClass)
                             for (a in tas) {
                                 de.sameSkills.add(getAltId(a))
@@ -1449,6 +1532,12 @@ class TosGet {
                         }
                     }
                 }
+            }
+            val noTeam = teamInfo.isEmpty()
+            if (noTeam) {
+                de.detail = cardInfo
+            } else {
+                de.detail = teamInfo + "\n\n\n" + cardInfo
             }
             return de
         }

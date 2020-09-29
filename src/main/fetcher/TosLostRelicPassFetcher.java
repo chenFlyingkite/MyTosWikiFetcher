@@ -28,17 +28,15 @@ public class TosLostRelicPassFetcher extends TosWikiBaseFetcher {
         clock.tic();
         // Start here
 
-        List<NameLink> li = getFlyTabs(getPage());
-        mLf.log("%s pages", li.size());
-        List<List<RelicStage>> allStages = new ArrayList<>();
-        for (int i = 0; i < li.size(); i++) {
-            NameLink n = li.get(i);
-            mLf.log("#%s %s", i, n);
-            List<RelicStage> stages = getRelicPassStages(n.getLink());
+        List<List<RelicStage>> allStages = getRelicPassStages(getPage());
+        int n = allStages.size();
+        mLf.log("%s pages", n);
+        for (int i = 0; i < allStages.size(); i++) {
+            mLf.log("#%s", i);
+            List<RelicStage> stages = allStages.get(i);
             for (int j = 0; j < stages.size(); j++) {
-                mLf.log("  -> #%s %s", j, stages.get(j));
+                mLf.log("  -> #%2s  %s", j, stages.get(j));
             }
-            allStages.add(stages);
         }
 
         clock.tac("%s Done", tag());
@@ -49,26 +47,9 @@ public class TosLostRelicPassFetcher extends TosWikiBaseFetcher {
         mLf.getFile().close();
     }
 
-    private List<NameLink> getFlyTabs(String link) {
+    private List<List<RelicStage>> getRelicPassStages(String link) {
         Document doc = getDocument(link);
-
-        Element fly = doc.getElementById("flytabs_0");
-        Elements as = fly.getElementsByTag("a");
-        List<NameLink> pages = new ArrayList<>();
-        for (int i = 0; i < as.size(); i++) {
-            Element e = as.get(i);
-            NameLink a = new NameLink();
-            a.setName(e.text());
-            a.setLink(wikiLink(e.attr("href")));
-            pages.add(a);
-        }
-        return pages;
-    }
-
-    private List<RelicStage> getRelicPassStages(String link) {
-        Document doc = getDocument(link);
-
-        Element main = doc.getElementById("mw-content-text");
-        return TosGet.me.getRelicPassStages(main, wikiBaseZh);
+        Elements tabs = doc.getElementsByClass("tabbertab");
+        return TosGet.me.getRelicPassStages(tabs, wikiBaseZh);
     }
 }

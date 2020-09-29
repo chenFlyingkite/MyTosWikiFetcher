@@ -46,6 +46,10 @@ public class Main {
         //MyTosWikiFirebase.run();
         fetch();
         //copyToMyTosWiki();
+        //TosLostRelicPassFetcher.me.run();
+        //TosMainStageFetcher.me.run();
+        //TosVoidRealmFetcher.me.run();
+        //TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
 
@@ -63,6 +67,7 @@ public class Main {
     }
 
     private static void a() {
+
     }
 
     private static void fetch() {
@@ -189,7 +194,7 @@ public class Main {
         paths.add(as(        "myCraft/",       "crafts.json", asset));
         paths.add(as(        "myCraft/",    "armCrafts.json", asset));
         paths.add(as("myLostRelicPass/",    "relicPass.json", asset));
-        paths.add(as(    "myMainStage/",    "mainStage.json", asset));
+        //paths.add(as(    "myMainStage/",    "mainStage.json", asset));
         paths.add(as(   "myStoryStage/",   "storyStage.json", asset));
         paths.add(as(    "myVoidRealm/",    "voidRealm.json", asset));
         paths.add(as("myUltimateStage/","ultimateStage.json", asset));
@@ -206,6 +211,37 @@ public class Main {
         return new CopyInfo(srcFolder, srcFolder + name, dstFolder, dstFolder + name);
     }
 
+    /*
+    #define Spaces "                                                                                "
+    #define qq(Format) printf(Format"\n")
+    #define qw(Format, ...) printf(Format"\n", __VA_ARGS__)
+    // __FILE__ gives full path from /Users/ericchen/Desktop/SVNs/PHD_iOS/....
+    //#define qwe(Format, ...) printf(Format"\n"Spaces"L #%u %s\n", __VA_ARGS__, __LINE__, __func__)
+
+    #define qq(Format)
+
+    ----
+
+    #define Spaces "                                                                                "
+    #define qq(Format) printf(""Format"\n")
+    #define qw(Format, ...) printf(""Format"\n", __VA_ARGS__)
+    // __FILE__ gives full path from /Users/ericchen/Desktop/SVNs/PHD_iOS/....
+    //#define qwe(Format, ...) printf(""Format"\n"Spaces"L #%u %s\n", __VA_ARGS__, __LINE__, __func__)
+
+    #define qq(Format)
+    */
+
+    /*
+    UID 199215954 中文版
+    UID 150372202 中文版
+    UID 192291028 中文版
+    UID 8397957   中文版
+    UID 58402658  中文版
+    UID 195014910 中文版
+    UID 237475591 中文版
+    UID 176874774 中文版
+    UID 200172730 中文版
+    */
 
     private static String[] envDirs() {
         return new String[] {

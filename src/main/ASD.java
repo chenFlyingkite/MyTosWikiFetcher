@@ -2,6 +2,7 @@ package main;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.sun.org.apache.bcel.internal.generic.NEW;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 import flyingkite.data.Rect2;
 import flyingkite.functional.MeetSS;
@@ -95,18 +96,28 @@ public class ASD {
         clk.tac("%s cards loaded", allCards.length);
 
         // Put cards as map
+        List<TosCard> noSkin = new ArrayList<>();
         Map<String, TosCard> map = new HashMap<>();
         for (TosCard c : allCards) {
             if (map.containsKey(c.idNorm)) {
                 L.log("X_X Duplicate on %s", c.idNorm);
             }
+
+            int id = Integer.parseInt(c.idNorm);
+            if (6000 <= id && id < 7000) {
+                // omit skin
+                continue;
+            }
+            noSkin.add(c);
             map.put(c.idNorm, c);
         }
+        // allCards to no skin
+        allCards = noSkin.toArray(new TosCard[0]);
 
         // Find cards
         // Normal
         //findCardSkill("電擊符石", allCards);
-        findCardSkill("石化符石", allCards);
+        //findCardSkill("指定形狀", allCards);
         //findCardSkill("解除黑白符石的狀態", allCards);
         L.log("--**--\n\n--**--");
         //findCardSkill("水(.{0,30})火(.{0,30})木(.{0,30})光(.{0,30})暗(.{0,30})", true, allCards);
@@ -114,7 +125,9 @@ public class ASD {
         L.log("--**--\n\n--**--");
         // Regex
         //findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
-        findCardSkill("引爆(.{0,30}) ⇒ 掉落", true, allCards);
+        //findCardSkill("增加(.{0,20})連擊", true, allCards);
+        findCardSkill("五屬", true, allCards);
+        //findCardSkill("(水|火|木|光|暗)((、|及)(水|火|木|光|暗)){4}", true, allCards);
         //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);

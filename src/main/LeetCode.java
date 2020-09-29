@@ -3,6 +3,7 @@ package main;
 import flyingkite.tool.TicTac2;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class LeetCode implements Runnable {
     @Override
@@ -249,10 +250,38 @@ public class LeetCode implements Runnable {
         }
     }
 
+    public static int min(int[] a) {
+        int m = a[0];
+        for (int i = 1; i < a.length; i++) {
+            int x = a[i];
+            if (m > x) { // max = m < x
+                m = x;
+            }
+        }
+        ln("min = %s, a = %s", m, as(a));
+        return m;
+    }
+
     */
 
-    private static void ln(String fmt, Object... p) {
-        System.out.println((p == null) ? fmt : String.format(fmt, p));
+    private static void ln2(String f, Object... p) {
+        System.out.println((p == null) ? f : String.format(f, p));
+    }
+    //--
+
+    private static void pa(int[][] a) {
+        int n = a.length;
+        for (int i = 0; i < n; i++) {
+            ln("#%s : %s", i, as(a[i]));
+        }
+    }
+
+    private static String as(int[] a) {
+        return Arrays.toString(a);
+    }
+
+    private static void ln(String f, Object... p) {
+        System.out.println(String.format(f, p));
     }
 }
 

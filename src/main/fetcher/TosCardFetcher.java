@@ -61,6 +61,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/1082" // 孤高龍王 ‧ 敖廣
                 , "https://tos.fandom.com/zh/wiki/1777" // 斯芬克斯
         );
+        //link.clear();
         //---
         Collections.addAll(link
                 , "https://tos.fandom.com/zh/wiki/001" // TosCardCreator = 18
@@ -70,6 +71,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/1063" // TosCardCreator = 32
                 , "https://tos.fandom.com/zh/wiki/651" // TosCardCreator = 24
                 , "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
+                , "https://tos.fandom.com/zh/wiki/2425" // 29
         );
         link.clear(); // uncomment this if use test links
         //link.add("https://tos.fandom.com/zh/wiki/2186");
@@ -79,7 +81,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/6174");
         //link.add("https://tos.fandom.com/zh/wiki/595");
         //link.add("https://tos.fandom.com/zh/wiki/230");
-        link.add("https://tos.fandom.com/zh/wiki/2300");
+        link.add("https://tos.fandom.com/zh/wiki/2055");
+        //link.add("https://tos.fandom.com/zh/wiki/2425"); // 29
         if (!fixing) {
             link.clear();
         }
