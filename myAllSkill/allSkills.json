@@ -7663,7 +7663,9 @@
       "2240",
       "2241",
       "2374",
-      "2389"
+      "2389",
+      "2440",
+      "2490"
     ]
   },
   {
@@ -8475,6 +8477,17 @@
     "skillDesc": "I. 將最左及最右方直行的符石 ⇒ 轉化為木強化符石 II. 引爆中間 4 直行的符石",
     "skillMonsters": [
       "2465"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "巨蟒凶勢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E8%9F%92%E5%87%B6%E5%8B%A2",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 引爆風化符石， 成功引爆後 ⇒ 延遲敵方全體行動 2 回合 1 回合內 II. 將移動符石時觸碰的 首 8 粒符石轉化為 ⇒ 自身屬性獸族符石",
+    "skillMonsters": [
+      "2506"
     ]
   },
   {
@@ -21109,6 +21122,7 @@
       "2441",
       "2442",
       "2443",
+      "2506",
       "2508"
     ]
   },
@@ -33386,6 +33400,17 @@
     "skillDesc": "生命力全滿時，攻擊力 3 倍",
     "skillMonsters": [
       "1096"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "靈動之澤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E5%8B%95%E4%B9%8B%E6%BE%A4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將 10 粒符石 ⇒ 轉化為妖族符石 (非種族符石優先轉換) 1 回合內 II. 首批 2 粒相連的符石可發動消除",
+    "skillMonsters": [
+      "2490"
     ]
   },
   {
