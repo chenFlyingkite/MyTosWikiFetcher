@@ -8,10 +8,6 @@ import flyingkite.log.LF;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
-import javafx.event.EventHandler;
-import javafx.scene.web.WebEngine;
-import javafx.scene.web.WebEvent;
-import javafx.scene.web.WebView;
 import main.kt.NameLink;
 import main.kt.TosGet;
 import okhttp3.HttpUrl;
@@ -339,19 +335,6 @@ public class TosWikiBaseFetcher implements Runnable {
             e.printStackTrace();
         }
         return null;
-    }
-
-    private void g(String link) {
-        WebView w = new WebView();
-        WebEngine wen = w.getEngine();
-        wen.load(link);
-        wen.setJavaScriptEnabled(true);
-        wen.setOnStatusChanged(new EventHandler<WebEvent<String>>() {
-            @Override
-            public void handle(WebEvent<String> event) {
-                L.log("E = %s", event);
-            }
-        });
     }
 
     protected Runnable runLogToFile(LF lfFile, List<String> list) {

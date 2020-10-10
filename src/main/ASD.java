@@ -1,9 +1,5 @@
 package main;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import flyingkite.data.Rect2;
 import flyingkite.functional.MeetSS;
 import flyingkite.javaxlibrary.images.base.PngParam;
@@ -11,7 +7,6 @@ import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.javaxlibrary.images.diff.PngDiffer;
 import flyingkite.javaxlibrary.images.resize.PngResizer;
 import flyingkite.log.L;
-import flyingkite.log.LF;
 import flyingkite.math.ChiSquarePearson;
 import flyingkite.math.ChiSquareTable;
 import flyingkite.math.DiscreteSample;
@@ -25,9 +20,6 @@ import main.kt.Craft;
 import main.kt.CraftSkill;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.io.IOException;
@@ -41,7 +33,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
-import java.util.TreeMap;
 import java.util.function.Consumer;
 import java.util.regex.Pattern;
 
