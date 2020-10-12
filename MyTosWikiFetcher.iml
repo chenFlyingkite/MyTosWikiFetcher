@@ -10,8 +10,8 @@
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="module" module-name="JavaLibrary" />
     <orderEntry type="module" module-name="JavaXLibrary" />
-    <orderEntry type="library" name="gson" level="application" />
-    <orderEntry type="library" name="jsoup" level="application" />
-    <orderEntry type="library" name="okhttp" level="application" />
+    <orderEntry type="library" name="gson" level="project" />
+    <orderEntry type="library" name="jsoup" level="project" />
+    <orderEntry type="library" name="okhttp" level="project" />
   </component>
 </module>
