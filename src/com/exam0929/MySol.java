@@ -17,11 +17,15 @@ public class MySol implements MaximumPop {
     // keys = keySet of position
     private List<Integer> keys = new ArrayList<>();
     private int hole = 0;
+    private boolean debug = 0 > 0;
 
     // For v not exists in list (first new value), O(log(Key size))
     // For v exists in list, O(1)
     @Override
     public void push(int v) {
+        if (debug) {
+            L.log("push.go  = %s\n--", this);
+        }
         // v is possibly be popped
         if (!position.containsKey(v)) {
             applyTrim();
@@ -38,6 +42,9 @@ public class MySol implements MaximumPop {
             int x = Collections.binarySearch(keys, v);
             keys.add(-x-1, v);
         }
+        if (debug) {
+            L.log("push.end = %s\n--", this);
+        }
     }
 
     @Override
@@ -50,7 +57,13 @@ public class MySol implements MaximumPop {
     @Override
     public int popLast() {
         if (canPop()) {
+            if (debug) {
+                L.log("popLast.go  = %s\n--", this);
+            }
             clearTail();
+            if (debug) {
+                L.log("popLast.clearTail = %s", this);
+            }
             // update position of remove position[v]
             int v = list.remove(list.size() - 1);
             List<Integer> li = position.get(v);
@@ -60,6 +73,9 @@ public class MySol implements MaximumPop {
                 position.remove(v);
                 int at = Collections.binarySearch(keys, v);
                 keys.remove(at);
+            }
+            if (debug) {
+                L.log("popLast.End = %s\n--", this);
             }
             return v;
         } else {
@@ -71,11 +87,17 @@ public class MySol implements MaximumPop {
     @Override
     public int popMaximum() {
         if (canPop()) {
+            if (debug) {
+                L.log("popMaximum.go  = %s\n--", this);
+            }
             int mx = keys.remove(keys.size() - 1);
             List<Integer> maxi = position.get(mx);
             hole += maxi.size();
             position.remove(mx);
             trimToSize();
+            if (debug) {
+                L.log("popMaximum.End = %s\n--", this);
+            }
             return mx;
         } else {
             return Integer.MIN_VALUE;
@@ -96,6 +118,11 @@ public class MySol implements MaximumPop {
             } else {
                 list.remove(i);
                 hole--;
+                // update key;
+                int at = Collections.binarySearch(keys, x);
+                if (at >= 0) {
+                    keys.remove(at);
+                }
             }
         }
     }
@@ -120,11 +147,16 @@ public class MySol implements MaximumPop {
         }
     }
 
-    // O(list.size() - hole)
+    // O(list.size()*log(KeySize))
     public void applyTrim() {
         if (hole == 0) {
-            L.log("No trim");
+            if (debug) {
+                L.log("No trim");
+            }
             return;
+        }
+        if (debug) {
+            L.log("Apply trim %s", hole);
         }
         // rebuild data
         List<Integer> newList = new ArrayList<>();
