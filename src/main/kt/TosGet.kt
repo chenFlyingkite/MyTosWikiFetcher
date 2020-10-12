@@ -50,10 +50,11 @@ class TosGet {
 
         fun getImgAlt(element: Element) : String? {
             val imgs = element.getElementsByTag("img")
+            var ans = "";
             if (imgs.size > 0) {
-                return imgs[0].attr("alt")
+                ans = imgs[0].attr("alt").replace(".png", "");
             }
-            return null
+            return ans
         }
 
         fun getImgInfo2(element: Element?) : ImageInfo2 {
@@ -448,24 +449,23 @@ class TosGet {
             val ans = ArrayList<CardItem>()
             if (e == null) return ans
 
-            val s = e.getElementsByTag("a")
+            val tb = e.getElementsByTag("tbody")
+            if (tb.size == 0) return ans
+            val s = tb[0].getElementsByTag("a")
             for (item in s) {
-                val valid = item.hasClass(imageClass)
-                if (valid) {
-                    // Start parse here
-                    val c = CardItem()
-                    c.link = getWikiLink(item.attr("href"), baseWiki)
-                    c.title = item.attr("title")
+                // Start parse
+                val c = CardItem()
+                c.link = getWikiLink(item.attr("href"), baseWiki)
+                c.title = item.attr("title")
 
-                    val n = item.children()?.size ?: 0
-                    if (n > 0) {
-                        val img = item.child(0)
-                        c.id = normCardId(img.attr("alt"))
-                        val id = c.id.toInt()
-                        c.linkId = wikiBaseZhOld + "/wiki/" + id
-                    }
-                    ans.add(c)
+                val n = item.children()?.size ?: 0
+                if (n > 0) {
+                    val img = item.child(0)
+                    c.id = normCardId(img.attr("data-image-name"))
+                    val id = c.id.toInt()
+                    c.linkId = wikiBaseZhOld + "/wiki/" + id
                 }
+                ans.add(c)
             }
             return ans
         }
@@ -518,8 +518,11 @@ class TosGet {
                 val n = ax?.size ?: 0
                 if (n > 0) {
                     // Take the 1st a
-                    val href = ax[0].attr("href")
-                    ans.add(baseWiki + href)
+                    var href = ax[0].attr("href")
+                    if (href.startsWith("/")) {
+                        href = baseWiki + href;
+                    }
+                    ans.add(href)
                 }
             }
             return ans
@@ -695,8 +698,16 @@ class TosGet {
             val mob = e.getElementsByClass("mobileHide")
             if (mob.size == 0) return list
 
-            val stg = mob[0].getElementsByClass(imageClass)
-
+            //val stg = mob[0].getElementsByClass(imageClass)
+            val stg = mob[0].getElementsByTag("a")
+            // remove unused
+            stg.removeAt(stg.size - 1)
+            for (i in stg.size-1 downTo 0) {
+                if (i % 2 == 1) {
+                    stg.removeAt(i)
+                }
+            }
+            // parse
             for (i in 0 until stg.size) {
                 val ei = stg[i]
                 val si = getStageInfo(ei, baseWiki)
@@ -801,22 +812,25 @@ class TosGet {
 
             for (i in 0 until e.size) {
                 val ei = e[i]
-                val im = ei.getElementsByClass(imageClass)
+                val im = ei.getElementsByTag("a")
                 val td = ei.getElementsByTag("td")
-                //assert td.size = im.size*4
                 val rei = ArrayList<RelicStage>()
+                // get coin
                 for (j in 0 until im.size) {
+                    if (j % 2 == 1) continue
+
                     val ej = im[j]
                     val rs = RelicStage()
                     rs.name = ej.attr("title")
                     rs.link = getWikiLink(ej.attr("href"), baseWiki)
                     rs.icon = getAltId(ej)
+
                     var coin = ""
                     if (i == 0) {
                         // 200_000
                         coin = td[3].text()
                     } else {
-                        coin = td[4*j+3].text()
+                        coin = td[2*j+3].text()
                     }
                     coin = coin.replace(Regex("[x,×\\s]"), "")
                     rs.coin = coin.toIntOrNull() ?: 0
@@ -839,9 +853,11 @@ class TosGet {
             for (i in 0 until items.size) {
                 val main = MainStage()
                 val item = items[i]
-                val eas = item.getElementsByClass(imageClass)
+                val eas = item.getElementsByClass("a")
                 val subs = StageGroup()
                 for (ea in eas) {
+                    if (ea.hasClass("selflink")) continue
+
                     val stg = getStageInfo(ea, baseWiki)
                     subs.stages.add(stg)
                 }
@@ -1016,21 +1032,29 @@ class TosGet {
 
 
         private fun normCardId(s: String?): String {
-            val endI = s != null && s.matches(Regex("(\\d+)i"))
-            if (endI && s != null) {
+            if (s == null) return ""
+            var t = s
+            t = t.replace(".png", "")
+            val endI = t.matches(Regex("(\\d+)i"))
+            if (endI) {
+                t = t.substring(0, t.length - 1)
                 // Parse "12i" to "0012"
-                return String.format(Locale.US, "%04d", s.substring(0, s.length - 1).toInt())
+                return String.format(Locale.US, "%04d", t.toInt())
             } else {
-                return s ?: ""
+                return t
             }
         }
 
         private fun normCraftId(s: String): String {
-            val beginC = s.startsWith("C")
+            var t = s
+            t = t.replace(".png", "")
+            val beginC = t.matches(Regex("C(\\d+)"))
             if (beginC) {
-                return String.format(Locale.US, "%04d", s.substring(1).toInt())
-            } else{
-                return s
+                t = t.substring(1)
+                // Parse "C0012" to "0012"
+                return String.format(Locale.US, "%04d", t.toInt())
+            } else {
+                return t
             }
         }
 

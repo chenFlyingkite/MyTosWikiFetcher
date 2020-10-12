@@ -71,7 +71,7 @@ public class Main {
     }
 
     private static void fetch() {
-        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
+        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
         fetchMisc();
         fetchCards();
         //TosWikiCardsLister.me.run();
@@ -90,7 +90,7 @@ public class Main {
             // Skill change + Craft + Card List -> Card Fetcher
             List<Runnable> beforeCard = Arrays.asList(
                     TosWikiCardsLister.me
-                    , TosSkillFetcher.me
+                    , TosSkillFetcher.me // ok
                     , TosCraftFetcher.me
             );
             Runnable endCard = TosCardFetcher.me;
@@ -115,7 +115,7 @@ public class Main {
         if (regl) {
             MyTosWikiFirebase.run();
             // 神魔主頁內容
-            run.add(TosWikiHomeFetcher.me);
+            run.add(TosWikiHomeFetcher.me); // OK
             // 技能內容 - 卡片內容 (4 min if fast)
             // Skill change + Craft + Card List -> Card Fetcher
             // -  龍刻
@@ -125,7 +125,7 @@ public class Main {
             // 敵人技能
             run.add(TosEnemySkillFetcher.me);
             // 遺跡特許
-            run.add(TosLostRelicPassFetcher.me);
+            run.add(TosLostRelicPassFetcher.me); // ok
             // 主線關卡
             run.add(TosMainStageFetcher.me);
             // 旅人的記憶
@@ -133,7 +133,7 @@ public class Main {
             // 虛影世界
             run.add(TosVoidRealmFetcher.me);
             // 地獄級關卡
-            run.add(TosUltimateStageFetcher.me);
+            run.add(TosUltimateStageFetcher.me); // ok
 
 
             Runnable end = () -> {

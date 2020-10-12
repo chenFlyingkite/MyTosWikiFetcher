@@ -89,6 +89,9 @@ public class TosSkillFetcher extends TosWikiBaseFetcher {
                 }
             }
         }
+        Collections.sort(skills, (x, y) -> {
+            return x.getSkillName().compareTo(y.getSkillName());
+        });
 
         clock.tac("All Skill Done %s", tag());
         allSkills = skills;

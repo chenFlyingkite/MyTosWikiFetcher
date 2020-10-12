@@ -175,7 +175,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // Fill in idNorm from mid of top 11 icons
         Elements rowCard = doc.getElementsByTag("table").get(0).getElementsByTag("td");
         Element spot = rowCard.get(rowCard.size() / 2);
-        info.idNorm = TosGet.me.getImageTag(spot).attr("alt");
+        String xxipng = TosGet.me.getImageTag(spot).attr("alt");
+        info.idNorm = xxipng.substring(0, xxipng.lastIndexOf('.'));
 
         // Get main content table
         Element main = doc.getElementById("monster-data");
