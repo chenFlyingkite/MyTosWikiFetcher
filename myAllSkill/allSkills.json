@@ -45,6 +45,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "N2航空誘導彈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/N2%E8%88%AA%E7%A9%BA%E8%AA%98%E5%B0%8E%E5%BD%88",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將場上的符石變回原始模樣 II. 引爆所有符石 ⇒ 掉落神族強化符石 III. 對敵方全體造成 ⇒ 5,000 萬光屬性傷害 (此傷害無視敵人防禦力、 「強化突破」、 「固定連擊盾」敵技) 1 回合內 IV. 神族成員追打 ⇒ 光屬性攻擊 1 次 3 回合內 V. 自身【錮縛鎖攻 - 金】",
+    "skillMonsters": [
+      "2520"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "ORB 至高聖劍",
     "skillLink": "https://tos.fandom.com/zh/wiki/ORB_%E8%87%B3%E9%AB%98%E8%81%96%E5%8A%8D",
     "skillCDMin": 18,
@@ -645,6 +656,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "不能逃避！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%83%BD%E9%80%83%E9%81%BF%EF%BC%81",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內 I. 自身攻擊力 4 倍 II. 延長移動符石時間至 25 秒 III. 將移動符石時觸碰的 「凍結符石」狀態解除 IV. 若隊中有 ≥3 個 「EVA 駕駛員」 ⇒ 刷新「絕對領域」",
+    "skillMonsters": [
+      "2516"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "世界樹之克勞諾斯閃擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%96%E7%95%8C%E6%A8%B9%E4%B9%8B%E5%85%8B%E5%8B%9E%E8%AB%BE%E6%96%AF%E9%96%83%E6%93%8A",
     "skillCDMin": 17,
@@ -966,6 +988,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "亡命之擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%A1%E5%91%BD%E4%B9%8B%E6%93%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "2 回合內 I. 所有減傷效果無效 II. 每消除 1 連擊 (Combo) ⇒ 額外增加 1 Ex. Combo ⇒ 最多增加 10 Ex. Combo III. 隊中有 ≥3 個「EVA 駕駛員」 ⇒ 自身技能 CD -2",
+    "skillMonsters": [
+      "2524"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "亡命感應 ‧ 木",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%A1%E5%91%BD%E6%84%9F%E6%87%89_%E2%80%A7_%E6%9C%A8",
     "skillCDMin": 22,
@@ -1186,6 +1219,39 @@
     "skillDesc": "2 回合內，自身攻擊力 4 倍，個人追打火屬性攻擊 1 次；效果期間，若有擊斃敵人，自身主動技能 CD 減少 1",
     "skillMonsters": [
       "2071"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "人間之力 ‧ 森意",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%96%93%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E6%A3%AE%E6%84%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 木屬性攻擊力 3 倍 II. 木屬性「人類及神族」攻擊力則 9 倍",
+    "skillMonsters": [
+      "2524"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "人間之力 ‧ 流燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%96%93%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E6%B5%81%E7%87%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 3 倍 II. 火屬性「人類及神族」攻擊力則 9 倍",
+    "skillMonsters": [
+      "2523"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "人間之力 ‧ 清靈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%96%93%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E6%B8%85%E9%9D%88",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 水屬性攻擊力 3 倍 II. 水屬性「人類及神族」攻擊力則 9 倍",
+    "skillMonsters": [
+      "2522"
     ]
   },
   {
@@ -1451,6 +1517,24 @@
   },
   {
     "type": "隊長技",
+    "skillName": "人類萬鈞之怒 ‧ 極",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "人類攻擊力 5 倍",
+    "skillMonsters": []
+  },
+  {
+    "type": "主動技",
+    "skillName": "人類補完計劃",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E8%A3%9C%E5%AE%8C%E8%A8%88%E5%8A%83",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "生命力全滿才可發動此技能： I. 自身攻擊力減至 0 II. 人類及神族攻擊力 2 倍 III.「EVA 駕駛員」攻擊力 ⇒ 額外 1.4 倍 效果持續至生命力 ≤40%",
+    "skillMonsters": []
+  },
+  {
+    "type": "隊長技",
     "skillName": "人類集權",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E9%9B%86%E6%AC%8A",
     "skillCDMin": -1,
@@ -1573,6 +1657,24 @@
     "skillMonsters": [
       "2408"
     ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "使徒之力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BD%BF%E5%BE%92%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I.「使徒」攻擊力 5 倍 II. 敵方受到的無屬性傷害 2.5 倍",
+    "skillMonsters": []
+  },
+  {
+    "type": "隊長技",
+    "skillName": "使徒之力 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BD%BF%E5%BE%92%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I.「使徒」攻擊力 5 倍 II. 進入關卡後，「使徒」技能 CD -3 III. 敵方受到的無屬性傷害 3 倍",
+    "skillMonsters": []
   },
   {
     "type": "主動技",
@@ -1776,6 +1878,28 @@
     "skillMonsters": [
       "2059",
       "2060"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "傾力迎戰 ‧ 木",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%82%BE%E5%8A%9B%E8%BF%8E%E6%88%B0_%E2%80%A7_%E6%9C%A8",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族及「EVA 駕駛員」 時： I. 全隊攻擊力 4 倍、 生命力及回復力 1.3 倍 II. 心符石兼具 50% 木符石效果",
+    "skillMonsters": [
+      "2519"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "傾力迎戰 ‧ 魅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%82%BE%E5%8A%9B%E8%BF%8E%E6%88%B0_%E2%80%A7_%E9%AD%85",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族及「EVA 駕駛員」 時： I. 全隊攻擊力 4 倍、 生命力及回復力 1.3 倍 II. 水符石兼具 50% 暗符石效果",
+    "skillMonsters": [
+      "2521"
     ]
   },
   {
@@ -4851,6 +4975,15 @@
   },
   {
     "type": "主動技",
+    "skillName": "加粒子炮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8A%A0%E7%B2%92%E5%AD%90%E7%82%AE",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬點無屬性傷害 IV. 敵方全體點燃，持續 3 回合",
+    "skillMonsters": []
+  },
+  {
+    "type": "主動技",
     "skillName": "加速世界",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8A%A0%E9%80%9F%E4%B8%96%E7%95%8C",
     "skillCDMin": 24,
@@ -5847,6 +5980,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "喋血之擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%96%8B%E8%A1%80%E4%B9%8B%E6%93%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "2 回合內 I. 隊伍所受傷害 1.5 倍 II. 隊長屬性符石掉落率提升 III. 人類及神族成員攻擊力 2 倍 IV. 隊中有 ≥3 個「EVA 駕駛員」 ⇒ 自身技能 CD -2",
+    "skillMonsters": [
+      "2523"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "喋血戰意",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%96%8B%E8%A1%80%E6%88%B0%E6%84%8F",
     "skillCDMin": 19,
@@ -6223,6 +6367,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "堅定信念",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A0%85%E5%AE%9A%E4%BF%A1%E5%BF%B5",
+    "skillCDMin": 16,
+    "skillCDMax": 10,
+    "skillDesc": "I. 將場上的符石變回原始模樣 1 回合內 II. 可以任意移動符石 而不會發動消除 III. 根據自身「同步率」數值， 攻擊敵人後使目標無法行動： ▋100% - 199%：1 回合 ▋200% - 299%：2 回合 ▋300% - 400%：3 回合",
+    "skillMonsters": [
+      "2517"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "堅定意志",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A0%85%E5%AE%9A%E6%84%8F%E5%BF%97",
     "skillCDMin": 19,
@@ -6252,6 +6407,17 @@
     "skillDesc": "將場上的心符石轉化為所屬隊伍欄直行成員屬性的強化符石。發動技能時，若我方生命力為 1 或全滿，當前技能 CD 減少 3",
     "skillMonsters": [
       "1614"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "墜落攻勢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A2%9C%E8%90%BD%E6%94%BB%E5%8B%A2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆弱化符石及火以外的符石 ⇒ 掉落強化符石 1 回合內 II. 延長移動符石時間至 15 秒 III. 場上有「燃燒」敵技時 ⇒ 可任意移動符石 而不會發動消除",
+    "skillMonsters": [
+      "2530"
     ]
   },
   {
@@ -8239,6 +8405,18 @@
   },
   {
     "type": "主動技",
+    "skillName": "小妹亂撞",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B8%AD%E5%8D%B7%E4%B9%8B%E5%B9%BD",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "所有符石隨機轉換",
+    "skillMonsters": [
+      "1500",
+      "2210"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "小妹力的爆發",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B0%8F%E5%A6%B9%E5%8A%9B%E7%9A%84%E7%88%86%E7%99%BC",
     "skillCDMin": 22,
@@ -8592,18 +8770,6 @@
   },
   {
     "type": "主動技",
-    "skillName": "小妹亂撞",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B8%AD%E5%8D%B7%E4%B9%8B%E5%B9%BD",
-    "skillCDMin": 16,
-    "skillCDMax": 5,
-    "skillDesc": "所有符石隨機轉換",
-    "skillMonsters": [
-      "1500",
-      "2210"
-    ]
-  },
-  {
-    "type": "主動技",
     "skillName": "席卷之幽冥",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B8%AD%E5%8D%B7%E4%B9%8B%E5%B9%BD%E5%86%A5",
     "skillCDMin": 16,
@@ -8623,6 +8789,15 @@
     "skillMonsters": [
       "0845"
     ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "帶電粒子炮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B8%B6%E9%9B%BB%E7%B2%92%E5%AD%90%E7%82%AE",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬點無屬性傷害 IV. 電擊敵方全體，持續 3 回合",
+    "skillMonsters": []
   },
   {
     "type": "主動技",
@@ -10368,6 +10543,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "戰鬥時刻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%99%82%E5%88%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆木符石及自身直行符石 ⇒ 掉落木強化符石 1 回合內 II. 木符石兼具 ⇒ 50% 其他屬性符石效果 III. 迴避「人類、神族 或機械族」敵人的攻擊 1 次 IV. 成功迴避敵人攻擊後 ⇒ 自身技能 CD -4",
+    "skillMonsters": [
+      "2519"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "戰鬥演武曲",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%BC%94%E6%AD%A6%E6%9B%B2",
     "skillCDMin": 17,
@@ -11470,6 +11656,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "攻擊模式",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%94%BB%E6%93%8A%E6%A8%A1%E5%BC%8F",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將敵方全體轉為木屬性， 持續 2 回合 II. 將最頂及最底橫行符石 ⇒ 轉化為神族強化符石 III. 將中間 3 橫行符石 ⇒ 分別轉化為直行 「五屬及心」神族強化符石 1 回合內 IV. 首批掉落的 10 粒符石 ⇒ 必定為火強化符石 V. 若隊中有 ≥3 個 「EVA 駕駛員」 ⇒ 刷新「絕對領域」",
+    "skillMonsters": [
+      "2518"
+    ]
+  },
+  {
     "type": "組合技",
     "skillName": "敕令強化 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%95%95%E4%BB%A4%E5%BC%B7%E5%8C%96_%E2%80%A7_%E5%85%89",
@@ -12516,7 +12713,7 @@
   {
     "type": "主動技",
     "skillName": "暗影爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%92%83",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%93%8A",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的暗屬性傷害",
@@ -12528,7 +12725,7 @@
   {
     "type": "主動技",
     "skillName": "暗影爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%93%8A",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%92%83",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的暗屬性傷害",
@@ -16553,7 +16750,8 @@
       "2427",
       "2428",
       "2429",
-      "2509"
+      "2509",
+      "2535"
     ]
   },
   {
@@ -23516,6 +23714,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "神族萬鈞之怒 ‧ 極",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "神族攻擊力 5 倍",
+    "skillMonsters": [
+      "2530"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "神族鼓舞",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E9%BC%93%E8%88%9E",
@@ -25859,6 +26068,59 @@
   },
   {
     "type": "主動技",
+    "skillName": "第4使徒攻擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%AC4%E4%BD%BF%E5%BE%92%E6%94%BB%E6%93%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "消耗 50% 總生命力以發動技能 (生命力 \u003e50% 才能發動) I. 引爆電擊符石及 自身直行符石 ⇒ 對敵方全體造成 400 萬點無屬性傷害 1 回合內 II. 自身對神族、機械族目標 ⇒ 攻擊力額外 2.5 倍",
+    "skillMonsters": []
+  },
+  {
+    "type": "隊長技",
+    "skillName": "第一適格者",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B8%80%E9%81%A9%E6%A0%BC%E8%80%85",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族及「EVA 駕駛員」 時： I. 全隊攻擊力 6.5 倍及生命力 1.2 倍 II. 減少 35% 所受傷害 III. 所受神族敵人的傷害 ⇒ 則減少 60% IV. 消除符石的種類愈多， 全隊攻擊力額外提升愈多： ⇒ 消除 2 種 2 倍 ⇒ 消除 6 種可達至最大 4 倍",
+    "skillMonsters": [
+      "2520"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "第三適格者",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B8%89%E9%81%A9%E6%A0%BC%E8%80%85",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族及「EVA 駕駛員」時： I. 全隊攻擊力 6.5 倍、 生命力及回復力 1.3 倍 II. 心符石兼具 50% 屬性符石效果 III. 每消除 1 種屬性符石 ⇒ 個人追打該屬性攻擊 1 次 IV. 消除 ≥3 組符石 ⇒ 全隊攻擊力額外 2.2 倍 V. 所有成員對神族目標 ⇒ 攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2516"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "第三適格者 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B8%89%E9%81%A9%E6%A0%BC%E8%80%85_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族及「EVA 駕駛員」時： I. 全隊攻擊力 7 倍、 生命力及回復力 1.3 倍 II. 心符石兼具 50% 屬性符石效果 III. 每消除 1 種屬性符石 ⇒ 個人追打該屬性攻擊 1 次 IV. 消除 ≥3 組符石 ⇒ 全隊攻擊力額外 2.2 倍 V. 所有成員對神族目標 ⇒ 攻擊力額外 2 倍 VI. 龍脈儀被擊碎或尚餘次數為 0 時 ⇒ 全隊攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "2517"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "第二適格者",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E9%81%A9%E6%A0%BC%E8%80%85",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族及「EVA 駕駛員」 時： I. 全隊攻擊力 6 倍、 生命力及回復力 1.3 倍 II. 於成員所在直行， 消除 ≥1 粒該成員屬性的符石 ⇒ 該成員攻擊力額外 1.5 倍 III. 消除的火符石愈多 ⇒ 火屬性攻擊力提升愈多 ⇒ 消除 12 粒可達至最大 4 倍",
+    "skillMonsters": [
+      "2518"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "等價交換",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AD%89%E5%83%B9%E4%BA%A4%E6%8F%9B",
     "skillCDMin": 17,
@@ -25903,6 +26165,15 @@
   },
   {
     "type": "主動技",
+    "skillName": "粒子炮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90%E7%82%AE",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 1 回合內 III. 上述每轉化 1 粒強化符石 ⇒ 減少 5% 所受傷害 ⇒ 最多可減少 100% 傷害",
+    "skillMonsters": []
+  },
+  {
+    "type": "主動技",
     "skillName": "粽子飄香",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B2%BD%E5%AD%90%E9%A3%84%E9%A6%99",
     "skillCDMin": 17,
@@ -25910,6 +26181,17 @@
     "skillDesc": "I. 隨機將 1 粒木符石所在 直行及橫行的符石 ⇒ 轉化為木符石 II. 若場上沒有木符石 ⇒ 則將所有符石轉化為木符石",
     "skillMonsters": [
       "2436"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "約定時刻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B4%84%E5%AE%9A%E6%99%82%E5%88%BB",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將 4 個角落共 12 粒符石 ⇒ 分別轉化為 「水、火、木、光」 強化符石各 3 粒 1 回合內 II. 首批 3 粒相連的符石 可發動消除 III. 自身直行首批掉落 ⇒ 暗強化符石 IV.「碇真嗣與EVA初號機」及 「碇真嗣與EVA覺醒初號機」 直行首批掉落心符石",
+    "skillMonsters": [
+      "2521"
     ]
   },
   {
@@ -26281,6 +26563,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "絕命之擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%91%BD%E4%B9%8B%E6%93%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "2 回合內 I. 我方回復力減至 0 II. 人類及神族成員攻擊力 2.5 倍 III. 隊中有 ≥3 個「EVA 駕駛員」 ⇒ 自身技能 CD -2",
+    "skillMonsters": [
+      "2522"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "絕命危機",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%91%BD%E5%8D%B1%E6%A9%9F",
     "skillCDMin": 17,
@@ -26541,6 +26834,17 @@
     "skillDesc": "隊伍中只有人類成員時： I. 連擊 (Combo) 數目愈多 ⇒ 全隊攻擊力提升愈多 ⇒ 3 連擊 (Combo) 提升 4 倍 ⇒ 8 連擊 (Combo) 可提升至最大 6.5 倍 II. 心符石兼具 50% 水符石效果 III. 「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的 生命力、攻擊力及回復力額外 1.2 倍",
     "skillMonsters": [
       "2102"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "絕對領域全開",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%B0%8D%E9%A0%98%E5%9F%9F%E5%85%A8%E9%96%8B",
+    "skillCDMin": 14,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆所有符石及石化符石 ⇒ 掉落五屬強化符石 2 回合內 II. 自身攻擊力 3 倍 III. 消除屬性符石時 ⇒ 個人追打該屬性攻擊 1 次 IV. 消除 ≥3 種屬性符石時 ⇒ 自身攻擊無視「指定形狀盾」 V. 若隊中有 ≥3 個 「EVA 駕駛員」 ⇒ 刷新「絕對領域」",
+    "skillMonsters": [
+      "2517"
     ]
   },
   {
@@ -27664,19 +27968,6 @@
   },
   {
     "type": "主動技",
-    "skillName": "芳香四溢 ‧ 木",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E5%85%89",
-    "skillCDMin": 16,
-    "skillCDMax": 5,
-    "skillDesc": "根據隊伍中木屬性成員的數量，回復相應的生命力，最多可回復 6000 點生命力",
-    "skillMonsters": [
-      "1875",
-      "1901",
-      "2253"
-    ]
-  },
-  {
-    "type": "主動技",
     "skillName": "芳香四溢 ‧ 暗",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E6%9A%97",
     "skillCDMin": 16,
@@ -27692,6 +27983,19 @@
     "type": "主動技",
     "skillName": "芳香四溢 ‧ 木",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E6%9C%A8",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "根據隊伍中木屬性成員的數量，回復相應的生命力，最多可回復 6000 點生命力",
+    "skillMonsters": [
+      "1875",
+      "1901",
+      "2253"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "芳香四溢 ‧ 木",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E5%85%89",
     "skillCDMin": 16,
     "skillCDMax": 5,
     "skillDesc": "根據隊伍中木屬性成員的數量，回復相應的生命力，最多可回復 6000 點生命力",
@@ -29983,6 +30287,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "變身 ‧ 覺醒初號機",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AE%8A%E8%BA%AB_%E2%80%A7_%E8%A6%BA%E9%86%92%E5%88%9D%E8%99%9F%E6%A9%9F",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 變身 II. 自身「同步率」上限 ⇒ 變為 400% III. 自身「同步率」提升 100% IV. 引爆「EVA 駕駛員」 直行符石以掉落 ⇒ 該成員屬性的神族強化符石 V. 回合結束時， 將「EVA 駕駛員」直行符石 ⇒ 轉化為該成員屬性的 神族強化符石",
+    "skillMonsters": [
+      "2516"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "讓你見識人類的力量！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AE%93%E4%BD%A0%E8%A6%8B%E8%AD%98%E4%BA%BA%E9%A1%9E%E7%9A%84%E5%8A%9B%E9%87%8F%EF%BC%81",
@@ -32256,7 +32571,7 @@
   {
     "type": "主動技",
     "skillName": "閃光爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%92%83",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%93%8A",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的光屬性傷害",
@@ -32268,7 +32583,7 @@
   {
     "type": "主動技",
     "skillName": "閃光爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%93%8A",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%92%83",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的光屬性傷害",

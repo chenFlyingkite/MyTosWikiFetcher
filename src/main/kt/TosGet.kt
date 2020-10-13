@@ -30,10 +30,9 @@ class TosGet {
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
         fun getImage(element: Element) : String {
-            val imgs = getImageTag(element)
-            val s = imgs?.size ?: 0
-            if (s > 0) {
-                return imgs?.get(0)?.attr("src") ?: ""
+            val imgs = getImageTag(element) ?: return ""
+            if (imgs.size > 0) {
+                return getVignette(imgs[0])
             }
             return ""
         }
@@ -572,7 +571,6 @@ class TosGet {
             val mob = e.getElementsByClass("mobileHide")
             if (mob.size == 0) return list
 
-            //val stg = mob[0].getElementsByClass(imageClass)
             val stg = mob[0].getElementsByTag("a")
             // remove unused
             stg.removeAt(stg.size - 1)
@@ -756,103 +754,6 @@ class TosGet {
                 ans.add(main)
             }
             return ans
-
-            /*
-            val items = e.getElementsByClass("tabbertab")
-            for (i in 0 until items.size) {
-                val item = items[i]
-                val tit = item.attr("title")
-                val eas = item.getElementsByClass(imageClass)
-                val bs = item.getElementsByTag("b")
-                val bs2 = item.getElementsByTag("b") // use for looping pack
-                var k = 0 // The index of eas
-
-                val main = MainStage()
-                main.title = bs[0].text()
-                if (eas != null) {
-                    var pack = intArrayOf(0)
-                    var hero = false
-                    var iron = false
-                    val map = HashMap<Int, Int>()
-
-                    when (tit) {
-                        "英靈時代" -> {
-                            hero = true
-                            // 序章 1
-                            // 分支一︰奧丁支線 2, 4, 1, 1, 1, 2, 1, 1, 1
-                            // 分支二︰洛基支線 5, 1, 1, 1, 1, 3, 1,
-                            // 終章 3
-                            pack = intArrayOf(
-                                    1, // 序章
-                                    2, 4, 1, 1, 1, 2, 1, 1, 1, //分支一︰奧丁支線
-                                    5, 1, 1, 1, 1, 3, 1, // 分支二︰洛基支線
-                                    3 // 終章
-                            )
-                            // Remove the header of group title for group name
-                            bs2.removeAt(21) // 終章
-                            bs2.removeAt(12) // 分支二
-                            bs2.removeAt(2) // 分支一
-                            bs2.removeAt(0) // 序章
-                            // (0, 0) initial,
-                            // (x, y) bold title indices
-                            // for sub-stage x (left part bold title count), its title is at y
-                            // map[key] = value
-                            map[0] = 0
-                            map[1] = 2
-                            map[10] = 12
-                            map[17] = 21
-                        }
-                        "黑鐵時代" -> {
-                            iron = true
-                            // 分支一︰狂魔支線 16
-                            // 分支二︰玩具支線 15, 4
-                            // 分支三︰機械支線 10, 12
-                            pack = intArrayOf(16, // 分支一︰狂魔支線
-                                    15, 4, // 分支二︰玩具支線
-                                    10, 12) // 分支三︰機械支線
-                            bs2.removeAt(5) // 分支三
-                            bs2.removeAt(2) // 分支二
-                            bs2.removeAt(0) // 分支一
-                            map[0] = 0
-                            map[1] = 2
-                            map[3] = 5
-                        }
-                    }
-                    var main2 = MainStage()
-                    pack.forEachIndexed { pk, pv ->
-                        if (hero || iron) {
-                            val v = map[pk]
-                            if (v != null) {
-                                main2 = MainStage()
-                                main2.title = bs[v].text()
-                            }
-                        }
-
-                        val subs = StageGroup()
-                        if (pk < bs2.size) {
-                            subs.group = bs2[pk].text()
-                        }
-
-                        for (zi in 0 until pv) {
-                            val ea = eas[k]
-                            val ms = getStageInfo(ea, baseWiki)
-                            subs.stages.add(ms)
-                            k++
-                        }
-
-                        main2.substages.add(subs)
-                        if (hero || iron) {
-                            if (pk in map.keys) {
-                                ans.add(main2)
-                            }
-                        } else {
-                            main.substages.add(subs)
-                        }
-                    }
-                }
-            }
-            return ans
-            */
         }
 
         /**
@@ -1392,16 +1293,33 @@ class TosGet {
         fun getCardImagedLink(doc: Document) : List<NameLink> {
             val result = ArrayList<NameLink>()
             val monster = doc.getElementById("monster-data")
-            val imgs = monster?.getElementsByClass(imageClass)
+            //val imgs = monster?.getElementsByClass(imageClass)
+            val ths = monster.getElementsByTag("th")
 
-            val imgSize = imgs?.size ?: 0
-            for (i in 0 until imgSize) {
-                val ei = imgs?.get(i)
-                val info = NameLink()
-                info.link = getWikiLink(ei?.attr("href") ?: "", wikiBaseZh)
-                info.name = ei?.attr("title") ?: ""
-                if (!info.isEmpty()) {
-                    result.add(info)
+            if (ths != null) {
+                for (th in ths) {
+                    val txt = th.text();
+                    if (txt.contains(Regex("(關卡|能力)"))) {
+                        val taga = th.parent().getElementsByTag("a")
+                        if (taga.size > 0) {
+                            val ei = taga[0]
+                            val info = NameLink()
+                            info.link = getWikiLink(ei?.attr("href") ?: "", wikiBaseZh)
+                            info.name = ei?.attr("title") ?: ""
+                            if (!info.isEmpty()) {
+                                result.add(info)
+                            }
+                        }
+                    }
+//                    val img = tb.getElementsByTag("img")
+//                    if (img.size == 0) continue
+//                    val ei = img[0]
+//                    val info = NameLink()
+//                    info.link = getWikiLink(ei?.attr("href") ?: "", wikiBaseZh)
+//                    info.name = ei?.attr("title") ?: ""
+//                    if (!info.isEmpty()) {
+//                        result.add(info)
+//                    }
                 }
             }
             return result
@@ -1409,12 +1327,16 @@ class TosGet {
 
         fun getCardDetails(doc: Document) : CardDetail {
             val de = CardDetail()
-            val details = doc.getElementsByClass("module move")
+            //val details = doc.getElementsByClass("module move")
+            val tbs = doc.getElementsByTag("table")
+            if (tbs.size == 0) return de
+            val details = tbs.last().getElementsByClass("box")
 
             var teamInfo = ""
             var cardInfo = ""
             for (det in details) {
-                val tif = det.text().indexOf("隊伍技能")
+                val txt = det.text()
+                val tif = txt.indexOf("隊伍技能")
                 if (tif in 0..9) { // Find team info node, not story node
                     val size = det.childNodeSize()
                     if (size > 0) {
@@ -1425,7 +1347,7 @@ class TosGet {
                     }
                 }
 
-                val cif = det.text().indexOf("卡牌資訊")
+                val cif = txt.indexOf("卡牌資訊")
                 // Fill in same skills in node
                 if (cif in 0..9) { // Find card info node, not story node
                     val size = det.childNodeSize()
@@ -1433,7 +1355,7 @@ class TosGet {
                         val ele = det.childNode(size - 1)
                         if (ele is Element) {
                             cardInfo = concatTextNodes(ele)
-                            val tas = ele.getElementsByClass(imageClass)
+                            val tas = ele.getElementsByTag("a")
                             for (a in tas) {
                                 de.sameSkills.add(getAltId(a))
                             }

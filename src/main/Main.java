@@ -44,18 +44,14 @@ public class Main {
         //stock();
 
         //MyTosWikiFirebase.run();
-        fetch();
+        //fetch();
         //copyToMyTosWiki();
-        //TosLostRelicPassFetcher.me.run();
-        //TosMainStageFetcher.me.run();
-        //TosVoidRealmFetcher.me.run();
         //TosUserPackFetcher.me.run();
-        //TosCardFetcher.me.run();
+        TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
 
         //XliffParser.me.addStringsToIos();
 
-        //TosUserPackFetcher.me.run();
         //ASD.run(); // testing on filter cards
         //print();
 
@@ -89,7 +85,7 @@ public class Main {
             // 卡片內容
             // Skill change + Craft + Card List -> Card Fetcher
             List<Runnable> beforeCard = Arrays.asList(
-                    TosWikiCardsLister.me
+                    TosWikiCardsLister.me // ok
                     , TosSkillFetcher.me // ok
                     , TosCraftFetcher.me
             );
@@ -123,15 +119,15 @@ public class Main {
             // -  全部技能
             //run.add(TosSkillFetcher.me);
             // 敵人技能
-            run.add(TosEnemySkillFetcher.me);
+            run.add(TosEnemySkillFetcher.me); // ok
             // 遺跡特許
             run.add(TosLostRelicPassFetcher.me); // ok
             // 主線關卡
-            run.add(TosMainStageFetcher.me);
+            run.add(TosMainStageFetcher.me); // ok
             // 旅人的記憶
-            run.add(TosStoryStageFetcher.me);
+            run.add(TosStoryStageFetcher.me); // ok
             // 虛影世界
-            run.add(TosVoidRealmFetcher.me);
+            run.add(TosVoidRealmFetcher.me); // ok
             // 地獄級關卡
             run.add(TosUltimateStageFetcher.me); // ok
 

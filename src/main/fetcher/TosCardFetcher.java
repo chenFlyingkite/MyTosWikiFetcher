@@ -74,6 +74,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/2425" // 29
         );
         link.clear(); // uncomment this if use test links
+//        for (int i = 1; i < 100; i++) {
+//            link.add("https://tos.fandom.com/zh/wiki/" + i);
+//        }
         //link.add("https://tos.fandom.com/zh/wiki/2186");
         //link.add("https://tos.fandom.com/zh/wiki/2162");
         //link.add("https://tos.fandom.com/zh/wiki/1436");
@@ -81,7 +84,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/6174");
         //link.add("https://tos.fandom.com/zh/wiki/595");
         //link.add("https://tos.fandom.com/zh/wiki/230");
-        link.add("https://tos.fandom.com/zh/wiki/2055");
+        link.add("https://tos.fandom.com/zh/wiki/656");
         //link.add("https://tos.fandom.com/zh/wiki/2425"); // 29
         if (!fixing) {
             link.clear();
@@ -251,7 +254,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     }
 
     private void addAmeAwkInfo(CardInfo info, List<NameLink> nameLink, int[] anchors, List<String> tds, CardTds rawCard) {
-        if (ListUtil.isEmpty(nameLink)) return;
+        //if (ListUtil.isEmpty(nameLink)) return;
         int ax;
 
         // Fetch if has 昇華關卡

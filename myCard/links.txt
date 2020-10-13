@@ -11640,7 +11640,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/1945"
   },
   {
-    "title": "No. 1946 萬魔壟斷 ‧  薩魯曼",
+    "title": "No. 1946 萬魔壟斷 ‧ 薩魯曼",
     "id": "1946",
     "link": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E9%AD%94%E5%A3%9F%E6%96%B7_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
     "linkId": "http://zh.tos.wikia.com/wiki/1946"
@@ -14292,6 +14292,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2398"
   },
   {
+    "title": "No. 2399 神之魂寵",
+    "id": "2399",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E4%B9%8B%E9%AD%82%E5%AF%B5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2399"
+  },
+  {
     "title": "No. 2401 漆彩塗鴉 ‧ 克蘿伊",
     "id": "2401",
     "link": "https://tos.fandom.com/zh/wiki/%E6%BC%86%E5%BD%A9%E5%A1%97%E9%B4%89_%E2%80%A7_%E5%85%8B%E8%98%BF%E4%BC%8A",
@@ -14896,6 +14902,102 @@
     "id": "2509",
     "link": "https://tos.fandom.com/zh/wiki/%E8%99%B9%E8%9D%B6",
     "linkId": "http://zh.tos.wikia.com/wiki/2509"
+  },
+  {
+    "title": "No. 2516 碇真嗣與EVA初號機",
+    "id": "2516",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A2%87%E7%9C%9F%E5%97%A3%E8%88%87EVA%E5%88%9D%E8%99%9F%E6%A9%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2516"
+  },
+  {
+    "title": "No. 2517 碇真嗣與EVA覺醒初號機",
+    "id": "2517",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A2%87%E7%9C%9F%E5%97%A3%E8%88%87EVA%E8%A6%BA%E9%86%92%E5%88%9D%E8%99%9F%E6%A9%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2517"
+  },
+  {
+    "title": "No. 2518 明日香與EVA2號機",
+    "id": "2518",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%98%8E%E6%97%A5%E9%A6%99%E8%88%87EVA2%E8%99%9F%E6%A9%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2518"
+  },
+  {
+    "title": "No. 2519 真理與EVA臨時5號機",
+    "id": "2519",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%90%86%E8%88%87EVA%E8%87%A8%E6%99%825%E8%99%9F%E6%A9%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2519"
+  },
+  {
+    "title": "No. 2520 綾波零與EVA零號機",
+    "id": "2520",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B6%BE%E6%B3%A2%E9%9B%B6%E8%88%87EVA%E9%9B%B6%E8%99%9F%E6%A9%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2520"
+  },
+  {
+    "title": "No. 2521 渚薰與Mark.06",
+    "id": "2521",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B8%9A%E8%96%B0%E8%88%87Mark.06",
+    "linkId": "http://zh.tos.wikia.com/wiki/2521"
+  },
+  {
+    "title": "No. 2522 巫女 ‧ 綾波零",
+    "id": "2522",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3_%E2%80%A7_%E7%B6%BE%E6%B3%A2%E9%9B%B6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2522"
+  },
+  {
+    "title": "No. 2523 巫女 ‧ 明日香",
+    "id": "2523",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3_%E2%80%A7_%E6%98%8E%E6%97%A5%E9%A6%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/2523"
+  },
+  {
+    "title": "No. 2524 巫女 ‧ 真理",
+    "id": "2524",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B7%AB%E5%A5%B3_%E2%80%A7_%E7%9C%9F%E7%90%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2524"
+  },
+  {
+    "title": "No. 2525 第4使徒",
+    "id": "2525",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC4%E4%BD%BF%E5%BE%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2525"
+  },
+  {
+    "title": "No. 2527 第6使徒",
+    "id": "2527",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC6%E4%BD%BF%E5%BE%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2527"
+  },
+  {
+    "title": "No. 2528 第6使徒 (反擊形態)",
+    "id": "2528",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC6%E4%BD%BF%E5%BE%92_(%E5%8F%8D%E6%93%8A%E5%BD%A2%E6%85%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2528"
+  },
+  {
+    "title": "No. 2529 第6使徒 (攻擊形態)",
+    "id": "2529",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC6%E4%BD%BF%E5%BE%92_(%E6%94%BB%E6%93%8A%E5%BD%A2%E6%85%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2529"
+  },
+  {
+    "title": "No. 2530 第8使徒 (戰鬥形態)",
+    "id": "2530",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC8%E4%BD%BF%E5%BE%92_(%E6%88%B0%E9%AC%A5%E5%BD%A2%E6%85%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2530"
+  },
+  {
+    "title": "No. 2534 碇源堂",
+    "id": "2534",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A2%87%E6%BA%90%E5%A0%82",
+    "linkId": "http://zh.tos.wikia.com/wiki/2534"
+  },
+  {
+    "title": "No. 2535 片片",
+    "id": "2535",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%89%87%E7%89%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2535"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
