@@ -25,6 +25,7 @@ class TosGet {
         private val wikiBaseZh = "https://tos.fandom.com"
         private val wikiBaseZhOld = "http://zh.tos.wikia.com"
         private val imageSrc = "https://vignette.wikia.nocookie.net"
+        private val imageSrc2 = "https://static.wikia.nocookie.net"
 
         // Extract for TosCard's big image and links
         // http://zh.tos.wikia.com/wiki/001
@@ -476,10 +477,10 @@ class TosGet {
                     id.toString() + "|fullstatsMax%7D%7D"
             val data = getApiBody(link)
             // Substring body part & split
-            val prefix = "{\"expandtemplates\":{\"*\":\""
-            val px = data.indexOf(prefix)
+            val prefix = "\"expandtemplates\":{\"*\":\""
+            val px = data.lastIndexOf(prefix)
             val suffix = "\"}}"
-            val sx = data.indexOf(suffix)
+            val sx = data.indexOf(suffix, px)
 
             val src = data.substring(px + prefix.length, sx)
             return src
@@ -540,157 +541,30 @@ class TosGet {
             for (i in 0 until tbs.size) {
                 val main = MainStage()
                 val ei = tbs[i]
-                if (i == 0) {
-                    val subs = ei.getElementsByTag("td")
-                    val stg = StageGroup()
-                    for (si in subs) {
+                val subs = ei.getElementsByTag("td")
+                val stg = StageGroup()
+                for (si in subs) {
+                    val zs = si.getElementsByTag("a")
+                    for (z in zs) {
+                        // no image case, only text link
+                        if (z.getElementsByTag("img").size == 0) continue
+
                         val x = Stage()
-                        val z = si.getElementsByTag("a")[0]
                         x.name = z.attr("title")
                         x.link = getWikiLink(z.attr("href"), baseWiki)
-                        x.icon = getAltId(si)
+                        x.icon = getAltId(z)
                         if (x.icon.startsWith("C") || x.icon.startsWith("8")) {
                             // 龍刻 or 存音石
                         } else {
                             stg.stages.add(0, x)
                         }
                     }
-                    // 42 stages = 6 stage * 7 group
-                    main.substages.add(0, stg)
-                } else {
-                    // Code is Similar with i = 0
-                    val subs = ei.getElementsByClass(imageClass)
-                    val stg = StageGroup()
-                    for (si in subs) {
-                        val x = Stage()
-                        val z = si.getElementsByTag("a")[0]
-                        x.name = z.attr("title")
-                        x.link = getWikiLink(z.attr("href"), baseWiki)
-                        x.icon = getAltId(si)
-                        if (x.icon.startsWith("C") || x.icon.startsWith("8")) {
-                            // 龍刻 or 存音石
-                        } else {
-                            stg.stages.add(0, x)
-                        }
-                    }
-                    main.substages.add(0, stg)
                 }
+                // 42 stages = 6 stage * 7 group
+                main.substages.add(0, stg)
                 ans.add(0, main)
             }
             return ans
-            /*
-            val items = e.getElementsByClass("tabbertab")
-            for (i in 0 until items.size) {
-                val item = items[i]
-                val tit = item.attr("title")
-                val eas = item.getElementsByClass(imageClass)
-                val bs = item.getElementsByTag("b")
-                val bs2 = item.getElementsByTag("b") // use for looping pack
-                var k = 0 // The index of eas
-
-                val main = MainStage()
-                main.title = bs[0].text()
-                if (eas != null) {
-                    var pack = intArrayOf(0)
-                    var ten = false
-                    var nine = false
-                    var six = false
-
-                    when (tit) {
-                        "第10封印" -> {
-                            ten = true
-                            pack = intArrayOf(5, 5, 5, 5)
-                            bs2.removeAt(0)
-                        }
-                        "第7-9封印" -> {
-                            nine = true
-                            pack = intArrayOf(1, 2, 2, // 9
-                                    1, 3, 3, 3, 3, 3, // 8
-                                    6) // 7
-                            bs2.removeAt(11) // <b>第七封印</b>
-                            bs2.removeAt(4) // <b>第八封印</b>
-                            bs2.removeAt(0) // <b>第九封印</b>
-                        }
-                        "第1-6封印" -> {
-                            six = true
-                            pack = intArrayOf(6, 6, 6, 6, 6, 7)
-                        }
-                    }
-                    var main2 = MainStage()
-                    pack.forEachIndexed { pk, pv ->
-                        if (ten) {
-                            when (pk) {
-                                0 -> {
-                                    main2 = MainStage()
-                                    main2.title = bs[0].text()
-                                }
-                                else -> {
-                                }
-                            }
-                        } else if (nine) {
-                            // Split info
-                            when (pk) {
-                                0 -> {
-                                    main2 = MainStage()
-                                    main2.title = bs[0].text()
-                                }
-                                3 -> { // <b>第八封印</b>
-                                    main2 = MainStage()
-                                    main2.title = bs[4].text()
-                                }
-                                9 -> { // <b>第七封印</b>
-                                    main2 = MainStage()
-                                    main2.title = bs[11].text()
-                                }
-                            }
-                        } else if (six) {
-                            // Create new stage info
-                            main2 = MainStage()
-                            main2.title = bs[pk].text()
-                        }
-
-                        val subs = StageGroup()
-                        if (ten || nine) {
-                            if (pk < bs2.size) {
-                                subs.group = bs2[pk].text()
-                            }
-                        }
-                        for (zi in 0 until pv) {
-                            val ea = eas[k]
-                            val ms = getStageInfo(ea, baseWiki)
-                            subs.stages.add(ms)
-                            k++
-                        }
-
-                        //if (nine || six) {
-                            main2.substages.add(subs)
-                        if (ten) {
-                            if (pk in intArrayOf(0, 6, 11)) {
-                                ans.add(main2)
-                            }
-                        } else if (nine) {
-                            if (pk in intArrayOf(2, 8, 9)) {
-                                // add for 第7-9封印
-                                ans.add(main2)
-                            }
-                        } else if (six) {
-                            // add for 第1-6封印
-                            ans.add(main2)
-                        }
-                        //} else {
-                        //    main.substages.add(subs)
-                        //}
-                    }
-
-                    // add only when 第十封印
-                    if (nine || six) {
-                    } else {
-                        //ans.add(main)
-                    }
-                }
-            }
-            return ans
-            */
         }
 
         fun getUltimateStages(e: Element, baseWiki: String) : List<Stage> {
@@ -771,12 +645,13 @@ class TosGet {
 
                 val ax = s[k + 1].getElementsByTag("a")
                 for (axi in ax) {
-                    if (axi.hasClass(imageClass)) {
-                        val aimg = axi.child(0)
+                    val imgs = axi.getElementsByTag("img")
+                    if (imgs.size > 0) {
+                        val aimg = imgs[0]
                         val si = SimpleIcon()
                         // For 1~3 icons, its data-src did not fill in content
                         // Need "https://vignette.wikia.nocookie.net/tos/images"...
-                        si.iconLink = getVignette(aimg, "data-src", "src")
+                        si.iconLink = getVignette(aimg)
                         si.iconKey = aimg.attr("data-image-key")
                         c.icons.add(si)
                     } else {
@@ -795,10 +670,17 @@ class TosGet {
             return ans
         }
 
+        fun getVignette(e: Element) : String {
+            return getVignette(e, "data-src", "src")
+        }
+
         fun getVignette(e: Element, vararg attrs: String) : String {
             var img = ""
             for (key in attrs) {
                 img = e.attr(key)
+                if (img.startsWith("https://static.wikia.nocookie.net/tos/images")) {
+                    return img
+                }
                 if (img.startsWith("https://vignette.wikia.nocookie.net/tos/images")) {
                     return img
                 }
@@ -853,7 +735,7 @@ class TosGet {
             for (i in 0 until items.size) {
                 val main = MainStage()
                 val item = items[i]
-                val eas = item.getElementsByClass("a")
+                val eas = item.getElementsByTag("a")
                 val subs = StageGroup()
                 for (ea in eas) {
                     if (ea.hasClass("selflink")) continue
@@ -999,7 +881,7 @@ class TosGet {
                     c.link = getWikiLink(a.attr("href"), baseWiki)
                     //c.id = g.attr("alt")
                     c.idNorm = normCraftId(g.attr("alt"))
-                    c.icon.iconLink = getVignette(g, "data-src", "src")// = getIconLink(si)
+                    c.icon.iconLink = getVignette(g)// = getIconLink(si)
                     c.icon.iconKey = g.attr("data-image-key")
                     ans.add(c)
                 } else {
@@ -1017,6 +899,8 @@ class TosGet {
                 return src
             } else if (src.startsWith(imageSrc)) {
                 return src
+            } else if (src.startsWith(imageSrc2)) {
+                return src
             } else {
                 return baseWiki + src
             }
@@ -1027,7 +911,7 @@ class TosGet {
             if (gx.size == 0) return ""
 
             val g = gx[0]
-            return getVignette(g, "data-src", "src")
+            return getVignette(g)
         }
 
 
