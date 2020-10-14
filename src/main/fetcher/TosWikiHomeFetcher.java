@@ -5,6 +5,7 @@ import main.kt.HomeRow;
 import main.kt.HomeTable;
 import main.kt.SealEventItem;
 import main.kt.SealEventTable;
+import main.kt.Stage;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -42,8 +43,9 @@ public class TosWikiHomeFetcher extends TosWikiBaseFetcher {
         mLf.log("" + table.getTitle());
         for (HomeRow row : table.getRows()) {
             mLf.log("" + row);
-            if (row.isChallenge()) {
-                mLf.log(mGson.toJson(row.toStage()) + ",");
+            Stage stg = row.toStage();
+            if (stg.hasDigit()) {
+                mLf.log(mGson.toJson(stg) + ",");
             }
         }
     }

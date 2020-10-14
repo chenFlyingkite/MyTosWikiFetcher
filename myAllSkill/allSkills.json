@@ -1522,7 +1522,9 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "人類攻擊力 5 倍",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2534"
+    ]
   },
   {
     "type": "主動技",
@@ -1531,7 +1533,9 @@
     "skillCDMin": 17,
     "skillCDMax": 6,
     "skillDesc": "生命力全滿才可發動此技能： I. 自身攻擊力減至 0 II. 人類及神族攻擊力 2 倍 III.「EVA 駕駛員」攻擊力 ⇒ 額外 1.4 倍 效果持續至生命力 ≤40%",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2534"
+    ]
   },
   {
     "type": "隊長技",
@@ -1665,7 +1669,9 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "I.「使徒」攻擊力 5 倍 II. 敵方受到的無屬性傷害 2.5 倍",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2527"
+    ]
   },
   {
     "type": "隊長技",
@@ -1674,7 +1680,10 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "I.「使徒」攻擊力 5 倍 II. 進入關卡後，「使徒」技能 CD -3 III. 敵方受到的無屬性傷害 3 倍",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2528",
+      "2529"
+    ]
   },
   {
     "type": "主動技",
@@ -4980,7 +4989,9 @@
     "skillCDMin": 20,
     "skillCDMax": 6,
     "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬點無屬性傷害 IV. 敵方全體點燃，持續 3 回合",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2528"
+    ]
   },
   {
     "type": "主動技",
@@ -8797,7 +8808,9 @@
     "skillCDMin": 20,
     "skillCDMax": 6,
     "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬點無屬性傷害 IV. 電擊敵方全體，持續 3 回合",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2529"
+    ]
   },
   {
     "type": "主動技",
@@ -23710,6 +23723,7 @@
       "2321",
       "2390",
       "2392",
+      "2525",
       "9017"
     ]
   },
@@ -26073,7 +26087,9 @@
     "skillCDMin": 16,
     "skillCDMax": 5,
     "skillDesc": "消耗 50% 總生命力以發動技能 (生命力 \u003e50% 才能發動) I. 引爆電擊符石及 自身直行符石 ⇒ 對敵方全體造成 400 萬點無屬性傷害 1 回合內 II. 自身對神族、機械族目標 ⇒ 攻擊力額外 2.5 倍",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2525"
+    ]
   },
   {
     "type": "隊長技",
@@ -26170,7 +26186,9 @@
     "skillCDMin": 20,
     "skillCDMax": 6,
     "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 1 回合內 III. 上述每轉化 1 粒強化符石 ⇒ 減少 5% 所受傷害 ⇒ 最多可減少 100% 傷害",
-    "skillMonsters": []
+    "skillMonsters": [
+      "2527"
+    ]
   },
   {
     "type": "主動技",
@@ -26912,6 +26930,15 @@
     "skillMonsters": [
       "1974"
     ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "給我一雙翅膀",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%A6%E6%88%91%E4%B8%80%E9%9B%99%E7%BF%85%E8%86%80",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "隊伍中其中 1 個 「碇真嗣與EVA覺醒初號機」 當前 EP ≥8 才能發動此技能： I. 發動技能時 ⓵ 隊中 EP 最低的 「碇真嗣與EVA覺醒初號機」 ⇒ EP 減至 0 ⓶ 所有「綾波零與EVA零號機」 ⇒ 技能重置 II. 敵方全體 ⓵ 攻擊力減少 50% ⓶ 防禦力減至 0 III. 引爆所有符石、 凍結符石、石化符石 ⇒ 分別掉落 橫行五屬強化符石 1 回合內 IV.「碇真嗣與EVA覺醒初號機」 以外成員不能發動攻擊 V. 所有屬性符石兼具 ⇒ 200% 其他屬性符石效果 VI. 記錄 「移動符石時間完結一刻」 場上的符石分佈 (包括強化符石、種族符石) ⇒ 首批掉落所記錄的符石 VII.「碇真嗣與EVA覺醒初號機」 的攻擊無視敵人防禦力 及「指定形狀盾」敵技",
+    "skillMonsters": []
   },
   {
     "type": "隊長技",

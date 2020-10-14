@@ -44,10 +44,10 @@ public class Main {
         //stock();
 
         //MyTosWikiFirebase.run();
-        //fetch();
+        fetch();
         //copyToMyTosWiki();
         //TosUserPackFetcher.me.run();
-        TosCardFetcher.me.run();
+        //TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
 
         //XliffParser.me.addStringsToIos();
@@ -67,7 +67,7 @@ public class Main {
     }
 
     private static void fetch() {
-        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
+        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
         fetchMisc();
         fetchCards();
         //TosWikiCardsLister.me.run();
@@ -85,8 +85,8 @@ public class Main {
             // 卡片內容
             // Skill change + Craft + Card List -> Card Fetcher
             List<Runnable> beforeCard = Arrays.asList(
-                    TosWikiCardsLister.me // ok
-                    , TosSkillFetcher.me // ok
+                    TosWikiCardsLister.me
+                    , TosSkillFetcher.me
                     , TosCraftFetcher.me
             );
             Runnable endCard = TosCardFetcher.me;
@@ -111,7 +111,7 @@ public class Main {
         if (regl) {
             MyTosWikiFirebase.run();
             // 神魔主頁內容
-            run.add(TosWikiHomeFetcher.me); // OK
+            run.add(TosWikiHomeFetcher.me);
             // 技能內容 - 卡片內容 (4 min if fast)
             // Skill change + Craft + Card List -> Card Fetcher
             // -  龍刻
@@ -119,17 +119,17 @@ public class Main {
             // -  全部技能
             //run.add(TosSkillFetcher.me);
             // 敵人技能
-            run.add(TosEnemySkillFetcher.me); // ok
+            run.add(TosEnemySkillFetcher.me);
             // 遺跡特許
-            run.add(TosLostRelicPassFetcher.me); // ok
+            run.add(TosLostRelicPassFetcher.me);
             // 主線關卡
-            run.add(TosMainStageFetcher.me); // ok
+            run.add(TosMainStageFetcher.me);
             // 旅人的記憶
-            run.add(TosStoryStageFetcher.me); // ok
+            run.add(TosStoryStageFetcher.me);
             // 虛影世界
-            run.add(TosVoidRealmFetcher.me); // ok
+            run.add(TosVoidRealmFetcher.me);
             // 地獄級關卡
-            run.add(TosUltimateStageFetcher.me); // ok
+            run.add(TosUltimateStageFetcher.me);
 
 
             Runnable end = () -> {

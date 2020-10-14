@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3135 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3136 items, basePath = https://tos.fandom.com, offset = null)
 攻守一體_‧_木 -> https://tos.fandom.com/zh/wiki/%E6%94%BB%E5%AE%88%E4%B8%80%E9%AB%94_%E2%80%A7_%E6%9C%A8
 符石解放_‧_水 -> https://tos.fandom.com/zh/wiki/%E7%AC%A6%E7%9F%B3%E8%A7%A3%E6%94%BE_%E2%80%A7_%E6%B0%B4
 海之力 -> https://tos.fandom.com/zh/wiki/%E6%B5%B7%E4%B9%8B%E5%8A%9B
@@ -3136,4 +3136,5 @@ N2航空誘導彈 -> https://tos.fandom.com/zh/wiki/N2%E8%88%AA%E7%A9%BA%E8%AA%9
 神族萬鈞之怒_‧_極 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5
 人類補完計劃 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E8%A3%9C%E5%AE%8C%E8%A8%88%E5%8A%83
 人類萬鈞之怒_‧_極 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5
-3160 skills
+給我一雙翅膀 -> https://tos.fandom.com/zh/wiki/%E7%B5%A6%E6%88%91%E4%B8%80%E9%9B%99%E7%BF%85%E8%86%80
+3161 skills

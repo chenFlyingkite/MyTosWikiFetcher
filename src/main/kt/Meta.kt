@@ -49,6 +49,10 @@ open class Stage {
     override fun toString(): String {
         return "$icon, $name -> $link"
     }
+
+    fun hasDigit(): Boolean {
+        return icon.contains(Regex("[0-9]"))
+    }
 }
 
 open class RelicStage : Stage() {
@@ -206,7 +210,7 @@ class HomeRow {
         // Last 50 hrs
         //val hr = Math.round((dateEnd + 60 - dateStart) / 3600.0)
         //return hr == 50L
-        return asTexts().toString().contains(Regex("(地獄級|夢魘級|戰慄級|雙週任務)"))
+        return asTexts().toString().contains(Regex("(地獄級|夢魘級|戰慄級|雙週)"))
     }
 
     fun toStage() : Stage {
@@ -214,7 +218,11 @@ class HomeRow {
         if (n == 0) return Stage()
 
         val ex = tds[n - 1]
-        return TosGet.getStageInfo(ex.getElementsByTag("a").first())
+        val tas = ex.getElementsByTag("a")
+        if (tas == null || tas.size == 0) {
+            return Stage()
+        }
+        return TosGet.getStageInfo(tas[0])
     }
 
     override fun toString() : String {
