@@ -14964,6 +14964,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2525"
   },
   {
+    "title": "No. 2526 第5使徒",
+    "id": "2526",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC5%E4%BD%BF%E5%BE%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2526"
+  },
+  {
     "title": "No. 2527 第6使徒",
     "id": "2527",
     "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC6%E4%BD%BF%E5%BE%92",
@@ -17170,6 +17176,12 @@
     "id": "6410",
     "link": "https://tos.fandom.com/zh/wiki/%E7%9B%B8%E6%80%9D%E8%8A%B1%E7%81%AB_%E2%80%A7_%E7%BF%A1%E7%BF%A0",
     "linkId": "http://zh.tos.wikia.com/wiki/6410"
+  },
+  {
+    "title": "S411 第8使徒",
+    "id": "6411",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC8%E4%BD%BF%E5%BE%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/6411"
   },
   {
     "title": "S412 星月兔郎 ‧ 蒼璧",

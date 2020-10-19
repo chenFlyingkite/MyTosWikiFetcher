@@ -11028,6 +11028,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "揮動熾熱",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%8F%AE%E5%8B%95%E7%86%BE%E7%86%B1",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將最左及最右方直行符石 ⇒ 轉化為火強化符石 1 回合內 II. 個人以 50% 攻擊力追打 6 次",
+    "skillMonsters": [
+      "2526"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "援之寄意",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%8F%B4%E4%B9%8B%E5%AF%84%E6%84%8F",
     "skillCDMin": 20,
@@ -23724,6 +23735,7 @@
       "2390",
       "2392",
       "2525",
+      "2526",
       "9017"
     ]
   },

@@ -4095,6 +4095,195 @@
     }
   },
   {
+    "idNorm": "3563",
+    "name": "高振動粒子刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%8C%AF%E5%8B%95%E7%B2%92%E5%AD%90%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6b/C3563.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131227\u0026path-prefix\u003dzh",
+      "iconKey": "C3563.png"
+    }
+  },
+  {
+    "idNorm": "3564",
+    "name": "高振動粒子刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%8C%AF%E5%8B%95%E7%B2%92%E5%AD%90%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/fa/C3564.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131231\u0026path-prefix\u003dzh",
+      "iconKey": "C3564.png"
+    }
+  },
+  {
+    "idNorm": "3565",
+    "name": "高振動粒子刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%8C%AF%E5%8B%95%E7%B2%92%E5%AD%90%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4b/C3565.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131233\u0026path-prefix\u003dzh",
+      "iconKey": "C3565.png"
+    }
+  },
+  {
+    "idNorm": "3566",
+    "name": "高振動粒子刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%8C%AF%E5%8B%95%E7%B2%92%E5%AD%90%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d6/C3566.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131236\u0026path-prefix\u003dzh",
+      "iconKey": "C3566.png"
+    }
+  },
+  {
+    "idNorm": "3567",
+    "name": "高振動粒子刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%8C%AF%E5%8B%95%E7%B2%92%E5%AD%90%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/a/aa/C3567.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131239\u0026path-prefix\u003dzh",
+      "iconKey": "C3567.png"
+    }
+  },
+  {
+    "idNorm": "3568",
+    "name": "高振動粒子刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%8C%AF%E5%8B%95%E7%B2%92%E5%AD%90%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6b/C3568.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131242\u0026path-prefix\u003dzh",
+      "iconKey": "C3568.png"
+    }
+  },
+  {
+    "idNorm": "3569",
+    "name": "高振動粒子刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%8C%AF%E5%8B%95%E7%B2%92%E5%AD%90%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c7/C3569.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131245\u0026path-prefix\u003dzh",
+      "iconKey": "C3569.png"
+    }
+  },
+  {
+    "idNorm": "3570",
+    "name": "陽電子炮龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%99%BD%E9%9B%BB%E5%AD%90%E7%82%AE%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/2/24/C3570.png/revision/latest/scale-to-width-down/60?cb\u003d20201016165638\u0026path-prefix\u003dzh",
+      "iconKey": "C3570.png"
+    }
+  },
+  {
+    "idNorm": "3571",
+    "name": "陽電子炮龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%99%BD%E9%9B%BB%E5%AD%90%E7%82%AE%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d4/C3571.png/revision/latest/scale-to-width-down/60?cb\u003d20201016165637\u0026path-prefix\u003dzh",
+      "iconKey": "C3571.png"
+    }
+  },
+  {
+    "idNorm": "3572",
+    "name": "陽電子炮龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%99%BD%E9%9B%BB%E5%AD%90%E7%82%AE%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e3/C3572.png/revision/latest/scale-to-width-down/60?cb\u003d20201016165635\u0026path-prefix\u003dzh",
+      "iconKey": "C3572.png"
+    }
+  },
+  {
+    "idNorm": "3573",
+    "name": "陽電子炮龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%99%BD%E9%9B%BB%E5%AD%90%E7%82%AE%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/C3573.png/revision/latest/scale-to-width-down/60?cb\u003d20201016165634\u0026path-prefix\u003dzh",
+      "iconKey": "C3573.png"
+    }
+  },
+  {
+    "idNorm": "3574",
+    "name": "陽電子炮龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%99%BD%E9%9B%BB%E5%AD%90%E7%82%AE%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/8/85/C3574.png/revision/latest/scale-to-width-down/60?cb\u003d20201016165632\u0026path-prefix\u003dzh",
+      "iconKey": "C3574.png"
+    }
+  },
+  {
+    "idNorm": "3575",
+    "name": "陽電子炮龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%99%BD%E9%9B%BB%E5%AD%90%E7%82%AE%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/14/C3575.png/revision/latest/scale-to-width-down/60?cb\u003d20201016165631\u0026path-prefix\u003dzh",
+      "iconKey": "C3575.png"
+    }
+  },
+  {
+    "idNorm": "3576",
+    "name": "陽電子炮龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%99%BD%E9%9B%BB%E5%AD%90%E7%82%AE%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6f/C3576.png/revision/latest/scale-to-width-down/60?cb\u003d20201016165629\u0026path-prefix\u003dzh",
+      "iconKey": "C3576.png"
+    }
+  },
+  {
+    "idNorm": "3577",
+    "name": "朗基努斯之槍龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%97%E5%9F%BA%E5%8A%AA%E6%96%AF%E4%B9%8B%E6%A7%8D%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/C3577.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131355\u0026path-prefix\u003dzh",
+      "iconKey": "C3577.png"
+    }
+  },
+  {
+    "idNorm": "3578",
+    "name": "朗基努斯之槍龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%97%E5%9F%BA%E5%8A%AA%E6%96%AF%E4%B9%8B%E6%A7%8D%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/5/53/C3578.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131358\u0026path-prefix\u003dzh",
+      "iconKey": "C3578.png"
+    }
+  },
+  {
+    "idNorm": "3579",
+    "name": "朗基努斯之槍龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%97%E5%9F%BA%E5%8A%AA%E6%96%AF%E4%B9%8B%E6%A7%8D%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f0/C3579.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131401\u0026path-prefix\u003dzh",
+      "iconKey": "C3579.png"
+    }
+  },
+  {
+    "idNorm": "3580",
+    "name": "朗基努斯之槍龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%97%E5%9F%BA%E5%8A%AA%E6%96%AF%E4%B9%8B%E6%A7%8D%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6e/C3580.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131404\u0026path-prefix\u003dzh",
+      "iconKey": "C3580.png"
+    }
+  },
+  {
+    "idNorm": "3581",
+    "name": "朗基努斯之槍龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%97%E5%9F%BA%E5%8A%AA%E6%96%AF%E4%B9%8B%E6%A7%8D%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/9/97/C3581.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131406\u0026path-prefix\u003dzh",
+      "iconKey": "C3581.png"
+    }
+  },
+  {
+    "idNorm": "3582",
+    "name": "朗基努斯之槍龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%97%E5%9F%BA%E5%8A%AA%E6%96%AF%E4%B9%8B%E6%A7%8D%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/fa/C3582.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131409\u0026path-prefix\u003dzh",
+      "iconKey": "C3582.png"
+    }
+  },
+  {
+    "idNorm": "3583",
+    "name": "朗基努斯之槍龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%97%E5%9F%BA%E5%8A%AA%E6%96%AF%E4%B9%8B%E6%A7%8D%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/46/C3583.png/revision/latest/scale-to-width-down/60?cb\u003d20201009131411\u0026path-prefix\u003dzh",
+      "iconKey": "C3583.png"
+    }
+  },
+  {
     "idNorm": "7001",
     "name": "幻之弦琴龍紋",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E4%B9%8B%E5%BC%A6%E7%90%B4%E9%BE%8D%E7%B4%8B",
