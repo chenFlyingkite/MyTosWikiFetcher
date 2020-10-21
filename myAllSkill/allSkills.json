@@ -3701,7 +3701,8 @@
       "2093",
       "2179",
       "2278",
-      "2334"
+      "2334",
+      "2544"
     ]
   },
   {
@@ -14716,7 +14717,8 @@
       "2199",
       "2204",
       "2243",
-      "2420"
+      "2420",
+      "2542"
     ]
   },
   {
@@ -15617,6 +15619,17 @@
     "skillDesc": "1 回合內，自身攻擊力 15 倍，其他成員不能發動攻擊",
     "skillMonsters": [
       "0671"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "殘暴解放",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AE%98%E6%9A%B4%E8%A7%A3%E6%94%BE",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 解除自身被封鎖的技能 1 回合內 II. 自身攻擊力 20 倍 III. 自身攻擊 ⓵ 無視敵人防禦力 ⓶ 無視「固定連擊盾」 IV. 其他成員不能發動攻擊",
+    "skillMonsters": [
+      "2543"
     ]
   },
   {
@@ -16775,7 +16788,8 @@
       "2428",
       "2429",
       "2509",
-      "2535"
+      "2535",
+      "2544"
     ]
   },
   {
@@ -27120,6 +27134,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "罪的獨白",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BD%AA%E7%9A%84%E7%8D%A8%E7%99%BD",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 發動技能時，封鎖自身以外 可發動技能成員的技能 II. 自身攻擊力及回復力 5 倍 效果會在進入下一層數 (Wave) 時消失",
+    "skillMonsters": [
+      "2542"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "羅善巖極限突破",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BE%85%E5%96%84%E5%B7%96%E6%A5%B5%E9%99%90%E7%AA%81%E7%A0%B4",
     "skillCDMin": 62,
@@ -29740,6 +29765,17 @@
     "skillCDMax": 10,
     "skillDesc": "消耗現在 30% 生命力，並同時消秏敵方生命力 30%",
     "skillMonsters": []
+  },
+  {
+    "type": "隊長技",
+    "skillName": "血色屠殺契機",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E8%89%B2%E5%B1%A0%E6%AE%BA%E5%A5%91%E6%A9%9F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 首批消除雙數連擊 (Combo) 時 ⇒ 全隊攻擊力 10 倍， II. 累計擊斃敵人愈多 ⇒ 攻擊力提升愈多 ⇒ 最多可達至 20 倍",
+    "skillMonsters": [
+      "2543"
+    ]
   },
   {
     "type": "隊長技",

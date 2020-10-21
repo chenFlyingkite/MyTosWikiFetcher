@@ -15006,6 +15006,24 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2535"
   },
   {
+    "title": "No. 2542 鐵腕罪犯 ‧ 普奇",
+    "id": "2542",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%90%B5%E8%85%95%E7%BD%AA%E7%8A%AF_%E2%80%A7_%E6%99%AE%E5%A5%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2542"
+  },
+  {
+    "title": "No. 2543 邪趣屠夫 ‧ 艾德",
+    "id": "2543",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E8%B6%A3%E5%B1%A0%E5%A4%AB_%E2%80%A7_%E8%89%BE%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2543"
+  },
+  {
+    "title": "No. 2544 溏心南瓜",
+    "id": "2544",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BA%8F%E5%BF%83%E5%8D%97%E7%93%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2544"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
