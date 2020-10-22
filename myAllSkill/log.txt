@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3140 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3141 items, basePath = https://tos.fandom.com, offset = null)
 攻守一體_‧_木 -> https://tos.fandom.com/zh/wiki/%E6%94%BB%E5%AE%88%E4%B8%80%E9%AB%94_%E2%80%A7_%E6%9C%A8
 符石解放_‧_水 -> https://tos.fandom.com/zh/wiki/%E7%AC%A6%E7%9F%B3%E8%A7%A3%E6%94%BE_%E2%80%A7_%E6%B0%B4
 海之力 -> https://tos.fandom.com/zh/wiki/%E6%B5%B7%E4%B9%8B%E5%8A%9B
@@ -3141,4 +3141,5 @@ N2航空誘導彈 -> https://tos.fandom.com/zh/wiki/N2%E8%88%AA%E7%A9%BA%E8%AA%9
 罪的獨白 -> https://tos.fandom.com/zh/wiki/%E7%BD%AA%E7%9A%84%E7%8D%A8%E7%99%BD
 殘暴解放 -> https://tos.fandom.com/zh/wiki/%E6%AE%98%E6%9A%B4%E8%A7%A3%E6%94%BE
 血色屠殺契機 -> https://tos.fandom.com/zh/wiki/%E8%A1%80%E8%89%B2%E5%B1%A0%E6%AE%BA%E5%A5%91%E6%A9%9F
-3165 skills
+深淵殺機 -> https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B7%B5%E6%AE%BA%E6%A9%9F
+3166 skills

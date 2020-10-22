@@ -16812,7 +16812,7 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6318"
   },
   {
-    "title": "No. 6319 審望煉瞳 ‧ 超級七(動態造型)",
+    "title": "S319 審望煉瞳 ‧ 超級七(動態造型)",
     "id": "6319",
     "link": "https://tos.fandom.com/zh/wiki/%E5%AF%A9%E6%9C%9B%E7%85%89%E7%9E%B3_%E2%80%A7_%E8%B6%85%E7%B4%9A%E4%B8%83(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6319"
@@ -17014,6 +17014,12 @@
     "id": "6358",
     "link": "https://tos.fandom.com/zh/wiki/%E7%80%A7%E5%B7%9D%E5%87%9C(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6358"
+  },
+  {
+    "title": "S359 莉絲(動態造型)",
+    "id": "6359",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8E%89%E7%B5%B2(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6359"
   },
   {
     "title": "S360 希望之盒 ‧ 潘朵拉(動態造型)",

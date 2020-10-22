@@ -17994,6 +17994,15 @@
   },
   {
     "type": "主動技",
+    "skillName": "深淵殺機",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B7%B5%E6%AE%BA%E6%A9%9F",
+    "skillCDMin": 24,
+    "skillCDMax": 10,
+    "skillDesc": "1 回合內， 隊伍中攻擊力最高 (最左方) 的 暗屬性成員攻擊力 10 倍",
+    "skillMonsters": []
+  },
+  {
+    "type": "主動技",
     "skillName": "深淵領域",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B7%B5%E9%A0%98%E5%9F%9F",
     "skillCDMin": 20,
