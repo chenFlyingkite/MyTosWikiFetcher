@@ -14994,6 +14994,24 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2530"
   },
   {
+    "title": "No. 2531 第9使徒",
+    "id": "2531",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC9%E4%BD%BF%E5%BE%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2531"
+  },
+  {
+    "title": "No. 2532 第10使徒",
+    "id": "2532",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC10%E4%BD%BF%E5%BE%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2532"
+  },
+  {
+    "title": "No. 2533 第10使徒 (捕食形態)",
+    "id": "2533",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC10%E4%BD%BF%E5%BE%92_(%E6%8D%95%E9%A3%9F%E5%BD%A2%E6%85%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2533"
+  },
+  {
     "title": "No. 2534 碇源堂",
     "id": "2534",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A2%87%E6%BA%90%E5%A0%82",
@@ -17212,6 +17230,12 @@
     "id": "6412",
     "link": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E6%9C%88%E5%85%94%E9%83%8E_%E2%80%A7_%E8%92%BC%E7%92%A7",
     "linkId": "http://zh.tos.wikia.com/wiki/6412"
+  },
+  {
+    "title": "S418 鬼出沒注意 ‧ 天照",
+    "id": "6418",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AC%BC%E5%87%BA%E6%B2%92%E6%B3%A8%E6%84%8F_%E2%80%A7_%E5%A4%A9%E7%85%A7",
+    "linkId": "http://zh.tos.wikia.com/wiki/6418"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

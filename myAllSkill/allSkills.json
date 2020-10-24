@@ -1686,6 +1686,28 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "使徒來襲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BD%BF%E5%BE%92%E4%BE%86%E8%A5%B2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族成員時： I. 神族攻擊力 6 倍及生命力 2 倍 II. 生命力全滿時 ⇒「使徒」攻擊力額外 4 倍",
+    "skillMonsters": [
+      "2532"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "使徒來襲 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BD%BF%E5%BE%92%E4%BE%86%E8%A5%B2_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族成員時： I. 神族攻擊力 6 倍及生命力 2 倍 II. 生命力全滿時 ⇒「使徒」攻擊力額外 4 倍 III.「使徒」發動主動技能時 ⇒ 完全回復生命力",
+    "skillMonsters": [
+      "2533"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "來、再一次奮起吧",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BE%86%E3%80%81%E5%86%8D%E4%B8%80%E6%AC%A1%E5%A5%AE%E8%B5%B7%E5%90%A7",
@@ -1716,6 +1738,17 @@
     "skillDesc": "I. 發動技能及每回合結束時 ⓵ 將光符石轉化為火強化符石 ⓶ 將暗符石轉化為心強化符石 II. 隊長攻擊力 3 倍 III. 首批消除所有符石時 ⇒「大紅蓮團」成員 CD 減少 3 IV. 於發動攻擊前 ⇒ 對單一敵人造成 200 萬無屬性傷害 (需消除符石、 此傷害無視敵人防禦力及 「強化突破」敵技) (效果會在關閉此技能或 死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 將所有符石轉化為 五屬強化符石各 6 粒",
     "skillMonsters": [
       "2411"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "侵蝕攻勢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E6%94%BB%E5%8B%A2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將所有符石轉化為神族符石 1 回合內 I. 左旁神族成員的攻擊力減至 0 II. 將減去攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊無視敵人防禦力 IV. 若左旁成員為 「明日香與EVA2號機」 ⇒ 則效果持續 5 回合",
+    "skillMonsters": [
+      "2531"
     ]
   },
   {
@@ -4989,7 +5022,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8A%A0%E7%B2%92%E5%AD%90%E7%82%AE",
     "skillCDMin": 20,
     "skillCDMax": 6,
-    "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬點無屬性傷害 IV. 敵方全體點燃，持續 3 回合",
+    "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬無屬性傷害 IV. 敵方全體點燃，持續 3 回合",
     "skillMonsters": [
       "2528"
     ]
@@ -8808,7 +8841,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B8%B6%E9%9B%BB%E7%B2%92%E5%AD%90%E7%82%AE",
     "skillCDMin": 20,
     "skillCDMax": 6,
-    "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬點無屬性傷害 IV. 電擊敵方全體，持續 3 回合",
+    "skillDesc": "I. 所有符石隨機轉換 II. 將非強化符石 ⇒ 轉化為強化符石 III. 上述每轉化 1 粒強化符石 ⇒ 對敵方全體造成 50 萬無屬性傷害 IV. 電擊敵方全體，持續 3 回合",
     "skillMonsters": [
       "2529"
     ]
@@ -26121,7 +26154,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%AC4%E4%BD%BF%E5%BE%92%E6%94%BB%E6%93%8A",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "消耗 50% 總生命力以發動技能 (生命力 \u003e50% 才能發動) I. 引爆電擊符石及 自身直行符石 ⇒ 對敵方全體造成 400 萬點無屬性傷害 1 回合內 II. 自身對神族、機械族目標 ⇒ 攻擊力額外 2.5 倍",
+    "skillDesc": "消耗 50% 總生命力以發動技能 (生命力 \u003e50% 才能發動) I. 引爆電擊符石及 自身直行符石 ⇒ 對敵方全體造成 400 萬無屬性傷害 1 回合內 II. 自身對神族、機械族目標 ⇒ 攻擊力額外 2.5 倍",
     "skillMonsters": [
       "2525"
     ]
@@ -30582,6 +30615,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "超現實攻擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E7%8F%BE%E5%AF%A6%E6%94%BB%E6%93%8A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 將移動符石時觸碰的 首 6 粒符石轉化為 ⇒ 光神族強化符石 II. 光符石兼具 ⇒ 50% 其他符石效果 III. 每首批消除 1 粒神族符石 ⇒ 回復 3,000 點生命力 ⇒ 最多可回復 30,000 點生命力",
+    "skillMonsters": [
+      "2532"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "超現實攻擊 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E7%8F%BE%E5%AF%A6%E6%94%BB%E6%93%8A_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 將移動符石時觸碰的 首 8 粒符石轉化為 ⇒ 光神族強化符石 II. 光符石兼具其他符石效果 III. 每首批消除 1 粒神族符石 ⇒ 回復 3,000 點生命力 ⇒ 最多可回復 30,000 點生命力",
+    "skillMonsters": [
+      "2533"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "超級治療",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E7%B4%9A%E6%B2%BB%E7%99%82",
     "skillCDMin": 19,
@@ -32421,6 +32476,17 @@
       "1041",
       "1044",
       "1795"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "銳利光線",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%8A%B3%E5%88%A9%E5%85%89%E7%B7%9A",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I.「使徒」攻擊力 3 倍 II. 個人以 50% 攻擊力追打 ⇒ 光及暗屬性攻擊各 3 次 III. 若隊中只有神族成員時 ⇒ 自身攻擊無視五屬盾",
+    "skillMonsters": [
+      "2533"
     ]
   },
   {
