@@ -23803,7 +23803,8 @@
     "skillCDMax": -1,
     "skillDesc": "神族攻擊力 5 倍",
     "skillMonsters": [
-      "2530"
+      "2530",
+      "2540"
     ]
   },
   {
