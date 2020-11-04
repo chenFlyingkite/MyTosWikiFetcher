@@ -15054,6 +15054,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2540"
   },
   {
+    "title": "No. 2541 碇真嗣與渚薰與EVA13號機",
+    "id": "2541",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A2%87%E7%9C%9F%E5%97%A3%E8%88%87%E6%B8%9A%E8%96%B0%E8%88%87EVA13%E8%99%9F%E6%A9%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2541"
+  },
+  {
     "title": "No. 2542 鐵腕罪犯 ‧ 普奇",
     "id": "2542",
     "link": "https://tos.fandom.com/zh/wiki/%E9%90%B5%E8%85%95%E7%BD%AA%E7%8A%AF_%E2%80%A7_%E6%99%AE%E5%A5%87",
@@ -17260,6 +17266,18 @@
     "id": "6412",
     "link": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E6%9C%88%E5%85%94%E9%83%8E_%E2%80%A7_%E8%92%BC%E7%92%A7",
     "linkId": "http://zh.tos.wikia.com/wiki/6412"
+  },
+  {
+    "title": "S413 EVA13號機",
+    "id": "6413",
+    "link": "https://tos.fandom.com/zh/wiki/EVA13%E8%99%9F%E6%A9%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/6413"
+  },
+  {
+    "title": "S415 AAA Wunder",
+    "id": "6415",
+    "link": "https://tos.fandom.com/zh/wiki/AAA_Wunder",
+    "linkId": "http://zh.tos.wikia.com/wiki/6415"
   },
   {
     "title": "S418 鬼出沒注意 ‧ 天照",
