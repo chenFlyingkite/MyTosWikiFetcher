@@ -14556,6 +14556,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2443"
   },
   {
+    "title": "No. 2444 幸運招財 · 雪喵子",
+    "id": "2444",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B9%B8%E9%81%8B%E6%8B%9B%E8%B2%A1_%C2%B7_%E9%9B%AA%E5%96%B5%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2444"
+  },
+  {
     "title": "No. 2446 噬日災煞 · 噬日狼",
     "id": "2446",
     "link": "https://tos.fandom.com/zh/wiki/%E5%99%AC%E6%97%A5%E7%81%BD%E7%85%9E_%C2%B7_%E5%99%AC%E6%97%A5%E7%8B%BC",
@@ -14892,6 +14898,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2506"
   },
   {
+    "title": "No. 2507 天盪風篩 ‧ 堤豐",
+    "id": "2507",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%9B%AA%E9%A2%A8%E7%AF%A9_%E2%80%A7_%E5%A0%A4%E8%B1%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2507"
+  },
+  {
     "title": "No. 2508 魑魅剋星 ‧ 檮杌",
     "id": "2508",
     "link": "https://tos.fandom.com/zh/wiki/%E9%AD%91%E9%AD%85%E5%89%8B%E6%98%9F_%E2%80%A7_%E6%AA%AE%E6%9D%8C",
@@ -15076,6 +15088,12 @@
     "id": "2544",
     "link": "https://tos.fandom.com/zh/wiki/%E6%BA%8F%E5%BF%83%E5%8D%97%E7%93%9C",
     "linkId": "http://zh.tos.wikia.com/wiki/2544"
+  },
+  {
+    "title": "No. 2545 明悟睿濤 ‧ 亞特蘭堤斯",
+    "id": "2545",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%98%8E%E6%82%9F%E7%9D%BF%E6%BF%A4_%E2%80%A7_%E4%BA%9E%E7%89%B9%E8%98%AD%E5%A0%A4%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2545"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -17274,10 +17292,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6413"
   },
   {
+    "title": "S414 碇真嗣與渚薰與EVA13號機(動態造型)",
+    "id": "6414",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A2%87%E7%9C%9F%E5%97%A3%E8%88%87%E6%B8%9A%E8%96%B0%E8%88%87EVA13%E8%99%9F%E6%A9%9F(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6414"
+  },
+  {
     "title": "S415 AAA Wunder",
     "id": "6415",
     "link": "https://tos.fandom.com/zh/wiki/AAA_Wunder",
     "linkId": "http://zh.tos.wikia.com/wiki/6415"
+  },
+  {
+    "title": "S417 明悟睿濤 ‧ 亞特蘭堤斯(動態造型)",
+    "id": "6417",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%98%8E%E6%82%9F%E7%9D%BF%E6%BF%A4_%E2%80%A7_%E4%BA%9E%E7%89%B9%E8%98%AD%E5%A0%A4%E6%96%AF(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6417"
   },
   {
     "title": "S418 鬼出沒注意 ‧ 天照",
