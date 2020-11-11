@@ -1,5 +1,10 @@
-4 main stages
+5 main stages
 #0 :  : 
+  [ > 
+  #0 = 20001, 甦醒的過去 Extra -> https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB_Extra
+  #1 = S-2117i, 甦醒的過去 -> https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB
+]
+#1 :  : 
   [ > 
   #0 = 1871, 粉碎重生者的憎恨 -> https://tos.fandom.com/zh/wiki/%E7%B2%89%E7%A2%8E%E9%87%8D%E7%94%9F%E8%80%85%E7%9A%84%E6%86%8E%E6%81%A8
   #1 = 1723, 不擇手段地搶奪 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%93%87%E6%89%8B%E6%AE%B5%E5%9C%B0%E6%90%B6%E5%A5%AA
@@ -22,7 +27,7 @@
   #18 = 1387, 屍骨的堆放 -> https://tos.fandom.com/zh/wiki/%E5%B1%8D%E9%AA%A8%E7%9A%84%E5%A0%86%E6%94%BE
   #19 = 1381, 前往未知的異動之淵 -> https://tos.fandom.com/zh/wiki/%E5%89%8D%E5%BE%80%E6%9C%AA%E7%9F%A5%E7%9A%84%E7%95%B0%E5%8B%95%E4%B9%8B%E6%B7%B5
 ]
-#1 :  : 
+#2 :  : 
   [ > 
   #0 = 1079, 操控一切的主神 -> https://tos.fandom.com/zh/wiki/%E6%93%8D%E6%8E%A7%E4%B8%80%E5%88%87%E7%9A%84%E4%B8%BB%E7%A5%9E
   #1 = 0942, 眾神的真面目 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%9A%84%E7%9C%9F%E9%9D%A2%E7%9B%AE
@@ -30,7 +35,7 @@
   #3 = 1017, 混沌裡的雷光 -> https://tos.fandom.com/zh/wiki/%E6%B7%B7%E6%B2%8C%E8%A3%A1%E7%9A%84%E9%9B%B7%E5%85%89
   #4 = 0580, 謎團的答案 -> https://tos.fandom.com/zh/wiki/%E8%AC%8E%E5%9C%98%E7%9A%84%E7%AD%94%E6%A1%88
 ]
-#2 :  : 
+#3 :  : 
   [ > 
   #0 = 0829, 激戰的先兆 -> https://tos.fandom.com/zh/wiki/%E6%BF%80%E6%88%B0%E7%9A%84%E5%85%88%E5%85%86
   #1 = 0829, 潛藏的真相 -> https://tos.fandom.com/zh/wiki/%E6%BD%9B%E8%97%8F%E7%9A%84%E7%9C%9F%E7%9B%B8
@@ -49,7 +54,7 @@
   #14 = 0644, 精獸的創造主 -> https://tos.fandom.com/zh/wiki/%E7%B2%BE%E7%8D%B8%E7%9A%84%E5%89%B5%E9%80%A0%E4%B8%BB
   #15 = 0643, 始祖元素之力 -> https://tos.fandom.com/zh/wiki/%E5%A7%8B%E7%A5%96%E5%85%83%E7%B4%A0%E4%B9%8B%E5%8A%9B
 ]
-#3 :  : 
+#4 :  : 
   [ > 
   #0 = 0450, 天界的門廊 -> https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%95%8C%E7%9A%84%E9%96%80%E5%BB%8A
   #1 = 0220, 冥界神殿 -> https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E7%A5%9E%E6%AE%BF

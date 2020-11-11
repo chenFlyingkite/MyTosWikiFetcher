@@ -6,6 +6,26 @@
         "group": "",
         "stages": [
           {
+            "link": "https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB_Extra",
+            "name": "甦醒的過去 Extra",
+            "icon": "20001"
+          },
+          {
+            "link": "https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB",
+            "name": "甦醒的過去",
+            "icon": "S-2117i"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "",
+    "substages": [
+      {
+        "group": "",
+        "stages": [
+          {
             "link": "https://tos.fandom.com/zh/wiki/%E7%B2%89%E7%A2%8E%E9%87%8D%E7%94%9F%E8%80%85%E7%9A%84%E6%86%8E%E6%81%A8",
             "name": "粉碎重生者的憎恨",
             "icon": "1871"

@@ -12849,7 +12849,7 @@
   {
     "type": "主動技",
     "skillName": "暗影爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%93%8A",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%92%83",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的暗屬性傷害",
@@ -12861,7 +12861,7 @@
   {
     "type": "主動技",
     "skillName": "暗影爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%92%83",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%BD%B1%E7%88%86%E6%93%8A",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的暗屬性傷害",
@@ -15597,7 +15597,9 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "I. 全隊攻擊力 5 倍 II. 隊中有 ≥3 種族成員時 ⇒ 全隊攻擊力額外 4 倍 III. 隊中有 ≥3 屬性成員時 ⇒ 全隊生命力及回復力額外 3 倍 IV. 心符石兼具屬性符石效果",
-    "skillMonsters": []
+    "skillMonsters": [
+      "20001"
+    ]
   },
   {
     "type": "主動技",
@@ -17965,6 +17967,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "海淵凝念 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%B7%E6%B7%B5%E5%87%9D%E5%BF%B5_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有水屬性成員時： I. 全隊攻擊力 6.5 倍及生命力 1.5 倍 II. 每消除 1 粒水符石 ⇒ 回復 3% 總生命力 (受連擊 (Combo) 加乘影響) III. 若首批消除的連擊 (Combo) 數為單數時 ⓵ 減少 40% 所受傷害 ⓶ 所有成員的攻擊無視五屬盾 IV. 若首批消除的連擊 (Combo) 數為雙數時 ⇒ 全隊攻擊力額外 2.5 倍 V. 若首批消除的連擊 (Combo) 數 ≥6 ⇒ 可以同時獲得 III, IV 效果",
+    "skillMonsters": [
+      "2545"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "海藍之瞳",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%B7%E8%97%8D%E4%B9%8B%E7%9E%B3",
@@ -18421,6 +18434,17 @@
     "skillDesc": "隊伍中只有妖精類或魔族成員時： I. 全隊攻擊力 4 倍，生命力及回復力 1.3 倍 II. 所有屬性符石兼具 50% 心符石效果(可疊加)",
     "skillMonsters": [
       "1791"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "潛力激發",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%BD%9B%E5%8A%9B%E6%BF%80%E7%99%BC",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 消除所有附加效果 1 回合內 II. 自身攻擊力 5 倍",
+    "skillMonsters": [
+      "20001"
     ]
   },
   {
@@ -20783,7 +20807,9 @@
     "skillCDMin": 10,
     "skillCDMax": 5,
     "skillDesc": "I. 消除所有附加效果 II. 引爆心符石以掉落強化符石",
-    "skillMonsters": []
+    "skillMonsters": [
+      "20001"
+    ]
   },
   {
     "type": "主動技",
@@ -23068,6 +23094,17 @@
       "1134",
       "7005",
       "7011"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "睿智急流",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9D%BF%E6%99%BA%E6%80%A5%E6%B5%81",
+    "skillCDMin": 12,
+    "skillCDMax": 3,
+    "skillDesc": "將 5 至 8 粒符石 ⇒ 轉化為水強化符石 (心符石優先轉換)",
+    "skillMonsters": [
+      "2545"
     ]
   },
   {
@@ -28078,6 +28115,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "自由激濤 ‧ 湧",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%87%AA%E7%94%B1%E6%BF%80%E6%BF%A4_%E2%80%A7_%E6%B9%A7",
+    "skillCDMin": 17,
+    "skillCDMax": 8,
+    "skillDesc": "I. 15 秒內，可任意移動符石 而不會發動消除 1 回合內 II. 全隊攻擊力 2.2 倍 III. 若隊中只有水屬性成員 ⇒ 水符石 1 粒即可發動消除 ⇒ 效果持續至消除 30 粒水符石",
+    "skillMonsters": [
+      "2545"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "致命暴擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%87%B4%E5%91%BD%E6%9A%B4%E6%93%8A",
@@ -28212,7 +28260,7 @@
   {
     "type": "主動技",
     "skillName": "芳香四溢 ‧ 木",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E6%9C%A8",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E5%85%89",
     "skillCDMin": 16,
     "skillCDMax": 5,
     "skillDesc": "根據隊伍中木屬性成員的數量，回復相應的生命力，最多可回復 6000 點生命力",
@@ -28225,7 +28273,7 @@
   {
     "type": "主動技",
     "skillName": "芳香四溢 ‧ 木",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E5%85%89",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8A%B3%E9%A6%99%E5%9B%9B%E6%BA%A2_%E2%80%A7_%E6%9C%A8",
     "skillCDMin": 16,
     "skillCDMax": 5,
     "skillDesc": "根據隊伍中木屬性成員的數量，回復相應的生命力，最多可回復 6000 點生命力",
@@ -30595,6 +30643,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "財源廣進",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B2%A1%E6%BA%90%E5%BB%A3%E9%80%B2",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "3 回合內， 隊伍成員的種族及屬性愈多 ⇒ 所受傷害減少愈多 ⇒ 隊中集齊 5 種屬性及 6 個種族成員， 可減少最多 88% 傷害",
+    "skillMonsters": [
+      "2444"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "赤火之靈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B5%A4%E7%81%AB%E4%B9%8B%E9%9D%88",
     "skillCDMin": 18,
@@ -32878,7 +32937,7 @@
   {
     "type": "主動技",
     "skillName": "閃光爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%93%8A",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%92%83",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的光屬性傷害",
@@ -32890,7 +32949,7 @@
   {
     "type": "主動技",
     "skillName": "閃光爆撃",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%92%83",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E5%85%89%E7%88%86%E6%93%8A",
     "skillCDMin": 19,
     "skillCDMax": 6,
     "skillDesc": "對敵方全體造成自身攻擊力 30 倍的光屬性傷害",
@@ -33785,6 +33844,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "震吼之暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9C%87%E5%90%BC%E4%B9%8B%E6%9A%B4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "2 回合內 I. 敵方全體防禦力減至 0 II. 減少 40% 所受傷害 III. 首批消除所有木符石 ⇒ 神族及妖精類成員的攻擊 無視「指定形狀盾」敵技",
+    "skillMonsters": [
+      "2507"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "震山之霸",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9C%87%E5%B1%B1%E4%B9%8B%E9%9C%B8",
@@ -33936,7 +34006,9 @@
     "skillCDMin": 16,
     "skillCDMax": 5,
     "skillDesc": "I. 消除所有附加效果 II. 引爆自身角色直行符石 ⇒ 掉落心符石",
-    "skillMonsters": []
+    "skillMonsters": [
+      "20001"
+    ]
   },
   {
     "type": "主動技",
