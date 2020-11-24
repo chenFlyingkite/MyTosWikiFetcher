@@ -15114,6 +15114,78 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2545"
   },
   {
+    "title": "No. 2561 迸裂龍吟 ‧ 安胡勒",
+    "id": "2561",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BF%B8%E8%A3%82%E9%BE%8D%E5%90%9F_%E2%80%A7_%E5%AE%89%E8%83%A1%E5%8B%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2561"
+  },
+  {
+    "title": "No. 2566 水幻冰藍 ‧ 米菲波",
+    "id": "2566",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E5%B9%BB%E5%86%B0%E8%97%8D_%E2%80%A7_%E7%B1%B3%E8%8F%B2%E6%B3%A2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2566"
+  },
+  {
+    "title": "No. 2567 緋曦赤霞 ‧ 紅璦",
+    "id": "2567",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B7%8B%E6%9B%A6%E8%B5%A4%E9%9C%9E_%E2%80%A7_%E7%B4%85%E7%92%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2567"
+  },
+  {
+    "title": "No. 2568 比擬萬象 ‧ 達格",
+    "id": "2568",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AF%94%E6%93%AC%E8%90%AC%E8%B1%A1_%E2%80%A7_%E9%81%94%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2568"
+  },
+  {
+    "title": "No. 2569 天才使魔 ‧ 豹豹",
+    "id": "2569",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E6%89%8D%E4%BD%BF%E9%AD%94_%E2%80%A7_%E8%B1%B9%E8%B1%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2569"
+  },
+  {
+    "title": "No. 2570 夢詠守望 ‧ 英格麗",
+    "id": "2570",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A2%E8%A9%A0%E5%AE%88%E6%9C%9B_%E2%80%A7_%E8%8B%B1%E6%A0%BC%E9%BA%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/2570"
+  },
+  {
+    "title": "No. 2571 黛蔻藥師 ‧ 茜蘿珊",
+    "id": "2571",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BB%9B%E8%94%BB%E8%97%A5%E5%B8%AB_%E2%80%A7_%E8%8C%9C%E8%98%BF%E7%8F%8A",
+    "linkId": "http://zh.tos.wikia.com/wiki/2571"
+  },
+  {
+    "title": "No. 2572 破幻銀鈴 ‧ 傾霞",
+    "id": "2572",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%B9%BB%E9%8A%80%E9%88%B4_%E2%80%A7_%E5%82%BE%E9%9C%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2572"
+  },
+  {
+    "title": "No. 2573 無微珍護 ‧ 曼特裘",
+    "id": "2573",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%BE%AE%E7%8F%8D%E8%AD%B7_%E2%80%A7_%E6%9B%BC%E7%89%B9%E8%A3%98",
+    "linkId": "http://zh.tos.wikia.com/wiki/2573"
+  },
+  {
+    "title": "No. 2577 尤加利戰熊 ‧ 富伯",
+    "id": "2577",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B0%A4%E5%8A%A0%E5%88%A9%E6%88%B0%E7%86%8A_%E2%80%A7_%E5%AF%8C%E4%BC%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2577"
+  },
+  {
+    "title": "No. 2582 干戈雷芒 ‧ 渾沌",
+    "id": "2582",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B9%B2%E6%88%88%E9%9B%B7%E8%8A%92_%E2%80%A7_%E6%B8%BE%E6%B2%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2582"
+  },
+  {
+    "title": "No. 2583 通訊貓",
+    "id": "2583",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%9A%E8%A8%8A%E8%B2%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/2583"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
