@@ -110,18 +110,50 @@ public class MathUtil {
      * Time complexity = O(sqrt(x))
      */
     public static boolean isPrime(long x) {
-        if (x < 10) {
-            return x == 2 || x == 3 || x == 5 || x == 7;
+        if (x <= 1) return false;
+
+        final int[] p = {2, 3, 5, 7};
+        for (int z : p) {
+            if (x == z) {
+                return true;
+            } else if (x % z == 0) {
+                return false;
+            }
         }
 
-        if (x % 2 == 0) return false;
-
-        for (int i = 3; i * i <= x; i += 2) {
-            if (x % i == 0) {
+        // Only check 6n-1 & 6n+1
+        int z = 0;
+        for (int i = 1; z * z <= x; i++) {
+            z = 6 * i - 1;
+            if (x % z == 0) {
+                return false;
+            }
+            z = 6 * i + 1;
+            if (x % z == 0) {
                 return false;
             }
         }
         return true;
+    }
+
+    //long[] a =  {10, 100, 1_000, 10_000, 100_000, 1_000_000, 10_000_000, 100_000_000, 1_000_000_000};
+    //nextPrime = {11, 101, 1_009, 10_007, 100_003, 1_000_003, 10_000_019, 100_000_007, 1_000_000_007};
+
+    public static long nextPrime(long x) {
+        return nextPrime(x, Long.MAX_VALUE);
+    }
+
+    // Returns the smallest prime in (x, max), for values = [x+1, x+2, ..., max-1]
+    // returns max if all values are not prime
+    public static long nextPrime(long x, long max) {
+        long now = x+1;
+        while (now < max) {
+            if (isPrime(now)) {
+                return now;
+            }
+            now++;
+        }
+        return max;
     }
 
 }
