@@ -6019,7 +6019,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%91%BD%E9%81%8B%E4%BA%A4%E7%B9%94",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 將場上的符石變回原始模樣 II. 引爆所有符石 ⇒ 掉落固定數量及位置的 「水及火」龍族強化符石 1 回合內 II. 龍類、人類、妖精類、魔族 ⇒ 攻擊力 2 倍 III. 所有成員無視 「三屬盾」及「五屬盾」",
+    "skillDesc": "I. 將場上的符石變回原始模樣 II. 引爆所有符石 ⇒ 掉落 固定數量及位置 的 「水及火」龍族強化符石 1 回合內 II. 龍類、人類、妖精類、魔族 ⇒ 攻擊力 2 倍 III. 所有成員無視 「三屬盾」及「五屬盾」",
     "skillMonsters": [
       "2567"
     ]
@@ -21876,7 +21876,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%86%A5%E4%B9%8B%E5%90%BC",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將 12 個固定位置的符石 ⇒ 轉化為「光及暗」 獸族強化符石各 6 粒 II.「干戈雷芒 ‧ 渾沌」以外 技能 CD ≥5 的獸類成員 ⇒ CD -1",
+    "skillDesc": "I. 將 12 個固定位置 的符石 ⇒ 轉化為「光及暗」 獸族強化符石各 6 粒 II.「干戈雷芒 ‧ 渾沌」以外 技能 CD ≥5 的獸類成員 ⇒ CD -1",
     "skillMonsters": [
       "2582"
     ]
