@@ -6037,6 +6037,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "哈迪婆婆的暴擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%93%88%E8%BF%AA%E5%A9%86%E5%A9%86%E7%9A%84%E6%9A%B4%E6%93%8A",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "點選元素法陣上的 1 種符石： 3 回合內 I. 將移動符石時觸碰的該種符石 ⇒ 轉化為木強化符石 II. 自身攻擊力 4 倍",
+    "skillMonsters": [
+      "2575"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "哉佩利敖光線",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%93%89%E4%BD%A9%E5%88%A9%E6%95%96%E5%85%89%E7%B7%9A",
     "skillCDMin": 18,
@@ -23466,6 +23477,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "破冰魅術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%86%B0%E9%AD%85%E8%A1%93",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆所有凍結符石 II. 將固定 15 個位置的符石 ⇒ 轉化為暗強化符石 III. 每首批消除 1 組暗符石 ⇒ 額外增加 1 連擊 (Ex. Combo) ⇒ 最多可增加 15 Ex. Combo",
+    "skillMonsters": [
+      "2576"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "破壞光線",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%A3%9E%E5%85%89%E7%B7%9A",
     "skillCDMin": 16,
@@ -31041,6 +31063,15 @@
     "skillMonsters": [
       "2567"
     ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "赤龍殺機",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B5%A4%E9%BE%8D%E6%AE%BA%E6%A9%9F",
+    "skillCDMin": 10,
+    "skillCDMax": 4,
+    "skillDesc": "I.「紅鱗值」提升 50 點 II. 將心符石轉化為 ⇒ 火龍族強化符石 1 回合內 III. 自身攻擊力 3 倍 IV. 回合結束時 ⇒ 將心符石轉化為火強化符石",
+    "skillMonsters": []
   },
   {
     "type": "主動技",

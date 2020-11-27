@@ -15168,6 +15168,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2573"
   },
   {
+    "title": "No. 2575 青春臂彎 ‧ 哈迪婆婆",
+    "id": "2575",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%92%E6%98%A5%E8%87%82%E5%BD%8E_%E2%80%A7_%E5%93%88%E8%BF%AA%E5%A9%86%E5%A9%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2575"
+  },
+  {
+    "title": "No. 2576 面紗下的微光 ‧ 塔維爾",
+    "id": "2576",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%A2%E7%B4%97%E4%B8%8B%E7%9A%84%E5%BE%AE%E5%85%89_%E2%80%A7_%E5%A1%94%E7%B6%AD%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2576"
+  },
+  {
     "title": "No. 2577 尤加利戰熊 ‧ 富伯",
     "id": "2577",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B0%A4%E5%8A%A0%E5%88%A9%E6%88%B0%E7%86%8A_%E2%80%A7_%E5%AF%8C%E4%BC%AF",
@@ -17410,6 +17422,18 @@
     "id": "6418",
     "link": "https://tos.fandom.com/zh/wiki/%E9%AC%BC%E5%87%BA%E6%B2%92%E6%B3%A8%E6%84%8F_%E2%80%A7_%E5%A4%A9%E7%85%A7",
     "linkId": "http://zh.tos.wikia.com/wiki/6418"
+  },
+  {
+    "title": "S431 夢詠守望 ‧ 英格麗(動態造型)",
+    "id": "6431",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A2%E8%A9%A0%E5%AE%88%E6%9C%9B_%E2%80%A7_%E8%8B%B1%E6%A0%BC%E9%BA%97(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6431"
+  },
+  {
+    "title": "S432 面紗下的微光 ‧ 塔維爾(動態造型)",
+    "id": "6432",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%A2%E7%B4%97%E4%B8%8B%E7%9A%84%E5%BE%AE%E5%85%89_%E2%80%A7_%E5%A1%94%E7%B6%AD%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6432"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
