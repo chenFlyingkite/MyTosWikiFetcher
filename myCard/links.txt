@@ -15114,10 +15114,124 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2545"
   },
   {
+    "title": "No. 2546 斧光亡影 ‧ 貝奧武夫",
+    "id": "2546",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%96%A7%E5%85%89%E4%BA%A1%E5%BD%B1_%E2%80%A7_%E8%B2%9D%E5%A5%A7%E6%AD%A6%E5%A4%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/2546"
+  },
+  {
+    "title": "No. 2547 沐火狂嘯 ‧ 阿基里斯",
+    "id": "2547",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%90%E7%81%AB%E7%8B%82%E5%98%AF_%E2%80%A7_%E9%98%BF%E5%9F%BA%E9%87%8C%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2547"
+  },
+  {
+    "title": "No. 2548 恨愛芒刺 ‧ 迪爾姆德",
+    "id": "2548",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%81%A8%E6%84%9B%E8%8A%92%E5%88%BA_%E2%80%A7_%E8%BF%AA%E7%88%BE%E5%A7%86%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2548"
+  },
+  {
+    "title": "No. 2549 劍戟武侯 ‧ 源義經",
+    "id": "2549",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8A%8D%E6%88%9F%E6%AD%A6%E4%BE%AF_%E2%80%A7_%E6%BA%90%E7%BE%A9%E7%B6%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/2549"
+  },
+  {
+    "title": "No. 2550 沙場無敵 ‧ 呂布",
+    "id": "2550",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%99%E5%A0%B4%E7%84%A1%E6%95%B5_%E2%80%A7_%E5%91%82%E5%B8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2550"
+  },
+  {
+    "title": "No. 2551 蔚碧魔翼 ‧ 絲蔻比亞",
+    "id": "2551",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%94%9A%E7%A2%A7%E9%AD%94%E7%BF%BC_%E2%80%A7_%E7%B5%B2%E8%94%BB%E6%AF%94%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2551"
+  },
+  {
+    "title": "No. 2552 流麗盾舞 ‧ 忒提斯",
+    "id": "2552",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B5%81%E9%BA%97%E7%9B%BE%E8%88%9E_%E2%80%A7_%E5%BF%92%E6%8F%90%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2552"
+  },
+  {
+    "title": "No. 2553 香郁尖刺 ‧ 艾摩婭與瑟露絲",
+    "id": "2553",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A6%99%E9%83%81%E5%B0%96%E5%88%BA_%E2%80%A7_%E8%89%BE%E6%91%A9%E5%A9%AD%E8%88%87%E7%91%9F%E9%9C%B2%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/2553"
+  },
+  {
+    "title": "No. 2554 砉然游刃 ‧ 今劍與薄綠",
+    "id": "2554",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A0%89%E7%84%B6%E6%B8%B8%E5%88%83_%E2%80%A7_%E4%BB%8A%E5%8A%8D%E8%88%87%E8%96%84%E7%B6%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2554"
+  },
+  {
+    "title": "No. 2555 悚駭轍印 ‧ 呂凌霜",
+    "id": "2555",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%82%9A%E9%A7%AD%E8%BD%8D%E5%8D%B0_%E2%80%A7_%E5%91%82%E5%87%8C%E9%9C%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2555"
+  },
+  {
+    "title": "No. 2556 滄浪鈞斧 ‧ 貝奧武夫",
+    "id": "2556",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BB%84%E6%B5%AA%E9%88%9E%E6%96%A7_%E2%80%A7_%E8%B2%9D%E5%A5%A7%E6%AD%A6%E5%A4%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/2556"
+  },
+  {
+    "title": "No. 2557 熔煉護盾 ‧ 阿基里斯",
+    "id": "2557",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%86%94%E7%85%89%E8%AD%B7%E7%9B%BE_%E2%80%A7_%E9%98%BF%E5%9F%BA%E9%87%8C%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2557"
+  },
+  {
+    "title": "No. 2558 荊林怒放 ‧ 迪爾姆德",
+    "id": "2558",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8D%8A%E6%9E%97%E6%80%92%E6%94%BE_%E2%80%A7_%E8%BF%AA%E7%88%BE%E5%A7%86%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2558"
+  },
+  {
+    "title": "No. 2559 合璧之刃 ‧ 源義經",
+    "id": "2559",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%90%88%E7%92%A7%E4%B9%8B%E5%88%83_%E2%80%A7_%E6%BA%90%E7%BE%A9%E7%B6%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/2559"
+  },
+  {
+    "title": "No. 2560 馳風馭者 ‧ 呂布",
+    "id": "2560",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A6%B3%E9%A2%A8%E9%A6%AD%E8%80%85_%E2%80%A7_%E5%91%82%E5%B8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2560"
+  },
+  {
     "title": "No. 2561 迸裂龍吟 ‧ 安胡勒",
     "id": "2561",
     "link": "https://tos.fandom.com/zh/wiki/%E8%BF%B8%E8%A3%82%E9%BE%8D%E5%90%9F_%E2%80%A7_%E5%AE%89%E8%83%A1%E5%8B%92",
     "linkId": "http://zh.tos.wikia.com/wiki/2561"
+  },
+  {
+    "title": "No. 2562 怒浪觸手 ‧ 克拉肯",
+    "id": "2562",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%80%92%E6%B5%AA%E8%A7%B8%E6%89%8B_%E2%80%A7_%E5%85%8B%E6%8B%89%E8%82%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2562"
+  },
+  {
+    "title": "No. 2563 冥淵牢籠 ‧ 塔爾塔羅斯",
+    "id": "2563",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E6%B7%B5%E7%89%A2%E7%B1%A0_%E2%80%A7_%E5%A1%94%E7%88%BE%E5%A1%94%E7%BE%85%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2563"
+  },
+  {
+    "title": "No. 2564 獨眼巨魔 ‧ 布隆特斯",
+    "id": "2564",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8D%A8%E7%9C%BC%E5%B7%A8%E9%AD%94_%E2%80%A7_%E5%B8%83%E9%9A%86%E7%89%B9%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2564"
+  },
+  {
+    "title": "No. 2565 群集圍擊 ‧ 地心蜈蚣",
+    "id": "2565",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BE%A4%E9%9B%86%E5%9C%8D%E6%93%8A_%E2%80%A7_%E5%9C%B0%E5%BF%83%E8%9C%88%E8%9A%A3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2565"
   },
   {
     "title": "No. 2566 水幻冰藍 ‧ 米菲波",
@@ -15184,6 +15298,12 @@
     "id": "2577",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B0%A4%E5%8A%A0%E5%88%A9%E6%88%B0%E7%86%8A_%E2%80%A7_%E5%AF%8C%E4%BC%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/2577"
+  },
+  {
+    "title": "No. 2578 冽風旱雷 ‧ 帕祖祖",
+    "id": "2578",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%BD%E9%A2%A8%E6%97%B1%E9%9B%B7_%E2%80%A7_%E5%B8%95%E7%A5%96%E7%A5%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2578"
   },
   {
     "title": "No. 2582 干戈雷芒 ‧ 渾沌",
@@ -17422,6 +17542,12 @@
     "id": "6418",
     "link": "https://tos.fandom.com/zh/wiki/%E9%AC%BC%E5%87%BA%E6%B2%92%E6%B3%A8%E6%84%8F_%E2%80%A7_%E5%A4%A9%E7%85%A7",
     "linkId": "http://zh.tos.wikia.com/wiki/6418"
+  },
+  {
+    "title": "S430 比擬萬象 ‧ 達格(動態造型)",
+    "id": "6430",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AF%94%E6%93%AC%E8%90%AC%E8%B1%A1_%E2%80%A7_%E9%81%94%E6%A0%BC(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6430"
   },
   {
     "title": "S431 夢詠守望 ‧ 英格麗(動態造型)",
