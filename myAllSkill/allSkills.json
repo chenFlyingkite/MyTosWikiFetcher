@@ -1534,6 +1534,9 @@
       "2299",
       "2335",
       "2475",
+      "2587",
+      "2589",
+      "2590",
       "9019"
     ]
   },
@@ -6445,6 +6448,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "固守之志",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9B%BA%E5%AE%88%E4%B9%8B%E5%BF%97",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有人類成員時： I. 人類攻擊力 4 倍 II. 光屬性人類攻擊力則 6 倍 III. 必然延長移動符石時間 1 秒 IV. 消除人族符石時 ⇒ 減少 20% 所受傷害",
+    "skillMonsters": [
+      "2588"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "國師之能",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9C%8B%E5%B8%AB%E4%B9%8B%E8%83%BD",
@@ -6519,6 +6533,17 @@
     "skillDesc": "隊中只有「大紅蓮團」角色或「螺旋王 ‧ 羅傑儂與羅善巖」時 ： I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍 II. 消除符石的屬性愈多，全隊攻擊力額外提升愈多，最多可提升至 3 倍 III. 消除心符石時，減少 40% 所受傷害",
     "skillMonsters": [
       "2422"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "堅壯的臂膀",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A0%85%E5%A3%AF%E7%9A%84%E8%87%82%E8%86%80",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 1 回合內，減少 75% 所受傷害 II. 下回合迴避所有敵人的攻擊",
+    "skillMonsters": [
+      "2590"
     ]
   },
   {
@@ -8842,7 +8867,7 @@
     "type": "主動技",
     "skillName": "巨浪滔天的戰場",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E6%B5%AA%E6%BB%94%E5%A4%A9%E7%9A%84%E6%88%B0%E5%A0%B4",
-    "skillCDMin": 22,
+    "skillCDMin": 34,
     "skillCDMax": 8,
     "skillDesc": "2 回合內 I. 將敵方全體轉為火屬性 II. 提升水屬性 ⇒ 對火屬性目標的攻擊力 III. 所有成員追打 ⇒ 水屬性攻擊 1 次 IV. 效果期間若擊斃所有敵人 ⇒ 當前技能 CD -4",
     "skillMonsters": [
@@ -10534,6 +10559,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "慾念釋放",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%85%BE%E5%BF%B5%E9%87%8B%E6%94%BE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 自身攻擊力 4 倍 II. 自身攻擊傷害 ⇒ 可克制敵人 效果持續至首批消除 1 組 ≥6 粒光符石",
+    "skillMonsters": [
+      "2588"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "憂鬱之藍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%86%82%E9%AC%B1%E4%B9%8B%E8%97%8D",
     "skillCDMin": 19,
@@ -11087,7 +11123,7 @@
     "type": "主動技",
     "skillName": "捨生換日 ‧ 強",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%8D%A8%E7%94%9F%E6%8F%9B%E6%97%A5_%E2%80%A7_%E5%BC%B7",
-    "skillCDMin": 22,
+    "skillCDMin": 34,
     "skillCDMax": 8,
     "skillDesc": "3 回合內 I. 將每直行首粒符石轉化為 ⇒ 該直行成員的種族強化符石 II. 每回合扣除 15% 自身生命力 III. 敵方全體無法行動 效果會因自身生命力 不足 15% 而消失",
     "skillMonsters": [
@@ -14796,7 +14832,7 @@
     "type": "主動技",
     "skillName": "森魔攻勢 ‧ 強",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E9%AD%94%E6%94%BB%E5%8B%A2_%E2%80%A7_%E5%BC%B7",
-    "skillCDMin": 19,
+    "skillCDMin": 31,
     "skillCDMax": 5,
     "skillDesc": "I. 引爆弱化符石、 電擊符石、心符石 ⇒ 掉落木魔族強化符石 II. 若上述引爆符石 ≥15 粒 ⇒ 1 回合內， 連擊 (Combo) 增加 5",
     "skillMonsters": [
@@ -14845,6 +14881,17 @@
     "skillDesc": "1 回合內，自身攻擊力 5 倍 (攻擊力不可與其他成員共享)；發動技能時若「道德反詰法 ‧ 蘇格拉底」及「理想世界 ‧ 柏拉圖」的行動值達至 100% 時，自身攻擊力則提升至 10 倍",
     "skillMonsters": [
       "2024"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "極限戰鬥時間",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A5%B5%E9%99%90%E6%88%B0%E9%AC%A5%E6%99%82%E9%96%93",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "I. 隊伍中有 ≥3 個光屬性人類時 ⇒ 將場上的符石變回原始模樣 2 回合內 II. 每回合開始時 ⇒ 扣自身總生命力 25% III. 全隊攻擊力 2 倍 IV. 延長移動符石時間至 20 秒 V. 隊伍不會被封鎖主動技能",
+    "skillMonsters": [
+      "2588"
     ]
   },
   {
@@ -15008,7 +15055,8 @@
       "2204",
       "2243",
       "2420",
-      "2542"
+      "2542",
+      "2586"
     ]
   },
   {
@@ -19858,7 +19906,7 @@
     "type": "主動技",
     "skillName": "烽火紛飛的戰場",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%83%BD%E7%81%AB%E7%B4%9B%E9%A3%9B%E7%9A%84%E6%88%B0%E5%A0%B4",
-    "skillCDMin": 22,
+    "skillCDMin": 34,
     "skillCDMax": 8,
     "skillDesc": "2 回合內 I. 將敵方全體轉為木屬性 II. 提升火屬性 ⇒ 對木屬性目標的攻擊力 III. 所有成員追打 ⇒ 火屬性攻擊 1 次 IV. 效果期間若擊斃所有敵人 ⇒ 當前技能 CD -4",
     "skillMonsters": [
@@ -20548,6 +20596,17 @@
     "skillDesc": "火符石兼具 50% 心符石效果，效果持續至沒有消除火符石 (效果持續期間技能不會冷卻)",
     "skillMonsters": [
       "1521"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "熾烈的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%83%88%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆「火及心以外」符石 ⇒ 掉落隊伍成員屬性強化符石 1 回合內 II. 自身攻擊力 10 倍， 此傷害無視防禦力， 其他成員不能發動攻擊 III. 若隊伍中有 「卿雲護庇 ‧ 蒼璧」或 「豁達浪息 ‧ 蒼璧」 ⇒ 所受傷害不會使你死亡 IV. 若隊伍中有 「編號 8299 ‧ 南納」 ⇒ 火及心符石互相兼具效果",
+    "skillMonsters": [
+      "2587"
     ]
   },
   {
@@ -21597,6 +21656,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "獄炎魔殺炮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%84%E7%82%8E%E9%AD%94%E6%AE%BA%E7%82%AE",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆木符石 ⇒ 掉落火強化符石 II. 魔族攻擊力 1.8 倍 III. 每回合魔族成員 首次發動主動技能時 ⇒ 對敵方全體造成 600 萬火屬性傷害 (此傷害無視敵人防禦力) 效果會在進入下一層數 (Wave) 時消失",
+    "skillMonsters": [
+      "2574"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "獅子座黃金聖衣",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%85%E5%AD%90%E5%BA%A7%E9%BB%83%E9%87%91%E8%81%96%E8%A1%A3",
     "skillCDMin": 8,
@@ -22287,7 +22357,7 @@
     "type": "主動技",
     "skillName": "玄靈攻濤陣",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E9%9D%88%E6%94%BB%E6%BF%A4%E9%99%A3",
-    "skillCDMin": 19,
+    "skillCDMin": 31,
     "skillCDMax": 5,
     "skillDesc": "將所有符石轉化 ⓵ 12 粒光強化符石 ⓶「心及水」強化符石各 9 粒",
     "skillMonsters": [
@@ -24345,7 +24415,10 @@
     "skillDesc": "神族攻擊力 5 倍",
     "skillMonsters": [
       "2530",
-      "2540"
+      "2531",
+      "2540",
+      "2576",
+      "2579"
     ]
   },
   {
@@ -24435,6 +24508,17 @@
     "skillDesc": "I. 消除所有附加效果 II. 完全回復生命力 III. 若隊伍中只有神族成員 ⇒ 1 回合內全隊攻擊力 2.5 倍",
     "skillMonsters": [
       "2301"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神火之襲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%81%AB%E4%B9%8B%E8%A5%B2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "隊長需為神族才可發動此技能： 1 回合內， I. 神族攻擊力 1.8 倍 II. 神族成員以 50% 攻擊力 ⇒ 追打火及光屬性攻擊各 1 次 III. 首批消除火神族符石時 ⇒ 當前技能 CD -3",
+    "skillMonsters": [
+      "2579"
     ]
   },
   {
@@ -29791,7 +29875,7 @@
     "type": "主動技",
     "skillName": "藤木連環擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%97%A4%E6%9C%A8%E9%80%A3%E7%92%B0%E6%93%8A",
-    "skillCDMin": 20,
+    "skillCDMin": 32,
     "skillCDMax": 6,
     "skillDesc": "2 回合內 I. 發動技能及每回合結束時 ⓵ 將木屬性成員直行符石 ⇒ 轉化為強化符石 ⓶ 魔族成員直行符石 ⇒ 則轉化為魔族強化符石 II. 木屬性成員追打 1 次",
     "skillMonsters": [
@@ -32012,7 +32096,7 @@
     "type": "主動技",
     "skillName": "速戰決意 ‧ 風火無懼",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%9F%E6%88%B0%E6%B1%BA%E6%84%8F_%E2%80%A7_%E9%A2%A8%E7%81%AB%E7%84%A1%E6%87%BC",
-    "skillCDMin": 22,
+    "skillCDMin": 34,
     "skillCDMax": 8,
     "skillDesc": "I. 消耗敵方 40% 總生命力 2 回合內 II. 觸碰暴風時仍可移動符石 III. 無視「燃燒」敵技 IV. 全隊攻擊力 2.6 倍 V. 第 3 回合全隊不能發動攻擊",
     "skillMonsters": [
@@ -32078,6 +32162,17 @@
     "skillDesc": "3 回合內，隊伍不受連擊技能影響",
     "skillMonsters": [
       "0492"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "連擊契約",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%A3%E6%93%8A%E5%A5%91%E7%B4%84",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有凍結符石及 弱化符石 II. 自身攻擊力減至 1 III. 連擊 (Ex. Combo、Combo) 時 ⇒ 攻擊力提升 40% 效果持續至沒有達成 ≥4 連擊 (Combo)",
+    "skillMonsters": [
+      "2586"
     ]
   },
   {
@@ -32770,6 +32865,17 @@
     "skillDesc": "隊伍中有 ≥3 種屬性成員時： I. 人類及神族攻擊力 5 倍 II. 所有成員 ⇒ 對光及暗屬性目標攻擊力 2 倍 ⇒ 對其他屬性目標攻擊力 1.5 倍 (包括主動技)",
     "skillMonsters": [
       "1883"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "重力鎮壓",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%8D%E5%8A%9B%E9%8E%AE%E5%A3%93",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "2 回合內 I. 敵人全體無法行動 II. 效果期間， 於每回合結束時 ⇒ 消耗敵方現有 10% 當前生命力",
+    "skillMonsters": [
+      "2589"
     ]
   },
   {
@@ -36887,6 +36993,7 @@
       "2558",
       "2559",
       "2560",
+      "2574",
       "2578"
     ]
   },
@@ -37137,7 +37244,7 @@
     "type": "主動技",
     "skillName": "魔靈煞 ‧ 幽冥",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%9D%88%E7%85%9E_%E2%80%A7_%E5%B9%BD%E5%86%A5",
-    "skillCDMin": 19,
+    "skillCDMin": 31,
     "skillCDMax": 5,
     "skillDesc": "I. 還原所有「碎裂」的位置 II. 引爆自身左直行及 隨機 1 直行符石 ⇒ 掉落暗魔族強化符石 1 回合內 III. 自身、隊長及戰友 ⇒ 攻擊力 3.5 倍",
     "skillMonsters": [
@@ -37170,7 +37277,7 @@
     "type": "主動技",
     "skillName": "魔靈煞 ‧ 水波",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%9D%88%E7%85%9E_%E2%80%A7_%E6%B0%B4%E6%B3%A2",
-    "skillCDMin": 19,
+    "skillCDMin": 31,
     "skillCDMax": 5,
     "skillDesc": "I. 還原所有「碎裂」的位置 II. 引爆自身左直行及 隨機 1 直行符石 ⇒ 掉落水魔族強化符石 1 回合內 III. 自身、隊長及戰友 ⇒ 攻擊力 3.5 倍",
     "skillMonsters": [
@@ -37192,7 +37299,7 @@
     "type": "主動技",
     "skillName": "魔靈煞 ‧ 火燄",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%9D%88%E7%85%9E_%E2%80%A7_%E7%81%AB%E7%87%84",
-    "skillCDMin": 19,
+    "skillCDMin": 31,
     "skillCDMax": 5,
     "skillDesc": "I. 還原所有「碎裂」的位置 II. 引爆自身左直行及 隨機 1 直行符石 ⇒ 掉落火魔族強化符石 1 回合內 III. 自身、隊長及戰友 ⇒ 攻擊力 3.5 倍",
     "skillMonsters": [

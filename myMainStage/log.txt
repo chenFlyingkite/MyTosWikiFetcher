@@ -1,8 +1,17 @@
 5 main stages
 #0 :  : 
   [ > 
-  #0 = 20001, 甦醒的過去 Extra -> https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB_Extra
-  #1 = S-2117i, 甦醒的過去 -> https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB
+  #0 = S-2117i, 奏響姆姆的呢喃 -> https://tos.fandom.com/zh/wiki/%E5%A5%8F%E9%9F%BF%E5%A7%86%E5%A7%86%E7%9A%84%E5%91%A2%E5%96%83
+  #1 = S-2117i, 對同伴的理解 -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E5%90%8C%E4%BC%B4%E7%9A%84%E7%90%86%E8%A7%A3
+  #2 = S-2116i, 再次登塔 -> https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E7%99%BB%E5%A1%94
+  #3 = S-2116i, 戰鬥所產生的信賴 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%89%80%E7%94%A2%E7%94%9F%E7%9A%84%E4%BF%A1%E8%B3%B4
+  #4 = S-2117i, 對同伴的信賴 -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E5%90%8C%E4%BC%B4%E7%9A%84%E4%BF%A1%E8%B3%B4
+  #5 = S-2116i, 危機處處 -> https://tos.fandom.com/zh/wiki/%E5%8D%B1%E6%A9%9F%E8%99%95%E8%99%95
+  #6 = S-2117i, 怨念沼澤 -> https://tos.fandom.com/zh/wiki/%E6%80%A8%E5%BF%B5%E6%B2%BC%E6%BE%A4
+  #7 = S-2116i, 魔族的突擊 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%97%8F%E7%9A%84%E7%AA%81%E6%93%8A
+  #8 = S-2117i, 重要的抉擇 -> https://tos.fandom.com/zh/wiki/%E9%87%8D%E8%A6%81%E7%9A%84%E6%8A%89%E6%93%87
+  #9 = 20001, 甦醒的過去 Extra -> https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB_Extra
+  #10 = S-2117i, 甦醒的過去 -> https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB
 ]
 #1 :  : 
   [ > 

@@ -15282,6 +15282,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2573"
   },
   {
+    "title": "No. 2574 炙烈熔岩 ‧ 克魯非",
+    "id": "2574",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%82%99%E7%83%88%E7%86%94%E5%B2%A9_%E2%80%A7_%E5%85%8B%E9%AD%AF%E9%9D%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2574"
+  },
+  {
     "title": "No. 2575 青春臂彎 ‧ 哈迪婆婆",
     "id": "2575",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9D%92%E6%98%A5%E8%87%82%E5%BD%8E_%E2%80%A7_%E5%93%88%E8%BF%AA%E5%A9%86%E5%A9%86",
@@ -15306,6 +15312,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2578"
   },
   {
+    "title": "No. 2579 聖榮冠冕 ‧ 耶胡迪爾",
+    "id": "2579",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%81%96%E6%A6%AE%E5%86%A0%E5%86%95_%E2%80%A7_%E8%80%B6%E8%83%A1%E8%BF%AA%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2579"
+  },
+  {
     "title": "No. 2582 干戈雷芒 ‧ 渾沌",
     "id": "2582",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%B2%E6%88%88%E9%9B%B7%E8%8A%92_%E2%80%A7_%E6%B8%BE%E6%B2%8C",
@@ -15316,6 +15328,36 @@
     "id": "2583",
     "link": "https://tos.fandom.com/zh/wiki/%E9%80%9A%E8%A8%8A%E8%B2%93",
     "linkId": "http://zh.tos.wikia.com/wiki/2583"
+  },
+  {
+    "title": "No. 2586 載禮戴樂 ‧ 維珍尼亞",
+    "id": "2586",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BC%89%E7%A6%AE%E6%88%B4%E6%A8%82_%E2%80%A7_%E7%B6%AD%E7%8F%8D%E5%B0%BC%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2586"
+  },
+  {
+    "title": "No. 2587 心有靈犀 ‧ 蒼璧與南納",
+    "id": "2587",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E6%9C%89%E9%9D%88%E7%8A%80_%E2%80%A7_%E8%92%BC%E7%92%A7%E8%88%87%E5%8D%97%E7%B4%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2587"
+  },
+  {
+    "title": "No. 2588 俏麗領報 ‧ 依貝思",
+    "id": "2588",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BF%8F%E9%BA%97%E9%A0%98%E5%A0%B1_%E2%80%A7_%E4%BE%9D%E8%B2%9D%E6%80%9D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2588"
+  },
+  {
+    "title": "No. 2589 紅粉聖祭 ‧ 李蓮英",
+    "id": "2589",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%85%E7%B2%89%E8%81%96%E7%A5%AD_%E2%80%A7_%E6%9D%8E%E8%93%AE%E8%8B%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2589"
+  },
+  {
+    "title": "No. 2590 派對焦點 ‧ 本多忠勝",
+    "id": "2590",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B4%BE%E5%B0%8D%E7%84%A6%E9%BB%9E_%E2%80%A7_%E6%9C%AC%E5%A4%9A%E5%BF%A0%E5%8B%9D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2590"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -17544,6 +17586,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6418"
   },
   {
+    "title": "S429 緋曦赤霞 ‧ 紅璦(動態造型)",
+    "id": "6429",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B7%8B%E6%9B%A6%E8%B5%A4%E9%9C%9E_%E2%80%A7_%E7%B4%85%E7%92%A6(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6429"
+  },
+  {
     "title": "S430 比擬萬象 ‧ 達格(動態造型)",
     "id": "6430",
     "link": "https://tos.fandom.com/zh/wiki/%E6%AF%94%E6%93%AC%E8%90%AC%E8%B1%A1_%E2%80%A7_%E9%81%94%E6%A0%BC(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
@@ -17560,6 +17608,12 @@
     "id": "6432",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9D%A2%E7%B4%97%E4%B8%8B%E7%9A%84%E5%BE%AE%E5%85%89_%E2%80%A7_%E5%A1%94%E7%B6%AD%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6432"
+  },
+  {
+    "title": "S435 Kirabase 小妹",
+    "id": "6435",
+    "link": "https://tos.fandom.com/zh/wiki/Kirabase_%E5%B0%8F%E5%A6%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/6435"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
