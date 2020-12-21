@@ -14934,6 +14934,36 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2510"
   },
   {
+    "title": "No. 2511 凌花透落 ‧ 莫莉",
+    "id": "2511",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%87%8C%E8%8A%B1%E9%80%8F%E8%90%BD_%E2%80%A7_%E8%8E%AB%E8%8E%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2511"
+  },
+  {
+    "title": "No. 2512 燁火奔騰 ‧ 肖恩",
+    "id": "2512",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%87%81%E7%81%AB%E5%A5%94%E9%A8%B0_%E2%80%A7_%E8%82%96%E6%81%A9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2512"
+  },
+  {
+    "title": "No. 2513 絕壁呼嘯 ‧ 鄧肯",
+    "id": "2513",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%A3%81%E5%91%BC%E5%98%AF_%E2%80%A7_%E9%84%A7%E8%82%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2513"
+  },
+  {
+    "title": "No. 2514 閃磷縱横 ‧ 奈寶尼",
+    "id": "2514",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E7%A3%B7%E7%B8%B1%E6%A8%AA_%E2%80%A7_%E5%A5%88%E5%AF%B6%E5%B0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2514"
+  },
+  {
+    "title": "No. 2515 靈光導魂 ‧ 安多",
+    "id": "2515",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E5%85%89%E5%B0%8E%E9%AD%82_%E2%80%A7_%E5%AE%89%E5%A4%9A",
+    "linkId": "http://zh.tos.wikia.com/wiki/2515"
+  },
+  {
     "title": "No. 2516 碇真嗣與EVA初號機",
     "id": "2516",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A2%87%E7%9C%9F%E5%97%A3%E8%88%87EVA%E5%88%9D%E8%99%9F%E6%A9%9F",
@@ -15318,6 +15348,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2579"
   },
   {
+    "title": "No. 2581 雪地冬青 ‧ 露德芙",
+    "id": "2581",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%AA%E5%9C%B0%E5%86%AC%E9%9D%92_%E2%80%A7_%E9%9C%B2%E5%BE%B7%E8%8A%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/2581"
+  },
+  {
     "title": "No. 2582 干戈雷芒 ‧ 渾沌",
     "id": "2582",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%B2%E6%88%88%E9%9B%B7%E8%8A%92_%E2%80%A7_%E6%B8%BE%E6%B2%8C",
@@ -15328,6 +15364,18 @@
     "id": "2583",
     "link": "https://tos.fandom.com/zh/wiki/%E9%80%9A%E8%A8%8A%E8%B2%93",
     "linkId": "http://zh.tos.wikia.com/wiki/2583"
+  },
+  {
+    "title": "No. 2584 魔權在握 ‧ 巴力",
+    "id": "2584",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%AC%8A%E5%9C%A8%E6%8F%A1_%E2%80%A7_%E5%B7%B4%E5%8A%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2584"
+  },
+  {
+    "title": "No. 2585 瀾漫勾惑 ‧ 夏娃",
+    "id": "2585",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%80%BE%E6%BC%AB%E5%8B%BE%E6%83%91_%E2%80%A7_%E5%A4%8F%E5%A8%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2585"
   },
   {
     "title": "No. 2586 載禮戴樂 ‧ 維珍尼亞",
@@ -17608,6 +17656,18 @@
     "id": "6432",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9D%A2%E7%B4%97%E4%B8%8B%E7%9A%84%E5%BE%AE%E5%85%89_%E2%80%A7_%E5%A1%94%E7%B6%AD%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
     "linkId": "http://zh.tos.wikia.com/wiki/6432"
+  },
+  {
+    "title": "S433 魔權在握 ‧ 巴力(動態造型)",
+    "id": "6433",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%AC%8A%E5%9C%A8%E6%8F%A1_%E2%80%A7_%E5%B7%B4%E5%8A%9B(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6433"
+  },
+  {
+    "title": "S434 瀾漫勾惑 ‧ 夏娃(動態造型)",
+    "id": "6434",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%80%BE%E6%BC%AB%E5%8B%BE%E6%83%91_%E2%80%A7_%E5%A4%8F%E5%A8%83(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6434"
   },
   {
     "title": "S435 Kirabase 小妹",

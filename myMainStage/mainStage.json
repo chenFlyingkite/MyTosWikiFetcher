@@ -6,14 +6,9 @@
         "group": "",
         "stages": [
           {
-            "link": "https://tos.fandom.com/zh/wiki/%E5%A5%8F%E9%9F%BF%E5%A7%86%E5%A7%86%E7%9A%84%E5%91%A2%E5%96%83",
-            "name": "奏響姆姆的呢喃",
-            "icon": "S-2117i"
-          },
-          {
-            "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8D%E5%90%8C%E4%BC%B4%E7%9A%84%E7%90%86%E8%A7%A3",
-            "name": "對同伴的理解",
-            "icon": "S-2117i"
+            "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E9%96%A3%E6%8C%91%E6%88%B0%E5%87%BD_Extra",
+            "name": "魔法閣挑戰函 Extra",
+            "icon": "S-2079i"
           },
           {
             "link": "https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E7%99%BB%E5%A1%94",
@@ -26,8 +21,18 @@
             "icon": "S-2116i"
           },
           {
+            "link": "https://tos.fandom.com/zh/wiki/%E5%A5%8F%E9%9F%BF%E5%A7%86%E5%A7%86%E7%9A%84%E5%91%A2%E5%96%83",
+            "name": "奏響姆姆的呢喃",
+            "icon": "S-2117i"
+          },
+          {
             "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8D%E5%90%8C%E4%BC%B4%E7%9A%84%E4%BF%A1%E8%B3%B4",
             "name": "對同伴的信賴",
+            "icon": "S-2117i"
+          },
+          {
+            "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8D%E5%90%8C%E4%BC%B4%E7%9A%84%E7%90%86%E8%A7%A3",
+            "name": "對同伴的理解",
             "icon": "S-2117i"
           },
           {
@@ -53,7 +58,7 @@
           {
             "link": "https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB_Extra",
             "name": "甦醒的過去 Extra",
-            "icon": "20001"
+            "icon": "S-2079i"
           },
           {
             "link": "https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB",
