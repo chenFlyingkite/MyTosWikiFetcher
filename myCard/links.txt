@@ -15408,6 +15408,30 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2590"
   },
   {
+    "title": "No. 2597 絢麗彩度 ‧ 施拉瑰",
+    "id": "2597",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%A2%E9%BA%97%E5%BD%A9%E5%BA%A6_%E2%80%A7_%E6%96%BD%E6%8B%89%E7%91%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2597"
+  },
+  {
+    "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
+    "id": "3001",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/3001"
+  },
+  {
+    "title": "No. 3002 日墜月落 ‧ 噬日狼與喰月狼",
+    "id": "3002",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E5%A2%9C%E6%9C%88%E8%90%BD_%E2%80%A7_%E5%99%AC%E6%97%A5%E7%8B%BC%E8%88%87%E5%96%B0%E6%9C%88%E7%8B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/3002"
+  },
+  {
+    "title": "No. 3003 理智失序 ‧ 奧丁",
+    "id": "3003",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%90%86%E6%99%BA%E5%A4%B1%E5%BA%8F_%E2%80%A7_%E5%A5%A7%E4%B8%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/3003"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",
