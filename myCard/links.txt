@@ -14838,6 +14838,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2490"
   },
   {
+    "title": "No. 2494 炫槍破空 ‧ 基斯",
+    "id": "2494",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%82%AB%E6%A7%8D%E7%A0%B4%E7%A9%BA_%E2%80%A7_%E5%9F%BA%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2494"
+  },
+  {
     "title": "No. 2495 十字破空 ‧ 基斯",
     "id": "2495",
     "link": "https://tos.fandom.com/zh/wiki/%E5%8D%81%E5%AD%97%E7%A0%B4%E7%A9%BA_%E2%80%A7_%E5%9F%BA%E6%96%AF",
@@ -15346,6 +15352,12 @@
     "id": "2579",
     "link": "https://tos.fandom.com/zh/wiki/%E8%81%96%E6%A6%AE%E5%86%A0%E5%86%95_%E2%80%A7_%E8%80%B6%E8%83%A1%E8%BF%AA%E7%88%BE",
     "linkId": "http://zh.tos.wikia.com/wiki/2579"
+  },
+  {
+    "title": "No. 2580 樹下之淚 ‧ 米娜瓦",
+    "id": "2580",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A8%B9%E4%B8%8B%E4%B9%8B%E6%B7%9A_%E2%80%A7_%E7%B1%B3%E5%A8%9C%E7%93%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2580"
   },
   {
     "title": "No. 2581 雪地冬青 ‧ 露德芙",
