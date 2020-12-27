@@ -23,20 +23,20 @@
 ]
 #3 :  : 
   [ > 
-  #0 = S-2117i, 喚醒龐貝之後 -> https://tos.fandom.com/zh/wiki/%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D%E4%B9%8B%E5%BE%8C
+  #0 = S-2117i, 迎擊魔族之後 -> https://tos.fandom.com/zh/wiki/%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F%E4%B9%8B%E5%BE%8C
   #1 = S-2117i, 調查以諾塔之後 -> https://tos.fandom.com/zh/wiki/%E8%AA%BF%E6%9F%A5%E4%BB%A5%E8%AB%BE%E5%A1%94%E4%B9%8B%E5%BE%8C
-  #2 = S-2117i, 迎擊魔族之後 -> https://tos.fandom.com/zh/wiki/%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F%E4%B9%8B%E5%BE%8C
-  #3 = S-2117i, 被隱藏的入口 -> https://tos.fandom.com/zh/wiki/%E8%A2%AB%E9%9A%B1%E8%97%8F%E7%9A%84%E5%85%A5%E5%8F%A3
+  #2 = S-2117i, 喚醒龐貝之後 -> https://tos.fandom.com/zh/wiki/%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D%E4%B9%8B%E5%BE%8C
+  #3 = S-2116i, 再次被你拯救 -> https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E8%A2%AB%E4%BD%A0%E6%8B%AF%E6%95%91
   #4 = S-2119i, 於神界盡頭戰鬥 -> https://tos.fandom.com/zh/wiki/%E6%96%BC%E7%A5%9E%E7%95%8C%E7%9B%A1%E9%A0%AD%E6%88%B0%E9%AC%A5
-  #5 = S-2116i, 再次被你拯救 -> https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E8%A2%AB%E4%BD%A0%E6%8B%AF%E6%95%91
-  #6 = S-2116i, 再次登塔 -> https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E7%99%BB%E5%A1%94
-  #7 = S-2116i, 戰鬥所產生的信賴 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%89%80%E7%94%A2%E7%94%9F%E7%9A%84%E4%BF%A1%E8%B3%B4
+  #5 = S-2117i, 被隱藏的入口 -> https://tos.fandom.com/zh/wiki/%E8%A2%AB%E9%9A%B1%E8%97%8F%E7%9A%84%E5%85%A5%E5%8F%A3
+  #6 = S-2116i, 戰鬥所產生的信賴 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%89%80%E7%94%A2%E7%94%9F%E7%9A%84%E4%BF%A1%E8%B3%B4
+  #7 = S-2116i, 再次登塔 -> https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E7%99%BB%E5%A1%94
   #8 = S-2117i, 奏響姆姆的呢喃 -> https://tos.fandom.com/zh/wiki/%E5%A5%8F%E9%9F%BF%E5%A7%86%E5%A7%86%E7%9A%84%E5%91%A2%E5%96%83
   #9 = S-2117i, 對同伴的信賴 -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E5%90%8C%E4%BC%B4%E7%9A%84%E4%BF%A1%E8%B3%B4
   #10 = S-2117i, 對同伴的理解 -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E5%90%8C%E4%BC%B4%E7%9A%84%E7%90%86%E8%A7%A3
   #11 = S-2116i, 危機處處 -> https://tos.fandom.com/zh/wiki/%E5%8D%B1%E6%A9%9F%E8%99%95%E8%99%95
-  #12 = S-2117i, 怨念沼澤 -> https://tos.fandom.com/zh/wiki/%E6%80%A8%E5%BF%B5%E6%B2%BC%E6%BE%A4
-  #13 = S-2116i, 魔族的突擊 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%97%8F%E7%9A%84%E7%AA%81%E6%93%8A
+  #12 = S-2116i, 魔族的突擊 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%97%8F%E7%9A%84%E7%AA%81%E6%93%8A
+  #13 = S-2117i, 怨念沼澤 -> https://tos.fandom.com/zh/wiki/%E6%80%A8%E5%BF%B5%E6%B2%BC%E6%BE%A4
   #14 = S-2117i, 重要的抉擇 -> https://tos.fandom.com/zh/wiki/%E9%87%8D%E8%A6%81%E7%9A%84%E6%8A%89%E6%93%87
   #15 = S-2117i, 甦醒的過去 -> https://tos.fandom.com/zh/wiki/%E7%94%A6%E9%86%92%E7%9A%84%E9%81%8E%E5%8E%BB
 ]

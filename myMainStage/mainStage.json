@@ -100,8 +100,8 @@
         "group": "",
         "stages": [
           {
-            "link": "https://tos.fandom.com/zh/wiki/%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D%E4%B9%8B%E5%BE%8C",
-            "name": "喚醒龐貝之後",
+            "link": "https://tos.fandom.com/zh/wiki/%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F%E4%B9%8B%E5%BE%8C",
+            "name": "迎擊魔族之後",
             "icon": "S-2117i"
           },
           {
@@ -110,19 +110,9 @@
             "icon": "S-2117i"
           },
           {
-            "link": "https://tos.fandom.com/zh/wiki/%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F%E4%B9%8B%E5%BE%8C",
-            "name": "迎擊魔族之後",
+            "link": "https://tos.fandom.com/zh/wiki/%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D%E4%B9%8B%E5%BE%8C",
+            "name": "喚醒龐貝之後",
             "icon": "S-2117i"
-          },
-          {
-            "link": "https://tos.fandom.com/zh/wiki/%E8%A2%AB%E9%9A%B1%E8%97%8F%E7%9A%84%E5%85%A5%E5%8F%A3",
-            "name": "被隱藏的入口",
-            "icon": "S-2117i"
-          },
-          {
-            "link": "https://tos.fandom.com/zh/wiki/%E6%96%BC%E7%A5%9E%E7%95%8C%E7%9B%A1%E9%A0%AD%E6%88%B0%E9%AC%A5",
-            "name": "於神界盡頭戰鬥",
-            "icon": "S-2119i"
           },
           {
             "link": "https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E8%A2%AB%E4%BD%A0%E6%8B%AF%E6%95%91",
@@ -130,13 +120,23 @@
             "icon": "S-2116i"
           },
           {
-            "link": "https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E7%99%BB%E5%A1%94",
-            "name": "再次登塔",
-            "icon": "S-2116i"
+            "link": "https://tos.fandom.com/zh/wiki/%E6%96%BC%E7%A5%9E%E7%95%8C%E7%9B%A1%E9%A0%AD%E6%88%B0%E9%AC%A5",
+            "name": "於神界盡頭戰鬥",
+            "icon": "S-2119i"
+          },
+          {
+            "link": "https://tos.fandom.com/zh/wiki/%E8%A2%AB%E9%9A%B1%E8%97%8F%E7%9A%84%E5%85%A5%E5%8F%A3",
+            "name": "被隱藏的入口",
+            "icon": "S-2117i"
           },
           {
             "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%89%80%E7%94%A2%E7%94%9F%E7%9A%84%E4%BF%A1%E8%B3%B4",
             "name": "戰鬥所產生的信賴",
+            "icon": "S-2116i"
+          },
+          {
+            "link": "https://tos.fandom.com/zh/wiki/%E5%86%8D%E6%AC%A1%E7%99%BB%E5%A1%94",
+            "name": "再次登塔",
             "icon": "S-2116i"
           },
           {
@@ -160,14 +160,14 @@
             "icon": "S-2116i"
           },
           {
-            "link": "https://tos.fandom.com/zh/wiki/%E6%80%A8%E5%BF%B5%E6%B2%BC%E6%BE%A4",
-            "name": "怨念沼澤",
-            "icon": "S-2117i"
-          },
-          {
             "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%97%8F%E7%9A%84%E7%AA%81%E6%93%8A",
             "name": "魔族的突擊",
             "icon": "S-2116i"
+          },
+          {
+            "link": "https://tos.fandom.com/zh/wiki/%E6%80%A8%E5%BF%B5%E6%B2%BC%E6%BE%A4",
+            "name": "怨念沼澤",
+            "icon": "S-2117i"
           },
           {
             "link": "https://tos.fandom.com/zh/wiki/%E9%87%8D%E8%A6%81%E7%9A%84%E6%8A%89%E6%93%87",

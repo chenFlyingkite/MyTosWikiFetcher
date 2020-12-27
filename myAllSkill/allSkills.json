@@ -4095,6 +4095,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "冰之雪舞",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E4%B9%8B%E9%9B%AA%E8%88%9E",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆所有凍結符石及火符石 ⇒ 掉落水人族符石 2 回合內 II. 火符石的掉落率降至 0 III. 將原有機率增加至 ⇒ 水符石的掉落率 IV. 無視「燃燒」敵技 (不包括「煉獄之火」)",
+    "skillMonsters": [
+      "2580"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "冰凌激射",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E5%87%8C%E6%BF%80%E5%B0%84",
     "skillCDMin": 18,
@@ -11426,6 +11437,17 @@
     "skillDesc": "引爆心符石以增加人類攻擊力，引爆 8 粒心符石即可達至最大 2 倍",
     "skillMonsters": [
       "0921"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "擊破固定",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%93%8A%E7%A0%B4%E5%9B%BA%E5%AE%9A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將 12 粒符石 ⇒ 轉化為妖族強化符石 (非種族符石優先轉換) 1 回合內 II. 自身攻擊力減至 0 III. 左旁成員攻擊力 5 倍 IV. 左旁成員無視「固定連擊盾」",
+    "skillMonsters": [
+      "2494"
     ]
   },
   {

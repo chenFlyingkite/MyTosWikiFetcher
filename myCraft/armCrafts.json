@@ -32474,6 +32474,412 @@
       {
         "level": 1,
         "score": 2000,
+        "detail": "1 回合內，神族成員的攻擊力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，神族攻成員以 50% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "消除神族符石時，神族攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2280"
+    ],
+    "cardLimitName": [
+      "神境旅塔 ‧ 莫靈"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3591",
+    "name": "【3591】神境光槍 ‧ 龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903591%E3%80%91%E7%A5%9E%E5%A2%83%E5%85%89%E6%A7%8D_%E2%80%A7_%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/c/cc/C3591.png/revision/latest/scale-to-width-down/120?cb\u003d20201226035457\u0026path-prefix\u003dzh",
+      "iconKey": "C3591.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "轉動龍印",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，神族成員的攻擊力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，神族攻成員以 50% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "消除神族符石時，神族攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2280"
+    ],
+    "cardLimitName": [
+      "神境旅塔 ‧ 莫靈"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3592",
+    "name": "【3592】神境光槍 ‧ 龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903592%E3%80%91%E7%A5%9E%E5%A2%83%E5%85%89%E6%A7%8D_%E2%80%A7_%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/48/C3592.png/revision/latest/scale-to-width-down/120?cb\u003d20201226035459\u0026path-prefix\u003dzh",
+      "iconKey": "C3592.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "破碎龍咒",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，神族成員的攻擊力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，神族攻成員以 50% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "消除神族符石時，神族攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2280"
+    ],
+    "cardLimitName": [
+      "神境旅塔 ‧ 莫靈"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3593",
+    "name": "【3593】神境光槍 ‧ 龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903593%E3%80%91%E7%A5%9E%E5%A2%83%E5%85%89%E6%A7%8D_%E2%80%A7_%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/ee/C3593.png/revision/latest/scale-to-width-down/120?cb\u003d20201226035500\u0026path-prefix\u003dzh",
+      "iconKey": "C3593.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "映照龍符",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，神族成員的攻擊力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，神族攻成員以 50% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "消除神族符石時，神族攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2280"
+    ],
+    "cardLimitName": [
+      "神境旅塔 ‧ 莫靈"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3594",
+    "name": "【3594】神境光槍 ‧ 龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903594%E3%80%91%E7%A5%9E%E5%A2%83%E5%85%89%E6%A7%8D_%E2%80%A7_%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a7/C3594.png/revision/latest/scale-to-width-down/120?cb\u003d20201226035502\u0026path-prefix\u003dzh",
+      "iconKey": "C3594.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "落影龍璃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，神族成員的攻擊力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，神族攻成員以 50% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "消除神族符石時，神族攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2280"
+    ],
+    "cardLimitName": [
+      "神境旅塔 ‧ 莫靈"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3595",
+    "name": "【3595】神境光槍 ‧ 龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903595%E3%80%91%E7%A5%9E%E5%A2%83%E5%85%89%E6%A7%8D_%E2%80%A7_%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0c/C3595.png/revision/latest/scale-to-width-down/120?cb\u003d20201226035503\u0026path-prefix\u003dzh",
+      "iconKey": "C3595.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "裂空龍刃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，神族成員的攻擊力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，神族攻成員以 50% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "消除神族符石時，神族攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2280"
+    ],
+    "cardLimitName": [
+      "神境旅塔 ‧ 莫靈"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3596",
+    "name": "【3596】神境光槍 ‧ 龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903596%E3%80%91%E7%A5%9E%E5%A2%83%E5%85%89%E6%A7%8D_%E2%80%A7_%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/2/24/C3596.png/revision/latest/scale-to-width-down/120?cb\u003d20201226035505\u0026path-prefix\u003dzh",
+      "iconKey": "C3596.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "鏡像龍丸",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，神族成員的攻擊力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，神族攻成員以 50% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "消除神族符石時，神族攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2280"
+    ],
+    "cardLimitName": [
+      "神境旅塔 ‧ 莫靈"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3597",
+    "name": "【3597】神境光槍 ‧ 龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903597%E3%80%91%E7%A5%9E%E5%A2%83%E5%85%89%E6%A7%8D_%E2%80%A7_%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6f/C3597.png/revision/latest/scale-to-width-down/120?cb\u003d20201226035506\u0026path-prefix\u003dzh",
+      "iconKey": "C3597.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "連鎖龍紋",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
         "detail": "1 回合內，隊伍攻擊力及回復力提升 15%"
       },
       {
