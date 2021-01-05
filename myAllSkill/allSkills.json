@@ -7066,6 +7066,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "天使光環",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E4%BD%BF%E5%85%89%E7%92%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 完全回復生命力 II. 引爆心符石 ⓵ 引爆 ≥1 粒心符石 2 回合內 ▋全隊攻擊力 1.6 倍 ▋減少 40% 所受傷害 ⓶ 引爆 ≥8 粒心符石 ⇒ 則效果持續 4 回合",
+    "skillMonsters": [
+      "2619"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "天元突破之勢",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E5%85%83%E7%AA%81%E7%A0%B4%E4%B9%8B%E5%8B%A2",
@@ -7166,6 +7177,17 @@
     "skillDesc": "引爆場上所有光及暗符石以提升攻擊力，8 粒即可達至最大 2 倍",
     "skillMonsters": [
       "0917"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "天星襲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E6%98%9F%E8%A5%B2",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "1 回合內 I. 根據轉珠結束時放手的符石 ⇒ 首批掉落該種 機械族強化符石 II. 若隊長為 「究極裝甲艾克斯」 ⇒ 回合結束時， 自身技能 CD - 3",
+    "skillMonsters": [
+      "2622"
     ]
   },
   {
@@ -9193,6 +9215,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "幻燄若夢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E7%87%84%E8%8B%A5%E5%A4%A2",
+    "skillCDMin": 14,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將 5 粒「火、心」以外符石 ⇒ 轉化為火機械族強化符石 II. 敵方全體點燃 III. 使受影響目標轉為火屬性， 持續 2 回合 2 回合內 IV. 自身攻擊無視攻前盾 V. 消除火符石愈多 ⇒ 自身攻擊力愈高 ⇒ 消除 10 粒可達至最大 6 倍 VI. 成功擊斃敵人 ⇒ 自身 EP +2",
+    "skillMonsters": [
+      "2613"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "幻獸伴主",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E7%8D%B8%E4%BC%B4%E4%B8%BB",
@@ -10022,6 +10055,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "彈幕爆破",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BD%88%E5%B9%95%E7%88%86%E7%A0%B4",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 隨機引爆 10 粒不相連的符石 (包括凍結及石化符石) ⇒ 掉落光符石 1 回合內 II. 若發動技能時 自身行動值達至 100% ⇒ 光符石 2 粒相連可發動消除",
+    "skillMonsters": [
+      "2615"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "彩虹的衝擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BD%A9%E8%99%B9%E7%9A%84%E8%A1%9D%E6%93%8A",
@@ -10545,6 +10589,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "愛與和平",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%88%87%E5%92%8C%E5%B9%B3",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性及機械族攻擊力 6.5 倍、 生命力及回復力 1.4 倍 II. 連擊 (Combo) 時攻擊力提升 125% III. 火符石兼具 50% 其他符石效果",
+    "skillMonsters": [
+      "2616"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "慈雲祥暉",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%85%88%E9%9B%B2%E7%A5%A5%E6%9A%89",
@@ -11019,6 +11074,61 @@
     "skillDesc": "I. 每消除木符石，木屬性攻擊力持續提升 II. 連續 2 回合沒有消除木符石，攻擊力減少 III. 當攻擊力達至最高 3.5 倍時 ⇒ 需每回合消除木符石，否則攻擊力減少",
     "skillMonsters": [
       "0713"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "手砲戰鬥",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%89%8B%E7%A0%B2%E6%88%B0%E9%AC%A5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有機械族成員時： I. 全隊攻擊力 6.5 倍、 生命力及回復力 1.3 倍 II. 消除水或心符石時 ⇒ 全隊攻擊力額外 3 倍 III. 水、光、心符石 ⇒ 分別兼具 50% 其他屬性符石效果",
+    "skillMonsters": [
+      "2611"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "手砲戰鬥 ‧ 究極裝甲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%89%8B%E7%A0%B2%E6%88%B0%E9%AC%A5_%E2%80%A7_%E7%A9%B6%E6%A5%B5%E8%A3%9D%E7%94%B2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有機械族成員時： I. 全隊攻擊力 7 倍、 生命力及回復力 1.6 倍 II. 消除暗或心符石時 ⇒ 全隊攻擊力額外 2.2 倍 III. 水、光、暗、心符石 ⇒ 分別兼具 50% 其他屬性符石效果",
+    "skillMonsters": [
+      "2622"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "手砲戰鬥 ‧ 第一裝甲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%89%8B%E7%A0%B2%E6%88%B0%E9%AC%A5_%E2%80%A7_%E7%AC%AC%E4%B8%80%E8%A3%9D%E7%94%B2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有機械族成員時： I. 全隊攻擊力 6.8 倍、 生命力及回復力 1.5 倍 II. 消除水或心符石時 ⇒ 全隊攻擊力額外 3.3 倍 III. 水、光、心符石 ⇒ 分別兼具 50% 其他屬性符石效果",
+    "skillMonsters": [
+      "2620"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "手砲戰鬥 ‧ 第二裝甲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%89%8B%E7%A0%B2%E6%88%B0%E9%AC%A5_%E2%80%A7_%E7%AC%AC%E4%BA%8C%E8%A3%9D%E7%94%B2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有機械族成員時： I. 全隊攻擊力 7 倍、 生命力及回復力 1.4 倍 II. 消除光或心符石時 ⇒ 全隊攻擊力額外 3.3 倍 III. 水、光、心符石 ⇒ 分別兼具 50% 其他屬性符石效果",
+    "skillMonsters": [
+      "2621"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "打倒 非正規資料！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%89%93%E5%80%92_%E9%9D%9E%E6%AD%A3%E8%A6%8F%E8%B3%87%E6%96%99%EF%BC%81",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 機械族成員行動值提升 20 % II. 引爆機械族成員直行符石 ⇒「ROCKMAN X DiVE」石抽角色、 「領航員 RiCO」直行掉落 ⇒ 該成員屬性符石",
+    "skillMonsters": [
+      "2632"
     ]
   },
   {
@@ -12218,6 +12328,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "散彈冰槍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%95%A3%E5%BD%88%E5%86%B0%E6%A7%8D",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 凍結敵方全體 II. 使受影響目標無法行動 並轉為水屬性 III. 效果期間， 觸碰暴風時仍可移動符石",
+    "skillMonsters": [
+      "2630"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "整齊排列",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%95%B4%E9%BD%8A%E6%8E%92%E5%88%97",
     "skillCDMin": 16,
@@ -12390,6 +12511,17 @@
       "1240",
       "1248",
       "1840"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "旋風斬",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%97%8B%E9%A2%A8%E6%96%AC",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 對敵方全體造成 ⇒ 200 萬點木屬性傷害 2 回合內 II. 減少 70% 所受傷害",
+    "skillMonsters": [
+      "2631"
     ]
   },
   {
@@ -15159,6 +15291,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "機械動力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%8B%95%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊力 5 倍 II. 發動技能的機械族成員 ⇒ 該回合攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2617"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "機械化的紀錄",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%8C%96%E7%9A%84%E7%B4%80%E9%8C%84",
@@ -15201,6 +15344,28 @@
     "skillDesc": "I. 全隊攻擊力 4 倍 II. 人類成員對機械族目標攻擊力 3 倍 III. 所受機械族傷害減少 30%",
     "skillMonsters": [
       "2205"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機械戰意",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%88%B0%E6%84%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊力 5 倍 II. 生命力 ≥75% 時 ⇒ 機械族攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2615"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機械戰略",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%88%B0%E7%95%A5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊 5 倍 II. 敵人有附加效果時 ⇒ 機械族攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2614"
     ]
   },
   {
@@ -15365,6 +15530,17 @@
     "skillDesc": "隨機將 3 粒火符石轉化為機械族強化符石",
     "skillMonsters": [
       "1909"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機械靈力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%9D%88%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊力 5 倍 II. 心符石兼具 50% 屬性符石效果",
+    "skillMonsters": [
+      "2619"
     ]
   },
   {
@@ -18047,6 +18223,17 @@
     "skillDesc": "3 回合內 I. 自身攻擊力 1.5 倍 II. 發動技能及每回合結束時 ⇒ 將水符石轉化為水強化符石 III. 心符石的掉落率降至 0 IV. 將原有機率增加至 ⇒ 水符石的掉落率",
     "skillMonsters": [
       "2246"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "浮游機雷",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AE%E6%B8%B8%E6%A9%9F%E9%9B%B7",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "2 回合內 I. 減少 40% 所受傷害 II. 觸碰電擊符石時仍可移動符石 III. 若以屬性符石起手轉珠 ⇒ 將移動符石時觸碰的 首 5 粒符石轉化為 ⇒ 起手屬性的強化符石 IV. 火屬性攻擊 ⇒ 可以克制火屬性目標 V. 效果持續期間， 其他機械族成員 每次發動主動技能 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 5 回合",
+    "skillMonsters": [
+      "2616"
     ]
   },
   {
@@ -24805,6 +24992,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "神速烈燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E9%80%9F%E7%83%88%E7%87%84",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將 3 粒符石轉化為 ⇒ 火強化符石 (木符石優先轉換) II. 於回合結束前 ⇒ 可再次發動技能 1 次 III. 回合結束時 ⇒ 將 CD 數重置 1 回合內 IV. 自身攻擊力 2 倍 V. 若發動技能時 場上有 ≥2 個敵人 ⇒ 自身攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2618"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "神靈伴主",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E9%9D%88%E4%BC%B4%E4%B8%BB",
@@ -28500,6 +28698,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "能源衝刺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%83%BD%E6%BA%90%E8%A1%9D%E5%88%BA",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將水符石轉化為光符石 II. 將火符石轉化為暗符石 III. 將木符石轉化為心符石 IV. 若發動技能時 所有機械族成員的 行動值達至 100% ⇒ 將所有符石轉化為 機械族強化符石",
+    "skillMonsters": [
+      "2625"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "能量噴泉",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%83%BD%E9%87%8F%E5%99%B4%E6%B3%89",
     "skillCDMin": 18,
@@ -29708,6 +29917,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蔓延熱焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%94%93%E5%BB%B6%E7%86%B1%E7%84%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 順序引爆機械族成員直行符石 ⇒ 掉落機械族成員屬性符石及心符石 II. 點燃敵方全體， 使受影響目標轉為火屬性， 持續 3 回合",
+    "skillMonsters": [
+      "2617"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "蔷薇的王冠",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%94%B7%E8%96%87%E7%9A%84%E7%8E%8B%E5%86%A0",
     "skillCDMin": 19,
@@ -30430,6 +30650,28 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "螺旋爆碎射擊 ‧ 漩渦",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%88%86%E7%A2%8E%E5%B0%84%E6%93%8A_%E2%80%A7_%E6%BC%A9%E6%B8%A6",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 點選 3 橫行的符石 ⇒ 引爆 (包括凍結符石) ⇒ 掉落固定數量及位置的 「水及心」強化符石 1 回合內 II. 所有「艾克斯」 ⇒ 攻擊力 2.2 倍",
+    "skillMonsters": [
+      "2620"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "螺旋爆碎射擊 ‧ 雷光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%88%86%E7%A2%8E%E5%B0%84%E6%93%8A_%E2%80%A7_%E9%9B%B7%E5%85%89",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 點選 3 橫行的符石並引爆 ⇒ 掉落固定數量及位置的 「光及心」強化符石 1 回合內 II. 個人以 4 倍攻擊力 ⇒ 追打水及火屬性攻擊各 1 次",
+    "skillMonsters": [
+      "2621"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "螺旋王之力",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%BA%E6%97%8B%E7%8E%8B%E4%B9%8B%E5%8A%9B",
@@ -30482,6 +30724,17 @@
     "skillDesc": "隊伍中只有機械族或人類成員時： I. 全隊攻擊力 5 倍 II. 每消除 1 組符石 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 12 連擊 (Ex. Combo) III. Ex. Combo 達至 ≥6 時 ⇒ 全隊攻擊力額外 2 倍 IV. 光符石兼具 50% 其他屬性符石效果 V. 心符石兼具 50% 屬性符石效果 VI. 同時消除光及心符石 ⇒ 全隊攻擊力額外 1.4 倍",
     "skillMonsters": [
       "2339"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "血月墜落",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E6%9C%88%E5%A2%9C%E8%90%BD",
+    "skillCDMin": 11,
+    "skillCDMax": 5,
+    "skillDesc": "I. 引爆電擊符石及敵人屬性符石 ⇒ 掉落敵人屬性以外的符石 II. 若引爆符石數量達 ≥8 粒 ⇒ 自身 EP +2 1 回合內 III. 首批掉落 8 粒火機械族符石",
+    "skillMonsters": [
+      "2613"
     ]
   },
   {
@@ -31862,6 +32115,28 @@
     "skillDesc": "I. 人類攻擊力 5 倍 II. 首批消除 6 粒相同種類的符石時 ⇒ 下回合將 6 粒該種類的符石 轉化為人族強化符石",
     "skillMonsters": [
       "2384"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "近戰模式",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%91%E6%88%B0%E6%A8%A1%E5%BC%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有火屬性或機械族成員時： I. 全隊攻擊力 6.5 倍及生命力 1.5 倍 II. 每消除 1 組火或心符石 ⇒ 增加 1 連擊 (Ex. Combo、Combo) ⇒ 最多可增加 8 連擊 III. 每達成 1 連擊 (Combo) ⇒ 回復 1,500 點生命力 IV. 達成 ≥6 連擊 (Combo) ⇒ 全隊攻擊力額外 2.5 倍",
+    "skillMonsters": [
+      "2612"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "近戰模式 ‧ 覺醒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%91%E6%88%B0%E6%A8%A1%E5%BC%8F_%E2%80%A7_%E8%A6%BA%E9%86%92",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有火屬性或機械族成員時： I. 全隊攻擊力 6.5 倍及生命力 1.5 倍 II. 每消除 1 組火或心符石 ⇒ 增加 1 連擊 (Ex. Combo、Combo) ⇒ 最多可增加 12 連擊 III. 每達成 1 連擊 (Combo) ⇒ 回復 2,000 點生命力 IV. 達成 ≥6 連擊 (Combo) ⇒ 全隊攻擊力額外 2.5 倍",
+    "skillMonsters": [
+      "2613"
     ]
   },
   {
@@ -34179,6 +34454,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "集氣射擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%86%E6%B0%A3%E5%B0%84%E6%93%8A",
+    "skillCDMin": 13,
+    "skillCDMax": 2,
+    "skillDesc": "I. 機械族成員的行動值提升 15% II. 以累積戰鬥回合數 +2 的數量 (需消除符石) ⇒ 轉化為自身屬性 機械族強化符石 (自身剋制屬性符石優先轉換) ⇒ 最多可轉化 7 粒 1 回合內 III. 累積戰鬥回合數愈多 (需消除符石) ⇒ 自身攻擊力提升愈多 ⇒ 累積 5 回合可達至最大 4 倍 IV. 累積至最多時發動技能 ⇒ 還原所有「碎裂」的位置 發動技能後將累積戰鬥回合數重置",
+    "skillMonsters": [
+      "2611"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "雙刀連舞奧義 孤虎",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E5%88%80%E9%80%A3%E8%88%9E%E5%A5%A7%E7%BE%A9_%E5%AD%A4%E8%99%8E",
     "skillCDMin": 17,
@@ -34524,6 +34810,17 @@
     "skillDesc": "電擊敵方全體，使受影響目標無法行動，持續 1 回合。1 回合內，機械族攻擊力 1.5 倍並將移動符石時觸碰的首 6 粒符石轉化為光強化符石",
     "skillMonsters": [
       "2090"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "電離子槍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E9%9B%A2%E5%AD%90%E6%A7%8D",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 電擊敵方全體 II. 使受影響目標無法行動， 持續 1 回合 III. 受影響目標攻擊力減少 50%， 持續 2 回合",
+    "skillMonsters": [
+      "2614"
     ]
   },
   {
@@ -38316,6 +38613,17 @@
     "skillDesc": "1 回合內 隊伍的龍類成員愈多 ⇒ 水屬性及龍類攻擊力愈高 ⇒ 4 個龍類成員可達至最大 2.5 倍",
     "skillMonsters": [
       "1121"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "龍炎刃",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E7%82%8E%E5%88%83",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "I. 引爆所有凍結符石 II. 將 3 粒「火、心」以外符石 ⇒ 轉化為火機械族強化符石 III. 敵方全體點燃 IV. 使受影響目標轉為火屬性， 持續 1 回合 1 回合內 V. 消除火符石愈多 ⇒ 自身攻擊力愈高 ⇒ 消除 10 粒可達至最大 5 倍",
+    "skillMonsters": [
+      "2612"
     ]
   },
   {

@@ -4662,6 +4662,69 @@
     }
   },
   {
+    "idNorm": "3668",
+    "name": "【3668】E 罐龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903668%E3%80%91E_%E7%BD%90%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b5/C3668.png/revision/latest/scale-to-width-down/60?cb\u003d20210104124759\u0026path-prefix\u003dzh",
+      "iconKey": "C3668.png"
+    }
+  },
+  {
+    "idNorm": "3669",
+    "name": "【3669】E 罐龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903669%E3%80%91E_%E7%BD%90%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b8/C3669.png/revision/latest/scale-to-width-down/60?cb\u003d20210104124800\u0026path-prefix\u003dzh",
+      "iconKey": "C3669.png"
+    }
+  },
+  {
+    "idNorm": "3670",
+    "name": "【3670】E 罐龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903670%E3%80%91E_%E7%BD%90%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e8/C3670.png/revision/latest/scale-to-width-down/60?cb\u003d20210104124802\u0026path-prefix\u003dzh",
+      "iconKey": "C3670.png"
+    }
+  },
+  {
+    "idNorm": "3671",
+    "name": "【3671】E 罐龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903671%E3%80%91E_%E7%BD%90%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0f/C3671.png/revision/latest/scale-to-width-down/60?cb\u003d20210104124804\u0026path-prefix\u003dzh",
+      "iconKey": "C3671.png"
+    }
+  },
+  {
+    "idNorm": "3672",
+    "name": "【3672】E 罐龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903672%E3%80%91E_%E7%BD%90%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/79/C3672.png/revision/latest/scale-to-width-down/60?cb\u003d20210104124805\u0026path-prefix\u003dzh",
+      "iconKey": "C3672.png"
+    }
+  },
+  {
+    "idNorm": "3673",
+    "name": "【3673】E 罐龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903673%E3%80%91E_%E7%BD%90%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/8/8f/C3673.png/revision/latest/scale-to-width-down/60?cb\u003d20210104124807\u0026path-prefix\u003dzh",
+      "iconKey": "C3673.png"
+    }
+  },
+  {
+    "idNorm": "3674",
+    "name": "【3674】E 罐龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903674%E3%80%91E_%E7%BD%90%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e1/C3674.png/revision/latest/scale-to-width-down/60?cb\u003d20210104124809\u0026path-prefix\u003dzh",
+      "iconKey": "C3674.png"
+    }
+  },
+  {
     "idNorm": "7001",
     "name": "【7001】 幻之弦琴龍紋",
     "link": "https://tos.fandom.com/zh/wiki/%E3%80%907001%E3%80%91_%E5%B9%BB%E4%B9%8B%E5%BC%A6%E7%90%B4%E9%BE%8D%E7%B4%8B",
