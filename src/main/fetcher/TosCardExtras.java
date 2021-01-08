@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class TosCardExtras extends TosWikiBaseFetcher {
     public static final TosCardExtras me = new TosCardExtras();
@@ -29,7 +30,7 @@ public class TosCardExtras extends TosWikiBaseFetcher {
     private final boolean fixing = 0 > 0;
 
     private Map<String, String> allMaxMap = Collections.synchronizedMap(new TreeMap<>());
-    private ExecutorService exes = ThreadUtil.newFlexThreadPool(50, 5);
+    private ExecutorService exes = ThreadUtil.newFlexThreadPool(50, 30);
     //private ExecutorService exes = ThreadUtil.newFlexThreadPool(3000);
 
     private CardItem[] allItems;
@@ -152,5 +153,57 @@ public class TosCardExtras extends TosWikiBaseFetcher {
             link.clear();
         }
         return link;
+    }
+
+    // https://tos.fandom.com/zh/api.php
+    // https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B1234%7CfullstatsMax}}
+    private void fetchAllMaxBonusTryMultithread() {
+        L.log("Start fetchAllMaxBonus at %s", new Date());
+        clock.tic();
+        //mLf.getFile().open();
+        List<String> pages = getLinks();
+        int k = pages.size();
+        final int[] info = {0, 0};
+        for (int i = 0; i < k; i++) {
+            String p = pages.get(i);
+            int n = 0;
+            try {
+                int f = p.lastIndexOf("/");
+                n = Integer.parseInt(p.substring(f + 1));
+            } catch (NumberFormatException e) {
+                e.printStackTrace();
+            }
+            if (n > 0) {
+                final int id = n;
+                final int at = i;
+                L.log("#%d send (%d, %d)", i, at, id);
+                exes.submit(() -> {
+                    L.log("Hello %s, %s", id, at);
+                    String s = TosGet.me.getAllMaxBonusSrc(id);
+                    L.log("get %s, %s", id, at);
+                    allMaxMap.put(allItems[at].getId(), s);
+                    FullStatsMax f = new FullStatsMax().parse(s);
+                    if (f.exists()) {
+                        info[0]++;
+                    }
+                    info[1]++;
+                    L.log("info = %s, %s", info[1], pages.size());
+                });
+            }
+        }
+        while (info[1] != pages.size()) {
+            //ThreadUtil.sleep(500);
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+        amJson.getParentFile().mkdirs();
+        GsonUtil.writeFile(amJson, mGson.toJson(allMaxMap, Map.class));
+        L.log("In %s cards, %s cards has AMBonus", allMaxMap.size(), info[0]); // m = 171/2425
+        //mLf.getFile().close();
+        clock.tac("End at %s", new Date());
     }
 }

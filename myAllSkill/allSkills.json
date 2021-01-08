@@ -6370,6 +6370,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "噴射火焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%99%B4%E5%B0%84%E7%81%AB%E7%84%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將最頂 1 橫行的符石 ⇒ 轉化為火符石 1 回合內 II. 凍結符石轉化為可消除的狀態 III. 自身攻擊 4 倍 IV. 自身攻擊無視敵人防禦力",
+    "skillMonsters": [
+      "2629"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "囚靈深淵",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9B%9A%E9%9D%88%E6%B7%B1%E6%B7%B5",
     "skillCDMin": 17,
@@ -8424,6 +8435,17 @@
       "0142",
       "0286",
       "0674"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "定位追擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%9A%E4%BD%8D%E8%BF%BD%E6%93%8A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將場上數量最多的 1 種符石 ⇒ 轉化為機械族符石 1 回合內 II. 每消除 1 粒機械族符石， 「霸法」及「霸法 MKII」 ⓵ 追打 1 次，最多 10 次 ⓶ 對置身電擊狀態的目標 ⇒ 攻擊力額外 2.5 倍",
+    "skillMonsters": [
+      "2623"
     ]
   },
   {
@@ -15366,6 +15388,17 @@
     "skillDesc": "I. 機械族攻擊 5 倍 II. 敵人有附加效果時 ⇒ 機械族攻擊力額外 2 倍",
     "skillMonsters": [
       "2614"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "機械殘暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%AE%98%E6%9A%B4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊力 5 倍 II. 水及暗符石互相兼具 50% 效果",
+    "skillMonsters": [
+      "2623"
     ]
   },
   {
@@ -25980,6 +26013,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "穿透滅閃",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%BF%E9%80%8F%E6%BB%85%E9%96%83",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆最底 2 橫行符石 ⇒ 掉落光或暗符石 ⇒ 以對敵方全體造成 200,000 無屬性傷害 1 回合內 II. 單體攻擊變為全體攻擊 III. 自身攻擊無視敵人防禦力",
+    "skillMonsters": [
+      "2628"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "穿透的力量",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%BF%E9%80%8F%E7%9A%84%E5%8A%9B%E9%87%8F",
@@ -34565,6 +34609,17 @@
     "skillDesc": "I. 光屬性攻擊力 5 倍 II. 以左下角的符石開始轉珠時 ⇒ 光屬性攻擊力額外 1.5 倍 III. 以右下角的符石開始轉珠時 ⇒ 將移動符石時觸碰的 首 5 粒符石轉化為強化符石",
     "skillMonsters": [
       "2364"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雷光閃",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E9%96%83",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 自身攻擊力 5 倍 II. 攻擊敵方時電擊敵方 III. 使受影響目標無法行動， 效果持續 1 回合",
+    "skillMonsters": [
+      "2628"
     ]
   },
   {

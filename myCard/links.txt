@@ -15504,6 +15504,30 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2622"
   },
   {
+    "title": "No. 2623 霸法",
+    "id": "2623",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E6%B3%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/2623"
+  },
+  {
+    "title": "No. 2625 瓦傑力拉 FF",
+    "id": "2625",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%93%A6%E5%82%91%E5%8A%9B%E6%8B%89_FF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2625"
+  },
+  {
+    "title": "No. 2628 黑傑洛",
+    "id": "2628",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BB%91%E5%82%91%E6%B4%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2628"
+  },
+  {
+    "title": "No. 2629 炎龍騎兵",
+    "id": "2629",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%82%8E%E9%BE%8D%E9%A8%8E%E5%85%B5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2629"
+  },
+  {
     "title": "No. 2630 冰凍企鵝",
     "id": "2630",
     "link": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E5%87%8D%E4%BC%81%E9%B5%9D",

@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3272 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3277 items, basePath = https://tos.fandom.com, offset = null)
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
@@ -544,6 +544,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 噬血龍族 -> https://tos.fandom.com/zh/wiki/%E5%99%AC%E8%A1%80%E9%BE%8D%E6%97%8F
 噬血龍王 -> https://tos.fandom.com/zh/wiki/%E5%99%AC%E8%A1%80%E9%BE%8D%E7%8E%8B
 噬血龍王_‧_強 -> https://tos.fandom.com/zh/wiki/%E5%99%AC%E8%A1%80%E9%BE%8D%E7%8E%8B_%E2%80%A7_%E5%BC%B7
+噴射火焰 -> https://tos.fandom.com/zh/wiki/%E5%99%B4%E5%B0%84%E7%81%AB%E7%84%B0
 囚靈深淵 -> https://tos.fandom.com/zh/wiki/%E5%9B%9A%E9%9D%88%E6%B7%B1%E6%B7%B5
 四態_‧_亂舞 -> https://tos.fandom.com/zh/wiki/%E5%9B%9B%E6%85%8B_%E2%80%A7_%E4%BA%82%E8%88%9E
 四面受敵 -> https://tos.fandom.com/zh/wiki/%E5%9B%9B%E9%9D%A2%E5%8F%97%E6%95%B5
@@ -712,6 +713,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 守護之念 -> https://tos.fandom.com/zh/wiki/%E5%AE%88%E8%AD%B7%E4%B9%8B%E5%BF%B5
 守護之念_‧_堅 -> https://tos.fandom.com/zh/wiki/%E5%AE%88%E8%AD%B7%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%A0%85
 完全回復 -> https://tos.fandom.com/zh/wiki/%E5%AE%8C%E5%85%A8%E5%9B%9E%E5%BE%A9
+定位追擊 -> https://tos.fandom.com/zh/wiki/%E5%AE%9A%E4%BD%8D%E8%BF%BD%E6%93%8A
 寄生 -> https://tos.fandom.com/zh/wiki/%E5%AF%84%E7%94%9F
 密林斗繁星 -> https://tos.fandom.com/zh/wiki/%E5%AF%86%E6%9E%97%E6%96%97%E7%B9%81%E6%98%9F
 富饒之信約 -> https://tos.fandom.com/zh/wiki/%E5%AF%8C%E9%A5%92%E4%B9%8B%E4%BF%A1%E7%B4%84
@@ -1303,6 +1305,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 機械專家 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%B0%88%E5%AE%B6
 機械戰意 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%88%B0%E6%84%8F
 機械戰略 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%88%B0%E7%95%A5
+機械殘暴 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%AE%98%E6%9A%B4
 機械狂熱 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%8B%82%E7%86%B1
 機械理論 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%90%86%E8%AB%96
 機械萬鈞之怒_‧_極 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5
@@ -2205,6 +2208,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 穿心箭 -> https://tos.fandom.com/zh/wiki/%E7%A9%BF%E5%BF%83%E7%AE%AD
 穿心箭_‧_玄光 -> https://tos.fandom.com/zh/wiki/%E7%A9%BF%E5%BF%83%E7%AE%AD_%E2%80%A7_%E7%8E%84%E5%85%89
 穿梭之時 -> https://tos.fandom.com/zh/wiki/%E7%A9%BF%E6%A2%AD%E4%B9%8B%E6%99%82
+穿透滅閃 -> https://tos.fandom.com/zh/wiki/%E7%A9%BF%E9%80%8F%E6%BB%85%E9%96%83
 穿透的力量 -> https://tos.fandom.com/zh/wiki/%E7%A9%BF%E9%80%8F%E7%9A%84%E5%8A%9B%E9%87%8F
 穿雲射日箭 -> https://tos.fandom.com/zh/wiki/%E7%A9%BF%E9%9B%B2%E5%B0%84%E6%97%A5%E7%AE%AD
 穿魂之力_‧_機械 -> https://tos.fandom.com/zh/wiki/%E7%A9%BF%E9%AD%82%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E6%A9%9F%E6%A2%B0
@@ -2917,6 +2921,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 雪晶魔法 -> https://tos.fandom.com/zh/wiki/%E9%9B%AA%E6%99%B6%E9%AD%94%E6%B3%95
 雷光拳 -> https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E6%8B%B3
 雷光精華 -> https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E7%B2%BE%E8%8F%AF
+雷光閃 -> https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E9%96%83
 雷光閃擊 -> https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E9%96%83%E6%93%8A
 雷光電擊 -> https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E9%9B%BB%E6%93%8A
 雷電_‧_怒哮 -> https://tos.fandom.com/zh/wiki/%E9%9B%B7%E9%9B%BB_%E2%80%A7_%E6%80%92%E5%93%AE
@@ -3273,4 +3278,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-3294 skills
+3299 skills
