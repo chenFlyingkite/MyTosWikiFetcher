@@ -49,6 +49,7 @@ public class Main {
         //TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
+        //TosCardExtras.me.run();
 
         //XliffParser.me.addStringsToIos();
 
