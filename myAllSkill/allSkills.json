@@ -15336,6 +15336,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "機械嗜虐",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%97%9C%E8%99%90",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族攻擊力 4 倍 II. 生命力 ≥50% 時 ⇒ 機械族攻擊力額外 3 倍 III. 受到攻擊後， ⇒ 下回合有 50% 機率 機械族攻擊力額外 2 倍 (機率可疊加)",
+    "skillMonsters": [
+      "2627"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "機械始動",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%A7%8B%E5%8B%95",
     "skillCDMin": -1,
@@ -18681,6 +18692,17 @@
     "skillDesc": "I. 1 回合內，獸類攻擊力及回復力 2.3 倍 II. 隨機將 23 粒符石轉化為 ⇒「水、火、木」非強化符石各 5 粒 ⇒「光、暗」非強化符石各 4 粒 III. 首批消除 23 粒或以上符石時 ⇒ 自身主動技能 CD 減少 5",
     "skillMonsters": [
       "1870"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "深紅之影",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E7%B4%85%E4%B9%8B%E5%BD%B1",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將火符石轉化為 ⇒ 火機械族強化符石 1 回合內 II. 個人追打 3 次 3 回合內 III. 自身進入暴擊狀態",
+    "skillMonsters": [
+      "2627"
     ]
   },
   {
@@ -34776,6 +34798,17 @@
     "skillDesc": "I. 所有符石轉化為強化符石 II.木符石由左上方開始向右排列 1 回合內 III. 連擊 (Combo) 數目增加 8",
     "skillMonsters": [
       "2300"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "電擊彈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E6%93%8A%E5%BD%88",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I.「霸法」及「霸法 (棕熊號)」 ⓵ 行動值提升至 100% ⓶ 技能 CD - 1 II. 將所有符石轉化為強化符石 III. 電擊敵方全體 IV. 使受影響目標無法行動， 持續 1 回合",
+    "skillMonsters": [
+      "2624"
     ]
   },
   {

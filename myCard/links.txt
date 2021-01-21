@@ -15510,10 +15510,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2623"
   },
   {
+    "title": "No. 2624 霸法 (棕熊號)",
+    "id": "2624",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E6%B3%95_(%E6%A3%95%E7%86%8A%E8%99%9F)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2624"
+  },
+  {
     "title": "No. 2625 瓦傑力拉 FF",
     "id": "2625",
     "link": "https://tos.fandom.com/zh/wiki/%E7%93%A6%E5%82%91%E5%8A%9B%E6%8B%89_FF",
     "linkId": "http://zh.tos.wikia.com/wiki/2625"
+  },
+  {
+    "title": "No. 2627 費拉姆",
+    "id": "2627",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B2%BB%E6%8B%89%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2627"
   },
   {
     "title": "No. 2628 黑傑洛",
