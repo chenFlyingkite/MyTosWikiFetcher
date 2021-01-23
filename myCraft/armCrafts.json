@@ -35060,5 +35060,59 @@
       "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/C9007.png/revision/latest/scale-to-width-down/120?cb\u003d20200123173617\u0026path-prefix\u003dzh",
       "iconKey": "C9007.png"
     }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "龍刻類型",
+    "charge": "鏡像龍丸",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+1%",
+    "upAttack": "+1%",
+    "upRecovery": "+1%",
+    "idNorm": "9008",
+    "name": "【9008】 週年蛋糕龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%909008%E3%80%91_%E9%80%B1%E5%B9%B4%E8%9B%8B%E7%B3%95%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/9/91/C9008.png/revision/latest/scale-to-width-down/120?cb\u003d20210121090600\u0026path-prefix\u003dzh",
+      "iconKey": "C9008.png"
+    }
   }
 ]

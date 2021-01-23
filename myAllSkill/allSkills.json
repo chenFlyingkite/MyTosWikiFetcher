@@ -15544,6 +15544,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "機械鎮壓",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%8E%AE%E5%A3%93",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族生命力 2 倍 II. 所有符石兼具屬性符石效果 12 回合內 III. 機械族攻擊力及回復力 12 倍",
+    "skillMonsters": [
+      "2626"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "機械陣式",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%99%A3%E5%BC%8F",
     "skillCDMin": -1,
@@ -27336,6 +27347,17 @@
     "skillDesc": "1 回合內 I. 以累積戰鬥回合(需消除符石)+1 數量 ⓵ 轉化火神族強化符石 (火以外符石優先轉換) ⇒ 最多可轉化 8 粒 ⓶ 額外增加連擊 (Combo) 數目 ⇒ 最多可增加 8 Combo II. 當累積至最多 8 粒時發動技能 ⇒ 個人及「冥魂判守 ‧ 阿努比斯」 追打火屬性攻擊 5 次 發動技能後將累積戰鬥回合數重置",
     "skillMonsters": [
       "1917"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "索敵迎擊裝置",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B4%A2%E6%95%B5%E8%BF%8E%E6%93%8A%E8%A3%9D%E7%BD%AE",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "1 回合內 I. 減少 80% 所受傷害 II.「西格瑪」的攻擊 ⇒ 無視敵人防禦力 III. 可任意移動符石 而不會發動消除 IV. 將移動符石時 觸碰的符石 ⇒ 轉化為強化符石 V. 若發動技能時 所有機械族成員的 行動值達至 100% ⇒ 效果持續 3 回合",
+    "skillMonsters": [
+      "2626"
     ]
   },
   {
