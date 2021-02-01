@@ -10893,6 +10893,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "戰神領軍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%A5%9E%E9%A0%98%E8%BB%8D",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 7 倍及生命力 1.5 倍 II. 必然延長移動符石時間 2.5 秒 III. 減少 20% 所受傷害， IV. 所受火屬性傷害則減少 40% V. 若隊中只有火屬性成員時 ⇒ 全隊攻擊力額外 1.2 倍 VI. 若隊中有 ≥2 種屬性成員 ⇒ 全隊攻擊力額外 1.5 倍 VII. 消除的符石愈多 ⇒ 攻擊力額外提升愈多 ⇒ 消除 30 粒可達至最大 4 倍",
+    "skillMonsters": [
+      "2595"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "戰艦飛彈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E8%89%A6%E9%A3%9B%E5%BD%88",
@@ -23284,6 +23295,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "白蛇之魅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BD%E8%9B%87%E4%B9%8B%E9%AD%85",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "3 回合內 I. 將移動符石時觸碰的暗符石 ⇒ 轉化為獸族強化符石 II. 若隊伍中只有獸類成員 ⇒ 則將移動符石時觸碰的符石 轉化為獸族強化符石",
+    "skillMonsters": [
+      "2445"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "百川歸海",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E5%B7%9D%E6%AD%B8%E6%B5%B7",
     "skillCDMin": 19,
@@ -30816,6 +30838,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "血戰山河",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E6%88%B0%E5%B1%B1%E6%B2%B3",
+    "skillCDMin": 17,
+    "skillCDMax": 8,
+    "skillDesc": "I. 若以九黎戰神 ‧ 蚩尤作隊長 ⇒ 還原所有「碎裂」的位置 II. 點選其中 1 個版面 ⓵ 移除所有符石 ⓶ 掉落該固定版面符石 ▋ 九戰九勝【水、火、木】 ▋ 制五兵之器【五屬及心】 ▋三日三夜霧冥【光、暗、心】 狂戰狀態下才可發動 ▋八方萬邦弭服【終極 ‧ 五屬及心】",
+    "skillMonsters": [
+      "2595"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "血月墜落",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E6%9C%88%E5%A2%9C%E8%90%BD",
     "skillCDMin": 11,
@@ -31732,6 +31765,17 @@
     "skillDesc": "I. 消耗敵方 5% 現有生命力 II. 並將之轉化為我方生命力",
     "skillMonsters": [
       "2471"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "赤身突擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B5%A4%E8%BA%AB%E7%AA%81%E6%93%8A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 全隊回復力減至 0 II. 個人隨機追打 4 至 6 次 III. 隊中每多 1 個火屬性成員 ⇒ 額外增加 1 回合效果 ⇒ 最多持續 5 回合",
+    "skillMonsters": [
+      "2592"
     ]
   },
   {
