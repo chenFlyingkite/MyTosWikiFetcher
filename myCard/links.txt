@@ -15612,6 +15612,42 @@
     "linkId": "http://zh.tos.wikia.com/wiki/3003"
   },
   {
+    "title": "No. 3004 根源倒錯 ‧ 迪亞布羅",
+    "id": "3004",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A0%B9%E6%BA%90%E5%80%92%E9%8C%AF_%E2%80%A7_%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/3004"
+  },
+  {
+    "title": "No. 3005 生死剝離 ‧ 尼德霍格",
+    "id": "3005",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%94%9F%E6%AD%BB%E5%89%9D%E9%9B%A2_%E2%80%A7_%E5%B0%BC%E5%BE%B7%E9%9C%8D%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/3005"
+  },
+  {
+    "title": "No. 3006 存在質疑 ‧ 路西法",
+    "id": "3006",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AD%98%E5%9C%A8%E8%B3%AA%E7%96%91_%E2%80%A7_%E8%B7%AF%E8%A5%BF%E6%B3%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/3006"
+  },
+  {
+    "title": "No. 3007 常世否定 ‧ 姬氏",
+    "id": "3007",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%B8%E4%B8%96%E5%90%A6%E5%AE%9A_%E2%80%A7_%E5%A7%AC%E6%B0%8F",
+    "linkId": "http://zh.tos.wikia.com/wiki/3007"
+  },
+  {
+    "title": "No. 3008 維度粉碎 ‧ 猶格索托斯",
+    "id": "3008",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B6%AD%E5%BA%A6%E7%B2%89%E7%A2%8E_%E2%80%A7_%E7%8C%B6%E6%A0%BC%E7%B4%A2%E6%89%98%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/3008"
+  },
+  {
+    "title": "No. 3009 殘像肆虐 ‧ 卡俄斯",
+    "id": "3009",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AE%98%E5%83%8F%E8%82%86%E8%99%90_%E2%80%A7_%E5%8D%A1%E4%BF%84%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/3009"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",

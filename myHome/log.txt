@@ -1,66 +1,6 @@
 活動時間表
 0 ~ 0 -> [開始, 結束, 活動/關卡]
   link = 
-0 ~ 0 -> [⬇ 合作地區 ⬇]
-  link = 
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 核心裝備測試 ※ 試玩任務]
-  link = https://tos.fandom.com/zh/wiki/%E6%A0%B8%E5%BF%83%E8%A3%9D%E5%82%99%E6%B8%AC%E8%A9%A6
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%A0%B8%E5%BF%83%E8%A3%9D%E5%82%99%E6%B8%AC%E8%A9%A6",
-  "name": "核心裝備測試",
-  "icon": "2611"
-},
-1610294400 ~ 1612108800 -> [1月11日(一), 1月31日(日), 複製贗品 ※ 全新挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E8%A4%87%E8%A3%BD%E8%B4%97%E5%93%81
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%A4%87%E8%A3%BD%E8%B4%97%E5%93%81",
-  "name": "複製贗品",
-  "icon": "2628"
-},
-1610899200 ~ 1612108800 -> [1月18日(一), 1月31日(日), 第二次死鬥 ※ 全新挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%AD%BB%E9%AC%A5
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%AD%BB%E9%AC%A5",
-  "name": "第二次死鬥",
-  "icon": "2624"
-},
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 雪原的皇帝 ※ 全新雙週]
-  link = https://tos.fandom.com/zh/wiki/%E9%9B%AA%E5%8E%9F%E7%9A%84%E7%9A%87%E5%B8%9D
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9B%AA%E5%8E%9F%E7%9A%84%E7%9A%87%E5%B8%9D",
-  "name": "雪原的皇帝",
-  "icon": "2630"
-},
-1610294400 ~ 1612108800 -> [1月11日(一), 1月31日(日), 爆炎的武鬥家 ※ 全新雙週]
-  link = https://tos.fandom.com/zh/wiki/%E7%88%86%E7%82%8E%E7%9A%84%E6%AD%A6%E9%AC%A5%E5%AE%B6
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%88%86%E7%82%8E%E7%9A%84%E6%AD%A6%E9%AC%A5%E5%AE%B6",
-  "name": "爆炎的武鬥家",
-  "icon": "2629"
-},
-1610899200 ~ 1611504000 -> [1月18日(一), 1月24日(日), 血蛇之鞭 ※ 全新戰慄級]
-  link = https://tos.fandom.com/zh/wiki/%E8%A1%80%E8%9B%87%E4%B9%8B%E9%9E%AD
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E8%9B%87%E4%B9%8B%E9%9E%AD",
-  "name": "血蛇之鞭",
-  "icon": "2627"
-},
-1611583200 ~ 1612108740 -> [1月25日(一) 22:00, 1月31日(日) 23:59, 暴戾的裝甲巨兵 ※ 重開地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%9A%B4%E6%88%BE%E7%9A%84%E8%A3%9D%E7%94%B2%E5%B7%A8%E5%85%B5
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E6%88%BE%E7%9A%84%E8%A3%9D%E7%94%B2%E5%B7%A8%E5%85%B5",
-  "name": "暴戾的裝甲巨兵",
-  "icon": "2623"
-},
-1611669600 ~ 1612108740 -> [1月26日(二) 22:00, 1月31日(日) 23:59, 抹殺全人類 ※ 全新夢魘級]
-  link = https://tos.fandom.com/zh/wiki/%E6%8A%B9%E6%AE%BA%E5%85%A8%E4%BA%BA%E9%A1%9E
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%8A%B9%E6%AE%BA%E5%85%A8%E4%BA%BA%E9%A1%9E",
-  "name": "抹殺全人類",
-  "icon": "2626"
-},
-0 ~ 0 -> [⬇ 所有地區 ⬇]
-  link = 
 1612152000 ~ 1614527940 -> [2月01日(一) 12:00, 2月28日(日) 23:59, 二月挑戰任務 ※ 每月挑戰關卡]
   link = https://tos.fandom.com/zh/wiki/%E4%BA%8C%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99
 {
@@ -73,20 +13,6 @@
 {
   "link": "https://tos.fandom.com/zh/wiki/%E9%A2%A8%E9%A6%B3%E9%9B%BB%E6%8E%A3",
   "name": "風馳電掣",
-  "icon": "S-1016i"
-},
-1611676800 ~ 1611849600 -> [1月27日(三), 1月28日(四), 境界提升第一關 ※ 等級提升關卡]
-  link = https://tos.fandom.com/zh/wiki/%E5%A2%83%E7%95%8C%E6%8F%90%E5%8D%87%E7%AC%AC%E4%B8%80%E9%97%9C
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A2%83%E7%95%8C%E6%8F%90%E5%8D%87%E7%AC%AC%E4%B8%80%E9%97%9C",
-  "name": "境界提升第一關",
-  "icon": "S-1016i"
-},
-1611849600 ~ 1612022400 -> [1月29日(五), 1月30日(六), 境界提升第二關 ※ 等級提升關卡]
-  link = https://tos.fandom.com/zh/wiki/%E5%A2%83%E7%95%8C%E6%8F%90%E5%8D%87%E7%AC%AC%E4%BA%8C%E9%97%9C
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A2%83%E7%95%8C%E6%8F%90%E5%8D%87%E7%AC%AC%E4%BA%8C%E9%97%9C",
-  "name": "境界提升第二關",
   "icon": "S-1016i"
 },
 1612022400 ~ 1612195200 -> [1月31日(日), 2月01日(一), 境界提升第三關 ※ 等級提升關卡]
@@ -109,20 +35,6 @@
   "link": "https://tos.fandom.com/zh/wiki/%E5%A2%83%E7%95%8C%E6%8F%90%E5%8D%87%E7%AC%AC%E4%BA%94%E9%97%9C",
   "name": "境界提升第五關",
   "icon": "S-1016i"
-},
-1610899200 ~ 1612108800 -> [1月18日(一), 1月31日(日), 機械不懂魔術 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E4%B8%8D%E6%87%82%E9%AD%94%E8%A1%93
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E4%B8%8D%E6%87%82%E9%AD%94%E8%A1%93",
-  "name": "機械不懂魔術",
-  "icon": "2326"
-},
-1610899200 ~ 1612108800 -> [1月18日(一), 1月31日(日), 把萬物據為己有 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%8A%8A%E8%90%AC%E7%89%A9%E6%93%9A%E7%82%BA%E5%B7%B1%E6%9C%89
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%8A%8A%E8%90%AC%E7%89%A9%E6%93%9A%E7%82%BA%E5%B7%B1%E6%9C%89",
-  "name": "把萬物據為己有",
-  "icon": "2405"
 },
 1612108800 ~ 1613923200 -> [2月01日(一), 2月21日(日), 購物狂記 ※ 全新雙週]
   link = https://tos.fandom.com/zh/wiki/%E8%B3%BC%E7%89%A9%E7%8B%82%E8%A8%98
@@ -147,49 +59,12 @@
 },
 0 ~ 0 -> [第十一階段封印 開放主線續章]
   link = 
-1612152000 ~ 4073644740 -> [2月01日(一) 12:00 ~ 23:59, ???]
-  link = https://tos.fandom.com/zh/wiki/%3F%3F%3F
+1612152000 ~ 4073644740 -> [2月01日(一) 12:00 ~ 23:59, 開放劇情選項對抗迪亞布羅(迎擊魔族)對抗毒龍(迎擊魔族)對抗路西法(迎擊魔族)]
+  link = https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
 {
-  "link": "https://tos.fandom.com/zh/wiki/%3F%3F%3F",
-  "name": "???",
-  "icon": "0000"
-},
-0 ~ 0 -> [⬇ 非合作地區 ⬇]
-  link = 
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 機械族的誕生 ※雙週復刻]
-  link = https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%97%8F%E7%9A%84%E8%AA%95%E7%94%9F
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%97%8F%E7%9A%84%E8%AA%95%E7%94%9F",
-  "name": "機械族的誕生",
-  "icon": "1696"
-},
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 惡劣的玩笑 ※雙週復刻]
-  link = https://tos.fandom.com/zh/wiki/%E6%83%A1%E5%8A%A3%E7%9A%84%E7%8E%A9%E7%AC%91
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E5%8A%A3%E7%9A%84%E7%8E%A9%E7%AC%91",
-  "name": "惡劣的玩笑",
-  "icon": "1697"
-},
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 失敗作的救贖 ※雙週復刻]
-  link = https://tos.fandom.com/zh/wiki/%E5%A4%B1%E6%95%97%E4%BD%9C%E7%9A%84%E6%95%91%E8%B4%96
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A4%B1%E6%95%97%E4%BD%9C%E7%9A%84%E6%95%91%E8%B4%96",
-  "name": "失敗作的救贖",
-  "icon": "1698"
-},
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 機械武者的赤心 ※雙週復刻]
-  link = https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%AD%A6%E8%80%85%E7%9A%84%E8%B5%A4%E5%BF%83
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%AD%A6%E8%80%85%E7%9A%84%E8%B5%A4%E5%BF%83",
-  "name": "機械武者的赤心",
-  "icon": "1743"
-},
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 來自地底的呼喚 ※雙週復刻]
-  link = https://tos.fandom.com/zh/wiki/%E4%BE%86%E8%87%AA%E5%9C%B0%E5%BA%95%E7%9A%84%E5%91%BC%E5%96%9A
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E4%BE%86%E8%87%AA%E5%9C%B0%E5%BA%95%E7%9A%84%E5%91%BC%E5%96%9A",
-  "name": "來自地底的呼喚",
-  "icon": "1744"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)",
+  "name": "對抗迪亞布羅(迎擊魔族)",
+  "icon": "S-2117i"
 },
 0 ~ 0 -> [武鬥任務『荊棘嶺上的武鬥』]
   link = https://tos.fandom.com/zh/wiki/%E6%AD%A6%E9%AC%A5%E4%BB%BB%E5%8B%99
@@ -200,39 +75,20 @@
   "name": "荊棘嶺上的武鬥",
   "icon": "2592"
 },
-0 ~ 0 -> [神魔之塔 × ROCKMAN X DiVE]
-  link = https://tos.fandom.com/zh/wiki/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94_%C3%97_ROCKMAN_X_DiVE
-1609747200 ~ 1612108740 -> [1月04日(一) 16:00, 1月31日(日) 23:59, 『ROCKMAN X DiVE』石抽系列角色強化合成時必定獲得超絕或完美強化分解可獲200靈魂]
-  link = 
-1611244800 ~ 1612108800 -> [1月22日(五), 1月31日(日), 登入︰ S458 第二裝甲艾克斯(造型) × 1]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E8%A3%9D%E7%94%B2%E8%89%BE%E5%85%8B%E6%96%AF(%E9%80%A0%E5%9E%8B)
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E8%A3%9D%E7%94%B2%E8%89%BE%E5%85%8B%E6%96%AF(%E9%80%A0%E5%9E%8B)",
-  "name": "第二裝甲艾克斯(造型)",
-  "icon": "6458"
-},
-0 ~ 0 -> [黑色的覺醒/強烈的執念]
-  link = https://tos.fandom.com/zh/wiki/%E9%BB%91%E8%89%B2%E7%9A%84%E8%A6%BA%E9%86%92
-1610553600 ~ 1613923200 -> [1月14日(四), 2月21日(日), 登入︰ S435 Kirabase 小妹 × 1]
-  link = https://tos.fandom.com/zh/wiki/Kirabase_%E5%B0%8F%E5%A6%B9
-{
-  "link": "https://tos.fandom.com/zh/wiki/Kirabase_%E5%B0%8F%E5%A6%B9",
-  "name": "Kirabase 小妹",
-  "icon": "6435"
-},
-1611331200 ~ 1611504000 -> [1月23日(六), 1月24日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
-  link = 
-0 ~ 0 -> [最強思考型機器人]
-  link = https://tos.fandom.com/zh/wiki/%E6%9C%80%E5%BC%B7%E6%80%9D%E8%80%83%E5%9E%8B%E6%A9%9F%E5%99%A8%E4%BA%BA
-1611936000 ~ 1612108800 -> [1月30日(六), 1月31日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
-  link = 
 0 ~ 0 -> [木仙庵的紅鬚赤身]
-  link = 
+  link = https://tos.fandom.com/zh/wiki/%E6%9C%A8%E4%BB%99%E5%BA%B5%E7%9A%84%E7%B4%85%E9%AC%9A%E8%B5%A4%E8%BA%AB
 1612166400 ~ 4073644740 -> [2月01日(一) 16:00 ~ 23:59, 『靈魂商店』「七十二柱魔神」系列角色上架]
   link = 
-1612166400 ~ 1612972740 -> [2月01日(一) 16:00, 2月10日(三) 23:59, 登入︰ 『怒濤嫉風』+『旃檀聖光』抽卡機會 『怒濤嫉風』+『旃檀聖光』抽卡機會 × 10]
+1612166400 ~ 1612972740 -> [2月01日(一) 16:00, 2月10日(三) 23:59, 於『怒濤嫉風』或『旃檀聖光』進行抽卡，可一次獲得兩款全新造型 S474 嫵媚桃花 ‧ 羅剎女 及 S356 軍火教父 ‧ 唐三藏]
+  link = https://tos.fandom.com/zh/wiki/%E5%AB%B5%E5%AA%9A%E6%A1%83%E8%8A%B1_%E2%80%A7_%E7%BE%85%E5%89%8E%E5%A5%B3
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%AB%B5%E5%AA%9A%E6%A1%83%E8%8A%B1_%E2%80%A7_%E7%BE%85%E5%89%8E%E5%A5%B3",
+  "name": "嫵媚桃花 ‧ 羅剎女",
+  "icon": "6474"
+},
+1612166400 ~ 1612972740 -> [2月01日(一) 16:00, 2月10日(三) 23:59, 登入︰ 『天竺西遊』抽卡機會 『天竺西遊』抽卡機會 × 10]
   link = 
-1612512000 ~ 1613318340 -> [2月05日(五) 16:00, 2月14日(日) 23:59, 登入︰ 『帝王的風範』+『霸王野望』抽卡機會 『帝王的風範』+『霸王野望』抽卡機會 × 10]
+1612512000 ~ 1613318340 -> [2月05日(五) 16:00, 2月14日(日) 23:59, 登入︰ 『霸世戰皇』抽卡機會 『霸世戰皇』抽卡機會 × 10]
   link = 
 1612108800 ~ 1612281600 -> [2月01日(一), 2月02日(二), 首次使用 魔法石 回復戰靈，送 戰靈回復劑 1 支]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
@@ -256,69 +112,6 @@
   link = 
 0 ~ 0 -> [雙倍王卡掉落︰成功通過指定關卡(並獲得王卡)，必可獲得額外王卡 1 張]
   link = 
-1610294400 ~ 1612108800 -> [1月11日(一), 1月31日(日), 複製贗品 ※ 全新挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E8%A4%87%E8%A3%BD%E8%B4%97%E5%93%81
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%A4%87%E8%A3%BD%E8%B4%97%E5%93%81",
-  "name": "複製贗品",
-  "icon": "2628"
-},
-1610899200 ~ 1612108800 -> [1月18日(一), 1月31日(日), 第二次死鬥 ※ 全新挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%AD%BB%E9%AC%A5
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%AD%BB%E9%AC%A5",
-  "name": "第二次死鬥",
-  "icon": "2624"
-},
-1609689600 ~ 1612108800 -> [1月04日(一), 1月31日(日), 雪原的皇帝 ※ 全新雙週]
-  link = https://tos.fandom.com/zh/wiki/%E9%9B%AA%E5%8E%9F%E7%9A%84%E7%9A%87%E5%B8%9D
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9B%AA%E5%8E%9F%E7%9A%84%E7%9A%87%E5%B8%9D",
-  "name": "雪原的皇帝",
-  "icon": "2630"
-},
-1610294400 ~ 1612108800 -> [1月11日(一), 1月31日(日), 爆炎的武鬥家 ※ 全新雙週]
-  link = https://tos.fandom.com/zh/wiki/%E7%88%86%E7%82%8E%E7%9A%84%E6%AD%A6%E9%AC%A5%E5%AE%B6
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%88%86%E7%82%8E%E7%9A%84%E6%AD%A6%E9%AC%A5%E5%AE%B6",
-  "name": "爆炎的武鬥家",
-  "icon": "2629"
-},
-1610899200 ~ 1611504000 -> [1月18日(一), 1月24日(日), 血蛇之鞭 ※ 全新戰慄級]
-  link = https://tos.fandom.com/zh/wiki/%E8%A1%80%E8%9B%87%E4%B9%8B%E9%9E%AD
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E8%9B%87%E4%B9%8B%E9%9E%AD",
-  "name": "血蛇之鞭",
-  "icon": "2627"
-},
-1611583200 ~ 1612108740 -> [1月25日(一) 22:00, 1月31日(日) 23:59, 暴戾的裝甲巨兵 ※ 重開地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%9A%B4%E6%88%BE%E7%9A%84%E8%A3%9D%E7%94%B2%E5%B7%A8%E5%85%B5
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E6%88%BE%E7%9A%84%E8%A3%9D%E7%94%B2%E5%B7%A8%E5%85%B5",
-  "name": "暴戾的裝甲巨兵",
-  "icon": "2623"
-},
-1611669600 ~ 1612108740 -> [1月26日(二) 22:00, 1月31日(日) 23:59, 抹殺全人類 ※ 全新夢魘級]
-  link = https://tos.fandom.com/zh/wiki/%E6%8A%B9%E6%AE%BA%E5%85%A8%E4%BA%BA%E9%A1%9E
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%8A%B9%E6%AE%BA%E5%85%A8%E4%BA%BA%E9%A1%9E",
-  "name": "抹殺全人類",
-  "icon": "2626"
-},
-1610899200 ~ 1612108800 -> [1月18日(一), 1月31日(日), 機械不懂魔術 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E4%B8%8D%E6%87%82%E9%AD%94%E8%A1%93
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E4%B8%8D%E6%87%82%E9%AD%94%E8%A1%93",
-  "name": "機械不懂魔術",
-  "icon": "2326"
-},
-1610899200 ~ 1612108800 -> [1月18日(一), 1月31日(日), 把萬物據為己有 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%8A%8A%E8%90%AC%E7%89%A9%E6%93%9A%E7%82%BA%E5%B7%B1%E6%9C%89
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%8A%8A%E8%90%AC%E7%89%A9%E6%93%9A%E7%82%BA%E5%B7%B1%E6%9C%89",
-  "name": "把萬物據為己有",
-  "icon": "2405"
-},
 1612108800 ~ 1613923200 -> [2月01日(一), 2月21日(日), 購物狂記 ※ 全新雙週]
   link = https://tos.fandom.com/zh/wiki/%E8%B3%BC%E7%89%A9%E7%8B%82%E8%A8%98
 {
