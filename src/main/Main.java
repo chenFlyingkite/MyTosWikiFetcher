@@ -40,12 +40,15 @@ public class Main {
     public static void main(String[] args) {
         // Common case : load all cards, all cards only
         // , load other miscs, copy to TosWiki
+
+        // Main work
+        //fetch();
+        copyToMyTosWiki();
+
+        // testing area
         //gold();
         //stock();
-
         //MyTosWikiFirebase.run();
-        fetch();
-        //copyToMyTosWiki();
         //TosUserPackFetcher.me.run();
         //TosCardFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
