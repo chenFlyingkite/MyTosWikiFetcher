@@ -14844,6 +14844,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2490"
   },
   {
+    "title": "No. 2493 蠻力破空 ‧ 基斯",
+    "id": "2493",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%A0%BB%E5%8A%9B%E7%A0%B4%E7%A9%BA_%E2%80%A7_%E5%9F%BA%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2493"
+  },
+  {
     "title": "No. 2494 炫槍破空 ‧ 基斯",
     "id": "2494",
     "link": "https://tos.fandom.com/zh/wiki/%E7%82%AB%E6%A7%8D%E7%A0%B4%E7%A9%BA_%E2%80%A7_%E5%9F%BA%E6%96%AF",
@@ -15426,10 +15432,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2590"
   },
   {
+    "title": "No. 2591 黑河妖孽 ‧ 鼉龍",
+    "id": "2591",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BB%91%E6%B2%B3%E5%A6%96%E5%AD%BD_%E2%80%A7_%E9%BC%89%E9%BE%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2591"
+  },
+  {
     "title": "No. 2592 青臉獠牙 ‧ 赤身鬼",
     "id": "2592",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9D%92%E8%87%89%E7%8D%A0%E7%89%99_%E2%80%A7_%E8%B5%A4%E8%BA%AB%E9%AC%BC",
     "linkId": "http://zh.tos.wikia.com/wiki/2592"
+  },
+  {
+    "title": "No. 2593 蠻牛貳式 ‧ 新春型號",
+    "id": "2593",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%A0%BB%E7%89%9B%E8%B2%B3%E5%BC%8F_%E2%80%A7_%E6%96%B0%E6%98%A5%E5%9E%8B%E8%99%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2593"
   },
   {
     "title": "No. 2595 九黎戰神 ‧ 蚩尤",
@@ -15438,10 +15456,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2595"
   },
   {
+    "title": "No. 2596 喰魅 ‧ 蝕獸之王",
+    "id": "2596",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%96%B0%E9%AD%85_%E2%80%A7_%E8%9D%95%E7%8D%B8%E4%B9%8B%E7%8E%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2596"
+  },
+  {
     "title": "No. 2597 絢麗彩度 ‧ 施拉瑰",
     "id": "2597",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B5%A2%E9%BA%97%E5%BD%A9%E5%BA%A6_%E2%80%A7_%E6%96%BD%E6%8B%89%E7%91%B0",
     "linkId": "http://zh.tos.wikia.com/wiki/2597"
+  },
+  {
+    "title": "No. 2598 破壞與創造 ‧ 姆姆",
+    "id": "2598",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%A3%9E%E8%88%87%E5%89%B5%E9%80%A0_%E2%80%A7_%E5%A7%86%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2598"
   },
   {
     "title": "No. 2599 機之魂寵",
@@ -15454,6 +15484,66 @@
     "id": "2600",
     "link": "https://tos.fandom.com/zh/wiki/%E5%85%AB%E8%89%B2%E5%87%9D%E8%81%9A_%E2%80%A7_%E7%98%8B%E9%A0%AD",
     "linkId": "http://zh.tos.wikia.com/wiki/2600"
+  },
+  {
+    "title": "No. 2601 深潛迴聲 ‧ 烏蘇拉",
+    "id": "2601",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%BD%9B%E8%BF%B4%E8%81%B2_%E2%80%A7_%E7%83%8F%E8%98%87%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2601"
+  },
+  {
+    "title": "No. 2602 漩渦儀姬 ‧ 烏蘇拉",
+    "id": "2602",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BC%A9%E6%B8%A6%E5%84%80%E5%A7%AC_%E2%80%A7_%E7%83%8F%E8%98%87%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2602"
+  },
+  {
+    "title": "No. 2603 爆燃領袖 ‧ 愛格德",
+    "id": "2603",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%88%86%E7%87%83%E9%A0%98%E8%A2%96_%E2%80%A7_%E6%84%9B%E6%A0%BC%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2603"
+  },
+  {
+    "title": "No. 2604 鱗擊焰芒 ‧ 愛格德",
+    "id": "2604",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E6%93%8A%E7%84%B0%E8%8A%92_%E2%80%A7_%E6%84%9B%E6%A0%BC%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2604"
+  },
+  {
+    "title": "No. 2605 不朽風祭 ‧ 芭芭拉",
+    "id": "2605",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%9C%BD%E9%A2%A8%E7%A5%AD_%E2%80%A7_%E8%8A%AD%E8%8A%AD%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2605"
+  },
+  {
+    "title": "No. 2606 林風連繫 ‧ 芭芭拉",
+    "id": "2606",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9E%97%E9%A2%A8%E9%80%A3%E7%B9%AB_%E2%80%A7_%E8%8A%AD%E8%8A%AD%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2606"
+  },
+  {
+    "title": "No. 2607 招蕩聖焰 ‧ 安納",
+    "id": "2607",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8B%9B%E8%95%A9%E8%81%96%E7%84%B0_%E2%80%A7_%E5%AE%89%E7%B4%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2607"
+  },
+  {
+    "title": "No. 2608 輝煌展望 ‧ 安納",
+    "id": "2608",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BC%9D%E7%85%8C%E5%B1%95%E6%9C%9B_%E2%80%A7_%E5%AE%89%E7%B4%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2608"
+  },
+  {
+    "title": "No. 2609 群山蘊量 ‧ 諾瓦利斯",
+    "id": "2609",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BE%A4%E5%B1%B1%E8%98%8A%E9%87%8F_%E2%80%A7_%E8%AB%BE%E7%93%A6%E5%88%A9%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2609"
+  },
+  {
+    "title": "No. 2610 終末等待 ‧ 諾瓦利斯",
+    "id": "2610",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%9C%AB%E7%AD%89%E5%BE%85_%E2%80%A7_%E8%AB%BE%E7%93%A6%E5%88%A9%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2610"
   },
   {
     "title": "No. 2611 艾克斯",
@@ -15646,6 +15736,12 @@
     "id": "3009",
     "link": "https://tos.fandom.com/zh/wiki/%E6%AE%98%E5%83%8F%E8%82%86%E8%99%90_%E2%80%A7_%E5%8D%A1%E4%BF%84%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/3009"
+  },
+  {
+    "title": "No. 3010 意識分解 ‧ 夏馬西",
+    "id": "3010",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%84%8F%E8%AD%98%E5%88%86%E8%A7%A3_%E2%80%A7_%E5%A4%8F%E9%A6%AC%E8%A5%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/3010"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
@@ -17920,6 +18016,36 @@
     "id": "6435",
     "link": "https://tos.fandom.com/zh/wiki/Kirabase_%E5%B0%8F%E5%A6%B9",
     "linkId": "http://zh.tos.wikia.com/wiki/6435"
+  },
+  {
+    "title": "S436 侵念之核",
+    "id": "6436",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BE%B5%E5%BF%B5%E4%B9%8B%E6%A0%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/6436"
+  },
+  {
+    "title": "S437 罪熱之核",
+    "id": "6437",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%BD%AA%E7%86%B1%E4%B9%8B%E6%A0%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/6437"
+  },
+  {
+    "title": "S438 哀嚎之核",
+    "id": "6438",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%93%80%E5%9A%8E%E4%B9%8B%E6%A0%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/6438"
+  },
+  {
+    "title": "S439 分裂之核",
+    "id": "6439",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%88%86%E8%A3%82%E4%B9%8B%E6%A0%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/6439"
+  },
+  {
+    "title": "S440 夢禍之核",
+    "id": "6440",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A2%E7%A6%8D%E4%B9%8B%E6%A0%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/6440"
   },
   {
     "title": "S441 統帥何嬪 ‧ 關羽",
