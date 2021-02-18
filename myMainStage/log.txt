@@ -8,11 +8,11 @@
 ]
 #1 :  : 
   [ > 
-  #0 = S-2117i, 我們的毅力 -> https://tos.fandom.com/zh/wiki/%E6%88%91%E5%80%91%E7%9A%84%E6%AF%85%E5%8A%9B
+  #0 = S-2118i, 我們的毅力 -> https://tos.fandom.com/zh/wiki/%E6%88%91%E5%80%91%E7%9A%84%E6%AF%85%E5%8A%9B
   #1 = S-2140i, 改變絕望的瞬間 -> https://tos.fandom.com/zh/wiki/%E6%94%B9%E8%AE%8A%E7%B5%95%E6%9C%9B%E7%9A%84%E7%9E%AC%E9%96%93
   #2 = 0000, 對抗夏馬西 -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A4%8F%E9%A6%AC%E8%A5%BF
-  #3 = S-2117i, 尋找真相之後 -> https://tos.fandom.com/zh/wiki/%E5%B0%8B%E6%89%BE%E7%9C%9F%E7%9B%B8%E4%B9%8B%E5%BE%8C
-  #4 = S-2117i, 真相的揭露 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%9B%B8%E7%9A%84%E6%8F%AD%E9%9C%B2
+  #3 = S-2118i, 尋找真相之後 -> https://tos.fandom.com/zh/wiki/%E5%B0%8B%E6%89%BE%E7%9C%9F%E7%9B%B8%E4%B9%8B%E5%BE%8C
+  #4 = S-2118i, 真相的揭露 -> https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%9B%B8%E7%9A%84%E6%8F%AD%E9%9C%B2
   #5 = S-2117i, 不一樣的展開 -> https://tos.fandom.com/zh/wiki/%E4%B8%8D%E4%B8%80%E6%A8%A3%E7%9A%84%E5%B1%95%E9%96%8B
 ]
 #2 :  : 
@@ -26,33 +26,33 @@
   #6 = S-2134i, 解放出來的惡意(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E8%A7%A3%E6%94%BE%E5%87%BA%E4%BE%86%E7%9A%84%E6%83%A1%E6%84%8F(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
   #7 = S-2137i, 解放出來的惡意(以諾塔) -> https://tos.fandom.com/zh/wiki/%E8%A7%A3%E6%94%BE%E5%87%BA%E4%BE%86%E7%9A%84%E6%83%A1%E6%84%8F(%E4%BB%A5%E8%AB%BE%E5%A1%94)
   #8 = S-2140i, 解放出來的惡意(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E8%A7%A3%E6%94%BE%E5%87%BA%E4%BE%86%E7%9A%84%E6%83%A1%E6%84%8F(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #9 = S-2117i, 對抗卡俄斯(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%8D%A1%E4%BF%84%E6%96%AF(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #10 = S-2117i, 對抗卡俄斯(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%8D%A1%E4%BF%84%E6%96%AF(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #11 = S-2117i, 對抗卡俄斯(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%8D%A1%E4%BF%84%E6%96%AF(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #12 = S-2117i, 對抗猶格索托斯(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E7%8C%B6%E6%A0%BC%E7%B4%A2%E6%89%98%E6%96%AF(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #13 = S-2117i, 對抗猶格索托斯(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E7%8C%B6%E6%A0%BC%E7%B4%A2%E6%89%98%E6%96%AF(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #14 = S-2117i, 對抗猶格索托斯(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E7%8C%B6%E6%A0%BC%E7%B4%A2%E6%89%98%E6%96%AF(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #15 = S-2117i, 對抗姬氏(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A7%AC%E6%B0%8F(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #16 = S-2117i, 對抗姬氏(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A7%AC%E6%B0%8F(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #17 = S-2117i, 對抗姬氏(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A7%AC%E6%B0%8F(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #18 = S-2117i, 對抗路西法(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%B7%AF%E8%A5%BF%E6%B3%95(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #19 = S-2117i, 對抗路西法(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%B7%AF%E8%A5%BF%E6%B3%95(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #20 = S-2117i, 對抗路西法(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%B7%AF%E8%A5%BF%E6%B3%95(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #21 = S-2117i, 對抗毒龍(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%AF%92%E9%BE%8D(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #22 = S-2117i, 對抗毒龍(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%AF%92%E9%BE%8D(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #23 = S-2117i, 對抗毒龍(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%AF%92%E9%BE%8D(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #24 = S-2117i, 對抗迪亞布羅(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #25 = S-2117i, 對抗迪亞布羅(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #26 = S-2117i, 對抗迪亞布羅(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #27 = S-2117i, 對抗奧丁(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A5%A7%E4%B8%81(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #28 = S-2117i, 對抗奧丁(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A5%A7%E4%B8%81(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #29 = S-2117i, 對抗奧丁(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A5%A7%E4%B8%81(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #30 = S-2117i, 對抗日月狼(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%97%A5%E6%9C%88%E7%8B%BC(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #31 = S-2117i, 對抗日月狼(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%97%A5%E6%9C%88%E7%8B%BC(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #32 = S-2117i, 對抗日月狼(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%97%A5%E6%9C%88%E7%8B%BC(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
-  #33 = S-2117i, 對抗薩魯曼(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%96%A9%E9%AD%AF%E6%9B%BC(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
-  #34 = S-2117i, 對抗薩魯曼(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%96%A9%E9%AD%AF%E6%9B%BC(%E4%BB%A5%E8%AB%BE%E5%A1%94)
-  #35 = S-2117i, 對抗薩魯曼(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%96%A9%E9%AD%AF%E6%9B%BC(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #9 = S-2118i, 對抗卡俄斯(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%8D%A1%E4%BF%84%E6%96%AF(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #10 = S-2118i, 對抗卡俄斯(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%8D%A1%E4%BF%84%E6%96%AF(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #11 = S-2118i, 對抗卡俄斯(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%8D%A1%E4%BF%84%E6%96%AF(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #12 = S-2118i, 對抗猶格索托斯(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E7%8C%B6%E6%A0%BC%E7%B4%A2%E6%89%98%E6%96%AF(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #13 = S-2118i, 對抗猶格索托斯(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E7%8C%B6%E6%A0%BC%E7%B4%A2%E6%89%98%E6%96%AF(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #14 = S-2118i, 對抗猶格索托斯(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E7%8C%B6%E6%A0%BC%E7%B4%A2%E6%89%98%E6%96%AF(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #15 = S-2118i, 對抗姬氏(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A7%AC%E6%B0%8F(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #16 = S-2118i, 對抗姬氏(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A7%AC%E6%B0%8F(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #17 = S-2118i, 對抗姬氏(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A7%AC%E6%B0%8F(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #18 = S-2118i, 對抗路西法(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%B7%AF%E8%A5%BF%E6%B3%95(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #19 = S-2118i, 對抗路西法(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%B7%AF%E8%A5%BF%E6%B3%95(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #20 = S-2118i, 對抗路西法(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%B7%AF%E8%A5%BF%E6%B3%95(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #21 = S-2118i, 對抗毒龍(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%AF%92%E9%BE%8D(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #22 = S-2118i, 對抗毒龍(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%AF%92%E9%BE%8D(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #23 = S-2118i, 對抗毒龍(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%AF%92%E9%BE%8D(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #24 = S-2118i, 對抗迪亞布羅(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #25 = S-2118i, 對抗迪亞布羅(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #26 = S-2118i, 對抗迪亞布羅(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #27 = S-2118i, 對抗奧丁(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A5%A7%E4%B8%81(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #28 = S-2118i, 對抗奧丁(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A5%A7%E4%B8%81(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #29 = S-2118i, 對抗奧丁(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E5%A5%A7%E4%B8%81(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #30 = S-2118i, 對抗日月狼(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%97%A5%E6%9C%88%E7%8B%BC(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #31 = S-2118i, 對抗日月狼(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%97%A5%E6%9C%88%E7%8B%BC(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #32 = S-2118i, 對抗日月狼(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E6%97%A5%E6%9C%88%E7%8B%BC(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
+  #33 = S-2118i, 對抗薩魯曼(迎擊魔族) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%96%A9%E9%AD%AF%E6%9B%BC(%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F)
+  #34 = S-2118i, 對抗薩魯曼(以諾塔) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%96%A9%E9%AD%AF%E6%9B%BC(%E4%BB%A5%E8%AB%BE%E5%A1%94)
+  #35 = S-2118i, 對抗薩魯曼(喚醒龐貝) -> https://tos.fandom.com/zh/wiki/%E5%B0%8D%E6%8A%97%E8%96%A9%E9%AD%AF%E6%9B%BC(%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D)
   #36 = S-2117i, 迎擊魔族之後 -> https://tos.fandom.com/zh/wiki/%E8%BF%8E%E6%93%8A%E9%AD%94%E6%97%8F%E4%B9%8B%E5%BE%8C
   #37 = S-2117i, 調查以諾塔之後 -> https://tos.fandom.com/zh/wiki/%E8%AA%BF%E6%9F%A5%E4%BB%A5%E8%AB%BE%E5%A1%94%E4%B9%8B%E5%BE%8C
   #38 = S-2117i, 喚醒龐貝之後 -> https://tos.fandom.com/zh/wiki/%E5%96%9A%E9%86%92%E9%BE%90%E8%B2%9D%E4%B9%8B%E5%BE%8C

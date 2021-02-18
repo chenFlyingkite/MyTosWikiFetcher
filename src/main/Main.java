@@ -42,8 +42,9 @@ public class Main {
         // , load other miscs, copy to TosWiki
 
         // Main work
-        //fetch();
-        copyToMyTosWiki();
+        fetch();
+        //copyToMyTosWiki();
+        //PngCreator.me.standard();
 
         // testing area
         //gold();

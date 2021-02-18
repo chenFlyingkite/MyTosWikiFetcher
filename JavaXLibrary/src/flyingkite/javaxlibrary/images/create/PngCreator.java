@@ -1,8 +1,15 @@
 package flyingkite.javaxlibrary.images.create;
 
 import flyingkite.data.Rect2;
+import flyingkite.files.FileUtil;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.log.L;
+import flyingkite.tool.TicTac2;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
 
 public class PngCreator {
     public static final PngCreator me = new PngCreator();
@@ -72,5 +79,56 @@ public class PngCreator {
                 PngCreator.from(p).copy(rL, rR).into(dst + s);
             }
         }
+    }
+
+    // 4096 x 4096 = 16*16 * (256x256)
+    public void standard() {
+        String dst = "D:\\images\\a.bmp";
+        final int w = 256 * 16;
+        final int h = w;
+
+        File f = new File(dst);
+        TicTac2 clk = new TicTac2();
+        clk.tic();
+        BufferedImage dstImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_RGB);
+
+        // carpet = 16x16 tiles
+        // r.00 ~ r.f0
+        // r.f0 ~ r.ff
+        // each tile = 256x256
+        // 00 ~ 0f  -> b
+        // f0 ~ ff
+        // |
+        // g
+        for (int i = 0; i < w; i++) {
+            for (int j = 0; j < h; j++) {
+                int a = j / 256;
+                int b = j % 256;
+                int c = i / 256;
+                int d = i % 256;
+                // rgb each
+                int cr = 16 * a + c;
+                int cg = b;
+                int cb = d;
+                int rgb = rgb(cr, cg, cb);
+                dstImg.setRGB(i, j, rgb);
+            }
+        }
+
+        File file = f;
+        FileUtil.ensureDelete(file);
+        FileUtil.createFile(file);
+        clk.tic();
+        // Step : Write to output
+        try {
+            ImageIO.write(dstImg, "bmp", file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        clk.tac("ImageIO write >> " + file.getAbsolutePath());
+    }
+
+    private static int rgb(int r, int g, int b) {
+        return ((r & 0xFF) << 16) | ((g & 0xFF) << 8) | (b & 0xFF);
     }
 }
