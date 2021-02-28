@@ -1168,6 +1168,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "人族之勇",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E4%B9%8B%E5%8B%87",
+    "skillCDMin": 20,
+    "skillCDMax": 9,
+    "skillDesc": "I. 將所有符石轉化為 ⇒ 人族強化符石 1 回合內 II. 點擊元素法陣上的 1 種屬性符石： ⓵ 自身攻擊力 12 倍 (攻擊力不可與其他成員共享) ⓶ 自身攻擊轉化為 ⇒ 該屬性攻擊 ⓷ 自身攻擊無視 ⇒ 敵人防禦力、「攻前盾」、 「指定形狀盾」",
+    "skillMonsters": [
+      "7019"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "人族戰略 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E7%95%A5_%E2%80%A7_%E5%85%89",
     "skillCDMin": 19,
@@ -1349,7 +1360,8 @@
       "2035",
       "2296",
       "2297",
-      "7009"
+      "7009",
+      "7019"
     ]
   },
   {
@@ -1560,7 +1572,8 @@
     "skillCDMax": -1,
     "skillDesc": "人類攻擊力 5 倍",
     "skillMonsters": [
-      "2534"
+      "2534",
+      "2646"
     ]
   },
   {
@@ -4965,6 +4978,17 @@
     "skillDesc": "I. 自身每有 1 點「仙力」 ⇒ 隨機轉化 1 粒光神族強化符石 II. 發動技能時若自身「仙力」達 10 點 ⇒ 回復相當於神族及獸類成員的生命力",
     "skillMonsters": [
       "2136"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "創作感應",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%89%B5%E4%BD%9C%E6%84%9F%E6%87%89",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆水、木、光符石 ⇒ 分別掉落「火、暗、心」強化符石 1 回合內 II. 可任意移動符石 而不會發動消除 III. 若首批消除所有符石， 於回合結束時 ⇒ 將所有符石轉化為人族符石",
+    "skillMonsters": [
+      "2646"
     ]
   },
   {
@@ -19912,6 +19936,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "火焰附魔 ‧ 風",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E9%99%84%E9%AD%94_%E2%80%A7_%E9%A2%A8",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 若隊長為獸類 ⇒ 自身 CD -4 II. 敵方全體中毒：每回合受到 自身攻擊力 100 倍的傷害， 此傷害無視防禦力及屬性 並持續到死亡 1 回合內 III. 火及心符石兼具 ⇒ 50% 木符石效果",
+    "skillMonsters": [
+      "2652"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "火燄舞影",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%87%84%E8%88%9E%E5%BD%B1",
@@ -20847,6 +20882,17 @@
     "skillDesc": "心符石兼具 50% 自身屬性符石效果；發動技能時，場上每 1 粒心符石，額外增加 1 回合效果，3 粒心符石可持續最多 4 回合",
     "skillMonsters": [
       "1745"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "無畏之心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%95%8F%E4%B9%8B%E5%BF%83",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內 I. 可任意移動符石 而不會發動消除 II. 觸碰心符石時 ⇒ 解除其電擊、凍結、弱化、 化血、石化符石狀態 ⇒ 轉化為人族強化符石 III. 首批消除所有心符石時 ⇒ 自身 CD -2",
+    "skillMonsters": [
+      "7019"
     ]
   },
   {
@@ -22445,7 +22491,8 @@
       "2508",
       "2565",
       "2582",
-      "2651"
+      "2651",
+      "2652"
     ]
   },
   {

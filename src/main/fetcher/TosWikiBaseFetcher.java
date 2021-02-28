@@ -40,17 +40,17 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class TosWikiBaseFetcher implements Runnable {
-    //public static final String wikiBaseZh = "http://zh.tos.wikia.com";
+    // basic links
     public static final String wikiBaseZh = "https://tos.fandom.com";
-    //public static final String wikiBaseEn = "http://towerofsaviors.wikia.com";
     public static final String wikiBaseEn = "http://towerofsaviors.fandom.com";
     public static final String wikiFileZh = "http://zh.tos.wikia.com/wiki/File:";
 
     public static final String zhApi1 = wikiBaseZh + "/api/v1";
     public static final String enApi1 = wikiBaseEn + "/api/v1";
 
+    protected final TicTac2 clock = new TicTac2();
+
     protected boolean mFetchAll = false;
-    protected TicTac2 clock = new TicTac2();
 
     protected Gson mGson = new GsonBuilder().setPrettyPrinting().create();
     //= new Gson();

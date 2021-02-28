@@ -1,6 +1,7 @@
 package main.kt
 
 import flyingkite.functional.MeetSS
+import flyingkite.log.L
 import flyingkite.math.MathUtil
 import flyingkite.tool.TextUtil
 import flyingkite.tool.TicTac2
@@ -14,7 +15,6 @@ import java.io.IOException
 import java.util.*
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 class TosGet {
     companion object me {
@@ -520,7 +520,7 @@ class TosGet {
                     // Take the 1st a
                     var href = ax[0].attr("href")
                     if (href.startsWith("/")) {
-                        href = baseWiki + href;
+                        href = baseWiki + href
                     }
                     ans.add(href)
                 }
@@ -1105,6 +1105,10 @@ class TosGet {
         // Extract for TosCard
         // http://zh.tos.wikia.com/wiki/001
         fun getCardTds(element: Element) : CardTds? {
+            // debug
+            var logNodes = true
+
+            // formal
             val td2 = element.getElementsByTag("td")
 
             val result = CardTds()
@@ -1136,6 +1140,9 @@ class TosGet {
                     i
                 }
                 // Break points ----------------
+                if (logNodes) {
+                    L.log("#%3d : %s \n   %s", i, etxt, e)
+                }
 
                 val tables = e.getElementsByTag("table")?.size ?: 0
 
@@ -1165,7 +1172,7 @@ class TosGet {
                 val inStage = e.parent().text().contains("關卡")
                 if (inStage) {
                     val ea = e.getElementsByTag("a")
-                    ea.forEachIndexed { j, ej ->
+                    ea.forEachIndexed({ j, ej ->
                         when (part) {
                             CardPart.Amelioration -> {
                                 if (j % 2 == 1) {
@@ -1191,7 +1198,7 @@ class TosGet {
                             }
                             else -> {}
                         }
-                    }
+                    })
                 }
 
                 if (noscript.size > 0) {
@@ -1252,16 +1259,6 @@ class TosGet {
                 } else {
 
                 }
-
-                if (printTdHtml) {
-                    print("-- text --")
-                    print(e.text())
-                    println("----------")
-                    //print("----html----")
-                    //print(e.html())
-                    //println("--------")
-                }
-                //println("Part #$i = $part")
             }
             if (td.size > 0) {
                 return result
@@ -1293,7 +1290,6 @@ class TosGet {
         fun getCardImagedLink(doc: Document) : List<NameLink> {
             val result = ArrayList<NameLink>()
             val monster = doc.getElementById("monster-data")
-            //val imgs = monster?.getElementsByClass(imageClass)
             val ths = monster.getElementsByTag("th")
 
             if (ths != null) {
@@ -1311,15 +1307,6 @@ class TosGet {
                             }
                         }
                     }
-//                    val img = tb.getElementsByTag("img")
-//                    if (img.size == 0) continue
-//                    val ei = img[0]
-//                    val info = NameLink()
-//                    info.link = getWikiLink(ei?.attr("href") ?: "", wikiBaseZh)
-//                    info.name = ei?.attr("title") ?: ""
-//                    if (!info.isEmpty()) {
-//                        result.add(info)
-//                    }
                 }
             }
             return result

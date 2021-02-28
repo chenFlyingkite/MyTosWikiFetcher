@@ -3,8 +3,9 @@ package main.fetcher.data;
 public enum Anchors {
     BasicProperty ("基本屬性"),
     ActiveSkills  ("主動技"),
+    LeaderSkills  ("隊長技"),
     Amelioration  ("昇華"),
-    AwakenRecall  ("極限突破"),
+    AwakenRecall  ("極限昇華"), // 極限昇華   極限突破
     Evolution     ("進化列表"),
     PowerRelease  ("潛能解放"),
     Combination   ("合體列表"),

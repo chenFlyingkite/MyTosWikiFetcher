@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3337 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3340 items, basePath = https://tos.fandom.com, offset = null)
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
@@ -104,6 +104,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 人之血脈 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E4%B9%8B%E8%A1%80%E8%84%88
 人之魅術 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E4%B9%8B%E9%AD%85%E8%A1%93
 人彘之愛 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E5%BD%98%E4%B9%8B%E6%84%9B
+人族之勇 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E4%B9%8B%E5%8B%87
 人族戰略_‧_光 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E7%95%A5_%E2%80%A7_%E5%85%89
 人族戰略_‧_光華 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E7%95%A5_%E2%80%A7_%E5%85%89%E8%8F%AF
 人族戰術_‧_水 -> https://tos.fandom.com/zh/wiki/%E4%BA%BA%E6%97%8F%E6%88%B0%E8%A1%93_%E2%80%A7_%E6%B0%B4
@@ -421,6 +422,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 刺殺戮 -> https://tos.fandom.com/zh/wiki/%E5%88%BA%E6%AE%BA%E6%88%AE
 剛強的表象 -> https://tos.fandom.com/zh/wiki/%E5%89%9B%E5%BC%B7%E7%9A%84%E8%A1%A8%E8%B1%A1
 剛陽之尊 -> https://tos.fandom.com/zh/wiki/%E5%89%9B%E9%99%BD%E4%B9%8B%E5%B0%8A
+創作感應 -> https://tos.fandom.com/zh/wiki/%E5%89%B5%E4%BD%9C%E6%84%9F%E6%87%89
 創造之能 -> https://tos.fandom.com/zh/wiki/%E5%89%B5%E9%80%A0%E4%B9%8B%E8%83%BD
 劍匠噬魂_‧_烈燄 -> https://tos.fandom.com/zh/wiki/%E5%8A%8D%E5%8C%A0%E5%99%AC%E9%AD%82_%E2%80%A7_%E7%83%88%E7%87%84
 劍嘯九天 -> https://tos.fandom.com/zh/wiki/%E5%8A%8D%E5%98%AF%E4%B9%9D%E5%A4%A9
@@ -1682,6 +1684,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 火焰舞動 -> https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E8%88%9E%E5%8B%95
 火焰轟擊 -> https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E8%BD%9F%E6%93%8A
 火焰進擊 -> https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E9%80%B2%E6%93%8A
+火焰附魔_‧_風 -> https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E9%99%84%E9%AD%94_%E2%80%A7_%E9%A2%A8
 火燄舞影 -> https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%87%84%E8%88%9E%E5%BD%B1
 火神力場 -> https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%A5%9E%E5%8A%9B%E5%A0%B4
 火紅眼_‧_目標鎖定 -> https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%B4%85%E7%9C%BC_%E2%80%A7_%E7%9B%AE%E6%A8%99%E9%8E%96%E5%AE%9A
@@ -3338,4 +3341,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-3359 skills
+3363 skills

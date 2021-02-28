@@ -2,18 +2,15 @@ package main.fetcher;
 
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
-import flyingkite.tool.IOUtil;
-import main.card.TosCard;
 import main.kt.CardItem;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
+// Listing card links from /wiki/圖鑑
 public class TosWikiCardsLister extends TosWikiBaseFetcher {
     public static final TosWikiCardsLister me = new TosWikiCardsLister();
     private static final String folder = "myCard";
@@ -37,13 +34,10 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
             List<CardItem> cards = getCardsInLink(s);
             allItems.addAll(cards);
             n += cards.size();
+
             // Print out all the cards
-            boolean print = false;
-            if (print) {
-                mLf.log("-   %s cards", cards.size());
-                for (CardItem c : cards) {
-                    mLf.log("--  %s", c);
-                }
+            if (false) {
+                printList(cards, mLf, "cards");
             }
         }
         mLf.log("%s cards in 圖鑑", n);

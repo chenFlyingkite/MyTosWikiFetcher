@@ -15738,6 +15738,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2645"
   },
   {
+    "title": "No. 2646 機械本源．麥卡錫",
+    "id": "2646",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%9C%AC%E6%BA%90%EF%BC%8E%E9%BA%A5%E5%8D%A1%E9%8C%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/2646"
+  },
+  {
     "title": "No. 2650 優理加",
     "id": "2650",
     "link": "https://tos.fandom.com/zh/wiki/%E5%84%AA%E7%90%86%E5%8A%A0",
@@ -15748,6 +15754,12 @@
     "id": "2651",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E7%86%8A%E4%BD%BF%EF%BC%8E%E5%B0%A4%E9%9D%9E",
     "linkId": "http://zh.tos.wikia.com/wiki/2651"
+  },
+  {
+    "title": "No. 2652 毒蛇使．雅克",
+    "id": "2652",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AF%92%E8%9B%87%E4%BD%BF%EF%BC%8E%E9%9B%85%E5%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2652"
   },
   {
     "title": "No. 2653 繽紛元素軍艦",
@@ -18232,6 +18244,12 @@
     "id": "6474",
     "link": "https://tos.fandom.com/zh/wiki/%E5%AB%B5%E5%AA%9A%E6%A1%83%E8%8A%B1_%E2%80%A7_%E7%BE%85%E5%89%8E%E5%A5%B3",
     "linkId": "http://zh.tos.wikia.com/wiki/6474"
+  },
+  {
+    "title": "S477 賢者之石 ‧ 元獸賈比爾(動態造型)",
+    "id": "6477",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B3%A2%E8%80%85%E4%B9%8B%E7%9F%B3_%E2%80%A7_%E5%85%83%E7%8D%B8%E8%B3%88%E6%AF%94%E7%88%BE(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6477"
   },
   {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",

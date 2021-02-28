@@ -7,6 +7,7 @@ import main.fetcher.TosCardExtras;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosSkillFetcher.AllSkill;
+import main.fetcher.data.Anchors;
 import main.kt.CardTds;
 import main.kt.Craft;
 import main.kt.FullStatsMax;
@@ -108,16 +109,41 @@ public class TosCardCreator {
         return c;
     }
 
+    private int[] range(CardInfo info, Anchors anc) {
+        int at = anc.id();
+        int from = info.anchors[at] + 1; // 主動技
+        int to = info.cardTds.getTds().size();
+        if (at + 1 < info.anchors.length) {
+            int next = info.anchors[at + 1];
+            if (next > 0) {
+                to = next;
+            }
+        }
+        return new int[] {from, to};
+    }
+
+    private void print(List li) {
+        for (int i = 0; i < li.size(); i++) {
+            L.log("#%d : %s", i, li.get(i));
+        }
+    }
+
     private TosCard asTosCard_18(CardInfo info) {
         List<String> list = info.data;
-
         TosCard c = new TosCard();
 
         fillCommon(c, info);
+
         //-- Skill Active name #10
         fillSkillActive(c, list.subList(11, 15));
         //-- Skill Leader name #15
         fillSkillLeader(c, list.subList(16, 18));
+
+        //int[] r;
+        //r = range(info, Anchors.ActiveSkills);
+        //fillSkillActive(c, list.subList(r[0], r[1]));
+        //r = range(info, Anchors.LeaderSkills);
+        //fillSkillLeader(c, list.subList(r[0], r[1]));
 
         return c;
     }

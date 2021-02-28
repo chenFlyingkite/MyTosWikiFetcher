@@ -1,6 +1,5 @@
 package main.fetcher;
 
-import flyingkite.collection.ListUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
@@ -39,7 +38,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     private String source = TosWikiCardsLister.me.VALAID_LINKS;
 
     // Raise up if fixing card content
-    private final boolean fixing = 0 > 0;
+    private final boolean fixing = 1 > 0;
 
     private List<String> getTests() {
         List<String> link = new ArrayList<>();
@@ -61,19 +60,19 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 , "https://tos.fandom.com/zh/wiki/1082" // 孤高龍王 ‧ 敖廣
                 , "https://tos.fandom.com/zh/wiki/1777" // 斯芬克斯
         );
-        //link.clear();
+        link.clear();
         //---
         Collections.addAll(link
                 , "https://tos.fandom.com/zh/wiki/001" // TosCardCreator = 18
-                , "https://tos.fandom.com/zh/wiki/024" // TosCardCreator = 28
-                , "https://tos.fandom.com/zh/wiki/1001" // TosCardCreator = 16
-                , "https://tos.fandom.com/zh/wiki/1017" // TosCardCreator = 22
-                , "https://tos.fandom.com/zh/wiki/1063" // TosCardCreator = 32
-                , "https://tos.fandom.com/zh/wiki/651" // TosCardCreator = 24
-                , "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
-                , "https://tos.fandom.com/zh/wiki/2425" // 29
+                //, "https://tos.fandom.com/zh/wiki/024" // TosCardCreator = 28
+                //, "https://tos.fandom.com/zh/wiki/1001" // TosCardCreator = 16
+                //, "https://tos.fandom.com/zh/wiki/1017" // TosCardCreator = 22
+                //, "https://tos.fandom.com/zh/wiki/1063" // TosCardCreator = 32
+                //, "https://tos.fandom.com/zh/wiki/651" // TosCardCreator = 24
+                //, "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
+                //, "https://tos.fandom.com/zh/wiki/2425" // 29
         );
-        link.clear(); // uncomment this if use test links
+        //link.clear(); // uncomment this if use test links
 //        for (int i = 1; i < 100; i++) {
 //            link.add("https://tos.fandom.com/zh/wiki/" + i);
 //        }
@@ -84,7 +83,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/6174");
         //link.add("https://tos.fandom.com/zh/wiki/595");
         //link.add("https://tos.fandom.com/zh/wiki/230");
-        link.add("https://tos.fandom.com/zh/wiki/656");
+        //link.add("https://tos.fandom.com/zh/wiki/816");
         //link.add("https://tos.fandom.com/zh/wiki/2425"); // 29
         if (!fixing) {
             link.clear();
@@ -102,26 +101,16 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         mLf.getFile().open(false);
         clock.tic();
         // Start here
-        List<String> pages = getTests();
-        boolean test = !pages.isEmpty();
-        CardItem[] all;
-        if (pages.isEmpty()) {
-            clock.tic();
-            all = GsonUtil.loadFile(new File(source), CardItem[].class);
-            clock.tac("%s cards in %s", all.length, source);
-            for (CardItem c : all) {
-                pages.add(c.getLink());
-            }
-        }
+        List<String> pages = loadPages();
         mLf.log("%s cards in %s", pages.size(), source);
 
-        mLf.setLogToL(test);
+        mLf.setLogToL(!fixing);
         clock.tic();
         List<String> failed = new ArrayList<>();
         List<TosCard> allCards = new ArrayList<>();
         for (int i = 0; i < pages.size(); i++) {
             String link = pages.get(i);
-            L.log("For Link[%s]  %s", i, link);
+            L.log("For link[%s]  %s", i, link);
             mLf.log("%s", link);
             // Fetch metadata from link
             CardInfo cInfo = getCardInfo(link);
@@ -162,6 +151,20 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         L.log("time = %s     at %s", StringUtil.MMSSFFF(dur), new Date());
     }
 
+    private List<String> loadPages() {
+        List<String> pages = getTests();
+        CardItem[] all;
+        if (pages.isEmpty()) {
+            clock.tic();
+            all = GsonUtil.loadFile(new File(source), CardItem[].class);
+            clock.tac("%s cards in %s", all.length, source);
+            for (CardItem c : all) {
+                pages.add(c.getLink());
+            }
+        }
+        return pages;
+    }
+
     private CardInfo getCardInfo(String link) {
         CardInfo info = new CardInfo();
 
@@ -176,6 +179,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         info.bigImage = getImage(centers, 0);
         info.icon = getImage(centers, 1);
         // Fill in idNorm from mid of top 11 icons
+        // ? using icon? why not number
         Elements rowCard = doc.getElementsByTag("table").get(0).getElementsByTag("td");
         Element spot = rowCard.get(rowCard.size() / 2);
         String xxipng = TosGet.me.getImageTag(spot).attr("alt");
@@ -186,6 +190,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         CardTds cardTds = TosGet.me.getCardTds(main);
         if (cardTds == null) return info;
         // Get nodes of <td>
+        info.cardTds = cardTds;
         List<String> tds = cardTds.getTds();
 
         // -- Start to fetching card's information --
@@ -204,8 +209,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
 
         // Find the end of card
         int min = getPositiveMin(anchors, Anchors.AwakenRecall.id(), anchors.length);
-        L.log("Evos = %s", cardTds.getImages());
-        info.cardTds = cardTds;
+        L.log("Evo imgs = %s", cardTds.getImages());
 
         // Abbreviation
         List<String> data = info.data;
@@ -232,7 +236,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         info.sameSkills = a.getSameSkills();
 
         // -- Printing logs --
-        if (getTests().isEmpty()) {
+        if (!fixing) {
             L.log("id=%s, Title = %s", info.idNorm, doc.title());
         }
 
@@ -254,7 +258,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     }
 
     private void addAmeAwkInfo(CardInfo info, List<NameLink> nameLink, int[] anchors, List<String> tds, CardTds rawCard) {
-        //if (ListUtil.isEmpty(nameLink)) return;
         int ax;
 
         // Fetch if has 昇華關卡
