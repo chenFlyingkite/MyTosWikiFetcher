@@ -1,5 +1,6 @@
 package main;
 
+import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
@@ -30,23 +31,25 @@ import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
 
+import java.awt.AWTException;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 
 public class Main {
     public static void main(String[] args) {
-        // Common case : load all cards, all cards only
-        // , load other miscs, copy to TosWiki
-
         // Main work
         fetch();
         //copyToMyTosWiki();
-        //PngCreator.me.standard();
+        //enterUID();
 
         // testing area
+        //PngCreator.me.standard();
+
         //gold();
         //stock();
         //MyTosWikiFirebase.run();
@@ -60,6 +63,7 @@ public class Main {
         //ASD.run(); // testing on filter cards
         //print();
 
+
         //TosCardInfos.me.run(); // creating evolution info
         L.log("now = %s", now());
         //new LeetCode().run();
@@ -68,15 +72,40 @@ public class Main {
     }
 
     private static void a() {
+    }
 
+    private static void listPhdImages() {
+        TicTac2 t = new TicTac2();
+        t.tic();
+        String src = "D:\\PhotoDirector_iOS\\Main_01";
+        List<File> all = FileUtil.listFilesWhere(new File(src), (file) -> {
+            String[] imgs = {".png", ".jpg", ".gif", ".webp", ".webm"};
+            String name = file.getName().toLowerCase();
+            for (String x : imgs) {
+                if (name.endsWith(x)) {
+                    return true;
+                }
+            }
+            return false;
+        });
+        int size = all.size();
+        t.tac("get %d, images", size);
+        t.tic();
+        Collections.sort(all, (f1, f2) -> {
+            return f1.getAbsolutePath().compareTo(f2.getAbsolutePath());
+        });
+        t.tac("sort with file path");
+        L.log("%s images", size);
+        for (int i = 0; i < size; i++) {
+            File fi = all.get(i);
+            L.log("#%4d = %s", i, fi);
+        }
     }
 
     private static void fetch() {
         TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
         fetchMisc();
         fetchCards();
-        //TosWikiCardsLister.me.run();
-        //TosCardFetcher.me.run();
     }
 
     private static void ln(String fmt, Object... p) {
@@ -230,6 +259,9 @@ public class Main {
     //#define qwe(Format, ...) printf(""Format"\n"Spaces"L #%u %s\n", __VA_ARGS__, __LINE__, __func__)
 
     #define qq(Format)
+
+    // Apple Developer Program
+    // https://ephrain.net/ios-%E8%A8%BB%E5%86%8A%E6%88%90%E7%82%BA-apple-developer-%E4%BA%86%EF%BC%81/
     */
 
     /*
@@ -243,6 +275,29 @@ public class Main {
     UID 176874774 中文版
     UID 200172730 中文版
     */
+    private static void enterUID() {
+        try {
+            Robot2 r = new Robot2();
+            r.delay(5_000);
+            String[] ids = {
+                    "199215954",
+                    "150372202",
+                    "192291028",
+                    "8397957",
+                    "58402658",
+                    "195014910",
+                    "237475591",
+                    "176874774",
+                    "200172730",
+            };
+
+            for (String s : ids) {
+                r.enter(s);
+            }
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+    }
 
     private static String[] envDirs() {
         return new String[] {
