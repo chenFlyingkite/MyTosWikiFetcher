@@ -1106,7 +1106,7 @@ class TosGet {
         // http://zh.tos.wikia.com/wiki/001
         fun getCardTds(element: Element) : CardTds? {
             // debug
-            var logNodes = true
+            var logNodes = false
 
             // formal
             val td2 = element.getElementsByTag("td")

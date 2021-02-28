@@ -38,7 +38,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     private String source = TosWikiCardsLister.me.VALAID_LINKS;
 
     // Raise up if fixing card content
-    private final boolean fixing = 1 > 0;
+    private final boolean fixing = 0 > 0;
 
     private List<String> getTests() {
         List<String> link = new ArrayList<>();
@@ -104,7 +104,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         List<String> pages = loadPages();
         mLf.log("%s cards in %s", pages.size(), source);
 
-        mLf.setLogToL(!fixing);
+        mLf.setLogToL(fixing);
         clock.tic();
         List<String> failed = new ArrayList<>();
         List<TosCard> allCards = new ArrayList<>();
