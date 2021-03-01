@@ -8,6 +8,7 @@ import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
+import main.fetcher.TosCardExtras;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -41,17 +42,16 @@ import java.util.concurrent.ExecutorService;
 
 public class Main {
     public static void main(String[] args) {
-        // Main work
-        //fetch();
+        //-- Main work
+        fetch();
         //copyToMyTosWiki();
         //enterUID();
 
-        // testing area
+        //-- testing area
         //PngCreator.me.standard();
 
-        // fix card
-        //TosWikiCardsLister.me.run(); // OK
-        TosCardFetcher.me.run();
+        //-- fix card
+        //TosCardFetcher.me.run();
 
 
         //gold();
@@ -106,8 +106,8 @@ public class Main {
     }
 
     private static void fetch() {
-        //TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
-        //fetchMisc();
+        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
+        fetchMisc();
         fetchCards();
     }
 

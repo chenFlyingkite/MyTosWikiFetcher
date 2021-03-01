@@ -26,17 +26,19 @@ public class TosCardCreator {
     public static final TosCardCreator me = new TosCardCreator();
 
     public static class CardInfo {
-        public List<String> data = new ArrayList<>();
         public CardTds cardTds = null;
-        //public List<String> evolution = new ArrayList<>();
         public int[] anchors;
         public String icon = "";
         public String bigImage = "";
         public String wikiLink = "";
         public String idNorm = "";
+        public List<String> basic = new ArrayList<>();
         public List<String> hpValues = new ArrayList<>();
         public List<String> expInfos = new ArrayList<>();
         public String details = "";
+        public List<String> activeSkills = new ArrayList<>();
+        public List<String> leaderSkills = new ArrayList<>();
+        public List<String> amelioSkills = new ArrayList<>();
         public List<String> ameStages = new ArrayList<>();
         public List<String> awkStages = new ArrayList<>();
         public List<NameLink> powStages = new ArrayList<>();
@@ -89,67 +91,56 @@ public class TosCardCreator {
         TosCard c = null;
 
         if (info != null) {
-            int n = info.data.size();
-            switch (n) {
-                case 18: c = asTosCard_18(info); break;
-                case 27:
-                case 28: c = asTosCard_28(info); break;
-                case 16: c = asTosCard_16(info); break;
-                case 22: c = asTosCard_22(info); break;
-                //case 33:
-                case 32: c = asTosCard_32(info); break;
-                case 24: c = asTosCard_24(info); break;
-                case 31: c = asTosCard_31(info); break;
-                case 29: c = asTosCard_29(info); break;
-            }
-            if (c != null) {
-                updateAmes(c);
-            }
+//            int n = info.basic.size();
+//            switch (n) {
+//                case 18: c = asTosCard_18(info); break;
+//                case 27:
+//                case 28: c = asTosCard_28(info); break;
+//                case 16: c = asTosCard_16(info); break;
+//                case 22: c = asTosCard_22(info); break;
+//                //case 33:
+//                case 32: c = asTosCard_32(info); break;
+//                case 24: c = asTosCard_24(info); break;
+//                case 31: c = asTosCard_31(info); break;
+//                case 29: c = asTosCard_29(info); break;
+//            }
+            c = asTosCard_(info);
+            updateAmes(c);
         }
         return c;
     }
 
-    private int[] range(CardInfo info, Anchors anc) {
-        int at = anc.id();
-        int from = info.anchors[at] + 1; // 主動技
-        int to = info.cardTds.getTds().size();
-        if (at + 1 < info.anchors.length) {
-            int next = info.anchors[at + 1];
-            if (next > 0) {
-                to = next;
-            }
-        }
-        return new int[] {from, to};
+    private TosCard asTosCard_(CardInfo info) {
+        TosCard c = new TosCard();
+        fillCommon(c, info);
+        fillSkillActive(c, info);
+        fillSkillLeader(c, info.leaderSkills);
+        fillAmelioration(c, info.amelioSkills);
+        return c;
     }
 
-    private void print(List li) {
+    private <T> void print(List<T> li) {
         for (int i = 0; i < li.size(); i++) {
             L.log("#%d : %s", i, li.get(i));
         }
     }
 
     private TosCard asTosCard_18(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
         TosCard c = new TosCard();
 
         fillCommon(c, info);
 
         //-- Skill Active name #10
-        fillSkillActive(c, list.subList(11, 15));
+        fillSkillActive1(c, list.subList(11, 15));
         //-- Skill Leader name #15
         fillSkillLeader(c, list.subList(16, 18));
-
-        //int[] r;
-        //r = range(info, Anchors.ActiveSkills);
-        //fillSkillActive(c, list.subList(r[0], r[1]));
-        //r = range(info, Anchors.LeaderSkills);
-        //fillSkillLeader(c, list.subList(r[0], r[1]));
 
         return c;
     }
 
     private TosCard asTosCard_28(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
 
         TosCard c = new TosCard();
 
@@ -163,7 +154,7 @@ public class TosCardCreator {
 
         if (isA) {
             //-- Skill Active name #10
-            fillSkillActive(c, list.subList(11, 15));
+            fillSkillActive1(c, list.subList(11, 15));
             fillSkillActive2(c, list.subList(15, 19));
             //-- Skill Leader name #15
             fillSkillLeader(c, list.subList(20, 22));
@@ -171,7 +162,7 @@ public class TosCardCreator {
             fillAmelioration(c, list.subList(23, 27));
         } else {
             //-- Skill Active name #10
-            fillSkillActive(c, list.subList(11, 15));
+            fillSkillActive1(c, list.subList(11, 15));
             //-- Skill Leader name #15
             fillSkillLeader(c, list.subList(16, 18));
             //-- Amelioration name #18
@@ -182,7 +173,7 @@ public class TosCardCreator {
     }
 
     private TosCard asTosCard_16(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
 
         TosCard c = new TosCard();
 
@@ -199,13 +190,13 @@ public class TosCardCreator {
     }
 
     private TosCard asTosCard_22(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
 
         TosCard c = new TosCard();
 
         fillCommon(c, info);
         //-- Skill Active name #10
-        fillSkillActive(c, list.subList(11, 15));
+        fillSkillActive1(c, list.subList(11, 15));
         fillSkillActive2(c, list.subList(15, 19));
         //-- Skill Leader name #19
         fillSkillLeader(c, list.subList(20, 22));
@@ -214,12 +205,12 @@ public class TosCardCreator {
     }
 
     private TosCard asTosCard_32(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
 
         TosCard c = new TosCard();
         fillCommon(c, info);
         //-- Skill Active name #10
-        fillSkillActive(c, list.subList(11, 15));
+        fillSkillActive1(c, list.subList(11, 15));
         fillSkillActive2(c, list.subList(15, 19));
         //-- Skill Leader name #19
         fillSkillLeader(c, list.subList(20, 22));
@@ -230,12 +221,12 @@ public class TosCardCreator {
     }
 
     private TosCard asTosCard_24(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
 
         TosCard c = new TosCard();
         fillCommon(c, info);
         //-- Skill Active name #10
-        fillSkillActive(c, list.subList(11, 15));
+        fillSkillActive1(c, list.subList(11, 15));
         //-- Skill Leader name #15
         fillSkillLeader(c, list.subList(16, 18));
         fillAmelioration(c, list.subList(19, 23));
@@ -244,13 +235,13 @@ public class TosCardCreator {
     }
 
     private TosCard asTosCard_29(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
 
         TosCard c = new TosCard();
 
         fillCommon(c, info);
         //-- Skill Active name #10
-        fillSkillActive(c, list.subList(11, 15));
+        fillSkillActive1(c, list.subList(11, 15));
         fillSkillActive2(c, list.subList(15, 19));
         //-- Skill Leader name #19
         fillSkillLeader(c, list.subList(20, 22));
@@ -260,13 +251,13 @@ public class TosCardCreator {
     }
 
     private TosCard asTosCard_31(CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
 
         TosCard c = new TosCard();
 
         fillCommon(c, info);
         //-- Skill Active name #10
-        fillSkillActive(c, list.subList(11, 15));
+        fillSkillActive1(c, list.subList(11, 15));
         fillSkillActive2(c, list.subList(15, 19));
         //-- Skill Leader name #19
         fillSkillLeader(c, list.subList(20, 22));
@@ -277,24 +268,6 @@ public class TosCardCreator {
 
     public void inspectCard(TosCard c, Loggable log) {
         if (c == null) return;
-
-        //if (c.evolveFrom.length() > 0 && !c.idNorm.equals(c.evolveFrom)) {
-            //log.log("Evolve not self? %s", c.wikiLink);
-            // 禮物黑手黨 ‧ 馴鹿組
-            // http://zh.tos.wikia.com/wiki/1308
-            // 日月巨狼 ‧ 芬爾厄
-            // http://zh.tos.wikia.com/wiki/1522
-            // 超獸魔神
-            // http://zh.tos.wikia.com/wiki/620
-            // 格蕾琴與海森堡 ‧ 戰鯨吐息
-            // http://zh.tos.wikia.com/wiki/656 ~ 660
-            // 冰耀獸神兵
-            // http://zh.tos.wikia.com/wiki/666 ~ 670
-            // 仇龍英雄 ‧ 貝奧武夫
-            // http://zh.tos.wikia.com/wiki/721 ~ 725
-            // 憂懼之罪 ‧ 梅塔特隆
-            // http://zh.tos.wikia.com/wiki/961 ~ 965
-        //}
 
         if (c.skillAmeBattleName.length() > 0 && c.skillAmeCost1 == 0) {
             log.log("HaveAme but no cost? %s", c.wikiLink);
@@ -625,7 +598,7 @@ public class TosCardCreator {
     }
 
     private void fillCardIds(TosCard c, CardInfo info) {
-        List<String> list = info.data;
+        List<String> list = info.basic;
         c.name = list.get(0);
         c.attribute = list.get(1);
         c.id = list.get(2);
@@ -658,8 +631,29 @@ public class TosCardCreator {
         }
     }
 
-    private void fillSkillActive(TosCard c, List<String> list) {
-        //-- Skill Active name #10
+    private void fillSkillActive(TosCard c, CardInfo info) {
+        List<String> li = info.activeSkills;
+        int n = li.size();
+        if (n == 2) {
+            fillSkillActive0(c, li);
+        } else {
+            if (n >= 4) {
+                fillSkillActive1(c, li.subList(0, 4));
+            }
+            if (n >= 8) {
+                fillSkillActive2(c, li.subList(4, 8));
+            }
+        }
+    }
+
+    private void fillSkillActive0(TosCard c, List<String> list) {
+        c.skillName1 = list.get(0);
+        c.skillCDMin1 = 0;
+        c.skillCDMax1 = 0;
+        c.skillDesc1 = list.get(1);
+    }
+
+    private void fillSkillActive1(TosCard c, List<String> list) {
         c.skillName1 = list.get(0);
         c.skillCDMin1 = parseInt(list.get(1));
         c.skillCDMax1 = parseInt(list.get(2));
@@ -667,7 +661,6 @@ public class TosCardCreator {
     }
 
     private void fillSkillActive2(TosCard c, List<String> list) {
-        //-- Skill Active name #10
         c.skillName2 = list.get(0);
         c.skillCDMin2 = parseInt(list.get(1));
         c.skillCDMax2 = parseInt(list.get(2));
@@ -675,27 +668,28 @@ public class TosCardCreator {
     }
 
     private void fillSkillLeader(TosCard c, List<String> list) {
-        //-- Skill Leader name #15
         c.skillLeaderName = list.get(0);
         c.skillLeaderDesc = list.get(1);
     }
 
     private void fillAmelioration(TosCard c, List<String> list) {
-        //-- Skill Leader name #15
-        c.skillAmeName1 = list.get(0);
-        c.skillAmeCost1 = parseInt(list.get(1));
-
-        if (list.size() <= 2) return;
-        c.skillAmeName2 = list.get(2);
-        c.skillAmeCost2 = parseInt(list.get(3));
-
-        if (list.size() <= 4) return;
-        c.skillAmeName3 = list.get(4);
-        c.skillAmeCost3 = parseInt(list.get(5));
-
-        if (list.size() <= 6) return;
-        c.skillAmeName4 = list.get(6);
-        c.skillAmeCost4 = parseInt(list.get(7));
+        int n = list.size();
+        if (n >= 2) {
+            c.skillAmeName1 = list.get(0);
+            c.skillAmeCost1 = parseInt(list.get(1));
+        }
+        if (n >= 4) {
+            c.skillAmeName2 = list.get(2);
+            c.skillAmeCost2 = parseInt(list.get(3));
+        }
+        if (n >= 6) {
+            c.skillAmeName3 = list.get(4);
+            c.skillAmeCost3 = parseInt(list.get(5));
+        }
+        if (n >= 8) {
+            c.skillAmeName4 = list.get(6);
+            c.skillAmeCost4 = parseInt(list.get(7));
+        }
     }
 
     private void updateAmes(TosCard c) {
@@ -723,7 +717,6 @@ public class TosCardCreator {
         int add = getAmeChange(c, "召喚獸回復力 + ");
         c.maxRecoveryAme += add;
     }
-
 
     private void updateCDMinAme(TosCard c) {
         c.skillCDMaxAme = c.skillCDMax1;

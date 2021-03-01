@@ -24,9 +24,11 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
 
     @Override
     public void run() {
+        // taking card group
         mLf.getFile().open(false);
         List<String> groups = getCardGroups();
         mLf.log("%s cards groups", groups.size());
+
         int n = 0;
         List<CardItem> allItems = new ArrayList<>();
         for (String s : groups) {

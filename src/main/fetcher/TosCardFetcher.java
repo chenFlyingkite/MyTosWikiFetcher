@@ -37,9 +37,13 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     private LF mCardJson = new LF(folder, "cardList.json");
     private String source = TosWikiCardsLister.me.VALAID_LINKS;
 
-    // Raise up if fixing card content
-    private final boolean fixing = 0 > 0;
+    // Records card types by metadata length
+    private Set<String> cardKinds = new HashSet<>();
+    // Records card series
+    private Set<String> cardSeries = new TreeSet<>();
 
+    // Nonempty = fixing card content
+    private boolean fixing = 0 > 0;
     private List<String> getTests() {
         List<String> link = new ArrayList<>();
         Collections.addAll(link
@@ -62,17 +66,28 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         );
         link.clear();
         //---
+        // Card all possible cases
         Collections.addAll(link
                 , "https://tos.fandom.com/zh/wiki/001" // TosCardCreator = 18
-                //, "https://tos.fandom.com/zh/wiki/024" // TosCardCreator = 28
-                //, "https://tos.fandom.com/zh/wiki/1001" // TosCardCreator = 16
-                //, "https://tos.fandom.com/zh/wiki/1017" // TosCardCreator = 22
-                //, "https://tos.fandom.com/zh/wiki/1063" // TosCardCreator = 32
-                //, "https://tos.fandom.com/zh/wiki/651" // TosCardCreator = 24
-                //, "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
-                //, "https://tos.fandom.com/zh/wiki/2425" // 29
+                , "https://tos.fandom.com/zh/wiki/024" // TosCardCreator = 28, // A = (超人貝利亞)  2162 : 10 = 主動技, 19 = 隊長技 22 = 昇華
+                , "https://tos.fandom.com/zh/wiki/2162" // TosCardCreator = 28, // B = (青龍孟章神君)  24 : 10 = 主動技, 15 = 隊長技 18 = 昇華
+                , "https://tos.fandom.com/zh/wiki/1017" // TosCardCreator = 22
+                , "https://tos.fandom.com/zh/wiki/651" // TosCardCreator = 24
+                , "https://tos.fandom.com/zh/wiki/656" // TosCardCreator = 31
+                , "https://tos.fandom.com/zh/wiki/1001" // TosCardCreator = 16
+                , "https://tos.fandom.com/zh/wiki/1063" // TosCardCreator = 32
+                , "https://tos.fandom.com/zh/wiki/2425" // 29
+
         );
-        //link.clear(); // uncomment this if use test links
+        link.clear(); // uncomment this if use test links
+        //--
+        // test cases
+        //link.add("https://tos.fandom.com/zh/wiki/1128");
+        link.add("https://tos.fandom.com/zh/wiki/656");
+        link.add("https://tos.fandom.com/zh/wiki/722"); // 合體
+        link.add("https://tos.fandom.com/zh/wiki/2344");
+        link.add("https://tos.fandom.com/zh/wiki/2345");
+        link.add("https://tos.fandom.com/zh/wiki/2414");
 //        for (int i = 1; i < 100; i++) {
 //            link.add("https://tos.fandom.com/zh/wiki/" + i);
 //        }
@@ -83,18 +98,21 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/6174");
         //link.add("https://tos.fandom.com/zh/wiki/595");
         //link.add("https://tos.fandom.com/zh/wiki/230");
-        //link.add("https://tos.fandom.com/zh/wiki/816");
         //link.add("https://tos.fandom.com/zh/wiki/2425"); // 29
+
         if (!fixing) {
             link.clear();
         }
         return link;
     }
 
-    // Records card types by metadata length
-    private Set<Integer> cardDataN = new HashSet<>();
-    // Records card series
-    private Set<String> cardSeries = new TreeSet<>();
+    private boolean isNoFix() {
+        return getTests().isEmpty();
+    }
+
+    private boolean isFixing() {
+        return !isNoFix();
+    }
 
     @Override
     public void run() {
@@ -104,13 +122,13 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         List<String> pages = loadPages();
         mLf.log("%s cards in %s", pages.size(), source);
 
-        mLf.setLogToL(fixing);
+        mLf.setLogToL(isFixing());
         clock.tic();
         List<String> failed = new ArrayList<>();
         List<TosCard> allCards = new ArrayList<>();
         for (int i = 0; i < pages.size(); i++) {
             String link = pages.get(i);
-            L.log("For link[%s]  %s", i, link);
+            L.log("For link[%s] %s", i, link);
             mLf.log("%s", link);
             // Fetch metadata from link
             CardInfo cInfo = getCardInfo(link);
@@ -124,17 +142,17 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             } else {
                 allCards.add(card);
                 cardSeries.add(card.series);
-                if (fixing) {
+                if (isFixing()) {
                     L.log("#%s -> \n%s\n", i, mGson.toJson(card));
                 }
             }
         }
         clock.tac("Card parsed");
 
-        mLf.log("%s metadata = %s", cardDataN.size(), cardDataN);
+        mLf.log("%s metadata = %s", cardKinds.size(), cardKinds);
         mLf.log("%s series\n = %s", cardSeries.size(), cardSeries);
         mLf.getFile().close();
-        if (!fixing) {
+        if (isNoFix()) {
             saveCardsToGson(mCardJson, allCards);
         }
 
@@ -201,33 +219,22 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         info.anchors = Arrays.copyOf(anchors, anchor.length);
 
         // Adding basic hp/exp info for card
+        addBaseInfo(info, anchors, tds);
         addHpInfo(info, anchors, tds);
         addExpInfo(info, anchors, tds);
+        addSkillInfo(info, anchors, tds);
         // Adding amelioration/awaken info for card
-        List<NameLink> ameInfo = TosGet.me.getCardImagedLink(doc);
-        addAmeAwkInfo(info, ameInfo, anchors, tds, cardTds);
-
-        // Find the end of card
-        int min = getPositiveMin(anchors, Anchors.AwakenRecall.id(), anchors.length);
-        L.log("Evo imgs = %s", cardTds.getImages());
-
-        // Abbreviation
-        List<String> data = info.data;
-
-        // Add name, color, stars, hp, attack, heal
-        data.addAll(tds.subList(0, anchors[0]));
-
-        // Add skill of active & leader
-        for (int i = anchors[1]; i < min; i++) {
-            data.add(tds.get(i));
-        }
+        addAmeAwkInfo(info, anchors, cardTds);
 
         // This just peek the cardInfo size, used for TosCardCreator
-        int num = data.size();
-        if (!cardDataN.contains(num)) {
-            L.log("%s data for card = %s", num, link);
+        String act = "Act_" + info.activeSkills.size() + "_";
+        String ldr = "Ldr_" + info.leaderSkills.size() + "_";
+        String ame = "Ame_" + info.ameStages.size() + "_";
+        String kind = act + ldr + ame;
+        if (!cardKinds.contains(kind)) {
+            L.log("%s kind for card = %s", kind, link);
         }
-        cardDataN.add(num);
+        cardKinds.add(kind);
 
         // -- Finishing fetching card's information --
         // Get card details
@@ -236,11 +243,14 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         info.sameSkills = a.getSameSkills();
 
         // -- Printing logs --
-        if (!fixing) {
-            L.log("id=%s, Title = %s", info.idNorm, doc.title());
+        if (isNoFix()) {
+            L.log("ok: id = %s, Title = %s", info.idNorm, doc.title());
         }
-
         return info;
+    }
+
+    private void addBaseInfo(CardInfo c, int[] anchors, List<String> tds) {
+        c.basic.addAll(tds.subList(0, anchors[0]));
     }
 
     private void addHpInfo(CardInfo c, int[] anchors, List<String> tds) {
@@ -257,32 +267,47 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         c.expInfos.add(tds.get(sacExp + 6)); // Sacrifice Exp per Lv
     }
 
-    private void addAmeAwkInfo(CardInfo info, List<NameLink> nameLink, int[] anchors, List<String> tds, CardTds rawCard) {
+    private void addSkillInfo(CardInfo c, int[] anchors, List<String> tds) {
+        c.activeSkills.addAll(tds.subList(anchors[1] + 1, anchors[2]));
+        int min = getPositiveMin(anchors, Anchors.LeaderSkills.next().id(), anchors.length);
+        c.leaderSkills.addAll(tds.subList(anchors[2] + 1, min));
+    }
+
+    private void addAmeAwkInfo(CardInfo info, int[] anchors, CardTds rawCard) {
         int ax;
 
         // Fetch if has 昇華關卡
         ax = Anchors.Amelioration.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            for (NameLink nk : rawCard.getAmelio()) {
+            List<NameLink> links = rawCard.getAmelio();
+            // Fill in each bonus
+            int from = anchors[ax] + 1;
+            int end = at;
+            info.amelioSkills.addAll(info.cardTds.getTds().subList(from, end));
+            // Add stage
+            for (NameLink nk : links) {
                 info.ameStages.add(nk.getName());
                 info.ameStages.add(nk.getLink());
             }
 
-            getSkillChange(info, rawCard.getRawTds(), anchors[ax] + 1, at - 1);
+            getSkillChange(info, rawCard.getRawTds(), from, end);
         }
 
         // Fetch if has 突破關卡
         ax = Anchors.AwakenRecall.id();
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
-            for (Awaken a : rawCard.getAwaken()) {
+            List<Awaken> links = rawCard.getAwaken();
+            int from = anchors[ax] + 1;
+            int end = at - 1;
+            for (Awaken a : links) {
                 info.awkStages.add(a.getSkill());
                 info.awkStages.add(a.getName());
                 info.awkStages.add(a.getLink());
             }
 
-            getSkillChange(info, rawCard.getRawTds(), anchors[ax] + 1, at - 1);
+            getSkillChange(info, rawCard.getRawTds(), from, end);
         }
 
         // Fetch if has 潛能解放
@@ -294,7 +319,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // Fetch if has 異空轉生
         ax = Anchors.VirtualRebirth.id();
         if (anchors[ax] >= 0) {
-            for (NameLink nk : rawCard.getVirReb()) {
+            List<NameLink> links = rawCard.getVirReb();
+            for (NameLink nk : links) {
                 info.virStages.add(nk.getName());
                 info.virStages.add(nk.getLink());
             }

@@ -34,4 +34,13 @@ public enum Anchors {
         }
         return ns;
     }
+
+    public Anchors next() {
+        Anchors[] cs = values();
+        if (this == cs[cs.length - 1]) {
+            return cs[0];
+        } else {
+            return cs[this.id() + 1];
+        }
+    }
 }
