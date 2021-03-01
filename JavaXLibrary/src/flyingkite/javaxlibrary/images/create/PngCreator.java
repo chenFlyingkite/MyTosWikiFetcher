@@ -81,14 +81,29 @@ public class PngCreator {
         }
     }
 
+    public void peekTime() {
+        int n = 100;
+        // 509ms in Mac mini(2018), 3GHz 6Core Intel i5, 8GB 2667Mhz DDR4
+        TicTac2 t = new TicTac2();
+        t.tic();
+        for (int i = 0; i < n; i++) {
+            PngCreator.me.standard("../images/a.bmp");
+        }
+        long all = t.tac("done");
+        L.log("repeat %d times, all = %d ms, avg = %d ms", n, all, all / n);
+    }
+
     // 4096 x 4096 = 16*16 * (256x256)
-    public void standard() {
-        String dst = "D:\\images\\a.bmp";
+    public void standard(String dst) {
+        if (dst == null) {
+            dst = "D:\\images\\a.bmp";
+        }
         final int w = 256 * 16;
         final int h = w;
 
         File f = new File(dst);
         TicTac2 clk = new TicTac2();
+        clk.tic();
         clk.tic();
         BufferedImage dstImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_RGB);
 
@@ -114,6 +129,7 @@ public class PngCreator {
                 dstImg.setRGB(i, j, rgb);
             }
         }
+        clk.tac("dstImage OK");
 
         File file = f;
         FileUtil.ensureDelete(file);
@@ -126,6 +142,7 @@ public class PngCreator {
             e.printStackTrace();
         }
         clk.tac("ImageIO write >> " + file.getAbsolutePath());
+        clk.tac("Done");
     }
 
     private static int rgb(int r, int g, int b) {

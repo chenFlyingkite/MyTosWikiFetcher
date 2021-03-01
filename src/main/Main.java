@@ -2,6 +2,7 @@ package main;
 
 import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
+import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
@@ -43,12 +44,12 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch();
+        //fetch();
         //copyToMyTosWiki();
         //enterUID();
 
         //-- testing area
-        //PngCreator.me.standard();
+        //PngCreator.me.standard(null);
 
         //-- fix card
         //TosCardFetcher.me.run();
