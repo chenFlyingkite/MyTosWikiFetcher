@@ -434,7 +434,7 @@ enum class CardPart(_key: String) {
     VirtualRebirth(Anchors.VirtualRebirth.key),//("異空轉生"),
     VirRebirTrans (Anchors.VirRebirTrans.key),//("異力轉換"),
     Dragonware    (Anchors.Dragonware.key),//("武裝龍刻"),
-    //SupremeReckon ("究極融煉"), //?
+    SupremeReckon (Anchors.SupremeReckon.key),//("究極融煉"),
     Origin        (Anchors.Origin.key),//("來源"),
     Empty("Empty"),
     ;

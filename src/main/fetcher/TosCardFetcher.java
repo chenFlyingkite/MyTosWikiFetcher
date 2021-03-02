@@ -38,9 +38,11 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     private String source = TosWikiCardsLister.me.VALAID_LINKS;
 
     // Records card types by metadata length
-    private Set<String> cardKinds = new HashSet<>();
+    private Set<String> cardKinds = new TreeSet<>();
     // Records card series
     private Set<String> cardSeries = new TreeSet<>();
+    // Records card signatures of each count
+    private Set<String> cardSigna = new TreeSet<>();
 
     // Nonempty = fixing card content
     private boolean fixing = 0 > 0;
@@ -83,7 +85,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //--
         // test cases
         link.add("https://tos.fandom.com/zh/wiki/816");
-        //link.add("https://tos.fandom.com/zh/wiki/656");
+        link.add("https://tos.fandom.com/zh/wiki/651");
+        link.add("https://tos.fandom.com/zh/wiki/656");
         //link.add("https://tos.fandom.com/zh/wiki/722"); // 合體
         //link.add("https://tos.fandom.com/zh/wiki/2344");
         //link.add("https://tos.fandom.com/zh/wiki/2345");
@@ -153,6 +156,13 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
 
         mLf.log("%s metadata = %s", cardKinds.size(), cardKinds);
         mLf.log("%s series\n = %s", cardSeries.size(), cardSeries);
+        mLf.log("%s signatures", cardSigna.size());
+        int k = 0;
+        for (String s : cardSigna) {
+            mLf.log("#%2d : %s", k, s);
+            k++;
+        }
+
         mLf.getFile().close();
         if (isNoFix()) {
             saveCardsToGson(mCardJson, allCards);
@@ -228,6 +238,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // Adding amelioration/awaken info for card
         addAmeAwkInfo(info, anchors, cardTds);
 
+        String signa = info.signature();
+        cardSigna.add(signa);
+
         // This just peek the cardInfo size, used for TosCardCreator
         String act = "Act_" + info.activeSkills.size() + "_";
         String ldr = "Ldr_" + info.leaderSkills.size() + "_";
@@ -246,7 +259,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
 
         // -- Printing logs --
         if (isNoFix()) {
-            L.log("ok: id = %s, Title = %s", info.idNorm, doc.title());
+            L.log("get id = %s, sig = %s, Title = %s", info.idNorm, signa, doc.title());
         }
         return info;
     }
@@ -283,9 +296,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         if (anchors[ax] >= 0) {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
             List<NameLink> links = rawCard.getAmelio();
-            // Fill in each bonus
+            // Fill in each bonus, at most 4 amelioration = 4 * ( name + cost)
             int from = anchors[ax] + 1;
-            int end = at - 1; // cut one for the stage
+            int end = Math.min(at, from + 8);
             info.amelioSkills.addAll(info.cardTds.getTds().subList(from, end));
             // Add stage
             for (NameLink nk : links) {
@@ -355,12 +368,18 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // Check amelioration skills for skill change
         Elements delta;
         for (int i = from; i < to; i += 2) {
-            delta = raw.get(i).getElementsByTag("a");
-            for (Element dl : delta) {
-                SkillInfo si = new SkillInfo();
-                si.setSkillLink(wikiBaseZh + dl.attr("href"));
-                si.setSkillName(dl.attr("title"));
-                info.skillChange.add(si);
+            Element ei = raw.get(i);
+            boolean inStage = ei.parent().text().contains("關卡");
+            if (inStage) {
+                // Omit like 關卡 816i.png 星辰所拯救 ‧ 波比
+            } else {
+                delta = ei.getElementsByTag("a");
+                for (Element dl : delta) {
+                    SkillInfo si = new SkillInfo();
+                    si.setSkillLink(wikiBaseZh + dl.attr("href"));
+                    si.setSkillName(dl.attr("title"));
+                    info.skillChange.add(si);
+                }
             }
         }
     }

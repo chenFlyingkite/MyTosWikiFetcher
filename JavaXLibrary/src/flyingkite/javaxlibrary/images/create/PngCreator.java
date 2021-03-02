@@ -82,12 +82,12 @@ public class PngCreator {
     }
 
     public void peekTime() {
-        int n = 100;
-        // 509ms in Mac mini(2018), 3GHz 6Core Intel i5, 8GB 2667Mhz DDR4
+        int n = 1000;
+        // 500ms in Mac mini(2018), 3GHz 6Core Intel i5, 8GB 2667Mhz DDR4
         TicTac2 t = new TicTac2();
         t.tic();
         for (int i = 0; i < n; i++) {
-            PngCreator.me.standard("../images/a.bmp");
+            PngCreator.me.standard("../images/a" + i + ".bmp");
         }
         long all = t.tac("done");
         L.log("repeat %d times, all = %d ms, avg = %d ms", n, all, all / n);

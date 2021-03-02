@@ -2,6 +2,7 @@ package main;
 
 import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
+import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
@@ -69,7 +70,8 @@ public class Main {
         L.log("now = %s", now());
         //new LeetCode().run();
         //PngCreator.me.moveImage();
-        //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01");
+        //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01"); // windows
+        //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/S_01"); // mac mini
         a();
     }
 

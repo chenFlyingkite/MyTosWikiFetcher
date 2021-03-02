@@ -44,6 +44,35 @@ public class TosCardCreator {
         public List<String> virStages = new ArrayList<>();
         public List<SkillInfo> skillChange = new ArrayList<>();
         public List<String> sameSkills = new ArrayList<>();
+
+        public String signature() {
+            String e = "";
+            if (icon.length() == 0) {
+                e += " icon";
+            }
+            if (bigImage.length() == 0) {
+                e += " bigImage";
+            }
+            if (wikiLink.length() == 0) {
+                e += " wikiLink";
+            }
+            if (idNorm.length() == 0) {
+                e += " idNorm";
+            }
+            e += " bas=" + basic.size();
+            e += " hps=" + hpValues.size();
+            e += " exp=" + expInfos.size();
+            e += " act=" + activeSkills.size();
+            e += " ldr=" + leaderSkills.size();
+            e += " amS=" + amelioSkills.size();
+            e += " amT=" + ameStages.size();
+            e += " awk=" + awkStages.size();
+            e += " pow=" + powStages.size();
+            e += " vir=" + virStages.size();
+            e += " skc=" + skillChange.size();
+            e += " sam=" + sameSkills.size();
+            return e;
+        }
     }
 
     private class EvoMeta {
