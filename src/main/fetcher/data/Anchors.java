@@ -5,7 +5,7 @@ public enum Anchors {
     ActiveSkills  ("主動技"),
     LeaderSkills  ("隊長技"),
     Amelioration  ("昇華"),
-    AwakenRecall  ("極限昇華"), // 極限昇華   極限突破
+    AwakenRecall  ("極限昇華"),
     Evolution     ("進化列表"),
     PowerRelease  ("潛能解放"),
     Combination   ("合體列表"),
@@ -16,9 +16,9 @@ public enum Anchors {
     Origin        ("來源"),
     ;
 
-    final String name;
+    public final String key;
     Anchors(String s) {
-        name = s;
+        key = s;
     }
 
     public int id() {
@@ -30,7 +30,7 @@ public enum Anchors {
         String[] ns = new String[cs.length];
 
         for (int i = 0; i < cs.length; i++) {
-            ns[i] = cs[i].name;
+            ns[i] = cs[i].key;
         }
         return ns;
     }

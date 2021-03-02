@@ -1106,7 +1106,7 @@ class TosGet {
         // http://zh.tos.wikia.com/wiki/001
         fun getCardTds(element: Element) : CardTds? {
             // debug
-            var logNodes = false
+            var log = false
 
             // formal
             val td2 = element.getElementsByTag("td")
@@ -1128,19 +1128,30 @@ class TosGet {
             val td2n = td2?.size ?: 0
             var part = CardPart.Main
 
+            if (log) {
+                L.log("part = %s", part)
+            }
             for (i in 0 until td2n) {
                 val e = td2[i]
                 val etxt = e.text()
-                part = part.next(etxt)
                 // Break points ----------------
-                if (part == CardPart.VirtualRebirth) {
+                if (part == CardPart.AwakenRecall) {
                     part
                 }
-                if (i in intArrayOf(60, 82, 84, 85)) {
+                // basic, active, leader, ... text anchors in tds
+                if (i in intArrayOf(11, 54, 55, 60, 63, 81, 86, 88)) {
                     i
+                    // 11 = basic, 54 = active, 60 = leader, 63, 81, 86, 88, 89
                 }
                 // Break points ----------------
-                if (logNodes) {
+
+                if (log) {
+                    if (part != part.next(etxt)) {
+                        L.log("part = %s -> next = %s", part, part.next(etxt))
+                    }
+                }
+                part = part.next(etxt)
+                if (log) {
                     L.log("#%3d : %s \n   %s", i, etxt, e)
                 }
 

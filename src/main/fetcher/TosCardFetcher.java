@@ -82,12 +82,12 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         link.clear(); // uncomment this if use test links
         //--
         // test cases
-        //link.add("https://tos.fandom.com/zh/wiki/1128");
-        link.add("https://tos.fandom.com/zh/wiki/656");
-        link.add("https://tos.fandom.com/zh/wiki/722"); // 合體
-        link.add("https://tos.fandom.com/zh/wiki/2344");
-        link.add("https://tos.fandom.com/zh/wiki/2345");
-        link.add("https://tos.fandom.com/zh/wiki/2414");
+        link.add("https://tos.fandom.com/zh/wiki/816");
+        //link.add("https://tos.fandom.com/zh/wiki/656");
+        //link.add("https://tos.fandom.com/zh/wiki/722"); // 合體
+        //link.add("https://tos.fandom.com/zh/wiki/2344");
+        //link.add("https://tos.fandom.com/zh/wiki/2345");
+        //link.add("https://tos.fandom.com/zh/wiki/2414");
 //        for (int i = 1; i < 100; i++) {
 //            link.add("https://tos.fandom.com/zh/wiki/" + i);
 //        }
@@ -117,12 +117,14 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     @Override
     public void run() {
         mLf.getFile().open(false);
+        mLf.setLogToL(isFixing());
+        mLf.setLogToFile(!isFixing());
+
         clock.tic();
         // Start here
         List<String> pages = loadPages();
         mLf.log("%s cards in %s", pages.size(), source);
 
-        mLf.setLogToL(isFixing());
         clock.tic();
         List<String> failed = new ArrayList<>();
         List<TosCard> allCards = new ArrayList<>();
@@ -283,7 +285,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             List<NameLink> links = rawCard.getAmelio();
             // Fill in each bonus
             int from = anchors[ax] + 1;
-            int end = at;
+            int end = at - 1; // cut one for the stage
             info.amelioSkills.addAll(info.cardTds.getTds().subList(from, end));
             // Add stage
             for (NameLink nk : links) {
@@ -300,7 +302,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             int at = getPositiveMin(anchors, ax + 1, anchors.length);
             List<Awaken> links = rawCard.getAwaken();
             int from = anchors[ax] + 1;
-            int end = at - 1;
+            int end = at;
             for (Awaken a : links) {
                 info.awkStages.add(a.getSkill());
                 info.awkStages.add(a.getName());

@@ -7,7 +7,6 @@ import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
 
 import java.awt.Point;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -18,9 +17,13 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 import javax.imageio.ImageIO;
+import javax.imageio.ImageReader;
+import javax.imageio.stream.FileImageInputStream;
+import javax.imageio.stream.ImageInputStream;
 
 public class FileUtil {
 
@@ -291,18 +294,34 @@ public class FileUtil {
         return all;
     }
 
-    public static Point getSize(File file) {
-        Point p = new Point();
-        BufferedImage m = null;
-        try {
-            m = ImageIO.read(file);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public static String getExtension(File f) {
+        if (f == null) return "";
+        String s = f.getName();
+        int d = s.lastIndexOf('.');
+        return s.substring(d + 1);
+    }
 
-        if (m != null) {
-            p.x = m.getWidth();
-            p.y = m.getHeight();
+    // Using ImageIO.read(file) isOK, but slower slightly
+    public static Point getSize(File file) {
+        String ext = getExtension(file);
+        Iterator<ImageReader> readers = ImageIO.getImageReadersBySuffix(ext);
+
+        Point p = new Point();
+
+        while (readers.hasNext()) {
+            ImageReader r = readers.next();
+            try {
+                ImageInputStream iis = new FileImageInputStream(file);
+                r.setInput(iis);
+                int at = r.getMinIndex();
+                p.x = r.getWidth(at);
+                p.y = r.getHeight(at);
+                return p;
+            } catch (IOException e) {
+                e.printStackTrace();
+            } finally {
+                r.dispose();
+            }
         }
         return p;
     }

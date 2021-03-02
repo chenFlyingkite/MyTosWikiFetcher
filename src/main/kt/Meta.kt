@@ -3,6 +3,7 @@ package main.kt
 import com.google.gson.annotations.SerializedName
 import flyingkite.tool.TextUtil
 import main.card.SkillLite
+import main.fetcher.data.Anchors
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
@@ -422,18 +423,19 @@ class CardDetail {
 // Listing similar Anchors.java
 enum class CardPart(_key: String) {
     Main("Icon"),
-    Basic("基本屬性"),
-    SkillActive("主動技"),
-    SkillLeader("隊長技"),
-    Amelioration("昇華"),
-    AwakenRecall("極限突破"),
-    Evolution("進化列表"),
-    PowerRelease("潛能解放"),
-    Combination("合體列表"),
-    VirtualRebirth("異空轉生"),
-    VirRebirTrans("異力轉換"),
-    Dragonware("武裝龍刻"),
-    Source("來源"),
+    Basic         (Anchors.BasicProperty.key),//("基本屬性"),
+    SkillActive   (Anchors.ActiveSkills.key),//("主動技"),
+    SkillLeader   (Anchors.LeaderSkills.key),//("隊長技"),
+    Amelioration  (Anchors.Amelioration.key),//("昇華"),
+    AwakenRecall  (Anchors.AwakenRecall.key),//("極限昇華"),
+    Evolution     (Anchors.Evolution.key),//("進化列表"),
+    PowerRelease  (Anchors.PowerRelease.key),//("潛能解放"),
+    Combination   (Anchors.Combination.key),//("合體列表"),
+    VirtualRebirth(Anchors.VirtualRebirth.key),//("異空轉生"),
+    VirRebirTrans (Anchors.VirRebirTrans.key),//("異力轉換"),
+    Dragonware    (Anchors.Dragonware.key),//("武裝龍刻"),
+    //SupremeReckon ("究極融煉"), //?
+    Origin        (Anchors.Origin.key),//("來源"),
     Empty("Empty"),
     ;
 
