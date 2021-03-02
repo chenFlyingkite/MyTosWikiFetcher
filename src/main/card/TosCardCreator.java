@@ -7,7 +7,6 @@ import main.fetcher.TosCardExtras;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosSkillFetcher;
 import main.fetcher.TosSkillFetcher.AllSkill;
-import main.fetcher.data.Anchors;
 import main.kt.CardTds;
 import main.kt.Craft;
 import main.kt.FullStatsMax;

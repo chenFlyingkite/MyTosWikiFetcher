@@ -2,7 +2,6 @@ package main;
 
 import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
-import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.log.L;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
@@ -33,10 +32,8 @@ import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
 
 import java.awt.AWTException;
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -72,39 +69,13 @@ public class Main {
         L.log("now = %s", now());
         //new LeetCode().run();
         //PngCreator.me.moveImage();
+        //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01");
         a();
     }
 
     private static void a() {
     }
 
-    private static void listPhdImages() {
-        TicTac2 t = new TicTac2();
-        t.tic();
-        String src = "D:\\PhotoDirector_iOS\\Main_01";
-        List<File> all = FileUtil.listFilesWhere(new File(src), (file) -> {
-            String[] imgs = {".png", ".jpg", ".gif", ".webp", ".webm"};
-            String name = file.getName().toLowerCase();
-            for (String x : imgs) {
-                if (name.endsWith(x)) {
-                    return true;
-                }
-            }
-            return false;
-        });
-        int size = all.size();
-        t.tac("get %d, images", size);
-        t.tic();
-        Collections.sort(all, (f1, f2) -> {
-            return f1.getAbsolutePath().compareTo(f2.getAbsolutePath());
-        });
-        t.tac("sort with file path");
-        L.log("%s images", size);
-        for (int i = 0; i < size; i++) {
-            File fi = all.get(i);
-            L.log("#%4d = %s", i, fi);
-        }
-    }
 
     private static void fetch() {
         TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min

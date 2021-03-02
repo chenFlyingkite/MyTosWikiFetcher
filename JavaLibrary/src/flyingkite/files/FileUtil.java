@@ -1,9 +1,13 @@
 package flyingkite.files;
 
 import flyingkite.functional.Projector;
+import flyingkite.log.L;
 import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
+import flyingkite.tool.TicTac2;
 
+import java.awt.Point;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,6 +20,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
+import javax.imageio.ImageIO;
 
 public class FileUtil {
 
@@ -214,6 +219,10 @@ public class FileUtil {
     }
 
     public static List<File> listAllFiles(File src) {
+        return listAllFiles(src, null);
+    }
+
+    public static List<File> listAllFiles(File src, Projector<File, Boolean> filter) {
         File[] fs = src == null ? null : src.listFiles();
         List<File> pool = new ArrayList<>();
         List<File> scan = new ArrayList<>();
@@ -226,15 +235,24 @@ public class FileUtil {
             if (gs != null) {
                 Collections.addAll(pool, gs);
             }
-            scan.add(g);
+            addWhen(filter, scan, g);
         }
         return scan;
     }
 
-    public static List<File> listFilesWhere(File src, Projector<File, Boolean> proj) {
-        List<File> all = listAllFiles(src);
-        List<File> ans = findFile(all, proj);
-        return ans;
+    private static <T> void addWhen(Projector<T, Boolean> accept, List<T> from, T... to) {
+        if (to == null) return;
+
+        if (accept == null) {
+            Collections.addAll(from, to);
+        } else {
+            for (T t : to) {
+                boolean yes = accept.get(t);
+                if (yes) {
+                    from.add(t);
+                }
+            }
+        }
     }
 
     public static boolean createFile(File f) {
@@ -248,5 +266,63 @@ public class FileUtil {
             e.printStackTrace();
         }
         return b;
+    }
+
+    public static void sortByPath(List<File> all) {
+        //TicTac2 t = new TicTac2();
+        //t.tic();
+        Collections.sort(all, (f1, f2) -> {
+            return f1.getAbsolutePath().compareTo(f2.getAbsolutePath());
+        });
+        //t.tac("sort %d items", all.size());
+    }
+
+    public static List<File> listImages(String src) {
+        String[] imgs = {".png", ".jpg", ".gif", ".webp", ".webm"};
+        List<File> all = listItems(src, imgs);
+        int n = all.size();
+        L.log("%s images", n);
+        for (int i = 0; i < n; i++) {
+            File fi = all.get(i);
+            Point p = getSize(fi);
+            L.log("#%4d = %dx%d", i, p.x, p.y);
+            L.log("   %s", fi);
+        }
+        return all;
+    }
+
+    public static Point getSize(File file) {
+        Point p = new Point();
+        BufferedImage m = null;
+        try {
+            m = ImageIO.read(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        if (m != null) {
+            p.x = m.getWidth();
+            p.y = m.getHeight();
+        }
+        return p;
+    }
+
+    public static List<File> listItems(String src, String[] exts) {
+        TicTac2 t = new TicTac2();
+        t.tic();
+        List<File> all = FileUtil.listAllFiles(new File(src), (file) -> {
+            String name = file.getName().toLowerCase();
+            for (String x : exts) {
+                if (name.endsWith(x)) {
+                    return true;
+                }
+            }
+            return false;
+        });
+        int size = all.size();
+        t.tac("found %d items in %s", size, src);
+
+        sortByPath(all);
+        return all;
     }
 }

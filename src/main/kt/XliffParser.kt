@@ -71,7 +71,7 @@ open class XliffParser {
 
             // Let xliffs = All of *.xliff files in iosPath
             val ios = File(iosPath)
-            val xliffs = FileUtil.listFilesWhere(ios, { z ->
+            val xliffs = FileUtil.listAllFiles(ios, { z ->
                 val name = z.name
                 val isPx = name.startsWith(tryPrefix)
                 var omit = false
@@ -305,7 +305,7 @@ open class XliffParser {
             //val x = loadLz(File(s))
             //writeToLz(File("$p\\x.txt"), x)
             val q = File(p).parentFile
-            val lzs = FileUtil.listFilesWhere(q, { f ->
+            val lzs = FileUtil.listAllFiles(q, { f ->
                 f.name.contains(LocalStr)
             })
             for (z in lzs) {
