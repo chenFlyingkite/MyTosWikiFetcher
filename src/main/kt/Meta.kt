@@ -104,6 +104,7 @@ class CardTds {
     val Rebirth: MutableList<String> = ArrayList()
     val ArmCraft: MutableList<String> = ArrayList()
     val Switching: MutableList<String> = ArrayList()
+    val Supreme: MutableList<String> = ArrayList()
 }
 
 open class TableInfo {

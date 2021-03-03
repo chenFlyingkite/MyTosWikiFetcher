@@ -308,7 +308,8 @@ public class TosCardCreator {
         fillHPValues(c, info.hpValues);
         fillExpInfo(c, info.expInfos);
         fillCombination(c, info);
-        fillEvolution(c, info);
+        fillEvolution(c, info.cardTds.getEvolve()); // 進化列表
+        fillEvolution(c, info.cardTds.getSupreme()); // 究極融煉
         fillVirRebirth(c, info);
         fillArmCraft(c, info);
         fillSwitch(c, info);
@@ -381,8 +382,7 @@ public class TosCardCreator {
         c.minRecovery = parseInt(list.get(5));
     }
 
-    private void fillEvolution(TosCard c, CardInfo info) {
-        List<String> list = info.cardTds.getEvolve();
+    private void fillEvolution(TosCard c, List<String> list) {
         if (list.size() == 0) return;
         EvoMeta em = new EvoMeta();
 
@@ -445,7 +445,7 @@ public class TosCardCreator {
                 evos.add(e);
             }
         }
-        c.evolveInfo = evos;
+        c.evolveInfo.addAll(evos);
     }
 
     private int indexOf(List<String> list, String o, int from, int to) {

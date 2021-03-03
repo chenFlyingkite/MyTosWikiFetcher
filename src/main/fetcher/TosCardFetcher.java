@@ -25,7 +25,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
@@ -84,9 +83,11 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         link.clear(); // uncomment this if use test links
         //--
         // test cases
-        link.add("https://tos.fandom.com/zh/wiki/816");
-        link.add("https://tos.fandom.com/zh/wiki/651");
-        link.add("https://tos.fandom.com/zh/wiki/656");
+        //link.add("https://tos.fandom.com/zh/wiki/816");
+        //link.add("https://tos.fandom.com/zh/wiki/651");
+        //link.add("https://tos.fandom.com/zh/wiki/656");
+        //link.add("https://tos.fandom.com/zh/wiki/1361"); // SupremeReckon
+        link.add("https://tos.fandom.com/zh/wiki/1021");
         //link.add("https://tos.fandom.com/zh/wiki/722"); // 合體
         //link.add("https://tos.fandom.com/zh/wiki/2344");
         //link.add("https://tos.fandom.com/zh/wiki/2345");

@@ -20886,8 +20886,8 @@
   },
   {
     "type": "主動技",
-    "skillName": "無畏之心",
-    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%95%8F%E4%B9%8B%E5%BF%83",
+    "skillName": "無畏之靈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%95%8F%E4%B9%8B%E9%9D%88",
     "skillCDMin": 16,
     "skillCDMax": 5,
     "skillDesc": "1 回合內 I. 可任意移動符石 而不會發動消除 II. 觸碰心符石時 ⇒ 解除其電擊、凍結、弱化、 化血、石化符石狀態 ⇒ 轉化為人族強化符石 III. 首批消除所有心符石時 ⇒ 自身 CD -2",

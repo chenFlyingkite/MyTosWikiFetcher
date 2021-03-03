@@ -1124,6 +1124,7 @@ class TosGet {
             val virs = result.Rebirth
             val arms = result.ArmCraft
             val swch = result.Switching
+            val supr = result.Supreme
             var x = 0
             val td2n = td2?.size ?: 0
             var part = CardPart.Main
@@ -1255,8 +1256,8 @@ class TosGet {
                                 CardPart.Combination -> {
                                     coms.add(alt)
                                 }
-                                CardPart.Dragonware -> {
-                                    arms.add(alt)
+                                CardPart.SupremeReckon -> {
+                                    supr.add(alt)
                                 }
                             }
                             if (isSwt) {
