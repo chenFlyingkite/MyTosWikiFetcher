@@ -28,4 +28,9 @@ public class PngParam {
         p.h = h;
         return p;
     }
+
+    @Override
+    public String toString() {
+        return w + "x" + h + ", on " + file;
+    }
 }

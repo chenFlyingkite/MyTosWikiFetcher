@@ -2,7 +2,11 @@ package main;
 
 import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
+import flyingkite.javaxlibrary.images.base.PngParam;
+import flyingkite.javaxlibrary.images.create.PngCreateRequest;
+import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.log.L;
+import flyingkite.math.MathUtil;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
@@ -41,7 +45,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch();
+        //fetch();
         //copyToMyTosWiki();
         //enterUID();
 
@@ -75,6 +79,29 @@ public class Main {
     }
 
     private static void a() {
+        String src;
+        src = "D:\\PhotoDirector_iOS\\Main_01\\PhotoDirector\\PhotoDirector\\Resource\\SkyReplacementPacks\\b14cad52-3a61-4487-bc3b-745e2a376966\\ddfd8d19-176e-45c4-94cb-c6856c7c3f1e\\sky.jpg";
+        String dst;
+        dst = "D:\\ASD\\APNG Tests\\sky2.png";
+        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
+            @Override
+            public int drawAt(int x, int y, int w, int h, int c) {
+                if (MathUtil.isInRange(x, w / 4, w * 3 / 4) && y < h * 3 / 4) {
+                    return 0;
+                }
+                return c;
+            }
+        }).into(dst);
+//        dst = "D:\\ASD\\APNG Tests\\skyV.png";
+//        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
+//            @Override
+//            public int drawAt(int x, int y, int w, int h, int c) {
+//                if (MathUtil.isInRange(y, h / 4, h * 3 / 4)) {
+//                    return 0;
+//                }
+//                return c;
+//            }
+//        }).into(dst);
     }
 
 

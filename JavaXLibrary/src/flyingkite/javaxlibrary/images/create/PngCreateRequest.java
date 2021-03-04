@@ -1,10 +1,10 @@
 package flyingkite.javaxlibrary.images.create;
 
+import flyingkite.data.Rect2;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.base.PngRequest;
-import flyingkite.math.MathUtil;
-import flyingkite.data.Rect2;
 import flyingkite.log.L;
+import flyingkite.math.MathUtil;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -12,6 +12,10 @@ import java.util.Arrays;
 
 public class PngCreateRequest extends PngRequest {
     private static final String TAG = "PngCreateRequest";
+
+    public interface ColorSelector {
+        int drawAt(int x, int y, int w, int h, int c);
+    }
 
     // Main components
     private PngParam reqParam;
@@ -160,4 +164,32 @@ public class PngCreateRequest extends PngRequest {
         return this;
     }
 
+    /**
+     * Erase the image with transparent color,
+     * Range: selector return color to be paint
+     */
+    public PngCreateRequest replace(ColorSelector selector) {
+        // common used
+        PngParam pp = reqParam;
+        final int imgW = canvasRect.width();
+        final int imgH = canvasRect.height();
+
+        if (DEBUG) {
+            L.log("replace pp = %s, rect = ", pp, canvasRect);
+        }
+
+        mClock.tic();
+        for (int i = 0; i < imgW; i++) {
+            for (int j = 0; j < imgH; j++) {
+                int color = srcImg.getRGB(i, j);
+                int replace = selector.drawAt(i, j, imgW, imgH, color);
+                if (DEBUG) {
+                    L.log("(%4d, %4d) = 0x%0x -> 0x%0x", i, j, color, replace);
+                }
+                dstImg.setRGB(i, j, replace);
+            }
+        }
+        mClock.tac(TAG + " replace OK");
+        return this;
+    }
 }
