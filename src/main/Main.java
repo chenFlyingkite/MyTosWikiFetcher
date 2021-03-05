@@ -45,7 +45,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        //fetch();
+        fetch();
         //copyToMyTosWiki();
         //enterUID();
 
@@ -75,7 +75,7 @@ public class Main {
         //PngCreator.me.moveImage();
         //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01"); // windows
         //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/S_01"); // mac mini
-        a();
+        //a();
     }
 
     private static void a() {
