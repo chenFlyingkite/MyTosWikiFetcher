@@ -7,6 +7,7 @@ import flyingkite.javaxlibrary.images.create.PngCreateRequest;
 import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.log.L;
 import flyingkite.math.MathUtil;
+import flyingkite.math.Matrix;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
@@ -88,62 +89,32 @@ public class Main {
                 {0.1967, 0.7244, 0.0782},
                 {0.0241, 0.1288, 0.8444}
         };
+        Matrix a1m = new Matrix(a1);
         double[][] a2 = {
                 {+4.4679, -3.5873, +0.1193},
                 {-1.2186, +2.3809, -0.1624},
                 {+0.0497, -0.2439, +1.2045}
         };
+        Matrix a2m = new Matrix(a2);
         // RGBtoYIQ
         double[][] b1 = {
                 {+0.299, +0.587, +0.114},
                 {+0.596, -0.274, -0.322},
                 {+0.212, -0.523, +0.311},
         };
+        Matrix b1m = new Matrix(b1);
         // YIQtoRGB
         double[][] b2 = {
                 {1.0, +0.956, +0.621},
                 {1.0, -0.272, -0.647},
                 {1.0, -1.105, +1.702},
         };
-        L.log("a1 = %s", str(a1));
-        L.log("a2 = %s", str(a2));
-        double[][] a3 = mul(a1, a2);
-        L.log("a3 = %s", str(a3));
+        Matrix b2m = new Matrix(b2);
+        Matrix a3m = Matrix.multiply(a1m, a2m);
+        L.log("a3 = %s", a3m);
 
-        L.log("b1 = %s", str(b1));
-        L.log("b2 = %s", str(b2));
-        double[][] b3 = mul(b1, b2);
-        L.log("b3 = %s", str(b3));
-    }
-
-    private static String str(double[][] a) {
-        StringBuilder s = new StringBuilder("\n");
-        for (int i = 0; i < a.length; i++) {
-            s.append(i).append(" : ").append(Arrays.toString(a[i])).append("\n");
-        }
-        return s.toString();
-    }
-
-    private static double[][] mul(double[][] a, double[][] b) {
-        int am = a.length;
-        int an = a[0].length;
-        int bm = b.length;
-        int bn = b[0].length;
-        L.log("Dim a = %dx%d, b = %dx%d", am, an, bm, bn);
-        if (an != bm) {
-            L.log("Wrong dim");
-        }
-        double[][] c = new double[am][bn];
-        for (int i = 0; i < am; i++) {
-            for (int j = 0; j < bn; j++) {
-                double s = 0;
-                for (int k = 0; k < an; k++) {
-                    s += a[i][k] * b[k][j];
-                }
-                c[i][j] = s;
-            }
-        }
-        return c;
+        Matrix b3m = Matrix.multiply(b1m, b2m);
+        L.log("b3 = %s", b3m);
     }
 
     private static void b() {
