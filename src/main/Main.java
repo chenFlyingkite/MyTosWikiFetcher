@@ -45,12 +45,13 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch();
+        //fetch();
         //copyToMyTosWiki();
         //enterUID();
 
         //-- testing area
         //PngCreator.me.standard(null);
+        //PngCreator.me.standard16(null);
 
         //-- fix card
         //TosCardFetcher.me.run();
@@ -75,10 +76,77 @@ public class Main {
         //PngCreator.me.moveImage();
         //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01"); // windows
         //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/S_01"); // mac mini
-        //a();
+        a();
+    }
+    private static void a() {
+
     }
 
-    private static void a() {
+    private static void matrixMul() {
+        double[][] a1 = {
+                {0.3811, 0.5783, 0.0402},
+                {0.1967, 0.7244, 0.0782},
+                {0.0241, 0.1288, 0.8444}
+        };
+        double[][] a2 = {
+                {+4.4679, -3.5873, +0.1193},
+                {-1.2186, +2.3809, -0.1624},
+                {+0.0497, -0.2439, +1.2045}
+        };
+        // RGBtoYIQ
+        double[][] b1 = {
+                {+0.299, +0.587, +0.114},
+                {+0.596, -0.274, -0.322},
+                {+0.212, -0.523, +0.311},
+        };
+        // YIQtoRGB
+        double[][] b2 = {
+                {1.0, +0.956, +0.621},
+                {1.0, -0.272, -0.647},
+                {1.0, -1.105, +1.702},
+        };
+        L.log("a1 = %s", str(a1));
+        L.log("a2 = %s", str(a2));
+        double[][] a3 = mul(a1, a2);
+        L.log("a3 = %s", str(a3));
+
+        L.log("b1 = %s", str(b1));
+        L.log("b2 = %s", str(b2));
+        double[][] b3 = mul(b1, b2);
+        L.log("b3 = %s", str(b3));
+    }
+
+    private static String str(double[][] a) {
+        StringBuilder s = new StringBuilder("\n");
+        for (int i = 0; i < a.length; i++) {
+            s.append(i).append(" : ").append(Arrays.toString(a[i])).append("\n");
+        }
+        return s.toString();
+    }
+
+    private static double[][] mul(double[][] a, double[][] b) {
+        int am = a.length;
+        int an = a[0].length;
+        int bm = b.length;
+        int bn = b[0].length;
+        L.log("Dim a = %dx%d, b = %dx%d", am, an, bm, bn);
+        if (an != bm) {
+            L.log("Wrong dim");
+        }
+        double[][] c = new double[am][bn];
+        for (int i = 0; i < am; i++) {
+            for (int j = 0; j < bn; j++) {
+                double s = 0;
+                for (int k = 0; k < an; k++) {
+                    s += a[i][k] * b[k][j];
+                }
+                c[i][j] = s;
+            }
+        }
+        return c;
+    }
+
+    private static void b() {
         String src;
         src = "D:\\PhotoDirector_iOS\\Main_01\\PhotoDirector\\PhotoDirector\\Resource\\SkyReplacementPacks\\b14cad52-3a61-4487-bc3b-745e2a376966\\ddfd8d19-176e-45c4-94cb-c6856c7c3f1e\\sky.jpg";
         String dst;
@@ -92,16 +160,27 @@ public class Main {
                 return c;
             }
         }).into(dst);
-//        dst = "D:\\ASD\\APNG Tests\\skyV.png";
-//        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
-//            @Override
-//            public int drawAt(int x, int y, int w, int h, int c) {
-//                if (MathUtil.isInRange(y, h / 4, h * 3 / 4)) {
-//                    return 0;
-//                }
-//                return c;
-//            }
-//        }).into(dst);
+        dst = "D:\\ASD\\APNG Tests\\skyV.png";
+        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
+            @Override
+            public int drawAt(int x, int y, int w, int h, int c) {
+                if (MathUtil.isInRange(y, h / 4, h * 3 / 4)) {
+                    return 0;
+                }
+                return c;
+            }
+        }).into(dst);
+        src = "D:\\ASD\\APNG Tests\\0225\\BG.jpg";
+        dst = "D:\\ASD\\APNG Tests\\user.png";
+        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
+            @Override
+            public int drawAt(int x, int y, int w, int h, int c) {
+                if (MathUtil.isInRange(y, h / 6, h * 5 / 6) && MathUtil.isInRange(x, w / 4, w * 3 / 4)) {
+                    return c;
+                }
+                return 0;
+            }
+        }).into(dst);
     }
 
 

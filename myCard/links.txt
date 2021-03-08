@@ -18282,6 +18282,96 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6477"
   },
   {
+    "title": "S480 夏日豔花 ‧ 烏蘇拉(造型)",
+    "id": "6480",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%8F%E6%97%A5%E8%B1%94%E8%8A%B1_%E2%80%A7_%E7%83%8F%E8%98%87%E6%8B%89(%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6480"
+  },
+  {
+    "title": "S481 火熱接球 ‧ 愛格德(造型)",
+    "id": "6481",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%86%B1%E6%8E%A5%E7%90%83_%E2%80%A7_%E6%84%9B%E6%A0%BC%E5%BE%B7(%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6481"
+  },
+  {
+    "title": "S482 炎夏寒瓜 ‧ 芭芭拉(造型)",
+    "id": "6482",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%82%8E%E5%A4%8F%E5%AF%92%E7%93%9C_%E2%80%A7_%E8%8A%AD%E8%8A%AD%E6%8B%89(%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6482"
+  },
+  {
+    "title": "S483 炫光追擊 ‧ 安納(造型)",
+    "id": "6483",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%82%AB%E5%85%89%E8%BF%BD%E6%93%8A_%E2%80%A7_%E5%AE%89%E7%B4%8D(%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6483"
+  },
+  {
+    "title": "S484 紅海滑浪 ‧ 諾瓦利斯(造型)",
+    "id": "6484",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%85%E6%B5%B7%E6%BB%91%E6%B5%AA_%E2%80%A7_%E8%AB%BE%E7%93%A6%E5%88%A9%E6%96%AF(%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6484"
+  },
+  {
+    "title": "S485 箐箐韶音 · 芭芭拉(造型)",
+    "id": "6485",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AE%90%E7%AE%90%E9%9F%B6%E9%9F%B3_%C2%B7_%E8%8A%AD%E8%8A%AD%E6%8B%89(%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6485"
+  },
+  {
+    "title": "S486 旖翔木子萱 · 愛格德(造型)",
+    "id": "6486",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%97%96%E7%BF%94%E6%9C%A8%E5%AD%90%E8%90%B1_%C2%B7_%E6%84%9B%E6%A0%BC%E5%BE%B7(%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6486"
+  },
+  {
+    "title": "S487 九尾狐．玉藻前(動態造型)",
+    "id": "6487",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B9%9D%E5%B0%BE%E7%8B%90%EF%BC%8E%E7%8E%89%E8%97%BB%E5%89%8D(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6487"
+  },
+  {
+    "title": "S488 寫作之神．菲呂拉(動態造型)",
+    "id": "6488",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AF%AB%E4%BD%9C%E4%B9%8B%E7%A5%9E%EF%BC%8E%E8%8F%B2%E5%91%82%E6%8B%89(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6488"
+  },
+  {
+    "title": "S489 傾世妖魅．妲己(動態造型)",
+    "id": "6489",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%82%BE%E4%B8%96%E5%A6%96%E9%AD%85%EF%BC%8E%E5%A6%B2%E5%B7%B1(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6489"
+  },
+  {
+    "title": "S490 扭曲天使．亞伯汗(動態造型)",
+    "id": "6490",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%89%AD%E6%9B%B2%E5%A4%A9%E4%BD%BF%EF%BC%8E%E4%BA%9E%E4%BC%AF%E6%B1%97(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6490"
+  },
+  {
+    "title": "S491 叛逆天使．路西法(動態造型)",
+    "id": "6491",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8F%9B%E9%80%86%E5%A4%A9%E4%BD%BF%EF%BC%8E%E8%B7%AF%E8%A5%BF%E6%B3%95(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6491"
+  },
+  {
+    "title": "S492 輝日神．天照大神(動態造型)",
+    "id": "6492",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BC%9D%E6%97%A5%E7%A5%9E%EF%BC%8E%E5%A4%A9%E7%85%A7%E5%A4%A7%E7%A5%9E(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6492"
+  },
+  {
+    "title": "S493 神使．八咫烏(動態造型)",
+    "id": "6493",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E4%BD%BF%EF%BC%8E%E5%85%AB%E5%92%AB%E7%83%8F(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6493"
+  },
+  {
+    "title": "S494 冥妃神．伊邪那美(動態造型)",
+    "id": "6494",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E5%A6%83%E7%A5%9E%EF%BC%8E%E4%BC%8A%E9%82%AA%E9%82%A3%E7%BE%8E(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6494"
+  },
+  {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
     "id": "7001",
     "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2",

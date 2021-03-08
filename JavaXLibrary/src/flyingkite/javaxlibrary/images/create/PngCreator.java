@@ -94,6 +94,61 @@ public class PngCreator {
         L.log("repeat %d times, all = %d ms, avg = %d ms", n, all, all / n);
     }
 
+    // side = 2*K*s, side x side (4x4x(sxs))
+    public void standard16(String dst) {
+        if (dst == null) {
+            dst = "D:\\images\\b.bmp";
+        }
+        final int s = 100;
+        final int[] cs = {0, 5, 10, 15};
+        final int K = cs.length;
+        final int w = 2 * K * s;
+        final int h = w;
+
+        File f = new File(dst);
+        TicTac2 clk = new TicTac2();
+        clk.tic();
+        clk.tic();
+        BufferedImage dstImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_RGB);
+
+        // Tile 1, r = 0, x = b, y = g
+        // /                    \  /   Tile2 : R = 5    \
+        // #000, #005, #00A, #00F, #500, #505, #50A, #50F
+        // #050, #055, #05A, #05F, ...
+        // #0A0, #0A5, #0AA, #0AF, ...
+        // #0F0, #0F5, #0FA, #0FF, ...
+        // Tile 3 : R = A        ,  Tile 4 : R = F
+        for (int i = 0; i < w; i++) {
+            for (int j = 0; j < h; j++) {
+                int g = (j / s) % K;
+                int b = (i / s) % K;
+                int r = (2 * i / w) + 2 * (2 * j / h);
+                // rgb each
+
+                int cr = 17 * cs[r]; // for 0xpp, = p * 16 + p
+                int cg = 17 * cs[g];
+                int cb = 17 * cs[b];
+                int rgb = rgb(cr, cg, cb);
+                dstImg.setRGB(i, j, rgb);
+            }
+        }
+        clk.tac("dstImage OK");
+
+        File file = f;
+        FileUtil.ensureDelete(file);
+        FileUtil.createFile(file);
+        clk.tic();
+        // Step : Write to output
+        try {
+            ImageIO.write(dstImg, "bmp", file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        clk.tac("ImageIO write >> " + file.getAbsolutePath());
+        clk.tac("Done");
+    }
+
+
     // 4096 x 4096 = 16*16 * (256x256)
     public void standard(String dst) {
         if (dst == null) {
