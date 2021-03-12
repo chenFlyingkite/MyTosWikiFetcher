@@ -80,9 +80,11 @@ public class Main {
         //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/S_01"); // mac mini
         a();
     }
-    private static void a() {
 
+    private static void a() {
+        //MainTest.main(null);
     }
+
 
     // https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.1.20.pdf
     private static void matrixMul() {
@@ -159,6 +161,17 @@ public class Main {
             public int drawAt(int x, int y, int w, int h, int c) {
                 if (MathUtil.isInRange(y, h / 6, h * 5 / 6) && MathUtil.isInRange(x, w / 4, w * 3 / 4)) {
                     return c;
+                }
+                return 0;
+            }
+        }).into(dst);
+        src = "D:\\ASD\\APNG Tests\\0225\\BG.jpg";
+        dst = "D:\\ASD\\APNG Tests\\mask2.png";
+        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
+            @Override
+            public int drawAt(int x, int y, int w, int h, int c) {
+                if (MathUtil.isInRange(y, 0, h / 2)) {
+                    return 0xFFFFFFFF;
                 }
                 return 0;
             }
