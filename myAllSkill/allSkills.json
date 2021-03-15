@@ -13152,6 +13152,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "智慧之泉",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%99%BA%E6%85%A7%E4%B9%8B%E6%B3%89",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "點擊元素法陣上的 1 種屬性符石： I. 引爆該種屬性以外符石 ⇒ 掉落心符石 1 回合內 II. 延長移動符石時間至 10 秒 III. 該種符石及心符石互相兼具 50% 效果",
+    "skillMonsters": [
+      "2654"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "智慧之火",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%99%BA%E6%85%A7%E4%B9%8B%E7%81%AB",
     "skillCDMin": 18,
@@ -13386,6 +13397,17 @@
     "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 火及心符石兼具 50% 暗符石效果 III. 首批消除 1 組外側 18 粒符石 ⇒ 減少所受傷害 80% 至下回合開始時",
     "skillMonsters": [
       "2458"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "暗元素之力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%85%83%E7%B4%A0%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 發動技能及 每回合結束時 (需消除符石) ⇒ 將場上數量最多的 1 種符石 轉化為暗強化符石 II. 若場上數量最多的為暗符石 ⇒ 額外自身 CD - 3 效果會在進入下一層數 (Wave) 時消失 III. 解除自身被封鎖的技能 (此技能無視封鎖技能)",
+    "skillMonsters": [
+      "2655"
     ]
   },
   {
@@ -24973,6 +24995,17 @@
     "skillDesc": "I. 暗屬性攻擊力 3.5 倍 II. 暗屬性對神族目標的攻擊力 2 倍",
     "skillMonsters": [
       "1730"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神族的樂曲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%9A%84%E6%A8%82%E6%9B%B2",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 引爆自身及身旁成員直行符石 ⇒ 掉落神族強化符石 II. 若身旁成員為水屬性或神族 ⇒ 則身旁成員掉落 該成員屬性神族強化符石",
+    "skillMonsters": [
+      "2649"
     ]
   },
   {
@@ -38273,6 +38306,17 @@
     "skillDesc": "1 回合內，引爆最左及最右直行的符石，以掉落木妖族強化符石；並引爆其餘直行符石，以掉落強化符石；木屬性及妖精類攻擊力 2.5 倍",
     "skillMonsters": [
       "1791"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔瞳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%9E%B3",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將光符石轉化為 ⇒ 魔族強化符石 II. 將心符石轉化為 ⇒ 隊長屬性符石 1 回合內 III. 隊長及個人以 50% 攻擊力 ⇒ 追打 4 次 IV. 隊伍中每多 1 種族成員 ⇒ 額外增加 1 回合效果 ⇒ 最多持續 3 回合",
+    "skillMonsters": [
+      "2564"
     ]
   },
   {

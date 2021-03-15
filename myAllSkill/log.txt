@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3347 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3351 items, basePath = https://tos.fandom.com, offset = null)
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 23_的奇蹟 -> https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F
 MAX_版_禁千貳百拾壹式_‧_八稚女 -> https://tos.fandom.com/zh/wiki/MAX_%E7%89%88_%E7%A6%81%E5%8D%83%E8%B2%B3%E7%99%BE%E6%8B%BE%E5%A3%B9%E5%BC%8F_%E2%80%A7_%E5%85%AB%E7%A8%9A%E5%A5%B3
@@ -1119,6 +1119,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 時間延展 -> https://tos.fandom.com/zh/wiki/%E6%99%82%E9%96%93%E5%BB%B6%E5%B1%95
 時間操縱 -> https://tos.fandom.com/zh/wiki/%E6%99%82%E9%96%93%E6%93%8D%E7%B8%B1
 時間的弧形 -> https://tos.fandom.com/zh/wiki/%E6%99%82%E9%96%93%E7%9A%84%E5%BC%A7%E5%BD%A2
+智慧之泉 -> https://tos.fandom.com/zh/wiki/%E6%99%BA%E6%85%A7%E4%B9%8B%E6%B3%89
 智慧之火 -> https://tos.fandom.com/zh/wiki/%E6%99%BA%E6%85%A7%E4%B9%8B%E7%81%AB
 暗之制裁 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E5%88%B6%E8%A3%81
 暗之審判 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E5%AF%A9%E5%88%A4
@@ -1138,6 +1139,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 暗之驅動 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E9%A9%85%E5%8B%95
 暗之魅惑 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E9%AD%85%E6%83%91
 暗之魔術 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E9%AD%94%E8%A1%93
+暗元素之力 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%85%83%E7%B4%A0%E4%B9%8B%E5%8A%9B
 暗光攻擊轉化 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%85%89%E6%94%BB%E6%93%8A%E8%BD%89%E5%8C%96
 暗夜之帳 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%A4%9C%E4%B9%8B%E5%B8%B3
 暗夜獨行_‧_陰霾 -> https://tos.fandom.com/zh/wiki/%E6%9A%97%E5%A4%9C%E7%8D%A8%E8%A1%8C_%E2%80%A7_%E9%99%B0%E9%9C%BE
@@ -2117,6 +2119,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 神族之脈_‧_光 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E4%B9%8B%E8%84%88_%E2%80%A7_%E5%85%89
 神族之脈_‧_水 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E4%B9%8B%E8%84%88_%E2%80%A7_%E6%B0%B4
 神族無光的夢境 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%84%A1%E5%85%89%E7%9A%84%E5%A4%A2%E5%A2%83
+神族的樂曲 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%9A%84%E6%A8%82%E6%9B%B2
 神族盟約 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%9B%9F%E7%B4%84
 神族符能_‧_幽冥陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E5%B9%BD%E5%86%A5%E9%99%A3
 神族符能_‧_浪濤陣 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%97%8F%E7%AC%A6%E8%83%BD_%E2%80%A7_%E6%B5%AA%E6%BF%A4%E9%99%A3
@@ -3235,6 +3238,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 魔王躍舞_‧_攻 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%8E%8B%E8%BA%8D%E8%88%9E_%E2%80%A7_%E6%94%BB
 魔界_‧_同盟 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%95%8C_%E2%80%A7_%E5%90%8C%E7%9B%9F
 魔界植物召喚 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%95%8C%E6%A4%8D%E7%89%A9%E5%8F%AC%E5%96%9A
+魔瞳 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%9E%B3
 魔神之血 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%A5%9E%E4%B9%8B%E8%A1%80
 魔血咒_‧_獵人 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E8%A1%80%E5%92%92_%E2%80%A7_%E7%8D%B5%E4%BA%BA
 魔術師的戰鬥 -> https://tos.fandom.com/zh/wiki/%E9%AD%94%E8%A1%93%E5%B8%AB%E7%9A%84%E6%88%B0%E9%AC%A5
@@ -3348,4 +3352,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-3369 skills
+3373 skills

@@ -40,7 +40,7 @@ public class GLSumOnArray implements Testable {
 
     private void check() {
         // let w = array length = [1:w], value range = [0:m)
-        final int w = 1 + rand.nextInt(2000);
+        final int w = 1 + rand.nextInt(40);
         final int m = 10;
         int ans = 0;
         int[] a = new int[w];

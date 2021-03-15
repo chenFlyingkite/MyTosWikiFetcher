@@ -15768,6 +15768,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2648"
   },
   {
+    "title": "No. 2649 大洋之母．忒堤斯",
+    "id": "2649",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E6%B4%8B%E4%B9%8B%E6%AF%8D%EF%BC%8E%E5%BF%92%E5%A0%A4%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2649"
+  },
+  {
     "title": "No. 2650 優理加",
     "id": "2650",
     "link": "https://tos.fandom.com/zh/wiki/%E5%84%AA%E7%90%86%E5%8A%A0",
@@ -15790,6 +15796,18 @@
     "id": "2653",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B9%BD%E7%B4%9B%E5%85%83%E7%B4%A0%E8%BB%8D%E8%89%A6",
     "linkId": "http://zh.tos.wikia.com/wiki/2653"
+  },
+  {
+    "title": "No. 2654 救贖領域 ‧ 法典之靈",
+    "id": "2654",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%91%E8%B4%96%E9%A0%98%E5%9F%9F_%E2%80%A7_%E6%B3%95%E5%85%B8%E4%B9%8B%E9%9D%88",
+    "linkId": "http://zh.tos.wikia.com/wiki/2654"
+  },
+  {
+    "title": "No. 2655 妹妹 ‧ 諾拉",
+    "id": "2655",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A6%B9%E5%A6%B9_%E2%80%A7_%E8%AB%BE%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2655"
   },
   {
     "title": "No. 2656 銀光械蜂",

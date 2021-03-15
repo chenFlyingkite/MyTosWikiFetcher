@@ -46,7 +46,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        //fetch();
+        fetch();
         //copyToMyTosWiki();
         //enterUID();
 
@@ -86,6 +86,9 @@ public class Main {
     }
 
 
+    // Fast Contour-Tracing Algorithm Based on a Pixel-Following Method for Image Sensors
+    // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813928/
+    //
     // https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.1.20.pdf
     private static void matrixMul() {
         double[][] a1 = {
