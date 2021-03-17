@@ -18498,6 +18498,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/7018"
   },
   {
+    "title": "P19 無私劍士 ‧ 皓月",
+    "id": "7019",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%A7%81%E5%8A%8D%E5%A3%AB_%E2%80%A7_%E7%9A%93%E6%9C%88",
+    "linkId": "http://zh.tos.wikia.com/wiki/7019"
+  },
+  {
     "title": "V1 烏蘇拉",
     "id": "8001",
     "link": "https://tos.fandom.com/zh/wiki/%E7%83%8F%E8%98%87%E6%8B%89",

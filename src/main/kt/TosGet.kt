@@ -470,40 +470,6 @@ class TosGet {
             return ans
         }
 
-        fun getAllMaxBonusSrc(id : Int) : String {
-            // %7B = {   %7D = }
-            val link = "https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B" +
-                    id.toString() + "|fullstatsMax%7D%7D"
-            val data = getApiBody(link)
-            // Substring body part & split
-            val prefix = "\"expandtemplates\":{\"*\":\""
-            val px = data.lastIndexOf(prefix)
-            val suffix = "\"}}"
-            val sx = data.indexOf(suffix, px)
-
-            val src = data.substring(px + prefix.length, sx)
-            return src
-        }
-
-        fun getApiBody(link : String) : String {
-            val client = OkHttpClient().newBuilder()
-                    .readTimeout(120, TimeUnit.SECONDS)
-                    .build()
-            val request = Request.Builder().url(link).build()
-            var answer = ""
-            try {
-                val t = TicTac2()
-                t.tic()
-                val response = client.newCall(request).execute()
-                val body = response.body()
-                answer = body?.string() ?: ""
-                t.tac("Done ${link}")
-            } catch (e : IOException) {
-                e.printStackTrace()
-            }
-            return answer;
-        }
-
         /**
          * Get the element's all <li><a href="/link"></li> -> baseWiki + "/link"
          */
@@ -1454,5 +1420,39 @@ class TosGet {
             info.name = e.text()//e.attr("title")
             return info
         }
+    }
+
+    fun getAllMaxBonusSrc(id : Int) : String {
+        // %7B = {   %7D = }
+        val link = "https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B" +
+                id.toString() + "|fullstatsMax%7D%7D"
+        val data = getApiBody(link)
+        // Substring body part & split
+        val prefix = "\"expandtemplates\":{\"*\":\""
+        val px = data.lastIndexOf(prefix)
+        val suffix = "\"}}"
+        val sx = data.indexOf(suffix, px)
+
+        val src = data.substring(px + prefix.length, sx)
+        return src
+    }
+
+    fun getApiBody(link : String) : String {
+        val client = OkHttpClient().newBuilder()
+                .readTimeout(120, TimeUnit.SECONDS)
+                .build()
+        val request = Request.Builder().url(link).build()
+        var answer = ""
+        try {
+            val t = TicTac2()
+            t.tic()
+            val response = client.newCall(request).execute()
+            val body = response.body()
+            answer = body?.string() ?: ""
+            t.tac("Done ${link}")
+        } catch (e : IOException) {
+            e.printStackTrace()
+        }
+        return answer;
     }
 }

@@ -17,7 +17,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class TosCardExtras extends TosWikiBaseFetcher {
     public static final TosCardExtras me = new TosCardExtras();
@@ -30,16 +29,15 @@ public class TosCardExtras extends TosWikiBaseFetcher {
     private final boolean fixing = 0 > 0;
 
     private Map<String, String> allMaxMap = Collections.synchronizedMap(new TreeMap<>());
-    private ExecutorService exes = ThreadUtil.newFlexThreadPool(50, 30);
-    //private ExecutorService exes = ThreadUtil.newFlexThreadPool(3000);
-
+    private final Object lock = new Object();
     private CardItem[] allItems;
 
     @Override
     public void run() {
         loadCardItems();
 
-        fetchAllMaxBonus();
+        //fetchAllMaxBonus();
+        fetchAllMaxBonusTryMultithread();
         //loadAllMaxBonus();
     }
 
@@ -52,6 +50,7 @@ public class TosCardExtras extends TosWikiBaseFetcher {
         List<String> pages = getLinks();
         int k = pages.size();
         int m = 0;
+        TosGet tosget = new TosGet();
         for (int i = 0; i < k; i++) {
             String p = pages.get(i);
             int n = 0;
@@ -62,7 +61,7 @@ public class TosCardExtras extends TosWikiBaseFetcher {
                 e.printStackTrace();
             }
             if (n > 0) {
-                String s = TosGet.me.getAllMaxBonusSrc(n);
+                String s = tosget.getAllMaxBonusSrc(n);
 
                 allMaxMap.put(allItems[i].getId(), s);
                 FullStatsMax f = new FullStatsMax().parse(s);
@@ -155,15 +154,18 @@ public class TosCardExtras extends TosWikiBaseFetcher {
         return link;
     }
 
+    private final int[] info = {0, 0};
+
     // https://tos.fandom.com/zh/api.php
     // https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B1234%7CfullstatsMax}}
     private void fetchAllMaxBonusTryMultithread() {
         L.log("Start fetchAllMaxBonus at %s", new Date());
         clock.tic();
-        //mLf.getFile().open();
         List<String> pages = getLinks();
         int k = pages.size();
-        final int[] info = {0, 0};
+
+        // pool
+        final ExecutorService exes = ThreadUtil.cachedThreadPool;//.newFlexThreadPool(k, 30);
         for (int i = 0; i < k; i++) {
             String p = pages.get(i);
             int n = 0;
@@ -178,32 +180,61 @@ public class TosCardExtras extends TosWikiBaseFetcher {
                 final int at = i;
                 L.log("#%d send (%d, %d)", i, at, id);
                 exes.submit(() -> {
-                    L.log("Hello %s, %s", id, at);
-                    String s = TosGet.me.getAllMaxBonusSrc(id);
-                    L.log("get %s, %s", id, at);
+                    long tid = Thread.currentThread().getId();
+                    //L.log("goid = %s", tid);
+                    L.log("Fetch #%s = No.%s, %s", at, id, new Date());
+                    String s = new TosGet().getAllMaxBonusSrc(id);
+                    L.log("Returns #%s = No.%s, %s", at, id, new Date());
                     allMaxMap.put(allItems[at].getId(), s);
                     FullStatsMax f = new FullStatsMax().parse(s);
                     if (f.exists()) {
                         info[0]++;
                     }
-                    info[1]++;
-                    L.log("info = %s, %s", info[1], pages.size());
+                    synchronized (info) {
+                        info[1]++;
+                        L.log("info = %s/%s %s", info[1], pages.size(), new Date());
+                        //L.log("endid = %s", tid);
+                        if (info[1] == pages.size()) {
+                            amJson.getParentFile().mkdirs();
+                            GsonUtil.writeFile(amJson, mGson.toJson(allMaxMap, Map.class));
+                            //In 3171 cards, 221 cards has AMBonus
+                            L.log("In %s cards, %s cards has AMBonus", allMaxMap.size(), info[0]); // m = 171/2425
+                            //mLf.getFile().close();
+                            clock.tac("End at %s", new Date());
+                            synchronized (lock) {
+                                L.log("Notify");
+                                lock.notifyAll();
+                                L.log("All");
+                            }
+                        }
+                    }
                 });
             }
         }
-        while (info[1] != pages.size()) {
-            //ThreadUtil.sleep(500);
+        synchronized (lock) {
             try {
-                Thread.sleep(500);
+                L.log("waiting %s", new Date());
+                lock.wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
 
-        amJson.getParentFile().mkdirs();
-        GsonUtil.writeFile(amJson, mGson.toJson(allMaxMap, Map.class));
-        L.log("In %s cards, %s cards has AMBonus", allMaxMap.size(), info[0]); // m = 171/2425
-        //mLf.getFile().close();
-        clock.tac("End at %s", new Date());
+        L.log("waiting Done %s", new Date());
+//        while (info[1] != pages.size()) {
+//            //ThreadUtil.sleep(500);
+//            ThreadUtil.sleep(500);
+////            try {
+////                Thread.sleep(500);
+////            } catch (InterruptedException e) {
+////                e.printStackTrace();
+////            }
+//        }
+//
+//        amJson.getParentFile().mkdirs();
+//        GsonUtil.writeFile(amJson, mGson.toJson(allMaxMap, Map.class));
+//        L.log("In %s cards, %s cards has AMBonus", allMaxMap.size(), info[0]); // m = 171/2425
+//        //mLf.getFile().close();
+//        clock.tac("End at %s", new Date());
     }
 }
