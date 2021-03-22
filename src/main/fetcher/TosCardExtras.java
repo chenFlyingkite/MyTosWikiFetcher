@@ -38,6 +38,7 @@ public class TosCardExtras extends TosWikiBaseFetcher {
 
         //fetchAllMaxBonus();
         fetchAllMaxBonusTryMultithread();
+
         //loadAllMaxBonus();
     }
 

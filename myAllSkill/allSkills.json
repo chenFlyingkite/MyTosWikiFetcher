@@ -899,6 +899,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "五彩激濤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E5%BD%A9%E6%BF%80%E6%BF%A4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍成員的屬性愈多 ⇒ 全隊生命力、攻擊力、回復力愈高 ⇒ 最多全隊攻擊力 6 倍、 生命力及回復力 1.6 倍",
+    "skillMonsters": [
+      "2647"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "五彩神輝",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E5%BD%A9%E7%A5%9E%E8%BC%9D",
@@ -2435,6 +2446,17 @@
     "skillDesc": "1 回合內，延長移動符石時間至 9 秒，並將所有符石轉化為固定數量的水、火、木、光及暗強化符石",
     "skillMonsters": [
       "1406"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素天賦",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%A4%A9%E8%B3%A6",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 首批掉落的符石 ⇒ 以強化符石代替 II. 首批 2 粒相連的符石 可發動消除 III. 自身攻擊力 4 倍 IV. 自身攻擊無視敵人防禦力",
+    "skillMonsters": [
+      "2647"
     ]
   },
   {
@@ -37025,6 +37047,17 @@
     "skillCDMax": 5,
     "skillDesc": "1 回合內，所有屬性符石兼具暗符石效果",
     "skillMonsters": []
+  },
+  {
+    "type": "主動技",
+    "skillName": "魅之擊流",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E4%B9%8B%E6%93%8A%E6%B5%81",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 隨機將 12 粒符石轉化為 ⇒ 妖族強化符石 (非種族符石優先轉換) 1 回合內 II. 自身攻擊力減至 0 III. 左旁成員攻擊力 3 倍 IV. 左旁成員以 50% 攻擊 ⇒ 追打水、火、暗屬性攻擊各 1 次",
+    "skillMonsters": [
+      "2492"
+    ]
   },
   {
     "type": "隊長技",

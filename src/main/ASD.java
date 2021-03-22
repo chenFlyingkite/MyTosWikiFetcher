@@ -117,8 +117,8 @@ public class ASD {
         // Regex
         //findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
         //findCardSkill("增加(.{0,20})連擊", true, allCards);
-        //findCardSkill("五屬", true, allCards);
-        findCardSkill("位置", true, allCards);
+        findCardSkill("轉化(|為)(水)符石", true, allCards);
+        //findCardSkill("位置", true, allCards);
         //findCardSkill("(水|火|木|光|暗)((、|及)(水|火|木|光|暗)){4}", true, allCards);
         //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n--**--");
