@@ -94,6 +94,55 @@ public class PngCreator {
         L.log("repeat %d times, all = %d ms, avg = %d ms", n, all, all / n);
     }
 
+
+    // x = alpha [0~255], y = grey of [0~255] black to white
+    // each tile = s*s
+    public void standardGrey1(String dst) {
+        if (dst == null) {
+            //dst = "D:\\images\\g1.png";
+            dst = "./images/g1.png";// in MacOS
+        }
+        final int s = 10;
+        final int w = s * 256;
+        final int h = w;
+
+        File f = new File(dst);
+        TicTac2 clk = new TicTac2();
+        clk.tic();
+        clk.tic();
+        BufferedImage dstImg = new BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+
+        // Each tile is s*s size
+        // alpha = 0 1, 2, ..., 255
+        // when going from
+        // left to right:
+        // pixel alpha = [0] x s, [1] x s, ..., [255] x s
+        // top to bottom :
+        // pixel color = (0, 0, 0) x s, (1, 1, 1) x s, ..., (255, 255, 255) x s
+        for (int i = 0; i < w; i++) {
+            for (int j = 0; j < h; j++) {
+                int a = (i / s);
+                int v = (j / s);
+                int rgb = argb(a, v, v, v);
+                dstImg.setRGB(i, j, rgb);
+            }
+        }
+        clk.tac("dstImage OK");
+
+        File file = f;
+        FileUtil.ensureDelete(file);
+        FileUtil.createFile(file);
+        clk.tic();
+        // Step : Write to output
+        try {
+            ImageIO.write(dstImg, "png", file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        clk.tac("ImageIO write >> " + file.getAbsolutePath());
+        clk.tac("Done");
+    }
+
     // side = 2*K*s, side x side (4x4x(sxs))
     public void standard16(String dst) {
         if (dst == null) {
@@ -199,6 +248,10 @@ public class PngCreator {
         }
         clk.tac("ImageIO write >> " + file.getAbsolutePath());
         clk.tac("Done");
+    }
+
+    private static int argb(int a, int r, int g, int b) {
+        return ((a & 0xFF) << 24) | ((r & 0xFF) << 16) | ((g & 0xFF) << 8) | (b & 0xFF);
     }
 
     private static int rgb(int r, int g, int b) {

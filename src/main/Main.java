@@ -55,6 +55,7 @@ public class Main {
         //-- testing area
         //PngCreator.me.standard(null);
         //PngCreator.me.standard16(null);
+        //PngCreator.me.standardGrey1(null);
 
         //-- fix card
         //TosCardFetcher.me.run();
