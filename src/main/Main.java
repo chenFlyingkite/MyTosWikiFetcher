@@ -357,9 +357,10 @@ public class Main {
     UID 200172730 中文版
     */
     private static void enterUID() {
+        // In macOS, after we start, we still need to click on the text field to let it enters
         try {
             Robot2 r = new Robot2();
-            r.delay(5_000);
+            r.delay(3_000);
             String[] ids = {
                     "199215954",
                     "150372202",
