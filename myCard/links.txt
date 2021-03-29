@@ -14304,6 +14304,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2399"
   },
   {
+    "title": "No. 2400 異彩史萊姆",
+    "id": "2400",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%95%B0%E5%BD%A9%E5%8F%B2%E8%90%8A%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/2400"
+  },
+  {
     "title": "No. 2401 漆彩塗鴉 ‧ 克蘿伊",
     "id": "2401",
     "link": "https://tos.fandom.com/zh/wiki/%E6%BC%86%E5%BD%A9%E5%A1%97%E9%B4%89_%E2%80%A7_%E5%85%8B%E8%98%BF%E4%BC%8A",
@@ -15826,6 +15832,96 @@
     "id": "2656",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8A%80%E5%85%89%E6%A2%B0%E8%9C%82",
     "linkId": "http://zh.tos.wikia.com/wiki/2656"
+  },
+  {
+    "title": "No. 2661 竈門炭治郎",
+    "id": "2661",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AB%88%E9%96%80%E7%82%AD%E6%B2%BB%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2661"
+  },
+  {
+    "title": "No. 2662 火之神 ‧ 竈門炭治郎",
+    "id": "2662",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E7%A5%9E_%E2%80%A7_%E7%AB%88%E9%96%80%E7%82%AD%E6%B2%BB%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2662"
+  },
+  {
+    "title": "No. 2663 竈門禰豆子",
+    "id": "2663",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AB%88%E9%96%80%E7%A6%B0%E8%B1%86%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2663"
+  },
+  {
+    "title": "No. 2664 嘴平伊之助",
+    "id": "2664",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%98%B4%E5%B9%B3%E4%BC%8A%E4%B9%8B%E5%8A%A9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2664"
+  },
+  {
+    "title": "No. 2665 我妻善逸",
+    "id": "2665",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%91%E5%A6%BB%E5%96%84%E9%80%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/2665"
+  },
+  {
+    "title": "No. 2666 栗花落香奈乎",
+    "id": "2666",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A0%97%E8%8A%B1%E8%90%BD%E9%A6%99%E5%A5%88%E4%B9%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2666"
+  },
+  {
+    "title": "No. 2667 冨岡義勇",
+    "id": "2667",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A8%E5%B2%A1%E7%BE%A9%E5%8B%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2667"
+  },
+  {
+    "title": "No. 2668 煉獄杏壽郎",
+    "id": "2668",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%85%89%E7%8D%84%E6%9D%8F%E5%A3%BD%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2668"
+  },
+  {
+    "title": "No. 2669 胡蝶忍",
+    "id": "2669",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%83%A1%E8%9D%B6%E5%BF%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/2669"
+  },
+  {
+    "title": "No. 2670 珠世與愈史郎",
+    "id": "2670",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8F%A0%E4%B8%96%E8%88%87%E6%84%88%E5%8F%B2%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2670"
+  },
+  {
+    "title": "No. 2672 錆兎與真菰",
+    "id": "2672",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%8C%86%E5%85%8E%E8%88%87%E7%9C%9F%E8%8F%B0",
+    "linkId": "http://zh.tos.wikia.com/wiki/2672"
+  },
+  {
+    "title": "No. 2673 小禰豆子",
+    "id": "2673",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8F%E7%A6%B0%E8%B1%86%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2673"
+  },
+  {
+    "title": "No. 2674 沼鬼",
+    "id": "2674",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%BC%E9%AC%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2674"
+  },
+  {
+    "title": "No. 2675 手鬼",
+    "id": "2675",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%89%8B%E9%AC%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2675"
+  },
+  {
+    "title": "No. 2681 赤目鬼",
+    "id": "2681",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B5%A4%E7%9B%AE%E9%AC%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2681"
   },
   {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",

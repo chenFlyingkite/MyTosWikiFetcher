@@ -2277,7 +2277,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E4%B9%8B%E6%A0%B8",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有獸類成員時： I. 全隊攻擊力 6 倍、生命力及回復力 1.5 倍 II. 所有符石兼具 50% 其他符石效果 (可疊加)",
+    "skillDesc": "隊中只有獸類成員時： I. 全隊攻擊力 6.5 倍、 生命力及回復力 1.5 倍 II. 所有符石兼具 50% 其他符石效果 III. 消除獸族符石時 ⇒ 全隊攻擊力額外 2 倍",
     "skillMonsters": [
       "2149"
     ]
@@ -26098,7 +26098,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A8%80%E4%B8%96%E5%8A%9B%E9%87%8F",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 水屬性及人類攻擊力 6 倍 II. 必然延長移動符石時間 1 秒 III. 火及木符石兼具 50% 心符石效果 (可疊加) IV. 同時消除水、火、木符石時 ⇒ 個人以 50% 自身攻擊力 追打水、火、木屬性攻擊各 1 次",
+    "skillDesc": "I. 水屬性及人類攻擊力 6.5 倍 II. 必然延長移動符石時間 1 秒 III. 水、火、木符石兼具 ⇒ 50% 心符石效果 IV. 同時消除水、火、木符石 其中 2 種符石時 ⇒ 水屬性及人類攻擊力額外 3 倍 V. 同時消除水、火、木符石時 ⇒ 個人追打水、火、木屬性攻擊各 1 次",
     "skillMonsters": [
       "2081"
     ]
@@ -37065,7 +37065,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E4%B9%8B%E8%8A%B1%E6%B5%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 暗屬性攻擊力 4 倍 II. 回合結束時 ⇒ 將隨機 2 粒暗強化符石旁邊的符石 ⇒ 轉化為暗符石",
+    "skillDesc": "I. 暗屬性攻擊力 4 倍 II. 回合結束時 ⇒ 將隨機 2 粒暗強化符石四周的符石 ⇒ 轉化為暗符石",
     "skillMonsters": [
       "1430",
       "1431"
@@ -37077,7 +37077,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E4%B9%8B%E8%8A%B1%E6%B5%B7_%E2%80%A7_%E7%9B%9B",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 暗屬性攻擊力 6 倍， 生命力及回復力 1.2 倍 II. 回合結束時， 隨機將 3 粒暗強化符石旁邊的符石 ⇒ 轉化為暗神族符石 III. 消除神族符石時 ⇒ 暗屬性攻擊力額外 2.5 倍",
+    "skillDesc": "I. 暗屬性攻擊力 6 倍， 生命力及回復力 1.2 倍 II. 回合結束時， 隨機將 3 粒暗強化符石四周的符石 ⇒ 轉化為暗神族符石 III. 消除神族符石時 ⇒ 暗屬性攻擊力額外 2.5 倍",
     "skillMonsters": [
       "2488"
     ]
