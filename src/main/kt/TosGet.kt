@@ -1439,6 +1439,7 @@ class TosGet {
 
     fun getApiBody(link : String) : String {
         val client = OkHttpClient().newBuilder()
+                .connectTimeout(60, TimeUnit.SECONDS)
                 .readTimeout(120, TimeUnit.SECONDS)
                 .build()
         val request = Request.Builder().url(link).build()

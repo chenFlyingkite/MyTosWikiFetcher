@@ -15894,6 +15894,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2670"
   },
   {
+    "title": "No. 2671 鱗瀧左近次",
+    "id": "2671",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%B1%97%E7%80%A7%E5%B7%A6%E8%BF%91%E6%AC%A1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2671"
+  },
+  {
     "title": "No. 2672 錆兎與真菰",
     "id": "2672",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8C%86%E5%85%8E%E8%88%87%E7%9C%9F%E8%8F%B0",
@@ -15918,9 +15924,21 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2675"
   },
   {
-    "title": "No. 2681 赤目鬼",
+    "title": "No. 2677 響凱",
+    "id": "2677",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9F%BF%E5%87%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2677"
+  },
+  {
+    "title": "No. 2678 累",
+    "id": "2678",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2678"
+  },
+  {
+    "title": "No. 2681 暴眼魔",
     "id": "2681",
-    "link": "https://tos.fandom.com/zh/wiki/%E8%B5%A4%E7%9B%AE%E9%AC%BC",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E7%9C%BC%E9%AD%94",
     "linkId": "http://zh.tos.wikia.com/wiki/2681"
   },
   {
