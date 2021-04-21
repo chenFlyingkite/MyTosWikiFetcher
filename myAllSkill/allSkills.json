@@ -24779,6 +24779,28 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "破壞殺 · 羅針",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%A3%9E%E6%AE%BA_%C2%B7_%E7%BE%85%E9%87%9D",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落固定版面的 五屬強化符石 1 回合內 II. 首批 2 粒相連的符石 可發動消除 III. 首批掉落的符石 ⇒ 必定為水魔族強化符石",
+    "skillMonsters": [
+      "2680"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "破壞殺 · 羅針",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%A3%9E%E6%AE%BA_%C2%B7_%E7%BE%85%E9%87%9D",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落固定版面的五屬符石 2 回合內 II. 自身攻擊 ⓵ 無視「指定形狀盾」 ⓶ 無視敵人防禦力 III. 個人追打 6 次",
+    "skillMonsters": [
+      "2680"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "破壞的力量",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E5%A3%9E%E7%9A%84%E5%8A%9B%E9%87%8F",
@@ -31823,6 +31845,17 @@
     "skillDesc": "I. 引爆心符石 ⇒ 掉落強化符石 1 回合內 II. 身旁成員 ⓵ 攻擊力及回復力 3.5 倍 ⓶ 攻擊無視「攻前盾」",
     "skillMonsters": [
       "2670"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "血鬼術 ‧ 破壞殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E9%AC%BC%E8%A1%93_%E2%80%A7_%E7%A0%B4%E5%A3%9E%E6%AE%BA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 魔族攻擊力 6 倍 II. 其他屬性符石兼具 ⇒ 50% 水符石效果 III. 以「猗窩座」作隊長及戰友， 且隊中沒有隊員 ⇒ 全隊生命力、攻擊力、 回復力額外 5 倍",
+    "skillMonsters": [
+      "2680"
     ]
   },
   {

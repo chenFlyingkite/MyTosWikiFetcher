@@ -15948,6 +15948,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2679"
   },
   {
+    "title": "No. 2680 猗窩座",
+    "id": "2680",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8C%97%E7%AA%A9%E5%BA%A7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2680"
+  },
+  {
     "title": "No. 2681 暴眼魔",
     "id": "2681",
     "link": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E7%9C%BC%E9%AD%94",
