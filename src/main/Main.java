@@ -477,6 +477,11 @@ public class Main {
     private static final TicTac2 clock = new TicTac2();
 }
 /*
+https://docs.google.com/presentation/d/15mSXudFsWko1Cmzdg6O__z1AX_Po4YpcauqPq6T7-xU/edit#slide=id.p
+https://docs.google.com/presentation/d/14rKfhX5e6PvEs4OsdXpwv0DM6rQ97BWTkxrn6tg2Kq8/edit#slide=id.p
+https://docs.google.com/presentation/d/1MMhbJhNe217dmKJmmYr2qxpxfGlxgG-P8IuxevrLC2c/edit#slide=id.p
+*/
+/*
 82 items
 ": GPUImageFilter"
 GPUImage3x3TextureSamplingFilter.h .h D:\Github\GPUImage\framework\Source 5 611 2019/7/23 下午 02:30 2021/3/9 下午 01:56 2019/7/23 下午 02:30 @interface GPUImage3x3TextureSamplingFilter : GPUImageFilter
