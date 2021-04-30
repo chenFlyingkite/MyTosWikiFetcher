@@ -4946,7 +4946,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%88%86%E8%A7%A3_%E2%80%A7_%E7%A0%B4%E5%A3%9E",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "點選元素法陣上的 1 粒符石 I. 引爆所有符石 ⇒ 掉落該種符石以外的符石 2 回合內 II. 該種符石掉落率減至 0 III. 自身攻擊力 2.5 倍",
+    "skillDesc": "點選元素法陣上的 1 粒符石 I. 引爆所有符石 ⇒ 掉落該種符石以外的符石 2 回合內 II. 該種符石掉落率降至 0 III. 自身攻擊力 2.5 倍",
     "skillMonsters": [
       "2346"
     ]
@@ -7501,7 +7501,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%AB%BA%E9%BC%A0%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%85%89",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊中只有獸類成員時： I. 全隊攻擊力 6.5 倍及生命力 1.5 倍 III. 首批消除 ≥2 組符石 ⇒ 全隊攻擊力額外提升 ⇒ 首批消除 6 組可達至最大 4 倍",
+    "skillDesc": "隊中只有獸類成員時： I. 全隊攻擊力 6.5 倍及生命力 1.5 倍 II. 首批消除 ≥2 組符石 ⇒ 全隊攻擊力額外提升 ⇒ 首批消除 6 組可達至最大 4 倍",
     "skillMonsters": [
       "7024"
     ]
@@ -10665,6 +10665,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "心動力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E5%8B%95%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 消除 ≥3 粒心符石 才會發動攻擊和回復 II. 連擊 (Combo) 時回復力提升 120% (效果會在關閉此技能或死亡後消失)",
+    "skillMonsters": [
+      "1989"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "心意傳遞",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E6%84%8F%E5%82%B3%E9%81%9E",
     "skillCDMin": 17,
@@ -12105,6 +12116,17 @@
     "skillDesc": "I. 神族攻擊力 5 倍 II. 生命力全滿時 ⇒ 自身攻擊力額外 6 倍 ⇒ 自身攻擊無視敵人的防禦力 III. 當前生命力大於 80% 時 ⇒ 下一次所受傷害不會使你死亡 (同 1 回合只發動 1 次) IV. 消除 ≥5 連擊 (Combo) ⇒ 回合結束時，完全回復生命力",
     "skillMonsters": [
       "2348"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "攻克無懼",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%94%BB%E5%85%8B%E7%84%A1%E6%87%BC",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中有 ≥3 種屬性成員時： 全隊攻擊力及回復力 3.5 倍",
+    "skillMonsters": [
+      "1989"
     ]
   },
   {
@@ -15954,6 +15976,17 @@
     "skillDesc": "解除機械族成員被封鎖的技能 (此技能無視封鎖技能)。3 回合內，機械族成員的攻擊力及回復力 1.8 倍；發動技能時若所有機械族成員的行動值達至 100%，延長移動符石時間至 15 秒",
     "skillMonsters": [
       "2015"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "機械連動",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%80%A3%E5%8B%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "隊中有 ≥3 個機械族成員時： I. 連擊 (Combo) 時攻擊力提升 30% II. 於回合結束時， 將 3 粒符石轉化為 ⇒ 機械族強化符石 (隊伍成員屬性符石優先轉換) 效果持續至沒有消除機械族符石",
+    "skillMonsters": [
+      "2682"
     ]
   },
   {
@@ -19812,7 +19845,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E7%A5%9E%E7%A5%9E%E6%A8%82",
     "skillCDMin": 12,
     "skillCDMax": 6,
-    "skillDesc": "1 回合內 I. 自身以外成員攻擊力減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊轉化為火屬性 IV. 自身攻擊無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石首批 1 粒 即可發動消除 VI. 首批消除水及火符石愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次",
+    "skillDesc": "1 回合內 I. 自身以外成員攻擊力減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊轉化為火屬性 IV. 自身攻擊無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石首批 1 粒 即可發動消除 VI. 首批消除水及火符石 的組數愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次",
     "skillMonsters": [
       "2662"
     ]
@@ -19823,7 +19856,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E7%A5%9E%E7%A5%9E%E6%A8%82_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": 16,
     "skillCDMax": 10,
-    "skillDesc": "2 回合內 I. 自身以外成員攻擊力減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊轉化為火屬性 IV. 自身攻擊無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石 1 粒 即可發動消除，效果持續至 消除水或火符石達 20 粒 VI. 首批消除水及火符石愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次 VII. 回合結束時， ⇒ 2 回合內自身進入疲憊狀態 發動此技能時需儲滿龍脈儀及 該回合不能發動龍刻脈動",
+    "skillDesc": "2 回合內 I. 自身以外成員攻擊力減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊轉化為火屬性 IV. 自身攻擊無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石 1 粒 即可發動消除，效果持續至 消除水或火符石達 20 粒 VI. 首批消除水及火符石 的組數愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次 VII. 回合結束時， ⇒ 2 回合內自身進入疲憊狀態 發動此技能時需儲滿龍脈儀及 該回合不能發動龍刻脈動",
     "skillMonsters": [
       "2662"
     ]
@@ -28989,6 +29022,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "緋紅之心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B7%8B%E7%B4%85%E4%B9%8B%E5%BF%83",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 全隊攻擊力減少 50% II. 所受傷害減少 50% III. 心符石的掉落率提升 IV. 掉落的心符石 ⇒ 以心強化符石代替 (效果會在再次發動此技能或死亡後消失)",
+    "skillMonsters": [
+      "1988"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "緣來觸電",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B7%A3%E4%BE%86%E8%A7%B8%E9%9B%BB",
     "skillCDMin": 22,
@@ -36373,6 +36417,17 @@
     "skillDesc": "人類及妖精類攻擊力 2.5 倍",
     "skillMonsters": [
       "0479"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "靈息綻放",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E6%81%AF%E7%B6%BB%E6%94%BE",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中有 ≥3 種屬性成員時： I. 全隊攻擊力及回復力 3 倍 II. 每次受到攻擊時 ⇒ 隨機將 2 粒符石轉化為心符石",
+    "skillMonsters": [
+      "1988"
     ]
   },
   {
