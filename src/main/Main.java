@@ -85,11 +85,17 @@ public class Main {
     private static void a() {
         //MainTest.main(null);
     }
+//    for (int i = 0; i < 1234; i++) {
+//        //   1 | 0001 | 1    |
+//        ln("%4d | %04d | %-4d |", i, i, i);
+//    }
 
+    // https://stackoverflow.com/questions/23157653/drawviewhierarchyinrectafterscreenupdates-delays-other-animations
 
     // Fast Contour-Tracing Algorithm Based on a Pixel-Following Method for Image Sensors
     // https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4813928/
     //
+    // https://limnu.com/premultiplied-alpha-primer-artists/
     // https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.1.20.pdf
     private static void matrixMul() {
         double[][] a1 = {
@@ -132,6 +138,22 @@ public class Main {
 
         Matrix b3m = Matrix.multiply(b1m, b2m);
         L.log("b3 = %s", b3m);
+    }
+
+    private static void x() {
+        String src;
+        src = "D:\\ASD\\APNG Tests\\U-2021-03-11.jpg";
+        String dst;
+        dst = "D:\\ASD\\APNG Tests\\U-2021-03-11_2.png";
+        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
+            @Override
+            public int drawAt(int x, int y, int w, int h, int c) {
+                if (MathUtil.isInRange(x, w / 4, w * 3 / 4) && MathUtil.isInRange(y, h / 5, h * 3 / 5)) {
+                    return 0;
+                }
+                return c;
+            }
+        }).into(dst);
     }
 
     private static void b() {
@@ -428,7 +450,8 @@ public class Main {
         }
         p(dirs);
     }
-    // 家有大貓 (Nekojishi) 「舉頭三尺天氣晴」主題曲 完成版 (Fanmade)
+    // https://stackoverflow.com/questions/3387132/how-to-load-and-display-image-in-opengl-es-for-iphone
+    // (Nekojishi) A Sunny Day is Watching over You
     // https://www.youtube.com/watch?v=egAwcvzseeM
     // https://mega.nz/file/UOZ1wJrC#-eCtj4DlZoIyKOI5Ss0fG2d1uWDbUTDOaK6nDOwz1Xo
 
@@ -453,6 +476,11 @@ public class Main {
 
     private static final TicTac2 clock = new TicTac2();
 }
+/*
+https://docs.google.com/presentation/d/15mSXudFsWko1Cmzdg6O__z1AX_Po4YpcauqPq6T7-xU/edit#slide=id.p
+https://docs.google.com/presentation/d/14rKfhX5e6PvEs4OsdXpwv0DM6rQ97BWTkxrn6tg2Kq8/edit#slide=id.p
+https://docs.google.com/presentation/d/1MMhbJhNe217dmKJmmYr2qxpxfGlxgG-P8IuxevrLC2c/edit#slide=id.p
+*/
 /*
 82 items
 ": GPUImageFilter"
