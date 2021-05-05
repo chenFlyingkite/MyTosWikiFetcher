@@ -12,14 +12,23 @@
   #9 = 0579, 眾神紀錄 ‧ 主線第七章下部 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E4%B8%83%E7%AB%A0%E4%B8%8B%E9%83%A8
   #10 = 0196, 眾神紀錄 ‧ 主線第八章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%85%AB%E7%AB%A0
   #11 = 0579, 眾神紀錄 ‧ 主線第九章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E4%B9%9D%E7%AB%A0
-  #12 = 0942, 眾神紀錄 ‧ 絕望之末 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E7%B5%95%E6%9C%9B%E4%B9%8B%E6%9C%AB
-  #13 = 1413, 眾神紀錄 ‧ 主線第一章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E4%B8%80%E7%AB%A0
-  #14 = 0504, 眾神紀錄 ‧ 支線關卡之尋找泥土 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%94%AF%E7%B7%9A%E9%97%9C%E5%8D%A1%E4%B9%8B%E5%B0%8B%E6%89%BE%E6%B3%A5%E5%9C%9F
-  #15 = 0193, 眾神紀錄 ‧ 主線第二章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E4%BA%8C%E7%AB%A0
-  #16 = 0266, 眾神紀錄 ‧ 支線關卡之鑄劍練習 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%94%AF%E7%B7%9A%E9%97%9C%E5%8D%A1%E4%B9%8B%E9%91%84%E5%8A%8D%E7%B7%B4%E7%BF%92
-  #17 = 0619, 眾神紀錄 ‧ 主線第六章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%85%AD%E7%AB%A0
-  #18 = 1993, 眾神紀錄 ‧ 挑戰關卡 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%8C%91%E6%88%B0%E9%97%9C%E5%8D%A1
-  #19 = 1990, 眾神紀錄 ‧ 惡夢夜幕 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%83%A1%E5%A4%A2%E5%A4%9C%E5%B9%95
+  #12 = 2180, 眾神紀錄 ‧ 主線第十章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E7%AB%A0
+  #13 = 2137, 眾神紀錄 ‧ 主線第十一章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0
+  #14 = 0673, 眾神紀錄 ‧ 主線第十二章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E4%BA%8C%E7%AB%A0
+  #15 = 2574, 眾神紀錄 ‧ 主線第十三章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0
+  #16 = 1996, 眾神紀錄 ‧ 主線第十四章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0
+  #17 = 1988, 眾神紀錄 ‧ 主線第十五章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0
+  #18 = 1989, 眾神紀錄 ‧ 主線第十六章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0
+  #19 = 0942, 眾神紀錄 ‧ 絕望之末 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E7%B5%95%E6%9C%9B%E4%B9%8B%E6%9C%AB
+  #20 = 1413, 眾神紀錄 ‧ 主線第一章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E4%B8%80%E7%AB%A0
+  #21 = 0504, 眾神紀錄 ‧ 支線關卡之尋找泥土 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%94%AF%E7%B7%9A%E9%97%9C%E5%8D%A1%E4%B9%8B%E5%B0%8B%E6%89%BE%E6%B3%A5%E5%9C%9F
+  #22 = 0193, 眾神紀錄 ‧ 主線第二章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E4%BA%8C%E7%AB%A0
+  #23 = 0266, 眾神紀錄 ‧ 支線關卡之鑄劍練習 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%94%AF%E7%B7%9A%E9%97%9C%E5%8D%A1%E4%B9%8B%E9%91%84%E5%8A%8D%E7%B7%B4%E7%BF%92
+  #24 = 0619, 眾神紀錄 ‧ 主線第六章 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E4%B8%BB%E7%B7%9A%E7%AC%AC%E5%85%AD%E7%AB%A0
+  #25 = 1993, 眾神紀錄 ‧ 挑戰關卡 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%8C%91%E6%88%B0%E9%97%9C%E5%8D%A1
+  #26 = 1988, 命與炎之纏繞 Extra -> https://tos.fandom.com/zh/wiki/%E5%91%BD%E8%88%87%E7%82%8E%E4%B9%8B%E7%BA%8F%E7%B9%9E_Extra
+  #27 = 1989, 黑巫女之歿世 Extra -> https://tos.fandom.com/zh/wiki/%E9%BB%91%E5%B7%AB%E5%A5%B3%E4%B9%8B%E6%AD%BF%E4%B8%96_Extra
+  #28 = 1990, 眾神紀錄 ‧ 惡夢夜幕 -> https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E7%B4%80%E9%8C%84_%E2%80%A7_%E6%83%A1%E5%A4%A2%E5%A4%9C%E5%B9%95
 ]
   -> #1  : 
   [英靈時代 > 
