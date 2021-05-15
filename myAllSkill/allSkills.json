@@ -24718,6 +24718,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "真龍不滅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9C%9F%E9%BE%8D%E4%B8%8D%E6%BB%85",
+    "skillCDMin": 21,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 自身不能發動攻擊 II. 以所受傷害 1500 倍 ⇒ 對敵方攻擊者進行 相剋屬性反擊 (此傷害無視防禦力及 「強化突破」敵技) III. 若隊長及戰友為龍類時 ⇒本回合所受傷害不會使你死亡",
+    "skillMonsters": [
+      "7020"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "真龍之淚",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9C%9F%E9%BE%8D%E4%B9%8B%E6%B7%9A",
@@ -33646,6 +33657,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "逆龍浩劫",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%86%E9%BE%8D%E6%B5%A9%E5%8A%AB",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 儲滿龍脈儀 1 回合內 II. 自身攻擊力 10 倍 III. 自身無視敵人防禦力 IV. 自身無視「三屬盾」 V.「龍類及獸類」以外成員 ⇒ 3 回合內不能發動攻擊",
+    "skillMonsters": [
+      "7020"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "逍遙之志",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%8D%E9%81%99%E4%B9%8B%E5%BF%97",
     "skillCDMin": 21,
@@ -40137,6 +40159,17 @@
     "skillDesc": "I. 解除龍類成員被封鎖的技能 (此技能無視封鎖技能) 1 回合內 II. 龍類攻擊力 2.5 倍 III.「燃燒」敵技的傷害 ⇒ 轉化為我方生命力 IV. 消除龍族符石時 ⇒ 龍類成員的攻擊無視「固定連擊盾」",
     "skillMonsters": [
       "1868"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "龍力巔峰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%8A%9B%E5%B7%94%E5%B3%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將最底 1 橫行的符石 ⇒ 轉化為水龍族符石 II. 回合結束時 ⇒ 將最底 1 橫行的符石 轉化為水龍族符石 2 回合內 III. 隊中攻擊力最高 (最左方) 的 1 個龍類成員 ⇒ 攻擊力基值提升 4000 點",
+    "skillMonsters": [
+      "2695"
     ]
   },
   {

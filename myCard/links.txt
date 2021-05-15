@@ -14874,6 +14874,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2490"
   },
   {
+    "title": "No. 2491 迴撼破空 ‧ 基斯",
+    "id": "2491",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BF%B4%E6%92%BC%E7%A0%B4%E7%A9%BA_%E2%80%A7_%E5%9F%BA%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2491"
+  },
+  {
     "title": "No. 2492 烙刃破空 ‧ 基斯",
     "id": "2492",
     "link": "https://tos.fandom.com/zh/wiki/%E7%83%99%E5%88%83%E7%A0%B4%E7%A9%BA_%E2%80%A7_%E5%9F%BA%E6%96%AF",
@@ -16060,6 +16066,12 @@
     "id": "2694",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%A4%BE%E5%9C%9F%E5%81%B6",
     "linkId": "http://zh.tos.wikia.com/wiki/2694"
+  },
+  {
+    "title": "No. 2695 北海龍王 ‧ 敖吉",
+    "id": "2695",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8C%97%E6%B5%B7%E9%BE%8D%E7%8E%8B_%E2%80%A7_%E6%95%96%E5%90%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2695"
   },
   {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
@@ -18648,6 +18660,30 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6495"
   },
   {
+    "title": "S499 大正風情 ‧ 英格麗",
+    "id": "6499",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E6%AD%A3%E9%A2%A8%E6%83%85_%E2%80%A7_%E8%8B%B1%E6%A0%BC%E9%BA%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/6499"
+  },
+  {
+    "title": "S500 傾杯悼念 ‧ 酒吞童子",
+    "id": "6500",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%82%BE%E6%9D%AF%E6%82%BC%E5%BF%B5_%E2%80%A7_%E9%85%92%E5%90%9E%E7%AB%A5%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/6500"
+  },
+  {
+    "title": "S501 豪拳相送 ‧ 本多忠勝",
+    "id": "6501",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B1%AA%E6%8B%B3%E7%9B%B8%E9%80%81_%E2%80%A7_%E6%9C%AC%E5%A4%9A%E5%BF%A0%E5%8B%9D",
+    "linkId": "http://zh.tos.wikia.com/wiki/6501"
+  },
+  {
+    "title": "S502 少華鈞天 ‧ 華曦(動態造型)",
+    "id": "6502",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B0%91%E8%8F%AF%E9%88%9E%E5%A4%A9_%E2%80%A7_%E8%8F%AF%E6%9B%A6(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
+    "linkId": "http://zh.tos.wikia.com/wiki/6502"
+  },
+  {
     "title": "P1 火慾母神 ‧ 莎布尼古拉絲",
     "id": "7001",
     "link": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E6%85%BE%E6%AF%8D%E7%A5%9E_%E2%80%A7_%E8%8E%8E%E5%B8%83%E5%B0%BC%E5%8F%A4%E6%8B%89%E7%B5%B2",
@@ -18760,6 +18796,12 @@
     "id": "7019",
     "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%A7%81%E5%8A%8D%E5%A3%AB_%E2%80%A7_%E7%9A%93%E6%9C%88",
     "linkId": "http://zh.tos.wikia.com/wiki/7019"
+  },
+  {
+    "title": "P20 勢如破竹 ‧ 光夏",
+    "id": "7020",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8B%A2%E5%A6%82%E7%A0%B4%E7%AB%B9_%E2%80%A7_%E5%85%89%E5%A4%8F",
+    "linkId": "http://zh.tos.wikia.com/wiki/7020"
   },
   {
     "title": "P21 貓咪救出 ‧ 阿比",

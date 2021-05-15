@@ -672,7 +672,9 @@ class TosGet {
                     rs.icon = getAltId(ej)
 
                     var coin = ""
-                    if (i == 0) {
+                    // 0 for 遠古遺跡, 3 for 活動遺跡
+                    var use3 = i == 0 || i == 3
+                    if (use3) {
                         // 200_000
                         coin = td[3].text()
                     } else {

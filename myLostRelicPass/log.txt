@@ -1,4 +1,4 @@
-5 pages
+6 pages
 #0
   -> # 0  $200000 = 0481, 遺跡特許 ‧ 命運少女史 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%91%BD%E9%81%8B%E5%B0%91%E5%A5%B3%E5%8F%B2
   -> # 1  $200000 = 0686, 遺跡特許 ‧ 鎧之魂 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E9%8E%A7%E4%B9%8B%E9%AD%82
@@ -151,6 +151,12 @@
   -> #95  $200000 = 1305, 遺跡特許 ‧ 新金屬時代 ‧ 暗 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%96%B0%E9%87%91%E5%B1%AC%E6%99%82%E4%BB%A3_%E2%80%A7_%E6%9A%97
   -> #96  $200000 = 1588, 遺跡特許 ‧ 致命的麻糬 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E8%87%B4%E5%91%BD%E7%9A%84%E9%BA%BB%E7%B3%AC
 #3
+  -> # 0  $250000 = 1490, 遺跡特許 ‧ 掙脫狂者的支配 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%8E%99%E8%84%AB%E7%8B%82%E8%80%85%E7%9A%84%E6%94%AF%E9%85%8D
+  -> # 1  $250000 = 1622, 遺跡特許 ‧ 絕壁的防守 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%B5%95%E5%A3%81%E7%9A%84%E9%98%B2%E5%AE%88
+  -> # 2  $250000 = 1694, 遺跡特許 ‧ 疾速如風 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%96%BE%E9%80%9F%E5%A6%82%E9%A2%A8
+  -> # 3  $250000 = 7013, 遺跡特許 ‧ 修羅共聚 1 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E4%BF%AE%E7%BE%85%E5%85%B1%E8%81%9A_1
+  -> # 4  $250000 = 1655, 遺跡特許 ‧ 修羅共聚 2 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E4%BF%AE%E7%BE%85%E5%85%B1%E8%81%9A_2
+#4
   -> # 0  $500000 = 0561, 遺跡特許 ‧ 無貌之神的誓約 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%84%A1%E8%B2%8C%E4%B9%8B%E7%A5%9E%E7%9A%84%E8%AA%93%E7%B4%84
   -> # 1  $500000 = 0876, 遺跡特許 ‧ 實現願望的代價 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E5%AF%A6%E7%8F%BE%E9%A1%98%E6%9C%9B%E7%9A%84%E4%BB%A3%E5%83%B9
   -> # 2  $500000 = 1020, 遺跡特許 ‧ 異變的永生 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%95%B0%E8%AE%8A%E7%9A%84%E6%B0%B8%E7%94%9F
@@ -184,7 +190,7 @@
   -> #30  $250000 = 1753, 遺跡特許 ‧ 磅礴於天地之間 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%A3%85%E7%A4%B4%E6%96%BC%E5%A4%A9%E5%9C%B0%E4%B9%8B%E9%96%93
   -> #31  $250000 = 1754, 遺跡特許 ‧ 硯淬墨濃護仙境 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%A1%AF%E6%B7%AC%E5%A2%A8%E6%BF%83%E8%AD%B7%E4%BB%99%E5%A2%83
   -> #32  $250000 = 1755, 遺跡特許 ‧ 靜謐中覓路尋道 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E9%9D%9C%E8%AC%90%E4%B8%AD%E8%A6%93%E8%B7%AF%E5%B0%8B%E9%81%93
-#4
+#5
   -> # 0  $200000 = 0401, 遺跡特許 ‧ 星詠之歌姬 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%98%9F%E8%A9%A0%E4%B9%8B%E6%AD%8C%E5%A7%AC
   -> # 1  $200000 = 0785, 遺跡特許 ‧ 海浪八音盒 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E6%B5%B7%E6%B5%AA%E5%85%AB%E9%9F%B3%E7%9B%92
   -> # 2  $200000 = 0787, 遺跡特許 ‧ 焚風自鳴琴 -> https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1_%E2%80%A7_%E7%84%9A%E9%A2%A8%E8%87%AA%E9%B3%B4%E7%90%B4
