@@ -37,6 +37,7 @@ import main.fetcher.YahooStockFetcher;
 import main.kt.CopyInfo;
 
 import java.awt.AWTException;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -46,9 +47,11 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch();
+        //TosCardExtras.me.run();
+        //fetch();
         //copyToMyTosWiki();
         //enterUID();
+        enterTemp();
 
         //MyTosWikiFirebase.run();
 
@@ -402,6 +405,39 @@ public class Main {
             e.printStackTrace();
         }
     }
+
+    private static void enterTemp() {
+        // In macOS, after we start, we still need to click on the text field to let it enters
+        try {
+            boolean isClockOut = false;
+            int type = 0;  // forehead = 0, ear = 1, other = 2
+
+            Robot2 r = new Robot2();
+            r.delay(5_000);
+            r.type("36.5");
+            // Forehead temperature, Ear temperature  Others
+            r.keyClick(KeyEvent.VK_TAB);
+            if (type == 1) {
+                r.keyClick(KeyEvent.VK_RIGHT);
+            }
+            r.keyClick(KeyEvent.VK_SPACE);
+            // syndromes
+            r.keyClick(KeyEvent.VK_TAB);
+            r.keyClick(KeyEvent.VK_SPACE);
+            r.keyClick(KeyEvent.VK_TAB);
+            r.keyClick(KeyEvent.VK_SPACE);
+            r.keyClick(KeyEvent.VK_TAB);
+            r.keyClick(KeyEvent.VK_SPACE);
+            r.keyClick(KeyEvent.VK_TAB);
+            if (isClockOut) {
+                r.keyClick(KeyEvent.VK_TAB);
+            }
+            r.keyClick(KeyEvent.VK_SPACE);
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     private static String[] envDirs() {
         return new String[] {

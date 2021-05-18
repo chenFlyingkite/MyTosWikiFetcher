@@ -4932,6 +4932,33 @@
     }
   },
   {
+    "idNorm": "7022",
+    "name": "【7022】 遙之赤琴龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907022%E3%80%91_%E9%81%99%E4%B9%8B%E8%B5%A4%E7%90%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b6/C7022.png/revision/latest/scale-to-width-down/60?cb\u003d20201005034940\u0026path-prefix\u003dzh",
+      "iconKey": "C7022.png"
+    }
+  },
+  {
+    "idNorm": "7023",
+    "name": "【7023】 遙之赤琴龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907023%E3%80%91_%E9%81%99%E4%B9%8B%E8%B5%A4%E7%90%B4%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d1/C7023.png/revision/latest/scale-to-width-down/60?cb\u003d20201005034940\u0026path-prefix\u003dzh",
+      "iconKey": "C7023.png"
+    }
+  },
+  {
+    "idNorm": "7024",
+    "name": "【7024】 遙之赤琴龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907024%E3%80%91_%E9%81%99%E4%B9%8B%E8%B5%A4%E7%90%B4%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/ec/C7024.png/revision/latest/scale-to-width-down/60?cb\u003d20210517153530\u0026path-prefix\u003dzh",
+      "iconKey": "C7024.png"
+    }
+  },
+  {
     "idNorm": "7031",
     "name": "【7031】 聖翼之鈴龍咒",
     "link": "https://tos.fandom.com/zh/wiki/%E3%80%907031%E3%80%91_%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E5%92%92",
@@ -5010,6 +5037,15 @@
     "icon": {
       "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2c/C7042.png/revision/latest/scale-to-width-down/60?cb\u003d20181027151623\u0026path-prefix\u003dzh",
       "iconKey": "C7042.png"
+    }
+  },
+  {
+    "idNorm": "7043",
+    "name": "【7043】 動之輪鈸龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907043%E3%80%91_%E5%8B%95%E4%B9%8B%E8%BC%AA%E9%88%B8%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5b/C7043.png/revision/latest/scale-to-width-down/60?cb\u003d20201218055431\u0026path-prefix\u003dzh",
+      "iconKey": "C7043.png"
     }
   },
   {
