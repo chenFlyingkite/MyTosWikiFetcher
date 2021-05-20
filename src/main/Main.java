@@ -47,11 +47,10 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        //TosCardExtras.me.run();
-        //fetch();
+        fetch();
         //copyToMyTosWiki();
         //enterUID();
-        enterTemp();
+        //enterTemp();
 
         //MyTosWikiFirebase.run();
 
@@ -81,7 +80,7 @@ public class Main {
         //new LeetCode().run();
         //PngCreator.me.moveImage();
         //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01"); // windows
-        //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/S_01"); // mac mini
+        //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/PHD_M03"); // mac mini
         a();
     }
 
@@ -143,6 +142,7 @@ public class Main {
         L.log("b3 = %s", b3m);
     }
 
+    // https://davidmz.github.io/apng-js/
     private static void x() {
         String src;
         src = "D:\\ASD\\APNG Tests\\U-2021-03-11.jpg";
@@ -409,12 +409,12 @@ public class Main {
     private static void enterTemp() {
         // In macOS, after we start, we still need to click on the text field to let it enters
         try {
-            boolean isClockOut = false;
+            boolean isClockOut = 0 > 0;
             int type = 0;  // forehead = 0, ear = 1, other = 2
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.5");
+            r.type("36.6");
             // Forehead temperature, Ear temperature  Others
             r.keyClick(KeyEvent.VK_TAB);
             if (type == 1) {

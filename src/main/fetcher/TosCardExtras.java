@@ -38,6 +38,8 @@ public class TosCardExtras extends TosWikiBaseFetcher {
 
         fetchAllMaxBonus();
         //fetchAllMaxBonusTryMultithread();
+        // in Mac mini, it can only have 2048 thread, so will fails on multithread
+        // [36.320s][warning][os,thread] Failed to start thread - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.
 
         //loadAllMaxBonus();
     }

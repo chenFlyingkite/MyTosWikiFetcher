@@ -1439,23 +1439,24 @@ class TosGet {
         return src
     }
 
+    private val mainClient = OkHttpClient().newBuilder()
+        .connectTimeout(60, TimeUnit.SECONDS)
+        .readTimeout(120, TimeUnit.SECONDS)
+        .build()
     fun getApiBody(link : String) : String {
-        val client = OkHttpClient().newBuilder()
-                .connectTimeout(60, TimeUnit.SECONDS)
-                .readTimeout(120, TimeUnit.SECONDS)
-                .build()
-        val request = Request.Builder().url(link).build()
+        val t = TicTac2()
+        val client = mainClient
+        val request = Request.Builder().url(link).build() // need longer for first time
         var answer = ""
         try {
-            val t = TicTac2()
             t.tic()
-            val response = client.newCall(request).execute()
-            val body = response.body()
+            val response = client.newCall(request).execute() // 99% time
+            val body = response.body() // fast
             answer = body?.string() ?: ""
             t.tac("Done ${link}")
         } catch (e : IOException) {
             e.printStackTrace()
         }
-        return answer;
+        return answer
     }
 }
