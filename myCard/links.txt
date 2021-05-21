@@ -18846,6 +18846,48 @@
     "linkId": "http://zh.tos.wikia.com/wiki/7027"
   },
   {
+    "title": "G28 哥吉拉",
+    "id": "7028",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%93%A5%E5%90%89%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/7028"
+  },
+  {
+    "title": "G29 力多爾哥吉拉",
+    "id": "7029",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8A%9B%E5%A4%9A%E7%88%BE%E5%93%A5%E5%90%89%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/7029"
+  },
+  {
+    "title": "G30 拉頓",
+    "id": "7030",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8B%89%E9%A0%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/7030"
+  },
+  {
+    "title": "G31 摩斯拉",
+    "id": "7031",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%91%A9%E6%96%AF%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/7031"
+  },
+  {
+    "title": "G32 王者基多拉",
+    "id": "7032",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8E%8B%E8%80%85%E5%9F%BA%E5%A4%9A%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/7032"
+  },
+  {
+    "title": "G33 機械哥吉拉",
+    "id": "7033",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E5%93%A5%E5%90%89%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/7033"
+  },
+  {
+    "title": "G34 哥吉拉幣",
+    "id": "7034",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%93%A5%E5%90%89%E6%8B%89%E5%B9%A3",
+    "linkId": "http://zh.tos.wikia.com/wiki/7034"
+  },
+  {
     "title": "V1 烏蘇拉",
     "id": "8001",
     "link": "https://tos.fandom.com/zh/wiki/%E7%83%8F%E8%98%87%E6%8B%89",
