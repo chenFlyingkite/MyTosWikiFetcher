@@ -5,6 +5,7 @@ import flyingkite.files.FileUtil;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.create.PngCreateRequest;
 import flyingkite.javaxlibrary.images.create.PngCreator;
+import flyingkite.javaxlibrary.images.resize.PngResizer;
 import flyingkite.log.L;
 import flyingkite.math.MathUtil;
 import flyingkite.math.Matrix;
@@ -39,6 +40,7 @@ import main.kt.CopyInfo;
 import java.awt.AWTException;
 import java.awt.event.KeyEvent;
 import java.io.File;
+import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -48,7 +50,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch();
+        //fetch();
         //copyToMyTosWiki();
         //enterUID();
         //enterTemp();
@@ -188,57 +190,48 @@ public class Main {
         }).into(dst);
     }
 
-    private static void b() {
-        String src;
-        src = "D:\\PhotoDirector_iOS\\Main_01\\PhotoDirector\\PhotoDirector\\Resource\\SkyReplacementPacks\\b14cad52-3a61-4487-bc3b-745e2a376966\\ddfd8d19-176e-45c4-94cb-c6856c7c3f1e\\sky.jpg";
-        String dst;
-        dst = "D:\\ASD\\APNG Tests\\sky2.png";
-        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
-            @Override
-            public int drawAt(int x, int y, int w, int h, int c) {
-                if (MathUtil.isInRange(x, w / 4, w * 3 / 4) && y < h * 3 / 4) {
-                    return 0;
-                }
-                return c;
+    private static void make1x2x() {
+        // make Photo director images,
+        // given 3x image, make it of 1x, 2x
+        String root = "/Users/ericchen/Desktop/SVNs/PHD_iOS/PHD_M03/PhotoDirector/PhotoDirector/";
+        root += "/Images.xcassets/";
+        //root += "/Image/";
+        // images path to from 3x
+        String[] path3x = {
+                "animatedSticker/btn_animated-decor_n.imageset/btn_animated-decor_n@3x.png",
+                "animatedSticker/btn_animated-decor_p.imageset/btn_animated-decor_p@3x.png",
+                "Surreal/btn_surreal_n.imageset/btn_surreal_n@3x.png",
+                "Surreal/btn_surreal_s.imageset/btn_surreal_s@3x.png",
+                "Surreal/btn_surreal_p.imageset/btn_surreal_p@3x.png",
+                "SkyReplacement/Icons/btn_sky_n.imageset/btn_sky_n@3x.png",
+                "SkyReplacement/Icons/btn_sky_p.imageset/btn_sky_p@3x.png",
+                "SkyReplacement/Icons/btn_sky_s.imageset/btn_sky_s@3x.png",
+                "photoAnimation/btn_photo_animation_n.imageset/btn_photo_animation_n@3x.png",
+                "photoAnimation/btn_photo_animation_p.imageset/btn_photo_animation_p@3x.png",
+                "photoAnimation/btn_photo_animation_s.imageset/btn_photo_animation_s@3x.png",
+                "cutout/btn_cutout_basic_n.imageset/btn_cutout_basic_n@3x.png",
+                "cutout/btn_cutout_basic_p.imageset/btn_cutout_basic_p@3x.png",
+                "cutout/btn_cutout_basic_s.imageset/btn_cutout_basic_s@3x.png",
+                "addLayer/add_layer_btn_add_image_n.imageset/add_layer_btn_add_image_n@3x.png",
+                "addLayer/add_layer_btn_add_image_s.imageset/add_layer_btn_add_image_s@3x.png",
+        };
+        for (int i = 0; i < path3x.length; i++) {
+            String src = root + path3x[i];
+            File f = new File(src);
+            if (f.exists()) {
+                String dst;
+                dst = src.replace("@3x", "@1x");
+                PngResizer.from(new PngParam(f).size(33, 33)).into(dst);
+                ln("OK : %s", dst);
+                dst = src.replace("@3x", "@2x");
+                PngResizer.from(new PngParam(f).size(65, 65)).into(dst);
+                ln("OK : %s", dst);
             }
-        }).into(dst);
-        dst = "D:\\ASD\\APNG Tests\\skyV.png";
-        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
-            @Override
-            public int drawAt(int x, int y, int w, int h, int c) {
-                if (MathUtil.isInRange(y, h / 4, h * 3 / 4)) {
-                    return 0;
-                }
-                return c;
-            }
-        }).into(dst);
-        src = "D:\\ASD\\APNG Tests\\0225\\BG.jpg";
-        dst = "D:\\ASD\\APNG Tests\\user.png";
-        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
-            @Override
-            public int drawAt(int x, int y, int w, int h, int c) {
-                if (MathUtil.isInRange(y, h / 6, h * 5 / 6) && MathUtil.isInRange(x, w / 4, w * 3 / 4)) {
-                    return c;
-                }
-                return 0;
-            }
-        }).into(dst);
-        src = "D:\\ASD\\APNG Tests\\0225\\BG.jpg";
-        dst = "D:\\ASD\\APNG Tests\\mask2.png";
-        PngCreator.from(new PngParam(src)).replace(new PngCreateRequest.ColorSelector() {
-            @Override
-            public int drawAt(int x, int y, int w, int h, int c) {
-                if (MathUtil.isInRange(y, 0, h / 2)) {
-                    return 0xFFFFFFFF;
-                }
-                return 0;
-            }
-        }).into(dst);
+        }
     }
 
-
     private static void fetch() {
-        TosCardExtras.me.run(); // Almost 460ms * 2500 cards = 20min
+        TosCardExtras.me.run(); // Almost 250ms * 3200 cards = 15min
         fetchMisc();
         fetchCards();
     }
