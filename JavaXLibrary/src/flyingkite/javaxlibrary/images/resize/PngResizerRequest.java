@@ -32,6 +32,9 @@ public class PngResizerRequest extends PngRequest {
         }
     }
 
+    /**
+     * Given resize long side and keep aspect ratio
+     */
     public PngResizerRequest longSide(int wide) {
         int w = srcImg.getWidth();
         int h = srcImg.getHeight();

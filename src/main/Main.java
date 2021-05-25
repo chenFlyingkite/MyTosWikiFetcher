@@ -40,7 +40,6 @@ import main.kt.CopyInfo;
 import java.awt.AWTException;
 import java.awt.event.KeyEvent;
 import java.io.File;
-import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -53,7 +52,7 @@ public class Main {
         //fetch();
         //copyToMyTosWiki();
         //enterUID();
-        //enterTemp();
+        enterTemperature();
 
         //MyTosWikiFirebase.run();
 
@@ -91,7 +90,7 @@ public class Main {
         //MainTest.main(null);
     }
 
-    private static void enterTemp() {
+    private static void enterTemperature() {
         // In macOS, after we start, we still need to click on the text field to let it enters
         try {
             boolean isClockOut = 0 > 0;
@@ -99,7 +98,7 @@ public class Main {
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.3");
+            r.type("36.6");
             // Forehead temperature, Ear temperature  Others
             r.keyClick(KeyEvent.VK_TAB);
             if (type == 1) {
@@ -190,41 +189,42 @@ public class Main {
         }).into(dst);
     }
 
+    // resize
     private static void make1x2x() {
         // make Photo director images,
         // given 3x image, make it of 1x, 2x
         String root = "/Users/ericchen/Desktop/SVNs/PHD_iOS/PHD_M03/PhotoDirector/PhotoDirector/";
-        root += "/Images.xcassets/";
-        //root += "/Image/";
+        //root += "/Images.xcassets/";
+        root += "/Images/edit/";
         // images path to from 3x
         String[] path3x = {
-                "animatedSticker/btn_animated-decor_n.imageset/btn_animated-decor_n@3x.png",
-                "animatedSticker/btn_animated-decor_p.imageset/btn_animated-decor_p@3x.png",
-                "Surreal/btn_surreal_n.imageset/btn_surreal_n@3x.png",
-                "Surreal/btn_surreal_s.imageset/btn_surreal_s@3x.png",
-                "Surreal/btn_surreal_p.imageset/btn_surreal_p@3x.png",
-                "SkyReplacement/Icons/btn_sky_n.imageset/btn_sky_n@3x.png",
-                "SkyReplacement/Icons/btn_sky_p.imageset/btn_sky_p@3x.png",
-                "SkyReplacement/Icons/btn_sky_s.imageset/btn_sky_s@3x.png",
-                "photoAnimation/btn_photo_animation_n.imageset/btn_photo_animation_n@3x.png",
-                "photoAnimation/btn_photo_animation_p.imageset/btn_photo_animation_p@3x.png",
-                "photoAnimation/btn_photo_animation_s.imageset/btn_photo_animation_s@3x.png",
-                "cutout/btn_cutout_basic_n.imageset/btn_cutout_basic_n@3x.png",
-                "cutout/btn_cutout_basic_p.imageset/btn_cutout_basic_p@3x.png",
-                "cutout/btn_cutout_basic_s.imageset/btn_cutout_basic_s@3x.png",
-                "addLayer/add_layer_btn_add_image_n.imageset/add_layer_btn_add_image_n@3x.png",
-                "addLayer/add_layer_btn_add_image_s.imageset/add_layer_btn_add_image_s@3x.png",
+                "btn_2lv_font_n@3x.png",
+                "btn_2lv_font_n@3x.png",
+                "btn_2lv_font_n@3x.png",
+                "btn_2lv_font_p@3x.png",
+                "btn_2lv_font_p@3x.png",
+                "btn_2lv_font_p@3x.png",
+                "btn_2lv_font_s@3x.png",
+                "btn_2lv_font_s@3x.png",
+                "btn_2lv_font_s@3x.png",
         };
         for (int i = 0; i < path3x.length; i++) {
             String src = root + path3x[i];
             File f = new File(src);
             if (f.exists()) {
                 String dst;
-                dst = src.replace("@3x", "@1x");
-                PngResizer.from(new PngParam(f).size(33, 33)).into(dst);
-                ln("OK : %s", dst);
-                dst = src.replace("@3x", "@2x");
-                PngResizer.from(new PngParam(f).size(65, 65)).into(dst);
+                if (i % 3 == 0) {
+                    dst = src.replace("font_", "font2_");
+                    dst = dst.replace("@3x", "@1x");
+                    PngResizer.from(new PngParam(f).size(33, 33)).into(dst);
+                } else if (i % 3 == 1) {
+                    dst = src.replace("font_", "font2_");
+                    dst = dst.replace("@3x", "@2x");
+                    PngResizer.from(new PngParam(f).size(65, 65)).into(dst);
+                } else {
+                    dst = src.replace("font_", "font2_");
+                    PngResizer.from(new PngParam(f).size(110, 110)).into(dst);
+                }
                 ln("OK : %s", dst);
             }
         }
