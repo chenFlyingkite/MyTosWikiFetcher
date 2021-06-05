@@ -202,6 +202,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "一鼓之志",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%80%E9%BC%93%E4%B9%8B%E5%BF%97",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 隊長及戰友攻擊力 2.5 倍 II. 將移動符石時觸碰的首 6 粒符石 ⇒ 轉化為心強化符石 III. 若首批消除 ≥8 粒心符石 ⇒ 該回合不會扣減技能持續回合",
+    "skillMonsters": [
+      "2659"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "七星劍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%83%E6%98%9F%E5%8A%8D",
     "skillCDMin": 18,
@@ -2303,6 +2314,17 @@
     "skillDesc": "I. 消除所有附加效果 1 回合內 II. 將移動符石時觸碰的首 6 粒符石 ⇒ 轉化為自身屬性符石",
     "skillMonsters": [
       "20001"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "元素共生",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%85%B1%E7%94%9F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 7 倍及生命力 1.5 倍 II. 龍類及獸類成員攻擊力則 28 倍、 生命力則 3 倍 III. 火、光、暗、心符石 ⇒ 互相兼具 50% 效果",
+    "skillMonsters": [
+      "2660"
     ]
   },
   {
@@ -6174,6 +6196,17 @@
     "skillDesc": "3 回合內，水屬性及妖精類攻擊力 1.5 倍；水屬性妖精攻擊力提升至 2.25 倍。發動技能時若生命力未滿，效果持續期間每回合回復 8000 點生命力",
     "skillMonsters": [
       "1586"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "吞噬虛弱",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E5%99%AC%E8%99%9B%E5%BC%B1",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "2 回合內 I. 全體敵人的攻擊力弱化 70% II. 期間所有減傷效果無效 III. 若隊長是人類、龍類或獸類 ⇒ 無視「燃燒」敵技 (不包括「煉獄之火」)",
+    "skillMonsters": [
+      "2685"
     ]
   },
   {
@@ -32505,6 +32538,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "詭惑秘術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A9%AD%E6%83%91%E7%A7%98%E8%A1%93",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除龍類及獸類成員被封鎖的技能 (此技能無視封鎖技能) II. 移除所有符石 ⇒ 掉落心強化符石 1 回合內 III. 所有符石兼具 ⇒ 200% 其他符石效果 IV. 若隊中有 ≥2 個龍類或獸類成員 ⓵ 全隊攻擊力及回復力 2.5 倍 ⓶ 全隊無視「指定形狀盾」",
+    "skillMonsters": [
+      "2660"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "誅殺之魅",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AA%85%E6%AE%BA%E4%B9%8B%E9%AD%85",
     "skillCDMin": 15,
@@ -33126,6 +33170,28 @@
     "skillDesc": "超必殺忍蜂： 將所有符石轉化為固定數量的火強化、木強化、暗強化及心強化符石",
     "skillMonsters": [
       "1576"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "超武爆碎斧",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E6%AD%A6%E7%88%86%E7%A2%8E%E6%96%A7",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆光及暗符石 ⇒ 掉落「光及暗」以外 的獸族符石 1 回合內 II. 增加 8 連擊 (Combo) III. 若上述引爆符石數量達 9 粒 ⇒ 自身技能 CD -4",
+    "skillMonsters": [
+      "2696"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "超武爆碎斧",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E6%AD%A6%E7%88%86%E7%A2%8E%E6%96%A7",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆水、火、木符石 ⇒ 掉落「光、暗、心」獸族符石 II. 延遲全體敵人行動 2 回合 III. 若上述引爆符石數量達 14 粒 ⇒ 自身技能 CD -2",
+    "skillMonsters": [
+      "2696"
     ]
   },
   {

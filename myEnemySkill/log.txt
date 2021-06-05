@@ -5124,7 +5124,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  攻前盾 ‧ 攻後3重時間黑洞3秒 ‧ 9+Combo盾 ‧ 無視減傷 : [0]  ->  ->  -> 
 --  #{{ES5024}}  5025 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5024?action=edit
 --  #攻前盾 ‧ 軌跡燃燒2000 ‧ 首消8Combo盾 ‧ 無視減傷  E : [0]  ->  ->  -> 
---  #5026  {{ES5026}} : [0]  -> 攻前盾 ‧ 軌跡燃燒5000 ‧ 首消8Combo盾 ‧ 無視減傷 -> <font color=#FFFF3C>【攻前盾 ‧ 燃燒之軌 5000 ‧ 指定 8 連擊盾 ‧ 防禦崩壞】</font><br><br>敵人無視任何攻擊傷害，<br>直至敵人第 1 次攻擊。<br><br>燃燒移動符石時觸碰的位置<br>每觸碰被燃燒的位置，<br>對召喚師造成 5000 點傷害。<br><br>首批消除 8 連擊 (Combo)<br>才會對敵人造成攻擊傷害。<br><br>無視所有減傷效果和<br>意志技能。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5026
+--  #5026  {{ES5026}} : [4]  -> 攻前盾 ‧ 軌跡燃燒5000 ‧ 首消8Combo盾 ‧ 無視減傷 -> <font color=#FFFF3C>【攻前盾 ‧ 燃燒之軌 5000 ‧ 指定 8 連擊盾 ‧ 防禦崩壞】</font><br><br>敵人無視任何攻擊傷害，<br>直至敵人第 1 次攻擊。<br><br>燃燒移動符石時觸碰的位置<br>每觸碰被燃燒的位置，<br>對召喚師造成 5000 點傷害。<br><br>首批消除 8 連擊 (Combo)<br>才會對敵人造成攻擊傷害。<br><br>無視所有減傷效果和<br>意志技能。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5026
 --  #E  50擊盾 ‧ 受傷連續反饋100% ‧ 始終盾 ‧ 無法控制 : [0]  ->  ->  -> 
 --  #{{ES5027}}  5028 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5027?action=edit
 --  #50擊盾 ‧ 受傷連續反饋100% ‧ 2顆電擊 ‧ 無法控制  E : [0]  ->  ->  -> 
@@ -5161,27 +5161,27 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES5051}}  5052 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5051?action=edit
 --  #雙重角色符石地型 ‧ 反擊40000 ‧ 無視減傷  E : [0]  ->  ->  -> 
 --  #5053  {{ES5053}} : [0]  -> 雙重角色符石地型 ‧ 首消木追擊零化 ‧ 無視減傷 -> <font color=#FFFF3C>【角色符石地型盾 ‧ 木連擊零化 ‧ 防禦崩壞】</font><br><br>隨機鎖定 2 個位置。<br>「移動符石時間完結一刻」<br>角色符石需置於鎖定位置內，<br>該角色才能<br>對敵人造成攻擊傷害。<br>其他角色攻擊變 0。<br><br>首批消除木屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的木屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。<br><br>無視所有減傷效果和<br>意志技能。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5053
---  #E  敵技5054 : [0]  ->  ->  -> 
+--  #E  腐化 ‧ 首消10Combo盾 : [0]  ->  ->  -> 
 --  #{{ES5054}}  5055 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5054?action=edit
---  #敵技5055  E : [0]  ->  ->  -> 
---  #5056  {{ES5056}} : [0]  -> 敵技5056 -> <font color=#FFFF3C>【〖腐化 ‧ 克制敵屬強化限制形狀盾〗】</font><br><br>以指定形狀消除<br>克制敵人屬性的強化符石<br>(不可連同形狀旁邊的符石)<br>才會對敵人造成攻擊傷害。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5056
---  #E  敵技5057 : [0]  ->  ->  -> 
+--  #腐化 ‧ 10+Combo追擊盾  E : [0]  ->  ->  -> 
+--  #5056  {{ES5056}} : [1]  -> 腐化 ‧ 剋屬強化拼圖盾-限 -> <font color=#FFFF3C>【〖腐化 ‧ 克制敵屬強化限制形狀盾〗】</font><br><br>以指定形狀消除<br>克制敵人屬性的強化符石<br>(不可連同形狀旁邊的符石)<br>才會對敵人造成攻擊傷害。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5056
+--  #E  腐化 ‧ 強化五屬盾 : [0]  ->  ->  -> 
 --  #{{ES5057}}  5058 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5057?action=edit
---  #敵技5058  E : [0]  ->  ->  -> 
---  #5059  {{ES5059}} : [0]  -> 敵技5059 -> <font color=#FFFF3C>【〖腐化 ‧ 起結有序〗】</font><br><br>每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。<br>(達成條件前，無法進行回復) -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5059
---  #E  敵技5060 : [0]  ->  ->  -> 
+--  #腐化 ‧ 五屬Combo同等盾  E : [0]  ->  ->  -> 
+--  #5059  {{ES5059}} : [1]  -> 腐化 ‧ 始終盾 -> <font color=#FFFF3C>【〖腐化 ‧ 起結有序〗】</font><br><br>每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。<br>(達成條件前，無法進行回復) -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5059
+--  #E  腐化 ‧ 首消全心盾 : [0]  ->  ->  -> 
 --  #{{ES5060}}  5061 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5060?action=edit
---  #敵技5061  E : [0]  ->  ->  -> 
---  #5062  {{ES5062}} : [0]  -> 敵技5062 -> <font color=#FFFF3C>【〖腐化 ‧ 電擊〗】</font><br><br>每回合隨機電擊 6 粒符石；<br>如有電擊符石未被消除，<br>無法對敵人造成攻擊傷害；<br>被電擊的符石一經觸碰，<br>即時停止移動符石。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5062
---  #E  敵技5063 : [0]  ->  ->  -> 
+--  #腐化 ‧ 首消心傷害化血-連續反饋200%  E : [0]  ->  ->  -> 
+--  #5062  {{ES5062}} : [1]  -> 腐化 ‧ 6顆電擊 -> <font color=#FFFF3C>【〖腐化 ‧ 電擊〗】</font><br><br>每回合隨機電擊 6 粒符石；<br>如有電擊符石未被消除，<br>無法對敵人造成攻擊傷害；<br>被電擊的符石一經觸碰，<br>即時停止移動符石。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5062
+--  #E  腐化 ‧ 循環累積90+相剋符石盾 : [0]  ->  ->  -> 
 --  #{{ES5063}}  5064 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5063?action=edit
---  #敵技5064  E : [0]  ->  ->  -> 
---  #5065  {{ES5065}} : [0]  -> 敵技5065 -> <font color=#FFFF3C>【〖腐化 ‧ 光屬攻擊零化〗】</font><br><br>光屬性的攻擊<br>無法對敵人造成傷害。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5065
---  #E  敵技5066 : [0]  ->  ->  -> 
+--  #腐化 ‧ 光攻盾  E : [0]  ->  ->  -> 
+--  #5065  {{ES5065}} : [1]  -> 腐化 ‧ 光屬防禦盾 -> <font color=#FFFF3C>【〖腐化 ‧ 光屬攻擊零化〗】</font><br><br>光屬性的攻擊<br>無法對敵人造成傷害。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5065
+--  #E  腐化 ‧ 神攻盾 : [0]  ->  ->  -> 
 --  #{{ES5066}}  5067 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5066?action=edit
---  #敵技5067  E : [0]  ->  ->  -> 
---  #5068  {{ES5068}} : [0]  -> 敵技5068 -> <font color=#FFFF3C>【〖腐化 ‧ 水連擊零化〗】</font><br><br>首批消除水屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的水屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5068
---  #E  敵技5069 : [0]  ->  ->  -> 
+--  #腐化 ‧ 首消21顆符石盾  E : [0]  ->  ->  -> 
+--  #5068  {{ES5068}} : [1]  -> 腐化 ‧ 首消水追擊零化 -> <font color=#FFFF3C>【〖腐化 ‧ 水連擊零化〗】</font><br><br>首批消除水屬性的連擊 (Combo) 會令全隊攻擊無效，首批消除的水屬性連擊 (Combo) 愈多，敵人的連擊次數愈多。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5068
+--  #E  腐化 ‧ 單擊10億盾 : [0]  ->  ->  -> 
 --  #{{ES5069}}  5070 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5069?action=edit
---  #敵技5070  E : [0]  ->  ->  -> 
---  #5071  {{ES5071}} : [0]  -> 敵技5071 -> <font color=#FFFF3C>【〖腐化 ‧ 五屬攻擊盾〗】</font><br><br>敵人受到五屬攻擊後<br>才可以對敵人造成傷害。<br>(無屬性傷害不受影響) -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5071
+--  #腐化 ‧ 首消全版盾  E : [0]  ->  ->  -> 
+--  #5071  {{ES5071}} : [1]  -> 腐化 ‧ 五屬擊盾 -> <font color=#FFFF3C>【〖腐化 ‧ 五屬攻擊盾〗】</font><br><br>敵人受到五屬攻擊後<br>才可以對敵人造成傷害。<br>(無屬性傷害不受影響) -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5071

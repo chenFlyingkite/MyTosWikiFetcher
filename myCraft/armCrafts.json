@@ -35278,6 +35278,276 @@
   {
     "rarity": 2,
     "level": 2,
+    "mode": "破碎龍咒",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，妖精類成員的回復力提升 75%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於妖精類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "0",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "7017",
+    "name": "【7017】 靈之蓬簫龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907017%E3%80%91_%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/10/C7017.png/revision/latest/scale-to-width-down/120?cb\u003d20200824051133\u0026path-prefix\u003dzh",
+      "iconKey": "C7017.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "映照龍符",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，妖精類成員的回復力提升 75%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於妖精類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "0",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "7018",
+    "name": "【7018】 靈之蓬簫龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907018%E3%80%91_%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d7/C7018.png/revision/latest/scale-to-width-down/120?cb\u003d20200824051133\u0026path-prefix\u003dzh",
+      "iconKey": "C7018.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "落影龍璃",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，妖精類成員的回復力提升 75%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於妖精類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "0",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "7019",
+    "name": "【7019】 靈之蓬簫龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907019%E3%80%91_%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/9/93/C7019.png/revision/latest/scale-to-width-down/120?cb\u003d20200824051134\u0026path-prefix\u003dzh",
+      "iconKey": "C7019.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "裂空龍刃",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，妖精類成員的回復力提升 75%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於妖精類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "0",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "7020",
+    "name": "【7020】 靈之蓬簫龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907020%E3%80%91_%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d9/C7020.png/revision/latest/scale-to-width-down/120?cb\u003d20200824051135\u0026path-prefix\u003dzh",
+      "iconKey": "C7020.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "鏡像龍丸",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，妖精類成員的回復力提升 75%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "完成龍刻脈動後，隨機把 1 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於妖精類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "0",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "7021",
+    "name": "【7021】 靈之蓬簫龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907021%E3%80%91_%E9%9D%88%E4%B9%8B%E8%93%AC%E7%B0%AB%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/bd/C7021.png/revision/latest/scale-to-width-down/120?cb\u003d20200824051135\u0026path-prefix\u003dzh",
+      "iconKey": "C7021.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
     "mode": "連鎖龍紋",
     "charge": "消除任何符石 (只計算首批消除的符石)",
     "craftSkill": [
@@ -35440,6 +35710,330 @@
   {
     "rarity": 2,
     "level": 2,
+    "mode": "映照龍符",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，50% 的攻擊傷害無視攻前盾"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 2 個龍類成員的技能 CD 減少 2"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於龍類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "+5%",
+    "upRecovery": "0",
+    "idNorm": "7025",
+    "name": "【7025】 遙之赤琴龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907025%E3%80%91_%E9%81%99%E4%B9%8B%E8%B5%A4%E7%90%B4%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1b/C7025.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044945\u0026path-prefix\u003dzh",
+      "iconKey": "C7025.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "落影龍璃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，50% 的攻擊傷害無視攻前盾"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 2 個龍類成員的技能 CD 減少 2"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於龍類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "+5%",
+    "upRecovery": "0",
+    "idNorm": "7026",
+    "name": "【7026】 遙之赤琴龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907026%E3%80%91_%E9%81%99%E4%B9%8B%E8%B5%A4%E7%90%B4%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/41/C7026.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044947\u0026path-prefix\u003dzh",
+      "iconKey": "C7026.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "裂空龍刃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，50% 的攻擊傷害無視攻前盾"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 2 個龍類成員的技能 CD 減少 2"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於龍類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "+5%",
+    "upRecovery": "0",
+    "idNorm": "7027",
+    "name": "【7027】 遙之赤琴龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907027%E3%80%91_%E9%81%99%E4%B9%8B%E8%B5%A4%E7%90%B4%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b8/C7027.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044949\u0026path-prefix\u003dzh",
+      "iconKey": "C7027.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "鏡像龍丸",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，50% 的攻擊傷害無視攻前盾"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 2 個龍類成員的技能 CD 減少 2"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於龍類成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "+5%",
+    "upRecovery": "0",
+    "idNorm": "7028",
+    "name": "【7028】 遙之赤琴龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907028%E3%80%91_%E9%81%99%E4%B9%8B%E8%B5%A4%E7%90%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/7e/C7028.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044951\u0026path-prefix\u003dzh",
+      "iconKey": "C7028.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "連鎖龍紋",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 15%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 15 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於神族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7029",
+    "name": "【7029】 聖翼之鈴龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907029%E3%80%91_%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/60/C7029.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044953\u0026path-prefix\u003dzh",
+      "iconKey": "C7029.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "轉動龍印",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 15%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 15 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於神族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7030",
+    "name": "【7030】 聖翼之鈴龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907030%E3%80%91_%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f7/C7030.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044955\u0026path-prefix\u003dzh",
+      "iconKey": "C7030.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
     "mode": "破碎龍咒",
     "charge": "消除任何符石 (只計算首批消除的符石)",
     "craftSkill": [
@@ -35543,6 +36137,168 @@
     "icon": {
       "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/C7032.png/revision/latest/scale-to-width-down/120?cb\u003d20200225122752\u0026path-prefix\u003dzh",
       "iconKey": "C7032.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "落影龍璃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 15%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 15 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於神族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7033",
+    "name": "【7033】 聖翼之鈴龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907033%E3%80%91_%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0a/C7033.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044956\u0026path-prefix\u003dzh",
+      "iconKey": "C7033.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "裂空龍刃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 15%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 15 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於神族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7034",
+    "name": "【7034】 聖翼之鈴龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907034%E3%80%91_%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d1/C7034.png/revision/latest/scale-to-width-down/120?cb\u003d20210531044958\u0026path-prefix\u003dzh",
+      "iconKey": "C7034.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "鏡像龍丸",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 15%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 1"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 15 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於神族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7035",
+    "name": "【7035】 聖翼之鈴龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907035%E3%80%91_%E8%81%96%E7%BF%BC%E4%B9%8B%E9%88%B4%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/bc/C7035.png/revision/latest/scale-to-width-down/120?cb\u003d20210531045000\u0026path-prefix\u003dzh",
+      "iconKey": "C7035.png"
     }
   },
   {
@@ -35975,6 +36731,330 @@
     "icon": {
       "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5b/C7043.png/revision/latest/scale-to-width-down/120?cb\u003d20201218055431\u0026path-prefix\u003dzh",
       "iconKey": "C7043.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "轉動龍印",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，攻擊力提升 15%，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.25 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 25 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "邪馬台國傳第三章#邪馬台國傳第三章 1-2 - 首次通關獎勵"
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於機械族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7044",
+    "name": "【7044】 動之輪鈸龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907044%E3%80%91_%E5%8B%95%E4%B9%8B%E8%BC%AA%E9%88%B8%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d8/C7044.png/revision/latest/scale-to-width-down/120?cb\u003d20210531045002\u0026path-prefix\u003dzh",
+      "iconKey": "C7044.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "破碎龍咒",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，攻擊力提升 15%，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.25 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 25 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於機械族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7045",
+    "name": "【7045】 動之輪鈸龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907045%E3%80%91_%E5%8B%95%E4%B9%8B%E8%BC%AA%E9%88%B8%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b4/C7045.png/revision/latest/scale-to-width-down/120?cb\u003d20210531045004\u0026path-prefix\u003dzh",
+      "iconKey": "C7045.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "映照龍符",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，攻擊力提升 15%，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.25 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 25 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於機械族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7046",
+    "name": "【7046】 動之輪鈸龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907046%E3%80%91_%E5%8B%95%E4%B9%8B%E8%BC%AA%E9%88%B8%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d8/C7046.png/revision/latest/scale-to-width-down/120?cb\u003d20210531045006\u0026path-prefix\u003dzh",
+      "iconKey": "C7046.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "落影龍璃",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，攻擊力提升 15%，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.25 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 25 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於機械族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7047",
+    "name": "【7047】 動之輪鈸龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907047%E3%80%91_%E5%8B%95%E4%B9%8B%E8%BC%AA%E9%88%B8%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/14/C7047.png/revision/latest/scale-to-width-down/120?cb\u003d20210531045009\u0026path-prefix\u003dzh",
+      "iconKey": "C7047.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "裂空龍刃",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，攻擊力提升 15%，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.25 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 25 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於機械族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7048",
+    "name": "【7048】 動之輪鈸龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907048%E3%80%91_%E5%8B%95%E4%B9%8B%E8%BC%AA%E9%88%B8%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/41/C7048.png/revision/latest/scale-to-width-down/120?cb\u003d20210531045011\u0026path-prefix\u003dzh",
+      "iconKey": "C7048.png"
+    }
+  },
+  {
+    "rarity": 2,
+    "level": 2,
+    "mode": "鏡像龍丸",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "對全體敵人造成 500000 點無屬性傷害，此傷害無視防禦力"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，攻擊力提升 15%，所有成員無視屬性相剋"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.25 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 25 粒或以上符石，自身攻擊力提升 1.1 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": ""
+      }
+    ],
+    "attrLimit": "沒有限制",
+    "raceLimit": "適用於機械族成員",
+    "cardLimit": [],
+    "cardLimitName": [],
+    "upHp": "+5%",
+    "upAttack": "0",
+    "upRecovery": "+5%",
+    "idNorm": "7049",
+    "name": "【7049】 動之輪鈸龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%907049%E3%80%91_%E5%8B%95%E4%B9%8B%E8%BC%AA%E9%88%B8%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b1/C7049.png/revision/latest/scale-to-width-down/120?cb\u003d20210531045013\u0026path-prefix\u003dzh",
+      "iconKey": "C7049.png"
     }
   },
   {

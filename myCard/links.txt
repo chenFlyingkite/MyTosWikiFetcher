@@ -15876,6 +15876,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2658"
   },
   {
+    "title": "No. 2659 殉道王意 ‧ 春日千",
+    "id": "2659",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AE%89%E9%81%93%E7%8E%8B%E6%84%8F_%E2%80%A7_%E6%98%A5%E6%97%A5%E5%8D%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2659"
+  },
+  {
+    "title": "No. 2660 朔月帝女 ‧ 卑彌呼",
+    "id": "2660",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%94%E6%9C%88%E5%B8%9D%E5%A5%B3_%E2%80%A7_%E5%8D%91%E5%BD%8C%E5%91%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2660"
+  },
+  {
     "title": "No. 2661 竈門炭治郎",
     "id": "2661",
     "link": "https://tos.fandom.com/zh/wiki/%E7%AB%88%E9%96%80%E7%82%AD%E6%B2%BB%E9%83%8E",
@@ -16014,6 +16026,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2684"
   },
   {
+    "title": "No. 2685 婉約偽裳 ‧ 五十鈴",
+    "id": "2685",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A9%89%E7%B4%84%E5%81%BD%E8%A3%B3_%E2%80%A7_%E4%BA%94%E5%8D%81%E9%88%B4",
+    "linkId": "http://zh.tos.wikia.com/wiki/2685"
+  },
+  {
     "title": "No. 2686 鏡掠夢夕 ‧ 懷凌",
     "id": "2686",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8F%A1%E6%8E%A0%E5%A4%A2%E5%A4%95_%E2%80%A7_%E6%87%B7%E5%87%8C",
@@ -16074,6 +16092,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2695"
   },
   {
+    "title": "No. 2696 吞音食噪 ‧ 格倫戴爾",
+    "id": "2696",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E9%9F%B3%E9%A3%9F%E5%99%AA_%E2%80%A7_%E6%A0%BC%E5%80%AB%E6%88%B4%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2696"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -16132,6 +16156,12 @@
     "id": "3010",
     "link": "https://tos.fandom.com/zh/wiki/%E6%84%8F%E8%AD%98%E5%88%86%E8%A7%A3_%E2%80%A7_%E5%A4%8F%E9%A6%AC%E8%A5%BF",
     "linkId": "http://zh.tos.wikia.com/wiki/3010"
+  },
+  {
+    "title": "No. 3011 滅絕晶玉",
+    "id": "3011",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BB%85%E7%B5%95%E6%99%B6%E7%8E%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/3011"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
