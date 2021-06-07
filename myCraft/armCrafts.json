@@ -34412,6 +34412,4318 @@
     }
   },
   {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 3 個人類成員的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "延遲全體敵人行動 1 回合"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "同時消除水及火符石，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 炭治郎的昇華 - 首次通關獎勵 拿起刀來 - 炭治郎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2661",
+      "2662"
+    ],
+    "cardLimitName": [
+      "竈門炭治郎",
+      "火之神 ‧ 竈門炭治郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3682",
+    "name": "【3682】 炭治郎之刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903682%E3%80%91_%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/17/C3682.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041446\u0026path-prefix\u003dzh",
+      "iconKey": "C3682.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 3 個人類成員的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "延遲全體敵人行動 1 回合"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "同時消除水及火符石，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 炭治郎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2661",
+      "2662"
+    ],
+    "cardLimitName": [
+      "竈門炭治郎",
+      "火之神 ‧ 竈門炭治郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3683",
+    "name": "【3683】 炭治郎之刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903683%E3%80%91_%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f6/C3683.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041448\u0026path-prefix\u003dzh",
+      "iconKey": "C3683.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 3 個人類成員的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "延遲全體敵人行動 1 回合"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "同時消除水及火符石，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 炭治郎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2661",
+      "2662"
+    ],
+    "cardLimitName": [
+      "竈門炭治郎",
+      "火之神 ‧ 竈門炭治郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3684",
+    "name": "【3684】 炭治郎之刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903684%E3%80%91_%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/07/C3684.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041449\u0026path-prefix\u003dzh",
+      "iconKey": "C3684.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 3 個人類成員的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "延遲全體敵人行動 1 回合"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "同時消除水及火符石，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 炭治郎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2661",
+      "2662"
+    ],
+    "cardLimitName": [
+      "竈門炭治郎",
+      "火之神 ‧ 竈門炭治郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3685",
+    "name": "【3685】 炭治郎之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903685%E3%80%91_%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e1/C3685.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041451\u0026path-prefix\u003dzh",
+      "iconKey": "C3685.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 3 個人類成員的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "延遲全體敵人行動 1 回合"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "同時消除水及火符石，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 炭治郎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2661",
+      "2662"
+    ],
+    "cardLimitName": [
+      "竈門炭治郎",
+      "火之神 ‧ 竈門炭治郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3686",
+    "name": "【3686】 炭治郎之刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903686%E3%80%91_%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/7a/C3686.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041452\u0026path-prefix\u003dzh",
+      "iconKey": "C3686.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 3 個人類成員的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "延遲全體敵人行動 1 回合"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "同時消除水及火符石，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2661",
+      "2662"
+    ],
+    "cardLimitName": [
+      "竈門炭治郎",
+      "火之神 ‧ 竈門炭治郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3687",
+    "name": "【3687】 炭治郎之刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903687%E3%80%91_%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/7c/C3687.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041455\u0026path-prefix\u003dzh",
+      "iconKey": "C3687.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力及回復力提升 20%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隨機 3 個人類成員的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "延遲全體敵人行動 1 回合"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 1 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "同時消除水及火符石，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 炭治郎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2661",
+      "2662"
+    ],
+    "cardLimitName": [
+      "竈門炭治郎",
+      "火之神 ‧ 竈門炭治郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3688",
+    "name": "【3688】 炭治郎之刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903688%E3%80%91_%E7%82%AD%E6%B2%BB%E9%83%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/41/C3688.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041457\u0026path-prefix\u003dzh",
+      "iconKey": "C3688.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "召喚獸受到攻擊次數",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 4"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "每回合回復 5000 點生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 禰豆子的昇華 - 首次通關獎勵 拿起刀來 - 禰豆子的木箱 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2663",
+      "2673"
+    ],
+    "cardLimitName": [
+      "竈門禰豆子",
+      "小禰豆子"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3689",
+    "name": "【3689】 襧豆子的木箱龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903689%E3%80%91_%E8%A5%A7%E8%B1%86%E5%AD%90%E7%9A%84%E6%9C%A8%E7%AE%B1%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2a/C3689.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041458\u0026path-prefix\u003dzh",
+      "iconKey": "C3689.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "召喚獸受到攻擊次數",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 4"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "每回合回復 5000 點生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 禰豆子的木箱 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2663",
+      "2673"
+    ],
+    "cardLimitName": [
+      "竈門禰豆子",
+      "小禰豆子"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3690",
+    "name": "【3690】 襧豆子的木箱龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903690%E3%80%91_%E8%A5%A7%E8%B1%86%E5%AD%90%E7%9A%84%E6%9C%A8%E7%AE%B1%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c0/C3690.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041500\u0026path-prefix\u003dzh",
+      "iconKey": "C3690.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "召喚獸受到攻擊次數",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 4"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "每回合回復 5000 點生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 禰豆子的木箱 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2663",
+      "2673"
+    ],
+    "cardLimitName": [
+      "竈門禰豆子",
+      "小禰豆子"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3691",
+    "name": "【3691】 襧豆子的木箱龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903691%E3%80%91_%E8%A5%A7%E8%B1%86%E5%AD%90%E7%9A%84%E6%9C%A8%E7%AE%B1%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0f/C3691.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041501\u0026path-prefix\u003dzh",
+      "iconKey": "C3691.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "召喚獸受到攻擊次數",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 4"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "每回合回復 5000 點生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 禰豆子的木箱 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2663",
+      "2673"
+    ],
+    "cardLimitName": [
+      "竈門禰豆子",
+      "小禰豆子"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3692",
+    "name": "【3692】 襧豆子的木箱龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903692%E3%80%91_%E8%A5%A7%E8%B1%86%E5%AD%90%E7%9A%84%E6%9C%A8%E7%AE%B1%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/14/C3692.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041503\u0026path-prefix\u003dzh",
+      "iconKey": "C3692.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "召喚獸受到攻擊次數",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 4"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "每回合回復 5000 點生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 禰豆子的木箱 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2663",
+      "2673"
+    ],
+    "cardLimitName": [
+      "竈門禰豆子",
+      "小禰豆子"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3693",
+    "name": "【3693】 襧豆子的木箱龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903693%E3%80%91_%E8%A5%A7%E8%B1%86%E5%AD%90%E7%9A%84%E6%9C%A8%E7%AE%B1%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3d/C3693.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041504\u0026path-prefix\u003dzh",
+      "iconKey": "C3693.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "召喚獸受到攻擊次數",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 4"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "每回合回復 5000 點生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2663",
+      "2673"
+    ],
+    "cardLimitName": [
+      "竈門禰豆子",
+      "小禰豆子"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3694",
+    "name": "【3694】 襧豆子的木箱龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903694%E3%80%91_%E8%A5%A7%E8%B1%86%E5%AD%90%E7%9A%84%E6%9C%A8%E7%AE%B1%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/5/55/C3694.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041506\u0026path-prefix\u003dzh",
+      "iconKey": "C3694.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "召喚獸受到攻擊次數",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，隊伍攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 4"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "每回合回復 5000 點生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 禰豆子的木箱 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2663",
+      "2673"
+    ],
+    "cardLimitName": [
+      "竈門禰豆子",
+      "小禰豆子"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3695",
+    "name": "【3695】 襧豆子的木箱龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903695%E3%80%91_%E8%A5%A7%E8%B1%86%E5%AD%90%E7%9A%84%E6%9C%A8%E7%AE%B1%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/04/C3695.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041507\u0026path-prefix\u003dzh",
+      "iconKey": "C3695.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，木屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，75% 的攻擊傷害無視指定形狀盾"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的木符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 伊之助的昇華 - 首次通關獎勵 拿起刀來 - 伊之助之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2664"
+    ],
+    "cardLimitName": [
+      "嘴平伊之助"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3696",
+    "name": "【3696】 伊之助之刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903696%E3%80%91_%E4%BC%8A%E4%B9%8B%E5%8A%A9%E4%B9%8B%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/00/C3696.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041509\u0026path-prefix\u003dzh",
+      "iconKey": "C3696.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，木屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，75% 的攻擊傷害無視指定形狀盾"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的木符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 伊之助之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2664"
+    ],
+    "cardLimitName": [
+      "嘴平伊之助"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3697",
+    "name": "【3697】 伊之助之刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903697%E3%80%91_%E4%BC%8A%E4%B9%8B%E5%8A%A9%E4%B9%8B%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e8/C3697.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041510\u0026path-prefix\u003dzh",
+      "iconKey": "C3697.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，木屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，75% 的攻擊傷害無視指定形狀盾"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的木符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 伊之助之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2664"
+    ],
+    "cardLimitName": [
+      "嘴平伊之助"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3698",
+    "name": "【3698】 伊之助之刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903698%E3%80%91_%E4%BC%8A%E4%B9%8B%E5%8A%A9%E4%B9%8B%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b2/C3698.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041512\u0026path-prefix\u003dzh",
+      "iconKey": "C3698.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，木屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，75% 的攻擊傷害無視指定形狀盾"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的木符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 伊之助之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2664"
+    ],
+    "cardLimitName": [
+      "嘴平伊之助"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3699",
+    "name": "【3699】 伊之助之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903699%E3%80%91_%E4%BC%8A%E4%B9%8B%E5%8A%A9%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4e/C3699.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041513\u0026path-prefix\u003dzh",
+      "iconKey": "C3699.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，木屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，75% 的攻擊傷害無視指定形狀盾"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的木符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 伊之助之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2664"
+    ],
+    "cardLimitName": [
+      "嘴平伊之助"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3700",
+    "name": "【3700】 伊之助之刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903700%E3%80%91_%E4%BC%8A%E4%B9%8B%E5%8A%A9%E4%B9%8B%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/66/C3700.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041515\u0026path-prefix\u003dzh",
+      "iconKey": "C3700.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，木屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，75% 的攻擊傷害無視指定形狀盾"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的木符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2664"
+    ],
+    "cardLimitName": [
+      "嘴平伊之助"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3701",
+    "name": "【3701】 伊之助之刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903701%E3%80%91_%E4%BC%8A%E4%B9%8B%E5%8A%A9%E4%B9%8B%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/8/8f/C3701.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041516\u0026path-prefix\u003dzh",
+      "iconKey": "C3701.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，木屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，75% 的攻擊傷害無視指定形狀盾"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的木符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 伊之助之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2664"
+    ],
+    "cardLimitName": [
+      "嘴平伊之助"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3702",
+    "name": "【3702】 伊之助之刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903702%E3%80%91_%E4%BC%8A%E4%B9%8B%E5%8A%A9%E4%B9%8B%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/7d/C3702.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041518\u0026path-prefix\u003dzh",
+      "iconKey": "C3702.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，光屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，光屬性成員以 100% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的光符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 善逸的昇華 - 首次通關獎勵 拿起刀來 - 善逸之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2665"
+    ],
+    "cardLimitName": [
+      "我妻善逸"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3703",
+    "name": "【3703】 善逸之刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903703%E3%80%91_%E5%96%84%E9%80%B8%E4%B9%8B%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6c/C3703.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041519\u0026path-prefix\u003dzh",
+      "iconKey": "C3703.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，光屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，光屬性成員以 100% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的光符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 善逸之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2665"
+    ],
+    "cardLimitName": [
+      "我妻善逸"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3704",
+    "name": "【3704】 善逸之刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903704%E3%80%91_%E5%96%84%E9%80%B8%E4%B9%8B%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b3/C3704.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041521\u0026path-prefix\u003dzh",
+      "iconKey": "C3704.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，光屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，光屬性成員以 100% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的光符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 善逸之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2665"
+    ],
+    "cardLimitName": [
+      "我妻善逸"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3705",
+    "name": "【3705】 善逸之刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903705%E3%80%91_%E5%96%84%E9%80%B8%E4%B9%8B%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/e/ed/C3705.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041522\u0026path-prefix\u003dzh",
+      "iconKey": "C3705.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，光屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，光屬性成員以 100% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的光符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 善逸之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2665"
+    ],
+    "cardLimitName": [
+      "我妻善逸"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3706",
+    "name": "【3706】 善逸之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903706%E3%80%91_%E5%96%84%E9%80%B8%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/5/57/C3706.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041523\u0026path-prefix\u003dzh",
+      "iconKey": "C3706.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，光屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，光屬性成員以 100% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的光符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 善逸之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2665"
+    ],
+    "cardLimitName": [
+      "我妻善逸"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3707",
+    "name": "【3707】 善逸之刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903707%E3%80%91_%E5%96%84%E9%80%B8%E4%B9%8B%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/64/C3707.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041525\u0026path-prefix\u003dzh",
+      "iconKey": "C3707.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，光屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，光屬性成員以 100% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的光符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2665"
+    ],
+    "cardLimitName": [
+      "我妻善逸"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3708",
+    "name": "【3708】 善逸之刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903708%E3%80%91_%E5%96%84%E9%80%B8%E4%B9%8B%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/63/C3708.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041526\u0026path-prefix\u003dzh",
+      "iconKey": "C3708.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "連擊 (Combo) 達 4 或以上",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，光屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，光屬性成員以 100% 的攻擊力追打光屬性攻擊 1 次"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的光符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 善逸之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2665"
+    ],
+    "cardLimitName": [
+      "我妻善逸"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+15%",
+    "upRecovery": "0",
+    "idNorm": "3709",
+    "name": "【3709】 善逸之刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903709%E3%80%91_%E5%96%84%E9%80%B8%E4%B9%8B%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/5/50/C3709.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041528\u0026path-prefix\u003dzh",
+      "iconKey": "C3709.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，單體攻擊轉化為全體攻擊"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，隨機把 2 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的心符石，人類攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 香奈乎的昇華 - 首次通關獎勵 拿起刀來 - 香奈乎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2666"
+    ],
+    "cardLimitName": [
+      "栗花落香奈乎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3710",
+    "name": "【3710】 香奈乎之刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903710%E3%80%91_%E9%A6%99%E5%A5%88%E4%B9%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/73/C3710.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041529\u0026path-prefix\u003dzh",
+      "iconKey": "C3710.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，單體攻擊轉化為全體攻擊"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，隨機把 2 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的心符石，人類攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 香奈乎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2666"
+    ],
+    "cardLimitName": [
+      "栗花落香奈乎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3711",
+    "name": "【3711】 香奈乎之刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903711%E3%80%91_%E9%A6%99%E5%A5%88%E4%B9%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d0/C3711.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041531\u0026path-prefix\u003dzh",
+      "iconKey": "C3711.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，單體攻擊轉化為全體攻擊"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，隨機把 2 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的心符石，人類攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 香奈乎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2666"
+    ],
+    "cardLimitName": [
+      "栗花落香奈乎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3713",
+    "name": "【3713】 香奈乎之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903713%E3%80%91_%E9%A6%99%E5%A5%88%E4%B9%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b0/C3713.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041534\u0026path-prefix\u003dzh",
+      "iconKey": "C3713.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，單體攻擊轉化為全體攻擊"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，隨機把 2 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的心符石，人類攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 香奈乎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2666"
+    ],
+    "cardLimitName": [
+      "栗花落香奈乎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3713",
+    "name": "【3713】 香奈乎之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903713%E3%80%91_%E9%A6%99%E5%A5%88%E4%B9%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b0/C3713.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041534\u0026path-prefix\u003dzh",
+      "iconKey": "C3713.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，單體攻擊轉化為全體攻擊"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，隨機把 2 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的心符石，人類攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 香奈乎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2666"
+    ],
+    "cardLimitName": [
+      "栗花落香奈乎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3714",
+    "name": "【3714】 香奈乎之刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903714%E3%80%91_%E9%A6%99%E5%A5%88%E4%B9%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/a/af/C3714.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041535\u0026path-prefix\u003dzh",
+      "iconKey": "C3714.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，單體攻擊轉化為全體攻擊"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，隨機把 2 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的心符石，人類攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2666"
+    ],
+    "cardLimitName": [
+      "栗花落香奈乎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3715",
+    "name": "【3715】 香奈乎之刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903715%E3%80%91_%E9%A6%99%E5%A5%88%E4%B9%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2b/C3715.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041537\u0026path-prefix\u003dzh",
+      "iconKey": "C3715.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，單體攻擊轉化為全體攻擊"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "隊長及戰友的技能 CD 減少 3"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，隨機把 2 直行的符石轉化為心符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "進入關卡後，自身主動技能 CD 減少 2"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 1 組 5 粒或以上的心符石，人類攻擊力提升 1.15 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 香奈乎之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2666"
+    ],
+    "cardLimitName": [
+      "栗花落香奈乎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "+10%",
+    "upRecovery": "0",
+    "idNorm": "3716",
+    "name": "【3716】 香奈乎之刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903716%E3%80%91_%E9%A6%99%E5%A5%88%E4%B9%8E%E4%B9%8B%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/bc/C3716.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041538\u0026path-prefix\u003dzh",
+      "iconKey": "C3716.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "消除水符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，水屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為水符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的水符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 5 粒或以上的水符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 義勇的昇華 - 首次通關獎勵 拿起刀來 - 義勇之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2667"
+    ],
+    "cardLimitName": [
+      "冨岡義勇"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3717",
+    "name": "【3717】 義勇之刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903717%E3%80%91_%E7%BE%A9%E5%8B%87%E4%B9%8B%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/fa/C3717.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041539\u0026path-prefix\u003dzh",
+      "iconKey": "C3717.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "消除水符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，水屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為水符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的水符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 5 粒或以上的水符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 義勇之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2667"
+    ],
+    "cardLimitName": [
+      "冨岡義勇"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3718",
+    "name": "【3718】 義勇之刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903718%E3%80%91_%E7%BE%A9%E5%8B%87%E4%B9%8B%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a8/C3718.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041541\u0026path-prefix\u003dzh",
+      "iconKey": "C3718.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "消除水符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，水屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為水符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的水符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 5 粒或以上的水符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 義勇之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2667"
+    ],
+    "cardLimitName": [
+      "冨岡義勇"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3719",
+    "name": "【3719】 義勇之刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903719%E3%80%91_%E7%BE%A9%E5%8B%87%E4%B9%8B%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ad/C3719.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041542\u0026path-prefix\u003dzh",
+      "iconKey": "C3719.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "消除水符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，水屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為水符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的水符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 5 粒或以上的水符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 義勇之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2667"
+    ],
+    "cardLimitName": [
+      "冨岡義勇"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3720",
+    "name": "【3720】 義勇之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903720%E3%80%91_%E7%BE%A9%E5%8B%87%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f7/C3720.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041544\u0026path-prefix\u003dzh",
+      "iconKey": "C3720.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "消除水符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，水屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為水符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的水符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 5 粒或以上的水符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 義勇之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2667"
+    ],
+    "cardLimitName": [
+      "冨岡義勇"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3721",
+    "name": "【3721】 義勇之刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903721%E3%80%91_%E7%BE%A9%E5%8B%87%E4%B9%8B%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9e/C3721.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041545\u0026path-prefix\u003dzh",
+      "iconKey": "C3721.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "消除水符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，水屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為水符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的水符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 5 粒或以上的水符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2667"
+    ],
+    "cardLimitName": [
+      "冨岡義勇"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3722",
+    "name": "【3722】 義勇之刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903722%E3%80%91_%E7%BE%A9%E5%8B%87%E4%B9%8B%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a4/C3722.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041547\u0026path-prefix\u003dzh",
+      "iconKey": "C3722.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "消除水符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，水屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為水符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的水符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 5 粒或以上的水符石，回復 1.5 倍隊伍回復力等值的生命力"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 義勇之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2667"
+    ],
+    "cardLimitName": [
+      "冨岡義勇"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3723",
+    "name": "【3723】 義勇之刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903723%E3%80%91_%E7%BE%A9%E5%8B%87%E4%B9%8B%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/42/C3723.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041549\u0026path-prefix\u003dzh",
+      "iconKey": "C3723.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "消除火符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，火屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為火符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的火符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "生命力 ≤50% 時，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 杏壽郎的昇華 - 首次通關獎勵 拿起刀來 - 煉獄之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2668"
+    ],
+    "cardLimitName": [
+      "煉獄杏壽郎"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3724",
+    "name": "【3724】 煉獄之刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903724%E3%80%91_%E7%85%89%E7%8D%84%E4%B9%8B%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f5/C3724.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041551\u0026path-prefix\u003dzh",
+      "iconKey": "C3724.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "消除火符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，火屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為火符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的火符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "生命力 ≤50% 時，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 煉獄之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2668"
+    ],
+    "cardLimitName": [
+      "煉獄杏壽郎"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3725",
+    "name": "【3725】 煉獄之刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903725%E3%80%91_%E7%85%89%E7%8D%84%E4%B9%8B%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/f/fa/C3725.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041553\u0026path-prefix\u003dzh",
+      "iconKey": "C3725.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "消除火符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，火屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為火符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的火符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "生命力 ≤50% 時，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 煉獄之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2668"
+    ],
+    "cardLimitName": [
+      "煉獄杏壽郎"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3726",
+    "name": "【3726】 煉獄之刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903726%E3%80%91_%E7%85%89%E7%8D%84%E4%B9%8B%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/2/29/C3726.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041554\u0026path-prefix\u003dzh",
+      "iconKey": "C3726.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "消除火符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，火屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為火符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的火符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "生命力 ≤50% 時，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 煉獄之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2668"
+    ],
+    "cardLimitName": [
+      "煉獄杏壽郎"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3727",
+    "name": "【3727】 煉獄之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903727%E3%80%91_%E7%85%89%E7%8D%84%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1f/C3727.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041557\u0026path-prefix\u003dzh",
+      "iconKey": "C3727.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "消除火符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，火屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為火符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的火符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "生命力 ≤50% 時，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 煉獄之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2668"
+    ],
+    "cardLimitName": [
+      "煉獄杏壽郎"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3728",
+    "name": "【3728】 煉獄之刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903728%E3%80%91_%E7%85%89%E7%8D%84%E4%B9%8B%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/72/C3728.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041559\u0026path-prefix\u003dzh",
+      "iconKey": "C3728.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "消除火符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，火屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為火符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的火符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "生命力 ≤50% 時，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2668"
+    ],
+    "cardLimitName": [
+      "煉獄杏壽郎"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3729",
+    "name": "【3729】 煉獄之刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903729%E3%80%91_%E7%85%89%E7%8D%84%E4%B9%8B%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/68/C3729.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041601\u0026path-prefix\u003dzh",
+      "iconKey": "C3729.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "消除火符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所受傷害不會使你死亡"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，火屬性成員的攻擊力提升 25%"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "完成龍刻脈動後，將場上數量最多的 1 種符石轉化為火符石"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "消除 1 組 3 粒或以上的火符石，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "生命力 ≤50% 時，自身攻擊力提升 2 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 煉獄之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2668"
+    ],
+    "cardLimitName": [
+      "煉獄杏壽郎"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3730",
+    "name": "【3730】 煉獄之刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903730%E3%80%91_%E7%85%89%E7%8D%84%E4%B9%8B%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/be/C3730.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041602\u0026path-prefix\u003dzh",
+      "iconKey": "C3730.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，人類成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，敵方所受傷害的 10% 轉化為我方生命力，最大為生命力等值的50% (傷害轉化效果不能疊加，並不計算主動及隊長技傷害)"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "消耗全體敵人 25% 總生命力"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "同時消除暗及心符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.3 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 忍的昇華 - 首次通關獎勵 拿起刀來 - 忍之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2669"
+    ],
+    "cardLimitName": [
+      "胡蝶忍"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3731",
+    "name": "【3731】 忍之刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903731%E3%80%91_%E5%BF%8D%E4%B9%8B%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c0/C3731.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041604\u0026path-prefix\u003dzh",
+      "iconKey": "C3731.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，人類成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，敵方所受傷害的 10% 轉化為我方生命力，最大為生命力等值的50% (傷害轉化效果不能疊加，並不計算主動及隊長技傷害)"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "消耗全體敵人 25% 總生命力"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "同時消除暗及心符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.3 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 忍之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2669"
+    ],
+    "cardLimitName": [
+      "胡蝶忍"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3732",
+    "name": "【3732】 忍之刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903732%E3%80%91_%E5%BF%8D%E4%B9%8B%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9e/C3732.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041605\u0026path-prefix\u003dzh",
+      "iconKey": "C3732.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，人類成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，敵方所受傷害的 10% 轉化為我方生命力，最大為生命力等值的50% (傷害轉化效果不能疊加，並不計算主動及隊長技傷害)"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "消耗全體敵人 25% 總生命力"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "同時消除暗及心符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.3 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 忍之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2669"
+    ],
+    "cardLimitName": [
+      "胡蝶忍"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3733",
+    "name": "【3733】 忍之刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903733%E3%80%91_%E5%BF%8D%E4%B9%8B%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/44/C3733.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041606\u0026path-prefix\u003dzh",
+      "iconKey": "C3733.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，人類成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，敵方所受傷害的 10% 轉化為我方生命力，最大為生命力等值的50% (傷害轉化效果不能疊加，並不計算主動及隊長技傷害)"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "消耗全體敵人 25% 總生命力"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "同時消除暗及心符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.3 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 忍之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2669"
+    ],
+    "cardLimitName": [
+      "胡蝶忍"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3734",
+    "name": "【3734】 忍之刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903734%E3%80%91_%E5%BF%8D%E4%B9%8B%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/7c/C3734.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041608\u0026path-prefix\u003dzh",
+      "iconKey": "C3734.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，人類成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，敵方所受傷害的 10% 轉化為我方生命力，最大為生命力等值的50% (傷害轉化效果不能疊加，並不計算主動及隊長技傷害)"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "消耗全體敵人 25% 總生命力"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "同時消除暗及心符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.3 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 忍之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2669"
+    ],
+    "cardLimitName": [
+      "胡蝶忍"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3735",
+    "name": "【3735】 忍之刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903735%E3%80%91_%E5%BF%8D%E4%B9%8B%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/be/C3735.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041609\u0026path-prefix\u003dzh",
+      "iconKey": "C3735.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，人類成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，敵方所受傷害的 10% 轉化為我方生命力，最大為生命力等值的50% (傷害轉化效果不能疊加，並不計算主動及隊長技傷害)"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "消耗全體敵人 25% 總生命力"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "同時消除暗及心符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.3 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2669"
+    ],
+    "cardLimitName": [
+      "胡蝶忍"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3736",
+    "name": "【3736】 忍之刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903736%E3%80%91_%E5%BF%8D%E4%B9%8B%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/bc/C3736.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041611\u0026path-prefix\u003dzh",
+      "iconKey": "C3736.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "消除心符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，人類成員的攻擊力提升 25%"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，敵方所受傷害的 10% 轉化為我方生命力，最大為生命力等值的50% (傷害轉化效果不能疊加，並不計算主動及隊長技傷害)"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "消耗全體敵人 25% 總生命力"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "必然延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "同時消除暗及心符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "自身對魔族目標攻擊力提升 1.3 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 忍之刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2669"
+    ],
+    "cardLimitName": [
+      "胡蝶忍"
+    ],
+    "upHp": "+5%",
+    "upAttack": "+10%",
+    "upRecovery": "+5%",
+    "idNorm": "3737",
+    "name": "【3737】 忍之刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903737%E3%80%91_%E5%BF%8D%E4%B9%8B%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/bf/C3737.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041612\u0026path-prefix\u003dzh",
+      "iconKey": "C3737.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "連鎖龍紋",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，迴避火屬性敵人的攻擊"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 珠世與愈史郎的昇華 - 首次通關獎勵 拿起刀來 - 血液採集小刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2670"
+    ],
+    "cardLimitName": [
+      "珠世與愈史郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3738",
+    "name": "【3738】 血液採集小刀龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903738%E3%80%91_%E8%A1%80%E6%B6%B2%E6%8E%A1%E9%9B%86%E5%B0%8F%E5%88%80%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/7/79/C3738.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041614\u0026path-prefix\u003dzh",
+      "iconKey": "C3738.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "轉動龍印",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，迴避火屬性敵人的攻擊"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 血液採集小刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2670"
+    ],
+    "cardLimitName": [
+      "珠世與愈史郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3739",
+    "name": "【3739】 血液採集小刀龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903739%E3%80%91_%E8%A1%80%E6%B6%B2%E6%8E%A1%E9%9B%86%E5%B0%8F%E5%88%80%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/40/C3739.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041615\u0026path-prefix\u003dzh",
+      "iconKey": "C3739.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "破碎龍咒",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，迴避火屬性敵人的攻擊"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 血液採集小刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2670"
+    ],
+    "cardLimitName": [
+      "珠世與愈史郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3740",
+    "name": "【3740】 血液採集小刀龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903740%E3%80%91_%E8%A1%80%E6%B6%B2%E6%8E%A1%E9%9B%86%E5%B0%8F%E5%88%80%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/5/51/C3740.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041617\u0026path-prefix\u003dzh",
+      "iconKey": "C3740.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "映照龍符",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，迴避火屬性敵人的攻擊"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 血液採集小刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2670"
+    ],
+    "cardLimitName": [
+      "珠世與愈史郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3741",
+    "name": "【3741】 血液採集小刀龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903741%E3%80%91_%E8%A1%80%E6%B6%B2%E6%8E%A1%E9%9B%86%E5%B0%8F%E5%88%80%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4b/C3741.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041618\u0026path-prefix\u003dzh",
+      "iconKey": "C3741.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "落影龍璃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，迴避火屬性敵人的攻擊"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 血液採集小刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2670"
+    ],
+    "cardLimitName": [
+      "珠世與愈史郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3742",
+    "name": "【3742】 血液採集小刀龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903742%E3%80%91_%E8%A1%80%E6%B6%B2%E6%8E%A1%E9%9B%86%E5%B0%8F%E5%88%80%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/3/37/C3742.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041619\u0026path-prefix\u003dzh",
+      "iconKey": "C3742.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "裂空龍刃",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，迴避火屬性敵人的攻擊"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 連環五鬼來襲 - 功勳兌換"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2670"
+    ],
+    "cardLimitName": [
+      "珠世與愈史郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3743",
+    "name": "【3743】 血液採集小刀龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903743%E3%80%91_%E8%A1%80%E6%B6%B2%E6%8E%A1%E9%9B%86%E5%B0%8F%E5%88%80%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/3/34/C3743.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041621\u0026path-prefix\u003dzh",
+      "iconKey": "C3743.png"
+    }
+  },
+  {
+    "rarity": 3,
+    "level": 3,
+    "mode": "鏡像龍丸",
+    "charge": "消除任何符石 (只計算首批消除的符石)",
+    "craftSkill": [
+      {
+        "level": 1,
+        "score": 2000,
+        "detail": "1 回合內，所有成員無視屬性相剋"
+      },
+      {
+        "level": 2,
+        "score": 4500,
+        "detail": "1 回合內，完全回復生命力"
+      },
+      {
+        "level": 3,
+        "score": 7000,
+        "detail": "1 回合內，迴避火屬性敵人的攻擊"
+      }
+    ],
+    "extraSkill": [
+      {
+        "level": 1,
+        "score": 0,
+        "detail": "延長移動符石時間 0.5 秒"
+      },
+      {
+        "level": 2,
+        "score": 0,
+        "detail": "此召喚獸發動技能的回合，自身攻擊力提升 1.2 倍"
+      },
+      {
+        "level": 3,
+        "score": 0,
+        "detail": "消除 20 粒或以上符石，自身攻擊力提升 1.5 倍"
+      },
+      {
+        "level": 4,
+        "score": 0,
+        "detail": "來源"
+      },
+      {
+        "level": 5,
+        "score": 0,
+        "detail": "儲值活動『滅鬼龍刻武裝禮包』（2021年3月29日~4月25日） 拿起刀來 - 血液採集小刀 隨機掉落"
+      }
+    ],
+    "attrLimit": "",
+    "raceLimit": "",
+    "cardLimit": [
+      "2670"
+    ],
+    "cardLimitName": [
+      "珠世與愈史郎"
+    ],
+    "upHp": "+10%",
+    "upAttack": "0",
+    "upRecovery": "+10%",
+    "idNorm": "3744",
+    "name": "【3744】 血液採集小刀龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903744%E3%80%91_%E8%A1%80%E6%B6%B2%E6%8E%A1%E9%9B%86%E5%B0%8F%E5%88%80%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/8/84/C3744.png/revision/latest/scale-to-width-down/120?cb\u003d20210329041622\u0026path-prefix\u003dzh",
+      "iconKey": "C3744.png"
+    }
+  },
+  {
     "rarity": 2,
     "level": 2,
     "mode": "連鎖龍紋",
