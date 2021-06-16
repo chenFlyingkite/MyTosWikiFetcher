@@ -158,10 +158,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         mLf.log("%s metadata = %s", cardKinds.size(), cardKinds);
         mLf.log("%s series\n = %s", cardSeries.size(), cardSeries);
         mLf.log("%s signatures", cardSigna.size());
-        int k = 0;
+        //int k = 0;
         for (String s : cardSigna) {
-            mLf.log("#%2d : %s", k, s);
-            k++;
+            mLf.log(" : %s", s);
         }
 
         mLf.getFile().close();

@@ -71,10 +71,7 @@ public class TosWikiCardsLister extends TosWikiBaseFetcher {
     }
 
     private List<String> getCardGroups() {
-        Document doc = getDocument(tosCardLists);
-
-        Element main = doc.getElementById("mw-content-text");
-        return TosGet.me.getLiAHref(main, wikiBaseZh);
+        return getLiAHref(tosCardLists);
     }
 
     private List<CardItem> getCardsInLink(String link) {

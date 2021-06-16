@@ -44,17 +44,29 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
 
     @Override
     public void run() {
-
         mLf.getFile().open(false);
         clock.tic();
         // Fetch normal crafts
         loadAllCrafts(craftPage, mLite, mCraft);
 
         // Fetch armed crafts
-        loadAllCrafts(craftArmPage, mArmLite, mArmCraft);
+        fetchArmCraft();
 
         clock.tac("Crafts & Armed craft OK Done %s", tag());
         mLf.getFile().close();
+    }
+
+    private void fetchArmCraft() {
+        List<String> links = getLiAHref(craftArmPage);
+        List<SimpleCraft> armLite = new ArrayList<>();
+        for (int i = 0; i < links.size(); i++) {
+            String li = links.get(i);
+            List<SimpleCraft> sc = getSimpleCraft(li);
+            mLf.log("%s crafts in page %s", sc.size(), li);
+            armLite.addAll(sc);
+        }
+        writeAsGson(armLite, mArmLite);
+        loadCrafts(armLite, mArmCraft);
     }
 
     private List<Craft> loadAllCrafts(String page, LF lfLite, LF lfFull) {

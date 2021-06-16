@@ -17,6 +17,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import wikia.articles.UnexpandedArticle;
 import wikia.articles.result.UnexpandedListArticleResultSet;
@@ -364,6 +365,15 @@ public class TosWikiBaseFetcher implements Runnable {
         return msg;
     }
 
+    // Get the links from node of <li><a><href>
+    // Usually for get inner tabs
+    protected final List<String> getLiAHref(String page) {
+        Document doc = getDocument(page);
+
+        Element main = doc.getElementById("mw-content-text");
+        return TosGet.me.getLiAHref(main, wikiBaseZh);
+    }
+
     protected final String tag() {
         return getClass().getSimpleName();
     }
@@ -375,7 +385,6 @@ public class TosWikiBaseFetcher implements Runnable {
             lg.log("%s", a);
         }
     }
-
 
     protected <T> int[] findAnchors(List<T> list, T[] anchor) {
         int n = list.size();

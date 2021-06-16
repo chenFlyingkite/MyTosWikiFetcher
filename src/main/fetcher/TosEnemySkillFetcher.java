@@ -52,10 +52,7 @@ public class TosEnemySkillFetcher extends TosWikiBaseFetcher {
     }
 
     private List<String> getSkillGroups(String link) {
-        Document doc = getDocument(link);
-
-        Element main = doc.getElementById("mw-content-text");
-        return TosGet.me.getLiAHref(main, wikiBaseZh);
+        return getLiAHref(link);
     }
 
     private List<EnemySkill> getSkillsInLink(String link) {

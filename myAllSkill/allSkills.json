@@ -5609,7 +5609,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8D%81%E6%AE%BA%E4%B9%8B%E5%B1%A0",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊中只有機械族及神族成員時： I. 全隊攻擊力 10 倍 II. 心符石兼具 50% 水符石效果 III. 達至 5 - 9 連擊 (Combo) 時 ⇒ 減少 20% 所受傷害 至下回合開始時 IV. 達至 ≥10 連擊 (Combo) 時 ⇒ 減少 80% 所受傷害",
+    "skillDesc": "隊中只有機械族及神族成員時： I. 全隊攻擊力 10 倍 II. 心符石兼具 50% 水符石效果 III. 達至 5 - 9 連擊 (Combo) 時 ⇒ 減少 20% 所受傷害 IV. 達至 ≥10 連擊 (Combo) 時 ⇒ 減少 80% 所受傷害",
     "skillMonsters": [
       "1871"
     ]
@@ -8059,6 +8059,17 @@
     "skillDesc": "妖精類回復力 5 倍",
     "skillMonsters": [
       "2642"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "妖之禮序",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E7%A6%AE%E5%BA%8F",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 妖精類成員直行 ⓵ 首粒及第 5 粒符石 ⇒ 轉化為心強化符石 ⓶ 第 2、3、4 粒符石 ⇒ 轉化為該直行成員的 屬性強化符石 1 回合內 II. 全隊攻擊力 2 倍 III. 若首批消除所有符石 ⇒ 回合結束時， 將所有符石轉化為妖族符石",
+    "skillMonsters": [
+      "3001"
     ]
   },
   {
@@ -13738,7 +13749,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E4%B9%8B%E9%AD%94%E8%A1%93",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 火及心符石兼具 50% 暗符石效果 III. 首批消除 1 組外側 18 粒符石 ⇒ 減少所受傷害 80% 至下回合開始時",
+    "skillDesc": "隊伍中只有人類成員時： I. 全隊攻擊力 5 倍 II. 火及心符石兼具 50% 暗符石效果 III. 首批消除 1 組外側 18 粒符石 ⇒ 減少所受傷害 80%",
     "skillMonsters": [
       "2458"
     ]
@@ -14206,6 +14217,17 @@
     "skillDesc": "引爆自身直行的符石以掉落暗強化及心強化符石。若身旁的成員同為暗屬性神族，同得此效果",
     "skillMonsters": [
       "1830"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "暗魂一念間",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E9%AD%82%E4%B8%80%E5%BF%B5%E9%96%93",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 解除自身被封鎖的技能 (此技能無視封鎖技能) 1 回合內 II. 可任意移動符石 而不會發動消除 III. 將首次移動符石時觸碰的符石 ⇒ 轉化為暗龍族符石",
+    "skillMonsters": [
+      "2683"
     ]
   },
   {
@@ -17555,7 +17577,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%9C%88%E6%88%B0%E7%9B%BE",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 水屬性及「代偶規條」系列成員 攻擊力 6 倍、生命力及回復力 1.2 倍 II. 消除水符石時 ⇒ 所受傷害減少 30% 至下回合開始時 III. 消除 1 組 ≥5 粒水符石時 ⇒ 水屬性及「代偶規條」系列成員 攻擊力額外 2.8 倍",
+    "skillDesc": "I. 水屬性及「代偶規條」系列成員 攻擊力 6 倍、生命力及回復力 1.2 倍 II. 消除水符石時 ⇒ 所受傷害減少 30% III. 消除 1 組 ≥5 粒水符石時 ⇒ 水屬性及「代偶規條」系列成員 攻擊力額外 2.8 倍",
     "skillMonsters": [
       "2381"
     ]
@@ -19290,7 +19312,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%B7%E6%B7%B5%E5%87%9D%E5%BF%B5_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊中只有水屬性成員時： I. 全隊攻擊力 6.5 倍及生命力 1.5 倍 II. 每消除 1 粒水符石 ⇒ 回復 3% 總生命力 (受連擊 (Combo) 加乘影響) III. 若首批消除的連擊 (Combo) 數為單數時 ⓵ 減少 40% 所受傷害 至下回合開始時 ⓶ 所有成員的攻擊無視五屬盾 IV. 若首批消除的連擊 (Combo) 數為雙數時 ⇒ 全隊攻擊力額外 2.5 倍 V. 若首批消除的連擊 (Combo) 數 ≥6 ⇒ 可以同時獲得 III, IV 效果",
+    "skillDesc": "隊中只有水屬性成員時： I. 全隊攻擊力 6.5 倍及生命力 1.5 倍 II. 每消除 1 粒水符石 ⇒ 回復 3% 總生命力 (受連擊 (Combo) 加乘影響) III. 若首批消除的連擊 (Combo) 數為單數時 ⓵ 減少 40% 所受傷害 ⓶ 所有成員的攻擊無視五屬盾 IV. 若首批消除的連擊 (Combo) 數為雙數時 ⇒ 全隊攻擊力額外 2.5 倍 V. 若首批消除的連擊 (Combo) 數 ≥6 ⇒ 可以同時獲得 III, IV 效果",
     "skillMonsters": [
       "2545"
     ]
@@ -28384,7 +28406,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B1%8C%E5%8A%83%E4%B9%8B%E6%88%B0",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有暗屬性成員時： I. 全隊攻擊力 5 倍 II. 首批沒有消除暗符石時 (需消除符石) ⇒ 減少 25% 所受傷害 至下回合開始時 III. 心符石兼具 50% 暗符石效果 IV. 隊伍中集齊 5、6、7 星成員時 ⓵ 全隊生命力、攻擊力、回復力 2 倍 ⓶ 必然延長移動符石時間 2.5 秒",
+    "skillDesc": "隊伍中只有暗屬性成員時： I. 全隊攻擊力 5 倍 II. 首批沒有消除暗符石時 (需消除符石) ⇒ 減少 25% 所受傷害 III. 心符石兼具 50% 暗符石效果 IV. 隊伍中集齊 5、6、7 星成員時 ⓵ 全隊生命力、攻擊力、回復力 2 倍 ⓶ 必然延長移動符石時間 2.5 秒",
     "skillMonsters": [
       "2385"
     ]
@@ -28787,7 +28809,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%90%E7%9B%9F_%E2%80%A7_%E8%AA%93%E5%AE%88%E4%B9%8B%E5%85%89",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有水及光屬性成員時： I. 全隊攻擊力 5 倍 II. 消除光符石時 ⇒ 減少 40% 所受傷害 至下回合開始時 III. 同時消除水及光符石時 ⇒ 下回合將 5 粒光符石 轉化為光強化符石",
+    "skillDesc": "隊伍中只有水及光屬性成員時： I. 全隊攻擊力 5 倍 II. 消除光符石時 ⇒ 減少 40% 所受傷害 III. 同時消除水及光符石時 ⇒ 下回合將 5 粒光符石 轉化為光強化符石",
     "skillMonsters": [
       "2277"
     ]
@@ -30539,6 +30561,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "萬妖舞幽．傾巢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E5%A6%96%E8%88%9E%E5%B9%BD%EF%BC%8E%E5%82%BE%E5%B7%A2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有暗屬性或妖精類成員時： I. 全隊攻擊力及回復力 15 倍 II. 生命力全滿時 ⇒ 全隊攻擊力額外 2 倍 III. 消除妖族符石時 ⇒ 全隊攻擊力額外 2 倍",
+    "skillMonsters": [
+      "3001"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "萬妖齊舞",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E5%A6%96%E9%BD%8A%E8%88%9E",
     "skillCDMin": -1,
@@ -31899,6 +31932,17 @@
     "skillDesc": "1 回合內，沒有消除心符石，全隊攻擊力 2.2 倍；反之，全隊攻擊力及回復力 1.5 倍",
     "skillMonsters": [
       "1410"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "蝕靈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9D%95%E9%9D%88",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 完全回復生命力 1 回合內 II. 觸碰暗、心符石時 ⇒ 解除其電擊、凍結、弱化、 化血、石化符石狀態 III. 首批消除暗或心符石時 ⇒ 妖精類成員 ⓵ 無視「指定形狀盾」 ⓶ 無視「攻前盾」",
+    "skillMonsters": [
+      "3001"
     ]
   },
   {
@@ -34639,7 +34683,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%85%B7%E5%86%B7%E4%B9%8B%E6%AE%BA%E6%84%8F_%E2%80%A7_%E6%BA%A2",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊伍中只有火、木及暗屬性成員時： I. 全隊攻擊力 5 倍 II. 任意消除火、木或暗符石達 ≥9 粒 ⇒ 全隊攻擊力額外 2 倍 III. 同時消除火、木及暗符石 ⇒ 所受傷害減少 40% 至下回合開始時",
+    "skillDesc": "隊伍中只有火、木及暗屬性成員時： I. 全隊攻擊力 5 倍 II. 任意消除火、木或暗符石達 ≥9 粒 ⇒ 全隊攻擊力額外 2 倍 III. 同時消除火、木及暗符石 ⇒ 所受傷害減少 40%",
     "skillMonsters": [
       "2272"
     ]
@@ -37670,7 +37714,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A7%95%E9%A6%AD%E8%90%AC%E7%89%A9",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 神族及機械族攻擊力 5 倍 II. 達成 ≥7 連擊 (Combo) 時 ⇒ 神族及機械族攻擊力額外 5 倍 III. 達成 ≤6 連擊 (Combo) 時 ⇒ 所受傷害減少 80% 至下回合開始時",
+    "skillDesc": "I. 神族及機械族攻擊力 5 倍 II. 達成 ≥7 連擊 (Combo) 時 ⇒ 神族及機械族攻擊力額外 5 倍 III. 達成 ≤6 連擊 (Combo) 時 ⇒ 所受傷害減少 80%",
     "skillMonsters": [
       "2329"
     ]
@@ -40591,6 +40635,7 @@
     "skillDesc": "龍類攻擊力 5 倍",
     "skillMonsters": [
       "2591",
+      "2683",
       "2686",
       "2693"
     ]
