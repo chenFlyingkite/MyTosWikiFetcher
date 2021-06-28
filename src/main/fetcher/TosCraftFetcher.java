@@ -33,12 +33,17 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
 
     private List<String> getPeeks() {
         List<String> a = new ArrayList<>();
-        //a.add("7002");
-        //a.add("3083"); // #3083 : 龍王劍龍咒 -> https://tos.fandom.com/zh/wiki/%E9%BE%8D%E7%8E%8B%E5%8A%8D%E9%BE%8D%E5%92%92
-        //a.add("3154"); // #3154 : 冥界寶杖龍符 -> https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E5%AF%B6%E6%9D%96%E9%BE%8D%E7%AC%A6
-        //a.add("3257"); // #3257 : 玄獸武刃龍咒 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E7%8D%B8%E6%AD%A6%E5%88%83%E9%BE%8D%E5%92%92
-        //a.add("3258"); // #3258 : 玄獸武刃龍符 -> https://tos.fandom.com/zh/wiki/%E7%8E%84%E7%8D%B8%E6%AD%A6%E5%88%83%E9%BE%8D%E7%AC%A6
+//        a.add("3791");
+//        a.add("3792");
+//        a.add("3793");
         a.clear();
+        return a;
+    }
+
+    private List<String> getOmit() {
+        List<String> a = new ArrayList<>();
+        a.add("3792"); //#3791 : 【3792】 飛電ZERO-ONE驅動器龍刃
+        //a.clear();
         return a;
     }
 
@@ -98,13 +103,19 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
         List<Craft> crafts = new ArrayList<>();
 
         List<String> peeks = getPeeks();
-        boolean hasPeek = peeks != null && peeks.size() > 0;
+        boolean hasPeek = peeks.size() > 0;
+        List<String> omits = getOmit();
+        boolean hasOmit = omits.size() > 0;
 
         Document doc;
         Elements item;
         mLf.setLogToFile(false);
         for (SimpleCraft s : simple) {
-            if (hasPeek && !peeks.contains(s.getIdNorm())) {
+            String id = s.getIdNorm();
+            if (hasPeek && !peeks.contains(id)) {
+                continue;
+            }
+            if (hasOmit && omits.contains(id)) {
                 continue;
             }
             doc = getDocument(s.getLink());

@@ -52,7 +52,8 @@ public class Main {
         //fetch();
         //copyToMyTosWiki();
         //enterUID();
-        enterTemperature();
+        //enterTemperature();
+        TosCraftFetcher.me.run();
 
         //MyTosWikiFirebase.run();
 
@@ -98,7 +99,7 @@ public class Main {
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.6");
+            r.type("36.5");
             // Forehead temperature, Ear temperature  Others
             r.keyClick(KeyEvent.VK_TAB);
             if (type == 1) {
