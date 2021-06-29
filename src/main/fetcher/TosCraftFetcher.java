@@ -36,13 +36,14 @@ public class TosCraftFetcher extends TosWikiBaseFetcher {
 //        a.add("3791");
 //        a.add("3792");
 //        a.add("3793");
-        a.clear();
+        //a.clear();
         return a;
     }
 
+    // https://tos.fandom.com/zh/wiki/Template:C3792?type=revision&diff=524314&oldid=524282
     private List<String> getOmit() {
         List<String> a = new ArrayList<>();
-        a.add("3792"); //#3791 : 【3792】 飛電ZERO-ONE驅動器龍刃
+        //a.add("3792"); //#3791 : 【3792】 飛電ZERO-ONE驅動器龍刃
         //a.clear();
         return a;
     }

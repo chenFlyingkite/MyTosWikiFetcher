@@ -1849,7 +1849,7 @@
 179 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/3601-3900
 56 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/7001-7300
 8 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/9001-9100
-763 crafts
+764 crafts
 #2006 : 【2006】 銀紋 -> https://tos.fandom.com/zh/wiki/%E3%80%902006%E3%80%91_%E9%8A%80%E7%B4%8B
 2★ Lv. 2    連鎖龍紋 消除任何符石 (只計算首批消除的符石)
 [] [] 沒有限制 沒有限制
@@ -4444,6 +4444,10 @@
 [1 : 2000 -> 1 回合內，隊伍攻擊力及回復力提升 20%, 2 : 4500 -> 1 回合內，完全回復生命力, 3 : 7000 -> 延遲全體敵人行動 1 回合]
 #3791 : 【3791】 飛電ZERO-ONE驅動器龍璃 -> https://tos.fandom.com/zh/wiki/%E3%80%903791%E3%80%91_%E9%A3%9B%E9%9B%BBZERO-ONE%E9%A9%85%E5%8B%95%E5%99%A8%E9%BE%8D%E7%92%83
 3★ Lv. 3 +5% +10% +5% 落影龍璃 連擊 (Combo) 達4或以上
+[2701, 2719, 2720] [假面騎士Zero-One, 假面騎士Zero-Two, 假面騎士Ark-One]  
+[1 : 2000 -> 1 回合內，隊伍攻擊力及回復力提升 20%, 2 : 4500 -> 1 回合內，完全回復生命力, 3 : 7000 -> 延遲全體敵人行動 1 回合]
+#3792 : 【3792】 飛電ZERO-ONE驅動器龍刃 -> https://tos.fandom.com/zh/wiki/%E3%80%903792%E3%80%91_%E9%A3%9B%E9%9B%BBZERO-ONE%E9%A9%85%E5%8B%95%E5%99%A8%E9%BE%8D%E5%88%83
+3★ Lv. 3 +5% +10% +5% 裂空龍刃 連擊 (Combo) 達4或以上
 [2701, 2719, 2720] [假面騎士Zero-One, 假面騎士Zero-Two, 假面騎士Ark-One]  
 [1 : 2000 -> 1 回合內，隊伍攻擊力及回復力提升 20%, 2 : 4500 -> 1 回合內，完全回復生命力, 3 : 7000 -> 延遲全體敵人行動 1 回合]
 #3793 : 【3793】 飛電ZERO-ONE驅動器龍丸 -> https://tos.fandom.com/zh/wiki/%E3%80%903793%E3%80%91_%E9%A3%9B%E9%9B%BBZERO-ONE%E9%A9%85%E5%8B%95%E5%99%A8%E9%BE%8D%E4%B8%B8
