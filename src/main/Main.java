@@ -49,11 +49,10 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        //fetch();
+        fetch(0); // x <=0 = run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //enterTemperature();
-        TosCraftFetcher.me.run();
 
         //MyTosWikiFirebase.run();
 
@@ -99,7 +98,7 @@ public class Main {
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.5");
+            r.type("36.3");
             // Forehead temperature, Ear temperature  Others
             r.keyClick(KeyEvent.VK_TAB);
             if (type == 1) {
@@ -231,8 +230,10 @@ public class Main {
         }
     }
 
-    private static void fetch() {
-        TosCardExtras.me.run(); // Almost 250ms * 3200 cards = 15min
+    private static void fetch(int extra) {
+        if (extra <= 0) {
+            TosCardExtras.me.run(); // Almost 250ms * 3200 cards = 15min
+        }
         fetchMisc();
         fetchCards();
     }

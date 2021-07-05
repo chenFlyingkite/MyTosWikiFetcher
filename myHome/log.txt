@@ -10,6 +10,13 @@
   "name": "Game Start!",
   "icon": "2717"
 },
+1625472000 ~ 1626623940 -> [7月05日(一) 16:00, 7月18日(日) 23:59, 拯救這個世界 ※ 挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E6%8B%AF%E6%95%91%E9%80%99%E5%80%8B%E4%B8%96%E7%95%8C
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%8B%AF%E6%95%91%E9%80%99%E5%80%8B%E4%B8%96%E7%95%8C",
+  "name": "拯救這個世界",
+  "icon": "2721"
+},
 1624204800 ~ 1626624000 -> [6月21日(一), 7月18日(日), 戴上變身腰帶吧 ※ 試玩任務]
   link = https://tos.fandom.com/zh/wiki/%E6%88%B4%E4%B8%8A%E8%AE%8A%E8%BA%AB%E8%85%B0%E5%B8%B6%E5%90%A7
 {
@@ -24,42 +31,28 @@
   "name": "一起戰鬥吧",
   "icon": "2701"
 },
-1624204800 ~ 1625414400 -> [6月21日(一), 7月04日(日), ZAIA的藝術作品 ※ 雙週任務]
-  link = https://tos.fandom.com/zh/wiki/ZAIA%E7%9A%84%E8%97%9D%E8%A1%93%E4%BD%9C%E5%93%81
+1625414400 ~ 1626624000 -> [7月05日(一), 7月18日(日), 這就是神的才能 ※ 雙週任務]
+  link = https://tos.fandom.com/zh/wiki/%E9%80%99%E5%B0%B1%E6%98%AF%E7%A5%9E%E7%9A%84%E6%89%8D%E8%83%BD
 {
-  "link": "https://tos.fandom.com/zh/wiki/ZAIA%E7%9A%84%E8%97%9D%E8%A1%93%E4%BD%9C%E5%93%81",
-  "name": "ZAIA的藝術作品",
-  "icon": "2711"
+  "link": "https://tos.fandom.com/zh/wiki/%E9%80%99%E5%B0%B1%E6%98%AF%E7%A5%9E%E7%9A%84%E6%89%8D%E8%83%BD",
+  "name": "這就是神的才能",
+  "icon": "2712"
 },
-1624809600 ~ 1625414400 -> [6月28日(一), 7月04日(日), 世界的破壞者 ※ 公會任務]
-  link = https://tos.fandom.com/zh/wiki/%E4%B8%96%E7%95%8C%E7%9A%84%E7%A0%B4%E5%A3%9E%E8%80%85
+1625580000 ~ 1626019140 -> [7月06日(二) 22:00, 7月11日(日) 23:59, 施展劇烈毒性的變身者 ※ 全新地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E6%96%BD%E5%B1%95%E5%8A%87%E7%83%88%E6%AF%92%E6%80%A7%E7%9A%84%E8%AE%8A%E8%BA%AB%E8%80%85
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E4%B8%96%E7%95%8C%E7%9A%84%E7%A0%B4%E5%A3%9E%E8%80%85",
-  "name": "世界的破壞者",
-  "icon": "2715"
-},
-1624975200 ~ 1625414340 -> [6月29日(二) 22:00, 7月04日(日) 23:59, 招來究極黑暗的人 ※ 全新地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%8B%9B%E4%BE%86%E7%A9%B6%E6%A5%B5%E9%BB%91%E6%9A%97%E7%9A%84%E4%BA%BA
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%8B%9B%E4%BE%86%E7%A9%B6%E6%A5%B5%E9%BB%91%E6%9A%97%E7%9A%84%E4%BA%BA",
-  "name": "招來究極黑暗的人",
-  "icon": "2713"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%96%BD%E5%B1%95%E5%8A%87%E7%83%88%E6%AF%92%E6%80%A7%E7%9A%84%E8%AE%8A%E8%BA%AB%E8%80%85",
+  "name": "施展劇烈毒性的變身者",
+  "icon": "2714"
 },
 0 ~ 0 -> [⬇ 所有地區關卡 ⬇]
   link = 
-1622476800 ~ 1625068800 -> [6月01日(二), 6月30日(三), 六月挑戰任務 ※ 每月挑戰關卡]
-  link = https://tos.fandom.com/zh/wiki/%E5%85%AD%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%85%AD%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99",
-  "name": "六月挑戰任務",
-  "icon": "2269"
-},
 1625068800 ~ 1627747200 -> [7月01日(四), 7月31日(六), 七月挑戰任務 ※ 每月挑戰關卡]
   link = https://tos.fandom.com/zh/wiki/%E4%B8%83%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99
 {
   "link": "https://tos.fandom.com/zh/wiki/%E4%B8%83%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99",
   "name": "七月挑戰任務",
-  "icon": "2478"
+  "icon": "2244"
 },
 1624809600 ~ 1627833600 -> [6月28日(一), 8月01日(日), 戰火輪迴 ※ 復刻輪迴]
   link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E8%BC%AA%E8%BF%B4
@@ -68,33 +61,26 @@
   "name": "戰火輪迴",
   "icon": "7019"
 },
-1624809600 ~ 1624896000 -> [6月28日(一), 帥氣的新郎 ※ 特襲關卡]
-  link = https://tos.fandom.com/zh/wiki/%E5%B8%A5%E6%B0%A3%E7%9A%84%E6%96%B0%E9%83%8E
+1625414400 ~ 1627833600 -> [7月05日(一), 8月01日(日), 戰火輪迴 ‧ 改 ※ 復刻輪迴新挑戰]
+  link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E8%BC%AA%E8%BF%B4_%E2%80%A7_%E6%94%B9
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%B8%A5%E6%B0%A3%E7%9A%84%E6%96%B0%E9%83%8E",
-  "name": "帥氣的新郎",
-  "icon": "2257"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E8%BC%AA%E8%BF%B4_%E2%80%A7_%E6%94%B9",
+  "name": "戰火輪迴 ‧ 改",
+  "icon": "7019"
 },
-1625241600 ~ 1625328000 -> [7月03日(六), 帥氣的新郎 ※ 特襲關卡]
-  link = https://tos.fandom.com/zh/wiki/%E5%B8%A5%E6%B0%A3%E7%9A%84%E6%96%B0%E9%83%8E
+1625414400 ~ 1626624000 -> [7月05日(一), 7月18日(日), 妖精翩翩起舞 ※ 復刻雙週任務]
+  link = https://tos.fandom.com/zh/wiki/%E5%A6%96%E7%B2%BE%E7%BF%A9%E7%BF%A9%E8%B5%B7%E8%88%9E
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%B8%A5%E6%B0%A3%E7%9A%84%E6%96%B0%E9%83%8E",
-  "name": "帥氣的新郎",
-  "icon": "2257"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E7%B2%BE%E7%BF%A9%E7%BF%A9%E8%B5%B7%E8%88%9E",
+  "name": "妖精翩翩起舞",
+  "icon": "2323"
 },
-1624204800 ~ 1625414400 -> [6月21日(一), 7月04日(日), 結伴飛翔的兄弟 ※ 復刻雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%B5%90%E4%BC%B4%E9%A3%9B%E7%BF%94%E7%9A%84%E5%85%84%E5%BC%9F
+1625414400 ~ 1626624000 -> [7月05日(一), 7月18日(日), 同伴的心意 ※ 復刻雙週任務]
+  link = https://tos.fandom.com/zh/wiki/%E5%90%8C%E4%BC%B4%E7%9A%84%E5%BF%83%E6%84%8F
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E7%B5%90%E4%BC%B4%E9%A3%9B%E7%BF%94%E7%9A%84%E5%85%84%E5%BC%9F",
-  "name": "結伴飛翔的兄弟",
-  "icon": "2322"
-},
-1624204800 ~ 1625414400 -> [6月21日(一), 7月04日(日), 掃葉大鬥法 ※ 復刻雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E6%8E%83%E8%91%89%E5%A4%A7%E9%AC%A5%E6%B3%95
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%8E%83%E8%91%89%E5%A4%A7%E9%AC%A5%E6%B3%95",
-  "name": "掃葉大鬥法",
-  "icon": "2437"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%90%8C%E4%BC%B4%E7%9A%84%E5%BF%83%E6%84%8F",
+  "name": "同伴的心意",
+  "icon": "1906"
 },
 1623686400 ~ 1624377600 -> [6月15日(二), 6月22日(二), 乾坤破碎之後 ※ 戰慄級]
   link = https://tos.fandom.com/zh/wiki/%E4%B9%BE%E5%9D%A4%E7%A0%B4%E7%A2%8E%E4%B9%8B%E5%BE%8C
@@ -110,19 +96,35 @@
   "name": "不可逆的銳變",
   "icon": "1871"
 },
-1625234400 ~ 1625414340 -> [7月02日(五) 22:00, 7月04日(日) 23:59, 煙幻的殺戮往昔 ※ 復刻地獄級]
+1625234400 ~ 1625500740 -> [7月02日(五) 22:00, 7月05日(一) 23:59, 煙幻的殺戮往昔 ※ 復刻地獄級]
   link = https://tos.fandom.com/zh/wiki/%E7%85%99%E5%B9%BB%E7%9A%84%E6%AE%BA%E6%88%AE%E5%BE%80%E6%98%94
 {
   "link": "https://tos.fandom.com/zh/wiki/%E7%85%99%E5%B9%BB%E7%9A%84%E6%AE%BA%E6%88%AE%E5%BE%80%E6%98%94",
   "name": "煙幻的殺戮往昔",
   "icon": "2430"
 },
-1625068800 ~ 1625155200 -> [7月01日(四), 侵蝕野望 ※ 復刻災厄級]
-  link = https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E9%87%8E%E6%9C%9B
+1625839200 ~ 1626105540 -> [7月09日(五) 22:00, 7月12日(一) 23:59, 仙術天才的傲然 ※ 復刻夢魘級]
+  link = https://tos.fandom.com/zh/wiki/%E4%BB%99%E8%A1%93%E5%A4%A9%E6%89%8D%E7%9A%84%E5%82%B2%E7%84%B6
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E9%87%8E%E6%9C%9B",
-  "name": "侵蝕野望",
-  "icon": "3001"
+  "link": "https://tos.fandom.com/zh/wiki/%E4%BB%99%E8%A1%93%E5%A4%A9%E6%89%8D%E7%9A%84%E5%82%B2%E7%84%B6",
+  "name": "仙術天才的傲然",
+  "icon": "2139"
+},
+0 ~ 0 -> [迎擊戰『創建一個人的天堂』]
+  link = 
+1625803200 ~ 1626062340 -> [7月09日(五) 12:00, 7月12日(一) 11:59, 創建一個人的天堂 - 戰鬥階段]
+  link = https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82",
+  "name": "創建一個人的天堂",
+  "icon": "0000"
+},
+1626062400 ~ 1626537540 -> [7月12日(一) 12:00, 7月17日(六) 23:59, 創建一個人的天堂 - 戰鬥階段]
+  link = https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82",
+  "name": "創建一個人的天堂",
+  "icon": "0000"
 },
 0 ~ 0 -> [⬇ 非合作地區關卡 ⬇]
   link = 
@@ -161,7 +163,19 @@
   "name": "追求刺激的仙將",
   "icon": "2146"
 },
-0 ~ 0 -> [變身！假面騎士神魔時代！ / 古朗基的統治者]
+0 ~ 0 -> [『遺跡特許』關卡開放]
+  link = https://tos.fandom.com/zh/wiki/%E9%81%BA%E8%B7%A1%E7%89%B9%E8%A8%B1
+1625414400 ~ 4086950400 -> [7月05日(一), 7月05日(日), 遺跡特許 ‧ 妄者的痴狂]
+  link = https://tos.fandom.com/zh/wiki/%E5%A6%84%E8%80%85%E7%9A%84%E7%97%B4%E7%8B%82
+1625414400 ~ 4086950400 -> [7月05日(一), 7月05日(日), 遺跡特許 ‧ 隕落的星耀]
+  link = https://tos.fandom.com/zh/wiki/%E9%9A%95%E8%90%BD%E7%9A%84%E6%98%9F%E8%80%80
+1625414400 ~ 4086950400 -> [7月05日(一), 7月05日(日), 遺跡特許 ‧ 剽悍的鬥士]
+  link = https://tos.fandom.com/zh/wiki/%E5%89%BD%E6%82%8D%E7%9A%84%E9%AC%A5%E5%A3%AB
+1625414400 ~ 4086950400 -> [7月05日(一), 7月05日(日), 遺跡特許 ‧ 不能辜負的期望]
+  link = https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%83%BD%E8%BE%9C%E8%B2%A0%E7%9A%84%E6%9C%9F%E6%9C%9B
+1625414400 ~ 4086950400 -> [7月05日(一), 7月05日(日), 遺跡特許 ‧ 掩藏葉後的密使]
+  link = https://tos.fandom.com/zh/wiki/%E6%8E%A9%E8%97%8F%E8%91%89%E5%BE%8C%E7%9A%84%E5%AF%86%E4%BD%BF
+0 ~ 0 -> [變身！假面騎士神魔時代！ / 古朗基的統治者 / 注入破壞性能量]
   link = https://tos.fandom.com/zh/wiki/%E8%AE%8A%E8%BA%AB%EF%BC%81%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%AB%E7%A5%9E%E9%AD%94%E6%99%82%E4%BB%A3%EF%BC%81
 0 ~ 0 -> [⬇ 合作地區活動 (港澳台新馬泰) ⬇]
   link = 
@@ -171,19 +185,7 @@
   link = 
 1624204800 ~ 1626624000 -> [6月21日(一), 7月18日(日), 『行商要塞』新品上架[金幣 15 萬] – 練技小怪「修卡戰鬥員」1 隻 (合共有 60 隻)[金瘋頭源石 10 粒] – 稀有角色造型 1 款「假面騎士Zero-One (Luminous ver.)」]
   link = 
-1624809600 ~ 1625414400 -> [6月28日(一), 7月04日(日), 任務條件與獎勵： 首次消耗滿 100 點體力 – 靈魂 250 個 首次消耗滿 200 點體力 – 練技小怪「修卡戰鬥員」5 隻 首次消耗滿 300 點體力 – 靈魂 250 個 首次消耗滿 400 點體力 – 練技小怪「修卡戰鬥員」5 隻 首次消耗滿 500 點體力 – 靈魂 250 個 首次消耗滿 600 點體力 – 練技小怪「修卡戰鬥員」10 隻]
-  link = 
 0 ~ 0 -> [⬇ 所有地區活動 ⬇]
   link = 
-1624204800 ~ 1624377600 -> [6月21日(一), 6月22日(二), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1624377600 ~ 1624550400 -> [6月23日(三), 6月24日(四), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1624636800 ~ 1624809600 -> [6月26日(六), 6月27日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+1625846400 ~ 1626019200 -> [7月10日(六), 7月11日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 
-1625241600 ~ 1625414400 -> [7月03日(六), 7月04日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
-  link = 
-1624809600 ~ 1624982400 -> [6月28日(一), 6月29日(二), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1624982400 ~ 1625155200 -> [6月30日(三), 7月01日(四), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3

@@ -5301,7 +5301,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES5081}}  5082 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5081?action=edit
 --  #CD4  E : [0]  ->  ->  -> 
 --  #5083  {{ES5083}} : [1]  -> 擊碎龍脈-缺龍脈即殺 -> <font color=#FFFF3C>【裝備龍刻 - 突擊 - 擊碎龍脈儀 ‧ 沒有裝備龍刻 - 先制一擊必殺】</font><br><br>突擊 1 次 (不能迴避)，<br>並擊碎龍脈儀。<br><br>召喚師若沒有裝備龍刻：<br>進場時扣除召喚師<br>100% 生命力 (不能迴避) -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5083
---  #E  (1回減傷99%) : [0]  ->  ->  -> 
+--  #E  1回減傷99% : [0]  ->  ->  -> 
 --  #{{ES5084}}  5085 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5084?action=edit
 --  #(2回減傷99%)  E : [0]  ->  ->  -> 
 --  #5086  {{ES5086}} : [1]  -> 單擊10億盾 -> <font color=#FFFF3C>【10 億護盾】</font><br><br>隊伍中成員的單一傷害<br>達 10 億才能對敵人<br>造成傷害。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5086

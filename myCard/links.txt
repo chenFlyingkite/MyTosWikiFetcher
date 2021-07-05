@@ -16110,6 +16110,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2697"
   },
   {
+    "title": "No. 2698 魔之魂寵",
+    "id": "2698",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E4%B9%8B%E9%AD%82%E5%AF%B5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2698"
+  },
+  {
     "title": "No. 2699 假面騎士空我(全能型態)",
     "id": "2699",
     "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%AB%E7%A9%BA%E6%88%91(%E5%85%A8%E8%83%BD%E5%9E%8B%E6%85%8B)",
@@ -16188,10 +16194,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2711"
   },
   {
+    "title": "No. 2712 假面騎士Genm(喪屍躍動玩家Level X-0)",
+    "id": "2712",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%ABGenm(%E5%96%AA%E5%B1%8D%E8%BA%8D%E5%8B%95%E7%8E%A9%E5%AE%B6Level_X-0)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2712"
+  },
+  {
     "title": "No. 2713 恩・達古巴・塞巴",
     "id": "2713",
     "link": "https://tos.fandom.com/zh/wiki/%E6%81%A9%E3%83%BB%E9%81%94%E5%8F%A4%E5%B7%B4%E3%83%BB%E5%A1%9E%E5%B7%B4",
     "linkId": "http://zh.tos.wikia.com/wiki/2713"
+  },
+  {
+    "title": "No. 2714 假面騎士滅",
+    "id": "2714",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%AB%E6%BB%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/2714"
   },
   {
     "title": "No. 2715 影月",
@@ -16222,6 +16240,12 @@
     "id": "2720",
     "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%ABArk-One",
     "linkId": "http://zh.tos.wikia.com/wiki/2720"
+  },
+  {
+    "title": "No. 2721 假面騎士逢魔Zi-O",
+    "id": "2721",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%AB%E9%80%A2%E9%AD%94Zi-O",
+    "linkId": "http://zh.tos.wikia.com/wiki/2721"
   },
   {
     "title": "No. 2723 傳訊小妹",

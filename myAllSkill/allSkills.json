@@ -11459,6 +11459,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "慶賀吧！其名為逢魔Zi-O！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%85%B6%E8%B3%80%E5%90%A7%EF%BC%81%E5%85%B6%E5%90%8D%E7%82%BA%E9%80%A2%E9%AD%94Zi-O%EF%BC%81",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有人類及魔族成員時： I. 全隊攻擊力 7 倍、 生命力及回復力 1.5 倍 II. 所受傷害減少 60% III. 魔族成員追打 1 次 IV. 魔族成員無視敵人防禦力",
+    "skillMonsters": [
+      "2721"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "慾念之誘",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%85%BE%E5%BF%B5%E4%B9%8B%E8%AA%98",
@@ -11647,6 +11658,28 @@
     "skillDesc": "隊中只有暗屬性或【假面騎士】成員時： I. 全隊攻擊力 6.5 倍、 生命力及回復力 1.5 倍 II. 達至 ≥10 Combo 或 Ex. Combo ⇒ 全隊攻擊力額外 3 倍 III. 減少 25% 所受傷害 IV. 所受人類敵人的傷害則減少 40%",
     "skillMonsters": [
       "2704"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "我就是神啊！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%91%E5%B0%B1%E6%98%AF%E7%A5%9E%E5%95%8A%EF%BC%81",
+    "skillCDMin": 36,
+    "skillCDMax": 25,
+    "skillDesc": "I. 完全回復生命力 99 回合內 II. 回合結束時 ⇒ 完全回復生命力 III.「假面騎士Ex-Aid (無敵玩家)」 、 「假面騎士Ex-Aid」 、 「假面騎士Genm (喪屍躍動玩家Level X-0)」 ⇒ 攻擊力 3 倍",
+    "skillMonsters": [
+      "2712"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "我才不需要心！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%91%E6%89%8D%E4%B8%8D%E9%9C%80%E8%A6%81%E5%BF%83%EF%BC%81",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "2 回合內 I. 將移動符石時觸碰的 首 5 粒符石轉化為 ⇒ 暗強化符石 II. 自身攻擊力 4 倍 III. 自身無視「三屬盾」、 「四屬盾」、「五屬盾」敵技 IV. 回合結束時， 敵人全體中毒，每回合受到 自身攻擊力 500 倍的傷害， 此傷害無視防禦力及屬性 並持續到死亡",
+    "skillMonsters": [
+      "2714"
     ]
   },
   {
@@ -29097,6 +29130,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "終焉時刻！逢魔Zi-O必殺擊！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E7%84%89%E6%99%82%E5%88%BB%EF%BC%81%E9%80%A2%E9%AD%94Zi-O%E5%BF%85%E6%AE%BA%E6%93%8A%EF%BC%81",
+    "skillCDMin": 21,
+    "skillCDMax": 7,
+    "skillDesc": "I. 20 秒內，可任意移動符石 (此移動不會造成任何消除， 並不會作 1 回合計算) 2 回合內 II.「假面騎士Zi-O」及 「假面騎士逢魔Zi-O」 ⇒ 無視敵人防禦力 III. 記錄 「移動符石時間完結一刻」 場上的符石分佈 (包括強化符石、種族符石) ⇒ 回合結束時，將場上的符石 變回已記錄的符石分佈",
+    "skillMonsters": [
+      "2721"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "結界術 ‧ 幽冥",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%90%E7%95%8C%E8%A1%93_%E2%80%A7_%E5%B9%BD%E5%86%A5",
     "skillCDMin": 23,
@@ -34424,6 +34468,17 @@
     "skillDesc": "3 回合內 I. 水、火、木符石兼具 ⇒ 光及暗符石效果 II.「綾波零與EVA零號機」及 「碇真嗣與渚薰與 EVA13號機」 ⇒ 攻擊力減至 0 III. 將減去攻擊力的 3 倍 ⇒ 加至自身攻擊力",
     "skillMonsters": [
       "2540"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "這是方舟的意志！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%99%E6%98%AF%E6%96%B9%E8%88%9F%E7%9A%84%E6%84%8F%E5%BF%97%EF%BC%81",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性攻擊力 4 倍、 生命力及回復力 1.5 倍 II. 暗屬性機械族攻擊力額外 4 倍 III. 首批消除所有暗符石時 ⓵ 自身攻擊力額外 4 倍 ⓶ 增加 3 連擊 (Combo)",
+    "skillMonsters": [
+      "2714"
     ]
   },
   {

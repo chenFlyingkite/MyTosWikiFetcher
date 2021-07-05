@@ -13,7 +13,8 @@ open class YahooGet {
 
         fun classTable(e : Element) : List<StockInfo> {
             val all = ArrayList<StockInfo>()
-            val tds = e.getElementsByTag("td")
+            //val tds = e.getElementsByTag("td")
+            val tds = e.getElementsByTag("li")
             for (i in 0 until tds.size) {
                 val td = tds[i]
                 val si = StockInfo()

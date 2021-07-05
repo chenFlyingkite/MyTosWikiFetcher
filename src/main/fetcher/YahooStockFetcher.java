@@ -33,8 +33,8 @@ public class YahooStockFetcher implements Runnable {
     private List<StockInfo> marketLinks() { // 集中市場當日行情表
         Document doc = fetcher.sendAndParseDom(classLink(), onWeb);
         LF clazzLf = new LF(FOLDER, "m_class.txt");
-
-        Elements es = doc.getElementsByTag("table");
+        //Elements es = doc.getElementsByTag("table");
+        Elements es = doc.getElementsByTag("ul");
         List<StockInfo> si = YahooGet.me.classTable(es.get(5));
         clazzLf.getFile().open();
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
