@@ -98,7 +98,7 @@ public class Main {
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.3");
+            r.type("36.0");
             // Forehead temperature, Ear temperature  Others
             r.keyClick(KeyEvent.VK_TAB);
             if (type == 1) {
