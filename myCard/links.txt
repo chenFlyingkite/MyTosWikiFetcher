@@ -16218,6 +16218,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2715"
   },
   {
+    "title": "No. 2716 假面騎士Eden",
+    "id": "2716",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%ABEden",
+    "linkId": "http://zh.tos.wikia.com/wiki/2716"
+  },
+  {
     "title": "No. 2717 假面騎士Ex-Aid(無敵玩家)",
     "id": "2717",
     "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%ABEx-Aid(%E7%84%A1%E6%95%B5%E7%8E%A9%E5%AE%B6)",
@@ -16246,6 +16252,12 @@
     "id": "2721",
     "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%AB%E9%80%A2%E9%AD%94Zi-O",
     "linkId": "http://zh.tos.wikia.com/wiki/2721"
+  },
+  {
+    "title": "No. 2722 假面騎士滅(Ark-Scorpion)",
+    "id": "2722",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%81%87%E9%9D%A2%E9%A8%8E%E5%A3%AB%E6%BB%85(Ark-Scorpion)",
+    "linkId": "http://zh.tos.wikia.com/wiki/2722"
   },
   {
     "title": "No. 2723 傳訊小妹",

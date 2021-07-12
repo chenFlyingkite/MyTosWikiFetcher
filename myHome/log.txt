@@ -112,19 +112,19 @@
 },
 0 ~ 0 -> [迎擊戰『創建一個人的天堂』]
   link = 
-1625803200 ~ 1626062340 -> [7月09日(五) 12:00, 7月12日(一) 11:59, 創建一個人的天堂 - 戰鬥階段]
-  link = https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82
+1625803200 ~ 1626062340 -> [7月09日(五) 12:00, 7月12日(一) 11:59, 困於網路世界 - 備戰階段]
+  link = https://tos.fandom.com/zh/wiki/%E5%9B%B0%E6%96%BC%E7%B6%B2%E8%B7%AF%E4%B8%96%E7%95%8C
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82",
-  "name": "創建一個人的天堂",
-  "icon": "0000"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%9B%B0%E6%96%BC%E7%B6%B2%E8%B7%AF%E4%B8%96%E7%95%8C",
+  "name": "困於網路世界",
+  "icon": "2716"
 },
-1626062400 ~ 1626537540 -> [7月12日(一) 12:00, 7月17日(六) 23:59, 創建一個人的天堂 - 戰鬥階段]
-  link = https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82
+1626062400 ~ 1626537540 -> [7月12日(一) 12:00, 7月17日(六) 23:59, 困於網路世界 - 戰鬥階段]
+  link = https://tos.fandom.com/zh/wiki/%E5%9B%B0%E6%96%BC%E7%B6%B2%E8%B7%AF%E4%B8%96%E7%95%8C
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E5%A4%A9%E5%A0%82",
-  "name": "創建一個人的天堂",
-  "icon": "0000"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%9B%B0%E6%96%BC%E7%B6%B2%E8%B7%AF%E4%B8%96%E7%95%8C",
+  "name": "困於網路世界",
+  "icon": "2716"
 },
 0 ~ 0 -> [⬇ 非合作地區關卡 ⬇]
   link = 
