@@ -35,6 +35,7 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
+import main.fetcher.hero.LiveAHeroMain;
 import main.kt.CopyInfo;
 
 import java.awt.AWTException;
@@ -49,7 +50,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch(0); // x <=0 = run TosCardExtras
+        //fetch(0); // x <=0 = run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //enterTemperature();
@@ -88,6 +89,7 @@ public class Main {
 
     private static void a() {
         //MainTest.main(null);
+        LiveAHeroMain.main(null);
     }
 
     private static void enterTemperature() {
