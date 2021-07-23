@@ -1,10 +1,11 @@
 package main.fetcher.hero;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import flyingkite.log.L;
 import flyingkite.log.LF;
+import flyingkite.tool.GsonUtil;
+import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
+import flyingkite.tool.URLUtil;
 import main.fetcher.hero.card.each.Heros;
 import main.fetcher.hero.card.field.Hero;
 import main.fetcher.hero.card.field.HeroSkill;
@@ -28,6 +29,11 @@ public class LiveAHeroMain {
     public static final Map<String, Hero> allHeros = new HashMap<>();
     public static void main(String[] args) {
         init();
+        makeHero();
+        //heroImages();
+    }
+
+    private static void makeHero() {
         heros();
         skills();
         seeHero();
@@ -53,6 +59,26 @@ public class LiveAHeroMain {
         }
     }
 
+    // download hero images
+    private static void heroImages() {
+        // https://liveahero-wiki.github.io/charas/
+        final String base = "https://liveahero-wiki.github.io";
+        String link = base + "/charas/";
+        Document doc = fetcher.sendAndParseDom(link, onWeb);
+        Elements imgs = doc.getElementsByTag("img");
+        String path = mImage.getFile().getFile().getAbsolutePath();
+        for (int i = 0; i < imgs.size(); i++) {
+            Element img = imgs.get(i);
+            String imgLink = base + img.attr("src");
+            L.log("img = %s", imgLink);
+            String name = TextUtil.after(imgLink, "/", -1);
+            URLUtil.downloadFile(imgLink, path, name);
+
+            //https://liveahero-wiki.github.io/cdn/Sprite/ui_frame_h_base_shadow.png
+        }
+        // <img class="hero-chara-icon" src="/cdn/Sprite/icon_akashi_h01.png" loading="lazy">
+    }
+
     private static void saveHero() {
         List<LinkInfo> li = skillLinks();
         List<Hero> all = new ArrayList<>();
@@ -62,7 +88,7 @@ public class LiveAHeroMain {
             Hero v = allHeros.get(k);
             all.add(v);
         }
-        writeAsGson(all, mHeros);
+        GsonUtil.writePrettyJson(mHeros.getFile().getFile(), all);
     }
 
     // create heros
@@ -145,34 +171,6 @@ public class LiveAHeroMain {
                 }
                 L.log("Hero : %s", h);
             }
-            /*
-            L.log("public class %s implements HeroPerson, SidekickPerson {", xx[0]);
-            L.log("");
-            L.log("    @Override");
-            L.log("    public Hero getHero() {");
-            L.log("        Hero h = new Hero();");
-            L.log("        h.idNorm = \"H%03d\";", i + 1);
-            L.log("        h.nameEn = \"%s\";", xx[0]);
-            L.log("        h.nameJa = \"%s\";", xx[2]);
-            L.log("        h.role = \"%s\";", xx[5]);
-            L.log("        h.designer = \"%s\";", xx[6]);
-            L.log("        h.rankFirst = %d;",xx[3].length());
-            L.log("        h.attribute = \"%s\";", xx[4]);
-            L.log("        h.characterVoice = \"%s\";", xx[7]);
-            L.log("        return h;");
-            L.log("    }");
-            L.log("");
-            L.log("    @Override");
-            L.log("    public Sidekick getSideKick() {");
-            L.log("        Sidekick h = new Sidekick();");
-            L.log("        h.idNorm = \"S%03d\";", i + 1);
-            L.log("        h.nameEn = \"%s\";", xx[0]);
-            L.log("        h.nameJa = \"%s\";", xx[2]);
-            L.log("        return h;");
-            L.log("    }");
-            L.log("}");
-            L.log("");
-            */
         }
     }
 
@@ -208,27 +206,15 @@ public class LiveAHeroMain {
                     if (hero2 != null && hero2.heroValues.isEmpty()) {
                         hero2.heroValues.addAll(ci);
                     }
-
-                    // print code
-//                    for (int i = 0; i < ci.size(); i++) {
-//                        HeroValue s = ci.get(i);
-//                        L.log("h.heroValues.add(new HeroValue(%d, %3d, %4d, %4d, %3d, %4d));"
-//                                , s.rarity, s.level, s.hp, s.attack, s.speed, s.view);
-//                    }
-//                    L.log("---");
                 } else if (txt.startsWith("Skill Name")) {
                     List<HeroSkill> si = readHeroSkill(ti);
-//                    L.log("%d skill", si.size());
-//                    for (int i = 0; i < si.size(); i++) {
-//                        L.log("%s", si.get(i));
-//                    }
 
                     int n = si.size();
                     boolean is2Plus = si.size() >= 3 && si.get(1).name.endsWith("+") && si.get(2).name.endsWith("++");
                     // WolfmanDark or WolfmanWood has 3 hero skill, no +
                     boolean isHeroSkill = n == 4 || (!is2Plus && n == 3);
                     boolean isEquip = n == 6;
-                    if (is2Plus) { // n == 3 fail for WolfmanDark, WolfmanWood
+                    if (is2Plus) { // WolfmanDark, WolfmanWood has no + skill, so n = 3
                         // side
                         hero.sideSkills.addAll(si);
                         if (hero2 != null) {
@@ -253,30 +239,13 @@ public class LiveAHeroMain {
                             }
                         }
                     }
-                    L.log("hero %s", hero);
-                    // print code
-//                    for (int i = 0; i < si.size(); i++) {
-//                        HeroSkill s = si.get(i);
-//                        L.log("h.%s.add(new HeroSkill(%5d, \"%s\", \"%s\"));", var, s.view, s.name, s.content);
-//                    }
-//                    L.log("---");
                 } else if (txt.startsWith("Level")) {
                     List<SideValue> ci = readSideValue(ti);
-//                    L.log("%d basics", ci.size());
-//                    for (int i = 0; i < ci.size(); i++) {
-//                        L.log("%s", ci.get(i));
-//                    }
 
                     hero.sideValues.addAll(ci);
                     if (hero2 != null) {
                         hero2.sideValues.addAll(ci);
                     }
-                    // print code
-//                    for (int i = 0; i < ci.size(); i++) {
-//                        SideValue s = ci.get(i);
-//                        L.log("h.heroValues.add(new SideValue(%3d, %4d, %4d, %3d, %4d));"
-//                                , s.level, s.hp, s.attack, s.speed, s.view);
-//                    }
                 }
                 L.log("hero %s", hero);
             }
@@ -357,6 +326,7 @@ public class LiveAHeroMain {
     private static WebFetcher fetcher = new WebFetcher();
     private static final String FOLDER = "liveAHero";
     private static LF mLf = new LF(FOLDER);
+    private static LF mImage = new LF(FOLDER, "image");
     private static LF mHeros = new LF(FOLDER, "hero.json");
     private static TicTac2 clock = new TicTac2();
     private static OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
@@ -407,21 +377,6 @@ public class LiveAHeroMain {
         li.add(new LinkInfo(Heros.Yoshiori, "yoshiori"));
         li.add(new LinkInfo(Heros.Player, "player"));
         return li;
-    }
-
-
-    protected static Gson mGson = new GsonBuilder().setPrettyPrinting().create();
-
-    protected static <T> String writeAsGson(T array, LF lg) {
-        // Convert to String
-        String msg = mGson.toJson(array, array.getClass());
-        // Write to file
-        lg.setLogToL(false);
-        lg.getFile().open(false);
-        lg.log(msg);
-        lg.getFile().flush();
-        lg.getFile().close();
-        return msg;
     }
 }
 
