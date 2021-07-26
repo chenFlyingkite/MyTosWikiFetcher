@@ -32619,6 +32619,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "血之迷咒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E4%B9%8B%E8%BF%B7%E5%92%92",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 神族成員以 50% 攻擊力 ⇒ 追打自身屬性攻擊 1 次 II. 每移動 1 步 ⇒ 扣除 1% 總生命力 (最多扣至 1 血) 效果會在關閉此技能或死亡後消失 此技能可隨時關閉，關閉時： ⓵ 生命力減至 1 ⓶ 引爆所有符石 ⇒ 掉落五屬符石",
+    "skillMonsters": [
+      "1990"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "血印之魂",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E5%8D%B0%E4%B9%8B%E9%AD%82",

@@ -49,7 +49,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch(0); // x <=0 = run TosCardExtras
+        fetch(1); // x <=0 = run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //enterTemperature();
@@ -98,7 +98,7 @@ public class Main {
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.0");
+            r.type("36.6");
             // Forehead temperature, Ear temperature  Others
             r.keyClick(KeyEvent.VK_TAB);
             if (type == 1) {
