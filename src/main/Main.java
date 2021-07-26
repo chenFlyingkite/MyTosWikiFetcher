@@ -35,6 +35,7 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
+import main.fetcher.hero.LiveAHeroMain;
 import main.kt.CopyInfo;
 
 import java.awt.AWTException;
@@ -88,6 +89,7 @@ public class Main {
 
     private static void a() {
         //MainTest.main(null);
+        LiveAHeroMain.main(null);
     }
 
     private static void enterTemperature() {

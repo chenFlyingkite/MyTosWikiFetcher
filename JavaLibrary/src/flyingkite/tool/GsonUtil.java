@@ -1,6 +1,7 @@
 package flyingkite.tool;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,6 +9,12 @@ import java.io.PrintWriter;
 import java.io.Reader;
 
 public class GsonUtil {
+
+    private static final Gson mGson = new GsonBuilder().setPrettyPrinting().create();
+    public static <T> void writePrettyJson(File file, T data) {
+        String msg = mGson.toJson(data, data.getClass());
+        writeFile(file, msg);
+    }
 
     public static void writeFile(File file, String msg) {
         PrintWriter fos = null;
