@@ -37,6 +37,7 @@ public enum Heros {
     Monomasa("モノマサ"),
     Procy("プロキー"),
     Gomeisa("ゴメイサ"),
+    Huckle("ハックル"), // sidekick only
     WolfmanWood("木のウルフマン"),
     WolfmanDark("影のウルフマン"),
     Nessen("ネッセン"),
@@ -46,9 +47,8 @@ public enum Heros {
     Alphecca("アルフェッカ"),
     Shaft("シャフト"),
     Kalaski("カラスキ"),
-    Yoshiori("ヨシオリ"),
-    Huckle("ハックル"), // sidekick only
     Melide("メリデ"), // sidekick only
+    Yoshiori("ヨシオリ"),
     Player("主人公"), // sidekick only
     ;
 
@@ -74,6 +74,17 @@ public enum Heros {
     Heros(String ja) {
         nameEn = name();
         nameJa = ja;
+    }
+
+    public static Heros findJa(String ja) {
+        Heros[] hs = Heros.values();
+        for (int i = 0; i < hs.length; i++) {
+            boolean got = hs[i].nameJa.equals(ja);
+            if (got) {
+                return hs[i];
+            }
+        }
+        return hs[0];
     }
 
 }

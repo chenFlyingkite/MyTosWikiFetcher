@@ -27,6 +27,7 @@ import java.util.Map;
 
 public class LiveAHeroMain {
     public static final Map<String, Hero> allHeros = new HashMap<>();
+    private static final List<Hero> sortedHero = new ArrayList<>();
     public static void main(String[] args) {
         init();
         makeHero();
@@ -46,16 +47,32 @@ public class LiveAHeroMain {
         }
     }
 
+    // Quartz Quests クオーツを探して (A級)
+    // https://liveahero-wiki.github.io/events/2106shinrin/
+
+    // https://zh.moegirl.org.cn/%E6%9C%A8%E4%BB%A3
+
+
     private static void seeHero() {
         List<String> keys = new ArrayList<>(allHeros.keySet());
-        Collections.sort(keys);
+        Collections.sort(keys, (k1, k2) -> {
+            Hero h1 = allHeros.get(k1);
+            Hero h2 = allHeros.get(k2);
+            Heros hs1 = Heros.findJa(h1.nameJa);
+            Heros hs2 = Heros.findJa(h2.nameJa);
+            return Integer.compare(hs1.ordinal(), hs2.ordinal());
+        });
+        sortedHero.clear();
         for (int i = 0; i < keys.size(); i++) {
             String k = keys.get(i);
             Hero v = allHeros.get(k);
+            sortedHero.add(v);
             L.log("%12s -> %s", k, v);
             String s = String.format("Hero/Side : %d skills, %d values / ", v.heroSkills.size(), v.heroValues.size());
             s += String.format("%d skills, %d values, %d equips", v.sideSkills.size(), v.sideValues.size(), v.sideEquips.size());
             L.log("  %s", s);
+            //L.log("heroImage.put(\"%s\", R.drawable.icon_akashi_h01);", v.nameJa);
+            //L.log("sideImage.put(\"%s\", R.drawable.icon_akashi_s01);", v.nameJa);
         }
     }
 
@@ -80,15 +97,7 @@ public class LiveAHeroMain {
     }
 
     private static void saveHero() {
-        List<LinkInfo> li = skillLinks();
-        List<Hero> all = new ArrayList<>();
-        for (int i = 0; i < li.size(); i++) {
-            LinkInfo it = li.get(i);
-            String k = it.key;
-            Hero v = allHeros.get(k);
-            all.add(v);
-        }
-        GsonUtil.writePrettyJson(mHeros.getFile().getFile(), all);
+        GsonUtil.writePrettyJson(mHeros.getFile().getFile(), sortedHero);
     }
 
     // create heros
@@ -378,6 +387,9 @@ public class LiveAHeroMain {
         li.add(new LinkInfo(Heros.Player, "player"));
         return li;
     }
+    // クエストバトル > 状態変化
+    // https://live-a-hero.jp/help
+    // Skill icons
 }
 
 // isaribi lv40 = hp=2489, atk=1100, spd=109, view=1448

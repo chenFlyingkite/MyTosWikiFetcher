@@ -1,15 +1,12 @@
 package main.fetcher;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import flyingkite.log.LF;
-import main.kt.NameLink;
 import main.kt.RelicStage;
 import main.kt.TosGet;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+
+import java.util.List;
 
 public class TosLostRelicPassFetcher extends TosWikiBaseFetcher {
     public static final TosLostRelicPassFetcher me = new TosLostRelicPassFetcher();
@@ -49,7 +46,7 @@ public class TosLostRelicPassFetcher extends TosWikiBaseFetcher {
 
     private List<List<RelicStage>> getRelicPassStages(String link) {
         Document doc = getDocument(link);
-        Elements tabs = doc.getElementsByClass("tabbertab");
+        Elements tabs = doc.getElementsByClass("wikitable");
         return TosGet.me.getRelicPassStages(tabs, wikiBaseZh);
     }
 }
