@@ -16308,6 +16308,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2730"
   },
   {
+    "title": "No. 2736 水花女孩 ‧ 紅璦",
+    "id": "2736",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E8%8A%B1%E5%A5%B3%E5%AD%A9_%E2%80%A7_%E7%B4%85%E7%92%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2736"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",

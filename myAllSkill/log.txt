@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3539 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3540 items, basePath = https://tos.fandom.com, offset = null)
 1000%不可能！ -> https://tos.fandom.com/zh/wiki/1000%25%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%81
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 2000_種技能擁有者 -> https://tos.fandom.com/zh/wiki/2000_%E7%A8%AE%E6%8A%80%E8%83%BD%E6%93%81%E6%9C%89%E8%80%85
@@ -2726,6 +2726,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 蓋世之氣 -> https://tos.fandom.com/zh/wiki/%E8%93%8B%E4%B8%96%E4%B9%8B%E6%B0%A3
 蔑火戰舞 -> https://tos.fandom.com/zh/wiki/%E8%94%91%E7%81%AB%E6%88%B0%E8%88%9E
 蔓延熱焰 -> https://tos.fandom.com/zh/wiki/%E8%94%93%E5%BB%B6%E7%86%B1%E7%84%B0
+蔚藍派對 -> https://tos.fandom.com/zh/wiki/%E8%94%9A%E8%97%8D%E6%B4%BE%E5%B0%8D
 蔷薇的王冠 -> https://tos.fandom.com/zh/wiki/%E8%94%B7%E8%96%87%E7%9A%84%E7%8E%8B%E5%86%A0
 薔薇之瓣 -> https://tos.fandom.com/zh/wiki/%E8%96%94%E8%96%87%E4%B9%8B%E7%93%A3
 薔薇連擊 -> https://tos.fandom.com/zh/wiki/%E8%96%94%E8%96%87%E9%80%A3%E6%93%8A
@@ -3540,4 +3541,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-3566 skills
+3567 skills

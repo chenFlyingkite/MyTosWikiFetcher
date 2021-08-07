@@ -38,7 +38,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F",
     "skillCDMin": 34,
     "skillCDMax": 23,
-    "skillDesc": "I. 將光符石轉化為強化符石 1 回合內 II. 連擊 (Combo) 數目固定為 23 　(需消除符石) III. 回合結束時 ⇒ 將所有符石轉化為妖族符石",
+    "skillDesc": "I. 將光符石轉化為強化符石 1 回合內 II. 連擊 (Combo) 數目固定為 23 　(需消除符石) III. 回合結束時 ⇒ 將所有符石添加為妖族符石",
     "skillMonsters": [
       "2234"
     ]
@@ -408,7 +408,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%89%E5%8E%9F%E6%BC%AB%E5%B8%83",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "將水、火及木符石轉化為人族符石，並引爆所有光、暗及心符石，以掉落水、火及木符石",
+    "skillDesc": "將水、火及木符石添加為人族符石，並引爆所有光、暗及心符石，以掉落水、火及木符石",
     "skillMonsters": [
       "1682"
     ]
@@ -1897,7 +1897,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BD%A0%E4%BB%A5%E7%82%BA%E6%88%91%E6%98%AF%E8%AA%B0_%E9%A3%9B%E8%85%BF%EF%BC%81",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "I. 額外增加 3 行符石 II. 延長移動符石時間至 10 秒 1 回合內 III.「大紅蓮團」成員 ⇒ 攻擊力及回復力 2 倍 IV. 將移動符石時經過的符石 ⇒ 轉化為機械族符石",
+    "skillDesc": "I. 額外增加 3 行符石 II. 延長移動符石時間至 10 秒 1 回合內 III.「大紅蓮團」成員 ⇒ 攻擊力及回復力 2 倍 IV. 將移動符石時經過的符石 ⇒ 添加為機械族符石",
     "skillMonsters": [
       "2408"
     ]
@@ -1986,7 +1986,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E6%94%BB%E5%8B%A2",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將所有符石轉化為神族符石 1 回合內 I. 左旁神族成員的攻擊力減至 0 II. 將減去攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊無視敵人防禦力 IV. 若左旁成員為 「明日香與EVA2號機」 ⇒ 則效果持續 5 回合",
+    "skillDesc": "I. 將所有符石添加為神族符石 1 回合內 I. 左旁神族成員的攻擊力減至 0 II. 將減去攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊無視敵人防禦力 IV. 若左旁成員為 「明日香與EVA2號機」 ⇒ 則效果持續 5 回合",
     "skillMonsters": [
       "2531"
     ]
@@ -2143,7 +2143,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%82%B2%E6%B5%AA%E4%B9%8B%E6%BF%A4",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "水符石轉化為人族符石；2 回合內，每回合扣除 30% 總生命力，水屬性攻擊力 2.25 倍，若技能發動時隊伍回復為 0 時，則不會每回合扣除生命力",
+    "skillDesc": "水符石添加為人族符石；2 回合內，每回合扣除 30% 總生命力，水屬性攻擊力 2.25 倍，若技能發動時隊伍回復為 0 時，則不會每回合扣除生命力",
     "skillMonsters": [
       "1462"
     ]
@@ -2610,7 +2610,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%94%AF%E9%85%8D",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "3 回合內，發動技能及回合開始時將木符石轉化為神族符石；並將所有掉落的符石轉化為強化符石",
+    "skillDesc": "3 回合內，發動技能及回合開始時將木符石添加為神族符石；並將所有掉落的符石轉化為強化符石",
     "skillMonsters": [
       "1657"
     ]
@@ -4764,7 +4764,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%87%9D%E6%99%82%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E7%A5%9E",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 延長移動符石時間至 10 秒 II. 於移動符石時間內， 可任意移動符石而不會發動消除 III. 敵方全體的防禦力減至 0 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 將所有符石轉化為神族符石 ⓶ 將暗符石轉化為神族強化符石",
+    "skillDesc": "I. 延長移動符石時間至 10 秒 II. 於移動符石時間內， 可任意移動符石而不會發動消除 III. 敵方全體的防禦力減至 0 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 將所有符石添加為神族符石 ⓶ 將暗符石轉化為神族強化符石",
     "skillMonsters": [
       "2488"
     ]
@@ -5287,7 +5287,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%89%B5%E4%BD%9C%E6%84%9F%E6%87%89",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 引爆水、木、光符石 ⇒ 分別掉落「火、暗、心」強化符石 1 回合內 II. 可任意移動符石 而不會發動消除 III. 若首批消除所有符石， 於回合結束時 ⇒ 將所有符石轉化為人族符石",
+    "skillDesc": "I. 引爆水、木、光符石 ⇒ 分別掉落「火、暗、心」強化符石 1 回合內 II. 可任意移動符石 而不會發動消除 III. 若首批消除所有符石， 於回合結束時 ⇒ 將所有符石添加為人族符石",
     "skillMonsters": [
       "2646"
     ]
@@ -6403,7 +6403,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E9%A3%9F%E8%A8%98%E9%8C%84",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "心符石轉化為強化符石，水、火及木符石轉化為獸族符石。1 回合內，將掉落的水、火及木符石以獸族強化符石代替",
+    "skillDesc": "心符石轉化為強化符石，水、火及木符石添加為獸族符石。1 回合內，將掉落的水、火及木符石以獸族強化符石代替",
     "skillMonsters": [
       "1942"
     ]
@@ -8321,7 +8321,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E7%A6%AE%E5%BA%8F",
     "skillCDMin": 20,
     "skillCDMax": 6,
-    "skillDesc": "I. 妖精類成員直行 ⓵ 首粒及第 5 粒符石 ⇒ 轉化為心強化符石 ⓶ 第 2、3、4 粒符石 ⇒ 轉化為該直行成員的 屬性強化符石 1 回合內 II. 全隊攻擊力 2 倍 III. 若首批消除所有符石 ⇒ 回合結束時， 將所有符石轉化為妖族符石",
+    "skillDesc": "I. 妖精類成員直行 ⓵ 首粒及第 5 粒符石 ⇒ 轉化為心強化符石 ⓶ 第 2、3、4 粒符石 ⇒ 轉化為該直行成員的 屬性強化符石 1 回合內 II. 全隊攻擊力 2 倍 III. 若首批消除所有符石 ⇒ 回合結束時， 將所有符石添加為妖族符石",
     "skillMonsters": [
       "3001"
     ]
@@ -8399,7 +8399,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E9%AB%93_%E2%80%A7_%E6%93%B4%E6%95%A3",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "3 回合內，移動符石時觸碰的符石轉化為妖族符石，敵方所受傷害的 50% 分別擴散到其他敵人身上",
+    "skillDesc": "3 回合內，移動符石時觸碰的符石添加為妖族符石，敵方所受傷害的 50% 分別擴散到其他敵人身上",
     "skillMonsters": [
       "1344"
     ]
@@ -8804,7 +8804,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E7%B2%BE%E8%BB%8D%E5%B8%AB%E7%9A%84%E6%88%B0%E8%A1%93",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "5 回合內，將光符石轉化為妖族符石；全隊攻擊力 1.5 倍，「FAIRY TAIL 公會成員」(包括 FAIRY TAIL 石抽系列角色、梅比斯、馬卡羅夫、茱比亞及龐沙利利) 的攻擊力則 2.25 倍",
+    "skillDesc": "5 回合內，將光符石添加為妖族符石；全隊攻擊力 1.5 倍，「FAIRY TAIL 公會成員」(包括 FAIRY TAIL 石抽系列角色、梅比斯、馬卡羅夫、茱比亞及龐沙利利) 的攻擊力則 2.25 倍",
     "skillMonsters": [
       "1971"
     ]
@@ -8882,7 +8882,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%AD%85%E5%92%92%E8%A8%A3",
     "skillCDMin": 20,
     "skillCDMax": 6,
-    "skillDesc": "隨機 2 個妖精類成員直行的符石轉化為妖族符石。1 回合內，消除妖族符石愈多，全隊攻擊力提升愈多，消除 25 粒可提升至最大 3 倍",
+    "skillDesc": "隨機 2 個妖精類成員直行的符石添加為妖族符石。1 回合內，消除妖族符石愈多，全隊攻擊力提升愈多，消除 25 粒可提升至最大 3 倍",
     "skillMonsters": [
       "1947"
     ]
@@ -8966,7 +8966,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A9%80%E5%A8%9C%E8%88%9E%E5%A7%BF",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "1 回合內 I. 妖精攻擊力及回復力 1.6 倍 II. 將移動符石所觸碰的符石 ⇒ 轉化為妖族符石 III. 若發動技能時隊伍中所有成員的 回復力基值相同 ⓵ 則移動符石所觸碰的符石 ⇒ 轉化為妖族強化符石 ⓶ I - III 效果持續 3 回合",
+    "skillDesc": "1 回合內 I. 妖精攻擊力及回復力 1.6 倍 II. 將移動符石所觸碰的符石 ⇒ 添加為妖族符石 III. 若發動技能時隊伍中所有成員的 回復力基值相同 ⓵ 則移動符石所觸碰的符石 ⇒ 轉化為妖族強化符石 ⓶ I - III 效果持續 3 回合",
     "skillMonsters": [
       "2323"
     ]
@@ -9124,7 +9124,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%9A%E4%BD%8D%E8%BF%BD%E6%93%8A",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將場上數量最多的 1 種符石 ⇒ 轉化為機械族符石 1 回合內 II. 每消除 1 粒機械族符石， 「霸法」及「霸法 MKII」 ⓵ 追打 1 次，最多 10 次 ⓶ 對置身電擊狀態的目標 ⇒ 攻擊力額外 2.5 倍",
+    "skillDesc": "I. 將場上數量最多的 1 種符石 ⇒ 添加為機械族符石 1 回合內 II. 每消除 1 粒機械族符石， 「霸法」及「霸法 MKII」 ⓵ 追打 1 次，最多 10 次 ⓶ 對置身電擊狀態的目標 ⇒ 攻擊力額外 2.5 倍",
     "skillMonsters": [
       "2623"
     ]
@@ -9284,7 +9284,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AF%A9%E5%88%A4%E4%B9%8B%E5%88%91",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "水及光屬性機械族成員的行動值提升至 100%。若此時全隊機械族成員的行動值達至 100%：將所有符石轉化為機械族符石；身旁的水屬性機械族及光屬性機械族成員攻擊力提升 2.5 倍；效果持續至沒有首批消除光符石",
+    "skillDesc": "水及光屬性機械族成員的行動值提升至 100%。若此時全隊機械族成員的行動值達至 100%：將所有符石添加為機械族符石；身旁的水屬性機械族及光屬性機械族成員攻擊力提升 2.5 倍；效果持續至沒有首批消除光符石",
     "skillMonsters": [
       "1752"
     ]
@@ -9925,7 +9925,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E5%BD%A9%E5%A5%A7%E7%A7%98",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "2 回合內 I. 妖精類攻擊力及回復力 1.6 倍 II. 無視「黏腐」敵技 III. 將移動符石時觸碰的符石 ⇒ 轉化為妖族符石 IV. 若有擊斃敵人 ⇒ 該回合不會扣減技能持續回合 V. 若隊中所有成員 回復力基值相同時 ⇒ 自身攻擊力 5 倍",
+    "skillDesc": "2 回合內 I. 妖精類攻擊力及回復力 1.6 倍 II. 無視「黏腐」敵技 III. 將移動符石時觸碰的符石 ⇒ 添加為妖族符石 IV. 若有擊斃敵人 ⇒ 該回合不會扣減技能持續回合 V. 若隊中所有成員 回復力基值相同時 ⇒ 自身攻擊力 5 倍",
     "skillMonsters": [
       "2597"
     ]
@@ -9967,7 +9967,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E6%AB%BB%E8%8A%B1%E6%B5%B7_%E2%80%A7_%E9%AD%85",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "將火及心符石轉化為妖族符石。根據本回合的連擊 (Combo) 數目，下回合開始時將火及心以外的符石，轉化為該數目等值的火強化符石",
+    "skillDesc": "將火及心符石添加為妖族符石。根據本回合的連擊 (Combo) 數目，下回合開始時將火及心以外的符石，轉化為該數目等值的火強化符石",
     "skillMonsters": [
       "1604"
     ]
@@ -11058,7 +11058,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E4%B9%8B%E5%A4%A9%E7%B1%9F",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將神族成員直行的符石 ⇒ 轉化為神族符石 1 回合內 II. 心符石兼具 50% 所有屬性符石效果 III. 每首批消除 1 粒神族符石 ⇒ 必定掉落 1 粒心強化符石",
+    "skillDesc": "I. 將神族成員直行的符石 ⇒ 添加為神族符石 1 回合內 II. 心符石兼具 50% 所有屬性符石效果 III. 每首批消除 1 粒神族符石 ⇒ 必定掉落 1 粒心強化符石",
     "skillMonsters": [
       "2097"
     ]
@@ -11390,7 +11390,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%83%91%E9%9D%88%E8%A1%93",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "2 回合內，可任意移動符石而不會發動消除；並將移動符石所觸碰的心符石轉化為妖族符石",
+    "skillDesc": "2 回合內，可任意移動符石而不會發動消除；並將移動符石所觸碰的心符石添加為妖族符石",
     "skillMonsters": [
       "1710"
     ]
@@ -11563,7 +11563,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%85%BE%E5%BF%B5%E4%B9%8B%E8%AA%98",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "木符石轉化為妖族符石。1 回合內，隊伍成員攻擊次數 (不計炮擊) 愈多，所受傷害減少愈多，10 次攻擊可減少最多 100% 所受傷害",
+    "skillDesc": "木符石添加為妖族符石。1 回合內，隊伍成員攻擊次數 (不計炮擊) 愈多，所受傷害減少愈多，10 次攻擊可減少最多 100% 所受傷害",
     "skillMonsters": [
       "2056"
     ]
@@ -12215,7 +12215,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%8B%9B%E8%B2%A1%E7%B4%8D%E7%A6%8F_%E2%80%A7_%E7%81%AB",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "I. 引爆隊長及戰友直行的符石 ⇒ 掉落火強化符石 1 回合內 II. 首批消除所有火符石 ⇒ 下回合將所有符石 ⇒ 轉化為獸族符石",
+    "skillDesc": "I. 引爆隊長及戰友直行的符石 ⇒ 掉落火強化符石 1 回合內 II. 首批消除所有火符石 ⇒ 下回合將所有符石 ⇒ 添加為獸族符石",
     "skillMonsters": [
       "2320"
     ]
@@ -12480,7 +12480,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%8F%B4%E4%B9%8B%E5%AF%84%E6%84%8F",
     "skillCDMin": 20,
     "skillCDMax": 6,
-    "skillDesc": "自身不能發動攻擊；暗符石兼具 50% 心符石效果，並將移動符石時觸碰的暗符石轉化為神族符石；隊伍中的「不赦惡神 ‧ 洛基」、「亡靈蝕骨 ‧ 洛基」及「罪愆篡改 · 洛基」追打暗屬性攻擊 1 次 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉",
+    "skillDesc": "自身不能發動攻擊；暗符石兼具 50% 心符石效果，並將移動符石時觸碰的暗符石添加為神族符石；隊伍中的「不赦惡神 ‧ 洛基」、「亡靈蝕骨 ‧ 洛基」及「罪愆篡改 · 洛基」追打暗屬性攻擊 1 次 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉",
     "skillMonsters": [
       "1563"
     ]
@@ -13974,7 +13974,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%99%BA%E6%85%A7%E4%B9%8B%E7%81%AB",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "I. 將神族成員直行的符石 ⇒ 轉化為神族符石 II. 將獸類成員直行的符石 ⇒ 轉化為獸族符石 III. 15 秒內，可以任意移動符石 而不會發動消除 IV. 發動技能時若自身「仙力」達 10 點 ⇒ 1 回合內，全隊攻擊力及回復力 2 倍",
+    "skillDesc": "I. 神族成員直行的符石 ⇒ 添加為神族符石 II. 獸類成員直行的符石 ⇒ 添加為獸族符石 III. 15 秒內，可任意移動符石 而不會發動消除 IV. 發動技能時若自身「仙力」達 10 點 ⇒ 1 回合內，全隊攻擊力及回復力 2 倍",
     "skillMonsters": [
       "2130"
     ]
@@ -14980,7 +14980,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9B%BC%E5%A6%99%E7%9A%84%E5%B0%96%E5%8F%AB_%E2%80%A7_%E7%81%AB%E7%83%A4",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "2 回合內，隨機將 3 粒符石轉化為火強化符石，移動符石時觸碰的火符石轉化為獸族符石",
+    "skillDesc": "2 回合內，隨機將 3 粒符石添加為火強化符石，移動符石時觸碰的火符石添加為獸族符石",
     "skillMonsters": [
       "1904"
     ]
@@ -15090,7 +15090,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E5%BD%B1%E5%BC%B7%E5%BF%B5",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "光及暗符石轉化為強化符石。若隊伍中有 3 個或以上的獸類成員時，將強化符石轉化為獸族符石",
+    "skillDesc": "光及暗符石轉化為強化符石。若隊伍中有 3 個或以上的獸類成員時，將強化符石添加為獸族符石",
     "skillMonsters": [
       "1543"
     ]
@@ -15538,7 +15538,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E8%91%89%E7%B4%84%E7%AB%A0_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "木符石轉化為神族符石。1 回合內，消除 1 組 5 粒或以上的木符石，木屬性攻擊力 1.6 倍",
+    "skillDesc": "木符石添加為神族符石。1 回合內，消除 1 組 5 粒或以上的木符石，木屬性攻擊力 1.6 倍",
     "skillMonsters": [
       "1377"
     ]
@@ -16242,7 +16242,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A5%B5%E5%A4%A7%E8%81%96%E6%AB%83",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 將黑白符石變回原來色調 II. 將所有符石 ⇒ 轉化為神族符石 III. 若場上有魔族敵人時 ⇒ 則將所有符石 ⇒ 轉化為神族強化符石 1 回合內 IV. 首批掉落的 15 粒符石 ⇒ 必定為光神族強化符石",
+    "skillDesc": "I. 將黑白符石變回原來色調 II. 將所有符石 ⇒ 添加為神族符石 III. 若場上有魔族敵人時 ⇒ 則將所有符石 ⇒ 轉化為神族強化符石 1 回合內 IV. 首批掉落的 15 粒符石 ⇒ 必定為光神族強化符石",
     "skillMonsters": [
       "2464"
     ]
@@ -16671,7 +16671,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E5%85%89",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "光符石轉化為機械族符石",
+    "skillDesc": "光符石添加為機械族符石",
     "skillMonsters": [
       "1862"
     ]
@@ -16682,7 +16682,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%9A%97",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "暗符石轉化為機械族符石",
+    "skillDesc": "暗符石添加為機械族符石",
     "skillMonsters": [
       "1863"
     ]
@@ -16693,7 +16693,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%9C%A8",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "木符石轉化為機械族符石",
+    "skillDesc": "木符石添加為機械族符石",
     "skillMonsters": [
       "1861"
     ]
@@ -16704,7 +16704,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E6%B0%B4",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "水符石轉化為機械族符石",
+    "skillDesc": "水符石添加為機械族符石",
     "skillMonsters": [
       "1859"
     ]
@@ -16715,7 +16715,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%85%8D%E7%BD%AE_%E2%80%A7_%E7%81%AB",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "火符石轉化為機械族符石",
+    "skillDesc": "火符石添加為機械族符石",
     "skillMonsters": [
       "1860"
     ]
@@ -16903,7 +16903,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E9%AD%82%E8%99%B9%E5%BD%A9",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 將所有符石轉化為機械族符石 1 回合內 II. 記錄「移動符石時間完結一刻」 場上的符石分佈 (包括強化符石、種族符石) ⇒ 首批掉落所記錄的符石",
+    "skillDesc": "I. 將所有符石添加為機械族符石 1 回合內 II. 記錄「移動符石時間完結一刻」 場上的符石分佈 (包括強化符石、種族符石) ⇒ 首批掉落所記錄的符石",
     "skillMonsters": [
       "2478"
     ]
@@ -19520,7 +19520,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B5%AA%E6%BF%A4%E6%AD%B8%E4%B8%80_%E2%80%A7_%E9%AD%94",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "所有符石轉化為魔族符石；1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍",
+    "skillDesc": "所有符石添加為魔族符石；1 回合內，消除符石的種類愈多，水屬性攻擊力提升愈多，最大提升至 2.2 倍",
     "skillMonsters": [
       "1808"
     ]
@@ -20278,7 +20278,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%BB%85%E6%97%8F%E4%B9%8B%E7%87%84%EF%BC%8E%E8%BF%BD%E6%93%8A",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 火屬性及機械族攻擊力 6.5 倍 II.「炙焰城主 ‧ 龐貝」的攻擊 ⇒ 無視敵人防禦力 III. 消除水、火或木符石時 ⇒ 機械族成員追打相應屬性攻擊 1 次 IV. 每首批消除 1 種符石 ⇒ 於回合結束時 將 5 粒該種符石 轉化為機械族符石 (非種族符石優先轉換)",
+    "skillDesc": "I. 火屬性及機械族攻擊力 6.5 倍 II.「炙焰城主 ‧ 龐貝」的攻擊 ⇒ 無視敵人防禦力 III. 消除水、火或木符石時 ⇒ 機械族成員追打相應屬性攻擊 1 次 IV. 每首批消除 1 種符石 ⇒ 於回合結束時 將 5 粒該種符石 添加為機械族符石 (非種族符石優先轉換)",
     "skillMonsters": [
       "2634"
     ]
@@ -20834,7 +20834,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E5%BD%B1%E7%B4%84%E7%AB%A0_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "火符石轉化為神族符石。1 回合內，消除 1 組 5 粒或以上的火符石，火屬性攻擊力 1.6 倍",
+    "skillDesc": "火符石添加為神族符石。1 回合內，消除 1 組 5 粒或以上的火符石，火屬性攻擊力 1.6 倍",
     "skillMonsters": [
       "1376"
     ]
@@ -22388,7 +22388,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%B1%E8%A1%80%E7%94%B7%E5%85%92%E7%9A%84%E9%A2%A8%E7%81%AB%E8%BC%AA%E9%A3%9B%E8%85%BF%EF%BC%81",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "I. 額外增加 3 行符石： 「火、木、心」強化符石各6粒 1 回合內 II. 延長移動符石時間至 12 秒 III.「大紅蓮團」成員 ⇒ 攻擊力及回復力 2.5 倍 IV. 將移動符石時經過的符石 ⇒ 轉化為機械族符石 V. 回合結束時，將所有符石 ⇒ 轉化為機械族符石 (此技能無視封鎖技能)",
+    "skillDesc": "I. 額外增加 3 行符石： 「火、木、心」強化符石各6粒 1 回合內 II. 延長移動符石時間至 12 秒 III.「大紅蓮團」成員 ⇒ 攻擊力及回復力 2.5 倍 IV. 將移動符石時經過的符石 ⇒ 添加為機械族符石 V. 回合結束時，將所有符石 ⇒ 添加為機械族符石 (此技能無視封鎖技能)",
     "skillMonsters": [
       "2414"
     ]
@@ -23433,7 +23433,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8C%9B%E9%B7%99%E4%B9%8B%E7%84%B0",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "隊伍中有 3 個或以上獸類成員時： I. 發動此技能及回合結束時 ⇒ 隨機將 3 粒符石轉化為獸族符石 II. 每消除 1 粒獸族符石 ⇒ 減少 5% 所受傷害，最多可減少 30% 傷害 消除獸族或神族符石可維持效果",
+    "skillDesc": "隊伍中有 3 個或以上獸類成員時： I. 發動此技能及回合結束時 ⇒ 隨機將 3 粒符石添加為獸族符石 II. 每消除 1 粒獸族符石 ⇒ 減少 5% 所受傷害，最多可減少 30% 傷害 消除獸族或神族符石可維持效果",
     "skillMonsters": [
       "2140"
     ]
@@ -23599,7 +23599,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E4%B9%8B%E5%A8%81%E6%9C%9B",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 將移動符石時觸碰的 ⇒「凍結符石」狀態解除 III. 將移動符石時觸碰的符石 ⇒ 轉化為獸族符石 IV. 每首批消除 3 粒獸族符石 ⇒ 連擊 (Combo) 數目增加 1",
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 將移動符石時觸碰的 ⇒「凍結符石」狀態解除 III. 將移動符石時觸碰的符石 ⇒ 添加為獸族符石 IV. 每首批消除 3 粒獸族符石 ⇒ 連擊 (Combo) 數目增加 1",
     "skillMonsters": [
       "2596"
     ]
@@ -23621,7 +23621,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E5%8A%9B%E5%8F%AC%E5%96%9A",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "獸類成員所在直行的符石轉化為獸族符石；1 回合內，獸類成員追打自身攻擊力 2.5 倍的光屬性攻擊 1 次",
+    "skillDesc": "獸類成員所在直行的符石添加為獸族符石；1 回合內，獸類成員追打自身攻擊力 2.5 倍的光屬性攻擊 1 次",
     "skillMonsters": [
       "1866"
     ]
@@ -23665,7 +23665,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E5%8C%96%E9%9B%B2%E9%9C%A7",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將自身直行的符石 ⇒ 轉化為獸族符石 1 回合內 II. 其他符石兼具 200% 水符石效果 III. 首批 3 粒相連的水符石 ⇒ 可發動消除 IV. 發動技能時若自身「仙力」達 10 點 ⇒ 1 回合內，個人追打 8 次",
+    "skillDesc": "I. 將自身直行的符石 ⇒ 添加為獸族符石 1 回合內 II. 其他符石兼具 200% 水符石效果 III. 首批 3 粒相連的水符石 ⇒ 可發動消除 IV. 發動技能時若自身「仙力」達 10 點 ⇒ 1 回合內，個人追打 8 次",
     "skillMonsters": [
       "2129"
     ]
@@ -23687,7 +23687,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%97%8F%E6%9C%AC%E8%89%B2",
     "skillCDMin": 24,
     "skillCDMax": 10,
-    "skillDesc": "I. 將暗符石轉化為獸族符石 II. 將黑白符石變回原來色調 3 回合內 III. 自身及自身以外攻擊力最高的 1 個獸類成員追打各 2 次",
+    "skillDesc": "I. 將暗符石添加為獸族符石 II. 將黑白符石變回原來色調 3 回合內 III. 自身及自身以外攻擊力最高的 1 個獸類成員追打各 2 次",
     "skillMonsters": [
       "2449"
     ]
@@ -23709,7 +23709,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%97%8F%E9%9B%BB%E5%85%89",
     "skillCDMin": 24,
     "skillCDMax": 10,
-    "skillDesc": "I. 將光符石轉化為獸族符石 II. 電擊敵方全體 III. 使受影響目標無法行動， 持續 3 回合 IV. 效果期間， 每消除 1 組光或暗符石 ⇒ 額外增加 2 連擊 (Combo)",
+    "skillDesc": "I. 將光符石添加為獸族符石 II. 電擊敵方全體 III. 使受影響目標無法行動， 持續 3 回合 IV. 效果期間， 每消除 1 組光或暗符石 ⇒ 額外增加 2 連擊 (Combo)",
     "skillMonsters": [
       "2447"
     ]
@@ -23731,7 +23731,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E6%AC%8A%E5%8A%A0%E5%86%95",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "木符石轉化為木強化符石；若技能發動時場上沒有心符石，將所有符石轉化為獸族符石",
+    "skillDesc": "木符石轉化為木強化符石；若技能發動時場上沒有心符石，將所有符石添加為獸族符石",
     "skillMonsters": [
       "1421"
     ]
@@ -24447,7 +24447,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%91%B0%E7%A7%98%E4%B9%8B%E5%A6%96%E5%8A%9B",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 妖精類攻擊力 5 倍 II. 回合結束時 ⇒ 隨機將 3 粒水符石轉化為妖族符石 III. 消除 ≥4 種符石時 ⇒ 自身攻擊力 1.5 倍",
+    "skillDesc": "I. 妖精類攻擊力 5 倍 II. 回合結束時 ⇒ 隨機將 3 粒水符石添加為妖族符石 III. 消除 ≥4 種符石時 ⇒ 自身攻擊力 1.5 倍",
     "skillMonsters": [
       "1390"
     ]
@@ -24769,7 +24769,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%95%B0%E7%8D%B8%E8%A1%93",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 自身攻擊力 2.5 倍 II. 將自身直行符石 ⇒ 轉化為獸族符石 III. 心符石兼具屬性符石效果 效果持續至沒有消除獸族符石",
+    "skillDesc": "I. 自身攻擊力 2.5 倍 II. 將自身直行符石 ⇒ 添加為獸族符石 III. 心符石兼具屬性符石效果 效果持續至沒有消除獸族符石",
     "skillMonsters": [
       "2645"
     ]
@@ -25132,7 +25132,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E6%88%B0%E9%AC%A5%E5%84%80",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將暗符石轉化為魔族符石 II. 1 回合內，自身不會發動攻擊 ⇒ 暗屬性成員以 2 倍攻擊力 　追打 1 次 ⇒「侵略者」及「哥莫拉」 　則以 4 倍攻擊力追打 1 次",
+    "skillDesc": "I. 將暗符石添加為魔族符石 II. 1 回合內，自身不會發動攻擊 ⇒ 暗屬性成員以 2 倍攻擊力 　追打 1 次 ⇒「侵略者」及「哥莫拉」 　則以 4 倍攻擊力追打 1 次",
     "skillMonsters": [
       "2162"
     ]
@@ -26242,7 +26242,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E5%A2%83%E6%9C%88%E5%9C%93",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 隨機將 3 個神族成員直行的符石 ⇒ 轉化為神族符石 1 回合內 II. 每消除 1 粒神族符石 ⇒ 回復 2000 點生命力 ⇒ 消除 30 粒可回復最多 60,000 點 III. 首批消除神族符石時 ⇒ 效果 II 持續 2 回合",
+    "skillDesc": "I. 隨機將 3 個神族成員直行的符石 ⇒ 添加為神族符石 1 回合內 II. 每消除 1 粒神族符石 ⇒ 回復 2000 點生命力 ⇒ 消除 30 粒可回復最多 60,000 點 III. 首批消除神族符石時 ⇒ 效果 II 持續 2 回合",
     "skillMonsters": [
       "2321"
     ]
@@ -26604,7 +26604,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%AC%8A%E5%85%AB%E5%92%AB%E9%8F%A1",
     "skillCDMin": 19,
     "skillCDMax": 10,
-    "skillDesc": "將所有符石轉化為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力",
+    "skillDesc": "將所有符石添加為神族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 5 倍對其進行火屬性反擊，此傷害無視防禦力",
     "skillMonsters": [
       "1426",
       "1427"
@@ -27163,7 +27163,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%A5%E7%91%9E%E4%B9%8B%E7%81%AB",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 敵方全體點燃，持續 3 回合 II. 效果期間，敵方全體的防禦力減至 0 3 回合內 III. 將移動符石時觸碰的首 6 粒符石 ⇒ 轉化為獸族符石 IV. 若隊中只有獸類或神族成員 ⇒ 無視「燃燒」敵技 (不包括「煉獄之火」)",
+    "skillDesc": "I. 敵方全體點燃，持續 3 回合 II. 效果期間，敵方全體的防禦力減至 0 3 回合內 III. 將移動符石時觸碰的首 6 粒符石 ⇒ 添加為獸族符石 IV. 若隊中只有獸類或神族成員 ⇒ 無視「燃燒」敵技 (不包括「煉獄之火」)",
     "skillMonsters": [
       "2442"
     ]
@@ -29886,7 +29886,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E6%9C%9B%E7%88%86%E7%99%BC",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 引爆所有符石 ⓵ 單數直行掉落木符石 ⓶ 雙數直行掉落火符石 II. 隊伍中只有魔族成員時 ⇒ 將所有符石轉化為魔族符石",
+    "skillDesc": "I. 引爆所有符石 ⓵ 單數直行掉落木符石 ⓶ 雙數直行掉落火符石 II. 隊伍中只有魔族成員時 ⇒ 將所有符石添加為魔族符石",
     "skillMonsters": [
       "2504"
     ]
@@ -30295,7 +30295,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BE%A4%E9%BE%8D%E5%A3%93%E8%BF%AB_%E2%80%A7_%E8%AD%B7",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 將所有符石轉化為龍族符石 II. 1 回合內 ⇒ 所受傷害將會以龍類的數量而減少 ⇒ 最多可減少 90%",
+    "skillDesc": "I. 將所有符石添加為龍族符石 II. 1 回合內 ⇒ 所受傷害將會以龍類的數量而減少 ⇒ 最多可減少 90%",
     "skillMonsters": [
       "1068"
     ]
@@ -32051,6 +32051,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蔚藍派對",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%94%9A%E8%97%8D%E6%B4%BE%E5%B0%8D",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將隊長直行符石轉化為 ⇒ 隊長屬性龍族符石 II. 將戰友直行符石轉化為 ⇒ 心龍族符石 1 回合內 III. 每消除 1 粒龍族符石 ⇒ 回復 10% 生命力 ⇒ 最多可回復 100% 生命力",
+    "skillMonsters": [
+      "2736"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "蔷薇的王冠",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%94%B7%E8%96%87%E7%9A%84%E7%8E%8B%E5%86%A0",
     "skillCDMin": 19,
@@ -32668,7 +32679,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E5%85%89",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "光符石轉化為妖族符石。1 回合內，心符石兼具 50% 光符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
+    "skillDesc": "光符石添加為妖族符石。1 回合內，心符石兼具 50% 光符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
     "skillMonsters": [
       "1907"
     ]
@@ -32679,7 +32690,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E6%9A%97",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "暗符石轉化為妖族符石。1 回合內，心符石兼具 50% 暗符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
+    "skillDesc": "暗符石添加為妖族符石。1 回合內，心符石兼具 50% 暗符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
     "skillMonsters": [
       "2438"
     ]
@@ -32690,7 +32701,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E6%9C%A8",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "木符石轉化為妖族符石。1 回合內，心符石兼具 50% 木符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
+    "skillDesc": "木符石添加為妖族符石。1 回合內，心符石兼具 50% 木符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
     "skillMonsters": [
       "1905"
     ]
@@ -32701,7 +32712,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E6%B0%B4",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "水符石轉化為妖族符石。1 回合內，心符石兼具 50% 水符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
+    "skillDesc": "水符石添加為妖族符石。1 回合內，心符石兼具 50% 水符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
     "skillMonsters": [
       "2437"
     ]
@@ -32712,7 +32723,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E7%81%AB",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "火符石轉化為妖族符石。1 回合內，心符石兼具 50% 火符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
+    "skillDesc": "火符石添加為妖族符石。1 回合內，心符石兼具 50% 火符石效果；首批消除 5 種屬性符石時，自身主動技能 CD 減少 2",
     "skillMonsters": [
       "1906"
     ]
@@ -32855,7 +32866,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9F%A0%E6%A1%83%E7%9B%9B%E5%AE%B4",
     "skillCDMin": 14,
     "skillCDMax": 3,
-    "skillDesc": "1 回合內 I. 連擊 (Ex. Combo) 數目增加 3 II. 自身以外「上古諸神」系列角色的 「仙力」增加 5 點 II. 將戰友直行的符石 ⇒ 轉化為與自身直行相同的符石 　(包括強化符石、種族符石) III. 若自身為戰友 ⇒ 則將自身直行的符石 轉化為神族符石 IV. 發動技能時若自身「仙力」達 10 點 ⇒ 連擊 (Ex. Combo) 數目額外增加 8",
+    "skillDesc": "1 回合內 I. 連擊 (Ex. Combo) 數目增加 3 II. 自身以外「上古諸神」系列角色的 「仙力」增加 5 點 II. 將戰友直行的符石 ⇒ 轉化為與自身直行相同的符石 　(包括強化符石、種族符石) III. 若自身為戰友 ⇒ 則將自身直行的符石 添加為神族符石 IV. 發動技能時若自身「仙力」達 10 點 ⇒ 連擊 (Ex. Combo) 數目額外增加 8",
     "skillMonsters": [
       "2132"
     ]
@@ -33488,7 +33499,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AA%93%E9%B3%A5%E4%B9%8B%E5%BF%97",
     "skillCDMin": 14,
     "skillCDMax": 3,
-    "skillDesc": "隊長需為神族才能發動此技能： I.「上古諸神」系列角色的 「仙力」增加 5 點 II. 將神族成員的屬性符石 ⇒ 轉化為神族符石 III. 下回合追加上回合的 Ex. Combo 數目",
+    "skillDesc": "隊長需為神族才能發動此技能： I.「上古諸神」系列角色的 「仙力」增加 5 點 II. 將神族成員的屬性符石 ⇒ 添加為神族符石 III. 下回合追加上回合的 Ex. Combo 數目",
     "skillMonsters": [
       "2303"
     ]
@@ -33742,7 +33753,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AE%8A%E8%BA%AB",
     "skillCDMin": 8,
     "skillCDMax": 8,
-    "skillDesc": "變身；所有符石轉化為強化符石",
+    "skillDesc": "變身；所有符石添加為強化符石",
     "skillMonsters": [
       "1762"
     ]
@@ -33753,7 +33764,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AE%8A%E8%BA%AB",
     "skillCDMin": 8,
     "skillCDMax": 8,
-    "skillDesc": "變身；所有符石轉化為人族符石",
+    "skillDesc": "變身；所有符石添加為人族符石",
     "skillMonsters": [
       "1764"
     ]
@@ -34298,7 +34309,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BC%95%E8%96%84%E7%9A%84%E5%81%87%E8%B1%A1",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將所有符石轉化為人族符石 1 回合內 II. 延長移動符石時間至 10 秒 III. 受敵人反擊傷害減少 100% IV. 下次發動主動技能二 「來吧，讓我玩得開心」時 ⇒ 必定獲得【JOKER】效果",
+    "skillDesc": "I. 將所有符石添加為人族符石 1 回合內 II. 延長移動符石時間至 10 秒 III. 受敵人反擊傷害減少 100% IV. 下次發動主動技能二 「來吧，讓我玩得開心」時 ⇒ 必定獲得【JOKER】效果",
     "skillMonsters": [
       "2282"
     ]
@@ -34655,7 +34666,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%AD%82%E4%B9%8B%E5%B9%BD_%E2%80%A7_%E9%AD%94%E6%9A%B4",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "I. 引爆場上所有風化符石及凍結符石 II. 將所有符石轉化為魔族符石 III. 1 回合內，暗屬性攻擊力 2 倍，自身攻擊力額外提升 3 倍",
+    "skillDesc": "I. 引爆場上所有風化符石及凍結符石 II. 將所有符石添加為魔族符石 III. 1 回合內，暗屬性攻擊力 2 倍，自身攻擊力額外提升 3 倍",
     "skillMonsters": [
       "2086"
     ]
@@ -36787,7 +36798,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%99%8D%E4%B8%96%E7%A5%9E%E5%8A%9B",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 將神族成員直行的暗符石 ⇒ 轉化為神族符石 II. 將機械族成員直行的暗符石 ⇒ 轉化為機械族符石 III. 1 回合內，每首批消除 1 組符石 ⇒ 必定掉落 1 粒神族強化符石，最多 10 粒",
+    "skillDesc": "I. 將神族成員直行的暗符石 ⇒ 添加為神族符石 II. 將機械族成員直行的暗符石 ⇒ 添加為機械族符石 III. 1 回合內，每首批消除 1 組符石 ⇒ 必定掉落 1 粒神族強化符石，最多 10 粒",
     "skillMonsters": [
       "2146"
     ]
@@ -37382,7 +37393,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%BB%E6%AE%9B%E4%B9%8B%E5%88%91",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "3 回合內 I. 將光符石轉化為機械族符石 II. 若移動符石前場上有電擊符石 ⇒ 該回合自身攻擊力 4 倍",
+    "skillDesc": "3 回合內 I. 將光符石添加為機械族符石 II. 若移動符石前場上有電擊符石 ⇒ 該回合自身攻擊力 4 倍",
     "skillMonsters": [
       "2172"
     ]
@@ -37746,7 +37757,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E5%8B%95%E4%B9%8B%E6%BE%A4",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "I. 將 10 粒符石 ⇒ 轉化為妖族符石 (非種族符石優先轉換) 1 回合內 II. 首批 2 粒相連的符石可發動消除",
+    "skillDesc": "I. 將 10 粒符石 ⇒ 添加為妖族符石 (非種族符石優先添加) 1 回合內 II. 首批 2 粒相連的符石可發動消除",
     "skillMonsters": [
       "2490"
     ]
@@ -38720,7 +38731,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E4%BA%BA",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 人類攻擊力及回復力 4.5 倍 II. 龍脈儀全滿時 ⇒ 人類攻擊力額外 1.5 倍 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石轉化為人族符石",
+    "skillDesc": "I. 人類攻擊力及回復力 4.5 倍 II. 龍脈儀全滿時 ⇒ 人類攻擊力額外 1.5 倍 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石添加為人族符石",
     "skillMonsters": [
       "2039"
     ]
@@ -38731,7 +38742,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E5%A6%96",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 妖精類攻擊力及回復力 4.5 倍 II. 龍脈儀全滿時 ⇒ 妖精類攻擊力額外 1.5 倍 III. 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石轉化為妖族符石",
+    "skillDesc": "I. 妖精類攻擊力及回復力 4.5 倍 II. 龍脈儀全滿時 ⇒ 妖精類攻擊力額外 1.5 倍 III. 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石添加為妖族符石",
     "skillMonsters": [
       "2036"
     ]
@@ -38742,7 +38753,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E7%8D%B8",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 獸類攻擊力 4.5 倍 II. 每個獸類成員增加 500 點回復力 III. 龍脈儀全滿時 ⇒ 獸類攻擊力額外 1.5 倍 IV. 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石轉化為獸族符石",
+    "skillDesc": "I. 獸類攻擊力 4.5 倍 II. 每個獸類成員增加 500 點回復力 III. 龍脈儀全滿時 ⇒ 獸類攻擊力額外 1.5 倍 IV. 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石添加為獸族符石",
     "skillMonsters": [
       "2040"
     ]
@@ -38764,7 +38775,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A8%8E%E5%A3%AB%E4%B9%8B%E9%AD%82_%E2%80%A7_%E9%BE%8D",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "I. 龍類攻擊力 5 倍 II. 每個龍類增加 500 點回復力 III. 龍脈儀全滿時 ⇒ 龍類攻擊力額外 1.5 倍 IV. 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石轉化為龍族符石",
+    "skillDesc": "I. 龍類攻擊力 5 倍 II. 每個龍類增加 500 點回復力 III. 龍脈儀全滿時 ⇒ 龍類攻擊力額外 1.5 倍 IV. 每首批消除 1 種屬性符石 ⇒ 於回合結束時 隨機將該屬性的其中 2 粒符石添加為龍族符石",
     "skillMonsters": [
       "2037"
     ]
@@ -38984,7 +38995,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E9%80%9F%E6%AE%BA%E5%8B%A2",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 隊伍中每有 1 個魔族成員 ⇒ 隨機將 3 粒符石轉化為魔族符石 1 回合內 II. 首批消除魔族符石愈多 ⇒ 自身攻擊力提升愈多 ⇒ 首批消除 12 粒可達至最大 7 倍",
+    "skillDesc": "I. 隊伍中每有 1 個魔族成員 ⇒ 隨機將 3 粒符石添加為魔族符石 1 回合內 II. 首批消除魔族符石愈多 ⇒ 自身攻擊力提升愈多 ⇒ 首批消除 12 粒可達至最大 7 倍",
     "skillMonsters": [
       "2349"
     ]
@@ -39773,7 +39784,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%8F%A4%E5%BF%8C%E6%B5%81%E7%85%89%E7%A0%B4%E5%8F%8D%E8%A1%9D%E5%A3%81",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "木符石轉化為妖族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 50 倍對其進行木屬性反擊",
+    "skillDesc": "木符石添加為妖族符石；1 回合內，吸收本回合敵人首次攻擊傷害，並以所吸收攻擊力的 50 倍對其進行木屬性反擊",
     "skillMonsters": [
       "1799"
     ]
@@ -39808,7 +39819,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%AA%9A%E4%B9%8B%E7%84%B0",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "1 回合內，移動符石時觸碰的符石轉化為魔族符石；攻擊力基值最高 (最左方) 的魔族成員追打自身攻擊 1 次",
+    "skillDesc": "1 回合內，移動符石時觸碰的符石添加為魔族符石；攻擊力基值最高 (最左方) 的魔族成員追打自身攻擊 1 次",
     "skillMonsters": [
       "2062"
     ]
@@ -41005,7 +41016,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BA%9F%E7%B2%89%E4%B9%83%E6%84%9B%E6%B3%89",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "2 回合內，每回合將隊伍成員屬性的符石轉化為妖族符石，消除 1 粒妖族符石可減少 10% 所受傷害，消除 8 粒可減少最多 80% 所受傷害",
+    "skillDesc": "2 回合內，每回合將隊伍成員屬性的符石添加為妖族符石，消除 1 粒妖族符石可減少 10% 所受傷害，消除 8 粒可減少最多 80% 所受傷害",
     "skillMonsters": [
       "1776"
     ]
@@ -41438,7 +41449,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%8A%9B%E6%8B%9B%E4%BE%86%EF%BC%8E%E7%8B%82%E5%82%B2",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 龍類攻擊力減至 0 II. 將龍類攻擊力的 1.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊無視攻前盾 IV. 每回合開始時， 隨機將 3 粒符石 ⇒ 轉化為龍族符石 (效果會在再次發動此技能 或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 將「水及暗屬性」龍類成員 直行符石轉化為龍族符石",
+    "skillDesc": "I. 龍類攻擊力減至 0 II. 將龍類攻擊力的 1.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊無視攻前盾 IV. 每回合開始時， 隨機將 3 粒符石 ⇒ 添加為龍族符石 (效果會在再次發動此技能 或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 將「水及暗屬性」龍類成員 直行符石轉化為龍族符石",
     "skillMonsters": [
       "2609"
     ]
@@ -41449,7 +41460,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%90%9F%E4%B9%8B%E5%98%AF",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "發動技能時生命力需為 50% 或以上： I. 隨機 3 個龍類成員直行的符石 ⇒ 轉化為龍族符石 II. 全隊回復力減至 0 III. 龍類攻擊力 2 倍 效果持續至我方生命力為 50% 以下",
+    "skillDesc": "發動技能時生命力需為 50% 或以上： I. 隨機 3 個龍類成員直行的符石 ⇒ 添加為龍族符石 II. 全隊回復力減至 0 III. 龍類攻擊力 2 倍 效果持續至我方生命力為 50% 以下",
     "skillMonsters": [
       "2311"
     ]
@@ -41572,7 +41583,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E6%9C%AC%E8%89%B2",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 將黑白符石變回原來色調 1 回合內 II. 將移動符石時觸碰的符石 ⇒ 轉化為龍族符石 III. 身旁成員追打 ⇒ 暗屬性攻擊 2 次",
+    "skillDesc": "I. 將黑白符石變回原來色調 1 回合內 II. 將移動符石時觸碰的符石 ⇒ 添加為龍族符石 III. 身旁成員追打 ⇒ 暗屬性攻擊 2 次",
     "skillMonsters": [
       "2610"
     ]
@@ -41594,7 +41605,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E6%97%8F%E9%9B%BB%E5%85%89",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 電擊敵方全體，持續 3 回合 II. 將所有符石 ⇒ 轉化為龍族符石 1 回合內 III. 首批全部消除場上其中 1 種符石 ⇒ 回合結束時， 所有符石轉化為龍族符石",
+    "skillDesc": "I. 電擊敵方全體，持續 3 回合 II. 將所有符石 ⇒ 添加為龍族符石 1 回合內 III. 首批全部消除場上其中 1 種符石 ⇒ 回合結束時， 所有符石添加為龍族符石",
     "skillMonsters": [
       "2249"
     ]
@@ -41719,7 +41730,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E9%AD%82%E5%85%B1%E9%B3%B4_%E2%80%A7_%E9%80%9F",
     "skillCDMin": 22,
     "skillCDMax": 8,
-    "skillDesc": "2 回合內 I. 以龍類其中造成的最大傷害 ⇒ 轉換為全隊龍類的傷害 II. 將移動符石時觸碰的 凍結符石狀態解除 ⇒ 並轉化為龍族符石 III. 首批消除 1 組 ≥6 粒龍族符石 ⇒ 自身 CD -1",
+    "skillDesc": "2 回合內 I. 以龍類其中造成的最大傷害 ⇒ 轉換為全隊龍類的傷害 II. 將移動符石時觸碰的 凍結符石狀態解除 ⇒ 並添加為龍族符石 III. 首批消除 1 組 ≥6 粒龍族符石 ⇒ 自身 CD -1",
     "skillMonsters": [
       "2601"
     ]
