@@ -35,7 +35,6 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
-import main.fetcher.hero.LiveAHeroMain;
 import main.kt.CopyInfo;
 
 import java.awt.AWTException;
@@ -50,7 +49,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch(1); // x <=0 = run TosCardExtras
+        //fetch(0); // x <=0 = run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //enterTemperature();
@@ -74,7 +73,7 @@ public class Main {
 
         //XliffParser.me.addStringsToIos();
 
-        //ASD.run(); // testing on filter cards
+        ASD.run(); // testing on filter cards
         //print();
 
 
@@ -89,7 +88,7 @@ public class Main {
 
     private static void a() {
         //MainTest.main(null);
-        LiveAHeroMain.main(null);
+        //LiveAHeroMain.main(null);
     }
 
     private static void enterTemperature() {
@@ -234,7 +233,7 @@ public class Main {
 
     private static void fetch(int extra) {
         if (extra <= 0) {
-            TosCardExtras.me.run(); // Almost 250ms * 3200 cards = 15min
+            TosCardExtras.me.run(); // Almost 200ms * 3300 cards ~= 15min
         }
         fetchMisc();
         fetchCards();
@@ -259,8 +258,6 @@ public class Main {
 
             TaskMonitorUtil.join(beforeCard, endCard);
         } else {
-            //TosCraftFetcher.me.run();
-            //TosSkillFetcher.me.run();
             TosCardFetcher.me.run();
         }
         clock.tac("Card fetched at %s", now());
@@ -352,7 +349,7 @@ public class Main {
     private static void copyToMyTosWiki() {
         List<CopyInfo> paths = new ArrayList<>();
         String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\";
-        if ('/' == File.separatorChar ) { // macOS or unix
+        if ('/' == File.separatorChar) { // macOS or unix
             asset = "../MyTosWiki/app/src/main/assets/";
         }
         paths.add(as(         "myCard/",     "cardList.json", asset));

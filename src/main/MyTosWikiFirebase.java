@@ -21,12 +21,7 @@ public class MyTosWikiFirebase {
         genFarmPool();
         genTosEvent();
         genStageMemo();
-        //genDailyMission();
         clk.tac("genTosEvent OK");
-    }
-
-    private static void genDailyMission() {
-        genLineAndPrint("..\\MyTosWiki\\playstore\\daily", "daily.txt");
     }
 
     private static void genFarmPool() {
@@ -44,6 +39,7 @@ public class MyTosWikiFirebase {
     private static void genLineAndPrint(String folder, String name) {
         String gen = genLines(folder, name);
         printFile(gen);
+        new File(gen).delete();
     }
 
     private static String genLines(String folder, String name) {

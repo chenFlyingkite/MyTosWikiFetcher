@@ -16,6 +16,7 @@ import flyingkite.tool.IOUtil;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
 import main.card.TosCard;
+import main.card.TosCardCreator;
 import main.kt.Craft;
 import main.kt.CraftSkill;
 import org.jsoup.Connection;
@@ -95,7 +96,7 @@ public class ASD {
             }
 
             int id = Integer.parseInt(c.idNorm);
-            if (6000 <= id && id < 7000) {
+            if (TosCardCreator.isSkinID(id)) {
                 // omit skin
                 continue;
             }
@@ -115,16 +116,21 @@ public class ASD {
 
         L.log("--**--\n\n--**--");
         // Regex
-        //findCardSkill(new String[]{"水","火","木","光","暗"}, true, allCards);
-        //findCardSkill("增加(.{0,20})連擊", true, allCards);
-        findCardSkill("轉化(|為)(水)符石", true, allCards);
-        //findCardSkill("位置", true, allCards);
+        //findCardSkill(new String[]{"水","火","木","光","暗"}, allCards);
+        //findCardSkill("增加(.{0,20})連擊", allCards);
+        //findCardSkill("轉化(|為)(水)符石", allCards);
+        findCardSkill("(600回合|600 回合|600技能回合)", allCards);
         //findCardSkill("(水|火|木|光|暗)((、|及)(水|火|木|光|暗)){4}", true, allCards);
         //findCardSkill("生命力(.{0,30})提升(.{0,20})(倍|點)", true, allCards);
         L.log("--**--\n\n--**--");
         //findCardAme("召喚獸技能冷卻回合", allCards);
         //findCardSkill("解除黑白符石的狀態", allCards);
     }
+    // 技能回合 = 49 / 3327
+    // 600回合 = 28 / 3327 = 617,1820,1785,2242, 1972 (600 回合), 1046(600技能回合)
+    // 800k = 羊駝, 450k= 大肥, 100k = 萬年靈魂石, 30k = 千年靈魂石, 6k = 靈魂石,
+    // 3k = 小靈魂石, 300k = 珍饈美點, 200k = 蛋糕, 150k = 蟾蜍, 5000k = 靈石,
+    // 100k = 時空元素, ,,,,,,,,,,,,,,,,,,,,,,
 
     private static void loadAllCrafts() {
         File fc = new File("myCraft", "crafts.json");
@@ -248,6 +254,10 @@ public class ASD {
         }
     }
 
+    private static void findCardSkill(String key, TosCard[] allCards) {
+        findCardSkill(key, true, allCards);
+    }
+
     private static void findCardSkill(String key, boolean regex, TosCard[] allCards) {
         // Define match condition
         MeetSS<String, Boolean> cond;
@@ -263,6 +273,7 @@ public class ASD {
 
         // Major part
         int sn = 0, tn = 0, un = 0;
+        String ids = "";
         L.log("--**--");
         //L.log("Find %s of %s", regex ? "regex" : "text", key);
         int n = 0, m = 0;
@@ -296,16 +307,19 @@ public class ASD {
                 } else {
                     n++;
                 }
+                ids += "\"" + c.idNorm + "\", ";
             }
         }
 
         L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, key);
         L.log("Found %s in normal, %s in 素材", n, m);
+        L.log("IDs = %s", ids);
     }
 
-    private static void findCardSkill(String[] keys, boolean regex, TosCard[] allCards) {
+    private static void findCardSkill(String[] keys, TosCard[] allCards) {
         // Define match condition
         MeetSS<String, Boolean> cond;
+        boolean regex = true;
         if (regex) {
             cond = (a, b) -> {
                 return Pattern.compile(b).matcher(a).find();
@@ -370,10 +384,6 @@ public class ASD {
 
         L.log("%s in skill, %s in detail, %s in leader, key = %s", sn, tn, un, Arrays.toString(keys));
         L.log("Found %s in normal, %s in 素材", n, m);
-    }
-
-    private static void findCardSkill(String key, TosCard[] allCards) {
-        findCardSkill(key, false, allCards);
     }
 
     private static String sc(TosCard c) {

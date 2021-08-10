@@ -652,11 +652,15 @@ public class TosCardCreator {
             String s = c.wikiLink.substring(end);
             if (s.matches("[0-9]+")) {
                 int num = parseInt(s);
-                if (6000 <= num && num < 7000) { // This is those card of 造型, like "id": "481", -> 水妹
+                if (isSkinID(num)) { // This is those card of 造型, like "id": "481", -> 水妹
                     c.idNorm = String.format(Locale.US, "%04d", num);
                 }
             }
         }
+    }
+
+    public static boolean isSkinID(int id) {
+        return 6000 <= id && id < 7000;
     }
 
     private void fillSkillActive(TosCard c, CardInfo info) {
