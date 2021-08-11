@@ -108,8 +108,13 @@ class CardTds {
 }
 
 open class TableInfo {
-    val headers: ArrayList<String> = ArrayList()
-    val cells: ArrayList<String> = ArrayList()
+    val headers: MutableList<String> = ArrayList()
+    val cells: MutableList<String> = ArrayList()
+}
+
+open class SummonInfo {
+    val headers: MutableList<String> = ArrayList()
+    val cells: MutableList<MutableList<String>> = ArrayList()
 }
 
 open class SkillInfo {

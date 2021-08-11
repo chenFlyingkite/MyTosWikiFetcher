@@ -195,16 +195,17 @@ class TosGet {
             return elements.get(index)?.html() ?: ""
         }
 
-        fun getSummonerTable(index: Int, elements: Elements) : TableInfo {
-            val info = TableInfo()
+        fun getSummonerTable(index: Int, elements: Elements) : SummonInfo {
+            val info = SummonInfo()
             val no = index >= elements.size
             if (no) return info
 
             return getSummonerTable(elements[index])
         }
 
-        fun getSummonerTable(element: Element) : TableInfo {
-            val info = TableInfo()
+
+        fun getSummonerTable(element: Element) : SummonInfo {
+            val info = SummonInfo()
 
             val ths = element.getElementsByTag("th")
             ths.forEachIndexed { i, ele -> run {
@@ -213,7 +214,7 @@ class TosGet {
 
             val tds = element.getElementsByTag("td")
             tds.forEachIndexed { i, ele -> run {
-                info.cells.add(ele.text())
+                //info.cells.add(ele.text())
             }}
             return info
         }

@@ -52,7 +52,7 @@ public class Main {
         //fetch(0); // x <=0 = run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
-        //enterTemperature();
+        enterTemperature();
 
         //MyTosWikiFirebase.run();
 
@@ -73,7 +73,7 @@ public class Main {
 
         //XliffParser.me.addStringsToIos();
 
-        ASD.run(); // testing on filter cards
+        //ASD.run(); // testing on filter cards
         //print();
 
 
