@@ -46,32 +46,32 @@ public class TosCardCreator {
         public List<String> sameSkills = new ArrayList<>();
 
         public String signature() {
-            String e = "";
+            StringBuilder e = new StringBuilder();
             if (icon.length() == 0) {
-                e += " icon";
+                e.append(" icon");
             }
             if (bigImage.length() == 0) {
-                e += " bigImage";
+                e.append(" bigImage");
             }
             if (wikiLink.length() == 0) {
-                e += " wikiLink";
+                e.append(" wikiLink");
             }
             if (idNorm.length() == 0) {
-                e += " idNorm";
+                e.append(" idNorm");
             }
-            e += " bas=" + basic.size();
-            e += " hps=" + hpValues.size();
-            e += " exp=" + expInfos.size();
-            e += " act=" + activeSkills.size();
-            e += " ldr=" + leaderSkills.size();
-            e += " amS=" + amelioSkills.size();
-            e += " amT=" + ameStages.size();
-            e += " awk=" + awkStages.size();
-            e += " pow=" + powStages.size();
-            e += " vir=" + virStages.size();
-            e += " skc=" + skillChange.size();
-            e += " sam=" + sameSkills.size();
-            return e;
+            e.append(" bas=").append(basic.size());
+            e.append(" hps=").append(hpValues.size());
+            e.append(" exp=").append(expInfos.size());
+            e.append(" act=").append(activeSkills.size());
+            e.append(" ldr=").append(leaderSkills.size());
+            e.append(" amS=").append(amelioSkills.size());
+            e.append(" amT=").append(ameStages.size());
+            e.append(" awk=").append(awkStages.size());
+            e.append(" pow=").append(powStages.size());
+            e.append(" vir=").append(virStages.size());
+            e.append(" skc=").append(skillChange.size());
+            e.append(" sam=").append(sameSkills.size());
+            return e.toString();
         }
     }
 
@@ -657,6 +657,11 @@ public class TosCardCreator {
                 }
             }
         }
+    }
+
+
+    public static boolean isSkinID(String s) {
+        return isSkinID(Integer.parseInt(s));
     }
 
     public static boolean isSkinID(int id) {

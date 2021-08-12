@@ -49,10 +49,10 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        //fetch(0); // x <=0 = run TosCardExtras
-        //copyToMyTosWiki();
+        //fetch(1); // x <=0 = run TosCardExtras
+        copyToMyTosWiki();
         //enterUID();
-        enterTemperature();
+        //enterTemperature();
 
         //MyTosWikiFirebase.run();
 
@@ -254,7 +254,9 @@ public class Main {
                     , TosSkillFetcher.me
                     , TosCraftFetcher.me
             );
-            Runnable endCard = TosCardFetcher.me;
+            Runnable endCard = () -> {
+                TosCardFetcher.me.run();
+            };
 
             TaskMonitorUtil.join(beforeCard, endCard);
         } else {
@@ -353,6 +355,7 @@ public class Main {
             asset = "../MyTosWiki/app/src/main/assets/";
         }
         paths.add(as(         "myCard/",     "cardList.json", asset));
+        paths.add(as(         "myCard/",   "evolvePath.json", asset));
         paths.add(as(        "myCraft/",       "crafts.json", asset));
         paths.add(as(        "myCraft/",    "armCrafts.json", asset));
         paths.add(as("myLostRelicPass/",    "relicPass.json", asset));

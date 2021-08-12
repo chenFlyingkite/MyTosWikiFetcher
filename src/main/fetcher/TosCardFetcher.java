@@ -5,6 +5,7 @@ import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TicTac2;
+import main.card.Evolve;
 import main.card.TosCard;
 import main.card.TosCardCreator;
 import main.card.TosCardCreator.CardInfo;
@@ -25,8 +26,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class TosCardFetcher extends TosWikiBaseFetcher {
@@ -34,14 +38,17 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     private static final String folder = "myCard";
     private LF mLf = new LF(folder);
     private LF mCardJson = new LF(folder, "cardList.json");
+    private LF mEvolveJson = new LF(folder, "evolvePath.json");
     private String source = TosWikiCardsLister.me.VALAID_LINKS;
 
     // Records card types by metadata length
-    private Set<String> cardKinds = new TreeSet<>();
+    private Map<String, String> cardKinds = new TreeMap<>();
     // Records card series
     private Set<String> cardSeries = new TreeSet<>();
     // Records card signatures of each count
     private Set<String> cardSigna = new TreeSet<>();
+    //private Map<String, TosCard> allFetched = new TreeMap<>();
+    //private List<TosCard> allSortedCard;
 
     // Nonempty = fixing card content
     private boolean fixing = 0 > 0;
@@ -151,11 +158,17 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 if (isFixing()) {
                     L.log("#%s -> \n%s\n", i, mGson.toJson(card));
                 }
+                //allFetched.put(card.idNorm, card);
             }
         }
         clock.tac("Card parsed");
+        //allSortedCard = allCards;
 
-        mLf.log("%s metadata = %s", cardKinds.size(), cardKinds);
+        mLf.log("%s metadata =", cardKinds.size());
+        for (String k : cardKinds.keySet()) {
+            String v = cardKinds.get(k);
+            mLf.log("  %s -> %s", k, v);
+        }
         mLf.log("%s series\n = %s", cardSeries.size(), cardSeries);
         mLf.log("%s signatures", cardSigna.size());
         //int k = 0;
@@ -178,6 +191,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 L.log(" > #%2d = %s", i, failed.get(i));
             }
         }
+        buildEvolveTree();
         L.log("time = %s     at %s", StringUtil.MMSSFFF(dur), new Date());
     }
 
@@ -195,6 +209,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         return pages;
     }
 
+    // Main core
     private CardInfo getCardInfo(String link) {
         CardInfo info = new CardInfo();
 
@@ -246,10 +261,10 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         String ldr = "Ldr_" + info.leaderSkills.size() + "_";
         String ame = "Ame_" + info.ameStages.size() + "_";
         String kind = act + ldr + ame;
-        if (!cardKinds.contains(kind)) {
+        if (!cardKinds.containsKey(kind)) {
             L.log("%s kind for card = %s", kind, link);
+            cardKinds.put(kind, link);
         }
-        cardKinds.add(kind);
 
         // -- Finishing fetching card's information --
         // Get card details
@@ -415,4 +430,88 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         return TosGet.me.getImage(e);
     }
     //-- Miscellaneous util functions - End
+
+
+    private List<TosCard> loadAllCards() {
+        // using List<TosCard> makes card be HashMap
+        TosCard[] li = GsonUtil.loadFile(mCardJson.getFile().getFile(), TosCard[].class);
+        return Arrays.asList(li);
+    }
+
+    public void buildEvolveTree() {
+        List<TosCard> all = loadAllCards();
+        Map<String, TosCard> pool = new HashMap<>();
+        Map<String, String> edge = new HashMap<>();
+        // Load cards and make our set, pool = 0001 -> card & edge = 0001 -> 0002
+        int n = all.size();
+        for (int i = 0; i < n; i++) {
+            TosCard c = all.get(i);
+            pool.put(c.idNorm, c);
+
+            //-- Add the evolve info
+            if (TosCardCreator.isSkinID(c.idNorm)) {
+                // omit skin
+            } else {
+                for (int j = 0; j < c.evolveInfo.size(); j++) {
+                    Evolve e = c.evolveInfo.get(j);
+                    if (!edge.containsKey(e.evolveTo)) {
+                        edge.put(e.evolveTo, e.evolveFrom);
+                    }
+                }
+            }
+        }
+        List<TosCard> want = all;
+        List<List<TosCard>> answer = new ArrayList<>();
+        // very fast to within 15 ms
+        for (int i = 0; i < want.size(); i++) {
+            TosCard x = want.get(i);
+            boolean valid = "神族 魔族 人類 獸類 龍類 妖精類 機械族".contains(x.race) && x.evolveInfo.isEmpty();
+            if (TosCardCreator.isSkinID(x.idNorm)) {
+                valid = false;
+            }
+            if (valid) {
+                List<TosCard> path = new ArrayList<>();
+                path.add(x);
+                String y = edge.get(x.idNorm);
+                while (y != null) {
+                    TosCard cy = pool.get(y);
+                    path.add(cy);
+                    y = edge.get(cy.idNorm);
+                }
+                answer.add(path);
+            }
+        }
+        // print answer of 0001 -> 0002 -> 0003 -> ...
+        n = answer.size();
+        L.log("Evolve tree : %s path", n);
+        TicTac2 t = new TicTac2();
+        t.tic();
+        boolean log = false;
+        List<List<String>> idNorms = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            List<TosCard> li = answer.get(i);
+            List<String> ki = new ArrayList<>();
+            StringBuilder sb = new StringBuilder();
+            for (int j = 0; j < li.size(); j++) {
+                TosCard c = li.get(j);
+                // append message
+                if (log) {
+                    if (j > 0) {
+                        sb.append("  ->  ");
+                    }
+                    sb.append(c.idNorm).append(" ").append(c.name);
+                }
+
+                // for json
+                ki.add(c.idNorm);
+            }
+            idNorms.add(ki);
+            if (log) {
+                L.log("#%4d = %s", i, sb.toString());
+            }
+        }
+        t.tac("evolve tree ok");
+        writeAsGson(idNorms, mEvolveJson);
+    }
+
 }
