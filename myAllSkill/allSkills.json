@@ -4532,6 +4532,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "冰雪暴擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E9%9B%AA%E6%9A%B4%E6%93%8A",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 龍類及獸類攻擊力 2 倍 III. 將移動符石時觸碰的符石 ⇒ 轉化為強化符石",
+    "skillMonsters": [
+      "10059"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "冰霜絕命",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E9%9C%9C%E7%B5%95%E5%91%BD",
     "skillCDMin": 19,
@@ -22469,6 +22480,17 @@
     "skillDesc": "I. 將水符石及木符石轉化為心符石 1 回合內 II. 延長移動符石時間至 12 秒， 心符石兼具火符石效果 III. 若隊長為「羅伊 ‧ 馬斯坦古」或 「羅伊與莉莎」 ⇒ 將所有符石轉化為強化符石",
     "skillMonsters": [
       "2351"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "熾熱強襲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%86%B1%E5%BC%B7%E8%A5%B2",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將龍類及獸類成員直行符石 ⇒ 轉化為強化符石 1 回合內 II. 個人以 20% 攻擊力 ⇒ 追打五屬攻擊各 1 次",
+    "skillMonsters": [
+      "10052"
     ]
   },
   {

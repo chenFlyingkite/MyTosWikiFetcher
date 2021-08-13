@@ -16674,10 +16674,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10051"
   },
   {
+    "title": "No. 10052 疾火飛騰 ‧ 斯威夫",
+    "id": "10052",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%96%BE%E7%81%AB%E9%A3%9B%E9%A8%B0_%E2%80%A7_%E6%96%AF%E5%A8%81%E5%A4%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/10052"
+  },
+  {
     "title": "No. 10056 奧術窺探 ‧ 比麗安",
     "id": "10056",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A5%A7%E8%A1%93%E7%AA%BA%E6%8E%A2_%E2%80%A7_%E6%AF%94%E9%BA%97%E5%AE%89",
     "linkId": "http://zh.tos.wikia.com/wiki/10056"
+  },
+  {
+    "title": "No. 10059 寒地探尋 ‧ 大大果",
+    "id": "10059",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AF%92%E5%9C%B0%E6%8E%A2%E5%B0%8B_%E2%80%A7_%E5%A4%A7%E5%A4%A7%E6%9E%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/10059"
   },
   {
     "title": "No. 10061 藥到病除 ‧ 蓮南希",

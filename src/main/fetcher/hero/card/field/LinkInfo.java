@@ -6,15 +6,17 @@ public class LinkInfo {
     public String key;
     public String link;
     public Heros hero;
+    public String moegirlLink;
 
     public LinkInfo() {
 
     }
 
-    public LinkInfo(Heros h, String l) {
+    public LinkInfo(Heros h, String l, String m) {
         hero = h;
         key = h.nameEn;
         link = l;
+        moegirlLink = m;
     }
 
     @Override

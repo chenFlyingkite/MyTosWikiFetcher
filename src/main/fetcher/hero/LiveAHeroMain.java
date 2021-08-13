@@ -188,6 +188,7 @@ public class LiveAHeroMain {
     private static void skills() {
         List<LinkInfo> li = skillLinks();
         String pre = "https://liveahero-wiki.github.io/charas/";
+        String moe = "https://zh.moegirl.org.cn/";
         for (LinkInfo each : li) {
             String link = pre + each.link;
             String key = each.key;
@@ -259,6 +260,35 @@ public class LiveAHeroMain {
                 L.log("hero %s", hero);
             }
 
+            //-- moe
+            link = moe + each.moegirlLink;
+
+            doc = fetcher.sendAndParseDom(link, onWeb);
+            ts = doc.getElementsByClass("TabLabelText");
+            L.log("%d Tab = ", ts.size());
+            for (int i = 0; i < ts.size(); i++) {
+                Element e = ts.get(i);
+                Elements imgs = e.getElementsByTag("img");
+                if (imgs.size() > 0) {
+                    //"https://zh.moegirl.org.cn/File:Yoshiori_hero_4_ico.jpg"
+                    L.log("e = " + e);
+                    Element x = imgs.get(0);
+                    String ss = x.attr("src");
+                    int la = ss.lastIndexOf("/");
+                    ss = ss.substring(0, la);
+                    la = ss.lastIndexOf("/");
+                    String s = "https://zh.moegirl.org.cn/File:" + ss.substring(la + 1);
+                    L.log("heroimage = " + s);
+
+                    doc = fetcher.sendAndParseDom(s, onWeb);
+                    ts = doc.getElementsByClass("internal");
+                    if (ts.size() > 0) {
+                        link = ts.get(0).attr("href");
+                        String f = mImage.getFile().getFile().getAbsolutePath();
+                        URLUtil.downloadFile(link, f);
+                    }
+                }
+            }
         }
     }
 
@@ -341,50 +371,55 @@ public class LiveAHeroMain {
     private static OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
     private static List<LinkInfo> skillLinks() {
         List<LinkInfo> li = new ArrayList<>();
-        li.add(new LinkInfo(Heros.Akashi, "akashi"));
-        li.add(new LinkInfo(Heros.Mokdai, "mokdai"));
-        li.add(new LinkInfo(Heros.Sui, "sui"));
-        li.add(new LinkInfo(Heros.Ryekie, "ryekie"));
-        li.add(new LinkInfo(Heros.Crowne, "crowne"));
-        li.add(new LinkInfo(Heros.Gammei, "gammei"));
-        li.add(new LinkInfo(Heros.Barrel, "barrel"));
-        li.add(new LinkInfo(Heros.Furlong, "furlong"));
-        li.add(new LinkInfo(Heros.Victom, "victom"));
-        li.add(new LinkInfo(Heros.Kyoichi, "kyoichi"));
-        li.add(new LinkInfo(Heros.Flamier, "flamier"));
-        li.add(new LinkInfo(Heros.Shoen, "shoen"));
-        li.add(new LinkInfo(Heros.Toshu, "toshu"));
-        li.add(new LinkInfo(Heros.Marfik, "marfik"));
-        li.add(new LinkInfo(Heros.PolarisMask, "polaris_mask"));
-        li.add(new LinkInfo(Heros.Kuoki, "kouki_and_sirius"));
-        li.add(new LinkInfo(Heros.Hitomi, "hitomi"));
-        li.add(new LinkInfo(Heros.Rakkta, "rakta"));
-        li.add(new LinkInfo(Heros.Loren, "loren"));
-        li.add(new LinkInfo(Heros.Isaribi, "isaribi"));
-        li.add(new LinkInfo(Heros.Goro, "goro"));
-        li.add(new LinkInfo(Heros.Digram, "digram"));
-        li.add(new LinkInfo(Heros.Andrew, "andrew"));
-        li.add(new LinkInfo(Heros.Alchiba, "alchiba"));
-        li.add(new LinkInfo(Heros.Subaru, "subaru"));
-        li.add(new LinkInfo(Heros.Kirsch, "kirsch"));
-        li.add(new LinkInfo(Heros.Narihito, "narihito"));
-        li.add(new LinkInfo(Heros.Suhail, "suhail"));
-        li.add(new LinkInfo(Heros.Monomasa, "monomasa"));
-        li.add(new LinkInfo(Heros.Procy, "procy"));
-        li.add(new LinkInfo(Heros.Gomeisa, "gomeisa"));
-        li.add(new LinkInfo(Heros.Huckle, "huckle"));
-        li.add(new LinkInfo(Heros.WolfmanWood, "wood_wolfman"));
-        li.add(new LinkInfo(Heros.WolfmanDark, "shadow_wolfman"));
-        li.add(new LinkInfo(Heros.Nessen, "nessen"));
-        li.add(new LinkInfo(Heros.Hisaki, "hisaki"));
-        li.add(new LinkInfo(Heros.Maculata, "maculata"));
-        li.add(new LinkInfo(Heros.Rutilix, "rutilix"));
-        li.add(new LinkInfo(Heros.Alphecca, "alphecca"));
-        li.add(new LinkInfo(Heros.Shaft, "shaft"));
-        li.add(new LinkInfo(Heros.Kalaski, "kalaski"));
-        li.add(new LinkInfo(Heros.Melide, "melide"));
-        li.add(new LinkInfo(Heros.Yoshiori, "yoshiori"));
-        li.add(new LinkInfo(Heros.Player, "player"));
+        li.add(new LinkInfo(Heros.Akashi, "akashi", "赤司"));
+        li.add(new LinkInfo(Heros.Mokdai, "mokdai", "木代"));
+        li.add(new LinkInfo(Heros.Sui, "sui", "翠(LIVE_A_HERO)"));
+        li.add(new LinkInfo(Heros.Ryekie, "ryekie", "雷奇"));
+        li.add(new LinkInfo(Heros.Ryekie2, "ryekie2", "醉虎的雷奇")); // link = 雷奇 ...
+        li.add(new LinkInfo(Heros.Crowne, "crowne", "克罗涅(LIVE_A_HERO)")); // 克羅涅
+        li.add(new LinkInfo(Heros.Gammei, "gammei", "雁銘"));
+        li.add(new LinkInfo(Heros.Barrel, "barrel", "巴雷尔(LIVE_A_HERO)")); // 巴雷爾
+        li.add(new LinkInfo(Heros.Furlong, "furlong", "弗隆"));
+        li.add(new LinkInfo(Heros.Victom, "victom", "維克托姆"));
+        li.add(new LinkInfo(Heros.Kyoichi, "kyoichi", "恭一(LIVE_A_HERO)")); // 恭一
+        li.add(new LinkInfo(Heros.Kyoichi2, "kyoichi2", "潛行的恭一")); // 恭一...
+        li.add(new LinkInfo(Heros.Flamier, "flamier", "芙拉米"));
+        li.add(new LinkInfo(Heros.Shoen, "shoen", "松煙"));
+        li.add(new LinkInfo(Heros.Shoen2, "shoen2", "隱密的松煙"));
+        li.add(new LinkInfo(Heros.Toshu, "toshu", "東秀"));
+        li.add(new LinkInfo(Heros.Marfik, "marfik", "馬爾菲克"));
+        li.add(new LinkInfo(Heros.Marfik2, "marfik2", "馬爾菲克2")); // ? wrong
+        li.add(new LinkInfo(Heros.PolarisMask, "polaris_mask", "北極星假面"));
+        li.add(new LinkInfo(Heros.Kuoki, "kouki_and_sirius", "柯奇"));
+        li.add(new LinkInfo(Heros.Hitomi, "hitomi", "瞳(LIVE_A_HERO)")); // 瞳
+        li.add(new LinkInfo(Heros.Rakkta, "rakta", "拉克塔"));
+        li.add(new LinkInfo(Heros.Loren, "loren", "洛倫"));
+        li.add(new LinkInfo(Heros.Isaribi, "isaribi", "渔火(LIVE_A_HERO)")); // 漁火
+        li.add(new LinkInfo(Heros.Goro, "goro", "吾郎(LIVE_A_HERO)")); // 吾郎
+        li.add(new LinkInfo(Heros.Digram, "digram", "迪克拉姆"));
+        li.add(new LinkInfo(Heros.Andrew, "andrew", "安德魯"));
+        li.add(new LinkInfo(Heros.Alchiba, "alchiba", "亞爾基波"));
+        li.add(new LinkInfo(Heros.Alchiba2, "alchiba2", "追蹤的亞爾基波"));
+        li.add(new LinkInfo(Heros.Subaru, "subaru", "昴(LIVE_A_HERO)")); // 昴
+        li.add(new LinkInfo(Heros.Kirsch, "kirsch", "琪爾修"));
+        li.add(new LinkInfo(Heros.Narihito, "narihito", "成仁"));
+        li.add(new LinkInfo(Heros.Suhail, "suhail", "斯海爾"));
+        li.add(new LinkInfo(Heros.Monomasa, "monomasa", "物正"));
+        li.add(new LinkInfo(Heros.Procy, "procy", "普羅基"));
+        li.add(new LinkInfo(Heros.Gomeisa, "gomeisa", "葛明薩"));
+        li.add(new LinkInfo(Heros.Huckle, "huckle", "哈克魯"));
+        li.add(new LinkInfo(Heros.WolfmanWood, "wood_wolfman", ""));
+        li.add(new LinkInfo(Heros.WolfmanDark, "shadow_wolfman", ""));
+        li.add(new LinkInfo(Heros.Nessen, "nessen", "熱泉"));
+        li.add(new LinkInfo(Heros.Hisaki, "hisaki", "久希"));
+        li.add(new LinkInfo(Heros.Maculata, "maculata", "瑪格菈塔"));
+        li.add(new LinkInfo(Heros.Rutilix, "rutilix", "路提利克斯"));
+        li.add(new LinkInfo(Heros.Alphecca, "alphecca", "阿爾菲卡"));
+        li.add(new LinkInfo(Heros.Shaft, "shaft", "沙夫特"));
+        li.add(new LinkInfo(Heros.Kalaski, "kalaski", "卡拉斯奇"));
+        li.add(new LinkInfo(Heros.Melide, "melide", "梅莉德"));
+        li.add(new LinkInfo(Heros.Yoshiori, "yoshiori", "吉織"));
+        li.add(new LinkInfo(Heros.Player, "player", "主人公(LIVE_A_HERO)")); // 主人公
         return li;
     }
     // クエストバトル > 状態変化
