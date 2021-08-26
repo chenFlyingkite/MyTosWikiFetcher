@@ -7,9 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hero {
-    @SerializedName("idNorm")
-    public String idNorm = "";
-
     @SerializedName("nameEn")
     public String nameEn = "";
 

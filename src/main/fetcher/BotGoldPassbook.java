@@ -23,7 +23,7 @@ public class BotGoldPassbook implements Runnable {
     }
 
     public Document sendRequest() {
-        return fetcher.sendAndParseDom(mainLink(), onWeb);
+        return fetcher.getDocument(mainLink());
     }
 
     private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);

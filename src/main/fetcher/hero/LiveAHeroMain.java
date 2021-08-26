@@ -4,23 +4,19 @@ import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TextUtil;
-import flyingkite.tool.TicTac2;
 import flyingkite.tool.URLUtil;
 import main.fetcher.hero.card.each.Heros;
 import main.fetcher.hero.card.field.Hero;
 import main.fetcher.hero.card.field.HeroSkill;
 import main.fetcher.hero.card.field.HeroValue;
-import main.fetcher.hero.card.field.LinkInfo;
 import main.fetcher.hero.card.field.SideSkill;
 import main.fetcher.hero.card.field.SideValue;
-import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,20 +26,18 @@ public class LiveAHeroMain {
     private static final List<Hero> sortedHero = new ArrayList<>();
     public static void main(String[] args) {
         init();
-        makeHero();
-        //heroImages();
-    }
-
-    private static void makeHero() {
-        heros();
+        heroBasic();
         skills();
         seeHero();
         saveHero();
     }
 
     private static void init() {
+        // prepare all hero to be filled attributes
         for (Heros h : Heros.values()) {
-            allHeros.put(h.nameEn, new Hero());
+            Hero hs = new Hero();
+            hs.nameEn = h.name();
+            allHeros.put(h.nameJa, hs);
         }
     }
 
@@ -54,17 +48,9 @@ public class LiveAHeroMain {
 
 
     private static void seeHero() {
-        List<String> keys = new ArrayList<>(allHeros.keySet());
-        Collections.sort(keys, (k1, k2) -> {
-            Hero h1 = allHeros.get(k1);
-            Hero h2 = allHeros.get(k2);
-            Heros hs1 = Heros.findJa(h1.nameJa);
-            Heros hs2 = Heros.findJa(h2.nameJa);
-            return Integer.compare(hs1.ordinal(), hs2.ordinal());
-        });
         sortedHero.clear();
-        for (int i = 0; i < keys.size(); i++) {
-            String k = keys.get(i);
+        for (Heros h : Heros.values()) {
+            String k = h.nameJa;
             Hero v = allHeros.get(k);
             sortedHero.add(v);
             L.log("%12s -> %s", k, v);
@@ -81,7 +67,7 @@ public class LiveAHeroMain {
         // https://liveahero-wiki.github.io/charas/
         final String base = "https://liveahero-wiki.github.io";
         String link = base + "/charas/";
-        Document doc = fetcher.sendAndParseDom(link, onWeb);
+        Document doc = fetcher.getDocument(link);
         Elements imgs = doc.getElementsByTag("img");
         String path = mImage.getFile().getFile().getAbsolutePath();
         for (int i = 0; i < imgs.size(); i++) {
@@ -100,216 +86,205 @@ public class LiveAHeroMain {
         GsonUtil.writePrettyJson(mHeros.getFile().getFile(), sortedHero);
     }
 
-    // create heros
-    private static void heros() {
-
-        String s = "";
-        s = "Akashi\takashi_hero_3_ico.jpg\tアカシ\t☆☆☆\t火\t攻撃\t朱交赤成\t保坂俊行\tv1.0.0\n" +
-            "Mokdai\tmokdai_hero_3_ico.jpg\tモクダイ\t☆☆☆\t木\tView獲得\t朱交赤成\t熊本健太\tv1.0.0\n" +
-            "Sui\tsui_hero_3_ico.jpg\tスイ\t☆☆☆\t水\t弱体化\t朱交赤成\t伊瀬茉莉也\tv1.0.0\n" +
-            "Ryekie\tryekie_hero_4_ico.jpg\tライキ\t☆☆☆☆\t光\tSpd操作\t朱交赤成\t中谷一博\tv1.0.0\n" +
-            "Ryekie2\tryekie_nettou_hero_5_ico.jpg\t酔虎のライキ\t☆☆☆☆☆\t影\t補助\t朱交赤成\t中谷一博\tv1.0.11\n" +
-            "Crowne\tcrowne_hero_4_ico.jpg\tクローネ\t☆☆☆☆\t影\t補助\t朱交赤成\t山口眞弓\tv1.0.0\n" +
-            "Gammei\tgammei_hero_4_ico.jpg\tガンメイ\t☆☆☆☆\t木\tSpd操作\t朱交赤成\tてらそままさき\tv1.0.7\n" +
-            "Barrel\tbarrel_hero_4_ico.jpg\tバレル\t☆☆☆☆\t光\t攻撃\t竹本嵐\t岩永悠平\tv1.0.4\n" +
-            "Furlong\tfurlong_hero_4_ico.jpg\tハロン\t☆☆☆☆\t水\t防御\tきしぐま\tよねざわたかし\tv1.0.0\n" +
-            "Victom\tvictom_hero_4_ico.jpg\tヴィクトム\t☆☆☆☆\t火\t攻撃\tダイエクスト\t尾形雅宏\tv1.0.0\n" +
-            "Kyoichi\tkyoichi_hero_4_ico.jpg\tキョウイチ\t☆☆☆☆\t木\t攻撃\t一十\tよねざわたかし\tv1.0.0\n" +
-            "Kyoichi2\tkyoichi_valentine2021_hero_5_ico.jpg\t潜行のキョウイチ\t☆☆☆☆☆\t火\t特殊\t一十\tよねざわたかし\tv2.0.2\n" +
-            "Flamier\tflamier_hero_4_ico.jpg\tフラミー\t☆☆☆☆\t火\t弱体化\t黒ねずみいぬ\t戸板優衣\tv2.0.2\n" +
-            "Shoen\tshoen_hero_5_ico.jpg\tショウエン\t☆☆☆☆☆\t水\t補助\t樹下次郎\t成田剣\tv1.0.0\n" +
-            "Shoen2\tshoen_valentine2021_hero_4_ico.jpg\t隠密のショウエン\t☆☆☆☆\t木\t攻撃\t樹下次郎\t成田剣\tv2.0.2\n" +
-            "Toshu\ttoshu_hero_4_ico.jpg\tトウシュウ\t☆☆☆☆\t影\t攻撃\tおーくす\t稲田徹\tv1.0.0\n" +
-            "Marfik\tmarfic_hero_5_ico.jpg\tマルフィク\t☆☆☆☆☆\t影\t防御\tめんスケ\t大友龍三郎\tv1.0.0\n" +
-            "Marfik2\tmarfik_ruins_hero_5_ico.jpg\t探険のマルフィク\t☆☆☆☆☆\t水\tView獲得\tめんスケ\t大友龍三郎\tv2.1.0\n" +
-            "PolarisMask\tpolarismask_hero_5_ico.jpg\tポラリスマスク\t☆☆☆☆☆\t火\tView獲得\tGomTang\t三宅健太\tv1.0.0\n" +
-            "Kuoki\tkouki_hero_5_ico.jpg\tコウキ\t☆☆☆☆☆\t光\tView獲得\tsteelwire/鉄線\t小林由美子\tv1.0.0\n" +
-            "Hitomi\thitomi_hero_4_ico.jpg\tヒトミ\t☆☆☆☆\t光\t補助\tずじ\t夏怜\tv1.0.0\n" +
-            "Rakkta\trakkta_hero_3_ico.jpg\tラクタ\t☆☆☆\t火\t特殊\t一十\t笠間淳\tv1.0.0\n" +
-            "Loren\tloren_hero_3_ico.jpg\tロレン\t☆☆☆\t水\t回復\tぷらす野昆布\t大浪嘉仁\tv1.0.0\n" +
-            "Isaribi\tisaribi_hero_3_ico.jpg\tイサリビ\t☆☆☆\t水\t攻撃\tきしぐま\t尾形雅宏\tv1.0.0\n" +
-            "Goro\tgoro_hero_3_ico.jpg\tゴロウ\t☆☆☆\t木\t防御\tおーくす\t大浪嘉仁\tv1.0.0\n" +
-            "Digram\tdigram_hero_3_ico.jpg\tディグラム\t☆☆☆\t影\t弱体化\tダイエクスト\t乃村健次\tv1.0.0\n" +
-            "Andrew\tandrew_hero_5_ico.jpg\tアンドリュー\t☆☆☆☆☆\t光\t防御\tGomTang\t後藤ヒロキ\tv2.0.5\n" +
-            "Alchiba\talchiba_hero_3_ico.jpg\tアルキバ\t☆☆☆\t影\t弱体化\t1boshi\t笠間淳\tv1.0.0\n" +
-            "Alchiba2\talchiba_chasers2105_hero_5_ico.jpg\t追跡のアルキバ\t☆☆☆☆☆\t火\t攻撃\t1boshi\t笠間淳\tv2.1.3\n" +
-            "Subaru\tsubaru_hero_4_ico.jpg\tスバル\t☆☆☆☆\t木\t弱体化\tうさ餅大福\t天野ユウ\tv1.0.11\n" +
-            "Kirsch\tkirsch_hero_3_ico.jpg\tキルシュ\t☆☆☆\t火\t回復\tずじ\t樹元オリエ\tv1.0.0\n" +
-            "Narihito\tnarihito_hero_3_ico.jpg\tナリヒト\t☆☆☆\t影\tView獲得\tめんスケ\t内匠靖明\tv1.0.0\n" +
-            "Suhail\tsuhail_hero_5_ico.jpg\tスハイル\t☆☆☆☆☆\t火\t攻撃\tBomBom\tてらそままさき\tv1.0.7\n" +
-            "Monomasa\tmonomasa_hero_5_ico.jpg\tモノマサ\t☆☆☆☆☆\t木\t攻撃\tおーくす\t野島健児\tv2.2.0\n" +
-            "Procy\tprocy_hero_3_ico.jpg\tプロキー\t☆☆☆\t光\tView獲得\t樹下次郎\t山口勝平\tv1.0.0\n" +
-            "Gomeisa\tgomeisa_hero_5_ico.jpg\tゴメイサ\t☆☆☆☆☆\t木\t回復\t黒ねずみいぬ\t内匠靖明\tv1.0.4\n" +
-            "WolfmanWood\twolfman_hero_1_wood_ico.jpg\t木のウルフマン\t☆\t木\t攻撃\tきしぐま\t――\tv2.0.0\n" +
-            "WolfmanDark\twolfman_hero_1_shadow_ico.jpg\t影のウルフマン\t☆\t影\t攻撃\tきしぐま\t――\tv2.0.5\n" +
-            "Nessen\tnessen_hero_5_ico.jpg\tネッセン\t☆☆☆☆☆\t水\t攻撃\t一十\t置鮎龍太郎\tv1.0.11\n" +
-            "Hisaki\thisaki_hero_3_ico.jpg\tヒサキ\t☆☆☆\t光\t補助\tぷらす野昆布\t山口勝平\tv2.0.2\n" +
-            "Maculata\tmaculata_hero_4_ico.jpg\tマクラータ\t☆☆☆☆\t水\tSpd操作\tずじ\tならはしみき\tv2.0.5\n" +
-            "Rutilix\trutilix_hero_5_ico.jpg\tルティリクス\t☆☆☆☆☆\t光\t攻撃\tきしぐま\t福山潤\tv2.1.0\n" +
-            "Alphecca\talphecca_hero_4_ico.jpg\tアルフェッカ\t☆☆☆☆\t火\t防御\tRybiOK\t有元勇輝\tv2.1.0\n" +
-            "Shaft\tshaft_hero_5_ico.jpg\tシャフト\t☆☆☆☆☆\t影\t弱体化\tやきそばおおもり\t増元拓也\tv2.1.3\n" +
-            "Kalaski\tkalaski_hero_4_ico.jpg\tカラスキ\t☆☆☆☆\t火\tSpd操作\t藤三郎\t戸板優衣\tv2.1.3\n" +
-            "Yoshiori\tyoshiori_hero_4_ico.jpg\tヨシオリ\t☆☆☆☆\t水\t弱体化\t英\t熊本健太\tv2.2.0\n" +
-            "Huckle\tHuckle_side_4_ico.jpg\tハックル\t☆☆☆☆\t朱交赤成\t堀内賢雄\tv1.0.0\n" +
-            "Melide\tmelide_side_4_ico.jpg\tメリデ\t☆☆☆☆\tふぐり\t夏怜\tv2.2.0\n" +
-            "Player\tplayer_side_3_ico.gif\t主人公\t☆☆☆\t朱交赤成\t選択式\tv1.0.0"
-        ;
-
-        String[] each = s.split("\n");
-        for (int i = 0; i < each.length; i++) {
-            String x = each[i];
-            String[] xx = x.split("\t");
-            int xn = xx.length;
-            //L.log("%s(\"%s\"),", xx[0], xx[2]); // creating enum of Heros
-            Hero h = allHeros.get(xx[0]);
-            if (h == null) {
-                L.log("X_X fail %s", xx[0]);
+    // create hero from
+    // https://wikiwiki.jp/live-a-hero/ID%E5%88%A5
+    private static void heroBasic() {
+        //
+        String link = "https://wikiwiki.jp/live-a-hero/ID%E5%88%A5";
+        Document doc;
+        Elements es;
+        doc = fetcher.getDocument(link);
+        es = doc.getElementsByTag("tr");
+        for (int i = 1; i < es.size(); i++) {
+            Element ei = es.get(i);
+            Elements row = ei.getElementsByTag("td");
+            //row.get(1).attr("title")
+            String ja = row.get(1).text();
+            Hero me = allHeros.get(ja);
+            if (me == null) {
+                L.log("missing %s", ja);
             } else {
-                h.idNorm = String.format("H%03d", i + 1);
-                h.nameEn = xx[0];
-                h.nameJa = xx[2];
-                h.rankFirst = xx[3].length();
-                if (xn == 9) { // hero
-                    h.attribute = xx[4];
-                    h.role = xx[5];
-                    h.designer = xx[6];
-                    h.characterVoice = xx[7];
-                } else { // side
-                    h.designer = xx[4];
-                    h.characterVoice = xx[5];
-                }
-                L.log("Hero : %s", h);
+                me.nameJa = ja;
+                me.rankFirst = row.get(2).text().trim().length();
+                me.attribute = row.get(3).text();
+                me.role = row.get(4).text();
+                me.designer = row.get(5).text();
+                me.characterVoice = row.get(6).text();
+                // 7 = 実装時
             }
+            L.log("#%2d hero = %s", i, me);
         }
+        // fill in sidekick only
+        fillSidekick("ハックル\t☆☆☆☆\t朱交赤成\t堀内賢雄\tv1.0.0");
+        fillSidekick("メリデ\t☆☆☆☆\tふぐり\t夏怜\tv2.2.0");
+        fillSidekick("主人公\t☆☆☆\t朱交赤成\t選択式\tv1.0.0");
+
     }
 
+    // from
+    // https://wikiwiki.jp/live-a-hero/%E3%82%B5%E3%82%A4%E3%83%89%E3%82%AD%E3%83%83%E3%82%AF/ID%E5%88%A5
+    private static void fillSidekick(String s) {
+        String[] ss = s.split("\t");
+        Hero me = allHeros.get(ss[0]);
+        me.nameJa = ss[0];
+        me.rankFirst = ss[1].length();
+        me.designer = ss[2];
+        me.characterVoice = ss[3];
+    }
+
+    // moe
+    // https://zh.moegirl.org.cn/LIVE_A_HERO
     // create heroSkills
     // https://github.com/liveahero-wiki/liveahero-wiki.github.io/blob/master/_data/SkillMaster.json
     private static void skills() {
-        List<LinkInfo> li = skillLinks();
-        String pre = "https://liveahero-wiki.github.io/charas/";
-        String moe = "https://zh.moegirl.org.cn/";
-        for (LinkInfo each : li) {
-            String link = pre + each.link;
-            String key = each.key;
+        Heros[] all = Heros.values();
+        for (Heros each : all) {
+            String link = each.getWikiLink();
+            String key = each.nameJa;
             Hero hero = allHeros.get(key);
-            Hero hero2 = allHeros.get(key + "2");
+            Hero hero2 = null;
+            if (each.hero2() != null) {
+                hero2 = allHeros.get(each.hero2().nameJa);
+            }
             L.log("\nFor = %s, link = %s", hero.nameEn, link);
-            L.log("hero2 = %s", hero2 == null ? "N/A" : hero2.nameEn);
+            if (hero2 == null) {
+                L.log("hero2 = N/A");
+            } else {
+                L.log("hero2 = %s", hero2.nameEn);
+            }
 
-            Document doc = fetcher.sendAndParseDom(link, onWeb);
+            Document doc = fetcher.getDocument(link);
             Elements ts = doc.getElementsByTag("table");
             L.log("%s tables", ts.size());
-            for (Element ti : ts) {
+            for (int i = 0; i < ts.size(); i++) {
+                Element ti = ts.get(i);
                 String txt = ti.text();
                 if (txt.startsWith("Rarity")) { // hero
                     List<HeroValue> ci = readHeroValue(ti);
-//                    L.log("%d basic hero", ci.size());
-//                    for (int i = 0; i < ci.size(); i++) {
-//                        L.log("%s", ci.get(i));
-//                    }
 
+                    // Add hero and then hero 2
                     if (hero.heroValues.isEmpty()) {
                         hero.heroValues.addAll(ci);
-                    }
-
-                    if (hero2 != null && hero2.heroValues.isEmpty()) {
+                    } else if (hero2 != null && hero2.heroValues.isEmpty()) {
                         hero2.heroValues.addAll(ci);
                     }
                 } else if (txt.startsWith("Skill Name")) {
-                    List<HeroSkill> si = readHeroSkill(ti);
+                    HeroSkillInfo s = readHeroSkill(ti);
+                    List<HeroSkill> si = s.skills;
 
-                    int n = si.size();
-                    boolean is2Plus = si.size() >= 3 && si.get(1).name.endsWith("+") && si.get(2).name.endsWith("++");
-                    // WolfmanDark or WolfmanWood has 3 hero skill, no +
-                    boolean isHeroSkill = n == 4 || (!is2Plus && n == 3);
-                    boolean isEquip = n == 6;
-                    if (is2Plus) { // WolfmanDark, WolfmanWood has no + skill, so n = 3
+                    if (s.type == HeroSkillInfo.TwoPlus) {
                         // side
-                        hero.sideSkills.addAll(si);
-                        if (hero2 != null) {
-                            hero2.sideSkills.addAll(si);
+                        if (hero.sideSkills.isEmpty()) {
+                            hero.sideSkills.addAll(si);
+                            if (hero2 != null) {
+                                hero2.sideSkills.addAll(si);
+                            }
                         }
-                    } else if (isHeroSkill) { // hero
+                    } else if (s.type == HeroSkillInfo.HeroSkill) {
                         if (hero.heroSkills.isEmpty()) {
                             hero.heroSkills.addAll(si);
-                        }
-
-                        if (hero2 != null && hero2.heroSkills.isEmpty()) {
+                        } else if (hero2 != null && hero2.heroSkills.isEmpty()) {
                             hero2.heroSkills.addAll(si);
                         }
-                    } else if (isEquip) { // side equip skill
-                        for (HeroSkill hs : si) {
-                            SideSkill ss = new SideSkill();
-                            ss.name = hs.name;
-                            ss.content = hs.content;
-                            hero.sideEquips.add(ss);
-                            if (hero2 != null) {
-                                hero2.sideEquips.add(ss);
+                    } else if (s.type == HeroSkillInfo.Equip) { // side equip skill
+                        if (hero.sideEquips.isEmpty()) {
+                            for (HeroSkill hs : si) {
+                                SideSkill ss = new SideSkill();
+                                ss.name = hs.name;
+                                ss.content = hs.content;
+                                hero.sideEquips.add(ss);
+                                if (hero2 != null) {
+                                    hero2.sideEquips.add(ss);
+                                }
                             }
                         }
                     }
                 } else if (txt.startsWith("Level")) {
-                    List<SideValue> ci = readSideValue(ti);
+                    if (hero.sideValues.isEmpty()) {
+                        List<SideValue> ci = readSideValue(ti);
 
-                    hero.sideValues.addAll(ci);
-                    if (hero2 != null) {
-                        hero2.sideValues.addAll(ci);
+                        hero.sideValues.addAll(ci);
+                        if (hero2 != null) {
+                            hero2.sideValues.addAll(ci);
+                        }
                     }
                 }
-                L.log("hero %s", hero);
             }
+            L.log("hero  %s", hero);
+            L.log("hero2 %s", hero2);
 
             //-- moe
-            link = moe + each.moegirlLink;
-
-            doc = fetcher.sendAndParseDom(link, onWeb);
-            ts = doc.getElementsByClass("TabLabelText");
-            L.log("%d Tab = ", ts.size());
-            for (int i = 0; i < ts.size(); i++) {
-                Element e = ts.get(i);
-                Elements imgs = e.getElementsByTag("img");
-                if (imgs.size() > 0) {
-                    //"https://zh.moegirl.org.cn/File:Yoshiori_hero_4_ico.jpg"
-                    L.log("e = " + e);
-                    Element x = imgs.get(0);
-                    String ss = x.attr("src");
-                    int la = ss.lastIndexOf("/");
-                    ss = ss.substring(0, la);
-                    la = ss.lastIndexOf("/");
-                    String s = "https://zh.moegirl.org.cn/File:" + ss.substring(la + 1);
-                    L.log("heroimage = " + s);
-
-                    doc = fetcher.sendAndParseDom(s, onWeb);
-                    ts = doc.getElementsByClass("internal");
-                    if (ts.size() > 0) {
-                        link = ts.get(0).attr("href");
-                        String f = mImage.getFile().getFile().getAbsolutePath();
-                        URLUtil.downloadFile(link, f);
-                    }
-                }
-            }
+//            link = each.getMoeLink();
+//
+//            doc = fetcher.getDocument(link);
+//            ts = doc.getElementsByClass("TabLabelText");
+//            L.log("%d Tab = ", ts.size());
+//            for (int i = 0; i < ts.size(); i++) {
+//                Element e = ts.get(i);
+//                Elements imgs = e.getElementsByTag("img");
+//                if (imgs.size() > 0) {
+//                    //"https://zh.moegirl.org.cn/File:Yoshiori_hero_4_ico.jpg"
+//                    L.log("e = " + e);
+//                    Element x = imgs.get(0);
+//                    String ss = x.attr("src");
+//                    int la = ss.lastIndexOf("/");
+//                    ss = ss.substring(0, la);
+//                    la = ss.lastIndexOf("/");
+//                    String s = "https://zh.moegirl.org.cn/File:" + ss.substring(la + 1);
+//                    L.log("heroimage = " + s);
+//
+//                    doc = fetcher.getDocument(s);
+//                    ts = doc.getElementsByClass("internal");
+//                    if (ts.size() > 0) {
+//                        link = ts.get(0).attr("href");
+//                        String f = mImage.getFile().getFile().getAbsolutePath();
+//                        URLUtil.downloadFile(link, f);
+//                    }
+//                }
+//            }
         }
     }
 
-    private static List<HeroSkill> readHeroSkill(Element e) {
-        List<HeroSkill> li = new ArrayList<>();
-        if (e == null) return li;
+    private static class HeroSkillInfo {
+        static final int TwoPlus = 1;
+        static final int HeroSkill = 2;
+        static final int Equip = 3;
+        int type;
+        List<HeroSkill> skills = new ArrayList<>();
+    }
+
+    private static HeroSkillInfo readHeroSkill(Element e) {
+        HeroSkillInfo it = new HeroSkillInfo();
+        if (e == null) return it;
 
         // 0 = <td title="1001101" class="translate" data-translate="燃ゆる白球">Burning Baseball</td>
         // 1 = <td title="敵単体に70%ダメージ。40%の確率で2ターンの間火傷を付与。"> [base skill] Deal 70% of damage to target enemy /100%<br> [base skill] Decrease HP by -10% to target enemy for 2 turn(s) /40%<br> </td>
         // 2 = <td>0</td>
         Elements tds = e.getElementsByTag("td");
-        int n = tds.size();
-        for (int i = 0; i < n / 3; i++) {
+        for (int i = 0; i < tds.size() / 3; i++) {
             int k = 3 * i;
             HeroSkill s = new HeroSkill();
             s.name    = tds.get(k + 0).attr("data-translate");
             s.content = tds.get(k + 1).attr("title");
             s.view    = parseInt(tds.get(k + 2).text());
-            li.add(s);
+            it.skills.add(s);
         }
-        return li;
+
+        int n = it.skills.size();
+        boolean is2Plus = n == 3 &&
+                it.skills.get(1).name.endsWith("+") &&
+                it.skills.get(2).name.endsWith("++");
+        // WolfmanDark or WolfmanWood has 3 hero skill, no +
+        boolean isHeroSkill = n == 4 || (!is2Plus && n == 3);
+        boolean isEquip = n == 6;
+        if (is2Plus) {
+            it.type = HeroSkillInfo.TwoPlus;
+        } else if (isHeroSkill) {
+            it.type = HeroSkillInfo.HeroSkill;
+        } else if (isEquip) {
+            it.type = HeroSkillInfo.Equip;
+        }
+        return it;
     }
 
     private static List<HeroValue> readHeroValue(Element e) {
@@ -362,66 +337,13 @@ public class LiveAHeroMain {
         }
     }
 
-    private static WebFetcher fetcher = new WebFetcher();
+    private static final WebFetcher fetcher = new WebFetcher();
     private static final String FOLDER = "liveAHero";
-    private static LF mLf = new LF(FOLDER);
     private static LF mImage = new LF(FOLDER, "image");
     private static LF mHeros = new LF(FOLDER, "hero.json");
-    private static TicTac2 clock = new TicTac2();
-    private static OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
-    private static List<LinkInfo> skillLinks() {
-        List<LinkInfo> li = new ArrayList<>();
-        li.add(new LinkInfo(Heros.Akashi, "akashi", "赤司"));
-        li.add(new LinkInfo(Heros.Mokdai, "mokdai", "木代"));
-        li.add(new LinkInfo(Heros.Sui, "sui", "翠(LIVE_A_HERO)"));
-        li.add(new LinkInfo(Heros.Ryekie, "ryekie", "雷奇"));
-        li.add(new LinkInfo(Heros.Ryekie2, "ryekie2", "醉虎的雷奇")); // link = 雷奇 ...
-        li.add(new LinkInfo(Heros.Crowne, "crowne", "克罗涅(LIVE_A_HERO)")); // 克羅涅
-        li.add(new LinkInfo(Heros.Gammei, "gammei", "雁銘"));
-        li.add(new LinkInfo(Heros.Barrel, "barrel", "巴雷尔(LIVE_A_HERO)")); // 巴雷爾
-        li.add(new LinkInfo(Heros.Furlong, "furlong", "弗隆"));
-        li.add(new LinkInfo(Heros.Victom, "victom", "維克托姆"));
-        li.add(new LinkInfo(Heros.Kyoichi, "kyoichi", "恭一(LIVE_A_HERO)")); // 恭一
-        li.add(new LinkInfo(Heros.Kyoichi2, "kyoichi2", "潛行的恭一")); // 恭一...
-        li.add(new LinkInfo(Heros.Flamier, "flamier", "芙拉米"));
-        li.add(new LinkInfo(Heros.Shoen, "shoen", "松煙"));
-        li.add(new LinkInfo(Heros.Shoen2, "shoen2", "隱密的松煙"));
-        li.add(new LinkInfo(Heros.Toshu, "toshu", "東秀"));
-        li.add(new LinkInfo(Heros.Marfik, "marfik", "馬爾菲克"));
-        li.add(new LinkInfo(Heros.Marfik2, "marfik2", "馬爾菲克2")); // ? wrong
-        li.add(new LinkInfo(Heros.PolarisMask, "polaris_mask", "北極星假面"));
-        li.add(new LinkInfo(Heros.Kuoki, "kouki_and_sirius", "柯奇"));
-        li.add(new LinkInfo(Heros.Hitomi, "hitomi", "瞳(LIVE_A_HERO)")); // 瞳
-        li.add(new LinkInfo(Heros.Rakkta, "rakta", "拉克塔"));
-        li.add(new LinkInfo(Heros.Loren, "loren", "洛倫"));
-        li.add(new LinkInfo(Heros.Isaribi, "isaribi", "渔火(LIVE_A_HERO)")); // 漁火
-        li.add(new LinkInfo(Heros.Goro, "goro", "吾郎(LIVE_A_HERO)")); // 吾郎
-        li.add(new LinkInfo(Heros.Digram, "digram", "迪克拉姆"));
-        li.add(new LinkInfo(Heros.Andrew, "andrew", "安德魯"));
-        li.add(new LinkInfo(Heros.Alchiba, "alchiba", "亞爾基波"));
-        li.add(new LinkInfo(Heros.Alchiba2, "alchiba2", "追蹤的亞爾基波"));
-        li.add(new LinkInfo(Heros.Subaru, "subaru", "昴(LIVE_A_HERO)")); // 昴
-        li.add(new LinkInfo(Heros.Kirsch, "kirsch", "琪爾修"));
-        li.add(new LinkInfo(Heros.Narihito, "narihito", "成仁"));
-        li.add(new LinkInfo(Heros.Suhail, "suhail", "斯海爾"));
-        li.add(new LinkInfo(Heros.Monomasa, "monomasa", "物正"));
-        li.add(new LinkInfo(Heros.Procy, "procy", "普羅基"));
-        li.add(new LinkInfo(Heros.Gomeisa, "gomeisa", "葛明薩"));
-        li.add(new LinkInfo(Heros.Huckle, "huckle", "哈克魯"));
-        li.add(new LinkInfo(Heros.WolfmanWood, "wood_wolfman", ""));
-        li.add(new LinkInfo(Heros.WolfmanDark, "shadow_wolfman", ""));
-        li.add(new LinkInfo(Heros.Nessen, "nessen", "熱泉"));
-        li.add(new LinkInfo(Heros.Hisaki, "hisaki", "久希"));
-        li.add(new LinkInfo(Heros.Maculata, "maculata", "瑪格菈塔"));
-        li.add(new LinkInfo(Heros.Rutilix, "rutilix", "路提利克斯"));
-        li.add(new LinkInfo(Heros.Alphecca, "alphecca", "阿爾菲卡"));
-        li.add(new LinkInfo(Heros.Shaft, "shaft", "沙夫特"));
-        li.add(new LinkInfo(Heros.Kalaski, "kalaski", "卡拉斯奇"));
-        li.add(new LinkInfo(Heros.Melide, "melide", "梅莉德"));
-        li.add(new LinkInfo(Heros.Yoshiori, "yoshiori", "吉織"));
-        li.add(new LinkInfo(Heros.Player, "player", "主人公(LIVE_A_HERO)")); // 主人公
-        return li;
-    }
+    //private static LF mLf = new LF(FOLDER);
+    //private static TicTac2 clock = new TicTac2();
+    //private static OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
     // クエストバトル > 状態変化
     // https://live-a-hero.jp/help
     // Skill icons

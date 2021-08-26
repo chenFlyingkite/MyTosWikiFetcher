@@ -71,7 +71,8 @@ open class YahooGet {
         fun dividend(id : String) : DoubleArray {
             // "https://tw.stock.yahoo.com/d/s/company_1101.html"
             val link = "https://tw.stock.yahoo.com/d/s/company_$id.html"
-            val doc = fetcher.sendAndParseDom(link, null)
+            val doc = fetcher.getDocument(link)
+            if (doc == null) return doubleArrayOf(0.0)
             val tables = doc.getElementsByTag("table")
             if (tables.size < 2) {
                 L.log("X_X Link not found dividend %s", link)
@@ -95,7 +96,8 @@ open class YahooGet {
         fun price(id : String) : Double {
 
             val link = "https://tw.stock.yahoo.com/q/ts?s=$id"
-            val doc = fetcher.sendAndParseDom(link, null)
+            val doc = fetcher.getDocument(link)
+            if (doc == null) return 0.0
             val table = doc.getElementsByTag("table")
             //[6] = 14:30:00, [9] = 成交價
             val tds = table[3].getElementsByTag("td")

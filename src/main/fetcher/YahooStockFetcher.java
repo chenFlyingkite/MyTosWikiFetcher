@@ -31,7 +31,7 @@ public class YahooStockFetcher implements Runnable {
     }
 
     private List<StockInfo> marketLinks() { // 集中市場當日行情表
-        Document doc = fetcher.sendAndParseDom(classLink(), onWeb);
+        Document doc = fetcher.getDocument(classLink());
         LF clazzLf = new LF(FOLDER, "m_class.txt");
         //Elements es = doc.getElementsByTag("table");
         Elements es = doc.getElementsByTag("ul");
@@ -52,7 +52,7 @@ public class YahooStockFetcher implements Runnable {
     }
 
     private List<StockInfo> tableLinks() { // 櫃檯買賣市場行情
-        Document doc = fetcher.sendAndParseDom(classLink(), onWeb);
+        Document doc = fetcher.getDocument(classLink());
         LF clazzLf = new LF(FOLDER, "t_class.txt");
 
         Elements es = doc.getElementsByTag("table");
@@ -98,7 +98,7 @@ public class YahooStockFetcher implements Runnable {
             String s = si.link;
 
             onWeb.deleteAtPre(false);
-            Document doc = fetcher.sendAndParseDom(s, onWeb);
+            Document doc = fetcher.getDocument(s);
             Elements es = doc.getElementsByTag("table");
             List<String> list = YahooGet.me.numberTable(es.get(4));
             List<Double> prices = YahooGet.me.dealTable(es.get(4));
