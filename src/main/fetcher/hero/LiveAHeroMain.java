@@ -26,9 +26,14 @@ public class LiveAHeroMain {
     private static final List<Hero> sortedHero = new ArrayList<>();
     public static void main(String[] args) {
         init();
+        imageMoe();
+        //fetchHero();
+    }
+
+    private static void fetchHero() {
         heroBasic();
         skills();
-        seeHero();
+        makeSortedHero();
         saveHero();
     }
 
@@ -47,7 +52,7 @@ public class LiveAHeroMain {
     // https://zh.moegirl.org.cn/%E6%9C%A8%E4%BB%A3
 
 
-    private static void seeHero() {
+    private static void makeSortedHero() {
         sortedHero.clear();
         for (Heros h : Heros.values()) {
             String k = h.nameJa;
@@ -62,6 +67,45 @@ public class LiveAHeroMain {
         }
     }
 
+    // will be rejected... in moe
+    // https://zh.moegirl.org.cn/File:Akashi_summerdive2108_hero_5_ico.jpg
+    // Maybe download from
+    // https://wikiwiki.jp/live-a-hero/%E3%82%B5%E3%82%A4%E3%83%89%E3%82%AD%E3%83%83%E3%82%AF/ID%E5%88%A5
+    private static void imageMoe() {
+        Heros[] all = Heros.values();
+        for (int i = 0; i < all.length; i++) {
+            Heros h = all[i];
+            String link = h.getMoeLink();
+            L.log("#%2d : %s", i, link);
+
+//            Document doc = fetcher.getDocument(link);
+//            Elements ts = doc.getElementsByClass("TabLabelText");
+//            L.log("%d Tab = ", ts.size());
+//            for (int j = 0; j < ts.size(); j++) {
+//                Element e = ts.get(j);
+//                Elements imgs = e.getElementsByTag("img");
+//                if (imgs.size() > 0) {
+//                    //"https://zh.moegirl.org.cn/File:Yoshiori_hero_4_ico.jpg"
+//                    //L.log("e = " + e);
+//                    Element x = imgs.get(0);
+//                    String ss = x.attr("src");
+//                    int la = ss.lastIndexOf("/");
+//                    ss = ss.substring(0, la);
+//                    la = ss.lastIndexOf("/");
+//                    String s = "https://zh.moegirl.org.cn/File:" + ss.substring(la + 1);
+//                    L.log("heroimage = " + s);
+//
+//                    doc = fetcher.getDocument(s);
+//                    ts = doc.getElementsByClass("internal");
+//                    if (ts.size() > 0) {
+//                        link = ts.get(0).attr("href");
+//                        String f = mImage.getFile().getFile().getAbsolutePath();
+//                        URLUtil.downloadFile(link, f);
+//                    }
+//                }
+//            }
+        }
+    }
     // download hero images
     private static void heroImages() {
         // https://liveahero-wiki.github.io/charas/
@@ -98,7 +142,6 @@ public class LiveAHeroMain {
         for (int i = 1; i < es.size(); i++) {
             Element ei = es.get(i);
             Elements row = ei.getElementsByTag("td");
-            //row.get(1).attr("title")
             String ja = row.get(1).text();
             Hero me = allHeros.get(ja);
             if (me == null) {
@@ -212,36 +255,6 @@ public class LiveAHeroMain {
             }
             L.log("hero  %s", hero);
             L.log("hero2 %s", hero2);
-
-            //-- moe
-//            link = each.getMoeLink();
-//
-//            doc = fetcher.getDocument(link);
-//            ts = doc.getElementsByClass("TabLabelText");
-//            L.log("%d Tab = ", ts.size());
-//            for (int i = 0; i < ts.size(); i++) {
-//                Element e = ts.get(i);
-//                Elements imgs = e.getElementsByTag("img");
-//                if (imgs.size() > 0) {
-//                    //"https://zh.moegirl.org.cn/File:Yoshiori_hero_4_ico.jpg"
-//                    L.log("e = " + e);
-//                    Element x = imgs.get(0);
-//                    String ss = x.attr("src");
-//                    int la = ss.lastIndexOf("/");
-//                    ss = ss.substring(0, la);
-//                    la = ss.lastIndexOf("/");
-//                    String s = "https://zh.moegirl.org.cn/File:" + ss.substring(la + 1);
-//                    L.log("heroimage = " + s);
-//
-//                    doc = fetcher.getDocument(s);
-//                    ts = doc.getElementsByClass("internal");
-//                    if (ts.size() > 0) {
-//                        link = ts.get(0).attr("href");
-//                        String f = mImage.getFile().getFile().getAbsolutePath();
-//                        URLUtil.downloadFile(link, f);
-//                    }
-//                }
-//            }
         }
     }
 
@@ -339,7 +352,7 @@ public class LiveAHeroMain {
 
     private static final WebFetcher fetcher = new WebFetcher();
     private static final String FOLDER = "liveAHero";
-    private static LF mImage = new LF(FOLDER, "image");
+    private static LF mImage = new LF(FOLDER, "image2");
     private static LF mHeros = new LF(FOLDER, "hero.json");
     //private static LF mLf = new LF(FOLDER);
     //private static TicTac2 clock = new TicTac2();

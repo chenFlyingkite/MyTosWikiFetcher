@@ -4725,6 +4725,69 @@
     }
   },
   {
+    "idNorm": "3605",
+    "name": "【3605】 雙生核龍紋",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903605%E3%80%91_%E9%9B%99%E7%94%9F%E6%A0%B8%E9%BE%8D%E7%B4%8B",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0c/C3605.png/revision/latest/scale-to-width-down/60?cb\u003d20210903061945\u0026path-prefix\u003dzh",
+      "iconKey": "C3605.png"
+    }
+  },
+  {
+    "idNorm": "3606",
+    "name": "【3606】 雙生核龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903606%E3%80%91_%E9%9B%99%E7%94%9F%E6%A0%B8%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ad/C3606.png/revision/latest/scale-to-width-down/60?cb\u003d20210903061947\u0026path-prefix\u003dzh",
+      "iconKey": "C3606.png"
+    }
+  },
+  {
+    "idNorm": "3607",
+    "name": "【3607】 雙生核龍咒",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903607%E3%80%91_%E9%9B%99%E7%94%9F%E6%A0%B8%E9%BE%8D%E5%92%92",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/5/54/C3607.png/revision/latest/scale-to-width-down/60?cb\u003d20210903061948\u0026path-prefix\u003dzh",
+      "iconKey": "C3607.png"
+    }
+  },
+  {
+    "idNorm": "3608",
+    "name": "【3608】 雙生核龍符",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903608%E3%80%91_%E9%9B%99%E7%94%9F%E6%A0%B8%E9%BE%8D%E7%AC%A6",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b4/C3608.png/revision/latest/scale-to-width-down/60?cb\u003d20210903061950\u0026path-prefix\u003dzh",
+      "iconKey": "C3608.png"
+    }
+  },
+  {
+    "idNorm": "3609",
+    "name": "【3609】 雙生核龍璃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903609%E3%80%91_%E9%9B%99%E7%94%9F%E6%A0%B8%E9%BE%8D%E7%92%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6b/C3609.png/revision/latest/scale-to-width-down/60?cb\u003d20210903061951\u0026path-prefix\u003dzh",
+      "iconKey": "C3609.png"
+    }
+  },
+  {
+    "idNorm": "3610",
+    "name": "【3610】 雙生核龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903610%E3%80%91_%E9%9B%99%E7%94%9F%E6%A0%B8%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/9/96/C3610.png/revision/latest/scale-to-width-down/60?cb\u003d20210903061953\u0026path-prefix\u003dzh",
+      "iconKey": "C3610.png"
+    }
+  },
+  {
+    "idNorm": "3611",
+    "name": "【3611】 雙生核龍丸",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%903611%E3%80%91_%E9%9B%99%E7%94%9F%E6%A0%B8%E9%BE%8D%E4%B8%B8",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1e/C3611.png/revision/latest/scale-to-width-down/60?cb\u003d20210903061954\u0026path-prefix\u003dzh",
+      "iconKey": "C3611.png"
+    }
+  },
+  {
     "idNorm": "3668",
     "name": "【3668】E 罐龍紋",
     "link": "https://tos.fandom.com/zh/wiki/%E3%80%903668%E3%80%91E_%E7%BD%90%E9%BE%8D%E7%B4%8B",

@@ -3493,6 +3493,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "光刃煞陣 ‧ 追魂破",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E5%88%83%E7%85%9E%E9%99%A3_%E2%80%A7_%E8%BF%BD%E9%AD%82%E7%A0%B4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 可任意移動符石 而不會發動消除 III. 光屬性攻擊力 2.2 倍 IV. 每消除 6 粒符石 ⇒ 光屬性神族追打 1 次 ⇒ 最多可追打 5 次",
+    "skillMonsters": [
+      "2734"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "光刃狂擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E5%88%83%E7%8B%82%E6%93%8A",
     "skillCDMin": 14,
@@ -3872,6 +3883,17 @@
     "skillDesc": "引爆自身直行的符石以掉落光強化及心強化符石。若身旁的成員同為光屬性神族，同得此效果",
     "skillMonsters": [
       "1828"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "光靈飄灑 ‧ 攻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E9%9D%88%E9%A3%84%E7%81%91_%E2%80%A7_%E6%94%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆自身及身旁成員 直行符石及凍結符石 ⇒掉落「光、心」 神族強化符石 1 回合內 II. 若身旁成員為光屬性神族 ⇒ 自身及該成員攻擊力 3 倍",
+    "skillMonsters": [
+      "2734"
     ]
   },
   {
@@ -9313,6 +9335,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "寒靈冰刺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AF%92%E9%9D%88%E5%86%B0%E5%88%BA",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 我方攻擊力減至 0 II. 將每個成員原有攻擊力 5 倍 ⇒ 各自加入自身回復力 III. 每回合以回血溢出值作全體攻擊 (效果會在再次發動此技能或死亡後消失)",
+    "skillMonsters": [
+      "1987"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "審判之刑",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AF%A9%E5%88%A4%E4%B9%8B%E5%88%91",
     "skillCDMin": 17,
@@ -9699,6 +9732,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "巨狼領域",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E7%8B%BC%E9%A0%98%E5%9F%9F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有獸類或龍類成員時： I. 全隊攻擊力 15 倍 II. 移動符石時間 2 倍 III. 消除獸族或龍族符石時 ⇒ 全隊攻擊力額外 2 倍",
+    "skillMonsters": [
+      "3002"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "巨神的手甲",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E7%A5%9E%E7%9A%84%E6%89%8B%E7%94%B2",
@@ -10080,6 +10124,17 @@
     "skillDesc": "I. 若隊伍中有 ≤2 種屬性成員 ⓵ 將木符石轉化為強化符石 ⓶ 1 回合內，所有符石兼具 50% 木符石效果 II. 若隊伍中有 ≥3 種屬性成員 ⓵ 將場上數量最多的 2 種符石 ⇒ 轉化為強化符石 ⓶ 1 回合內，木符石兼具 50% 其他符石效果",
     "skillMonsters": [
       "2324"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "幻變流火",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E8%AE%8A%E6%B5%81%E7%81%AB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "點選場上的符石 3 次： I. 將該符石直行及橫行的符石 ⇒ 分別轉化為所點選的符石 (包括強化符石、種族符石) II. 若點選的符石為妖族符石 ⇒ 3 回合內 ⓵ 自身攻擊力及回復力 3 倍 ⓶ 自身無視敵人防禦力",
+    "skillMonsters": [
+      "10054"
     ]
   },
   {
@@ -11062,6 +11117,17 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "I. 火屬性攻擊力 4.5 倍 II. 消除心符石時 ⇒ 火屬性攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "1374"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "心中的熾焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E4%B8%AD%E7%9A%84%E7%86%BE%E7%84%B0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 7 倍 II. 消除心符石時 ⇒ 火屬性攻擊力額外 2 倍",
     "skillMonsters": [
       "1374"
     ]
@@ -13669,6 +13735,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "日月序位",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E6%9C%88%E5%BA%8F%E4%BD%8D",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 若自身位於最左方 3 直行的成員位置 ⇒ 將左方 3 直行符石 分別轉化為 「光、暗、光」強化符石 II. 若自身位於最右方 3 直行的成員位置 ⇒ 將右方 3 直行符石 分別轉化為 「暗、光、暗」強化符石 1 回合內 III. 若隊長為「噬日狼」、 「喰月狼」或「芬爾厄」 ⓵ 石化敵方全體 ⓶ 使受影響目標無法行動",
+    "skillMonsters": [
+      "3002"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "日月雙式",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E6%9C%88%E9%9B%99%E5%BC%8F",
+    "skillCDMin": 22,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將場上的符石變回原始模樣 1 回合內 II. 光及暗符石首批 2 粒相連 即可發動消除 III. 若所有成員均為龍類或獸類 ⇒ 則光及暗符石 2 粒相連 即可發動消除 ⇒ 效果持續至合計消除 光或暗符石達 30 粒",
+    "skillMonsters": [
+      "3002"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "日理萬機",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E7%90%86%E8%90%AC%E6%A9%9F",
     "skillCDMin": 19,
@@ -14717,6 +14805,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "暗靈飄灑 ‧ 攻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E9%9D%88%E9%A3%84%E7%81%91_%E2%80%A7_%E6%94%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆自身及身旁成員 直行符石及凍結符石 ⇒掉落「暗、心」 神族強化符石 1 回合內 II. 若身旁成員為暗屬性神族 ⇒ 自身及該成員攻擊力 3 倍",
+    "skillMonsters": [
+      "2735"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "暗魂一念間",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%97%E9%AD%82%E4%B8%80%E5%BF%B5%E9%96%93",
     "skillCDMin": 19,
@@ -15677,6 +15776,17 @@
     "skillDesc": "引爆自身直行的符石以掉落木強化及心強化符石。若身旁的成員同為木屬性神族，同得此效果",
     "skillMonsters": [
       "1826"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "木靈飄灑 ‧ 攻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E9%9D%88%E9%A3%84%E7%81%91_%E2%80%A7_%E6%94%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆自身及身旁成員 直行符石及凍結符石 ⇒掉落「木、心」 神族強化符石 1 回合內 II. 若身旁成員為木屬性神族 ⇒ 自身及該成員攻擊力 3 倍",
+    "skillMonsters": [
+      "2733"
     ]
   },
   {
@@ -17909,6 +18019,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "水元素之力 ‧ 強韌之壁",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E5%85%83%E7%B4%A0%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E5%BC%B7%E9%9F%8C%E4%B9%8B%E5%A3%81",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 水屬性攻擊力 7 倍 II. 減少 50% 所受傷害",
+    "skillMonsters": [
+      "1372"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "水元素之力 ‧ 護壁",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E5%85%83%E7%B4%A0%E4%B9%8B%E5%8A%9B_%E2%80%A7_%E8%AD%B7%E5%A3%81",
     "skillCDMin": -1,
@@ -17925,6 +18046,17 @@
     "skillCDMin": -1,
     "skillCDMax": -1,
     "skillDesc": "I. 水屬性攻擊力 4.5 倍， 消除水符石的組數愈多 ⇒ 水屬性攻擊力愈高 ⇒ 消除 3 組可提升至最大 6 倍 II. 每回合結束時 ⇒ 隨機將 2 粒符石轉化為水神族符石",
+    "skillMonsters": [
+      "1371"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "水元素暴濤 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E5%85%83%E7%B4%A0%E6%9A%B4%E6%BF%A4_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 水屬性攻擊力 7 倍， 消除水符石的組數愈多 ⇒ 水屬性攻擊力愈高 ⇒ 消除 3 組可達至最大 10 倍 II. 水屬性生命力及回復力 1.6 倍 III. 每回合結束時， 隨機將 2 粒符石轉化為 ⇒ 水神族強化符石",
     "skillMonsters": [
       "1371"
     ]
@@ -17984,6 +18116,17 @@
     "skillDesc": "10 秒內，可任意移動符石而不會發動消除。1 回合內，消除 1 組 6 粒或以上的水符石，水屬性攻擊力 2 倍",
     "skillMonsters": [
       "1821"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "水刃煞陣 ‧ 追魂破",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E5%88%83%E7%85%9E%E9%99%A3_%E2%80%A7_%E8%BF%BD%E9%AD%82%E7%A0%B4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 可任意移動符石 而不會發動消除 III. 水屬性攻擊力 2.2 倍 IV. 每消除 6 粒符石 ⇒ 水屬性神族追打 1 次 ⇒ 最多可追打 5 次",
+    "skillMonsters": [
+      "2731"
     ]
   },
   {
@@ -18543,6 +18686,17 @@
     "skillDesc": "引爆自身直行的符石以掉落水強化及心強化符石。若身旁的成員同為水屬性神族，同得此效果",
     "skillMonsters": [
       "1822"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "水靈飄灑 ‧ 攻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E9%9D%88%E9%A3%84%E7%81%91_%E2%80%A7_%E6%94%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆自身及身旁成員 直行符石及凍結符石 ⇒掉落「水、心」 神族強化符石 1 回合內 II. 若身旁成員為水屬性神族 ⇒ 自身及該成員攻擊力 3 倍",
+    "skillMonsters": [
+      "2731"
     ]
   },
   {
@@ -21222,6 +21376,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "火靈飄灑 ‧ 攻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E9%9D%88%E9%A3%84%E7%81%91_%E2%80%A7_%E6%94%BB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆自身及身旁成員 直行符石及凍結符石 ⇒掉落「火、心」 神族強化符石 1 回合內 II. 若身旁成員為火屬性神族 ⇒ 自身及該成員攻擊力 3 倍",
+    "skillMonsters": [
+      "2732"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "火龍大進擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E9%BE%8D%E5%A4%A7%E9%80%B2%E6%93%8A",
     "skillCDMin": 19,
@@ -22405,6 +22570,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "熊熊之火 ‧ 烈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%8A%E7%86%8A%E4%B9%8B%E7%81%AB_%E2%80%A7_%E7%83%88",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 7 倍、 生命力及回復力 1.6 倍 II. 每回合結束時， 將火符石轉化為 ⇒ 火神族強化符石",
+    "skillMonsters": [
+      "1373"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "熱力驅動",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%B1%E5%8A%9B%E9%A9%85%E5%8B%95",
@@ -22544,6 +22720,17 @@
     "skillCDMin": 17,
     "skillCDMax": 8,
     "skillDesc": "達成 4 連擊 (Combo) 或以上時，全隊攻擊力 2 倍 (效果會在關閉此技能或死亡後消失)。此技能可隨時關閉，關閉時，隨機將 8 粒符石轉化為心強化符石",
+    "skillMonsters": [
+      "1373"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "熾熱的約定 ‧ 神之加冕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%86%B1%E7%9A%84%E7%B4%84%E5%AE%9A_%E2%80%A7_%E7%A5%9E%E4%B9%8B%E5%8A%A0%E5%86%95",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將移動符石時觸碰的 首 8 粒符石添加為神族符石 II. 達成 ≥4 連擊 (Combo) ⓵ 全隊攻擊力 2 倍 ⓶ 神族無視敵人防禦力 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 自身技能 CD -2 ⓶ 將自身、隊長、戰友直行符石 ⇒ 轉化為心神族強化符石",
     "skillMonsters": [
       "1373"
     ]
@@ -22811,6 +22998,17 @@
     "skillDesc": "10 秒內，可任意移動符石而不會發動消除。1 回合內，消除 1 組 6 粒或以上的火符石，火屬性攻擊力 2 倍",
     "skillMonsters": [
       "1823"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "燄刃煞陣 ‧ 追魂破",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%87%84%E5%88%83%E7%85%9E%E9%99%A3_%E2%80%A7_%E8%BF%BD%E9%AD%82%E7%A0%B4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 可任意移動符石 而不會發動消除 III. 火屬性攻擊力 2.2 倍 IV. 每消除 6 粒符石 ⇒ 火屬性神族追打 1 次 ⇒ 最多可追打 5 次",
+    "skillMonsters": [
+      "2732"
     ]
   },
   {
@@ -24902,6 +25100,17 @@
     "skillCDMin": 17,
     "skillCDMax": 8,
     "skillDesc": "水符石掉落率提升至 20%，消除水符石愈多，水屬性攻擊力愈高，消除 12 粒水符石可達至最大 2.2 倍，效果持續至沒有消除神族符石",
+    "skillMonsters": [
+      "1372"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "疾速巨浪",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%80%9F%E5%B7%A8%E6%B5%AA",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 水符石掉落率提升至 20% II. 發動技能及每回合結束時 ⇒ 將水符石轉化為水神族符石 III. 消除水符石愈多 ⇒ 水屬性攻擊力愈高 ⇒ 消除 10 粒可達至最大 3 倍 效果持續至沒有消除神族符石",
     "skillMonsters": [
       "1372"
     ]
@@ -27839,6 +28048,61 @@
   },
   {
     "type": "隊長技",
+    "skillName": "穹蒼賜賞 ‧ 神威之幽",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%B9%E8%92%BC%E8%B3%9C%E8%B3%9E_%E2%80%A7_%E7%A5%9E%E5%A8%81%E4%B9%8B%E5%B9%BD",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性攻擊力 7 倍、 生命力及回復力 1.4 倍 II. 每直行首批消除 1 組 ≥4 粒符石時 ⇒ 該直行產生 1 粒暗神族強化符石 III. 消除 1 組 ≥5 粒暗符石 ⇒ 暗屬性攻擊力額外 2.5 倍 IV. 消除強化符石 ⇒ 暗屬性攻擊力額外 1.8 倍",
+    "skillMonsters": [
+      "2735"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "穹蒼賜賞 ‧ 神威之浪",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%B9%E8%92%BC%E8%B3%9C%E8%B3%9E_%E2%80%A7_%E7%A5%9E%E5%A8%81%E4%B9%8B%E6%B5%AA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 水屬性攻擊力 7 倍、 生命力及回復力 1.4 倍 II. 每直行首批消除 1 組 ≥4 粒符石時 ⇒ 該直行產生 1 粒水神族強化符石 III. 消除 1 組 ≥5 粒水符石 ⇒ 水屬性攻擊力額外 2.5 倍 IV. 消除強化符石 ⇒ 水屬性攻擊力額外 1.8 倍",
+    "skillMonsters": [
+      "2731"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "穹蒼賜賞 ‧ 神威之燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%B9%E8%92%BC%E8%B3%9C%E8%B3%9E_%E2%80%A7_%E7%A5%9E%E5%A8%81%E4%B9%8B%E7%87%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性攻擊力 7 倍、 生命力及回復力 1.4 倍 II. 每直行首批消除 1 組 ≥4 粒符石時 ⇒ 該直行產生 1 粒火神族強化符石 III. 消除 1 組 ≥5 粒火符石 ⇒ 火屬性攻擊力額外 2.5 倍 IV. 消除強化符石 ⇒ 火屬性攻擊力額外 1.8 倍",
+    "skillMonsters": [
+      "2732"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "穹蒼賜賞 ‧ 神威之玄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%B9%E8%92%BC%E8%B3%9C%E8%B3%9E_%E2%80%A7_%E7%A5%9E%E5%A8%81%E4%B9%8B%E7%8E%84",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 光屬性攻擊力 7 倍、 生命力及回復力 1.4 倍 II. 每直行首批消除 1 組 ≥4 粒符石時 ⇒ 該直行產生 1 粒光神族強化符石 III. 消除 1 組 ≥5 粒光符石 ⇒ 光屬性攻擊力額外 2.5 倍 IV. 消除強化符石 ⇒ 光屬性攻擊力額外 1.8 倍",
+    "skillMonsters": [
+      "2734"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "穹蒼賜賞 ‧ 神威之藤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%B9%E8%92%BC%E8%B3%9C%E8%B3%9E_%E2%80%A7_%E7%A5%9E%E5%A8%81%E4%B9%8B%E8%97%A4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 木屬性攻擊力 7 倍、 生命力及回復力 1.4 倍 II. 每直行首批消除 1 組 ≥4 粒符石時 ⇒ 該直行產生 1 粒木神族強化符石 III. 消除 1 組 ≥5 粒木符石 ⇒ 木屬性攻擊力額外 2.5 倍 IV. 消除強化符石 ⇒ 木屬性攻擊力額外 1.8 倍",
+    "skillMonsters": [
+      "2733"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "穹蒼賜賞 ‧ 神幽",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A9%B9%E8%92%BC%E8%B3%9C%E8%B3%9E_%E2%80%A7_%E7%A5%9E%E5%B9%BD",
     "skillCDMin": -1,
@@ -29855,6 +30119,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "絕塵訣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%A1%B5%E8%A8%A3",
+    "skillCDMin": 21,
+    "skillCDMax": 7,
+    "skillDesc": "I. 點選元素法陣上的 1 粒符石 ⇒ 引爆所有符石 ⇒ 掉落該種符石以外的妖族符石 2 回合內 II. 該種符石掉落率降至 0 III. 水屬性及妖精類成員 ⇒ 以 30% 攻擊力追打 2 次",
+    "skillMonsters": [
+      "10060"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "絕境反噬 ‧ 水",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%A2%83%E5%8F%8D%E5%99%AC_%E2%80%A7_%E6%B0%B4",
@@ -30003,6 +30278,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "絕靈暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E9%9D%88%E6%9A%B4",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落五屬妖族符石 1 回合內 II. 心符石掉落率降至 0 III. 我方回復力減至 0 IV. 將每個成員 減去回復力的 4 倍 ⇒ 各自加入自身攻擊力",
+    "skillMonsters": [
+      "10060"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "絕靈聖槍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E9%9D%88%E8%81%96%E6%A7%8D",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 心符石的掉落率降至 0 II. 將原有機率增加至 ⇒ 光符石的掉落率 III. 掉落的光符石 ⇒ 以光強化符石代替 IV. 發動技能首回合 及每回合結束時 ⇒ 將木符石轉為暗強化符石 V. 首批消除所有符石時 ⇒ 光屬性「神族及妖精類」成員 CD -1 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： 2 回合內 ⓵ 光屬性「神族及妖精類」 ⇒ 進入亢奮狀態",
+    "skillMonsters": [
+      "10062"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "絞之絕殺",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%9E%E4%B9%8B%E7%B5%95%E6%AE%BA",
     "skillCDMin": 17,
@@ -30094,6 +30391,17 @@
     "skillCDMin": 17,
     "skillCDMax": 8,
     "skillDesc": "木符石掉落率降至 0，並將原有機率增加至火符石的掉落率，消除神族符石時，火符石掉落率提升至 40% (效果會在再次發動此技能或死亡後消失)",
+    "skillMonsters": [
+      "1374"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "綻放之熱焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B6%BB%E6%94%BE%E4%B9%8B%E7%86%B1%E7%84%B0",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 木符石掉落率降至 0 II. 將原有機率增加至 ⇒ 火符石的掉落率 III. 掉落的火符石 ⇒ 以火神族強化符石代替 IV. 消除神族符石時 ⇒ 火符石掉落率提升至 40% (效果會在再次發動此技能或死亡後消失) V. 技能關閉時 ⓵ 移除所有符石 ⇒ 掉落神族強化符石",
     "skillMonsters": [
       "1374"
     ]
@@ -30686,6 +30994,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "聖神威壓",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E7%A5%9E%E5%A8%81%E5%A3%93",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 神族及妖精類攻擊力 7 倍、 生命力及回復力 1.5 倍 II. 光屬性「神族及妖精類」 攻擊力額外 3 倍、 生命力及回復力額外 1.3 倍 III. 必然延長移動符石時間 3 秒 IV. 消除 ≥4 組符石時 ⇒ 光屬性、神族、妖精類 攻擊力額外 2 倍",
+    "skillMonsters": [
+      "10062"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "聖耀之強權 ‧ 獸",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%81%96%E8%80%80%E4%B9%8B%E5%BC%B7%E6%AC%8A_%E2%80%A7_%E7%8D%B8",
     "skillCDMin": -1,
@@ -30919,6 +31238,17 @@
       "0365",
       "0366",
       "0584"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "脫身咒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%84%AB%E8%BA%AB%E5%92%92",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 無視「燃燒」敵技 (不包括「煉獄之火」) III. 無視「黏腐」敵技 IV. 隊長為獸類或龍類時 ⇒ 效果則持續 3 回合",
+    "skillMonsters": [
+      "10053"
     ]
   },
   {
@@ -32215,6 +32545,17 @@
     "skillDesc": "10 秒內，可任意移動符石而不會發動消除。1 回合內，消除 1 組 6 粒或以上的木符石，木屬性攻擊力 2 倍",
     "skillMonsters": [
       "1825"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "藤刃煞陣 ‧ 追魂破",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%97%A4%E5%88%83%E7%85%9E%E9%99%A3_%E2%80%A7_%E8%BF%BD%E9%AD%82%E7%A0%B4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 可任意移動符石 而不會發動消除 III. 木屬性攻擊力 2.2 倍 IV. 每消除 6 粒符石 ⇒ 木屬性神族追打 1 次 ⇒ 最多可追打 5 次",
+    "skillMonsters": [
+      "2733"
     ]
   },
   {
@@ -33555,6 +33896,17 @@
     "skillCDMin": 17,
     "skillCDMax": 8,
     "skillDesc": "暗及心符石轉化為水強化符石；所轉化的符石愈多，1 回合內水屬性攻擊力愈高，轉化 10 粒符石可達至最大 2.25 倍",
+    "skillMonsters": [
+      "1371"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "誓約的泉源 ‧ 神之加冕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AA%93%E7%B4%84%E7%9A%84%E6%B3%89%E6%BA%90_%E2%80%A7_%E7%A5%9E%E4%B9%8B%E5%8A%A0%E5%86%95",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 移除暗及心符石 ⇒ 掉落水神族強化符石 2 回合內 II. 全隊攻擊力 2.25 倍 III. 延長移動符石時間至 20 秒 IV. 將移動符石時觸碰的 凍結符石狀態解除",
     "skillMonsters": [
       "1371"
     ]
@@ -38515,6 +38867,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "靜影復甦",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%9C%E5%BD%B1%E5%BE%A9%E7%94%A6",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中有 ≥3 種屬性成員時： I. 全隊攻擊力及回復力 3 倍 II. 當生命力少於 30% 時 ⇒ 心符石效果提升至 300% (效果不能疊加)",
+    "skillMonsters": [
+      "1987"
+    ]
+  },
+  {
     "type": "主動技 ‧ 昇華",
     "skillName": "韜光蓄銳",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9F%9C%E5%85%89%E8%93%84%E9%8A%B3",
@@ -39206,6 +39569,17 @@
     "skillDesc": "10 秒內，可任意移動符石而不會發動消除。1 回合內，消除 1 組 6 粒或以上的暗符石，暗屬性攻擊力 2 倍",
     "skillMonsters": [
       "1829"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魅刃煞陣 ‧ 追魂破",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E5%88%83%E7%85%9E%E9%99%A3_%E2%80%A7_%E8%BF%BD%E9%AD%82%E7%A0%B4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 12 秒 II. 可任意移動符石 而不會發動消除 III. 暗屬性攻擊力 2.2 倍 IV. 每消除 6 粒符石 ⇒ 暗屬性神族追打 1 次 ⇒ 最多可追打 5 次",
+    "skillMonsters": [
+      "2735"
     ]
   },
   {
