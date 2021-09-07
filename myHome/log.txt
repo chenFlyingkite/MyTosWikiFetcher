@@ -24,6 +24,20 @@
   "name": "為運動員喝采",
   "icon": "1403"
 },
+1630915200 ~ 1631462340 -> [9月06日(一) 16:00, 9月12日(日) 23:59, 巴比倫的神威福蔭 ※ 全新挑戰]
+  link = https://tos.fandom.com/zh/wiki/%E5%B7%B4%E6%AF%94%E5%80%AB%E7%9A%84%E7%A5%9E%E5%A8%81%E7%A6%8F%E8%94%AD
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%B7%B4%E6%AF%94%E5%80%AB%E7%9A%84%E7%A5%9E%E5%A8%81%E7%A6%8F%E8%94%AD",
+  "name": "巴比倫的神威福蔭",
+  "icon": "2735"
+},
+1631001600 ~ 4102329600 -> [9月07日(二) 16:00, 12月31日(四) 00:00, 女祭司的悲慟 Extra ※ 追加挑戰關卡]
+  link = https://tos.fandom.com/zh/wiki/%E5%A5%B3%E7%A5%AD%E5%8F%B8%E7%9A%84%E6%82%B2%E6%85%9F_Extra
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E7%A5%AD%E5%8F%B8%E7%9A%84%E6%82%B2%E6%85%9F_Extra",
+  "name": "女祭司的悲慟 Extra",
+  "icon": "1987"
+},
 1630252800 ~ 1633881600 -> [8月30日(一), 10月10日(日), 精挑細選的美麗 ※ 全新輪迴]
   link = https://tos.fandom.com/zh/wiki/%E7%B2%BE%E6%8C%91%E7%B4%B0%E9%81%B8%E7%9A%84%E7%BE%8E%E9%BA%97
 {
@@ -31,33 +45,12 @@
   "name": "精挑細選的美麗",
   "icon": "10060"
 },
-1627833600 ~ 1630425600 -> [8月02日(一), 8月31日(二), 八月挑戰任務 ※ 每月挑戰關卡]
-  link = https://tos.fandom.com/zh/wiki/%E5%85%AB%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%85%AB%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99",
-  "name": "八月挑戰任務",
-  "icon": "2379"
-},
 1630425600 ~ 1633017600 -> [9月01日(三), 9月30日(四), 九月挑戰任務 ※ 每月挑戰關卡]
   link = https://tos.fandom.com/zh/wiki/%E4%B9%9D%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99
 {
   "link": "https://tos.fandom.com/zh/wiki/%E4%B9%9D%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99",
   "name": "九月挑戰任務",
   "icon": "2545"
-},
-1630425600 ~ 1630512000 -> [9月01日(三), 侵蝕野望 ※ 復刻災厄級]
-  link = https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E9%87%8E%E6%9C%9B
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E9%87%8E%E6%9C%9B",
-  "name": "侵蝕野望",
-  "icon": "3001"
-},
-1629043200 ~ 1630252800 -> [8月16日(一), 8月29日(日), 以衝勁開展戰鬥 ※ 雙週任務]
-  link = https://tos.fandom.com/zh/wiki/%E4%BB%A5%E8%A1%9D%E5%8B%81%E9%96%8B%E5%B1%95%E6%88%B0%E9%AC%A5
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E4%BB%A5%E8%A1%9D%E5%8B%81%E9%96%8B%E5%B1%95%E6%88%B0%E9%AC%A5",
-  "name": "以衝勁開展戰鬥",
-  "icon": "10052"
 },
 1630252800 ~ 1631462400 -> [8月30日(一), 9月12日(日), 潛伏於呼吸之間 ※ 雙週任務]
   link = https://tos.fandom.com/zh/wiki/%E6%BD%9B%E4%BC%8F%E6%96%BC%E5%91%BC%E5%90%B8%E4%B9%8B%E9%96%93
@@ -80,26 +73,33 @@
   "name": "貓咪你在哪？",
   "icon": "2438"
 },
-1630072800 ~ 1630339140 -> [8月27日(五) 22:00, 8月30日(一) 23:59, 菟絲的蝕身纏骨 ※ 全新地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E8%8F%9F%E7%B5%B2%E7%9A%84%E8%9D%95%E8%BA%AB%E7%BA%8F%E9%AA%A8
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%8F%9F%E7%B5%B2%E7%9A%84%E8%9D%95%E8%BA%AB%E7%BA%8F%E9%AA%A8",
-  "name": "菟絲的蝕身纏骨",
-  "icon": "10055"
-},
-1630418400 ~ 1630684740 -> [8月31日(二) 22:00, 9月03日(五) 23:59, 魂石的無窮可能 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%82%E7%9F%B3%E7%9A%84%E7%84%A1%E7%AA%AE%E5%8F%AF%E8%83%BD
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%AD%82%E7%9F%B3%E7%9A%84%E7%84%A1%E7%AA%AE%E5%8F%AF%E8%83%BD",
-  "name": "魂石的無窮可能",
-  "icon": "2478"
-},
 1630677600 ~ 1630943940 -> [9月03日(五) 22:00, 9月06日(一) 23:59, 鯨吞美食的妖精 ※ 全新地獄級]
   link = https://tos.fandom.com/zh/wiki/%E9%AF%A8%E5%90%9E%E7%BE%8E%E9%A3%9F%E7%9A%84%E5%A6%96%E7%B2%BE
 {
   "link": "https://tos.fandom.com/zh/wiki/%E9%AF%A8%E5%90%9E%E7%BE%8E%E9%A3%9F%E7%9A%84%E5%A6%96%E7%B2%BE",
   "name": "鯨吞美食的妖精",
   "icon": "10054"
+},
+1631023200 ~ 1631289540 -> [9月07日(二) 22:00, 9月10日(五) 23:59, 藥到命除 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E8%97%A5%E5%88%B0%E5%91%BD%E9%99%A4
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E8%97%A5%E5%88%B0%E5%91%BD%E9%99%A4",
+  "name": "藥到命除",
+  "icon": "1937"
+},
+1631282400 ~ 1631548740 -> [9月10日(五) 22:00, 9月13日(一) 23:59, 亞卡斯的色彩女王 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E4%BA%9E%E5%8D%A1%E6%96%AF%E7%9A%84%E8%89%B2%E5%BD%A9%E5%A5%B3%E7%8E%8B
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E4%BA%9E%E5%8D%A1%E6%96%AF%E7%9A%84%E8%89%B2%E5%BD%A9%E5%A5%B3%E7%8E%8B",
+  "name": "亞卡斯的色彩女王",
+  "icon": "2597"
+},
+1630929600 ~ 1631462340 -> [9月06日(一) 20:00, 9月12日(日) 23:59, 墜落陽日 ※ 全新災厄級]
+  link = https://tos.fandom.com/zh/wiki/%E5%A2%9C%E8%90%BD%E9%99%BD%E6%97%A5
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%A2%9C%E8%90%BD%E9%99%BD%E6%97%A5",
+  "name": "墜落陽日",
+  "icon": "3002"
 },
 0 ~ 0 -> [神魔之塔，前往嶄新的時代]
   link = https://tos.fandom.com/zh/wiki/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%EF%BC%8C%E5%89%8D%E5%BE%80%E5%B6%84%E6%96%B0%E7%9A%84%E6%99%82%E4%BB%A3
@@ -128,6 +128,10 @@
 1630299600 ~ 1631116740 -> [8月30日(一) 13:00, 9月08日(三) 23:59, 登入：送「神威銘光」卡匣十抽]
   link = 
 1630684800 ~ 1630857600 -> [9月04日(六), 9月05日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+  link = 
+0 ~ 0 -> [靈魂於暴戻中放縱]
+  link = https://tos.fandom.com/zh/wiki/%E9%9D%88%E9%AD%82%E6%96%BC%E6%9A%B4%E6%88%BB%E4%B8%AD%E6%94%BE%E7%B8%B1
+1631289600 ~ 1631462400 -> [9月11日(六), 9月12日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 
 0 ~ 0 -> [神魔節 2021]
   link = 

@@ -455,7 +455,16 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                 for (int j = 0; j < c.evolveInfo.size(); j++) {
                     Evolve e = c.evolveInfo.get(j);
                     if (!edge.containsKey(e.evolveTo)) {
-                        edge.put(e.evolveTo, e.evolveFrom);
+                        // Normally is To -> From,
+                        // But for the VirRebirTrans 異力轉換 1217 -> 1824 -> 2732, 1823 -> 2732, 1823 <-> 1824
+                        // We take the 1824 // 火巴比倫
+                        String key = e.evolveFrom;
+                        // For 1824 : rebirthFrom = "1217", rebirthChange = "1823"
+                        // For 1823 : rebirthFrom =     "", rebirthChange = "1824"
+                        if (c.rebirthFrom.isEmpty() && !c.rebirthChange.isEmpty()) {
+                            key = c.rebirthChange;
+                        }
+                        edge.put(e.evolveTo, key);
                     }
                 }
             }
