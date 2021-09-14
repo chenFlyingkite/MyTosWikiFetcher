@@ -16776,6 +16776,126 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10062"
   },
   {
+    "title": "No. 10063 珍寶黃金大蝦",
+    "id": "10063",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8F%8D%E5%AF%B6%E9%BB%83%E9%87%91%E5%A4%A7%E8%9D%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/10063"
+  },
+  {
+    "title": "No. 10065 冥界焰鹿",
+    "id": "10065",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E7%84%B0%E9%B9%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10065"
+  },
+  {
+    "title": "No. 10066 終極青銅天鵝座 ‧ 冰河",
+    "id": "10066",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E9%9D%92%E9%8A%85%E5%A4%A9%E9%B5%9D%E5%BA%A7_%E2%80%A7_%E5%86%B0%E6%B2%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/10066"
+  },
+  {
+    "title": "No. 10067 神聖衣天鵝座 ‧ 冰河",
+    "id": "10067",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E8%A1%A3%E5%A4%A9%E9%B5%9D%E5%BA%A7_%E2%80%A7_%E5%86%B0%E6%B2%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/10067"
+  },
+  {
+    "title": "No. 10068 終極青銅鳳凰座 ‧ 一輝",
+    "id": "10068",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E9%9D%92%E9%8A%85%E9%B3%B3%E5%87%B0%E5%BA%A7_%E2%80%A7_%E4%B8%80%E8%BC%9D",
+    "linkId": "http://zh.tos.wikia.com/wiki/10068"
+  },
+  {
+    "title": "No. 10069 神聖衣鳳凰座 ‧ 一輝",
+    "id": "10069",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E8%A1%A3%E9%B3%B3%E5%87%B0%E5%BA%A7_%E2%80%A7_%E4%B8%80%E8%BC%9D",
+    "linkId": "http://zh.tos.wikia.com/wiki/10069"
+  },
+  {
+    "title": "No. 10070 終極青銅天龍座 ‧ 紫龍",
+    "id": "10070",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E9%9D%92%E9%8A%85%E5%A4%A9%E9%BE%8D%E5%BA%A7_%E2%80%A7_%E7%B4%AB%E9%BE%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/10070"
+  },
+  {
+    "title": "No. 10071 神聖衣天龍座 ‧ 紫龍",
+    "id": "10071",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E8%A1%A3%E5%A4%A9%E9%BE%8D%E5%BA%A7_%E2%80%A7_%E7%B4%AB%E9%BE%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/10071"
+  },
+  {
+    "title": "No. 10072 終極青銅天馬座 ‧ 星矢",
+    "id": "10072",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E9%9D%92%E9%8A%85%E5%A4%A9%E9%A6%AC%E5%BA%A7_%E2%80%A7_%E6%98%9F%E7%9F%A2",
+    "linkId": "http://zh.tos.wikia.com/wiki/10072"
+  },
+  {
+    "title": "No. 10073 神聖衣天馬座 ‧ 星矢",
+    "id": "10073",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E8%A1%A3%E5%A4%A9%E9%A6%AC%E5%BA%A7_%E2%80%A7_%E6%98%9F%E7%9F%A2",
+    "linkId": "http://zh.tos.wikia.com/wiki/10073"
+  },
+  {
+    "title": "No. 10074 終極青銅仙女座 ‧ 瞬",
+    "id": "10074",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E9%9D%92%E9%8A%85%E4%BB%99%E5%A5%B3%E5%BA%A7_%E2%80%A7_%E7%9E%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10074"
+  },
+  {
+    "title": "No. 10075 神聖衣仙女座 ‧ 瞬",
+    "id": "10075",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E8%A1%A3%E4%BB%99%E5%A5%B3%E5%BA%A7_%E2%80%A7_%E7%9E%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10075"
+  },
+  {
+    "title": "No. 10076 天琴座 ‧ 奧路菲",
+    "id": "10076",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%90%B4%E5%BA%A7_%E2%80%A7_%E5%A5%A7%E8%B7%AF%E8%8F%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/10076"
+  },
+  {
+    "title": "No. 10077 雙子座 ‧ 卡農",
+    "id": "10077",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%99%E5%AD%90%E5%BA%A7_%E2%80%A7_%E5%8D%A1%E8%BE%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/10077"
+  },
+  {
+    "title": "No. 10078 冥界指揮官 ‧ 潘朵拉",
+    "id": "10078",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E6%8C%87%E6%8F%AE%E5%AE%98_%E2%80%A7_%E6%BD%98%E6%9C%B5%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10078"
+  },
+  {
+    "title": "No. 10079 智慧與戰爭女神 ‧ 雅典娜",
+    "id": "10079",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%99%BA%E6%85%A7%E8%88%87%E6%88%B0%E7%88%AD%E5%A5%B3%E7%A5%9E_%E2%80%A7_%E9%9B%85%E5%85%B8%E5%A8%9C",
+    "linkId": "http://zh.tos.wikia.com/wiki/10079"
+  },
+  {
+    "title": "No. 10080 地妖星 ‧ 繆",
+    "id": "10080",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%9C%B0%E5%A6%96%E6%98%9F_%E2%80%A7_%E7%B9%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/10080"
+  },
+  {
+    "title": "No. 10082 冥王 ‧ 瞬",
+    "id": "10082",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%8E%8B_%E2%80%A7_%E7%9E%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10082"
+  },
+  {
+    "title": "No. 10084 冥衣摩羯座 ‧ 修羅",
+    "id": "10084",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E8%A1%A3%E6%91%A9%E7%BE%AF%E5%BA%A7_%E2%80%A7_%E4%BF%AE%E7%BE%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/10084"
+  },
+  {
+    "title": "No. 10089 天猛星 ‧ 拉達曼迪斯",
+    "id": "10089",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%8C%9B%E6%98%9F_%E2%80%A7_%E6%8B%89%E9%81%94%E6%9B%BC%E8%BF%AA%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10089"
+  },
+  {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
     "id": "6001",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BD%E6%80%A8%E6%96%B0%E5%A8%98_%E2%80%A7_%E7%83%8F%E7%88%BE%E5%BE%B7",

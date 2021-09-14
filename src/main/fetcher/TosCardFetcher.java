@@ -470,6 +470,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             }
         }
         List<TosCard> want = all;
+        int pathLength = 0;
         List<List<TosCard>> answer = new ArrayList<>();
         // very fast to within 15 ms
         for (int i = 0; i < want.size(); i++) {
@@ -487,12 +488,13 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                     path.add(cy);
                     y = edge.get(cy.idNorm);
                 }
+                pathLength = Math.max(pathLength, path.size());
                 answer.add(path);
             }
         }
         // print answer of 0001 -> 0002 -> 0003 -> ...
         n = answer.size();
-        L.log("Evolve tree : %s path", n);
+        L.log("Evolve tree : %s path, longest = %s", n, pathLength);
         TicTac2 t = new TicTac2();
         t.tic();
         boolean log = false;
