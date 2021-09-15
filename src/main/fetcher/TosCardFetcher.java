@@ -171,7 +171,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         }
         mLf.log("%s series\n = %s", cardSeries.size(), cardSeries);
         mLf.log("%s signatures", cardSigna.size());
-        //int k = 0;
         for (String s : cardSigna) {
             mLf.log(" : %s", s);
         }
@@ -475,13 +474,18 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // very fast to within 15 ms
         for (int i = 0; i < want.size(); i++) {
             TosCard x = want.get(i);
-            boolean valid = "神族 魔族 人類 獸類 龍類 妖精類 機械族".contains(x.race) && x.evolveInfo.isEmpty();
             if (TosCardCreator.isSkinID(x.idNorm)) {
-                valid = false;
+                continue;
             }
+
+            boolean valid = "神族 魔族 人類 獸類 龍類 妖精類 機械族".contains(x.race) && x.evolveInfo.isEmpty();
+            // for 1821, not 1822
+            boolean isRebirth = x.rebirthFrom.isEmpty() && !x.rebirthChange.isEmpty();
+
+
+            List<TosCard> path = new ArrayList<>();
+            path.add(x);
             if (valid) {
-                List<TosCard> path = new ArrayList<>();
-                path.add(x);
                 String y = edge.get(x.idNorm);
                 while (y != null) {
                     TosCard cy = pool.get(y);
@@ -489,6 +493,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
                     y = edge.get(cy.idNorm);
                 }
                 pathLength = Math.max(pathLength, path.size());
+                answer.add(path);
+            } else if (isRebirth) {
                 answer.add(path);
             }
         }
