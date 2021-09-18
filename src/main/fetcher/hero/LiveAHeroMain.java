@@ -26,8 +26,8 @@ public class LiveAHeroMain {
     private static final List<Hero> sortedHero = new ArrayList<>();
     public static void main(String[] args) {
         init();
-        imageMoe();
-        //fetchHero();
+        //imageMoe();
+        fetchHero();
     }
 
     private static void fetchHero() {
@@ -77,33 +77,6 @@ public class LiveAHeroMain {
             Heros h = all[i];
             String link = h.getMoeLink();
             L.log("#%2d : %s", i, link);
-
-//            Document doc = fetcher.getDocument(link);
-//            Elements ts = doc.getElementsByClass("TabLabelText");
-//            L.log("%d Tab = ", ts.size());
-//            for (int j = 0; j < ts.size(); j++) {
-//                Element e = ts.get(j);
-//                Elements imgs = e.getElementsByTag("img");
-//                if (imgs.size() > 0) {
-//                    //"https://zh.moegirl.org.cn/File:Yoshiori_hero_4_ico.jpg"
-//                    //L.log("e = " + e);
-//                    Element x = imgs.get(0);
-//                    String ss = x.attr("src");
-//                    int la = ss.lastIndexOf("/");
-//                    ss = ss.substring(0, la);
-//                    la = ss.lastIndexOf("/");
-//                    String s = "https://zh.moegirl.org.cn/File:" + ss.substring(la + 1);
-//                    L.log("heroimage = " + s);
-//
-//                    doc = fetcher.getDocument(s);
-//                    ts = doc.getElementsByClass("internal");
-//                    if (ts.size() > 0) {
-//                        link = ts.get(0).attr("href");
-//                        String f = mImage.getFile().getFile().getAbsolutePath();
-//                        URLUtil.downloadFile(link, f);
-//                    }
-//                }
-//            }
         }
     }
     // download hero images
@@ -133,7 +106,6 @@ public class LiveAHeroMain {
     // create hero from
     // https://wikiwiki.jp/live-a-hero/ID%E5%88%A5
     private static void heroBasic() {
-        //
         String link = "https://wikiwiki.jp/live-a-hero/ID%E5%88%A5";
         Document doc;
         Elements es;
@@ -198,7 +170,7 @@ public class LiveAHeroMain {
 
             Document doc = fetcher.getDocument(link);
             Elements ts = doc.getElementsByTag("table");
-            L.log("%s tables", ts.size());
+            //L.log("%s tables", ts.size());
             for (int i = 0; i < ts.size(); i++) {
                 Element ti = ts.get(i);
                 String txt = ti.text();
@@ -226,8 +198,10 @@ public class LiveAHeroMain {
                     } else if (s.type == HeroSkillInfo.HeroSkill) {
                         if (hero.heroSkills.isEmpty()) {
                             hero.heroSkills.addAll(si);
+                            hero.heroPlus = s.heroSkillPlus;
                         } else if (hero2 != null && hero2.heroSkills.isEmpty()) {
                             hero2.heroSkills.addAll(si);
+                            hero2.heroPlus = s.heroSkillPlus;
                         }
                     } else if (s.type == HeroSkillInfo.Equip) { // side equip skill
                         if (hero.sideEquips.isEmpty()) {
@@ -263,6 +237,7 @@ public class LiveAHeroMain {
         static final int HeroSkill = 2;
         static final int Equip = 3;
         int type;
+        int heroSkillPlus = -1;
         List<HeroSkill> skills = new ArrayList<>();
     }
 
@@ -294,10 +269,24 @@ public class LiveAHeroMain {
             it.type = HeroSkillInfo.TwoPlus;
         } else if (isHeroSkill) {
             it.type = HeroSkillInfo.HeroSkill;
+            it.heroSkillPlus = findSkillPlus(it.skills);
         } else if (isEquip) {
             it.type = HeroSkillInfo.Equip;
         }
         return it;
+    }
+
+    private static int findSkillPlus(List<HeroSkill> li) {
+        if (li.size() >= 4) {
+            HeroSkill plus = li.get(3);
+            for (int i = 0; i < 3; i++) {
+                HeroSkill h = li.get(i);
+                if (plus.name.startsWith(h.name)) {
+                    return i;
+                }
+            }
+        }
+        return -1;
     }
 
     private static List<HeroValue> readHeroValue(Element e) {

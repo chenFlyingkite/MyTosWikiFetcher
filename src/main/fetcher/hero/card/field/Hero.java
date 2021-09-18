@@ -52,6 +52,10 @@ public class Hero {
     @SerializedName("sideValues")
     public List<SideValue> sideValues = new ArrayList<>();
 
+    // generated
+    @SerializedName("heroPlus")
+    public int heroPlus = -1;
+
     @Override
     public String toString() {
         return new Gson().toJson(this);

@@ -188,7 +188,8 @@
         "speed": 2,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Akashi2",
@@ -363,7 +364,8 @@
         "speed": 2,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Mokdai",
@@ -554,7 +556,8 @@
         "speed": 2,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Sui",
@@ -745,7 +748,8 @@
         "speed": 4,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Ryekie",
@@ -928,7 +932,8 @@
         "speed": 2,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Ryekie2",
@@ -1103,7 +1108,8 @@
         "speed": 2,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Crowne",
@@ -1286,7 +1292,8 @@
         "speed": 3,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Gammei",
@@ -1469,7 +1476,8 @@
         "speed": 3,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Barrel",
@@ -1652,7 +1660,8 @@
         "speed": 4,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Furlong",
@@ -1835,7 +1844,8 @@
         "speed": 3,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Victom",
@@ -2018,7 +2028,8 @@
         "speed": 2,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Kyoichi",
@@ -2201,7 +2212,8 @@
         "speed": 3,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Kyoichi2",
@@ -2376,7 +2388,8 @@
         "speed": 3,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Flamier",
@@ -2559,7 +2572,8 @@
         "speed": 4,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Shoen",
@@ -2734,7 +2748,8 @@
         "speed": 4,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Shoen2",
@@ -2917,7 +2932,8 @@
         "speed": 4,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Toshu",
@@ -3100,7 +3116,8 @@
         "speed": 4,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Marfik",
@@ -3275,7 +3292,8 @@
         "speed": 3,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Marfik2",
@@ -3450,7 +3468,8 @@
         "speed": 3,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "PolarisMask",
@@ -3625,7 +3644,8 @@
         "speed": 1,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Hydoor",
@@ -3808,7 +3828,8 @@
         "speed": 3,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Kuoki",
@@ -3983,7 +4004,8 @@
         "speed": 2,
         "view": 500
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Hitomi",
@@ -4166,7 +4188,8 @@
         "speed": 1,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Hitomi2",
@@ -4178,7 +4201,7 @@
     "role": "特殊",
     "heroSkills": [
       {
-        "name": "戦う！常夏MARMAID",
+        "name": "戦う！常夏MERMAID",
         "content": "敵単体に60%ダメージ。ランダムな味方のデバフを１つ解除。自身に熱狂を１つ付与。",
         "view": 0
       },
@@ -4349,7 +4372,8 @@
         "speed": 1,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Rakkta",
@@ -4540,7 +4564,8 @@
         "speed": 3,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Loren",
@@ -4731,7 +4756,8 @@
         "speed": 3,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Isaribi",
@@ -4922,7 +4948,8 @@
         "speed": 3,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Goro",
@@ -5113,7 +5140,8 @@
         "speed": 2,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Digram",
@@ -5304,7 +5332,8 @@
         "speed": 4,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Andrew",
@@ -5479,7 +5508,8 @@
         "speed": 3,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Alchiba",
@@ -5670,7 +5700,8 @@
         "speed": 4,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Alchiba2",
@@ -5845,7 +5876,8 @@
         "speed": 4,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Subaru",
@@ -6028,7 +6060,8 @@
         "speed": 3,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Kirsch",
@@ -6219,7 +6252,8 @@
         "speed": 3,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Narihito",
@@ -6410,7 +6444,8 @@
         "speed": 2,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Suhail",
@@ -6585,7 +6620,8 @@
         "speed": 4,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Monomasa",
@@ -6760,7 +6796,8 @@
         "speed": 3,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Procy",
@@ -6951,7 +6988,8 @@
         "speed": 4,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Gomeisa",
@@ -7126,7 +7164,8 @@
         "speed": 3,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Huckle",
@@ -7231,7 +7270,8 @@
         "speed": 2,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": -1
   },
   {
     "nameEn": "WolfmanWood",
@@ -7401,7 +7441,8 @@
         "speed": 1,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": -1
   },
   {
     "nameEn": "WolfmanDark",
@@ -7571,7 +7612,8 @@
         "speed": 1,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": -1
   },
   {
     "nameEn": "Nessen",
@@ -7746,7 +7788,8 @@
         "speed": 2,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Hisaki",
@@ -7937,7 +7980,8 @@
         "speed": 4,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Maculata",
@@ -8120,7 +8164,8 @@
         "speed": 4,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Rutilix",
@@ -8295,7 +8340,8 @@
         "speed": 4,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Alphecca",
@@ -8478,7 +8524,8 @@
         "speed": 2,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Shaft",
@@ -8653,7 +8700,8 @@
         "speed": 2,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Kalaski",
@@ -8836,7 +8884,8 @@
         "speed": 5,
         "view": 350
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Melide",
@@ -8941,7 +8990,8 @@
         "speed": 3,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": -1
   },
   {
     "nameEn": "Yoshiori",
@@ -9124,7 +9174,8 @@
         "speed": 3,
         "view": 200
       }
-    ]
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Pubraseer",
@@ -9315,7 +9366,8 @@
         "speed": 3,
         "view": 275
       }
-    ]
+    ],
+    "heroPlus": 2
   },
   {
     "nameEn": "Player",
@@ -9420,6 +9472,7 @@
         "speed": 2,
         "view": 425
       }
-    ]
+    ],
+    "heroPlus": -1
   }
 ]
