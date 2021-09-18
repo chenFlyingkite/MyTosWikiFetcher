@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3625 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3628 items, basePath = https://tos.fandom.com, offset = null)
 1000%不可能！ -> https://tos.fandom.com/zh/wiki/1000%25%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%81
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 2000_種技能擁有者 -> https://tos.fandom.com/zh/wiki/2000_%E7%A8%AE%E6%8A%80%E8%83%BD%E6%93%81%E6%9C%89%E8%80%85
@@ -1203,6 +1203,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 星火棋陣 -> https://tos.fandom.com/zh/wiki/%E6%98%9F%E7%81%AB%E6%A3%8B%E9%99%A3
 星落欄柵 -> https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%90%BD%E6%AC%84%E6%9F%B5
 星象詮釋 -> https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%B1%A1%E8%A9%AE%E9%87%8B
+星辰傀儡線 -> https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%BE%B0%E5%82%80%E5%84%A1%E7%B7%9A
 星陣 -> https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%99%A3
 星雲旋風 -> https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9B%B2%E6%97%8B%E9%A2%A8
 星雲鎖鏈 -> https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9B%B2%E9%8E%96%E9%8F%88
@@ -1305,6 +1306,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 暴風精華 -> https://tos.fandom.com/zh/wiki/%E6%9A%B4%E9%A2%A8%E7%B2%BE%E8%8F%AF
 暴食 -> https://tos.fandom.com/zh/wiki/%E6%9A%B4%E9%A3%9F
 曙光女神之寛恕！ -> https://tos.fandom.com/zh/wiki/%E6%9B%99%E5%85%89%E5%A5%B3%E7%A5%9E%E4%B9%8B%E5%AF%9B%E6%81%95%EF%BC%81
+曙光女神之寛恕！(卡妙) -> https://tos.fandom.com/zh/wiki/%E6%9B%99%E5%85%89%E5%A5%B3%E7%A5%9E%E4%B9%8B%E5%AF%9B%E6%81%95%EF%BC%81(%E5%8D%A1%E5%A6%99)
 曙光女神之寬恕 -> https://tos.fandom.com/zh/wiki/%E6%9B%99%E5%85%89%E5%A5%B3%E7%A5%9E%E4%B9%8B%E5%AF%AC%E6%81%95
 曙光女神之寬恕_(卡妙) -> https://tos.fandom.com/zh/wiki/%E6%9B%99%E5%85%89%E5%A5%B3%E7%A5%9E%E4%B9%8B%E5%AF%AC%E6%81%95_(%E5%8D%A1%E5%A6%99)
 曼妙的尖叫_‧_火烤 -> https://tos.fandom.com/zh/wiki/%E6%9B%BC%E5%A6%99%E7%9A%84%E5%B0%96%E5%8F%AB_%E2%80%A7_%E7%81%AB%E7%83%A4
@@ -3013,6 +3015,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 近戰模式_‧_覺醒 -> https://tos.fandom.com/zh/wiki/%E8%BF%91%E6%88%B0%E6%A8%A1%E5%BC%8F_%E2%80%A7_%E8%A6%BA%E9%86%92
 返本歸元 -> https://tos.fandom.com/zh/wiki/%E8%BF%94%E6%9C%AC%E6%AD%B8%E5%85%83
 返靈 -> https://tos.fandom.com/zh/wiki/%E8%BF%94%E9%9D%88
+迦樓羅振翅 -> https://tos.fandom.com/zh/wiki/%E8%BF%A6%E6%A8%93%E7%BE%85%E6%8C%AF%E7%BF%85
 迴天 -> https://tos.fandom.com/zh/wiki/%E8%BF%B4%E5%A4%A9
 迷香蕩漾_‧_玄光 -> https://tos.fandom.com/zh/wiki/%E8%BF%B7%E9%A6%99%E8%95%A9%E6%BC%BE_%E2%80%A7_%E7%8E%84%E5%85%89
 追魂之幽 -> https://tos.fandom.com/zh/wiki/%E8%BF%BD%E9%AD%82%E4%B9%8B%E5%B9%BD
@@ -3626,4 +3629,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-3652 skills
+3655 skills

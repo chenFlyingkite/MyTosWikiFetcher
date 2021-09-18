@@ -16344,6 +16344,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2736"
   },
   {
+    "title": "No. 2738 團圓相聚．命運三姊妹",
+    "id": "2738",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%9C%98%E5%9C%93%E7%9B%B8%E8%81%9A%EF%BC%8E%E5%91%BD%E9%81%8B%E4%B8%89%E5%A7%8A%E5%A6%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2738"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -16884,10 +16890,28 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10082"
   },
   {
+    "title": "No. 10083 冥衣水瓶座 ‧ 卡妙",
+    "id": "10083",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E8%A1%A3%E6%B0%B4%E7%93%B6%E5%BA%A7_%E2%80%A7_%E5%8D%A1%E5%A6%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/10083"
+  },
+  {
     "title": "No. 10084 冥衣摩羯座 ‧ 修羅",
     "id": "10084",
     "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E8%A1%A3%E6%91%A9%E7%BE%AF%E5%BA%A7_%E2%80%A7_%E4%BF%AE%E7%BE%85",
     "linkId": "http://zh.tos.wikia.com/wiki/10084"
+  },
+  {
+    "title": "No. 10087 天雄星 ‧ 艾亞哥斯",
+    "id": "10087",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%9B%84%E6%98%9F_%E2%80%A7_%E8%89%BE%E4%BA%9E%E5%93%A5%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10087"
+  },
+  {
+    "title": "No. 10088 天貴星 ‧ 米諾斯",
+    "id": "10088",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E8%B2%B4%E6%98%9F_%E2%80%A7_%E7%B1%B3%E8%AB%BE%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10088"
   },
   {
     "title": "No. 10089 天猛星 ‧ 拉達曼迪斯",
