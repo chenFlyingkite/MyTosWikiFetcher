@@ -52,7 +52,7 @@ public class Hero {
     @SerializedName("sideValues")
     public List<SideValue> sideValues = new ArrayList<>();
 
-    // generated
+    // generated, hero[heroPlus] has skill +
     @SerializedName("heroPlus")
     public int heroPlus = -1;
 
