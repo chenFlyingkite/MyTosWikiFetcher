@@ -16884,6 +16884,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10080"
   },
   {
+    "title": "No. 10081 天英星 ‧ 羅尼",
+    "id": "10081",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E8%8B%B1%E6%98%9F_%E2%80%A7_%E7%BE%85%E5%B0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10081"
+  },
+  {
     "title": "No. 10082 冥王 ‧ 瞬",
     "id": "10082",
     "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%8E%8B_%E2%80%A7_%E7%9E%AC",
@@ -16902,6 +16908,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10084"
   },
   {
+    "title": "No. 10085 冥衣雙子座 ‧ 撒卡",
+    "id": "10085",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E8%A1%A3%E9%9B%99%E5%AD%90%E5%BA%A7_%E2%80%A7_%E6%92%92%E5%8D%A1",
+    "linkId": "http://zh.tos.wikia.com/wiki/10085"
+  },
+  {
     "title": "No. 10087 天雄星 ‧ 艾亞哥斯",
     "id": "10087",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%9B%84%E6%98%9F_%E2%80%A7_%E8%89%BE%E4%BA%9E%E5%93%A5%E6%96%AF",
@@ -16918,6 +16930,18 @@
     "id": "10089",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%8C%9B%E6%98%9F_%E2%80%A7_%E6%8B%89%E9%81%94%E6%9B%BC%E8%BF%AA%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/10089"
+  },
+  {
+    "title": "No. 10090 睡神 ‧ 休普諾斯",
+    "id": "10090",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%9D%A1%E7%A5%9E_%E2%80%A7_%E4%BC%91%E6%99%AE%E8%AB%BE%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10090"
+  },
+  {
+    "title": "No. 10092 死神 ‧ 塔納托斯",
+    "id": "10092",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AD%BB%E7%A5%9E_%E2%80%A7_%E5%A1%94%E7%B4%8D%E6%89%98%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10092"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

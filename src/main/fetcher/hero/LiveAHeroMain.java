@@ -17,17 +17,22 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class LiveAHeroMain {
     public static final Map<String, Hero> allHeros = new HashMap<>();
     private static final List<Hero> sortedHero = new ArrayList<>();
+    private static final List<Hero> loadedHero = new ArrayList<>();
     public static void main(String[] args) {
-        init();
-        //imageMoe();
-        fetchHero();
+        loadHero();
+        //init();
+        ////imageMoe(); // dead
+        //fetchHero();
     }
 
     private static void fetchHero() {
@@ -97,6 +102,19 @@ public class LiveAHeroMain {
             //https://liveahero-wiki.github.io/cdn/Sprite/ui_frame_h_base_shadow.png
         }
         // <img class="hero-chara-icon" src="/cdn/Sprite/icon_akashi_h01.png" loading="lazy">
+    }
+
+    private static void loadHero() {
+        Hero[] list = new Hero[1];
+        list = GsonUtil.loadFile(mHeros.getFile().getFile(), list.getClass());
+        loadedHero.clear();
+        loadedHero.addAll(Arrays.asList(list));
+        Set<String> roles = new HashSet<>();
+        for (Hero h : list) {
+            roles.add(h.role);
+        }
+        L.log("list = %s", list);
+        L.log("roles = %s", roles);
     }
 
     private static void saveHero() {

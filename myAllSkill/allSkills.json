@@ -11638,6 +11638,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "恐怖天命",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%81%90%E6%80%96%E5%A4%A9%E5%91%BD",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除石化符石狀態 II. 將右方 3 直行符石轉化為 ⇒ 固定數量及位置的光及暗符石 1 回合內 III. 暗屬性及神族成員 ⇒ 以 40% 攻擊力追打 1 次",
+    "skillMonsters": [
+      "10092"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "患者的命運由我來改變！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%82%A3%E8%80%85%E7%9A%84%E5%91%BD%E9%81%8B%E7%94%B1%E6%88%91%E4%BE%86%E6%94%B9%E8%AE%8A%EF%BC%81",
@@ -18987,6 +18998,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "永恆的睡眠",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B8%E6%81%86%E7%9A%84%E7%9D%A1%E7%9C%A0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 凍結符石轉化為可消除的狀態 II. 將左方 3 直行的符石轉化為 ⇒ 固定數量及位置的光及暗符石 1 回合內 III. 光屬性及神族 ⇒ 攻擊力及回復力 1.8 倍",
+    "skillMonsters": [
+      "10090"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "永生之護守",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B8%E7%94%9F%E4%B9%8B%E8%AD%B7%E5%AE%88",
     "skillCDMin": 19,
@@ -21027,7 +21049,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E7%A5%9E%E7%A5%9E%E6%A8%82",
     "skillCDMin": 12,
     "skillCDMax": 6,
-    "skillDesc": "1 回合內 I. 自身以外成員攻擊力減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊轉化為火屬性 IV. 自身攻擊無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石首批 1 粒 即可發動消除 VI. 首批消除水及火符石 的組數愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次",
+    "skillDesc": "1 回合內 I. 自身以外成員攻擊力基值 ⇒ 減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 原有攻擊力基值的 3.5 倍 ⇒ 加入自身攻擊力基值 III. 自身攻擊轉化為火屬性 IV. 自身無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石首批 1 粒 即可發動消除 VI. 首批消除水及火符石 的組數愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次",
     "skillMonsters": [
       "2662"
     ]
@@ -21038,7 +21060,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E4%B9%8B%E7%A5%9E%E7%A5%9E%E6%A8%82_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": 16,
     "skillCDMax": 10,
-    "skillDesc": "2 回合內 I. 自身以外成員攻擊力減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 攻擊力的 3.5 倍 ⇒ 加入自身攻擊力 III. 自身攻擊轉化為火屬性 IV. 自身攻擊無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石 1 粒 即可發動消除，效果持續至 消除水或火符石達 20 粒 VI. 首批消除水及火符石 的組數愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次 VII. 回合結束時， ⇒ 2 回合內自身進入疲憊狀態 發動此技能時需儲滿龍脈儀及 該回合不能發動龍刻脈動",
+    "skillDesc": "2 回合內 I. 自身以外成員攻擊力基值 ⇒ 減至 0 II. 將「竈門炭治郎」、 「火之神 ‧ 竈門炭治郎」、 「竈門禰豆子」 原有攻擊力基值的 3.5 倍 ⇒ 加入自身攻擊力基值 III. 自身攻擊轉化為火屬性 IV. 自身無視 ⓵ 「符石連擊零化」 ⓶ 「指定連擊法印」 V. 水、火符石 1 粒 即可發動消除，效果持續至 消除水或火符石達 20 粒 VI. 首批消除水及火符石 的組數愈多 ⇒ 個人追打次數愈多 ⇒ 最多追打 6 次 VII. 回合結束時， ⇒ 2 回合內自身進入疲憊狀態 發動此技能時需儲滿龍脈儀及 該回合不能發動龍刻脈動",
     "skillMonsters": [
       "2662"
     ]
@@ -21478,6 +21500,17 @@
     "skillDesc": "I. 火屬性攻擊力 5 倍 II. 以左下角的符石開始轉珠時 ⇒ 火屬性攻擊力額外 1.5 倍 III. 以右下角的符石開始轉珠時 ⇒ 將移動符石時觸碰的 首 5 粒符石轉化為強化符石",
     "skillMonsters": [
       "2362"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "火焰絞繩",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E7%84%B0%E7%B5%9E%E7%B9%A9",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 個人以 30% 攻擊力 ⇒ 追打火屬性攻擊 9 次 II. 攻擊敵方時點燃敵方 ⇒ 效果持續至敵人死亡 III. 隊中每多 1 個【冥鬥士】 ⇒ 額外增加 1 回合效果 ⇒ 最多持續 5 回合",
+    "skillMonsters": [
+      "10081"
     ]
   },
   {
@@ -26718,6 +26751,17 @@
     "skillDesc": "1 回合內，達成 4 連擊 (Combo) 時，個人追打攻擊力 6 倍的火屬性攻擊 1 次，每多 1 連擊 (Combo)，追打倍率增加 2 倍，6 連擊 (Combo) 可達至最大 10 倍",
     "skillMonsters": [
       "1092"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "神之統領",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E4%B9%8B%E7%B5%B1%E9%A0%98",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "神族攻擊力 7 倍及回復力 3 倍",
+    "skillMonsters": [
+      "10092"
     ]
   },
   {
@@ -36991,6 +37035,17 @@
     "skillDesc": "I. 點選元素法陣上的符石 3 次 ⇒ 將該種符石引爆 ⇒ 掉落光符石 1 回合內 II. 可任意移動符石 而不會發動消除 III. 自身攻擊力 3 倍",
     "skillMonsters": [
       "10077"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "銀河星爆！(撒卡)",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%8A%80%E6%B2%B3%E6%98%9F%E7%88%86%EF%BC%81(%E6%92%92%E5%8D%A1)",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 點選元素法陣上的符石 3 次 ⇒ 將該種符石引爆 ⇒ 掉落暗符石 1 回合內 II. 個人追打 3 次 III. 隊中有 ≥3 個【聖鬥士】 ⇒ 自身無視「指定形狀盾」",
+    "skillMonsters": [
+      "10085"
     ]
   },
   {
