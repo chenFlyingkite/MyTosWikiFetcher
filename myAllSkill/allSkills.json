@@ -2083,6 +2083,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "偉大的日蝕",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%81%89%E5%A4%A7%E7%9A%84%E6%97%A5%E8%9D%95",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "2 回合內 I. 所有屬性符石 ⇒ 兼具其他屬性符石效果 II. 回合結束時， 將所有符石轉化為 ⇒ 轉珠結束時放手的符石 III. 若效果持續期間 沒有回復生命力 ⇒ 該回合結束時， 將所有符石轉化為 神族強化符石",
+    "skillMonsters": [
+      "10091"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "偏執之念 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%81%8F%E5%9F%B7%E4%B9%8B%E5%BF%B5_%E2%80%A7_%E5%85%89",
@@ -4498,6 +4509,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "冥鬥士 ‧ 死亡創造",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E9%AC%A5%E5%A3%AB_%E2%80%A7_%E6%AD%BB%E4%BA%A1%E5%89%B5%E9%80%A0",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有光屬性、 暗屬性成員或【冥鬥士】時： I. 全隊攻擊力 7 倍、 生命力及回復力 1.6 倍 II. 延長移動符石時間 3 秒 III. 隊中有 ≥3 種族成員時 ⇒ 全隊攻擊力額外 2 倍 IV. 達至 ≥8 連擊 (Combo) ⇒ 所有成員以 3 倍攻擊力追打 1 次",
+    "skillMonsters": [
+      "10091"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "冥鬥士 ‧ 進攻",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E9%AC%A5%E5%A3%AB_%E2%80%A7_%E9%80%B2%E6%94%BB",
     "skillCDMin": -1,
@@ -5978,6 +6000,17 @@
     "skillDesc": "I. 木屬性攻擊力 4 倍 II. 木屬性人類攻擊力則 5 倍 III. 必然延長移動符石時間 2.5 秒 IV. 每消除 1 組光或暗符石， 於該回合結束時，將 1 粒符石 (木及心符石優先轉換) ⇒ 轉化為人族強化符石，最多 30 粒",
     "skillMonsters": [
       "1818"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "千秋的傳承 ‧ 使命",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8D%83%E7%A7%8B%E7%9A%84%E5%82%B3%E6%89%BF_%E2%80%A7_%E4%BD%BF%E5%91%BD",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 木屬性攻擊力 6.5 倍、 生命力及回復力 1.6 倍 II. 木屬性人類攻擊力則 8 倍 III. 必然延長移動符石時間 3 秒 IV. 消除種族符石時 ⇒ 木屬性攻擊力額外 4 倍 V. 每消除 1 組光或暗符石 ⇒ 回合結束時將 3 粒符石 轉化為人族強化符石 (木及心符石優先轉換) ⇒ 最多可轉化 30 粒",
+    "skillMonsters": [
+      "2739"
     ]
   },
   {
@@ -11144,6 +11177,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "強悍之志 ‧ 勇往",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BC%B7%E6%82%8D%E4%B9%8B%E5%BF%97_%E2%80%A7_%E5%8B%87%E5%BE%80",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 達成 ≥4 連擊 (Combo) ⇒ 個人追打光及暗屬性攻擊 1 次 II. 達成 ≥6 連擊 ⓵ 自身攻擊力 3 倍 ⓶ 自身無視「三屬盾」及「五屬盾」 III. 達成 ≥8 連擊 (Combo) ⓵ 個人以 25% 攻擊力 ⇒ 追打水及火屬性攻擊 1 次 ⓶ 自身無視「固定連擊盾」 (效果會在關閉此技能 或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 點選元素法陣上的 1 粒符石 ⇒ 引爆所有符石 ⇒ 掉落該種符石以外的人族符石",
+    "skillMonsters": [
+      "2739"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "彈幕爆破",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BD%88%E5%B9%95%E7%88%86%E7%A0%B4",
     "skillCDMin": 16,
@@ -14017,6 +14061,17 @@
     "skillDesc": "I. 將所有符石轉化為人族強化符石 II. 1 回合內，記錄「移動符石時間完結一刻」場上的符石分佈 (包括強化符石、種族符石)，並首批掉落所記錄的符石",
     "skillMonsters": [
       "2122"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星屑旋轉！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E5%B1%91%E6%97%8B%E8%BD%89%EF%BC%81",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "1 回合內 I. 人類攻擊力 1.5 倍 II.【聖鬥士】攻擊力額外 1.5 倍 III. ≥3 粒相同種類的符石相連 即可發動消除 IV. 回合結束時 自身以外【聖鬥士】 ⇒ CD -1 及 EP +1",
+    "skillMonsters": [
+      "10086"
     ]
   },
   {
@@ -27334,6 +27389,17 @@
     "skillDesc": "I. 神族及火屬性攻擊力 2.5 倍 II. 若戰友為神族時 ⇒ 神族攻擊力提升至 3.5 倍",
     "skillMonsters": [
       "0962"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "神的天威",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E7%9A%84%E5%A4%A9%E5%A8%81",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 自身不能發動攻擊 II. 吸收敵人首次攻擊及 所有人類敵人的攻擊 ⇒ 對敵方攻擊者進行 固定 2,500 萬點水屬性反擊 (此反擊無視防禦力、 「強化突破」敵技及 「指定形狀盾」敵技)",
+    "skillMonsters": [
+      "10093"
     ]
   },
   {

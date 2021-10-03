@@ -16350,6 +16350,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2738"
   },
   {
+    "title": "No. 2739 女帝的銘誓 ‧ 美索不達米亞",
+    "id": "2739",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E5%B8%9D%E7%9A%84%E9%8A%98%E8%AA%93_%E2%80%A7_%E7%BE%8E%E7%B4%A2%E4%B8%8D%E9%81%94%E7%B1%B3%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2739"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -16914,6 +16920,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10085"
   },
   {
+    "title": "No. 10086 冥衣白羊座 ‧ 希歐",
+    "id": "10086",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E8%A1%A3%E7%99%BD%E7%BE%8A%E5%BA%A7_%E2%80%A7_%E5%B8%8C%E6%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/10086"
+  },
+  {
     "title": "No. 10087 天雄星 ‧ 艾亞哥斯",
     "id": "10087",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%9B%84%E6%98%9F_%E2%80%A7_%E8%89%BE%E4%BA%9E%E5%93%A5%E6%96%AF",
@@ -16938,10 +16950,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10090"
   },
   {
+    "title": "No. 10091 冥王 ‧ 黑帝斯",
+    "id": "10091",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%8E%8B_%E2%80%A7_%E9%BB%91%E5%B8%9D%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10091"
+  },
+  {
     "title": "No. 10092 死神 ‧ 塔納托斯",
     "id": "10092",
     "link": "https://tos.fandom.com/zh/wiki/%E6%AD%BB%E7%A5%9E_%E2%80%A7_%E5%A1%94%E7%B4%8D%E6%89%98%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/10092"
+  },
+  {
+    "title": "No. 10093 海皇 ‧ 波賽頓",
+    "id": "10093",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B5%B7%E7%9A%87_%E2%80%A7_%E6%B3%A2%E8%B3%BD%E9%A0%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/10093"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
