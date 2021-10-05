@@ -2,12 +2,20 @@ package main;
 
 import flyingkite.tool.TicTac2;
 
+import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Stack;
+import java.util.Deque;
+import java.util.List;
+import java.util.Random;
 
 public class LeetCode implements Runnable {
     @Override
     public void run() {
+        runIncArray();
+    }
+
+    private void run2() {
         //int ans = coinChange(new int[]{186,419,83,408}, 6249);
         //ln("ans = %s", ans);
 
@@ -32,19 +40,74 @@ public class LeetCode implements Runnable {
         }
         t.tac("done");
         ln("% 4d primes = %s", s, 1.0 * s / max);
-
-//        t.tic();
-//        for (int i = 0; i < max; i++) {
-//            if (p2(i)) {
-//                s++;
-//                //ln("Yes Prime V = %s", i);
-//                //ln("% 4d primes = %s", s, 1.0 * s / max);
-//            } else {
-//                //ln("No  Prime X = %s", i);
-//            }
-//        }
-//        t.tac("done");
     }
+
+    private void runIncArray() {
+        /// find increasing in array
+        for (int i = 0; i < 3; i++) {
+            List<Integer> li = randomList(10, 7, 10);
+            List<Integer> inc = findInc(li);
+            List<Integer> dsc = findDsc(li);
+            ln("For li  = %s", li);
+            ln("    Inc = %s", inc);
+            ln("    Dsc = %s", dsc);
+        }
+    }
+
+    public List<Integer> findInc(List<Integer> src) {
+        if (src == null) return null;
+
+        Deque<Integer> idx = new ArrayDeque<>();
+        for (int i = 0; i < src.size(); i++) {
+            while (!idx.isEmpty() && src.get(idx.peek()) > src.get(i)) {
+                int x = idx.pop();
+                //ln("pops %s", x);
+            }
+            idx.push(i);
+        }
+        // idx to ans
+        //ln("index = %s", idx);
+        List<Integer> ans = new ArrayList<>();
+        int n = idx.size();
+        for (int i = 0; i < n; i++) {
+            ans.add(0, src.get(idx.removeFirst()));
+        }
+        //ln("ans = %s", ans);
+        return ans;
+    }
+
+    public List<Integer> findDsc(List<Integer> src) {
+        if (src == null) return null;
+
+        Deque<Integer> idx = new ArrayDeque<>();
+        for (int i = 0; i < src.size(); i++) {
+            while (!idx.isEmpty() && src.get(idx.peek()) < src.get(i)) {
+                int x = idx.pop();
+                //ln("pops %s", x);
+            }
+            idx.push(i);
+        }
+        // idx to ans
+        //ln("index = %s", idx);
+        List<Integer> ans = new ArrayList<>();
+        int n = idx.size();
+        for (int i = 0; i < n; i++) {
+            ans.add(0, src.get(idx.removeFirst()));
+        }
+        //ln("ans = %s", ans);
+        return ans;
+    }
+
+    // min inclusive, max exclusive
+    public static List<Integer> randomList(int size, int min, int max) {
+        Random r = new Random();
+        List<Integer> ans = new ArrayList<>();
+        for (int i = 0; i < size; i++) {
+            ans.add(r.nextInt(max - min) + min);
+        }
+        return ans;
+    }
+
 
     // https://leetcode.com/problems/coin-change/
     // 11:24 starts read question, 11:30 pause, 11:55 finish first solution
