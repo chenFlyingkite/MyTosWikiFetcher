@@ -5727,7 +5727,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES5399}}  5400 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5399?action=edit
 --  #首消水木Combo同等盾  E : [0]  ->  ->  -> 
 https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401-5700
--   336 skills
+-   345 skills
 --  #5401  {{ES5401}} : [0]  -> 首消水光Combo同等盾 -> 同時首批消除相同組數的<br>水及光符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401
 --  #E  首消水暗Combo同等盾 : [0]  ->  ->  -> 
 --  #{{ES5402}}  5403 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5402?action=edit
@@ -5961,7 +5961,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES5573}}  5574 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5573?action=edit
 --  #敵技5574  E : [0]  ->  ->  -> 
 --  #5575  {{ES5575}} : [0]  -> 敵技5575 -> • 回合結束時引爆所有光符石<br>⇒ 提升下一次攻擊力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5575
---  #E  敵技5576 : [0]  ->  ->  -> 
+--  #E  【引爆攻擊 - 暗】 : [0]  ->  ->  -> 
 --  #{{ES5576}}  5577 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5576?action=edit
 --  #敵技5577  E : [0]  ->  ->  -> 
 --  #5578  {{ES5578}} : [0]  -> 敵技5578 -> • 當首次受到敵人攻擊時<br>⇒ 暴風席捲最左方直行位置<br>• 第 2 次受到敵人攻擊時<br>⇒ 暴風席捲最右方直行位置<br>• 暴風位置內的<br>符石不能消除或引爆<br>• 該位置一經觸碰<br>⇒ 即時停止移動符石<br>＊以上攻擊循環周而復始 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5578
@@ -5971,11 +5971,11 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #5581  {{ES5581}} : [0]  -> 【時間黑洞 - 6】 -> • 首回合隨機 6 個位置<br>⇒ 出現時間黑洞<br>• 每當敵人發動攻擊時<br>⇒ 額外 6 個位置<br>出現時間黑洞<br>• 每次觸碰時間黑洞<br>⇒ 移動符石時間減少 3 秒 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5581
 --  #E  敵技5582 : [0]  ->  ->  -> 
 --  #{{ES5582}}  5583 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5582?action=edit
---  #敵技5583  E : [0]  ->  ->  -> 
---  #5584  {{ES5584}} : [0]  -> 敵技5584 -> 首批消除木符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人回復相等於<br>該傷害的血量<br>⓷ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5584
---  #E  敵技5585 : [0]  ->  ->  -> 
+--  #【反首消火符石盾 - 化血 - 反擊】  E : [0]  ->  ->  -> 
+--  #5584  {{ES5584}} : [0]  -> 【反首消木符石盾 - 化血 - 反擊】 -> 首批消除木符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人回復相等於<br>該傷害的血量<br>⓷ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5584
+--  #E  【反首消光符石盾 - 化血 - 反擊】 : [0]  ->  ->  -> 
 --  #{{ES5585}}  5586 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5585?action=edit
---  #敵技5586  E : [0]  ->  ->  -> 
+--  #【反首消暗符石盾 - 化血 - 反擊】  E : [0]  ->  ->  -> 
 --  #5587  {{ES5587}} : [0]  -> 【反首消心符石盾 - 化血 - 反擊】 -> 首批消除心符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人回復相等於<br>該傷害的血量<br>⓷ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5587
 --  #E  敵技5588 : [0]  ->  ->  -> 
 --  #{{ES5588}}  5589 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5588?action=edit
@@ -6008,59 +6008,68 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  【起結有序 - 木】 : [0]  ->  ->  -> 
 --  #{{ES5609}}  5610 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5609?action=edit
 --  #敵技5610  E : [0]  ->  ->  -> 
---  #5611  {{ES5611}} : [0]  -> 敵技5611 -> 需以指定 (暗符石優先) 位置<br>(綠色漩渦) 開始轉珠及<br>在指定位置 (紅色漩渦)<br>結束轉珠。<br><br>未有達成上述條件：<br>⓵ 該回合攻擊力變為 0<br>⓶ 無法進行回復 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5611
+--  #5611  {{ES5611}} : [0]  -> 【起結有序 - 暗】 -> 需以指定 (暗符石優先) 位置<br>(綠色漩渦) 開始轉珠及<br>在指定位置 (紅色漩渦)<br>結束轉珠。<br><br>未有達成上述條件：<br>⓵ 該回合攻擊力變為 0<br>⓶ 無法進行回復 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5611
 --  #E  敵技5612 : [0]  ->  ->  -> 
---  #{{ES5612}}  5615 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5612?action=edit
---  #敵技5615  E : [0]  ->  ->  -> 
---  #5616  {{ES5616}} : [0]  -> 敵技5616 -> 1 回合內，所有成員<br>⓵ 陷入休眠狀態<br>⓶ 期間無法使用技能及<br>攻擊力變 0 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5616
---  #E  敵技5617 : [0]  ->  ->  -> 
---  #{{ES5617}}  5618 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5617?action=edit
---  #敵技5618  E : [0]  ->  ->  -> 
---  #5619  {{ES5619}} : [0]  -> 敵技5619 -> 4 回合內，所有成員<br>⓵ 陷入休眠狀態<br>⓶ 期間無法使用技能及<br>攻擊力變 0 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5619
---  #E  敵技5620 : [0]  ->  ->  -> 
---  #{{ES5620}}  5621 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5620?action=edit
---  #敵技5621  E : [0]  ->  ->  -> 
---  #5622  {{ES5622}} : [0]  -> 敵技5622 -> • 水屬性傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5622
---  #E  敵技5623 : [0]  ->  ->  -> 
---  #{{ES5623}}  5624 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5623?action=edit
---  #敵技5624  E : [0]  ->  ->  -> 
---  #5625  {{ES5625}} : [0]  -> 敵技5625 -> • 光屬性傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5625
---  #E  敵技5626 : [0]  ->  ->  -> 
---  #{{ES5626}}  5627 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5626?action=edit
---  #敵技5627  E : [0]  ->  ->  -> 
---  #5628  {{ES5628}} : [0]  -> 敵技5628 -> • 每回合根據場上火符石數量<br>⇒ 轉化相應粒數的火符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5628
---  #E  敵技5629 : [0]  ->  ->  -> 
---  #{{ES5629}}  5630 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5629?action=edit
---  #敵技5630  E : [0]  ->  ->  -> 
---  #5631  {{ES5631}} : [0]  -> 敵技5631 -> • 每回合根據場上暗符石數量<br>⇒ 轉化相應粒數的暗符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5631
---  #E  敵技5632 : [0]  ->  ->  -> 
---  #{{ES5632}}  5633 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5632?action=edit
---  #敵技5633  E : [0]  ->  ->  -> 
---  #5634  {{ES5634}} : [0]  -> 敵技5634 -> • 每回合將所有符石轉換<br><br>• 達成首消固定連擊 (Combo)<br>⓵ 可扣除敵人 20% 生命力<br>⓶ 敵人不會發動攻擊<br><br>• 除此以外，<br>敵人不會受到任何傷害<br><br>• 沒有達成上述條件<br>⇒ 敵人發動攻擊 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5634
---  #E  敵技5635 : [0]  ->  ->  -> 
---  #{{ES5635}}  5636 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5635?action=edit
---  #敵技5636  E : [0]  ->  ->  -> 
---  #5637  {{ES5637}} : [0]  -> 敵技5637 -> • 入場時引爆所有符石<br>⇒ 掉落火符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5637
---  #E  敵技5638 : [0]  ->  ->  -> 
---  #{{ES5638}}  5639 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5638?action=edit
---  #敵技5639  E : [0]  ->  ->  -> 
---  #5640  {{ES5640}} : [0]  -> 敵技5640 -> • 入場時引爆所有符石<br>⇒ 掉落暗符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5640
---  #E  敵技5641 : [0]  ->  ->  -> 
---  #{{ES5641}}  5642 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5641?action=edit
---  #敵技5642  E : [0]  ->  ->  -> 
---  #5643  {{ES5643}} : [0]  -> 敵技5643 -> • 敵人生命分為 2 個階段<br>• 召喚師需要分階段攻擊敵人<br><br>▋階段 1<br>【敵屬變更 - 隊長屬性】<br>(轉換敵人屬性技能效果無效)<br>【隊長屬性連擊零化】<br><br>▋階段 2<br>【灼熱地型 10,000 ‧ 4 倍攻】 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5643
---  #E  【力的印記 - 心】 : [0]  ->  ->  -> 
---  #{{ES5644}}  5645 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5644?action=edit
---  #敵技5645  E : [0]  ->  ->  -> 
---  #5646  {{ES5646}} : [0]  -> 敵技5646 ->  -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5646
---  #E  敵技5647 : [0]  ->  ->  -> 
---  #{{ES5647}}  5648 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5647?action=edit
---  #敵技5648  E : [0]  ->  ->  -> 
---  #5649  {{ES5649}} : [0]  -> 敵技5649 -> 首批消除水符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5649
---  #E  敵技5650 : [0]  ->  ->  -> 
---  #{{ES5650}}  5651 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5650?action=edit
---  #敵技5651  E : [0]  ->  ->  -> 
---  #5652  {{ES5652}} : [0]  -> 敵技5652 -> 首批消除光符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5652
---  #E  敵技5653 : [0]  ->  ->  -> 
---  #{{ES5653}}  5654 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5653?action=edit
---  #敵技5654  E : [0]  ->  ->  -> 
+--  #{{ES5612}}  5613 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5612?action=edit
+--  #【五芒星印記 (虛之印記) - 光】  E : [0]  ->  ->  -> 
+--  #5614  {{ES5614}} : [0]  -> 【五芒星印記 (虛之印記) - 光】 -> • 每回合所有光符石<br>⇒ 添加五芒星印記<br><br>• 每消除 1 粒五芒星印記符石<br>⇒ 獲得 2 重印記力量<br>• 疊至最高 10 重印記力量<br>⇒ 回合結束時召喚師會死亡<br><br>• 召喚師死亡後<br>⇒ 清空五芒星印記及印記力量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5614
+--  #E  敵技5615 : [0]  ->  ->  -> 
+--  #{{ES5615}}  5616 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5615?action=edit
+--  #敵技5616  E : [0]  ->  ->  -> 
+--  #5617  {{ES5617}} : [0]  -> 敵技5617 -> 2 回合內，所有成員<br>⓵ 陷入休眠狀態<br>⓶ 期間無法使用技能及<br>攻擊力變 0 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5617
+--  #E  敵技5618 : [0]  ->  ->  -> 
+--  #{{ES5618}}  5619 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5618?action=edit
+--  #敵技5619  E : [0]  ->  ->  -> 
+--  #5620  {{ES5620}} : [0]  -> 敵技5620 -> 5 回合內，所有成員<br>⓵ 陷入休眠狀態<br>⓶ 期間無法使用技能及<br>攻擊力變 0 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5620
+--  #E  敵技5621 : [0]  ->  ->  -> 
+--  #{{ES5621}}  5622 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5621?action=edit
+--  #敵技5622  E : [0]  ->  ->  -> 
+--  #5623  {{ES5623}} : [0]  -> 敵技5623 -> • 火屬性傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5623
+--  #E  敵技5624 : [0]  ->  ->  -> 
+--  #{{ES5624}}  5625 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5624?action=edit
+--  #敵技5625  E : [0]  ->  ->  -> 
+--  #5626  {{ES5626}} : [0]  -> 【暗屬防禦盾】 -> • 暗屬性傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5626
+--  #E  敵技5627 : [0]  ->  ->  -> 
+--  #{{ES5627}}  5628 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5627?action=edit
+--  #敵技5628  E : [0]  ->  ->  -> 
+--  #5629  {{ES5629}} : [0]  -> 敵技5629 -> • 每回合根據場上木符石數量<br>⇒ 轉化相應粒數的木符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5629
+--  #E  敵技5630 : [0]  ->  ->  -> 
+--  #{{ES5630}}  5631 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5630?action=edit
+--  #【符石轉暗】  E : [0]  ->  ->  -> 
+--  #5632  {{ES5632}} : [0]  -> 敵技5632 -> • 每回合根據場上心符石數量<br>⇒ 轉化相應粒數的暗符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5632
+--  #E  【附加消除】 : [0]  ->  ->  -> 
+--  #{{ES5633}}  5634 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5633?action=edit
+--  #【符石轉換 ‧ 固定連擊凝護】  E : [0]  ->  ->  -> 
+--  #5635  {{ES5635}} : [0]  -> 【符石轉化五屬各 6 粒】 -> • 每回合轉化五屬符石各 6 粒 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5635
+--  #E  敵技5636 : [0]  ->  ->  -> 
+--  #{{ES5636}}  5637 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5636?action=edit
+--  #敵技5637  E : [0]  ->  ->  -> 
+--  #5638  {{ES5638}} : [0]  -> 敵技5638 -> • 入場時引爆所有符石<br>⇒ 掉落木符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5638
+--  #E  敵技5639 : [0]  ->  ->  -> 
+--  #{{ES5639}}  5640 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5639?action=edit
+--  #【全版引爆 - 掉落暗符石】  E : [0]  ->  ->  -> 
+--  #5641  {{ES5641}} : [0]  -> 敵技5641 -> • 入場時引爆所有符石<br>⇒ 掉落心符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5641
+--  #E  敵技5642 : [0]  ->  ->  -> 
+--  #{{ES5642}}  5643 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5642?action=edit
+--  #敵技5643  E : [0]  ->  ->  -> 
+--  #5644  {{ES5644}} : [0]  -> 【力的印記 - 心】 -> • 回合結束時所有心符石<br>⇒ 添加力的印記<br><br>• 每消除 1 粒力的印記符石<br>⇒ 下回合獲得 1 重印記力量<br>• 疊至最高 10 重印記力量<br>⇒ 才會對敵人造成傷害<br><br>• 召喚師死亡後<br>⇒ 清空力的印記及印記力量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5644
+--  #E  敵技5645 : [0]  ->  ->  -> 
+--  #{{ES5645}}  5646 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5645?action=edit
+--  #敵技5646  E : [0]  ->  ->  -> 
+--  #5647  {{ES5647}} : [0]  -> 敵技5647 -> • 每回合隨機在 8 個位置<br>⇒ 施放瘴氣<br><br>• 每經過瘴氣位置<br>⇒ 召喚師累積 10% 瘴氣<br>• 當累積至 100% 瘴氣<br>⇒ 回合結束時召喚師會死亡 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5647
+--  #E  敵技5648 : [0]  ->  ->  -> 
+--  #{{ES5648}}  5649 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5648?action=edit
+--  #敵技5649  E : [0]  ->  ->  -> 
+--  #5650  {{ES5650}} : [0]  -> 敵技5650 -> 首批消除火符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5650
+--  #E  敵技5651 : [0]  ->  ->  -> 
+--  #{{ES5651}}  5652 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5651?action=edit
+--  #敵技5652  E : [0]  ->  ->  -> 
+--  #5653  {{ES5653}} : [0]  -> 敵技5653 -> 首批消除暗符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5653
+--  #E  敵技5654 : [0]  ->  ->  -> 
+--  #{{ES5654}}  5655 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5654?action=edit
+--  #【傀儡線 ‧ 點燃狀態 - 傀儡線失效】  E : [0]  ->  ->  -> 
+--  #5656  {{ES5656}} : [0]  -> 【傀儡線 ‧ 凍結狀態 - 傀儡線失效】 -> • 首回合隨機 4 個位置<br>⇒ 出現傀儡線<br>• 每當敵人發動攻擊時<br>⇒ 額外 2 個位置<br>出現傀儡線<br>• 傀儡線一經觸碰<br>⓵ 即時停止移動符石<br>⓶ 該回合攻擊力變為 0<br>⓷ 該回合回復力變為 0<br><br>• 敵人置身凍結狀態時<br>⇒「傀儡線」敵技失效 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5656
+--  #E  【淨世】 : [0]  ->  ->  -> 
+--  #{{ES5657}}  5658 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5657?action=edit
+--  #【自戕10% - 敵攻自戕20%】  E : [0]  ->  ->  -> 
+--  #5659  {{ES5659}} : [0]  -> 【自戕10% - 指定敵攻自戕20%】 -> • 進場時敵人<br>⇒ 消耗自身 10% 生命力<br>• 每次受到此敵人攻擊時<br>⇒ 敵人消耗自身 20% 生命力<br>• 敵人不會受到任何傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5659
