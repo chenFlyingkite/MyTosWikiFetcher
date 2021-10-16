@@ -16980,10 +16980,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10094"
   },
   {
+    "title": "No. 10097 藥理編織．貝絲",
+    "id": "10097",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%97%A5%E7%90%86%E7%B7%A8%E7%B9%94%EF%BC%8E%E8%B2%9D%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/10097"
+  },
+  {
     "title": "No. 10098 亡命燭火．比夫隆",
     "id": "10098",
     "link": "https://tos.fandom.com/zh/wiki/%E4%BA%A1%E5%91%BD%E7%87%AD%E7%81%AB%EF%BC%8E%E6%AF%94%E5%A4%AB%E9%9A%86",
     "linkId": "http://zh.tos.wikia.com/wiki/10098"
+  },
+  {
+    "title": "No. 10099 殘暴凶戾．本耶普",
+    "id": "10099",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AE%98%E6%9A%B4%E5%87%B6%E6%88%BE%EF%BC%8E%E6%9C%AC%E8%80%B6%E6%99%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/10099"
   },
   {
     "title": "No. 10100 傲然綻光 ‧ 烏瑞亞",

@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3650 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3653 items, basePath = https://tos.fandom.com, offset = null)
 1000%不可能！ -> https://tos.fandom.com/zh/wiki/1000%25%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%81
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 2000_種技能擁有者 -> https://tos.fandom.com/zh/wiki/2000_%E7%A8%AE%E6%8A%80%E8%83%BD%E6%93%81%E6%9C%89%E8%80%85
@@ -230,6 +230,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 元素創念_‧_強 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%89%B5%E5%BF%B5_%E2%80%A7_%E5%BC%B7
 元素加冕_‧_支配 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%8A%A0%E5%86%95_%E2%80%A7_%E6%94%AF%E9%85%8D
 元素協力_‧_獸 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%8D%94%E5%8A%9B_%E2%80%A7_%E7%8D%B8
+元素團圓之力 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%9C%98%E5%9C%93%E4%B9%8B%E5%8A%9B
 元素均霑 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%9D%87%E9%9C%91
 元素均霑_‧_強 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%9D%87%E9%9C%91_%E2%80%A7_%E5%BC%B7
 元素天賦 -> https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%A4%A9%E8%B3%A6
@@ -1649,6 +1650,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 治癒之靈_‧_強 -> https://tos.fandom.com/zh/wiki/%E6%B2%BB%E7%99%92%E4%B9%8B%E9%9D%88_%E2%80%A7_%E5%BC%B7
 治癒突擊_‧_光 -> https://tos.fandom.com/zh/wiki/%E6%B2%BB%E7%99%92%E7%AA%81%E6%93%8A_%E2%80%A7_%E5%85%89
 治癒超魔力 -> https://tos.fandom.com/zh/wiki/%E6%B2%BB%E7%99%92%E8%B6%85%E9%AD%94%E5%8A%9B
+治癒魔法 -> https://tos.fandom.com/zh/wiki/%E6%B2%BB%E7%99%92%E9%AD%94%E6%B3%95
 沼澤穿梭 -> https://tos.fandom.com/zh/wiki/%E6%B2%BC%E6%BE%A4%E7%A9%BF%E6%A2%AD
 泡沫爆破 -> https://tos.fandom.com/zh/wiki/%E6%B3%A1%E6%B2%AB%E7%88%86%E7%A0%B4
 泡沫爆裂_‧_加冕 -> https://tos.fandom.com/zh/wiki/%E6%B3%A1%E6%B2%AB%E7%88%86%E8%A3%82_%E2%80%A7_%E5%8A%A0%E5%86%95
@@ -2573,6 +2575,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 終極之判_‧_木 -> https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E4%B9%8B%E5%88%A4_%E2%80%A7_%E6%9C%A8
 終極之判_‧_水 -> https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E4%B9%8B%E5%88%A4_%E2%80%A7_%E6%B0%B4
 終極之判_‧_火 -> https://tos.fandom.com/zh/wiki/%E7%B5%82%E6%A5%B5%E4%B9%8B%E5%88%A4_%E2%80%A7_%E7%81%AB
+終焉吞噬 -> https://tos.fandom.com/zh/wiki/%E7%B5%82%E7%84%89%E5%90%9E%E5%99%AC
 終焉時刻！逢魔Zi-O必殺擊！ -> https://tos.fandom.com/zh/wiki/%E7%B5%82%E7%84%89%E6%99%82%E5%88%BB%EF%BC%81%E9%80%A2%E9%AD%94Zi-O%E5%BF%85%E6%AE%BA%E6%93%8A%EF%BC%81
 結界術_‧_幽冥 -> https://tos.fandom.com/zh/wiki/%E7%B5%90%E7%95%8C%E8%A1%93_%E2%80%A7_%E5%B9%BD%E5%86%A5
 結界術_‧_玄光 -> https://tos.fandom.com/zh/wiki/%E7%B5%90%E7%95%8C%E8%A1%93_%E2%80%A7_%E7%8E%84%E5%85%89
@@ -3651,4 +3654,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-3677 skills
+3680 skills

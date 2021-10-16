@@ -1,100 +1,40 @@
 活動時間表
 0 ~ 0 -> [開始, 結束, 活動/關卡]
   link = 
-1631520000 ~ 1633881540 -> [9月13日(一) 16:00, 10月10日(日) 23:59, 第八感的領略 ※ 試玩任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%85%AB%E6%84%9F%E7%9A%84%E9%A0%98%E7%95%A5
+1633881600 ~ 1634486400 -> [10月11日(一), 10月17日(日), 燃燒的戰魂 ※ 福利關卡︰水、光屬性關卡體力減半]
+  link = https://tos.fandom.com/zh/wiki/%E7%87%83%E7%87%92%E7%9A%84%E6%88%B0%E9%AD%82
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%85%AB%E6%84%9F%E7%9A%84%E9%A0%98%E7%95%A5",
-  "name": "第八感的領略",
+  "link": "https://tos.fandom.com/zh/wiki/%E7%87%83%E7%87%92%E7%9A%84%E6%88%B0%E9%AD%82",
+  "name": "燃燒的戰魂",
+  "icon": "0427"
+},
+1633928400 ~ 1635782340 -> [10月11日(一) 13:00, 11月01日(一) 23:59, 召喚卡匣綻放榮耀之光 ※ 試玩任務]
+  link = https://tos.fandom.com/zh/wiki/%E5%8F%AC%E5%96%9A%E5%8D%A1%E5%8C%A3%E7%B6%BB%E6%94%BE%E6%A6%AE%E8%80%80%E4%B9%8B%E5%85%89
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%8F%AC%E5%96%9A%E5%8D%A1%E5%8C%A3%E7%B6%BB%E6%94%BE%E6%A6%AE%E8%80%80%E4%B9%8B%E5%85%89",
+  "name": "召喚卡匣綻放榮耀之光",
   "icon": "0000"
 },
-1631520000 ~ 1633881540 -> [9月13日(一) 16:00, 10月10日(日) 23:59, 雅典娜的血所復活的聖衣 ※ 武裝任務]
-  link = https://tos.fandom.com/zh/wiki/%E9%9B%85%E5%85%B8%E5%A8%9C%E7%9A%84%E8%A1%80%E6%89%80%E5%BE%A9%E6%B4%BB%E7%9A%84%E8%81%96%E8%A1%A3
+1634486400 ~ 1638115200 -> [10月18日(一), 11月28日(日), 殘虐獵物 ※ 全新輪迴]
+  link = https://tos.fandom.com/zh/wiki/%E6%AE%98%E8%99%90%E7%8D%B5%E7%89%A9
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9B%85%E5%85%B8%E5%A8%9C%E7%9A%84%E8%A1%80%E6%89%80%E5%BE%A9%E6%B4%BB%E7%9A%84%E8%81%96%E8%A1%A3",
-  "name": "雅典娜的血所復活的聖衣",
-  "icon": "0000"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%AE%98%E8%99%90%E7%8D%B5%E7%89%A9",
+  "name": "殘虐獵物",
+  "icon": "10099"
 },
-1632412800 ~ 1633881540 -> [9月24日(五) 00:00, 10月10日(日) 23:59, 奉獻生命與靈魂 ※ 特別任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%A5%89%E7%8D%BB%E7%94%9F%E5%91%BD%E8%88%87%E9%9D%88%E9%AD%82
+1634486400 ~ 1635696000 -> [10月18日(一), 10月31日(日), 見證眾生團圓的一刻 ※ 全新挑戰]
+  link = https://tos.fandom.com/zh/wiki/%E8%A6%8B%E8%AD%89%E7%9C%BE%E7%94%9F%E5%9C%98%E5%9C%93%E7%9A%84%E4%B8%80%E5%88%BB
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A5%89%E7%8D%BB%E7%94%9F%E5%91%BD%E8%88%87%E9%9D%88%E9%AD%82",
-  "name": "奉獻生命與靈魂",
-  "icon": "0000"
+  "link": "https://tos.fandom.com/zh/wiki/%E8%A6%8B%E8%AD%89%E7%9C%BE%E7%94%9F%E5%9C%98%E5%9C%93%E7%9A%84%E4%B8%80%E5%88%BB",
+  "name": "見證眾生團圓的一刻",
+  "icon": "2738"
 },
-1631520000 ~ 1633881540 -> [9月13日(一) 16:00, 10月10日(日) 23:59, 冥界使者死鬥 I ※ 全新挑戰]
-  link = https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E4%BD%BF%E8%80%85%E6%AD%BB%E9%AC%A5_I
+1633881600 ~ 1635091200 -> [10月11日(一), 10月24日(日), 歡迎來到七輪會 ※ 全新雙週]
+  link = https://tos.fandom.com/zh/wiki/%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E4%B8%83%E8%BC%AA%E6%9C%83
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E4%BD%BF%E8%80%85%E6%AD%BB%E9%AC%A5_I",
-  "name": "冥界使者死鬥 I",
-  "icon": "10084"
-},
-1632067200 ~ 1633881540 -> [9月20日(一) 00:00, 10月10日(日) 23:59, 冥界使者死鬥 II ※ 全新挑戰]
-  link = https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E4%BD%BF%E8%80%85%E6%AD%BB%E9%AC%A5_II
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%86%A5%E7%95%8C%E4%BD%BF%E8%80%85%E6%AD%BB%E9%AC%A5_II",
-  "name": "冥界使者死鬥 II",
-  "icon": "10087"
-},
-1632672000 ~ 1633881600 -> [9月27日(一), 10月10日(日), 焚盡罪惡 ※ 全新雙週]
-  link = https://tos.fandom.com/zh/wiki/%E7%84%9A%E7%9B%A1%E7%BD%AA%E6%83%A1
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%84%9A%E7%9B%A1%E7%BD%AA%E6%83%A1",
-  "name": "焚盡罪惡",
-  "icon": "10081"
-},
-1633276800 ~ 1633881600 -> [10月04日(一), 10月10日(日), 大地的震撼者 ※ 全新戰慄級]
-  link = https://tos.fandom.com/zh/wiki/%E5%A4%A7%E5%9C%B0%E7%9A%84%E9%9C%87%E6%92%BC%E8%80%85
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E5%9C%B0%E7%9A%84%E9%9C%87%E6%92%BC%E8%80%85",
-  "name": "大地的震撼者",
-  "icon": "10093"
-},
-1633096800 ~ 1633449540 -> [10月01日(五) 22:00, 10月05日(二) 23:59, 把幻想化為現實的神 ※ 全新地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%8A%8A%E5%B9%BB%E6%83%B3%E5%8C%96%E7%82%BA%E7%8F%BE%E5%AF%A6%E7%9A%84%E7%A5%9E
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%8A%8A%E5%B9%BB%E6%83%B3%E5%8C%96%E7%82%BA%E7%8F%BE%E5%AF%A6%E7%9A%84%E7%A5%9E",
-  "name": "把幻想化為現實的神",
-  "icon": "10090"
-},
-1633528800 ~ 1633881540 -> [10月06日(三) 22:00, 10月10日(日) 23:59, 霸佔大地的邪神 ※ 全新夢魘級]
-  link = https://tos.fandom.com/zh/wiki/%E9%9C%B8%E4%BD%94%E5%A4%A7%E5%9C%B0%E7%9A%84%E9%82%AA%E7%A5%9E
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E4%BD%94%E5%A4%A7%E5%9C%B0%E7%9A%84%E9%82%AA%E7%A5%9E",
-  "name": "霸佔大地的邪神",
-  "icon": "10091"
-},
-0 ~ 0 -> [魔神戰『一擊粉碎黃金聖衣的力量』]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%A5%9E%E6%88%B0%E6%B4%BB%E5%8B%95
-1632715200 ~ 1632931140 -> [9月27日(一) 12:00, 9月29日(三) 23:59, 能把任何生命毀滅的死神 - 備戰階段]
-  link = https://tos.fandom.com/zh/wiki/%E8%83%BD%E6%8A%8A%E4%BB%BB%E4%BD%95%E7%94%9F%E5%91%BD%E6%AF%80%E6%BB%85%E7%9A%84%E6%AD%BB%E7%A5%9E
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%83%BD%E6%8A%8A%E4%BB%BB%E4%BD%95%E7%94%9F%E5%91%BD%E6%AF%80%E6%BB%85%E7%9A%84%E6%AD%BB%E7%A5%9E",
-  "name": "能把任何生命毀滅的死神",
-  "icon": "10092"
-},
-1632888000 ~ 1633535940 -> [9月29日(三) 12:00, 10月06日(三) 23:59, 能把任何生命毀滅的死神 - 兌換階段]
-  link = https://tos.fandom.com/zh/wiki/%E8%83%BD%E6%8A%8A%E4%BB%BB%E4%BD%95%E7%94%9F%E5%91%BD%E6%AF%80%E6%BB%85%E7%9A%84%E6%AD%BB%E7%A5%9E
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%83%BD%E6%8A%8A%E4%BB%BB%E4%BD%95%E7%94%9F%E5%91%BD%E6%AF%80%E6%BB%85%E7%9A%84%E6%AD%BB%E7%A5%9E",
-  "name": "能把任何生命毀滅的死神",
-  "icon": "10092"
-},
-0 ~ 0 -> [⬇ 所有地區關卡 ⬇]
-  link = 
-1631001600 ~ 4102329600 -> [9月07日(二) 16:00, 12月31日(四) 00:00, 女祭司的悲慟 Extra ※ 追加挑戰關卡]
-  link = https://tos.fandom.com/zh/wiki/%E5%A5%B3%E7%A5%AD%E5%8F%B8%E7%9A%84%E6%82%B2%E6%85%9F_Extra
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E7%A5%AD%E5%8F%B8%E7%9A%84%E6%82%B2%E6%85%9F_Extra",
-  "name": "女祭司的悲慟 Extra",
-  "icon": "1987"
-},
-1630252800 ~ 1633881600 -> [8月30日(一), 10月10日(日), 精挑細選的美麗 ※ 全新輪迴]
-  link = https://tos.fandom.com/zh/wiki/%E7%B2%BE%E6%8C%91%E7%B4%B0%E9%81%B8%E7%9A%84%E7%BE%8E%E9%BA%97
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%B2%BE%E6%8C%91%E7%B4%B0%E9%81%B8%E7%9A%84%E7%BE%8E%E9%BA%97",
-  "name": "精挑細選的美麗",
-  "icon": "10060"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E4%B8%83%E8%BC%AA%E6%9C%83",
+  "name": "歡迎來到七輪會",
+  "icon": "10094"
 },
 1632672000 ~ 1633881600 -> [9月27日(一), 10月10日(日), 膽小怕生的仙將 ※ 復刻雙週]
   link = https://tos.fandom.com/zh/wiki/%E8%86%BD%E5%B0%8F%E6%80%95%E7%94%9F%E7%9A%84%E4%BB%99%E5%B0%87
@@ -110,6 +50,34 @@
   "name": "異日囑託",
   "icon": "1810"
 },
+1633881600 ~ 1635091200 -> [10月11日(一), 10月24日(日), 愛好美女的仙將 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E6%84%9B%E5%A5%BD%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BB%99%E5%B0%87
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E5%A5%BD%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BB%99%E5%B0%87",
+  "name": "愛好美女的仙將",
+  "icon": "2145"
+},
+1633881600 ~ 1635091200 -> [10月11日(一), 10月24日(日), 救助所有生命 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E6%95%91%E5%8A%A9%E6%89%80%E6%9C%89%E7%94%9F%E5%91%BD
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%95%91%E5%8A%A9%E6%89%80%E6%9C%89%E7%94%9F%E5%91%BD",
+  "name": "救助所有生命",
+  "icon": "1865"
+},
+1635091200 ~ 1636300800 -> [10月25日(一), 11月07日(日), 愛說教的仙將 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%AA%AA%E6%95%99%E7%9A%84%E4%BB%99%E5%B0%87
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%AA%AA%E6%95%99%E7%9A%84%E4%BB%99%E5%B0%87",
+  "name": "愛說教的仙將",
+  "icon": "2206"
+},
+1635091200 ~ 1636300800 -> [10月25日(一), 11月07日(日), 瘋獸之回憶 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E7%98%8B%E7%8D%B8%E4%B9%8B%E5%9B%9E%E6%86%B6
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E7%98%8B%E7%8D%B8%E4%B9%8B%E5%9B%9E%E6%86%B6",
+  "name": "瘋獸之回憶",
+  "icon": "1866"
+},
 1633017600 ~ 1635696000 -> [10月01日(五), 10月31日(日), 十月挑戰任務 ※ 每月挑戰關卡]
   link = https://tos.fandom.com/zh/wiki/%E5%8D%81%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99
 {
@@ -117,12 +85,33 @@
   "name": "十月挑戰任務",
   "icon": "2634"
 },
-1633701600 ~ 1633967940 -> [10月08日(五) 22:00, 10月11日(一) 23:59, 混沌之火 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%B7%B7%E6%B2%8C%E4%B9%8B%E7%81%AB
+1634047200 ~ 1634313540 -> [10月12日(二) 22:00, 10月15日(五) 23:59, 理型的殘影 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E7%90%86%E5%9E%8B%E7%9A%84%E6%AE%98%E5%BD%B1
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E6%B7%B7%E6%B2%8C%E4%B9%8B%E7%81%AB",
-  "name": "混沌之火",
-  "icon": "2574"
+  "link": "https://tos.fandom.com/zh/wiki/%E7%90%86%E5%9E%8B%E7%9A%84%E6%AE%98%E5%BD%B1",
+  "name": "理型的殘影",
+  "icon": "2022"
+},
+1634306400 ~ 1634572740 -> [10月15日(五) 22:00, 10月18日(一) 23:59, 愛的抱抱 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E6%84%9B%E7%9A%84%E6%8A%B1%E6%8A%B1
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E7%9A%84%E6%8A%B1%E6%8A%B1",
+  "name": "愛的抱抱",
+  "icon": "2575"
+},
+1634652000 ~ 1634918340 -> [10月19日(二) 22:00, 10月22日(五) 23:59, 論產生和毀滅 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E8%AB%96%E7%94%A2%E7%94%9F%E5%92%8C%E6%AF%80%E6%BB%85
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E8%AB%96%E7%94%A2%E7%94%9F%E5%92%8C%E6%AF%80%E6%BB%85",
+  "name": "論產生和毀滅",
+  "icon": "2024"
+},
+1634911200 ~ 1635177540 -> [10月22日(五) 22:00, 10月25日(一) 23:59, 改寫過去留下的遺憾 ※ 全新地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E6%94%B9%E5%AF%AB%E9%81%8E%E5%8E%BB%E7%95%99%E4%B8%8B%E7%9A%84%E9%81%BA%E6%86%BE
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%94%B9%E5%AF%AB%E9%81%8E%E5%8E%BB%E7%95%99%E4%B8%8B%E7%9A%84%E9%81%BA%E6%86%BE",
+  "name": "改寫過去留下的遺憾",
+  "icon": "10097"
 },
 1635696000 ~ 1635782400 -> [11月01日(一), 侵蝕野望 ※ 復刻災厄級]
   link = https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E9%87%8E%E6%9C%9B
@@ -138,25 +127,32 @@
   "name": "墜落陽日",
   "icon": "3002"
 },
-0 ~ 0 -> [⬇ 合作地區 (港澳台新馬泰)⬇]
-  link = 
-0 ~ 0 -> [小宇宙！在神魔世界驅逐黑暗！ / 冥界使者死鬥 / 必死無疑的凝視 / 將大地變為死亡的世界]
-  link = https://tos.fandom.com/zh/wiki/%E5%B0%8F%E5%AE%87%E5%AE%99%EF%BC%81%E5%9C%A8%E7%A5%9E%E9%AD%94%E4%B8%96%E7%95%8C%E9%A9%85%E9%80%90%E9%BB%91%E6%9A%97%EF%BC%81
-1631520000 ~ 1633881540 -> [9月13日(一) 16:00, 10月10日(日) 23:59, 以『聖鬥士星矢冥界篇』石抽系列角色進行強化合成時，必定獲得超絕或完美強化]
-  link = 
-1631520000 ~ 1633881540 -> [9月13日(一) 16:00, 10月10日(日) 23:59, 以『聖鬥士星矢冥界篇』石抽系列角色進行分解時，獲得的靈魂數將會大幅提升]
-  link = 
-0 ~ 0 -> [⬇ 所有地區 ⬇]
-  link = 
-1632931200 ~ 1633104000 -> [9月30日(四), 10月01日(五), 首次使用 魔法石 回復體力，可額外獲得 戰靈回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1633104000 ~ 1633276800 -> [10月02日(六), 10月03日(日), 首次使用 魔法石 回復體力，可額外獲得 戰靈回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+0 ~ 0 -> [全新討伐戰『喜好移動屍體的怪癖』]
+  link = https://tos.fandom.com/zh/wiki/%E5%85%AC%E6%9C%83%E8%A8%8E%E4%BC%90%E6%88%B0
+1633881600 ~ 1634486400 -> [10月11日(一), 10月17日(日), 喜好移動屍體的怪癖 ※ 不設百大]
+  link = https://tos.fandom.com/zh/wiki/%E5%96%9C%E5%A5%BD%E7%A7%BB%E5%8B%95%E5%B1%8D%E9%AB%94%E7%9A%84%E6%80%AA%E7%99%96
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%96%9C%E5%A5%BD%E7%A7%BB%E5%8B%95%E5%B1%8D%E9%AB%94%E7%9A%84%E6%80%AA%E7%99%96",
+  "name": "喜好移動屍體的怪癖",
+  "icon": "10098"
+},
+0 ~ 0 -> [三等召喚師的革命]
+  link = https://tos.fandom.com/zh/wiki/%E4%B8%89%E7%AD%89%E5%8F%AC%E5%96%9A%E5%B8%AB%E7%9A%84%E9%9D%A9%E5%91%BD
 1633276800 ~ 1634486400 -> [10月04日(一), 10月17日(日), 每天登入︰送『不滅帝威』抽卡機會 1 次]
   link = 
-1633276800 ~ 1633449600 -> [10月04日(一), 10月05日(二), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
+1633881600 ~ 1635696000 -> [10月11日(一), 10月31日(日), 以『並肩夥伴』、『初次相遇』及『召喚師候選者』系列角色進行強化合成時，必定獲得超絕或完美強化，同時，以上述角色進行分解時，獲得的靈魂數亦將會大幅提升！]
+  link = 
+1633881600 ~ 1634054400 -> [10月11日(一), 10月12日(二), 首次使用 魔法石 回復體力，可額外獲得 戰靈回復劑 1 支]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1633449600 ~ 1633622400 -> [10月06日(三), 10月07日(四), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
+1634054400 ~ 1634227200 -> [10月13日(三), 10月14日(四), 首次使用 魔法石 回復體力，可額外獲得 戰靈回復劑 1 支]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1633708800 ~ 1633881600 -> [10月09日(六), 10月10日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+1634313600 ~ 1634486400 -> [10月16日(六), 10月17日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+  link = 
+0 ~ 0 -> [危險生物！請勿靠近]
+  link = https://tos.fandom.com/zh/wiki/%E5%8D%B1%E9%9A%AA%E7%94%9F%E7%89%A9%EF%BC%81%E8%AB%8B%E5%8B%BF%E9%9D%A0%E8%BF%91
+1634486400 ~ 1634659200 -> [10月18日(一), 10月19日(二), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+1634659200 ~ 1634832000 -> [10月20日(三), 10月21日(四), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+1634918400 ~ 1635091200 -> [10月23日(六), 10月24日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 
