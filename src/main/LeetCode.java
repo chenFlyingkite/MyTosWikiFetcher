@@ -12,7 +12,7 @@ import java.util.Random;
 public class LeetCode implements Runnable {
     @Override
     public void run() {
-        runIncArray();
+        //runIncArray();
     }
 
     private void run2() {
