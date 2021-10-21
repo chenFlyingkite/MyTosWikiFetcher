@@ -1664,6 +1664,182 @@
     "heroPlus": 1
   },
   {
+    "nameEn": "Barrel2",
+    "nameJa": "清涼のバレル",
+    "rankFirst": 5,
+    "designer": "竹本嵐",
+    "CV": "岩永悠平",
+    "attribute": "水",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "冷やしてやるッス！",
+        "content": "敵単体に60%ダメージ。自身のHPを基礎ATKの30%回復する。",
+        "view": 0
+      },
+      {
+        "name": "ずぶ濡れにするッス！",
+        "content": "敵単体に90%ダメージ。コンボ数が５以上かつ攻撃した敵が生存している場合、スキル１を追加発動。",
+        "view": 4000
+      },
+      {
+        "name": "BANG\u0026BANG\u0026BANG!!",
+        "content": "敵全体に100%ダメージ。このスキルは発動するごとに威力が上昇する。（３回まで。）",
+        "view": 13000
+      },
+      {
+        "name": "ずぶ濡れにするッス！+",
+        "content": "敵単体に90%ダメージ。コンボ数が５以上かつ攻撃した敵が生存している場合、スキル１を追加発動。スキル発動後、コンボ数+2。",
+        "view": 4000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 322,
+        "attack": 194,
+        "speed": 107,
+        "view": 1031
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1610,
+        "attack": 972,
+        "speed": 107,
+        "view": 1135
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2414,
+        "attack": 1459,
+        "speed": 107,
+        "view": 1185
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3487,
+        "attack": 2106,
+        "speed": 107,
+        "view": 1289
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4190,
+        "attack": 2106,
+        "speed": 107,
+        "view": 1289
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5802,
+        "attack": 2918,
+        "speed": 107,
+        "view": 1443
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "援護射撃",
+        "content": "敵単体に90%ダメージ。コンボ数+1。",
+        "view": 3000
+      },
+      {
+        "name": "援護射撃+",
+        "content": "敵単体に90%ダメージ。コンボ数+1。",
+        "view": 2500
+      },
+      {
+        "name": "援護射撃++",
+        "content": "敵単体に90%ダメージ。コンボ数+1。",
+        "view": 2000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "次弾装填Ⅰ",
+        "content": "行動終了時、10%の確率でコンボ数+1。"
+      },
+      {
+        "name": "次弾装填Ⅱ",
+        "content": "行動終了時、12%の確率でコンボ数+1。"
+      },
+      {
+        "name": "次弾装填Ⅲ",
+        "content": "行動終了時、14%の確率でコンボ数+1。"
+      },
+      {
+        "name": "次弾装填Ⅳ",
+        "content": "行動終了時、16%の確率でコンボ数+1。"
+      },
+      {
+        "name": "次弾装填Ⅴ",
+        "content": "行動終了時、18%の確率でコンボ数+1。"
+      },
+      {
+        "name": "次弾装填Ⅵ",
+        "content": "行動終了時、20%の確率でコンボ数+1。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 34,
+        "speed": 4,
+        "view": 40
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 136,
+        "speed": 4,
+        "view": 100
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 170,
+        "speed": 4,
+        "view": 120
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 204,
+        "speed": 4,
+        "view": 140
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 238,
+        "speed": 4,
+        "view": 160
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 289,
+        "speed": 4,
+        "view": 180
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 340,
+        "speed": 4,
+        "view": 200
+      }
+    ],
+    "heroPlus": 1
+  },
+  {
     "nameEn": "Furlong",
     "nameJa": "ハロン",
     "rankFirst": 4,
@@ -2030,6 +2206,182 @@
       }
     ],
     "heroPlus": 2
+  },
+  {
+    "nameEn": "Victom2",
+    "nameJa": "豪爽のヴィクトム",
+    "rankFirst": 5,
+    "designer": "ダイエクスト",
+    "CV": "尾形雅宏",
+    "attribute": "光",
+    "role": "View獲得",
+    "heroSkills": [
+      {
+        "name": "エディ・ウォール",
+        "content": "敵単体に60%ダメージ。60%の確率で1回の行動の間SPDダウンを付与。",
+        "view": 0
+      },
+      {
+        "name": "テクニカル・ライディング",
+        "content": "Viewを9000獲得。【常時発動】このヒーローが生存している間、ViewPowerに応じて味方全体のAtkを上昇。この効果は重複しない。",
+        "view": 3000
+      },
+      {
+        "name": "ライトスピード・フェニックス",
+        "content": "敵単体に120%ダメージ。1ターンの間沈黙を付与。",
+        "view": 10000
+      },
+      {
+        "name": "エディ・ウォール+",
+        "content": "敵単体に60%ダメージ。1回の行動の間SPDダウンを付与。",
+        "view": 0
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 333,
+        "attack": 113,
+        "speed": 110,
+        "view": 1741
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1669,
+        "attack": 566,
+        "speed": 110,
+        "view": 1915
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2504,
+        "attack": 848,
+        "speed": 110,
+        "view": 2001
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3617,
+        "attack": 1226,
+        "speed": 110,
+        "view": 2176
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 3617,
+        "attack": 1226,
+        "speed": 110,
+        "view": 2487
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5009,
+        "attack": 1698,
+        "speed": 110,
+        "view": 2785
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "絶対救助の誓い",
+        "content": "自身に2回の行動の間ATKアップ×2を付与。2回分のDEFダウンを付与。",
+        "view": 4000
+      },
+      {
+        "name": "絶対救助の誓い+",
+        "content": "自身に2回の行動の間ATKアップ×2を付与。2回分のDEFダウンを付与。",
+        "view": 3500
+      },
+      {
+        "name": "絶対救助の誓い++",
+        "content": "自身に2回の行動の間ATKアップ×2を付与。2回分のDEFダウンを付与。",
+        "view": 3000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "不屈のレンジャーⅠ",
+        "content": "ダメージを受けた時、10%の確率で1回の行動の間ATKアップを付与。"
+      },
+      {
+        "name": "不屈のレンジャーⅡ",
+        "content": "ダメージを受けた時、14%の確率で1回の行動の間ATKアップを付与。"
+      },
+      {
+        "name": "不屈のレンジャーⅢ",
+        "content": "ダメージを受けた時、18%の確率で1回の行動の間ATKアップを付与。"
+      },
+      {
+        "name": "不屈のレンジャーⅣ",
+        "content": "ダメージを受けた時、22%の確率で1回の行動の間ATKアップを付与。"
+      },
+      {
+        "name": "不屈のレンジャーⅤ",
+        "content": "ダメージを受けた時、26%の確率で1回の行動の間ATKアップを付与。"
+      },
+      {
+        "name": "不屈のレンジャーⅥ",
+        "content": "ダメージを受けた時、30%の確率で1回の行動の間ATKアップを付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 40,
+        "attack": 42,
+        "speed": 2,
+        "view": 70
+      },
+      {
+        "level": 50,
+        "hp": 160,
+        "attack": 168,
+        "speed": 2,
+        "view": 175
+      },
+      {
+        "level": 60,
+        "hp": 200,
+        "attack": 210,
+        "speed": 2,
+        "view": 210
+      },
+      {
+        "level": 70,
+        "hp": 240,
+        "attack": 252,
+        "speed": 2,
+        "view": 245
+      },
+      {
+        "level": 80,
+        "hp": 280,
+        "attack": 294,
+        "speed": 2,
+        "view": 280
+      },
+      {
+        "level": 90,
+        "hp": 340,
+        "attack": 357,
+        "speed": 2,
+        "view": 315
+      },
+      {
+        "level": 100,
+        "hp": 400,
+        "attack": 420,
+        "speed": 2,
+        "view": 350
+      }
+    ],
+    "heroPlus": 0
   },
   {
     "nameEn": "Kyoichi",
@@ -9368,6 +9720,190 @@
       }
     ],
     "heroPlus": 2
+  },
+  {
+    "nameEn": "Okitaka",
+    "nameJa": "オキタカ",
+    "rankFirst": 4,
+    "designer": "英",
+    "CV": "宮本崇弘",
+    "attribute": "木",
+    "role": "補助",
+    "heroSkills": [
+      {
+        "name": "射将先馬の策",
+        "content": "敵単体のバフを１つ解除。自身の行動時にこのスキルを発動した場合、自身以外のランダムな味方がスキル１で追撃。",
+        "view": 0
+      },
+      {
+        "name": "一騎当千の策",
+        "content": "味方単体に3回の行動の間ATKアップを付与。",
+        "view": 6000
+      },
+      {
+        "name": "風向転勝刃",
+        "content": "味方全体に1回分のDEFアップを付与。1ターンの間弱体抵抗+50を付与。",
+        "view": 9000
+      },
+      {
+        "name": "一騎当千の策+",
+        "content": "味方単体に3回の行動の間ATKアップを付与。",
+        "view": 5000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 4,
+        "level": 1,
+        "hp": 307,
+        "attack": 115,
+        "speed": 102,
+        "view": 1813
+      },
+      {
+        "rarity": 4,
+        "level": 30,
+        "hp": 1535,
+        "attack": 577,
+        "speed": 102,
+        "view": 1994
+      },
+      {
+        "rarity": 4,
+        "level": 40,
+        "hp": 2302,
+        "attack": 865,
+        "speed": 102,
+        "view": 2084
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2302,
+        "attack": 865,
+        "speed": 107,
+        "view": 2084
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3325,
+        "attack": 1250,
+        "speed": 107,
+        "view": 2265
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 3995,
+        "attack": 1250,
+        "speed": 107,
+        "view": 2265
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5531,
+        "attack": 1732,
+        "speed": 107,
+        "view": 2537
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "智将の采配",
+        "content": "味方単体に2回の行動の間ATKアップを付与。コンボ数+1。",
+        "view": 6000
+      },
+      {
+        "name": "智将の采配+",
+        "content": "味方単体に2回の行動の間ATKアップを付与。コンボ数+1。",
+        "view": 5000
+      },
+      {
+        "name": "智将の采配++",
+        "content": "味方単体に2回の行動の間ATKアップを付与。コンボ数+2。",
+        "view": 5000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "後方支援Ⅰ",
+        "content": "ターン開始時、ATK+2%（5回まで発動）。オート行動時、敵を対象にするスキルは敵の中で一番SPDが高いキャラクターを対象にする。"
+      },
+      {
+        "name": "後方支援Ⅱ",
+        "content": "ターン開始時、ATK+2.4%（5回まで発動）。オート行動時、敵を対象にするスキルは敵の中で一番SPDが高いキャラクターを対象にする。"
+      },
+      {
+        "name": "後方支援Ⅲ",
+        "content": "ターン開始時、ATK+2.8%（5回まで発動）。オート行動時、敵を対象にするスキルは敵の中で一番SPDが高いキャラクターを対象にする。"
+      },
+      {
+        "name": "後方支援Ⅳ",
+        "content": "ターン開始時、ATK+3.2%（5回まで発動）。オート行動時、敵を対象にするスキルは敵の中で一番SPDが高いキャラクターを対象にする。"
+      },
+      {
+        "name": "後方支援Ⅴ",
+        "content": "ターン開始時、ATK+3.6%（5回まで発動）。オート行動時、敵を対象にするスキルは敵の中で一番SPDが高いキャラクターを対象にする。"
+      },
+      {
+        "name": "後方支援Ⅵ",
+        "content": "ターン開始時、ATK+4%（5回まで発動）。オート行動時、敵を対象にするスキルは敵の中で一番SPDが高いキャラクターを対象にする。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 85,
+        "attack": 18,
+        "speed": 3,
+        "view": 85
+      },
+      {
+        "level": 50,
+        "hp": 340,
+        "attack": 72,
+        "speed": 3,
+        "view": 212
+      },
+      {
+        "level": 60,
+        "hp": 425,
+        "attack": 90,
+        "speed": 3,
+        "view": 255
+      },
+      {
+        "level": 70,
+        "hp": 510,
+        "attack": 108,
+        "speed": 3,
+        "view": 297
+      },
+      {
+        "level": 80,
+        "hp": 595,
+        "attack": 126,
+        "speed": 3,
+        "view": 340
+      },
+      {
+        "level": 90,
+        "hp": 722,
+        "attack": 153,
+        "speed": 3,
+        "view": 382
+      },
+      {
+        "level": 100,
+        "hp": 850,
+        "attack": 180,
+        "speed": 3,
+        "view": 425
+      }
+    ],
+    "heroPlus": 1
   },
   {
     "nameEn": "Player",

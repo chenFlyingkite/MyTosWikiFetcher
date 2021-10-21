@@ -29,10 +29,13 @@ public class LiveAHeroMain {
     private static final List<Hero> sortedHero = new ArrayList<>();
     private static final List<Hero> loadedHero = new ArrayList<>();
     public static void main(String[] args) {
-        loadHero();
-        //init();
+        // 0 = load hero
+        // 1 = parse hero
+        init();
+
+        //loadHero();
+        fetchHero();
         ////imageMoe(); // dead
-        //fetchHero();
     }
 
     private static void fetchHero() {

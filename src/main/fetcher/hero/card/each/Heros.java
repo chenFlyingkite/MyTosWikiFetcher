@@ -13,8 +13,10 @@ public enum Heros {
     Crowne("クローネ", "crowne", "克罗涅(LIVE_A_HERO)"),
     Gammei("ガンメイ", "gammei", "雁銘"),
     Barrel("バレル", "barrel", "巴雷尔(LIVE_A_HERO)"),
+    Barrel2("清涼のバレル", "barrel", "巴雷尔(LIVE_A_HERO)"),
     Furlong("ハロン", "furlong", "弗隆"),
     Victom("ヴィクトム", "victom", "維克托姆"),
+    Victom2("豪爽のヴィクトム", "victom", "維克托姆"),
     Kyoichi("キョウイチ", "kyoichi", "恭一(LIVE_A_HERO)"),
     Kyoichi2("潜行のキョウイチ", "kyoichi", "恭一(LIVE_A_HERO)"),
     Flamier("フラミー", "flamier", "芙拉米"),
@@ -56,6 +58,7 @@ public enum Heros {
     Melide("メリデ", "melide", "梅莉德"), // sidekick only
     Yoshiori("ヨシオリ", "yoshiori", "吉織"),
     Pubraseer("パブラシア", "pubraseer", "帕普拉西亞"),
+    Okitaka("オキタカ", "okitaka", "冲贵"),
     Player("主人公", "player", "主人公(LIVE_A_HERO)"), // sidekick only
     ;
 
@@ -106,6 +109,8 @@ public enum Heros {
         // Hero 2
         hero2Map.put(Akashi, Akashi2);
         hero2Map.put(Ryekie, Ryekie2);
+        hero2Map.put(Barrel, Barrel2);
+        hero2Map.put(Victom, Victom2);
         hero2Map.put(Kyoichi, Kyoichi2);
         hero2Map.put(Shoen, Shoen2);
         hero2Map.put(Marfik, Marfik2);
