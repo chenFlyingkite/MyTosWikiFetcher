@@ -175,7 +175,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             mLf.log(" : %s", s);
         }
 
-        mLf.getFile().close();
         if (isNoFix()) {
             saveCardsToGson(mCardJson, allCards);
         }
@@ -191,6 +190,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             }
         }
         buildEvolveTree();
+
+        mLf.getFile().close();
         L.log("time = %s     at %s", StringUtil.MMSSFFF(dur), new Date());
     }
 
@@ -437,7 +438,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         return Arrays.asList(li);
     }
 
-    public void buildEvolveTree() {
+    private void buildEvolveTree() {
         List<TosCard> all = loadAllCards();
         Map<String, TosCard> pool = new HashMap<>();
         Map<String, String> edge = new HashMap<>();
@@ -500,7 +501,9 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         }
         // print answer of 0001 -> 0002 -> 0003 -> ...
         n = answer.size();
-        L.log("Evolve tree : %s path, longest = %s", n, pathLength);
+        String msg = String.format("Evolve tree : %s path, longest = %s", n, pathLength);
+        L.log(msg);
+        mLf.log(msg);
         TicTac2 t = new TicTac2();
         t.tic();
         boolean log = false;

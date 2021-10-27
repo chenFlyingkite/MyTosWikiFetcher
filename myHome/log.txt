@@ -29,33 +29,12 @@
   "name": "見證眾生團圓的一刻",
   "icon": "2738"
 },
-1633881600 ~ 1635091200 -> [10月11日(一), 10月24日(日), 歡迎來到七輪會 ※ 全新雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E4%B8%83%E8%BC%AA%E6%9C%83
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E4%B8%83%E8%BC%AA%E6%9C%83",
-  "name": "歡迎來到七輪會",
-  "icon": "10094"
-},
 1635091200 ~ 1636300800 -> [10月25日(一), 11月07日(日), 撲滅罪惡的巡邏 ※ 全新雙週]
   link = https://tos.fandom.com/zh/wiki/%E6%92%B2%E6%BB%85%E7%BD%AA%E6%83%A1%E7%9A%84%E5%B7%A1%E9%82%8F
 {
   "link": "https://tos.fandom.com/zh/wiki/%E6%92%B2%E6%BB%85%E7%BD%AA%E6%83%A1%E7%9A%84%E5%B7%A1%E9%82%8F",
   "name": "撲滅罪惡的巡邏",
   "icon": "10095"
-},
-1633881600 ~ 1635091200 -> [10月11日(一), 10月24日(日), 愛好美女的仙將 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%84%9B%E5%A5%BD%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BB%99%E5%B0%87
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E5%A5%BD%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BB%99%E5%B0%87",
-  "name": "愛好美女的仙將",
-  "icon": "2145"
-},
-1633881600 ~ 1635091200 -> [10月11日(一), 10月24日(日), 救助所有生命 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%95%91%E5%8A%A9%E6%89%80%E6%9C%89%E7%94%9F%E5%91%BD
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%95%91%E5%8A%A9%E6%89%80%E6%9C%89%E7%94%9F%E5%91%BD",
-  "name": "救助所有生命",
-  "icon": "1865"
 },
 1635091200 ~ 1636300800 -> [10月25日(一), 11月07日(日), 愛說教的仙將 ※ 復刻雙週]
   link = https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%AA%AA%E6%95%99%E7%9A%84%E4%BB%99%E5%B0%87
@@ -133,14 +112,6 @@
 1634054400 ~ 1634227200 -> [10月13日(三), 10月14日(四), 首次使用 魔法石 回復體力，可額外獲得 戰靈回復劑 1 支]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1634313600 ~ 1634486400 -> [10月16日(六), 10月17日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
-  link = 
-0 ~ 0 -> [危險生物！請勿靠近]
-  link = https://tos.fandom.com/zh/wiki/%E5%8D%B1%E9%9A%AA%E7%94%9F%E7%89%A9%EF%BC%81%E8%AB%8B%E5%8B%BF%E9%9D%A0%E8%BF%91
-1634486400 ~ 1634659200 -> [10月18日(一), 10月19日(二), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1634659200 ~ 1634832000 -> [10月20日(三), 10月21日(四), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1634918400 ~ 1635091200 -> [10月23日(六), 10月24日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 
 0 ~ 0 -> [蜘蛛世界的萬聖夜]
   link = https://tos.fandom.com/zh/wiki/%E8%9C%98%E8%9B%9B%E4%B8%96%E7%95%8C%E7%9A%84%E8%90%AC%E8%81%96%E5%A4%9C
