@@ -1802,6 +1802,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "仁心療法",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BB%81%E5%BF%83%E7%99%82%E6%B3%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 完全回復生命力 II. 點選元素法陣上的符石 ⇒ 引爆該種符石 ⇒ 掉落心符石 1 回合內 III. 若有擊斃敵人， 回合結束時 ⓵ 扣除 5% 現有生命力 ⓶ 自身 CD -5",
+    "skillMonsters": [
+      "10102"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "仙劍同源",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BB%99%E5%8A%8D%E5%90%8C%E6%BA%90",
@@ -3180,6 +3191,17 @@
       "0579",
       "1017",
       "1699"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素龍念",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E9%BE%8D%E5%BF%B5",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 所有屬性符石兼具其他屬性符石效果 II. 回合結束時，將所有符石轉化為 ⇒ 轉珠結束時放手的符石",
+    "skillMonsters": [
+      "10096"
     ]
   },
   {
@@ -20591,6 +20613,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "深度分析",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 全隊攻擊力 2 倍 II. 根據累計發動「深度分析」技能次數 ⇒ 減少所受傷害 ⇒ 累計發動 5 次可減少最多 100% 傷害 III. 根據累計發動「深度分析」技能次數 ⇒ 獲得以下效果： ▋≥2 次：連擊 (Combo) 固定為 15 ▋≥3 次：全隊無視「指定形狀盾」 ▋≥4 次：效果持續 2 回合",
+    "skillMonsters": [
+      "10103"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "深沉之藍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B2%89%E4%B9%8B%E8%97%8D",
@@ -23847,6 +23880,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "狂暴神力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E6%9A%B4%E7%A5%9E%E5%8A%9B",
+    "skillCDMin": 24,
+    "skillCDMax": 10,
+    "skillDesc": "2 回合內 I. 神族攻擊力 3 倍 II. 神族無視 ⓵「攻前盾」 ⓶ 敵人防禦力 III. 首批消除 ≥10 粒神族符石 ⇒ 本回合所受傷害 不會使你死亡 IV. 發動技能時， 若龍脈儀存量為 0 (需有龍脈儀) ⓵ 神族攻擊力額外 2 倍 ⓶ 神族無視 「指定形狀盾」及「五屬盾」",
+    "skillMonsters": [
+      "3003"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "狂森之鎧",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E6%A3%AE%E4%B9%8B%E9%8E%A7",
@@ -25179,6 +25223,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "璀璨的魅藍",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%92%80%E7%92%A8%E7%9A%84%E9%AD%85%E8%97%8D",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有妖精類成員時： I. 全隊攻擊力 8 倍及回復力 1.8 倍 II. 所有符石兼具 50% 其他符石效果 III. 隊中成員每次發動技能 ⇒ 回復 50% 生命力",
+    "skillMonsters": [
+      "10103"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "甜膩的毒汁",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%94%9C%E8%86%A9%E7%9A%84%E6%AF%92%E6%B1%81",
@@ -26070,6 +26125,17 @@
     "skillDesc": "I. 變身 II. 1 回合內 全隊攻擊力及回復力 2 倍 隊伍中每多 1 個「超人」 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 6 回合",
     "skillMonsters": [
       "2157"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "相克攻法",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9B%B8%E5%85%8B%E6%94%BB%E6%B3%95",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 獸類、人類攻擊力 7 倍及生命力 2.5 倍 II. 獸類成員追打自身克制屬性攻擊 1 次 III. 人類成員進場 CD -2 IV. 隊中只有獸類或人類成員時 ⇒ 全隊攻擊力額外 4 倍",
+    "skillMonsters": [
+      "10102"
     ]
   },
   {
@@ -30662,6 +30728,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "絕境意志 ‧ 狂暴",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%A2%83%E6%84%8F%E5%BF%97_%E2%80%A7_%E7%8B%82%E6%9A%B4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊生命力、攻擊力、回復力 1.5 倍 II. 當前生命力 \u003e50% 時 ⇒ 下一次所受傷害不會使你死亡 III. 若隊中只有暗屬性或神族成員： 生命力愈低 ⇒ 全隊攻擊力及回復力額外提升愈多 ⇒ 最多 20 倍",
+    "skillMonsters": [
+      "3003"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "絕對操控",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%B0%8D%E6%93%8D%E6%8E%A7",
@@ -32215,6 +32292,17 @@
     "skillDesc": "木符石轉化為光強化符石。引爆心符石以掉落木以外的符石及提升自身攻擊力，引爆 5 粒可達至最大 6 倍 (倍攻效果持續 2 回合)",
     "skillMonsters": [
       "1738"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "英雄失序",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%8B%B1%E9%9B%84%E5%A4%B1%E5%BA%8F",
+    "skillCDMin": 19,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將敵人屬性的符石轉化為 ⇒ 暗神族強化符石 1 回合內 II. 首批不會掉落敵人屬性符石 III. 首批消除所有暗符石時 ⇒ 回合結束時，自身 CD -2",
+    "skillMonsters": [
+      "3003"
     ]
   },
   {
