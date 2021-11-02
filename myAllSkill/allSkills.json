@@ -11742,7 +11742,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%81%90%E6%80%96%E5%A4%A9%E5%91%BD",
     "skillCDMin": 17,
     "skillCDMax": 6,
-    "skillDesc": "I. 解除石化符石狀態 II. 將右方 3 直行符石轉化為 ⇒ 固定數量及位置的光及暗符石 1 回合內 III. 暗屬性及神族成員 ⇒ 以 40% 攻擊力追打 1 次",
+    "skillDesc": "I. 解除石化符石狀態 II. 將右方 3 直行符石轉化為 ⇒ 固定數量及位置的 「光及暗」神族強化符石 1 回合內 III. 暗屬性及神族成員 ⓵ 以 50% 攻擊力追打 1 次 ⓶ 無視「攻前盾」",
     "skillMonsters": [
       "10092"
     ]
