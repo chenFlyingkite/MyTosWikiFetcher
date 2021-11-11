@@ -1848,8 +1848,8 @@
 244 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/3301-3600
 186 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/3601-3900
 56 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/7001-7300
-8 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/9001-9100
-771 crafts
+10 crafts in page https://tos.fandom.com/zh/wiki/%E9%BE%8D%E5%88%BB%E6%AD%A6%E8%A3%9D%E5%9C%96%E9%91%92/9001-9100
+773 crafts
 #2006 : 【2006】 銀紋 -> https://tos.fandom.com/zh/wiki/%E3%80%902006%E3%80%91_%E9%8A%80%E7%B4%8B
 2★ Lv. 2    連鎖龍紋 消除任何符石 (只計算首批消除的符石)
 [] [] 沒有限制 沒有限制
@@ -4934,3 +4934,11 @@
 2★ Lv. 2 +1% +1% +1% 龍刻類型 鏡像龍丸
 [] []  
 [1 : 2000 -> 1 回合內，完全回復生命力, 2 : 4500 -> 1 回合內，隊伍攻擊力及回復力提升 20%]
+#9009 : 【9009】 奪冠花劍龍刃 -> https://tos.fandom.com/zh/wiki/%E3%80%909009%E3%80%91_%E5%A5%AA%E5%86%A0%E8%8A%B1%E5%8A%8D%E9%BE%8D%E5%88%83
+2★ Lv. 2 +2% +2% +2% 龍刻類型 裂空龍刃
+[] []  
+[1 : 2000 -> 1 回合內，對單一敵人造成 2020 點無屬性傷害, 2 : 4500 -> 1 回合內，無視攻前盾]
+#9010 : 【9010】 章魚丸龍印 -> https://tos.fandom.com/zh/wiki/%E3%80%909010%E3%80%91_%E7%AB%A0%E9%AD%9A%E4%B8%B8%E9%BE%8D%E5%8D%B0
+2★ Lv. 2 +1% +1% +1% 龍刻類型 轉動龍印
+[] []  
+[1 : 2000 -> 1 回合內，對單一敵人造成 500000 點火屬性傷害，此傷害無視防禦力, 2 : 4500 -> 隊長及戰友的技能 CD 減少 1]

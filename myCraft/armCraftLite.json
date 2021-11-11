@@ -6937,5 +6937,23 @@
       "iconLink": "https://static.wikia.nocookie.net/tos/images/9/91/C9008.png/revision/latest/scale-to-width-down/60?cb\u003d20210121090600\u0026path-prefix\u003dzh",
       "iconKey": "C9008.png"
     }
+  },
+  {
+    "idNorm": "9009",
+    "name": "【9009】 奪冠花劍龍刃",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%909009%E3%80%91_%E5%A5%AA%E5%86%A0%E8%8A%B1%E5%8A%8D%E9%BE%8D%E5%88%83",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/1/18/C9009.png/revision/latest/scale-to-width-down/60?cb\u003d20210811035710\u0026path-prefix\u003dzh",
+      "iconKey": "C9009.png"
+    }
+  },
+  {
+    "idNorm": "9010",
+    "name": "【9010】 章魚丸龍印",
+    "link": "https://tos.fandom.com/zh/wiki/%E3%80%909010%E3%80%91_%E7%AB%A0%E9%AD%9A%E4%B8%B8%E9%BE%8D%E5%8D%B0",
+    "icon": {
+      "iconLink": "https://static.wikia.nocookie.net/tos/images/2/27/C9010.png/revision/latest/scale-to-width-down/60?cb\u003d20211109041617\u0026path-prefix\u003dzh",
+      "iconKey": "C9010.png"
+    }
   }
 ]
