@@ -16362,6 +16362,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2739"
   },
   {
+    "title": "No. 2748 末日來臨 ‧ 尼德霍格",
+    "id": "2748",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%AB%E6%97%A5%E4%BE%86%E8%87%A8_%E2%80%A7_%E5%B0%BC%E5%BE%B7%E9%9C%8D%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2748"
+  },
+  {
+    "title": "No. 2749 淨冥卸煞 ‧ 尼德霍格",
+    "id": "2749",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B7%A8%E5%86%A5%E5%8D%B8%E7%85%9E_%E2%80%A7_%E5%B0%BC%E5%BE%B7%E9%9C%8D%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2749"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -17064,6 +17076,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10108"
   },
   {
+    "title": "No. 10110 搖光逐律 ‧ 畫珒",
+    "id": "10110",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%90%96%E5%85%89%E9%80%90%E5%BE%8B_%E2%80%A7_%E7%95%AB%E7%8F%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/10110"
+  },
+  {
     "title": "No. 10112 絕世可愛 ‧ 雪萊",
     "id": "10112",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E4%B8%96%E5%8F%AF%E6%84%9B_%E2%80%A7_%E9%9B%AA%E8%90%8A",
@@ -17092,6 +17110,12 @@
     "id": "10116",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9C%87%E7%9B%AA%E8%88%9E%E5%8F%B0_%E2%80%A7_%E7%83%8F%E7%91%9E%E4%BA%9E%E5%8F%8A%E6%B6%85%E7%B4%A2%E4%BC%8A",
     "linkId": "http://zh.tos.wikia.com/wiki/10116"
+  },
+  {
+    "title": "No. 10117 天道炎旌 ‧ 刻琿",
+    "id": "10117",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%81%93%E7%82%8E%E6%97%8C_%E2%80%A7_%E5%88%BB%E7%90%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10117"
   },
   {
     "title": "No. 10200 一曲傾心 ‧ 莫莉安娜",

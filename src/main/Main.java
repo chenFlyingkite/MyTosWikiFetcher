@@ -35,6 +35,7 @@ import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
+import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
 
 import java.awt.AWTException;
@@ -49,13 +50,14 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        //fetch(1); // x <=0 = run TosCardExtras
-        copyToMyTosWiki();
+        fetch(0); // x <= 0 : run TosCardExtras
+        //copyToMyTosWiki();
         //enterUID();
         //enterTemperature();
+        //enterTaiwanID();
 
+        //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
-
         //-- testing area
         //PngCreator.me.standard(null);
         //PngCreator.me.standard16(null);
@@ -88,7 +90,63 @@ public class Main {
 
     private static void a() {
         //MainTest.main(null);
-        //LiveAHeroMain.main(null);
+        //new LeetCode().run();
+        //addJpg();
+        //getIP();
+    }
+
+    private static void getIP() {
+        //https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
+        String[] src = {
+                "https://api.db-ip.com/v2/free/self",
+                "http://ip-api.com/json"
+        };
+
+        WebFetcher w = new WebFetcher();
+        for (int i = 0; i < src.length; i++) {
+            String link = src[i];
+            String s = w.sendRequest(link, null);
+            L.log("#%s :\n%s", i, s);
+        }
+    }
+
+    private static void addJpg() {
+        // add jpg
+        String source = "D:\\新增資料夾 (3)\\A"; // source path, 1-depth
+        String want = ".jpg";
+        // if file is source/a, rename to be source/a{want}
+        // like source/a, rename to be source/a.jpg
+        File f = new File(source);
+        File[] fs = f.listFiles();
+        int n = 0;
+        if (fs != null) {
+            for (int i = 0; i < fs.length; i++) {
+                File z = fs[i];
+                boolean ok = z.getName().endsWith(want);
+                if (ok) {
+                } else {
+                    n++;
+                    File fx = new File(z.getAbsolutePath() + want);
+                    z.renameTo(fx);
+                    L.log("#%d : %s", n, z);
+                }
+            }
+        }
+        L.log("%s files renamed", n);
+    }
+
+    private static void enterTaiwanID() {
+        // In macOS, after we start, we still need to click on the text field to let it enters
+        try {
+            Robot2 r = new Robot2();
+            r.delay(3_000);
+            r.enter("");
+            r.keyClick(KeyEvent.VK_TAB);
+            r.keyClick(KeyEvent.VK_TAB);
+            r.enter("");
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void enterTemperature() {
@@ -99,7 +157,7 @@ public class Main {
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.6");
+            r.type("36.1");
             // Forehead temperature, Ear temperature  Others
             r.keyClick(KeyEvent.VK_TAB);
             if (type == 1) {
