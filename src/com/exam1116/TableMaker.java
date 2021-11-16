@@ -1,0 +1,145 @@
+package com.exam1116;
+
+import flyingkite.log.L;
+
+import java.util.Arrays;
+import java.util.List;
+
+// Given an array of string, s, and and width w,
+// return the maximum column that can fit in the column table
+// vertical line of '|' '-' is not taken into the table width
+// s = ["cat", "dog", "elephant", "bow", "zoo", "rainbows"]
+// w = 14
+public class TableMaker {
+    public boolean debug = false;
+
+    public void printTableMostColumn(List<String> fields, int width) {
+        int col = getMaximumFitColumn(fields, width);
+        int n = fields.size();
+        int[] len = new int[n];
+        for (int i = 0; i < n; i++) {
+            len[i] = fields.get(i).length();
+        }
+        if (col <= 0) {
+            L.log("Cannot print table as %s", col);
+            return;
+        }
+        int[] ws = getFitWidth(len, col);
+        int row = (int) Math.ceil(1.0F * n / col);
+        int now = 0;
+        String div = repeat("-", width + col + 1);
+        L.log(div);
+        for (int i = 0; i < row; i++) {
+            StringBuilder sb = new StringBuilder("|");
+            for (int j = 0; j < col; j++) {
+                if (now < n) {
+                    sb.append(String.format("%-" + ws[j] + "s|", fields.get(now)));
+                } else {
+                    sb.append(repeat(" ", ws[j])).append("|");
+                }
+                now++;
+            }
+            L.log(sb.toString());
+            L.log(div);
+        }
+    }
+
+    // Print the table with given column
+    public void printTable(List<String> fields, int col) {
+        if (col <= 0) {
+            L.log("Cannot print table as %s", col);
+            return;
+        }
+        int n = fields.size();
+        int[] len = new int[n];
+        for (int i = 0; i < n; i++) {
+            len[i] = fields.get(i).length();
+        }
+        int[] ws = getFitWidth(len, col);
+        int width = sum(ws);
+        int row = (int) Math.ceil(1.0F * n / col);
+        int now = 0;
+        String div = repeat("-", width + col + 1);
+        L.log(div);
+        for (int i = 0; i < row; i++) {
+            StringBuilder sb = new StringBuilder("|");
+            for (int j = 0; j < col; j++) {
+                if (now < n) {
+                    sb.append(String.format("%-" + ws[j] + "s|", fields.get(now)));
+                } else {
+                    sb.append(repeat(" ", ws[j])).append("|");
+                }
+                now++;
+            }
+            L.log(sb.toString());
+            L.log(div);
+        }
+    }
+
+    // return Regex of "(s){n}"
+    private String repeat(String s, int n) {
+        StringBuilder sb = new StringBuilder();
+        StringBuilder p = new StringBuilder(s);
+        int x = n;
+        while (x > 0) {
+            if (x % 2 == 1) {
+                sb.append(p);
+            }
+            p.append(p);
+            x /= 2;
+        }
+        return sb.toString();
+    }
+
+    public int getMaximumFitColumn(List<String> fields, int width) {
+        if (fields == null) return 0;
+
+        // collect the length of strings, omit its content
+        int n = fields.size();
+        int[] len = new int[n];
+        int end = 0; // start to find from this value
+        int sum = 0; // cumulated length = a[0] + .. + a[i]
+        for (int i = 0; i < n; i++) {
+            len[i] = fields.get(i).length();
+            sum += len[i];
+            if (sum <= width) {
+                end = i+1;
+            }
+        }
+        if (debug) {
+            L.log("len = %s", Arrays.toString(len));
+        }
+
+        // perform linear search
+        for (int i = end; i >= 1; i--) {
+        //for (int i = n; i >= 1; i--) {
+            if (canFit(len, width, i)) {
+                return i;
+            }
+        }
+        return 0;
+    }
+
+    private int[] getFitWidth(int[] len, int col) {
+        int n = len.length;
+        int[] max = new int[n];
+        for (int i = 0; i < n; i++) {
+            max[i % col] = Math.max(max[i % col], len[i]);
+        }
+        return max;
+    }
+
+    private int sum(int[] a) {
+        int sum = 0;
+        for (int x : a) {
+            sum += x;
+        }
+        return sum;
+    }
+
+    private boolean canFit(int[] len, int width, int col) {
+        int[] max = getFitWidth(len, col);
+        int sum = sum(max);
+        return sum <= width;
+    }
+}
