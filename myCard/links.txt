@@ -17064,6 +17064,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10104"
   },
   {
+    "title": "No. 10105 武裝機體序號5213",
+    "id": "10105",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AD%A6%E8%A3%9D%E6%A9%9F%E9%AB%94%E5%BA%8F%E8%99%9F5213",
+    "linkId": "http://zh.tos.wikia.com/wiki/10105"
+  },
+  {
     "title": "No. 10106 全速運送 ‧ 珼菈伽",
     "id": "10106",
     "link": "https://tos.fandom.com/zh/wiki/%E5%85%A8%E9%80%9F%E9%81%8B%E9%80%81_%E2%80%A7_%E7%8F%BC%E8%8F%88%E4%BC%BD",
@@ -17116,6 +17122,18 @@
     "id": "10117",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%81%93%E7%82%8E%E6%97%8C_%E2%80%A7_%E5%88%BB%E7%90%BF",
     "linkId": "http://zh.tos.wikia.com/wiki/10117"
+  },
+  {
+    "title": "No. 10118 精確射擊 ‧ 藍德南",
+    "id": "10118",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B2%BE%E7%A2%BA%E5%B0%84%E6%93%8A_%E2%80%A7_%E8%97%8D%E5%BE%B7%E5%8D%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/10118"
+  },
+  {
+    "title": "No. 10119 辰星指導 ‧ 瑪米圖",
+    "id": "10119",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BE%B0%E6%98%9F%E6%8C%87%E5%B0%8E_%E2%80%A7_%E7%91%AA%E7%B1%B3%E5%9C%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/10119"
   },
   {
     "title": "No. 10200 一曲傾心 ‧ 莫莉安娜",
