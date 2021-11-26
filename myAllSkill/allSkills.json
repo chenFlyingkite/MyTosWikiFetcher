@@ -34,6 +34,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "2234 攻擊指令",
+    "skillLink": "https://tos.fandom.com/zh/wiki/2234_%E6%94%BB%E6%93%8A%E6%8C%87%E4%BB%A4",
+    "skillCDMin": 13,
+    "skillCDMax": 4,
+    "skillDesc": "I. 全隊行動值提升 20% II. 將自身直行符石 ⇒ 添加為機械族符石 III. 對敵方全體造成 300 萬無屬性傷害 IV. 若發動技能時 自身行動值達至 100% ⇒ 2 回合內 ⓵ 自身攻擊力 3 倍 ⓶ 增加 3 連擊 (Combo)",
+    "skillMonsters": [
+      "10109"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "23 的奇蹟",
     "skillLink": "https://tos.fandom.com/zh/wiki/23_%E7%9A%84%E5%A5%87%E8%B9%9F",
     "skillCDMin": 34,
@@ -41,6 +52,17 @@
     "skillDesc": "I. 將光符石轉化為強化符石 1 回合內 II. 連擊 (Combo) 數目固定為 23 　(需消除符石) III. 回合結束時 ⇒ 將所有符石添加為妖族符石",
     "skillMonsters": [
       "2234"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "5213 技能指令",
+    "skillLink": "https://tos.fandom.com/zh/wiki/5213_%E6%8A%80%E8%83%BD%E6%8C%87%E4%BB%A4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆火符石及石化符石 II. 將最底 1 橫行符石 ⇒ 轉化為火強化符石 2 回合內 III. 自身攻擊力 3 倍， 場上每多 1 個附加效果 ⇒ 自身攻擊力提升 1 倍 ⇒ 場上有 4 個附加效果 可達至最大 6 倍",
+    "skillMonsters": [
+      "10105"
     ]
   },
   {
@@ -6597,6 +6619,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "吞燄化毒",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E7%87%84%E5%8C%96%E6%AF%92",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "2 回合內 I. 所受中毒、燃燒傷害 ⇒ 轉化為我方生命力 II. 可任意移動符石 而不會發動消除 III. 隊中只有木屬性成員時 ⇒ 隊伍不會被封鎖主動技能",
+    "skillMonsters": [
+      "10111"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "吞食記錄",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E9%A3%9F%E8%A8%98%E9%8C%84",
     "skillCDMin": 16,
@@ -9321,6 +9354,17 @@
     "skillDesc": "達成 3 連擊 (Combo) 或以上時，光及暗屬性人類攻擊力 4.25 倍，連擊 (Combo) 的數量愈多，攻擊力愈高，6 連擊 (Combo) 可以達至最大 5 倍。光符石兼具 50% 暗符石效果，同時暗符石兼具 50% 光符石效果 (可疊加)",
     "skillMonsters": [
       "1208"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "子彈凶器",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AD%90%E5%BD%88%E5%87%B6%E5%99%A8",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 點選 3 粒符石並引爆 ⇒ 掉落人族強化符石 1 回合內 II. 若上述點選的符石 均為不同種類 ⓵ 所有符石轉化為人族強化符石 ⓶ 延長移動符石時間 5 秒 III. 若上述點選的符石 均為相同種類 ⓵ 自身攻擊力 3 倍 ⓶ 增加 6 連擊 (Combo)",
+    "skillMonsters": [
+      "10118"
     ]
   },
   {
@@ -14347,6 +14391,17 @@
     "skillDesc": "1 回合內 I. 延長移動符石時間至 10 秒 II. 觸碰「連環光牢」射擊位置時 ⇒ 仍可移動符石 III. 首批消除 1 組符石的數量愈多 ⇒ Combo 及 Ex Combo 增加愈多 ⇒ 最多可增加 10 Combo 及 Ex. Combo",
     "skillMonsters": [
       "10088"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "星辰力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%BE%B0%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有神族成員： I. 全隊攻擊力 6 倍及回復力 1.5 倍 II. 光屬性攻擊力額外 4 倍、 生命力及回復力額外 1.5 倍 III. 其他符石分別兼具 ⇒ 50% 光及心符石效果",
+    "skillMonsters": [
+      "10119"
     ]
   },
   {
@@ -20907,6 +20962,17 @@
     "skillDesc": "1 回合內，木符石兼具暗符石效果；心符石轉化為暗符石。發動技能時，隊伍中撲克騎士 ‧ 奧吉爾的主動技能 CD 減少 5",
     "skillMonsters": [
       "1599"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "温柔的守護",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B8%A9%E6%9F%94%E7%9A%84%E5%AE%88%E8%AD%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 人類攻擊力 8 倍、 生命力及回復力 2 倍 II. 消除火符石時 ⇒ 全隊攻擊力額外 5 倍 III. 必然延長移動符石時間 2 秒",
+    "skillMonsters": [
+      "10118"
     ]
   },
   {
@@ -41319,6 +41385,17 @@
     "skillDesc": "1 回合內，減少 90% 所受傷害，將 5 粒符石轉化為心符石 (水及木符石優先轉換)",
     "skillMonsters": [
       "1796"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魔導電流",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E5%B0%8E%E9%9B%BB%E6%B5%81",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將隊中成員的疲憊狀態 ⇒ 變為亢奮狀態 II. 延長移動符石時間 2 秒 III. 連擊 (Ex. Combo、Combo) 時 攻擊力提升 20% IV. 回合結束時， 將自身直行的符石 ⇒ 添加為神族符石 (II - IV 效果會在關閉此技能 或死亡後消失) 關閉技能時： ⓵ 完全回復生命力 1 回合內 ⓶ 全隊回復力減至 0 ⓷ 自身進入疲憊狀態",
+    "skillMonsters": [
+      "10119"
     ]
   },
   {
