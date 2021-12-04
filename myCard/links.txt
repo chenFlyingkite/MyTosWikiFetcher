@@ -16362,6 +16362,54 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2739"
   },
   {
+    "title": "No. 2740 巧工鑄心．加拉哈德",
+    "id": "2740",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B7%A7%E5%B7%A5%E9%91%84%E5%BF%83%EF%BC%8E%E5%8A%A0%E6%8B%89%E5%93%88%E5%BE%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/2740"
+  },
+  {
+    "title": "No. 2741 日輪恩典．高文",
+    "id": "2741",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E8%BC%AA%E6%81%A9%E5%85%B8%EF%BC%8E%E9%AB%98%E6%96%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2741"
+  },
+  {
+    "title": "No. 2742 幻域真我．梅林",
+    "id": "2742",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E5%9F%9F%E7%9C%9F%E6%88%91%EF%BC%8E%E6%A2%85%E6%9E%97",
+    "linkId": "http://zh.tos.wikia.com/wiki/2742"
+  },
+  {
+    "title": "No. 2743 逐光暗徒．蘭斯洛特",
+    "id": "2743",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%90%E5%85%89%E6%9A%97%E5%BE%92%EF%BC%8E%E8%98%AD%E6%96%AF%E6%B4%9B%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2743"
+  },
+  {
+    "title": "No. 2744 晨曦嚮導 ‧ 崔斯坦",
+    "id": "2744",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%99%A8%E6%9B%A6%E5%9A%AE%E5%B0%8E_%E2%80%A7_%E5%B4%94%E6%96%AF%E5%9D%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/2744"
+  },
+  {
+    "title": "No. 2745 惑語編織 ‧ 加雷斯",
+    "id": "2745",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%83%91%E8%AA%9E%E7%B7%A8%E7%B9%94_%E2%80%A7_%E5%8A%A0%E9%9B%B7%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2745"
+  },
+  {
+    "title": "No. 2746 榮聲披身 ‧ 亞瑟",
+    "id": "2746",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A6%AE%E8%81%B2%E6%8A%AB%E8%BA%AB_%E2%80%A7_%E4%BA%9E%E7%91%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/2746"
+  },
+  {
+    "title": "No. 2747 虔誠獻奉 ‧ 貝德維爾",
+    "id": "2747",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%99%94%E8%AA%A0%E7%8D%BB%E5%A5%89_%E2%80%A7_%E8%B2%9D%E5%BE%B7%E7%B6%AD%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2747"
+  },
+  {
     "title": "No. 2748 末日來臨 ‧ 尼德霍格",
     "id": "2748",
     "link": "https://tos.fandom.com/zh/wiki/%E6%9C%AB%E6%97%A5%E4%BE%86%E8%87%A8_%E2%80%A7_%E5%B0%BC%E5%BE%B7%E9%9C%8D%E6%A0%BC",
