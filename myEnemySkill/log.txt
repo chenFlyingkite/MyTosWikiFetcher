@@ -1,4 +1,4 @@
-15 skill groups
+16 skill groups
 https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1-500
 -   500 skills
 --  #1  {{ES1}} : [1]  -> 強化盾 -> 敵人只會受到強化符石的攻擊傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1
@@ -5727,7 +5727,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES5399}}  5400 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5399?action=edit
 --  #首消水木Combo同等盾  E : [0]  ->  ->  -> 
 https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401-5700
--   345 skills
+-   400 skills
 --  #5401  {{ES5401}} : [0]  -> 首消水光Combo同等盾 -> 同時首批消除相同組數的<br>水及光符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401
 --  #E  首消水暗Combo同等盾 : [0]  ->  ->  -> 
 --  #{{ES5402}}  5403 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5402?action=edit
@@ -6073,3 +6073,228 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES5657}}  5658 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5657?action=edit
 --  #【自戕10% - 敵攻自戕20%】  E : [0]  ->  ->  -> 
 --  #5659  {{ES5659}} : [0]  -> 【自戕10% - 指定敵攻自戕20%】 -> • 進場時敵人<br>⇒ 消耗自身 10% 生命力<br>• 每次受到此敵人攻擊時<br>⇒ 敵人消耗自身 20% 生命力<br>• 敵人不會受到任何傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5659
+--  #E  水屬初級拼圖盾-限 : [0]  ->  ->  -> 
+--  #{{ES5660}}  5661 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5660?action=edit
+--  #水屬初級拼圖盾  E : [0]  ->  ->  -> 
+--  #5662  {{ES5662}} : [0]  -> 水強化初級拼圖盾-限 -> 在指定位置消除水強化符石<br>(不可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5662
+--  #E  水強化初級拼圖盾 : [0]  ->  ->  -> 
+--  #{{ES5663}}  5664 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5663?action=edit
+--  #火屬初級拼圖盾-限  E : [0]  ->  ->  -> 
+--  #5665  {{ES5665}} : [0]  -> 火屬初級拼圖盾 -> 在指定位置消除火符石<br>(可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5665
+--  #E  火強化初級拼圖盾-限 : [0]  ->  ->  -> 
+--  #{{ES5666}}  5667 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5666?action=edit
+--  #火強化初級拼圖盾  E : [0]  ->  ->  -> 
+--  #5668  {{ES5668}} : [0]  -> 木屬初級拼圖盾-限 -> 在指定位置消除木符石<br>(不可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5668
+--  #E  木屬初級拼圖盾 : [0]  ->  ->  -> 
+--  #{{ES5669}}  5670 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5669?action=edit
+--  #木強化初級拼圖盾-限  E : [0]  ->  ->  -> 
+--  #5671  {{ES5671}} : [0]  -> 木強化初級拼圖盾 -> 在指定位置消除木強化符石<br>(可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5671
+--  #E  光屬初級拼圖盾-限 : [0]  ->  ->  -> 
+--  #{{ES5672}}  5673 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5672?action=edit
+--  #光屬初級拼圖盾  E : [0]  ->  ->  -> 
+--  #5674  {{ES5674}} : [0]  -> 光強化初級拼圖盾-限 -> 在指定位置消除光強化符石<br>(不可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5674
+--  #E  光強化初級拼圖盾 : [0]  ->  ->  -> 
+--  #{{ES5675}}  5676 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5675?action=edit
+--  #暗屬初級拼圖盾-限  E : [0]  ->  ->  -> 
+--  #5677  {{ES5677}} : [0]  -> 暗屬初級拼圖盾 -> 在指定位置消除暗符石<br>(可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5677
+--  #E  暗強化初級拼圖盾-限 : [0]  ->  ->  -> 
+--  #{{ES5678}}  5679 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5678?action=edit
+--  #暗強化初級拼圖盾  E : [0]  ->  ->  -> 
+--  #5680  {{ES5680}} : [0]  -> 敵屬初級拼圖盾-限 -> 在指定位置消除<br>與敵人相同屬性的符石<br>(不可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5680
+--  #E  敵屬強化初級拼圖盾-限 : [0]  ->  ->  -> 
+--  #{{ES5681}}  5682 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5681?action=edit
+--  #敵屬強化種族初級拼圖盾-限  E : [0]  ->  ->  -> 
+--  #5683  {{ES5683}} : [0]  -> 剋敵初級拼圖盾-限 -> 在指定位置消除<br>克制敵人屬性的符石<br>(不可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5683
+--  #E  剋敵強化初級拼圖盾-限 : [0]  ->  ->  -> 
+--  #{{ES5684}}  5685 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5684?action=edit
+--  #敵屬初級拼圖盾-限-受傷反擊100%  E : [0]  ->  ->  -> 
+--  #5686  {{ES5686}} : [0]  -> 敵屬強化初級拼圖盾-限-受傷反擊100% -> 在指定位置消除<br>與敵人相同屬性的強化符石<br>(不可連同位置旁邊的符石)<br>才會對敵人造成傷害，<br>否則敵人承受傷害變為 1。<br><br>若無法達成上述條件<br>及擊中敵人，敵人反擊<br>自身 100% 攻擊傷害。<br><br>若發動攻擊時有成員<br>無視「指定形狀盾」，<br>則上述反擊無效。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5686
+--  #E  軌跡燃燒500 : [0]  ->  ->  -> 
+--  #{{ES5687}}  5688 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5687?action=edit
+--  #軌跡燃燒1000  E : [0]  ->  ->  -> 
+--  #5689  {{ES5689}} : [0]  -> 軌跡燃燒2000 -> • 燃燒移動符石時觸碰的位置<br>• 每觸碰被燃燒的位置<br>⇒ 對召喚師造成 2000 點傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5689
+--  #E  軌跡燃燒5000 : [0]  ->  ->  -> 
+--  #{{ES5690}}  5691 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5690?action=edit
+--  #軌跡燃燒10000  E : [0]  ->  ->  -> 
+--  #5692  {{ES5692}} : [0]  -> 軌跡燃燒10% -> • 燃燒移動符石時觸碰的位置<br>• 每觸碰被燃燒的位置<br>⇒ 扣除召喚師 10% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5692
+--  #E  軌跡燃燒20% : [0]  ->  ->  -> 
+--  #{{ES5693}}  5694 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5693?action=edit
+--  #軌跡燃燒(攻值2%)  E : [0]  ->  ->  -> 
+--  #5695  {{ES5695}} : [0]  -> 軌跡燃燒(敵攻100%) -> • 燃燒移動符石時觸碰的位置<br>• 每觸碰被燃燒的位置<br>⇒ 對召喚師造成相等於<br>「敵人攻擊力」的傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5695
+--  #E  【請回答問題】 : [0]  ->  ->  -> 
+--  #{{ES5696}}  5697 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5696?action=edit
+--  #【請回答問題】  E : [0]  ->  ->  -> 
+--  #5698  {{ES5698}} : [0]  -> 【請回答問題】 -> 問題：<br>[color=#FFFF00]@quiz[/color]<br><br>請鎖定正確的召喚獸，<br>並發動攻擊。<br><br>鎖定錯誤的召喚獸，<br>並發動攻擊，<br>回合結束時召喚師會死亡。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5698
+--  #E  隊長戰友攻擊零化 : [0]  ->  ->  -> 
+--  #{{ES5699}}  5700 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5699?action=edit
+--  #敵屬外攻擊弱化75%  E : [0]  ->  ->  -> 
+https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5701-6000
+-   168 skills
+--  #5700  {{ES5700}} : [0]  -> 敵屬外攻擊弱化75% -> • 敵人屬性以外傷害減至 25% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5700
+--  #E  敵屬外攻擊弱化90% : [0]  ->  ->  -> 
+--  #{{ES5701}}  5702 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5701?action=edit
+--  #敵屬外攻擊弱化95%  E : [0]  ->  ->  -> 
+--  #5703  {{ES5703}} : [0]  -> 敵屬攻擊弱化75% -> • 與敵人屬性相同的<br>⇒ 傷害減至 25% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5703
+--  #E  敵屬攻擊弱化90% : [0]  ->  ->  -> 
+--  #{{ES5704}}  5705 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5704?action=edit
+--  #敵屬攻擊弱化95%  E : [0]  ->  ->  -> 
+--  #5706  {{ES5706}} : [0]  -> 一水一重力的印記-十重印記盾 -> • 回合結束時所有水符石<br>⇒ 添加力的印記<br><br>• 每消除 1 粒力的印記符石<br>⇒ 下回合獲得 1 重印記力量<br>• 疊至最高 10 重印記力量<br>⇒ 才會對敵人造成傷害<br><br>• 召喚師死亡後<br>⇒ 清空力的印記及印記力量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5706
+--  #E  一火一重力的印記-十重印記盾 : [0]  ->  ->  -> 
+--  #{{ES5707}}  5708 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5707?action=edit
+--  #一木一重力的印記-十重印記盾  E : [0]  ->  ->  -> 
+--  #5709  {{ES5709}} : [0]  -> 一光一重力的印記-十重印記盾 -> • 回合結束時所有光符石<br>⇒ 添加力的印記<br><br>• 每消除 1 粒力的印記符石<br>⇒ 下回合獲得 1 重印記力量<br>• 疊至最高 10 重印記力量<br>⇒ 才會對敵人造成傷害<br><br>• 召喚師死亡後<br>⇒ 清空力的印記及印記力量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5709
+--  #E  一暗一重力的印記-十重印記盾 : [0]  ->  ->  -> 
+--  #{{ES5710}}  5711 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5710?action=edit
+--  #一心一重力的印記-十重印記盾  E : [0]  ->  ->  -> 
+--  #5712  {{ES5712}} : [0]  -> 一水雙重力的印記-十重印記盾 -> • 回合結束時所有水符石<br>⇒ 添加力的印記<br><br>• 每消除 1 粒力的印記符石<br>⇒ 下回合獲得 2 重印記力量<br>• 疊至最高 10 重印記力量<br>⇒ 才會對敵人造成傷害<br><br>• 召喚師死亡後<br>⇒ 清空力的印記及印記力量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5712
+--  #E  一火雙重力的印記-十重印記盾 : [0]  ->  ->  -> 
+--  #{{ES5713}}  5714 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5713?action=edit
+--  #一木雙重力的印記-十重印記盾  E : [0]  ->  ->  -> 
+--  #5715  {{ES5715}} : [0]  -> 一光雙重力的印記-十重印記盾 -> • 回合結束時所有光符石<br>⇒ 添加力的印記<br><br>• 每消除 1 粒力的印記符石<br>⇒ 下回合獲得 2 重印記力量<br>• 疊至最高 10 重印記力量<br>⇒ 才會對敵人造成傷害<br><br>• 召喚師死亡後<br>⇒ 清空力的印記及印記力量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5715
+--  #E  一暗雙重力的印記-十重印記盾 : [0]  ->  ->  -> 
+--  #{{ES5716}}  5717 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5716?action=edit
+--  #一心雙重力的印記-十重印記盾  E : [0]  ->  ->  -> 
+--  #5718  {{ES5718}} : [0]  -> 滅水恢復10% -> • 每回合引爆所有水符石<br>⇒ 回復生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5718
+--  #E  滅火恢復10% : [0]  ->  ->  -> 
+--  #{{ES5719}}  5720 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5719?action=edit
+--  #滅木恢復10%  E : [0]  ->  ->  -> 
+--  #5721  {{ES5721}} : [0]  -> 滅光恢復10% -> • 每回合引爆所有光符石<br>⇒ 回復生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5721
+--  #E  滅暗恢復10% : [0]  ->  ->  -> 
+--  #{{ES5722}}  5723 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5722?action=edit
+--  #滅心恢復10%  E : [0]  ->  ->  -> 
+--  #5724  {{ES5724}} : [0]  -> 滅水恢復20% -> • 每回合引爆所有水符石<br>⇒ 回復生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5724
+--  #E  滅火恢復20% : [0]  ->  ->  -> 
+--  #{{ES5725}}  5726 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5725?action=edit
+--  #滅木恢復20%  E : [0]  ->  ->  -> 
+--  #5727  {{ES5727}} : [0]  -> 滅光恢復20% -> • 每回合引爆所有光符石<br>⇒ 回復生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5727
+--  #E  滅暗恢復20% : [0]  ->  ->  -> 
+--  #{{ES5728}}  5729 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5728?action=edit
+--  #滅心恢復20%  E : [0]  ->  ->  -> 
+--  #5730  {{ES5730}} : [0]  -> 敵轉隊 ‧ 首消隊屬傷害零化 -> • 敵人轉換為隊長屬性<br>(轉換敵人屬性技能效果無效)<br><br>• 首批消除隊長屬性符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5730
+--  #E  敵轉隊 ‧ 首消隊屬傷害化血 : [0]  ->  ->  -> 
+--  #{{ES5731}}  5732 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5731?action=edit
+--  #敵轉隊 ‧ 首消隊屬傷害化血-反擊100%  E : [0]  ->  ->  -> 
+--  #5733  {{ES5733}} : [0]  -> 敵轉隊 ‧ 首消隊屬傷害化血-連續反擊100% -> • 敵人轉換為隊長屬性<br>(轉換敵人屬性技能效果無效)<br><br>• 首批消除隊長屬性符石<br>及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人回復相等於<br>該傷害的血量<br>⓷ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5733
+--  #E  隱藏符石-結 : [0]  ->  ->  -> 
+--  #{{ES5734}}  5735 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5734?action=edit
+--  #二段生命50%︰〔1階︰擴散燃燒10%〕⇒〔2階︰外側燃燒之地10% ‧ 2倍狂擊〕  E : [0]  ->  ->  -> 
+--  #5736  {{ES5736}} : [0]  -> 二段生命50%︰〔1階︰擴散燃燒20%〕⇒〔2階︰外側燃燒之地20% ‧ 3倍狂擊 ‧ 燃燒轉火〕 -> • 敵人生命分為 2 個階段<br>• 召喚師需要分階段攻擊敵人<br><br>▋階段 1<br>【擴散燃燒 20%】<br><br>▋階段 2<br>【外側燃燒之地 20% ‧ 3 倍攻】<br>【燃燒之地符石轉火】 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5736
+--  #E  二段生命50%︰〔1階︰擴散燃燒20%〕⇒〔2階︰外側燃燒之地20% ‧ 10倍狂擊 ‧ 燃燒轉火〕 : [0]  ->  ->  -> 
+--  #{{ES5737}}  5738 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5737?action=edit
+--  #雙重抓手地型  E : [0]  ->  ->  -> 
+--  #5739  {{ES5739}} : [0]  -> 雙重抓手地型-轉 -> 【移動符石時顯示】<br>• 隨機 2 個位置<br>⇒ 出現抓手地型<br>• 抓手地型的符石一經觸碰<br>⓵ 即時停止移動符石<br>⓶ 攻擊力變為 0<br>⓷ 回復力變為 0 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5739
+--  #E  吸取龍脈儀 : [0]  ->  ->  -> 
+--  #{{ES5740}}  5741 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5740?action=edit
+--  #受傷反擊50%  E : [0]  ->  ->  -> 
+--  #5742  {{ES5742}} : [0]  -> 受傷反擊100% -> • 當敵人受到攻擊傷害<br>⇒ 反擊自身 100% 攻擊傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5742
+--  #E  受傷反擊200% : [0]  ->  ->  -> 
+--  #{{ES5743}}  5744 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5743?action=edit
+--  #受傷連續反擊50%  E : [0]  ->  ->  -> 
+--  #5745  {{ES5745}} : [0]  -> 受傷連續反擊100% -> • 當敵人受到攻擊傷害<br>⇒ 反擊自身 100%<br>攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5745
+--  #E  受傷連續反擊200% : [0]  ->  ->  -> 
+--  #{{ES5746}}  5747 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5746?action=edit
+--  #10顆轉心-五屬均分  E : [0]  ->  ->  -> 
+--  #5748  {{ES5748}} : [0]  -> 累積20心符石盾 -> • 累積消除 20 粒心符石<br>⇒ 才會對敵人造成傷害，<br>否則敵人承受傷害變為 1 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5748
+--  #E  累積30心符石盾 : [0]  ->  ->  -> 
+--  #{{ES5749}}  5750 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5749?action=edit
+--  #累積50心符石盾  E : [0]  ->  ->  -> 
+--  #5751  {{ES5751}} : [0]  -> 累積90心符石盾 -> • 累積消除 90 粒心符石<br>⇒ 才會對敵人造成傷害，<br>否則敵人承受傷害變為 1 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5751
+--  #E  首消不同種類盾 : [0]  ->  ->  -> 
+--  #{{ES5752}}  5753 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5752?action=edit
+--  #首消不同種類盾  E : [0]  ->  ->  -> 
+--  #5754  {{ES5754}} : [0]  -> 符石淨化 -> • 進場時將場上的符石<br>⇒ 變回原始模樣 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5754
+--  #E  雙重擴散燃燒10% : [0]  ->  ->  -> 
+--  #{{ES5755}}  5756 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5755?action=edit
+--  #雙重擴散燃燒20%  E : [0]  ->  ->  -> 
+--  #5757  {{ES5757}} : [0]  -> 進場固定14顆轉火-其他轉火外 ‧ 隨機轉火 -> • 進場時將 14 個<br>固定位置的符石<br>⇒ 轉化為火符石<br>• 並將其他位置的符石<br>⇒ 轉化為火以外的符石<br>• 回合結束時<br>⇒ 隨機將 1 種符石<br>轉化為火符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5757
+--  #E   : [0]  ->  ->  -> 
+--  #{{ES5758}}  5759 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5758?action=edit
+--  #軌跡燃燒20000 ‧ 凍敵滅火  E : [0]  ->  ->  -> 
+--  #5760  {{ES5760}} : [0]  -> 軌跡燃燒5000 ‧ 凍敵滅火 -> • 持續燃燒移動符石時<br>觸碰的位置<br>• 每觸碰被燃燒的位置<br>⇒ 對召喚師造成 5000 點傷害<br>• 敵人置身凍結狀態<br>⇒ 「燃燒之軌」敵技失效 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5760
+--  #E   : [0]  ->  ->  -> 
+--  #{{ES5761}}  5762 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5761?action=edit
+--  #  E : [0]  ->  ->  -> 
+--  #5763  {{ES5763}} : [0]  -> 敵屬起手盾 -> 需以敵人屬性符石<br>首次起手轉珠，<br>否則該回合攻擊力變為 0。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5763
+--  #E  首消指定種類盾 : [0]  ->  ->  -> 
+--  #{{ES5764}}  5765 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5764?action=edit
+--  #首消指定種類盾  E : [0]  ->  ->  -> 
+--  #5766  {{ES5766}} : [0]  -> 首消固定Combo盾突破50%⇒破盾棄攻 ‧ 越扣越強20% -> • 首批消除指定的<br>「固定連擊 (Combo)」<br>⇒ 可扣除敵人 50% 生命力<br><br>• 除此之外，<br>敵人不會受到任何傷害<br><br>• 達成上述條件<br>⇒ 敵人不會發動攻擊<br><br>• 若沒有達成上述條件<br>⇒ 敵人發動攻擊時<br>扣除召喚師 20% 生命力<br>(敵人無視所有減傷效果和<br>意志技能)<br>• 敵人攻擊次數愈多時<br>⇒ 攻擊力持續提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5766
+--  #E  首消固定Combo盾突破20%⇒破盾棄攻 ‧ 越扣越強25% : [0]  ->  ->  -> 
+--  #{{ES5767}}  5768 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5767?action=edit
+--  #轉化-五屬均分  E : [0]  ->  ->  -> 
+--  #5769  {{ES5769}} : [0]  -> 攻後雙重擴散燃燒10% -> • 進場時隨機燃燒 2 個位置<br>• 每當敵人發動攻擊時<br>⇒ 額外燃燒 2 個位置<br>• 每觸碰被燃燒的位置<br>⇒ 扣除召喚師 10% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5769
+--  #E  攻後三重擴散燃燒10% : [0]  ->  ->  -> 
+--  #{{ES5770}}  5771 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5770?action=edit
+--  #攻後四重擴散燃燒20%  E : [0]  ->  ->  -> 
+--  #5772  {{ES5772}} : [0]  -> 越燒越強 -> • 敵人的攻擊力<br>隨燃燒位置數量提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5772
+--  #E  首消指定全屬盾突破50% ‧ 轉剋屬 : [0]  ->  ->  -> 
+--  #{{ES5773}}  5774 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5773?action=edit
+--  #首消指定全屬盾突破25% ‧ 轉剋屬  E : [0]  ->  ->  -> 
+--  #5775  {{ES5775}} : [0]  -> 首消指定全屬盾突破20% ‧ 轉剋屬 -> • 首批消除所有指定屬性符石<br>(需消除指定屬性符石)<br>⇒ 可扣除敵人 50% 生命力<br><br>• 除此之外，<br>敵人不會受到任何傷害<br><br>• 敵人會根據全消盾的屬性，<br>將自身屬性轉換為<br>剋制全消盾的屬性。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5775
+--  #E  左右上下瘴氣10%輪轉 : [0]  ->  ->  -> 
+--  #{{ES5776}}  5777 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5776?action=edit
+--  #左右上下瘴氣20%輪轉  E : [0]  ->  ->  -> 
+--  #5778  {{ES5778}} : [0]  -> 二五直行轉光燃燒50% -> • 每回合隨機燃燒<br>第 2 或第 5 直行位置，<br>並將該位置的符石<br>轉化為光符石<br>• 每觸碰被燃燒的位置<br>⇒ 扣除召喚師 50% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5778
+--  #E  首消相同種類盾 : [0]  ->  ->  -> 
+--  #{{ES5779}}  5780 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5779?action=edit
+--  #首消不同種類盾  E : [0]  ->  ->  -> 
+--  #5781  {{ES5781}} : [0]  -> 3顆電擊 -> • 每回合隨機將 3 粒符石<br>⇒ 添加為電擊符石<br>• 如有電擊符石未被消除<br>⇒ 全隊攻擊力變 0<br>• 電擊符石一經觸碰<br>⇒ 即時停止移動符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5781
+--  #E  吸取龍脈儀狂擊 : [0]  ->  ->  -> 
+--  #{{ES5782}}  5783 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5782?action=edit
+--  #二段生命50%︰〔1階︰灼熱地型10000〕⇒〔2階︰射擊〕  E : [0]  ->  ->  -> 
+--  #5784  {{ES5784}} : [0]  -> 二段生命50%︰〔1階︰灼熱地型20000〕⇒〔2階︰射擊 ‧ CD&EP重置〕 -> • 敵人生命分為 2 個階段<br>• 召喚師需要分階段攻擊敵人<br><br>▋階段 1<br>【灼熱地型 20000】<br><br>▋階段 2<br>【連環光牢】<br>【清技及 EP ‧ 淨世】 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5784
+--  #E  首消指定顆數符石盾⇒破盾棄攻 : [0]  ->  ->  -> 
+--  #{{ES5785}}  5786 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5785?action=edit
+--  #指定位置轉水  E : [0]  ->  ->  -> 
+--  #5787  {{ES5787}} : [0]  -> 指定位置轉火 -> • 每回合結束時，<br>將所有與指定位置符石<br>相同種類的符石<br>⇒ 轉化為火符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5787
+--  #E  指定位置轉木 : [0]  ->  ->  -> 
+--  #{{ES5788}}  5789 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5788?action=edit
+--  #指定位置轉光  E : [0]  ->  ->  -> 
+--  #5790  {{ES5790}} : [0]  -> 指定位置轉暗 -> • 每回合結束時，<br>將所有與指定位置符石<br>相同種類的符石<br>⇒ 轉化為暗符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5790
+--  #E  指定位置轉心 : [0]  ->  ->  -> 
+--  #{{ES5791}}  5792 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5791?action=edit
+--  #指定位置轉水  E : [0]  ->  ->  -> 
+--  #5793  {{ES5793}} : [0]  -> 指定位置轉火 -> • 每回合結束時，<br>將所有與指定位置符石<br>相同種類的符石<br>⇒ 轉化為火符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5793
+--  #E  指定位置轉木 : [0]  ->  ->  -> 
+--  #{{ES5794}}  5795 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5794?action=edit
+--  #指定位置轉光  E : [0]  ->  ->  -> 
+--  #5796  {{ES5796}} : [0]  -> 指定位置轉暗 -> • 每回合結束時，<br>將所有與指定位置符石<br>相同種類的符石<br>⇒ 轉化為暗符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5796
+--  #E  指定位置轉心 : [0]  ->  ->  -> 
+--  #{{ES5797}}  5798 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5797?action=edit
+--  #指定位置轉水  E : [0]  ->  ->  -> 
+--  #5799  {{ES5799}} : [0]  -> 指定位置轉火 -> • 每回合結束時，<br>將所有與指定位置符石<br>相同種類的符石<br>⇒ 轉化為火符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5799
+--  #E  指定位置轉木 : [0]  ->  ->  -> 
+--  #{{ES5800}}  5801 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5800?action=edit
+--  #指定位置轉光  E : [0]  ->  ->  -> 
+--  #5802  {{ES5802}} : [0]  -> 指定位置轉暗 -> • 每回合結束時，<br>將所有與指定位置符石<br>相同種類的符石<br>⇒ 轉化為暗符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5802
+--  #E  指定位置轉心 : [0]  ->  ->  -> 
+--  #{{ES5803}}  5804 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5803?action=edit
+--  #【請回答問題】  E : [0]  ->  ->  -> 
+--  #5805  {{ES5805}} : [0]  -> 【請回答問題】 -> 問題：<br>[color=#FFFF00]@quiz[/color]<br><br>請鎖定正確的召喚獸，<br>並發動攻擊。<br><br>鎖定錯誤的召喚獸，<br>並發動攻擊，<br>回合結束時召喚師會死亡。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5805
+--  #E  【請回答問題】 : [0]  ->  ->  -> 
+--  #{{ES5806}}  5807 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5806?action=edit
+--  #【請回答問題】  E : [0]  ->  ->  -> 
+--  #5808  {{ES5808}} : [0]  -> 【請回答問題】 -> 問題：<br>[color=#FFFF00]@quiz[/color]<br><br>請鎖定正確的召喚獸，<br>並發動攻擊。<br><br>鎖定錯誤的召喚獸，<br>並發動攻擊，<br>回合結束時召喚師會死亡。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5808
+--  #E  【請回答問題】 : [0]  ->  ->  -> 
+--  #{{ES5809}}  5810 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5809?action=edit
+--  #【請回答問題】  E : [0]  ->  ->  -> 
+--  #5811  {{ES5811}} : [0]  -> 首消水傷害化血-連續反擊200% -> 首批消除水符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人回復相等於<br>該傷害的血量<br>⓷ 敵人反擊<br>⇒ 自身 200% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5811
+--  #E  首消火傷害化血-連續反擊200% : [0]  ->  ->  -> 
+--  #{{ES5812}}  5813 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5812?action=edit
+--  #首消木傷害化血-連續反擊200%  E : [0]  ->  ->  -> 
+--  #5814  {{ES5814}} : [0]  -> 首消光傷害化血-連續反擊200% -> 首批消除光符石及擊中敵人：<br>⓵ 無法對敵人造成傷害<br>⓶ 敵人回復相等於<br>該傷害的血量<br>⓷ 敵人反擊<br>⇒ 自身 200% 攻擊傷害 2 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5814
+--  #E  首消暗傷害化血-連續反擊200% : [0]  ->  ->  -> 
+--  #{{ES5815}}  5816 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5815?action=edit
+--  #首消心傷害化血-連續反擊200%  E : [0]  ->  ->  -> 
+--  #5817  {{ES5817}} : [0]  -> 燃燒轉水 -> • 回合結束時，<br>將燃燒位置的符石<br>⇒ 轉化為水符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5817
+--  #E  燃燒轉火 : [0]  ->  ->  -> 
+--  #{{ES5818}}  5819 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5818?action=edit
+--  #燃燒轉木  E : [0]  ->  ->  -> 
+--  #5820  {{ES5820}} : [0]  -> 燃燒轉光 -> • 回合結束時，<br>將燃燒位置的符石<br>⇒ 轉化為光符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5820
+--  #E  燃燒轉暗 : [0]  ->  ->  -> 
+--  #{{ES5821}}  5822 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5821?action=edit
+--  #燃燒轉心  E : [0]  ->  ->  -> 
+--  #5823  {{ES5823}} : [0]  -> 六重血浴地型 -> • 隨機 6 個位置<br>⇒ 出現血浴地型<br><br>在血浴地型位置結束轉珠<br>⇒ 全隊攻擊力變為 0 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5823
+--  #E  九重血浴地型 : [0]  ->  ->  -> 
+--  #{{ES5824}}  5825 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5824?action=edit
+--  #血浴地型圍城  E : [0]  ->  ->  -> 
