@@ -1,0 +1,203 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
+// 2021/12/08 20:32
+class Result {
+
+    /*
+     * Complete the 'searchSuggestions' function below.
+     *
+     * The function is expected to return a 2D_STRING_ARRAY.
+     * The function accepts following parameters:
+     *  1. STRING_ARRAY repository
+     *  2. STRING customerQuery
+     */
+
+    public static List<List<String>> searchSuggestions(List<String> repository, String customerQuery) {
+        // Write your code here
+        return sol1(repository, customerQuery);
+    }
+    
+    // 2021/12/08 21:03 1st version
+    private static List<List<String>> sol1(List<String> repository, String query) {
+        Collections.sort(repository);
+        List<List<String>> ans = new ArrayList<>();
+        int n = query.length();
+        for (int i = 2; i <= n; i++) {
+            String key = query.substring(0, i);
+            List<String> li = getPrefixOf(repository, key);
+            if (debug) {
+                ln("#%s : key = %s, %s", i, key, li.size());
+            }
+            ans.add(li);
+        }
+        return ans;
+    }
+    
+    private static List<String> getPrefixOf(List<String> list, String prefix) {
+        int[] range = getRangeOfPrefix(list, prefix);
+        if (debug) {
+            ln("range = %s, %s, on %s", range[0], range[1], prefix);
+        }
+        int head = range[0];
+        int tail = Math.min(head + 3, range[1]); //  // take at most 3
+        //ans = list.sublist(range[0], range[1]); // ?
+        List<String> ans = sublist(list, head, tail);
+        return ans;
+    }
+    
+    private static List<String> sublist(List<String> list, int from, int to) {
+        List<String> ans = new ArrayList<>();
+        for (int i = from; i < to; i++) {
+            ans.add(list.get(i).toLowerCase());
+        }
+        return ans;
+    }
+    
+    // 2021/12/08 20:37
+    // need to sort the list of
+    private static int[] getRangeOfPrefix(List<String> list, String query) {
+        int n = list.size();
+        int leftLeft = 0;
+        int leftRight = n - 1;
+        while (leftLeft < leftRight) {
+            int mid = (leftLeft + leftRight) / 2;
+            int cmp = list.get(mid).compareTo(query);
+            if (cmp < 0) {
+                leftLeft = mid + 1;
+            } else {
+                leftRight = mid;
+            }
+        }
+        if (list.get(leftLeft).startsWith(query) == false) {
+            return new int[]{-1, -1};
+        }
+        int rightLeft = leftLeft;
+        int rightRight = n;
+        while (rightLeft < rightRight) {
+            int mid = (rightLeft + rightRight) / 2;
+            boolean cmp = list.get(mid).startsWith(query);
+            if (cmp) {
+                rightLeft = mid + 1;
+            } else {
+                rightRight = mid;
+            }
+        }
+        return new int[]{leftLeft, rightLeft};
+    }
+    
+    private static boolean debug = 0 > 0;
+    private static void ln(String f, Object... p) {
+        System.out.println(String.format(f, p));
+    }
+
+}
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int repositoryCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<String> repository = IntStream.range(0, repositoryCount).mapToObj(i -> {
+            try {
+                return bufferedReader.readLine();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        })
+            .collect(toList());
+
+        String customerQuery = bufferedReader.readLine();
+
+        List<List<String>> result = Result.searchSuggestions(repository, customerQuery);
+
+        result.stream()
+            .map(
+                r -> r.stream()
+                    .collect(joining(" "))
+            )
+            .map(r -> r + "\n")
+            .collect(toList())
+            .forEach(e -> {
+                try {
+                    bufferedWriter.write(e);
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+            });
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}
+
+
+//--
+//Compiled successfully.7/17 test cases passed
+//Use print or log statements to debug why your hidden test cases are failing. Hidden test cases  are used to evaluate if your code can handle different scenarios, including corner cases.
+abbs abc
+abbs
+
+--
+abc abccc abccccdd
+abc abccc abccccdd
+abcder
+--
+abcde
+--
+shi
+shi
+
+--
+
+
+
+
+
+--
+ab abcdef abcdefgh
+abc abcde abcdefg
+abcde abcdefg
+abcde abcdefg
+abcdefg
+--
+joc jolaghjkf jolaly
+jolaghjkf jolaly jolbbxkj
+jolla jollya jollybdghkajsd
+jollya jollybdghkajsd jollydkhdk
+jollyu jollyuzz jollyuabd
+jollyuzz
+
+--
+defdrt
+defdrt
+
+--ab abc abcdedfefc
+abc abcdedfefc
+abcdedfefc
+abcdedfefc
+abcdedfefc
+abcdedfefc
+abcdedfefc
+abcdedfefc
+abcdedfefc
+
+--
+
+
+
+
+
+
+--

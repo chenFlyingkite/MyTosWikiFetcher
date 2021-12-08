@@ -1,0 +1,156 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
+// 2021/12/08 21:12
+class Result {
+
+    /*
+     * Complete the 'foo' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts following parameters:
+     *  1. STRING_ARRAY codeList
+     *  2. STRING_ARRAY shoppingCart
+     */
+
+    public static int foo(List<String> codeList, List<String> shoppingCart) {
+        // Write your code here
+        return sol1(codeList, shoppingCart);
+    }
+    // find the wanted order of substring in cart
+    
+    private static int sol1(List<String> code, List<String> cart) {
+        ln("code = /%s/", code);
+        ln("cart = /%s/", cart);
+        return match(code, cart, 0, 0) ? 1 : 0;
+    }
+    
+    private static boolean match(List<String> code, List<String> cart, int codeAt, int cartAt) {
+        int n = code.size();
+        int m = cart.size();
+        if (debug) {
+            ln("run match [%s] on %s", codeAt, cartAt);
+        }
+        if (cartAt >= m && codeAt < n) {
+            if (debug) {
+                ln("ans:x1");
+            }
+            return false; // matched at end
+        }
+        if (cartAt <= m && codeAt == n) {
+            if (debug) {
+                ln("ans:o1");
+            }
+            return true;
+        }
+        String[] each = code.get(codeAt).split(" ");
+        int z = each.length;
+        if (debug) {
+            ln("z = %s, code = /%s/, each = /%s/", z, code, Arrays.toString(each));
+        }
+        for (int i = cartAt; i + z < m; i++) {
+            boolean ok = pass(cart, each, i);
+            if (debug) {
+                ln("For %s, %s", i, ok ? "o" : "x");
+            }
+            if (ok) {
+                boolean ans = match(code, cart, codeAt + 1, i + z); // matches each and try on next one
+                if (debug) {
+                    ln("ans match on %s = %s", i, ans);
+                }
+                return ans;
+            }
+        }
+        if (debug) {
+            ln("ans:o2");
+        }
+        return cartAt <= m && codeAt == n - 1;
+    }
+    
+    private static boolean pass(List<String> list, String[] want, int from) {
+        int n = list.size();
+        if (from >= n) return false;
+        for (int i = 0; i < want.length; i++) {
+            if (from + i >= n) return false; // Out of bound
+            String key = list.get(from + i); 
+            if (key.equals(want[i])) {
+                 // OK
+            } else if ("anything".equals(key)) {
+                // OK
+            } else {
+                return false;// not wanted and not anything
+            }
+        }
+        return true;
+    }
+    
+    private static boolean debug = 0 > 0;
+    private static void ln(String f, Object... p) {
+        System.out.println(String.format(f, p));
+    }
+
+}
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int codeListCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<String> codeList = IntStream.range(0, codeListCount).mapToObj(i -> {
+            try {
+                return bufferedReader.readLine();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        })
+            .collect(toList());
+
+        int shoppingCartCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<String> shoppingCart = IntStream.range(0, shoppingCartCount).mapToObj(i -> {
+            try {
+                return bufferedReader.readLine();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        })
+            .collect(toList());
+
+        int result = Result.foo(codeList, shoppingCart);
+
+        bufferedWriter.write(String.valueOf(result));
+        bufferedWriter.newLine();
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}
+
+//--
+//Compiled successfully.51/58 test cases passed
+//Use print or log statements to debug why your hidden test cases are failing. Hidden test cases  are used to evaluate if your code can handle different scenarios, including corner cases.
+code = /[orange, apple apple, banana anything apple, banana]/
+cart = /[orange, apple, apple, banana, kiwi, apple, banana]/
+code = /[orange]/
+cart = /[mango]/
+code = /[anything anything, anything anything anything, anything, anything anything anything anything, anything]/
+cart = /[orange, mango, banana, apricot, apricot, apple, Guava, Blueberry, Guava, Blueberry, Guava]/
+code = /[kiwi, pear, jackfruit, anything, anything, apricot, banana, orange, anything, watermelon]/
+cart = /[mango, jackfruit, kiwi, pear, jackfruit, orange, apple, apricot, banana, orange, pear, watermelon]/
+code = /[apple apple, apple anything apple, apple apple]/
+cart = /[kiwi, apple, apple, apple, apple, orange, apple, orange, apple, orange, apple, apple]/
+code = /[orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, kiwi pear anything, jackfruit, anything, apple apple, banana anything apple, banana, orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, kiwi pear anything, jackfruit, anything, apple apple, banana anything apple, banana, orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, kiwi pear anything, jackfruit, anything, apple apple, banana anything apple, banana, orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit orange apple apple banana orange apple banana kiwi pear orange jackfruit, orange apple apple banana orange apple banana kiwi pear orange jackfruit, kiwi pear anything, jackfruit, anything, apple apple, banana anything apple, banana]/
+cart = /[orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, kiwi, pear, kiwi, jackfruit, grapes, apple, apple, banana, apple, apple, banana, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, kiwi, pear, kiwi, jackfruit, grapes, apple, apple, banana, apple, apple, banana, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, kiwi, pear, kiwi, jackfruit, grapes, apple, apple, banana, apple, apple, banana, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, orange, apple, apple, banana, orange, apple, banana, kiwi, pear, orange, jackfruit, kiwi, pear, kiwi, jackfruit, grapes, apple, apple, banana, apple, apple, banana]/
+code = /[apple apple]/
+cart = /[apple, pear, orange, apple]/

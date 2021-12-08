@@ -1,4 +1,4 @@
-package com.exam1116;
+package com.exam20211116;
 
 public class Main1116 {
     public static void main(String[] args) {
