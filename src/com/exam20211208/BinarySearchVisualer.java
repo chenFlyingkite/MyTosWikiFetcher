@@ -13,8 +13,8 @@ public class BinarySearchVisualer implements Runnable {
     @Override
     public void run() {
         int min = 0;
-        int max = 99;
-        int count = 10;
+        int max = 9;
+        int count = 15;
         int width = BB.length() - 1;//(int) Math.log10(max - min + 1) + 1;
         int x = new Random().nextInt(max - min) + min;
         int[] a = random(min, max, count);
@@ -24,7 +24,38 @@ public class BinarySearchVisualer implements Runnable {
         L.log("pointers for (0, 5)  = %s", s2);
         L.log("---------");
         binarySearch(a, x);
+        L.log("---------");
+        int[] b = { 0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 6, 8, 8, 8, 8};
+        //b = new int[]{0,1,2,3,4,5,6,5,4,3,2,1}; // increase and decrease
+        binarySearch(b, 3);
     }
+    /*
+     Is this the formula?
+     int L, R = your range inclusively
+     while (L < R) {
+       int M = L + (R - L) / 2
+       if (want) {
+          R = M;
+       } else {
+          L = M + 1;
+       }
+     }
+     // L and R will stay on wanted condition
+
+     or
+     <code>
+     int L, R = your range inclusively
+     while (L < R) {
+       int M = L + (R - L) / 2
+       if (not want) {
+          L = M + 1;
+       } else {
+          R = M;
+       }
+     }
+     </code>
+     // L and R will stay on wanted condition
+    */
 
     /*
     sorted integer array = [   0,   3,  13,  26,  32,  43,  61,  73,  73,  86,]
@@ -51,11 +82,23 @@ public class BinarySearchVisualer implements Runnable {
         }
         while (left < right) {
             int m = (left + right) / 2;
+
+            if (a[m] > k) { // left most one meet condition // m stays at 6
+            //if (a[m] >= k) { // >= k is the left most one of k // m stays at left most 3
+            //if (a[m] > a[m+1]) { // stay at left most wanted condition
+                right = m;
+            } else { //
+                left = m + 1; // stay at here
+            }
+
+            /*
+            //if (a[m] < a[m+1]) {
             if (a[m] < k) { // negated condition
                 left = m + 1;
             } else { // >= m
                 right = m; // stay at here
             }
+            */
             if (visual) {
                 i++;
                 L.log("#%2d(%2d~%2d) = %s", i, left, right, locate(left, LL, right, RR, BB));
