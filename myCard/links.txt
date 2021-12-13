@@ -17196,6 +17196,84 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10119"
   },
   {
+    "title": "No. 10120 腦無",
+    "id": "10120",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%85%A6%E7%84%A1",
+    "linkId": "http://zh.tos.wikia.com/wiki/10120"
+  },
+  {
+    "title": "No. 10121 轟焦凍",
+    "id": "10121",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BD%9F%E7%84%A6%E5%87%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/10121"
+  },
+  {
+    "title": "No. 10122 爆豪勝己",
+    "id": "10122",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%88%86%E8%B1%AA%E5%8B%9D%E5%B7%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/10122"
+  },
+  {
+    "title": "No. 10123 綠谷出久",
+    "id": "10123",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B6%A0%E8%B0%B7%E5%87%BA%E4%B9%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/10123"
+  },
+  {
+    "title": "No. 10124 飯田天哉",
+    "id": "10124",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A3%AF%E7%94%B0%E5%A4%A9%E5%93%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10124"
+  },
+  {
+    "title": "No. 10125 心操人使",
+    "id": "10125",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BF%83%E6%93%8D%E4%BA%BA%E4%BD%BF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10125"
+  },
+  {
+    "title": "No. 10126 麗日御茶子",
+    "id": "10126",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BA%97%E6%97%A5%E5%BE%A1%E8%8C%B6%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/10126"
+  },
+  {
+    "title": "No. 10127 切島銳兒郎",
+    "id": "10127",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%88%87%E5%B3%B6%E9%8A%B3%E5%85%92%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10127"
+  },
+  {
+    "title": "No. 10128 蛙吹梅雨",
+    "id": "10128",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9B%99%E5%90%B9%E6%A2%85%E9%9B%A8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10128"
+  },
+  {
+    "title": "No. 10129 歐爾麥特",
+    "id": "10129",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AD%90%E7%88%BE%E9%BA%A5%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/10129"
+  },
+  {
+    "title": "No. 10130 抹消磁頭",
+    "id": "10130",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8A%B9%E6%B6%88%E7%A3%81%E9%A0%AD",
+    "linkId": "http://zh.tos.wikia.com/wiki/10130"
+  },
+  {
+    "title": "No. 10133 渡我被身子",
+    "id": "10133",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B8%A1%E6%88%91%E8%A2%AB%E8%BA%AB%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/10133"
+  },
+  {
+    "title": "No. 10135 死柄木弔",
+    "id": "10135",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AD%BB%E6%9F%84%E6%9C%A8%E5%BC%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/10135"
+  },
+  {
     "title": "No. 10200 一曲傾心 ‧ 莫莉安娜",
     "id": "10200",
     "link": "https://tos.fandom.com/zh/wiki/%E4%B8%80%E6%9B%B2%E5%82%BE%E5%BF%83_%E2%80%A7_%E8%8E%AB%E8%8E%89%E5%AE%89%E5%A8%9C",
