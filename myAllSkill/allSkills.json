@@ -7012,6 +7012,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "喵之祝願",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%96%B5%E4%B9%8B%E7%A5%9D%E9%A1%98",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "4 回合內 I. 獸類攻擊力 2 倍 II. 獸類成員無視「攻前盾」 III. 發動技能及回合結束時 ⇒ 將心符石轉化為火獸族符石",
+    "skillMonsters": [
+      "2750"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "嗅覺衝擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%97%85%E8%A6%BA%E8%A1%9D%E6%93%8A",
     "skillCDMin": 17,
@@ -33148,6 +33159,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蒼炎",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%92%BC%E7%82%8E",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆敵人屬性符石 ⇒ 掉落成員屬性強化符石 2 回合內 II. 點燃敵方全體， 使受影響目標轉為暗屬性； 每回合受到自身攻擊力基值 500 倍的火屬性傷害 III. 效果持續期間 ⇒ 敵人所受傷害 2 倍",
+    "skillMonsters": [
+      "10134"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "蒼璧誘敵",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%92%BC%E7%92%A7%E8%AA%98%E6%95%B5",
     "skillCDMin": 14,
@@ -43841,6 +43863,17 @@
     "skillMonsters": [
       "0597",
       "0599"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "Ａll For One",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%EF%BC%A1ll_For_One",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 將場上的符石變回原始模樣 II.「All For One」以外 【敵聯合】成員技能 CD -2 2 回合內 III. 全隊攻擊力基值減至 0 IV. 將被減去攻擊力基值的 2 倍 ⇒ 加入自身攻擊力基值 V. 回合結束時， 將場上的符石變回 「移動符石時間完結一刻」的符石分佈 (包括強化符石、種族符石)",
+    "skillMonsters": [
+      "10136"
     ]
   }
 ]
