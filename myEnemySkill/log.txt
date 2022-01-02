@@ -6004,7 +6004,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  敵技5606 : [0]  ->  ->  -> 
 --  #{{ES5606}}  5607 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5606?action=edit
 --  #敵技5607  E : [0]  ->  ->  -> 
---  #5608  {{ES5608}} : [0]  -> 敵技5608 -> 需以指定 (火符石優先) 位置<br>(綠色漩渦) 開始轉珠及<br>在指定位置 (紅色漩渦)<br>結束轉珠。<br><br>未有達成上述條件：<br>⓵ 該回合攻擊力變為 0<br>⓶ 無法進行回復 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5608
+--  #5608  {{ES5608}} : [0]  -> 【起結有序 - 火】 -> 需以指定 (火符石優先) 位置<br>(綠色漩渦) 開始轉珠及<br>在指定位置 (紅色漩渦)<br>結束轉珠。<br><br>未有達成上述條件：<br>⓵ 該回合攻擊力變為 0<br>⓶ 無法進行回復 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5608
 --  #E  【起結有序 - 木】 : [0]  ->  ->  -> 
 --  #{{ES5609}}  5610 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5609?action=edit
 --  #敵技5610  E : [0]  ->  ->  -> 

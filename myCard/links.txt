@@ -17274,6 +17274,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10131"
   },
   {
+    "title": "No. 10132 霍克斯",
+    "id": "10132",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9C%8D%E5%85%8B%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10132"
+  },
+  {
     "title": "No. 10133 渡我被身子",
     "id": "10133",
     "link": "https://tos.fandom.com/zh/wiki/%E6%B8%A1%E6%88%91%E8%A2%AB%E8%BA%AB%E5%AD%90",

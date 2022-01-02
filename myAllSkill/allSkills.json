@@ -5492,6 +5492,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "剛翼",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%89%9B%E7%BF%BC",
+    "skillCDMin": 24,
+    "skillCDMax": 10,
+    "skillDesc": "1 回合內 I. 迴避敵人首次攻擊 II. 無視「黏腐」敵技 III. 無視「燃燒」敵技 (不包括「煉獄之火」) IV. 移動符石時間延長至 20 秒 V. 隊長追打五屬攻擊各 1 次 VI. 首批消除所有符石時 ⇒ 隊長 CD -2",
+    "skillMonsters": [
+      "10132"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "剛陽之尊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%89%9B%E9%99%BD%E4%B9%8B%E5%B0%8A",
     "skillCDMin": 16,
@@ -7354,6 +7365,17 @@
     "skillDesc": "2 回合內 I. 全隊攻擊力及回復力 2 倍 II. 隊伍不受中毒技能影響 III. 隊中每多 1 個水屬性人類或 光屬性人類成員 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 6 回合",
     "skillMonsters": [
       "2740"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "地獄之火",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9C%B0%E7%8D%84%E4%B9%8B%E7%81%AB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有人類成員時： I. 全隊攻擊力 5 倍、 生命力及回復力 2 倍 II. 延長移動符石時間 2.5 秒 III.「奮進人」攻擊力額外 10 倍",
+    "skillMonsters": [
+      "10131"
     ]
   },
   {
@@ -35806,6 +35828,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "赫灼熱拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B5%AB%E7%81%BC%E7%86%B1%E6%8B%B3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將凍結符石變為可消除的狀態 II. 將水以外符石轉化為火強化符石 III. 所受火屬性傷害減少 50% IV. 每回合結束時， 將「奮進人」直行水以外符石 ⇒ 轉化為火強化符石 V.「奮進人」及「轟焦凍」 ⇒ 攻擊力 2 倍 III - V 效果持續至首批沒有消除火符石",
+    "skillMonsters": [
+      "10131"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "起來吧，聖鬥士們",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B5%B7%E4%BE%86%E5%90%A7%EF%BC%8C%E8%81%96%E9%AC%A5%E5%A3%AB%E5%80%91",
     "skillCDMin": 19,
@@ -37809,7 +37842,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E6%9E%9C%E8%AA%98%E6%AF%92",
     "skillCDMin": 15,
     "skillCDMax": 6,
-    "skillDesc": "I. 每回合所有 「瀾漫勾惑 ‧ 夏娃」 ⇒ 增加 1 個金果 II. 若隊長及戰友均為 「魔性原罪 · 夏娃」時 ⇒ 每回合所有 「魔性原罪 · 夏娃」 增加 1 個禁果 III. 必延 1.5 秒 IV. 魔族成員傷害 ⇒ 可克制木屬性目標 V. 若隊中有 ≥2 個魔族成員 ⇒ 連擊 (Ex. Combo、Combo) 時攻擊力提升 40% (效果會在關閉此技能 或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 自身每有 1 個金果 ⇒ 該回合 + 3 Combo (最多 + 12 Combo) ⓶ 若自身有 4 個金果 ⇒ 該回合所有成員的攻擊 無視「攻前盾」",
+    "skillDesc": "I. 每回合所有 「瀾漫勾惑 ‧ 夏娃」 ⇒ 增加 1 個金果 II. 若隊長及戰友均為 「魔性原罪 · 夏娃」時 ⇒ 每回合所有 「魔性原罪 · 夏娃」 增加 1 個禁果 III. 必延 2 秒 IV. 魔族成員傷害 ⇒ 可克制水及木屬性目標 V. 若隊中有 ≥2 個魔族 或水屬性成員 ⓵ 連擊 (Ex. Combo、Combo) 時攻擊力提升 40% ⓶ 回合結束時， 將最底 1 橫行符石 ⇒ 添加為魔族符石 (效果會在關閉此技能 或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 自身每有 1 個金果 ⇒ 該回合 + 3 Combo (最多 + 12 Combo) ⓶ 若自身有 4 個金果 ▋ 該回合所有成員 ⇒ 無視「攻前盾」 ▋當前技能 CD -2",
     "skillMonsters": [
       "2585"
     ]
