@@ -93,6 +93,7 @@ public class Main {
         //new LeetCode().run();
         //addJpg();
         //getIP();
+        //new BinarySearchVisualizer().run();
     }
 
     private static void getIP() {
@@ -483,6 +484,7 @@ public class Main {
                     "237475591",
                     "176874774",
                     "200172730",
+                    "512617371",
             };
 
             for (String s : ids) {
