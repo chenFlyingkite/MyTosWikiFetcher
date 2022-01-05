@@ -8,7 +8,6 @@ import flyingkite.javaxlibrary.images.create.PngCreator;
 import flyingkite.javaxlibrary.images.resize.PngResizer;
 import flyingkite.log.L;
 import flyingkite.math.MathUtil;
-import flyingkite.math.Matrix;
 import flyingkite.tool.StringUtil;
 import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
@@ -189,47 +188,52 @@ public class Main {
     //
     // https://limnu.com/premultiplied-alpha-primer-artists/
     // https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.1.20.pdf
-    private static void matrixMul() {
-        double[][] a1 = {
-                {0.3811, 0.5783, 0.0402},
-                {0.1967, 0.7244, 0.0782},
-                {0.0241, 0.1288, 0.8444}
-        };
-        Matrix a1m = new Matrix(a1);
-        double[][] a2 = {
-                {+4.4679, -3.5873, +0.1193},
-                {-1.2186, +2.3809, -0.1624},
-                {+0.0497, -0.2439, +1.2045}
-        };
-        Matrix a2m = new Matrix(a2);
+    private static void MBO() {
+        // Objective, item_1, ...,  item_n, Key Result_1, ..., Key Result_n
+        String[][] all = {{
+            "Engaged in development of project to add features and fix bugs\n\nFaceMe Fintech - Android\nFaceMe Fintech - iOS\n",
 
-        double[][] a4 = {
-                {+4.468669863496255542, -3.5886759034721264617, +0.11960436657860115646},
-                {-1.2197166276177633275, +2.3830879129554568266, -0.16263011175140056616},
-                {+0.058508476938545900071, -0.26107843902769373702, +1.2056659085256230519}
-        };
-        Matrix a4m = new Matrix(a4);
-        // RGBtoYIQ
-        double[][] b1 = {
-                {+0.299, +0.587, +0.114},
-                {+0.596, -0.274, -0.322},
-                {+0.212, -0.523, +0.311},
-        };
-        Matrix b1m = new Matrix(b1);
-        // YIQtoRGB
-        double[][] b2 = {
-                {1.0, +0.956, +0.621},
-                {1.0, -0.272, -0.647},
-                {1.0, -1.105, +1.702},
-        };
-        Matrix b2m = new Matrix(b2);
-        Matrix a3m = Matrix.multiply(a1m, a2m);
-        L.log("a3 = %s", a3m);
-        Matrix a14 = Matrix.multiply(a1m, a4m);
-        L.log("a14 = %s", a14);
+            "1. Getting familiar with\n1-1> the structure\n1-2> framework of The Project\n2. Creating good structure for better maintenance",
+            "1. Fixing eBugs of The Project\n1-1> with quality\n1-2> and time efficiency.",
+            "1. Adding the required features\n1-1> with quality\n1-2> and efficiency",
 
-        Matrix b3m = Matrix.multiply(b1m, b2m);
-        L.log("b3 = %s", b3m);
+            "Fixing the eBugs and adding feature to ensure The Project follows the schedule on time\nSimply describe the developing monuments.",
+            "Fixing the eBugs of The Project with quality, time efficiency and no severe side effect so as to ensure The Project follows the schedule on time",
+            "Fix the critical/blocking ebugs and enhance user experience of the new added features",
+            }, {
+            "Dynamically Support other project development for those in need.\n\nFaceMeSDK - Android\nFaceMeSDK - iOS\nFaceMe API Platform Setup Web\nFaceMe Time Attendance Setup Web\nFaceMe Workstation Setup Web",
+
+            "Item Key Result Evaluation\nComment Due\nDate Weight\n% Achieve\nment%\nGetting familiar with the overall structure of the project supporting.",
+            "Fixing the eBugs or performing some unit test if the project requires or demands.",
+            "Adding new feature if the project requires or demands.",
+
+            "Fixing the eBugs and adding feature to ensure supported project follows the schedule on time\nSimply describe the developing monuments.",
+            "Fixing eBugs with quality and no side effect if any eBugs is fixed.",
+            "Adding new feature with quality and time efficiency if new feature is added.\nEnhance the user experience on the new/existing features",
+            }, {
+            "Study / training technical related materials",
+            "Study either books, developer website or other materials",
+            "Share organized content by creating wiki page / PPT, provide production-ready codes to SVN or sending emails to coworkers or team members",
+            }, {
+            "Improvement of every project communication with main RDs, Managers, PMs, Arts, Server team, and other related staff.\n",
+            "1. Receive confirmation on items assigned from coworkers / new self-dedication\n1>1 new features\n1>2 Bug fixes and expected results\n1>3 Request with priority with upper managers.",
+            "1. Provide synchronized communication on items assigned from coworkers / new self-dedication\n1>1 new features\n1>2 Bug fixes and expected results\n1>3 Request with priority with upper managers.",
+            "1. Provide self-expression and opinion if new UX / UI idea when communications",
+            "Let coworkers receive efficient, effective, well-organized content includes\n1. Schedules and planning\n2. current self tasks and concurrent staff tasks\n3. Mainly goal and expected behaviors\n4. Code quality",
+            "Let coworkers receive efficient, effective, well-organized content includes\n1. Schedules and planning\n2. current self tasks and concurrent staff tasks\n3. Mainly goal and expected behaviors\n4. Code quality",
+            "Let coworkers receive efficient, effective, well-organized content includes\n1. Core soul of idea\n2. Abstract Implementation way\n3. Schedule prediction\n4. Estimable results",
+            }, {
+            "Keep self be good in Computer Science basic and English ability.",
+            "In this year, make myself always keep good in CS foundations and advanced skills",
+            "In this year, make myself in good English speaking / discussion and aim at discussing code / implementation ideas in full English (like talk with RDs uses only English) with no obstacles and no misunderstandings.",
+            "In this year, keep myself in fast to provide the concrete implementation codes with well-visual commented and designing ideas with good discussions",
+            "Keep taking care health state of self, including rest, exercising, recreation and working.",
+            "Using online materials to evaluate myself.",
+            "Using online materials to evaluate myself.",
+            "Using online materials to evaluate myself.\nAnd commit concrete contents to svn",
+            "Good health state",
+            }
+        };
     }
 
     // https://davidmz.github.io/apng-js/
