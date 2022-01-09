@@ -45,12 +45,19 @@
   "name": "一月挑戰任務",
   "icon": "10062"
 },
+1641564000 ~ 1645977540 -> [1月07日(五) 22:00, 2月27日(日) 23:59, 地獄級演練 ※ 地獄級演練]
+  link = https://tos.fandom.com/zh/wiki/%E5%9C%B0%E7%8D%84%E7%B4%9A%E6%BC%94%E7%B7%B4
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%9C%B0%E7%8D%84%E7%B4%9A%E6%BC%94%E7%B7%B4",
+  "name": "地獄級演練",
+  "icon": "2074"
+},
 1641564000 ~ 1641830340 -> [1月07日(五) 22:00, 1月10日(一) 23:59, 力與美並存 ※ 全新地獄級]
   link = https://tos.fandom.com/zh/wiki/%E5%8A%9B%E8%88%87%E7%BE%8E%E4%B8%A6%E5%AD%98
 {
   "link": "https://tos.fandom.com/zh/wiki/%E5%8A%9B%E8%88%87%E7%BE%8E%E4%B8%A6%E5%AD%98",
   "name": "力與美並存",
-  "icon": "0000"
+  "icon": "10153"
 },
 0 ~ 0 -> [『侵蝕 ‧ 封王』系列災厄級任務]
   link = 

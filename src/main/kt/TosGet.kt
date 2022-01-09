@@ -355,16 +355,16 @@ class TosGet {
                     "主動技" -> {
                         // 主動技 : 金睛火眼 ‧ 凝煉
                         ski.skillName = getTextAt(tds, 1)
-                        ski.skillCDMin = getTextAt(tds, 2).toInt()
-                        ski.skillCDMax = getTextAt(tds, 3).toInt()
+                        ski.skillCDMin = asInt(getTextAt(tds, 2))
+                        ski.skillCDMax = asInt(getTextAt(tds, 3))
                         ski.skillDesc = getTextAt(tds, 4)
                         ski.monsters = getImgAltIds(tds[5])
                     }
                     "主動技 ‧ 昇華" -> {
                         // 昇華後 : 金睛真火 ‧ 凝煉
                         ski.skillName = getTextAt(tds, 1)
-                        ski.skillCDMin = getTextAt(tds, 2).toInt()
-                        ski.skillCDMax = getTextAt(tds, 3).toInt()
+                        ski.skillCDMin = asInt(getTextAt(tds, 2))
+                        ski.skillCDMax = asInt(getTextAt(tds, 3))
                         ski.skillDesc = getTextAt(tds, 4)
                         // 6
                         ski.monsters = getImgAltIds(tds.last())
@@ -372,7 +372,7 @@ class TosGet {
                     "組合技" -> {
                         // 三原獵刃
                         ski.skillName = getTextAt(tds, 1)
-                        ski.skillCDMin = getTextAt(tds, 2).toInt()
+                        ski.skillCDMin = asInt(getTextAt(tds, 2))
                         ski.skillDesc = getTextAt(tds, 3)
                         ski.monsters = getImgAltIds(tds[4])
                     }
@@ -386,6 +386,14 @@ class TosGet {
             }
 
             return skis
+        }
+
+        private fun asInt(s : String) : Int {
+            try {
+                return s.toInt()
+            } catch (e :NumberFormatException) {
+                return 0
+            }
         }
         
         private fun getImgAltIds(e: Element) : MutableList<String> {

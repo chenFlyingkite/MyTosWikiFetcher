@@ -16428,6 +16428,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2750"
   },
   {
+    "title": "No. 2754 妖之魂寵",
+    "id": "2754",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E9%AD%82%E5%AF%B5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2754"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -16834,6 +16840,12 @@
     "id": "10056",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A5%A7%E8%A1%93%E7%AA%BA%E6%8E%A2_%E2%80%A7_%E6%AF%94%E9%BA%97%E5%AE%89",
     "linkId": "http://zh.tos.wikia.com/wiki/10056"
+  },
+  {
+    "title": "No. 10057 軍械兵器 ‧ 鋒刃",
+    "id": "10057",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BB%8D%E6%A2%B0%E5%85%B5%E5%99%A8_%E2%80%A7_%E9%8B%92%E5%88%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/10057"
   },
   {
     "title": "No. 10058 靈猴覺行 ‧ 孫悟以",
@@ -17314,6 +17326,48 @@
     "id": "10138",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9B%9B%E5%9E%8B%E5%80%92%E8%BD%89_%E2%80%A7_%E6%AD%90%E5%B9%BE%E9%87%8C%E5%BE%97",
     "linkId": "http://zh.tos.wikia.com/wiki/10138"
+  },
+  {
+    "title": "No. 10139 純粹美麗的水精女王 忒琪菈",
+    "id": "10139",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%94%E7%B2%B9%E7%BE%8E%E9%BA%97%E7%9A%84%E6%B0%B4%E7%B2%BE%E5%A5%B3%E7%8E%8B_%E5%BF%92%E7%90%AA%E8%8F%88",
+    "linkId": "http://zh.tos.wikia.com/wiki/10139"
+  },
+  {
+    "title": "No. 10140 真炎女神 雅格娜姆特",
+    "id": "10140",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%82%8E%E5%A5%B3%E7%A5%9E_%E9%9B%85%E6%A0%BC%E5%A8%9C%E5%A7%86%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/10140"
+  },
+  {
+    "title": "No. 10141 守護大地的妖精創造主 基姆雷特",
+    "id": "10141",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%88%E8%AD%B7%E5%A4%A7%E5%9C%B0%E7%9A%84%E5%A6%96%E7%B2%BE%E5%89%B5%E9%80%A0%E4%B8%BB_%E5%9F%BA%E5%A7%86%E9%9B%B7%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/10141"
+  },
+  {
+    "title": "No. 10142 不滅的圓桌騎士王 亞瑟",
+    "id": "10142",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%BB%85%E7%9A%84%E5%9C%93%E6%A1%8C%E9%A8%8E%E5%A3%AB%E7%8E%8B_%E4%BA%9E%E7%91%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/10142"
+  },
+  {
+    "title": "No. 10143 抑制狂躁的破滅黑薔薇 赫拉",
+    "id": "10143",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8A%91%E5%88%B6%E7%8B%82%E8%BA%81%E7%9A%84%E7%A0%B4%E6%BB%85%E9%BB%91%E8%96%94%E8%96%87_%E8%B5%AB%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10143"
+  },
+  {
+    "title": "No. 10144 祈求安寧的世界樹神 尤克特拉希爾",
+    "id": "10144",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%88%E6%B1%82%E5%AE%89%E5%AF%A7%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%B9%E7%A5%9E_%E5%B0%A4%E5%85%8B%E7%89%B9%E6%8B%89%E5%B8%8C%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/10144"
+  },
+  {
+    "title": "No. 10145 帶來光明的使者 路西法",
+    "id": "10145",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%B6%E4%BE%86%E5%85%89%E6%98%8E%E7%9A%84%E4%BD%BF%E8%80%85_%E8%B7%AF%E8%A5%BF%E6%B3%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/10145"
   },
   {
     "title": "No. 10148 透心女孩",
