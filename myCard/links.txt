@@ -17376,6 +17376,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10148"
   },
   {
+    "title": "No. 10151 奧羅茲守城機體",
+    "id": "10151",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A5%A7%E7%BE%85%E8%8C%B2%E5%AE%88%E5%9F%8E%E6%A9%9F%E9%AB%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/10151"
+  },
+  {
     "title": "No. 10153 美的暴力 ‧ 內蒂",
     "id": "10153",
     "link": "https://tos.fandom.com/zh/wiki/%E7%BE%8E%E7%9A%84%E6%9A%B4%E5%8A%9B_%E2%80%A7_%E5%85%A7%E8%92%82",
@@ -17386,6 +17392,12 @@
     "id": "10155",
     "link": "https://tos.fandom.com/zh/wiki/%E7%90%86%E6%80%A7%E6%A9%9F%E7%8E%87_%E2%80%A7_%E4%BC%8A%E5%A8%83",
     "linkId": "http://zh.tos.wikia.com/wiki/10155"
+  },
+  {
+    "title": "No. 10156 殺虐天性 ‧ 鮑威",
+    "id": "10156",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AE%BA%E8%99%90%E5%A4%A9%E6%80%A7_%E2%80%A7_%E9%AE%91%E5%A8%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/10156"
   },
   {
     "title": "No. 10163 率領演化 ‧ 馬丁",

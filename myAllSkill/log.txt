@@ -1,6 +1,6 @@
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0}
-from gson, (3757 items, basePath = https://tos.fandom.com, offset = null)
+from gson, (3759 items, basePath = https://tos.fandom.com, offset = null)
 1000%不可能！ -> https://tos.fandom.com/zh/wiki/1000%25%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%81
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 2000_種技能擁有者 -> https://tos.fandom.com/zh/wiki/2000_%E7%A8%AE%E6%8A%80%E8%83%BD%E6%93%81%E6%9C%89%E8%80%85
@@ -1510,6 +1510,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 機械戰意 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%88%B0%E6%84%8F
 機械戰略 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%88%B0%E7%95%A5
 機械殘暴 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E6%AE%98%E6%9A%B4
+機械爆破 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%88%86%E7%A0%B4
 機械狂熱 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%8B%82%E7%86%B1
 機械理論 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%90%86%E8%AB%96
 機械萬鈞之怒_‧_極 -> https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5
@@ -2340,6 +2341,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 碎落的光明 -> https://tos.fandom.com/zh/wiki/%E7%A2%8E%E8%90%BD%E7%9A%84%E5%85%89%E6%98%8E
 碎裂無蹤 -> https://tos.fandom.com/zh/wiki/%E7%A2%8E%E8%A3%82%E7%84%A1%E8%B9%A4
 碧穹殺機 -> https://tos.fandom.com/zh/wiki/%E7%A2%A7%E7%A9%B9%E6%AE%BA%E6%A9%9F
+碩荒獸獵_‧_殺 -> https://tos.fandom.com/zh/wiki/%E7%A2%A9%E8%8D%92%E7%8D%B8%E7%8D%B5_%E2%80%A7_%E6%AE%BA
 磷火之掌 -> https://tos.fandom.com/zh/wiki/%E7%A3%B7%E7%81%AB%E4%B9%8B%E6%8E%8C
 祅政之火 -> https://tos.fandom.com/zh/wiki/%E7%A5%85%E6%94%BF%E4%B9%8B%E7%81%AB
 神_‧_森之力 -> https://tos.fandom.com/zh/wiki/%E7%A5%9E_%E2%80%A7_%E6%A3%AE%E4%B9%8B%E5%8A%9B
@@ -3758,4 +3760,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-3787 skills
+3789 skills

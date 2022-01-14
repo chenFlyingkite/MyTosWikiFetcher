@@ -17658,6 +17658,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "機械爆破",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%88%86%E7%A0%B4",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落強化符石 II. 隊中只有機械族成員時 ⇒ 則掉落隊長屬性強化符石 1 回合內 III. 增加 5 連擊 (Combo) IV. 若發動技能時 自身行動值達至 100% ⓵ 則增加 10 連擊 (Combo) ⓶ 回合結束時，自身 CD -2",
+    "skillMonsters": [
+      "10151"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "機械狂熱",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E7%8B%82%E7%86%B1",
@@ -27439,6 +27450,17 @@
     "skillDesc": "1 回合內 I. 自身攻擊力 3 倍 II. 回合結束時 ⇒ 將心符石轉化為水強化符石 III. 發動技能時， 若隊長及戰友為 「卿雲護庇 ‧ 蒼璧」 或「豁達浪息 ‧ 蒼璧」 ⓵「龍鱗值」減少 50 點 ⓶ 將心符石轉化為 ⇒ 水龍族強化符石",
     "skillMonsters": [
       "2377"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "碩荒獸獵 ‧ 殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A2%A9%E8%8D%92%E7%8D%B8%E7%8D%B5_%E2%80%A7_%E6%AE%BA",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除自身及獸類隊長 被封鎖的技能 (此技能無視封鎖技能) 2 回合內 II. 自身及獸類隊長 ⓵ 攻擊力 3 倍 ⓶ 無視「攻前盾」",
+    "skillMonsters": [
+      "10156"
     ]
   },
   {

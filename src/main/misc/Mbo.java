@@ -20,6 +20,54 @@ public class Mbo {
             L.log("#%s : %2.3f", i, ans * 100);
         }
     }
+    private static void MBO() {
+        // Objective, item_1, ...,  item_n, Key Result_1, ..., Key Result_n
+        String[][] all = {{
+                "Engaged in development of project to add features and fix bugs\n\nFaceMe Fintech - Android\nFaceMe Fintech - iOS\n",
+
+                "1. Getting familiar with\n1-1> the structure\n1-2> framework of The Project\n2. Creating good structure for better maintenance",
+                "1. Fixing eBugs of The Project\n1-1> with quality\n1-2> and time efficiency.",
+                "1. Adding the required features\n1-1> with quality\n1-2> and efficiency",
+
+                "Fixing the eBugs and adding feature to ensure The Project follows the schedule on time\nSimply describe the developing monuments.",
+                "Fixing the eBugs of The Project with quality, time efficiency and no severe side effect so as to ensure The Project follows the schedule on time",
+                "Fix the critical/blocking ebugs and enhance user experience of the new added features",
+        }, {
+                "Dynamically Support other project development for those in need.\n\nFaceMeSDK - Android\nFaceMeSDK - iOS\nFaceMe API Platform Setup Web\nFaceMe Time Attendance Setup Web\nFaceMe Workstation Setup Web",
+
+                "Item Key Result Evaluation\nComment Due\nDate Weight\n% Achieve\nment%\nGetting familiar with the overall structure of the project supporting.",
+                "Fixing the eBugs or performing some unit test if the project requires or demands.",
+                "Adding new feature if the project requires or demands.",
+
+                "Fixing the eBugs and adding feature to ensure supported project follows the schedule on time\nSimply describe the developing monuments.",
+                "Fixing eBugs with quality and no side effect if any eBugs is fixed.",
+                "Adding new feature with quality and time efficiency if new feature is added.\nEnhance the user experience on the new/existing features",
+        }, {
+                "Study / training technical related materials",
+                "Study either books, developer website or other materials",
+                "Share organized content by creating wiki page / PPT, provide production-ready codes to SVN or sending emails to coworkers or team members",
+        }, {
+                "Improvement of every project communication with main RDs, Managers, PMs, Arts, Server team, and other related staff.\n",
+                "1. Receive confirmation on items assigned from coworkers / new self-dedication\n1>1 new features\n1>2 Bug fixes and expected results\n1>3 Request with priority with upper managers.",
+                "1. Provide synchronized communication on items assigned from coworkers / new self-dedication\n1>1 new features\n1>2 Bug fixes and expected results\n1>3 Request with priority with upper managers.",
+                "1. Provide self-expression and opinion if new UX / UI idea when communications",
+                "Let coworkers receive efficient, effective, well-organized content includes\n1. Schedules and planning\n2. current self tasks and concurrent staff tasks\n3. Mainly goal and expected behaviors\n4. Code quality",
+                "Let coworkers receive efficient, effective, well-organized content includes\n1. Schedules and planning\n2. current self tasks and concurrent staff tasks\n3. Mainly goal and expected behaviors\n4. Code quality",
+                "Let coworkers receive efficient, effective, well-organized content includes\n1. Core soul of idea\n2. Abstract Implementation way\n3. Schedule prediction\n4. Estimable results",
+        }, {
+                "Keep self be good in Computer Science basic and English ability.",
+                "In this year, make myself always keep good in CS foundations and advanced skills",
+                "In this year, make myself in good English speaking / discussion and aim at discussing code / implementation ideas in full English (like talk with RDs uses only English) with no obstacles and no misunderstandings.",
+                "In this year, keep myself in fast to provide the concrete implementation codes with well-visual commented and designing ideas with good discussions",
+                "Keep taking care health state of self, including rest, exercising, recreation and working.",
+                "Using online materials to evaluate myself.",
+                "Using online materials to evaluate myself.",
+                "Using online materials to evaluate myself.\nAnd commit concrete contents to svn",
+                "Good health state",
+        }
+        };
+    }
+
     /*
     Planning Confirmed by Executor: Eric Chen(2021/1/11  12:16)
     Planning Confirmed by Manager: Todd Chen(2021/1/26  13:57)
