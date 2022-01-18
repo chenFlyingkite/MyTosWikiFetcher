@@ -79,7 +79,7 @@ public class MathUtil {
     }
 
     /**
-     * returns Greatest Common Diviser (GCD) of a & b
+     * returns the Greatest Common Divisor (GCD) of a & b
      * Let a = bq+r , gcd(a, b) = gcd(b, r)
      * Let m = max(a, b), Time complexity = O(log(m))
      */
@@ -122,8 +122,8 @@ public class MathUtil {
         }
 
         // Only check 6n-1 & 6n+1
-        int z = 0;
-        for (int i = 1; z * z <= x; i++) {
+        long z = 0;
+        for (long i = 1; z * z <= x; i++) {
             z = 6 * i - 1;
             if (x % z == 0) {
                 return false;
@@ -134,6 +134,38 @@ public class MathUtil {
             }
         }
         return true;
+    }
+
+    /**
+     * returns the smallest factor, k, such that k*m = x, m >= k >= 1
+     * Return x itself if x is prime number, return x if x <= 1
+     * Time complexity = O(sqrt(x))
+     */
+    public static long getSmallestFactor(long x) {
+        if (x <= 1) return x; // false
+
+        final int[] p = {2, 3, 5, 7};
+        for (int z : p) {
+            if (x == z) {
+                return x; // true, prime
+            } else if (x % z == 0) {
+                return z; // false, factor
+            }
+        }
+
+        // Only check 6n-1 & 6n+1, starts with n = 1 (5 & 7)
+        long z = 0;
+        for (long i = 1; z * z <= x; i++) {
+            z = 6 * i - 1;
+            if (x % z == 0) {
+                return z; // factor
+            }
+            z = 6 * i + 1;
+            if (x % z == 0) {
+                return z; // factor
+            }
+        }
+        return x;
     }
 
     //long[] a =  {10, 100, 1_000, 10_000, 100_000, 1_000_000, 10_000_000, 100_000_000, 1_000_000_000};
