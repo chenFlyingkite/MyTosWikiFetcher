@@ -16428,6 +16428,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2750"
   },
   {
+    "title": "No. 2752 霸權傾軋 ‧ 秦始皇",
+    "id": "2752",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E6%AC%8A%E5%82%BE%E8%BB%8B_%E2%80%A7_%E7%A7%A6%E5%A7%8B%E7%9A%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2752"
+  },
+  {
+    "title": "No. 2753 魔身吞佔 ‧ 秦始皇",
+    "id": "2753",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E8%BA%AB%E5%90%9E%E4%BD%94_%E2%80%A7_%E7%A7%A6%E5%A7%8B%E7%9A%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/2753"
+  },
+  {
     "title": "No. 2754 妖之魂寵",
     "id": "2754",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E4%B9%8B%E9%AD%82%E5%AF%B5",
@@ -17370,10 +17382,28 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10145"
   },
   {
+    "title": "No. 10146 屹立獸衛 ‧ 克洛怡",
+    "id": "10146",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B1%B9%E7%AB%8B%E7%8D%B8%E8%A1%9B_%E2%80%A7_%E5%85%8B%E6%B4%9B%E6%80%A1",
+    "linkId": "http://zh.tos.wikia.com/wiki/10146"
+  },
+  {
+    "title": "No. 10147 龍火爆發 ‧ 彌爾頓",
+    "id": "10147",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E7%81%AB%E7%88%86%E7%99%BC_%E2%80%A7_%E5%BD%8C%E7%88%BE%E9%A0%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/10147"
+  },
+  {
     "title": "No. 10148 透心女孩",
     "id": "10148",
     "link": "https://tos.fandom.com/zh/wiki/%E9%80%8F%E5%BF%83%E5%A5%B3%E5%AD%A9",
     "linkId": "http://zh.tos.wikia.com/wiki/10148"
+  },
+  {
+    "title": "No. 10149 點點",
+    "id": "10149",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BB%9E%E9%BB%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10149"
   },
   {
     "title": "No. 10151 奧羅茲守城機體",
@@ -17398,6 +17428,12 @@
     "id": "10156",
     "link": "https://tos.fandom.com/zh/wiki/%E6%AE%BA%E8%99%90%E5%A4%A9%E6%80%A7_%E2%80%A7_%E9%AE%91%E5%A8%81",
     "linkId": "http://zh.tos.wikia.com/wiki/10156"
+  },
+  {
+    "title": "No. 10159 虛與偽 ‧ 混沌之花",
+    "id": "10159",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%99%9B%E8%88%87%E5%81%BD_%E2%80%A7_%E6%B7%B7%E6%B2%8C%E4%B9%8B%E8%8A%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/10159"
   },
   {
     "title": "No. 10163 率領演化 ‧ 馬丁",

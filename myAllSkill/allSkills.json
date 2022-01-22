@@ -1040,6 +1040,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "亂世重典 ‧ 刑",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%82%E4%B8%96%E9%87%8D%E5%85%B8_%E2%80%A7_%E5%88%91",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 暗屬性、魔族、龍類成員攻擊力 7.5 倍 II. 全隊無視敵人防禦力 III. 必然延長移動符石時間 2.5 秒 IV. 消除 1 組 ≥4 粒符石 ⇒ 全隊攻擊力額外 4 倍",
+    "skillMonsters": [
+      "2752"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "亂衝擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%82%E8%A1%9D%E6%93%8A",
@@ -2800,6 +2811,17 @@
     "skillDesc": "1 回合內，延長移動符石時間至 9 秒，並將所有符石轉化為固定數量的水、火、木、光及暗強化符石",
     "skillMonsters": [
       "1406"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素多變",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E5%A4%9A%E8%AE%8A",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "發動技能及每回合結束時 ⇒ 將所有符石轉化為 隨機屬性強化符石 效果會在進入下一層數 (Wave) 時消失",
+    "skillMonsters": [
+      "10149"
     ]
   },
   {
@@ -6703,6 +6725,28 @@
     "skillDesc": "2 回合內 I. 全體敵人的攻擊力弱化 70% II. 期間所有減傷效果無效 III. 若隊長是人類、龍類或獸類 ⇒ 無視「燃燒」敵技 (不包括「煉獄之火」)",
     "skillMonsters": [
       "2685"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "吞沒黑暗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E6%B2%92%E9%BB%91%E6%9A%97",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除「幽閉空間」 II. 將最頂 2 橫行的符石 ⇒ 轉化為固定數量及位置的 「光、暗、心」強化符石 1 回合內 III. 光、暗、心符石 首批 2 粒相連 ⇒ 即可發動消除",
+    "skillMonsters": [
+      "10159"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "吞沒黑暗",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E6%B2%92%E9%BB%91%E6%9A%97",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除「幽閉空間」 II. 將最底 2 橫行的符石 ⇒ 轉化為固定數量及位置的 「水、火、木」強化符石 1 回合內 III. 水、火、木符石 首批 2 粒相連 ⇒ 即可發動消除",
+    "skillMonsters": [
+      "10159"
     ]
   },
   {
@@ -22511,6 +22555,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "灼龍之燄",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%BC%E9%BE%8D%E4%B9%8B%E7%87%84",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "【連攜魔導式】 2 回合內 I. 發動技能及每回合結束時 ⓵ 龍類成員增加 1 回合亢奮狀態 ⓶ 將火符石轉化為 ⇒ 火龍族強化符石 ⓷ 將心符石轉化為 ⇒ 隊長屬性強化符石 II. 若隊長為龍類、獸類 或妖精類成員時 ⇒「灼熱地型」傷害減少 80%",
+    "skillMonsters": [
+      "10147"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "災厄魔力",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%BD%E5%8E%84%E9%AD%94%E5%8A%9B",
@@ -22998,6 +23053,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "焚書坑儒 ‧ 毀",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%9A%E6%9B%B8%E5%9D%91%E5%84%92_%E2%80%A7_%E6%AF%80",
+    "skillCDMin": 17,
+    "skillCDMax": 8,
+    "skillDesc": "I. 移除所有符石 II. 點擊元素法陣上的符石 3 次 ⇒ 分別掉落 2 直行強化符石",
+    "skillMonsters": [
+      "2752"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "焚書坑儒 ‧ 滅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%9A%E6%9B%B8%E5%9D%91%E5%84%92_%E2%80%A7_%E6%BB%85",
+    "skillCDMin": 17,
+    "skillCDMax": 8,
+    "skillDesc": "I. 移除所有符石 II. 點擊元素法陣上的符石 6 次 ⇒ 分別掉落直行強化符石",
+    "skillMonsters": [
+      "2753"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "焚炎端絡脈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%9A%E7%82%8E%E7%AB%AF%E7%B5%A1%E8%84%88",
     "skillCDMin": 21,
@@ -23016,6 +23093,17 @@
     "skillDesc": "1 回合內 I. 延長移動符石時間至 15 秒 II. 移動的步數愈多 ⇒ 全隊攻擊力提升愈多 ⇒ 移動 15 步可提升至最大 2.5 倍 III. 隊中有 ≥3 個獸類成員時 或有 ≥3 種屬性成員時 ⇒ 燃燒傷害減至 1 (不包括「煉獄之火」)",
     "skillMonsters": [
       "10037"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "焚燄無蹤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%9A%E7%87%84%E7%84%A1%E8%B9%A4",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有龍類成員時： I. 全隊攻擊力 6 倍及生命力 3 倍 II. 自身不能發動攻擊 III. 消除角色符石時 ⇒ 全隊攻擊力額外 6 倍 IV. 首批沒有消除角色符石時 ⇒ 減少 40% 所受傷害",
+    "skillMonsters": [
+      "10147"
     ]
   },
   {
@@ -25131,6 +25219,17 @@
     "skillDesc": "I. 將自身直行及木符石 ⇒ 轉化為木獸族強化符石 II. 若隊長為獸類 ⇒ 將龍脈儀儲滿 III. 若技能發動時場上沒有心符石 ⇒ 將所有符石轉化為獸族強化符石",
     "skillMonsters": [
       "2483"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "獸護訣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E8%AD%B7%E8%A8%A3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "【連攜魔導式】 I. 將非種族符石 ⇒ 添加為獸族符石 2 回合內 II. 如所受傷害少於總生命力 ⇒ 減少 80% 所受傷害 III. 獸類、龍類、妖精類成員 ⇒ 攻擊力 2 倍 IV. 每首批消除 1 粒種族符石 ⇒ 增加 1 連擊 (Combo) ⇒ 最多可增加 15 Combo",
+    "skillMonsters": [
+      "10146"
     ]
   },
   {
@@ -35519,6 +35618,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "說一不二",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AA%AA%E4%B8%80%E4%B8%8D%E4%BA%8C",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 只能消除首批符石 II. 隊中只有獸類、龍類或妖精類成員時： ⓵ 全隊攻擊力 8.5 倍、 生命力及回復力 2 倍 ⓶ 首批消除 ≥10 粒符石時 ⇒ 全隊攻擊力額外 6 倍",
+    "skillMonsters": [
+      "10146"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "請看著吧！我的變身！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AB%8B%E7%9C%8B%E8%91%97%E5%90%A7%EF%BC%81%E6%88%91%E7%9A%84%E8%AE%8A%E8%BA%AB%EF%BC%81",
@@ -38675,6 +38785,17 @@
     "skillDesc": "12 秒內，可任意移動符石 ⇒ 移動符石時觸碰的符石 　轉化為每次起手的強化符石 (此移動不會造成任何消除， 並不會作 1 回合計算)",
     "skillMonsters": [
       "2139"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "開疆闢土 ‧ 征",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%8B%E7%96%86%E9%97%A2%E5%9C%9F_%E2%80%A7_%E5%BE%81",
+    "skillCDMin": 13,
+    "skillCDMax": 4,
+    "skillDesc": "1 回合內 I. 發動技能及回合結束時 ⓵ 將自身左直行的符石 ⇒ 添加為魔族符石 ⓶ 將自身右直行的符石 ⇒ 添加為龍族符石 II. 每消除 1 粒暗符石 ⇒ 增加 1 連擊 (Combo) ⇒ 最多可增加 15 連擊 (Combo)",
+    "skillMonsters": [
+      "2753"
     ]
   },
   {
