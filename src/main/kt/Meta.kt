@@ -7,6 +7,7 @@ import main.fetcher.data.Anchors
 import org.jsoup.nodes.Element
 import org.jsoup.nodes.TextNode
 import org.jsoup.select.Elements
+import java.io.File
 
 class MainStage {
     @SerializedName("title")
@@ -457,9 +458,37 @@ enum class CardPart(_key: String) {
     }
 }
 
-open class CopyInfo(srcF : String, srcN : String, dstF : String, dstN : String) {
-    var srcFolder = srcF
-    var srcName = srcN
-    var dstFolder = dstF
-    var dstName = dstN
+open class CopyInfo {
+    var srcFolder = ""
+    var srcName = ""
+    var dstFolder = ""
+    var dstName = ""
+    var srcFile = File("")
+    var dstFile = File("")
+
+    constructor(srcF : String, srcN : String, dstF : String, dstN : String) {
+        srcFolder = srcF
+        srcName = srcN
+        srcFile = File(srcFile, srcName)
+        dstFolder = dstF
+        dstName = dstN
+        dstFile = File(dstFile, dstName)
+    }
+
+    constructor(src: String, dst: String) {
+        var f:File?
+        f = File(src)
+        srcFolder = f.parent
+        srcName = src.replace(srcFolder, "")
+        srcFile = f
+
+        f = File(dst)
+        dstFolder = f.parent
+        dstName = dst.replace(dstFolder, "")
+        dstFile = f
+    }
+
+    override fun toString(): String {
+        return srcFile.absolutePath + " \n -> " + dstFile.absolutePath
+    }
 }

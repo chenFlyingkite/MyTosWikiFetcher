@@ -93,22 +93,7 @@ public class Main {
         //addJpg();
         //getIP();
         //new BinarySearchVisualizer().run();
-        //faceMeFintechBuild();
-    }
-
-    private static void faceMeFintechBuild() {
-        int appRevisionInSR = 61845;
-        String appVersionName = "4.2.0";
-        String testFairyUrl = "https://my.testfairy.com/download/74VKJE1S6GSJTD1J68WKJCHM60V2TMJEY8A8QY98W72SP5KZTMA9HBTRZ1BC4/getapp";
-
-        L.log("U-Message send following both in chats and board :\n");
-        L.log("FaceMe Fintech SDK Android Demo %s_r%s", appVersionName, appRevisionInSR);
-        L.log(testFairyUrl);
-        L.log("----");
-        L.log("SR template :\n");
-        L.log("FaceMe Fintech SDK Android %s_r%s", appVersionName, appRevisionInSR);
-        L.log("Cyberlink");
-        L.log("----");
+        //FaceMeAuto.replaceFintechNile();
     }
 
     private static void getIP() {
