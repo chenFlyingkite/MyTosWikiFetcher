@@ -3,6 +3,7 @@ package main;
 import flyingkite.files.FileUtil;
 import flyingkite.files.Zipper;
 import flyingkite.log.L;
+import flyingkite.tool.TicTac2;
 import main.kt.CopyInfo;
 
 import java.io.File;
@@ -10,30 +11,39 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FaceMeAuto {
+    private static TicTac2 clk = new TicTac2();
     public static void replaceFintechNile() {
-        unzipFaceMeNile();
-        copyToFaceMeNile();
+        String nile_src = "D:/FaceMeFintechSDK_Android/Fintech_Nile2";
+        String fsdk_dst = "D:/FaceMeFintechSDK_Android/SA_02";
+        clk.tic();
+        unzipFaceMeNile(nile_src); // 84% time
+        copyToFaceMeNile(nile_src, fsdk_dst); // 16% time
+        clk.tac("replaceFintechNile OK");
     }
 
-    private static void unzipFaceMeNile() {
-        String src = "D:/FaceMeFintechSDK_Android/Fintech_Nile2/clrtc/build/outputs/aar/clrtc-release.aar";
+    private static void unzipFaceMeNile(String nile) {
+        //String src = "D:/FaceMeFintechSDK_Android/Fintech_Nile2/clrtc/build/outputs/aar/clrtc-release.aar";
+        String src = nile + "/clrtc/build/outputs/aar/clrtc-release.aar";
         //String p = "D:/FaceMeFintechSDK_Android/Fintech_Nile2/clrtc/build/outputs/aar/clrtc-release";
         String p = src.substring(0, src.lastIndexOf('.'));
-        FileUtil.ensureDelete(new File(p));
-        Zipper.unzip(src);
+        FileUtil.ensureDelete(new File(p)); // 14% time
+        Zipper.unzip(src); // 86% time
     }
 
     // copy all contents from src into dst folder
-    private static void copyToFaceMeNile() {
+    private static void copyToFaceMeNile(String nile, String fintech) {
         List<CopyInfo> paths = new ArrayList<>();
         // copy all contents from src into dst folder
-        String src = "D:/FaceMeFintechSDK_Android/Fintech_Nile2/clrtc/build/outputs/aar/clrtc-release/jni";
-        String dst = "D:/FaceMeFintechSDK_Android/SA_02/fintechsdk/src/main/jniLibs";
+
+        //String src = "D:/FaceMeFintechSDK_Android/Fintech_Nile2/clrtc/build/outputs/aar/clrtc-release/jni";
+        //String dst = "D:/FaceMeFintechSDK_Android/SA_02/fintechsdk/src/main/jniLibs";
+        String src = nile + "/clrtc/build/outputs/aar/clrtc-release/jni";
+        String dst = fintech + "/fintechsdk/src/main/jniLibs";
         // List all files under srcF as fs
         File srcF = new File(src);
         File dstF = new File(dst);
         List<File> fs = FileUtil.listAllFiles(srcF);
-        // Collects items to be copied in paths
+        // Collects items to be copied in paths, 50% time
         for (int i = 0; i < fs.size(); i++) {
             File item = fs.get(i);
             if (item.isFile()) {
@@ -43,7 +53,7 @@ public class FaceMeAuto {
             }
         }
 
-        // perform copy
+        // perform copy, 50% time
         for (int i = 0; i < paths.size(); i++) {
             CopyInfo it = paths.get(i);
             String source = it.getSrcFile().getAbsolutePath();
