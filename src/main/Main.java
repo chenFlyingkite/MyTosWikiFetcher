@@ -94,6 +94,10 @@ public class Main {
         //getIP();
         //new BinarySearchVisualizer().run();
         //FaceMeAuto.replaceFintechNile();
+        // 199215954 360302
+        // 150372202 690139
+        // https://gift4u.tosgame.com/tutorial
+        // https://jumbodraw.tosgame.com/
     }
 
     private static void getIP() {

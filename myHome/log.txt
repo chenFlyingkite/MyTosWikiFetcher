@@ -17,12 +17,26 @@
   "name": "經驗滾滾來",
   "icon": "S-1016i"
 },
+1643558400 ~ 1644768000 -> [1月31日(一), 2月13日(日), 一日千里．週年祭 ※ 福利關卡]
+  link = https://tos.fandom.com/zh/wiki/%E4%B8%80%E6%97%A5%E5%8D%83%E9%87%8C%EF%BC%8E%E9%80%B1%E5%B9%B4%E7%A5%AD
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E4%B8%80%E6%97%A5%E5%8D%83%E9%87%8C%EF%BC%8E%E9%80%B1%E5%B9%B4%E7%A5%AD",
+  "name": "一日千里．週年祭",
+  "icon": "0000"
+},
 1643212800 ~ 1648396800 -> [1月27日(四), 3月27日(日), 奇想生物的萌寵攻勢 ※ 全新輪迴]
   link = https://tos.fandom.com/zh/wiki/%E5%A5%87%E6%83%B3%E7%94%9F%E7%89%A9%E7%9A%84%E8%90%8C%E5%AF%B5%E6%94%BB%E5%8B%A2
 {
   "link": "https://tos.fandom.com/zh/wiki/%E5%A5%87%E6%83%B3%E7%94%9F%E7%89%A9%E7%9A%84%E8%90%8C%E5%AF%B5%E6%94%BB%E5%8B%A2",
   "name": "奇想生物的萌寵攻勢",
   "icon": "10149"
+},
+1643558400 ~ 1647187200 -> [1月31日(一), 3月13日(日), 東和之龍於天而降 ※ 復刻輪迴]
+  link = https://tos.fandom.com/zh/wiki/%E6%9D%B1%E5%92%8C%E4%B9%8B%E9%BE%8D%E6%96%BC%E5%A4%A9%E8%80%8C%E9%99%8D
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%9D%B1%E5%92%8C%E4%B9%8B%E9%BE%8D%E6%96%BC%E5%A4%A9%E8%80%8C%E9%99%8D",
+  "name": "東和之龍於天而降",
+  "icon": "7020"
 },
 1642953600 ~ 1644768000 -> [1月24日(一), 2月13日(日), 浮靈幻間的守護者 ※ 試玩任務]
   link = https://tos.fandom.com/zh/wiki/%E6%B5%AE%E9%9D%88%E5%B9%BB%E9%96%93%E7%9A%84%E5%AE%88%E8%AD%B7%E8%80%85
@@ -38,6 +52,13 @@
   "name": "降低殺性的咒制",
   "icon": "10156"
 },
+1643558400 ~ 1644768000 -> [1月31日(一), 2月13日(日), 喜愛惡作劇的么弟 ※ 全新雙週]
+  link = https://tos.fandom.com/zh/wiki/%E5%96%9C%E6%84%9B%E6%83%A1%E4%BD%9C%E5%8A%87%E7%9A%84%E4%B9%88%E5%BC%9F
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%96%9C%E6%84%9B%E6%83%A1%E4%BD%9C%E5%8A%87%E7%9A%84%E4%B9%88%E5%BC%9F",
+  "name": "喜愛惡作劇的么弟",
+  "icon": "10157"
+},
 1642348800 ~ 1643558400 -> [1月17日(一), 1月30日(日), 貪便宜的後果 ※ 復刻雙週]
   link = https://tos.fandom.com/zh/wiki/%E8%B2%AA%E4%BE%BF%E5%AE%9C%E7%9A%84%E5%BE%8C%E6%9E%9C
 {
@@ -51,6 +72,20 @@
   "link": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E6%88%B2%E7%A0%B4%E5%A3%9E",
   "name": "惡戲破壞",
   "icon": "2403"
+},
+1643558400 ~ 1644768000 -> [1月31日(一), 2月13日(日), 夢中亡鄉 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E5%A4%A2%E4%B8%AD%E4%BA%A1%E9%84%89
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A2%E4%B8%AD%E4%BA%A1%E9%84%89",
+  "name": "夢中亡鄉",
+  "icon": "2444"
+},
+1643558400 ~ 1644768000 -> [1月31日(一), 2月13日(日), 五音不全也是天賦 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E4%BA%94%E9%9F%B3%E4%B8%8D%E5%85%A8%E4%B9%9F%E6%98%AF%E5%A4%A9%E8%B3%A6
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E4%BA%94%E9%9F%B3%E4%B8%8D%E5%85%A8%E4%B9%9F%E6%98%AF%E5%A4%A9%E8%B3%A6",
+  "name": "五音不全也是天賦",
+  "icon": "2404"
 },
 1640966400 ~ 1643644800 -> [1月01日(六), 1月31日(一), 一月挑戰任務 ※ 每月挑戰關卡]
   link = https://tos.fandom.com/zh/wiki/%E4%B8%80%E6%9C%88%E6%8C%91%E6%88%B0%E4%BB%BB%E5%8B%99
@@ -73,12 +108,19 @@
   "name": "地獄級演練",
   "icon": "2074"
 },
-1643119200 ~ 1643385540 -> [1月25日(二) 22:00, 1月28日(五) 23:59, 如遊戲的人生 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E5%A6%82%E9%81%8A%E6%88%B2%E7%9A%84%E4%BA%BA%E7%94%9F
+1643724000 ~ 1643990340 -> [2月01日(二) 22:00, 2月04日(五) 23:59, 腥紅甦醒 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E8%85%A5%E7%B4%85%E7%94%A6%E9%86%92
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A6%82%E9%81%8A%E6%88%B2%E7%9A%84%E4%BA%BA%E7%94%9F",
-  "name": "如遊戲的人生",
-  "icon": "2390"
+  "link": "https://tos.fandom.com/zh/wiki/%E8%85%A5%E7%B4%85%E7%94%A6%E9%86%92",
+  "name": "腥紅甦醒",
+  "icon": "2391"
+},
+1643896800 ~ 1644249540 -> [2月03日(四) 22:00, 2月07日(一) 23:59, 不可逆的銳變 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E4%B8%8D%E5%8F%AF%E9%80%86%E7%9A%84%E9%8A%B3%E8%AE%8A
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E5%8F%AF%E9%80%86%E7%9A%84%E9%8A%B3%E8%AE%8A",
+  "name": "不可逆的銳變",
+  "icon": "1871"
 },
 1643292000 ~ 1643644740 -> [1月27日(四) 22:00, 1月31日(一) 23:59, 眾神之主 ※ 復刻夢魘級]
   link = https://tos.fandom.com/zh/wiki/%E7%9C%BE%E7%A5%9E%E4%B9%8B%E4%B8%BB
@@ -117,16 +159,18 @@
   "name": "理智泯滅",
   "icon": "3003"
 },
+0 ~ 0 -> [公會任務『相伴送牛年』]
+  link = https://tos.fandom.com/zh/wiki/%E5%85%AC%E6%9C%83%E4%BB%BB%E5%8B%99
+1643558400 ~ 1644163200 -> [1月31日(一), 2月06日(日), 相伴送牛年]
+  link = https://tos.fandom.com/zh/wiki/%E7%9B%B8%E4%BC%B4%E9%80%81%E7%89%9B%E5%B9%B4
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E7%9B%B8%E4%BC%B4%E9%80%81%E7%89%9B%E5%B9%B4",
+  "name": "相伴送牛年",
+  "icon": "10169"
+},
 0 ~ 0 -> [魔神戰『吞沒與侵蝕的本能』]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%A5%9E%E6%88%B0%E6%B4%BB%E5%8B%95
-1642996800 ~ 1643169540 -> [1月24日(一) 12:00, 1月26日(三) 11:59, 吞沒與侵蝕的本能 - 備戰階段]
-  link = https://tos.fandom.com/zh/wiki/%E5%90%9E%E6%B2%92%E8%88%87%E4%BE%B5%E8%9D%95%E7%9A%84%E6%9C%AC%E8%83%BD
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E6%B2%92%E8%88%87%E4%BE%B5%E8%9D%95%E7%9A%84%E6%9C%AC%E8%83%BD",
-  "name": "吞沒與侵蝕的本能",
-  "icon": "10159"
-},
-1643169600 ~ 1643558340 -> [1月26日(三) 12:00, 1月30日(日) 23:59, 吞沒與侵蝕的本能 - 戰鬥階段]
+1643472000 ~ 1643558340 -> [1月30日(日) 00:00 ~ 23:59, 吞沒與侵蝕的本能 - 兌換階段]
   link = https://tos.fandom.com/zh/wiki/%E5%90%9E%E6%B2%92%E8%88%87%E4%BE%B5%E8%9D%95%E7%9A%84%E6%9C%AC%E8%83%BD
 {
   "link": "https://tos.fandom.com/zh/wiki/%E5%90%9E%E6%B2%92%E8%88%87%E4%BE%B5%E8%9D%95%E7%9A%84%E6%9C%AC%E8%83%BD",
@@ -158,4 +202,12 @@
 1643126400 ~ 1643299200 -> [1月26日(三), 1月27日(四), 首次使用 魔法石 回復體力，可額外獲得 體力回復劑 1 支]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 1643385600 ~ 1643558400 -> [1月29日(六), 1月30日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+  link = 
+0 ~ 0 -> [【主宰世界的虛擬少女】]
+  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E4%B8%BB%E5%AE%B0%E4%B8%96%E7%95%8C%E7%9A%84%E8%99%9B%E6%93%AC%E5%B0%91%E5%A5%B3%E3%80%91
+1643605200 ~ 1644422340 -> [1月31日(一) 13:00, 2月09日(三) 23:59, 召喚師只要於活動期間登入，即可獲得全新『仿魂構造召喚劵』共 10 張]
+  link = 
+1643990400 ~ 1644163200 -> [2月05日(六), 2月06日(日), 活動期間，挑戰公會任務關卡時，亂入角色出現率將會有所提升]
+  link = 
+1643990400 ~ 1644163200 -> [2月05日(六), 2月06日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 

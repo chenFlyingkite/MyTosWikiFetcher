@@ -2002,6 +2002,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "仿魂絕殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BB%BF%E9%AD%82%E7%B5%95%E6%AE%BA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 8 倍、 生命力及回復力 1.8 倍 II. 必然延長移動符石時間 2.5 秒 III. 消除符石的種類愈多 ⇒ 全隊攻擊力額外提升愈多 ⇒ 最大 4 倍 IV. 隊中有 ≥2 種屬性成員時 ⓵ 全隊攻擊力額外 1.8 倍 ⓶ 每首批消除 6 粒符石 ⇒ 增加 1 連擊 (Combo)",
+    "skillMonsters": [
+      "10150"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "伸縮自在的愛",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BC%B8%E7%B8%AE%E8%87%AA%E5%9C%A8%E7%9A%84%E6%84%9B",
@@ -8757,6 +8768,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "奪命凶器",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A5%AA%E5%91%BD%E5%87%B6%E5%99%A8",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "I. 還原所有「碎裂」的位置 II. 將場上的符石 ⇒ 變回原始模樣 III. 將所有符石 ⇒ 添加為機械族符石 IV. 對敵方全體造成 5000 萬的水屬性傷害 4 次 1 回合內 V. 所有成員無視 ⓵ 敵人防禦力 ⓶「連擊相等盾」 ⓷「強化突破」 ⓸「固定連擊盾」",
+    "skillMonsters": [
+      "10150"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "奪目的光與影",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A5%AA%E7%9B%AE%E7%9A%84%E5%85%89%E8%88%87%E5%BD%B1",
     "skillCDMin": 21,
@@ -8830,6 +8852,17 @@
     "skillDesc": "點選 1 橫行的符石，並將該橫行的符石轉化為心強化符石；1 回合內，妖精類攻擊力 2 倍",
     "skillMonsters": [
       "1610"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "如意吉祥",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%82%E6%84%8F%E5%90%89%E7%A5%A5",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將最頂 1 橫行的符石 ⇒ 轉化為火人族強化符石 II. 將最底 1 橫行的符石 ⇒ 轉化為 「水、火、木」人族強化符石、 「光、暗」強化符石、心符石 1 回合內 III. 隊長攻擊力 3 倍",
+    "skillMonsters": [
+      "10169"
     ]
   },
   {
@@ -22519,6 +22552,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "灼熱之靈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%BC%E7%86%B1%E4%B9%8B%E9%9D%88",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將所有符石轉化為 ⇒ 「火及心」強化符石 II. 若隊長為妖精類成員 ⓵ 則將場上的符石 ⇒ 變回原始模樣 ⓶ 將固定位置的符石轉化為 ⇒「火及心」妖族強化符石",
+    "skillMonsters": [
+      "3004"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "灼熱境界",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%BC%E7%86%B1%E5%A2%83%E7%95%8C",
@@ -24987,6 +25031,17 @@
     "skillDesc": "無視敵方屬性， 每回合以自身攻擊力 5 倍追打 1 次 (需消除符石)",
     "skillMonsters": [
       "0224"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "獄炎領域",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%84%E7%82%8E%E9%A0%98%E5%9F%9F",
+    "skillCDMin": 18,
+    "skillCDMax": 4,
+    "skillDesc": "I. 點燃敵方全體， 使受影響目標轉為火屬性， 持續 3 回合 II. 每有 1 個敵人 於 「點燃」狀態下被擊斃 ⇒ 自身技能 CD -2",
+    "skillMonsters": [
+      "3004"
     ]
   },
   {
@@ -27549,6 +27604,17 @@
     "skillDesc": "1 回合內 I. 自身攻擊力 3 倍 II. 回合結束時 ⇒ 將心符石轉化為水強化符石 III. 發動技能時， 若隊長及戰友為 「卿雲護庇 ‧ 蒼璧」 或「豁達浪息 ‧ 蒼璧」 ⓵「龍鱗值」減少 50 點 ⓶ 將心符石轉化為 ⇒ 水龍族強化符石",
     "skillMonsters": [
       "2377"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "碩荒獸獵 ‧ 戮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A2%A9%E8%8D%92%E7%8D%B8%E7%8D%B5_%E2%80%A7_%E6%88%AE",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除自身及獸類隊長 被封鎖的技能 (此技能無視封鎖技能) 1 回合內 II. 隊長以外成員不能發動攻擊 III. 隊長攻擊力 3 倍 IV. 獸類隊長攻擊力額外 2 倍 V. 隊長無視「固定連擊盾」",
+    "skillMonsters": [
+      "10157"
     ]
   },
   {
@@ -34852,6 +34918,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "融魂 ‧ 共鳴 ‧ 模式",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%8D%E9%AD%82_%E2%80%A7_%E5%85%B1%E9%B3%B4_%E2%80%A7_%E6%A8%A1%E5%BC%8F",
+    "skillCDMin": 15,
+    "skillCDMax": 6,
+    "skillDesc": "選擇【融魂模式】 或【共鳴模式】形態 ⇒ 所有「最初的仿魂 ‧ 莉莉絲」 轉換為所選擇的形態 【融魂模式】 ▋引爆所有符石 ⇒ 掉落「五屬及心」 機械族符石各 5 粒 【共嗚模式】 ▋移除所有符石 ⇒ 掉落強化符石",
+    "skillMonsters": [
+      "10150"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "螢之化境",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9E%A2%E4%B9%8B%E5%8C%96%E5%A2%83",
@@ -40210,6 +40287,17 @@
       "1786",
       "EvoPlus",
       "1795"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "靈氣根源",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E6%B0%A3%E6%A0%B9%E6%BA%90",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有妖精類成員時： I. 全隊攻擊力 10 倍及回復力 20 倍 II. 移動符石前若生命力全滿 ⇒ 全隊回復力額外 2 倍",
+    "skillMonsters": [
+      "3004"
     ]
   },
   {
