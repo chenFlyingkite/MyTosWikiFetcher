@@ -12188,6 +12188,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "悟道靈智",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%82%9F%E9%81%93%E9%9D%88%E6%99%BA",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "3 回合內 I. 首 9 粒掉落的符石 ⇒ 必定為光獸族符石 II. 將敵方全體轉為 ⇒ 被隊長克制的屬性， 持續 3 回合",
+    "skillMonsters": [
+      "10160"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "患者的命運由我來改變！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%82%A3%E8%80%85%E7%9A%84%E5%91%BD%E9%81%8B%E7%94%B1%E6%88%91%E4%BE%86%E6%94%B9%E8%AE%8A%EF%BC%81",
@@ -33373,6 +33384,17 @@
     "skillDesc": "「X 型」引爆 10 個固定位置的符石以掉落火強化符石。2 回合內，減少 30% 所受傷害，心符石的掉落率降至 0，並將原有機率增加至火符石的掉落率",
     "skillMonsters": [
       "1733"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "萌之暴打",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%90%8C%E4%B9%8B%E6%9A%B4%E6%89%93",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將木符石轉化為 ⇒ 暗強化符石 II. 對敵方全體造成 ⇒ 24 次暗屬性傷害 1 回合內 ⇒ 增加 24 Ex. Combo",
+    "skillMonsters": [
+      "10161"
     ]
   },
   {
