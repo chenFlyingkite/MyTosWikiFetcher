@@ -53,7 +53,6 @@ public class Main {
         //copyToMyTosWiki();
         //enterUID();
         //enterTemperature();
-        //enterTaiwanID();
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -93,11 +92,13 @@ public class Main {
         //addJpg();
         //getIP();
         //new BinarySearchVisualizer().run();
-        //FaceMeAuto.replaceFintechNile();
         // 199215954 360302
         // 150372202 690139
         // https://gift4u.tosgame.com/tutorial
         // https://jumbodraw.tosgame.com/
+
+        //FaceMeAuto.replaceFintechNile();
+        //FaceMeAuto.decNile();
     }
 
     private static void getIP() {
@@ -138,20 +139,6 @@ public class Main {
             }
         }
         L.log("%s files renamed", n);
-    }
-
-    private static void enterTaiwanID() {
-        // In macOS, after we start, we still need to click on the text field to let it enters
-        try {
-            Robot2 r = new Robot2();
-            r.delay(3_000);
-            r.enter("");
-            r.keyClick(KeyEvent.VK_TAB);
-            r.keyClick(KeyEvent.VK_TAB);
-            r.enter("");
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
     }
 
     private static void enterTemperature() {
@@ -436,6 +423,8 @@ public class Main {
         try {
             Robot2 r = new Robot2();
             r.delay(3_000);
+            // true = UID & ctrl+v, false = UID
+            boolean paste = 0 > 0;
             String[] ids = {
                     "199215954",
                     "150372202",
@@ -450,7 +439,13 @@ public class Main {
             };
 
             for (String s : ids) {
-                r.enter(s);
+                if (paste) {
+                    r.type(s + " ");
+                    r.paste();
+                    r.keyClick(KeyEvent.VK_ENTER);
+                } else {
+                    r.enter(s);
+                }
             }
         } catch (AWTException e) {
             e.printStackTrace();

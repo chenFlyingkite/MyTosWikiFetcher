@@ -45,30 +45,20 @@ public class Robot2 extends Robot {
 
     /**
      * Types a string
-     * by calls {@link #keyClick(int)} on each characters
+     * by calls {@link #keyClick(int)} on each character
      */
     public synchronized void type(CharSequence cs) {
         if (cs == null) return;
 
         for (int i = 0; i < cs.length(); i++) {
-            char c = cs.charAt(i);
-            int x = c;
-            boolean pass = true;
-            if ('0' <= c && c <= '9') {
-                // pass
-            }
-//            else if () {
-//
-//            }
-            if (pass) {
-                keyClick(x);
-            }
+            int c = cs.charAt(i);
+            keyClick(c);
         }
     }
 
     /**
      * Types a string, and click enter
-     * by calls {@link #keyClick(int)} on each characters and {@link java.awt.event.KeyEvent#VK_ENTER}
+     * by calls {@link #keyClick(int)} on each character and {@link java.awt.event.KeyEvent#VK_ENTER}
      */
     public synchronized void enter(CharSequence cs) {
         if (cs == null) return;
@@ -86,7 +76,7 @@ public class Robot2 extends Robot {
     }
 
     /**
-     * Press and release the keycodes
+     * Press all and release all the keycodes
      */
     public synchronized void keyPressRelease(int[] a) {
         if (a == null) return;
