@@ -64,9 +64,10 @@ public class FaceMeAuto {
     }
 
     public static void faceMeFintechBuild() {
-        int appRevisionInSR = 61845;
-        String appVersionName = "4.2.0";
-        String testFairyUrl = "https://my.testfairy.com/download/74VKJE1S6GSJTD1J68WKJCHM60V2TMJEY8A8QY98W72SP5KZTMA9HBTRZ1BC4/getapp";
+        int appRevisionInSR = 62016;
+        String appVersionName = "4.3.0";
+        // from invitation link
+        String testFairyUrl = "https://my.testfairy.com/download/74W3AD9P6WTJTD1J68WKJCHM60V2V0FY6QADNPKPSGTVWWFZTQ2TGM83PMA1E/getapp";
 
         L.log("U-Message send following both in chats and board :\n");
         L.log("FaceMe Fintech SDK Android Demo %s_r%s", appVersionName, appRevisionInSR);
@@ -78,3 +79,37 @@ public class FaceMeAuto {
         L.log("----");
     }
 }
+
+/*
+1. Check out new Fintech SDK project, and open its main script, build_sdk.py,
+2. Change variable of FM_ANDROID_DEMO_DIR to your wanted path, like
+FM_ANDROID_DEMO_DIR = "D:/FaceMeFintechDemo_Android/FA_01"
+3. open shell to run "python build_sdk.py"
+4. it creates aars of fintechSDK & facemeSDK & faceme_widget
+5. commit its new AAR to svn and add the mapping.txt
+6. build TR build as latest committed revision in SR,
+https://ecl.cyberlink.com/PC/ShowSRF/ShowSRFResult.asp?SRF_no=FMI220104-02
+7. find provided APK file in TR build path and upload it to Test fairy
+https://3892356.testfairy.com/
+stacy_chung@cyberlink.com
+Cl23829868@
+8. Create U-message chat in Group FaceMe[EDGE+CLOUD], board named "FaceMe Fintech Android SDK Demo"
+format :
+FaceMe Fintech Demo Android {version}_r{revision}
+{testFairyUrl}
+
+like
+FaceMe Fintech Demo Android 3.0.0_r60408
+https://my.testfairy.com/download/74V3JE1Q74SJTD1J68WKJCHM60V2TNDE9EQK3HHES75ECDPVBNWJMKQ80GHTE/getapp
+
+Templates:
+SR
+
+FaceMe Fintech SDK Android 4.2.0_r61845
+Cyberlink
+
+FaceMe Fintech SDK Android Demo 4.2.0_r61845
+https://my.testfairy.com/download/74VKJE1S6GSJTD1J68WKJCHM60V2TMJEY8A8QY98W72SP5KZTMA9HBTRZ1BC4/getapp
+
+
+*/
