@@ -16428,6 +16428,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2750"
   },
   {
+    "title": "No. 2751 成神少女 ‧ 伊登",
+    "id": "2751",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%90%E7%A5%9E%E5%B0%91%E5%A5%B3_%E2%80%A7_%E4%BC%8A%E7%99%BB",
+    "linkId": "http://zh.tos.wikia.com/wiki/2751"
+  },
+  {
     "title": "No. 2752 霸權傾軋 ‧ 秦始皇",
     "id": "2752",
     "link": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E6%AC%8A%E5%82%BE%E8%BB%8B_%E2%80%A7_%E7%A7%A6%E5%A7%8B%E7%9A%87",
@@ -17430,6 +17436,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10151"
   },
   {
+    "title": "No. 10152 九面惡獸 ‧ 開明獸",
+    "id": "10152",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B9%9D%E9%9D%A2%E6%83%A1%E7%8D%B8_%E2%80%A7_%E9%96%8B%E6%98%8E%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10152"
+  },
+  {
     "title": "No. 10153 美的暴力 ‧ 內蒂",
     "id": "10153",
     "link": "https://tos.fandom.com/zh/wiki/%E7%BE%8E%E7%9A%84%E6%9A%B4%E5%8A%9B_%E2%80%A7_%E5%85%A7%E8%92%82",
@@ -17460,6 +17472,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10157"
   },
   {
+    "title": "No. 10158 鴉首掌控 ‧ 哈帕斯",
+    "id": "10158",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%B4%89%E9%A6%96%E6%8E%8C%E6%8E%A7_%E2%80%A7_%E5%93%88%E5%B8%95%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10158"
+  },
+  {
     "title": "No. 10159 虛與偽 ‧ 混沌之花",
     "id": "10159",
     "link": "https://tos.fandom.com/zh/wiki/%E8%99%9B%E8%88%87%E5%81%BD_%E2%80%A7_%E6%B7%B7%E6%B2%8C%E4%B9%8B%E8%8A%B1",
@@ -17472,10 +17490,10 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10160"
   },
   {
-    "title": "No. 10160 六識通悟 ‧ 孫悟識",
-    "id": "10160",
-    "link": "https://tos.fandom.com/zh/wiki/%E5%85%AD%E8%AD%98%E9%80%9A%E6%82%9F_%E2%80%A7_%E5%AD%AB%E6%82%9F%E8%AD%98",
-    "linkId": "http://zh.tos.wikia.com/wiki/10160"
+    "title": "No. 10161 凶獸馴化 ‧ 小魔女薇薇亞",
+    "id": "10161",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%87%B6%E7%8D%B8%E9%A6%B4%E5%8C%96_%E2%80%A7_%E5%B0%8F%E9%AD%94%E5%A5%B3%E8%96%87%E8%96%87%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10161"
   },
   {
     "title": "No. 10163 率領演化 ‧ 馬丁",
@@ -17518,6 +17536,132 @@
     "id": "10169",
     "link": "https://tos.fandom.com/zh/wiki/%E6%81%AD%E8%B3%80%E6%96%B0%E7%A6%A7_%E2%80%A7_%E5%88%A9%E5%93%A5%E8%88%87%E7%A6%8F%E5%A6%B9",
     "linkId": "http://zh.tos.wikia.com/wiki/10169"
+  },
+  {
+    "title": "No. 10172 坂田銀時",
+    "id": "10172",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%9D%82%E7%94%B0%E9%8A%80%E6%99%82",
+    "linkId": "http://zh.tos.wikia.com/wiki/10172"
+  },
+  {
+    "title": "No. 10173 神樂",
+    "id": "10173",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%A8%82",
+    "linkId": "http://zh.tos.wikia.com/wiki/10173"
+  },
+  {
+    "title": "No. 10174 坂本辰馬",
+    "id": "10174",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%9D%82%E6%9C%AC%E8%BE%B0%E9%A6%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10174"
+  },
+  {
+    "title": "No. 10175 定春",
+    "id": "10175",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%9A%E6%98%A5",
+    "linkId": "http://zh.tos.wikia.com/wiki/10175"
+  },
+  {
+    "title": "No. 10176 志村新八",
+    "id": "10176",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BF%97%E6%9D%91%E6%96%B0%E5%85%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/10176"
+  },
+  {
+    "title": "No. 10177 伊麗莎白",
+    "id": "10177",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BC%8A%E9%BA%97%E8%8E%8E%E7%99%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/10177"
+  },
+  {
+    "title": "No. 10178 桂小太郎",
+    "id": "10178",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A1%82%E5%B0%8F%E5%A4%AA%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10178"
+  },
+  {
+    "title": "No. 10179 高杉晉助",
+    "id": "10179",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%9D%89%E6%99%89%E5%8A%A9",
+    "linkId": "http://zh.tos.wikia.com/wiki/10179"
+  },
+  {
+    "title": "No. 10180 山崎退",
+    "id": "10180",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B1%B1%E5%B4%8E%E9%80%80",
+    "linkId": "http://zh.tos.wikia.com/wiki/10180"
+  },
+  {
+    "title": "No. 10181 土方十四郎",
+    "id": "10181",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%9C%9F%E6%96%B9%E5%8D%81%E5%9B%9B%E9%83%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10181"
+  },
+  {
+    "title": "No. 10182 沖田總悟",
+    "id": "10182",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%96%E7%94%B0%E7%B8%BD%E6%82%9F",
+    "linkId": "http://zh.tos.wikia.com/wiki/10182"
+  },
+  {
+    "title": "No. 10183 近藤勳",
+    "id": "10183",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BF%91%E8%97%A4%E5%8B%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/10183"
+  },
+  {
+    "title": "No. 10184 白夜叉 (坂田銀時)",
+    "id": "10184",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%99%BD%E5%A4%9C%E5%8F%89_(%E5%9D%82%E7%94%B0%E9%8A%80%E6%99%82)",
+    "linkId": "http://zh.tos.wikia.com/wiki/10184"
+  },
+  {
+    "title": "No. 10185 河上萬齊",
+    "id": "10185",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%B3%E4%B8%8A%E8%90%AC%E9%BD%8A",
+    "linkId": "http://zh.tos.wikia.com/wiki/10185"
+  },
+  {
+    "title": "No. 10186 神威",
+    "id": "10186",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E5%A8%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/10186"
+  },
+  {
+    "title": "No. 10188 志村妙",
+    "id": "10188",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BF%97%E6%9D%91%E5%A6%99",
+    "linkId": "http://zh.tos.wikia.com/wiki/10188"
+  },
+  {
+    "title": "No. 10191 月詠",
+    "id": "10191",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E8%A9%A0",
+    "linkId": "http://zh.tos.wikia.com/wiki/10191"
+  },
+  {
+    "title": "No. 10192 玉子",
+    "id": "10192",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8E%89%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/10192"
+  },
+  {
+    "title": "No. 10193 登勢大嬸",
+    "id": "10193",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%99%BB%E5%8B%A2%E5%A4%A7%E5%AC%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10193"
+  },
+  {
+    "title": "No. 10194 傑士塔威",
+    "id": "10194",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%82%91%E5%A3%AB%E5%A1%94%E5%A8%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/10194"
+  },
+  {
+    "title": "No. 10195 長谷川泰三",
+    "id": "10195",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%95%B7%E8%B0%B7%E5%B7%9D%E6%B3%B0%E4%B8%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10195"
   },
   {
     "title": "No. 10200 一曲傾心 ‧ 莫莉安娜",
