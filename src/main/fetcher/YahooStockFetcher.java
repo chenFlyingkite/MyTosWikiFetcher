@@ -2,6 +2,7 @@ package main.fetcher;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TicTac2;
@@ -11,6 +12,7 @@ import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.YahooGet;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
@@ -26,18 +28,86 @@ public class YahooStockFetcher implements Runnable {
     private WebFetcher fetcher = new WebFetcher();
     private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
 
+    // 上櫃/興櫃公司專區 > 上櫃/興櫃公司資訊 > 上櫃公司資訊查詢
+    // https://www.tpex.org.tw/web/regular_emerging/corporateInfo/regular/regular_stock.php?l=zh-tw
     private String classLink() {
+        // https://tw.stock.yahoo.com/class/
         return "https://tw.stock.yahoo.com/h/getclass.php";
     }
+    // 上市類股 : id = LISTED_STOCK
+    // Listed Company
+    // 上櫃類股 : id = OVER_THE_COUNTER_STOCK
+    // TPEx Listed Company
+    // 電子產業 : id = ELECTRONICS_INDUSTRY
+    // 概念股 : id = CONCEPT_STOCK
+    // 集團股 : id = CONSORTIUM_STOCK
 
+    private void listedStock() {
+        Document doc = fetcher.getDocument(classLink());
+        Element main = doc.getElementById("LISTED_STOCK");
+        Element want = main.getElementsByTag("ul").get(0);
+        List<StockInfo> si = YahooGet.me.fetchStockInfo(want);
+        LF industry = new LF(FOLDER, "m_industry.txt");
+        prettyWriteJsonFile(industry, si);
+
+        if (1 > 0) {
+            for (int i = 0; i < si.size(); i++) {
+                L.log("上市類股 #%d: %s", i + 1, si.get(i));
+            }
+        }
+
+//        上市類股                   大盤指數走勢   類股指數走勢
+//        水泥      食品      塑膠        紡織      電機
+//        電器電纜  化學      生技        玻璃      造紙
+//        鋼鐵      橡膠      汽車        半導體    電腦週邊
+//        光電      通訊網路  電子零組件  電子通路  資訊服務
+//        其他電子  營建      航運        觀光      金融業
+//        貿易百貨  油電燃氣  存託憑證    ETF       受益證券
+//        ETN       其他      市認購      市認售    指數類
+//        市牛證    市熊證
+    }
+
+    private void counterStock() {
+        Document doc = fetcher.getDocument(classLink());
+        Element main = doc.getElementById("OVER_THE_COUNTER_STOCK");
+        Element want = main.getElementsByTag("ul").get(0);
+        List<StockInfo> si = YahooGet.me.fetchStockInfo(want);
+        LF industry = new LF(FOLDER, "t_industry.txt");
+        prettyWriteJsonFile(industry, si);
+
+        if (1 > 0) {
+            for (int i = 0; i < si.size(); i++) {
+                L.log("上櫃類股 #%d: %s", i + 1, si.get(i));
+            }
+        }
+//        上櫃類股     櫃檯指數走勢
+//        櫃食品      櫃塑膠      櫃紡織      櫃電機        櫃電器電纜
+//        櫃化學      櫃生技      櫃鋼鐵      櫃橡膠        櫃半導體
+//        櫃電腦週邊  櫃光電      櫃通訊網路  櫃電子零組件  櫃電子通路
+//        櫃資訊服務  櫃其他電子  櫃營建      櫃航運        櫃觀光
+//        櫃金融      櫃貿易百貨  櫃油電燃氣  櫃文化創意    櫃農業科技業
+//        櫃電子商務  櫃其他      櫃公司債    櫃ETF         櫃ETN
+//        櫃認購      櫃認售      櫃指數類
+    }
+
+    private void prettyWriteJsonFile(LF lf, Object obj) {
+        lf.getFile().open();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        GsonUtil.writeFile(lf.getFile().getFile(), gson.toJson(obj));
+        lf.getFile().close();
+    }
+
+    @Deprecated
     private List<StockInfo> marketLinks() { // 集中市場當日行情表
         Document doc = fetcher.getDocument(classLink());
         LF clazzLf = new LF(FOLDER, "m_class.txt");
-        //Elements es = doc.getElementsByTag("table");
         Elements es = doc.getElementsByTag("ul");
-        List<StockInfo> si = YahooGet.me.classTable(es.get(5));
+
+        List<StockInfo> si = YahooGet.me.fetchStockInfo(es.get(5));
+        L.log("si = %s", si);
         clazzLf.getFile().open();
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        gson = new Gson();
         GsonUtil.writeFile(clazzLf.getFile().getFile(), gson.toJson(si));
         clazzLf.getFile().close();
         //return si.subList(10, 11);
@@ -51,12 +121,13 @@ public class YahooStockFetcher implements Runnable {
         //金融      貿易百貨     油電燃氣      其他
     }
 
+    @Deprecated
     private List<StockInfo> tableLinks() { // 櫃檯買賣市場行情
         Document doc = fetcher.getDocument(classLink());
         LF clazzLf = new LF(FOLDER, "t_class.txt");
 
         Elements es = doc.getElementsByTag("table");
-        List<StockInfo> si = YahooGet.me.classTable(es.get(8));
+        List<StockInfo> si = YahooGet.me.fetchStockInfo(es.get(8));
         clazzLf.getFile().open();
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         GsonUtil.writeFile(clazzLf.getFile().getFile(), gson.toJson(si));
@@ -73,6 +144,12 @@ public class YahooStockFetcher implements Runnable {
     }
 
     public void parse() {
+        listedStock();
+        counterStock();
+    }
+
+    @Deprecated
+    public void parse2() {
         List<MoneyInfo> market = findMarket(marketLinks(), "m");
         List<MoneyInfo> table = findMarket(tableLinks(), "t");
 
@@ -83,16 +160,17 @@ public class YahooStockFetcher implements Runnable {
         printToFile(table, new LF(FOLDER, "t_price.txt"));
     }
 
+    @Deprecated
     private List<MoneyInfo> findMarket(List<StockInfo> all, String prefix) { // 集中市場
         //List<StockInfo> all = links();
         List<MoneyInfo> cash1 = new ArrayList<>();
         List<MoneyInfo> cash2 = new ArrayList<>();
         for (int i = 0; i < all.size(); i++) {
             StockInfo si = all.get(i);
-            if ("指數類".equals(si.clazz)) {
+            if ("指數類".equals(si.name)) {
                 continue;
             }
-            if (i > 0 && "其他".equals(all.get(i-1).clazz)) {
+            if (i > 0 && "其他".equals(all.get(i-1).name)) {
                 break;
             }
             String s = si.link;
@@ -138,6 +216,7 @@ public class YahooStockFetcher implements Runnable {
         return new ArrayList<>(cash1);
     }
 
+    @Deprecated
     private void printToFile(List<MoneyInfo> list, LF lf) {
         lf.getFile().delete().open();
         for (int i = 0; i < list.size(); i++) {
@@ -147,8 +226,9 @@ public class YahooStockFetcher implements Runnable {
         lf.getFile().close();
     }
 
+    @Deprecated
     private void sortByRateReturn(List<MoneyInfo> list) {
-        list.sort(new Comparator<MoneyInfo>() {
+        list.sort(new Comparator<>() {
             @Override
             public int compare(MoneyInfo o1, MoneyInfo o2) {
                 if (max(o1)) {

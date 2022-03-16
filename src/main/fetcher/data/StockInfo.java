@@ -2,10 +2,10 @@ package main.fetcher.data;
 
 public class StockInfo {
     public String link = "";
-    public String clazz = "";
+    public String name = "";
 
     @Override
     public String toString() {
-        return clazz + " -> " + link;
+        return name + " -> " + link;
     }
 }

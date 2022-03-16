@@ -1,0 +1,134 @@
+[
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d122\u0026exchange\u003dTWO",
+    "name": "櫃食品"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d123\u0026exchange\u003dTWO",
+    "name": "櫃塑膠"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d124\u0026exchange\u003dTWO",
+    "name": "櫃紡織"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d125\u0026exchange\u003dTWO",
+    "name": "櫃電機"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d126\u0026exchange\u003dTWO",
+    "name": "櫃電器電纜"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d151\u0026exchange\u003dTWO",
+    "name": "櫃化學"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d121\u0026exchange\u003dTWO",
+    "name": "櫃生技"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d130\u0026exchange\u003dTWO",
+    "name": "櫃鋼鐵"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d131\u0026exchange\u003dTWO",
+    "name": "櫃橡膠"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d153\u0026exchange\u003dTWO",
+    "name": "櫃半導體"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d154\u0026exchange\u003dTWO",
+    "name": "櫃電腦週邊"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d155\u0026exchange\u003dTWO",
+    "name": "櫃光電"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d156\u0026exchange\u003dTWO",
+    "name": "櫃通訊網路"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d157\u0026exchange\u003dTWO",
+    "name": "櫃電子零組件"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d158\u0026exchange\u003dTWO",
+    "name": "櫃電子通路"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d159\u0026exchange\u003dTWO",
+    "name": "櫃資訊服務"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d160\u0026exchange\u003dTWO",
+    "name": "櫃其他電子"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d138\u0026exchange\u003dTWO",
+    "name": "櫃營建"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d139\u0026exchange\u003dTWO",
+    "name": "櫃航運"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d140\u0026exchange\u003dTWO",
+    "name": "櫃觀光"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d141\u0026exchange\u003dTWO",
+    "name": "櫃金融"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d142\u0026exchange\u003dTWO",
+    "name": "櫃貿易百貨"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d161\u0026exchange\u003dTWO",
+    "name": "櫃油電燃氣"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d169\u0026exchange\u003dTWO",
+    "name": "櫃文化創意"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d170\u0026exchange\u003dTWO",
+    "name": "櫃農業科技業"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d171\u0026exchange\u003dTWO",
+    "name": "櫃電子商務"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d145\u0026exchange\u003dTWO",
+    "name": "櫃其他"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d163\u0026exchange\u003dTWO",
+    "name": "櫃公司債"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d172\u0026exchange\u003dTWO",
+    "name": "櫃ETF"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d173\u0026exchange\u003dTWO",
+    "name": "櫃ETN"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d165\u0026exchange\u003dTWO",
+    "name": "櫃認購"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d166\u0026exchange\u003dTWO",
+    "name": "櫃認售"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d33\u0026exchange\u003dTWO",
+    "name": "櫃指數類"
+  }
+]

@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.Flushable;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 
 public class IOUtil {
 
@@ -41,7 +42,7 @@ public class IOUtil {
 
     public static InputStreamReader getReader(File file) {
         try {
-            return new InputStreamReader(new FileInputStream(file), "UTF-8");
+            return new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
             return null;

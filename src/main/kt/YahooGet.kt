@@ -11,19 +11,18 @@ open class YahooGet {
         private val baseLink = "https://tw.stock.yahoo.com"
         private val fetcher = WebFetcher()
 
-        fun classTable(e : Element) : List<StockInfo> {
+        // <div><a href="/class-quote?sectorId=22&amp;exchange=TAI">金融業</a></div>
+        fun fetchStockInfo(e : Element) : List<StockInfo> {
             val all = ArrayList<StockInfo>()
-            //val tds = e.getElementsByTag("td")
-            val tds = e.getElementsByTag("li")
-            for (i in 0 until tds.size) {
-                val td = tds[i]
+            val box = e.getElementsByTag("div")
+            for (i in 0 until box.size) {
+                val each = box[i]
                 val si = StockInfo()
-                si.clazz = td.text()
-                val aa = td.getElementsByTag("a")
+                si.name = each.text()
+                val aa = each.getElementsByTag("a")
                 if (aa.size > 0) {
                     val sl = aa[0].attr("href")
-                    val end = sl.substring(0, sl.indexOf("&"))
-                    si.link = baseLink + end
+                    si.link = baseLink + sl
                     all.add(si)
                 }
             }

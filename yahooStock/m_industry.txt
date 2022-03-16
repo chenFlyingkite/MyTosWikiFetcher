@@ -1,0 +1,150 @@
+[
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d1\u0026exchange\u003dTAI",
+    "name": "水泥"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d2\u0026exchange\u003dTAI",
+    "name": "食品"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d3\u0026exchange\u003dTAI",
+    "name": "塑膠"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d4\u0026exchange\u003dTAI",
+    "name": "紡織"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d6\u0026exchange\u003dTAI",
+    "name": "電機"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d7\u0026exchange\u003dTAI",
+    "name": "電器電纜"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d37\u0026exchange\u003dTAI",
+    "name": "化學"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d38\u0026exchange\u003dTAI",
+    "name": "生技"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d9\u0026exchange\u003dTAI",
+    "name": "玻璃"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d10\u0026exchange\u003dTAI",
+    "name": "造紙"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d11\u0026exchange\u003dTAI",
+    "name": "鋼鐵"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d12\u0026exchange\u003dTAI",
+    "name": "橡膠"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d13\u0026exchange\u003dTAI",
+    "name": "汽車"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d40\u0026exchange\u003dTAI",
+    "name": "半導體"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d41\u0026exchange\u003dTAI",
+    "name": "電腦週邊"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d42\u0026exchange\u003dTAI",
+    "name": "光電"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d43\u0026exchange\u003dTAI",
+    "name": "通訊網路"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d44\u0026exchange\u003dTAI",
+    "name": "電子零組件"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d45\u0026exchange\u003dTAI",
+    "name": "電子通路"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d46\u0026exchange\u003dTAI",
+    "name": "資訊服務"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d47\u0026exchange\u003dTAI",
+    "name": "其他電子"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d19\u0026exchange\u003dTAI",
+    "name": "營建"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d20\u0026exchange\u003dTAI",
+    "name": "航運"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d21\u0026exchange\u003dTAI",
+    "name": "觀光"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d22\u0026exchange\u003dTAI",
+    "name": "金融業"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d24\u0026exchange\u003dTAI",
+    "name": "貿易百貨"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d39\u0026exchange\u003dTAI",
+    "name": "油電燃氣"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d25\u0026exchange\u003dTAI",
+    "name": "存託憑證"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d26\u0026exchange\u003dTAI",
+    "name": "ETF"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d29\u0026exchange\u003dTAI",
+    "name": "受益證券"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d48\u0026exchange\u003dTAI",
+    "name": "ETN"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d30\u0026exchange\u003dTAI",
+    "name": "其他"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d31\u0026exchange\u003dTAI",
+    "name": "市認購"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d32\u0026exchange\u003dTAI",
+    "name": "市認售"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d33\u0026exchange\u003dTAI",
+    "name": "指數類"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d51\u0026exchange\u003dTAI",
+    "name": "市牛證"
+  },
+  {
+    "link": "https://tw.stock.yahoo.com/class-quote?sectorId\u003d52\u0026exchange\u003dTAI",
+    "name": "市熊證"
+  }
+]
