@@ -842,6 +842,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "不老不死之力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%80%81%E4%B8%8D%E6%AD%BB%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 10 倍、 生命力及回復力 1.5 倍 II. 人類生命力、攻擊力 及回復力額外 1.5 倍 III. 必然延長移動符石時間 1.5 秒",
+    "skillMonsters": [
+      "10187"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "不老妙藥",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%80%81%E5%A6%99%E8%97%A5",
@@ -5737,6 +5748,17 @@
     "skillDesc": "I.【萬事屋】及人類成員攻擊力 8 倍、 生命力及回復力 2 倍 II. 符石 3 粒相連即可發動消除 III. 首批消除 ≥8 粒符石 ⇒【萬事屋】及人類成員 攻擊力額外 3 倍",
     "skillMonsters": [
       "10176"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "劍術絕殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8A%8D%E8%A1%93%E7%B5%95%E6%AE%BA",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將木符石添加為人族符石 1 回合內 II. 增加 9 連擊 (Combo) III. 隊伍不受中毒技能影響",
+    "skillMonsters": [
+      "10189"
     ]
   },
   {
@@ -23887,6 +23909,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "無盡的殺戮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%9B%A1%E7%9A%84%E6%AE%BA%E6%88%AE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內，隊長 ⓵ 攻擊力 3 倍 ⓶ 追打五屬攻擊各 1 次 ⓷ 無視「固定連擊盾」",
+    "skillMonsters": [
+      "10187"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "無盡的殺戮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E7%9B%A1%E7%9A%84%E6%AE%BA%E6%88%AE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有符石 ⇒ 分別掉落橫行 光、暗、水、火、木符石 1 回合內 II. 增加 8 連擊 (Combo)",
+    "skillMonsters": [
+      "10187"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "無限大霹靂風暴！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E9%99%90%E5%A4%A7%E9%9C%B9%E9%9D%82%E9%A2%A8%E6%9A%B4%EF%BC%81",
     "skillCDMin": 17,
@@ -31418,6 +31462,17 @@
     "skillDesc": "隊長及戰友攻擊力 2.5 倍，效果持續至首批消除心符石",
     "skillMonsters": [
       "2066"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "納豆攻擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B4%8D%E8%B1%86%E6%94%BB%E6%93%8A",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將 18 個固定位置的符石 ⇒ 轉化為暗強化符石 II. 自身進入 1 回合疲憊狀態 III. 全體敵人的攻擊力減至 0， 持續 1 回合",
+    "skillMonsters": [
+      "10190"
     ]
   },
   {
