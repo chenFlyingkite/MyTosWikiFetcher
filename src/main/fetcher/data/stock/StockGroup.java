@@ -1,6 +1,6 @@
-package main.fetcher.data;
+package main.fetcher.data.stock;
 
-public class StockInfo {
+public class StockGroup {
     public String link = "";
     public String name = "";
 

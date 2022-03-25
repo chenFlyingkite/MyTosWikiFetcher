@@ -49,7 +49,7 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     public static void main(String[] args) {
         //-- Main work
-        fetch(0); // x <= 0 : run TosCardExtras
+        //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //enterTemperature();
@@ -65,8 +65,8 @@ public class Main {
         //TosCardFetcher.me.run();
 
 
+        stock();
         //gold();
-        //stock();
         //TosUserPackFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
         //TosCardExtras.me.run();
@@ -98,7 +98,7 @@ public class Main {
         // https://jumbodraw.tosgame.com/
 
         //FaceMeAuto.replaceFintechNile();
-        //FaceMeAuto.decNile();
+        //FaceMeAuto.faceMeFintechBuild();
     }
 
     private static void getIP() {

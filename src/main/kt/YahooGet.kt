@@ -1,7 +1,7 @@
 package main.kt
 
 import flyingkite.log.L
-import main.fetcher.data.StockInfo
+import main.fetcher.data.stock.StockGroup
 import main.fetcher.web.WebFetcher
 import org.jsoup.nodes.Element
 
@@ -12,12 +12,12 @@ open class YahooGet {
         private val fetcher = WebFetcher()
 
         // <div><a href="/class-quote?sectorId=22&amp;exchange=TAI">金融業</a></div>
-        fun fetchStockInfo(e : Element) : List<StockInfo> {
-            val all = ArrayList<StockInfo>()
+        fun fetchStockInfo(e : Element) : List<StockGroup> {
+            val all = ArrayList<StockGroup>()
             val box = e.getElementsByTag("div")
             for (i in 0 until box.size) {
                 val each = box[i]
-                val si = StockInfo()
+                val si = StockGroup()
                 si.name = each.text()
                 val aa = each.getElementsByTag("a")
                 if (aa.size > 0) {

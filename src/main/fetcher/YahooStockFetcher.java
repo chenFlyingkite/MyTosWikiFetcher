@@ -7,7 +7,8 @@ import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.data.MoneyInfo;
-import main.fetcher.data.StockInfo;
+import main.fetcher.data.stock.Stock;
+import main.fetcher.data.stock.StockGroup;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.YahooGet;
@@ -28,6 +29,12 @@ public class YahooStockFetcher implements Runnable {
     private WebFetcher fetcher = new WebFetcher();
     private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
 
+//    本國上市證券國際證券辨識號碼一覽表
+//    https://isin.twse.com.tw/isin/C_public.jsp?strMode=2
+//    本國上櫃證券國際證券辨識號碼一覽表
+//    https://isin.twse.com.tw/isin/C_public.jsp?strMode=4
+    
+    // https://pchome.megatime.com.tw/group/mkt0/cid05_2.html
     // 上櫃/興櫃公司專區 > 上櫃/興櫃公司資訊 > 上櫃公司資訊查詢
     // https://www.tpex.org.tw/web/regular_emerging/corporateInfo/regular/regular_stock.php?l=zh-tw
     private String classLink() {
@@ -42,20 +49,20 @@ public class YahooStockFetcher implements Runnable {
     // 概念股 : id = CONCEPT_STOCK
     // 集團股 : id = CONSORTIUM_STOCK
 
-    private void listedStock() {
+    private List<StockGroup> listedStock() {
         Document doc = fetcher.getDocument(classLink());
         Element main = doc.getElementById("LISTED_STOCK");
         Element want = main.getElementsByTag("ul").get(0);
-        List<StockInfo> si = YahooGet.me.fetchStockInfo(want);
+        List<StockGroup> si = YahooGet.me.fetchStockInfo(want);
         LF industry = new LF(FOLDER, "m_industry.txt");
         prettyWriteJsonFile(industry, si);
 
         if (1 > 0) {
             for (int i = 0; i < si.size(); i++) {
-                L.log("上市類股 #%d: %s", i + 1, si.get(i));
+                L.log("上市類股 #%2d: %s", i + 1, si.get(i));
             }
         }
-
+        return si;
 //        上市類股                   大盤指數走勢   類股指數走勢
 //        水泥      食品      塑膠        紡織      電機
 //        電器電纜  化學      生技        玻璃      造紙
@@ -67,19 +74,20 @@ public class YahooStockFetcher implements Runnable {
 //        市牛證    市熊證
     }
 
-    private void counterStock() {
+    private List<StockGroup> counterStock() {
         Document doc = fetcher.getDocument(classLink());
         Element main = doc.getElementById("OVER_THE_COUNTER_STOCK");
         Element want = main.getElementsByTag("ul").get(0);
-        List<StockInfo> si = YahooGet.me.fetchStockInfo(want);
+        List<StockGroup> si = YahooGet.me.fetchStockInfo(want);
         LF industry = new LF(FOLDER, "t_industry.txt");
         prettyWriteJsonFile(industry, si);
 
         if (1 > 0) {
             for (int i = 0; i < si.size(); i++) {
-                L.log("上櫃類股 #%d: %s", i + 1, si.get(i));
+                L.log("上櫃類股 #%2d: %s", i + 1, si.get(i));
             }
         }
+        return si;
 //        上櫃類股     櫃檯指數走勢
 //        櫃食品      櫃塑膠      櫃紡織      櫃電機        櫃電器電纜
 //        櫃化學      櫃生技      櫃鋼鐵      櫃橡膠        櫃半導體
@@ -97,13 +105,41 @@ public class YahooStockFetcher implements Runnable {
         lf.getFile().close();
     }
 
+    private List<List<Stock>> listStockInfo(List<StockGroup> all, String prefix) {
+        List<List<Stock>> ans = new ArrayList<>();
+        for (int i = 0; i < all.size(); i++) {
+            StockGroup si = all.get(i);
+            String s = si.link;
+            onWeb.deleteAtPre(false);
+            Document doc = fetcher.getDocument(s);
+            Element rt = doc.getElementById("main-1-ClassQuotesTable-Proxy");
+            Elements es = rt.getElementsByTag("li");
+            es = rt.getElementsByTag("a");
+            //Elements es = rt.getElementsByClass("List(n)");
+            L.log("%s items in %s", es.size(), si.name);
+            Element res = rt.getElementsByClass("D(f) Jc(sb) Ai(c)").get(0);
+            L.log("res[0] = %s", res);
+            for (int j = 0; j < es.size(); j++) {
+                Element ej = es.get(j);
+                L.log("#%s : %s", j, ej);
+            }
+//            Elements es = doc.getElementsByTag("table");
+//            List<String> list = YahooGet.me.numberTable(es.get(4));
+//            List<Double> prices = YahooGet.me.dealTable(es.get(4));
+//            mLf.getFile().open();
+//            print(list);
+//            mLf.setLogToFile(false);
+        }
+        return ans;
+    }
+
     @Deprecated
-    private List<StockInfo> marketLinks() { // 集中市場當日行情表
+    private List<StockGroup> marketLinks() { // 集中市場當日行情表
         Document doc = fetcher.getDocument(classLink());
         LF clazzLf = new LF(FOLDER, "m_class.txt");
         Elements es = doc.getElementsByTag("ul");
 
-        List<StockInfo> si = YahooGet.me.fetchStockInfo(es.get(5));
+        List<StockGroup> si = YahooGet.me.fetchStockInfo(es.get(5));
         L.log("si = %s", si);
         clazzLf.getFile().open();
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -122,12 +158,12 @@ public class YahooStockFetcher implements Runnable {
     }
 
     @Deprecated
-    private List<StockInfo> tableLinks() { // 櫃檯買賣市場行情
+    private List<StockGroup> tableLinks() { // 櫃檯買賣市場行情
         Document doc = fetcher.getDocument(classLink());
         LF clazzLf = new LF(FOLDER, "t_class.txt");
 
         Elements es = doc.getElementsByTag("table");
-        List<StockInfo> si = YahooGet.me.fetchStockInfo(es.get(8));
+        List<StockGroup> si = YahooGet.me.fetchStockInfo(es.get(8));
         clazzLf.getFile().open();
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         GsonUtil.writeFile(clazzLf.getFile().getFile(), gson.toJson(si));
@@ -144,7 +180,7 @@ public class YahooStockFetcher implements Runnable {
     }
 
     public void parse() {
-        listedStock();
+        listStockInfo(listedStock(), "");
         counterStock();
     }
 
@@ -161,12 +197,12 @@ public class YahooStockFetcher implements Runnable {
     }
 
     @Deprecated
-    private List<MoneyInfo> findMarket(List<StockInfo> all, String prefix) { // 集中市場
+    private List<MoneyInfo> findMarket(List<StockGroup> all, String prefix) { // 集中市場
         //List<StockInfo> all = links();
         List<MoneyInfo> cash1 = new ArrayList<>();
         List<MoneyInfo> cash2 = new ArrayList<>();
         for (int i = 0; i < all.size(); i++) {
-            StockInfo si = all.get(i);
+            StockGroup si = all.get(i);
             if ("指數類".equals(si.name)) {
                 continue;
             }

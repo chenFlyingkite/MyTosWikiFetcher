@@ -64,10 +64,11 @@ public class FaceMeAuto {
     }
 
     public static void faceMeFintechBuild() {
-        int appRevisionInSR = 62016;
-        String appVersionName = "4.3.0";
-        // from invitation link
-        String testFairyUrl = "https://my.testfairy.com/download/74W3AD9P6WTJTD1J68WKJCHM60V2V0FY6QADNPKPSGTVWWFZTQ2TGM83PMA1E/getapp";
+        int appRevisionInSR = 62307;
+        String appVersionName = "5.0.0";
+        // from invitation link, permalink
+        // Click FaceMe®Fintech - 5.0.0 > Invitation permalink
+        String testFairyUrl = "https://my.testfairy.com/download/74W3JCSP64TJTD1J68WKJCHM60V2V2NJN6ZQPJ4TKGWWNZH0QBNQVZQCFH5DY/getapp";
 
         L.log("U-Message send following both in chats and board :\n");
         L.log("FaceMe Fintech SDK Android Demo %s_r%s", appVersionName, appRevisionInSR);
