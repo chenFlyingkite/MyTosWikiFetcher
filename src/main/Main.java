@@ -36,6 +36,8 @@ import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.YahooStockFetcher;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
+import main.kt.TWSEGet;
+import main.twse.TWSEStockFetcher;
 
 import java.awt.AWTException;
 import java.awt.event.KeyEvent;
@@ -52,7 +54,7 @@ public class Main {
         //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
-        //enterTemperature();
+        stock();
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -64,9 +66,8 @@ public class Main {
         //-- fix card
         //TosCardFetcher.me.run();
 
-
-        stock();
         //gold();
+        //enterTemperature();
         //TosUserPackFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
         //TosCardExtras.me.run();
@@ -336,7 +337,8 @@ public class Main {
     }
 
     private static void stock() {
-        YahooStockFetcher.me.parse();
+        //YahooStockFetcher.me.parse();
+        TWSEStockFetcher.main(null);
     }
 
     private static Date now() {

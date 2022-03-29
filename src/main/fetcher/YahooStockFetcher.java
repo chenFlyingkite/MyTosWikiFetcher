@@ -9,8 +9,10 @@ import flyingkite.tool.TicTac2;
 import main.fetcher.data.MoneyInfo;
 import main.fetcher.data.stock.Stock;
 import main.fetcher.data.stock.StockGroup;
+import main.twse.TWEquityList;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
+import main.kt.TWSEGet;
 import main.kt.YahooGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -29,11 +31,14 @@ public class YahooStockFetcher implements Runnable {
     private WebFetcher fetcher = new WebFetcher();
     private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
 
+    // en
+    // https://www.twse.com.tw/en/page/products/stock-code2.html
+    // https://www.twse.com.tw/zh/page/products/stock-code2.html
 //    本國上市證券國際證券辨識號碼一覽表
 //    https://isin.twse.com.tw/isin/C_public.jsp?strMode=2
 //    本國上櫃證券國際證券辨識號碼一覽表
 //    https://isin.twse.com.tw/isin/C_public.jsp?strMode=4
-    
+
     // https://pchome.megatime.com.tw/group/mkt0/cid05_2.html
     // 上櫃/興櫃公司專區 > 上櫃/興櫃公司資訊 > 上櫃公司資訊查詢
     // https://www.tpex.org.tw/web/regular_emerging/corporateInfo/regular/regular_stock.php?l=zh-tw
@@ -96,6 +101,19 @@ public class YahooStockFetcher implements Runnable {
 //        櫃金融      櫃貿易百貨  櫃油電燃氣  櫃文化創意    櫃農業科技業
 //        櫃電子商務  櫃其他      櫃公司債    櫃ETF         櫃ETN
 //        櫃認購      櫃認售      櫃指數類
+    }
+
+    private TWEquityList getTWSEListed(String link) {
+        Document doc = fetcher.getDocument(link, false);
+        //L.log("doc = %s", doc);
+        clock.tic();
+        TWEquityList ans = TWSEGet.me.parseEquityList(doc, 1);
+        clock.tac("parseEquityList of TWSE listed OK");
+        L.log("ans = %s", ans.version);
+        for (int i = 0; i < ans.list.size(); i++) {
+            L.log("#%s : %s", i, ans.list.get(i));
+        }
+        return ans;
     }
 
     private void prettyWriteJsonFile(LF lf, Object obj) {
@@ -180,8 +198,11 @@ public class YahooStockFetcher implements Runnable {
     }
 
     public void parse() {
-        listStockInfo(listedStock(), "");
-        counterStock();
+        String link = "https://isin.twse.com.tw/isin/C_public.jsp?strMode=2";
+        getTWSEListed(link);
+        //getTWSEListed2();
+        //listStockInfo(listedStock(), "");
+        //counterStock();
     }
 
     @Deprecated
