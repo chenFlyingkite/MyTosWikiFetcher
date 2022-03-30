@@ -5493,6 +5493,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "出逃衝擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%87%BA%E9%80%83%E8%A1%9D%E6%93%8A",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 木及光屬性成員攻擊力 6 倍、 生命力及回復力 1.6 倍 II. 首批沒有消除暗符石時 ⇒ 木及光屬性攻擊力額外 4 倍",
+    "skillMonsters": [
+      "10171"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "刀龍金輝",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%88%80%E9%BE%8D%E9%87%91%E8%BC%9D",
@@ -9656,6 +9667,17 @@
     "skillDesc": "隊伍中只有水屬性妖精類成員時： I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍 II. 將每個成員自身回復力的 2 倍 各自加入自身攻擊力",
     "skillMonsters": [
       "2087"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "妖音傳承",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A6%96%E9%9F%B3%E5%82%B3%E6%89%BF",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 妖精類及神族成員 ⓵ 攻擊力及回復力 8 倍 ⓶ 增加 1,200 點生命力基值 II. 消除種族符石時 ⇒ 妖精類及神族成員 攻擊力額外 4 倍 III. 首批消除「4 的倍數」組數的符石 ⇒ 妖精類及神族成員 ⓵ 無視「固定連擊盾」 ⓶ 無視敵人防禦力",
+    "skillMonsters": [
+      "10170"
     ]
   },
   {
@@ -25734,6 +25756,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "獻祭之羽",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%BB%E7%A5%AD%E4%B9%8B%E7%BE%BD",
+    "skillCDMin": 12,
+    "skillCDMax": 1,
+    "skillDesc": "消耗 1 片「羽毛」以發動技能： I. 點選元素法陣上的 1 種符石 ⇒ 引爆所有符石及石化符石 ⇒ 掉落該種符石以外的 神族強化符石 II. 將最頂 1 橫行的符石 ⇒ 添加為「加護符石」 1 回合內 III. 該種符石的掉落率降至 0 IV. 妖精類及神族成員 ⇒ 攻擊力及回復力 2 倍 V. 無視「燃燒」",
+    "skillMonsters": [
+      "10171"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "玄光 ‧ 寄意",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%84%E5%85%89_%E2%80%A7_%E5%AF%84%E6%84%8F",
     "skillCDMin": 17,
@@ -33884,6 +33917,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "萌之濤",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%90%8C%E4%B9%8B%E6%BF%A4",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 獸類成員攻擊力及回復力 1.5 倍 II. 水符石兼具 50% 其他符石效果 效果持續至沒有消除獸族符石",
+    "skillMonsters": [
+      "10210"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "萬世皇帝之氣勢",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%90%AC%E4%B8%96%E7%9A%87%E5%B8%9D%E4%B9%8B%E6%B0%A3%E5%8B%A2",
@@ -35339,6 +35383,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蜜甜魅曲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E9%AD%85%E6%9B%B2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 發動技能及每回合結束時， 將最頂 1 橫行的符石轉化為 ⇒ 心妖族強化符石 II. 將移動符石時觸碰的符石 ⇒ 添加為妖族符石 III. 於移動符石時間內， 可任意移動符石而不會發動消除 IV. 隊長為妖精類或神族成員 ⇒ 光、暗、心符石互相兼具 50% 效果 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 光屬性妖精類成員 ⇒ 技能 CD -1",
+    "skillMonsters": [
+      "10170"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "蝕夢之靈",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9D%95%E5%A4%A2%E4%B9%8B%E9%9D%88",
     "skillCDMin": 17,
@@ -35742,6 +35797,17 @@
     "skillCDMax": -1,
     "skillDesc": "火屬性攻擊力 2.5 倍；每次消除火符石，火屬性攻擊力持續提升。連續兩回合沒有消除火符石，攻擊力減少。當攻擊力達至最高 4 倍時，需每回合消除火符石，否則攻擊力減少。",
     "skillMonsters": []
+  },
+  {
+    "type": "主動技",
+    "skillName": "血色雙刃",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E8%89%B2%E9%9B%99%E5%88%83",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落屬性符石 II. 全隊進入 1 回合亢奮狀態 III. 若隊中有 ≥3 個人類成員 ⇒ 則全隊進入 3 回合亢奮狀態",
+    "skillMonsters": [
+      "10203"
+    ]
   },
   {
     "type": "主動技",
@@ -41474,6 +41540,28 @@
     "skillDesc": "20 秒內，可任意移動符石而不會發動消除",
     "skillMonsters": [
       "0230"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "顛峰的創造．狂想",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A1%9B%E5%B3%B0%E7%9A%84%E5%89%B5%E9%80%A0%EF%BC%8E%E7%8B%82%E6%83%B3",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選場上的符石 2 次， 將該符石橫行的符石 ⇒ 轉化為所點選的符石 (包括種族、強化符石) 1 回合內 II. 消除屬性符石 ⇒ 自身追打該屬性攻擊 1 次 III. 若發動技能時所有機械族 成員的行動值達至 100% ⇒ 額外增加 1 回合效果",
+    "skillMonsters": [
+      "10209"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "顛峰的創造．超越",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A1%9B%E5%B3%B0%E7%9A%84%E5%89%B5%E9%80%A0%EF%BC%8E%E8%B6%85%E8%B6%8A",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選場上的符石 2 次， 將該符石直行的符石 ⇒ 轉化為所點選的符石 (包括種族、強化符石) 1 回合內 II. 自身攻擊力 3.5 倍 III. 自身無視「指定形狀盾」 IV. 若發動技能時所有機械族 成員的行動值達至 100% ⇒ 額外增加 1 回合效果",
+    "skillMonsters": [
+      "10209"
     ]
   },
   {

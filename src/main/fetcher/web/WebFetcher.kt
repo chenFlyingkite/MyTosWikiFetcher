@@ -25,18 +25,15 @@ open class WebFetcher {
 //        return body
 //    }
 
-    fun getDocument(link : String) : Document? {
-        return getDocument(link, true)
-    }
-
     // https://stackoverflow.com/questions/40742380/how-to-resolve-jsoup-error-unable-to-find-valid-certification-path-to-requested
-    fun getDocument(link : String, tls: Boolean) : Document? {
+    fun getDocument(link : String) : Document? {
         // Step 1: Get the xml node from link by Jsoup
         var doc:Document? = null
         val ts = TicTac2()
         ts.tic()
         try {
-            doc = Jsoup.connect(link).timeout(60_000).maxBodySize(0).validateTLSCertificates(tls).get()
+            val https = link.startsWith("https://")
+            doc = Jsoup.connect(link).timeout(60_000).maxBodySize(0).validateTLSCertificates(!https).get()
         } catch (e : IOException) {
             e.printStackTrace()
         }

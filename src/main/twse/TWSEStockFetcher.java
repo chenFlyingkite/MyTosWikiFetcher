@@ -3,7 +3,7 @@ package main.twse;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
-import main.fetcher.YahooStockFetcher;
+import main.fetcher.FetcherUtil;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.TWSEGet;
@@ -106,7 +106,7 @@ public class TWSEStockFetcher {
     }
 
     private TWEquityList parseEquityList(String link) {
-        Document doc = fetcher.getDocument(link, false);
+        Document doc = fetcher.getDocument(link);
         int type = readType(link);
         //L.log("doc = %s", doc);
         clock.tic();
@@ -121,18 +121,55 @@ public class TWSEStockFetcher {
     }
 
     private void parse() {
-        getTWSEUnlisted();
-        getTWSEListed();
-        getTWSEListedBond();
-        getTWSETPEx();
-        getEmerging();
-        getFutureOption();
-        getTrustFund();
-        getGISA();
-        getTPExGold();
-        getForeignCurrencyNCD();
-        getDomesticIndex();
+        for (int i = 1; i <= 11; i++) {
+            TWEquityList list = getISINCodeList(i);
+            String name = getISINFilename(i);
+            LF lf = new LF(FOLDER, name);
+            FetcherUtil.writeFileJsonPrettyPrinting(lf, list);
+        }
+    }
 
+    //
+    // y:資料時間：2022/03/29 14:30
+    // https://tw.stock.yahoo.com/quote/1101
+    // https://pchome.megatime.com.tw/stock/sto0/sid1101.html
+    // 股利狀況 股利政策
+    // Yahoo Stock
+    // https://tw.stock.yahoo.com/quote/1101/dividend
+    // PCHome
+    // https://pchome.megatime.com.tw/stock/sto3/ock1/sid1101.html
+
+    private String getISINFilename(int type) {
+        return String.format("isinCode/isin_%02d.txt", type);
+    }
+
+    // https://www.twse.com.tw/en/page/products/stock-code2.html
+    private TWEquityList getISINCodeList(int type) {
+        TWEquityList ans = null;
+        if (type == 1) {
+            ans = getTWSEUnlisted();
+        } else if (type == 2) {
+            ans = getTWSEListed();
+        } else if (type == 3) {
+            ans = getTWSEListedBond();
+        } else if (type == 4) {
+            ans = getTWSETPEx();
+        } else if (type == 5) {
+            ans = getEmerging();
+        } else if (type == 6) {
+            ans = getFutureOption();
+        } else if (type == 7) {
+            ans = getTrustFund();
+        } else if (type == 8) {
+            ans = getGISA();
+        } else if (type == 9) {
+            ans = getTPExGold();
+        } else if (type == 10) {
+            ans = getForeignCurrencyNCD();
+        } else if (type == 11) {
+            ans = getDomesticIndex();
+        }
+        return ans;
     }
 
     // "~~~=type"

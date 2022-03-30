@@ -60,7 +60,7 @@ public class YahooStockFetcher implements Runnable {
         Element want = main.getElementsByTag("ul").get(0);
         List<StockGroup> si = YahooGet.me.fetchStockInfo(want);
         LF industry = new LF(FOLDER, "m_industry.txt");
-        prettyWriteJsonFile(industry, si);
+        FetcherUtil.writeFileJsonPrettyPrinting(industry, si);
 
         if (1 > 0) {
             for (int i = 0; i < si.size(); i++) {
@@ -85,7 +85,7 @@ public class YahooStockFetcher implements Runnable {
         Element want = main.getElementsByTag("ul").get(0);
         List<StockGroup> si = YahooGet.me.fetchStockInfo(want);
         LF industry = new LF(FOLDER, "t_industry.txt");
-        prettyWriteJsonFile(industry, si);
+        FetcherUtil.writeFileJsonPrettyPrinting(industry, si);
 
         if (1 > 0) {
             for (int i = 0; i < si.size(); i++) {
@@ -104,7 +104,7 @@ public class YahooStockFetcher implements Runnable {
     }
 
     private TWEquityList getTWSEListed(String link) {
-        Document doc = fetcher.getDocument(link, false);
+        Document doc = fetcher.getDocument(link);
         //L.log("doc = %s", doc);
         clock.tic();
         TWEquityList ans = TWSEGet.me.parseEquityList(doc, 1);
@@ -114,13 +114,6 @@ public class YahooStockFetcher implements Runnable {
             L.log("#%s : %s", i, ans.list.get(i));
         }
         return ans;
-    }
-
-    private void prettyWriteJsonFile(LF lf, Object obj) {
-        lf.getFile().open();
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        GsonUtil.writeFile(lf.getFile().getFile(), gson.toJson(obj));
-        lf.getFile().close();
     }
 
     private List<List<Stock>> listStockInfo(List<StockGroup> all, String prefix) {

@@ -1,0 +1,34 @@
+{
+  "version": "2022/03/30",
+  "list": [
+    {
+      "name": "",
+      "list": [
+        {
+          "name": "臺銀金",
+          "code": "AU9901",
+          "ISINCode": "TW000AU99015",
+          "listedDate": "2015/01/05",
+          "market": "",
+          "industry": "",
+          "CFICode": "MMMXXX",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "一銀金",
+          "code": "AU9902",
+          "ISINCode": "TW000AU99023",
+          "listedDate": "2015/01/05",
+          "market": "",
+          "industry": "",
+          "CFICode": "MMMXXX",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        }
+      ]
+    }
+  ]
+}

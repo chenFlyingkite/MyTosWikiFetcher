@@ -33,10 +33,8 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
-import main.fetcher.YahooStockFetcher;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
-import main.kt.TWSEGet;
 import main.twse.TWSEStockFetcher;
 
 import java.awt.AWTException;
@@ -55,6 +53,7 @@ public class Main {
         //copyToMyTosWiki();
         //enterUID();
         stock();
+        //THSRTGoFetcher.main(null);
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
