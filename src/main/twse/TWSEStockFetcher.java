@@ -1,13 +1,23 @@
 package main.twse;
 
+import com.google.gson.Gson;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
 import main.fetcher.FetcherUtil;
+import main.fetcher.data.stock.YHDividend;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.TWSEGet;
+import main.kt.YahooGet;
 import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class TWSEStockFetcher {
     public static final TWSEStockFetcher me = new TWSEStockFetcher();
@@ -112,7 +122,7 @@ public class TWSEStockFetcher {
         clock.tic();
         TWEquityList ans = TWSEGet.me.parseEquityList(doc, type);
         clock.tac("parseEquityList OK, %s", link);
-        pln(ans);
+        ans.print();
         return ans;
     }
 
@@ -121,17 +131,80 @@ public class TWSEStockFetcher {
     }
 
     private void parse() {
+        loadAllISINCode();
+        loadAllDividend();
+    }
+
+    private Map<Integer, TWEquityList> allTWEquity = new HashMap<>();
+    private Map<Integer, List<YHDividend>> allDividend = new HashMap<>();
+
+    private void loadAllISINCode() {
         for (int i = 1; i <= 11; i++) {
-            TWEquityList list = getISINCodeList(i);
-            String name = getISINFilename(i);
-            LF lf = new LF(FOLDER, name);
-            FetcherUtil.writeFileJsonPrettyPrinting(lf, list);
+            TWEquityList li = loadISINCode(i);
+            allTWEquity.put(i, li);
+        }
+    }
+
+    private TWEquityList loadISINCode(int type) {
+        TWEquityList list = getISINCodeList(type);
+        LF lf = new LF(FOLDER, getISINFilename(type));
+        FetcherUtil.writeFileJsonPrettyPrinting(lf, list);
+        return list;
+    }
+
+    private void loadAllDividend() {
+        makeStockTitle();
+        for (int i = 1; i <= 11; i++) {
+            if (stockTitle.containsKey(i) == false) continue;
+
+            TWEquityList list = allTWEquity.get(i);
+            List<YHDividend> divs = new ArrayList<>();
+            allDividend.put(i, divs);
+            int k = stockTitle.get(i);
+            List<TWEquity> eqs = list.list.get(k).list;
+            int n = eqs.size();
+            for (int j = 0; j < n; j++) {
+                TWEquity ei = eqs.get(j);
+                YHDividend div = YahooGet.me.getDividend(ei.code);
+                div.equity = ei;
+                divs.add(div);
+                L.log("#%s = %s", j, div);
+            }
+            LF dvdn = new LF(FOLDER, getDividendFilename(i));
+            FetcherUtil.writeFileJsonPrettyPrinting(dvdn, divs);
+        }
+    }
+
+    // name = "股票"
+    private Map<Integer, Integer> stockTitle = new HashMap<>();
+
+    private void makeStockTitle() {
+        boolean update = false;
+        if (update) {
+            Map<Integer, TWEquityList> allList = new HashMap<>();
+            for (int i = 1; i <= 11; i++) {
+                TWEquityList list = allTWEquity.get(i);
+                addStockTitle(i, list); // finding "股票"
+                allList.put(i, list);
+            }
+        } else {
+            stockTitle.put(2, 0); // 上市
+            stockTitle.put(4, 2); // 上櫃
+            //stockTitle.put(5, 1); // 興櫃 // no dividend
+        }
+    }
+
+    private void addStockTitle(int key, TWEquityList list) {
+        List<Integer> li = list.findName("股票");
+        if (li.size() > 0) {
+            stockTitle.put(key, li.get(0));
         }
     }
 
     //
     // y:資料時間：2022/03/29 14:30
     // https://tw.stock.yahoo.com/quote/1101
+    // https://finance.yahoo.com/quote/1101.TW?p=1101.TW&.tsrc=fin-srch
     // https://pchome.megatime.com.tw/stock/sto0/sid1101.html
     // 股利狀況 股利政策
     // Yahoo Stock
@@ -141,6 +214,10 @@ public class TWSEStockFetcher {
 
     private String getISINFilename(int type) {
         return String.format("isinCode/isin_%02d.txt", type);
+    }
+
+    private String getDividendFilename(int type) {
+        return String.format("dividend/isin_%02d.txt", type);
     }
 
     // https://www.twse.com.tw/en/page/products/stock-code2.html
@@ -183,7 +260,7 @@ public class TWSEStockFetcher {
     }
 
     private void pln(TWEquityList it) {
-        L.log("ans = %s, %s in list", it.version, it.list.size());
+        L.log("TWEquityList = %s, %s items", it.version, it.list.size());
         for (int i = 0; i < it.list.size(); i++) {
             L.log("#%s : %s", i, it.list.get(i));
         }
