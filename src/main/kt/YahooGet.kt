@@ -7,6 +7,7 @@ import main.fetcher.data.stock.YHYearDiv
 import main.fetcher.web.WebFetcher
 import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
+import kotlin.math.min
 
 open class YahooGet {
 
@@ -115,7 +116,9 @@ open class YahooGet {
         // Get dividend from
         //https://tw.stock.yahoo.com/quote/1101/dividend
         fun getDividend(isin: String) : YHDividend {
+            val recentYears = 7
             val log = false
+            //-- content
             val link = "https://tw.stock.yahoo.com/quote/${isin}/dividend"
             val doc = fetcher.getDocument(link)
             val ans = YHDividend()
@@ -145,9 +148,12 @@ open class YahooGet {
                 }
             }
             es = doc.getElementsByClass("table-body-wrapper")
+            if (es.size == 0) return ans
             es = es[0].getElementsByTag("li")
             //ln(es)
-            for (i in 0 until es.size) {
+            var recent = min(recentYears, es.size)
+            //recent = es.size
+            for (i in 0 until recent) {
                 val ei = es[i]
                 val row = ei.child(0).children()
                 // row has 8 child

@@ -1,6 +1,5 @@
 package main.twse;
 
-import com.google.gson.Gson;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
@@ -11,13 +10,11 @@ import main.fetcher.web.WebFetcher;
 import main.kt.TWSEGet;
 import main.kt.YahooGet;
 import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class TWSEStockFetcher {
     public static final TWSEStockFetcher me = new TWSEStockFetcher();
@@ -131,18 +128,22 @@ public class TWSEStockFetcher {
     }
 
     private void parse() {
-        loadAllISINCode();
-        loadAllDividend();
+        clock.tic();
+        loadAllISINCode(); // 1 min
+        loadAllDividend(); // 12min
+        clock.tac("TWSEStockFetcher parse OK");
     }
 
     private Map<Integer, TWEquityList> allTWEquity = new HashMap<>();
     private Map<Integer, List<YHDividend>> allDividend = new HashMap<>();
 
     private void loadAllISINCode() {
+        clock.tic();
         for (int i = 1; i <= 11; i++) {
             TWEquityList li = loadISINCode(i);
             allTWEquity.put(i, li);
         }
+        clock.tac("loadAllISINCode OK");
     }
 
     private TWEquityList loadISINCode(int type) {
@@ -153,6 +154,8 @@ public class TWSEStockFetcher {
     }
 
     private void loadAllDividend() {
+        boolean preview = false; // preview snippet
+        clock.tic();
         makeStockTitle();
         for (int i = 1; i <= 11; i++) {
             if (stockTitle.containsKey(i) == false) continue;
@@ -163,6 +166,10 @@ public class TWSEStockFetcher {
             int k = stockTitle.get(i);
             List<TWEquity> eqs = list.list.get(k).list;
             int n = eqs.size();
+            // test
+            if (preview) {
+                n = 5;
+            }
             for (int j = 0; j < n; j++) {
                 TWEquity ei = eqs.get(j);
                 YHDividend div = YahooGet.me.getDividend(ei.code);
@@ -173,6 +180,7 @@ public class TWSEStockFetcher {
             LF dvdn = new LF(FOLDER, getDividendFilename(i));
             FetcherUtil.writeFileJsonPrettyPrinting(dvdn, divs);
         }
+        clock.tac("loadAllDividend OK");
     }
 
     // name = "股票"
