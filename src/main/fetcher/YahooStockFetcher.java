@@ -59,8 +59,7 @@ public class YahooStockFetcher implements Runnable {
         Element main = doc.getElementById("LISTED_STOCK");
         Element want = main.getElementsByTag("ul").get(0);
         List<StockGroup> si = YahooGet.me.fetchStockInfo(want);
-        LF industry = new LF(FOLDER, "m_industry.txt");
-        FetcherUtil.writeFileJsonPrettyPrinting(industry, si);
+        FetcherUtil.saveAsJson(si, FOLDER, "m_industry.txt");
 
         if (1 > 0) {
             for (int i = 0; i < si.size(); i++) {
@@ -79,13 +78,13 @@ public class YahooStockFetcher implements Runnable {
 //        市牛證    市熊證
     }
 
+    @Deprecated
     private List<StockGroup> counterStock() {
         Document doc = fetcher.getDocument(classLink());
         Element main = doc.getElementById("OVER_THE_COUNTER_STOCK");
         Element want = main.getElementsByTag("ul").get(0);
         List<StockGroup> si = YahooGet.me.fetchStockInfo(want);
-        LF industry = new LF(FOLDER, "t_industry.txt");
-        FetcherUtil.writeFileJsonPrettyPrinting(industry, si);
+        FetcherUtil.saveAsJson(si, FOLDER, "t_industry.txt");
 
         if (1 > 0) {
             for (int i = 0; i < si.size(); i++) {
@@ -134,12 +133,6 @@ public class YahooStockFetcher implements Runnable {
                 Element ej = es.get(j);
                 L.log("#%s : %s", j, ej);
             }
-//            Elements es = doc.getElementsByTag("table");
-//            List<String> list = YahooGet.me.numberTable(es.get(4));
-//            List<Double> prices = YahooGet.me.dealTable(es.get(4));
-//            mLf.getFile().open();
-//            print(list);
-//            mLf.setLogToFile(false);
         }
         return ans;
     }

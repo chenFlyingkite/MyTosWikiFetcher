@@ -133,7 +133,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.38,
+    "recentReturn": 4.37,
     "years": [
       {
         "year": "2021",
@@ -193,7 +193,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.75,
+    "recentReturn": 4.74,
     "years": [
       {
         "year": "2021",
@@ -313,7 +313,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.44,
+    "recentReturn": 5.39,
     "years": [
       {
         "year": "2021",
@@ -433,7 +433,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.28,
+    "recentReturn": 3.27,
     "years": [
       {
         "year": "2021",
@@ -493,7 +493,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.3,
+    "recentReturn": 5.31,
     "years": [
       {
         "year": "2021",
@@ -733,7 +733,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.6,
+    "recentReturn": 2.59,
     "years": [
       {
         "year": "2020",
@@ -793,7 +793,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.91,
+    "recentReturn": 5.92,
     "years": [
       {
         "year": "2021",
@@ -853,7 +853,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.29,
+    "recentReturn": 4.32,
     "years": [
       {
         "year": "2021",
@@ -913,7 +913,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.69,
+    "recentReturn": 4.71,
     "years": [
       {
         "year": "2021",
@@ -1033,7 +1033,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.25,
+    "recentReturn": 4.23,
     "years": [
       {
         "year": "2021",
@@ -1153,7 +1153,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.38,
+    "recentReturn": 0.39,
     "years": [
       {
         "year": "2021",
@@ -1213,7 +1213,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.69,
+    "recentReturn": 1.7,
     "years": [
       {
         "year": "2021",
@@ -1333,7 +1333,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.89,
+    "recentReturn": 0.91,
     "years": [
       {
         "year": "2021",
@@ -1453,7 +1453,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.86,
+    "recentReturn": 3.88,
     "years": [
       {
         "year": "2021",
@@ -1576,34 +1576,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "中鋼 2002.TW",
-        "cash": "39.20",
-        "stock": "0.250.64%",
-        "exDividendDate": "36,242"
+        "year": "久陽 5011.TWO",
+        "cash": "41.75",
+        "stock": "2.205.56%",
+        "exDividendDate": "5,653"
       },
       {
-        "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
+        "year": "大國鋼 8415.TWO",
+        "cash": "40.40",
+        "stock": "1.904.94%",
+        "exDividendDate": "4,050"
       },
       {
-        "year": "中鴻 2014.TW",
-        "cash": "46.55",
-        "stock": "0.400.87%",
-        "exDividendDate": "10,438"
+        "year": "榮剛 5009.TWO",
+        "cash": "26.85",
+        "stock": "1.154.47%",
+        "exDividendDate": "12,949"
       },
       {
-        "year": "長榮 2603.TW",
-        "cash": "138.50",
-        "stock": "3.502.59%",
-        "exDividendDate": "68,630"
+        "year": "建錩 5014.TWO",
+        "cash": "21.40",
+        "stock": "0.703.38%",
+        "exDividendDate": "1,486"
       },
       {
-        "year": "聯電 2303.TW",
-        "cash": "52.90",
-        "stock": "1.102.04%",
-        "exDividendDate": "83,800"
+        "year": "有益 9962.TWO",
+        "cash": "20.90",
+        "stock": "0.653.21%",
+        "exDividendDate": "2,049"
       }
     ]
   },
@@ -1621,7 +1621,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.19,
+    "recentReturn": 0.22,
     "years": [
       {
         "year": "2021",
@@ -1741,7 +1741,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.58,
+    "recentReturn": 4.59,
     "years": [
       {
         "year": "2021",
@@ -1981,7 +1981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.3,
+    "recentReturn": 4.31,
     "years": [
       {
         "year": "2021",
@@ -2041,7 +2041,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.83,
+    "recentReturn": 4.86,
     "years": [
       {
         "year": "2021",
@@ -2281,7 +2281,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.53,
+    "recentReturn": 4.51,
     "years": [
       {
         "year": "2021",
@@ -2341,7 +2341,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.76,
+    "recentReturn": 0.78,
     "years": [
       {
         "year": "2021",
@@ -2641,7 +2641,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.75,
+    "recentReturn": 3.73,
     "years": [
       {
         "year": "2020",
@@ -2701,7 +2701,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.46,
+    "recentReturn": 5.42,
     "years": [
       {
         "year": "2021",
@@ -2761,7 +2761,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.33,
+    "recentReturn": 4.32,
     "years": [
       {
         "year": "2021Q4",
@@ -3121,7 +3121,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 5.23,
+    "recentReturn": 5.21,
     "years": [
       {
         "year": "2021",
@@ -3211,7 +3211,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 2.95,
+    "recentReturn": 2.97,
     "years": [
       {
         "year": "2021",
@@ -3271,7 +3271,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 2.54,
+    "recentReturn": 2.65,
     "years": [
       {
         "year": "2021",
@@ -3331,7 +3331,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.99,
+    "recentReturn": 7.01,
     "years": [
       {
         "year": "2021",
@@ -3451,7 +3451,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.87,
+    "recentReturn": 3.86,
     "years": [
       {
         "year": "2020",
@@ -3511,7 +3511,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.72,
+    "recentReturn": 4.71,
     "years": [
       {
         "year": "2021",
@@ -3799,7 +3799,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.8,
+    "recentReturn": 5.81,
     "years": [
       {
         "year": "2021",
@@ -3919,7 +3919,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.25,
+    "recentReturn": 6.26,
     "years": [
       {
         "year": "2021",
@@ -4159,7 +4159,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.05,
+    "recentReturn": 0.0,
     "years": [
       {
         "year": "2021",
@@ -4339,7 +4339,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.65,
+    "recentReturn": 4.67,
     "years": [
       {
         "year": "2021",
@@ -4519,7 +4519,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.33,
+    "recentReturn": 5.34,
     "years": [
       {
         "year": "2021",
@@ -4639,7 +4639,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.05,
+    "recentReturn": 5.06,
     "years": [
       {
         "year": "2021",
@@ -4699,7 +4699,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.78,
+    "recentReturn": 0.8,
     "years": [
       {
         "year": "2021",
@@ -4819,7 +4819,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.56,
+    "recentReturn": 4.57,
     "years": [
       {
         "year": "2021",
@@ -4879,7 +4879,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.44,
+    "recentReturn": 2.45,
     "years": [
       {
         "year": "2021",
@@ -4939,7 +4939,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.19,
+    "recentReturn": 5.22,
     "years": [
       {
         "year": "2021",
@@ -5119,7 +5119,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.86,
+    "recentReturn": 2.84,
     "years": [
       {
         "year": "2021",
@@ -5179,7 +5179,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.03,
+    "recentReturn": 4.04,
     "years": [
       {
         "year": "2021",
@@ -5303,33 +5303,33 @@
     "years": [
       {
         "year": "高端疫苗 6547.TWO",
-        "cash": "263.50",
-        "stock": "3.501.31%",
-        "exDividendDate": "2,555"
-      },
-      {
-        "year": "鴻海 2317.TW",
-        "cash": "104.50",
-        "stock": "1.501.42%",
-        "exDividendDate": "23,286"
+        "cash": "261.00",
+        "stock": "10.504.19%",
+        "exDividendDate": "1,342"
       },
       {
         "year": "亞諾法 4133.TW",
-        "cash": "48.10",
-        "stock": "2.455.37%",
-        "exDividendDate": "11,655"
+        "cash": "63.90",
+        "stock": "5.809.98%",
+        "exDividendDate": "64,547"
+      },
+      {
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
         "year": "聯亞 3081.TWO",
-        "cash": "184.50",
-        "stock": "1.000.54%",
-        "exDividendDate": "75"
+        "cash": "181.50",
+        "stock": "4.002.16%",
+        "exDividendDate": "176"
       },
       {
-        "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
+        "year": "台康生技 6589.TWO",
+        "cash": "93.80",
+        "stock": "1.701.78%",
+        "exDividendDate": "2,223"
       }
     ]
   },
@@ -5407,7 +5407,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.14,
+    "recentReturn": 2.16,
     "years": [
       {
         "year": "2021",
@@ -5761,7 +5761,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.71,
+    "recentReturn": 6.79,
     "years": [
       {
         "year": "2021",
@@ -5821,7 +5821,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.81,
+    "recentReturn": 7.8,
     "years": [
       {
         "year": "2021",
@@ -5941,7 +5941,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.32,
+    "recentReturn": 2.33,
     "years": [
       {
         "year": "2021",
@@ -6001,7 +6001,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.02,
+    "recentReturn": 0.04,
     "years": [
       {
         "year": "2021",
@@ -6061,7 +6061,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.68,
+    "recentReturn": 1.74,
     "years": [
       {
         "year": "2021",
@@ -6241,7 +6241,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.32,
+    "recentReturn": 4.33,
     "years": [
       {
         "year": "2021",
@@ -6421,7 +6421,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.1,
+    "recentReturn": 1.11,
     "years": [
       {
         "year": "2021",
@@ -6721,7 +6721,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.47,
+    "recentReturn": 4.48,
     "years": [
       {
         "year": "2020",
@@ -6781,7 +6781,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.63,
+    "recentReturn": 4.64,
     "years": [
       {
         "year": "2021",
@@ -6841,7 +6841,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.81,
+    "recentReturn": 4.82,
     "years": [
       {
         "year": "2021",
@@ -6901,7 +6901,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.65,
+    "recentReturn": 0.63,
     "years": [
       {
         "year": "2021",
@@ -6961,7 +6961,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.52,
+    "recentReturn": 3.51,
     "years": [
       {
         "year": "2021",
@@ -7141,7 +7141,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.89,
+    "recentReturn": 2.87,
     "years": [
       {
         "year": "2020",
@@ -7381,7 +7381,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.64,
+    "recentReturn": 2.65,
     "years": [
       {
         "year": "2021",
@@ -7441,7 +7441,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.08,
+    "recentReturn": 5.1,
     "years": [
       {
         "year": "2021",
@@ -7681,7 +7681,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.62,
+    "recentReturn": 2.63,
     "years": [
       {
         "year": "2021",
@@ -7741,7 +7741,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.48,
+    "recentReturn": 6.49,
     "years": [
       {
         "year": "2021",
@@ -7921,7 +7921,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.67,
+    "recentReturn": 0.69,
     "years": [
       {
         "year": "2021",
@@ -7981,7 +7981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.18,
+    "recentReturn": 5.17,
     "years": [
       {
         "year": "2021",
@@ -8101,7 +8101,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.17,
+    "recentReturn": 5.09,
     "years": [
       {
         "year": "2020",
@@ -8281,7 +8281,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 3.5,
+    "recentReturn": 3.98,
     "years": [
       {
         "year": "2021",
@@ -8365,7 +8365,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 3.65,
+    "recentReturn": 3.68,
     "years": [
       {
         "year": "2021",
@@ -8425,7 +8425,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.4,
+    "recentReturn": 4.41,
     "years": [
       {
         "year": "2021",
@@ -8545,7 +8545,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.61,
+    "recentReturn": 3.62,
     "years": [
       {
         "year": "2021",
@@ -8605,7 +8605,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.41,
+    "recentReturn": 0.45,
     "years": [
       {
         "year": "2021",
@@ -8785,7 +8785,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.84,
+    "recentReturn": 0.83,
     "years": [
       {
         "year": "2021",
@@ -8845,7 +8845,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.02,
+    "recentReturn": 6.03,
     "years": [
       {
         "year": "2021",
@@ -8905,7 +8905,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.7,
+    "recentReturn": 3.71,
     "years": [
       {
         "year": "2021",
@@ -9085,7 +9085,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.22,
+    "recentReturn": 1.24,
     "years": [
       {
         "year": "2021",
@@ -9145,7 +9145,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.85,
+    "recentReturn": 0.87,
     "years": [
       {
         "year": "2021",
@@ -9205,7 +9205,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.27,
+    "recentReturn": 4.28,
     "years": [
       {
         "year": "2021",
@@ -9265,7 +9265,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.12,
+    "recentReturn": 4.13,
     "years": [
       {
         "year": "2021",
@@ -9325,7 +9325,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.06,
+    "recentReturn": 5.08,
     "years": [
       {
         "year": "2021",
@@ -9565,7 +9565,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.46,
+    "recentReturn": 2.48,
     "years": [
       {
         "year": "2021",
@@ -9625,7 +9625,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.7,
+    "recentReturn": 4.72,
     "years": [
       {
         "year": "2021",
@@ -9685,7 +9685,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.44,
+    "recentReturn": 2.45,
     "years": [
       {
         "year": "2021",
@@ -9745,7 +9745,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.34,
+    "recentReturn": 2.35,
     "years": [
       {
         "year": "2021",
@@ -9805,7 +9805,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.81,
+    "recentReturn": 3.82,
     "years": [
       {
         "year": "2021",
@@ -10105,7 +10105,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.54,
+    "recentReturn": 0.55,
     "years": [
       {
         "year": "2021",
@@ -10165,7 +10165,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.24,
+    "recentReturn": 2.26,
     "years": [
       {
         "year": "2021",
@@ -10525,7 +10525,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.96,
+    "recentReturn": 5.97,
     "years": [
       {
         "year": "2021",
@@ -10585,7 +10585,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.21,
+    "recentReturn": 3.25,
     "years": [
       {
         "year": "2021",
@@ -10645,7 +10645,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.58,
+    "recentReturn": 1.56,
     "years": [
       {
         "year": "2021",
@@ -10765,7 +10765,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.87,
+    "recentReturn": 6.89,
     "years": [
       {
         "year": "2021",
@@ -10825,7 +10825,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.01,
+    "recentReturn": 5.92,
     "years": [
       {
         "year": "2021",
@@ -11065,7 +11065,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.47,
+    "recentReturn": 3.49,
     "years": [
       {
         "year": "2021",
@@ -11185,7 +11185,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.51,
+    "recentReturn": 0.52,
     "years": [
       {
         "year": "2021",
@@ -11245,7 +11245,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.37,
+    "recentReturn": 6.38,
     "years": [
       {
         "year": "2021",
@@ -11425,7 +11425,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.95,
+    "recentReturn": 6.97,
     "years": [
       {
         "year": "2021",
@@ -11485,7 +11485,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.16,
+    "recentReturn": 5.17,
     "years": [
       {
         "year": "2021",
@@ -11545,7 +11545,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.08,
+    "recentReturn": 3.09,
     "years": [
       {
         "year": "2021",
@@ -11665,7 +11665,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.23,
+    "recentReturn": 4.24,
     "years": [
       {
         "year": "2021",
@@ -11785,7 +11785,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.23,
+    "recentReturn": 1.22,
     "years": [
       {
         "year": "2021",
@@ -11845,7 +11845,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 4.55,
+    "recentReturn": 4.57,
     "years": [
       {
         "year": "2021",
@@ -11905,7 +11905,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.67,
+    "recentReturn": 1.64,
     "years": [
       {
         "year": "2020",
@@ -12025,7 +12025,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.16,
+    "recentReturn": 1.18,
     "years": [
       {
         "year": "2021",
@@ -12145,7 +12145,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.39,
+    "recentReturn": 2.31,
     "years": [
       {
         "year": "2021",
@@ -12625,7 +12625,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.69,
+    "recentReturn": 4.71,
     "years": [
       {
         "year": "2021",
@@ -12865,7 +12865,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.42,
+    "recentReturn": 3.39,
     "years": [
       {
         "year": "2020",
@@ -13045,7 +13045,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.03,
+    "recentReturn": 1.02,
     "years": [
       {
         "year": "2021H1",
@@ -13105,7 +13105,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.29,
+    "recentReturn": 5.31,
     "years": [
       {
         "year": "2021",
@@ -13285,7 +13285,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.17,
+    "recentReturn": 4.18,
     "years": [
       {
         "year": "2021",
@@ -13345,7 +13345,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.88,
+    "recentReturn": 1.87,
     "years": [
       {
         "year": "2020",
@@ -13552,34 +13552,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "東鹼 1708.TW",
-        "cash": "57.80",
-        "stock": "2.203.96%",
-        "exDividendDate": "110,970"
+        "year": "大略-KY 4804.TWO",
+        "cash": "16.50",
+        "stock": "1.459.63%",
+        "exDividendDate": "6,233"
       },
       {
-        "year": "中石化 1314.TW",
-        "cash": "13.35",
-        "stock": "1.209.88%",
-        "exDividendDate": "188,546"
+        "year": "系統電 5309.TWO",
+        "cash": "43.80",
+        "stock": "0.851.98%",
+        "exDividendDate": "23,457"
       },
       {
-        "year": "長榮 2603.TW",
-        "cash": "138.50",
-        "stock": "3.502.59%",
-        "exDividendDate": "68,630"
+        "year": "今皓 3011.TW",
+        "cash": "22.15",
+        "stock": "2.009.93%",
+        "exDividendDate": "3,490"
       },
       {
-        "year": "華邦電 2344.TW",
-        "cash": "30.05",
-        "stock": "1.153.69%",
-        "exDividendDate": "88,148"
+        "year": "中美實 4702.TWO",
+        "cash": "19.85",
+        "stock": "1.809.97%",
+        "exDividendDate": "6,475"
       },
       {
-        "year": "聯電 2303.TW",
-        "cash": "52.90",
-        "stock": "1.102.04%",
-        "exDividendDate": "83,800"
+        "year": "佳龍 9955.TW",
+        "cash": "30.95",
+        "stock": "1.003.34%",
+        "exDividendDate": "2,510"
       }
     ]
   },
@@ -13600,34 +13600,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "李洲 3066.TWO",
-        "cash": "44.10",
-        "stock": "4.009.98%",
-        "exDividendDate": "1,100"
+        "year": "新門 5432.TWO",
+        "cash": "41.10",
+        "stock": "1.804.58%",
+        "exDividendDate": "30"
+      },
+      {
+        "year": "天鉞電 5251.TWO",
+        "cash": "18.40",
+        "stock": "0.804.55%",
+        "exDividendDate": "1,061"
+      },
+      {
+        "year": "昇銳 3128.TWO",
+        "cash": "20.40",
+        "stock": "0.854.35%",
+        "exDividendDate": "258"
       },
       {
         "year": "晶達 4995.TWO",
-        "cash": "41.20",
-        "stock": "1.654.17%",
-        "exDividendDate": "17"
+        "cash": "42.10",
+        "stock": "1.704.21%",
+        "exDividendDate": "1,550"
       },
       {
-        "year": "哲固 3434.TWO",
-        "cash": "21.80",
-        "stock": "0.552.59%",
-        "exDividendDate": "659"
-      },
-      {
-        "year": "華鎂鑫 8087.TWO",
-        "cash": "30.15",
-        "stock": "0.752.55%",
-        "exDividendDate": "94"
-      },
-      {
-        "year": "臺龍 6246.TWO",
-        "cash": "16.60",
-        "stock": "0.301.84%",
-        "exDividendDate": "13"
+        "year": "元太 8069.TWO",
+        "cash": "174.50",
+        "stock": "6.503.87%",
+        "exDividendDate": "24,629"
       }
     ]
   },
@@ -13705,7 +13705,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.38,
+    "recentReturn": 5.36,
     "years": [
       {
         "year": "2021",
@@ -13945,7 +13945,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.02,
+    "recentReturn": 2.03,
     "years": [
       {
         "year": "2021",
@@ -14005,7 +14005,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.12,
+    "recentReturn": 5.11,
     "years": [
       {
         "year": "2021",
@@ -14065,7 +14065,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.35,
+    "recentReturn": 3.34,
     "years": [
       {
         "year": "2021",
@@ -14125,7 +14125,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.57,
+    "recentReturn": 3.56,
     "years": [
       {
         "year": "2021",
@@ -14245,7 +14245,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.71,
+    "recentReturn": 3.72,
     "years": [
       {
         "year": "2021",
@@ -14485,7 +14485,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.89,
+    "recentReturn": 2.85,
     "years": [
       {
         "year": "2020",
@@ -14545,7 +14545,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.44,
+    "recentReturn": 2.43,
     "years": [
       {
         "year": "2021",
@@ -14608,34 +14608,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "博晟生醫 6733.TWO",
-        "cash": "27.00",
-        "stock": "2.158.65%",
-        "exDividendDate": "1,931"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
-        "year": "星寶國際 6130.TWO",
-        "cash": "54.40",
-        "stock": "3.306.46%",
-        "exDividendDate": "1,273"
+        "year": "台生材 6649.TWO",
+        "cash": "24.40",
+        "stock": "2.059.17%",
+        "exDividendDate": "43"
       },
       {
-        "year": "達亞 6762.TWO",
-        "cash": "282.00",
-        "stock": "12.004.44%",
-        "exDividendDate": "46"
+        "year": "皇將 4744.TWO",
+        "cash": "35.50",
+        "stock": "2.106.29%",
+        "exDividendDate": "1,990"
       },
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,410"
+        "year": "加捷生醫 4109.TWO",
+        "cash": "14.65",
+        "stock": "0.705.02%",
+        "exDividendDate": "514"
       },
       {
-        "year": "杏一 4175.TWO",
-        "cash": "70.50",
-        "stock": "2.603.83%",
-        "exDividendDate": "233"
+        "year": "雙美 4728.TWO",
+        "cash": "139.00",
+        "stock": "6.504.91%",
+        "exDividendDate": "93"
       }
     ]
   },
@@ -14653,7 +14653,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.66,
+    "recentReturn": 6.65,
     "years": [
       {
         "year": "2021",
@@ -14713,7 +14713,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.02,
+    "recentReturn": 1.97,
     "years": [
       {
         "year": "2020",
@@ -14776,34 +14776,34 @@
     "recentReturn": 0.0,
     "years": [
       {
+        "year": "智擎 4162.TWO",
+        "cash": "82.30",
+        "stock": "1.601.98%",
+        "exDividendDate": "3,293"
+      },
+      {
         "year": "浩鼎 4174.TWO",
-        "cash": "113.00",
-        "stock": "2.001.80%",
-        "exDividendDate": "1,088"
+        "cash": "109.00",
+        "stock": "1.501.40%",
+        "exDividendDate": "659"
+      },
+      {
+        "year": "高端疫苗 6547.TWO",
+        "cash": "261.00",
+        "stock": "10.504.19%",
+        "exDividendDate": "1,342"
+      },
+      {
+        "year": "聯電 2303.TW",
+        "cash": "50.00",
+        "stock": "0.000.00%",
+        "exDividendDate": "91,523"
       },
       {
         "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
-      },
-      {
-        "year": "合一 4743.TWO",
-        "cash": "211.00",
-        "stock": "3.501.63%",
-        "exDividendDate": "1,959"
-      },
-      {
-        "year": "藥華藥 6446.TWO",
-        "cash": "319.50",
-        "stock": "5.501.75%",
-        "exDividendDate": "606"
-      },
-      {
-        "year": "中天 4128.TWO",
-        "cash": "61.30",
-        "stock": "0.200.33%",
-        "exDividendDate": "1,629"
+        "cash": "567.00",
+        "stock": "1.000.18%",
+        "exDividendDate": "27,971"
       }
     ]
   },
@@ -14944,34 +14944,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "鴻海 2317.TW",
-        "cash": "104.50",
-        "stock": "1.501.42%",
-        "exDividendDate": "23,286"
-      },
-      {
-        "year": "中石化 1314.TW",
-        "cash": "13.35",
-        "stock": "1.209.88%",
-        "exDividendDate": "188,546"
-      },
-      {
-        "year": "新光金 2888.TW",
-        "cash": "11.25",
-        "stock": "0.454.17%",
-        "exDividendDate": "278,103"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
         "year": "長榮 2603.TW",
-        "cash": "138.50",
-        "stock": "3.502.59%",
-        "exDividendDate": "68,630"
+        "cash": "135.50",
+        "stock": "7.005.45%",
+        "exDividendDate": "95,870"
       },
       {
-        "year": "聯電 2303.TW",
-        "cash": "52.90",
-        "stock": "1.102.04%",
-        "exDividendDate": "83,800"
+        "year": "中石化 1314.TW",
+        "cash": "13.05",
+        "stock": "0.000.00%",
+        "exDividendDate": "206,122"
+      },
+      {
+        "year": "杏輝 1734.TW",
+        "cash": "29.75",
+        "stock": "1.003.48%",
+        "exDividendDate": "6,678"
+      },
+      {
+        "year": "台積電 2330.TW",
+        "cash": "567.00",
+        "stock": "1.000.18%",
+        "exDividendDate": "27,971"
       }
     ]
   },
@@ -14989,7 +14989,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.29,
+    "recentReturn": 1.3,
     "years": [
       {
         "year": "2021",
@@ -15169,7 +15169,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.17,
+    "recentReturn": 4.16,
     "years": [
       {
         "year": "2021",
@@ -15373,7 +15373,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.27,
+    "recentReturn": 3.26,
     "years": [
       {
         "year": "2021",
@@ -15436,34 +15436,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "中裕 4147.TWO",
-        "cash": "64.80",
-        "stock": "1.702.69%",
-        "exDividendDate": "1,321"
+        "year": "高端疫苗 6547.TWO",
+        "cash": "261.00",
+        "stock": "10.504.19%",
+        "exDividendDate": "1,342"
       },
       {
-        "year": "高端疫苗 6547.TWO",
-        "cash": "263.50",
-        "stock": "3.501.31%",
-        "exDividendDate": "2,555"
+        "year": "智擎 4162.TWO",
+        "cash": "82.30",
+        "stock": "1.601.98%",
+        "exDividendDate": "3,293"
       },
       {
         "year": "藥華藥 6446.TWO",
-        "cash": "319.50",
-        "stock": "5.501.75%",
-        "exDividendDate": "606"
+        "cash": "325.00",
+        "stock": "13.504.33%",
+        "exDividendDate": "1,102"
       },
       {
-        "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
+        "year": "中裕 4147.TWO",
+        "cash": "62.80",
+        "stock": "0.000.00%",
+        "exDividendDate": "201"
       },
       {
-        "year": "合一 4743.TWO",
-        "cash": "211.00",
-        "stock": "3.501.63%",
-        "exDividendDate": "1,959"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       }
     ]
   },
@@ -15481,7 +15481,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.19,
+    "recentReturn": 4.18,
     "years": [
       {
         "year": "2021",
@@ -15604,34 +15604,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "博晟生醫 6733.TWO",
-        "cash": "27.00",
-        "stock": "2.158.65%",
-        "exDividendDate": "1,931"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
-        "year": "星寶國際 6130.TWO",
-        "cash": "54.40",
-        "stock": "3.306.46%",
-        "exDividendDate": "1,273"
+        "year": "台生材 6649.TWO",
+        "cash": "24.40",
+        "stock": "2.059.17%",
+        "exDividendDate": "43"
       },
       {
-        "year": "達亞 6762.TWO",
-        "cash": "282.00",
-        "stock": "12.004.44%",
-        "exDividendDate": "46"
+        "year": "皇將 4744.TWO",
+        "cash": "35.50",
+        "stock": "2.106.29%",
+        "exDividendDate": "1,990"
       },
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,410"
+        "year": "加捷生醫 4109.TWO",
+        "cash": "14.65",
+        "stock": "0.705.02%",
+        "exDividendDate": "514"
       },
       {
-        "year": "杏一 4175.TWO",
-        "cash": "70.50",
-        "stock": "2.603.83%",
-        "exDividendDate": "233"
+        "year": "雙美 4728.TWO",
+        "cash": "139.00",
+        "stock": "6.504.91%",
+        "exDividendDate": "93"
       }
     ]
   },
@@ -15653,33 +15653,33 @@
     "years": [
       {
         "year": "杏輝 1734.TW",
-        "cash": "28.30",
-        "stock": "0.050.18%",
-        "exDividendDate": "191"
+        "cash": "29.75",
+        "stock": "1.003.48%",
+        "exDividendDate": "6,678"
       },
       {
-        "year": "聯電 2303.TW",
-        "cash": "52.90",
-        "stock": "1.102.04%",
-        "exDividendDate": "83,800"
+        "year": "亞諾法 4133.TW",
+        "cash": "63.90",
+        "stock": "5.809.98%",
+        "exDividendDate": "64,547"
       },
       {
-        "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
+        "year": "全宇生技-KY 4148.TW",
+        "cash": "75.30",
+        "stock": "6.809.93%",
+        "exDividendDate": "3,519"
       },
       {
-        "year": "力積電 6770.TW",
-        "cash": "52.00",
-        "stock": "1.001.89%",
-        "exDividendDate": "9,811"
+        "year": "藥華藥 6446.TWO",
+        "cash": "325.00",
+        "stock": "13.504.33%",
+        "exDividendDate": "1,102"
       },
       {
-        "year": "鴻海 2317.TW",
-        "cash": "104.50",
-        "stock": "1.501.42%",
-        "exDividendDate": "23,286"
+        "year": "立積 4968.TW",
+        "cash": "192.50",
+        "stock": "17.5010.00%",
+        "exDividendDate": "3,784"
       }
     ]
   },
@@ -15700,34 +15700,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "博晟生醫 6733.TWO",
-        "cash": "27.00",
-        "stock": "2.158.65%",
-        "exDividendDate": "1,931"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
-        "year": "星寶國際 6130.TWO",
-        "cash": "54.40",
-        "stock": "3.306.46%",
-        "exDividendDate": "1,273"
+        "year": "台生材 6649.TWO",
+        "cash": "24.40",
+        "stock": "2.059.17%",
+        "exDividendDate": "43"
       },
       {
-        "year": "達亞 6762.TWO",
-        "cash": "282.00",
-        "stock": "12.004.44%",
-        "exDividendDate": "46"
+        "year": "皇將 4744.TWO",
+        "cash": "35.50",
+        "stock": "2.106.29%",
+        "exDividendDate": "1,990"
       },
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,410"
+        "year": "加捷生醫 4109.TWO",
+        "cash": "14.65",
+        "stock": "0.705.02%",
+        "exDividendDate": "514"
       },
       {
-        "year": "杏一 4175.TWO",
-        "cash": "70.50",
-        "stock": "2.603.83%",
-        "exDividendDate": "233"
+        "year": "雙美 4728.TWO",
+        "cash": "139.00",
+        "stock": "6.504.91%",
+        "exDividendDate": "93"
       }
     ]
   },
@@ -15805,7 +15805,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.45,
+    "recentReturn": 5.48,
     "years": [
       {
         "year": "2021",
@@ -15865,7 +15865,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 32.09,
+    "recentReturn": 32.12,
     "years": [
       {
         "year": "2021",
@@ -16045,7 +16045,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.45,
+    "recentReturn": 4.46,
     "years": [
       {
         "year": "2021",
@@ -16285,7 +16285,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.56,
+    "recentReturn": 1.6,
     "years": [
       {
         "year": "2021",
@@ -16345,7 +16345,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.49,
+    "recentReturn": 6.48,
     "years": [
       {
         "year": "2021",
@@ -16465,7 +16465,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.36,
+    "recentReturn": 7.33,
     "years": [
       {
         "year": "2021",
@@ -16705,7 +16705,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.4,
+    "recentReturn": 4.39,
     "years": [
       {
         "year": "2021",
@@ -17365,7 +17365,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.9,
+    "recentReturn": 2.91,
     "years": [
       {
         "year": "2021",
@@ -17485,7 +17485,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.86,
+    "recentReturn": 3.88,
     "years": [
       {
         "year": "2021",
@@ -17545,7 +17545,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 4.78,
+    "recentReturn": 4.77,
     "years": [
       {
         "year": "2021",
@@ -17605,7 +17605,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.21,
+    "recentReturn": 2.22,
     "years": [
       {
         "year": "2021",
@@ -17785,7 +17785,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.08,
+    "recentReturn": 5.09,
     "years": [
       {
         "year": "2021",
@@ -17845,7 +17845,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.02,
+    "recentReturn": 7.0,
     "years": [
       {
         "year": "2021",
@@ -17905,7 +17905,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.54,
+    "recentReturn": 0.58,
     "years": [
       {
         "year": "2021",
@@ -18025,7 +18025,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 3.97,
+    "recentReturn": 4.5,
     "years": [
       {
         "year": "2021",
@@ -18229,7 +18229,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 5.24,
+    "recentReturn": 5.25,
     "years": [
       {
         "year": "2021",
@@ -18469,7 +18469,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.86,
+    "recentReturn": 7.85,
     "years": [
       {
         "year": "2021",
@@ -18529,7 +18529,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.98,
+    "recentReturn": 4.99,
     "years": [
       {
         "year": "2021",
@@ -18709,7 +18709,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.33,
+    "recentReturn": 2.42,
     "years": [
       {
         "year": "2021",
@@ -18769,7 +18769,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.8,
+    "recentReturn": 2.81,
     "years": [
       {
         "year": "2021",
@@ -18832,34 +18832,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,414"
+        "year": "台康生技 6589.TWO",
+        "cash": "93.80",
+        "stock": "1.701.78%",
+        "exDividendDate": "2,223"
       },
       {
-        "year": "大學光 3218.TWO",
-        "cash": "288.50",
-        "stock": "9.003.22%",
-        "exDividendDate": "1,016"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
+      },
+      {
+        "year": "高端疫苗 6547.TWO",
+        "cash": "261.00",
+        "stock": "10.504.19%",
+        "exDividendDate": "1,342"
+      },
+      {
+        "year": "杏輝 1734.TW",
+        "cash": "29.75",
+        "stock": "1.003.48%",
+        "exDividendDate": "6,678"
       },
       {
         "year": "中石化 1314.TW",
-        "cash": "13.35",
-        "stock": "1.209.88%",
-        "exDividendDate": "188,546"
-      },
-      {
-        "year": "達亞 6762.TWO",
-        "cash": "282.00",
-        "stock": "12.004.44%",
-        "exDividendDate": "46"
-      },
-      {
-        "year": "長榮 2603.TW",
-        "cash": "138.50",
-        "stock": "3.502.59%",
-        "exDividendDate": "68,630"
+        "cash": "13.05",
+        "stock": "0.000.00%",
+        "exDividendDate": "206,122"
       }
     ]
   },
@@ -19057,7 +19057,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.91,
+    "recentReturn": 4.9,
     "years": [
       {
         "year": "2021",
@@ -19117,7 +19117,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.48,
+    "recentReturn": 4.49,
     "years": [
       {
         "year": "2021",
@@ -19357,7 +19357,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.7,
+    "recentReturn": 4.69,
     "years": [
       {
         "year": "2021",
@@ -19477,7 +19477,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 3.43,
+    "recentReturn": 3.45,
     "years": [
       {
         "year": "2021",
@@ -19537,7 +19537,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.5,
+    "recentReturn": 5.51,
     "years": [
       {
         "year": "2021",
@@ -19777,7 +19777,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.86,
+    "recentReturn": 2.87,
     "years": [
       {
         "year": "2021",
@@ -19897,7 +19897,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.41,
+    "recentReturn": 3.4,
     "years": [
       {
         "year": "2020",
@@ -19957,7 +19957,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.52,
+    "recentReturn": 2.5,
     "years": [
       {
         "year": "2020",
@@ -20077,7 +20077,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 6.43,
+    "recentReturn": 6.46,
     "years": [
       {
         "year": "2021",
@@ -20161,7 +20161,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 4.36,
+    "recentReturn": 4.32,
     "years": [
       {
         "year": "2020",
@@ -20221,7 +20221,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.23,
+    "recentReturn": 5.24,
     "years": [
       {
         "year": "2021",
@@ -20401,7 +20401,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 2.75,
+    "recentReturn": 2.77,
     "years": [
       {
         "year": "2021",
@@ -20563,7 +20563,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.9,
+    "recentReturn": 3.89,
     "years": [
       {
         "year": "2021",
@@ -20683,7 +20683,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.02,
+    "recentReturn": 2.03,
     "years": [
       {
         "year": "2021",
@@ -20863,7 +20863,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.41,
+    "recentReturn": 6.42,
     "years": [
       {
         "year": "2021",
@@ -21163,7 +21163,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.55,
+    "recentReturn": 2.56,
     "years": [
       {
         "year": "2021Q4",
@@ -21223,7 +21223,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.43,
+    "recentReturn": 1.46,
     "years": [
       {
         "year": "2021",
@@ -21283,7 +21283,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.25,
+    "recentReturn": 2.29,
     "years": [
       {
         "year": "2021",
@@ -21403,7 +21403,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.39,
+    "recentReturn": 7.42,
     "years": [
       {
         "year": "2021",
@@ -21463,7 +21463,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.46,
+    "recentReturn": 6.5,
     "years": [
       {
         "year": "2021",
@@ -21583,7 +21583,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.64,
+    "recentReturn": 4.59,
     "years": [
       {
         "year": "2021",
@@ -21643,7 +21643,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.61,
+    "recentReturn": 0.66,
     "years": [
       {
         "year": "2021",
@@ -21823,7 +21823,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.17,
+    "recentReturn": 6.21,
     "years": [
       {
         "year": "2021",
@@ -21943,7 +21943,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.2,
+    "recentReturn": 1.22,
     "years": [
       {
         "year": "2021",
@@ -22003,7 +22003,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.59,
+    "recentReturn": 4.58,
     "years": [
       {
         "year": "2021",
@@ -22063,7 +22063,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.74,
+    "recentReturn": 6.73,
     "years": [
       {
         "year": "2021",
@@ -22123,7 +22123,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.1,
+    "recentReturn": 7.08,
     "years": [
       {
         "year": "2021",
@@ -22183,7 +22183,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.15,
+    "recentReturn": 5.14,
     "years": [
       {
         "year": "2021",
@@ -22246,34 +22246,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "合晶 6182.TWO",
-        "cash": "69.00",
-        "stock": "0.100.15%",
-        "exDividendDate": "11,261"
-      },
-      {
-        "year": "綠電 8440.TWO",
-        "cash": "70.60",
-        "stock": "1.902.77%",
-        "exDividendDate": "577"
+        "year": "康普 4739.TW",
+        "cash": "156.50",
+        "stock": "6.504.33%",
+        "exDividendDate": "5,217"
       },
       {
         "year": "美琪瑪 4721.TWO",
-        "cash": "153.50",
-        "stock": "2.501.66%",
-        "exDividendDate": "2,853"
+        "cash": "146.00",
+        "stock": "4.002.82%",
+        "exDividendDate": "1,442"
       },
       {
-        "year": "康普 4739.TW",
-        "cash": "163.00",
-        "stock": "0.000.00%",
-        "exDividendDate": "5,753"
+        "year": "台積電 2330.TW",
+        "cash": "567.00",
+        "stock": "1.000.18%",
+        "exDividendDate": "27,971"
       },
       {
-        "year": "漢磊 3707.TWO",
-        "cash": "133.50",
-        "stock": "0.500.38%",
-        "exDividendDate": "10,311"
+        "year": "元晶 6443.TW",
+        "cash": "43.80",
+        "stock": "2.907.09%",
+        "exDividendDate": "84,637"
+      },
+      {
+        "year": "大眾控 3701.TW",
+        "cash": "68.80",
+        "stock": "0.100.15%",
+        "exDividendDate": "2,042"
       }
     ]
   },
@@ -22291,7 +22291,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.52,
+    "recentReturn": 3.53,
     "years": [
       {
         "year": "2021",
@@ -22351,7 +22351,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 5.96,
+    "recentReturn": 5.99,
     "years": [
       {
         "year": "2021",
@@ -22411,7 +22411,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.01,
+    "recentReturn": 4.05,
     "years": [
       {
         "year": "2021",
@@ -22591,7 +22591,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.6,
+    "recentReturn": 1.62,
     "years": [
       {
         "year": "2021",
@@ -22711,7 +22711,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.31,
+    "recentReturn": 2.32,
     "years": [
       {
         "year": "2021",
@@ -22831,7 +22831,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.78,
+    "recentReturn": 2.7,
     "years": [
       {
         "year": "2020Q4",
@@ -22891,7 +22891,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.74,
+    "recentReturn": 5.73,
     "years": [
       {
         "year": "2021",
@@ -22951,7 +22951,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.4,
+    "recentReturn": 4.41,
     "years": [
       {
         "year": "2021",
@@ -23011,7 +23011,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.02,
+    "recentReturn": 3.04,
     "years": [
       {
         "year": "2021",
@@ -23071,7 +23071,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.03,
+    "recentReturn": 4.05,
     "years": [
       {
         "year": "2021",
@@ -23371,7 +23371,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.35,
+    "recentReturn": 6.36,
     "years": [
       {
         "year": "2021",
@@ -23491,7 +23491,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.34,
+    "recentReturn": 6.36,
     "years": [
       {
         "year": "2021",
@@ -23551,7 +23551,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.03,
+    "recentReturn": 0.05,
     "years": [
       {
         "year": "2021",
@@ -23671,7 +23671,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.17,
+    "recentReturn": 0.18,
     "years": [
       {
         "year": "2021",
@@ -24031,7 +24031,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.05,
+    "recentReturn": 0.0,
     "years": [
       {
         "year": "2021",
@@ -24211,7 +24211,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.74,
+    "recentReturn": 7.72,
     "years": [
       {
         "year": "2021",
@@ -24331,7 +24331,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.75,
+    "recentReturn": 6.76,
     "years": [
       {
         "year": "2021",
@@ -24691,7 +24691,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.94,
+    "recentReturn": 6.92,
     "years": [
       {
         "year": "2021",
@@ -24811,7 +24811,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.83,
+    "recentReturn": 3.84,
     "years": [
       {
         "year": "2021",
@@ -24991,7 +24991,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.74,
+    "recentReturn": 4.76,
     "years": [
       {
         "year": "2021",
@@ -25051,7 +25051,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.13,
+    "recentReturn": 5.15,
     "years": [
       {
         "year": "2021",
@@ -25111,7 +25111,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.94,
+    "recentReturn": 4.95,
     "years": [
       {
         "year": "2021",
@@ -25171,7 +25171,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.08,
+    "recentReturn": 0.11,
     "years": [
       {
         "year": "2021",
@@ -25231,7 +25231,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.26,
+    "recentReturn": 2.27,
     "years": [
       {
         "year": "2021",
@@ -25411,7 +25411,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.93,
+    "recentReturn": 2.92,
     "years": [
       {
         "year": "2020",
@@ -25471,7 +25471,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.71,
+    "recentReturn": 2.78,
     "years": [
       {
         "year": "2021",
@@ -25531,7 +25531,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.09,
+    "recentReturn": 4.08,
     "years": [
       {
         "year": "2021",
@@ -25891,7 +25891,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.05,
+    "recentReturn": 4.06,
     "years": [
       {
         "year": "2021H1",
@@ -26131,7 +26131,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.1,
+    "recentReturn": 5.08,
     "years": [
       {
         "year": "2021",
@@ -26191,7 +26191,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.43,
+    "recentReturn": 5.44,
     "years": [
       {
         "year": "2021",
@@ -26251,7 +26251,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.0,
+    "recentReturn": 1.98,
     "years": [
       {
         "year": "2020",
@@ -26311,7 +26311,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.07,
+    "recentReturn": 6.44,
     "years": [
       {
         "year": "2021",
@@ -26491,7 +26491,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.61,
+    "recentReturn": 4.59,
     "years": [
       {
         "year": "2021",
@@ -26551,7 +26551,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.73,
+    "recentReturn": 2.74,
     "years": [
       {
         "year": "2020",
@@ -26671,7 +26671,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.09,
+    "recentReturn": 2.13,
     "years": [
       {
         "year": "2021",
@@ -26851,7 +26851,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.14,
+    "recentReturn": 7.15,
     "years": [
       {
         "year": "2021",
@@ -26911,7 +26911,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.5,
+    "recentReturn": 2.52,
     "years": [
       {
         "year": "2021",
@@ -27031,7 +27031,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.09,
+    "recentReturn": 3.17,
     "years": [
       {
         "year": "2021",
@@ -27091,7 +27091,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 8.27,
+    "recentReturn": 8.26,
     "years": [
       {
         "year": "2021",
@@ -27151,7 +27151,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.76,
+    "recentReturn": 5.79,
     "years": [
       {
         "year": "2021",
@@ -27331,7 +27331,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.75,
+    "recentReturn": 3.72,
     "years": [
       {
         "year": "2020",
@@ -27571,7 +27571,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.41,
+    "recentReturn": 0.44,
     "years": [
       {
         "year": "2021",
@@ -27631,7 +27631,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.8,
+    "recentReturn": 2.79,
     "years": [
       {
         "year": "2021",
@@ -27751,7 +27751,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.86,
+    "recentReturn": 2.85,
     "years": [
       {
         "year": "2020",
@@ -27871,7 +27871,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.67,
+    "recentReturn": 6.69,
     "years": [
       {
         "year": "2021",
@@ -27931,7 +27931,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.79,
+    "recentReturn": 2.83,
     "years": [
       {
         "year": "2021",
@@ -28111,7 +28111,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.16,
+    "recentReturn": 6.15,
     "years": [
       {
         "year": "2020",
@@ -28591,7 +28591,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.02,
+    "recentReturn": 0.03,
     "years": [
       {
         "year": "2021",
@@ -28651,7 +28651,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.05,
+    "recentReturn": 5.07,
     "years": [
       {
         "year": "2021",
@@ -28951,7 +28951,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.23,
+    "recentReturn": 4.24,
     "years": [
       {
         "year": "2021",
@@ -29191,7 +29191,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.01,
+    "recentReturn": 0.02,
     "years": [
       {
         "year": "2021",
@@ -29251,7 +29251,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.38,
+    "recentReturn": 4.4,
     "years": [
       {
         "year": "2021",
@@ -29491,7 +29491,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.41,
+    "recentReturn": 3.42,
     "years": [
       {
         "year": "2021",
@@ -29611,7 +29611,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.27,
+    "recentReturn": 4.28,
     "years": [
       {
         "year": "2021Q4",
@@ -29671,7 +29671,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.49,
+    "recentReturn": 2.56,
     "years": [
       {
         "year": "2021",
@@ -29731,7 +29731,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.3,
+    "recentReturn": 6.33,
     "years": [
       {
         "year": "2021",
@@ -29791,7 +29791,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.09,
+    "recentReturn": 5.12,
     "years": [
       {
         "year": "2021",
@@ -29911,7 +29911,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.94,
+    "recentReturn": 7.96,
     "years": [
       {
         "year": "2021",
@@ -29971,7 +29971,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.04,
+    "recentReturn": 1.06,
     "years": [
       {
         "year": "2021",
@@ -30031,7 +30031,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.19,
+    "recentReturn": 6.23,
     "years": [
       {
         "year": "2021",
@@ -30151,7 +30151,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.05,
+    "recentReturn": 0.06,
     "years": [
       {
         "year": "2021",
@@ -30271,7 +30271,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.48,
+    "recentReturn": 2.49,
     "years": [
       {
         "year": "2021",
@@ -30331,7 +30331,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.31,
+    "recentReturn": 4.33,
     "years": [
       {
         "year": "2021",
@@ -30391,7 +30391,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.71,
+    "recentReturn": 3.72,
     "years": [
       {
         "year": "2020",
@@ -30451,7 +30451,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.59,
+    "recentReturn": 2.62,
     "years": [
       {
         "year": "2021",
@@ -30511,7 +30511,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.9,
+    "recentReturn": 3.91,
     "years": [
       {
         "year": "2021",
@@ -30571,7 +30571,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.36,
+    "recentReturn": 5.35,
     "years": [
       {
         "year": "2021",
@@ -30631,7 +30631,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.44,
+    "recentReturn": 5.46,
     "years": [
       {
         "year": "2021",
@@ -30691,7 +30691,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.23,
+    "recentReturn": 3.24,
     "years": [
       {
         "year": "2021",
@@ -30751,7 +30751,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.63,
+    "recentReturn": 4.62,
     "years": [
       {
         "year": "2021",
@@ -30871,7 +30871,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.28,
+    "recentReturn": 4.24,
     "years": [
       {
         "year": "2021",
@@ -30931,7 +30931,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.95,
+    "recentReturn": 3.98,
     "years": [
       {
         "year": "2021",
@@ -31051,7 +31051,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.38,
+    "recentReturn": 4.33,
     "years": [
       {
         "year": "2021",
@@ -31111,7 +31111,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.96,
+    "recentReturn": 6.97,
     "years": [
       {
         "year": "2021",
@@ -31291,7 +31291,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.38,
+    "recentReturn": 5.4,
     "years": [
       {
         "year": "2021",
@@ -31591,7 +31591,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.95,
+    "recentReturn": 3.91,
     "years": [
       {
         "year": "2020",
@@ -31651,7 +31651,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.49,
+    "recentReturn": 3.5,
     "years": [
       {
         "year": "2021",
@@ -31711,7 +31711,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.03,
+    "recentReturn": 6.04,
     "years": [
       {
         "year": "2021",
@@ -31771,7 +31771,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.49,
+    "recentReturn": 7.4,
     "years": [
       {
         "year": "2021",
@@ -31831,7 +31831,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.57,
+    "recentReturn": 5.53,
     "years": [
       {
         "year": "2021",
@@ -31891,7 +31891,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.12,
+    "recentReturn": 5.09,
     "years": [
       {
         "year": "2021",
@@ -32071,7 +32071,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.13,
+    "recentReturn": 5.15,
     "years": [
       {
         "year": "2021",
@@ -32191,7 +32191,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.8,
+    "recentReturn": 3.85,
     "years": [
       {
         "year": "2021",
@@ -32371,7 +32371,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.0,
+    "recentReturn": 3.01,
     "years": [
       {
         "year": "2021",
@@ -32432,7 +32432,38 @@
     },
     "recentYear": 5,
     "recentReturn": 0.0,
-    "years": []
+    "years": [
+      {
+        "year": "大略-KY 4804.TWO",
+        "cash": "16.50",
+        "stock": "1.459.63%",
+        "exDividendDate": "6,233"
+      },
+      {
+        "year": "福大 4402.TWO",
+        "cash": "7.92",
+        "stock": "0.7210.00%",
+        "exDividendDate": "2,142"
+      },
+      {
+        "year": "大將 1453.TW",
+        "cash": "13.60",
+        "stock": "1.209.68%",
+        "exDividendDate": "8,594"
+      },
+      {
+        "year": "全譜 6228.TWO",
+        "cash": "24.00",
+        "stock": "2.159.84%",
+        "exDividendDate": "984"
+      },
+      {
+        "year": "晉椿 2064.TWO",
+        "cash": "28.20",
+        "stock": "0.401.40%",
+        "exDividendDate": "5,090"
+      }
+    ]
   },
   {
     "equity": {
@@ -32628,7 +32659,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.68,
+    "recentReturn": 5.66,
     "years": [
       {
         "year": "2021",
@@ -33048,7 +33079,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.17,
+    "recentReturn": 6.18,
     "years": [
       {
         "year": "2021",
@@ -33288,7 +33319,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.3,
+    "recentReturn": 7.31,
     "years": [
       {
         "year": "2021",
@@ -33348,7 +33379,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.53,
+    "recentReturn": 6.55,
     "years": [
       {
         "year": "2021",
@@ -33408,7 +33439,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.0,
+    "recentReturn": 4.01,
     "years": [
       {
         "year": "2021",
@@ -33468,7 +33499,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.58,
+    "recentReturn": 2.59,
     "years": [
       {
         "year": "2021",
@@ -33528,7 +33559,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.4,
+    "recentReturn": 4.35,
     "years": [
       {
         "year": "2021",
@@ -33648,7 +33679,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.7,
+    "recentReturn": 1.69,
     "years": [
       {
         "year": "2020",
@@ -33888,7 +33919,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.7,
+    "recentReturn": 7.71,
     "years": [
       {
         "year": "2021",
@@ -34068,7 +34099,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.16,
+    "recentReturn": 4.17,
     "years": [
       {
         "year": "2021",
@@ -34188,7 +34219,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 2.88,
+    "recentReturn": 2.87,
     "years": [
       {
         "year": "2020",
@@ -34308,7 +34339,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 3.8,
+    "recentReturn": 3.81,
     "years": [
       {
         "year": "2021",
@@ -34368,7 +34399,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.21,
+    "recentReturn": 4.22,
     "years": [
       {
         "year": "2021",
@@ -34428,7 +34459,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.3,
+    "recentReturn": 4.31,
     "years": [
       {
         "year": "2021",
@@ -34488,7 +34519,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.29,
+    "recentReturn": 3.28,
     "years": [
       {
         "year": "2020",
@@ -34551,34 +34582,34 @@
     "recentReturn": 0.0,
     "years": [
       {
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
+      },
+      {
         "year": "高端疫苗 6547.TWO",
-        "cash": "263.50",
-        "stock": "3.501.31%",
-        "exDividendDate": "2,555"
+        "cash": "261.00",
+        "stock": "10.504.19%",
+        "exDividendDate": "1,342"
       },
       {
         "year": "逸達 6576.TWO",
-        "cash": "114.00",
-        "stock": "1.000.88%",
-        "exDividendDate": "533"
+        "cash": "115.00",
+        "stock": "1.501.32%",
+        "exDividendDate": "278"
       },
       {
-        "year": "合一 4743.TWO",
-        "cash": "211.00",
-        "stock": "3.501.63%",
-        "exDividendDate": "1,959"
+        "year": "生華科 6492.TWO",
+        "cash": "77.50",
+        "stock": "0.500.64%",
+        "exDividendDate": "229"
       },
       {
-        "year": "宏亞 1236.TW",
-        "cash": "27.25",
-        "stock": "0.451.68%",
-        "exDividendDate": "346"
-      },
-      {
-        "year": "中裕 4147.TWO",
-        "cash": "64.80",
-        "stock": "1.702.69%",
-        "exDividendDate": "1,321"
+        "year": "長榮 2603.TW",
+        "cash": "135.50",
+        "stock": "7.005.45%",
+        "exDividendDate": "95,870"
       }
     ]
   },
@@ -34596,7 +34627,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.99,
+    "recentReturn": 5.02,
     "years": [
       {
         "year": "2021",
@@ -34659,34 +34690,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "健喬 4114.TWO",
-        "cash": "25.50",
-        "stock": "0.401.59%",
-        "exDividendDate": "976"
+        "year": "皇將 4744.TWO",
+        "cash": "35.50",
+        "stock": "2.106.29%",
+        "exDividendDate": "1,992"
       },
       {
-        "year": "群創 3481.TW",
-        "cash": "16.75",
-        "stock": "0.050.30%",
-        "exDividendDate": "39,226"
+        "year": "山富 2743.TWO",
+        "cash": "48.30",
+        "stock": "3.557.93%",
+        "exDividendDate": "5,393"
       },
       {
-        "year": "富邦金 2881.TW",
-        "cash": "77.10",
-        "stock": "0.600.78%",
-        "exDividendDate": "21,021"
+        "year": "上緯投控 3708.TW",
+        "cash": "115.00",
+        "stock": "9.008.49%",
+        "exDividendDate": "5,086"
       },
       {
-        "year": "國喬 1312.TW",
-        "cash": "27.00",
-        "stock": "0.301.10%",
-        "exDividendDate": "10,126"
+        "year": "全宇生技-KY 4148.TW",
+        "cash": "75.30",
+        "stock": "6.809.93%",
+        "exDividendDate": "3,519"
       },
       {
-        "year": "金寶 2312.TW",
-        "cash": "16.60",
-        "stock": "0.352.06%",
-        "exDividendDate": "24,620"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       }
     ]
   },
@@ -34704,7 +34735,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.67,
+    "recentReturn": 6.62,
     "years": [
       {
         "year": "2021",
@@ -34884,7 +34915,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.4,
+    "recentReturn": 6.38,
     "years": [
       {
         "year": "2021",
@@ -35004,7 +35035,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.72,
+    "recentReturn": 0.74,
     "years": [
       {
         "year": "2021",
@@ -35064,7 +35095,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.65,
+    "recentReturn": 1.69,
     "years": [
       {
         "year": "2021",
@@ -35304,7 +35335,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.83,
+    "recentReturn": 5.85,
     "years": [
       {
         "year": "2021",
@@ -35364,7 +35395,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.27,
+    "recentReturn": 5.25,
     "years": [
       {
         "year": "2020",
@@ -35424,7 +35455,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.73,
+    "recentReturn": 0.75,
     "years": [
       {
         "year": "2021",
@@ -35484,7 +35515,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.08,
+    "recentReturn": 6.13,
     "years": [
       {
         "year": "2021",
@@ -35544,7 +35575,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.28,
+    "recentReturn": 5.3,
     "years": [
       {
         "year": "2021",
@@ -35604,7 +35635,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.49,
+    "recentReturn": 2.47,
     "years": [
       {
         "year": "2021",
@@ -35664,7 +35695,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.68,
+    "recentReturn": 1.69,
     "years": [
       {
         "year": "2021",
@@ -35784,7 +35815,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.22,
+    "recentReturn": 5.21,
     "years": [
       {
         "year": "2021",
@@ -35844,7 +35875,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 1.3,
+    "recentReturn": 1.31,
     "years": [
       {
         "year": "2021",
@@ -35964,7 +35995,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 3.36,
+    "recentReturn": 3.37,
     "years": [
       {
         "year": "2021",
@@ -36024,7 +36055,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.37,
+    "recentReturn": 5.38,
     "years": [
       {
         "year": "2021",
@@ -36147,34 +36178,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "博晟生醫 6733.TWO",
-        "cash": "27.00",
-        "stock": "2.158.65%",
-        "exDividendDate": "1,931"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
-        "year": "星寶國際 6130.TWO",
-        "cash": "54.40",
-        "stock": "3.306.46%",
-        "exDividendDate": "1,273"
+        "year": "台生材 6649.TWO",
+        "cash": "24.40",
+        "stock": "2.059.17%",
+        "exDividendDate": "43"
       },
       {
-        "year": "達亞 6762.TWO",
-        "cash": "282.00",
-        "stock": "12.004.44%",
-        "exDividendDate": "46"
+        "year": "皇將 4744.TWO",
+        "cash": "35.50",
+        "stock": "2.106.29%",
+        "exDividendDate": "1,990"
       },
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,410"
+        "year": "加捷生醫 4109.TWO",
+        "cash": "14.65",
+        "stock": "0.705.02%",
+        "exDividendDate": "514"
       },
       {
-        "year": "杏一 4175.TWO",
-        "cash": "70.50",
-        "stock": "2.603.83%",
-        "exDividendDate": "233"
+        "year": "雙美 4728.TWO",
+        "cash": "139.00",
+        "stock": "6.504.91%",
+        "exDividendDate": "93"
       }
     ]
   },
@@ -36192,7 +36223,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.61,
+    "recentReturn": 4.55,
     "years": [
       {
         "year": "2021",
@@ -36312,7 +36343,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.16,
+    "recentReturn": 0.17,
     "years": [
       {
         "year": "2021",
@@ -36396,7 +36427,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.17,
+    "recentReturn": 4.19,
     "years": [
       {
         "year": "2021",
@@ -36456,7 +36487,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.83,
+    "recentReturn": 4.86,
     "years": [
       {
         "year": "2021",
@@ -36696,7 +36727,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.28,
+    "recentReturn": 4.3,
     "years": [
       {
         "year": "2021",
@@ -36819,34 +36850,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "長榮 2603.TW",
-        "cash": "138.50",
-        "stock": "3.502.59%",
-        "exDividendDate": "68,630"
+        "year": "生華科 6492.TWO",
+        "cash": "77.50",
+        "stock": "0.500.64%",
+        "exDividendDate": "229"
       },
       {
         "year": "藥華藥 6446.TWO",
-        "cash": "319.50",
-        "stock": "5.501.75%",
-        "exDividendDate": "606"
-      },
-      {
-        "year": "生華科 6492.TWO",
-        "cash": "77.10",
-        "stock": "1.301.66%",
-        "exDividendDate": "277"
+        "cash": "325.00",
+        "stock": "13.504.33%",
+        "exDividendDate": "1,102"
       },
       {
         "year": "智擎 4162.TWO",
-        "cash": "85.90",
-        "stock": "3.704.13%",
-        "exDividendDate": "15,117"
+        "cash": "82.30",
+        "stock": "1.601.98%",
+        "exDividendDate": "3,293"
       },
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,414"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
+      },
+      {
+        "year": "高端疫苗 6547.TWO",
+        "cash": "261.00",
+        "stock": "10.504.19%",
+        "exDividendDate": "1,342"
       }
     ]
   },
@@ -36864,7 +36895,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.07,
+    "recentReturn": 7.06,
     "years": [
       {
         "year": "2021",
@@ -36924,7 +36955,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.62,
+    "recentReturn": 3.57,
     "years": [
       {
         "year": "2020",
@@ -36984,7 +37015,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 2.38,
+    "recentReturn": 2.36,
     "years": [
       {
         "year": "2021",
@@ -37048,33 +37079,33 @@
     "years": [
       {
         "year": "高端疫苗 6547.TWO",
-        "cash": "263.50",
-        "stock": "3.501.31%",
-        "exDividendDate": "2,555"
+        "cash": "261.00",
+        "stock": "10.504.19%",
+        "exDividendDate": "1,342"
       },
       {
-        "year": "藥華藥 6446.TWO",
-        "cash": "319.50",
-        "stock": "5.501.75%",
-        "exDividendDate": "606"
+        "year": "亞諾法 4133.TW",
+        "cash": "63.90",
+        "stock": "5.809.98%",
+        "exDividendDate": "64,547"
       },
       {
-        "year": "寶齡富錦 1760.TW",
-        "cash": "103.00",
-        "stock": "4.504.19%",
-        "exDividendDate": "13,285"
+        "year": "台耀 4746.TW",
+        "cash": "59.70",
+        "stock": "2.103.65%",
+        "exDividendDate": "1,855"
       },
       {
-        "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
+        "year": "聯亞 3081.TWO",
+        "cash": "181.50",
+        "stock": "4.002.16%",
+        "exDividendDate": "176"
       },
       {
-        "year": "長榮 2603.TW",
-        "cash": "138.50",
-        "stock": "3.502.59%",
-        "exDividendDate": "68,630"
+        "year": "永昕 4726.TWO",
+        "cash": "41.45",
+        "stock": "0.751.84%",
+        "exDividendDate": "336"
       }
     ]
   },
@@ -37092,7 +37123,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.97,
+    "recentReturn": 4.98,
     "years": [
       {
         "year": "2021",
@@ -37212,7 +37243,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.82,
+    "recentReturn": 3.81,
     "years": [
       {
         "year": "2021",
@@ -37266,7 +37297,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.78,
+    "recentReturn": 6.72,
     "years": [
       {
         "year": "2020",
@@ -37326,7 +37357,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.79,
+    "recentReturn": 2.81,
     "years": [
       {
         "year": "2021",
@@ -37386,7 +37417,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.15,
+    "recentReturn": 4.17,
     "years": [
       {
         "year": "2021",
@@ -37446,7 +37477,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.48,
+    "recentReturn": 0.49,
     "years": [
       {
         "year": "2021",
@@ -37494,7 +37525,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.55,
+    "recentReturn": 6.56,
     "years": [
       {
         "year": "2021",
@@ -37554,7 +37585,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.86,
+    "recentReturn": 2.88,
     "years": [
       {
         "year": "2021",
@@ -37614,7 +37645,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.55,
+    "recentReturn": 7.46,
     "years": [
       {
         "year": "2020H2",
@@ -37758,7 +37789,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.87,
+    "recentReturn": 5.89,
     "years": [
       {
         "year": "2021",
@@ -37806,7 +37837,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 4.5,
+    "recentReturn": 4.51,
     "years": [
       {
         "year": "2021",
@@ -37917,34 +37948,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "博晟生醫 6733.TWO",
-        "cash": "27.00",
-        "stock": "2.158.65%",
-        "exDividendDate": "1,931"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
-        "year": "星寶國際 6130.TWO",
-        "cash": "54.40",
-        "stock": "3.306.46%",
-        "exDividendDate": "1,273"
+        "year": "台生材 6649.TWO",
+        "cash": "24.40",
+        "stock": "2.059.17%",
+        "exDividendDate": "43"
       },
       {
-        "year": "達亞 6762.TWO",
-        "cash": "282.00",
-        "stock": "12.004.44%",
-        "exDividendDate": "46"
+        "year": "皇將 4744.TWO",
+        "cash": "35.50",
+        "stock": "2.106.29%",
+        "exDividendDate": "1,990"
       },
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,410"
+        "year": "加捷生醫 4109.TWO",
+        "cash": "14.65",
+        "stock": "0.705.02%",
+        "exDividendDate": "514"
       },
       {
-        "year": "杏一 4175.TWO",
-        "cash": "70.50",
-        "stock": "2.603.83%",
-        "exDividendDate": "233"
+        "year": "雙美 4728.TWO",
+        "cash": "139.00",
+        "stock": "6.504.91%",
+        "exDividendDate": "93"
       }
     ]
   },
@@ -37962,7 +37993,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 2.81,
+    "recentReturn": 2.85,
     "years": [
       {
         "year": "2021",
@@ -38022,7 +38053,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.32,
+    "recentReturn": 4.34,
     "years": [
       {
         "year": "2021",
@@ -38082,7 +38113,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 4.03,
+    "recentReturn": 3.97,
     "years": [
       {
         "year": "2021",
@@ -38142,7 +38173,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 5.58,
+    "recentReturn": 5.56,
     "years": [
       {
         "year": "2021",
@@ -38262,7 +38293,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.6,
+    "recentReturn": 4.56,
     "years": [
       {
         "year": "2021",
@@ -38322,7 +38353,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 1.42,
+    "recentReturn": 1.43,
     "years": [
       {
         "year": "2021",
@@ -38430,7 +38461,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 1.88,
+    "recentReturn": 1.89,
     "years": [
       {
         "year": "2021",
@@ -38490,7 +38521,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 1.51,
+    "recentReturn": 1.56,
     "years": [
       {
         "year": "2021",
@@ -38586,7 +38617,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 1.19,
+    "recentReturn": 1.34,
     "years": [
       {
         "year": "2021",
@@ -38658,7 +38689,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 7.77,
+    "recentReturn": 7.76,
     "years": [
       {
         "year": "2021",
@@ -38718,7 +38749,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 0.52,
+    "recentReturn": 0.56,
     "years": [
       {
         "year": "2021",
@@ -38742,7 +38773,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 3.93,
+    "recentReturn": 3.95,
     "years": [
       {
         "year": "2021",
@@ -38802,7 +38833,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 3.47,
+    "recentReturn": 3.48,
     "years": [
       {
         "year": "2021",
@@ -38904,7 +38935,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 4.0,
+    "recentReturn": 4.02,
     "years": [
       {
         "year": "2021",
@@ -38967,34 +38998,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "惠光 6508.TWO",
-        "cash": "45.00",
-        "stock": "3.007.14%",
-        "exDividendDate": "26,078"
-      },
-      {
-        "year": "富強鑫 6603.TWO",
-        "cash": "17.70",
-        "stock": "1.408.59%",
-        "exDividendDate": "4,694"
-      },
-      {
         "year": "中石化 1314.TW",
-        "cash": "13.35",
-        "stock": "1.209.88%",
-        "exDividendDate": "188,546"
+        "cash": "13.05",
+        "stock": "0.000.00%",
+        "exDividendDate": "206,122"
       },
       {
-        "year": "擎邦 6122.TWO",
-        "cash": "17.30",
-        "stock": "1.559.84%",
-        "exDividendDate": "10,617"
+        "year": "友達 2409.TW",
+        "cash": "19.70",
+        "stock": "0.201.03%",
+        "exDividendDate": "34,930"
       },
       {
-        "year": "東鹼 1708.TW",
-        "cash": "57.80",
-        "stock": "2.203.96%",
-        "exDividendDate": "110,970"
+        "year": "台肥 1722.TW",
+        "cash": "80.00",
+        "stock": "4.906.52%",
+        "exDividendDate": "38,512"
+      },
+      {
+        "year": "興富發 2542.TW",
+        "cash": "48.75",
+        "stock": "0.150.31%",
+        "exDividendDate": "16,926"
+      },
+      {
+        "year": "中工 2515.TW",
+        "cash": "10.35",
+        "stock": "0.393.92%",
+        "exDividendDate": "23,170"
       }
     ]
   },
@@ -39054,7 +39085,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 2.23,
+    "recentReturn": 2.26,
     "years": [
       {
         "year": "2021",
@@ -39210,7 +39241,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 2.28,
+    "recentReturn": 2.34,
     "years": [
       {
         "year": "2021",
@@ -39270,7 +39301,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 2.3,
+    "recentReturn": 2.29,
     "years": [
       {
         "year": "2021",
@@ -39363,34 +39394,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "博晟生醫 6733.TWO",
-        "cash": "27.00",
-        "stock": "2.158.65%",
-        "exDividendDate": "1,931"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
-        "year": "星寶國際 6130.TWO",
-        "cash": "54.40",
-        "stock": "3.306.46%",
-        "exDividendDate": "1,273"
+        "year": "台生材 6649.TWO",
+        "cash": "24.40",
+        "stock": "2.059.17%",
+        "exDividendDate": "43"
       },
       {
-        "year": "達亞 6762.TWO",
-        "cash": "282.00",
-        "stock": "12.004.44%",
-        "exDividendDate": "46"
+        "year": "皇將 4744.TWO",
+        "cash": "35.50",
+        "stock": "2.106.29%",
+        "exDividendDate": "1,990"
       },
       {
-        "year": "長聖 6712.TWO",
-        "cash": "221.00",
-        "stock": "9.004.25%",
-        "exDividendDate": "2,410"
+        "year": "加捷生醫 4109.TWO",
+        "cash": "14.65",
+        "stock": "0.705.02%",
+        "exDividendDate": "514"
       },
       {
-        "year": "杏一 4175.TWO",
-        "cash": "70.50",
-        "stock": "2.603.83%",
-        "exDividendDate": "233"
+        "year": "雙美 4728.TWO",
+        "cash": "139.00",
+        "stock": "6.504.91%",
+        "exDividendDate": "93"
       }
     ]
   },
@@ -39408,7 +39439,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 2.07,
+    "recentReturn": 2.1,
     "years": [
       {
         "year": "2021",
@@ -39528,7 +39559,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 1.26,
+    "recentReturn": 1.28,
     "years": [
       {
         "year": "2021",
@@ -39551,8 +39582,8 @@
       "maturityDate": "",
       "interest": ""
     },
-    "recentYear": 1,
-    "recentReturn": 5.01,
+    "recentYear": 0,
+    "recentReturn": 0.0,
     "years": [
       {
         "year": "2021",
@@ -39576,7 +39607,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.95,
+    "recentReturn": 2.96,
     "years": [
       {
         "year": "2021",
@@ -39636,7 +39667,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 2.06,
+    "recentReturn": 2.07,
     "years": [
       {
         "year": "2021",
@@ -39696,7 +39727,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.38,
+    "recentReturn": 1.42,
     "years": [
       {
         "year": "2021",
@@ -39756,7 +39787,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.93,
+    "recentReturn": 0.94,
     "years": [
       {
         "year": "2021",
@@ -39816,7 +39847,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.6,
+    "recentReturn": 5.64,
     "years": [
       {
         "year": "2021",
@@ -39876,7 +39907,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.58,
+    "recentReturn": 0.61,
     "years": [
       {
         "year": "2021",
@@ -39939,34 +39970,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
+        "year": "元晶 6443.TW",
+        "cash": "43.80",
+        "stock": "2.907.09%",
+        "exDividendDate": "84,637"
+      },
+      {
+        "year": "陽明 2609.TW",
+        "cash": "124.00",
+        "stock": "5.004.20%",
+        "exDividendDate": "49,872"
       },
       {
         "year": "聯電 2303.TW",
-        "cash": "52.90",
-        "stock": "1.102.04%",
-        "exDividendDate": "83,800"
+        "cash": "50.00",
+        "stock": "0.000.00%",
+        "exDividendDate": "91,523"
       },
       {
-        "year": "鴻海 2317.TW",
-        "cash": "104.50",
-        "stock": "1.501.42%",
-        "exDividendDate": "23,286"
+        "year": "台積電 2330.TW",
+        "cash": "567.00",
+        "stock": "1.000.18%",
+        "exDividendDate": "27,971"
       },
       {
-        "year": "聯發科 2454.TW",
-        "cash": "900.00",
-        "stock": "5.000.55%",
-        "exDividendDate": "9,220"
-      },
-      {
-        "year": "中鋼 2002.TW",
-        "cash": "39.20",
-        "stock": "0.250.64%",
-        "exDividendDate": "36,242"
+        "year": "聯合再生 3576.TW",
+        "cash": "23.60",
+        "stock": "0.903.96%",
+        "exDividendDate": "16,485"
       }
     ]
   },
@@ -39984,7 +40015,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.27,
+    "recentReturn": 0.28,
     "years": [
       {
         "year": "2021",
@@ -40044,7 +40075,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.64,
+    "recentReturn": 4.65,
     "years": [
       {
         "year": "2020",
@@ -40104,7 +40135,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.74,
+    "recentReturn": 2.76,
     "years": [
       {
         "year": "2021",
@@ -40344,7 +40375,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.78,
+    "recentReturn": 7.79,
     "years": [
       {
         "year": "2021",
@@ -40404,7 +40435,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.2,
+    "recentReturn": 5.23,
     "years": [
       {
         "year": "2021",
@@ -40464,7 +40495,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.63,
+    "recentReturn": 3.64,
     "years": [
       {
         "year": "2021",
@@ -40584,7 +40615,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.34,
+    "recentReturn": 3.16,
     "years": [
       {
         "year": "2021",
@@ -40644,7 +40675,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 8.91,
+    "recentReturn": 8.88,
     "years": [
       {
         "year": "2021",
@@ -40884,7 +40915,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.18,
+    "recentReturn": 2.17,
     "years": [
       {
         "year": "2020",
@@ -41067,34 +41098,34 @@
     "recentReturn": 0.0,
     "years": [
       {
-        "year": "燦星旅 2719.TWO",
-        "cash": "16.00",
-        "stock": "1.057.02%",
-        "exDividendDate": "19"
-      },
-      {
-        "year": "富驛-KY 2724.TWO",
-        "cash": "15.60",
-        "stock": "0.906.12%",
-        "exDividendDate": "4"
-      },
-      {
-        "year": "六角 2732.TWO",
-        "cash": "111.50",
-        "stock": "5.004.69%",
-        "exDividendDate": "169"
-      },
-      {
-        "year": "瓦城 2729.TWO",
-        "cash": "221.50",
-        "stock": "7.503.50%",
-        "exDividendDate": "68"
+        "year": "大略-KY 4804.TWO",
+        "cash": "16.50",
+        "stock": "1.459.63%",
+        "exDividendDate": "6,184"
       },
       {
         "year": "山富 2743.TWO",
-        "cash": "46.20",
-        "stock": "1.252.78%",
-        "exDividendDate": "5,542"
+        "cash": "48.30",
+        "stock": "3.557.93%",
+        "exDividendDate": "5,357"
+      },
+      {
+        "year": "亞都 5703.TWO",
+        "cash": "23.70",
+        "stock": "1.305.80%",
+        "exDividendDate": "13"
+      },
+      {
+        "year": "六角 2732.TWO",
+        "cash": "111.00",
+        "stock": "5.004.72%",
+        "exDividendDate": "157"
+      },
+      {
+        "year": "天蔥 2740.TWO",
+        "cash": "25.55",
+        "stock": "0.753.02%",
+        "exDividendDate": "2"
       }
     ]
   },
@@ -41292,7 +41323,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.07,
+    "recentReturn": 0.08,
     "years": [
       {
         "year": "2021",
@@ -41472,7 +41503,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.23,
+    "recentReturn": 4.22,
     "years": [
       {
         "year": "2021",
@@ -41532,7 +41563,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 5.18,
+    "recentReturn": 5.14,
     "years": [
       {
         "year": "2021",
@@ -41592,7 +41623,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.36,
+    "recentReturn": 5.37,
     "years": [
       {
         "year": "2021",
@@ -41892,7 +41923,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.4,
+    "recentReturn": 5.41,
     "years": [
       {
         "year": "2021",
@@ -42012,7 +42043,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.6,
+    "recentReturn": 5.61,
     "years": [
       {
         "year": "2021",
@@ -42072,7 +42103,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.15,
+    "recentReturn": 3.19,
     "years": [
       {
         "year": "2021",
@@ -42192,7 +42223,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.46,
+    "recentReturn": 2.47,
     "years": [
       {
         "year": "2021",
@@ -42255,6 +42286,12 @@
     "recentReturn": 5.07,
     "years": [
       {
+        "year": "2021",
+        "cash": "6",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "7",
         "stock": "0",
@@ -42289,12 +42326,6 @@
         "cash": "2",
         "stock": "0",
         "exDividendDate": "2016/08/03"
-      },
-      {
-        "year": "2014",
-        "cash": "2",
-        "stock": "0",
-        "exDividendDate": "2015/08/03"
       }
     ]
   },
@@ -42432,7 +42463,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.36,
+    "recentReturn": 4.38,
     "years": [
       {
         "year": "2021",
@@ -42612,7 +42643,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.46,
+    "recentReturn": 3.48,
     "years": [
       {
         "year": "2021",
@@ -42912,7 +42943,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.6,
+    "recentReturn": 1.63,
     "years": [
       {
         "year": "2021",
@@ -43092,7 +43123,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.07,
+    "recentReturn": 7.06,
     "years": [
       {
         "year": "2021",
@@ -43212,7 +43243,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.13,
+    "recentReturn": 5.16,
     "years": [
       {
         "year": "2021",
@@ -43272,7 +43303,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.34,
+    "recentReturn": 5.35,
     "years": [
       {
         "year": "2021",
@@ -43452,7 +43483,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.23,
+    "recentReturn": 6.27,
     "years": [
       {
         "year": "2021",
@@ -43752,7 +43783,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.72,
+    "recentReturn": 4.74,
     "years": [
       {
         "year": "2021",
@@ -43812,7 +43843,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.94,
+    "recentReturn": 5.95,
     "years": [
       {
         "year": "2021",
@@ -43932,7 +43963,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.6,
+    "recentReturn": 3.62,
     "years": [
       {
         "year": "2021",
@@ -44052,7 +44083,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.18,
+    "recentReturn": 5.17,
     "years": [
       {
         "year": "2021",
@@ -44232,7 +44263,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.47,
+    "recentReturn": 0.48,
     "years": [
       {
         "year": "2021",
@@ -44352,7 +44383,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.78,
+    "recentReturn": 5.79,
     "years": [
       {
         "year": "2021",
@@ -44472,7 +44503,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.03,
+    "recentReturn": 3.04,
     "years": [
       {
         "year": "2021",
@@ -44532,7 +44563,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.27,
+    "recentReturn": 3.28,
     "years": [
       {
         "year": "2021",
@@ -44592,7 +44623,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.69,
+    "recentReturn": 2.68,
     "years": [
       {
         "year": "2021",
@@ -44712,7 +44743,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.73,
+    "recentReturn": 6.71,
     "years": [
       {
         "year": "2021H2",
@@ -44892,7 +44923,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.06,
+    "recentReturn": 4.05,
     "years": [
       {
         "year": "2021",
@@ -45012,7 +45043,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.18,
+    "recentReturn": 4.15,
     "years": [
       {
         "year": "2020",
@@ -45072,7 +45103,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.92,
+    "recentReturn": 2.9,
     "years": [
       {
         "year": "2021",
@@ -45252,7 +45283,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.32,
+    "recentReturn": 3.21,
     "years": [
       {
         "year": "2021",
@@ -45372,7 +45403,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.21,
+    "recentReturn": 3.2,
     "years": [
       {
         "year": "2021",
@@ -45552,7 +45583,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.7,
+    "recentReturn": 6.74,
     "years": [
       {
         "year": "2021",
@@ -45612,7 +45643,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.25,
+    "recentReturn": 1.28,
     "years": [
       {
         "year": "2021",
@@ -45672,7 +45703,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.66,
+    "recentReturn": 5.67,
     "years": [
       {
         "year": "2021",
@@ -45732,7 +45763,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.24,
+    "recentReturn": 4.21,
     "years": [
       {
         "year": "2020",
@@ -46092,7 +46123,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.83,
+    "recentReturn": 0.84,
     "years": [
       {
         "year": "2021",
@@ -46212,7 +46243,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.45,
+    "recentReturn": 5.46,
     "years": [
       {
         "year": "2021",
@@ -46272,7 +46303,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.84,
+    "recentReturn": 6.85,
     "years": [
       {
         "year": "2021",
@@ -46512,7 +46543,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.19,
+    "recentReturn": 5.17,
     "years": [
       {
         "year": "2021",
@@ -46572,7 +46603,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.33,
+    "recentReturn": 2.36,
     "years": [
       {
         "year": "2021",
@@ -46632,7 +46663,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.73,
+    "recentReturn": 3.78,
     "years": [
       {
         "year": "2021",

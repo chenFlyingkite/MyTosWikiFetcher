@@ -3,6 +3,7 @@ package main.kt
 import flyingkite.log.L
 import main.fetcher.data.stock.StockGroup
 import main.fetcher.data.stock.YHDividend
+import main.fetcher.data.stock.YHStockPrice
 import main.fetcher.data.stock.YHYearDiv
 import main.fetcher.web.WebFetcher
 import org.jsoup.nodes.Element
@@ -88,6 +89,7 @@ open class YahooGet {
 //        昨量        15,106
 //        振幅        1.10%
 
+        @Deprecated("We use getPrices")
         fun dealTable(e: Element) : List<Double> {
             val ans = ArrayList<Double>()
 
@@ -95,13 +97,11 @@ open class YahooGet {
             for (i in 1 until trs.size) {
                 val tr = trs[i]
                 val tds = tr.getElementsByTag("td")
-                var s = ""
+                var s = "0"
                 if (tds[3].text() != "-") {
                     s = tds[3].text()
                 } else if (tds[8].text() != "-") {
                     s = tds[8].text()
-                } else {
-                    s = "0"
                 }
                 val price = s.toDouble()
                 ans.add(price)
@@ -116,6 +116,7 @@ open class YahooGet {
         // Get dividend from
         //https://tw.stock.yahoo.com/quote/1101/dividend
         fun getDividend(isin: String) : YHDividend {
+            // peek the recent years of dividend, since it saves 20 years
             val recentYears = 7
             val log = false
             //-- content
@@ -123,11 +124,11 @@ open class YahooGet {
             val doc = fetcher.getDocument(link)
             val ans = YHDividend()
             if (log) {
-                L.log("getDividend(${link})")
+                L.log("getDividend ${link}")
             }
             if (doc == null) return ans
-            val qdp = doc.getElementById("main-2-QuoteDividend-Proxy")
-            var es = qdp.getElementsByClass("Fw(b)")
+            var q1 = doc.getElementById("main-2-QuoteDividend-Proxy")
+            var es = q1.getElementsByClass("Fw(b)")
             //ln(es)
             var z = 0
             // https://tw.stock.yahoo.com/quote/2012/dividend
@@ -148,25 +149,135 @@ open class YahooGet {
                 }
             }
             es = doc.getElementsByClass("table-body-wrapper")
-            if (es.size == 0) return ans
-            es = es[0].getElementsByTag("li")
-            //ln(es)
-            var recent = min(recentYears, es.size)
-            //recent = es.size
-            for (i in 0 until recent) {
-                val ei = es[i]
-                val row = ei.child(0).children()
-                // row has 8 child
-                // 股利所屬期間 現金股利 股票股利 除息日 除權日 現金股利發放日 股票股利發放日 填息天數
-                val yd = YHYearDiv()
-                yd.year = row[0].text()
-                yd.cash = row[1].text()
-                yd.stock = row[2].text()
-                yd.exDividendDate = row[3].text()
-                ans.years.add(yd)
-                if (log) {
-                    L.log("#%s : %s from \"%s\"", i, yd, row.text())
+            if (es.size > 0) {
+                es = es[0].getElementsByTag("li")
+                //ln(es)
+                var recent = min(recentYears, es.size)
+                //recent = es.size
+                for (i in 0 until recent) {
+                    val ei = es[i]
+                    val row = ei.child(0).children()
+                    // row has 8 child
+                    // 股利所屬期間 現金股利 股票股利 除息日 除權日 現金股利發放日 股票股利發放日 填息天數
+                    val yd = YHYearDiv()
+                    yd.year = row[0].text()
+                    yd.cash = row[1].text()
+                    yd.stock = row[2].text()
+                    yd.exDividendDate = row[3].text()
+                    ans.years.add(yd)
+                    if (log) {
+                        L.log("#%s : %s from \"%s\"", i, yd, row.text())
+                    }
                 }
+            }
+            return ans
+        }
+        // 2910 empty string?
+        private fun toDouble(s : String) : Double {
+            return s.replace(",", "").trim().toDouble()
+        }
+
+        private fun toLong(s : String) : Long {
+            return s.replace(",", "").trim().toLong()
+        }
+
+        // Get prices from
+        // https://finance.yahoo.com/quote/1101.TW
+        fun getPrices(isin: String) : YHStockPrice {
+            val log = 1 > 0
+            //-- content
+            val link = "https://finance.yahoo.com/quote/${isin}"
+            val doc = fetcher.getDocument(link)
+            val ans = YHStockPrice()
+            if (log) {
+                L.log("getPrices ${link}")
+            }
+            if (doc == null) return ans
+            var q1 = doc.getElementById("quote-summary")
+            var es = q1.getElementsByTag("td")
+
+            // [Previous Close, 43.75, Open, 43.25, Bid, 43.75 x 0, Ask, 44.00 x 0, Day's Range, 43.25 - 43.95, 52 Week Range, 28.50 - 48.10, Volume, 6,177, Avg. Volume, 15,679, Market Cap, 4.438B, Beta (5Y Monthly), 0.02, PE Ratio (TTM), 60.87, EPS (TTM), 0.72, Earnings Date, N/A, Forward Dividend & Yield, 1.50 (3.41%), Ex-Dividend Date, Dec 13, 2021, 1y Target Est, N/A]
+            val str = ArrayList<String>()
+            for (i in 0 until es.size) {
+                val si = es[i]
+                val ti = si.text()
+                val tj = if (i+1 < es.size) {
+                    es[i+1].text()
+                } else {
+                    ""
+                }
+                // or data-test="PE_RATIO-value" ?
+                when (ti) {
+                    "Previous Close" -> {
+                        //ans.previousClose = toDouble(tj)
+                        ans.previousClose = tj
+                    }
+                    "Open" -> {
+                        //ans.open = toDouble(tj)
+                        ans.open = tj
+                    }
+                    "Bid" -> {
+                        // bid 33.30 x 0
+                        val tk = tj.substringBefore("x").trim()
+                        //ans.bid = toDouble(tk)
+                        ans.bid = tk
+                    }
+                    "Ask" -> {
+                        // ask 33.35 x 0
+                        val tk = tj.substringBefore("x").trim()
+                        //ans.ask = toDouble(tk)
+                        ans.ask = tk
+                    }
+                    "Day's Range" -> {
+                        val tk = tj.split("-")
+//                        ans.rangeLow = toDouble(tk[0])
+//                        ans.rangeHigh = toDouble(tk[1])
+                        ans.rangeLow = tk[0]
+                        ans.rangeHigh = tk[1]
+                    }
+                    "52 Week Range" -> {
+                        val tk = tj.split("-")
+//                        ans.rangeLowW52 = toDouble(tk[0])
+//                        ans.rangeHighW52 = toDouble(tk[1])
+                        ans.rangeLowW52 = tk[0]
+                        ans.rangeHighW52 = tk[1]
+                    }
+                    "Volume" -> {
+                        //ans.volume = toLong(tj)
+                        ans.volume = tj
+                    }
+                    "Avg. Volume" -> {
+                        //ans.volumeAvg = toLong(tj)
+                        ans.volumeAvg = tj
+                    }
+                    "Beta (5Y Monthly)" -> {
+                        ans.beta = tj
+                    }
+                    "PE Ratio (TTM)" -> {
+                        ans.PERatio = tj
+                    }
+                    "EPS (TTM)" -> {
+                        ans.EPS = tj
+                    }
+                }
+                str.add(ti)
+            }
+            //--
+            // fill in closing price
+            // "quote-header-info"
+            //  data-field="regularMarketPrice"
+            q1 = doc.getElementById("quote-header-info")
+            val keyR = "data-field"
+            val valR = "regularMarketPrice"
+            es = q1.getElementsByAttributeValue(keyR, valR)
+            if (log) {
+                //L.log("%s=%s : %s", keyR, valR, es)
+            }
+            if (es.size > 0) {
+                var si = es[0].text()
+                si = es[0].attr("value")
+                //ans.closingPrice = toDouble(si)
+                ans.closingPrice = si
             }
             return ans
         }

@@ -1,21 +1,35 @@
 package main.twse;
 
+import com.google.gson.Gson;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
 import main.fetcher.FetcherUtil;
 import main.fetcher.data.stock.YHDividend;
+import main.fetcher.data.stock.YHStockPrice;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.TWSEGet;
 import main.kt.YahooGet;
 import org.jsoup.nodes.Document;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// 台灣銀行
+// https://rate.bot.com.tw/twd?Lang=zh-TW
+// 台新銀行
+// https://www.taishinbank.com.tw/TSB/personal/deposit/lookup/NTD/
+// 玉山銀行
+// https://www.esunbank.com.tw/bank/personal/deposit/rate/twd/deposit-rate
+// 中國信託
+// https://www.ctbcbank.com/twrbc/twrbc-general/ot001
+// 聯邦銀行
+// https://mybank.ubot.com.tw/ubot/#/B0401001A?type=1
 public class TWSEStockFetcher {
     public static final TWSEStockFetcher me = new TWSEStockFetcher();
 
@@ -129,14 +143,17 @@ public class TWSEStockFetcher {
 
     private void parse() {
         clock.tic();
-        loadAllISINCode(); // 1 min
-        loadAllDividend(); // 12min
+        loadAllISINCode(); // < 30 second
+        loadAllDividend(); // ~70min
+        //YahooGet.me.getPrices("1907.TW"); // 永豐餘 only
+        //YahooGet.me.getPrices("2910.TW");
         clock.tac("TWSEStockFetcher parse OK");
     }
 
     private Map<Integer, TWEquityList> allTWEquity = new HashMap<>();
     private Map<Integer, List<YHDividend>> allDividend = new HashMap<>();
 
+    // Load all ISIN code and put into allTWEquity
     private void loadAllISINCode() {
         clock.tic();
         for (int i = 1; i <= 11; i++) {
@@ -147,16 +164,58 @@ public class TWSEStockFetcher {
     }
 
     private TWEquityList loadISINCode(int type) {
+        clock.tic();
         TWEquityList list = getISINCodeList(type);
-        LF lf = new LF(FOLDER, getISINFilename(type));
-        FetcherUtil.writeFileJsonPrettyPrinting(lf, list);
+        // load isin code as json
+        FetcherUtil.saveAsJson(list, FOLDER, getISINFilename(type));
+        clock.tac("getISINCodeList OK, type = %s", type);
+        // print as simple csv
+        writeISINCSV(list, type); // fast to be < 30 ms
         return list;
     }
 
+    // print as simple csv
+    private void writeISINCSV(TWEquityList list, int type) {
+        LF lf = new LF(FOLDER, String.format("isinCode/isin_e_%02d.csv", type));
+        lf.setLogToL(false);
+        lf.getFile().open(false);
+        List<TWEquityItem> li = list.list;
+        int n = li.size();
+        lf.log("part,%s", n);// format 1st line
+        for (int i = 0; i < n; i++) {
+            TWEquityItem it = li.get(i);
+            lf.log("name,%s", it.name); // format 2nd line
+            List<TWEquity> twe = it.list;
+            for (int j = 0; j < twe.size(); j++) {
+                TWEquity ej = twe.get(j);
+                lf.log(",,%s,%s", ej.code, ej.name); // format of each row
+            }
+        }
+        lf.getFile().close();
+    }
+
+    // Load all stock's dividend info, stock is defined block in stockTitle
+    // Big-Oh of time
+    // 40 tasks; dividend = 18845, avg = 471.125; prices = 35660, avg = 891.5
+    // all ~= 70 min
+    // 1757 tasks; dividend = 721198, avg = 410.4712578258395; prices = 3607870, avg = 2053.426294820717; [4329280] : loadAllDividend OK; [4334487] : TWSEStockFetcher parse OK
     private void loadAllDividend() {
-        boolean preview = false; // preview snippet
+        boolean log = 1 > 0;
+        // preview snippet count, 0 = no preview, 5 = preview 5 item for each type
+        int preview = 20 * 0;
+        //--
+        long msPrices = 0;
+        long msDividend = 0;
+        long msDt;
+
         clock.tic();
+        allDividend.clear();
+        allDividendValues.clear();
+        allPrices.clear();
         makeStockTitle();
+        Gson g = new Gson();
+        YHStockPrice head = getRemarkPrice();
+        allPrices.add(head);
         for (int i = 1; i <= 11; i++) {
             if (stockTitle.containsKey(i) == false) continue;
 
@@ -165,25 +224,59 @@ public class TWSEStockFetcher {
             allDividend.put(i, divs);
             int k = stockTitle.get(i);
             List<TWEquity> eqs = list.list.get(k).list;
-            int n = eqs.size();
-            // test
-            if (preview) {
-                n = 5;
-            }
+            int n = preview == 0 ? eqs.size() : preview;
             for (int j = 0; j < n; j++) {
                 TWEquity ei = eqs.get(j);
+                String symbol = ei.getSymbol();
+                clock.tic();
                 YHDividend div = YahooGet.me.getDividend(ei.code);
+                msDt = clock.tac("getDividend %s", ei.code);
+                msDividend += msDt;
                 div.equity = ei;
                 divs.add(div);
-                L.log("#%s = %s", j, div);
+                allDividendValues.add(div);
+
+                // -- get price values
+                clock.tic();
+                YHStockPrice price = YahooGet.me.getPrices(symbol);
+                msDt = clock.tac("getPrices %s", symbol);
+                msPrices += msDt;
+                // fill in basic values
+                price.code = ei.code;
+                price.name = ei.name;
+                if (log) {
+                    L.log("price #%s (%s) = %s", j, ei.code, g.toJson(price));
+                }
+                allPrices.add(price);
             }
-            LF dvdn = new LF(FOLDER, getDividendFilename(i));
-            FetcherUtil.writeFileJsonPrettyPrinting(dvdn, divs);
+            FetcherUtil.saveAsJson(divs, FOLDER, getDividendFilename(i));
         }
+        FetcherUtil.saveAsJson(allPrices, FOLDER, "dividend/price.json");
+        int count = allPrices.size() - 1;
+        L.log("%d tasks", count);
+        L.log("time dividend = %s, avg = %s", msDividend, 1.0 * msDividend / count);
+        L.log("time prices = %s, avg = %s", msPrices, 1.0 * msPrices / count);
         clock.tac("loadAllDividend OK");
     }
 
+    // Remark price is the head column info for this sheet
+    private YHStockPrice getRemarkPrice() {
+        String now = nowDate();
+        YHStockPrice p = new YHStockPrice();
+        p.date = now;
+        return p;
+    }
+
+    private final SimpleDateFormat yyyyMMdd = new SimpleDateFormat("yyyyMMdd");
+    private String nowDate() {
+        return yyyyMMdd.format(new Date());
+    }
+
+    private List<YHDividend> allDividendValues = new ArrayList<>();
+    private List<YHStockPrice> allPrices = new ArrayList<>();
+
     // name = "股票"
+    // (k, v) = isin_{k}.txt 's {v}'s parts has stock information
     private Map<Integer, Integer> stockTitle = new HashMap<>();
 
     private void makeStockTitle() {
@@ -264,13 +357,6 @@ public class TWSEStockFetcher {
         } catch (NumberFormatException e) {
             e.printStackTrace();
             return 0;
-        }
-    }
-
-    private void pln(TWEquityList it) {
-        L.log("TWEquityList = %s, %s items", it.version, it.list.size());
-        for (int i = 0; i < it.list.size(); i++) {
-            L.log("#%s : %s", i, it.list.get(i));
         }
     }
 }

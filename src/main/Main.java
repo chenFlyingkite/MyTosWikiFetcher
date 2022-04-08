@@ -33,6 +33,7 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
+import main.fetcher.data.stock.YHStockPrice;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
 import main.twse.TWSEStockFetcher;
@@ -48,11 +49,12 @@ import java.util.concurrent.ExecutorService;
 
 public class Main {
     public static void main(String[] args) {
+        L.log("Main, %s", now());
         //-- Main work
-        //fetch(0); // x <= 0 : run TosCardExtras
+        fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
-        stock();
+        //stock();
         //THSRTGoFetcher.main(null);
 
         //LiveAHeroMain.main(null);
@@ -78,7 +80,7 @@ public class Main {
 
 
         //TosCardInfos.me.run(); // creating evolution info
-        L.log("now = %s", now());
+        L.log("Done, %s", now());
         //new LeetCode().run();
         //PngCreator.me.moveImage();
         //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01"); // windows

@@ -7,6 +7,8 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Reader;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 public class GsonUtil {
 
@@ -19,7 +21,7 @@ public class GsonUtil {
     public static void writeFile(File file, String msg) {
         PrintWriter fos = null;
         try {
-            fos = new PrintWriter(file);
+            fos = new PrintWriter(file, StandardCharsets.UTF_8);
             fos.print(msg);
             fos.flush();
         } catch (IOException e) {

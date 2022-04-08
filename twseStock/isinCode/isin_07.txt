@@ -1,5 +1,5 @@
 {
-  "version": "2022/03/30",
+  "version": "2022/04/09",
   "list": [
     {
       "name": "",
@@ -7380,6 +7380,66 @@
           "market": "",
           "industry": "",
           "CFICode": "CIOIBU",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "ＰＧＩＭ保德信全球新供應鏈證",
+          "code": "T0847A",
+          "ISINCode": "TW000T0847A1",
+          "listedDate": "2022/03/31",
+          "market": "",
+          "industry": "",
+          "CFICode": "CIOGEU",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "ＰＧＩＭ保德信全球新供應鏈證",
+          "code": "T0847B",
+          "ISINCode": "TW000T0847B9",
+          "listedDate": "2022/03/31",
+          "market": "",
+          "industry": "",
+          "CFICode": "CIOGEU",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "ＰＧＩＭ保德信全球新供應鏈證",
+          "code": "T0847C",
+          "ISINCode": "TW000T0847C7",
+          "listedDate": "2022/03/31",
+          "market": "",
+          "industry": "",
+          "CFICode": "CIOGEU",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "ＰＧＩＭ保德信全球新供應鏈證",
+          "code": "T0847D",
+          "ISINCode": "TW000T0847D5",
+          "listedDate": "2022/03/31",
+          "market": "",
+          "industry": "",
+          "CFICode": "CIOGEU",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "ＰＧＩＭ保德信全球新供應鏈證",
+          "code": "T0847E",
+          "ISINCode": "TW000T0847E3",
+          "listedDate": "2022/03/31",
+          "market": "",
+          "industry": "",
+          "CFICode": "CIOGEU",
           "remarks": "",
           "maturityDate": "",
           "interest": ""
@@ -38189,7 +38249,7 @@
           "interest": ""
         },
         {
-          "name": "路博邁AR台灣股票基金T累積級別(新臺幣)",
+          "name": "路博邁台灣５Ｇ股票證券投資信",
           "code": "T5001A",
           "ISINCode": "TW000T5001A0",
           "listedDate": "2017/09/13",
@@ -38201,7 +38261,7 @@
           "interest": ""
         },
         {
-          "name": "路博邁AR台灣股票基金T月配級別(新臺幣)",
+          "name": "路博邁台灣５Ｇ股票證券投資信",
           "code": "T5001B",
           "ISINCode": "TW000T5001B8",
           "listedDate": "2017/09/13",
@@ -38213,10 +38273,10 @@
           "interest": ""
         },
         {
-          "name": "路博邁AR台灣股票基金I累積級別(新臺幣)",
+          "name": "路博邁台灣５Ｇ股票證券投資信",
           "code": "T5001C",
           "ISINCode": "TW000T5001C6",
-          "listedDate": "2017/12/15",
+          "listedDate": "2017/09/13",
           "market": "",
           "industry": "",
           "CFICode": "CIOGEU",
@@ -38225,10 +38285,10 @@
           "interest": ""
         },
         {
-          "name": "路博邁AR台灣股票基金I月配級別(新臺幣)",
+          "name": "路博邁台灣５Ｇ股票證券投資信",
           "code": "T5001D",
           "ISINCode": "TW000T5001D4",
-          "listedDate": "2017/12/15",
+          "listedDate": "2017/09/13",
           "market": "",
           "industry": "",
           "CFICode": "CIOIEU",
@@ -38237,10 +38297,10 @@
           "interest": ""
         },
         {
-          "name": "路博邁AR台灣股票投信基金N累積級別(新臺幣)",
+          "name": "路博邁台灣５Ｇ股票證券投資信",
           "code": "T5001E",
           "ISINCode": "TW000T5001E2",
-          "listedDate": "2019/02/01",
+          "listedDate": "2017/09/13",
           "market": "",
           "industry": "",
           "CFICode": "CIOGEU",
@@ -38249,10 +38309,10 @@
           "interest": ""
         },
         {
-          "name": "路博邁AR台灣股票投信基金N月配級別(新臺幣)",
+          "name": "路博邁台灣５Ｇ股票證券投資信",
           "code": "T5001F",
           "ISINCode": "TW000T5001F9",
-          "listedDate": "2019/02/01",
+          "listedDate": "2017/09/13",
           "market": "",
           "industry": "",
           "CFICode": "CIOIEU",

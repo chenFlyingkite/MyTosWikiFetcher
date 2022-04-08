@@ -1,5 +1,5 @@
 {
-  "version": "2022/03/30",
+  "version": "2022/04/09",
   "list": [
     {
       "name": "",
@@ -1560,6 +1560,18 @@
           "market": "",
           "industry": "",
           "CFICode": "TIEMGX",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "特選臺灣標竿PCB報酬指數",
+          "code": "IR0168",
+          "ISINCode": "TW000IR01689",
+          "listedDate": "2022/04/11",
+          "market": "",
+          "industry": "",
+          "CFICode": "TIEFGX",
           "remarks": "",
           "maturityDate": "",
           "interest": ""
@@ -3336,6 +3348,18 @@
           "market": "",
           "industry": "",
           "CFICode": "TIEMPX",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "特選臺灣標竿PCB指數",
+          "code": "IX0168",
+          "ISINCode": "TW000IX01687",
+          "listedDate": "2022/04/11",
+          "market": "",
+          "industry": "",
+          "CFICode": "TIEFPX",
           "remarks": "",
           "maturityDate": "",
           "interest": ""

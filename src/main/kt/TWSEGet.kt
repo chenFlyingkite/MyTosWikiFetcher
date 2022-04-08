@@ -128,6 +128,7 @@ open class TWSEGet {
                     eq.remarks = es[6].text()
                 }
             }
+            eq.trim()
         }
     }
 }

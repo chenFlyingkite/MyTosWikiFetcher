@@ -1,6 +1,8 @@
 package main.twse;
 
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 public class TWEquity {
     // 有價證券代號及名稱, Security Code & Security Name
@@ -39,6 +41,44 @@ public class TWEquity {
             s += String.format(Locale.US, "%s ~ %s %s", listedDate, maturityDate, interest);
         }
         return s;
+    }
+
+    private static final Map<String, String> symbol = new HashMap<>();
+
+    static {
+        symbol.put("上市", ".TW");
+        symbol.put("上櫃", ".TWO");
+        symbol.put("興櫃戰略新板", ".TWO");
+        symbol.put("興櫃一般板", ".TWO");
+    }
+
+    public String getSymbol() {
+        String val = "";
+        if (symbol.containsKey(market)) {
+            val = symbol.get(market);
+        }
+        return code + val;
+    }
+
+    public void trim() {
+        name = trim(name);
+        code = trim(code);
+        market = trim(market);
+        CFICode = trim(CFICode);
+        remarks = trim(remarks);
+        interest = trim(interest);
+        industry = trim(industry);
+        ISINCode = trim(ISINCode);
+        listedDate = trim(listedDate);
+        maturityDate = trim(maturityDate);
+    }
+
+    private String trim(String s) {
+        if (s != null) {
+            return s.trim();
+        } else {
+            return s;
+        }
     }
 
     public boolean isBond() {

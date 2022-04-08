@@ -27,6 +27,10 @@ public class LF implements Loggable, CSVTable.OnReadCSV {
         file = new FileOutput(folder + File.separator + name);
     }
 
+    public LF(FileOutput fo) {
+        file = fo;
+    }
+
     public FileOutput getFile() {
         return file;
     }

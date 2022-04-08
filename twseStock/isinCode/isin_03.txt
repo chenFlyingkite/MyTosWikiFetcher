@@ -1,5 +1,5 @@
 {
-  "version": "2022/03/30",
+  "version": "2022/04/09",
   "list": [
     {
       "name": "轉換公司債",
@@ -1709,6 +1709,18 @@
           "interest": "0.000000"
         },
         {
+          "name": "漢磊四",
+          "code": "37074",
+          "ISINCode": "TW0003707402",
+          "listedDate": "2022/04/07",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DCZSFR",
+          "remarks": "",
+          "maturityDate": "2025/04/07",
+          "interest": "0.000000"
+        },
+        {
           "name": "上緯投控一",
           "code": "37081",
           "ISINCode": "TW0003708103",
@@ -2270,18 +2282,6 @@
           "CFICode": "DCZUDR",
           "remarks": "",
           "maturityDate": "2027/03/10",
-          "interest": "0.000000"
-        },
-        {
-          "name": "康控一KY",
-          "code": "49431",
-          "ISINCode": "TW0004943105",
-          "listedDate": "2019/04/02",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DCZUDR",
-          "remarks": "",
-          "maturityDate": "2022/04/02",
           "interest": "0.000000"
         },
         {
@@ -3362,6 +3362,18 @@
           "CFICode": "DCZUDR",
           "remarks": "",
           "maturityDate": "2025/01/03",
+          "interest": "0.000000"
+        },
+        {
+          "name": "復盛應用一",
+          "code": "66701",
+          "ISINCode": "TW0006670102",
+          "listedDate": "2022/04/11",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DCZUGR",
+          "remarks": "",
+          "maturityDate": "2025/04/11",
           "interest": "0.000000"
         },
         {
@@ -7270,6 +7282,30 @@
           "interest": "0.700000"
         },
         {
+          "name": "P11台達電1",
+          "code": "B6A301",
+          "ISINCode": "TW000B6A3010",
+          "listedDate": "2022/04/07",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBFUFR",
+          "remarks": "",
+          "maturityDate": "2027/04/07",
+          "interest": "0.850000"
+        },
+        {
+          "name": "P11台達電2",
+          "code": "B6A302",
+          "ISINCode": "TW000B6A3028",
+          "listedDate": "2022/04/07",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBFUFR",
+          "remarks": "",
+          "maturityDate": "2029/04/07",
+          "interest": "0.900000"
+        },
+        {
           "name": "01台化2C",
           "code": "B702AA",
           "ISINCode": "TW000B702AA8",
@@ -8482,16 +8518,16 @@
           "interest": "0.570000"
         },
         {
-          "name": "P06太設1",
-          "code": "B85203",
-          "ISINCode": "TW000B852037",
-          "listedDate": "2017/04/07",
+          "name": "P11潤隆1",
+          "code": "B85109",
+          "ISINCode": "TW000B851096",
+          "listedDate": "2022/04/11",
           "market": "上櫃",
           "industry": "",
-          "CFICode": "DBFGFR",
+          "CFICode": "DBFSFR",
           "remarks": "",
-          "maturityDate": "2022/04/07",
-          "interest": "1.150000"
+          "maturityDate": "2027/04/11",
+          "interest": "0.850000"
         },
         {
           "name": "P10太設1",
@@ -8504,6 +8540,18 @@
           "remarks": "",
           "maturityDate": "2026/06/04",
           "interest": "0.630000"
+        },
+        {
+          "name": "P11太設1",
+          "code": "B85205",
+          "ISINCode": "TW000B852052",
+          "listedDate": "2022/04/01",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBFSFR",
+          "remarks": "",
+          "maturityDate": "2027/04/01",
+          "interest": "0.850000"
         },
         {
           "name": "P06達麗1",
@@ -9536,18 +9584,6 @@
           "remarks": "",
           "maturityDate": "2024/12/15",
           "interest": "2.020000"
-        },
-        {
-          "name": "P04台電1B",
-          "code": "B903W5",
-          "ISINCode": "TW000B903W55",
-          "listedDate": "2015/03/30",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBFUFR",
-          "remarks": "",
-          "maturityDate": "2022/03/30",
-          "interest": "1.700000"
         },
         {
           "name": "P04台電2B",
@@ -11854,18 +11890,6 @@
           "interest": "0.750000"
         },
         {
-          "name": "P06新金1",
-          "code": "B95923",
-          "ISINCode": "TW000B959238",
-          "listedDate": "2017/04/05",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBFUFR",
-          "remarks": "",
-          "maturityDate": "2022/04/05",
-          "interest": "1.250000"
-        },
-        {
           "name": "P09新金1",
           "code": "B95924",
           "ISINCode": "TW000B959246",
@@ -12140,18 +12164,6 @@
           "remarks": "",
           "maturityDate": "2025/10/23",
           "interest": "0.970000"
-        },
-        {
-          "name": "P04富邦金1B",
-          "code": "B97838",
-          "ISINCode": "TW000B978386",
-          "listedDate": "2015/03/30",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBFUFR",
-          "remarks": "",
-          "maturityDate": "2022/03/30",
-          "interest": "1.650000"
         },
         {
           "name": "P04富邦金4",
@@ -12992,18 +13004,6 @@
           "remarks": "",
           "maturityDate": "2023/10/26",
           "interest": "0.850000"
-        },
-        {
-          "name": "P08國統1",
-          "code": "B9A401",
-          "ISINCode": "TW000B9A4015",
-          "listedDate": "2019/04/02",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBFGFR",
-          "remarks": "",
-          "maturityDate": "2022/04/02",
-          "interest": "0.780000"
         },
         {
           "name": "P11國統1",
@@ -19285,6 +19285,18 @@
           "interest": "浮動利率"
         },
         {
+          "name": "P22BACR5",
+          "code": "F03235",
+          "ISINCode": "XS2358027592",
+          "listedDate": "2022/04/06",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBFUGB",
+          "remarks": "",
+          "maturityDate": "2025/04/06",
+          "interest": "4.000000"
+        },
+        {
           "name": "P14CSAG1",
           "code": "F03301",
           "ISINCode": "XS1093395041",
@@ -22237,6 +22249,18 @@
           "interest": "0.000000"
         },
         {
+          "name": "P22RBCLB2",
+          "code": "F05822",
+          "ISINCode": "XS1192971767",
+          "listedDate": "2022/04/08",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBZUGB",
+          "remarks": "",
+          "maturityDate": "2052/04/08",
+          "interest": "0.000000"
+        },
+        {
           "name": "P15HKT1",
           "code": "F05901",
           "ISINCode": "XS1164774082",
@@ -23749,18 +23773,6 @@
           "interest": "0.000000"
         },
         {
-          "name": "P17MUFGB2",
-          "code": "F09805",
-          "ISINCode": "XS1588744661",
-          "listedDate": "2017/04/07",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBZUGB",
-          "remarks": "",
-          "maturityDate": "2047/04/07",
-          "interest": "0.000000"
-        },
-        {
           "name": "P17MUFGB3",
           "code": "F09806",
           "ISINCode": "XS1631313589",
@@ -24262,6 +24274,18 @@
           "CFICode": "DBZUGB",
           "remarks": "",
           "maturityDate": "2062/01/25",
+          "interest": "0.000000"
+        },
+        {
+          "name": "P22BNS3",
+          "code": "F09930",
+          "ISINCode": "XS2457268725",
+          "listedDate": "2022/04/07",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBZUGB",
+          "remarks": "",
+          "maturityDate": "2062/04/07",
           "interest": "0.000000"
         },
         {
@@ -25294,18 +25318,6 @@
           "CFICode": "DBZGGB",
           "remarks": "",
           "maturityDate": "2047/02/07",
-          "interest": "0.000000"
-        },
-        {
-          "name": "P17ADCB2",
-          "code": "F11602",
-          "ISINCode": "XS1583060931",
-          "listedDate": "2017/04/05",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBZGGB",
-          "remarks": "",
-          "maturityDate": "2047/04/05",
           "interest": "0.000000"
         },
         {
@@ -26866,6 +26878,18 @@
           "CFICode": "DBVGFR",
           "remarks": "",
           "maturityDate": "2037/03/16",
+          "interest": "浮動利率"
+        },
+        {
+          "name": "P22MSF9",
+          "code": "F13764",
+          "ISINCode": "XS2175198881",
+          "listedDate": "2022/04/07",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBVGFR",
+          "remarks": "",
+          "maturityDate": "2037/04/07",
           "interest": "浮動利率"
         },
         {
@@ -29970,6 +29994,18 @@
           "interest": "2.000000"
         },
         {
+          "name": "P11永豐銀2",
+          "code": "G110AZ",
+          "ISINCode": "TW000G110AZ6",
+          "listedDate": "2022/04/08",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBFUFR",
+          "remarks": "",
+          "maturityDate": "2027/04/08",
+          "interest": "0.780000"
+        },
+        {
           "name": "97中信銀1",
           "code": "G11439",
           "ISINCode": "TW000G114391",
@@ -30448,18 +30484,6 @@
           "remarks": "",
           "maturityDate": "無到期日",
           "interest": "5.500000"
-        },
-        {
-          "name": "04元大銀4",
-          "code": "G12028",
-          "ISINCode": "TW000G120281",
-          "listedDate": "2015/03/30",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBFUFR",
-          "remarks": "",
-          "maturityDate": "2022/03/30",
-          "interest": "2.080000"
         },
         {
           "name": "99台企銀3A",
@@ -33508,6 +33532,23 @@
           "remarks": "",
           "maturityDate": "無到期日",
           "interest": "2.450000"
+        }
+      ]
+    },
+    {
+      "name": "交換公司債",
+      "list": [
+        {
+          "name": "台新金E1",
+          "code": "288701",
+          "ISINCode": "TW0002887015",
+          "listedDate": "2022/04/01",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DCZUGR",
+          "remarks": "",
+          "maturityDate": "2025/04/01",
+          "interest": "0.000000"
         }
       ]
     }

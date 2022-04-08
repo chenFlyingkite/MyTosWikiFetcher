@@ -133,7 +133,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.51,
+    "recentReturn": 5.5,
     "years": [
       {
         "year": "2020",
@@ -193,7 +193,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.28,
+    "recentReturn": 5.27,
     "years": [
       {
         "year": "2021",
@@ -253,7 +253,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.02,
+    "recentReturn": 3.01,
     "years": [
       {
         "year": "2021",
@@ -313,7 +313,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.7,
+    "recentReturn": 4.69,
     "years": [
       {
         "year": "2021",
@@ -373,7 +373,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.6,
+    "recentReturn": 0.61,
     "years": [
       {
         "year": "2021",
@@ -553,7 +553,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.58,
+    "recentReturn": 5.57,
     "years": [
       {
         "year": "2021",
@@ -793,7 +793,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.04,
+    "recentReturn": 0.06,
     "years": [
       {
         "year": "2021",
@@ -853,7 +853,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.74,
+    "recentReturn": 3.73,
     "years": [
       {
         "year": "2021",
@@ -1153,7 +1153,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.21,
+    "recentReturn": 6.2,
     "years": [
       {
         "year": "2021",
@@ -1213,7 +1213,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.62,
+    "recentReturn": 4.61,
     "years": [
       {
         "year": "2021",
@@ -1453,7 +1453,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.97,
+    "recentReturn": 6.0,
     "years": [
       {
         "year": "2021",
@@ -1633,7 +1633,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.36,
+    "recentReturn": 4.4,
     "years": [
       {
         "year": "2021",
@@ -1693,7 +1693,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.64,
+    "recentReturn": 4.68,
     "years": [
       {
         "year": "2021",
@@ -1753,7 +1753,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.29,
+    "recentReturn": 3.31,
     "years": [
       {
         "year": "2021",
@@ -1933,7 +1933,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.35,
+    "recentReturn": 4.39,
     "years": [
       {
         "year": "2021",
@@ -1993,7 +1993,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.39,
+    "recentReturn": 4.38,
     "years": [
       {
         "year": "2021",
@@ -2053,7 +2053,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.8,
+    "recentReturn": 5.78,
     "years": [
       {
         "year": "2021",
@@ -2113,7 +2113,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.31,
+    "recentReturn": 1.36,
     "years": [
       {
         "year": "2021",
@@ -2233,7 +2233,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.92,
+    "recentReturn": 2.94,
     "years": [
       {
         "year": "2021",
@@ -2473,7 +2473,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.02,
+    "recentReturn": 1.01,
     "years": [
       {
         "year": "2021",
@@ -2593,7 +2593,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.8,
+    "recentReturn": 2.79,
     "years": [
       {
         "year": "2021",
@@ -2653,7 +2653,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 9.57,
+    "recentReturn": 9.36,
     "years": [
       {
         "year": "2021",
@@ -2713,7 +2713,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.97,
+    "recentReturn": 5.0,
     "years": [
       {
         "year": "2021",
@@ -2833,7 +2833,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.83,
+    "recentReturn": 5.82,
     "years": [
       {
         "year": "2021",
@@ -3055,7 +3055,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 4.2,
+    "recentReturn": 4.21,
     "years": [
       {
         "year": "2021",
@@ -3175,7 +3175,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.24,
+    "recentReturn": 5.25,
     "years": [
       {
         "year": "2021",
@@ -3235,7 +3235,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.89,
+    "recentReturn": 3.9,
     "years": [
       {
         "year": "2021",
@@ -3655,7 +3655,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.33,
+    "recentReturn": 3.3,
     "years": [
       {
         "year": "2021",
@@ -3895,7 +3895,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.49,
+    "recentReturn": 6.51,
     "years": [
       {
         "year": "2021",
@@ -3955,7 +3955,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.58,
+    "recentReturn": 3.59,
     "years": [
       {
         "year": "2021",
@@ -4075,7 +4075,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.43,
+    "recentReturn": 4.44,
     "years": [
       {
         "year": "2021",
@@ -4135,7 +4135,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.27,
+    "recentReturn": 2.28,
     "years": [
       {
         "year": "2021",
@@ -4255,7 +4255,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.84,
+    "recentReturn": 5.87,
     "years": [
       {
         "year": "2021",
@@ -4735,7 +4735,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.81,
+    "recentReturn": 5.84,
     "years": [
       {
         "year": "2021",
@@ -4795,7 +4795,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.1,
+    "recentReturn": 3.11,
     "years": [
       {
         "year": "2021",
@@ -4855,7 +4855,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.36,
+    "recentReturn": 2.39,
     "years": [
       {
         "year": "2021",
@@ -4915,7 +4915,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.24,
+    "recentReturn": 2.25,
     "years": [
       {
         "year": "2021",
@@ -4975,7 +4975,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.1,
+    "recentReturn": 0.15,
     "years": [
       {
         "year": "2021",
@@ -5035,7 +5035,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.55,
+    "recentReturn": 6.53,
     "years": [
       {
         "year": "2021",
@@ -5095,7 +5095,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.32,
+    "recentReturn": 0.35,
     "years": [
       {
         "year": "2021",
@@ -5215,7 +5215,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 8.15,
+    "recentReturn": 8.16,
     "years": [
       {
         "year": "2021",
@@ -5395,7 +5395,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.07,
+    "recentReturn": 0.16,
     "years": [
       {
         "year": "2021",
@@ -5575,7 +5575,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.76,
+    "recentReturn": 2.78,
     "years": [
       {
         "year": "2021",
@@ -5755,7 +5755,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.04,
+    "recentReturn": 2.03,
     "years": [
       {
         "year": "2021",
@@ -5815,7 +5815,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.0,
+    "recentReturn": 3.01,
     "years": [
       {
         "year": "2021",
@@ -5935,7 +5935,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.55,
+    "recentReturn": 2.56,
     "years": [
       {
         "year": "2021",
@@ -5995,7 +5995,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.7,
+    "recentReturn": 3.71,
     "years": [
       {
         "year": "2021",
@@ -6115,7 +6115,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.74,
+    "recentReturn": 3.75,
     "years": [
       {
         "year": "2021",
@@ -6415,7 +6415,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.77,
+    "recentReturn": 4.76,
     "years": [
       {
         "year": "2021",
@@ -6475,7 +6475,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.15,
+    "recentReturn": 4.14,
     "years": [
       {
         "year": "2021",
@@ -6535,7 +6535,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.93,
+    "recentReturn": 2.95,
     "years": [
       {
         "year": "2021",
@@ -6595,7 +6595,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.88,
+    "recentReturn": 1.89,
     "years": [
       {
         "year": "2021",
@@ -6655,7 +6655,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.48,
+    "recentReturn": 2.47,
     "years": [
       {
         "year": "2021",
@@ -6715,7 +6715,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.58,
+    "recentReturn": 5.56,
     "years": [
       {
         "year": "2021",
@@ -6775,7 +6775,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.71,
+    "recentReturn": 4.7,
     "years": [
       {
         "year": "2021",
@@ -6955,7 +6955,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.18,
+    "recentReturn": 3.2,
     "years": [
       {
         "year": "2021",
@@ -7138,6 +7138,12 @@
     "recentReturn": 1.78,
     "years": [
       {
+        "year": "2021",
+        "cash": "0.2",
+        "stock": "0.4",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "0.5",
         "stock": "0",
@@ -7172,12 +7178,6 @@
         "cash": "-",
         "stock": "-",
         "exDividendDate": "-"
-      },
-      {
-        "year": "2014",
-        "cash": "-",
-        "stock": "-",
-        "exDividendDate": "-"
       }
     ]
   },
@@ -7195,7 +7195,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.81,
+    "recentReturn": 5.79,
     "years": [
       {
         "year": "2021",
@@ -7255,7 +7255,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.51,
+    "recentReturn": 2.53,
     "years": [
       {
         "year": "2021",
@@ -7315,7 +7315,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.61,
+    "recentReturn": 4.64,
     "years": [
       {
         "year": "2021",
@@ -7435,7 +7435,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.5,
+    "recentReturn": 3.52,
     "years": [
       {
         "year": "2021",
@@ -7555,7 +7555,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.79,
+    "recentReturn": 6.77,
     "years": [
       {
         "year": "2021",
@@ -7675,7 +7675,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.18,
+    "recentReturn": 4.2,
     "years": [
       {
         "year": "2021",
@@ -7735,7 +7735,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.02,
+    "recentReturn": 5.01,
     "years": [
       {
         "year": "2021",
@@ -7915,7 +7915,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.42,
+    "recentReturn": 4.41,
     "years": [
       {
         "year": "2020",
@@ -8095,7 +8095,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.75,
+    "recentReturn": 4.74,
     "years": [
       {
         "year": "2021",
@@ -8155,7 +8155,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.11,
+    "recentReturn": 4.07,
     "years": [
       {
         "year": "2021",
@@ -8215,7 +8215,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.74,
+    "recentReturn": 1.73,
     "years": [
       {
         "year": "2021",
@@ -8275,7 +8275,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.24,
+    "recentReturn": 1.25,
     "years": [
       {
         "year": "2021",
@@ -8335,7 +8335,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.02,
+    "recentReturn": 2.03,
     "years": [
       {
         "year": "2021",
@@ -8575,7 +8575,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.77,
+    "recentReturn": 4.8,
     "years": [
       {
         "year": "2021",
@@ -8635,7 +8635,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.28,
+    "recentReturn": 4.31,
     "years": [
       {
         "year": "2021",
@@ -8695,7 +8695,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.28,
+    "recentReturn": 3.27,
     "years": [
       {
         "year": "2020",
@@ -8755,7 +8755,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.0,
+    "recentReturn": 5.02,
     "years": [
       {
         "year": "2021",
@@ -8935,7 +8935,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.01,
+    "recentReturn": 7.0,
     "years": [
       {
         "year": "2020",
@@ -9055,7 +9055,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.29,
+    "recentReturn": 4.33,
     "years": [
       {
         "year": "2021",
@@ -9415,7 +9415,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.89,
+    "recentReturn": 4.87,
     "years": [
       {
         "year": "2021",
@@ -9475,7 +9475,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.43,
+    "recentReturn": 5.45,
     "years": [
       {
         "year": "2021",
@@ -9535,7 +9535,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.3,
+    "recentReturn": 3.32,
     "years": [
       {
         "year": "2021",
@@ -9595,7 +9595,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.17,
+    "recentReturn": 2.18,
     "years": [
       {
         "year": "2021",
@@ -9655,7 +9655,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.81,
+    "recentReturn": 5.82,
     "years": [
       {
         "year": "2021",
@@ -9715,7 +9715,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.03,
+    "recentReturn": 3.04,
     "years": [
       {
         "year": "2021",
@@ -9775,7 +9775,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.65,
+    "recentReturn": 3.64,
     "years": [
       {
         "year": "2021",
@@ -9955,7 +9955,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.42,
+    "recentReturn": 4.43,
     "years": [
       {
         "year": "2021",
@@ -10075,7 +10075,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.24,
+    "recentReturn": 4.25,
     "years": [
       {
         "year": "2021",
@@ -10135,7 +10135,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.51,
+    "recentReturn": 3.52,
     "years": [
       {
         "year": "2021",
@@ -10195,7 +10195,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.88,
+    "recentReturn": 4.89,
     "years": [
       {
         "year": "2021",
@@ -10315,7 +10315,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.48,
+    "recentReturn": 2.49,
     "years": [
       {
         "year": "2021",
@@ -10375,7 +10375,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.2,
+    "recentReturn": 5.19,
     "years": [
       {
         "year": "2021",
@@ -10435,7 +10435,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.41,
+    "recentReturn": 4.42,
     "years": [
       {
         "year": "2021",
@@ -10495,7 +10495,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.53,
+    "recentReturn": 0.52,
     "years": [
       {
         "year": "2021",
@@ -11095,7 +11095,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.78,
+    "recentReturn": 5.8,
     "years": [
       {
         "year": "2021",
@@ -11323,7 +11323,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.13,
+    "recentReturn": 0.14,
     "years": [
       {
         "year": "2020",
@@ -11383,7 +11383,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.07,
+    "recentReturn": 2.12,
     "years": [
       {
         "year": "2021",
@@ -11503,7 +11503,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.11,
+    "recentReturn": 0.16,
     "years": [
       {
         "year": "2021",
@@ -11563,7 +11563,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.61,
+    "recentReturn": 5.66,
     "years": [
       {
         "year": "2021",
@@ -11623,7 +11623,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.66,
+    "recentReturn": 1.67,
     "years": [
       {
         "year": "2021",
@@ -11923,7 +11923,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.13,
+    "recentReturn": 2.14,
     "years": [
       {
         "year": "2021",
@@ -11983,7 +11983,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.48,
+    "recentReturn": 3.49,
     "years": [
       {
         "year": "2021",
@@ -12103,7 +12103,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.85,
+    "recentReturn": 3.86,
     "years": [
       {
         "year": "2021",
@@ -12163,7 +12163,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.58,
+    "recentReturn": 2.62,
     "years": [
       {
         "year": "2021",
@@ -12223,7 +12223,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.58,
+    "recentReturn": 4.63,
     "years": [
       {
         "year": "2021",
@@ -12403,7 +12403,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.62,
+    "recentReturn": 0.63,
     "years": [
       {
         "year": "2021",
@@ -12463,7 +12463,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.78,
+    "recentReturn": 3.82,
     "years": [
       {
         "year": "2021",
@@ -12643,7 +12643,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.62,
+    "recentReturn": 0.65,
     "years": [
       {
         "year": "2021",
@@ -12703,7 +12703,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.44,
+    "recentReturn": 5.45,
     "years": [
       {
         "year": "2021",
@@ -12763,7 +12763,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.94,
+    "recentReturn": 4.0,
     "years": [
       {
         "year": "2021",
@@ -13003,7 +13003,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.82,
+    "recentReturn": 3.84,
     "years": [
       {
         "year": "2021",
@@ -13123,7 +13123,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.97,
+    "recentReturn": 3.99,
     "years": [
       {
         "year": "2021",
@@ -13183,7 +13183,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.08,
+    "recentReturn": 0.14,
     "years": [
       {
         "year": "2021",
@@ -13243,7 +13243,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.96,
+    "recentReturn": 3.0,
     "years": [
       {
         "year": "2021",
@@ -13303,7 +13303,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.7,
+    "recentReturn": 4.73,
     "years": [
       {
         "year": "2021",
@@ -13363,7 +13363,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.11,
+    "recentReturn": 4.14,
     "years": [
       {
         "year": "2021",
@@ -13423,7 +13423,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.13,
+    "recentReturn": 2.15,
     "years": [
       {
         "year": "2021",
@@ -13543,7 +13543,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.93,
+    "recentReturn": 5.92,
     "years": [
       {
         "year": "2021",
@@ -13603,7 +13603,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.96,
+    "recentReturn": 0.99,
     "years": [
       {
         "year": "2021",
@@ -13663,7 +13663,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.32,
+    "recentReturn": 1.33,
     "years": [
       {
         "year": "2021",
@@ -13723,7 +13723,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.0,
+    "recentReturn": 2.01,
     "years": [
       {
         "year": "2021",
@@ -13783,7 +13783,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.68,
+    "recentReturn": 0.69,
     "years": [
       {
         "year": "2021",
@@ -14023,7 +14023,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.53,
+    "recentReturn": 2.6,
     "years": [
       {
         "year": "2021",
@@ -14263,7 +14263,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.9,
+    "recentReturn": 4.89,
     "years": [
       {
         "year": "2021",
@@ -14323,7 +14323,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.04,
+    "recentReturn": 5.08,
     "years": [
       {
         "year": "2021",
@@ -14443,7 +14443,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.58,
+    "recentReturn": 5.57,
     "years": [
       {
         "year": "2020",
@@ -14503,7 +14503,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.2,
+    "recentReturn": 5.19,
     "years": [
       {
         "year": "2021",
@@ -14563,7 +14563,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.4,
+    "recentReturn": 2.41,
     "years": [
       {
         "year": "2021",
@@ -14623,7 +14623,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.87,
+    "recentReturn": 6.85,
     "years": [
       {
         "year": "2021",
@@ -14863,7 +14863,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 3.87,
+    "recentReturn": 3.89,
     "years": [
       {
         "year": "2021",
@@ -14983,7 +14983,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.19,
+    "recentReturn": 4.21,
     "years": [
       {
         "year": "2021",
@@ -15043,7 +15043,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.56,
+    "recentReturn": 2.57,
     "years": [
       {
         "year": "2021",
@@ -15223,7 +15223,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.1,
+    "recentReturn": 3.11,
     "years": [
       {
         "year": "2021",
@@ -15283,7 +15283,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 1.34,
+    "recentReturn": 1.35,
     "years": [
       {
         "year": "2020",
@@ -15397,7 +15397,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 4.38,
+    "recentReturn": 4.39,
     "years": [
       {
         "year": "2021",
@@ -15601,7 +15601,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.64,
+    "recentReturn": 3.71,
     "years": [
       {
         "year": "2021",
@@ -15961,7 +15961,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.7,
+    "recentReturn": 2.68,
     "years": [
       {
         "year": "2021",
@@ -16021,7 +16021,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.07,
+    "recentReturn": 4.08,
     "years": [
       {
         "year": "2021",
@@ -16141,7 +16141,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.8,
+    "recentReturn": 2.77,
     "years": [
       {
         "year": "2021",
@@ -16201,7 +16201,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.38,
+    "recentReturn": 6.39,
     "years": [
       {
         "year": "2021",
@@ -16621,7 +16621,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.5,
+    "recentReturn": 3.51,
     "years": [
       {
         "year": "2021",
@@ -16681,7 +16681,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.83,
+    "recentReturn": 1.84,
     "years": [
       {
         "year": "2021",
@@ -16861,7 +16861,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.97,
+    "recentReturn": 2.94,
     "years": [
       {
         "year": "2021",
@@ -16981,7 +16981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.39,
+    "recentReturn": 5.41,
     "years": [
       {
         "year": "2021",
@@ -17041,7 +17041,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.07,
+    "recentReturn": 7.08,
     "years": [
       {
         "year": "2021",
@@ -17221,7 +17221,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.92,
+    "recentReturn": 4.94,
     "years": [
       {
         "year": "2021",
@@ -17281,7 +17281,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.2,
+    "recentReturn": 4.21,
     "years": [
       {
         "year": "2021",
@@ -17461,7 +17461,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.62,
+    "recentReturn": 6.61,
     "years": [
       {
         "year": "2021",
@@ -17521,7 +17521,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.64,
+    "recentReturn": 6.67,
     "years": [
       {
         "year": "2021",
@@ -17581,7 +17581,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.44,
+    "recentReturn": 0.45,
     "years": [
       {
         "year": "2021",
@@ -17701,7 +17701,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.55,
+    "recentReturn": 2.56,
     "years": [
       {
         "year": "2021",
@@ -17761,7 +17761,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.32,
+    "recentReturn": 2.37,
     "years": [
       {
         "year": "2021",
@@ -17821,7 +17821,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.18,
+    "recentReturn": 5.19,
     "years": [
       {
         "year": "2021",
@@ -17881,7 +17881,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.06,
+    "recentReturn": 0.1,
     "years": [
       {
         "year": "2021",
@@ -17941,7 +17941,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.87,
+    "recentReturn": 2.86,
     "years": [
       {
         "year": "2021",
@@ -18061,7 +18061,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.76,
+    "recentReturn": 0.77,
     "years": [
       {
         "year": "2021",
@@ -18121,7 +18121,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.71,
+    "recentReturn": 1.76,
     "years": [
       {
         "year": "2021",
@@ -18241,7 +18241,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.51,
+    "recentReturn": 6.5,
     "years": [
       {
         "year": "2021",
@@ -18361,7 +18361,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.65,
+    "recentReturn": 3.66,
     "years": [
       {
         "year": "2021",
@@ -18421,7 +18421,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.06,
+    "recentReturn": 5.12,
     "years": [
       {
         "year": "2021",
@@ -18481,7 +18481,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.59,
+    "recentReturn": 4.63,
     "years": [
       {
         "year": "2021",
@@ -18541,7 +18541,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.23,
+    "recentReturn": 3.24,
     "years": [
       {
         "year": "2020",
@@ -18661,7 +18661,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.82,
+    "recentReturn": 5.84,
     "years": [
       {
         "year": "2021",
@@ -18721,7 +18721,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.89,
+    "recentReturn": 3.9,
     "years": [
       {
         "year": "2021",
@@ -18781,7 +18781,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.19,
+    "recentReturn": 6.2,
     "years": [
       {
         "year": "2021",
@@ -18841,7 +18841,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.31,
+    "recentReturn": 3.34,
     "years": [
       {
         "year": "2021",
@@ -18961,7 +18961,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.12,
+    "recentReturn": 0.16,
     "years": [
       {
         "year": "2021",
@@ -19021,7 +19021,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.75,
+    "recentReturn": 5.74,
     "years": [
       {
         "year": "2021",
@@ -19081,7 +19081,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.45,
+    "recentReturn": 5.47,
     "years": [
       {
         "year": "2021",
@@ -19201,7 +19201,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.15,
+    "recentReturn": 6.16,
     "years": [
       {
         "year": "2021",
@@ -19321,7 +19321,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.77,
+    "recentReturn": 2.81,
     "years": [
       {
         "year": "2021",
@@ -19441,7 +19441,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.83,
+    "recentReturn": 7.81,
     "years": [
       {
         "year": "2021",
@@ -19621,7 +19621,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.37,
+    "recentReturn": 4.41,
     "years": [
       {
         "year": "2021",
@@ -19681,7 +19681,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.55,
+    "recentReturn": 4.58,
     "years": [
       {
         "year": "2021",
@@ -19861,7 +19861,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.14,
+    "recentReturn": 6.15,
     "years": [
       {
         "year": "2021",
@@ -19921,7 +19921,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.56,
+    "recentReturn": 3.59,
     "years": [
       {
         "year": "2021",
@@ -19981,7 +19981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.68,
+    "recentReturn": 2.64,
     "years": [
       {
         "year": "2021",
@@ -20041,7 +20041,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.73,
+    "recentReturn": 4.71,
     "years": [
       {
         "year": "2021",
@@ -20161,7 +20161,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.09,
+    "recentReturn": 5.08,
     "years": [
       {
         "year": "2021",
@@ -20341,7 +20341,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.92,
+    "recentReturn": 1.93,
     "years": [
       {
         "year": "2020",
@@ -20401,7 +20401,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.03,
+    "recentReturn": 4.04,
     "years": [
       {
         "year": "2021",
@@ -20641,7 +20641,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.25,
+    "recentReturn": 5.3,
     "years": [
       {
         "year": "2021",
@@ -20701,7 +20701,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.21,
+    "recentReturn": 1.22,
     "years": [
       {
         "year": "2021",
@@ -20761,7 +20761,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.26,
+    "recentReturn": 7.25,
     "years": [
       {
         "year": "2021",
@@ -20881,8 +20881,14 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.97,
+    "recentReturn": 2.98,
     "years": [
+      {
+        "year": "2021",
+        "cash": "3",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
       {
         "year": "2020",
         "cash": "1.6",
@@ -20918,12 +20924,6 @@
         "cash": "0.5",
         "stock": "0",
         "exDividendDate": "2016/07/13"
-      },
-      {
-        "year": "2014",
-        "cash": "0.9",
-        "stock": "0",
-        "exDividendDate": "2015/08/10"
       }
     ]
   },
@@ -21001,7 +21001,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.57,
+    "recentReturn": 6.56,
     "years": [
       {
         "year": "2021",
@@ -21121,7 +21121,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.1,
+    "recentReturn": 5.13,
     "years": [
       {
         "year": "2021",
@@ -21181,7 +21181,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.37,
+    "recentReturn": 4.39,
     "years": [
       {
         "year": "2021",
@@ -21364,6 +21364,12 @@
     "recentReturn": 5.29,
     "years": [
       {
+        "year": "2021",
+        "cash": "3",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "2",
         "stock": "0",
@@ -21398,12 +21404,6 @@
         "cash": "1.2",
         "stock": "0",
         "exDividendDate": "2016/08/12"
-      },
-      {
-        "year": "2014",
-        "cash": "1.8",
-        "stock": "0",
-        "exDividendDate": "2015/07/15"
       }
     ]
   },
@@ -21421,7 +21421,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.32,
+    "recentReturn": 5.34,
     "years": [
       {
         "year": "2021",
@@ -21481,7 +21481,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.23,
+    "recentReturn": 6.32,
     "years": [
       {
         "year": "2021",
@@ -21541,7 +21541,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.14,
+    "recentReturn": 5.15,
     "years": [
       {
         "year": "2021",
@@ -21601,7 +21601,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.06,
+    "recentReturn": 3.09,
     "years": [
       {
         "year": "2021",
@@ -21661,7 +21661,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.56,
+    "recentReturn": 2.58,
     "years": [
       {
         "year": "2021",
@@ -21781,7 +21781,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.18,
+    "recentReturn": 5.21,
     "years": [
       {
         "year": "2021",
@@ -21841,7 +21841,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.85,
+    "recentReturn": 6.86,
     "years": [
       {
         "year": "2021",
@@ -22021,7 +22021,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.91,
+    "recentReturn": 1.9,
     "years": [
       {
         "year": "2021",
@@ -22081,7 +22081,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.39,
+    "recentReturn": 5.4,
     "years": [
       {
         "year": "2021",
@@ -22141,7 +22141,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.04,
+    "recentReturn": 0.06,
     "years": [
       {
         "year": "2021",
@@ -22261,7 +22261,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.56,
+    "recentReturn": 6.57,
     "years": [
       {
         "year": "2021",
@@ -22381,7 +22381,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.43,
+    "recentReturn": 6.45,
     "years": [
       {
         "year": "2021",
@@ -22441,7 +22441,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.37,
+    "recentReturn": 4.38,
     "years": [
       {
         "year": "2021",
@@ -22504,6 +22504,12 @@
     "recentReturn": 5.64,
     "years": [
       {
+        "year": "2021",
+        "cash": "10",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "12",
         "stock": "0",
@@ -22538,12 +22544,6 @@
         "cash": "10",
         "stock": "0",
         "exDividendDate": "2016/09/08"
-      },
-      {
-        "year": "2014",
-        "cash": "6",
-        "stock": "0",
-        "exDividendDate": "2015/08/20"
       }
     ]
   },
@@ -22561,7 +22561,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.71,
+    "recentReturn": 4.73,
     "years": [
       {
         "year": "2021",
@@ -22621,7 +22621,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.88,
+    "recentReturn": 4.87,
     "years": [
       {
         "year": "2021",
@@ -22741,7 +22741,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.19,
+    "recentReturn": 6.2,
     "years": [
       {
         "year": "2021",
@@ -22801,7 +22801,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.83,
+    "recentReturn": 1.84,
     "years": [
       {
         "year": "2021",
@@ -22921,7 +22921,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.93,
+    "recentReturn": 4.94,
     "years": [
       {
         "year": "2021",
@@ -22981,7 +22981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.73,
+    "recentReturn": 4.75,
     "years": [
       {
         "year": "2021",
@@ -23101,7 +23101,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.01,
+    "recentReturn": 0.02,
     "years": [
       {
         "year": "2021",
@@ -23161,7 +23161,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.54,
+    "recentReturn": 6.53,
     "years": [
       {
         "year": "2021",
@@ -23221,7 +23221,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.35,
+    "recentReturn": 1.41,
     "years": [
       {
         "year": "2021",
@@ -23281,7 +23281,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.66,
+    "recentReturn": 0.65,
     "years": [
       {
         "year": "2021",
@@ -23521,7 +23521,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.96,
+    "recentReturn": 6.0,
     "years": [
       {
         "year": "2021",
@@ -23761,7 +23761,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.04,
+    "recentReturn": 4.05,
     "years": [
       {
         "year": "2021",
@@ -23881,7 +23881,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.12,
+    "recentReturn": 2.09,
     "years": [
       {
         "year": "2021",
@@ -23941,7 +23941,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.07,
+    "recentReturn": 6.08,
     "years": [
       {
         "year": "2020",
@@ -24121,7 +24121,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.58,
+    "recentReturn": 2.6,
     "years": [
       {
         "year": "2021",
@@ -24241,7 +24241,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.54,
+    "recentReturn": 5.51,
     "years": [
       {
         "year": "2021",
@@ -24361,7 +24361,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.48,
+    "recentReturn": 5.55,
     "years": [
       {
         "year": "2021",
@@ -24421,7 +24421,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.03,
+    "recentReturn": 0.05,
     "years": [
       {
         "year": "2021H2",
@@ -24721,7 +24721,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.43,
+    "recentReturn": 2.47,
     "years": [
       {
         "year": "2021",
@@ -24841,7 +24841,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.54,
+    "recentReturn": 6.53,
     "years": [
       {
         "year": "2021",
@@ -24901,7 +24901,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.54,
+    "recentReturn": 0.58,
     "years": [
       {
         "year": "2021",
@@ -24964,6 +24964,12 @@
     "recentReturn": 6.84,
     "years": [
       {
+        "year": "2021",
+        "cash": "4.16",
+        "stock": "1.04",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "2",
         "stock": "0",
@@ -24998,12 +25004,6 @@
         "cash": "3.5",
         "stock": "0",
         "exDividendDate": "2018/09/07"
-      },
-      {
-        "year": "2016",
-        "cash": "5",
-        "stock": "0",
-        "exDividendDate": "2017/09/11"
       }
     ]
   },
@@ -25081,7 +25081,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.49,
+    "recentReturn": 7.5,
     "years": [
       {
         "year": "2021",
@@ -25201,7 +25201,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.72,
+    "recentReturn": 4.7,
     "years": [
       {
         "year": "2021",
@@ -25321,7 +25321,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.4,
+    "recentReturn": 7.35,
     "years": [
       {
         "year": "2020",
@@ -25441,7 +25441,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.25,
+    "recentReturn": 2.36,
     "years": [
       {
         "year": "2021",
@@ -25501,7 +25501,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.81,
+    "recentReturn": 2.82,
     "years": [
       {
         "year": "2021",
@@ -25561,7 +25561,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.96,
+    "recentReturn": 3.98,
     "years": [
       {
         "year": "2021",
@@ -25741,7 +25741,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.23,
+    "recentReturn": 0.38,
     "years": [
       {
         "year": "2021",
@@ -25801,7 +25801,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.08,
+    "recentReturn": 1.11,
     "years": [
       {
         "year": "2021",
@@ -25861,7 +25861,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.84,
+    "recentReturn": 1.92,
     "years": [
       {
         "year": "2021",
@@ -25921,7 +25921,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.01,
+    "recentReturn": 3.03,
     "years": [
       {
         "year": "2021",
@@ -25981,7 +25981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.58,
+    "recentReturn": 1.61,
     "years": [
       {
         "year": "2021",
@@ -26041,7 +26041,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.02,
+    "recentReturn": 4.03,
     "years": [
       {
         "year": "2021",
@@ -26101,7 +26101,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.61,
+    "recentReturn": 2.65,
     "years": [
       {
         "year": "2021",
@@ -26281,7 +26281,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.76,
+    "recentReturn": 2.77,
     "years": [
       {
         "year": "2021",
@@ -26341,7 +26341,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.92,
+    "recentReturn": 2.93,
     "years": [
       {
         "year": "2021",
@@ -26401,7 +26401,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.29,
+    "recentReturn": 3.28,
     "years": [
       {
         "year": "2021",
@@ -26521,7 +26521,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.85,
+    "recentReturn": 4.9,
     "years": [
       {
         "year": "2021",
@@ -26581,7 +26581,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.78,
+    "recentReturn": 3.82,
     "years": [
       {
         "year": "2021",
@@ -26701,7 +26701,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.02,
+    "recentReturn": 3.01,
     "years": [
       {
         "year": "2021",
@@ -26761,7 +26761,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.01,
+    "recentReturn": 2.12,
     "years": [
       {
         "year": "2021",
@@ -27001,7 +27001,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.13,
+    "recentReturn": 5.16,
     "years": [
       {
         "year": "2021",
@@ -27121,7 +27121,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.48,
+    "recentReturn": 1.47,
     "years": [
       {
         "year": "2021",
@@ -27181,7 +27181,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.01,
+    "recentReturn": 3.02,
     "years": [
       {
         "year": "2021",
@@ -27421,7 +27421,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.06,
+    "recentReturn": 4.05,
     "years": [
       {
         "year": "2021",
@@ -27541,7 +27541,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.86,
+    "recentReturn": 3.87,
     "years": [
       {
         "year": "2021",
@@ -27601,7 +27601,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.45,
+    "recentReturn": 4.46,
     "years": [
       {
         "year": "2021",
@@ -27841,7 +27841,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.05,
+    "recentReturn": 5.04,
     "years": [
       {
         "year": "2021",
@@ -27964,6 +27964,12 @@
     "recentReturn": 3.94,
     "years": [
       {
+        "year": "2021",
+        "cash": "0.4",
+        "stock": "0.3",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "0.3",
         "stock": "0.3",
@@ -27998,12 +28004,6 @@
         "cash": "0.03",
         "stock": "0.52",
         "exDividendDate": "2016/08/24"
-      },
-      {
-        "year": "2014",
-        "cash": "0.03",
-        "stock": "0.47",
-        "exDividendDate": "2015/08/12"
       }
     ]
   },
@@ -28021,7 +28021,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.15,
+    "recentReturn": 6.16,
     "years": [
       {
         "year": "2021",
@@ -28261,7 +28261,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.15,
+    "recentReturn": 5.17,
     "years": [
       {
         "year": "2021",
@@ -28321,7 +28321,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.25,
+    "recentReturn": 5.26,
     "years": [
       {
         "year": "2021",
@@ -28381,7 +28381,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.09,
+    "recentReturn": 4.15,
     "years": [
       {
         "year": "2021",
@@ -28801,7 +28801,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.27,
+    "recentReturn": 5.26,
     "years": [
       {
         "year": "2021",
@@ -28861,7 +28861,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.72,
+    "recentReturn": 4.73,
     "years": [
       {
         "year": "2021",
@@ -28921,7 +28921,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.22,
+    "recentReturn": 5.21,
     "years": [
       {
         "year": "2020",
@@ -28981,7 +28981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.91,
+    "recentReturn": 5.9,
     "years": [
       {
         "year": "2020",
@@ -29161,7 +29161,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.49,
+    "recentReturn": 5.5,
     "years": [
       {
         "year": "2021",
@@ -29281,7 +29281,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.03,
+    "recentReturn": 5.02,
     "years": [
       {
         "year": "2020",
@@ -29341,7 +29341,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.18,
+    "recentReturn": 3.19,
     "years": [
       {
         "year": "2021",
@@ -29401,7 +29401,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.3,
+    "recentReturn": 1.29,
     "years": [
       {
         "year": "2021",
@@ -29461,7 +29461,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.6,
+    "recentReturn": 4.59,
     "years": [
       {
         "year": "2021",
@@ -29521,7 +29521,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.83,
+    "recentReturn": 6.79,
     "years": [
       {
         "year": "2021",
@@ -29701,7 +29701,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.79,
+    "recentReturn": 4.8,
     "years": [
       {
         "year": "2021",
@@ -30001,7 +30001,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.03,
+    "recentReturn": 6.05,
     "years": [
       {
         "year": "2020",
@@ -30511,7 +30511,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.32,
+    "recentReturn": 6.33,
     "years": [
       {
         "year": "2021",
@@ -30571,7 +30571,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.3,
+    "recentReturn": 3.35,
     "years": [
       {
         "year": "2021",
@@ -30631,7 +30631,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.63,
+    "recentReturn": 2.62,
     "years": [
       {
         "year": "2021H2",
@@ -30691,7 +30691,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.32,
+    "recentReturn": 5.34,
     "years": [
       {
         "year": "2021",
@@ -30871,7 +30871,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.2,
+    "recentReturn": 6.23,
     "years": [
       {
         "year": "2021",
@@ -30931,7 +30931,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.4,
+    "recentReturn": 6.41,
     "years": [
       {
         "year": "2021",
@@ -30991,7 +30991,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.8,
+    "recentReturn": 0.81,
     "years": [
       {
         "year": "2021",
@@ -31051,7 +31051,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.29,
+    "recentReturn": 3.3,
     "years": [
       {
         "year": "2021",
@@ -31171,7 +31171,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.04,
+    "recentReturn": 2.07,
     "years": [
       {
         "year": "2021",
@@ -31231,7 +31231,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.89,
+    "recentReturn": 3.88,
     "years": [
       {
         "year": "2021",
@@ -31291,7 +31291,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.49,
+    "recentReturn": 3.52,
     "years": [
       {
         "year": "2021",
@@ -31411,7 +31411,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.61,
+    "recentReturn": 1.63,
     "years": [
       {
         "year": "2021",
@@ -31471,7 +31471,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.36,
+    "recentReturn": 2.32,
     "years": [
       {
         "year": "2021",
@@ -31651,7 +31651,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.67,
+    "recentReturn": 6.7,
     "years": [
       {
         "year": "2021",
@@ -31711,7 +31711,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.93,
+    "recentReturn": 5.94,
     "years": [
       {
         "year": "2021",
@@ -31771,7 +31771,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.03,
+    "recentReturn": 6.02,
     "years": [
       {
         "year": "2021",
@@ -31831,7 +31831,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.74,
+    "recentReturn": 4.76,
     "years": [
       {
         "year": "2021",
@@ -31891,7 +31891,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.71,
+    "recentReturn": 7.68,
     "years": [
       {
         "year": "2021",
@@ -31951,7 +31951,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.7,
+    "recentReturn": 5.73,
     "years": [
       {
         "year": "2021",
@@ -32134,6 +32134,12 @@
     "recentReturn": 5.38,
     "years": [
       {
+        "year": "2021",
+        "cash": "5.5",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "3.2",
         "stock": "0",
@@ -32168,12 +32174,6 @@
         "cash": "2.9",
         "stock": "0.5",
         "exDividendDate": "2016/08/04"
-      },
-      {
-        "year": "2014",
-        "cash": "3",
-        "stock": "1",
-        "exDividendDate": "2015/07/31"
       }
     ]
   },
@@ -32191,7 +32191,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.66,
+    "recentReturn": 1.67,
     "years": [
       {
         "year": "2021",
@@ -32311,7 +32311,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 12.15,
+    "recentReturn": 12.05,
     "years": [
       {
         "year": "2021",
@@ -32431,7 +32431,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.84,
+    "recentReturn": 4.89,
     "years": [
       {
         "year": "2021",
@@ -32791,7 +32791,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.39,
+    "recentReturn": 6.38,
     "years": [
       {
         "year": "2021",
@@ -33031,7 +33031,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.45,
+    "recentReturn": 5.42,
     "years": [
       {
         "year": "2021",
@@ -33211,7 +33211,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 9.01,
+    "recentReturn": 8.94,
     "years": [
       {
         "year": "2021",
@@ -33331,7 +33331,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.69,
+    "recentReturn": 1.7,
     "years": [
       {
         "year": "2020",
@@ -33451,7 +33451,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.2,
+    "recentReturn": 1.24,
     "years": [
       {
         "year": "2021",
@@ -33571,7 +33571,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.33,
+    "recentReturn": 7.34,
     "years": [
       {
         "year": "2021",
@@ -33751,7 +33751,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.16,
+    "recentReturn": 5.17,
     "years": [
       {
         "year": "2021",
@@ -33811,7 +33811,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 0.81,
+    "recentReturn": 0.82,
     "years": [
       {
         "year": "2020",
@@ -33931,7 +33931,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.93,
+    "recentReturn": 2.95,
     "years": [
       {
         "year": "2021",
@@ -33991,7 +33991,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.45,
+    "recentReturn": 5.47,
     "years": [
       {
         "year": "2021",
@@ -34051,7 +34051,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.01,
+    "recentReturn": 2.03,
     "years": [
       {
         "year": "2021",
@@ -34111,7 +34111,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.58,
+    "recentReturn": 6.6,
     "years": [
       {
         "year": "2021",
@@ -34291,7 +34291,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.37,
+    "recentReturn": 4.38,
     "years": [
       {
         "year": "2021",
@@ -34471,7 +34471,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.89,
+    "recentReturn": 3.91,
     "years": [
       {
         "year": "2021",
@@ -34771,7 +34771,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.67,
+    "recentReturn": 2.66,
     "years": [
       {
         "year": "2021",
@@ -34831,7 +34831,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.74,
+    "recentReturn": 2.76,
     "years": [
       {
         "year": "2021",
@@ -34951,7 +34951,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.46,
+    "recentReturn": 4.47,
     "years": [
       {
         "year": "2020",
@@ -35011,7 +35011,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.69,
+    "recentReturn": 3.68,
     "years": [
       {
         "year": "2021",
@@ -35251,7 +35251,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.94,
+    "recentReturn": 4.95,
     "years": [
       {
         "year": "2021",
@@ -35371,7 +35371,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.19,
+    "recentReturn": 4.2,
     "years": [
       {
         "year": "2021",
@@ -35551,7 +35551,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.61,
+    "recentReturn": 3.62,
     "years": [
       {
         "year": "2021",
@@ -35791,7 +35791,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.05,
+    "recentReturn": 6.04,
     "years": [
       {
         "year": "2021",
@@ -35911,7 +35911,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.55,
+    "recentReturn": 4.57,
     "years": [
       {
         "year": "2021",
@@ -35971,7 +35971,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.23,
+    "recentReturn": 0.27,
     "years": [
       {
         "year": "2021",
@@ -36031,7 +36031,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.43,
+    "recentReturn": 6.44,
     "years": [
       {
         "year": "2021",
@@ -36091,7 +36091,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.23,
+    "recentReturn": 2.24,
     "years": [
       {
         "year": "2021",
@@ -36151,7 +36151,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.83,
+    "recentReturn": 2.84,
     "years": [
       {
         "year": "2021",
@@ -36211,7 +36211,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.56,
+    "recentReturn": 2.57,
     "years": [
       {
         "year": "2021",
@@ -36271,7 +36271,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.85,
+    "recentReturn": 0.86,
     "years": [
       {
         "year": "2021",
@@ -36391,7 +36391,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 4.29,
+    "recentReturn": 4.31,
     "years": [
       {
         "year": "2021",
@@ -36451,7 +36451,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.83,
+    "recentReturn": 1.84,
     "years": [
       {
         "year": "2020",
@@ -36511,7 +36511,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.04,
+    "recentReturn": 5.05,
     "years": [
       {
         "year": "2021",
@@ -36751,7 +36751,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.14,
+    "recentReturn": 3.15,
     "years": [
       {
         "year": "2021",
@@ -36931,7 +36931,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 2.02,
+    "recentReturn": 2.41,
     "years": [
       {
         "year": "2021",
@@ -37051,7 +37051,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.93,
+    "recentReturn": 4.94,
     "years": [
       {
         "year": "2021",
@@ -37111,7 +37111,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.06,
+    "recentReturn": 2.08,
     "years": [
       {
         "year": "2021",
@@ -37351,7 +37351,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.79,
+    "recentReturn": 2.78,
     "years": [
       {
         "year": "2021",
@@ -37471,7 +37471,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.9,
+    "recentReturn": 0.91,
     "years": [
       {
         "year": "2021",
@@ -37591,7 +37591,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.19,
+    "recentReturn": 4.17,
     "years": [
       {
         "year": "2021",
@@ -37955,33 +37955,33 @@
     "years": [
       {
         "year": "怡利電 2497.TW",
-        "cash": "104.00",
-        "stock": "3.002.80%",
-        "exDividendDate": "9,766"
+        "cash": "103.50",
+        "stock": "3.503.50%",
+        "exDividendDate": "10,886"
       },
       {
-        "year": "系統電 5309.TWO",
-        "cash": "41.50",
-        "stock": "1.202.81%",
-        "exDividendDate": "40,271"
+        "year": "昇達科 3491.TWO",
+        "cash": "191.50",
+        "stock": "6.003.23%",
+        "exDividendDate": "9,726"
       },
       {
-        "year": "建達 6118.TWO",
-        "cash": "31.60",
-        "stock": "1.254.12%",
-        "exDividendDate": "5,563"
-      },
-      {
-        "year": "強茂 2481.TW",
-        "cash": "100.50",
-        "stock": "1.501.47%",
-        "exDividendDate": "16,728"
+        "year": "昇貿 3305.TW",
+        "cash": "78.30",
+        "stock": "1.702.22%",
+        "exDividendDate": "8,464"
       },
       {
         "year": "笙泉 3122.TWO",
-        "cash": "66.80",
-        "stock": "2.103.05%",
-        "exDividendDate": "16,347"
+        "cash": "61.50",
+        "stock": "0.500.81%",
+        "exDividendDate": "4,196"
+      },
+      {
+        "year": "合晶 6182.TWO",
+        "cash": "68.00",
+        "stock": "0.000.00%",
+        "exDividendDate": "6,964"
       }
     ]
   },
@@ -38179,7 +38179,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.82,
+    "recentReturn": 4.81,
     "years": [
       {
         "year": "2021",
@@ -38239,7 +38239,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.92,
+    "recentReturn": 6.96,
     "years": [
       {
         "year": "2021",
@@ -38299,7 +38299,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.73,
+    "recentReturn": 3.71,
     "years": [
       {
         "year": "2021",
@@ -38401,7 +38401,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.49,
+    "recentReturn": 4.5,
     "years": [
       {
         "year": "2021",
@@ -38443,7 +38443,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 0.1,
+    "recentReturn": 0.17,
     "years": [
       {
         "year": "2021Q4",
@@ -38591,33 +38591,33 @@
     "years": [
       {
         "year": "台積電 2330.TW",
-        "cash": "589.00",
-        "stock": "8.001.34%",
-        "exDividendDate": "29,679"
+        "cash": "567.00",
+        "stock": "1.000.18%",
+        "exDividendDate": "27,971"
       },
       {
-        "year": "聯發科 2454.TW",
-        "cash": "900.00",
-        "stock": "5.000.55%",
-        "exDividendDate": "9,220"
+        "year": "雃博 4106.TW",
+        "cash": "29.10",
+        "stock": "0.100.34%",
+        "exDividendDate": "2,256"
       },
       {
-        "year": "聯電 2303.TW",
-        "cash": "52.90",
-        "stock": "1.102.04%",
-        "exDividendDate": "83,800"
+        "year": "杏國 4192.TWO",
+        "cash": "40.15",
+        "stock": "3.6510.00%",
+        "exDividendDate": "243"
       },
       {
-        "year": "鴻海 2317.TW",
-        "cash": "104.50",
-        "stock": "1.501.42%",
-        "exDividendDate": "23,286"
+        "year": "杏輝 1734.TW",
+        "cash": "29.75",
+        "stock": "1.003.48%",
+        "exDividendDate": "6,678"
       },
       {
-        "year": "元大台灣50 0050.TW",
-        "cash": "137.00",
-        "stock": "1.200.83%",
-        "exDividendDate": "7,683"
+        "year": "亞諾法 4133.TW",
+        "cash": "63.90",
+        "stock": "5.809.98%",
+        "exDividendDate": "64,547"
       }
     ]
   },
@@ -38695,7 +38695,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.49,
+    "recentReturn": 1.48,
     "years": [
       {
         "year": "2021",
@@ -38755,7 +38755,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.67,
+    "recentReturn": 4.69,
     "years": [
       {
         "year": "2021",
@@ -38888,7 +38888,7 @@
   {
     "equity": {
       "name": "全宇生技-KY",
-      "code": "4148 ",
+      "code": "4148",
       "ISINCode": "KYG0232P1072",
       "listedDate": "2017/06/08",
       "market": "上市",
@@ -38898,9 +38898,52 @@
       "maturityDate": "",
       "interest": ""
     },
-    "recentYear": 0,
-    "recentReturn": 0.0,
-    "years": []
+    "recentYear": 5,
+    "recentReturn": 3.26,
+    "years": [
+      {
+        "year": "2021",
+        "cash": "1.5",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
+      {
+        "year": "2020H2",
+        "cash": "1",
+        "stock": "0",
+        "exDividendDate": "2021/07/06"
+      },
+      {
+        "year": "2019",
+        "cash": "1",
+        "stock": "0",
+        "exDividendDate": "2020/07/02"
+      },
+      {
+        "year": "2018",
+        "cash": "2.4",
+        "stock": "0",
+        "exDividendDate": "2019/07/04"
+      },
+      {
+        "year": "2017",
+        "cash": "2.65",
+        "stock": "0",
+        "exDividendDate": "2018/06/28"
+      },
+      {
+        "year": "2016",
+        "cash": "2.15",
+        "stock": "0",
+        "exDividendDate": "2017/05/15"
+      },
+      {
+        "year": "2015",
+        "cash": "1",
+        "stock": "0",
+        "exDividendDate": "2016/06/01"
+      }
+    ]
   },
   {
     "equity": {
@@ -38916,7 +38959,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.94,
+    "recentReturn": 5.92,
     "years": [
       {
         "year": "2021",
@@ -38976,7 +39019,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.62,
+    "recentReturn": 4.57,
     "years": [
       {
         "year": "2021",
@@ -39036,7 +39079,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.63,
+    "recentReturn": 3.65,
     "years": [
       {
         "year": "2021",
@@ -39096,7 +39139,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.81,
+    "recentReturn": 4.8,
     "years": [
       {
         "year": "2021",
@@ -39276,7 +39319,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.02,
+    "recentReturn": 4.03,
     "years": [
       {
         "year": "2021",
@@ -39372,7 +39415,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 7.35,
+    "recentReturn": 7.36,
     "years": [
       {
         "year": "2021",
@@ -39426,7 +39469,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.98,
+    "recentReturn": 1.0,
     "years": [
       {
         "year": "2021",
@@ -39546,7 +39589,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.84,
+    "recentReturn": 3.85,
     "years": [
       {
         "year": "2021",
@@ -39606,7 +39649,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.6,
+    "recentReturn": 2.62,
     "years": [
       {
         "year": "2021",
@@ -39666,7 +39709,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.79,
+    "recentReturn": 1.8,
     "years": [
       {
         "year": "2021",
@@ -39726,7 +39769,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.82,
+    "recentReturn": 2.83,
     "years": [
       {
         "year": "2021",
@@ -39846,7 +39889,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.96,
+    "recentReturn": 2.97,
     "years": [
       {
         "year": "2021",
@@ -39906,7 +39949,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.55,
+    "recentReturn": 6.56,
     "years": [
       {
         "year": "2021",
@@ -39966,7 +40009,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.28,
+    "recentReturn": 5.31,
     "years": [
       {
         "year": "2021",
@@ -40140,7 +40183,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.69,
+    "recentReturn": 3.7,
     "years": [
       {
         "year": "2021",
@@ -40194,7 +40237,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 3.18,
+    "recentReturn": 3.2,
     "years": [
       {
         "year": "2021",
@@ -40374,7 +40417,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 6.37,
+    "recentReturn": 6.34,
     "years": [
       {
         "year": "2021",
@@ -40410,7 +40453,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.21,
+    "recentReturn": 2.2,
     "years": [
       {
         "year": "2021",
@@ -40470,7 +40513,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.98,
+    "recentReturn": 5.99,
     "years": [
       {
         "year": "2021",
@@ -40590,7 +40633,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.33,
+    "recentReturn": 2.35,
     "years": [
       {
         "year": "2021",
@@ -40650,7 +40693,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.41,
+    "recentReturn": 1.43,
     "years": [
       {
         "year": "2021",
@@ -40710,7 +40753,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.4,
+    "recentReturn": 4.41,
     "years": [
       {
         "year": "2021",
@@ -40890,7 +40933,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.34,
+    "recentReturn": 4.33,
     "years": [
       {
         "year": "2021",
@@ -40950,7 +40993,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 1.7,
+    "recentReturn": 1.74,
     "years": [
       {
         "year": "2021",
@@ -41010,7 +41053,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.27,
+    "recentReturn": 5.29,
     "years": [
       {
         "year": "2021",
@@ -41124,7 +41167,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.9,
+    "recentReturn": 3.88,
     "years": [
       {
         "year": "2021",
@@ -41364,7 +41407,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.06,
+    "recentReturn": 3.08,
     "years": [
       {
         "year": "2021",
@@ -41484,7 +41527,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.85,
+    "recentReturn": 5.88,
     "years": [
       {
         "year": "2021",
@@ -41604,7 +41647,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.98,
+    "recentReturn": 3.93,
     "years": [
       {
         "year": "2020",
@@ -41724,7 +41767,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.63,
+    "recentReturn": 5.64,
     "years": [
       {
         "year": "2021",
@@ -41844,7 +41887,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.93,
+    "recentReturn": 5.96,
     "years": [
       {
         "year": "2021",
@@ -41904,7 +41947,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.69,
+    "recentReturn": 0.7,
     "years": [
       {
         "year": "2021",
@@ -42024,7 +42067,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.06,
+    "recentReturn": 0.1,
     "years": [
       {
         "year": "2021",
@@ -42144,7 +42187,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 3.67,
+    "recentReturn": 3.68,
     "years": [
       {
         "year": "2020",
@@ -42204,7 +42247,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.18,
+    "recentReturn": 2.17,
     "years": [
       {
         "year": "2021",
@@ -42426,7 +42469,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.27,
+    "recentReturn": 2.24,
     "years": [
       {
         "year": "2021",
@@ -42486,7 +42529,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.74,
+    "recentReturn": 6.72,
     "years": [
       {
         "year": "2021",
@@ -42546,7 +42589,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.59,
+    "recentReturn": 4.61,
     "years": [
       {
         "year": "2021",
@@ -42666,7 +42709,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.48,
+    "recentReturn": 6.46,
     "years": [
       {
         "year": "2021",
@@ -42726,7 +42769,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 2.8,
+    "recentReturn": 2.77,
     "years": [
       {
         "year": "2021",
@@ -42768,7 +42811,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.89,
+    "recentReturn": 1.92,
     "years": [
       {
         "year": "2021",
@@ -42828,7 +42871,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.18,
+    "recentReturn": 5.19,
     "years": [
       {
         "year": "2021",
@@ -42948,7 +42991,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 4.76,
+    "recentReturn": 4.9,
     "years": [
       {
         "year": "2021",
@@ -43212,7 +43255,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.01,
+    "recentReturn": 4.03,
     "years": [
       {
         "year": "2021",
@@ -43512,7 +43555,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.0,
+    "recentReturn": 4.01,
     "years": [
       {
         "year": "2020",
@@ -43572,7 +43615,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.47,
+    "recentReturn": 5.48,
     "years": [
       {
         "year": "2021",
@@ -43692,7 +43735,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.09,
+    "recentReturn": 5.1,
     "years": [
       {
         "year": "2021",
@@ -43932,7 +43975,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.65,
+    "recentReturn": 5.64,
     "years": [
       {
         "year": "2021",
@@ -44052,7 +44095,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.74,
+    "recentReturn": 3.76,
     "years": [
       {
         "year": "2021",
@@ -44172,7 +44215,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.9,
+    "recentReturn": 4.92,
     "years": [
       {
         "year": "2021",
@@ -44232,7 +44275,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 7.71,
+    "recentReturn": 7.69,
     "years": [
       {
         "year": "2021",
@@ -44280,7 +44323,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.22,
+    "recentReturn": 2.23,
     "years": [
       {
         "year": "2021",
@@ -44340,7 +44383,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.0,
+    "recentReturn": 0.09,
     "years": [
       {
         "year": "2021",
@@ -44400,7 +44443,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.15,
+    "recentReturn": 4.17,
     "years": [
       {
         "year": "2021",
@@ -44640,7 +44683,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.99,
+    "recentReturn": 1.01,
     "years": [
       {
         "year": "2021",
@@ -44763,6 +44806,12 @@
     "recentReturn": 6.6,
     "years": [
       {
+        "year": "2021",
+        "cash": "1.65",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "1.1",
         "stock": "0",
@@ -44797,12 +44846,6 @@
         "cash": "0.49",
         "stock": "0",
         "exDividendDate": "2016/08/11"
-      },
-      {
-        "year": "2014",
-        "cash": "0.6",
-        "stock": "0",
-        "exDividendDate": "2015/08/13"
       }
     ]
   },
@@ -44820,7 +44863,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.46,
+    "recentReturn": 6.43,
     "years": [
       {
         "year": "2021",
@@ -44880,7 +44923,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.67,
+    "recentReturn": 5.7,
     "years": [
       {
         "year": "2021",
@@ -45060,7 +45103,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.67,
+    "recentReturn": 3.71,
     "years": [
       {
         "year": "2021",
@@ -45240,7 +45283,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.96,
+    "recentReturn": 4.98,
     "years": [
       {
         "year": "2021",
@@ -45360,7 +45403,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.36,
+    "recentReturn": 7.37,
     "years": [
       {
         "year": "2021",
@@ -45420,7 +45463,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.51,
+    "recentReturn": 4.52,
     "years": [
       {
         "year": "2021",
@@ -45480,7 +45523,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.7,
+    "recentReturn": 1.71,
     "years": [
       {
         "year": "2021",
@@ -45720,7 +45763,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.38,
+    "recentReturn": 3.39,
     "years": [
       {
         "year": "2021",
@@ -45900,7 +45943,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.42,
+    "recentReturn": 2.41,
     "years": [
       {
         "year": "2021",
@@ -45960,7 +46003,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.27,
+    "recentReturn": 4.3,
     "years": [
       {
         "year": "2021",
@@ -46083,6 +46126,12 @@
     "recentReturn": 7.02,
     "years": [
       {
+        "year": "2021",
+        "cash": "8",
+        "stock": "0",
+        "exDividendDate": "尚未公布"
+      },
+      {
         "year": "2020",
         "cash": "8",
         "stock": "0",
@@ -46117,12 +46166,6 @@
         "cash": "4.5",
         "stock": "0",
         "exDividendDate": "2016/07/20"
-      },
-      {
-        "year": "2014",
-        "cash": "5.5",
-        "stock": "0",
-        "exDividendDate": "2015/07/22"
       }
     ]
   },
@@ -46320,7 +46363,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.84,
+    "recentReturn": 6.86,
     "years": [
       {
         "year": "2021",
@@ -46440,7 +46483,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.72,
+    "recentReturn": 4.73,
     "years": [
       {
         "year": "2021",
@@ -46680,7 +46723,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.45,
+    "recentReturn": 5.48,
     "years": [
       {
         "year": "2021",
@@ -46740,7 +46783,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.19,
+    "recentReturn": 4.2,
     "years": [
       {
         "year": "2021",
@@ -46800,7 +46843,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.22,
+    "recentReturn": 6.23,
     "years": [
       {
         "year": "2021",
@@ -46860,7 +46903,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.15,
+    "recentReturn": 0.16,
     "years": [
       {
         "year": "2021",
@@ -47040,7 +47083,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.79,
+    "recentReturn": 2.84,
     "years": [
       {
         "year": "2021",
@@ -47160,7 +47203,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.85,
+    "recentReturn": 4.86,
     "years": [
       {
         "year": "2021",
@@ -47280,7 +47323,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.84,
+    "recentReturn": 1.85,
     "years": [
       {
         "year": "2021",
@@ -47400,7 +47443,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.68,
+    "recentReturn": 2.65,
     "years": [
       {
         "year": "2021",
@@ -47460,7 +47503,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.22,
+    "recentReturn": 5.24,
     "years": [
       {
         "year": "2021",
@@ -47520,7 +47563,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.03,
+    "recentReturn": 0.05,
     "years": [
       {
         "year": "2021",
@@ -47580,7 +47623,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.68,
+    "recentReturn": 0.69,
     "years": [
       {
         "year": "2021",
@@ -47640,7 +47683,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.44,
+    "recentReturn": 5.46,
     "years": [
       {
         "year": "2021",
@@ -47760,7 +47803,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.5,
+    "recentReturn": 3.51,
     "years": [
       {
         "year": "2021",
@@ -47880,7 +47923,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.81,
+    "recentReturn": 2.83,
     "years": [
       {
         "year": "2021",
@@ -48120,7 +48163,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.13,
+    "recentReturn": 4.12,
     "years": [
       {
         "year": "2021",
@@ -48180,7 +48223,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.46,
+    "recentReturn": 2.45,
     "years": [
       {
         "year": "2021",
@@ -48420,7 +48463,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.07,
+    "recentReturn": 5.08,
     "years": [
       {
         "year": "2021",
@@ -48480,7 +48523,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.59,
+    "recentReturn": 2.61,
     "years": [
       {
         "year": "2021",
@@ -48540,7 +48583,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.63,
+    "recentReturn": 0.64,
     "years": [
       {
         "year": "2021",
@@ -48600,7 +48643,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.34,
+    "recentReturn": 3.33,
     "years": [
       {
         "year": "2021",
@@ -48660,7 +48703,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.49,
+    "recentReturn": 2.48,
     "years": [
       {
         "year": "2021",
@@ -48780,7 +48823,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.14,
+    "recentReturn": 4.16,
     "years": [
       {
         "year": "2021",
@@ -48903,34 +48946,34 @@
     "recentReturn": 0.0,
     "years": [
       {
+        "year": "聯合再生 3576.TW",
+        "cash": "23.60",
+        "stock": "0.903.96%",
+        "exDividendDate": "16,485"
+      },
+      {
         "year": "安集 6477.TW",
-        "cash": "61.50",
-        "stock": "0.000.00%",
-        "exDividendDate": "6,134"
+        "cash": "61.60",
+        "stock": "2.203.70%",
+        "exDividendDate": "10,767"
       },
       {
         "year": "茂迪 6244.TWO",
-        "cash": "33.35",
-        "stock": "0.050.15%",
-        "exDividendDate": "1,739"
-      },
-      {
-        "year": "聯合再生 3576.TW",
-        "cash": "22.95",
-        "stock": "0.050.22%",
-        "exDividendDate": "5,533"
+        "cash": "34.15",
+        "stock": "1.153.48%",
+        "exDividendDate": "5,840"
       },
       {
         "year": "國碩 2406.TW",
-        "cash": "25.55",
-        "stock": "0.100.39%",
-        "exDividendDate": "3,176"
+        "cash": "25.25",
+        "stock": "0.552.23%",
+        "exDividendDate": "4,009"
       },
       {
-        "year": "中興電 1513.TW",
-        "cash": "54.00",
-        "stock": "0.701.28%",
-        "exDividendDate": "13,084"
+        "year": "東科-KY 5225.TW",
+        "cash": "24.40",
+        "stock": "1.406.09%",
+        "exDividendDate": "1,079"
       }
     ]
   },
@@ -49008,7 +49051,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.01,
+    "recentReturn": 3.02,
     "years": [
       {
         "year": "2020",
@@ -49068,7 +49111,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.19,
+    "recentReturn": 4.2,
     "years": [
       {
         "year": "2021",
@@ -49188,7 +49231,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.48,
+    "recentReturn": 2.47,
     "years": [
       {
         "year": "2021",
@@ -49248,7 +49291,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 1.1,
+    "recentReturn": 1.11,
     "years": [
       {
         "year": "2021",
@@ -49302,7 +49345,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.23,
+    "recentReturn": 5.16,
     "years": [
       {
         "year": "2021",
@@ -49362,7 +49405,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.15,
+    "recentReturn": 3.18,
     "years": [
       {
         "year": "2021",
@@ -49422,7 +49465,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 3.7,
+    "recentReturn": 3.68,
     "years": [
       {
         "year": "2021",
@@ -49482,7 +49525,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.76,
+    "recentReturn": 5.77,
     "years": [
       {
         "year": "2021",
@@ -49542,7 +49585,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.33,
+    "recentReturn": 1.35,
     "years": [
       {
         "year": "2021",
@@ -49602,7 +49645,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 0.23,
+    "recentReturn": 0.24,
     "years": [
       {
         "year": "2021",
@@ -49722,7 +49765,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.31,
+    "recentReturn": 2.32,
     "years": [
       {
         "year": "2021",
@@ -49938,7 +49981,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.46,
+    "recentReturn": 4.48,
     "years": [
       {
         "year": "2021",
@@ -49998,7 +50041,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.71,
+    "recentReturn": 5.76,
     "years": [
       {
         "year": "2021",
@@ -50058,7 +50101,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.72,
+    "recentReturn": 3.74,
     "years": [
       {
         "year": "2021",
@@ -50232,7 +50275,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.08,
+    "recentReturn": 3.1,
     "years": [
       {
         "year": "2021",
@@ -50454,7 +50497,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.12,
+    "recentReturn": 4.11,
     "years": [
       {
         "year": "2021",
@@ -50736,7 +50779,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 4.07,
+    "recentReturn": 4.11,
     "years": [
       {
         "year": "2021H2",
@@ -50790,7 +50833,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.46,
+    "recentReturn": 4.47,
     "years": [
       {
         "year": "2021",
@@ -50850,7 +50893,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 5.6,
+    "recentReturn": 5.61,
     "years": [
       {
         "year": "2021",
@@ -50958,7 +51001,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 2.83,
+    "recentReturn": 2.86,
     "years": [
       {
         "year": "2021",
@@ -51060,7 +51103,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 0.28,
+    "recentReturn": 0.34,
     "years": [
       {
         "year": "2021",
@@ -51174,7 +51217,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 6.58,
+    "recentReturn": 6.6,
     "years": [
       {
         "year": "2021",
@@ -51216,7 +51259,7 @@
       "interest": ""
     },
     "recentYear": 3,
-    "recentReturn": 1.2,
+    "recentReturn": 1.22,
     "years": [
       {
         "year": "2021",
@@ -51252,7 +51295,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 4.41,
+    "recentReturn": 4.42,
     "years": [
       {
         "year": "2021",
@@ -51342,7 +51385,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 4.88,
+    "recentReturn": 4.94,
     "years": [
       {
         "year": "2021",
@@ -51402,7 +51445,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 0.36,
+    "recentReturn": 0.38,
     "years": [
       {
         "year": "2021",
@@ -51432,7 +51475,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 8.08,
+    "recentReturn": 8.04,
     "years": [
       {
         "year": "2021",
@@ -51492,7 +51535,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 2.12,
+    "recentReturn": 2.17,
     "years": [
       {
         "year": "2021",
@@ -51552,7 +51595,7 @@
       "interest": ""
     },
     "recentYear": 2,
-    "recentReturn": 1.05,
+    "recentReturn": 1.09,
     "years": [
       {
         "year": "2021",
@@ -51642,7 +51685,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.01,
+    "recentReturn": 4.09,
     "years": [
       {
         "year": "2021",
@@ -51702,7 +51745,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.29,
+    "recentReturn": 4.31,
     "years": [
       {
         "year": "2021",
@@ -51882,7 +51925,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.48,
+    "recentReturn": 5.49,
     "years": [
       {
         "year": "2021",
@@ -51942,7 +51985,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.18,
+    "recentReturn": 1.19,
     "years": [
       {
         "year": "2021",
@@ -52122,7 +52165,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.08,
+    "recentReturn": 5.11,
     "years": [
       {
         "year": "2021",
@@ -52242,7 +52285,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.65,
+    "recentReturn": 3.66,
     "years": [
       {
         "year": "2021",
@@ -52302,7 +52345,7 @@
       "interest": ""
     },
     "recentYear": 4,
-    "recentReturn": 4.27,
+    "recentReturn": 4.26,
     "years": [
       {
         "year": "2021",
@@ -52482,7 +52525,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 8.18,
+    "recentReturn": 8.2,
     "years": [
       {
         "year": "2021",
@@ -52542,7 +52585,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.33,
+    "recentReturn": 4.37,
     "years": [
       {
         "year": "2021",
@@ -52662,7 +52705,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.07,
+    "recentReturn": 4.1,
     "years": [
       {
         "year": "2021",
@@ -52722,7 +52765,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.0,
+    "recentReturn": 6.01,
     "years": [
       {
         "year": "2021",
@@ -52842,7 +52885,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.66,
+    "recentReturn": 5.65,
     "years": [
       {
         "year": "2021",
@@ -53082,7 +53125,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.13,
+    "recentReturn": 6.12,
     "years": [
       {
         "year": "2021",
@@ -53142,7 +53185,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.85,
+    "recentReturn": 1.9,
     "years": [
       {
         "year": "2021",
@@ -53202,7 +53245,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.08,
+    "recentReturn": 6.07,
     "years": [
       {
         "year": "2021",
@@ -53322,7 +53365,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.81,
+    "recentReturn": 3.83,
     "years": [
       {
         "year": "2021",
@@ -53382,7 +53425,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.88,
+    "recentReturn": 1.89,
     "years": [
       {
         "year": "2021",
@@ -53442,7 +53485,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.52,
+    "recentReturn": 2.56,
     "years": [
       {
         "year": "2021",
@@ -53502,7 +53545,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.56,
+    "recentReturn": 1.57,
     "years": [
       {
         "year": "2021",
@@ -53562,7 +53605,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.85,
+    "recentReturn": 5.86,
     "years": [
       {
         "year": "2020",
@@ -53682,7 +53725,7 @@
       "interest": ""
     },
     "recentYear": 1,
-    "recentReturn": 3.0,
+    "recentReturn": 3.36,
     "years": [
       {
         "year": "2021",
@@ -53706,7 +53749,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.05,
+    "recentReturn": 1.08,
     "years": [
       {
         "year": "2021",
@@ -53826,7 +53869,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.15,
+    "recentReturn": 2.62,
     "years": [
       {
         "year": "2021",
@@ -54006,7 +54049,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.34,
+    "recentReturn": 3.35,
     "years": [
       {
         "year": "2021",
@@ -54066,7 +54109,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.36,
+    "recentReturn": 6.28,
     "years": [
       {
         "year": "2021",
@@ -54246,7 +54289,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.66,
+    "recentReturn": 2.69,
     "years": [
       {
         "year": "2021",
@@ -54306,7 +54349,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.98,
+    "recentReturn": 4.96,
     "years": [
       {
         "year": "2021",
@@ -54366,7 +54409,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.88,
+    "recentReturn": 6.87,
     "years": [
       {
         "year": "2021",
@@ -54426,7 +54469,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.27,
+    "recentReturn": 6.28,
     "years": [
       {
         "year": "2021",
@@ -54726,7 +54769,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.47,
+    "recentReturn": 3.46,
     "years": [
       {
         "year": "2021",
@@ -54846,7 +54889,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.29,
+    "recentReturn": 2.31,
     "years": [
       {
         "year": "2021",
@@ -55026,7 +55069,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.6,
+    "recentReturn": 2.62,
     "years": [
       {
         "year": "2021",
@@ -55086,7 +55129,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.29,
+    "recentReturn": 3.32,
     "years": [
       {
         "year": "2021",
@@ -55206,7 +55249,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.81,
+    "recentReturn": 2.82,
     "years": [
       {
         "year": "2021",
@@ -55386,7 +55429,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.08,
+    "recentReturn": 2.09,
     "years": [
       {
         "year": "2021",
@@ -55446,7 +55489,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.7,
+    "recentReturn": 4.69,
     "years": [
       {
         "year": "2021",
@@ -55566,7 +55609,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.07,
+    "recentReturn": 4.97,
     "years": [
       {
         "year": "2021",
@@ -55626,7 +55669,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.37,
+    "recentReturn": 2.39,
     "years": [
       {
         "year": "2021",
@@ -55686,7 +55729,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 6.01,
+    "recentReturn": 6.0,
     "years": [
       {
         "year": "2021",
@@ -55866,7 +55909,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.3,
+    "recentReturn": 5.34,
     "years": [
       {
         "year": "2021",
@@ -56046,7 +56089,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.17,
+    "recentReturn": 4.18,
     "years": [
       {
         "year": "2021",
@@ -56286,7 +56329,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 2.16,
+    "recentReturn": 2.14,
     "years": [
       {
         "year": "2021",
@@ -56406,7 +56449,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 3.94,
+    "recentReturn": 3.95,
     "years": [
       {
         "year": "2021",
@@ -56466,7 +56509,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 4.85,
+    "recentReturn": 4.86,
     "years": [
       {
         "year": "2021",
@@ -56526,7 +56569,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.89,
+    "recentReturn": 5.92,
     "years": [
       {
         "year": "2021",
@@ -56646,7 +56689,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 5.36,
+    "recentReturn": 5.37,
     "years": [
       {
         "year": "2021",
@@ -56706,7 +56749,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.02,
+    "recentReturn": 6.98,
     "years": [
       {
         "year": "2021",
@@ -56766,7 +56809,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 1.19,
+    "recentReturn": 1.21,
     "years": [
       {
         "year": "2021",
@@ -56826,7 +56869,7 @@
       "interest": ""
     },
     "recentYear": 5,
-    "recentReturn": 7.73,
+    "recentReturn": 7.72,
     "years": [
       {
         "year": "2020",
