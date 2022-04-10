@@ -83,7 +83,9 @@ public class YHStockPrice {
         EPS = EPS.trim();
         code = code.trim();
         name = name.trim();
-        date = date.trim();
+        if (date != null) {
+            date = date.trim();
+        }
         open = open.trim();
         beta = beta.trim();
         volume = volume.trim();

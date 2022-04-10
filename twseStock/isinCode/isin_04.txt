@@ -1,5 +1,5 @@
 {
-  "version": "2022/04/09",
+  "version": "2022/04/10",
   "list": [
     {
       "name": "上櫃認購(售)權證",
@@ -4889,18 +4889,6 @@
           "interest": ""
         },
         {
-          "name": "雙鴻兆豐14購01",
-          "code": "721493",
-          "ISINCode": "TW21Z7214939",
-          "listedDate": "2021/06/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
           "name": "環球晶兆豐14購01",
           "code": "721525",
           "ISINCode": "TW21Z7215258",
@@ -5049,18 +5037,6 @@
           "code": "722182",
           "ISINCode": "TW21Z7221827",
           "listedDate": "2021/07/07",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "勤崴群益14購01",
-          "code": "722226",
-          "ISINCode": "TW21Z7222262",
-          "listedDate": "2021/07/09",
           "market": "上櫃",
           "industry": "",
           "CFICode": "RWSCCA",
@@ -5705,177 +5681,9 @@
           "interest": ""
         },
         {
-          "name": "鈺創凱基14購01",
-          "code": "723284",
-          "ISINCode": "TW21Z7232840",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
           "name": "譜瑞富邦15購01",
           "code": "723286",
           "ISINCode": "TW21Z7232865",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "世界國票14購01",
-          "code": "723287",
-          "ISINCode": "TW21Z7232873",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "大田統一14購01",
-          "code": "723295",
-          "ISINCode": "TW21Z7232956",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "大田統一14購02",
-          "code": "723296",
-          "ISINCode": "TW21Z7232964",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "合晶統一14購01",
-          "code": "723298",
-          "ISINCode": "TW21Z7232980",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "金居統一14購02",
-          "code": "723299",
-          "ISINCode": "TW21Z7232998",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "精材統一14購01",
-          "code": "723301",
-          "ISINCode": "TW21Z7233012",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "紘康統一14購01",
-          "code": "723303",
-          "ISINCode": "TW21Z7233038",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "大樹群益14購01",
-          "code": "723312",
-          "ISINCode": "TW21Z7233129",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "鈺創群益14購01",
-          "code": "723319",
-          "ISINCode": "TW21Z7233194",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "中美晶國泰14購01",
-          "code": "723320",
-          "ISINCode": "TW21Z7233202",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "泰博國泰14購01",
-          "code": "723321",
-          "ISINCode": "TW21Z7233210",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "聚積國泰14購01",
-          "code": "723322",
-          "ISINCode": "TW21Z7233228",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "紘康國泰14購01",
-          "code": "723323",
-          "ISINCode": "TW21Z7233236",
           "listedDate": "2021/08/09",
           "market": "上櫃",
           "industry": "",
@@ -5897,33 +5705,9 @@
           "interest": ""
         },
         {
-          "name": "原相兆豐14購01",
-          "code": "723329",
-          "ISINCode": "TW21Z7233293",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
           "name": "長科*元大16購01",
           "code": "723337",
           "ISINCode": "TW21Z7233376",
-          "listedDate": "2021/08/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "鈺創元大14購02",
-          "code": "723341",
-          "ISINCode": "TW21Z7233418",
           "listedDate": "2021/08/09",
           "market": "上櫃",
           "industry": "",
@@ -9749,42 +9533,6 @@
           "interest": ""
         },
         {
-          "name": "合晶國票14購01",
-          "code": "724387",
-          "ISINCode": "TW21Z7243870",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "金居國票14購01",
-          "code": "724388",
-          "ISINCode": "TW21Z7243888",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "群聯國票14購01",
-          "code": "724389",
-          "ISINCode": "TW21Z7243896",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
           "name": "大宇資凱基16購01",
           "code": "724390",
           "ISINCode": "TW21Z7243904",
@@ -9797,57 +9545,9 @@
           "interest": ""
         },
         {
-          "name": "欣銓凱基14購02",
-          "code": "724391",
-          "ISINCode": "TW21Z7243912",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
           "name": "宣德凱基15購01",
           "code": "724392",
           "ISINCode": "TW21Z7243920",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "晶焱凱基14購02",
-          "code": "724393",
-          "ISINCode": "TW21Z7243938",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "群聯凱基14購01",
-          "code": "724395",
-          "ISINCode": "TW21Z7243953",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "世界統一14購06",
-          "code": "724396",
-          "ISINCode": "TW21Z7243961",
           "listedDate": "2021/09/09",
           "market": "上櫃",
           "industry": "",
@@ -9893,18 +9593,6 @@
           "interest": ""
         },
         {
-          "name": "頎邦統一14購03",
-          "code": "724401",
-          "ISINCode": "TW21Z7244019",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
           "name": "頎邦統一15購01",
           "code": "724402",
           "ISINCode": "TW21Z7244027",
@@ -9941,30 +9629,6 @@
           "interest": ""
         },
         {
-          "name": "旺矽群益14購01",
-          "code": "724405",
-          "ISINCode": "TW21Z7244050",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "鈊象群益14購02",
-          "code": "724406",
-          "ISINCode": "TW21Z7244068",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
           "name": "環球晶富邦15購01",
           "code": "724413",
           "ISINCode": "TW21Z7244134",
@@ -9992,30 +9656,6 @@
           "name": "大國鋼元大17購01",
           "code": "724415",
           "ISINCode": "TW21Z7244159",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "茂達元大14購01",
-          "code": "724417",
-          "ISINCode": "TW21Z7244175",
-          "listedDate": "2021/09/09",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "RWSCCA",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "紘康元大14購02",
-          "code": "724418",
-          "ISINCode": "TW21Z7244183",
           "listedDate": "2021/09/09",
           "market": "上櫃",
           "industry": "",

@@ -157,6 +157,7 @@ open class YahooGet {
                 for (i in 0 until recent) {
                     val ei = es[i]
                     val row = ei.child(0).children()
+                    if (row.size < 8) continue //?
                     // row has 8 child
                     // 股利所屬期間 現金股利 股票股利 除息日 除權日 現金股利發放日 股票股利發放日 填息天數
                     val yd = YHYearDiv()
@@ -164,6 +165,11 @@ open class YahooGet {
                     yd.cash = row[1].text()
                     yd.stock = row[2].text()
                     yd.exDividendDate = row[3].text()
+                    yd.exRightsDate = row[4].text()
+                    yd.cashDate = row[5].text()
+                    yd.stockDate = row[6].text()
+                    yd.fillInInterval = row[7].text()
+                    yd.trim()
                     ans.years.add(yd)
                     if (log) {
                         L.log("#%s : %s from \"%s\"", i, yd, row.text())

@@ -3,18 +3,24 @@ package main.twse;
 import com.google.gson.Gson;
 import flyingkite.log.L;
 import flyingkite.log.LF;
+import flyingkite.tool.GsonUtil;
+import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.FetcherUtil;
 import main.fetcher.data.stock.YHDividend;
 import main.fetcher.data.stock.YHStockPrice;
+import main.fetcher.data.stock.YHYearDiv;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.TWSEGet;
 import main.kt.YahooGet;
 import org.jsoup.nodes.Document;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -38,6 +44,8 @@ public class TWSEStockFetcher {
     private TicTac2 clock = new TicTac2();
     private WebFetcher fetcher = new WebFetcher();
     private OnWebLfTT onWeb = new OnWebLfTT(mLf, clock);
+
+    private final Gson gson = new Gson();
 
     // en
     // https://www.twse.com.tw/en/page/products/stock-code2.html
@@ -143,8 +151,12 @@ public class TWSEStockFetcher {
 
     private void parse() {
         clock.tic();
-        loadAllISINCode(); // < 30 second
-        loadAllDividend(); // ~70min
+        if (1 > 0) {
+            // database
+            loadAllISINCode(); // < 30 second
+            loadAllDividend(); // ~70min
+        }
+        loadPrices();
         //YahooGet.me.getPrices("1907.TW"); // 永豐餘 only
         //YahooGet.me.getPrices("2910.TW");
         clock.tac("TWSEStockFetcher parse OK");
@@ -213,7 +225,6 @@ public class TWSEStockFetcher {
         allDividendValues.clear();
         allPrices.clear();
         makeStockTitle();
-        Gson g = new Gson();
         YHStockPrice head = getRemarkPrice();
         allPrices.add(head);
         for (int i = 1; i <= 11; i++) {
@@ -244,19 +255,181 @@ public class TWSEStockFetcher {
                 // fill in basic values
                 price.code = ei.code;
                 price.name = ei.name;
+                price.trim();
                 if (log) {
-                    L.log("price #%s (%s) = %s", j, ei.code, g.toJson(price));
+                    L.log("price #%s (%s) = %s", j, ei.code, gson.toJson(price));
                 }
                 allPrices.add(price);
             }
-            FetcherUtil.saveAsJson(divs, FOLDER, getDividendFilename(i));
+            FetcherUtil.saveAsJson(divs, dividendPath(i));
         }
-        FetcherUtil.saveAsJson(allPrices, FOLDER, "dividend/price.json");
+        FetcherUtil.saveAsJson(allPrices, pricePath());
         int count = allPrices.size() - 1;
         L.log("%d tasks", count);
         L.log("time dividend = %s, avg = %s", msDividend, 1.0 * msDividend / count);
         L.log("time prices = %s, avg = %s", msPrices, 1.0 * msPrices / count);
         clock.tac("loadAllDividend OK");
+    }
+
+    private YHStockPrice[] loadPriceFromFile() {
+        YHStockPrice[] prices = new YHStockPrice[1];
+        File src = new File(pricePath());
+        return GsonUtil.loadFile(src, prices.getClass());
+    }
+
+    private YHDividend[] loadDividendFromFile(int type) {
+        YHDividend[] divid = new YHDividend[1];
+        File src = new File(dividendPath(type));
+        return GsonUtil.loadFile(src, divid.getClass());
+    }
+
+    private void loadPrices() {
+        Map<String, YHStockPrice> priceMap = new HashMap<>();
+        // load prices from src file
+        int n;
+        // load Yahoo stock prices
+        YHStockPrice[] prices = loadPriceFromFile();
+        n = prices.length;
+        L.log("%s prices", n);
+        for (int i = 0; i < n; i++) {
+            YHStockPrice p = prices[i];
+            if (TextUtil.isEmpty(p.code)) {
+            } else {
+                priceMap.put(p.code, p);
+            }
+            String s = gson.toJson(p);
+            L.log("#%d = %s", i, s);
+        }
+
+        // load dividend
+        List<YHDividend> dividends = new ArrayList<>();
+        for (int i = 1; i <= 11; i++) {
+            if (stockTitle.containsKey(i) == false) continue;
+            YHDividend[] divid = loadDividendFromFile(i);
+            for (int j = 0; j < divid.length; j++) {
+                YHDividend dj = divid[j];
+                dividends.add(dj);
+            }
+        }
+        n = dividends.size();
+        L.log("%s dividends", n);
+        clock.tic();
+        String year = "2020";
+        List<YHDividend> sorted = sortYearDividend(year, dividends, priceMap);
+        FetcherUtil.saveAsJson(sorted, FOLDER, "dividend/sorted_" + year + ".json");
+        L.log("sortYearDividend %s, %s items", year, sorted.size());
+        for (int i = 0; i < sorted.size(); i++) {
+            YHDividend di = sorted.get(i);
+            L.log("#%d : note = %s, (now = %s), %s", i, di.note, closePrice(di, priceMap), di);
+        }
+        //--
+        List<YHStockPrice> prices2 = new ArrayList<>(priceMap.values());//loadPriceFromFile();
+        prices2 = sortPrice(prices2);
+        L.log("YHStockPrice %s prices", prices2.size());
+        for (int i = 0; i < prices2.size(); i++) {
+            YHStockPrice p = prices2.get(i);
+            L.log("#%d : %s", i, gson.toJson(p));
+        }
+    }
+
+    // sort prices from large to small
+    private List<YHStockPrice> sortPrice(List<YHStockPrice> prices) {
+        clock.tic();
+        Collections.sort(prices, new Comparator<>() {
+        //Arrays.sort(prices, new Comparator<YHStockPrice>() {
+            @Override
+            public int compare(YHStockPrice x, YHStockPrice y) {
+                double px = asLD(x.closingPrice);
+                double py = asLD(y.closingPrice);
+                return Double.compare(py, px);
+            }
+        });
+        clock.tac("prices sorted OK");
+        FetcherUtil.saveAsJson(prices, FOLDER, "dividend/sorted_price.json");
+        return prices;
+    }
+
+    // evalRateOfReturn
+    private List<YHDividend> sortYearDividend(String yearTarget, List<YHDividend> dividends, Map<String, YHStockPrice> prices) {
+        clock.tic();
+        Collections.sort(dividends, new Comparator<>() {
+            @Override
+            public int compare(YHDividend x, YHDividend y) {
+                double dx = div(x);
+                x.note = dx + "";
+                double dy = div(y);
+                y.note = dy + "";
+                return Double.compare(dy, dx); // Decreasing
+            }
+
+            private double div(YHDividend x) {
+                List<YHYearDiv> years = x.years;
+                for (int i = 0; i < years.size(); i++) {
+                    YHYearDiv yd = years.get(i);
+                    if (yearTarget.equals(yd.year)) {
+                        double get = asLD(yd.cash) + asLD(yd.stock);
+                        double price = closePrice(x, prices);
+                        return get / price;
+                    }
+                }
+                return 0;
+            }
+
+        });
+        clock.tac("dividends sorted OK");
+        return dividends;
+    }
+
+    private double closePrice(YHDividend x, Map<String, YHStockPrice> prices) {
+        String now = prices.get(x.equity.code).closingPrice;
+        double priceToday = asLD(now);
+        return priceToday;
+    }
+
+    private double asLD(String s) {
+        try {
+            return Double.parseDouble(s);
+        } catch (NumberFormatException e) {
+            L.log("no double for %s", s);
+            return 0;
+        }
+    }
+
+    private void evalBeta(List<YHStockPrice> prices) {
+        int n = prices.size();
+        double beta = 0;
+        int kb = 0;
+        for (int i = 0; i < n; i++) {
+            YHStockPrice p = prices.get(i);
+            String s = gson.toJson(p);
+            double be;
+            String it = p.beta;
+            if (it != null) {
+                try {
+                    be = Double.parseDouble(it);
+                    kb++;
+                    beta += be;
+                } catch (NumberFormatException e) {
+                    L.log("no beta #%s, %s", i, it);
+                }
+            }
+            L.log("#%d = %s", i, s);
+        }
+        L.log("Summed %s beta values, with sum = %s, and betaAvg = %s", kb, beta, beta / kb);
+    }
+
+    // type = 1 ~ 11
+    private String dividendPath(int type) {
+        return pathOf(getDividendFilename(type));
+    }
+
+    private String pricePath() {
+        return pathOf("dividend/price.json");
+    }
+
+    private String pathOf(String s) {
+        File f = new File(FOLDER, s);
+        return f.getAbsolutePath();
     }
 
     // Remark price is the head column info for this sheet
