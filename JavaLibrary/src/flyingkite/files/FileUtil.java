@@ -15,6 +15,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -28,6 +30,9 @@ import javax.imageio.stream.ImageInputStream;
 public class FileUtil {
 
     public static boolean isGone(File f) {
+        if (f == null || !f.exists()) {
+            L.log("gone");
+        }
         return f == null || !f.exists();
     }
 
@@ -144,6 +149,17 @@ public class FileUtil {
         return readFromFile(new File(name));
     }
 
+    // suggest to use this method
+    public static List<String> readAllLines(File file) {
+        List<String> ans = new ArrayList<>();
+        try {
+            ans = Files.readAllLines(Path.of(file.getAbsolutePath()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return ans;
+    }
+
     public static List<String> readFromFile(File file) {
         if (isGone(file)){
             return Collections.emptyList();
@@ -164,6 +180,8 @@ public class FileUtil {
         return all;
     }
 
+    // https://stackoverflow.com/questions/4716503/reading-a-plain-text-file-in-java
+    // failed to read text
     public static String readFileAsString(File file) {
         if (isGone(file)){
             return "";

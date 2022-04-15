@@ -1,5 +1,5 @@
 {
-  "version": "2022/04/10",
+  "version": "2022/04/13",
   "list": [
     {
       "name": "",
@@ -2711,6 +2711,18 @@
           "listedDate": "2022/02/08",
           "market": "",
           "industry": "生技醫療業",
+          "CFICode": "ESVUFR",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "衛司特",
+          "code": "6894",
+          "ISINCode": "TW0006894009",
+          "listedDate": "2022/04/13",
+          "market": "",
+          "industry": "其他業",
           "CFICode": "ESVUFR",
           "remarks": "",
           "maturityDate": "",

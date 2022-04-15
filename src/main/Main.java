@@ -33,7 +33,6 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
-import main.fetcher.data.stock.YHStockPrice;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
 import main.twse.TWSEStockFetcher;
@@ -54,8 +53,9 @@ public class Main {
         //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
-        stock();
+        //stock();
         //THSRTGoFetcher.main(null);
+        //SMSReader
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -428,6 +428,7 @@ public class Main {
             r.delay(3_000);
             // true = UID & ctrl+v, false = UID
             boolean paste = 0 > 0;
+            String more = "";
             String[] ids = {
                     "199215954",
                     "150372202",
@@ -442,12 +443,13 @@ public class Main {
             };
 
             for (String s : ids) {
+                String t = s + more;
                 if (paste) {
-                    r.type(s + " ");
+                    r.type(t + " ");
                     r.paste();
                     r.keyClick(KeyEvent.VK_ENTER);
                 } else {
-                    r.enter(s);
+                    r.enter(t);
                 }
             }
         } catch (AWTException e) {

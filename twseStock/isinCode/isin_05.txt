@@ -1,5 +1,5 @@
 {
-  "version": "2022/04/10",
+  "version": "2022/04/13",
   "list": [
     {
       "name": "普通股",
@@ -986,18 +986,6 @@
           "code": "4765",
           "ISINCode": "TW0004765003",
           "listedDate": "2016/12/05",
-          "market": "興櫃一般板",
-          "industry": "化學工業",
-          "CFICode": "ESVUFR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "晶呈科技",
-          "code": "4768",
-          "ISINCode": "TW0004768007",
-          "listedDate": "2019/11/26",
           "market": "興櫃一般板",
           "industry": "化學工業",
           "CFICode": "ESVUFR",

@@ -1,5 +1,5 @@
 {
-  "version": "2022/04/10",
+  "version": "2022/04/13",
   "list": [
     {
       "name": "",
@@ -2136,78 +2136,6 @@
           "market": "",
           "industry": "",
           "CFICode": "CIOIBU",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "匯豐中國高收益債券基金-人民幣不配息",
-          "code": "T0449A",
-          "ISINCode": "TW000T0449A6",
-          "listedDate": "2013/05/28",
-          "market": "",
-          "industry": "",
-          "CFICode": "CIOGBU",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "匯豐中國高收益債券基金-人民幣配息",
-          "code": "T0449B",
-          "ISINCode": "TW000T0449B4",
-          "listedDate": "2013/05/28",
-          "market": "",
-          "industry": "",
-          "CFICode": "CIOIBU",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "匯豐中國高收益債券基金-台幣配息",
-          "code": "T0449C",
-          "ISINCode": "TW000T0449C2",
-          "listedDate": "2014/01/02",
-          "market": "",
-          "industry": "",
-          "CFICode": "CIOIBU",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "匯豐中國高收益債券基金-美元不配息",
-          "code": "T0449D",
-          "ISINCode": "TW000T0449D0",
-          "listedDate": "2014/01/02",
-          "market": "",
-          "industry": "",
-          "CFICode": "CIOGBU",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "匯豐中國高收益債券基金-美元配息",
-          "code": "T0449E",
-          "ISINCode": "TW000T0449E8",
-          "listedDate": "2014/01/02",
-          "market": "",
-          "industry": "",
-          "CFICode": "CIOIBU",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "匯豐中國高收益債券基金-台幣不配息",
-          "code": "T0449Y",
-          "ISINCode": "TW000T0449Y6",
-          "listedDate": "2011/12/30",
-          "market": "",
-          "industry": "",
-          "CFICode": "CIOGBU",
           "remarks": "",
           "maturityDate": "",
           "interest": ""

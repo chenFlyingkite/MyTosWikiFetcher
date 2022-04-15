@@ -1,6 +1,7 @@
 package main.twse;
 
 import flyingkite.log.L;
+import flyingkite.log.LF;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +10,11 @@ public class TWEquityList {
     public String version = "";
     public List<TWEquityItem> list = new ArrayList<>();
 
-    public void print() {
+    public void print(LF lf) {
         int n = list.size();
-        L.log("TWEquityList = %s, %s items", version, n);
+        lf.log("TWEquityList = %s, %s items", version, n);
         for (int i = 0; i < n; i++) {
-            L.log("#%s : %s", i, list.get(i));
+            lf.log("#%s : %s", i, list.get(i));
         }
     }
 

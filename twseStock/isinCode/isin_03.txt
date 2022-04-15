@@ -1,5 +1,5 @@
 {
-  "version": "2022/04/10",
+  "version": "2022/04/13",
   "list": [
     {
       "name": "轉換公司債",
@@ -11902,6 +11902,18 @@
           "interest": "0.820000"
         },
         {
+          "name": "P11新金1",
+          "code": "B95925",
+          "ISINCode": "TW000B959253",
+          "listedDate": "2022/04/12",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBFUFR",
+          "remarks": "",
+          "maturityDate": "2027/04/12",
+          "interest": "0.900000"
+        },
+        {
           "name": "P09永豐證1",
           "code": "B96414",
           "ISINCode": "TW000B964147",
@@ -12536,18 +12548,6 @@
           "remarks": "",
           "maturityDate": "2026/05/25",
           "interest": "0.500000"
-        },
-        {
-          "name": "P06中航1",
-          "code": "B98812",
-          "ISINCode": "TW000B988120",
-          "listedDate": "2017/04/10",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBFGFR",
-          "remarks": "",
-          "maturityDate": "2022/04/10",
-          "interest": "1.130000"
         },
         {
           "name": "P09中航1A",
@@ -16993,18 +16993,6 @@
           "interest": "0.000000"
         },
         {
-          "name": "P17SG3",
-          "code": "F02231",
-          "ISINCode": "XS1562449618",
-          "listedDate": "2017/04/11",
-          "market": "上櫃",
-          "industry": "",
-          "CFICode": "DBFUGR",
-          "remarks": "",
-          "maturityDate": "2022/04/11",
-          "interest": "9.000000"
-        },
-        {
           "name": "17SG4",
           "code": "F02232",
           "ISINCode": "XS1289603331",
@@ -19295,6 +19283,18 @@
           "remarks": "",
           "maturityDate": "2025/04/06",
           "interest": "4.000000"
+        },
+        {
+          "name": "P22BACR6",
+          "code": "F03236",
+          "ISINCode": "XS2366944887",
+          "listedDate": "2022/04/13",
+          "market": "上櫃",
+          "industry": "",
+          "CFICode": "DBZUGB",
+          "remarks": "",
+          "maturityDate": "2052/04/13",
+          "interest": "0.000000"
         },
         {
           "name": "P14CSAG1",

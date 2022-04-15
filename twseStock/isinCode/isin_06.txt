@@ -1,5 +1,5 @@
 {
-  "version": "2022/04/10",
+  "version": "2022/04/13",
   "list": [
     {
       "name": "電子期貨",
@@ -16895,10 +16895,58 @@
           "interest": ""
         },
         {
+          "name": "聯電股票選擇權,2022/04,履約價40.0,買權",
+          "code": "CCO00400D2",
+          "ISINCode": "TWCCO0400D20",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "聯電股票選擇權,2022/05,履約價40.0,買權",
+          "code": "CCO00400E2",
+          "ISINCode": "TWCCO0400E29",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "聯電股票選擇權,2022/06,履約價40.0,買權",
           "code": "CCO00400F2",
           "ISINCode": "TWCCO0400F28",
           "listedDate": "2021/07/22",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "聯電股票選擇權,2022/04,履約價41.0,買權",
+          "code": "CCO00410D2",
+          "ISINCode": "TWCCO0410D28",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "聯電股票選擇權,2022/05,履約價41.0,買權",
+          "code": "CCO00410E2",
+          "ISINCode": "TWCCO0410E27",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCESCS",
@@ -19211,6 +19259,18 @@
           "interest": ""
         },
         {
+          "name": "仁寶股票選擇權,2022/05,履約價21.5,買權",
+          "code": "CGO00215E2",
+          "ISINCode": "TWCGO0215E20",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "仁寶股票選擇權,2022/04,履約價22.0,買權",
           "code": "CGO00220D2",
           "ISINCode": "TWCGO0220D24",
@@ -19767,6 +19827,30 @@
           "code": "CHO00150I2",
           "ISINCode": "TWCHO0150I22",
           "listedDate": "2021/10/21",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "友達股票選擇權,2022/04,履約價16.0,買權",
+          "code": "CHO00160D2",
+          "ISINCode": "TWCHO0160D25",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "友達股票選擇權,2022/05,履約價16.0,買權",
+          "code": "CHO00160E2",
+          "ISINCode": "TWCHO0160E24",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCESCS",
@@ -23807,6 +23891,30 @@
           "interest": ""
         },
         {
+          "name": "中信金股票選擇權,2022/04,履約價36.0,買權",
+          "code": "CNO00360D2",
+          "ISINCode": "TWCNO0360D25",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "中信金股票選擇權,2022/05,履約價36.0,買權",
+          "code": "CNO00360E2",
+          "ISINCode": "TWCNO0360E24",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "中信金股票選擇權,2022/06,履約價36.0,買權",
           "code": "CNO00360F2",
           "ISINCode": "TWCNO0360F23",
@@ -25367,10 +25475,34 @@
           "interest": ""
         },
         {
+          "name": "華新股票選擇權,2022/05,履約價35.0,買權",
+          "code": "CSO00350E2",
+          "ISINCode": "TWCSO0350E21",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "華新股票選擇權,2022/04,履約價36.0,買權",
           "code": "CSO00360D2",
           "ISINCode": "TWCSO0360D20",
           "listedDate": "2022/03/08",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "華新股票選擇權,2022/05,履約價36.0,買權",
+          "code": "CSO00360E2",
+          "ISINCode": "TWCSO0360E29",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCESCS",
@@ -28991,6 +29123,30 @@
           "interest": ""
         },
         {
+          "name": "華碩股票選擇權,2022/04,履約價290.0,買權",
+          "code": "DJO02900D2",
+          "ISINCode": "TWDJO2900D23",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "華碩股票選擇權,2022/05,履約價290.0,買權",
+          "code": "DJO02900E2",
+          "ISINCode": "TWDJO2900E22",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "華碩股票選擇權,2022/04,履約價300.0,買權",
           "code": "DJO03000D2",
           "ISINCode": "TWDJO3000D20",
@@ -31223,6 +31379,42 @@
           "interest": ""
         },
         {
+          "name": "玉山金股票選擇權,2022/04,履約價41.0,買權",
+          "code": "DNO00410D2",
+          "ISINCode": "TWDNO0410D24",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "玉山金股票選擇權,2022/05,履約價41.0,買權",
+          "code": "DNO00410E2",
+          "ISINCode": "TWDNO0410E23",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "玉山金股票選擇權,2022/06,履約價42.0,買權",
+          "code": "DNO00420F2",
+          "ISINCode": "TWDNO0420F20",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "元大金股票選擇權,2022/06,履約價19.0,買權",
           "code": "DOO00190F2",
           "ISINCode": "TWDOO0190F27",
@@ -32579,6 +32771,30 @@
           "interest": ""
         },
         {
+          "name": "群創股票選擇權,2022/04,履約價13.0,買權",
+          "code": "DQO00130D2",
+          "ISINCode": "TWDQO0130D20",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "群創股票選擇權,2022/05,履約價13.0,買權",
+          "code": "DQO00130E2",
+          "ISINCode": "TWDQO0130E29",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "群創股票選擇權,2022/06,履約價13.0,買權",
           "code": "DQO00130F2",
           "ISINCode": "TWDQO0130F28",
@@ -33303,6 +33519,18 @@
           "code": "DSO00235D2",
           "ISINCode": "TWDSO0235D22",
           "listedDate": "2022/03/08",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏碁股票選擇權,2022/05,履約價23.5,買權",
+          "code": "DSO00235E2",
+          "ISINCode": "TWDSO0235E21",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCESCS",
@@ -35663,6 +35891,30 @@
           "interest": ""
         },
         {
+          "name": "微星股票選擇權,2022/04,履約價100.0,買權",
+          "code": "GIO01000D2",
+          "ISINCode": "TWGIO1000D22",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "微星股票選擇權,2022/05,履約價100.0,買權",
+          "code": "GIO01000E2",
+          "ISINCode": "TWGIO1000E21",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "微星股票選擇權,2022/06,履約價100.0,買權",
           "code": "GIO01000F2",
           "ISINCode": "TWGIO1000F20",
@@ -36983,6 +37235,54 @@
           "interest": ""
         },
         {
+          "name": "宏達電股票選擇權,2022/04,履約價45.0,買權",
+          "code": "HCO00450D2",
+          "ISINCode": "TWHCO0450D24",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏達電股票選擇權,2022/05,履約價45.0,買權",
+          "code": "HCO00450E2",
+          "ISINCode": "TWHCO0450E23",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏達電股票選擇權,2022/04,履約價46.0,買權",
+          "code": "HCO00460D2",
+          "ISINCode": "TWHCO0460D22",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏達電股票選擇權,2022/05,履約價46.0,買權",
+          "code": "HCO00460E2",
+          "ISINCode": "TWHCO0460E21",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "宏達電股票選擇權,2022/06,履約價46.0,買權",
           "code": "HCO00460F2",
           "ISINCode": "TWHCO0460F20",
@@ -37647,6 +37947,42 @@
           "code": "HCO01100I2",
           "ISINCode": "TWHCO1100I21",
           "listedDate": "2021/11/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "大立光股票選擇權,2022/06,履約價1300.0,買權",
+          "code": "IJO13000F2",
+          "ISINCode": "TWIJO300AF28",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "大立光股票選擇權,2022/04,履約價1350.0,買權",
+          "code": "IJO13500D2",
+          "ISINCode": "TWIJO350AD29",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "大立光股票選擇權,2022/05,履約價1350.0,買權",
+          "code": "IJO13500E2",
+          "ISINCode": "TWIJO350AE28",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCESCS",
@@ -39767,6 +40103,18 @@
           "interest": ""
         },
         {
+          "name": "日月光投控選擇權,2022/05,履約價80.0,買權",
+          "code": "OZO00800E2",
+          "ISINCode": "TWOZO0800E24",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "日月光投控選擇權,2022/06,履約價80.0,買權",
           "code": "OZO00800F2",
           "ISINCode": "TWOZO0800F23",
@@ -40299,6 +40647,30 @@
           "code": "OZO01600F2",
           "ISINCode": "TWOZO1600F23",
           "listedDate": "2021/08/05",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "富采投控股票選擇權,2022/04,履約價55,買權",
+          "code": "QBO00550D2",
+          "ISINCode": "TWQBO0550D23",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "富采投控股票選擇權,2022/05,履約價55,買權",
+          "code": "QBO00550E2",
+          "ISINCode": "TWQBO0550E22",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCESCS",
@@ -42088,10 +42460,58 @@
           "interest": ""
         },
         {
+          "name": "聯電股票選擇權,2022/04,履約價40.0,賣權",
+          "code": "CCO00400P2",
+          "ISINCode": "TWCCO0400P26",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "聯電股票選擇權,2022/05,履約價40.0,賣權",
+          "code": "CCO00400Q2",
+          "ISINCode": "TWCCO0400Q25",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "聯電股票選擇權,2022/06,履約價40.0,賣權",
           "code": "CCO00400R2",
           "ISINCode": "TWCCO0400R24",
           "listedDate": "2021/07/22",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "聯電股票選擇權,2022/04,履約價41.0,賣權",
+          "code": "CCO00410P2",
+          "ISINCode": "TWCCO0410P24",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "聯電股票選擇權,2022/05,履約價41.0,賣權",
+          "code": "CCO00410Q2",
+          "ISINCode": "TWCCO0410Q23",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPESCS",
@@ -44392,6 +44812,18 @@
           "interest": ""
         },
         {
+          "name": "仁寶股票選擇權,2022/05,履約價21.5,賣權",
+          "code": "CGO00215Q2",
+          "ISINCode": "TWCGO0215Q26",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "仁寶股票選擇權,2022/04,履約價22.0,賣權",
           "code": "CGO00220P2",
           "ISINCode": "TWCGO0220P20",
@@ -44948,6 +45380,30 @@
           "code": "CHO00150U2",
           "ISINCode": "TWCHO0150U26",
           "listedDate": "2021/10/21",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "友達股票選擇權,2022/04,履約價16.0,賣權",
+          "code": "CHO00160P2",
+          "ISINCode": "TWCHO0160P21",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "友達股票選擇權,2022/05,履約價16.0,賣權",
+          "code": "CHO00160Q2",
+          "ISINCode": "TWCHO0160Q20",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPESCS",
@@ -48988,6 +49444,30 @@
           "interest": ""
         },
         {
+          "name": "中信金股票選擇權,2022/04,履約價36.0,賣權",
+          "code": "CNO00360P2",
+          "ISINCode": "TWCNO0360P21",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "中信金股票選擇權,2022/05,履約價36.0,賣權",
+          "code": "CNO00360Q2",
+          "ISINCode": "TWCNO0360Q20",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "中信金股票選擇權,2022/06,履約價36.0,賣權",
           "code": "CNO00360R2",
           "ISINCode": "TWCNO0360R29",
@@ -50548,10 +51028,34 @@
           "interest": ""
         },
         {
+          "name": "華新股票選擇權,2022/05,履約價35.0,賣權",
+          "code": "CSO00350Q2",
+          "ISINCode": "TWCSO0350Q27",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "華新股票選擇權,2022/04,履約價36.0,賣權",
           "code": "CSO00360P2",
           "ISINCode": "TWCSO0360P26",
           "listedDate": "2022/03/08",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "華新股票選擇權,2022/05,履約價36.0,賣權",
+          "code": "CSO00360Q2",
+          "ISINCode": "TWCSO0360Q25",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPESCS",
@@ -54172,6 +54676,30 @@
           "interest": ""
         },
         {
+          "name": "華碩股票選擇權,2022/04,履約價290.0,賣權",
+          "code": "DJO02900P2",
+          "ISINCode": "TWDJO2900P29",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "華碩股票選擇權,2022/05,履約價290.0,賣權",
+          "code": "DJO02900Q2",
+          "ISINCode": "TWDJO2900Q28",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "華碩股票選擇權,2022/04,履約價300.0,賣權",
           "code": "DJO03000P2",
           "ISINCode": "TWDJO3000P26",
@@ -56404,6 +56932,42 @@
           "interest": ""
         },
         {
+          "name": "玉山金股票選擇權,2022/04,履約價41.0,賣權",
+          "code": "DNO00410P2",
+          "ISINCode": "TWDNO0410P20",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "玉山金股票選擇權,2022/05,履約價41.0,賣權",
+          "code": "DNO00410Q2",
+          "ISINCode": "TWDNO0410Q29",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "玉山金股票選擇權,2022/06,履約價42.0,賣權",
+          "code": "DNO00420R2",
+          "ISINCode": "TWDNO0420R26",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "元大金股票選擇權,2022/06,履約價19.0,賣權",
           "code": "DOO00190R2",
           "ISINCode": "TWDOO0190R23",
@@ -57760,6 +58324,30 @@
           "interest": ""
         },
         {
+          "name": "群創股票選擇權,2022/04,履約價13.0,賣權",
+          "code": "DQO00130P2",
+          "ISINCode": "TWDQO0130P26",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "群創股票選擇權,2022/05,履約價13.0,賣權",
+          "code": "DQO00130Q2",
+          "ISINCode": "TWDQO0130Q25",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "群創股票選擇權,2022/06,履約價13.0,賣權",
           "code": "DQO00130R2",
           "ISINCode": "TWDQO0130R24",
@@ -58484,6 +59072,18 @@
           "code": "DSO00235P2",
           "ISINCode": "TWDSO0235P28",
           "listedDate": "2022/03/08",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏碁股票選擇權,2022/05,履約價23.5,賣權",
+          "code": "DSO00235Q2",
+          "ISINCode": "TWDSO0235Q27",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPESCS",
@@ -60844,6 +61444,30 @@
           "interest": ""
         },
         {
+          "name": "微星股票選擇權,2022/04,履約價100.0,賣權",
+          "code": "GIO01000P2",
+          "ISINCode": "TWGIO1000P28",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "微星股票選擇權,2022/05,履約價100.0,賣權",
+          "code": "GIO01000Q2",
+          "ISINCode": "TWGIO1000Q27",
+          "listedDate": "2022/04/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "微星股票選擇權,2022/06,履約價100.0,賣權",
           "code": "GIO01000R2",
           "ISINCode": "TWGIO1000R26",
@@ -62164,6 +62788,54 @@
           "interest": ""
         },
         {
+          "name": "宏達電股票選擇權,2022/04,履約價45.0,賣權",
+          "code": "HCO00450P2",
+          "ISINCode": "TWHCO0450P20",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏達電股票選擇權,2022/05,履約價45.0,賣權",
+          "code": "HCO00450Q2",
+          "ISINCode": "TWHCO0450Q29",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏達電股票選擇權,2022/04,履約價46.0,賣權",
+          "code": "HCO00460P2",
+          "ISINCode": "TWHCO0460P28",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "宏達電股票選擇權,2022/05,履約價46.0,賣權",
+          "code": "HCO00460Q2",
+          "ISINCode": "TWHCO0460Q27",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "宏達電股票選擇權,2022/06,履約價46.0,賣權",
           "code": "HCO00460R2",
           "ISINCode": "TWHCO0460R26",
@@ -62828,6 +63500,42 @@
           "code": "HCO01100U2",
           "ISINCode": "TWHCO1100U25",
           "listedDate": "2021/11/11",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "大立光股票選擇權,2022/06,履約價1300.0,賣權",
+          "code": "IJO13000R2",
+          "ISINCode": "TWIJO300AR24",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "大立光股票選擇權,2022/04,履約價1350.0,賣權",
+          "code": "IJO13500P2",
+          "ISINCode": "TWIJO350AP25",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "大立光股票選擇權,2022/05,履約價1350.0,賣權",
+          "code": "IJO13500Q2",
+          "ISINCode": "TWIJO350AQ24",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPESCS",
@@ -64948,6 +65656,18 @@
           "interest": ""
         },
         {
+          "name": "日月光投控選擇權,2022/05,履約價80.0,賣權",
+          "code": "OZO00800Q2",
+          "ISINCode": "TWOZO0800Q20",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "日月光投控選擇權,2022/06,履約價80.0,賣權",
           "code": "OZO00800R2",
           "ISINCode": "TWOZO0800R29",
@@ -65480,6 +66200,30 @@
           "code": "OZO01600R2",
           "ISINCode": "TWOZO1600R29",
           "listedDate": "2021/08/05",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "富采投控股票選擇權,2022/04,履約價55,賣權",
+          "code": "QBO00550P2",
+          "ISINCode": "TWQBO0550P29",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPESCS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "富采投控股票選擇權,2022/05,履約價55,賣權",
+          "code": "QBO00550Q2",
+          "ISINCode": "TWQBO0550Q28",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPESCS",
@@ -66145,6 +66889,42 @@
           "code": "TEO06400F2",
           "ISINCode": "TWTEO6400F24",
           "listedDate": "2021/09/16",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "電子選擇權,2022/05,履約價650.0,買權",
+          "code": "TEO06500E2",
+          "ISINCode": "TWTEO6500E24",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "電子選擇權,2022/06,履約價650.0,買權",
+          "code": "TEO06500F2",
+          "ISINCode": "TWTEO6500F23",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "電子選擇權,2022/04,履約價655.0,買權",
+          "code": "TEO06550D2",
+          "ISINCode": "TWTEO6550D24",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCEICS",
@@ -67842,6 +68622,42 @@
           "code": "TEO06400R2",
           "ISINCode": "TWTEO6400R20",
           "listedDate": "2021/09/16",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "電子選擇權,2022/05,履約價650.0,賣權",
+          "code": "TEO06500Q2",
+          "ISINCode": "TWTEO6500Q20",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "電子選擇權,2022/06,履約價650.0,賣權",
+          "code": "TEO06500R2",
+          "ISINCode": "TWTEO6500R29",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "電子選擇權,2022/04,履約價655.0,賣權",
+          "code": "TEO06550P2",
+          "ISINCode": "TWTEO6550P20",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPEICS",
@@ -73433,6 +74249,30 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價15200,買權",
+          "code": "TX215200D2",
+          "ISINCode": "TWTX2520AD23",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價15300,買權",
+          "code": "TX215300D2",
+          "ISINCode": "TWTX2530AD21",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價15400,買權",
           "code": "TX215400D2",
           "ISINCode": "TWTX2540AD29",
@@ -73577,10 +74417,34 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16550,買權",
+          "code": "TX216550D2",
+          "ISINCode": "TWTX2655AD20",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16600,買權",
           "code": "TX216600D2",
           "ISINCode": "TWTX2660AD23",
           "listedDate": "2022/04/06",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價16650,買權",
+          "code": "TX216650D2",
+          "ISINCode": "TWTX2665AD28",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCEICS",
@@ -75401,6 +76265,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16550,買權",
+          "code": "TXO16550D2",
+          "ISINCode": "TWTXO655AD29",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16600,買權",
           "code": "TXO16600D2",
           "ISINCode": "TWTXO660AD22",
@@ -75461,6 +76337,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16650,買權",
+          "code": "TXO16650D2",
+          "ISINCode": "TWTXO665AD27",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16700,買權",
           "code": "TXO16700D2",
           "ISINCode": "TWTXO670AD20",
@@ -75489,6 +76377,18 @@
           "code": "TXO16700F2",
           "ISINCode": "TWTXO670AF28",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價16750,買權",
+          "code": "TXO16750D2",
+          "ISINCode": "TWTXO675AD25",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCEICS",
@@ -75557,6 +76457,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16850,買權",
+          "code": "TXO16850D2",
+          "ISINCode": "TWTXO685AD23",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16900,買權",
           "code": "TXO16900D2",
           "ISINCode": "TWTXO690AD26",
@@ -75585,6 +76497,18 @@
           "code": "TXO16900F2",
           "ISINCode": "TWTXO690AF24",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價16950,買權",
+          "code": "TXO16950D2",
+          "ISINCode": "TWTXO695AD21",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCEICS",
@@ -75653,6 +76577,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價17050,買權",
+          "code": "TXO17050D2",
+          "ISINCode": "TWTXO705AD29",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價17100,買權",
           "code": "TXO17100D2",
           "ISINCode": "TWTXO710AD22",
@@ -75681,6 +76617,18 @@
           "code": "TXO17100F2",
           "ISINCode": "TWTXO710AF20",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價17150,買權",
+          "code": "TXO17150D2",
+          "ISINCode": "TWTXO715AD27",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCEICS",
@@ -75749,6 +76697,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價17250,買權",
+          "code": "TXO17250D2",
+          "ISINCode": "TWTXO725AD25",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價17300,買權",
           "code": "TXO17300D2",
           "ISINCode": "TWTXO730AD28",
@@ -75777,6 +76737,18 @@
           "code": "TXO17300F2",
           "ISINCode": "TWTXO730AF26",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價17350,買權",
+          "code": "TXO17350D2",
+          "ISINCode": "TWTXO735AD23",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCEICS",
@@ -75837,6 +76809,18 @@
           "code": "TXO17400L2",
           "ISINCode": "TWTXO740AL26",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OCEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價17450,買權",
+          "code": "TXO17450D2",
+          "ISINCode": "TWTXO745AD21",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OCEICS",
@@ -78274,6 +79258,30 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價15200,賣權",
+          "code": "TX215200P2",
+          "ISINCode": "TWTX2520AP29",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價15300,賣權",
+          "code": "TX215300P2",
+          "ISINCode": "TWTX2530AP27",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價15400,賣權",
           "code": "TX215400P2",
           "ISINCode": "TWTX2540AP25",
@@ -78418,10 +79426,34 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16550,賣權",
+          "code": "TX216550P2",
+          "ISINCode": "TWTX2655AP26",
+          "listedDate": "2022/04/12",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16600,賣權",
           "code": "TX216600P2",
           "ISINCode": "TWTX2660AP29",
           "listedDate": "2022/04/06",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價16650,賣權",
+          "code": "TX216650P2",
+          "ISINCode": "TWTX2665AP24",
+          "listedDate": "2022/04/12",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPEICS",
@@ -80242,6 +81274,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16550,賣權",
+          "code": "TXO16550P2",
+          "ISINCode": "TWTXO655AP25",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16600,賣權",
           "code": "TXO16600P2",
           "ISINCode": "TWTXO660AP28",
@@ -80302,6 +81346,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16650,賣權",
+          "code": "TXO16650P2",
+          "ISINCode": "TWTXO665AP23",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16700,賣權",
           "code": "TXO16700P2",
           "ISINCode": "TWTXO670AP26",
@@ -80330,6 +81386,18 @@
           "code": "TXO16700R2",
           "ISINCode": "TWTXO670AR24",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價16750,賣權",
+          "code": "TXO16750P2",
+          "ISINCode": "TWTXO675AP21",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPEICS",
@@ -80398,6 +81466,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價16850,賣權",
+          "code": "TXO16850P2",
+          "ISINCode": "TWTXO685AP29",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價16900,賣權",
           "code": "TXO16900P2",
           "ISINCode": "TWTXO690AP22",
@@ -80426,6 +81506,18 @@
           "code": "TXO16900R2",
           "ISINCode": "TWTXO690AR20",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價16950,賣權",
+          "code": "TXO16950P2",
+          "ISINCode": "TWTXO695AP27",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPEICS",
@@ -80494,6 +81586,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價17050,賣權",
+          "code": "TXO17050P2",
+          "ISINCode": "TWTXO705AP25",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價17100,賣權",
           "code": "TXO17100P2",
           "ISINCode": "TWTXO710AP28",
@@ -80522,6 +81626,18 @@
           "code": "TXO17100R2",
           "ISINCode": "TWTXO710AR26",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價17150,賣權",
+          "code": "TXO17150P2",
+          "ISINCode": "TWTXO715AP23",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPEICS",
@@ -80590,6 +81706,18 @@
           "interest": ""
         },
         {
+          "name": "臺指選擇權,2022/04,履約價17250,賣權",
+          "code": "TXO17250P2",
+          "ISINCode": "TWTXO725AP21",
+          "listedDate": "2022/04/13",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
           "name": "臺指選擇權,2022/04,履約價17300,賣權",
           "code": "TXO17300P2",
           "ISINCode": "TWTXO730AP24",
@@ -80618,6 +81746,18 @@
           "code": "TXO17300R2",
           "ISINCode": "TWTXO730AR22",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價17350,賣權",
+          "code": "TXO17350P2",
+          "ISINCode": "TWTXO735AP29",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPEICS",
@@ -80678,6 +81818,18 @@
           "code": "TXO17400X2",
           "ISINCode": "TWTXO740AX22",
           "listedDate": "2022/03/17",
+          "market": "期貨及選擇權",
+          "industry": "",
+          "CFICode": "OPEICS",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "臺指選擇權,2022/04,履約價17450,賣權",
+          "code": "TXO17450P2",
+          "ISINCode": "TWTXO745AP27",
+          "listedDate": "2022/04/13",
           "market": "期貨及選擇權",
           "industry": "",
           "CFICode": "OPEICS",

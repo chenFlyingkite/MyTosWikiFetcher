@@ -140,8 +140,10 @@ public class TWSEStockFetcher {
         //L.log("doc = %s", doc);
         clock.tic();
         TWEquityList ans = TWSEGet.me.parseEquityList(doc, type);
-        clock.tac("parseEquityList OK, %s", link);
-        ans.print();
+        long ms = clock.tac("parseEquityList OK, %s", link);
+        // print to log
+        mLf.log("[%s] : parseEquityList OK, %s", ms, link);
+        ans.print(mLf);
         return ans;
     }
 
@@ -151,12 +153,14 @@ public class TWSEStockFetcher {
 
     private void parse() {
         clock.tic();
+        mLf.getFile().open(false);
         if (1 > 0) {
             // database
             loadAllISINCode(); // < 30 second
             loadAllDividend(); // ~70min
         }
         loadPrices();
+        mLf.getFile().close();
         //YahooGet.me.getPrices("1907.TW"); // 永豐餘 only
         //YahooGet.me.getPrices("2910.TW");
         clock.tac("TWSEStockFetcher parse OK");
@@ -257,7 +261,7 @@ public class TWSEStockFetcher {
                 price.name = ei.name;
                 price.trim();
                 if (log) {
-                    L.log("price #%s (%s) = %s", j, ei.code, gson.toJson(price));
+                    mLf.log("price #%s (%s) = %s", j, ei.code, gson.toJson(price));
                 }
                 allPrices.add(price);
             }
@@ -265,9 +269,9 @@ public class TWSEStockFetcher {
         }
         FetcherUtil.saveAsJson(allPrices, pricePath());
         int count = allPrices.size() - 1;
-        L.log("%d tasks", count);
-        L.log("time dividend = %s, avg = %s", msDividend, 1.0 * msDividend / count);
-        L.log("time prices = %s, avg = %s", msPrices, 1.0 * msPrices / count);
+        mLf.log("%d tasks", count);
+        mLf.log("time dividend = %s, avg = %s", msDividend, 1.0 * msDividend / count);
+        mLf.log("time prices = %s, avg = %s", msPrices, 1.0 * msPrices / count);
         clock.tac("loadAllDividend OK");
     }
 
@@ -290,7 +294,7 @@ public class TWSEStockFetcher {
         // load Yahoo stock prices
         YHStockPrice[] prices = loadPriceFromFile();
         n = prices.length;
-        L.log("%s prices", n);
+        mLf.log("%s prices", n);
         for (int i = 0; i < n; i++) {
             YHStockPrice p = prices[i];
             if (TextUtil.isEmpty(p.code)) {
@@ -298,7 +302,7 @@ public class TWSEStockFetcher {
                 priceMap.put(p.code, p);
             }
             String s = gson.toJson(p);
-            L.log("#%d = %s", i, s);
+            mLf.log("#%d = %s", i, s);
         }
 
         // load dividend
@@ -312,23 +316,23 @@ public class TWSEStockFetcher {
             }
         }
         n = dividends.size();
-        L.log("%s dividends", n);
+        mLf.log("%s dividends", n);
         clock.tic();
         String year = "2020";
         List<YHDividend> sorted = sortYearDividend(year, dividends, priceMap);
         FetcherUtil.saveAsJson(sorted, FOLDER, "dividend/sorted_" + year + ".json");
-        L.log("sortYearDividend %s, %s items", year, sorted.size());
+        mLf.log("sortYearDividend %s, %s items", year, sorted.size());
         for (int i = 0; i < sorted.size(); i++) {
             YHDividend di = sorted.get(i);
-            L.log("#%d : note = %s, (now = %s), %s", i, di.note, closePrice(di, priceMap), di);
+            mLf.log("#%d : note = %s, (now = %s), %s", i, di.note, closePrice(di, priceMap), di);
         }
         //--
         List<YHStockPrice> prices2 = new ArrayList<>(priceMap.values());//loadPriceFromFile();
         prices2 = sortPrice(prices2);
-        L.log("YHStockPrice %s prices", prices2.size());
+        mLf.log("YHStockPrice %s prices", prices2.size());
         for (int i = 0; i < prices2.size(); i++) {
             YHStockPrice p = prices2.get(i);
-            L.log("#%d : %s", i, gson.toJson(p));
+            mLf.log("#%d : %s", i, gson.toJson(p));
         }
     }
 
