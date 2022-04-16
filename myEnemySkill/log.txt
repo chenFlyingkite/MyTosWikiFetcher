@@ -5988,7 +5988,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  敵技5594 : [0]  ->  ->  -> 
 --  #{{ES5594}}  5595 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5594?action=edit
 --  #敵技5595  E : [0]  ->  ->  -> 
---  #5596  {{ES5596}} : [0]  -> 敵技5596 -> • 3 回合內，<br>全隊攻擊力減至 1% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5596
+--  #5596  {{ES5596}} : [1]  -> (3回弱攻99%) -> • 3 回合內，<br>全隊攻擊力減至 1% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5596
 --  #E  敵技5597 : [0]  ->  ->  -> 
 --  #{{ES5597}}  5598 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5597?action=edit
 --  #敵技5598  E : [0]  ->  ->  -> 
