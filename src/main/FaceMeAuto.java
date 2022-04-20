@@ -52,6 +52,11 @@ public class FaceMeAuto {
                 paths.add(new CopyInfo(p, newP));
             }
         }
+        // copy classs.jar to clrtc.jar
+        File clazzJar = new File(nile + "/clrtc/build/outputs/aar/clrtc-release/classes.jar");
+        File clrtcJar = new File(fintech + "/fintechsdk/libs/clrtc.jar");
+        CopyInfo c = new CopyInfo(clazzJar, clrtcJar);
+        paths.add(c);
 
         // perform copy, 50% time
         for (int i = 0; i < paths.size(); i++) {
@@ -61,10 +66,11 @@ public class FaceMeAuto {
             FileUtil.copy(source, target);
             L.log("#%2d copy: %s\n    to -> %s", i, source, target);
         }
+
     }
 
     public static void faceMeFintechBuild() {
-        int appRevisionInSR = 62307;
+        int appRevisionInSR = 62495;
         String appVersionName = "5.0.0";
         // from invitation link, permalink
         // Click FaceMe®Fintech - 5.0.0 > Invitation permalink

@@ -476,6 +476,14 @@ open class CopyInfo {
     }
 
     constructor(src: String, dst: String) {
+        init(src, dst)
+    }
+
+    constructor(src: File, dst: File) {
+        init(src.absolutePath, dst.absolutePath)
+    }
+
+    private fun init(src: String, dst: String) {
         var f:File?
         f = File(src)
         srcFolder = f.parent

@@ -1,6 +1,5 @@
 package main.twse;
 
-import flyingkite.log.L;
 import flyingkite.log.LF;
 
 import java.util.ArrayList;
