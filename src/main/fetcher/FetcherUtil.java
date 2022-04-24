@@ -7,10 +7,15 @@ import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 
 public class FetcherUtil {
+    public static boolean pretty = true;
 
     public static void overwriteFileJsonPrettyPrinting(Object obj, LF lf) {
         lf.getFile().open(false);
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        GsonBuilder gb = new GsonBuilder();
+        if (pretty) {
+            gb.setPrettyPrinting();
+        }
+        Gson gson = gb.create();
         GsonUtil.writeFile(lf.getFile().getFile(), gson.toJson(obj));
         lf.getFile().close();
     }

@@ -13,6 +13,9 @@ public class THSRStation implements Comparable<THSRStation> {
 
     public String name;
 
+    public static final List<String> allSouthboundStationsZh = new ArrayList<>();
+    public static final List<String> allSouthboundStationsEn = new ArrayList<>();
+
     @Override
     public String toString() {
         return name;

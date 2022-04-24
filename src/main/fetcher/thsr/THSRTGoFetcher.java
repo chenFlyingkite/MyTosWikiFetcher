@@ -4,6 +4,7 @@ import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
 import flyingkite.tool.TicTac2;
+import main.fetcher.FetcherUtil;
 import main.fetcher.data.thsr.THSRFare;
 import main.fetcher.data.thsr.THSRTimeTable;
 import main.fetcher.web.OnWebLfTT;
@@ -44,15 +45,27 @@ public class THSRTGoFetcher {
     }
 
     private void parse2020() {
+        final String thsrRes = "thsrRes";
         File[] fs = {
-              new File("thsrRes", "2022/20220104_TVMs_manual.txt")
-            , new File("thsrRes", "2022/2022_MothersDay.txt")
-            , new File("thsrRes", "2022/2022_LaborDay.txt")
+              new File(thsrRes, "2022/20220104_TVMs_manual.txt")
+            , new File(thsrRes, "2022/2022_MothersDay.txt")
+            , new File(thsrRes, "2022/2022_LaborDay.txt")
         };
+        String[] nameTable = {"2022/1/4 起適用時刻表", "母親節假期時刻表", "勞動節假期時刻表",};
+        String[] startDate = {"2022/01/04", "2022/05/06", "2022/04/29",};
+        String[] endDate   = {"2030/01/04", "2022/05/09", "2022/05/03",};
         for (int i = 0; i < fs.length; i++) {
             File f = fs[i];
             L.log("parse file[%s] = %s", i, f.getAbsolutePath());
-            new THSRTimeTable().parse(f);
+            THSRTimeTable time = new THSRTimeTable();
+            time.name = nameTable[i];
+            time.startDate = startDate[i];
+            time.endDate = endDate[i];
+            time.parse(f);
+            L.log("timeTable = %s", time);
+            FetcherUtil.pretty = false;
+            FetcherUtil.saveAsJson(time, thsrRes, i + ".txt");
+            FetcherUtil.pretty = true;
         }
 
     }

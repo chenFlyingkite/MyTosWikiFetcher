@@ -25,6 +25,7 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 // 台灣銀行
@@ -267,6 +268,12 @@ public class TWSEStockFetcher {
                 int n = preview == 0 ? eqs.size() : preview;
                 for (int j = 0; j < n; j++) {
                     TWEquity ei = eqs.get(j);
+                    boolean ok = isFutureListedDate(ei);
+                    if (!ok) {
+                        L.log("future listed date %s", ei);
+                        continue;
+                    }
+
                     String symbol = ei.getSymbol();
                     clock.tic();
                     YHDividend div = YahooGet.me.getDividend(ei.code);
@@ -303,6 +310,33 @@ public class TWSEStockFetcher {
             mLf.log("%d prices", allPrices.size() - 1);
         }
         clock.tac("loadAllDividend OK");
+    }
+
+    private boolean isFutureListedDate(TWEquity e) {
+        Date listD = readyyyyMMdd(e.listedDate, "/");
+        return listD.before(new Date());
+    }
+
+    private Date readyyyyMMdd(String str, String del) {
+        String[] rs = str.split("" + del);
+        Date ans = new Date();
+        ans.setHours(0);
+        ans.setMinutes(0);
+        ans.setSeconds(0);
+        int n = rs.length;
+        if (n > 0) {
+            int y = asD(rs[0]);
+            ans.setYear(y - 1900);
+        }
+        if (n > 1) {
+            int m = asD(rs[1]);
+            ans.setMonth(m - 1);
+        }
+        if (n > 2) {
+            int d = asD(rs[2]);
+            ans.setDate(d);
+        }
+        return ans;
     }
 
     private YHStockPrice[] loadPriceFromFile() {
@@ -421,6 +455,16 @@ public class TWSEStockFetcher {
         });
         clock.tac("ExDividendDate %s year sorted OK", year);
         FetcherUtil.saveAsJson(dividends, FOLDER, "dividend/sorted_exDividend_" + year + ".json");
+        List<String> simple = new ArrayList<>();
+        for (int i = 0; i < dividends.size(); i++) {
+            YHDividend yi = dividends.get(i);
+            YHYearDiv yd = yi.getYHDiv(year);
+            String date = yd == null ? "9999/12/31" : yd.exDividendDate;
+            TWEquity eq = yi.equity;
+            String s = String.format(Locale.US, "%s,%s,%s,%s", eq.code, eq.name, eq.market, date);
+            simple.add(s);
+        }
+        FetcherUtil.saveAsJson(simple, FOLDER, "dividend/sorted_exDividend_" + year + "_simple.txt");
         return dividends;
     }
 
@@ -483,6 +527,16 @@ public class TWSEStockFetcher {
             return Double.parseDouble(s);
         } catch (NumberFormatException e) {
             //L.log("no double for %s", s);
+            return 0;
+        }
+    }
+
+
+    private int asD(String s) {
+        try {
+            return Integer.parseInt(s);
+        } catch (NumberFormatException e) {
+            //L.log("no int for %s", s);
             return 0;
         }
     }

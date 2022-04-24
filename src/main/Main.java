@@ -33,6 +33,7 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
+import main.fetcher.thsr.THSRTGoFetcher;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
 import main.twse.TWSEStockFetcher;
@@ -54,8 +55,7 @@ public class Main {
         //copyToMyTosWiki();
         //enterUID();
         //stock();
-        //THSRTGoFetcher.main(null);
-        //SMSReader
+        //taiwanHighSpeedRail();
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -173,6 +173,10 @@ public class Main {
         } catch (AWTException e) {
             e.printStackTrace();
         }
+    }
+
+    private static void taiwanHighSpeedRail() {
+        THSRTGoFetcher.main(null);
     }
 
     // https://stackoverflow.com/questions/23157653/drawviewhierarchyinrectafterscreenupdates-delays-other-animations
