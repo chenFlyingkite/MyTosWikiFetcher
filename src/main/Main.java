@@ -2,6 +2,7 @@ package main;
 
 import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
+import flyingkite.gov.moi.NationalIDCard;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.create.PngCreateRequest;
 import flyingkite.javaxlibrary.images.create.PngCreator;
@@ -51,7 +52,7 @@ public class Main {
     public static void main(String[] args) {
         L.log("Main, %s", now());
         //-- Main work
-        fetch(0); // x <= 0 : run TosCardExtras
+        //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //stock();
@@ -101,6 +102,7 @@ public class Main {
 
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
+        NationalIDCard.testCases();
     }
 
     private static void getIP() {
