@@ -8,6 +8,10 @@ public class MathUtil {
         return min <= value && value < max;
     }
 
+    public static boolean isInRangeInclusive(char value, char min, char max) {
+        return min <= value && value <= max;
+    }
+
     /**
      * @return true if min &le; value &lt; max, false otherwise
      */

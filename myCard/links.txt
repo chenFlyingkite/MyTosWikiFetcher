@@ -16452,6 +16452,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2754"
   },
   {
+    "title": "No. 2755 水舞劍神 ‧ 瑪德琳",
+    "id": "2755",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E8%88%9E%E5%8A%8D%E7%A5%9E_%E2%80%A7_%E7%91%AA%E5%BE%B7%E7%90%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/2755"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -17172,6 +17178,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10106"
   },
   {
+    "title": "No. 10107 裙下殺意 ‧ 朱莉",
+    "id": "10107",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%A3%99%E4%B8%8B%E6%AE%BA%E6%84%8F_%E2%80%A7_%E6%9C%B1%E8%8E%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10107"
+  },
+  {
     "title": "No. 10108 終身契守 ‧ 和謹",
     "id": "10108",
     "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E8%BA%AB%E5%A5%91%E5%AE%88_%E2%80%A7_%E5%92%8C%E8%AC%B9",
@@ -17770,6 +17782,48 @@
     "id": "10210",
     "link": "https://tos.fandom.com/zh/wiki/%E6%A9%AB%E8%A1%9D%E7%9B%B4%E6%92%9E_%E2%80%A7_%E8%90%8C%E8%90%8C",
     "linkId": "http://zh.tos.wikia.com/wiki/10210"
+  },
+  {
+    "title": "No. 10229 狂熱粉絲三人組",
+    "id": "10229",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E7%86%B1%E7%B2%89%E7%B5%B2%E4%B8%89%E4%BA%BA%E7%B5%84",
+    "linkId": "http://zh.tos.wikia.com/wiki/10229"
+  },
+  {
+    "title": "No. 10230 至萌團寵 ‧ 卑彌呼",
+    "id": "10230",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%87%B3%E8%90%8C%E5%9C%98%E5%AF%B5_%E2%80%A7_%E5%8D%91%E5%BD%8C%E5%91%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10230"
+  },
+  {
+    "title": "No. 10231 魄力領舞 ‧ 烏瑞亞",
+    "id": "10231",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%84%E5%8A%9B%E9%A0%98%E8%88%9E_%E2%80%A7_%E7%83%8F%E7%91%9E%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10231"
+  },
+  {
+    "title": "No. 10232 閃亮領唱 ‧ 維珍尼亞",
+    "id": "10232",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%96%83%E4%BA%AE%E9%A0%98%E5%94%B1_%E2%80%A7_%E7%B6%AD%E7%8F%8D%E5%B0%BC%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10232"
+  },
+  {
+    "title": "No. 10233 壓台主音 ‧ 艾莉亞",
+    "id": "10233",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A3%93%E5%8F%B0%E4%B8%BB%E9%9F%B3_%E2%80%A7_%E8%89%BE%E8%8E%89%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10233"
+  },
+  {
+    "title": "No. 10234 天團領袖 ‧ 珞答以",
+    "id": "10234",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E5%9C%98%E9%A0%98%E8%A2%96_%E2%80%A7_%E7%8F%9E%E7%AD%94%E4%BB%A5",
+    "linkId": "http://zh.tos.wikia.com/wiki/10234"
+  },
+  {
+    "title": "No. 10238 重義情全 ‧ 西奧",
+    "id": "10238",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%87%8D%E7%BE%A9%E6%83%85%E5%85%A8_%E2%80%A7_%E8%A5%BF%E5%A5%A7",
+    "linkId": "http://zh.tos.wikia.com/wiki/10238"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

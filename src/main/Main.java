@@ -2,7 +2,6 @@ package main;
 
 import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
-import flyingkite.gov.moi.NationalIDCard;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.create.PngCreateRequest;
 import flyingkite.javaxlibrary.images.create.PngCreator;
@@ -81,12 +80,12 @@ public class Main {
 
 
         //TosCardInfos.me.run(); // creating evolution info
-        L.log("Done, %s", now());
         //new LeetCode().run();
         //PngCreator.me.moveImage();
         //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01"); // windows
         //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/PHD_M03"); // mac mini
         a();
+        L.log("Done, %s", now());
     }
 
     private static void a() {
@@ -100,9 +99,10 @@ public class Main {
         // https://gift4u.tosgame.com/tutorial
         // https://jumbodraw.tosgame.com/
 
+        //new NationalIDCard().testCases();
+
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
-        NationalIDCard.testCases();
     }
 
     private static void getIP() {
