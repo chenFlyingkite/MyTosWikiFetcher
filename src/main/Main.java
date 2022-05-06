@@ -54,7 +54,7 @@ public class Main {
         //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
-        //stock();
+        stock();
         //taiwanHighSpeedRail();
 
         //LiveAHeroMain.main(null);
@@ -103,6 +103,14 @@ public class Main {
 
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
+    }
+
+    private static void listFiles(String path) {
+        List<File> fs = FileUtil.listAllFiles(new File(path));
+        for (int i = 0; i < fs.size(); i++) {
+            File f = fs.get(i);
+            L.log("%s. %s", i+1, f.getName());
+        }
     }
 
     private static void getIP() {
@@ -155,23 +163,23 @@ public class Main {
             r.delay(5_000);
             r.type("36.1");
             // Forehead temperature, Ear temperature  Others
-            r.keyClick(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_TAB);
             if (type == 1) {
-                r.keyClick(KeyEvent.VK_RIGHT);
+                r.keySend(KeyEvent.VK_RIGHT);
             }
-            r.keyClick(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_SPACE);
             // syndromes
-            r.keyClick(KeyEvent.VK_TAB);
-            r.keyClick(KeyEvent.VK_SPACE);
-            r.keyClick(KeyEvent.VK_TAB);
-            r.keyClick(KeyEvent.VK_SPACE);
-            r.keyClick(KeyEvent.VK_TAB);
-            r.keyClick(KeyEvent.VK_SPACE);
-            r.keyClick(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_TAB);
             if (isClockOut) {
-                r.keyClick(KeyEvent.VK_TAB);
+                r.keySend(KeyEvent.VK_TAB);
             }
-            r.keyClick(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_SPACE);
         } catch (AWTException e) {
             e.printStackTrace();
         }
@@ -432,9 +440,10 @@ public class Main {
         try {
             Robot2 r = new Robot2();
             r.delay(3_000);
-            // true = UID & ctrl+v, false = UID
+            // true = ids + more + (ctrl+v), false = ids + more
             boolean paste = 0 > 0;
             String more = "";
+
             String[] ids = {
                     "199215954",
                     "150372202",
@@ -447,13 +456,12 @@ public class Main {
                     "200172730",
                     "512617371",
             };
-
             for (String s : ids) {
                 String t = s + more;
                 if (paste) {
                     r.type(t + " ");
                     r.paste();
-                    r.keyClick(KeyEvent.VK_ENTER);
+                    r.keySend(KeyEvent.VK_ENTER);
                 } else {
                     r.enter(t);
                 }

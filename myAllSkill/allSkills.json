@@ -4272,6 +4272,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "全能守護者",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A8%E8%83%BD%E5%AE%88%E8%AD%B7%E8%80%85",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 8 倍、 生命力及回復力 1.5 倍 II. 通過「旅人的記憶」故事模式內的 指定關卡、初級、中級或高級關卡後 ⇒ 額外獲得 1 個道具 III. 通關經驗值 1.1 倍 IV. 通關金幣 1.1 倍",
+    "skillMonsters": [
+      "2771"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "全能量 100% 中的 100%",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A8%E8%83%BD%E9%87%8F_100%25_%E4%B8%AD%E7%9A%84_100%25",
@@ -22181,6 +22192,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "激盪的血腥",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%BF%80%E7%9B%AA%E7%9A%84%E8%A1%80%E8%85%A5",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落強化符石 II. 若隊中有 ≥3 種族成員 ⇒ 自身技能 CD -2 1 回合內 III. 火符石效果提升 50% IV. 火符石首批 1 粒 ⇒ 即可發動消除",
+    "skillMonsters": [
+      "10243"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "瀝血之授",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%80%9D%E8%A1%80%E4%B9%8B%E6%8E%88",
     "skillCDMin": 17,
@@ -38367,6 +38389,17 @@
     "skillDesc": "對敵方全體造成 5 倍光屬性傷害，此傷害無視防禦力",
     "skillMonsters": [
       "1589"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "遠目之擊 ‧ 電殛",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%81%A0%E7%9B%AE%E4%B9%8B%E6%93%8A_%E2%80%A7_%E9%9B%BB%E6%AE%9B",
+    "skillCDMin": 19,
+    "skillCDMax": 5,
+    "skillDesc": "發動技能及每進入下一層數 (Wave) 時 ⇒ 對敵方全體造成自身攻擊力基值 500 倍的光屬性傷害， 此傷害無視防禦力及「強化突破」 (效果會在關閉此技能或死亡後消失) 關閉技能時： ⓵ 移除所有符石 ⇒ 掉落「五屬及心」強化符石",
+    "skillMonsters": [
+      "2771"
     ]
   },
   {

@@ -16458,6 +16458,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2755"
   },
   {
+    "title": "No. 2771 塔之守護者 ‧ Terry",
+    "id": "2771",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A1%94%E4%B9%8B%E5%AE%88%E8%AD%B7%E8%80%85_%E2%80%A7_Terry",
+    "linkId": "http://zh.tos.wikia.com/wiki/2771"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -17824,6 +17830,12 @@
     "id": "10238",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8D%E7%BE%A9%E6%83%85%E5%85%A8_%E2%80%A7_%E8%A5%BF%E5%A5%A7",
     "linkId": "http://zh.tos.wikia.com/wiki/10238"
+  },
+  {
+    "title": "No. 10243 混種異魔 ‧ 納貝流士",
+    "id": "10243",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B7%B7%E7%A8%AE%E7%95%B0%E9%AD%94_%E2%80%A7_%E7%B4%8D%E8%B2%9D%E6%B5%81%E5%A3%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/10243"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
