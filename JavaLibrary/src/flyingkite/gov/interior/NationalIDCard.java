@@ -1,4 +1,4 @@
-package flyingkite.gov.moi;
+package flyingkite.gov.interior;
 
 import flyingkite.log.L;
 import flyingkite.math.MathUtil;
@@ -18,7 +18,7 @@ import java.util.Map;
 // test
 // http://120.105.184.250/peiyuli/lesson-40.htm
 public class NationalIDCard {
-    public static NationalIDCard me = new NationalIDCard();
+    public static final NationalIDCard me = new NationalIDCard();
 
     // Family register
     // Household Registration,
@@ -33,8 +33,8 @@ public class NationalIDCard {
     private boolean log = false;
 
     public void testCases() {
-        testPossible();
-        testIsValid();
+//        testPossible();
+//        testIsValid();
     }
 
     private void testPossible() {
@@ -249,11 +249,6 @@ public class NationalIDCard {
             int k = cs[i] - '0';
             val[i+1] = k;
         }
-        // 10123456789
-//        } else if (n == 11) {
-//            for (int i = 0; i < n; i++) {
-//                val[i] = cs[i] - '0';
-//            }
 
         // evaluation check value
         int check = getCheck(val);

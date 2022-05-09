@@ -8,6 +8,7 @@ import flyingkite.tool.TicTac2;
 
 import java.awt.Point;
 import java.io.File;
+import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -305,7 +306,7 @@ public class FileUtil {
         L.log("%s images", n);
         for (int i = 0; i < n; i++) {
             File fi = all.get(i);
-            Point p = getSize(fi);
+            Point p = getImageSize(fi);
             L.log("#%4d = %dx%d", i, p.x, p.y);
             L.log("   %s", fi);
         }
@@ -320,7 +321,7 @@ public class FileUtil {
     }
 
     // Using ImageIO.read(file) isOK, but slower slightly
-    public static Point getSize(File file) {
+    public static Point getImageSize(File file) {
         String ext = getExtension(file);
         Iterator<ImageReader> readers = ImageIO.getImageReadersBySuffix(ext);
 
@@ -338,10 +339,41 @@ public class FileUtil {
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
+
                 r.dispose();
             }
         }
         return p;
+    }
+
+    public static List<File> listFilesExt(File src, String[] exts) {
+        TicTac2 t = new TicTac2();
+        t.tic();
+        List<File> all = new ArrayList<>();
+        File[] found = src.listFiles(new FileFilter() {
+            @Override
+            public boolean accept(File pathname) {
+                String path = pathname.getAbsolutePath();
+                for (int i = 0; i < exts.length; i++) {
+                    if (path.endsWith(exts[i])) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+        });
+        int size = -1;
+        if (found != null) {
+            size = found.length;
+            for (int i = 0; i < found.length; i++) {
+                L.log("#%s : %s", i, found[i]);
+                all.add(found[i]);
+            }
+        }
+        t.tac("found %d items in %s", size, src);
+
+        //sortByPath(all);
+        return all;
     }
 
     public static List<File> listItems(String src, String[] exts) {
