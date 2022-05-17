@@ -11,9 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FaceMeAuto {
-    private static TicTac2 clk = new TicTac2();
+    private static final TicTac2 clk = new TicTac2();
     public static void replaceFintechNile() {
-        String nile_src = "D:/FaceMeFintechSDK_Android/Fintech_Nile2";
+        //String nile_src = "D:/FaceMeFintechSDK_Android/Fintech_Nile2";
+        String nile_src = "D:/FaceMeFintechSDK_Android/Nile_01";
         String fsdk_dst = "D:/FaceMeFintechSDK_Android/SA_02";
         clk.tic();
         unzipFaceMeNile(nile_src); // 84% time
@@ -70,11 +71,11 @@ public class FaceMeAuto {
     }
 
     public static void faceMeFintechBuild() {
-        int appRevisionInSR = 62495;
-        String appVersionName = "5.0.0";
+        int appRevisionInSR = 63010;
+        String appVersionName = "5.1.0";
         // from invitation link, permalink
         // Click FaceMe®Fintech - 5.0.0 > Invitation permalink
-        String testFairyUrl = "https://my.testfairy.com/download/74W3JCSP64TJTD1J68WKJCHM60V2V2NJN6ZQPJ4TKGWWNZH0QBNQVZQCFH5DY/getapp";
+        String testFairyUrl = "https://my.testfairy.com/download/74WKAC9J60W2TD1J68WKJCHM60V2T5GFM3T6XAD40QV041KJPAZBN65DP3D16/getapp";
 
         L.log("U-Message send following both in chats and board :\n");
         L.log("FaceMe Fintech SDK Android Demo %s_r%s", appVersionName, appRevisionInSR);
