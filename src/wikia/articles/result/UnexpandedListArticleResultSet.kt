@@ -9,13 +9,14 @@ import wikia.articles.UnexpandedArticle
  */
 open class UnexpandedListArticleResultSet (
     @SerializedName("items")
-    val items: Array<UnexpandedArticle>? = null
+    var items: List<UnexpandedArticle> = arrayListOf()
+        // Array<UnexpandedArticle>? = null
     ,
     @SerializedName("offset")
-    val offset: String? = null
+    var offset: String? = null
     ,
     @SerializedName("basepath")
-    val basePath: String? = null
+    var basePath: String? = null
 ){
     /*
     @SerializedName("items")

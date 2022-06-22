@@ -15,6 +15,8 @@ import main.fetcher.web.WebFetcher;
 import main.kt.TWSEGet;
 import main.kt.YahooGet;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -58,6 +60,51 @@ public class TWSEStockFetcher {
     // https://pchome.megatime.com.tw/group/mkt0/cid05_2.html
     // 上櫃/興櫃公司專區 > 上櫃/興櫃公司資訊 > 上櫃公司資訊查詢
     // https://www.tpex.org.tw/web/regular_emerging/corporateInfo/regular/regular_stock.php?l=zh-tw
+
+    // 本國指數國際證券辨識號碼一覽表
+    // https://isin.twse.com.tw/isin/C_public.jsp?strMode=11
+    private TWEquityList getSuspendListing() {
+        String link = "https://www.twse.com.tw/company/suspendListingCsvAndHtml?type=html&selectYear=&lang=zh";
+        Document doc = fetcher.getDocument(link);
+        clock.tic();
+        TWEquityList ans = new TWEquityList();
+        ans.list = new ArrayList<>();
+        TWEquityItem it = new TWEquityItem();
+        ans.list.add(it);
+        String now = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+        ans.version = now;
+        it.name = "終止上市公司";
+        List<TWEquity> li = it.list;
+
+        Element bd = doc.getElementsByTag("tbody").get(0);
+        Elements tds = bd.getElementsByTag("td");
+        Element e;
+        for (int i = 0; i < tds.size(); i++) {
+            TWEquity tw = new TWEquity();
+            e = tds.get(i);
+            tw.remarks = e.text();
+            i++;
+            if (i < tds.size()) {
+                e = tds.get(i);
+                tw.name = e.text();
+            }
+            i++;
+            if (i < tds.size()) {
+                e = tds.get(i);
+                tw.code = e.text();
+            }
+            li.add(tw);
+        }
+        long ms = clock.tac("parseEquityList OK, %s", link);
+        // print to log
+        mLf.log("[%s] : parseEquityList OK, %s", ms, link);
+        ans.print(mLf);
+//        for (int i = 0; i < it.list.size(); i++) {
+//            TWEquity t = it.list.get(i);
+//            L.log("#%s : %s", i, t);
+//        }
+        return ans;
+    }
 
     // 本國未上市，未上櫃公開發行證券，國際證券辨識號碼一覽表
     // https://isin.twse.com.tw/isin/C_public.jsp?strMode=1
@@ -175,6 +222,7 @@ public class TWSEStockFetcher {
     // Load all ISIN code and put into allTWEquity
     private void loadAllISINCode(boolean web) {
         clock.tic();
+        fetchWebSuspendListingCompany();
         for (int i = 1; i <= 11; i++) {
             TWEquityList li;
             boolean notFetched = !ISINFile(i).exists();
@@ -187,6 +235,18 @@ public class TWSEStockFetcher {
             allTWEquity.put(i, li);
         }
         clock.tac("loadAllISINCode OK");
+    }
+
+
+    // get isin code from web and save as file
+    private TWEquityList fetchWebSuspendListingCompany() {
+        clock.tic();
+        TWEquityList list = getSuspendListing();
+        // save isin code as json
+        FetcherUtil.saveAsJson(list, FOLDER, getISINFilename(-1));
+        // print as simple csv, No need
+        clock.tac("fetchWebSuspendListingCompany OK");
+        return null;
     }
 
     private File ISINFile(int type) {

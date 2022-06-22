@@ -39,7 +39,7 @@ public class TosWikiIconFetcher extends TosWikiBaseFetcher {
         // For the category, ns = 14 (http://towerofsaviors.wikia.com/wiki/Category:Skill_Icons)
         // http://community.wikia.com/wiki/Help:Namespaces
         for (int i = rng.min; i < rng.max; i++) {
-            UnexpandedArticle a = set.getItems()[i];
+            UnexpandedArticle a = set.getItems().get(i);
             String link = set.getBasePath() + "" + a.getUrl();
             Lf.log("#%s -> %s", i, link);
 

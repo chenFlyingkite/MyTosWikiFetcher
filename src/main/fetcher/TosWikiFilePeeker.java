@@ -1,13 +1,5 @@
 package main.fetcher;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.TicTac2;
@@ -15,6 +7,14 @@ import main.kt.TosGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import wikia.articles.UnexpandedArticle;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class TosWikiFilePeeker extends TosWikiBaseFetcher {
     public static final TosWikiFilePeeker me = new TosWikiFilePeeker();
@@ -51,7 +51,7 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher {
         ResultSet set = getApiResults();
         if (!hasResult(set)) return;
 
-        int size = set.getItems().length;
+        int size = set.getItems().size();
 
         TicTac2 tt = clock;
 
@@ -139,9 +139,9 @@ public class TosWikiFilePeeker extends TosWikiBaseFetcher {
 
             Map<String, List<String>> user = new HashMap<>();
             int ok = 0;
-            int endd = Math.min(end, set.getItems().length);
+            int endd = Math.min(end, set.getItems().size());
             for (int i = from; i < endd; i++) {
-                UnexpandedArticle a = set.getItems()[i];
+                UnexpandedArticle a = set.getItems().get(i);
                 String link = set.getBasePath() + "" + a.getUrl();
                 String lnk = link;//.toLowerCase();
                 boolean isImage = lnk.contains(".png") || lnk.contains(".jpg");

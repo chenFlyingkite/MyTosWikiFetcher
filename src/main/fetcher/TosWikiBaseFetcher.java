@@ -48,6 +48,8 @@ public class TosWikiBaseFetcher implements Runnable {
 
     public static final String zhApi1 = wikiBaseZh + "/api/v1";
     public static final String enApi1 = wikiBaseEn + "/api/v1";
+    public static final String zhWiki = wikiBaseZh + "/zh/wiki/"; // https://tos.fandom.com/zh/wiki
+
 
     protected final TicTac2 clock = new TicTac2();
 
@@ -72,6 +74,75 @@ public class TosWikiBaseFetcher implements Runnable {
 
     protected final boolean hasResult(ResultSet s) {
         return s != null && s.getItems() != null;
+    }
+
+
+    public ResultSet getApiResultsOffset() {
+        return getApiResultsOffset(getAPILink(), getHttpLF());
+    }
+
+    public ResultSet getApiResultsOffset(final String apiLink, final LF apiLf) {
+        if (apiLf == null || TextUtil.isEmpty(apiLink)) return null;
+
+        // Delete the log file
+        apiLf.getFile().delete().open();
+        apiLf.setLogToL(!mFetchAll);
+        apiLf.setLogToL(true);
+
+        OkHttpClient client = new OkHttpClient();
+        Request request = null;
+        ResultSet set = null;
+        ResultSet merged = new ResultSet();
+        try {
+            Response response;
+            ResponseBody body;
+            String apiNextLink = apiLink;
+
+            do {
+                // Step 1: Fetch all links from Wikia API
+                request = new Request.Builder().url(apiNextLink).build();
+                apiLf.log("Linking %s", apiNextLink);
+
+                onNewCallStart();
+                clock.tic();
+                response = client.newCall(request).execute();
+                clock.tac("response = %s", response);
+                apiLf.log("response = %s", response);
+                onNewCallEnded();
+
+                clock.tic();
+                body = response.body();
+                clock.tac("body = %s", body);
+                String s = "";
+                if (body != null) {
+                    s = body.string();
+                }
+
+                clock.tic();
+                set = mGson.fromJson(s, ResultSet.class);
+                clock.tac("from gson, %s", set);
+                apiLf.log("from gson, %s", set);
+                String offset = null;
+                if (set != null) {
+                    offset = set.getOffset();
+                    merged.getItems().addAll(set.getItems());
+                    if (TextUtil.isEmpty(merged.getBasePath())) {
+                        merged.setBasePath(set.getBasePath());
+                    }
+                }
+                if (offset != null) {
+                    apiNextLink = apiLink + "&offset=" + offset;
+                } else {
+                    apiNextLink = null;
+                }
+            } while (!TextUtil.isEmpty(apiNextLink));
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            apiLf.getFile().close();
+        }
+        apiLf.log("merged = %s, %s", merged.getItems().size(), merged);
+        return merged;
     }
 
     public ResultSet getApiResults() {
@@ -166,7 +237,7 @@ public class TosWikiBaseFetcher implements Runnable {
     protected final Range getRange(ResultSet set, int from, int prefetch) {
         // Step 2: Determine the range of parsing
         int min = 0;
-        int max = hasResult(set) ? set.getItems().length : 0;
+        int max = hasResult(set) ? set.getItems().size() : 0;
         if (!mFetchAll) {
             min = Math.max(min, from);
             max = Math.min(max, from + prefetch);
@@ -436,7 +507,7 @@ public class TosWikiBaseFetcher implements Runnable {
         if (useTest()) {
             link = s.links.get(i);
         } else {
-            UnexpandedArticle a = set.getItems()[i];
+            UnexpandedArticle a = set.getItems().get(i);
             link = set.getBasePath() + "" + a.getUrl();
         }
         return link;

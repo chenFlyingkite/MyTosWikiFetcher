@@ -51,11 +51,13 @@ public class Main {
     public static void main(String[] args) {
         L.log("Main, %s", now());
         //-- Main work
-        //fetch(0); // x <= 0 : run TosCardExtras
+        fetch(0); // x <= 0 : run TosCardExtras
+        //TosSkillFetcher.me.run();
         //copyToMyTosWiki();
         //enterUID();
-        stock();
+        //stock();
         //taiwanHighSpeedRail();
+        //TosCardFetcher.me.run();
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -99,10 +101,13 @@ public class Main {
         // https://gift4u.tosgame.com/tutorial
         // https://jumbodraw.tosgame.com/
 
-        //new NationalIDCard().testCases();
+        //NationalIDCard.me.testCases();
+        //TaxCalculator.me.test();
 
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
+        //listFiles();
+        //JudgementSearch.run();
     }
 
     private static void listFiles(String path) {
@@ -442,7 +447,7 @@ public class Main {
             r.delay(3_000);
             // true = ids + more + (ctrl+v), false = ids + more
             boolean paste = 0 > 0;
-            String more = "";
+            String more = ""; // " A"
 
             String[] ids = {
                     "199215954",
