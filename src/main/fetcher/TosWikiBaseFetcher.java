@@ -110,9 +110,7 @@ public class TosWikiBaseFetcher implements Runnable {
                 apiLf.log("response = %s", response);
                 onNewCallEnded();
 
-                clock.tic();
                 body = response.body();
-                clock.tac("body = %s", body);
                 String s = "";
                 if (body != null) {
                     s = body.string();

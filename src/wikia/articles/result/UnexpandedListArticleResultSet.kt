@@ -30,28 +30,6 @@ open class UnexpandedListArticleResultSet (
     */
 
     override fun toString() : String {
-        val size = items?.size ?: "N/A"
-
-        return "($size items, basePath = $basePath, offset = $offset)"
+        return "${items.size} items"
     }
 }
-
-// Should we use this?  But data class is final ...
-/*
-open class UnexpandedListArticleResultSet(
-        @SerializedName("items")
-        private val items: Array<UnexpandedArticle>? = null,
-
-        @SerializedName("offset")
-        private val offset: String? = null,
-
-        @SerializedName("basepath")
-        private val basePath: String? = null
-){
-
-    override fun toString() : String {
-        val size = items?.size ?: "N/A"
-        return "($size items, offset = $offset, basePath = $basePath)"
-    }
-}
-*/

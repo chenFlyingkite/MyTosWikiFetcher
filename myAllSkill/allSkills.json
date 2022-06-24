@@ -1400,6 +1400,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "人之復甦 ‧ 凝火壁",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E4%B9%8B%E5%BE%A9%E7%94%A6_%E2%80%A7_%E5%87%9D%E7%81%AB%E5%A3%81",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性成員攻擊力 3 倍 II. 人類成員回復力 3 倍 III. 消除 ≥3 種符石 ⇒ 全隊攻擊力額外 2 倍 IV. 受到攻擊時， 場上每有 1 粒火符石 ⇒ 減少 5% 所受傷害 ⇒ 最多可減少 30% 傷害",
+    "skillMonsters": [
+      "2768"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "人之祈願",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E4%B9%8B%E7%A5%88%E9%A1%98",
     "skillCDMin": -1,
@@ -3111,6 +3122,17 @@
     "skillDesc": "引爆所有符石以掉落強化符石，每引爆 1 種屬性符石，1 回合內自身攻擊力額外提升 1 倍，最多可提升至 6 倍；消除 5 種屬性符石時，自身主動技能 CD 減少 3",
     "skillMonsters": [
       "2011"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素支配",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E6%94%AF%E9%85%8D",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選元素法陣上的 1 種符石 ⇒ 將木以外符石轉化為該種強化符石 1 回合內 II. 回合結束時 ⇒ 將木以外符石轉化為該種強化符石 III. 全隊 ⓵ 攻擊力及回復力 1.5 倍 ⓶ 無視敵人防禦力",
+    "skillMonsters": [
+      "10274"
     ]
   },
   {
@@ -8998,6 +9020,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "天魔血道 ‧ 光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%AD%94%E8%A1%80%E9%81%93_%E2%80%A7_%E5%85%89",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 扣除 40% 生命力上限 II. 光屬性及魔族成員攻擊力 7 倍 III. 延長移動符石時間 7 秒 IV. 每首批消除 5 粒光符石 ⇒ 增加 1 連擊 (Combo)",
+    "skillMonsters": [
+      "2769"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "天魔道 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%AD%94%E9%81%93_%E2%80%A7_%E5%85%89",
     "skillCDMin": -1,
@@ -13298,6 +13331,17 @@
     "skillDesc": "隊中只有人類及魔族成員時： I. 全隊攻擊力 7 倍、 生命力及回復力 2 倍 II. 進入關卡後， ⇒ 人類成員技能 CD -2 III. 魔族成員以 50% 攻擊力追打 1 次",
     "skillMonsters": [
       "2710"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "戰國無束",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E5%9C%8B%E7%84%A1%E6%9D%9F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除【戰國】成員被封鎖的技能 (此技能無視封鎖技能) II. 若隊中只有魔族成員 ⇒ 解除「亡命爆擊」 1 回合內 III.【戰國】及魔族成員攻擊力 2.5 倍",
+    "skillMonsters": [
+      "2769"
     ]
   },
   {
@@ -17846,6 +17890,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "森濤化燄 ‧ 襲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E6%BF%A4%E5%8C%96%E7%87%84_%E2%80%A7_%E8%A5%B2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆水及木符石 ⇒ 掉落火人族強化符石 1 回合內 II. 增加 5 連擊 (Combo) III. 隊中每多 1 個 【戰國】成員 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 3 回合",
+    "skillMonsters": [
+      "2768"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "森濤泯滅 ‧ 洪火",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E6%BF%A4%E6%B3%AF%E6%BB%85_%E2%80%A7_%E6%B4%AA%E7%81%AB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落「火、光及暗」人族強化符石 1 回合內 II. 全隊攻擊力及回復力 1.6 倍 III. 若首批消除所有符石 ⇒ 回合結束時， 將所有符石轉化為火、光及暗符石",
+    "skillMonsters": [
+      "2767"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "森濤盡噬 ‧ 赤火",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A3%AE%E6%BF%A4%E7%9B%A1%E5%99%AC_%E2%80%A7_%E8%B5%A4%E7%81%AB",
     "skillCDMin": 17,
@@ -20146,6 +20212,17 @@
     "skillDesc": "發動此技能及下回合開始時， 將 10 粒「水及光以外」的符石 ⇒ 轉化為「水、光」人族強化符石各 5 粒",
     "skillMonsters": [
       "2277"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "水月破陣",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%9C%88%E7%A0%B4%E9%99%A3",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "2 回合內 I. 水屬性及人類成員 ⓵ 攻擊力 2 倍 ⓶ 無視「五屬盾」 II. 回合結束時， 將自身直行符石轉化為 ⇒ 水人族強化符石",
+    "skillMonsters": [
+      "2766"
     ]
   },
   {
@@ -25278,6 +25355,17 @@
     "skillMonsters": [
       "1473",
       "1474"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "燄刃襲 ‧ 戰魂",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%87%84%E5%88%83%E8%A5%B2_%E2%80%A7_%E6%88%B0%E9%AD%82",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有【戰國】或火屬性成員： I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍 II.【戰國】、人類及龍類成員 ⓵ 生命力額外 1.5 倍 ⓶ 攻擊力額外 3 倍 III. 必然延長移動符石時間 2 秒 IV. 合計消除 ≥6 粒火、光或暗符石 ⇒ 全隊攻擊力額外 3 倍",
+    "skillMonsters": [
+      "2767"
     ]
   },
   {

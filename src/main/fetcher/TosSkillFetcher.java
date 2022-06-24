@@ -26,7 +26,7 @@ public class TosSkillFetcher extends TosWikiBaseFetcher {
     private LF mLfSkills = new LF(folder, "allSkills.json");
     // 技能
     // Deprecated for UNSTABLE VALUE MISSING, 3896 ITEMS DROP TO 500 ITEMS
-    private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0";
+    private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0";
     private static List<SkillInfo> allSkills = new ArrayList<>();
     private File outJson = mLfSkills.getFile().getFile();
 

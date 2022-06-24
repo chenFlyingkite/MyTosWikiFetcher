@@ -52,7 +52,6 @@ public class Main {
         L.log("Main, %s", now());
         //-- Main work
         fetch(0); // x <= 0 : run TosCardExtras
-        //TosSkillFetcher.me.run();
         //copyToMyTosWiki();
         //enterUID();
         //stock();
@@ -79,7 +78,6 @@ public class Main {
 
         //ASD.run(); // testing on filter cards
         //print();
-
 
         //TosCardInfos.me.run(); // creating evolution info
         //new LeetCode().run();
