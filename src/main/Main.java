@@ -57,6 +57,7 @@ public class Main {
         //stock();
         //taiwanHighSpeedRail();
         //TosCardFetcher.me.run();
+        //Main1116.main(null);
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -108,52 +109,41 @@ public class Main {
         //JudgementSearch.run();
     }
 
-    private static void listFiles(String path) {
-        List<File> fs = FileUtil.listAllFiles(new File(path));
-        for (int i = 0; i < fs.size(); i++) {
-            File f = fs.get(i);
-            L.log("%s. %s", i+1, f.getName());
-        }
-    }
+    // Used for auto enter the UID giveaway
+    private static void enterUID() {
+        // In macOS, after we start, we still need to click on the text field to let it enters
+        try {
+            Robot2 r = new Robot2();
+            r.delay(3_000);
+            // true = ids + more + (ctrl+v), false = ids + more
+            boolean paste = 0 > 0;
+            String more = ""; // " A"
 
-    private static void getIP() {
-        //https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
-        String[] src = {
-                "https://api.db-ip.com/v2/free/self",
-                "http://ip-api.com/json"
-        };
-
-        WebFetcher w = new WebFetcher();
-        for (int i = 0; i < src.length; i++) {
-            String link = src[i];
-            String s = w.sendRequest(link, null);
-            L.log("#%s :\n%s", i, s);
-        }
-    }
-
-    private static void addJpg() {
-        // add jpg
-        String source = "D:\\新增資料夾 (3)\\A"; // source path, 1-depth
-        String want = ".jpg";
-        // if file is source/a, rename to be source/a{want}
-        // like source/a, rename to be source/a.jpg
-        File f = new File(source);
-        File[] fs = f.listFiles();
-        int n = 0;
-        if (fs != null) {
-            for (int i = 0; i < fs.length; i++) {
-                File z = fs[i];
-                boolean ok = z.getName().endsWith(want);
-                if (ok) {
+            String[] ids = {
+                    "199215954",
+                    "150372202",
+                    "192291028",
+                    "8397957",
+                    "58402658",
+                    "195014910",
+                    "237475591",
+                    "176874774",
+                    "200172730",
+                    "512617371",
+            };
+            for (String s : ids) {
+                String t = s + more;
+                if (paste) {
+                    r.type(t + " ");
+                    r.paste();
+                    r.keySend(KeyEvent.VK_ENTER);
                 } else {
-                    n++;
-                    File fx = new File(z.getAbsolutePath() + want);
-                    z.renameTo(fx);
-                    L.log("#%d : %s", n, z);
+                    r.enter(t);
                 }
             }
+        } catch (AWTException e) {
+            e.printStackTrace();
         }
-        L.log("%s files renamed", n);
     }
 
     private static void enterTemperature() {
@@ -427,125 +417,64 @@ public class Main {
     // https://ephrain.net/ios-%E8%A8%BB%E5%86%8A%E6%88%90%E7%82%BA-apple-developer-%E4%BA%86%EF%BC%81/
     */
 
-    /*
-    UID 199215954 中文版
-    UID 150372202 中文版
-    UID 192291028 中文版
-    UID 8397957   中文版
-    UID 58402658  中文版
-    UID 195014910 中文版
-    UID 237475591 中文版
-    UID 176874774 中文版
-    UID 200172730 中文版
-    */
-    private static void enterUID() {
-        // In macOS, after we start, we still need to click on the text field to let it enters
-        try {
-            Robot2 r = new Robot2();
-            r.delay(3_000);
-            // true = ids + more + (ctrl+v), false = ids + more
-            boolean paste = 0 > 0;
-            String more = ""; // " A"
-
-            String[] ids = {
-                    "199215954",
-                    "150372202",
-                    "192291028",
-                    "8397957",
-                    "58402658",
-                    "195014910",
-                    "237475591",
-                    "176874774",
-                    "200172730",
-                    "512617371",
-            };
-            for (String s : ids) {
-                String t = s + more;
-                if (paste) {
-                    r.type(t + " ");
-                    r.paste();
-                    r.keySend(KeyEvent.VK_ENTER);
-                } else {
-                    r.enter(t);
-                }
-            }
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static String[] envDirs() {
-        return new String[] {
-                "Environment.DIRECTORY_ALARMS"
-                , "Environment.DIRECTORY_DCIM"
-                , "Environment.DIRECTORY_DOCUMENTS"
-                , "Environment.DIRECTORY_DOWNLOADS"
-                , "Environment.DIRECTORY_MOVIES"
-                , "Environment.DIRECTORY_MUSIC"
-                , "Environment.DIRECTORY_NOTIFICATIONS"
-                , "Environment.DIRECTORY_PICTURES"
-                , "Environment.DIRECTORY_PODCASTS"
-                , "Environment.DIRECTORY_RINGTONES"
-        };
-    }
-
-    private static void p(String[] keys) {
-        for (String s : keys) {
-            s = s.trim();
-            L.log("logE(\"%-85s = %%s\", %-85s);", s, s);
-        }
-    }
-
-    private static void print() {
-        String methods = "\n" +
-                "        Environment.getRootDirectory();\n" +
-                "        Environment.getDataDirectory();\n" +
-                "        Environment.getDownloadCacheDirectory();\n" +
-                "        Environment.getExternalStorageDirectory();\n" +
-                "        Environment.getExternalStorageState();"
-                ;
-        String[] ms = methods.split("[;]");
-
-        p(envDirs());
-        p(ms);
-
-        String[] dirs = envDirs();
-        for (int i = 0; i < dirs.length; i++) {
-            dirs[i] = String.format("Environment.getExternalStoragePublicDirectory(%s)", dirs[i]);
-        }
-        p(dirs);
-
-        dirs = envDirs();
-        for (int i = 0; i < dirs.length; i++) {
-            dirs[i] = String.format("c.getExternalFilesDir(%s)", dirs[i]);
-        }
-        p(dirs);
-    }
     // https://stackoverflow.com/questions/3387132/how-to-load-and-display-image-in-opengl-es-for-iphone
     // (Nekojishi) A Sunny Day is Watching over You
     // https://www.youtube.com/watch?v=egAwcvzseeM
     // https://mega.nz/file/UOZ1wJrC#-eCtj4DlZoIyKOI5Ss0fG2d1uWDbUTDOaK6nDOwz1Xo
 
-//    private static void parallel(Runnable... runs) {
-//        for (Runnable r : runs) {
-//            cache.submit(new Runnable() {
-//                private TicTac2 clk = new TicTac2();
-//                @Override
-//                public void run() {
-//                    clk.tic();
-//                    r.run();
-//                    clk.tac("%s Ended", r.getClass().getSimpleName());
-//                }
-//            });
-//        }
-//    }
-//
     //https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B1234%7CfullstatsMax}}
-    private static final ExecutorService cache
-    //    = Executors.newCachedThreadPool();
-        = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 60);
+    private static final ExecutorService cache = ThreadUtil.newFlexThreadPool(50, 60);
 
     private static final TicTac2 clock = new TicTac2();
+
+    private static void listFiles(String path) {
+        List<File> fs = FileUtil.listAllFiles(new File(path));
+        for (int i = 0; i < fs.size(); i++) {
+            File f = fs.get(i);
+            L.log("%s. %s", i+1, f.getName());
+        }
+    }
+
+    private static void getIP() {
+        //https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
+        String[] src = {
+                "https://api.db-ip.com/v2/free/self",
+                "http://ip-api.com/json"
+        };
+
+        WebFetcher w = new WebFetcher();
+        for (int i = 0; i < src.length; i++) {
+            String link = src[i];
+            String s = w.sendRequest(link, null);
+            L.log("#%s :\n%s", i, s);
+        }
+    }
+
+    private static void addJpg() {
+        // add jpg
+        String source = "D:\\新增資料夾 (3)\\A"; // source path, 1-depth
+        String want = ".jpg";
+        // if file is source/a, rename to be source/a{want}
+        // like source/a, rename to be source/a.jpg
+        File f = new File(source);
+        File[] fs = f.listFiles();
+        int n = 0;
+        if (fs != null) {
+            for (int i = 0; i < fs.length; i++) {
+                File z = fs[i];
+                boolean ok = z.getName().endsWith(want);
+                if (ok) {
+                } else {
+                    n++;
+                    File fx = new File(z.getAbsolutePath() + want);
+                    z.renameTo(fx);
+                    L.log("#%d : %s", n, z);
+                }
+            }
+        }
+        L.log("%s files renamed", n);
+    }
+
 }
 /*
 https://docs.google.com/presentation/d/15mSXudFsWko1Cmzdg6O__z1AX_Po4YpcauqPq6T7-xU/edit#slide=id.p
