@@ -5570,7 +5570,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  暗外防禦盾 : [0]  ->  ->  -> 
 --  #{{ES5282}}  5283 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5282?action=edit
 --  #無外防禦盾  E : [0]  ->  ->  -> 
---  #5284  {{ES5284}} : [2]  -> 始終盾+首消角色符石⇒發動攻回 -> 需同時達成以下 2 個條件：<br><br>⓵ 以指定位置開始轉珠<br>(角色頭像優先)<br>及在指定位置結束轉珠<br><br>⓶ 首批消除指定角色符石<br><br>未有達成上述條件：<br>⓵ 該回合攻擊力變為 0<br>⓶ 無法進行回復 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5284
+--  #5284  {{ES5284}} : [1]  -> 【起結有序 - 角色符石】 -> 需以指定位置 (角色頭像優先) <br>開始轉珠及在指定位置<br>首次結束轉珠。<br><br>未有達成上述條件：<br>⓵ 全隊攻擊力變為 0<br>⓶ 無法進行回復 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5284
 --  #E  禁錮中毒100% : [0]  ->  ->  -> 
 --  #{{ES5285}}  5286 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5285?action=edit
 --  #中毒100%  E : [0]  ->  ->  -> 
