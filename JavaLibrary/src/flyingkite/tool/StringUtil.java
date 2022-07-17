@@ -74,7 +74,7 @@ public class StringUtil {
     }
 
     /**
-     * return <base> concatenate k times
+     * return <base> concatenate k times, that is Regex of "(base){k}"
      */
     public static String repeat(String base, int k) {
         StringBuilder ans = new StringBuilder();

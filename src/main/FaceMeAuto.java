@@ -8,7 +8,9 @@ import main.kt.CopyInfo;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FaceMeAuto {
     private static final TicTac2 clk = new TicTac2();
@@ -71,11 +73,11 @@ public class FaceMeAuto {
     }
 
     public static void faceMeFintechBuild() {
-        int appRevisionInSR = 63337;
-        String appVersionName = "5.1.5";
+        int appRevisionInSR = 63799;
+        String appVersionName = "5.2.0";
         // from invitation link, permalink
         // Click FaceMe®Fintech - 5.0.0 > Invitation permalink
-        String testFairyUrl = "https://my.testfairy.com/download/64R30CHR74SK4B9M68S3JE9J6GR3CB9Q35SVECXKHZE22QF74GR19B1QWM89BCG/getapp";
+        String testFairyUrl = "https://my.testfairy.com/download/64R30D9G6WSKGB9M68S3JE9J6GR3CBB5DZJ6H9TPYYQ7BJSV3X5MG657M7Y8RWG/getapp";
 
         L.log("U-Message send following both in chats and board :\n");
         L.log("FaceMe Fintech SDK Android Demo %s_r%s", appVersionName, appRevisionInSR);
@@ -85,6 +87,124 @@ public class FaceMeAuto {
         L.log("FaceMe Fintech SDK Android %s_r%s", appVersionName, appRevisionInSR);
         L.log("Cyberlink");
         L.log("----");
+    }
+
+    public static List<RevInfo> organizeCommitLog() {
+        File src = new File("D:\\Github\\sample.txt");
+        L.log("src %s %s", src.exists(), src);
+        List<String> li = FileUtil.readAllLines(src);
+        List<RevInfo> ans = new ArrayList<>();
+        String[] msg = {"ready", "Revision: ", "Author: ", "Date: ", "Message:", "----"};
+        int state = 0;
+        RevInfo now = null;
+
+        for (int i = 0; i < li.size(); i++) {
+            String line = li.get(i);
+            String focus;
+            if (line.startsWith("Revision: ")) {
+                if (state == 0) {
+                    state = 1;
+                    focus = line.replaceFirst("Revision: ", "");
+                    int rev = 0;
+                    try {
+                        rev = Integer.parseInt(focus);
+                    } catch (NumberFormatException e) {
+                        e.printStackTrace();
+                    }
+                    now = new RevInfo();
+                    now.revision = rev;
+                }
+            } else if (line.startsWith("Author: ")) {
+                state = 2;
+                focus = line.replaceFirst("Author: ", "");
+                if (now != null) {
+                    now.author = focus;
+                }
+            } else if (line.startsWith("Date: ")) {
+                state = 3;
+                focus = line.replaceFirst("Date: ", "");
+                if (now != null) {
+                    now.date = focus;
+                }
+            } else if (line.startsWith("Message:")) {
+                state = 4;
+                focus = line.replaceFirst("Message: ", "");
+                // reading messages
+                do {
+                    i++;
+                    line = li.get(i);
+                    if (line.startsWith("----")) {
+                        state = 5;
+                    } else {
+                        if (now != null) {
+                            now.message.add(line);
+                        }
+                    }
+                } while (state == 4);
+            } else if (line.startsWith("Modified : ")) {
+                String key = "Modified : ";
+                focus = line.replaceFirst(key, "");
+                if (state == 5) {
+                    state = 6;
+                }
+                if (now != null) {
+                    List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
+                    chg.add(focus);
+                    now.changes.put(key, chg);
+                }
+            } else if (line.startsWith("Added : ")) {
+                String key = "Added : ";
+                focus = line.replaceFirst(key, "");
+                if (state == 5) {
+                    state = 6;
+                }
+                if (now != null) {
+                    List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
+                    chg.add(focus);
+                    now.changes.put(key, chg);
+                }
+            } else if (line.startsWith("Deleted : ")) {
+                String key = "Deleted : ";
+                focus = line.replaceFirst(key, "");
+                if (state == 5) {
+                    state = 6;
+                }
+                if (now != null) {
+                    List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
+                    chg.add(focus);
+                    now.changes.put(key, chg);
+                }
+            } else if (line.startsWith("----")) {
+                state = 5;
+            } else if (line.isEmpty()) {
+                state = 0;
+                ans.add(now);
+            }
+        }
+        for (int i = 0; i < ans.size(); i++) {
+            L.log("#%s : %s", i, ans.get(i));
+        }
+
+        return ans;
+    }
+
+    public static class RevInfo {
+        public int revision;
+        public String author;
+        public String date;
+        public List<String> message = new ArrayList<>();
+        public Map<String, List<String>> changes = new HashMap<>();
+
+        @Override
+        public String toString() {
+            int n = 0;
+            List<List<String>> li = new ArrayList<>(changes.values());
+            for (int i = 0; i < li.size(); i++) {
+                n += li.get(i).size();
+            }
+            String s = String.format("%s, %s, %s, %s msg, %s changes", revision, author, date, message.size(), n);
+            return s;
+        }
     }
 }
 

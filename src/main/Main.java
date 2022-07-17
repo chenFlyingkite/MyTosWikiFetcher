@@ -105,6 +105,7 @@ public class Main {
 
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
+        //FaceMeAuto.organizeCommitLog();
         //listFiles();
         //JudgementSearch.run();
     }
@@ -145,6 +146,8 @@ public class Main {
             e.printStackTrace();
         }
     }
+
+    // https://developer.android.com/studio/command-line/adb
 
     private static void enterTemperature() {
         // In macOS, after we start, we still need to click on the text field to let it enters

@@ -29,6 +29,7 @@ public class LuckyMatcher {
         return ans;
     }
 
+    // Return true if code[codeAt:] is the subset-array of cart since cart[cartAt:]
     private boolean match(List<String> code, List<String> cart, int codeAt, int cartAt) {
         int n = code.size();
         int m = cart.size();
@@ -36,13 +37,15 @@ public class LuckyMatcher {
             ln("run match [%s/%s] on %s/%s", codeAt, n, cartAt, m);
         }
         if (cartAt >= m && codeAt < n) {
+            // we still have code[codeAt:end] to match, but the cart has exhausted
+            // So we will not match its code
             if (debug) {
                 ln("ans:x1");
             }
             return false; // matched at end
         }
         if (codeAt == n) {
-        //if (cartAt <= m && codeAt == n) {
+            // All the codes are matched/found in cart list
             if (debug) {
                 ln("ans:o1");
             }

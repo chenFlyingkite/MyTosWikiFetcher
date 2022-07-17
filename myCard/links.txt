@@ -16566,6 +16566,18 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2785"
   },
   {
+    "title": "No. 2786 狩羽輕揚 ‧ 希",
+    "id": "2786",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8B%A9%E7%BE%BD%E8%BC%95%E6%8F%9A_%E2%80%A7_%E5%B8%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2786"
+  },
+  {
+    "title": "No. 2787 芬甜女王 ‧ 希",
+    "id": "2787",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8A%AC%E7%94%9C%E5%A5%B3%E7%8E%8B_%E2%80%A7_%E5%B8%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2787"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -18144,6 +18156,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10272"
   },
   {
+    "title": "No. 10273 浩瀚蝕流 ‧ 豪斯",
+    "id": "10273",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B5%A9%E7%80%9A%E8%9D%95%E6%B5%81_%E2%80%A7_%E8%B1%AA%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10273"
+  },
+  {
     "title": "No. 10274 荒林吹息 ‧ 愛得拉",
     "id": "10274",
     "link": "https://tos.fandom.com/zh/wiki/%E8%8D%92%E6%9E%97%E5%90%B9%E6%81%AF_%E2%80%A7_%E6%84%9B%E5%BE%97%E6%8B%89",
@@ -18154,6 +18172,12 @@
     "id": "10275",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B0%96%E7%89%99%E6%92%95%E5%92%AC_%E2%80%A7_%E5%B7%A8%E7%A2%A9%E7%95%B0%E9%AF%8A",
     "linkId": "http://zh.tos.wikia.com/wiki/10275"
+  },
+  {
+    "title": "No. 10276 撼地重拳 ‧ 糖果巨人",
+    "id": "10276",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%92%BC%E5%9C%B0%E9%87%8D%E6%8B%B3_%E2%80%A7_%E7%B3%96%E6%9E%9C%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10276"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

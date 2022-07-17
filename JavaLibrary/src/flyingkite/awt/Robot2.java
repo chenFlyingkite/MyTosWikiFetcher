@@ -46,7 +46,6 @@ public class Robot2 extends Robot {
         mouseRelease(buttons);
     }
 
-
     /**
      * Clicks keycode by performing
      * {@link #keyPress(int)} and {@link #keyRelease(int)}
@@ -180,8 +179,8 @@ public class Robot2 extends Robot {
         }
     }
 
-
-    public void print() {
+    // only public when we want to validate
+    private void print() {
         ThreadUtil.sleep(2000*0);
         List<Character> chars = new ArrayList<>(charToVKCode.keySet());
         List<Character> pass = new ArrayList<>();
@@ -350,13 +349,10 @@ public class Robot2 extends Robot {
 
     // x java.awt.Robot.keyPress java.lang.IllegalArgumentException: Invalid key code
     static {
-        L.log("Robot2.static");
         charSetItems = charSet.toCharArray();
         shiftCharSetItems = shiftCharSet.toCharArray();
-        //onKeyboardListener(true); // not work
         makeVKCode();
         makeVKName();
-        L.log("key.size = %s", charToVKCode.size());
         makeCharSet();
         makeCharSet2();
         L.log("charSetItems       = %s", Arrays.toString(charSetItems));
@@ -370,7 +366,9 @@ public class Robot2 extends Robot {
     }
 
     // Does not work...
+    @Deprecated
     private static final Set<Integer> pressedKeys = new HashSet<>();
+    @Deprecated
     private static void onKeyboardListener(boolean add) {
         L.log("onKeyboardListener(%s)", add);
         final KeyboardFocusManager kfm = KeyboardFocusManager.getCurrentKeyboardFocusManager();
