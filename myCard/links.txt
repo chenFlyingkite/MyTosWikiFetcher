@@ -16560,6 +16560,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2772"
   },
   {
+    "title": "No. 2773 蜂芒畢露 ‧ 瑪格莉特",
+    "id": "2773",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%9C%82%E8%8A%92%E7%95%A2%E9%9C%B2_%E2%80%A7_%E7%91%AA%E6%A0%BC%E8%8E%89%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2773"
+  },
+  {
     "title": "No. 2785 執劍江湖 ‧ 妍希",
     "id": "2785",
     "link": "https://tos.fandom.com/zh/wiki/%E5%9F%B7%E5%8A%8D%E6%B1%9F%E6%B9%96_%E2%80%A7_%E5%A6%8D%E5%B8%8C",
@@ -18136,6 +18142,78 @@
     "id": "10243",
     "link": "https://tos.fandom.com/zh/wiki/%E6%B7%B7%E7%A8%AE%E7%95%B0%E9%AD%94_%E2%80%A7_%E7%B4%8D%E8%B2%9D%E6%B5%81%E5%A3%AB",
     "linkId": "http://zh.tos.wikia.com/wiki/10243"
+  },
+  {
+    "title": "No. 10244 石田大和與加布獸",
+    "id": "10244",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%9F%B3%E7%94%B0%E5%A4%A7%E5%92%8C%E8%88%87%E5%8A%A0%E5%B8%83%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10244"
+  },
+  {
+    "title": "No. 10245 八神太一與亞古獸",
+    "id": "10245",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%85%AB%E7%A5%9E%E5%A4%AA%E4%B8%80%E8%88%87%E4%BA%9E%E5%8F%A4%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10245"
+  },
+  {
+    "title": "No. 10246 太刀川美美與巴魯獸",
+    "id": "10246",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%AA%E5%88%80%E5%B7%9D%E7%BE%8E%E7%BE%8E%E8%88%87%E5%B7%B4%E9%AD%AF%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10246"
+  },
+  {
+    "title": "No. 10247 高石武與巴達獸與八神嘉兒與迪路獸",
+    "id": "10247",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E7%9F%B3%E6%AD%A6%E8%88%87%E5%B7%B4%E9%81%94%E7%8D%B8%E8%88%87%E5%85%AB%E7%A5%9E%E5%98%89%E5%85%92%E8%88%87%E8%BF%AA%E8%B7%AF%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10247"
+  },
+  {
+    "title": "No. 10248 泉光子郎與甲蟲獸",
+    "id": "10248",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B3%89%E5%85%89%E5%AD%90%E9%83%8E%E8%88%87%E7%94%B2%E8%9F%B2%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10248"
+  },
+  {
+    "title": "No. 10249 城戶丈與哥瑪獸",
+    "id": "10249",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%9F%8E%E6%88%B6%E4%B8%88%E8%88%87%E5%93%A5%E7%91%AA%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10249"
+  },
+  {
+    "title": "No. 10250 武之內素娜與比丘獸",
+    "id": "10250",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AD%A6%E4%B9%8B%E5%85%A7%E7%B4%A0%E5%A8%9C%E8%88%87%E6%AF%94%E4%B8%98%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10250"
+  },
+  {
+    "title": "No. 10251 獅子獸",
+    "id": "10251",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8D%85%E5%AD%90%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10251"
+  },
+  {
+    "title": "No. 10252 惡魔獸",
+    "id": "10252",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E9%AD%94%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10252"
+  },
+  {
+    "title": "No. 10256 鋼鐵海龍獸",
+    "id": "10256",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E9%90%B5%E6%B5%B7%E9%BE%8D%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10256"
+  },
+  {
+    "title": "No. 10262 V仔獸與蟲蟲獸",
+    "id": "10262",
+    "link": "https://tos.fandom.com/zh/wiki/V%E4%BB%94%E7%8D%B8%E8%88%87%E8%9F%B2%E8%9F%B2%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10262"
+  },
+  {
+    "title": "No. 10263 鼻涕獸與大便獸與芝蒙獸",
+    "id": "10263",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BC%BB%E6%B6%95%E7%8D%B8%E8%88%87%E5%A4%A7%E4%BE%BF%E7%8D%B8%E8%88%87%E8%8A%9D%E8%92%99%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10263"
   },
   {
     "title": "No. 10270 星械造主 ‧ 奧米伽",
