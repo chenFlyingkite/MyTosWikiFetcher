@@ -16566,6 +16566,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2773"
   },
   {
+    "title": "No. 2774 龍之魂寵",
+    "id": "2774",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E4%B9%8B%E9%AD%82%E5%AF%B5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2774"
+  },
+  {
     "title": "No. 2785 執劍江湖 ‧ 妍希",
     "id": "2785",
     "link": "https://tos.fandom.com/zh/wiki/%E5%9F%B7%E5%8A%8D%E6%B1%9F%E6%B9%96_%E2%80%A7_%E5%A6%8D%E5%B8%8C",
@@ -16582,6 +16588,12 @@
     "id": "2787",
     "link": "https://tos.fandom.com/zh/wiki/%E8%8A%AC%E7%94%9C%E5%A5%B3%E7%8E%8B_%E2%80%A7_%E5%B8%8C",
     "linkId": "http://zh.tos.wikia.com/wiki/2787"
+  },
+  {
+    "title": "No. 2788 獸之魂寵",
+    "id": "2788",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E4%B9%8B%E9%AD%82%E5%AF%B5",
+    "linkId": "http://zh.tos.wikia.com/wiki/2788"
   },
   {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
@@ -18198,10 +18210,28 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10252"
   },
   {
+    "title": "No. 10254 淑女惡魔獸",
+    "id": "10254",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B7%91%E5%A5%B3%E6%83%A1%E9%AD%94%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10254"
+  },
+  {
     "title": "No. 10256 鋼鐵海龍獸",
     "id": "10256",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E9%90%B5%E6%B5%B7%E9%BE%8D%E7%8D%B8",
     "linkId": "http://zh.tos.wikia.com/wiki/10256"
+  },
+  {
+    "title": "No. 10257 木偶獸",
+    "id": "10257",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E5%81%B6%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10257"
+  },
+  {
+    "title": "No. 10259 小丑皇",
+    "id": "10259",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8F%E4%B8%91%E7%9A%87",
+    "linkId": "http://zh.tos.wikia.com/wiki/10259"
   },
   {
     "title": "No. 10262 V仔獸與蟲蟲獸",
@@ -18214,6 +18244,24 @@
     "id": "10263",
     "link": "https://tos.fandom.com/zh/wiki/%E9%BC%BB%E6%B6%95%E7%8D%B8%E8%88%87%E5%A4%A7%E4%BE%BF%E7%8D%B8%E8%88%87%E8%8A%9D%E8%92%99%E7%8D%B8",
     "linkId": "http://zh.tos.wikia.com/wiki/10263"
+  },
+  {
+    "title": "No. 10264 鋼鐵加魯魯獸",
+    "id": "10264",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E9%90%B5%E5%8A%A0%E9%AD%AF%E9%AD%AF%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10264"
+  },
+  {
+    "title": "No. 10265 戰鬥暴龍獸",
+    "id": "10265",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%9A%B4%E9%BE%8D%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10265"
+  },
+  {
+    "title": "No. 10266 神聖天使獸與天女獸",
+    "id": "10266",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E5%A4%A9%E4%BD%BF%E7%8D%B8%E8%88%87%E5%A4%A9%E5%A5%B3%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10266"
   },
   {
     "title": "No. 10270 星械造主 ‧ 奧米伽",

@@ -1,6 +1,7 @@
 package com.exam20211015;
 
 import flyingkite.log.L;
+import flyingkite.tool.TicTac2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,16 +11,21 @@ public class Main1015 implements Runnable {
     // This is for 2021/10/15 interview
     @Override
     public void run() {
-        int[] ns = {2,4,8
-                //,16
-                //,32
+        int[] ns = {
+                2,4,8
+                //,16,32 // reasonable time within 3 minutes
                 //,64,128 // is nearly OOM
         };
+        TicTac2 clk = new TicTac2();
         for (int n : ns) {
+            clk.tic();
             for (int i = 0; i < n; i++) {
+                clk.tic();
                 String s = win(i, 0, n);
-                L.log("win(%s, %s, %s) = %s", i, 0, n, s);
+                //L.log("win(%s, %s, %s) = %s", i, 0, n, s);
+                clk.tac("win(%s, 0, %s) ok", i, n);
             }
+            clk.tac("win(all, 0, %s) ok", n);
         }
     }
 
@@ -56,27 +62,27 @@ public class Main1015 implements Runnable {
             if (x < m) {
                 // x wins in left part
                 String win_xim = win(x, i, m);
-                String s = "";
+                StringBuilder s = new StringBuilder();
                 // and x wins in right part each one
                 for (int k = m; k < j; k++) {
                     String win_kmj = win(k, m, j);
                     if (s.length() > 0) {
-                        s += " + ";
+                        s.append(" + ");
                     }
-                    s += String.format("P[%s, %s] * %s", x, k, win_kmj);
+                    s.append(String.format("P[%s, %s] * %s", x, k, win_kmj));
                 }
                 value = String.format("(%s) * (%s)", win_xim, s); // returned Here
             } else {
                 // x wins in right part
                 String win_xmj = win(x, m, j);
                 // and x wins in left part each one
-                String s = "";
+                StringBuilder s = new StringBuilder();
                 for (int k = i; k < m; k++) {
                     String win_kim = win(k, i, m);//
                     if (s.length() > 0) {
-                        s += " + ";
+                        s.append(" + ");
                     }
-                    s += String.format("P[%s, %s] * %s", x, k, win_kim);
+                    s.append(String.format("P[%s, %s] * %s", x, k, win_kim));
                 }
                 value = String.format("(%s) * (%s)", win_xmj, s); // returned Here
             }

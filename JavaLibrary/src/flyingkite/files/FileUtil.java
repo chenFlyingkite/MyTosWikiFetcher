@@ -320,6 +320,13 @@ public class FileUtil {
         return s.substring(d + 1);
     }
 
+    public static String getNameBeforeExtension(File f) {
+        if (f == null) return "";
+        String s = f.getName();
+        int d = s.lastIndexOf('.');
+        return s.substring(0, d);
+    }
+
     // Using ImageIO.read(file) isOK, but slower slightly
     public static Point getImageSize(File file) {
         String ext = getExtension(file);

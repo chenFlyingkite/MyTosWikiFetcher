@@ -111,6 +111,8 @@ public class Main {
     }
 
     // Used for auto enter the UID giveaway
+    // Usage: Change the more text if you have answers,
+    // and run to web page make cursor stays at it, now it will make things done!
     private static void enterUID() {
         // In macOS, after we start, we still need to click on the text field to let it enters
         try {

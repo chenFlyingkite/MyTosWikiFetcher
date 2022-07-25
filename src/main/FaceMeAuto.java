@@ -7,9 +7,13 @@ import flyingkite.tool.TicTac2;
 import main.kt.CopyInfo;
 
 import java.io.File;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 public class FaceMeAuto {
@@ -89,56 +93,66 @@ public class FaceMeAuto {
         L.log("----");
     }
 
-    public static List<RevInfo> organizeCommitLog() {
-        File src = new File("D:\\Github\\sample.txt");
+
+    public static void organizeCommitLog() {
+        File root = new File("D:\\Github\\svnSource");
+        File[] fs = root.listFiles();
+        Map<File, List<RevInfo>> map = new HashMap<>();
+        if (fs != null) {
+            for (int i = 0; i < fs.length; i++) {
+                List<RevInfo> li = organizeCommitLog(fs[i]);
+                map.put(fs[i], li);
+            }
+        }
+    }
+
+    public static List<RevInfo> organizeCommitLog(File src) {
         L.log("src %s %s", src.exists(), src);
         List<String> li = FileUtil.readAllLines(src);
         List<RevInfo> ans = new ArrayList<>();
-        String[] msg = {"ready", "Revision: ", "Author: ", "Date: ", "Message:", "----"};
+        String[] anchor = {"ready", "Revision: ", "Author: ", "Date: ", "Message:", "----"};
         int state = 0;
-        RevInfo now = null;
+        RevInfo now = new RevInfo();
 
         for (int i = 0; i < li.size(); i++) {
             String line = li.get(i);
             String focus;
+            L.log("line #%d = %s", i, line);
             if (line.startsWith("Revision: ")) {
                 if (state == 0) {
                     state = 1;
                     focus = line.replaceFirst("Revision: ", "");
+                    // core
                     int rev = 0;
                     try {
                         rev = Integer.parseInt(focus);
                     } catch (NumberFormatException e) {
                         e.printStackTrace();
                     }
-                    now = new RevInfo();
                     now.revision = rev;
                 }
             } else if (line.startsWith("Author: ")) {
                 state = 2;
                 focus = line.replaceFirst("Author: ", "");
-                if (now != null) {
-                    now.author = focus;
-                }
+                // core
+                now.author = focus;
             } else if (line.startsWith("Date: ")) {
                 state = 3;
                 focus = line.replaceFirst("Date: ", "");
-                if (now != null) {
-                    now.date = focus;
-                }
+                // core
+                now.date = focus;
             } else if (line.startsWith("Message:")) {
                 state = 4;
                 focus = line.replaceFirst("Message: ", "");
-                // reading messages
+                // core reading messages
                 do {
                     i++;
                     line = li.get(i);
                     if (line.startsWith("----")) {
                         state = 5;
                     } else {
-                        if (now != null) {
-                            now.message.add(line);
-                        }
+                        now.message.add(line);
+                        L.log("now = %s, st = %s, %s", now, state, line);
                     }
                 } while (state == 4);
             } else if (line.startsWith("Modified : ")) {
@@ -147,43 +161,54 @@ public class FaceMeAuto {
                 if (state == 5) {
                     state = 6;
                 }
-                if (now != null) {
-                    List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
-                    chg.add(focus);
-                    now.changes.put(key, chg);
-                }
+                // core
+                List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
+                chg.add(focus);
+                now.changes.put(key, chg);
             } else if (line.startsWith("Added : ")) {
                 String key = "Added : ";
                 focus = line.replaceFirst(key, "");
                 if (state == 5) {
                     state = 6;
                 }
-                if (now != null) {
-                    List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
-                    chg.add(focus);
-                    now.changes.put(key, chg);
-                }
+                // core
+                List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
+                chg.add(focus);
+                now.changes.put(key, chg);
             } else if (line.startsWith("Deleted : ")) {
                 String key = "Deleted : ";
                 focus = line.replaceFirst(key, "");
                 if (state == 5) {
                     state = 6;
                 }
-                if (now != null) {
-                    List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
-                    chg.add(focus);
-                    now.changes.put(key, chg);
-                }
+                List<String> chg = now.changes.getOrDefault(key, new ArrayList<>());
+                chg.add(focus);
+                now.changes.put(key, chg);
             } else if (line.startsWith("----")) {
                 state = 5;
             } else if (line.isEmpty()) {
                 state = 0;
+                now.fillInFields();
                 ans.add(now);
+                now = new RevInfo(); // build new one for it
             }
         }
+//        for (int i = 0; i < ans.size(); i++) {
+//            L.log("#%s : %s", i, ans.get(i));
+//        }
+        // printing the MBO report
+        L.log("%s:", FileUtil.getNameBeforeExtension(src));
+        L.log("");
+        L.log("Total committed %s revisions", ans.size());
+        L.log("Number, Revision, Date, Changes, Message");
         for (int i = 0; i < ans.size(); i++) {
-            L.log("#%s : %s", i, ans.get(i));
+            RevInfo it = ans.get(i);
+            String msg = it.message.get(0);
+            L.log("#%2d: %s, %s, %2d, %s", i+1, it.revision, it.dateShort, it.changes.size(), msg);
         }
+        L.log("");
+        L.log("");
+        L.log("");
 
         return ans;
     }
@@ -192,17 +217,42 @@ public class FaceMeAuto {
         public int revision;
         public String author;
         public String date;
+        public String dateShort;
         public List<String> message = new ArrayList<>();
         public Map<String, List<String>> changes = new HashMap<>();
+        public int totalChanges;
+        public static final SimpleDateFormat svnDate = new SimpleDateFormat("yyyy年M月d日 a hh:mm:ss", Locale.TAIWAN);
+        public static final SimpleDateFormat shortDate = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss", Locale.TAIWAN);
 
-        @Override
-        public String toString() {
+        public void fillInFields() {
+            parseTWDate();
+            countTotalChanges();
+        }
+
+        private void parseTWDate() {
+            if (date == null) return;
+
+            try {
+                Date d = svnDate.parse(date);
+                if (d == null) return;
+                dateShort = shortDate.format(d);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+
+        private void countTotalChanges() {
             int n = 0;
             List<List<String>> li = new ArrayList<>(changes.values());
             for (int i = 0; i < li.size(); i++) {
                 n += li.get(i).size();
             }
-            String s = String.format("%s, %s, %s, %s msg, %s changes", revision, author, date, message.size(), n);
+            totalChanges = n;
+        }
+
+        @Override
+        public String toString() {
+            String s = String.format("%s, %s, %s, %s msg, %s changes", revision, author, date, message.size(), totalChanges);
             return s;
         }
     }
