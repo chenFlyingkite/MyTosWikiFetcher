@@ -1,0 +1,167 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
+
+class Result {
+
+    /*
+     * Complete the 'numberOfItems' function below.
+     *
+     * The function is expected to return an INTEGER_ARRAY.
+     * The function accepts following parameters:
+     *  1. STRING s
+     *  2. INTEGER_ARRAY startIndices
+     *  3. INTEGER_ARRAY endIndices
+     */
+
+    // 2022/08/01 21:21 read question
+    // 2022/08/01 21:42 1st draft
+    public static List<Integer> numberOfItems(String s, List<Integer> startIndices, List<Integer> endIndices) {
+        // Write your code here
+        return sol1(s, startIndices, endIndices);
+    }
+    
+    public static List<Integer> sol1(String s, List<Integer> head, List<Integer> tail) {
+        List<Integer> ver = new ArrayList<>();
+        pn("head = %s", head);
+        pn("tail = %s", tail);
+        pn("s = %s", s);
+        int n = s.length();
+        for (int i = 0; i < n; i++) {
+            char x = s.charAt(i);
+            if (x == '|') {
+                ver.add(i);
+            }
+        }
+        ln("ver.size() = %s, ver = %s", ver.size(), ver);
+        List<Integer> ans = new ArrayList<>();
+        int qn = head.size();
+        for (int i = 0; i < qn; i++) {
+            int h0 = head.get(i);
+            int t0 = tail.get(i);
+            ln("h0 = %s, t0 = %s", h0, t0);
+            int le = 0, ri = 0;
+            // Find the h0 at
+            int zn = ver.size();
+            le = 0;
+            ri = zn;
+            while (le < ri) {
+                int mi = (le + ri) / 2;
+                if (ver.get(mi)+1 < h0) { // left  prop
+                    le = mi + 1;
+                } else {
+                    ri = mi;
+                }
+            }
+            // now h0 is at lest
+            int left = le;
+            
+            boolean isL = s.charAt(ver.get(left)) == '*';
+            if (isL) {
+                left++;
+            }
+            ln("left = %s", le);
+            
+            // Find the t0 at
+            le = 0;
+            ri = zn;
+            while (le < ri) {
+                int mi = (le + ri) / 2;
+                if (ver.get(mi)+1 < t0) { // left prop
+                    le = mi + 1;
+                } else {
+                    ri = mi;
+                }
+                //ln("t0 : %s, %s", le, ri);
+            }
+            int right = le; // next change
+            ln("right = %s", right);
+            boolean isX = s.charAt(ver.get(right)) == '*';
+            if (isX) {
+                right--;
+            }
+            ln("right = %s, isX = %s", right, isX);
+            int cnt = right - left;
+            ln("r-l = %s = %s - %s", cnt, right, left);
+            cnt = 0;
+            for (int j = left; j < right; j++) {
+                if (ver.get(j+1) - ver.get(j) > 1) { // omit ||
+                    cnt++;
+                }
+            }
+            ln("addedAns = %s", cnt);
+            ans.add(cnt);
+         }
+         return ans;
+    }
+    
+    public static boolean debug = 1 > 0;
+    public static void ln(String f, Object... p) {
+        if (!debug) return;
+        System.out.println(String.format(f, p));
+    }
+    public static void pn(String f, Object... p) {
+        //System.out.println(String.format(f, p));
+    }
+    public String as(int[] a) {
+        return Arrays.toString(a);
+    }
+
+}
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        String s = bufferedReader.readLine();
+
+        int startIndicesCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<Integer> startIndices = IntStream.range(0, startIndicesCount).mapToObj(i -> {
+            try {
+                return bufferedReader.readLine().replaceAll("\\s+$", "");
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        })
+            .map(String::trim)
+            .map(Integer::parseInt)
+            .collect(toList());
+
+        int endIndicesCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<Integer> endIndices = IntStream.range(0, endIndicesCount).mapToObj(i -> {
+            try {
+                return bufferedReader.readLine().replaceAll("\\s+$", "");
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        })
+            .map(String::trim)
+            .map(Integer::parseInt)
+            .collect(toList());
+
+        List<Integer> result = Result.numberOfItems(s, startIndices, endIndices);
+
+        bufferedWriter.write(
+            result.stream()
+                .map(Object::toString)
+                .collect(joining("\n"))
+            + "\n"
+        );
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}

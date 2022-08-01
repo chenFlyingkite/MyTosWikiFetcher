@@ -1,0 +1,126 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
+
+class Result {
+
+    /*
+     * Complete the 'processLogs' function below.
+     *
+     * The function is expected to return a STRING_ARRAY.
+     * The function accepts following parameters:
+     *  1. STRING_ARRAY logs
+     *  2. INTEGER threshold
+     */
+
+    public static List<String> processLogs(List<String> logs, int threshold) {
+        // Write your code here
+        return sol1(logs, threshold);
+        
+    }
+    
+    // 2022/08/01 21:03 start
+    // 2022/08/01 21:17 1st draft
+    // using a hash map to get all the id, and then sort them by values
+    public static List<String> sol1(List<String> all, int max) {
+        Map<Integer, Integer> count = new HashMap<>();
+        pn("max = %s, all.size() = %s", max, all.size());
+        pn("all = %s", all);
+        int n = all.size();
+        for (int i = 0; i < n; i++) {
+            String si = all.get(i);
+            String[] ss = si.split(" ");
+            // sid, rid, trx
+            int sid = Integer.parseInt(ss[0]);
+            int rid = Integer.parseInt(ss[1]);
+            int tcn = Integer.parseInt(ss[2]);
+            ln("#%s : %s, %s, %s from %s", i, sid, rid, tcn, si);
+            if (sid == rid) {
+                int now = 0;
+                if (count.containsKey(sid)) {
+                    now = count.get(sid);
+                }
+                count.put(sid, now + 1);
+            } else {
+                int xs = 0;
+                if (count.containsKey(sid)) {
+                    xs = count.get(sid);
+                }
+                int rs = 0;
+                if (count.containsKey(rid)) {
+                    rs = count.get(rid);
+                }
+                count.put(sid, xs + 1);
+                count.put(rid, rs + 1);
+            }
+        }
+        ln("now map = %s", count);
+        List<Integer> keys = new ArrayList<>();
+        for (int x : count.keySet()) {
+            if (count.get(x) >= max) {
+                keys.add(x);
+            }
+        }
+        Collections.sort(keys);
+        List<String> ans = new ArrayList<>();
+        for (int i = 0; i < keys.size(); i++) {
+            ans.add(keys.get(i) + "");
+        }
+        ln("ans = %s");
+        return ans;
+    }
+    
+    public static boolean debug = 1 > 0;
+    public static void ln(String f, Object... p) {
+        if (!debug) return;
+        System.out.println(String.format(f, p));
+    }
+    public static void pn(String f, Object... p) {
+        System.out.println(String.format(f, p));
+    }
+    public String as(int[] a) {
+        return Arrays.toString(a);
+    }
+
+}
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int logsCount = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<String> logs = IntStream.range(0, logsCount).mapToObj(i -> {
+            try {
+                return bufferedReader.readLine();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        })
+            .collect(toList());
+
+        int threshold = Integer.parseInt(bufferedReader.readLine().trim());
+
+        List<String> result = Result.processLogs(logs, threshold);
+
+        bufferedWriter.write(
+            result.stream()
+                .collect(joining("\n"))
+            + "\n"
+        );
+
+        bufferedReader.close();
+        bufferedWriter.close();
+    }
+}

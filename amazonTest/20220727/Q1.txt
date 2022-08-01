@@ -1,0 +1,374 @@
+You are inside question view of Optimizing Box Weights (example question)
+
+1h 1m left
+
+Skip to main content
+ALL
+1
+2
+BETACan’t read the text? 
+Switch
+ theme
+1. Optimizing Box Weights (example question)
+An Amazon Fulfillment Associate has a set of items that need to be packed into two boxes. Given an integer array of the item weights (arr) to be packed, divide the item weights into two subsets, A and B, for packing into the associated boxes, while respecting the following conditions: 
+
+ 
+
+The intersection of A and B is null.
+The union A and B is equal to the original array.
+The number of elements in subset A is minimal.
+The sum of A's weights is greater than the sum of B's weights.
+ 
+
+Return the subset A in increasing order where the sum of A's weights is greater than the sum of B's weights. If more than one subset A exists, return the one with the maximal total weight.
+
+ 
+
+Example
+
+n = 5
+
+arr = [3, 7, 5, 6, 2]
+
+ 
+
+The 2 subsets in arr that satisfy the conditions for A are [5, 7] and [6, 7] :
+
+A is minimal (size 2)
+Sum(A) = (5 + 7) = 12 > Sum(B) = (2 + 3 + 6) = 11
+Sum(A) = (6 + 7) = 13 > Sum(B) = (2 + 3 + 5) = 10
+The intersection of A and B is null and their union is equal to arr.
+The subset A where the sum of its weight is maximal is [6, 7].
+ 
+
+Function Description
+
+Complete the minimalHeaviestSetA function in the editor below.
+
+ 
+
+minimalHeaviestSetA has the following parameter(s):
+
+    int arr[]: an integer array of the weights of each item in the set
+
+ 
+
+Returns:
+
+    int[] : an integer array with the values of subset A
+
+ 
+
+Constraints
+
+1 ≤ n ≤ 105 
+1 ≤ arr[i] ≤ 105 (where 0 ≤ i < n)
+ 
+
+Input Format For Custom Testing
+Sample Case 0
+Sample Case 1
+Info
+Java 8
+Autocomplete Disabled
+
+
+
+
+More
+6364656667686970717273747576777879
+                    ansSum = sumTake;
+                }
+            } else {
+                
+            }
+            // not take
+            //inA.remove(nowAt);
+            inA.remove(inA.size() - 1);
+            int sumNoTake = sumA;
+            int noTake = dfs(inA, sumNoTake, nowAt + 1, a);
+
+Line: 72 Col: 55
+
+Test Results
+
+Custom Input
+Compiled successfully.
+
+Run all test cases
+
+Input (stdin)
+6
+5
+3
+2
+4
+1
+2
+Your Output (stdout)
+Expected Output
+4
+5
+Debug output
+Got sum = 17 for a = [5, 3, 2, 4, 1, 2]
+sumA = 0, nowAt = 0, inA = []
+sumA = 5, nowAt = 1, inA = [0]
+sumA = 8, nowAt = 2, inA = [0, 1]
+sumA = 10, nowAt = 3, inA = [0, 1, 2]
+sumA = 14, nowAt = 4, inA = [0, 1, 2, 3]
+sumA = 15, nowAt = 5, inA = [0, 1, 2, 3, 4]
+sumA = 17, nowAt = 6, inA = [0, 1, 2, 3, 4, 5]
+  take = 17, 0
+sumA = 15, nowAt = 6, inA = [0, 1, 2, 3, 4]
+noTake = 15, 2
+  take = 15, 2
+sumA = 14, nowAt = 5, inA = [0, 1, 2, 3]
+sumA = 16, nowAt = 6, inA = [0, 1, 2, 3, 5]
+  take = 16, 1
+sumA = 14, nowAt = 6, inA = [0, 1, 2, 3]
+noTake = 14, 3
+noTake = 14, 3
+  take = 14, 3
+sumA = 10, nowAt = 4, inA = [0, 1, 2]
+sumA = 11, nowAt = 5, inA = [0, 1, 2, 4]
+sumA = 13, nowAt = 6, inA = [0, 1, 2, 4, 5]
+  take = 13, 4
+sumA = 11, nowAt = 6, inA = [0, 1, 2, 4]
+noTake = 11, 6
+  take = 11, 6
+sumA = 10, nowAt = 5, inA = [0, 1, 2]
+sumA = 12, nowAt = 6, inA = [0, 1, 2, 5]
+  take = 12, 5
+sumA = 10, nowAt = 6, inA = [0, 1, 2]
+noTake = 10, 7
+noTake = 10, 7
+noTake = 10, 7
+  take = 10, 7
+sumA = 8, nowAt = 3, inA = [0, 1]
+sumA = 12, nowAt = 4, inA = [0, 1, 3]
+sumA = 13, nowAt = 5, inA = [0, 1, 3, 4]
+sumA = 15, nowAt = 6, inA = [0, 1, 3, 4, 5]
+  take = 15, 2
+sumA = 13, nowAt = 6, inA = [0, 1, 3, 4]
+noTake = 13, 4
+  take = 13, 4
+sumA = 12, nowAt = 5, inA = [0, 1, 3]
+sumA = 14, nowAt = 6, inA = [0, 1, 3, 5]
+  take = 14, 3
+sumA = 12, nowAt = 6, inA = [0, 1, 3]
+noTake = 12, 5
+noTake = 12, 5
+  take = 12, 5
+sumA = 8, nowAt = 4, inA = [0, 1]
+sumA = 9, nowAt = 5, inA = [0, 1, 4]
+sumA = 11, nowAt = 6, inA = [0, 1, 4, 5]
+  take = 11, 6
+sumA = 9, nowAt = 6, inA = [0, 1, 4]
+noTake = 9, 8
+  take = 9, 8
+sumA = 8, nowAt = 5, inA = [0, 1]
+sumA = 10, nowAt = 6, inA = [0, 1, 5]
+  take = 10, 7
+sumA = 8, nowAt = 6, inA = [0, 1]
+noTake = 8, 9
+noTake = 8, 9
+noTake = 8, 9
+noTake = 8, 9
+  take = 8, 9
+sumA = 5, nowAt = 2, inA = [0]
+sumA = 7, nowAt = 3, inA = [0, 2]
+sumA = 11, nowAt = 4, inA = [0, 2, 3]
+sumA = 12, nowAt = 5, inA = [0, 2, 3, 4]
+sumA = 14, nowAt = 6, inA = [0, 2, 3, 4, 5]
+  take = 14, 3
+sumA = 12, nowAt = 6, inA = [0, 2, 3, 4]
+noTake = 12, 5
+  take = 12, 5
+sumA = 11, nowAt = 5, inA = [0, 2, 3]
+sumA = 13, nowAt = 6, inA = [0, 2, 3, 5]
+  take = 13, 4
+sumA = 11, nowAt = 6, inA = [0, 2, 3]
+noTake = 11, 6
+noTake = 11, 6
+  take = 11, 6
+sumA = 7, nowAt = 4, inA = [0, 2]
+sumA = 8, nowAt = 5, inA = [0, 2, 4]
+sumA = 10, nowAt = 6, inA = [0, 2, 4, 5]
+  take = 10, 7
+sumA = 8, nowAt = 6, inA = [0, 2, 4]
+noTake = 8, 9
+  take = 8, 9
+sumA = 7, nowAt = 5, inA = [0, 2]
+sumA = 9, nowAt = 6, inA = [0, 2, 5]
+  take = 9, 8
+sumA = 7, nowAt = 6, inA = [0, 2]
+noTake = 7, 10
+noTake = 7, 10
+noTake = 7, 10
+  take = 7, 10
+sumA = 5, nowAt = 3, inA = [0]
+sumA = 9, nowAt = 4, inA = [0, 3]
+sumA = 10, nowAt = 5, inA = [0, 3, 4]
+sumA = 12, nowAt = 6, inA = [0, 3, 4, 5]
+  take = 12, 5
+sumA = 10, nowAt = 6, inA = [0, 3, 4]
+noTake = 10, 7
+  take = 10, 7
+sumA = 9, nowAt = 5, inA = [0, 3]
+sumA = 11, nowAt = 6, inA = [0, 3, 5]
+  take = 11, 6
+sumA = 9, nowAt = 6, inA = [0, 3]
+noTake = 9, 8
+noTake = 9, 8
+  take = 9, 8
+sumA = 5, nowAt = 4, inA = [0]
+sumA = 6, nowAt = 5, inA = [0, 4]
+sumA = 8, nowAt = 6, inA = [0, 4, 5]
+  take = 8, 9
+sumA = 6, nowAt = 6, inA = [0, 4]
+noTake = 6, 11
+  take = 6, 11
+sumA = 5, nowAt = 5, inA = [0]
+sumA = 7, nowAt = 6, inA = [0, 5]
+  take = 7, 10
+sumA = 5, nowAt = 6, inA = [0]
+noTake = 5, 12
+noTake = 5, 12
+noTake = 5, 12
+noTake = 5, 12
+noTake = 5, 12
+  take = 5, 12
+sumA = 0, nowAt = 1, inA = []
+sumA = 3, nowAt = 2, inA = [1]
+sumA = 5, nowAt = 3, inA = [1, 2]
+sumA = 9, nowAt = 4, inA = [1, 2, 3]
+sumA = 10, nowAt = 5, inA = [1, 2, 3, 4]
+sumA = 12, nowAt = 6, inA = [1, 2, 3, 4, 5]
+  take = 12, 5
+sumA = 10, nowAt = 6, inA = [1, 2, 3, 4]
+noTake = 10, 7
+  take = 10, 7
+sumA = 9, nowAt = 5, inA = [1, 2, 3]
+sumA = 11, nowAt = 6, inA = [1, 2, 3, 5]
+  take = 11, 6
+sumA = 9, nowAt = 6, inA = [1, 2, 3]
+noTake = 9, 8
+noTake = 9, 8
+  take = 9, 8
+sumA = 5, nowAt = 4, inA = [1, 2]
+sumA = 6, nowAt = 5, inA = [1, 2, 4]
+sumA = 8, nowAt = 6, inA = [1, 2, 4, 5]
+  take = 8, 9
+sumA = 6, nowAt = 6, inA = [1, 2, 4]
+noTake = 6, 11
+  take = 6, 11
+sumA = 5, nowAt = 5, inA = [1, 2]
+sumA = 7, nowAt = 6, inA = [1, 2, 5]
+  take = 7, 10
+sumA = 5, nowAt = 6, inA = [1, 2]
+noTake = 5, 12
+noTake = 5, 12
+noTake = 5, 12
+  take = 5, 12
+sumA = 3, nowAt = 3, inA = [1]
+sumA = 7, nowAt = 4, inA = [1, 3]
+sumA = 8, nowAt = 5, inA = [1, 3, 4]
+sumA = 10, nowAt = 6, inA = [1, 3, 4, 5]
+  take = 10, 7
+sumA = 8, nowAt = 6, inA = [1, 3, 4]
+noTake = 8, 9
+  take = 8, 9
+sumA = 7, nowAt = 5, inA = [1, 3]
+sumA = 9, nowAt = 6, inA = [1, 3, 5]
+  take = 9, 8
+sumA = 7, nowAt = 6, inA = [1, 3]
+noTake = 7, 10
+noTake = 7, 10
+  take = 7, 10
+sumA = 3, nowAt = 4, inA = [1]
+sumA = 4, nowAt = 5, inA = [1, 4]
+sumA = 6, nowAt = 6, inA = [1, 4, 5]
+  take = 6, 11
+sumA = 4, nowAt = 6, inA = [1, 4]
+noTake = 4, 13
+  take = 4, 13
+sumA = 3, nowAt = 5, inA = [1]
+sumA = 5, nowAt = 6, inA = [1, 5]
+  take = 5, 12
+sumA = 3, nowAt = 6, inA = [1]
+noTake = 3, 14
+noTake = 3, 14
+noTake = 3, 14
+noTake = 3, 14
+  take = 3, 14
+sumA = 0, nowAt = 2, inA = []
+sumA = 2, nowAt = 3, inA = [2]
+sumA = 6, nowAt = 4, inA = [2, 3]
+sumA = 7, nowAt = 5, inA = [2, 3, 4]
+sumA = 9, nowAt = 6, inA = [2, 3, 4, 5]
+  take = 9, 8
+sumA = 7, nowAt = 6, inA = [2, 3, 4]
+noTake = 7, 10
+  take = 7, 10
+sumA = 6, nowAt = 5, inA = [2, 3]
+sumA = 8, nowAt = 6, inA = [2, 3, 5]
+  take = 8, 9
+sumA = 6, nowAt = 6, inA = [2, 3]
+noTake = 6, 11
+noTake = 6, 11
+  take = 6, 11
+sumA = 2, nowAt = 4, inA = [2]
+sumA = 3, nowAt = 5, inA = [2, 4]
+sumA = 5, nowAt = 6, inA = [2, 4, 5]
+  take = 5, 12
+sumA = 3, nowAt = 6, inA = [2, 4]
+noTake = 3, 14
+  take = 3, 14
+sumA = 2, nowAt = 5, inA = [2]
+sumA = 4, nowAt = 6, inA = [2, 5]
+  take = 4, 13
+sumA = 2, nowAt = 6, inA = [2]
+noTake = 2, 15
+noTake = 2, 15
+noTake = 2, 15
+  take = 2, 15
+sumA = 0, nowAt = 3, inA = []
+sumA = 4, nowAt = 4, inA = [3]
+sumA = 5, nowAt = 5, inA = [3, 4]
+sumA = 7, nowAt = 6, inA = [3, 4, 5]
+  take = 7, 10
+sumA = 5, nowAt = 6, inA = [3, 4]
+noTake = 5, 12
+  take = 5, 12
+sumA = 4, nowAt = 5, inA = [3]
+sumA = 6, nowAt = 6, inA = [3, 5]
+  take = 6, 11
+sumA = 4, nowAt = 6, inA = [3]
+noTake = 4, 13
+noTake = 4, 13
+  take = 4, 13
+sumA = 0, nowAt = 4, inA = []
+sumA = 1, nowAt = 5, inA = [4]
+sumA = 3, nowAt = 6, inA = [4, 5]
+  take = 3, 14
+sumA = 1, nowAt = 6, inA = [4]
+noTake = 1, 16
+  take = 1, 16
+sumA = 0, nowAt = 5, inA = []
+sumA = 2, nowAt = 6, inA = [5]
+  take = 2, 15
+sumA = 0, nowAt = 6, inA = []
+noTake = 0, 17
+noTake = 0, 17
+noTake = 0, 17
+noTake = 0, 17
+noTake = 0, 17
+noTake = 0, 17
+ansSum = 0, ans = []
+
+
+Run Code
+
+Run Tests
+
+Submit
