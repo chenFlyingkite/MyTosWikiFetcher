@@ -2451,6 +2451,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "傳說的龍戰士",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%82%B3%E8%AA%AA%E7%9A%84%E9%BE%8D%E6%88%B0%E5%A3%AB",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I.【被選中的孩子】、 水、木及光屬性成員 ⇒ 攻擊力 9 倍、生命力及回復力 1.6 倍 II. 消除 ≥3 種符石 ⓵ 全隊攻擊力額外 6 倍 ⓶ 增加 3 連擊 (Combo、Ex. Combo)",
+    "skillMonsters": [
+      "10269"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "傾世絕色",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%82%BE%E4%B8%96%E7%B5%95%E8%89%B2",
     "skillCDMin": -1,
@@ -4693,7 +4704,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%AB%E7%A5%9E%E5%A4%AA%E4%B8%80%E7%9A%84%E5%8B%87%E6%B0%A3_%E2%80%A7_%E5%BC%B7",
     "skillCDMin": -1,
     "skillCDMax": -1,
-    "skillDesc": "隊中只有【被選中的孩子】或龍類成員： I. 全隊攻擊力 8 倍及生命力 1.8 倍 II.【被選中的孩子】成員 ⇒ 生命力額外 1.3 倍 III. 必然延長移動符石時間 1.5 秒 IV. 消除 ≥2 組火符石 ⇒ 全隊攻擊力額外 1.5 倍 V. 消除種族符石 ⇒ 全隊攻擊力額外 3 倍 VI. 全隊對獸類、龍類目標的傷害額外 2 倍",
+    "skillDesc": "隊中只有【被選中的孩子】或龍類成員： I. 全隊攻擊力 8 倍及生命力 1.8 倍 II.【被選中的孩子】成員 ⇒ 生命力額外 1.3 倍 III. 必然延長移動符石時間 1.5 秒 IV. 消除 ≥2 組火符石 ⇒ 全隊攻擊力額外 2.2 倍 V. 消除種族符石 ⇒ 全隊攻擊力額外 3 倍 VI. 全隊對獸類、龍類目標的傷害額外 2 倍",
     "skillMonsters": [
       "10265"
     ]
@@ -6387,6 +6398,17 @@
     "skillDesc": "隊中只有機械族及神族成員時： I. 全隊攻擊力 10 倍 II. 心符石兼具 50% 水符石效果 III. 達至 5 - 9 連擊 (Combo) 時 ⇒ 減少 20% 所受傷害 IV. 達至 ≥10 連擊 (Combo) 時 ⇒ 減少 80% 所受傷害",
     "skillMonsters": [
       "1871"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "千兆屠殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%8D%83%E5%85%86%E5%B1%A0%E6%AE%BA",
+    "skillCDMin": 77,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆水、火及木符石 ⇒ 掉落「光、暗及心」強化符石 1 回合內 II. 自身攻擊力 8 倍",
+    "skillMonsters": [
+      "10269"
     ]
   },
   {
@@ -22351,6 +22373,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "消滅邪惡之力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B6%88%E6%BB%85%E9%82%AA%E6%83%A1%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I.【被選中的孩子】、 獸類、妖精類及龍類成員 ⇒ 攻擊力 8 倍、生命力及回復力 2.2 倍 II. 減少 40% 所受傷害 III. 達至 ≥6 連擊 (Combo) ⇒ 全隊攻擊力額外 6 倍",
+    "skillMonsters": [
+      "10268"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "消除之力",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B6%88%E9%99%A4%E4%B9%8B%E5%8A%9B",
@@ -24867,6 +24900,17 @@
     "skillDesc": "I. 引爆暗符石及風化符石 ⇒ 掉落木及心符石 1 回合內 II. 無視「黏腐」 III. 所有符石分別兼具 ⇒ 50% 木及心符石效果 IV. 若隊中有 ≥2 種族成員 ⇒ 額外增加 2 回合效果",
     "skillMonsters": [
       "10238"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "無限大炮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E9%99%90%E5%A4%A7%E7%82%AE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選 2 直行的符石並引爆 ⇒ 掉落該直行成員的屬性種族強化符石 成功引爆後 ⇒ 對敵方全體造成自身攻擊力 基值 3,000 倍的暗屬性傷害 (此傷害無視敵人防禦力) 1 回合內 II. 觸碰「連環光牢」射擊位置 ⇒ 仍可移動符石 III. 每消除 1 組符石 ⇒ 自身追打火屬性攻擊 1 次 ⇒ 最多可追打 5 次",
+    "skillMonsters": [
+      "10258"
     ]
   },
   {
@@ -28200,6 +28244,17 @@
     "skillDesc": "於移動符石並消除符石後，根據首批消除的連擊 (Combo) 數目增加相同的連擊 (Combo) 數目，效果持續至達成 15 連擊 (Combo) 或以上",
     "skillMonsters": [
       "1583"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "百萬屠殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%99%BE%E8%90%AC%E5%B1%A0%E6%AE%BA",
+    "skillCDMin": 77,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落 固定版面 的 「五屬及心」強化符石 1 回合內 II. 首批消除所有符石 ⓵ 自身攻擊力 3 倍 ⓶ 回合結束時自身技能 CD -2",
+    "skillMonsters": [
+      "10268"
     ]
   },
   {
@@ -42100,6 +42155,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "霸王拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E7%8E%8B%E6%8B%B3",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆右方 3 直行的符石 ⇒ 掉落「木及暗」獸族符石 1 回合內 II. 自身攻擊力 5 倍 III. 自身攻擊轉化為暗屬性",
+    "skillMonsters": [
+      "10253"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "霸王震怒",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E7%8E%8B%E9%9C%87%E6%80%92",
@@ -45904,6 +45970,17 @@
     "skillDesc": "8 秒內，可任意移動符石而不會發動消除；1 回合內，妖精類及魔族攻擊力 1.6 倍",
     "skillMonsters": [
       "1773"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "黑暗死域",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BB%91%E6%9A%97%E6%AD%BB%E5%9F%9F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 消除所有附加效果 1 回合內 II. 所有符石兼具其他符石效果 III. 可任意移動符石而不會發動消除 IV.「幽閉空間」技能生效時 ⓵ 完全回復生命力 ⓶ 自身攻擊力 10 倍 ⓷ 自身無視「固定連擊盾」",
+    "skillMonsters": [
+      "10260"
     ]
   },
   {

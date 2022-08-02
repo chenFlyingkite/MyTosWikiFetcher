@@ -18210,6 +18210,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10252"
   },
   {
+    "title": "No. 10253 奧加獸",
+    "id": "10253",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A5%A7%E5%8A%A0%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10253"
+  },
+  {
     "title": "No. 10254 淑女惡魔獸",
     "id": "10254",
     "link": "https://tos.fandom.com/zh/wiki/%E6%B7%91%E5%A5%B3%E6%83%A1%E9%AD%94%E7%8D%B8",
@@ -18228,10 +18234,22 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10257"
   },
   {
+    "title": "No. 10258 機械邪龍獸",
+    "id": "10258",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E9%82%AA%E9%BE%8D%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10258"
+  },
+  {
     "title": "No. 10259 小丑皇",
     "id": "10259",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B0%8F%E4%B8%91%E7%9A%87",
     "linkId": "http://zh.tos.wikia.com/wiki/10259"
+  },
+  {
+    "title": "No. 10260 啟示錄獸",
+    "id": "10260",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%95%9F%E7%A4%BA%E9%8C%84%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10260"
   },
   {
     "title": "No. 10262 V仔獸與蟲蟲獸",
@@ -18262,6 +18280,18 @@
     "id": "10266",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E5%A4%A9%E4%BD%BF%E7%8D%B8%E8%88%87%E5%A4%A9%E5%A5%B3%E7%8D%B8",
     "linkId": "http://zh.tos.wikia.com/wiki/10266"
+  },
+  {
+    "title": "No. 10268 帝皇龍甲獸：龍型態",
+    "id": "10268",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%9D%E7%9A%87%E9%BE%8D%E7%94%B2%E7%8D%B8%EF%BC%9A%E9%BE%8D%E5%9E%8B%E6%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/10268"
+  },
+  {
+    "title": "No. 10269 帝皇龍甲獸：龍人型態",
+    "id": "10269",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%9D%E7%9A%87%E9%BE%8D%E7%94%B2%E7%8D%B8%EF%BC%9A%E9%BE%8D%E4%BA%BA%E5%9E%8B%E6%85%8B",
+    "linkId": "http://zh.tos.wikia.com/wiki/10269"
   },
   {
     "title": "No. 10270 星械造主 ‧ 奧米伽",

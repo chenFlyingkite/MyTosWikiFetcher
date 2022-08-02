@@ -149,6 +149,28 @@ public class Main {
         }
     }
 
+    private static void otherRobot() {
+        // fillCrossDepartmentReview
+        // To click on everyone of no, and click the 1st one on leftmost Yes
+        try {
+            Robot2 r = new Robot2();
+            r.delay(5_000);
+            // 870 = find "Bad<----->Good"
+            // each row has 6 items
+            int times = 870 / 6;
+            for (int j = 0; j < times; j++) {
+                r.keySend(KeyEvent.VK_RIGHT);
+                for (int i = 0; i < 7; i++) {
+                    r.keySend(KeyEvent.VK_TAB);
+                }
+                r.delay(500*0);
+            }
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+
+    }
+
     // https://developer.android.com/studio/command-line/adb
 
     private static void enterTemperature() {
