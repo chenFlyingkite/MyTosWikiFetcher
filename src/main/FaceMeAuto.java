@@ -77,7 +77,7 @@ public class FaceMeAuto {
     }
 
     public static void faceMeFintechBuild() {
-        int appRevisionInSR = 63799;
+        int appRevisionInSR = 64421;
         String appVersionName = "5.2.0";
         // from invitation link, permalink
         // Click FaceMe®Fintech - 5.0.0 > Invitation permalink
@@ -117,7 +117,7 @@ public class FaceMeAuto {
         for (int i = 0; i < li.size(); i++) {
             String line = li.get(i);
             String focus;
-            L.log("line #%d = %s", i, line);
+            //L.log("line #%d = %s", i, line);
             if (line.startsWith("Revision: ")) {
                 if (state == 0) {
                     state = 1;
@@ -152,7 +152,7 @@ public class FaceMeAuto {
                         state = 5;
                     } else {
                         now.message.add(line);
-                        L.log("now = %s, st = %s, %s", now, state, line);
+                        //L.log("now = %s, st = %s, %s", now, state, line);
                     }
                 } while (state == 4);
             } else if (line.startsWith("Modified : ")) {
@@ -194,7 +194,8 @@ public class FaceMeAuto {
             }
         }
 //        for (int i = 0; i < ans.size(); i++) {
-//            L.log("#%s : %s", i, ans.get(i));
+//            RevInfo it = ans.get(i);
+//            L.log("  - [%s] : %s", it.revision, it.message.get(0));
 //        }
         // printing the MBO report
         L.log("%s:", FileUtil.getNameBeforeExtension(src));

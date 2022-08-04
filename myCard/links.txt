@@ -18222,6 +18222,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10254"
   },
   {
+    "title": "No. 10255 究極吸血魔獸",
+    "id": "10255",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A9%B6%E6%A5%B5%E5%90%B8%E8%A1%80%E9%AD%94%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10255"
+  },
+  {
     "title": "No. 10256 鋼鐵海龍獸",
     "id": "10256",
     "link": "https://tos.fandom.com/zh/wiki/%E9%8B%BC%E9%90%B5%E6%B5%B7%E9%BE%8D%E7%8D%B8",
@@ -18252,6 +18258,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10260"
   },
   {
+    "title": "No. 10261 超惡魔獸",
+    "id": "10261",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E6%83%A1%E9%AD%94%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10261"
+  },
+  {
     "title": "No. 10262 V仔獸與蟲蟲獸",
     "id": "10262",
     "link": "https://tos.fandom.com/zh/wiki/V%E4%BB%94%E7%8D%B8%E8%88%87%E8%9F%B2%E8%9F%B2%E7%8D%B8",
@@ -18280,6 +18292,12 @@
     "id": "10266",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E8%81%96%E5%A4%A9%E4%BD%BF%E7%8D%B8%E8%88%87%E5%A4%A9%E5%A5%B3%E7%8D%B8",
     "linkId": "http://zh.tos.wikia.com/wiki/10266"
+  },
+  {
+    "title": "No. 10267 奧米加獸",
+    "id": "10267",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A5%A7%E7%B1%B3%E5%8A%A0%E7%8D%B8",
+    "linkId": "http://zh.tos.wikia.com/wiki/10267"
   },
   {
     "title": "No. 10268 帝皇龍甲獸：龍型態",

@@ -105,7 +105,7 @@ public class Main {
 
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
-        //FaceMeAuto.organizeCommitLog();
+        //FaceMeAuto.organizeCommitLog(new File("D:\\Github\\sample.txt"));
         //listFiles();
         //JudgementSearch.run();
     }
