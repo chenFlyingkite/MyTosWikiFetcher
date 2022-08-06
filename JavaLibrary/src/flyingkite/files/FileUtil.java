@@ -103,6 +103,10 @@ public class FileUtil {
 
         if (!f.exists()) {
             try {
+                File p = f.getParentFile();
+                if (p != null) {
+                    p.mkdirs();
+                }
                 f.createNewFile();
             } catch (IOException e) {
                 e.printStackTrace();

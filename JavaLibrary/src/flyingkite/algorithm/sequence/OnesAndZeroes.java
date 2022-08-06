@@ -1,7 +1,5 @@
 package flyingkite.algorithm.sequence;
 
-import flyingkite.log.L;
-
 /**
  * https://leetcode.com/problems/ones-and-zeroes/
  * In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.
@@ -40,6 +38,7 @@ public class OnesAndZeroes {
     private int sol1(String[] s, int m, int n) {
         int len = s.length;
 
+        // counting a[0:i] has how many zeros and ones, as z[i][0] & z[i][1]
         int[][] z01s = new int[len][2];
         int m0 = 0, m1 = 0;
         for (int i = 0; i < len; i++) {
@@ -76,6 +75,8 @@ public class OnesAndZeroes {
         return dp[m][n];
     }
 
+    // For string s, returns the 0 chars and 1 chars count as ans = {m, n},
+    // where s has m zeros and n ones
     private int[] get01(String s) {
         int[] ans = new int[2];
         int n = s.length();
