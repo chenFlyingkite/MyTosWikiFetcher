@@ -149,128 +149,47 @@
 },
 0 ~ 0 -> [『侵蝕 ‧ 封王』系列災厄級任務]
   link = 
-1659283200 ~ 1659369600 -> [8月01日(一), 侵蝕野望 ※ 復刻災厄級]
+1661961600 ~ 1662048000 -> [9月01日(四), 侵蝕野望 ※ 復刻災厄級]
   link = https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E9%87%8E%E6%9C%9B
 {
   "link": "https://tos.fandom.com/zh/wiki/%E4%BE%B5%E8%9D%95%E9%87%8E%E6%9C%9B",
   "name": "侵蝕野望",
   "icon": "3001"
 },
-1659369600 ~ 1659456000 -> [8月02日(二), 墜落陽日 ※ 復刻災厄級]
+1662048000 ~ 1662134400 -> [9月02日(五), 墜落陽日 ※ 復刻災厄級]
   link = https://tos.fandom.com/zh/wiki/%E5%A2%9C%E8%90%BD%E9%99%BD%E6%97%A5
 {
   "link": "https://tos.fandom.com/zh/wiki/%E5%A2%9C%E8%90%BD%E9%99%BD%E6%97%A5",
   "name": "墜落陽日",
   "icon": "3002"
 },
-1659456000 ~ 1659542400 -> [8月03日(三), 理智泯滅 ※ 復刻災厄級]
+1662134400 ~ 1662220800 -> [9月03日(六), 理智泯滅 ※ 復刻災厄級]
   link = https://tos.fandom.com/zh/wiki/%E7%90%86%E6%99%BA%E6%B3%AF%E6%BB%85
 {
   "link": "https://tos.fandom.com/zh/wiki/%E7%90%86%E6%99%BA%E6%B3%AF%E6%BB%85",
   "name": "理智泯滅",
   "icon": "3003"
 },
-1659542400 ~ 1659628800 -> [8月04日(四), 世界根源 ※ 復刻災厄級]
+1662220800 ~ 1662307200 -> [9月04日(日), 世界根源 ※ 復刻災厄級]
   link = https://tos.fandom.com/zh/wiki/%E4%B8%96%E7%95%8C%E6%A0%B9%E6%BA%90
 {
   "link": "https://tos.fandom.com/zh/wiki/%E4%B8%96%E7%95%8C%E6%A0%B9%E6%BA%90",
   "name": "世界根源",
   "icon": "3004"
 },
-1659628800 ~ 1659715200 -> [8月05日(五), 污穢之災 ※ 復刻災厄級]
+1662307200 ~ 1662393600 -> [9月05日(一), 污穢之災 ※ 復刻災厄級]
   link = https://tos.fandom.com/zh/wiki/%E6%B1%A1%E7%A9%A2%E4%B9%8B%E7%81%BD
 {
   "link": "https://tos.fandom.com/zh/wiki/%E6%B1%A1%E7%A9%A2%E4%B9%8B%E7%81%BD",
   "name": "污穢之災",
   "icon": "3005"
 },
-1659715200 ~ 1659801600 -> [8月06日(六), 靈魂剝奪 ※ 復刻災厄級]
+1662393600 ~ 1662480000 -> [9月06日(二), 靈魂剝奪 ※ 復刻災厄級]
   link = https://tos.fandom.com/zh/wiki/%E9%9D%88%E9%AD%82%E5%89%9D%E5%A5%AA
 {
   "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E9%AD%82%E5%89%9D%E5%A5%AA",
   "name": "靈魂剝奪",
   "icon": "3006"
-},
-0 ~ 0 -> [全新主線任務『龍之國度 (中)』]
-  link = https://tos.fandom.com/zh/wiki/%E4%B8%BB%E7%B7%9A%E4%BB%BB%E5%8B%99
-1657468800 ~ 4087468800 -> [7月11日(一), 7月11日(六), 第十章　龍之國度 (中) I]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%AD)_I
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%AD)_I",
-  "name": "第十章 龍之國度 (中) I",
-  "icon": "0000"
-},
-1657468800 ~ 4087468800 -> [7月11日(一), 7月11日(六), 第十章　龍之國度 (中) II]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%AD)_II
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%AD)_II",
-  "name": "第十章 龍之國度 (中) II",
-  "icon": "0000"
-},
-1657468800 ~ 4087468800 -> [7月11日(一), 7月11日(六), 第十章　龍之國度 (中) III]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%AD)_III
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%AD)_III",
-  "name": "第十章 龍之國度 (中) III",
-  "icon": "0000"
-},
-1657468800 ~ 4087468800 -> [7月11日(一), 7月11日(六), 第九章 龍之國度 (上) I (困難)]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B9%9D%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%8A)_I_(%E5%9B%B0%E9%9B%A3)
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B9%9D%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%8A)_I_(%E5%9B%B0%E9%9B%A3)",
-  "name": "第九章 龍之國度 (上) I (困難)",
-  "icon": "0000"
-},
-1657468800 ~ 4087468800 -> [7月11日(一), 7月11日(六), 第九章 龍之國度 (上) II (困難)]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B9%9D%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%8A)_II_(%E5%9B%B0%E9%9B%A3)
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B9%9D%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%8A)_II_(%E5%9B%B0%E9%9B%A3)",
-  "name": "第九章 龍之國度 (上) II (困難)",
-  "icon": "0000"
-},
-1657468800 ~ 4087468800 -> [7月11日(一), 7月11日(六), 第九章 龍之國度 (上) III (困難)]
-  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B9%9D%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%8A)_III_(%E5%9B%B0%E9%9B%A3)
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E4%B9%9D%E7%AB%A0_%E9%BE%8D%E4%B9%8B%E5%9C%8B%E5%BA%A6_(%E4%B8%8A)_III_(%E5%9B%B0%E9%9B%A3)",
-  "name": "第九章 龍之國度 (上) III (困難)",
-  "icon": "0000"
-},
-0 ~ 0 -> [副線劇情關卡『他們的二三事』]
-  link = 
-1654444800 ~ 4084444800 -> [6月06日(一), 6月06日(六), 德古拉與釣魚]
-  link = https://tos.fandom.com/zh/wiki/%E5%BE%B7%E5%8F%A4%E6%8B%89%E8%88%87%E9%87%A3%E9%AD%9A
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%BE%B7%E5%8F%A4%E6%8B%89%E8%88%87%E9%87%A3%E9%AD%9A",
-  "name": "德古拉與釣魚",
-  "icon": "0000"
-},
-1654444800 ~ 4084444800 -> [6月06日(一), 6月06日(六), 約菲與妹妹]
-  link = https://tos.fandom.com/zh/wiki/%E7%B4%84%E8%8F%B2%E8%88%87%E5%A6%B9%E5%A6%B9
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%B4%84%E8%8F%B2%E8%88%87%E5%A6%B9%E5%A6%B9",
-  "name": "約菲與妹妹",
-  "icon": "0000"
-},
-1654488000 ~ 4084401600 -> [6月06日(一) 12:00 ~ 12:00, 我的姜尚]
-  link = https://tos.fandom.com/zh/wiki/%E6%88%91%E7%9A%84%E5%A7%9C%E5%B0%9A
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%88%91%E7%9A%84%E5%A7%9C%E5%B0%9A",
-  "name": "我的姜尚",
-  "icon": "0000"
-},
-1655712000 ~ 4084444740 -> [6月20日(一) 16:00, 6月06日(六) 23:59, 奧米伽與表演]
-  link = https://tos.fandom.com/zh/wiki/%E5%A5%A7%E7%B1%B3%E4%BC%BD%E8%88%87%E8%A1%A8%E6%BC%94
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A5%A7%E7%B1%B3%E4%BC%BD%E8%88%87%E8%A1%A8%E6%BC%94",
-  "name": "奧米伽與表演",
-  "icon": "0000"
-},
-1655712000 ~ 4084444740 -> [6月20日(一) 16:00, 6月06日(六) 23:59, 隱德萊與尤麗婭]
-  link = https://tos.fandom.com/zh/wiki/%E9%9A%B1%E5%BE%B7%E8%90%8A%E8%88%87%E5%B0%A4%E9%BA%97%E5%A9%AD
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9A%B1%E5%BE%B7%E8%90%8A%E8%88%87%E5%B0%A4%E9%BA%97%E5%A9%AD",
-  "name": "隱德萊與尤麗婭",
-  "icon": "0000"
 },
 0 ~ 0 -> [⬇ 合作地區活動 (港澳台新馬泰) ⬇]
   link = 
@@ -279,10 +198,6 @@
 1658131200 ~ 1660492740 -> [7月18日(一) 16:00, 8月14日(日) 23:59, 每週登入皆可獲贈『合作召喚券』1 張]
   link = 
 1658131200 ~ 1660492740 -> [7月18日(一) 16:00, 8月14日(日) 23:59, 活動期間，以『數碼暴龍』石抽系列角色進行強化合成時，必定獲得超絕或完美強化！同時，進行分解時，獲得的靈魂數亦將會大幅提升！]
-  link = 
-0 ~ 0 -> [【暗黑力量的來源】]
-  link = 
-1659715200 ~ 1659888000 -> [8月06日(六), 8月07日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 
 0 ~ 0 -> [【超惡魔獸的戰爭遊戲】]
   link = 

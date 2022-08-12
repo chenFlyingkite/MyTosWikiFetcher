@@ -20484,6 +20484,84 @@
     "linkId": "http://zh.tos.wikia.com/wiki/6380"
   },
   {
+    "title": "No. 6381 野望滅絕 ‧ 薩魯曼 (本體)",
+    "id": "6381",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/6381"
+  },
+  {
+    "title": "No. 6382 怨念核 (核心)",
+    "id": "6382",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/6382"
+  },
+  {
+    "title": "No. 6383 日墜月落 ‧ 噬日狼",
+    "id": "6383",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E5%A2%9C%E6%9C%88%E8%90%BD_%E2%80%A7_%E5%99%AC%E6%97%A5%E7%8B%BC%E8%88%87%E5%96%B0%E6%9C%88%E7%8B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/6383"
+  },
+  {
+    "title": "No. 6384 日墜月落 ‧ 喰月狼",
+    "id": "6384",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E5%A2%9C%E6%9C%88%E8%90%BD_%E2%80%A7_%E5%99%AC%E6%97%A5%E7%8B%BC%E8%88%87%E5%96%B0%E6%9C%88%E7%8B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/6384"
+  },
+  {
+    "title": "No. 6385 雙生核 (核心)",
+    "id": "6385",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%97%A5%E5%A2%9C%E6%9C%88%E8%90%BD_%E2%80%A7_%E5%99%AC%E6%97%A5%E7%8B%BC%E8%88%87%E5%96%B0%E6%9C%88%E7%8B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/6385"
+  },
+  {
+    "title": "No. 6386 理智失序 ‧ 奧丁 (本體)",
+    "id": "6386",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%90%86%E6%99%BA%E5%A4%B1%E5%BA%8F_%E2%80%A7_%E5%A5%A7%E4%B8%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/6386"
+  },
+  {
+    "title": "No. 6387 晶綻核 (核心)",
+    "id": "6387",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%90%86%E6%99%BA%E5%A4%B1%E5%BA%8F_%E2%80%A7_%E5%A5%A7%E4%B8%81",
+    "linkId": "http://zh.tos.wikia.com/wiki/6387"
+  },
+  {
+    "title": "No. 6388 根源倒錯 ‧ 迪亞布羅 (本體)",
+    "id": "6388",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A0%B9%E6%BA%90%E5%80%92%E9%8C%AF_%E2%80%A7_%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/6388"
+  },
+  {
+    "title": "No. 6389 融冰核 (核心)",
+    "id": "6389",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%A0%B9%E6%BA%90%E5%80%92%E9%8C%AF_%E2%80%A7_%E8%BF%AA%E4%BA%9E%E5%B8%83%E7%BE%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/6389"
+  },
+  {
+    "title": "No. 6390 生死剝離 ‧ 尼德霍格 (本體)",
+    "id": "6390",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%94%9F%E6%AD%BB%E5%89%9D%E9%9B%A2_%E2%80%A7_%E5%B0%BC%E5%BE%B7%E9%9C%8D%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/6390"
+  },
+  {
+    "title": "No. 6391 胞質核 (核心)",
+    "id": "6391",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%94%9F%E6%AD%BB%E5%89%9D%E9%9B%A2_%E2%80%A7_%E5%B0%BC%E5%BE%B7%E9%9C%8D%E6%A0%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/6391"
+  },
+  {
+    "title": "No. 6392 存在質疑 ‧ 路西法 (本體)",
+    "id": "6392",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AD%98%E5%9C%A8%E8%B3%AA%E7%96%91_%E2%80%A7_%E8%B7%AF%E8%A5%BF%E6%B3%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/6392"
+  },
+  {
+    "title": "No. 6393 羽翼核 (核心)",
+    "id": "6393",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AD%98%E5%9C%A8%E8%B3%AA%E7%96%91_%E2%80%A7_%E8%B7%AF%E8%A5%BF%E6%B3%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/6393"
+  },
+  {
     "title": "S402 蜃樓星火 ‧ 伊斯塔(動態造型)",
     "id": "6402",
     "link": "https://tos.fandom.com/zh/wiki/%E8%9C%83%E6%A8%93%E6%98%9F%E7%81%AB_%E2%80%A7_%E4%BC%8A%E6%96%AF%E5%A1%94(%E5%8B%95%E6%85%8B%E9%80%A0%E5%9E%8B)",
