@@ -1,4 +1,4 @@
-package main.misc;
+package main.fetcher.exchange;
 
 import flyingkite.files.FileUtil;
 import flyingkite.log.Loggable;
@@ -18,19 +18,17 @@ public class ExcelParser implements Loggable {
 
         clock.tic();
         for (int i = 0; i < all.length; i++) {
-            clock.tic();
+            //clock.tic();
             File src = all[i];
             File dst = new File(root + "/eval", src.getName());
             p.evalExpansion(src, dst);
-            clock.tac("#%s : OK %s", i, src);
+            //clock.tac("#%s : OK %s", i, src);
         }
         clock.tac("all files done in %s", f);
     }
 
     // fill in the rate ratio of (sell - buy)/ buy
     public void evalExpansion(File src, File dst) {
-//        log("src = %s", src);
-//        log("dst = %s", dst);
         List<String> all = FileUtil.readAllLines(src);
         List<String> res = new ArrayList<>();
 
@@ -67,37 +65,27 @@ public class ExcelParser implements Loggable {
 
         // print to file
         FileUtil.writeToFile(dst, res, false);
-        log("avg = %s%%, std = %s", avg * 100, std);
+        log("avg = %s%%, std = %s, %s", avg * 100, std, src.getName());
     }
 
     /*
-    avg = 0.9293365919717694%, std = 2.7359860862330443E-5
-     [60] : #0 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\人民幣.csv
-    avg = 1.0387637951798148%, std = 6.511693111690003E-4
-     [14] : #1 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\加拿大幣.csv
-    avg = 4.400643688439192%, std = 2.810171564585906E-4
-     [3] : #2 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\南非幣.csv
-    avg = 0.9789740746041%, std = 0.0014496338330045044
-     [8] : #3 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\新加坡幣.csv
-    avg = 1.350135668777431%, std = 8.10402448055858E-4
-     [8] : #4 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\日幣.csv
-    avg = 1.0648746227053276%, std = 1.0810947549322325E-4
-     [7] : #5 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\歐元.csv
-    avg = 1.3512357894163873%, std = 1.863714707959485E-4
-     [7] : #6 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\港幣.csv
-    avg = 1.0692681272889182%, std = 1.2130009572280942E-4
-     [6] : #7 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\澳幣.csv
-    avg = 1.9067623501761177%, std = 5.377979525489351E-4
-     [7] : #8 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\瑞典幣.csv
-    avg = 1.033719962008265%, std = 0.001496044472963573
-     [7] : #9 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\瑞士法郎.csv
-    avg = 1.2442542128903704%, std = 1.2653966148035156E-4
-     [6] : #10 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\紐西蘭幣.csv
-    avg = 0.3453821061587271%, std = 1.3050910883395314E-5
-     [6] : #11 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\美金.csv
-    avg = 1.057841227323445%, std = 5.614163547404405E-5
-     [6] : #12 : OK D:\Github\MyTosWikiFetcher\foreignCurrency\data\英鎊.csv
-    [145] : all files done in D:\Github\MyTosWikiFetcher\foreignCurrency\data
+avg = 0.9293365919717694%, std = 2.7359860862330443E-5, 人民幣.csv
+avg = 1.0387637951798148%, std = 6.511693111690003E-4, 加拿大幣.csv
+avg = 4.274366390627419%, std = 0.016339539512712165, 南非幣.csv
+avg = 0.9789740746041%, std = 0.0014496338330045044, 新加坡幣.csv
+avg = 1.350135668777431%, std = 8.10402448055858E-4, 日幣.csv
+avg = 1.0648746227053276%, std = 1.0810947549322325E-4, 歐元.csv
+avg = 1.3512357894163873%, std = 1.863714707959485E-4, 港幣.csv
+avg = 1.0692681272889182%, std = 1.2130009572280942E-4, 澳幣.csv
+avg = 1.9067623501761177%, std = 5.377979525489351E-4, 瑞典幣.csv
+avg = 1.033719962008265%, std = 0.001496044472963573, 瑞士法郎.csv
+avg = 1.2442542128903704%, std = 1.2653966148035156E-4, 紐西蘭幣.csv
+avg = 0.3453821061587271%, std = 1.3050910883395314E-5, 美金.csv
+avg = 1.057841227323445%, std = 5.614163547404405E-5, 英鎊.csv
+[157] : all files done in D:\Github\MyTosWikiFetcher\foreignCurrency\data
+Done, Sat Aug 13 22:01:59 CST 2022
+
+Process finished with exit code 0
     */
 
 }

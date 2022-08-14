@@ -96,23 +96,45 @@ public class FileUtil {
     }
 
     public static void createNewFile(File f) {
+        createNewFile(f, true);
+    }
+
+    /**
+     * Create file named f, delete if it already exists
+     */
+    public static void createNewFile(File f, boolean deleteIfFolder) {
         if (f == null) return;
-        if (f.exists() && f.isDirectory()) {
-            ensureDelete(f);
+        if (deleteIfFolder) {
+            if (f.exists() && f.isDirectory()) {
+                ensureDelete(f);
+            }
         }
 
         if (!f.exists()) {
-            try {
-                File p = f.getParentFile();
-                if (p != null) {
-                    p.mkdirs();
-                }
-                f.createNewFile();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            createFile(f);
         }
     }
+
+    /**
+     * Create file named f, and will not delete if f exists as a folder
+     * returns {@link File#createNewFile()}
+     */
+    public static boolean createFile(File f) {
+        if (f == null) return false;
+
+        File g = f.getParentFile();
+        if (g != null) {
+            g.mkdirs();
+        }
+        boolean b = false;
+        try {
+            b = f.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return b;
+    }
+
 
     public static void copy(InputStream is, OutputStream fos) {
         if (is == null || fos == null) return;
@@ -140,8 +162,8 @@ public class FileUtil {
         try {
             File dst = new File(target);
             dst.getParentFile().mkdirs();
-            fin = new FileInputStream(new File(source));
-            fout = new FileOutputStream(new File(target));
+            fin = new FileInputStream(source);
+            fout = new FileOutputStream(target);
             copy(fin, fout);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -152,6 +174,11 @@ public class FileUtil {
 
     public static List<String> readFromFile(String name) {
         return readFromFile(new File(name));
+    }
+
+    // suggest to use this method
+    public static List<String> readAllLines(String path) {
+        return readAllLines(new File(path));
     }
 
     // suggest to use this method
@@ -173,7 +200,7 @@ public class FileUtil {
         List<String> all = new ArrayList<>();
         Scanner s = null;
         try {
-            s = new Scanner(file);//, "UTF-8");
+            s = new Scanner(file);
             while (s.hasNextLine()) {
                 all.add(s.nextLine());
             }
@@ -195,7 +222,7 @@ public class FileUtil {
         StringBuilder sb = new StringBuilder();
         Scanner s = null;
         try {
-            s = new Scanner(file, "UTF-8");
+            s = new Scanner(file);
 
             while (s.hasNextLine()) {
                 sb.append(s.nextLine()).append("\n");
@@ -217,7 +244,7 @@ public class FileUtil {
         FileOutputStream fos = null;
         PrintWriter pw = null;
         try {
-            file.createNewFile();
+            createFile(file);
             fos = new FileOutputStream(file, append);
             pw = new PrintWriter(fos);
             for (String s : data) {
@@ -279,19 +306,6 @@ public class FileUtil {
                 }
             }
         }
-    }
-
-    public static boolean createFile(File f) {
-        if (f == null) return false;
-
-        f.getParentFile().mkdirs();
-        boolean b = false;
-        try {
-            b = f.createNewFile();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return b;
     }
 
     public static void sortByPath(List<File> all) {

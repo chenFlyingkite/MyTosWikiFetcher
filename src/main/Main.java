@@ -51,7 +51,7 @@ public class Main {
     public static void main(String[] args) {
         L.log("Main, %s", now());
         //-- Main work
-        fetch(0); // x <= 0 : run TosCardExtras
+        //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //stock();
@@ -90,6 +90,8 @@ public class Main {
     }
 
     private static void a() {
+        //ExcelParser.main(null);
+        //ForeignExchangeRateFetcher.main(null);
         //MainTest.main(null);
         //new LeetCode().run();
         //addJpg();
