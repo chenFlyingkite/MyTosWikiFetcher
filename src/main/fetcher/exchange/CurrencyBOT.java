@@ -29,4 +29,13 @@ public enum CurrencyBOT {
         name = _name;
         id = _id;
     }
+
+    public static CurrencyBOT find(String name) {
+        for (CurrencyBOT x : CurrencyBOT.values()) {
+            if (name.startsWith(x.name.substring(0, x.name.length() - 1))) {
+                return x;
+            }
+        }
+        return null;
+    }
 }

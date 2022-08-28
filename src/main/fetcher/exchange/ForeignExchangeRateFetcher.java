@@ -1,7 +1,11 @@
 package main.fetcher.exchange;
 
 import flyingkite.files.FileUtil;
+import flyingkite.log.Formattable;
+import flyingkite.log.L;
 import flyingkite.log.LF;
+import flyingkite.math.statictics.Covariance;
+import flyingkite.math.statictics.Stats;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.data.PPair;
@@ -13,6 +17,7 @@ import okhttp3.ResponseBody;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -34,10 +39,208 @@ public class ForeignExchangeRateFetcher {
     private static final File latestFolder = new File(rootData, "latest");
     // organized data
     private static final File botFolder = new File(rootData, "bot");
+    private static final File taishinFolder = new File(rootData, "taishin");
+    private static final Map<String, CURTable> loadedTable = new HashMap<>();
+    // statistics for certain exchange list, maybe but, sell or cash
+    // id -> list
+    private static final Map<String, Stats<Double>> usedStats = new HashMap<>();
+    private static final CurrencyBOT enr = CurrencyBOT.EUR;
 
     public static void main(String[] args) {
-        saveLatestCurrency();
-        mergeAllCurrency();
+        boolean update = 0 > 0;
+        if (update) {
+            saveLatestCurrency();
+            mergeAllCurrency();
+        }
+        // Choose bot or taishin data
+        //loadAllCurrencyBOT();
+        loadAllCurrencyTaiShin();
+
+        eval();
+    }
+
+    private static void eval() {
+        evalSellThreshold();
+        evalCorrelationTable();
+    }
+
+    // mu =
+    // ~=0.35 ,美金
+    // ~= 1 ,澳幣,加幣,法郎,人民幣,歐元,英鎊,星幣
+    // ~=1.3 ,港幣,日圓,紐西蘭幣
+    // ~=2 ,瑞典幣
+    // ~=4.2 ,南非幣
+    // ~=4.5 ,泰銖
+    private static void evalSellThreshold() {
+        List<String> keys = new ArrayList<>(loadedTable.keySet());
+        Collections.sort(keys);
+        L.log("Sell Threshold");
+        L.log("name,mu,std,q1,q3");
+        for (int i = 0; i < keys.size(); i++) {
+            String k = keys.get(i);
+            CURTable table = loadedTable.get(k);
+            List<Double> sellRates = new ArrayList<>();
+            int n = table.buy.size();
+            for (int j = 0; j < n; j++) {
+                double buy = table.buy.get(j);
+                double sell = table.sell.get(j);
+                double val = 100 * (sell - buy) / buy;
+                sellRates.add(val);
+            }
+            Stats<Double> stat = new Stats<>(sellRates);
+            L.log("#%s : %s -> (in %%) ,%s,%s,%s,%s", i, k, stat.mean, stat.deviation, stat.quartile1, stat.quartile3);
+        }
+    }
+
+    // Evaluate currency's correlation coefficient table
+    private static void evalCorrelationTable() {
+        List<String> si = new ArrayList<>(loadedTable.keySet());
+        Collections.sort(si);
+        List<Stats<Double>> stats = new ArrayList<>();
+        List<List<Covariance<Double, Double>>> corr = new ArrayList<>();
+        L.log("Correlation Table");
+        int n = si.size();
+        for (int i = 0; i < n; i++) {
+            corr.add(new ArrayList<>());
+            for (int j = i; j < n; j++) {
+                String ki = si.get(i);
+                String kj = si.get(j);
+                // add for the first statistic data
+                if (i == 0) {
+                    Stats<Double> di = usedStats.get(kj);
+                    stats.add(di);
+                    //L.log("#%s / %s : mean, deviation = %s, %s", j, kj, di.mean, di.deviation);
+                }
+                if (i != j) {
+                    Covariance<Double, Double> cov = new Covariance<>(stats.get(i), stats.get(j));
+                    //L.log("cov(%s, %s) (%02d, %02d) = %s", ki, kj, i, j, cov.correlation);
+                    corr.get(i).add(cov);
+                }
+            }
+        }
+        //-- Creating excel table
+        // header
+        String s = "";
+        for (int i = 0; i < n; i++) {
+            String ki = si.get(i);
+            s += ki + ",";
+        }
+        L.log("%s", s);
+        // excel for upper triangle covariance
+        double[] sum = new double[n]; // covariance of currency to system
+        for (int i = 0; i < n; i++) {
+            s = "";
+            for (int j = 0; j < n; j++) {
+                double d = 0;
+                if (j > i) {
+                    Covariance<Double, Double> cij = corr.get(i).get(j-i-1);
+                    s += cij.correlation + ",";
+                    if (j != n-1) {
+                        d = cij.correlation;
+                    }
+                } else {
+                    s += ",";
+                    // lower triangle
+//                    if (j < i) {
+//                        Covariance<Double, Double> cij = corr.get(j).get(i-j-1);
+//                        s += cij.correlation + ",";
+//                        if (i != n-1) {
+//                            d = cij.correlation;
+//                        }
+//                    }
+                }
+                if (i != j) {
+                    sum[i] += d;
+                    // debug used
+//                    if (i % 5 == 0) {
+//                        L.log("sum[%s] += %s", i, d);
+//                    }
+                }
+            }
+            L.log("%s", s);
+        }
+        L.log("sum = %s", Arrays.toString(sum));
+    }
+
+
+    private static void loadAllCurrencyTaiShin() {
+        File root = taishinFolder;
+        File[] csvs = root.listFiles();
+        L.log("%s items in folder %s", csvs.length, root);
+        for (int i = 0; i < csvs.length; i++) {
+            File it = csvs[i];
+            List<String> srcAll = FileUtil.readAllLines(it);
+            CURTable table = new CURTable();
+            String key = "";
+            for (int j = 2; j < srcAll.size(); j++) {
+                String li = srcAll.get(j);
+                String[] ss = li.split(",");
+
+                key = CurrencyBOT.find(it.getName()).id;
+                table.tag = key;
+                table.date.add(ss[0]);
+                table.buy.add(Double.parseDouble(ss[1]));
+                table.sell.add(Double.parseDouble(ss[2]));
+            }
+            loadedTable.put(key, table);
+            usedStats.put(key, new Stats<>(table.buy));
+        }
+        L.log("%s items in table", loadedTable.size());
+        for (String k : loadedTable.keySet()) {
+            L.log("%s -> %s", k, loadedTable.get(k));
+        }
+    }
+
+    private static void loadAllCurrencyBOT() {
+        File root = botFolder;
+        File[] csvs = root.listFiles();
+        L.log("%s items in folder %s", csvs.length, root);
+        for (int i = 0; i < csvs.length; i++) {
+            File it = csvs[i];
+            List<String> srcAll = FileUtil.readAllLines(it);
+            CURTable table = new CURTable();
+            String key = "";
+            for (int j = 1; j < srcAll.size(); j++) {
+                String li = srcAll.get(j);
+                String[] ss = li.split(",");
+
+                key = ss[1];
+                table.tag = key;
+                table.date.add(ss[0]);
+                // 2 = 本行買入, 12 = 本行賣出
+                int b = 2;
+                table.buy.add(Double.parseDouble(ss[b + 1]));
+                table.cashBuy.add(Double.parseDouble(ss[b + 2]));
+                b = 12;
+                table.sell.add(Double.parseDouble(ss[b + 1]));
+                table.cashSell.add(Double.parseDouble(ss[b + 2]));
+            }
+            loadedTable.put(key, table);
+            usedStats.put(key, new Stats<>(table.buy));
+        }
+        L.log("%s items in table", loadedTable.size());
+        for (String k : loadedTable.keySet()) {
+            L.log("%s -> %s", k, loadedTable.get(k));
+        }
+    }
+
+    private static class CURTable implements Formattable {
+        public String tag;
+        public List<String> date = new ArrayList<>();
+        public List<Double> buy = new ArrayList<>();
+        public List<Double> sell = new ArrayList<>();
+        public List<Double> cashBuy = new ArrayList<>();
+        public List<Double> cashSell = new ArrayList<>();
+
+        @Override
+        public String toString() {
+            int n = date.size();
+            String s = _fmt("%s ~ %s (%s items), buy = %s ~ %s, sell = %s ~ %s"
+                    , date.get(0), date.get(n-1), n
+                    , buy.get(0), buy.get(n-1), sell.get(0), sell.get(n-1)
+            );
+            return s;
+        }
     }
 
     private static void mergeAllCurrency() {
@@ -67,7 +270,6 @@ public class ForeignExchangeRateFetcher {
         for (int i = 0; i < li.size(); i++) {
             PPair<File, File> p = li.get(i);
             mergeCurrency(p.first, p.second);
-            //mergeCurrency(latestFolder, botFolder);
         }
     }
 
