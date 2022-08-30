@@ -11,6 +11,7 @@ import java.util.Locale;
 import java.util.Map;
 
 public class Stats<T extends Number> {
+    public String name;
     public double min;
     public double max;
     // https://en.wikipedia.org/wiki/Mean
@@ -132,7 +133,7 @@ public class Stats<T extends Number> {
 
     @Override
     public String toString() {
-        return String.format(Locale.US, "%s items, range = %s ~ %s, mean = %s, std = %s", source.size(), min, max, mean, deviation);
+        return String.format(Locale.US, "%s items in %s, range = %s ~ %s, mean = %s, std = %s", source.size(), name, min, max, mean, deviation);
     }
 
     public static void test() {

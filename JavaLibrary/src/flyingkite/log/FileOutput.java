@@ -16,8 +16,8 @@ public class FileOutput implements Loggable {
         this(new File(name));
     }
 
-    public FileOutput(File file1) {
-        file = file1;
+    public FileOutput(File f) {
+        file = f;
         validate();
     }
 
@@ -31,20 +31,25 @@ public class FileOutput implements Loggable {
         }
     }
 
+    private void createFile() throws IOException {
+        if (!file.exists()) {
+            File p = file.getParentFile();
+            if (p != null) {
+                p.mkdirs();
+            }
+
+            file.createNewFile();
+        }
+        close();
+    }
+
     public FileOutput open() {
         return open(true);
     }
 
     public FileOutput open(boolean append) {
         try {
-            if (!file.exists()) {
-                File p = file.getParentFile();
-                if (p != null) {
-                    p.mkdirs();
-                }
-                file.createNewFile();
-            }
-            close();
+            createFile();
 
             fos = new FileOutputStream(file, append);
             pw = new PrintWriter(fos);

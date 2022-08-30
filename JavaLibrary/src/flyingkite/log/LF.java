@@ -1,8 +1,8 @@
 package flyingkite.log;
 
-import java.io.File;
-
 import flyingkite.files.CSVTable;
+
+import java.io.File;
 
 /**
  * The class for logging message to console log and file
@@ -19,12 +19,23 @@ public class LF implements Loggable, CSVTable.OnReadCSV {
 
     private boolean logToL = true;
 
-    public LF(String folder) {
-        file = new FileOutput(folder + File.separator + "log.txt");
+    public LF(String it) {
+        this(new File(it));
     }
 
     public LF(String folder, String name) {
-        file = new FileOutput(folder + File.separator + name);
+        this(new File(folder, name));
+    }
+
+    public LF(File folder, String name) {
+        this(new File(folder, name));
+    }
+
+    public LF(File f) {
+        if (f.isDirectory()) {
+            f = new File(f, "log.txt");
+        }
+        file = new FileOutput(f);
     }
 
     public LF(FileOutput fo) {

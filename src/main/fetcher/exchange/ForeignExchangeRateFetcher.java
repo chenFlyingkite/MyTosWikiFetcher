@@ -8,6 +8,7 @@ import flyingkite.math.statictics.Covariance;
 import flyingkite.math.statictics.Stats;
 import flyingkite.tool.TextUtil;
 import flyingkite.tool.TicTac2;
+import main.fetcher.FetcherUtil;
 import main.fetcher.data.PPair;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -17,7 +18,6 @@ import okhttp3.ResponseBody;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -44,6 +44,8 @@ public class ForeignExchangeRateFetcher {
     // statistics for certain exchange list, maybe but, sell or cash
     // id -> list
     private static final Map<String, Stats<Double>> usedStats = new HashMap<>();
+    // AUD, CAD, CHF, CNY, EUR, GBP, HKD, JPY, NZD, SEK, SGD, THB, USD, ZAR...
+    private static final List<String> sortedCurrencyKey = new ArrayList<>();
     private static final CurrencyBOT enr = CurrencyBOT.EUR;
 
     public static void main(String[] args) {
@@ -52,16 +54,82 @@ public class ForeignExchangeRateFetcher {
             saveLatestCurrency();
             mergeAllCurrency();
         }
+        //loadWeb();
         // Choose bot or taishin data
         //loadAllCurrencyBOT();
         loadAllCurrencyTaiShin();
+        prepare();
 
         eval();
     }
 
+    // take the price of stock
+    private static void loadWeb() {
+        String link, s;
+        link = "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=csv&date=20100101&stockNo=1217";
+        s = getApiBody(link, null);
+        L.log("link = %s", link);
+        L.log("%s", s);
+
+        link = "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=csv&date=20200101&stockNo=1217";
+        s = getApiBody(link, null);
+        L.log("link = %s", link);
+        L.log("%s", s);
+    }
+
+    private static void prepare() {
+        List<String> keys = sortedCurrencyKey;
+        keys.clear();
+        keys.addAll(loadedTable.keySet());
+        Collections.sort(keys);
+    }
+
     private static void eval() {
-        evalSellThreshold();
-        evalCorrelationTable();
+        evalSellRatio();
+//        evalCorrelationTable();
+//        evalCorrelationStock();
+    }
+
+    // 0050 = https://www.yuantafunds.com/myfund/information/1066
+    // 0056 = https://www.yuantafunds.com/myfund/information/1084
+    // 0055 = https://www.yuantafunds.com/myfund/information/1083
+
+    // cov 0(0050), 1(0056) = 0.8824874301719777
+    // cov 0(0050), 2(0055) = 0.7337137251213941
+    // cov 1(0056), 2(0055) = 0.6256854996659044
+    private static void evalCorrelationStock() {
+        File src = new File("foreignCurrency/stock/ETFPrices.csv");
+        List<String> all = FileUtil.readAllLines(src);
+        List<List<Double>> series = new ArrayList<>();
+        List<Stats<Double>> stats = new ArrayList<>();
+        String[] s = all.get(1).split(",");
+        int row = s.length - 1;
+        for (int i = 0; i < row; i++) {
+            series.add(new ArrayList<>());
+        }
+        for (int i = 1; i < all.size(); i++) {
+            s = all.get(i).split(",");
+            for (int j = 0; j < row; j++) {
+                double d = Double.parseDouble(s[1+j]);
+                series.get(j).add(d);
+            }
+        }
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < row; j++) {
+                if (i == 0) {
+                    Stats<Double> dj = new Stats<>(series.get(j));
+                    dj.name = all.get(0).split(",")[1+j];
+                    stats.add(dj);
+                    L.log("#%s = %s, mean = %s, std = %s", j, dj.name, dj.mean, dj.deviation);
+                }
+                if (j > i) {
+                    Stats<Double> si = stats.get(i);
+                    Stats<Double> sj = stats.get(j);
+                    Covariance<Double, Double> cov = new Covariance<>(si, sj);
+                    L.log("cov %s(%s), %s(%s) = %s", i, si.name, j, sj.name, cov.correlation);
+                }
+            }
+        }
     }
 
     // mu =
@@ -71,48 +139,80 @@ public class ForeignExchangeRateFetcher {
     // ~=2 ,瑞典幣
     // ~=4.2 ,南非幣
     // ~=4.5 ,泰銖
-    private static void evalSellThreshold() {
-        List<String> keys = new ArrayList<>(loadedTable.keySet());
-        Collections.sort(keys);
-        L.log("Sell Threshold");
-        L.log("name,mu,std,q1,q3");
+    private static void evalSellRatio() {
+        List<String> keys = sortedCurrencyKey;
+        List<Stats<Double>> rates = new ArrayList<>();
+        LF log = new LF(rootData, "eval.csv");
+        //log.getFile().open(false);
+        log.setLogToL(true);
+        log.setLogToFile(false);
+        log.log("Sell Ratio");
+        log.log("name,mu,std,q1,q3");
         for (int i = 0; i < keys.size(); i++) {
             String k = keys.get(i);
             CURTable table = loadedTable.get(k);
             List<Double> sellRates = new ArrayList<>();
             int n = table.buy.size();
-            for (int j = 0; j < n; j++) {
-                double buy = table.buy.get(j);
-                double sell = table.sell.get(j);
-                double val = 100 * (sell - buy) / buy;
+            for (int j = 1; j < n; j++) {
+                // b1 s1
+                // b2 s2, => (b1-b2)/s2
+                double b1 = table.buy.get(j-1);
+                double b2 = table.buy.get(j);
+                double s2 = table.sell.get(j);
+                double val = 10000 * (b1 - b2) / s2;
                 sellRates.add(val);
             }
             Stats<Double> stat = new Stats<>(sellRates);
-            L.log("#%s : %s -> (in %%) ,%s,%s,%s,%s", i, k, stat.mean, stat.deviation, stat.quartile1, stat.quartile3);
+            stat.name = k;
+            log.log("%s,%.4f,%.4f,%.4f,%.4f", k, stat.mean, stat.deviation, stat.quartile1, stat.quartile3);
+            rates.add(stat);
         }
+
+        log.setLogToFile(true);
+        StringBuilder sb = new StringBuilder();
+        sb.append("date,");
+        for (int i = 0; i < keys.size(); i++) {
+            sb.append(keys.get(i)).append(",");
+        }
+        // date,k1,k2,...,kn
+        log.log("%s", sb);
+        int n = rates.get(0).source.size();
+        for (int i = 0; i < n; i++) {
+            sb = new StringBuilder();
+            for (int j = 0; j < rates.size(); j++) {
+                Stats<Double> rate = rates.get(j);
+                if (j == 0) {
+                    CURTable table = loadedTable.get(rate.name); // it is same from key
+                    sb.append(table.date.get(i)).append(",");
+                }
+                sb.append(String.format("%.1f,", rate.source.get(i))); // each data field
+            }
+            // date_i,k1_v,k2_v,...kn_v
+            log.log("%s", sb);
+        }
+        log.getFile().close();
     }
 
     // Evaluate currency's correlation coefficient table
     private static void evalCorrelationTable() {
-        List<String> si = new ArrayList<>(loadedTable.keySet());
-        Collections.sort(si);
-        List<Stats<Double>> stats = new ArrayList<>();
+        List<String> keys = sortedCurrencyKey;
+        Map<String, Stats<Double>> stats = new HashMap<>();
         List<List<Covariance<Double, Double>>> corr = new ArrayList<>();
         L.log("Correlation Table");
-        int n = si.size();
+        int n = keys.size();
         for (int i = 0; i < n; i++) {
             corr.add(new ArrayList<>());
             for (int j = i; j < n; j++) {
-                String ki = si.get(i);
-                String kj = si.get(j);
+                String ki = keys.get(i);
+                String kj = keys.get(j);
                 // add for the first statistic data
                 if (i == 0) {
                     Stats<Double> di = usedStats.get(kj);
-                    stats.add(di);
-                    //L.log("#%s / %s : mean, deviation = %s, %s", j, kj, di.mean, di.deviation);
+                    stats.put(kj, di);
+                    L.log("#%s / %s : mean, deviation = %s, %s", j, kj, di.mean, di.deviation);
                 }
-                if (i != j) {
-                    Covariance<Double, Double> cov = new Covariance<>(stats.get(i), stats.get(j));
+                if (j > i) {
+                    Covariance<Double, Double> cov = new Covariance<>(stats.get(ki), stats.get(kj));
                     //L.log("cov(%s, %s) (%02d, %02d) = %s", ki, kj, i, j, cov.correlation);
                     corr.get(i).add(cov);
                 }
@@ -120,46 +220,45 @@ public class ForeignExchangeRateFetcher {
         }
         //-- Creating excel table
         // header
-        String s = "";
+        StringBuilder s = new StringBuilder("");
         for (int i = 0; i < n; i++) {
-            String ki = si.get(i);
-            s += ki + ",";
+            String ki = keys.get(i);
+            s.append(ki).append(",");
         }
         L.log("%s", s);
         // excel for upper triangle covariance
         double[] sum = new double[n]; // covariance of currency to system
         for (int i = 0; i < n; i++) {
-            s = "";
+            s = new StringBuilder("");
             for (int j = 0; j < n; j++) {
                 double d = 0;
-                if (j > i) {
-                    Covariance<Double, Double> cij = corr.get(i).get(j-i-1);
-                    s += cij.correlation + ",";
-                    if (j != n-1) {
+                Covariance<Double, Double> cij;
+                if (i != j) {
+                    int x = Math.min(i, j);
+                    int y = Math.max(i, j);
+                    cij = corr.get(x).get(y-x-1);
+                    if (!Double.isNaN(cij.correlation)) {
                         d = cij.correlation;
+                        s.append(cij.correlation);
                     }
-                } else {
-                    s += ",";
-                    // lower triangle
-//                    if (j < i) {
-//                        Covariance<Double, Double> cij = corr.get(j).get(i-j-1);
-//                        s += cij.correlation + ",";
-//                        if (i != n-1) {
-//                            d = cij.correlation;
-//                        }
-//                    }
                 }
+                s.append(",");
                 if (i != j) {
                     sum[i] += d;
                     // debug used
-//                    if (i % 5 == 0) {
-//                        L.log("sum[%s] += %s", i, d);
-//                    }
+                    if (i % 4 == 0) {
+                        //L.log("sum[%s] += %s", i, d);
+                    }
                 }
             }
             L.log("%s", s);
         }
-        L.log("sum = %s", Arrays.toString(sum));
+        s.delete(0, s.length());
+        s.append("sum = ,");
+        for (int i = 0; i < sum.length; i++) {
+            s.append(sum[i]).append(",");
+        }
+        L.log("%s", s);
     }
 
 
@@ -182,8 +281,11 @@ public class ForeignExchangeRateFetcher {
                 table.buy.add(Double.parseDouble(ss[1]));
                 table.sell.add(Double.parseDouble(ss[2]));
             }
+            Stats<Double> stat = new Stats<>(table.buy);
+            stat.name = table.tag;
+
             loadedTable.put(key, table);
-            usedStats.put(key, new Stats<>(table.buy));
+            usedStats.put(key, stat);
         }
         L.log("%s items in table", loadedTable.size());
         for (String k : loadedTable.keySet()) {
@@ -215,8 +317,11 @@ public class ForeignExchangeRateFetcher {
                 table.sell.add(Double.parseDouble(ss[b + 1]));
                 table.cashSell.add(Double.parseDouble(ss[b + 2]));
             }
+            Stats<Double> stat = new Stats<>(table.buy);
+            stat.name = table.tag;
+
             loadedTable.put(key, table);
-            usedStats.put(key, new Stats<>(table.buy));
+            usedStats.put(key, stat);
         }
         L.log("%s items in table", loadedTable.size());
         for (String k : loadedTable.keySet()) {
@@ -341,13 +446,15 @@ public class ForeignExchangeRateFetcher {
     }
 
     public static String getApiBody(final String link, final LF apiLf) {
-        if (apiLf == null || TextUtil.isEmpty(link)) return null;
+        if (TextUtil.isEmpty(link)) return null;
 
         // Delete the log file
         //apiLf.getFile().delete().open();
-        OkHttpClient client = new OkHttpClient().newBuilder()
+        OkHttpClient.Builder b = new OkHttpClient().newBuilder()
                 .readTimeout(20, TimeUnit.SECONDS)
-                .build();
+                ;
+        FetcherUtil.setupSSL(b);
+        OkHttpClient client = b.build();
         Request request = new Request.Builder().url(link).build();
         String answer = "";
         TicTac2 clock = new TicTac2();
@@ -383,3 +490,4 @@ public class ForeignExchangeRateFetcher {
     // https://rate.bot.com.tw/xrt/quote/l6m/USD
 
 }
+
