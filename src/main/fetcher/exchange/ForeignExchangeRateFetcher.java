@@ -49,7 +49,7 @@ public class ForeignExchangeRateFetcher {
     private static final CurrencyBOT enr = CurrencyBOT.EUR;
 
     public static void main(String[] args) {
-        boolean update = 0 > 0;
+        boolean update = 1 > 0;
         if (update) {
             saveLatestCurrency();
             mergeAllCurrency();

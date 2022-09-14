@@ -7,6 +7,8 @@ import java.util.Arrays;
 public class PrefixFinder {
     public boolean debug = true;
 
+    // Dictionary order = Lexicographical order : 1, 10, 11, 12, 123, 2, 3, 5
+    // length small in left,
     public void test() {
         String[] s = {"a", "a", "b", "b", "b", "c", "c", "c", "d", "d"};
         String[] ps = {"a", "b", "c"};

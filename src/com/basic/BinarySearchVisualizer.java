@@ -1,4 +1,4 @@
-package com.exam20211208;
+package com.basic;
 
 import flyingkite.log.L;
 
@@ -24,6 +24,16 @@ public class BinarySearchVisualizer implements Runnable {
         int[] b = { 0, 1, 1, 2, 2, 2, 3, 3, 3, 3, 6, 8, 8, 8, 8};
         //b = new int[]{0,1,2,3,4,5,6,5,4,3,2,1}; // increase and decrease
         binarySearch(b, 5);
+        L.log("Find target");
+        for (int tgt = -1; tgt < 10; tgt++) {
+            int[] aij = searchRange(b, tgt);
+            boolean add = aij[0] < 0;
+            if (add) {
+                aij[0] = -aij[0]-1;
+                aij[1] = -aij[1]-1;
+            }
+            L.log("find %2d, %s = %s", tgt, add ? "+": "^", locate(aij[0], aij[1]));
+        }
     }
     /*
      Is this the formula?
@@ -79,6 +89,7 @@ public class BinarySearchVisualizer implements Runnable {
     // find index a[m] >= k
     private int binarySearch(int[] a, int k) {
         int n = a.length;
+        if (n == 0) return -1;
         int left = 0;
         int right = n - 1;
         int i = 0;
@@ -112,6 +123,49 @@ public class BinarySearchVisualizer implements Runnable {
             }
         }
         return left;
+    }
+
+    // Returns x's range if x is in a :
+    // [i, j], 0 <= i <= j, and x = a[i] = a[j]
+    // Returns x' insert point if x is Not in a :
+    // [i, j], i = j < 0, and insert point is -i-1 = -j-1, so that a[-i-2] < x = a[-i-1] is sorted
+    public int[] searchRange(int[] a, int x) {
+        int n = a.length;
+        int[] ans = {-1, -1};
+        if (n == 0) return ans;
+
+        // search for left end, le and ri will stand at same point
+        int le = 0;
+        int ri = n-1;
+        while (le < ri) {
+            int m = le + (ri - le) / 2;
+            if (a[m] >= x) {
+                ri = m;
+            } else {
+                le = m + 1;
+            }
+        }
+        // if the left end is not x, indicates x cannot be found in it
+        if (a[le] != x) {
+            ans[0] = ans[1] = -le-1; // insert point
+            return ans;
+        }
+        // since a[le] >= x, for le is the smallest one
+        ans[0] = le;
+        // search for right end
+        le = ans[0] + 1;
+        ri = n;
+        while (le < ri) {
+            int m = le + (ri - le) / 2;
+            if (a[m] > x) {
+                ri = m;
+            } else {
+                le = m + 1;
+            }
+        }
+        // since a[le] > x, for le is the smallest one
+        ans[1] = le - 1;
+        return ans;
     }
 
     public int[] random(int min, int max, int length) {
