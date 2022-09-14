@@ -9,7 +9,6 @@ import java.io.PrintWriter;
 
 public class FileOutput implements Loggable {
     private PrintWriter pw;
-    private FileOutputStream fos;
     private File file;
 
     public FileOutput(String name) {
@@ -50,13 +49,10 @@ public class FileOutput implements Loggable {
     public FileOutput open(boolean append) {
         try {
             createFile();
-
-            fos = new FileOutputStream(file, append);
-            pw = new PrintWriter(fos);
+            pw = new PrintWriter(new FileOutputStream(file, append));
         } catch (IOException e) {
             e.printStackTrace();
-            IOUtil.closeIt(fos, pw);
-        } finally { // Should not close it since this is open
+            IOUtil.closeIt(pw);
         }
         return this;
     }
@@ -81,8 +77,7 @@ public class FileOutput implements Loggable {
 
     public FileOutput close() {
         flush();
-        IOUtil.closeIt(fos, pw);
-        fos = null;
+        IOUtil.closeIt(pw);
         pw = null;
         return this;
     }
@@ -93,7 +88,7 @@ public class FileOutput implements Loggable {
     }
 
     public FileOutput flush() {
-        IOUtil.flushIt(fos, pw);
+        IOUtil.flushIt(pw);
         return this;
     }
 

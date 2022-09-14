@@ -169,6 +169,7 @@ public class ForeignExchangeRateFetcher {
         }
 
         log.setLogToFile(true);
+        // Combine the sellRates into vertical table
         StringBuilder sb = new StringBuilder();
         sb.append("date,");
         for (int i = 0; i < keys.size(); i++) {

@@ -1,7 +1,5 @@
 package flyingkite.log;
 
-import flyingkite.files.CSVTable;
-
 import java.io.File;
 
 /**
@@ -12,7 +10,7 @@ import java.io.File;
  * @see System#out
  * @see FileOutput
  */
-public class LF implements Loggable, CSVTable.OnReadCSV {
+public class LF implements Loggable {
     private final FileOutput file;
 
     private boolean logToFile = true;
@@ -79,21 +77,5 @@ public class LF implements Loggable, CSVTable.OnReadCSV {
         if (logToFile) {
             file.writeln(msg, param);
         }
-    }
-
-    @Override
-    public void onMissingFile(String path) {
-        log("File not found: %s", path);
-    }
-
-    @Override
-    public void onNoHeader(String path) {
-        log("Missing header columns, omit file");
-    }
-
-    @Override
-    public void onMissingColumn(String path, int lineNumber, int columnCount, String line) {
-        log("Missing column at line #%s. Expected %s columns", lineNumber, columnCount);
-        log("  %s", line);
     }
 }

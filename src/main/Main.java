@@ -33,6 +33,7 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
+import main.fetcher.exchange.ForeignExchangeRateFetcher;
 import main.fetcher.thsr.THSRTGoFetcher;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
@@ -57,7 +58,8 @@ public class Main {
         //stock();
         //taiwanHighSpeedRail();
         //TosCardFetcher.me.run();
-        //Main1116.main(null);
+        ForeignExchangeRateFetcher.main(null);
+        //Covariance.test();
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -91,12 +93,10 @@ public class Main {
 
     private static void a() {
         //ExcelParser.main(null);
-        //ForeignExchangeRateFetcher.main(null);
         //MainTest.main(null);
         //new LeetCode().run();
         //addJpg();
         //getIP();
-        //new BinarySearchVisualizer().run();
         // 199215954 360302
         // 150372202 690139
         // https://gift4u.tosgame.com/tutorial
@@ -110,6 +110,11 @@ public class Main {
         //FaceMeAuto.organizeCommitLog(new File("D:\\Github\\sample.txt"));
         //listFiles();
         //JudgementSearch.run();
+        training();
+    }
+
+    private static void training() {
+        //new BinarySearchVisualizer().run();
     }
 
     // Used for auto enter the UID giveaway
@@ -135,6 +140,7 @@ public class Main {
                     "176874774",
                     "200172730",
                     "512617371",
+                    "2170312",
             };
             for (String s : ids) {
                 String t = s + more;
@@ -173,6 +179,7 @@ public class Main {
 
     }
 
+    // AppleID cl.shaomai@gmail.com / Cl23829868
     // https://developer.android.com/studio/command-line/adb
 
     private static void enterTemperature() {
@@ -397,10 +404,9 @@ public class Main {
 
     private static void copyToMyTosWiki() {
         List<CopyInfo> paths = new ArrayList<>();
-        String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\";
-        if ('/' == File.separatorChar) { // macOS or unix
-            asset = "../MyTosWiki/app/src/main/assets/";
-        }
+        // macOS or unix is /, while windows = \\
+        String asset = "../MyTosWiki/app/src/main/assets/";
+
         paths.add(as(         "myCard/",     "cardList.json", asset));
         paths.add(as(         "myCard/",   "evolvePath.json", asset));
         paths.add(as(        "myCraft/",       "crafts.json", asset));
@@ -415,7 +421,7 @@ public class Main {
             String source = i.getSrcName();
             String target = i.getDstName();
             FileUtil.copy(source, target);
-            L.log("copy : %s\n to  -> %s", source, target);
+            L.log("copy : %s\n to -> %s", source, target);
         }
     }
 

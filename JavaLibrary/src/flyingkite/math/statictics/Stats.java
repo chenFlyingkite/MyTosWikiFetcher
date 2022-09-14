@@ -11,7 +11,15 @@ import java.util.Locale;
 import java.util.Map;
 
 public class Stats<T extends Number> {
+    // the name of this Stats, user provided
     public String name;
+    // original source of data set
+    public List<T> source;
+    // sorted dataset of $source
+    private List<Double> sorted = new ArrayList<>();
+
+    // -- Statistics values
+
     public double min;
     public double max;
     // https://en.wikipedia.org/wiki/Mean
@@ -20,22 +28,20 @@ public class Stats<T extends Number> {
     public double variance;
     public double deviation; // = sqrt(variance)
 
-    /**
-     * Skewness of sample
-     * https://en.wikipedia.org/wiki/Skewness
-     *           m_3     1 / n * Sum_i=1:n {(x_i - μ)^3}
-     * gamma1 = ----- = ------------------------------------------------------
-     *           s^3     sqrt(1 / (n - 1) * ( Sum_i=1:n {(x_i - μ)^2} ) ) ^ 3
-     */
+    // Skewness of sample
+    // https://en.wikipedia.org/wiki/Skewness
+    //           m_3     1 / n * Sum_i=1:n {(x_i - μ)^3}
+    // gamma1 = ----- = ------------------------------------------------------
+    //           s^3     sqrt(1 / (n - 1) * ( Sum_i=1:n {(x_i - μ)^2} ) ) ^ 3
     public double skewness;
     public double kurtosis;
     // https://en.wikipedia.org/wiki/Median
     public double median;
+    // PR25
     public double quartile1;
+    // PR75
     public double quartile3;
     public List<Double> mode = new ArrayList<>();
-    public List<T> source;
-    private List<Double> sorted = new ArrayList<>();
 
     public Stats(List<T> data) {
         source = data;
