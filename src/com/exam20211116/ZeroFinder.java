@@ -7,6 +7,7 @@ import flyingkite.tool.StringUtil;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Stack;
 
 /**
  *
@@ -29,6 +30,8 @@ import java.util.List;
  * needs O(N*M) space and O(N^2*M^2) time,
  *
  * Can we have a better solution of faster to time = O(N*M), space = O(N^2*M^2) ?
+ *
+ * https://leetcode.com/problems/count-submatrices-with-all-ones/discuss/720265/Java-Detailed-Explanation-From-O(MNM)-to-O(MN)-by-using-Stack
  */
 public class ZeroFinder {
 
@@ -204,6 +207,140 @@ public class ZeroFinder {
         return ans;
     }
 
+    //--
+    // strange solution
+    public int numSubmat1(int[][] mat) {
+        int M = mat.length, N = mat[0].length;
+
+        int res = 0;
+        for (int up = 0; up < M; ++up) {
+            int[] h = new int[N];
+            Arrays.fill(h, 1);
+            for (int down = up; down < M; ++down) {
+                for (int k = 0; k < N; ++k) {
+                    h[k] &= mat[down][k];
+                }
+                res += countOneRow(h);
+            }
+        }
+
+        return res;
+    }
+
+    private int countOneRow(int[] A) {
+        int res = 0, length = 0;
+        for (int i = 0; i < A.length; ++i) {
+            // length = (A[i] == 0 ? 0 : length + 1); // count for 1
+            length = (A[i] == 1 ? 0 : length + 1);
+            res += length;
+        }
+        return res;
+    }
+    //--
+    // These are solution of
+    // https://leetcode.com/problems/count-submatrices-with-all-ones/discuss/720265/Java-Detailed-Explanation-From-O(MNM)-to-O(MN)-by-using-Stack
+    // H = [h0, h1, ... h_m-1]
+    // sub matrix (i, j) = rect right bottom at (i, j)
+    // = previous rows extend at j-1 for each height
+    // + width 1 's height at j (H[i, j] * (j+1))
+    private boolean logAns3 = false;
+    public int numSubmat(int[][] mat) {
+        int M = mat.length, N = mat[0].length;
+        int res = 0;
+        int[] h = new int[N];
+        if (logAns3) {
+            ln(print("numSubmat a = ", mat));
+        }
+        for (int i = 0; i < M; ++i) {
+            for (int j = 0; j < N; ++j) {
+                //h[j] = (mat[i][j] == 0 ? 0 : h[j] + 1);// find 1
+                h[j] = (mat[i][j] == 1 ? 0 : h[j] + 1);// find 0
+            }
+            if (logAns3) {
+                L.log("i = %d : h[%d] = %s", i, i, Arrays.toString(h));
+            }
+            res += helper(h);
+        }
+
+        return res;
+    }
+
+    // stack = increasing stack
+    // for h[0:3], stack points |--+ + = start, | = at, [stacks] @Index
+    // h0 = [1, 1, 0, 0, 1, 1, 0]
+    //                |--+        [3] @4
+    //                |-----+     [3] @5
+    // s1 = [1, 2, 0, 0, 1, 2, 0]
+    //--
+    // h1 = [1, 2, 0, 0, 1, 2, 0]
+    //             |--+           [2] @3
+    //                   |--+     [4] @5
+    //                   |-----+  [4] @6
+    // s2 = [2, 4, 0, 1, 0, 2, 2]
+    //--
+    // h2 = [3, 0, 1, 2, 0, 3, 2]
+    //          |--+               [1] @2
+    //          |--|--+            [1, 2] @3
+    //                   |--+      [4] @5
+    //                   |-----+   [4] @6
+    // s2 = [3, 0, 1, 3, 0, 3, 4]
+    //--
+    // h3 = [4, 1, 2, 3, 1, 4, 3]
+    //          |--+               [1] @2
+    //          |--|--+            [1, 2] @3
+    //                   |--+      [4] @5
+    //                   |-----+   [4] @6
+    // s3 = [4, 2, 4, 7, 5, 9, 11]
+    // Main core for calculation, it is difficult to understand...
+    private int helper(int[] A) {
+        int[] sum = new int[A.length];
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < A.length; ++i) {
+            if (logAns3) {
+                L.log("for i = %s : stack = %s", i, stack);
+            }
+            while (!stack.isEmpty() && A[stack.peek()] >= A[i]) {
+                stack.pop();
+            }
+
+            if (logAns3) {
+                L.log("  stack popped as %s", stack);
+            }
+
+            if (!stack.isEmpty()) {
+                int preIndex = stack.peek();
+                int k = sum[preIndex];
+                sum[i] = sum[preIndex];
+                sum[i] += A[i] * (i - preIndex);
+                if (logAns3) {
+                    L.log("  1. sum[%d] = %s = %s + %s x %s, preIndex = %s", i, sum[i], k, A[i], i - preIndex, preIndex);
+                }
+            } else {
+                sum[i] = A[i] * (i + 1);
+                if (logAns3) {
+                    L.log("  2. sum[%d] = %s = %s x %s", i, sum[i], A[i], i + 1);
+                }
+            }
+            stack.push(i);
+
+            if (logAns3) {
+                L.log("  stack = %s", stack);
+            }
+        }
+
+        int res = 0;
+        for (int s : sum) {
+            res += s;
+        }
+
+        if (logAns3) {
+            L.log("  Total is %d, on sum = %s", res, Arrays.toString(sum));
+        }
+
+        return res;
+    }
+    //--
+
     private String[] print(String title, int[][] a) {
         if (a == null) return null;
 
@@ -250,7 +387,7 @@ public class ZeroFinder {
             int[] input = StringUtil.parse01(src);
             int ans = getSubArrayCountOfAllZero(input);
             int[] zs = getRowZero(input);
-            L.log("#%s : ans = %s, src = %s (%s)", i, ans, src.length(), src);
+            L.log("#%s : ans = %s, src = %s chars (%s)", i, ans, src.length(), src);
             L.log("  zeros = %s", Arrays.toString(zs));
         }
     }
@@ -334,8 +471,105 @@ public class ZeroFinder {
     public void multi(String[] s) {
         int[][] input = StringUtil.parse01(s);
         int ans = getSubArrayCountOfAllZero(input);
-        L.log("ans = %s", ans);
+        L.log("1Ans %s : Missing", ans);
         int ans2 = getSubMatrixOfAllZeroBase(input, 0);
-        L.log("ans2 = %s", ans2);
+        L.log("2Ans %s : Correct answer, Time = O(M^2*N^2), Space = O(N*M)", ans2);
+        int ans3 = numSubmat(input);
+        L.log("3Ans %s : Faster solution, Time = O(M*N*M), Space = O(M)", ans3);
+        int ans4 = numSubmat1(input);
+        L.log("4Ans %s : Another unknown", ans4);
     }
 }
+/*
+//https://leetcode.com/problems/count-submatrices-with-all-ones/discuss/720265/Java-Detailed-Explanation-From-O(MNM)-to-O(MN)-by-using-Stack
+
+O(M * N * M):
+Imagine you have an one-dimension array, how to count number of all 1 submatrices (size is 1 * X). It's pretty simple right?
+
+int res = 0, length = 0;
+for (int i = 0; i < A.length; ++i) {
+    length = (A[i] == 0 ? 0 : length + 1);
+    res += length;
+}
+return res;
+Now, Let's solve 2D matrix by finding all 1 submatrices from row "up" to row "down". And apply above 1D helper function. Note: the array h[k] == 1 means all values in column k from row "up" to "down" are 1 (that's why we use &). So overall, the idea is to "compress" the 2D array to the 1D array, and apply 1D array method on it, while trying all heights up to down.
+
+public int numSubmat(int[][] mat) {
+        
+    int M = mat.length, N = mat[0].length;
+
+    int res = 0;
+    for (int up = 0; up < M; ++up) {
+        int[] h = new int[N];
+        Arrays.fill(h, 1);
+        for (int down = up; down < M; ++down) {
+            for (int k = 0; k < N; ++k) h[k] &= mat[down][k];
+            res += countOneRow(h);
+        }
+    }
+
+    return res;
+}
+
+private int countOneRow(int[] A) {
+
+    int res = 0, length = 0;
+    for (int i = 0; i < A.length; ++i) {
+        length = (A[i] == 0 ? 0 : length + 1);
+        res += length;
+    }
+    return res;
+}
+O(M * N) by Using Stack
+Now in the code, the h[j] means: number of continius 1 in column j from row i up to row 0. By using mono-stack, what we want to achieve is to find the first previous index "preIndex", whose number of continuous 1 is less than current column index i. And the value of index between preIndex and i are all equal or larger than index i. So it can form a big sub-matrix.
+
+Note: sum[i] means the number of submatrices with the column "i" as the right border.
+
+If stack is empty, meaning: all previous columns has more/equal ones than current column. So, the number of matrixs can form is simply A[i] * (i + 1); (0-index)
+If stack is not empty, meaning: there is a shorter column which breaks our road. Now, the number of matrixs can form is sum[i] += A[i] * (i - preIndex). And plus, we can form a longer submatrices with that previou shorter column sum[preIndex].
+The best way to understand is to draw a graph.
+image
+
+public int numSubmat(int[][] mat) {
+        
+    int M = mat.length, N = mat[0].length;
+
+    int res = 0;
+
+    int[] h = new int[N];
+    for (int i = 0; i < M; ++i) {
+        for (int j = 0; j < N; ++j) {
+            h[j] = (mat[i][j] == 0 ? 0 : h[j] + 1);
+        }
+        res += helper(h);
+    }
+
+    return res;
+}
+
+private int helper(int[] A) {
+
+    int[] sum = new int[A.length];
+    Stack<Integer> stack = new Stack<>();
+
+    for (int i = 0; i < A.length; ++i) {
+
+        while (!stack.isEmpty() && A[stack.peek()] >= A[i]) stack.pop();
+
+        if (!stack.isEmpty()) {
+            int preIndex = stack.peek();
+            sum[i] = sum[preIndex];
+            sum[i] += A[i] * (i - preIndex);
+        } else {
+            sum[i] = A[i] * (i + 1);
+        }
+
+        stack.push(i);
+    }
+
+    int res = 0;
+    for (int s : sum) res += s;
+
+    return res;
+}
+*/

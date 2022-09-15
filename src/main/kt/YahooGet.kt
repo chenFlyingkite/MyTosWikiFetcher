@@ -199,12 +199,16 @@ open class YahooGet {
                 L.log("getPrices ${link}")
             }
             if (doc == null) return ans
+
+            // yahoo finance is unstable on this... q1 will be null
             var q1 = doc.getElementById("quote-summary")
+            //var x = doc.getElementsByTag("table")
             var es = q1.getElementsByTag("td")
 
             // [Previous Close, 43.75, Open, 43.25, Bid, 43.75 x 0, Ask, 44.00 x 0, Day's Range, 43.25 - 43.95, 52 Week Range, 28.50 - 48.10, Volume, 6,177, Avg. Volume, 15,679, Market Cap, 4.438B, Beta (5Y Monthly), 0.02, PE Ratio (TTM), 60.87, EPS (TTM), 0.72, Earnings Date, N/A, Forward Dividend & Yield, 1.50 (3.41%), Ex-Dividend Date, Dec 13, 2021, 1y Target Est, N/A]
             val str = ArrayList<String>()
-            for (i in 0 until es.size) {
+            for (k in 0 until es.size / 2) {
+                val i = 2*k
                 val si = es[i]
                 val ti = si.text()
                 val tj = if (i+1 < es.size) {
@@ -215,45 +219,35 @@ open class YahooGet {
                 // or data-test="PE_RATIO-value" ?
                 when (ti) {
                     "Previous Close" -> {
-                        //ans.previousClose = toDouble(tj)
                         ans.previousClose = tj
                     }
                     "Open" -> {
-                        //ans.open = toDouble(tj)
                         ans.open = tj
                     }
                     "Bid" -> {
                         // bid 33.30 x 0
                         val tk = tj.substringBefore("x").trim()
-                        //ans.bid = toDouble(tk)
                         ans.bid = tk
                     }
                     "Ask" -> {
                         // ask 33.35 x 0
                         val tk = tj.substringBefore("x").trim()
-                        //ans.ask = toDouble(tk)
                         ans.ask = tk
                     }
                     "Day's Range" -> {
                         val tk = tj.split("-")
-//                        ans.rangeLow = toDouble(tk[0])
-//                        ans.rangeHigh = toDouble(tk[1])
                         ans.rangeLow = tk[0]
                         ans.rangeHigh = tk[1]
                     }
                     "52 Week Range" -> {
                         val tk = tj.split("-")
-//                        ans.rangeLowW52 = toDouble(tk[0])
-//                        ans.rangeHighW52 = toDouble(tk[1])
                         ans.rangeLowW52 = tk[0]
                         ans.rangeHighW52 = tk[1]
                     }
                     "Volume" -> {
-                        //ans.volume = toLong(tj)
                         ans.volume = tj
                     }
                     "Avg. Volume" -> {
-                        //ans.volumeAvg = toLong(tj)
                         ans.volumeAvg = tj
                     }
                     "Beta (5Y Monthly)" -> {

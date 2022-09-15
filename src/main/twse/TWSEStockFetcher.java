@@ -458,12 +458,29 @@ public class TWSEStockFetcher {
             YHDividend di = sorted.get(i);
             mLf.log("#%d : note = %s, %s", i, di.note, di);
         }
-        //--
-        List<YHStockPrice> prices2 = new ArrayList<>(priceMap.values());
-        prices2 = sortPrice(prices2);
-        mLf.log("YHStockPrice %s prices", prices2.size());
-        for (int i = 0; i < prices2.size(); i++) {
-            YHStockPrice p = prices2.get(i);
+
+        sortPrices(priceMap);
+        sortBetas(priceMap);
+    }
+
+    // sort prices from large to small
+    private void sortPrices(Map<String, YHStockPrice> priceMap) {
+        List<YHStockPrice> li = new ArrayList<>(priceMap.values());
+        li = sortPrice(li);
+        mLf.log("YHStockPrice %s prices", li.size());
+        for (int i = 0; i < li.size(); i++) {
+            YHStockPrice p = li.get(i);
+            mLf.log("#%d : %s", i, gson.toJson(p));
+        }
+    }
+
+    // sort betas from large to small
+    private void sortBetas(Map<String, YHStockPrice> priceMap) {
+        List<YHStockPrice> li = new ArrayList<>(priceMap.values());
+        li = sortBeta(li);
+        mLf.log("YHStockPrice %s betas", li.size());
+        for (int i = 0; i < li.size(); i++) {
+            YHStockPrice p = li.get(i);
             mLf.log("#%d : %s", i, gson.toJson(p));
         }
     }
@@ -529,10 +546,26 @@ public class TWSEStockFetcher {
     }
 
     // sort prices from large to small
+    private List<YHStockPrice> sortBeta(List<YHStockPrice> list) {
+        clock.tic();
+        Collections.sort(list, new Comparator<>() {
+            @Override
+            public int compare(YHStockPrice x, YHStockPrice y) {
+                double px = asLD(x.beta);
+                double py = asLD(y.beta);
+                return Double.compare(py, px);
+            }
+        });
+        clock.tac("betas sorted OK");
+        // save file
+        //FetcherUtil.saveAsJson(list, FOLDER, "dividend/sorted_price.json");
+        return list;
+    }
+
+    // sort prices from large to small
     private List<YHStockPrice> sortPrice(List<YHStockPrice> prices) {
         clock.tic();
         Collections.sort(prices, new Comparator<>() {
-        //Arrays.sort(prices, new Comparator<YHStockPrice>() {
             @Override
             public int compare(YHStockPrice x, YHStockPrice y) {
                 double px = asLD(x.closingPrice);
