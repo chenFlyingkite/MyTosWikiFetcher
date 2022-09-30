@@ -1,14 +1,19 @@
 package main.fetcher;
 
+import flyingkite.files.FileUtil;
+import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.math.Statistics;
+import flyingkite.math.statictics.Stats;
 import flyingkite.tool.TicTac2;
+import main.fetcher.exchange.FinTable;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.BotGet;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -17,6 +22,9 @@ public class BotGoldPassbook implements Runnable {
     private LF mLf = new LF("botGold");
     private TicTac2 clock = new TicTac2();
     private WebFetcher fetcher = new WebFetcher();
+    private static final File rootData = new File("botGold");
+    private static final File taishinFolder = new File(rootData, "taishin");
+
 
     public String mainLink() {
         return "https://rate.bot.com.tw/gold/chart/year/TWD";
@@ -30,6 +38,68 @@ public class BotGoldPassbook implements Runnable {
 
     @Override
     public void run() {
+        //botGold();
+        taishinGold();
+    }
+
+    // taishin gold, (%%)
+    // sell rate = 95.5, std = 12, 81 - 90 - 98 - 262
+    // increase rate of daily =
+    // volatility = 2.3, 101.7, -469.6, -46.7, 58.9, 498.5
+    private void taishinGold() {
+        File taishin = taishinFolder;
+        boolean removeCommaSrc = false;
+        File file = new File(taishin, "goldXAUTWD_src.txt");
+        File file2 = new File(taishin, "goldXAUTWD.txt");
+        List<String> data;
+        if (removeCommaSrc) {
+            data = FileUtil.readAllLines(file);
+            // x = "2022/09/29	52,697.00	53,187.00"
+            // o = "2022/09/29,52697.00,53187.00"
+            for (int i = 1; i < data.size(); i++) {
+                String[] ss = data.get(i).split(",");
+                data.set(i, ss[0] + "," + ss[1] + ss[2] + "," + ss[3] + ss[4]);
+            }
+            FileUtil.writeToFile(file2, data, false);
+        } else {
+            data = FileUtil.readAllLines(file2);
+        }
+
+        FinTable table = new FinTable();
+        table.tag = FileUtil.getNameBeforeExtension(file2);
+        for (int i = 1; i < data.size(); i++) {
+            String[] ss = data.get(i).split(",");
+            table.date.add(ss[0]);
+            double v1 = Double.parseDouble(ss[1]);
+            double v2 = Double.parseDouble(ss[2]);
+            table.buy.add(v1);
+            table.sell.add(v2);
+            table.cashBuy.add(10000 * (v2 - v1) / v1);
+            if (i > 1) {
+                double v0 = table.buy.get(i-2);
+                double r = 10000 * (v0 - v1) / v2;
+                table.cashSell.add(r);
+            }
+        }
+
+        Stats<Double> stat = new Stats<>(table.cashBuy);
+        stat.name = "d_Buy/Sell Rate";
+
+        Stats<Double> st;
+        st = stat;
+        L.log("%s", st.name);
+        L.log("name,mu,std,min,q1,q3,max");
+        L.log("%s,%4f,%4f,%4f,%4f,%4f,%4f", "", st.mean, st.deviation, st.min, st.quartile1, st.quartile3, st.max);
+
+        Stats<Double> stat2 = new Stats<>(table.cashSell);
+        stat2.name = "Buy Increase Rate";
+        st = stat2;
+        L.log("%s", st.name);
+        L.log("name,mu,std,min,q1,q3,max");
+        L.log("%s,%4f,%4f,%4f,%4f,%4f,%4f", "", st.mean, st.deviation, st.min, st.quartile1, st.quartile3, st.max);
+    }
+
+    private void botGold() {
         Document doc = sendRequest();
         Elements es = doc.getElementsByTag("table");
         List<String> data = BotGet.me.goldTable(es);

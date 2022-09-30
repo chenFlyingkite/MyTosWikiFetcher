@@ -1,7 +1,6 @@
 package main.fetcher.exchange;
 
 import flyingkite.files.FileUtil;
-import flyingkite.log.Formattable;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.math.statictics.Covariance;
@@ -40,7 +39,7 @@ public class ForeignExchangeRateFetcher {
     // organized data
     private static final File botFolder = new File(rootData, "bot");
     private static final File taishinFolder = new File(rootData, "taishin");
-    private static final Map<String, CURTable> loadedTable = new HashMap<>();
+    private static final Map<String, FinTable> loadedTable = new HashMap<>();
     // statistics for certain exchange list, maybe but, sell or cash
     // id -> list
     private static final Map<String, Stats<Double>> usedStats = new HashMap<>();
@@ -49,7 +48,7 @@ public class ForeignExchangeRateFetcher {
     private static final CurrencyBOT enr = CurrencyBOT.EUR;
 
     public static void main(String[] args) {
-        boolean update = 1 > 0;
+        boolean update = 0 > 0;
         if (update) {
             saveLatestCurrency();
             mergeAllCurrency();
@@ -140,17 +139,21 @@ public class ForeignExchangeRateFetcher {
     // ~=4.2 ,南非幣
     // ~=4.5 ,泰銖
     private static void evalSellRatio() {
+        // Parameters
+        // true = save the buy rate, (next-prev)/prev, into file, but it is generated file, false = no write file
+        boolean saveBuyRate = false;
+
+        // core implementation
         List<String> keys = sortedCurrencyKey;
         List<Stats<Double>> rates = new ArrayList<>();
         LF log = new LF(rootData, "eval.csv");
-        //log.getFile().open(false);
         log.setLogToL(true);
         log.setLogToFile(false);
         log.log("Sell Ratio");
-        log.log("name,mu,std,q1,q3");
+        log.log("name,mu,std,min,q1,q3,max");
         for (int i = 0; i < keys.size(); i++) {
             String k = keys.get(i);
-            CURTable table = loadedTable.get(k);
+            FinTable table = loadedTable.get(k);
             List<Double> sellRates = new ArrayList<>();
             int n = table.buy.size();
             for (int j = 1; j < n; j++) {
@@ -164,34 +167,38 @@ public class ForeignExchangeRateFetcher {
             }
             Stats<Double> stat = new Stats<>(sellRates);
             stat.name = k;
-            log.log("%s,%.4f,%.4f,%.4f,%.4f", k, stat.mean, stat.deviation, stat.quartile1, stat.quartile3);
+            log.log("%s,%.4f,%.4f,%.4f,%.4f,%.4f,%.4f", k, stat.mean, stat.deviation, stat.min, stat.quartile1, stat.quartile3, stat.max);
             rates.add(stat);
         }
 
-        log.setLogToFile(true);
-        // Combine the sellRates into vertical table
-        StringBuilder sb = new StringBuilder();
-        sb.append("date,");
-        for (int i = 0; i < keys.size(); i++) {
-            sb.append(keys.get(i)).append(",");
-        }
-        // date,k1,k2,...,kn
-        log.log("%s", sb);
-        int n = rates.get(0).source.size();
-        for (int i = 0; i < n; i++) {
-            sb = new StringBuilder();
-            for (int j = 0; j < rates.size(); j++) {
-                Stats<Double> rate = rates.get(j);
-                if (j == 0) {
-                    CURTable table = loadedTable.get(rate.name); // it is same from key
-                    sb.append(table.date.get(i)).append(",");
-                }
-                sb.append(String.format("%.1f,", rate.source.get(i))); // each data field
+        // Write the statistics into file
+        if (saveBuyRate) {
+            log.getFile().open(false);
+            log.setLogToFile(true);
+            // Combine the sellRates into vertical table
+            StringBuilder sb = new StringBuilder();
+            sb.append("date,");
+            for (int i = 0; i < keys.size(); i++) {
+                sb.append(keys.get(i)).append(",");
             }
-            // date_i,k1_v,k2_v,...kn_v
+            // date,k1,k2,...,kn
             log.log("%s", sb);
+            int n = rates.get(0).source.size();
+            for (int i = 0; i < n; i++) {
+                sb = new StringBuilder();
+                for (int j = 0; j < rates.size(); j++) {
+                    Stats<Double> rate = rates.get(j);
+                    if (j == 0) {
+                        FinTable table = loadedTable.get(rate.name); // it is same from key
+                        sb.append(table.date.get(i)).append(",");
+                    }
+                    sb.append(String.format("%.1f,", rate.source.get(i))); // each data field
+                }
+                // date_i,k1_v,k2_v,...kn_v
+                log.log("%s", sb);
+            }
+            log.getFile().close();
         }
-        log.getFile().close();
     }
 
     // Evaluate currency's correlation coefficient table
@@ -262,7 +269,8 @@ public class ForeignExchangeRateFetcher {
         L.log("%s", s);
     }
 
-
+    // Taishin Currency is manually from
+    // https://www.taishinbank.com.tw/TSB/personal/deposit/lookup/history/
     private static void loadAllCurrencyTaiShin() {
         File root = taishinFolder;
         File[] csvs = root.listFiles();
@@ -270,7 +278,7 @@ public class ForeignExchangeRateFetcher {
         for (int i = 0; i < csvs.length; i++) {
             File it = csvs[i];
             List<String> srcAll = FileUtil.readAllLines(it);
-            CURTable table = new CURTable();
+            FinTable table = new FinTable();
             String key = "";
             for (int j = 2; j < srcAll.size(); j++) {
                 String li = srcAll.get(j);
@@ -282,6 +290,7 @@ public class ForeignExchangeRateFetcher {
                 table.buy.add(Double.parseDouble(ss[1]));
                 table.sell.add(Double.parseDouble(ss[2]));
             }
+            // Take list of buy into statistics
             Stats<Double> stat = new Stats<>(table.buy);
             stat.name = table.tag;
 
@@ -301,7 +310,7 @@ public class ForeignExchangeRateFetcher {
         for (int i = 0; i < csvs.length; i++) {
             File it = csvs[i];
             List<String> srcAll = FileUtil.readAllLines(it);
-            CURTable table = new CURTable();
+            FinTable table = new FinTable();
             String key = "";
             for (int j = 1; j < srcAll.size(); j++) {
                 String li = srcAll.get(j);
@@ -330,24 +339,6 @@ public class ForeignExchangeRateFetcher {
         }
     }
 
-    private static class CURTable implements Formattable {
-        public String tag;
-        public List<String> date = new ArrayList<>();
-        public List<Double> buy = new ArrayList<>();
-        public List<Double> sell = new ArrayList<>();
-        public List<Double> cashBuy = new ArrayList<>();
-        public List<Double> cashSell = new ArrayList<>();
-
-        @Override
-        public String toString() {
-            int n = date.size();
-            String s = _fmt("%s ~ %s (%s items), buy = %s ~ %s, sell = %s ~ %s"
-                    , date.get(0), date.get(n-1), n
-                    , buy.get(0), buy.get(n-1), sell.get(0), sell.get(n-1)
-            );
-            return s;
-        }
-    }
 
     private static void mergeAllCurrency() {
         File[] fl = latestFolder.listFiles();
