@@ -85,8 +85,64 @@ public class ForeignExchangeRateFetcher {
 
     private static void eval() {
         evalSellRatio();
+        evalPortfolio();
 //        evalCorrelationTable();
 //        evalCorrelationStock();
+    }
+
+    private static void evalPortfolio() {
+        // USD 10
+        // JPY 1400
+        // GBP 8
+        // AUD 15
+        CurrencyBOT[] bot = {CurrencyBOT.USD, CurrencyBOT.JPY, CurrencyBOT.GBP, CurrencyBOT.AUD};
+        double[] part = {10, 1400, 8, 15};
+        boolean printEval = false; // true to print the detailed calculations
+        // Here we assume the FinTable's date are aligned
+        FinTable portfolio = new FinTable();
+        portfolio.tag = "My portfolio";
+        List<Double> data = portfolio.cashBuy;
+        for (int i = 0; i < bot.length; i++) {
+            String key = bot[i].id;
+            FinTable fin = loadedTable.get(key);
+            double amount = part[i];
+            List<Double> price = fin.buy;
+            for (int j = 0; j < price.size(); j++) {
+                String date = fin.date.get(j);
+                double pri = price.get(j);
+                if (i == 0) {
+                    portfolio.date.add(date);
+                    double now = amount * pri;
+                    data.add(now);
+                    if (printEval) {
+                        L.log("#%s : %s, %s, %s * %s = %s", i, key, date, amount, pri, now);
+                    }
+                } else {
+                    double prev = data.get(j);
+                    double add = amount * pri;
+                    double now = prev + add;
+                    if (printEval) {
+                        L.log("#%s : %s, %s, %s + %s * %s = %s", i, key, date, prev, amount, pri, now);
+                    }
+                    data.set(j, now);
+                }
+            }
+        }
+        Stats<Double> st = new Stats<>(data);
+        st.name = portfolio.tag;
+        L.log("portfolio = %s", st);
+
+        // Evaluation on volatility
+        List<Double> volatility = new ArrayList<>();
+        for (int i = 1; i < data.size(); i++) {
+            double prev = data.get(i-1);
+            double next = data.get(i);
+            double rate = (next/prev - 1) * 10000;
+            volatility.add(rate);
+        }
+        st = new Stats<>(volatility);
+        st.name = "volatility";
+        L.log("volatility = %s", st);
     }
 
     // 0050 = https://www.yuantafunds.com/myfund/information/1066
@@ -155,6 +211,7 @@ public class ForeignExchangeRateFetcher {
             String k = keys.get(i);
             FinTable table = loadedTable.get(k);
             List<Double> sellRates = new ArrayList<>();
+            List<Double> sellRateAbs = new ArrayList<>();
             int n = table.buy.size();
             for (int j = 1; j < n; j++) {
                 // b1 s1
@@ -164,11 +221,18 @@ public class ForeignExchangeRateFetcher {
                 double s2 = table.sell.get(j);
                 double val = 10000 * (b1 - b2) / s2;
                 sellRates.add(val);
+                sellRateAbs.add(Math.abs(val));
             }
-            Stats<Double> stat = new Stats<>(sellRates);
+            Stats<Double> stat;
+            stat = new Stats<>(sellRates);
             stat.name = k;
-            log.log("%s,%.4f,%.4f,%.4f,%.4f,%.4f,%.4f", k, stat.mean, stat.deviation, stat.min, stat.quartile1, stat.quartile3, stat.max);
-            rates.add(stat);
+            //log.log("sellRates");
+            log.log("%s,%.4f,%.4f,%.4f,%.4f,%.4f,%.4f", stat.name, stat.mean, stat.deviation, stat.min, stat.quartile1, stat.quartile3, stat.max);
+
+            stat = new Stats<>(sellRateAbs);
+            stat.name = k + "Abs";
+            //log.log("sellRateAbs");
+            log.log("%s,%.4f,%.4f,%.4f,%.4f,%.4f,%.4f", stat.name, stat.mean, stat.deviation, stat.min, stat.quartile1, stat.quartile3, stat.max);
         }
 
         // Write the statistics into file

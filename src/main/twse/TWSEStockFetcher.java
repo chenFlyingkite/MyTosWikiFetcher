@@ -203,7 +203,7 @@ public class TWSEStockFetcher {
     private void parse() {
         clock.tic();
         mLf.getFile().open(false);
-        boolean web = 1 > 0; // false = load local file data
+        boolean web = 0 > 0; // false = load local file data
         if (1 > 0) {
             // database
             loadAllISINCode(web); // < 30 second in web, file = 300ms
@@ -461,6 +461,7 @@ public class TWSEStockFetcher {
 
         sortPrices(priceMap);
         sortBetas(priceMap);
+        sortVolume(priceMap);
     }
 
     // sort prices from large to small
@@ -479,6 +480,17 @@ public class TWSEStockFetcher {
         List<YHStockPrice> li = new ArrayList<>(priceMap.values());
         li = sortBeta(li);
         mLf.log("YHStockPrice %s betas", li.size());
+        for (int i = 0; i < li.size(); i++) {
+            YHStockPrice p = li.get(i);
+            mLf.log("#%d : %s", i, gson.toJson(p));
+        }
+    }
+
+    // sort betas from large to small
+    private void sortVolume(Map<String, YHStockPrice> priceMap) {
+        List<YHStockPrice> li = new ArrayList<>(priceMap.values());
+        li = sortVolume(li);
+        mLf.log("YHStockPrice %s sortVolume", li.size());
         for (int i = 0; i < li.size(); i++) {
             YHStockPrice p = li.get(i);
             mLf.log("#%d : %s", i, gson.toJson(p));
@@ -559,6 +571,24 @@ public class TWSEStockFetcher {
         clock.tac("betas sorted OK");
         // save file
         //FetcherUtil.saveAsJson(list, FOLDER, "dividend/sorted_price.json");
+        return list;
+    }
+
+
+    // sort prices from large to small
+    private List<YHStockPrice> sortVolume(List<YHStockPrice> list) {
+        clock.tic();
+        Collections.sort(list, new Comparator<>() {
+            @Override
+            public int compare(YHStockPrice x, YHStockPrice y) {
+                double px = asLD(x.volume.replaceAll(",", ""));
+                double py = asLD(y.volume.replaceAll(",", ""));
+                return Double.compare(py, px);
+            }
+        });
+        clock.tac("volume sorted OK");
+        // save file
+        //FetcherUtil.saveAsJson(list, FOLDER, "dividend/sorted_volume.json");
         return list;
     }
 

@@ -18,6 +18,7 @@ import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -54,6 +55,14 @@ public class LiveAHeroMain {
         }
     }
 
+    // Hero ID
+    // https://wikiwiki.jp/live-a-hero/ID%E5%88%A5
+    // Side kick, ID
+    // https://wikiwiki.jp/live-a-hero/%E3%82%B5%E3%82%A4%E3%83%89%E3%82%AD%E3%83%83%E3%82%AF/ID%E5%88%A5
+    private static void from() {
+
+    }
+
     // Quartz Quests クオーツを探して (A級)
     // https://liveahero-wiki.github.io/events/2106shinrin/
 
@@ -62,16 +71,45 @@ public class LiveAHeroMain {
 
     private static void makeSortedHero() {
         sortedHero.clear();
+        List<Hero> hs = new ArrayList<>();
         for (Heros h : Heros.values()) {
             String k = h.nameJa;
             Hero v = allHeros.get(k);
             sortedHero.add(v);
+            hs.add(v);
             L.log("%12s -> %s", k, v);
             String s = String.format("Hero/Side : %d skills, %d values / ", v.heroSkills.size(), v.heroValues.size());
-            s += String.format("%d skills, %d values, %d equips", v.sideSkills.size(), v.sideValues.size(), v.sideEquips.size());
+            s += String.format("%d skills, %d values, %d equips, %d passive", v.sideSkills.size(), v.sideValues.size(), v.sideEquips.size(), v.passive.size());
             L.log("  %s", s);
             //L.log("heroImage.put(\"%s\", R.drawable.icon_akashi_h01);", v.nameJa);
             //L.log("sideImage.put(\"%s\", R.drawable.icon_akashi_s01);", v.nameJa);
+        }
+        //peekHeroAttack();
+    }
+
+    private static void peekHeroAttack(List<Hero> hs) {
+        Collections.sort(hs, (x, y) -> {
+            int hx = x.heroValues.size();
+            int hy = y.heroValues.size();
+            // no last -> as smallest
+            if (hx == 0 || hy == 0) {
+                return hx - hy;
+            }
+            HeroValue vx = x.heroValues.get(x.heroValues.size() - 1);
+            HeroValue vy = y.heroValues.get(y.heroValues.size() - 1);
+            return vx.attack - vy.attack;
+        });
+        L.log("sort attack :");
+        for (int i = 0; i < hs.size(); i++) {
+            //L.log("#%d : %s", i, hs.get(i));
+            Hero h = hs.get(i);
+            HeroValue hv = null;
+            if (h.heroValues.size() > 0) {
+                hv = h.heroValues.get(h.heroValues.size() - 1);
+            }
+
+            String s = String.format("%s, %s, %s, %s", h.nameJa, h.attribute, h.role, hv);
+            L.log("#%d : %s", i, s);
         }
     }
 
@@ -124,7 +162,7 @@ public class LiveAHeroMain {
         GsonUtil.writePrettyJson(mHeros.getFile().getFile(), sortedHero);
     }
 
-    // create hero from
+    // create hero from Hero ID order
     // https://wikiwiki.jp/live-a-hero/ID%E5%88%A5
     private static void heroBasic() {
         String link = "https://wikiwiki.jp/live-a-hero/ID%E5%88%A5";
@@ -151,10 +189,11 @@ public class LiveAHeroMain {
             L.log("#%2d hero = %s", i, me);
         }
         // fill in sidekick only
-        fillSidekick("ハックル\t☆☆☆☆\t朱交赤成\t堀内賢雄\tv1.0.0");
+        // value is copied from web row
+        fillSidekick("エクシオ\t☆☆☆☆\t朱交赤成\t千葉一伸\tv2.3.2");
         fillSidekick("メリデ\t☆☆☆☆\tふぐり\t夏怜\tv2.2.0");
+        fillSidekick("セイイチロウ\t☆☆☆☆\tやきそばおおもり\t小山力也\tv2.4.10");
         fillSidekick("主人公\t☆☆☆\t朱交赤成\t選択式\tv1.0.0");
-
     }
 
     // from
@@ -191,9 +230,15 @@ public class LiveAHeroMain {
 
             Document doc = fetcher.getDocument(link);
             Elements ts = doc.getElementsByTag("table");
+            Elements ts2 = doc.getElementsByClass("re-table");
             //L.log("%s tables", ts.size());
-            for (int i = 0; i < ts.size(); i++) {
-                Element ti = ts.get(i);
+            for (int i = 0; i < ts.size() + ts2.size(); i++) {
+                Element ti;
+                if (i < ts.size()) {
+                    ti = ts.get(i);
+                } else {
+                    ti = ts2.get(i - ts.size());
+                }
                 String txt = ti.text();
                 if (txt.startsWith("Rarity")) { // hero
                     List<HeroValue> ci = readHeroValue(ti);
@@ -209,7 +254,7 @@ public class LiveAHeroMain {
                     List<HeroSkill> si = s.skills;
 
                     if (s.type == HeroSkillInfo.TwoPlus) {
-                        // side
+                        // sidekick
                         if (hero.sideSkills.isEmpty()) {
                             hero.sideSkills.addAll(si);
                             if (hero2 != null) {
@@ -236,6 +281,10 @@ public class LiveAHeroMain {
                                 }
                             }
                         }
+                    } else if (s.type == HeroSkillInfo.Passive) {
+                        if (hero.passive.isEmpty()) {
+                            hero.passive.addAll(si);
+                        }
                     }
                 } else if (txt.startsWith("Level")) {
                     if (hero.sideValues.isEmpty()) {
@@ -257,6 +306,7 @@ public class LiveAHeroMain {
         static final int TwoPlus = 1;
         static final int HeroSkill = 2;
         static final int Equip = 3;
+        static final int Passive = 4;
         int type;
         int heroSkillPlus = -1;
         List<HeroSkill> skills = new ArrayList<>();
@@ -269,13 +319,16 @@ public class LiveAHeroMain {
         // 0 = <td title="1001101" class="translate" data-translate="燃ゆる白球">Burning Baseball</td>
         // 1 = <td title="敵単体に70%ダメージ。40%の確率で2ターンの間火傷を付与。"> [base skill] Deal 70% of damage to target enemy /100%<br> [base skill] Decrease HP by -10% to target enemy for 2 turn(s) /40%<br> </td>
         // 2 = <td>0</td>
-        Elements tds = e.getElementsByTag("td");
-        for (int i = 0; i < tds.size() / 3; i++) {
-            int k = 3 * i;
+        //Elements tds = e.getElementsByTag("div");
+        Elements es = e.children();
+        final int R = 3; // row = 3 items
+        int cnt = es.size() / R;
+        for (int i = 1; i < cnt; i++) {
+            int k = R * i;
             HeroSkill s = new HeroSkill();
-            s.name    = tds.get(k + 0).attr("data-translate");
-            s.content = tds.get(k + 1).attr("title");
-            s.view    = parseInt(tds.get(k + 2).text());
+            s.name    = es.get(k).attr("data-translate").trim();
+            s.view    = parseInt(es.get(k + 1).text().trim());
+            s.content = es.get(k + 2).attr("title").trim();
             it.skills.add(s);
         }
 
@@ -283,9 +336,10 @@ public class LiveAHeroMain {
         boolean is2Plus = n == 3 &&
                 it.skills.get(1).name.endsWith("+") &&
                 it.skills.get(2).name.endsWith("++");
-        // WolfmanDark or WolfmanWood has 3 hero skill, no +
+        // WolfmanShadow or WolfmanWood has 3 hero skill, no +
         boolean isHeroSkill = n == 4 || (!is2Plus && n == 3);
         boolean isEquip = n == 6;
+        boolean isPassive = n < 3;
         if (is2Plus) {
             it.type = HeroSkillInfo.TwoPlus;
         } else if (isHeroSkill) {
@@ -293,6 +347,10 @@ public class LiveAHeroMain {
             it.heroSkillPlus = findSkillPlus(it.skills);
         } else if (isEquip) {
             it.type = HeroSkillInfo.Equip;
+        } else if (isPassive) {
+            it.type = HeroSkillInfo.Passive;
+        } else {
+            L.log("Missing skills %s", it.skills);
         }
         return it;
     }

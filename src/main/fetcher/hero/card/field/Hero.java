@@ -56,6 +56,9 @@ public class Hero {
     @SerializedName("heroPlus")
     public int heroPlus = -1;
 
+    @SerializedName("passive")
+    public List<HeroSkill> passive = new ArrayList<>();
+
     @Override
     public String toString() {
         return new Gson().toJson(this);
