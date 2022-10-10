@@ -94,7 +94,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/651");
         //link.add("https://tos.fandom.com/zh/wiki/656");
         //link.add("https://tos.fandom.com/zh/wiki/1361"); // SupremeReckon
-        link.add("https://tos.fandom.com/zh/wiki/1021");
+        //link.add("https://tos.fandom.com/zh/wiki/1021");
         //link.add("https://tos.fandom.com/zh/wiki/722"); // 合體
         //link.add("https://tos.fandom.com/zh/wiki/2344");
         //link.add("https://tos.fandom.com/zh/wiki/2345");
@@ -111,6 +111,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         //link.add("https://tos.fandom.com/zh/wiki/230");
         //link.add("https://tos.fandom.com/zh/wiki/2425"); // 29
 
+        link.add("https://tos.fandom.com/zh/wiki/%E8%A9%A6%E7%85%89%E4%B9%8B%E7%9F%B3");
         if (!fixing) {
             link.clear();
         }
@@ -147,7 +148,10 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
             CardInfo cInfo = getCardInfo(link);
 
             // Create as TosCard
-            TosCard card = TosCardCreator.me.asTosCard(cInfo);
+            TosCard card = null;
+            if (cInfo.cardTds != null) {
+                card = TosCardCreator.me.asTosCard(cInfo);
+            }
 
             if (card == null) {
                 failed.add(cInfo.wikiLink);
@@ -212,6 +216,7 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
     // Main core
     private CardInfo getCardInfo(String link) {
         CardInfo info = new CardInfo();
+        info.wikiLink = link;
 
         // Get document node from link by Jsoup
         Document doc = getDocument(link);
@@ -220,7 +225,6 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         Elements centers = doc.getElementsByTag("center");
 
         // Fill in icon & big image, in 1st & 2nd <center>
-        info.wikiLink = link;
         info.bigImage = getImage(centers, 0);
         info.icon = getImage(centers, 1);
         // Fill in idNorm from mid of top 11 icons

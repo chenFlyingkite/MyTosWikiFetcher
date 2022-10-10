@@ -119,19 +119,6 @@ public class TosCardCreator {
         TosCard c = null;
 
         if (info != null) {
-//            int n = info.basic.size();
-//            switch (n) {
-//                case 18: c = asTosCard_18(info); break;
-//                case 27:
-//                case 28: c = asTosCard_28(info); break;
-//                case 16: c = asTosCard_16(info); break;
-//                case 22: c = asTosCard_22(info); break;
-//                //case 33:
-//                case 32: c = asTosCard_32(info); break;
-//                case 24: c = asTosCard_24(info); break;
-//                case 31: c = asTosCard_31(info); break;
-//                case 29: c = asTosCard_29(info); break;
-//            }
             c = asTosCard_(info);
             updateAmes(c);
         }
@@ -308,8 +295,10 @@ public class TosCardCreator {
         fillHPValues(c, info.hpValues);
         fillExpInfo(c, info.expInfos);
         fillCombination(c, info);
-        fillEvolution(c, info.cardTds.getEvolve()); // 進化列表
-        fillEvolution(c, info.cardTds.getSupreme()); // 究極融煉
+        if (info.cardTds != null) {
+            fillEvolution(c, info.cardTds.getEvolve()); // 進化列表
+            fillEvolution(c, info.cardTds.getSupreme()); // 究極融煉
+        }
         fillVirRebirth(c, info);
         fillArmCraft(c, info);
         fillSwitch(c, info);
@@ -327,6 +316,7 @@ public class TosCardCreator {
     }
 
     private void fillExpInfo(TosCard c, List<String> list) {
+        if (list.size() == 0) return;
         String s = list.get(0);
         c.expCurve = parseInt(s.substring(0, s.indexOf("萬")));
         c.minExpSacrifice = parseInt(list.get(1));
@@ -373,6 +363,7 @@ public class TosCardCreator {
     }
 
     private void fillHPValues(TosCard c, List<String> list) {
+        if (list.size() == 0) return;
         c.maxHP = parseInt(list.get(0));
         c.maxAttack = parseInt(list.get(1));
         c.maxRecovery = parseInt(list.get(2));
@@ -473,6 +464,7 @@ public class TosCardCreator {
     }
 
     private void fillCombination(TosCard c, CardInfo info) {
+        if (info.cardTds == null) return;
         List<String> list = info.cardTds.getCombine();
         if (list.size() == 0) return;
 
@@ -494,6 +486,7 @@ public class TosCardCreator {
     }
 
     private void fillVirRebirth(TosCard c, CardInfo info) {
+        if (info.cardTds == null) return;
         List<String> list = info.cardTds.getRebirth();
         int n = list.size();
         if (n < 1) return;
@@ -503,12 +496,14 @@ public class TosCardCreator {
     }
 
     private void fillSwitch(TosCard c, CardInfo info) {
+        if (info.cardTds == null) return;
         List<String> list = info.cardTds.getSwitching();
         if (list.size() == 0) return;
         c.switchChange = normId_nnnni(list.get(0));
     }
 
     private void fillArmCraft(TosCard c, CardInfo info) {
+        if (info.cardTds == null) return;
         List<String> list = info.cardTds.getArmCraft();
         //if (list.size() == 0) return;
         for (int i = 0; i < list.size(); i++) {
@@ -627,6 +622,7 @@ public class TosCardCreator {
 
     private void fillCardIds(TosCard c, CardInfo info) {
         List<String> list = info.basic;
+        if (list.size() == 0) return;
         c.name = list.get(0);
         c.attribute = list.get(1);
         c.id = list.get(2);
@@ -705,8 +701,11 @@ public class TosCardCreator {
     }
 
     private void fillSkillLeader(TosCard c, List<String> list) {
-        c.skillLeaderName = list.get(0);
-        c.skillLeaderDesc = list.get(1);
+        int n = list.size();
+        if (n >= 2) {
+            c.skillLeaderName = list.get(0);
+            c.skillLeaderDesc = list.get(1);
+        }
     }
 
     private void fillAmelioration(TosCard c, List<String> list) {

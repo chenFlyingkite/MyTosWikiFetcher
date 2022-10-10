@@ -34,9 +34,29 @@ public class LiveAHeroMain {
         // 1 = parse hero
         init();
 
-        //loadHero();
-        fetchHero();
+        boolean web = 0 > 0;
+        if (web) {
+            fetchHero();
+        } else {
+            loadHero();
+        }
+
         ////imageMoe(); // dead
+
+        List<Hero> hs;
+        if (sortedHero.size() > 0) {
+            hs = sortedHero;
+        } else {
+            hs = loadedHero;
+        }
+        L.log("%s Hero : ", hs.size());
+        for (int i = 0; i < hs.size(); i++) {
+            L.log("#%2d: %s", i, hs.get(i));
+        }
+
+        peekHeroHP(hs);
+        peekHeroView(hs);
+        peekHeroAttack(hs);
     }
 
     private static void fetchHero() {
@@ -84,7 +104,7 @@ public class LiveAHeroMain {
             //L.log("heroImage.put(\"%s\", R.drawable.icon_akashi_h01);", v.nameJa);
             //L.log("sideImage.put(\"%s\", R.drawable.icon_akashi_s01);", v.nameJa);
         }
-        //peekHeroAttack();
+
     }
 
     private static void peekHeroAttack(List<Hero> hs) {
@@ -101,7 +121,56 @@ public class LiveAHeroMain {
         });
         L.log("sort attack :");
         for (int i = 0; i < hs.size(); i++) {
-            //L.log("#%d : %s", i, hs.get(i));
+            Hero h = hs.get(i);
+            HeroValue hv = null;
+            if (h.heroValues.size() > 0) {
+                hv = h.heroValues.get(h.heroValues.size() - 1);
+            }
+
+            String s = String.format("%s, %s, %s, %s", h.nameJa, h.attribute, h.role, hv);
+            L.log("#%d : %s", i, s);
+        }
+    }
+
+    private static void peekHeroView(List<Hero> hs) {
+        Collections.sort(hs, (x, y) -> {
+            int hx = x.heroValues.size();
+            int hy = y.heroValues.size();
+            // no last -> as smallest
+            if (hx == 0 || hy == 0) {
+                return hx - hy;
+            }
+            HeroValue vx = x.heroValues.get(x.heroValues.size() - 1);
+            HeroValue vy = y.heroValues.get(y.heroValues.size() - 1);
+            return vx.view - vy.view;
+        });
+        L.log("sort view :");
+        for (int i = 0; i < hs.size(); i++) {
+            Hero h = hs.get(i);
+            HeroValue hv = null;
+            if (h.heroValues.size() > 0) {
+                hv = h.heroValues.get(h.heroValues.size() - 1);
+            }
+
+            String s = String.format("%s, %s, %s, %s", h.nameJa, h.attribute, h.role, hv);
+            L.log("#%d : %s", i, s);
+        }
+    }
+
+    private static void peekHeroHP(List<Hero> hs) {
+        Collections.sort(hs, (x, y) -> {
+            int hx = x.heroValues.size();
+            int hy = y.heroValues.size();
+            // no last -> as smallest
+            if (hx == 0 || hy == 0) {
+                return hx - hy;
+            }
+            HeroValue vx = x.heroValues.get(x.heroValues.size() - 1);
+            HeroValue vy = y.heroValues.get(y.heroValues.size() - 1);
+            return vx.hp - vy.hp;
+        });
+        L.log("sort HP :");
+        for (int i = 0; i < hs.size(); i++) {
             Hero h = hs.get(i);
             HeroValue hv = null;
             if (h.heroValues.size() > 0) {
