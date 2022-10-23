@@ -2,6 +2,7 @@ package flyingkite.javaxlibrary.images.data;
 
 import flyingkite.math.MathUtil;
 
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 
 public class RGBInfo {
@@ -13,6 +14,7 @@ public class RGBInfo {
     public final int r;
     public final int g;
     public final int b;
+    public final float[] hsv = new float[3];
 
     public RGBInfo(BufferedImage image, int x, int y) {
         hasColor = MathUtil.isInRange(x, 0, image.getWidth()) &&
@@ -27,6 +29,7 @@ public class RGBInfo {
         g = (c & 0x0000FF00) >>> 8;
         b = (c & 0x000000FF) >>> 0;
         // HSV <-> RGB = java.awt.Color.HSBtoRGB()
+        Color.RGBtoHSB(r, g, b, hsv);
     }
 
     @Override

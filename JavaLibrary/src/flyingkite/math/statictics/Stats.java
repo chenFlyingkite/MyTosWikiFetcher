@@ -2,13 +2,16 @@ package flyingkite.math.statictics;
 
 import flyingkite.log.L;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Stats<T extends Number> {
     // the name of this Stats, user provided
@@ -42,6 +45,9 @@ public class Stats<T extends Number> {
     // PR75
     public double quartile3;
     public List<Double> mode = new ArrayList<>();
+
+    // series trend for the source,
+    public Map<String, Integer> seriesTrend = new TreeMap<>();
 
     public Stats(List<T> data) {
         source = data;
@@ -122,6 +128,72 @@ public class Stats<T extends Number> {
             }
         }
         Collections.sort(mode);
+
+        // evaluation on +++++ cases
+        final int window = 5; // sliding window size
+        if (n >= window) {
+            // delta = s[v] - s[v-1]
+            Deque<Double> delta = new ArrayDeque<>();
+            // t0, t1, t2, t3
+            final int dt = -1; // diff day = one
+            for (int i = 1; i < window; i++) {
+                double d = diff(i, dt);
+                delta.addLast(d);
+            }
+            for (int i = window; i < n; i++) {
+                double next = diff(i, dt);
+                delta.addLast(next);
+                String trend = trend(delta);
+                int v = 0;
+                if (seriesTrend.containsKey(trend)) {
+                    v = seriesTrend.get(trend);
+                }
+                seriesTrend.put(trend, v + 1);
+                delta.removeFirst();
+            }
+        }
+    }
+
+    // Represent deque value changes into +|-
+    private String trend(Deque<Double> a) {
+        int n = a.size();
+        char[] cs = new char[n];
+        for (int i = 0; i < n; i++) {
+            double x = a.removeFirst();
+            if (x >= 0) {
+                cs[i] = '+';
+            } else {
+                cs[i] = '-';
+            }
+            a.addLast(x); // add back
+        }
+        String key = String.valueOf(cs);
+        return key;
+    }
+
+    // trend of a = c1...cn, ci = '+'|'-' depends on a[i]
+    private String trend(double[] a) {
+        int n = a.length;
+        char[] cs = new char[n];
+        for (int i = 0; i < n; i++) {
+            if (a[i] >= 0) {
+                cs[i] = '+';
+            } else {
+                cs[i] = '-';
+            }
+        }
+        String key = String.valueOf(cs);
+        return key;
+    }
+
+    // s[t] - s[t+dt]
+    private double diff(int i, int dt) {
+        T t0 = source.get(i);
+        double x0 = t0.doubleValue();
+
+        T tk = source.get(i + dt);
+        double xk = tk.doubleValue();
+        return x0 - xk;
     }
 
     // inclusive head and tail
@@ -165,5 +237,33 @@ public class Stats<T extends Number> {
         ss = new Stats<>(Arrays.asList(7, 15, 36, 39, 40, 41));
         // q = 15, 37.5, 40 for 6 items
         L.log("q1 = %s, mu = %s, q3 = %s", ss.quartile1, ss.median, ss.quartile3);
+        for (int i = 0; i < 32; i++) {
+            // generate the sample source
+            List<Integer> diff = toBinary(i, 5);
+            List<Integer> src = new ArrayList<>();
+            int now = 5; // starting series of src[0]
+            src.add(now);
+            for (int j = 0; j < diff.size(); j++) {
+                if (diff.get(j) == 1) {
+                    now++;
+                } else {
+                    now--;
+                }
+                src.add(now);
+            }
+            L.log("#%d : diff = %s, src = %s", i, diff, src);
+            ss = new Stats<>(src);
+        }
+    }
+
+    // convert v into binary length of n, v = 0x"a[0]a[1]..a[n-1]"
+    private static List<Integer> toBinary(int v, int n) {
+        List<Integer> ans = new ArrayList<>();
+        int now = v;
+        for (int i = n-1; i >= 0; i--) {
+            ans.add(0, now % 2);
+            now /= 2;
+        }
+        return ans;
     }
 }

@@ -1,5 +1,6 @@
 package flyingkite.log;
 
+import flyingkite.files.FileUtil;
 import flyingkite.tool.IOUtil;
 
 import java.io.File;
@@ -25,21 +26,7 @@ public class FileOutput implements Loggable {
     }
 
     private void validate() {
-        if (file.exists() && file.isDirectory()) {
-            file.delete();
-        }
-    }
-
-    private void createFile() throws IOException {
-        if (!file.exists()) {
-            File p = file.getParentFile();
-            if (p != null) {
-                p.mkdirs();
-            }
-
-            file.createNewFile();
-        }
-        close();
+        FileUtil.deleteIfDirectory(file);
     }
 
     public FileOutput open() {
@@ -48,7 +35,8 @@ public class FileOutput implements Loggable {
 
     public FileOutput open(boolean append) {
         try {
-            createFile();
+            FileUtil.createFile(file);
+            close();
             pw = new PrintWriter(new FileOutputStream(file, append));
         } catch (IOException e) {
             e.printStackTrace();
@@ -68,7 +56,7 @@ public class FileOutput implements Loggable {
 
     public FileOutput writeln(String msg) {
         if (pw == null) {
-            L.log("Did not opened :%s", file);
+            L.log("File not opened : %s", file);
         } else {
             pw.append(msg).append("\r\n");
         }

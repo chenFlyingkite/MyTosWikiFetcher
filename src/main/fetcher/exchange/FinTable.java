@@ -16,9 +16,9 @@ public class FinTable implements Formattable {
     @Override
     public String toString() {
         int n = date.size();
-        String s = _fmt("%s ~ %s (%s items), buy = %s ~ %s, sell = %s ~ %s"
+        String s = _fmt("%s ~ %s (%s items), (buy, sell) 1st = (%s, %s), last = (%s, %s)"
                 , date.get(0), date.get(n-1), n
-                , buy.get(0), buy.get(n-1), sell.get(0), sell.get(n-1)
+                , buy.get(0), sell.get(0), buy.get(n-1), sell.get(n-1)
         );
         return s;
     }

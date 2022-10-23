@@ -31,9 +31,6 @@ import javax.imageio.stream.ImageInputStream;
 public class FileUtil {
 
     public static boolean isGone(File f) {
-        if (f == null || !f.exists()) {
-            L.log("gone");
-        }
         return f == null || !f.exists();
     }
 
@@ -105,13 +102,19 @@ public class FileUtil {
     public static void createNewFile(File f, boolean deleteIfFolder) {
         if (f == null) return;
         if (deleteIfFolder) {
-            if (f.exists() && f.isDirectory()) {
-                ensureDelete(f);
-            }
+            deleteIfDirectory(f);
         }
 
         if (!f.exists()) {
             createFile(f);
+        }
+    }
+
+    public static void deleteIfDirectory(File f) {
+        if (f == null) return;
+
+        if (f.exists() && f.isDirectory()) {
+            ensureDelete(f);
         }
     }
 

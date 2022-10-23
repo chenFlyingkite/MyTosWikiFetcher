@@ -303,25 +303,17 @@ public class ForeignExchangeRateFetcher {
         for (int i = 0; i < n; i++) {
             s = new StringBuilder("");
             for (int j = 0; j < n; j++) {
-                double d = 0;
                 Covariance<Double, Double> cij;
                 if (i != j) {
                     int x = Math.min(i, j);
                     int y = Math.max(i, j);
                     cij = corr.get(x).get(y-x-1);
-                    if (!Double.isNaN(cij.correlation)) {
-                        d = cij.correlation;
-                        s.append(cij.correlation);
+                    double d = cij.correlation;
+                    if (!Double.isNaN(d)) {
+                        s.append(d);
                     }
                 }
                 s.append(",");
-                if (i != j) {
-                    sum[i] += d;
-                    // debug used
-                    if (i % 4 == 0) {
-                        //L.log("sum[%s] += %s", i, d);
-                    }
-                }
             }
             L.log("%s", s);
         }
@@ -357,6 +349,12 @@ public class ForeignExchangeRateFetcher {
             // Take list of buy into statistics
             Stats<Double> stat = new Stats<>(table.buy);
             stat.name = table.tag;
+            double sum = 0;
+            for (String s : stat.seriesTrend.keySet()) {
+                sum += stat.seriesTrend.get(s);
+            }
+            double avg = sum / stat.seriesTrend.keySet().size();
+            //L.log("%s Buy series = %s, trendSizeAvg = %.1f", key, stat.seriesTrend, avg);
 
             loadedTable.put(key, table);
             usedStats.put(key, stat);
@@ -364,6 +362,27 @@ public class ForeignExchangeRateFetcher {
         L.log("%s items in table", loadedTable.size());
         for (String k : loadedTable.keySet()) {
             L.log("%s -> %s", k, loadedTable.get(k));
+        }
+        //printTrendTable();
+    }
+
+    private static void printTrendTable() {
+        String title = "";
+        boolean printed = false;
+        for (String s : usedStats.keySet()) {
+            Stats<Double> st = usedStats.get(s);
+            StringBuilder tail = new StringBuilder();
+            for (String t : st.seriesTrend.keySet()) {
+                if (!printed) {
+                    title += "," + t;
+                }
+                tail.append(st.seriesTrend.get(t)).append(",");
+            }
+            if (!printed) {
+                printed = true;
+                L.log("%s", title);
+            }
+            L.log("%s,%s", st.name, tail);
         }
     }
 
