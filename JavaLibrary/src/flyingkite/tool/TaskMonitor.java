@@ -75,14 +75,14 @@ public class TaskMonitor implements Loggable {
                         done++;
                     }
                 }
-                // If all tasks are done, we plans to remove client[i]
+                // If all tasks are done, we plan to remove client[i]
                 if (done == taskOwner.taskCount()) {
                     ci.onAllTaskDone();
                     toRemove.add(i);
                 }
             }
 
-            // Remove the clients, from largest index to smallest
+            // Remove the clients, from the largest index to smallest
             log("Remove clients = %s", toRemove);
             n = toRemove.size();
             for (int i = n - 1; i >= 0; i--) {

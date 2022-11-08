@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class MyTosWikiFirebase {
-    private static TicTac2 clk = new TicTac2();
+    private static final TicTac2 clk = new TicTac2();
 
     public static void run() {
         clk.tic();

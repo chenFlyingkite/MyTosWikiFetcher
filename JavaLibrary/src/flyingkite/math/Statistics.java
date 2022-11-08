@@ -1,14 +1,14 @@
 package flyingkite.math;
 
+import flyingkite.data.IIPair;
+import flyingkite.log.L;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import flyingkite.data.IIPair;
-import flyingkite.log.L;
 
 public class Statistics {
     /**
@@ -148,7 +148,7 @@ public class Statistics {
     }
 
     /**
-     * Returns the indices of mode in data, (we returns the index of item)
+     * Returns the indices of mode in data, (we return the index of item)
      * Use data[result[0]] to take the 1st mode number
      */
     public static <T extends Number> List<Integer> modeIndices(List<T> data) {

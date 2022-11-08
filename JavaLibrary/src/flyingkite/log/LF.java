@@ -2,8 +2,6 @@ package flyingkite.log;
 
 import java.io.File;
 
-import flyingkite.files.CSVTable;
-
 /**
  * The class for logging message to console log and file
  * L = console log of {@link L}
@@ -12,19 +10,30 @@ import flyingkite.files.CSVTable;
  * @see System#out
  * @see FileOutput
  */
-public class LF implements Loggable, CSVTable.OnReadCSV {
+public class LF implements Loggable {
     private final FileOutput file;
 
     private boolean logToFile = true;
 
     private boolean logToL = true;
 
-    public LF(String folder) {
-        file = new FileOutput(folder + File.separator + "log.txt");
+    public LF(String it) {
+        this(new File(it));
     }
 
     public LF(String folder, String name) {
-        file = new FileOutput(folder + File.separator + name);
+        this(new File(folder, name));
+    }
+
+    public LF(File folder, String name) {
+        this(new File(folder, name));
+    }
+
+    public LF(File f) {
+        if (f.isDirectory()) {
+            f = new File(f, "log.txt");
+        }
+        file = new FileOutput(f);
     }
 
     public LF(FileOutput fo) {
@@ -68,21 +77,5 @@ public class LF implements Loggable, CSVTable.OnReadCSV {
         if (logToFile) {
             file.writeln(msg, param);
         }
-    }
-
-    @Override
-    public void onMissingFile(String path) {
-        log("File not found: %s", path);
-    }
-
-    @Override
-    public void onNoHeader(String path) {
-        log("Missing header columns, omit file");
-    }
-
-    @Override
-    public void onMissingColumn(String path, int lineNumber, int columnCount, String line) {
-        log("Missing column at line #%s. Expected %s columns", lineNumber, columnCount);
-        log("  %s", line);
     }
 }

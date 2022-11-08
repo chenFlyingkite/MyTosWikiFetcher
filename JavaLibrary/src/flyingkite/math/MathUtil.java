@@ -58,6 +58,14 @@ public class MathUtil {
         return min;
     }
 
+    public static int mins(int... values) {
+        int min = values[0];
+        for (int i = 1; i < values.length; i++) {
+            min = Math.min(min, values[i]);
+        }
+        return min;
+    }
+
     public static double mins(double... values) {
         double min = values[0];
         for (int i = 1; i < values.length; i++) {

@@ -8,7 +8,7 @@ import java.util.List;
 public class YHDividend {
     public TWEquity equity;
     public int recentYear;
-    public double recentReturn; // in %
+    public transient double recentReturn; // in %
     public List<YHYearDiv> years = new ArrayList<>();
     public String note;
 

@@ -3,9 +3,11 @@ package flyingkite.javaxlibrary.images.create;
 import flyingkite.data.Rect2;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.base.PngRequest;
+import flyingkite.javaxlibrary.images.data.RGBInfo;
 import flyingkite.log.L;
 import flyingkite.math.MathUtil;
 
+import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.Arrays;
@@ -22,6 +24,9 @@ public class PngCreateRequest extends PngRequest {
     private BufferedImage srcImg;
     private BufferedImage dstImg;
     private Rect2 canvasRect = new Rect2();
+    private boolean saveHistogram;
+    private BufferedImage histogram;
+    private BufferedImage hsvHistogram;
 
     public PngCreateRequest(PngParam param) {
         File f = param.file;
@@ -191,5 +196,146 @@ public class PngCreateRequest extends PngRequest {
         }
         mClock.tac(TAG + " replace OK");
         return this;
+    }
+
+    @Override
+    public void into(String name) {
+        super.into(name);
+        if (saveHistogram && histogram != null) {
+            File dst = new File(name);
+            into(histogram, new File(dst.getParentFile(), "his.png"));
+            into(hsvHistogram, new File(dst.getParentFile(), "hsv.png"));
+        }
+    }
+
+    public PngCreateRequest histogram(int height, int backgroundColor) {
+        long[] hisR = new long[256];
+        long[] hisG = new long[256];
+        long[] hisB = new long[256];
+        saveHistogram = true;
+        histogram = new BufferedImage(256, 3 * height, BufferedImage.TYPE_INT_ARGB);
+
+        // common used
+        PngParam pp = reqParam;
+        final int imgW = canvasRect.width();
+        final int imgH = canvasRect.height();
+        double size = imgW * imgH;
+
+        if (DEBUG) {
+            L.log("histogram pp = %s, rect = ", pp, canvasRect);
+        }
+
+        // [R, G, B] & [H, S, V]
+        int[][] hisPixel = new int[3][256];
+        int[][] hisHsv = new int[3][360];
+        mClock.tic();
+        for (int i = 0; i < imgW; i++) {
+            for (int j = 0; j < imgH; j++) {
+                RGBInfo it = new RGBInfo(srcImg, i, j);
+                hisR[it.r]++;
+                hisG[it.g]++;
+                hisB[it.b]++;
+                hisPixel[0][it.r] = (int) Math.round(1F * height * hisR[it.r] / size);
+                hisPixel[1][it.g] = (int) Math.round(1F * height * hisG[it.g] / size);
+                hisPixel[2][it.b] = (int) Math.round(1F * height * hisB[it.b] / size);
+                for (int k = 0; k < 3; k++) {
+                    int x = Math.min(359, Math.round(it.hsv[k] * 360));
+                    hisHsv[k][x]++;
+                }
+                dstImg.setRGB(i, j, it.argb);
+            }
+        }
+        mClock.tac(TAG + " histogram OK");
+        BufferedImage img;
+        img = histogram;
+        for (int i = 0; i < img.getWidth(); i++) {
+            for (int j = 0; j < img.getHeight(); j++) {
+                int chk = j / height;
+                int[] ch = hisPixel[chk];
+                int y = height - (j % height);
+                int c = 0xff000000 | (i << (8*(2-chk))); // 2^8 = 256
+                if (y <= ch[i]) {
+                    // draw the bar
+                    img.setRGB(i, j, c);
+                } else {
+                    // empty
+                    img.setRGB(i,j, backgroundColor);
+                }
+            }
+        }
+        L.log("Histogram R = %s", Arrays.toString(hisR));
+        L.log("Histogram G = %s", Arrays.toString(hisG));
+        L.log("Histogram B = %s", Arrays.toString(hisB));
+        for (int i = 0; i < 3; i++) {
+            L.log("hisHsv[%s] = %s", i, Arrays.toString(hisHsv[i]));
+        }
+
+        hsvHistogram = new BufferedImage(360, 3 * height, BufferedImage.TYPE_INT_ARGB);
+        img = hsvHistogram;
+        for (int i = 0; i < img.getWidth(); i++) {
+            for (int j = 0; j < img.getHeight(); j++) {
+                int chk = j / height;
+                int[] ch = hisHsv[chk];
+                int y = height - (j % height);
+                int c = Color.HSBtoRGB(1F * i / 360, 1, 1);
+                if (y <= ch[i]) {
+                    // draw the bar
+                    img.setRGB(i, j, c);
+                } else {
+                    // empty
+                    img.setRGB(i, j, backgroundColor);
+                }
+            }
+        }
+        return this;
+    }
+
+    // It needs to check if bugs, its output looks strange
+    // Try to make continuous color range into segmented color part
+    @Deprecated
+    public PngCreateRequest hsv(float hueUnit, float satUnit, float valUnit) {
+        float[] hueSample = units(hueUnit, 0, 1);
+        float[] satSample = units(satUnit, 0, 1);
+        float[] valSample = units(valUnit, 0, 1);
+
+        // common used
+        PngParam pp = reqParam;
+        final int imgW = canvasRect.width();
+        final int imgH = canvasRect.height();
+
+        if (DEBUG) {
+            L.log("hsv pp = %s, rect = ", pp, canvasRect);
+        }
+        L.log("hue = %s", Arrays.toString(hueSample));
+        L.log("sat = %s", Arrays.toString(satSample));
+        L.log("val = %s", Arrays.toString(valSample));
+
+        mClock.tic();
+        for (int i = 0; i < imgW; i++) {
+            for (int j = 0; j < imgH; j++) {
+                RGBInfo it = new RGBInfo(srcImg, i, j);
+                float[] srcHSV = it.hsv;
+                int hx = (int) Math.floor(srcHSV[0] / hueUnit);
+                int sx = (int) Math.floor(srcHSV[1] / satUnit);
+                int vx = (int) Math.floor(srcHSV[2] / valUnit);
+                hx = Math.min(hx, hueSample.length - 1);
+                sx = Math.min(sx, satSample.length - 1);
+                vx = Math.min(vx, valSample.length - 1);
+                L.log("(%s, %s), hsv = %s, hueSample[%s] = %s", i, j, Arrays.toString(srcHSV), hx, hueSample[hx]);
+                int color = Color.HSBtoRGB(hueSample[hx], satSample[sx], valSample[vx]);
+                dstImg.setRGB(i, j, color);
+            }
+        }
+        mClock.tac(TAG + " hsv OK");
+        return this;
+    }
+
+    private float[] units(float unit, float min, float max) {
+        int n = (int) Math.ceil((max - min) / unit);
+        float[] ans = new float[n];
+        for (int i = 0; i < n; i++) {
+            ans[i] = min + unit * i;
+        }
+        return ans;
     }
 }

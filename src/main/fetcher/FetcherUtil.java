@@ -5,6 +5,17 @@ import com.google.gson.GsonBuilder;
 import flyingkite.log.FileOutput;
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
+import okhttp3.OkHttpClient;
+
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSession;
+import javax.net.ssl.X509TrustManager;
 
 public class FetcherUtil {
     public static boolean pretty = true;
@@ -29,4 +40,42 @@ public class FetcherUtil {
         LF lf = new LF(new FileOutput(path));
         overwriteFileJsonPrettyPrinting(data, lf);
     }
+
+
+    public static class MyX509TrustManager implements X509TrustManager {
+        @Override
+        public void checkClientTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {
+        }
+
+        @Override
+        public void checkServerTrusted(X509Certificate[] x509Certificates, String s) throws CertificateException {
+        }
+
+        @Override
+        public X509Certificate[] getAcceptedIssuers() {
+            return new X509Certificate[0];
+        }
+    }
+
+    public static class MyHostnameVerifier implements HostnameVerifier {
+        @Override
+        public boolean verify(String s, SSLSession sslSession) {
+            return true;
+        }
+    }
+
+    public static void setupSSL(OkHttpClient.Builder builder) {
+        try {
+            X509TrustManager[] tm = {new MyX509TrustManager()};
+            HostnameVerifier hm = new MyHostnameVerifier();
+            SSLContext context = SSLContext.getInstance("SSL");
+            context.init(null, tm, new SecureRandom());
+
+            builder.sslSocketFactory(context.getSocketFactory(), tm[0]);
+            builder.hostnameVerifier(hm);
+        } catch (NoSuchAlgorithmException | KeyManagementException e) {
+            e.printStackTrace();
+        }
+    }
+
 }

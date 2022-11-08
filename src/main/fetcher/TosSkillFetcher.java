@@ -25,13 +25,18 @@ public class TosSkillFetcher extends TosWikiBaseFetcher {
     private LF mLf = new LF(folder);
     private LF mLfSkills = new LF(folder, "allSkills.json");
     // 技能
-    private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=2500000&category=%E6%8A%80%E8%83%BD&namespaces=0";
+    private final String tosApi = "http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0";
     private static List<SkillInfo> allSkills = new ArrayList<>();
     private File outJson = mLfSkills.getFile().getFile();
 
     @Override
     public String getAPILink() {
         return tosApi;
+    }
+
+    @Override
+    public ResultSet getApiResults() {
+        return super.getApiResultsOffset();
     }
 
     @Override
@@ -54,6 +59,9 @@ public class TosSkillFetcher extends TosWikiBaseFetcher {
                 // 組合技 : 三原獵刃
                 , "http://zh.tos.wikia.com/wiki/%E4%B8%89%E5%8E%9F%E7%8D%B5%E5%88%83"
         );
+        list.add("https://tos.fandom.com/zh/wiki/%E5%8A%8D%E8%A1%93%E7%B5%95%E6%AE%BA");
+        list.add("https://tos.fandom.com/zh/wiki/%E5%8A%8D%E8%B5%B0%E5%81%8F%E9%8B%92");
+
         list.clear();
         return list;
     }
@@ -69,15 +77,18 @@ public class TosSkillFetcher extends TosWikiBaseFetcher {
         ResultSet set = source.results;
         Range rng = source.range;
 
-        List<SkillInfo> skills = new ArrayList<>();
-        Set<String> types = new HashSet<>();
         mLf.getFile().open();
         mLf.setLogToL(true);
+        mLf.log("%s items in total", set.getItems().size());
+
+        List<SkillInfo> skills = new ArrayList<>();
+        Set<String> types = new HashSet<>();
         clock.tic();
         for (int i = rng.min; i < rng.max; i++) {
             String link = getSourceLinkAt(source, i);
             String li = decodeUrl(link);
-            mLf.log("%s -> %s", li.substring(li.lastIndexOf("/") + 1), link);
+            // 人類補完計劃/3175
+            mLf.log("%s -> %s", li.replace(zhWiki, ""), link);
             Document doc = getDocument(link);
             List<SkillInfo2> ss = getSkillInfo(doc);
             if (ss != null) {
@@ -130,7 +141,6 @@ public class TosSkillFetcher extends TosWikiBaseFetcher {
             for (String mi : mons) {
                 if (mi.length() != 4) continue;
             }
-
 
             key = s.getSkillName();
             //key = mi;

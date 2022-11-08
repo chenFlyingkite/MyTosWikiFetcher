@@ -189,7 +189,14 @@
         "view": 275
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": [
+      {
+        "name": "バブル・ボール",
+        "content": "ダメージを受けた後に、スキル１で反撃。",
+        "view": 0
+      }
+    ]
   },
   {
     "nameEn": "Akashi2",
@@ -365,7 +372,14 @@
         "view": 275
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": [
+      {
+        "name": "バブル・ボール",
+        "content": "ダメージを受けた後に、スキル１で反撃。",
+        "view": 0
+      }
+    ]
   },
   {
     "nameEn": "Mokdai",
@@ -557,7 +571,185 @@
         "view": 425
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
+  },
+  {
+    "nameEn": "Mokdai2",
+    "nameJa": "聖夜のモクダイ",
+    "rankFirst": 5,
+    "designer": "朱交赤成",
+    "CV": "熊本健太",
+    "attribute": "光",
+    "role": "補助",
+    "heroSkills": [
+      {
+        "name": "フェスティヴ・ギフト",
+        "content": "敵単体に60%ダメージ。チームで一番HPが減っているヒーローのHPを自身の基礎ATKの30%回復する。",
+        "view": 0
+      },
+      {
+        "name": "ベスト・ウィッシュ",
+        "content": "味方単体に2回の行動の間ATKアップを付与。Viewを5000獲得。",
+        "view": 5000
+      },
+      {
+        "name": "メガトン・スライダー",
+        "content": "味方全体のHPを基礎ATKの100%回復する。スキル発動後、Viewが10000以上ある場合、味方全体のデバフを１つ解除。",
+        "view": 13000
+      },
+      {
+        "name": "ベスト・ウィッシュ+",
+        "content": "味方単体に2回の行動の間ATKアップ \u0026 View消費量-1000を付与。Viewを5000獲得。",
+        "view": 5000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 347,
+        "attack": 102,
+        "speed": 112,
+        "view": 1612
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1739,
+        "attack": 514,
+        "speed": 112,
+        "view": 1773
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2609,
+        "attack": 770,
+        "speed": 112,
+        "view": 1853
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3769,
+        "attack": 1113,
+        "speed": 112,
+        "view": 2015
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 3769,
+        "attack": 1438,
+        "speed": 112,
+        "view": 2015
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5219,
+        "attack": 1992,
+        "speed": 112,
+        "view": 2256
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "ド迫力演出",
+        "content": "Viewを10000獲得。",
+        "view": 6000
+      },
+      {
+        "name": "ド迫力演出+",
+        "content": "Viewを10000獲得。",
+        "view": 5000
+      },
+      {
+        "name": "ド迫力演出++",
+        "content": "Viewを10000獲得。",
+        "view": 4000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "巧みなカメラワークⅠ",
+        "content": "View基礎値+5%。"
+      },
+      {
+        "name": "巧みなカメラワークⅡ",
+        "content": "View基礎値+6%。"
+      },
+      {
+        "name": "巧みなカメラワークⅢ",
+        "content": "View基礎値+7%。"
+      },
+      {
+        "name": "巧みなカメラワークⅣ",
+        "content": "View基礎値+8%。"
+      },
+      {
+        "name": "巧みなカメラワークⅤ",
+        "content": "View基礎値+9%。"
+      },
+      {
+        "name": "巧みなカメラワークⅥ",
+        "content": "View基礎値+10%。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 42,
+        "speed": 2,
+        "view": 85
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 168,
+        "speed": 2,
+        "view": 212
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 210,
+        "speed": 2,
+        "view": 255
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 252,
+        "speed": 2,
+        "view": 297
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 294,
+        "speed": 2,
+        "view": 340
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 357,
+        "speed": 2,
+        "view": 382
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 420,
+        "speed": 2,
+        "view": 425
+      }
+    ],
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Sui",
@@ -749,7 +941,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Ryekie",
@@ -933,7 +1126,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Ryekie2",
@@ -1109,7 +1303,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Crowne",
@@ -1293,7 +1488,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Gammei",
@@ -1477,7 +1673,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Barrel",
@@ -1661,7 +1858,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Barrel2",
@@ -1837,7 +2035,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Furlong",
@@ -2021,7 +2220,197 @@
         "view": 275
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": [
+      {
+        "name": "",
+        "content": "自身に3ターンの間挑発を付与。【ダメージ時】敵とのSpd差に応じて「軽減」が発動。「軽減」が発動した場合、ダメージを30%減少する。自身に挑発が付与されている間、この効果の発動率が２倍になる。",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "Furlong2",
+    "nameJa": "跳躍のハロン",
+    "rankFirst": 5,
+    "designer": "きしぐま",
+    "CV": "よねざわたかし",
+    "attribute": "木",
+    "role": "防御",
+    "heroSkills": [
+      {
+        "name": "エシェクタンテ・ドゥロ",
+        "content": "敵単体に70%ダメージ。自身のHPを基礎ATKの30%回復する。",
+        "view": 0
+      },
+      {
+        "name": "アクトゥアシオ・ナシル",
+        "content": "自身に3ターンの間挑発を付与。【ダメージ時】相手よりSpdが高い場合、Spdの差×2.5%の確率で軽減が発動。軽減が発動した場合、被ダメージを30%減少。自身に挑発が付与されている間、軽減の発動率が2倍になる。",
+        "view": 3000
+      },
+      {
+        "name": "アクロバタ・デ・アクアリオ",
+        "content": "味方単体に2回の行動の間ATKアップ \u0026 幸運を付与。自身に2回の行動の間SPDアップを付与。対象が木属性の場合、ATKアップ \u0026 幸運の効果が3回の行動の間になる。",
+        "view": 7000
+      },
+      {
+        "name": "アクトゥアシオ・ナシル+",
+        "content": "自身に3ターンの間挑発を付与。【ダメージ時】相手よりSpdが高い場合、Spdの差×2.5%の確率で軽減が発動。軽減が発動した場合、被ダメージを30%減少。自身に挑発が付与されている間、軽減の発動率が2倍になる。",
+        "view": 2000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 398,
+        "attack": 80,
+        "speed": 115,
+        "view": 1303
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1991,
+        "attack": 404,
+        "speed": 115,
+        "view": 1434
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2987,
+        "attack": 606,
+        "speed": 115,
+        "view": 1498
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 4315,
+        "attack": 875,
+        "speed": 115,
+        "view": 1629
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 5027,
+        "attack": 875,
+        "speed": 115,
+        "view": 1629
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 6962,
+        "attack": 1213,
+        "speed": 115,
+        "view": 1824
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "火の粉払い",
+        "content": "自身に1回分の無敵を付与。",
+        "view": 3000
+      },
+      {
+        "name": "火の粉払い+",
+        "content": "自身に1回分の無敵を付与。HPを基礎ATKの50%回復する。",
+        "view": 3000
+      },
+      {
+        "name": "火の粉払い++",
+        "content": "自身に1回分の無敵を付与。HPを基礎ATKの80%回復する。",
+        "view": 3000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "恒高温体質Ⅰ",
+        "content": "被ダメージ-5%。"
+      },
+      {
+        "name": "恒高温体質Ⅱ",
+        "content": "被ダメージ-6%。"
+      },
+      {
+        "name": "恒高温体質Ⅲ",
+        "content": "被ダメージ-7%。"
+      },
+      {
+        "name": "恒高温体質Ⅳ",
+        "content": "被ダメージ-8%。"
+      },
+      {
+        "name": "恒高温体質Ⅴ",
+        "content": "被ダメージ-9%。"
+      },
+      {
+        "name": "恒高温体質Ⅵ",
+        "content": "被ダメージ-10%。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 85,
+        "attack": 18,
+        "speed": 3,
+        "view": 55
+      },
+      {
+        "level": 50,
+        "hp": 340,
+        "attack": 72,
+        "speed": 3,
+        "view": 137
+      },
+      {
+        "level": 60,
+        "hp": 425,
+        "attack": 90,
+        "speed": 3,
+        "view": 165
+      },
+      {
+        "level": 70,
+        "hp": 510,
+        "attack": 108,
+        "speed": 3,
+        "view": 192
+      },
+      {
+        "level": 80,
+        "hp": 595,
+        "attack": 126,
+        "speed": 3,
+        "view": 220
+      },
+      {
+        "level": 90,
+        "hp": 722,
+        "attack": 153,
+        "speed": 3,
+        "view": 247
+      },
+      {
+        "level": 100,
+        "hp": 850,
+        "attack": 180,
+        "speed": 3,
+        "view": 275
+      }
+    ],
+    "heroPlus": 1,
+    "passive": [
+      {
+        "name": "",
+        "content": "自身に3ターンの間挑発を付与。【ダメージ時】敵とのSpd差に応じて「軽減」が発動。「軽減」が発動した場合、ダメージを30%減少する。自身に挑発が付与されている間、この効果の発動率が２倍になる。",
+        "view": 0
+      }
+    ]
   },
   {
     "nameEn": "Victom",
@@ -2205,7 +2594,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Victom2",
@@ -2381,7 +2771,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
   },
   {
     "nameEn": "Kyoichi",
@@ -2565,7 +2956,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Kyoichi2",
@@ -2741,7 +3133,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Flamier",
@@ -2925,7 +3318,193 @@
         "view": 425
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
+  },
+  {
+    "nameEn": "Flamier2",
+    "nameJa": "花踊のフラミー",
+    "rankFirst": 4,
+    "designer": "黒ねずみいぬ",
+    "CV": "戸板優衣",
+    "attribute": "光",
+    "role": "弱体化",
+    "heroSkills": [
+      {
+        "name": "チャーミング・ステップ",
+        "content": "敵単体に50%ダメージ。70%の確率で1回のランダムなデバフ効果を付与（ATKダウン、DEFダウン、SPDダウン、毒から抽選）。",
+        "view": 0
+      },
+      {
+        "name": "ブルーミー・ダンス",
+        "content": "敵全体に50%ダメージ。50%の確率で1ターンの間火傷を付与。コンボ数が5以上の場合、スキル2をもう一度発動する。追加発動時、スキルによるViewを消費せず、行動後Viewを獲得できない。",
+        "view": 5000
+      },
+      {
+        "name": "ハッピー♡フラワータイム",
+        "content": "敵単体のバフを全て解除。2回分のDEFダウンを付与。",
+        "view": 8000
+      },
+      {
+        "name": "ハッピー♡フラワータイム+",
+        "content": "敵単体のバフを全て解除。3回分のDEFダウンを付与。",
+        "view": 8000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 4,
+        "level": 1,
+        "hp": 332,
+        "attack": 114,
+        "speed": 109,
+        "view": 1242
+      },
+      {
+        "rarity": 4,
+        "level": 30,
+        "hp": 1663,
+        "attack": 574,
+        "speed": 109,
+        "view": 1366
+      },
+      {
+        "rarity": 4,
+        "level": 40,
+        "hp": 2494,
+        "attack": 861,
+        "speed": 109,
+        "view": 1428
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2997,
+        "attack": 861,
+        "speed": 109,
+        "view": 1428
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 4328,
+        "attack": 1244,
+        "speed": 109,
+        "view": 1552
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4328,
+        "attack": 1607,
+        "speed": 109,
+        "view": 1552
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5994,
+        "attack": 2227,
+        "speed": 109,
+        "view": 1738
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "ポイズン・ボム",
+        "content": "敵単体に1ターンの間毒を付与 \u0026 70%の確率で毒を付与 \u0026 35%の確率で毒を付与。",
+        "view": 3000
+      },
+      {
+        "name": "ポイズン・ボム+",
+        "content": "敵単体に1ターンの間毒を付与 \u0026 70%の確率で毒を付与 \u0026 35%の確率で毒を付与。",
+        "view": 2500
+      },
+      {
+        "name": "ポイズン・ボム++",
+        "content": "敵単体に1ターンの間毒を付与 \u0026 70%の確率で毒を付与 \u0026 35%の確率で毒を付与。",
+        "view": 2000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "燃やすな危険Ⅰ",
+        "content": "登場時、敵全体に20%の確率で1ターンの間毒を付与。"
+      },
+      {
+        "name": "燃やすな危険Ⅱ",
+        "content": "登場時、敵全体に24%の確率で1ターンの間毒を付与。"
+      },
+      {
+        "name": "燃やすな危険Ⅲ",
+        "content": "登場時、敵全体に28%の確率で1ターンの間毒を付与。"
+      },
+      {
+        "name": "燃やすな危険Ⅳ",
+        "content": "登場時、敵全体に32%の確率で1ターンの間毒を付与。"
+      },
+      {
+        "name": "燃やすな危険Ⅴ",
+        "content": "登場時、敵全体に36%の確率で1ターンの間毒を付与。"
+      },
+      {
+        "name": "燃やすな危険Ⅵ",
+        "content": "登場時、敵全体に40%の確率で1ターンの間毒を付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 26,
+        "speed": 4,
+        "view": 85
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 104,
+        "speed": 4,
+        "view": 212
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 130,
+        "speed": 4,
+        "view": 255
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 156,
+        "speed": 4,
+        "view": 297
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 182,
+        "speed": 4,
+        "view": 340
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 221,
+        "speed": 4,
+        "view": 382
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 260,
+        "speed": 4,
+        "view": 425
+      }
+    ],
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Shoen",
@@ -3101,7 +3680,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Shoen2",
@@ -3285,7 +3865,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Toshu",
@@ -3469,7 +4050,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
   },
   {
     "nameEn": "Marfik",
@@ -3645,7 +4227,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Marfik2",
@@ -3821,7 +4404,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "PolarisMask",
@@ -3997,7 +4581,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Hydoor",
@@ -4181,7 +4766,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Kuoki",
@@ -4357,7 +4943,8 @@
         "view": 500
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Hitomi",
@@ -4541,7 +5128,14 @@
         "view": 425
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": [
+      {
+        "name": "LOVE ME☆ヒット・ミー！",
+        "content": "登場時、×3を付与。",
+        "view": 0
+      }
+    ]
   },
   {
     "nameEn": "Hitomi2",
@@ -4725,10 +5319,17 @@
         "view": 425
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": [
+      {
+        "name": "LOVE ME☆ヒット・ミー！",
+        "content": "登場時、×3を付与。",
+        "view": 0
+      }
+    ]
   },
   {
-    "nameEn": "Rakkta",
+    "nameEn": "Rakta",
     "nameJa": "ラクタ",
     "rankFirst": 3,
     "designer": "一十",
@@ -4917,7 +5518,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Loren",
@@ -5109,7 +5711,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Isaribi",
@@ -5301,7 +5904,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Goro",
@@ -5493,7 +6097,197 @@
         "view": 275
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": [
+      {
+        "name": "",
+        "content": "発動者が生存している間、バフ1つにつきATKが10%上昇する状態を控えを含む味方全体に付与。(最大50％）",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "Goro2",
+    "nameJa": "奏楽のゴロウ",
+    "rankFirst": 5,
+    "designer": "おーくす",
+    "CV": "大浪嘉仁",
+    "attribute": "水",
+    "role": "補助",
+    "heroSkills": [
+      {
+        "name": "トイズ・マーチング",
+        "content": "敵単体に60%ダメージ。チームで一番ATKが高いヒーローのHPを自身の基礎ATKの30%回復する。",
+        "view": 0
+      },
+      {
+        "name": "バウンス・ポルカ",
+        "content": "味方単体に2回の行動の間View消費量-1000を付与。1回の行動の間注目を付与。Viewを5000獲得。【常時発動】生存時、味方のヒーローはバフ1つにつきATKが10％上昇。（最大50%まで）この効果は重複しない。",
+        "view": 3000
+      },
+      {
+        "name": "ハイエンド・コンストラクト",
+        "content": "味方単体に3回の行動の間ATKアップを付与。対象がランダムな敵にスキル１で追撃。",
+        "view": 8000
+      },
+      {
+        "name": "ハイエンド・コンストラクト+",
+        "content": "味方単体に3回の行動の間ATKアップを付与。デバフを１つ解除。対象がランダムな敵にスキル１で追撃。",
+        "view": 8000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 333,
+        "attack": 111,
+        "speed": 107,
+        "view": 1818
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1668,
+        "attack": 558,
+        "speed": 107,
+        "view": 2000
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2501,
+        "attack": 837,
+        "speed": 107,
+        "view": 2090
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3614,
+        "attack": 1210,
+        "speed": 107,
+        "view": 2272
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4341,
+        "attack": 1210,
+        "speed": 107,
+        "view": 2272
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 6011,
+        "attack": 1676,
+        "speed": 107,
+        "view": 2544
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "防壁急造",
+        "content": "自身に2ターンの間挑発を付与。1回分のDEFアップを付与。",
+        "view": 4000
+      },
+      {
+        "name": "防壁急造+",
+        "content": "自身に2ターンの間挑発を付与。1回分のDEFアップを付与。",
+        "view": 3500
+      },
+      {
+        "name": "防壁急造++",
+        "content": "自身に2ターンの間挑発を付与。1回分のDEFアップを付与。",
+        "view": 3000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "大工の手遊びⅠ",
+        "content": "登場時、50%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "大工の手遊びⅡ",
+        "content": "登場時、60%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "大工の手遊びⅢ",
+        "content": "登場時、70%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "大工の手遊びⅣ",
+        "content": "登場時、80%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "大工の手遊びⅤ",
+        "content": "登場時、90%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "大工の手遊びⅥ",
+        "content": "登場時、1回分のDEFアップを付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 100,
+        "attack": 26,
+        "speed": 2,
+        "view": 55
+      },
+      {
+        "level": 50,
+        "hp": 400,
+        "attack": 104,
+        "speed": 2,
+        "view": 137
+      },
+      {
+        "level": 60,
+        "hp": 500,
+        "attack": 130,
+        "speed": 2,
+        "view": 165
+      },
+      {
+        "level": 70,
+        "hp": 600,
+        "attack": 156,
+        "speed": 2,
+        "view": 192
+      },
+      {
+        "level": 80,
+        "hp": 700,
+        "attack": 182,
+        "speed": 2,
+        "view": 220
+      },
+      {
+        "level": 90,
+        "hp": 850,
+        "attack": 221,
+        "speed": 2,
+        "view": 247
+      },
+      {
+        "level": 100,
+        "hp": 1000,
+        "attack": 260,
+        "speed": 2,
+        "view": 275
+      }
+    ],
+    "heroPlus": 2,
+    "passive": [
+      {
+        "name": "",
+        "content": "発動者が生存している間、バフ1つにつきATKが10%上昇する状態を控えを含む味方全体に付与。(最大50％）",
+        "view": 0
+      }
+    ]
   },
   {
     "nameEn": "Digram",
@@ -5685,7 +6479,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Andrew",
@@ -5861,7 +6656,193 @@
         "view": 200
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
+  },
+  {
+    "nameEn": "Andrew2",
+    "nameJa": "激流のアンドリュー",
+    "rankFirst": 4,
+    "designer": "GomTang",
+    "CV": "後藤ヒロキ",
+    "attribute": "影",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "トレント・ナックル",
+        "content": "敵単体に70%ダメージ。自身に40%の確率で1回分のDEFアップを付与。",
+        "view": 0
+      },
+      {
+        "name": "エヴァーラスト・リンク",
+        "content": "敵全体からランダムに2回60%ダメージ。1HIT毎に20%の確率で1回分のDEFダウンを付与。",
+        "view": 4000
+      },
+      {
+        "name": "ジェミニィズ・ディサイド",
+        "content": "敵単体に1～4回50%ダメージ（自身に付与されているDEFアップの数だけ攻撃回数増加）＋100％ダメージ。自身のDEFアップを全て解除。",
+        "view": 8000
+      },
+      {
+        "name": "エヴァーラスト・リンク+",
+        "content": "敵全体からランダムに2回60%ダメージ。1HIT毎に30%の確率で1回分のDEFダウンを付与。",
+        "view": 4000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 4,
+        "level": 1,
+        "hp": 387,
+        "attack": 144,
+        "speed": 106,
+        "view": 1031
+      },
+      {
+        "rarity": 4,
+        "level": 30,
+        "hp": 1935,
+        "attack": 722,
+        "speed": 106,
+        "view": 1135
+      },
+      {
+        "rarity": 4,
+        "level": 40,
+        "hp": 2903,
+        "attack": 1084,
+        "speed": 106,
+        "view": 1185
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2903,
+        "attack": 1336,
+        "speed": 106,
+        "view": 1185
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 4194,
+        "attack": 1929,
+        "speed": 106,
+        "view": 1289
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4194,
+        "attack": 1929,
+        "speed": 106,
+        "view": 1611
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5807,
+        "attack": 2673,
+        "speed": 106,
+        "view": 1804
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "防護壁展開",
+        "content": "味方単体に1回分のDEFアップを付与。Viewを5000獲得。",
+        "view": 4000
+      },
+      {
+        "name": "防護壁展開+",
+        "content": "味方単体に1回分のDEFアップを付与。Viewを5000獲得。",
+        "view": 3500
+      },
+      {
+        "name": "防護壁展開++",
+        "content": "味方単体に1回分のDEFアップを付与。Viewを5000獲得。",
+        "view": 3000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "盾となる決意Ⅰ",
+        "content": "行動開始時、15%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "盾となる決意Ⅱ",
+        "content": "行動開始時、18%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "盾となる決意Ⅲ",
+        "content": "行動開始時、21%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "盾となる決意Ⅳ",
+        "content": "行動開始時、24%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "盾となる決意Ⅴ",
+        "content": "行動開始時、27%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "盾となる決意Ⅵ",
+        "content": "行動開始時、30%の確率で1回分のDEFアップを付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 85,
+        "attack": 26,
+        "speed": 3,
+        "view": 40
+      },
+      {
+        "level": 50,
+        "hp": 340,
+        "attack": 104,
+        "speed": 3,
+        "view": 100
+      },
+      {
+        "level": 60,
+        "hp": 425,
+        "attack": 130,
+        "speed": 3,
+        "view": 120
+      },
+      {
+        "level": 70,
+        "hp": 510,
+        "attack": 156,
+        "speed": 3,
+        "view": 140
+      },
+      {
+        "level": 80,
+        "hp": 595,
+        "attack": 182,
+        "speed": 3,
+        "view": 160
+      },
+      {
+        "level": 90,
+        "hp": 722,
+        "attack": 221,
+        "speed": 3,
+        "view": 180
+      },
+      {
+        "level": 100,
+        "hp": 850,
+        "attack": 260,
+        "speed": 3,
+        "view": 200
+      }
+    ],
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Alchiba",
@@ -6053,7 +7034,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Alchiba2",
@@ -6229,7 +7211,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Subaru",
@@ -6413,7 +7396,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
   },
   {
     "nameEn": "Kirsch",
@@ -6605,7 +7589,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Narihito",
@@ -6797,7 +7782,185 @@
         "view": 425
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
+  },
+  {
+    "nameEn": "Narihito2",
+    "nameJa": "彗星のナリヒト",
+    "rankFirst": 5,
+    "designer": "めんスケ",
+    "CV": "内匠靖明",
+    "attribute": "火",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "コメット・ブラスター",
+        "content": "敵単体に70%ダメージ。自身のHPを基礎ATKの25%回復する。",
+        "view": 0
+      },
+      {
+        "name": "ホーリー・キャノン",
+        "content": "敵単体に120%ダメージ。自身に１回のランダムなバフ効果を付与（ATKアップ、DEFアップ、SPDアップから抽選）。",
+        "view": 3000
+      },
+      {
+        "name": "メモリアル・ヒーローズ",
+        "content": "敵単体に180%ダメージ。1回分のDEFダウンを付与。このスキルで敵を戦闘不能にした場合、自身に付与されているバフ効果を１ターン延長。",
+        "view": 7000
+      },
+      {
+        "name": "メモリアル・ヒーローズ+",
+        "content": "敵単体に200%ダメージ。1回分のDEFダウンを付与。このスキルで敵を戦闘不能にした場合、自身に付与されているバフ効果を１ターン延長。",
+        "view": 7000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 335,
+        "attack": 180,
+        "speed": 107,
+        "view": 1276
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1678,
+        "attack": 900,
+        "speed": 107,
+        "view": 1403
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2516,
+        "attack": 1351,
+        "speed": 107,
+        "view": 1467
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3635,
+        "attack": 1950,
+        "speed": 107,
+        "view": 1594
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 3635,
+        "attack": 2309,
+        "speed": 107,
+        "view": 1594
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5034,
+        "attack": 3198,
+        "speed": 107,
+        "view": 1785
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "特ダネ素っ破抜き",
+        "content": "敵単体に1回分のDEFダウンを付与。Viewを5000獲得。",
+        "view": 4000
+      },
+      {
+        "name": "特ダネ素っ破抜き+",
+        "content": "敵単体に1回分のDEFダウンを付与。Viewを5000獲得。",
+        "view": 3500
+      },
+      {
+        "name": "特ダネ素っ破抜き++",
+        "content": "敵単体に1回分のDEFダウンを付与。Viewを5000獲得。",
+        "view": 3000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "今回のハイライトⅠ",
+        "content": "ピンチ状態の時、View基礎値+10%。"
+      },
+      {
+        "name": "今回のハイライトⅡ",
+        "content": "ピンチ状態の時、View基礎値+12%。"
+      },
+      {
+        "name": "今回のハイライトⅢ",
+        "content": "ピンチ状態の時、View基礎値+14%。"
+      },
+      {
+        "name": "今回のハイライトⅣ",
+        "content": "ピンチ状態の時、View基礎値+16%。"
+      },
+      {
+        "name": "今回のハイライトⅤ",
+        "content": "ピンチ状態の時、View基礎値+18%。"
+      },
+      {
+        "name": "今回のハイライトⅥ",
+        "content": "ピンチ状態の時、View基礎値+20%。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 26,
+        "speed": 2,
+        "view": 85
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 104,
+        "speed": 2,
+        "view": 212
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 130,
+        "speed": 2,
+        "view": 255
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 156,
+        "speed": 2,
+        "view": 297
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 182,
+        "speed": 2,
+        "view": 340
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 221,
+        "speed": 2,
+        "view": 382
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 260,
+        "speed": 2,
+        "view": 425
+      }
+    ],
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Suhail",
@@ -6973,7 +8136,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
   },
   {
     "nameEn": "Monomasa",
@@ -7149,7 +8313,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Procy",
@@ -7267,27 +8432,27 @@
     "sideEquips": [
       {
         "name": "金の亡者Ⅰ",
-        "content": "戦闘時獲得ラフ+1%。"
+        "content": "戦闘時獲得ラフ+1%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "金の亡者Ⅱ",
-        "content": "戦闘時獲得ラフ+2%。"
+        "content": "戦闘時獲得ラフ+2%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "金の亡者Ⅲ",
-        "content": "戦闘時獲得ラフ+3%。"
+        "content": "戦闘時獲得ラフ+3%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "金の亡者Ⅳ",
-        "content": "戦闘時獲得ラフ+4%。"
+        "content": "戦闘時獲得ラフ+4%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "金の亡者Ⅴ",
-        "content": "戦闘時獲得ラフ+5%。"
+        "content": "戦闘時獲得ラフ+5%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "金の亡者Ⅵ",
-        "content": "戦闘時獲得ラフ+6%。"
+        "content": "戦闘時獲得ラフ+6%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       }
     ],
     "sideValues": [
@@ -7341,7 +8506,8 @@
         "view": 425
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Gomeisa",
@@ -7517,7 +8683,8 @@
         "view": 350
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Huckle",
@@ -7525,10 +8692,88 @@
     "rankFirst": 4,
     "designer": "朱交赤成",
     "CV": "堀内賢雄",
-    "attribute": "",
-    "role": "",
-    "heroSkills": [],
-    "heroValues": [],
+    "attribute": "光",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "ザ・グレート・ステップ",
+        "content": "敵単体に50%ダメージ。自身に60%の確率で2回の行動の間SPDアップを付与。",
+        "view": 0
+      },
+      {
+        "name": "エスケイプ・フロム・ケイジ",
+        "content": "敵単体に80%ダメージ。1回分のDEFダウンを付与。",
+        "view": 2000
+      },
+      {
+        "name": "ソニックブーム・ペネトレイション",
+        "content": "敵単体に150%ダメージ。自身のSPDが130以上かつ攻撃した敵が生存している場合、スキル１を追加発動。",
+        "view": 7000
+      },
+      {
+        "name": "ザ・グレート・ステップ+",
+        "content": "敵単体に50%ダメージ。自身に80%の確率で2回の行動の間SPDアップを付与。",
+        "view": 0
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 4,
+        "level": 1,
+        "hp": 263,
+        "attack": 144,
+        "speed": 111,
+        "view": 1264
+      },
+      {
+        "rarity": 4,
+        "level": 30,
+        "hp": 1315,
+        "attack": 721,
+        "speed": 111,
+        "view": 1391
+      },
+      {
+        "rarity": 4,
+        "level": 40,
+        "hp": 1973,
+        "attack": 1082,
+        "speed": 111,
+        "view": 1454
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 1973,
+        "attack": 1335,
+        "speed": 111,
+        "view": 1454
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 2849,
+        "attack": 1927,
+        "speed": 111,
+        "view": 1580
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 3567,
+        "attack": 1927,
+        "speed": 111,
+        "view": 1580
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 4940,
+        "attack": 2670,
+        "speed": 111,
+        "view": 1769
+      }
+    ],
     "sideSkills": [
       {
         "name": "昔取った杵柄",
@@ -7549,27 +8794,27 @@
     "sideEquips": [
       {
         "name": "先導者の責務Ⅰ",
-        "content": "戦闘時獲得Exp+1%。"
+        "content": "戦闘時獲得Exp+1%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "先導者の責務Ⅱ",
-        "content": "戦闘時獲得Exp+2%。"
+        "content": "戦闘時獲得Exp+2%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "先導者の責務Ⅲ",
-        "content": "戦闘時獲得Exp+3%。"
+        "content": "戦闘時獲得Exp+3%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "先導者の責務Ⅳ",
-        "content": "戦闘時獲得Exp+4%。"
+        "content": "戦闘時獲得Exp+4%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "先導者の責務Ⅴ",
-        "content": "戦闘時獲得Exp+5%。"
+        "content": "戦闘時獲得Exp+5%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       },
       {
         "name": "先導者の責務Ⅵ",
-        "content": "戦闘時獲得Exp+6%。"
+        "content": "戦闘時獲得Exp+6%。ヒーローに同種効果の装備スキルが装備されている場合、一番高い効果のみ適用される。"
       }
     ],
     "sideValues": [
@@ -7623,7 +8868,115 @@
         "view": 350
       }
     ],
-    "heroPlus": -1
+    "heroPlus": 0,
+    "passive": []
+  },
+  {
+    "nameEn": "Exio",
+    "nameJa": "エクシオ",
+    "rankFirst": 4,
+    "designer": "朱交赤成",
+    "CV": "千葉一伸",
+    "attribute": "",
+    "role": "",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [
+      {
+        "name": "覚醒の「ツボ」",
+        "content": "自身に3ターンの間、狂乱を付与。",
+        "view": 5000
+      },
+      {
+        "name": "覚醒の「ツボ」+",
+        "content": "自身に3ターンの間、狂乱を付与。",
+        "view": 4500
+      },
+      {
+        "name": "覚醒の「ツボ」++",
+        "content": "自身に3ターンの間、狂乱を付与。",
+        "view": 4000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "接続パス強制拡張Ⅰ",
+        "content": "登場時、現在戦闘中の味方全体のATK+3.5%。同種・範囲の効果が重複した場合、一番高い効果のみ適用される。"
+      },
+      {
+        "name": "接続パス強制拡張Ⅱ",
+        "content": "登場時、現在戦闘中の味方全体のATK+4.3%。同種・範囲の効果が重複した場合、一番高い効果のみ適用される。"
+      },
+      {
+        "name": "接続パス強制拡張Ⅲ",
+        "content": "登場時、現在戦闘中の味方全体のATK+5.1%。同種・範囲の効果が重複した場合、一番高い効果のみ適用される。"
+      },
+      {
+        "name": "接続パス強制拡張Ⅳ",
+        "content": "登場時、現在戦闘中の味方全体のATK+5.9%。同種・範囲の効果が重複した場合、一番高い効果のみ適用される。"
+      },
+      {
+        "name": "接続パス強制拡張Ⅴ",
+        "content": "登場時、現在戦闘中の味方全体のATK+6.7%。同種・範囲の効果が重複した場合、一番高い効果のみ適用される。"
+      },
+      {
+        "name": "接続パス強制拡張Ⅵ",
+        "content": "登場時、現在戦闘中の味方全体のATK+7.5%。同種・範囲の効果が重複した場合、一番高い効果のみ適用される。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 70,
+        "attack": 34,
+        "speed": 2,
+        "view": 85
+      },
+      {
+        "level": 50,
+        "hp": 280,
+        "attack": 136,
+        "speed": 2,
+        "view": 212
+      },
+      {
+        "level": 60,
+        "hp": 350,
+        "attack": 170,
+        "speed": 2,
+        "view": 255
+      },
+      {
+        "level": 70,
+        "hp": 420,
+        "attack": 204,
+        "speed": 2,
+        "view": 297
+      },
+      {
+        "level": 80,
+        "hp": 490,
+        "attack": 238,
+        "speed": 2,
+        "view": 340
+      },
+      {
+        "level": 90,
+        "hp": 595,
+        "attack": 289,
+        "speed": 2,
+        "view": 382
+      },
+      {
+        "level": 100,
+        "hp": 700,
+        "attack": 340,
+        "speed": 2,
+        "view": 425
+      }
+    ],
+    "heroPlus": -1,
+    "passive": []
   },
   {
     "nameEn": "WolfmanWood",
@@ -7647,6 +9000,11 @@
       {
         "name": "木狼の意地",
         "content": "敵単体に110%ダメージ。自身に30%の確率で1回分のDEFアップを付与。",
+        "view": 3500
+      },
+      {
+        "name": "木狼の意地+",
+        "content": "敵単体に130%ダメージ。自身に30%の確率で1回分のDEFアップを付与。",
         "view": 3500
       }
     ],
@@ -7698,6 +9056,38 @@
         "attack": 1073,
         "speed": 99,
         "view": 284
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2472,
+        "attack": 1073,
+        "speed": 99,
+        "view": 568
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3570,
+        "attack": 1549,
+        "speed": 99,
+        "view": 618
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4289,
+        "attack": 1549,
+        "speed": 99,
+        "view": 618
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5940,
+        "attack": 2146,
+        "speed": 99,
+        "view": 692
       }
     ],
     "sideSkills": [
@@ -7794,10 +9184,11 @@
         "view": 200
       }
     ],
-    "heroPlus": -1
+    "heroPlus": 2,
+    "passive": []
   },
   {
-    "nameEn": "WolfmanDark",
+    "nameEn": "WolfmanShadow",
     "nameJa": "影のウルフマン",
     "rankFirst": 1,
     "designer": "きしぐま",
@@ -7818,6 +9209,11 @@
       {
         "name": "影狼の意地",
         "content": "敵単体に110%ダメージ。20%の確率で1回の行動の間ATKダウンを付与。",
+        "view": 3500
+      },
+      {
+        "name": "影狼の意地+",
+        "content": "敵単体に130%ダメージ。20%の確率で1回の行動の間ATKダウンを付与。",
         "view": 3500
       }
     ],
@@ -7869,6 +9265,38 @@
         "attack": 1078,
         "speed": 99,
         "view": 279
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2497,
+        "attack": 1078,
+        "speed": 99,
+        "view": 559
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3607,
+        "attack": 1557,
+        "speed": 99,
+        "view": 609
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4333,
+        "attack": 1557,
+        "speed": 99,
+        "view": 609
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 6000,
+        "attack": 2157,
+        "speed": 99,
+        "view": 681
       }
     ],
     "sideSkills": [
@@ -7965,7 +9393,8 @@
         "view": 200
       }
     ],
-    "heroPlus": -1
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Nessen",
@@ -8141,7 +9570,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Hisaki",
@@ -8333,7 +9763,185 @@
         "view": 275
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
+  },
+  {
+    "nameEn": "Hisaki2",
+    "nameJa": "潜遊のヒサキ",
+    "rankFirst": 5,
+    "designer": "ぷらす野昆布",
+    "CV": "山口勝平",
+    "attribute": "火",
+    "role": "補助",
+    "heroSkills": [
+      {
+        "name": "コリメイション・アタック",
+        "content": "敵単体に40%ダメージ。1ターンの間照準を付与。",
+        "view": 0
+      },
+      {
+        "name": "フレア・リインフォース",
+        "content": "味方単体に2回の行動の間ATKアップを付与。対象が火属性の場合、ATKアップの代わりに2回のATKアップ+を付与。コンボ数+2。",
+        "view": 4000
+      },
+      {
+        "name": "オープス・クリエイション",
+        "content": "味方単体のHPを基礎ATKの170%回復する。1ターンの間シールドを付与。",
+        "view": 7000
+      },
+      {
+        "name": "オープス・クリエイション+",
+        "content": "味方単体のHPを基礎ATKの170%回復する。1ターンの間シールドを付与。",
+        "view": 6000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 406,
+        "attack": 116,
+        "speed": 105,
+        "view": 1509
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 2032,
+        "attack": 580,
+        "speed": 105,
+        "view": 1659
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 3048,
+        "attack": 870,
+        "speed": 105,
+        "view": 1734
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 4402,
+        "attack": 1258,
+        "speed": 105,
+        "view": 1886
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4402,
+        "attack": 1625,
+        "speed": 105,
+        "view": 1886
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 6096,
+        "attack": 2251,
+        "speed": 105,
+        "view": 2111
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "防具メンテナンス",
+        "content": "自身に2回分のDEFアップを付与。",
+        "view": 3500
+      },
+      {
+        "name": "防具メンテナンス+",
+        "content": "自身に2回分のDEFアップを付与。",
+        "view": 3000
+      },
+      {
+        "name": "防具メンテナンス++",
+        "content": "自身に2回分のDEFアップを付与。",
+        "view": 2500
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "試作電磁シールドⅠ",
+        "content": "ダメージを受けた時、10%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "試作電磁シールドⅡ",
+        "content": "ダメージを受けた時、14%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "試作電磁シールドⅢ",
+        "content": "ダメージを受けた時、18%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "試作電磁シールドⅣ",
+        "content": "ダメージを受けた時、22%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "試作電磁シールドⅤ",
+        "content": "ダメージを受けた時、26%の確率で1回分のDEFアップを付与。"
+      },
+      {
+        "name": "試作電磁シールドⅥ",
+        "content": "ダメージを受けた時、30%の確率で1回分のDEFアップを付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 26,
+        "speed": 4,
+        "view": 55
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 104,
+        "speed": 4,
+        "view": 137
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 130,
+        "speed": 4,
+        "view": 165
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 156,
+        "speed": 4,
+        "view": 192
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 182,
+        "speed": 4,
+        "view": 220
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 221,
+        "speed": 4,
+        "view": 247
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 260,
+        "speed": 4,
+        "view": 275
+      }
+    ],
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Maculata",
@@ -8517,7 +10125,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
   },
   {
     "nameEn": "Rutilix",
@@ -8693,7 +10302,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Alphecca",
@@ -8877,7 +10487,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Shaft",
@@ -9053,7 +10664,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Kalaski",
@@ -9237,7 +10849,276 @@
         "view": 350
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
+  },
+  {
+    "nameEn": "Vulpecula",
+    "nameJa": "ウルペクラ",
+    "rankFirst": 5,
+    "designer": "yow",
+    "CV": "平田広明",
+    "attribute": "影",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "ブーザ・ファントム",
+        "content": "敵単体に45%ダメージ。60%の確率で2ターンの間毒を付与。自身がダメージを受けていないかつ敵が生存している場合、スキル１を追加発動。（１回の行動で１度だけ発動。）",
+        "view": 0
+      },
+      {
+        "name": "ツァイトシュプルンク",
+        "content": "敵単体に100%ダメージ。敵のバフを１つ解除。解除に成功した場合、その効果を自身に付与。【常時発動】自身がダメージを受けていない間、自身に「隠蔽」と同様の効果を発動。",
+        "view": 5000
+      },
+      {
+        "name": "フェアギス・マインニヒト",
+        "content": "敵全体に70%ダメージ+HPが多いほどダメージ量が上昇する。",
+        "view": 11000
+      },
+      {
+        "name": "フェアギス・マインニヒト+",
+        "content": "敵全体に70%ダメージ+HPが多いほどダメージ量が上昇する。",
+        "view": 10000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 270,
+        "attack": 175,
+        "speed": 107,
+        "view": 1555
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1353,
+        "attack": 877,
+        "speed": 107,
+        "view": 1711
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2030,
+        "attack": 1316,
+        "speed": 107,
+        "view": 1787
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 2932,
+        "attack": 1900,
+        "speed": 107,
+        "view": 1944
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 2932,
+        "attack": 1900,
+        "speed": 107,
+        "view": 2267
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 4061,
+        "attack": 2632,
+        "speed": 107,
+        "view": 2539
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "潜伏犯",
+        "content": "敵単体に80%ダメージ。自身に40%の確率で2ターンの間隠蔽を付与。",
+        "view": 2000
+      },
+      {
+        "name": "潜伏犯+",
+        "content": "敵単体に80%ダメージ。自身に50%の確率で2ターンの間隠蔽を付与。",
+        "view": 2000
+      },
+      {
+        "name": "潜伏犯++",
+        "content": "敵単体に80%ダメージ。自身に60%の確率で2ターンの間隠蔽を付与。",
+        "view": 2000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "神出鬼没の怪盗Ⅰ",
+        "content": "ターン開始時、10%の確率で1ターンの間隠蔽を付与。"
+      },
+      {
+        "name": "神出鬼没の怪盗Ⅱ",
+        "content": "ターン開始時、12%の確率で1ターンの間隠蔽を付与。"
+      },
+      {
+        "name": "神出鬼没の怪盗Ⅲ",
+        "content": "ターン開始時、14%の確率で1ターンの間隠蔽を付与。"
+      },
+      {
+        "name": "神出鬼没の怪盗Ⅳ",
+        "content": "ターン開始時、16%の確率で1ターンの間隠蔽を付与。"
+      },
+      {
+        "name": "神出鬼没の怪盗Ⅴ",
+        "content": "ターン開始時、18%の確率で1ターンの間隠蔽を付与。"
+      },
+      {
+        "name": "神出鬼没の怪盗Ⅵ",
+        "content": "ターン開始時、20%の確率で1ターンの間隠蔽を付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 40,
+        "attack": 34,
+        "speed": 3,
+        "view": 70
+      },
+      {
+        "level": 50,
+        "hp": 160,
+        "attack": 136,
+        "speed": 3,
+        "view": 175
+      },
+      {
+        "level": 60,
+        "hp": 200,
+        "attack": 170,
+        "speed": 3,
+        "view": 210
+      },
+      {
+        "level": 70,
+        "hp": 240,
+        "attack": 204,
+        "speed": 3,
+        "view": 245
+      },
+      {
+        "level": 80,
+        "hp": 280,
+        "attack": 238,
+        "speed": 3,
+        "view": 280
+      },
+      {
+        "level": 90,
+        "hp": 340,
+        "attack": 289,
+        "speed": 3,
+        "view": 315
+      },
+      {
+        "level": 100,
+        "hp": 400,
+        "attack": 340,
+        "speed": 3,
+        "view": 350
+      }
+    ],
+    "heroPlus": 2,
+    "passive": [
+      {
+        "name": "ツァイトシュイプルンク",
+        "content": "自身がダメージを受けていない間、自身に「隠蔽」と同様の効果を発動。",
+        "view": 0
+      },
+      {
+        "name": "",
+        "content": "",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "MercenaryFire",
+    "nameJa": "火のマーセナリー",
+    "rankFirst": 1,
+    "designer": "おーくす",
+    "CV": "――",
+    "attribute": "火",
+    "role": "補助",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "MercenaryWater",
+    "nameJa": "水のマーセナリー",
+    "rankFirst": 1,
+    "designer": "おーくす",
+    "CV": "――",
+    "attribute": "水",
+    "role": "補助",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "MercenaryWood",
+    "nameJa": "木のマーセナリー",
+    "rankFirst": 1,
+    "designer": "おーくす",
+    "CV": "――",
+    "attribute": "木",
+    "role": "補助",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "MercenaryLight",
+    "nameJa": "光のマーセナリー",
+    "rankFirst": 1,
+    "designer": "おーくす",
+    "CV": "――",
+    "attribute": "光",
+    "role": "補助",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "MercenaryShadow",
+    "nameJa": "影のマーセナリー",
+    "rankFirst": 1,
+    "designer": "おーくす",
+    "CV": "――",
+    "attribute": "影",
+    "role": "補助",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
   },
   {
     "nameEn": "Melide",
@@ -9343,7 +11224,8 @@
         "view": 425
       }
     ],
-    "heroPlus": -1
+    "heroPlus": -1,
+    "passive": []
   },
   {
     "nameEn": "Yoshiori",
@@ -9527,7 +11409,8 @@
         "view": 200
       }
     ],
-    "heroPlus": 0
+    "heroPlus": 0,
+    "passive": []
   },
   {
     "nameEn": "Pubraseer",
@@ -9719,7 +11602,8 @@
         "view": 275
       }
     ],
-    "heroPlus": 2
+    "heroPlus": 2,
+    "passive": []
   },
   {
     "nameEn": "Okitaka",
@@ -9903,7 +11787,1498 @@
         "view": 425
       }
     ],
-    "heroPlus": 1
+    "heroPlus": 1,
+    "passive": [
+      {
+        "name": "",
+        "content": "オキタカヒーロー用パッシブ①",
+        "view": 0
+      },
+      {
+        "name": "",
+        "content": "オキタカヒーロー用パッシブ②",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "TraineeFire",
+    "nameJa": "火のトレイニー",
+    "rankFirst": 1,
+    "designer": "――",
+    "CV": "灰濁クロム",
+    "attribute": "火",
+    "role": "View獲得",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "TraineeWater",
+    "nameJa": "水のトレイニー",
+    "rankFirst": 1,
+    "designer": "――",
+    "CV": "灰濁クロム",
+    "attribute": "水",
+    "role": "View獲得",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "TraineeWood",
+    "nameJa": "木のトレイニー",
+    "rankFirst": 1,
+    "designer": "――",
+    "CV": "灰濁クロム",
+    "attribute": "木",
+    "role": "View獲得",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "TraineeLight",
+    "nameJa": "光のトレイニー",
+    "rankFirst": 1,
+    "designer": "――",
+    "CV": "灰濁クロム",
+    "attribute": "光",
+    "role": "View獲得",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "TraineeShadow",
+    "nameJa": "影のトレイニー",
+    "rankFirst": 1,
+    "designer": "――",
+    "CV": "灰濁クロム",
+    "attribute": "影",
+    "role": "View獲得",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [],
+    "sideEquips": [],
+    "sideValues": [],
+    "heroPlus": -1,
+    "passive": []
+  },
+  {
+    "nameEn": "Sadayoshi",
+    "nameJa": "サダヨシ",
+    "rankFirst": 5,
+    "designer": "藤三郎",
+    "CV": "成田剣",
+    "attribute": "水",
+    "role": "防御",
+    "heroSkills": [
+      {
+        "name": "戦略武術",
+        "content": "敵単体に70%ダメージ。ダメージを受けたとき、25%の確率でこのスキルで反撃。",
+        "view": 0
+      },
+      {
+        "name": "陽動指令",
+        "content": "自身に2ターンの間挑発 \u0026 弱体抵抗+100を付与。",
+        "view": 6000
+      },
+      {
+        "name": "破邪光煌拳",
+        "content": "敵単体に120%ダメージ+HPが減るほどダメージ量が上昇する。味方全体に1回分のDEFアップを付与。",
+        "view": 13000
+      },
+      {
+        "name": "陽動指令+",
+        "content": "自身に2ターンの間挑発 \u0026 弱体抵抗+100を付与。",
+        "view": 4500
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 475,
+        "attack": 151,
+        "speed": 106,
+        "view": 985
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 2376,
+        "attack": 755,
+        "speed": 106,
+        "view": 1083
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 3564,
+        "attack": 1133,
+        "speed": 106,
+        "view": 1131
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 5148,
+        "attack": 1636,
+        "speed": 106,
+        "view": 1231
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 5889,
+        "attack": 1636,
+        "speed": 106,
+        "view": 1231
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 8154,
+        "attack": 2266,
+        "speed": 106,
+        "view": 1378
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "援護拳撃",
+        "content": "敵単体に90%ダメージ。50%の確率でバフを１つ解除。",
+        "view": 2500
+      },
+      {
+        "name": "援護拳撃+",
+        "content": "敵単体に90%ダメージ。60%の確率でバフを１つ解除。",
+        "view": 2500
+      },
+      {
+        "name": "援護拳撃++",
+        "content": "敵単体に90%ダメージ。70%の確率でバフを１つ解除。",
+        "view": 2500
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "忠兵の精神Ⅰ",
+        "content": "登場時、50%の確率で1ターンの間自身に弱体抵抗+100を付与。"
+      },
+      {
+        "name": "忠兵の精神Ⅱ",
+        "content": "登場時、60%の確率で1ターンの間自身に弱体抵抗+100を付与。"
+      },
+      {
+        "name": "忠兵の精神Ⅲ",
+        "content": "登場時、70%の確率で1ターンの間自身に弱体抵抗+100を付与。"
+      },
+      {
+        "name": "忠兵の精神Ⅳ",
+        "content": "登場時、80%の確率で1ターンの間自身に弱体抵抗+100を付与。"
+      },
+      {
+        "name": "忠兵の精神Ⅴ",
+        "content": "登場時、90%の確率で1ターンの間自身に弱体抵抗+100を付与。"
+      },
+      {
+        "name": "忠兵の精神Ⅵ",
+        "content": "登場時、1ターンの間自身に弱体抵抗+100を付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 85,
+        "attack": 34,
+        "speed": 2,
+        "view": 40
+      },
+      {
+        "level": 50,
+        "hp": 340,
+        "attack": 136,
+        "speed": 2,
+        "view": 100
+      },
+      {
+        "level": 60,
+        "hp": 425,
+        "attack": 170,
+        "speed": 2,
+        "view": 120
+      },
+      {
+        "level": 70,
+        "hp": 510,
+        "attack": 204,
+        "speed": 2,
+        "view": 140
+      },
+      {
+        "level": 80,
+        "hp": 595,
+        "attack": 238,
+        "speed": 2,
+        "view": 160
+      },
+      {
+        "level": 90,
+        "hp": 722,
+        "attack": 289,
+        "speed": 2,
+        "view": 180
+      },
+      {
+        "level": 100,
+        "hp": 850,
+        "attack": 340,
+        "speed": 2,
+        "view": 200
+      }
+    ],
+    "heroPlus": 1,
+    "passive": [
+      {
+        "name": "戦略武術",
+        "content": "ダメージを受けた後に、スキル１で反撃。",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "Borealis",
+    "nameJa": "ボレアリス",
+    "rankFirst": 4,
+    "designer": "おーくす",
+    "CV": "速水奨",
+    "attribute": "影",
+    "role": "View獲得",
+    "heroSkills": [
+      {
+        "name": "シークト・カントゥス",
+        "content": "敵単体に60%ダメージ。Viewを1000獲得。",
+        "view": 0
+      },
+      {
+        "name": "ステラリス・エレジア",
+        "content": "Viewを11000獲得。",
+        "view": 4000
+      },
+      {
+        "name": "グランディオロクア",
+        "content": "味方全体に2回の行動の間協奏を付与。",
+        "view": 8000
+      },
+      {
+        "name": "シークト・カントゥス+",
+        "content": "敵単体に60%ダメージ。Viewを3000獲得。",
+        "view": 0
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 4,
+        "level": 1,
+        "hp": 328,
+        "attack": 116,
+        "speed": 104,
+        "view": 1485
+      },
+      {
+        "rarity": 4,
+        "level": 30,
+        "hp": 1640,
+        "attack": 584,
+        "speed": 104,
+        "view": 1633
+      },
+      {
+        "rarity": 4,
+        "level": 40,
+        "hp": 2459,
+        "attack": 876,
+        "speed": 104,
+        "view": 1706
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2459,
+        "attack": 876,
+        "speed": 104,
+        "view": 1991
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3552,
+        "attack": 1266,
+        "speed": 104,
+        "view": 2165
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 3552,
+        "attack": 1266,
+        "speed": 104,
+        "view": 2475
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 4920,
+        "attack": 1754,
+        "speed": 104,
+        "view": 2771
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "感応の旋律",
+        "content": "味方単体に1回の行動の間View消費量-1000を付与。",
+        "view": 0
+      },
+      {
+        "name": "感応の旋律+",
+        "content": "味方単体に1回の行動の間View消費量-1250を付与。",
+        "view": 0
+      },
+      {
+        "name": "感応の旋律++",
+        "content": "味方単体に1回の行動の間View消費量-1500を付与。",
+        "view": 0
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "聴衆の喝采Ⅰ",
+        "content": "View獲得スキルで獲得するViewが5%上昇。"
+      },
+      {
+        "name": "聴衆の喝采Ⅱ",
+        "content": "View獲得スキルで獲得するViewが6%上昇。"
+      },
+      {
+        "name": "聴衆の喝采Ⅲ",
+        "content": "View獲得スキルで獲得するViewが7%上昇。"
+      },
+      {
+        "name": "聴衆の喝采Ⅳ",
+        "content": "View獲得スキルで獲得するViewが8%上昇。"
+      },
+      {
+        "name": "聴衆の喝采Ⅴ",
+        "content": "View獲得スキルで獲得するViewが9%上昇。"
+      },
+      {
+        "name": "聴衆の喝采Ⅵ",
+        "content": "View獲得スキルで獲得するViewが10%上昇。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 40,
+        "attack": 18,
+        "speed": 4,
+        "view": 85
+      },
+      {
+        "level": 50,
+        "hp": 160,
+        "attack": 72,
+        "speed": 4,
+        "view": 212
+      },
+      {
+        "level": 60,
+        "hp": 200,
+        "attack": 90,
+        "speed": 4,
+        "view": 255
+      },
+      {
+        "level": 70,
+        "hp": 240,
+        "attack": 108,
+        "speed": 4,
+        "view": 297
+      },
+      {
+        "level": 80,
+        "hp": 280,
+        "attack": 126,
+        "speed": 4,
+        "view": 340
+      },
+      {
+        "level": 90,
+        "hp": 340,
+        "attack": 153,
+        "speed": 4,
+        "view": 382
+      },
+      {
+        "level": 100,
+        "hp": 400,
+        "attack": 180,
+        "speed": 4,
+        "view": 425
+      }
+    ],
+    "heroPlus": 0,
+    "passive": []
+  },
+  {
+    "nameEn": "Yasuhiko",
+    "nameJa": "ヤスヒコ",
+    "rankFirst": 4,
+    "designer": "うさ餅大福",
+    "CV": "後藤ヒロキ",
+    "attribute": "光",
+    "role": "View獲得",
+    "heroSkills": [
+      {
+        "name": "ポトルサルシャ・ポルカ",
+        "content": "敵単体に60%ダメージ。Viewを1000獲得。",
+        "view": 0
+      },
+      {
+        "name": "ジリンニ・リョフ",
+        "content": "敵単体に3回分のDEFダウンを付与。",
+        "view": 5000
+      },
+      {
+        "name": "リュビムィエ・クローウン",
+        "content": "敵全体のバフを１つ解除。Viewを9000獲得。",
+        "view": 11000
+      },
+      {
+        "name": "ポトルサルシャ・ポルカ+",
+        "content": "敵単体に60%ダメージ。Viewを3000獲得。",
+        "view": 0
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 4,
+        "level": 1,
+        "hp": 336,
+        "attack": 79,
+        "speed": 105,
+        "view": 1734
+      },
+      {
+        "rarity": 4,
+        "level": 30,
+        "hp": 1684,
+        "attack": 398,
+        "speed": 105,
+        "view": 1907
+      },
+      {
+        "rarity": 4,
+        "level": 40,
+        "hp": 2526,
+        "attack": 598,
+        "speed": 105,
+        "view": 1993
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2526,
+        "attack": 598,
+        "speed": 110,
+        "view": 1993
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3650,
+        "attack": 863,
+        "speed": 110,
+        "view": 2167
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4384,
+        "attack": 863,
+        "speed": 110,
+        "view": 2167
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 6071,
+        "attack": 1196,
+        "speed": 110,
+        "view": 2426
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "エンターテイナー",
+        "content": "Viewを7000獲得。",
+        "view": 3000
+      },
+      {
+        "name": "エンターテイナー+",
+        "content": "Viewを7500獲得。",
+        "view": 3000
+      },
+      {
+        "name": "エンターテイナー++",
+        "content": "Viewを8000獲得。",
+        "view": 3000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "サーカス団長の手腕Ⅰ",
+        "content": "攻撃以外のスキル発動後、自身のViewの20%を獲得。オート行動時、自身が行う味方を対象にするスキルはHPが最も低い味方を対象にする。"
+      },
+      {
+        "name": "サーカス団長の手腕Ⅱ",
+        "content": "攻撃以外のスキル発動後、自身のViewの24%を獲得。オート行動時、自身が行う味方を対象にするスキルはHPが最も低い味方を対象にする。"
+      },
+      {
+        "name": "サーカス団長の手腕Ⅲ",
+        "content": "攻撃以外のスキル発動後、自身のViewの28%を獲得。オート行動時、自身が行う味方を対象にするスキルはHPが最も低い味方を対象にする。"
+      },
+      {
+        "name": "サーカス団長の手腕Ⅳ",
+        "content": "攻撃以外のスキル発動後、自身のViewの32%を獲得。オート行動時、自身が行う味方を対象にするスキルはHPが最も低い味方を対象にする。"
+      },
+      {
+        "name": "サーカス団長の手腕Ⅴ",
+        "content": "攻撃以外のスキル発動後、自身のViewの36%を獲得。オート行動時、自身が行う味方を対象にするスキルはHPが最も低い味方を対象にする。"
+      },
+      {
+        "name": "サーカス団長の手腕Ⅵ",
+        "content": "攻撃以外のスキル発動後、自身のViewの40%を獲得。オート行動時、自身が行う味方を対象にするスキルはHPが最も低い味方を対象にする。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 26,
+        "speed": 3,
+        "view": 100
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 104,
+        "speed": 3,
+        "view": 250
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 130,
+        "speed": 3,
+        "view": 300
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 156,
+        "speed": 3,
+        "view": 350
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 182,
+        "speed": 3,
+        "view": 400
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 221,
+        "speed": 3,
+        "view": 450
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 260,
+        "speed": 3,
+        "view": 500
+      }
+    ],
+    "heroPlus": 0,
+    "passive": [
+      {
+        "name": "サーカス団長の手腕",
+        "content": "オート行動時、味方を対象にするスキルは味方の中で一番HPが低いキャラクターを対象にする。",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "Lilac",
+    "nameJa": "ライラック",
+    "rankFirst": 5,
+    "designer": "タルトル",
+    "CV": "後藤ヒロキ",
+    "attribute": "木",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "ウンシュターブリッヒ",
+        "content": "敵単体に45%ダメージ。40%の確率で1ターンの間毒を付与。コンボ数が5以上の場合、この攻撃は全体攻撃になる。",
+        "view": 0
+      },
+      {
+        "name": "フェーネ・エイネルング",
+        "content": "敵単体に100%ダメージ。1回分のDEFダウンを付与。コンボ数+1。【常時発動】生存時、コンボ数に応じて味方全体のAtkを上昇。コンボ数が増加するスキルが発動した時、更にコンボ数を+1する。効果は重複しない。",
+        "view": 5000
+      },
+      {
+        "name": "ニーマルス・フェアゲセン",
+        "content": "敵全体に80%ダメージ+コンボ数に応じてダメージ量が上昇。",
+        "view": 13000
+      },
+      {
+        "name": "フェーネ・エイネルング+",
+        "content": "敵単体に100%ダメージ。1回分のDEFダウンを付与。コンボ数+1。【常時発動】生存時、コンボ数に応じて味方全体のAtkを上昇。コンボ数が増加するスキルが発動した時、更にコンボ数を+1する。効果は重複しない。",
+        "view": 4000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 408,
+        "attack": 182,
+        "speed": 106,
+        "view": 1003
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 2043,
+        "attack": 912,
+        "speed": 106,
+        "view": 1104
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 3065,
+        "attack": 1368,
+        "speed": 106,
+        "view": 1153
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 4428,
+        "attack": 1976,
+        "speed": 106,
+        "view": 1254
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4428,
+        "attack": 1976,
+        "speed": 111,
+        "view": 1254
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 6131,
+        "attack": 2737,
+        "speed": 111,
+        "view": 1404
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "アロマセラピー",
+        "content": "味方単体のHPを基礎ATKの50%回復する。コンボ数+1。",
+        "view": 2000
+      },
+      {
+        "name": "アロマセラピー+",
+        "content": "味方単体のHPを基礎ATKの60%回復する。コンボ数+1。",
+        "view": 2000
+      },
+      {
+        "name": "アロマセラピー++",
+        "content": "味方単体のHPを基礎ATKの70%回復する。コンボ数+1。",
+        "view": 2000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "フラワーアレンジⅠ",
+        "content": "自身が未行動の時、被ダメージ-7.5%。"
+      },
+      {
+        "name": "フラワーアレンジⅡ",
+        "content": "自身が未行動の時、被ダメージ-9%。"
+      },
+      {
+        "name": "フラワーアレンジⅢ",
+        "content": "自身が未行動の時、被ダメージ-10.5%。"
+      },
+      {
+        "name": "フラワーアレンジⅣ",
+        "content": "自身が未行動の時、被ダメージ-12%。"
+      },
+      {
+        "name": "フラワーアレンジⅤ",
+        "content": "自身が未行動の時、被ダメージ-13.5%。"
+      },
+      {
+        "name": "フラワーアレンジⅥ",
+        "content": "自身が未行動の時、被ダメージ-15%。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 70,
+        "attack": 34,
+        "speed": 3,
+        "view": 40
+      },
+      {
+        "level": 50,
+        "hp": 280,
+        "attack": 136,
+        "speed": 3,
+        "view": 100
+      },
+      {
+        "level": 60,
+        "hp": 350,
+        "attack": 170,
+        "speed": 3,
+        "view": 120
+      },
+      {
+        "level": 70,
+        "hp": 420,
+        "attack": 204,
+        "speed": 3,
+        "view": 140
+      },
+      {
+        "level": 80,
+        "hp": 490,
+        "attack": 238,
+        "speed": 3,
+        "view": 160
+      },
+      {
+        "level": 90,
+        "hp": 595,
+        "attack": 289,
+        "speed": 3,
+        "view": 180
+      },
+      {
+        "level": 100,
+        "hp": 700,
+        "attack": 340,
+        "speed": 3,
+        "view": 200
+      }
+    ],
+    "heroPlus": 1,
+    "passive": [
+      {
+        "name": "",
+        "content": "コンボ数に応じてダメージが上昇（最大10コンボ+20%）",
+        "view": 0
+      },
+      {
+        "name": "",
+        "content": "コンボ数増加スキル発動時、更に+1する。",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "Santetsu",
+    "nameJa": "サンテツ",
+    "rankFirst": 5,
+    "designer": "うすくちぽてち",
+    "CV": "有元勇輝",
+    "attribute": "木",
+    "role": "Spd操作",
+    "heroSkills": [
+      {
+        "name": "エルレテキント",
+        "content": "敵単体に1回の行動の間SPDダウンを付与。このターン、このスキルを使用していない場合、もう一度行動する。再行動が発動した場合、行動終了時、Viewを獲得できない。",
+        "view": 0
+      },
+      {
+        "name": "ブルチェシーグ",
+        "content": "味方単体に2回の行動の間SPDアップを付与。コンボ数+1。【常時発動】生存時、味方は敵とのSpd差に応じて「クリティカル」が発動。SPDアップが付与されている場合、発動率が2倍になる。効果は重複しない。",
+        "view": 4000
+      },
+      {
+        "name": "オルヴァソ・モズガソク",
+        "content": "敵単体に150%ダメージ。2回の行動の間超SPDダウンを付与。2回分のDEFダウンを付与。",
+        "view": 12000
+      },
+      {
+        "name": "オルヴァソ・モズガソク+",
+        "content": "敵単体に150%ダメージ。2回の行動の間超SPDダウンを付与。2回分のDEFダウンを付与。",
+        "view": 10000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 404,
+        "attack": 149,
+        "speed": 112,
+        "view": 992
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 2023,
+        "attack": 748,
+        "speed": 112,
+        "view": 1092
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 3035,
+        "attack": 1122,
+        "speed": 112,
+        "view": 1140
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 4384,
+        "attack": 1620,
+        "speed": 112,
+        "view": 1241
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4384,
+        "attack": 1620,
+        "speed": 112,
+        "view": 1551
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 6071,
+        "attack": 2244,
+        "speed": 112,
+        "view": 1736
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "本の虫の知らせ",
+        "content": "敵単体に100%ダメージ。対象がこのターン未行動の場合、バフを１つ解除。",
+        "view": 3000
+      },
+      {
+        "name": "本の虫の知らせ+",
+        "content": "敵単体に100%ダメージ。対象がこのターン未行動の場合、バフを１つ解除。",
+        "view": 2500
+      },
+      {
+        "name": "本の虫の知らせ++",
+        "content": "敵単体に100%ダメージ。対象がこのターン未行動の場合、バフを１つ解除。",
+        "view": 2000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "スロースターターⅠ",
+        "content": "登場時、50%の確率で自身に1回の行動の間SPDダウンを付与。"
+      },
+      {
+        "name": "スロースターターⅡ",
+        "content": "登場時、60%の確率で自身に1回の行動の間SPDダウンを付与。"
+      },
+      {
+        "name": "スロースターターⅢ",
+        "content": "登場時、70%の確率で自身に1回の行動の間SPDダウンを付与。"
+      },
+      {
+        "name": "スロースターターⅣ",
+        "content": "登場時、80%の確率で自身に1回の行動の間SPDダウンを付与。"
+      },
+      {
+        "name": "スロースターターⅤ",
+        "content": "登場時、90%の確率で自身に1回の行動の間SPDダウンを付与。"
+      },
+      {
+        "name": "スロースターターⅥ",
+        "content": "登場時、自身に1回の行動の間SPDダウンを付与。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 26,
+        "speed": 4,
+        "view": 55
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 104,
+        "speed": 4,
+        "view": 137
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 130,
+        "speed": 4,
+        "view": 165
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 156,
+        "speed": 4,
+        "view": 192
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 182,
+        "speed": 4,
+        "view": 220
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 221,
+        "speed": 4,
+        "view": 247
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 260,
+        "speed": 4,
+        "view": 275
+      }
+    ],
+    "heroPlus": 2,
+    "passive": []
+  },
+  {
+    "nameEn": "Roiker",
+    "nameJa": "ロイカー",
+    "rankFirst": 4,
+    "designer": "樹下次郎",
+    "CV": "野上翔",
+    "attribute": "光",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "アステロイド・ショット",
+        "content": "敵単体に60%ダメージ。60%の確率でバフを１つ解除。",
+        "view": 0
+      },
+      {
+        "name": "ミクロ・カイパーベルト",
+        "content": "敵単体に120%ダメージ。攻撃対象にバフが付与されている場合、ダメージ増加。【常時発動】敵の隠蔽を無視。",
+        "view": 4000
+      },
+      {
+        "name": "スパイラル・ネビュラ",
+        "content": "敵単体に100%ダメージ。チームで一番HPが減っているヒーローのHPを敵に与えたダメージの50％回復。",
+        "view": 7000
+      },
+      {
+        "name": "アステロイド・ショット+",
+        "content": "敵単体に60%ダメージ。バフを１つ解除。",
+        "view": 0
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 4,
+        "level": 1,
+        "hp": 336,
+        "attack": 142,
+        "speed": 107,
+        "view": 1237
+      },
+      {
+        "rarity": 4,
+        "level": 30,
+        "hp": 1684,
+        "attack": 713,
+        "speed": 107,
+        "view": 1361
+      },
+      {
+        "rarity": 4,
+        "level": 40,
+        "hp": 2526,
+        "attack": 1070,
+        "speed": 107,
+        "view": 1422
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2526,
+        "attack": 1320,
+        "speed": 107,
+        "view": 1422
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3650,
+        "attack": 1906,
+        "speed": 107,
+        "view": 1546
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 3650,
+        "attack": 1906,
+        "speed": 107,
+        "view": 1856
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5054,
+        "attack": 2640,
+        "speed": 107,
+        "view": 2078
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "星空の狙撃手",
+        "content": "敵単体に2回、50%ダメージ。1HIT毎に20%の確率で1回の行動の間ATKダウンを付与。",
+        "view": 4000
+      },
+      {
+        "name": "星空の狙撃手+",
+        "content": "敵単体に2回、50%ダメージ。1HIT毎に20%の確率で1回の行動の間ATKダウンを付与。",
+        "view": 3500
+      },
+      {
+        "name": "星空の狙撃手++",
+        "content": "敵単体に2回、50%ダメージ。1HIT毎に20%の確率で1回の行動の間のATKダウンを付与。",
+        "view": 3000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "戦場観測Ⅰ",
+        "content": "ATK+5%。自身に付与されているバフ1つにつき、さらにATK+2.5%。（最大でバフ4つまで）"
+      },
+      {
+        "name": "戦場観測Ⅱ",
+        "content": "ATK+5%。自身に付与されているバフ1つにつき、さらにATK+3%。（最大でバフ4つまで）"
+      },
+      {
+        "name": "戦場観測Ⅲ",
+        "content": "ATK+5%。自身に付与されているバフ1つにつき、さらにATK+3.5%。（最大でバフ4つまで）"
+      },
+      {
+        "name": "戦場観測Ⅳ",
+        "content": "ATK+5%。自身に付与されているバフ1つにつき、さらにATK+4%。（最大でバフ4つまで）"
+      },
+      {
+        "name": "戦場観測Ⅴ",
+        "content": "ATK+5%。自身に付与されているバフ1つにつき、さらにATK+4.5%。（最大でバフ4つまで）"
+      },
+      {
+        "name": "戦場観測Ⅵ",
+        "content": "ATK+5%。自身に付与されているバフ1つにつき、さらにATK+5%。（最大でバフ4つまで）"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 42,
+        "speed": 3,
+        "view": 70
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 168,
+        "speed": 3,
+        "view": 175
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 210,
+        "speed": 3,
+        "view": 210
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 252,
+        "speed": 3,
+        "view": 245
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 294,
+        "speed": 3,
+        "view": 280
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 357,
+        "speed": 3,
+        "view": 315
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 420,
+        "speed": 3,
+        "view": 350
+      }
+    ],
+    "heroPlus": 0,
+    "passive": []
+  },
+  {
+    "nameEn": "Seiichiro",
+    "nameJa": "セイイチロウ",
+    "rankFirst": 4,
+    "designer": "やきそばおおもり",
+    "CV": "小山力也",
+    "attribute": "",
+    "role": "",
+    "heroSkills": [],
+    "heroValues": [],
+    "sideSkills": [
+      {
+        "name": "俊傑の指揮",
+        "content": "味方単体に2回の行動の間ATKアップを付与。1回の行動の間View消費量-2000を付与。",
+        "view": 6000
+      },
+      {
+        "name": "俊傑の指揮+",
+        "content": "味方単体に2回の行動の間ATKアップを付与。1回の行動の間View消費量-2500を付与。",
+        "view": 6000
+      },
+      {
+        "name": "俊傑の指揮++",
+        "content": "味方単体に2回の行動の間ATKアップを付与。1回の行動の間View消費量-3000を付与。",
+        "view": 6000
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "エリートの牽引Ⅰ",
+        "content": "自身の攻撃で敵を戦闘不能にした時、25%の確率で1回の行動の間ATKアップを付与。オート行動時、敵を対象にするスキルは敵の中で一番HPが低いキャラクターを対象にする。"
+      },
+      {
+        "name": "エリートの牽引Ⅱ",
+        "content": "自身の攻撃で敵を戦闘不能にした時、30%の確率で1回の行動の間ATKアップを付与。オート行動時、敵を対象にするスキルは敵の中で一番HPが低いキャラクターを対象にする。"
+      },
+      {
+        "name": "エリートの牽引Ⅲ",
+        "content": "自身の攻撃で敵を戦闘不能にした時、35%の確率で1回の行動の間ATKアップを付与。オート行動時、敵を対象にするスキルは敵の中で一番HPが低いキャラクターを対象にする。"
+      },
+      {
+        "name": "エリートの牽引Ⅳ",
+        "content": "自身の攻撃で敵を戦闘不能にした時、40%の確率で1回の行動の間ATKアップを付与。オート行動時、敵を対象にするスキルは敵の中で一番HPが低いキャラクターを対象にする。"
+      },
+      {
+        "name": "エリートの牽引Ⅴ",
+        "content": "自身の攻撃で敵を戦闘不能にした時、45%の確率で1回の行動の間ATKアップを付与。オート行動時、敵を対象にするスキルは敵の中で一番HPが低いキャラクターを対象にする。"
+      },
+      {
+        "name": "エリートの牽引Ⅵ",
+        "content": "自身の攻撃で敵を戦闘不能にした時、50%の確率で1回の行動の間ATKアップを付与。オート行動時、敵を対象にするスキルは敵の中で一番HPが低いキャラクターを対象にする。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 34,
+        "speed": 5,
+        "view": 55
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 136,
+        "speed": 5,
+        "view": 137
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 170,
+        "speed": 5,
+        "view": 165
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 204,
+        "speed": 5,
+        "view": 192
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 238,
+        "speed": 5,
+        "view": 220
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 289,
+        "speed": 5,
+        "view": 247
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 340,
+        "speed": 5,
+        "view": 275
+      }
+    ],
+    "heroPlus": -1,
+    "passive": [
+      {
+        "name": "エリートの牽引",
+        "content": "オート行動時、敵を対象にするスキルは敵の中で一番HPが低いキャラクターを対象にする。",
+        "view": 0
+      }
+    ]
+  },
+  {
+    "nameEn": "Gaius",
+    "nameJa": "ガイウス",
+    "rankFirst": 5,
+    "designer": "一十",
+    "CV": "福西勝也",
+    "attribute": "水",
+    "role": "攻撃",
+    "heroSkills": [
+      {
+        "name": "サギッタ・アクア",
+        "content": "敵単体に80%ダメージ。",
+        "view": 0
+      },
+      {
+        "name": "フルクトゥス・カエルレウム",
+        "content": "敵単体に120%ダメージ。自身にデバフが付与されている場合、自身のデバフを1つ解除＋自身を除く味方全体のデバフを50%の確率で1つ解除。",
+        "view": 5000
+      },
+      {
+        "name": "ラクス・セルペンス・イーラ",
+        "content": "敵全体に120％ダメージ。自身にデバフが付与されている場合、敵に与えるダメージが半減。自身に2回の行動の間SPDダウンを付与。",
+        "view": 9000
+      },
+      {
+        "name": "フルクトゥス・カエルレウム+",
+        "content": "敵単体に120%ダメージ。自身にデバフが付与されている場合、自身のデバフを1つ解除＋自身を除く味方全体のデバフを50%の確率で1つ解除。",
+        "view": 4000
+      }
+    ],
+    "heroValues": [
+      {
+        "rarity": 5,
+        "level": 1,
+        "hp": 325,
+        "attack": 181,
+        "speed": 112,
+        "view": 1044
+      },
+      {
+        "rarity": 5,
+        "level": 30,
+        "hp": 1628,
+        "attack": 906,
+        "speed": 112,
+        "view": 1149
+      },
+      {
+        "rarity": 5,
+        "level": 40,
+        "hp": 2442,
+        "attack": 1359,
+        "speed": 112,
+        "view": 1200
+      },
+      {
+        "rarity": 5,
+        "level": 50,
+        "hp": 3527,
+        "attack": 1962,
+        "speed": 112,
+        "view": 1306
+      },
+      {
+        "rarity": 6,
+        "level": 50,
+        "hp": 4237,
+        "attack": 1962,
+        "speed": 112,
+        "view": 1306
+      },
+      {
+        "rarity": 6,
+        "level": 60,
+        "hp": 5867,
+        "attack": 2718,
+        "speed": 112,
+        "view": 1461
+      }
+    ],
+    "sideSkills": [
+      {
+        "name": "回紋解放",
+        "content": "味方単体に1ターンの間弱体抵抗+50を付与。",
+        "view": 2000
+      },
+      {
+        "name": "回紋解放+",
+        "content": "味方単体に1ターンの間弱体抵抗+50を付与。",
+        "view": 1500
+      },
+      {
+        "name": "回紋解放++",
+        "content": "味方単体に1ターンの間弱体抵抗+100を付与。",
+        "view": 1500
+      }
+    ],
+    "sideEquips": [
+      {
+        "name": "ダイバーの教えⅠ",
+        "content": "ダメージを与えないスキルを使用した後、30%の確率で自身のデバフを１つ解除。"
+      },
+      {
+        "name": "ダイバーの教えⅡ",
+        "content": "ダメージを与えないスキルを使用した後、36%の確率で自身のデバフを１つ解除。"
+      },
+      {
+        "name": "ダイバーの教えⅢ",
+        "content": "ダメージを与えないスキルを使用した後、42%の確率で自身のデバフを１つ解除。"
+      },
+      {
+        "name": "ダイバーの教えⅣ",
+        "content": "ダメージを与えないスキルを使用した後、48%の確率で自身のデバフを１つ解除。"
+      },
+      {
+        "name": "ダイバーの教えⅤ",
+        "content": "ダメージを与えないスキルを使用した後、54%の確率で自身のデバフを１つ解除。"
+      },
+      {
+        "name": "ダイバーの教えⅥ",
+        "content": "ダメージを与えないスキルを使用した後、60%の確率で自身のデバフを１つ解除。"
+      }
+    ],
+    "sideValues": [
+      {
+        "level": 1,
+        "hp": 55,
+        "attack": 34,
+        "speed": 3,
+        "view": 55
+      },
+      {
+        "level": 50,
+        "hp": 220,
+        "attack": 136,
+        "speed": 3,
+        "view": 137
+      },
+      {
+        "level": 60,
+        "hp": 275,
+        "attack": 170,
+        "speed": 3,
+        "view": 165
+      },
+      {
+        "level": 70,
+        "hp": 330,
+        "attack": 204,
+        "speed": 3,
+        "view": 192
+      },
+      {
+        "level": 80,
+        "hp": 385,
+        "attack": 238,
+        "speed": 3,
+        "view": 220
+      },
+      {
+        "level": 90,
+        "hp": 467,
+        "attack": 289,
+        "speed": 3,
+        "view": 247
+      },
+      {
+        "level": 100,
+        "hp": 550,
+        "attack": 340,
+        "speed": 3,
+        "view": 275
+      }
+    ],
+    "heroPlus": 1,
+    "passive": []
   },
   {
     "nameEn": "Player",
@@ -10009,6 +13384,7 @@
         "view": 425
       }
     ],
-    "heroPlus": -1
+    "heroPlus": -1,
+    "passive": []
   }
 ]

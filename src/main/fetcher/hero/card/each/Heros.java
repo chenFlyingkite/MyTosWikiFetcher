@@ -4,9 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum Heros {
+    // All hero of web data
     Akashi("アカシ", "akashi", "赤司"),
     Akashi2("水弾のアカシ", "akashi", "赤司"),
     Mokdai("モクダイ", "mokdai", "木代"),
+    Mokdai2("聖夜のモクダイ", "mokdai", "木代"),
     Sui("スイ", "sui", "翠(LIVE_A_HERO)"),
     Ryekie("ライキ", "ryekie", "雷奇"),
     Ryekie2("酔虎のライキ", "ryekie", "雷奇"),
@@ -15,11 +17,13 @@ public enum Heros {
     Barrel("バレル", "barrel", "巴雷尔(LIVE_A_HERO)"),
     Barrel2("清涼のバレル", "barrel", "巴雷尔(LIVE_A_HERO)"),
     Furlong("ハロン", "furlong", "弗隆"),
+    Furlong2("跳躍のハロン", "furlong", "弗隆"), //--
     Victom("ヴィクトム", "victom", "維克托姆"),
     Victom2("豪爽のヴィクトム", "victom", "維克托姆"),
     Kyoichi("キョウイチ", "kyoichi", "恭一(LIVE_A_HERO)"),
     Kyoichi2("潜行のキョウイチ", "kyoichi", "恭一(LIVE_A_HERO)"),
     Flamier("フラミー", "flamier", "芙拉米"),
+    Flamier2("花踊のフラミー", "flamier", "芙拉米"),
     Shoen("ショウエン", "shoen", "松煙"),
     Shoen2("隠密のショウエン", "shoen", "松煙"),
     Toshu("トウシュウ", "toshu", "東秀"),
@@ -30,35 +34,59 @@ public enum Heros {
     Kuoki("コウキ", "kouki_and_sirius", "柯奇"),
     Hitomi("ヒトミ", "hitomi", "瞳(LIVE_A_HERO)"),
     Hitomi2("波音のヒトミ", "hitomi", "瞳(LIVE_A_HERO)"),
-    Rakkta("ラクタ", "rakta", "拉克塔"),
+    Rakta("ラクタ", "rakta", "拉克塔"),
     Loren("ロレン", "loren", "洛倫"),
     Isaribi("イサリビ", "isaribi", "渔火(LIVE_A_HERO)"),
     Goro("ゴロウ", "goro", "吾郎(LIVE_A_HERO)"),
+    Goro2("奏楽のゴロウ", "goro", "吾郎(LIVE_A_HERO)"),
     Digram("ディグラム", "digram", "迪克拉姆"),
     Andrew("アンドリュー", "andrew", "安德魯"),
+    Andrew2("激流のアンドリュー", "andrew", "安德魯"),
     Alchiba("アルキバ", "alchiba", "亞爾基波"),
     Alchiba2("追跡のアルキバ", "alchiba", "亞爾基波"),
     Subaru("スバル", "subaru", "昴(LIVE_A_HERO)"),
     Kirsch("キルシュ", "kirsch", "琪爾修"),
     Narihito("ナリヒト", "narihito", "成仁"),
+    Narihito2("彗星のナリヒト", "narihito", "成仁"),
     Suhail("スハイル", "suhail", "斯海爾"),
     Monomasa("モノマサ", "monomasa", "物正"),
     Procy("プロキー", "procy", "普羅基"),
     Gomeisa("ゴメイサ", "gomeisa", "葛明薩"),
-    Huckle("ハックル", "huckle", "哈克魯"), // sidekick only
+    Huckle("ハックル", "huckle", "哈克魯"),
+    Exio("エクシオ", "exio", "埃克西奥"), // sidekick only
     WolfmanWood("木のウルフマン", "wood_wolfman", ""),
-    WolfmanDark("影のウルフマン", "shadow_wolfman", ""),
+    WolfmanShadow("影のウルフマン", "shadow_wolfman", ""),
     Nessen("ネッセン", "nessen", "熱泉"),
     Hisaki("ヒサキ", "hisaki", "久希"),
+    Hisaki2("潜遊のヒサキ", "hisaki", "久希"),
     Maculata("マクラータ", "maculata", "瑪格菈塔"),
     Rutilix("ルティリクス", "rutilix", "路提利克斯"),
     Alphecca("アルフェッカ", "alphecca", "阿爾菲卡"),
     Shaft("シャフト", "shaft", "沙夫特"),
     Kalaski("カラスキ", "kalaski", "卡拉斯奇"),
+    Vulpecula("ウルペクラ", "vulpecula", "乌尔佩库拉"),//-
+    MercenaryFire("火のマーセナリー", "", ""),
+    MercenaryWater("水のマーセナリー", "", ""),
+    MercenaryWood("木のマーセナリー", "", ""),
+    MercenaryLight("光のマーセナリー", "", ""),
+    MercenaryShadow("影のマーセナリー", "", ""),
     Melide("メリデ", "melide", "梅莉德"), // sidekick only
     Yoshiori("ヨシオリ", "yoshiori", "吉織"),
     Pubraseer("パブラシア", "pubraseer", "帕普拉西亞"),
     Okitaka("オキタカ", "okitaka", "冲贵"),
+    TraineeFire("火のトレイニー", "", ""),
+    TraineeWater("水のトレイニー", "", ""),
+    TraineeWood("木のトレイニー", "", ""),
+    TraineeLight("光のトレイニー", "", ""),
+    TraineeShadow("影のトレイニー", "", ""),
+    Sadayoshi("サダヨシ", "sadayoshi", "贞义"),
+    Borealis("ボレアリス", "borealis", "北光"),
+    Yasuhiko("ヤスヒコ", "yasuhiko", "康彦"),
+    Lilac("ライラック", "lilac", "紫丁"),
+    Santetsu("サンテツ", "santetsu", "三哲"),
+    Roiker("ロイカー", "roiker", "罗伊克"),
+    Seiichiro("セイイチロウ", "seiichiro", "政一郎"), // sidekick only
+    Gaius("ガイウス", "gaius", "盖尤斯"),
     Player("主人公", "player", "主人公(LIVE_A_HERO)"), // sidekick only
     ;
 
@@ -94,10 +122,6 @@ public enum Heros {
         return hero2Map.get(this);
     }
 
-    public static Heros getByJA(String ja) {
-        return mapJa.get(ja);
-    }
-
     private static final Map<String, Heros> mapJa = new HashMap<>();
     private static final Map<Heros, Heros> hero2Map = new HashMap<>();
 
@@ -108,14 +132,21 @@ public enum Heros {
         }
         // Hero 2
         hero2Map.put(Akashi, Akashi2);
+        hero2Map.put(Mokdai, Mokdai2);
         hero2Map.put(Ryekie, Ryekie2);
         hero2Map.put(Barrel, Barrel2);
+        hero2Map.put(Furlong, Furlong2);
         hero2Map.put(Victom, Victom2);
         hero2Map.put(Kyoichi, Kyoichi2);
+        hero2Map.put(Flamier, Flamier2);
         hero2Map.put(Shoen, Shoen2);
         hero2Map.put(Marfik, Marfik2);
         hero2Map.put(Hitomi, Hitomi2);
+        hero2Map.put(Goro, Goro2);
+        hero2Map.put(Andrew, Andrew2);
         hero2Map.put(Alchiba, Alchiba2);
+        hero2Map.put(Narihito, Narihito2);
+        hero2Map.put(Hisaki, Hisaki2);
     }
 
 }

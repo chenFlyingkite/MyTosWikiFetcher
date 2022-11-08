@@ -1,7 +1,6 @@
 package flyingkite.algorithm.sequence.intervals;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -67,7 +66,7 @@ public class IntervalAlgebra {
             int[] ai = a[i];
             // Merge ai, bj as ab
             int[] ab = ai;
-            // Loop from end sinve we will remove
+            // Loop from end since we will remove
             for (int j = m-1; j >= 0; j--) {
                 int[] bj = all.get(j);
                 boolean over = overlaps(ab, bj);

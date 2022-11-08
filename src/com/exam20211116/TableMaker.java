@@ -1,12 +1,13 @@
 package com.exam20211116;
 
 import flyingkite.log.L;
+import flyingkite.tool.StringUtil;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-// Given an array of string, s, and and width w,
+// Given an array of string, s, and width w,
 // return the maximum column that can fit in the column table
 // vertical line of '|' '-' is not taken into the table width
 // s = ["cat", "dog", "elephant", "bow", "zoo", "rainbows"]
@@ -114,19 +115,13 @@ public class TableMaker {
 
     // return Regex of "(s){n}"
     private String repeat(String s, int n) {
-        StringBuilder sb = new StringBuilder();
-        StringBuilder p = new StringBuilder(s);
-        int x = n;
-        while (x > 0) {
-            if (x % 2 == 1) {
-                sb.append(p);
-            }
-            p.append(p);
-            x /= 2;
-        }
-        return sb.toString();
+        return StringUtil.repeat(s, n);
     }
 
+    /**
+     * Time complexity = O(N^2), space = O(N)
+     * N = fields.length()
+     */
     public int getMaximumFitColumn(List<String> fields, int width) {
         if (fields == null) return 0;
 
@@ -156,6 +151,9 @@ public class TableMaker {
         return 0;
     }
 
+    // getFitWidth for strings lengths are in <len>, and with column number is <col>
+    // [1 2 3 4 5] in 3 => [max(1, 4), max(2, 5), max(3)]
+    // Time complexity = O(len.length), space = O(1)
     private int[] getFitWidth(int[] len, int col) {
         int n = len.length;
         int[] max = new int[n];

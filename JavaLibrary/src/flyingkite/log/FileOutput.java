@@ -1,5 +1,6 @@
 package flyingkite.log;
 
+import flyingkite.files.FileUtil;
 import flyingkite.tool.IOUtil;
 
 import java.io.File;
@@ -9,15 +10,14 @@ import java.io.PrintWriter;
 
 public class FileOutput implements Loggable {
     private PrintWriter pw;
-    private FileOutputStream fos;
     private File file;
 
     public FileOutput(String name) {
         this(new File(name));
     }
 
-    public FileOutput(File file1) {
-        file = file1;
+    public FileOutput(File f) {
+        file = f;
         validate();
     }
 
@@ -26,9 +26,7 @@ public class FileOutput implements Loggable {
     }
 
     private void validate() {
-        if (file.exists() && file.isDirectory()) {
-            file.delete();
-        }
+        FileUtil.deleteIfDirectory(file);
     }
 
     public FileOutput open() {
@@ -37,21 +35,12 @@ public class FileOutput implements Loggable {
 
     public FileOutput open(boolean append) {
         try {
-            if (!file.exists()) {
-                File p = file.getParentFile();
-                if (p != null) {
-                    p.mkdirs();
-                }
-                file.createNewFile();
-            }
+            FileUtil.createFile(file);
             close();
-
-            fos = new FileOutputStream(file, append);
-            pw = new PrintWriter(fos);
+            pw = new PrintWriter(new FileOutputStream(file, append));
         } catch (IOException e) {
             e.printStackTrace();
-            IOUtil.closeIt(fos, pw);
-        } finally { // Should not close it since this is open
+            IOUtil.closeIt(pw);
         }
         return this;
     }
@@ -67,7 +56,7 @@ public class FileOutput implements Loggable {
 
     public FileOutput writeln(String msg) {
         if (pw == null) {
-            L.log("Did not opened :%s", file);
+            L.log("File not opened : %s", file);
         } else {
             pw.append(msg).append("\r\n");
         }
@@ -76,8 +65,7 @@ public class FileOutput implements Loggable {
 
     public FileOutput close() {
         flush();
-        IOUtil.closeIt(fos, pw);
-        fos = null;
+        IOUtil.closeIt(pw);
         pw = null;
         return this;
     }
@@ -88,7 +76,7 @@ public class FileOutput implements Loggable {
     }
 
     public FileOutput flush() {
-        IOUtil.flushIt(fos, pw);
+        IOUtil.flushIt(pw);
         return this;
     }
 

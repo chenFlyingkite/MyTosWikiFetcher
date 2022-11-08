@@ -33,6 +33,7 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
+import main.fetcher.exchange.ForeignExchangeRateFetcher;
 import main.fetcher.thsr.THSRTGoFetcher;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
@@ -56,6 +57,9 @@ public class Main {
         //enterUID();
         //stock();
         //taiwanHighSpeedRail();
+        //TosCardFetcher.me.run();
+        ForeignExchangeRateFetcher.main(null);
+        //Covariance.test();
 
         //LiveAHeroMain.main(null);
         //MyTosWikiFirebase.run();
@@ -78,7 +82,6 @@ public class Main {
         //ASD.run(); // testing on filter cards
         //print();
 
-
         //TosCardInfos.me.run(); // creating evolution info
         //new LeetCode().run();
         //PngCreator.me.moveImage();
@@ -89,61 +92,95 @@ public class Main {
     }
 
     private static void a() {
+        //ExcelParser.main(null);
         //MainTest.main(null);
         //new LeetCode().run();
         //addJpg();
         //getIP();
-        //new BinarySearchVisualizer().run();
         // 199215954 360302
         // 150372202 690139
         // https://gift4u.tosgame.com/tutorial
         // https://jumbodraw.tosgame.com/
 
-        //new NationalIDCard().testCases();
+        //NationalIDCard.me.testCases();
+        //TaxCalculator.me.test();
 
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
+        //FaceMeAuto.organizeCommitLog(new File("D:\\Github\\sample.txt"));
+        //listFiles();
+        //JudgementSearch.run();
+        training();
     }
 
-    private static void getIP() {
-        //https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
-        String[] src = {
-                "https://api.db-ip.com/v2/free/self",
-                "http://ip-api.com/json"
-        };
-
-        WebFetcher w = new WebFetcher();
-        for (int i = 0; i < src.length; i++) {
-            String link = src[i];
-            String s = w.sendRequest(link, null);
-            L.log("#%s :\n%s", i, s);
-        }
+    private static void training() {
+        //new BinarySearchVisualizer().run();
     }
 
-    private static void addJpg() {
-        // add jpg
-        String source = "D:\\新增資料夾 (3)\\A"; // source path, 1-depth
-        String want = ".jpg";
-        // if file is source/a, rename to be source/a{want}
-        // like source/a, rename to be source/a.jpg
-        File f = new File(source);
-        File[] fs = f.listFiles();
-        int n = 0;
-        if (fs != null) {
-            for (int i = 0; i < fs.length; i++) {
-                File z = fs[i];
-                boolean ok = z.getName().endsWith(want);
-                if (ok) {
+    // Used for auto enter the UID giveaway
+    // Usage: Change the more text if you have answers,
+    // and run to web page make cursor stays at it, now it will make things done!
+    private static void enterUID() {
+        // In macOS, after we start, we still need to click on the text field to let it enters
+        try {
+            Robot2 r = new Robot2();
+            r.delay(3_000);
+            // true = ids + more + (ctrl+v), false = ids + more
+            boolean paste = 0 > 0;
+            String more = ""; // " A"
+
+            String[] ids = {
+                    "199215954",
+                    "150372202",
+                    "192291028",
+                    "8397957",
+                    "58402658",
+                    "195014910",
+                    "237475591",
+                    "176874774",
+                    "200172730",
+                    "512617371",
+                    "2170312",
+            };
+            for (String s : ids) {
+                String t = s + more;
+                if (paste) {
+                    r.type(t + " ");
+                    r.paste();
+                    r.keySend(KeyEvent.VK_ENTER);
                 } else {
-                    n++;
-                    File fx = new File(z.getAbsolutePath() + want);
-                    z.renameTo(fx);
-                    L.log("#%d : %s", n, z);
+                    r.enter(t);
                 }
             }
+        } catch (AWTException e) {
+            e.printStackTrace();
         }
-        L.log("%s files renamed", n);
     }
+
+    private static void otherRobot() {
+        // fillCrossDepartmentReview
+        // To click on everyone of no, and click the 1st one on leftmost Yes
+        try {
+            Robot2 r = new Robot2();
+            r.delay(5_000);
+            // 870 = find "Bad<----->Good"
+            // each row has 6 items
+            int times = 870 / 6;
+            for (int j = 0; j < times; j++) {
+                r.keySend(KeyEvent.VK_RIGHT);
+                for (int i = 0; i < 7; i++) {
+                    r.keySend(KeyEvent.VK_TAB);
+                }
+                r.delay(500*0);
+            }
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    // AppleID cl.shaomai@gmail.com / Cl23829868
+    // https://developer.android.com/studio/command-line/adb
 
     private static void enterTemperature() {
         // In macOS, after we start, we still need to click on the text field to let it enters
@@ -155,23 +192,23 @@ public class Main {
             r.delay(5_000);
             r.type("36.1");
             // Forehead temperature, Ear temperature  Others
-            r.keyClick(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_TAB);
             if (type == 1) {
-                r.keyClick(KeyEvent.VK_RIGHT);
+                r.keySend(KeyEvent.VK_RIGHT);
             }
-            r.keyClick(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_SPACE);
             // syndromes
-            r.keyClick(KeyEvent.VK_TAB);
-            r.keyClick(KeyEvent.VK_SPACE);
-            r.keyClick(KeyEvent.VK_TAB);
-            r.keyClick(KeyEvent.VK_SPACE);
-            r.keyClick(KeyEvent.VK_TAB);
-            r.keyClick(KeyEvent.VK_SPACE);
-            r.keyClick(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_TAB);
+            r.keySend(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_TAB);
             if (isClockOut) {
-                r.keyClick(KeyEvent.VK_TAB);
+                r.keySend(KeyEvent.VK_TAB);
             }
-            r.keyClick(KeyEvent.VK_SPACE);
+            r.keySend(KeyEvent.VK_SPACE);
         } catch (AWTException e) {
             e.printStackTrace();
         }
@@ -367,10 +404,9 @@ public class Main {
 
     private static void copyToMyTosWiki() {
         List<CopyInfo> paths = new ArrayList<>();
-        String asset = "..\\MyTosWiki\\app\\src\\main\\assets\\";
-        if ('/' == File.separatorChar) { // macOS or unix
-            asset = "../MyTosWiki/app/src/main/assets/";
-        }
+        // macOS or unix is /, while windows = \\
+        String asset = "../MyTosWiki/app/src/main/assets/";
+
         paths.add(as(         "myCard/",     "cardList.json", asset));
         paths.add(as(         "myCard/",   "evolvePath.json", asset));
         paths.add(as(        "myCraft/",       "crafts.json", asset));
@@ -385,7 +421,7 @@ public class Main {
             String source = i.getSrcName();
             String target = i.getDstName();
             FileUtil.copy(source, target);
-            L.log("copy : %s\n to  -> %s", source, target);
+            L.log("copy : %s\n to -> %s", source, target);
         }
     }
 
@@ -416,125 +452,64 @@ public class Main {
     // https://ephrain.net/ios-%E8%A8%BB%E5%86%8A%E6%88%90%E7%82%BA-apple-developer-%E4%BA%86%EF%BC%81/
     */
 
-    /*
-    UID 199215954 中文版
-    UID 150372202 中文版
-    UID 192291028 中文版
-    UID 8397957   中文版
-    UID 58402658  中文版
-    UID 195014910 中文版
-    UID 237475591 中文版
-    UID 176874774 中文版
-    UID 200172730 中文版
-    */
-    private static void enterUID() {
-        // In macOS, after we start, we still need to click on the text field to let it enters
-        try {
-            Robot2 r = new Robot2();
-            r.delay(3_000);
-            // true = UID & ctrl+v, false = UID
-            boolean paste = 0 > 0;
-            String more = "";
-            String[] ids = {
-                    "199215954",
-                    "150372202",
-                    "192291028",
-                    "8397957",
-                    "58402658",
-                    "195014910",
-                    "237475591",
-                    "176874774",
-                    "200172730",
-                    "512617371",
-            };
-
-            for (String s : ids) {
-                String t = s + more;
-                if (paste) {
-                    r.type(t + " ");
-                    r.paste();
-                    r.keyClick(KeyEvent.VK_ENTER);
-                } else {
-                    r.enter(t);
-                }
-            }
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private static String[] envDirs() {
-        return new String[] {
-                "Environment.DIRECTORY_ALARMS"
-                , "Environment.DIRECTORY_DCIM"
-                , "Environment.DIRECTORY_DOCUMENTS"
-                , "Environment.DIRECTORY_DOWNLOADS"
-                , "Environment.DIRECTORY_MOVIES"
-                , "Environment.DIRECTORY_MUSIC"
-                , "Environment.DIRECTORY_NOTIFICATIONS"
-                , "Environment.DIRECTORY_PICTURES"
-                , "Environment.DIRECTORY_PODCASTS"
-                , "Environment.DIRECTORY_RINGTONES"
-        };
-    }
-
-    private static void p(String[] keys) {
-        for (String s : keys) {
-            s = s.trim();
-            L.log("logE(\"%-85s = %%s\", %-85s);", s, s);
-        }
-    }
-
-    private static void print() {
-        String methods = "\n" +
-                "        Environment.getRootDirectory();\n" +
-                "        Environment.getDataDirectory();\n" +
-                "        Environment.getDownloadCacheDirectory();\n" +
-                "        Environment.getExternalStorageDirectory();\n" +
-                "        Environment.getExternalStorageState();"
-                ;
-        String[] ms = methods.split("[;]");
-
-        p(envDirs());
-        p(ms);
-
-        String[] dirs = envDirs();
-        for (int i = 0; i < dirs.length; i++) {
-            dirs[i] = String.format("Environment.getExternalStoragePublicDirectory(%s)", dirs[i]);
-        }
-        p(dirs);
-
-        dirs = envDirs();
-        for (int i = 0; i < dirs.length; i++) {
-            dirs[i] = String.format("c.getExternalFilesDir(%s)", dirs[i]);
-        }
-        p(dirs);
-    }
     // https://stackoverflow.com/questions/3387132/how-to-load-and-display-image-in-opengl-es-for-iphone
     // (Nekojishi) A Sunny Day is Watching over You
     // https://www.youtube.com/watch?v=egAwcvzseeM
     // https://mega.nz/file/UOZ1wJrC#-eCtj4DlZoIyKOI5Ss0fG2d1uWDbUTDOaK6nDOwz1Xo
 
-//    private static void parallel(Runnable... runs) {
-//        for (Runnable r : runs) {
-//            cache.submit(new Runnable() {
-//                private TicTac2 clk = new TicTac2();
-//                @Override
-//                public void run() {
-//                    clk.tic();
-//                    r.run();
-//                    clk.tac("%s Ended", r.getClass().getSimpleName());
-//                }
-//            });
-//        }
-//    }
-//
     //https://tos.fandom.com/zh/api.php?format=json&action=expandtemplates&text=%7B%7B1234%7CfullstatsMax}}
-    private static final ExecutorService cache
-    //    = Executors.newCachedThreadPool();
-        = ThreadUtil.newFlexThreadPool(Integer.MAX_VALUE, 60);
+    private static final ExecutorService cache = ThreadUtil.newFlexThreadPool(50, 60);
 
     private static final TicTac2 clock = new TicTac2();
+
+    private static void listFiles(String path) {
+        List<File> fs = FileUtil.listAllFiles(new File(path));
+        for (int i = 0; i < fs.size(); i++) {
+            File f = fs.get(i);
+            L.log("%s. %s", i+1, f.getName());
+        }
+    }
+
+    private static void getIP() {
+        //https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
+        String[] src = {
+                "https://api.db-ip.com/v2/free/self",
+                "http://ip-api.com/json"
+        };
+
+        WebFetcher w = new WebFetcher();
+        for (int i = 0; i < src.length; i++) {
+            String link = src[i];
+            String s = w.sendRequest(link, null);
+            L.log("#%s :\n%s", i, s);
+        }
+    }
+
+    private static void addJpg() {
+        // add jpg
+        String source = "D:\\新增資料夾 (3)\\A"; // source path, 1-depth
+        String want = ".jpg";
+        // if file is source/a, rename to be source/a{want}
+        // like source/a, rename to be source/a.jpg
+        File f = new File(source);
+        File[] fs = f.listFiles();
+        int n = 0;
+        if (fs != null) {
+            for (int i = 0; i < fs.length; i++) {
+                File z = fs[i];
+                boolean ok = z.getName().endsWith(want);
+                if (ok) {
+                } else {
+                    n++;
+                    File fx = new File(z.getAbsolutePath() + want);
+                    z.renameTo(fx);
+                    L.log("#%d : %s", n, z);
+                }
+            }
+        }
+        L.log("%s files renamed", n);
+    }
+
 }
 /*
 https://docs.google.com/presentation/d/15mSXudFsWko1Cmzdg6O__z1AX_Po4YpcauqPq6T7-xU/edit#slide=id.p

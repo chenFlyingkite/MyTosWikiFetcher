@@ -56,6 +56,45 @@ public class Hero {
     @SerializedName("heroPlus")
     public int heroPlus = -1;
 
+    @SerializedName("passive")
+    public List<HeroSkill> passive = new ArrayList<>();
+
+    public String title() {
+        return nameJa + ", " + attribute + ", " + role;
+    }
+
+    public String heroRelated() {
+        String s = "";
+        if (heroSkills.size() > 0) {
+            s += heroSkills.get(heroSkills.size() - 1);
+        } else {
+            s += "--";
+        }
+        s += ", ";
+        if (heroValues.size() > 0) {
+            s += heroValues.get(heroValues.size() - 1);
+        } else {
+            s += "--";
+        }
+        return s;
+    }
+
+    public String sidekickRelated() {
+        String s = "";
+        if (sideSkills.size() > 0) {
+            s += sideSkills.get(sideSkills.size() - 1);
+        } else {
+            s += "--";
+        }
+        s += ", ";
+        if (sideEquips.size() > 0) {
+            s += sideEquips.get(sideEquips.size() - 1);
+        } else {
+            s += "--";
+        }
+        return s;
+    }
+
     @Override
     public String toString() {
         return new Gson().toJson(this);

@@ -1,15 +1,17 @@
 package flyingkite.log;
 
-import java.util.Locale;
-
 import flyingkite.functional.LogSS;
+
+import java.util.Locale;
 
 public interface Loggable extends Formattable {
     /**
      * Writing the log with message
      * @param msg The message to be logged
      */
-    void log(String msg);
+    default void log(String msg) {
+        L.log(msg);
+    }
 
     /**
      * Writing the log with String format and its parameters

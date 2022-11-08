@@ -8,6 +8,7 @@ import flyingkite.tool.TicTac2;
 
 import java.awt.Point;
 import java.io.File;
+import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -30,9 +31,6 @@ import javax.imageio.stream.ImageInputStream;
 public class FileUtil {
 
     public static boolean isGone(File f) {
-        if (f == null || !f.exists()) {
-            L.log("gone");
-        }
         return f == null || !f.exists();
     }
 
@@ -95,19 +93,51 @@ public class FileUtil {
     }
 
     public static void createNewFile(File f) {
+        createNewFile(f, true);
+    }
+
+    /**
+     * Create file named f, delete if it already exists
+     */
+    public static void createNewFile(File f, boolean deleteIfFolder) {
         if (f == null) return;
-        if (f.exists() && f.isDirectory()) {
-            ensureDelete(f);
+        if (deleteIfFolder) {
+            deleteIfDirectory(f);
         }
 
         if (!f.exists()) {
-            try {
-                f.createNewFile();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            createFile(f);
         }
     }
+
+    public static void deleteIfDirectory(File f) {
+        if (f == null) return;
+
+        if (f.exists() && f.isDirectory()) {
+            ensureDelete(f);
+        }
+    }
+
+    /**
+     * Create file named f, and will not delete if f exists as a folder
+     * returns {@link File#createNewFile()}
+     */
+    public static boolean createFile(File f) {
+        if (f == null) return false;
+
+        File g = f.getParentFile();
+        if (g != null) {
+            g.mkdirs();
+        }
+        boolean b = false;
+        try {
+            b = f.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return b;
+    }
+
 
     public static void copy(InputStream is, OutputStream fos) {
         if (is == null || fos == null) return;
@@ -135,8 +165,8 @@ public class FileUtil {
         try {
             File dst = new File(target);
             dst.getParentFile().mkdirs();
-            fin = new FileInputStream(new File(source));
-            fout = new FileOutputStream(new File(target));
+            fin = new FileInputStream(source);
+            fout = new FileOutputStream(target);
             copy(fin, fout);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -147,6 +177,11 @@ public class FileUtil {
 
     public static List<String> readFromFile(String name) {
         return readFromFile(new File(name));
+    }
+
+    // suggest to use this method
+    public static List<String> readAllLines(String path) {
+        return readAllLines(new File(path));
     }
 
     // suggest to use this method
@@ -168,7 +203,7 @@ public class FileUtil {
         List<String> all = new ArrayList<>();
         Scanner s = null;
         try {
-            s = new Scanner(file);//, "UTF-8");
+            s = new Scanner(file);
             while (s.hasNextLine()) {
                 all.add(s.nextLine());
             }
@@ -190,7 +225,7 @@ public class FileUtil {
         StringBuilder sb = new StringBuilder();
         Scanner s = null;
         try {
-            s = new Scanner(file, "UTF-8");
+            s = new Scanner(file);
 
             while (s.hasNextLine()) {
                 sb.append(s.nextLine()).append("\n");
@@ -212,7 +247,7 @@ public class FileUtil {
         FileOutputStream fos = null;
         PrintWriter pw = null;
         try {
-            file.createNewFile();
+            createFile(file);
             fos = new FileOutputStream(file, append);
             pw = new PrintWriter(fos);
             for (String s : data) {
@@ -276,19 +311,6 @@ public class FileUtil {
         }
     }
 
-    public static boolean createFile(File f) {
-        if (f == null) return false;
-
-        f.getParentFile().mkdirs();
-        boolean b = false;
-        try {
-            b = f.createNewFile();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return b;
-    }
-
     public static void sortByPath(List<File> all) {
         //TicTac2 t = new TicTac2();
         //t.tic();
@@ -305,7 +327,7 @@ public class FileUtil {
         L.log("%s images", n);
         for (int i = 0; i < n; i++) {
             File fi = all.get(i);
-            Point p = getSize(fi);
+            Point p = getImageSize(fi);
             L.log("#%4d = %dx%d", i, p.x, p.y);
             L.log("   %s", fi);
         }
@@ -319,8 +341,15 @@ public class FileUtil {
         return s.substring(d + 1);
     }
 
+    public static String getNameBeforeExtension(File f) {
+        if (f == null) return "";
+        String s = f.getName();
+        int d = s.lastIndexOf('.');
+        return s.substring(0, d);
+    }
+
     // Using ImageIO.read(file) isOK, but slower slightly
-    public static Point getSize(File file) {
+    public static Point getImageSize(File file) {
         String ext = getExtension(file);
         Iterator<ImageReader> readers = ImageIO.getImageReadersBySuffix(ext);
 
@@ -338,10 +367,41 @@ public class FileUtil {
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
+
                 r.dispose();
             }
         }
         return p;
+    }
+
+    public static List<File> listFilesExt(File src, String[] exts) {
+        TicTac2 t = new TicTac2();
+        t.tic();
+        List<File> all = new ArrayList<>();
+        File[] found = src.listFiles(new FileFilter() {
+            @Override
+            public boolean accept(File pathname) {
+                String path = pathname.getAbsolutePath();
+                for (int i = 0; i < exts.length; i++) {
+                    if (path.endsWith(exts[i])) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+        });
+        int size = -1;
+        if (found != null) {
+            size = found.length;
+            for (int i = 0; i < found.length; i++) {
+                L.log("#%s : %s", i, found[i]);
+                all.add(found[i]);
+            }
+        }
+        t.tac("found %d items in %s", size, src);
+
+        //sortByPath(all);
+        return all;
     }
 
     public static List<File> listItems(String src, String[] exts) {
