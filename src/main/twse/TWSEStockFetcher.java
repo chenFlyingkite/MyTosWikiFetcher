@@ -1,6 +1,7 @@
 package main.twse;
 
 import com.google.gson.Gson;
+import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
@@ -29,6 +30,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.TreeMap;
 
 // 台灣銀行
 // https://rate.bot.com.tw/twd?Lang=zh-TW
@@ -208,6 +210,7 @@ public class TWSEStockFetcher {
             // database
             loadAllISINCode(web); // < 30 second in web, file = 300ms
             loadAllDividend(web); // ~70min in web, file = 20ms
+            loadAllTWSEStocks();
         }
         loadPrices();
         mLf.getFile().close();
@@ -216,8 +219,111 @@ public class TWSEStockFetcher {
         clock.tac("TWSEStockFetcher parse OK");
     }
 
+    private void loadAllTWSEStocks() {
+        TWEquityList data;
+        List<TWEquity> list = null;
+        clock.tic();
+        // 上市 = 2, 上櫃 = 4
+        data = allTWEquity.get(2);
+        for (int i = 0; i < data.list.size(); i++) {
+            TWEquityItem item = data.list.get(i);
+            if ("股票".equals(item.name)) {
+                list = item.list;
+            }
+        }
+        if (list != null) {
+            for (int i = 0; i < list.size(); i++) {
+                TWEquity it = list.get(i);
+                String k = it.code.trim();
+                allTWSEListed.put(k, it);
+            }
+        }
+        list = null;
+        // 上市 = 2, 上櫃 = 4
+        data = allTWEquity.get(4);
+        for (int i = 0; i < data.list.size(); i++) {
+            TWEquityItem item = data.list.get(i);
+            if ("股票".equals(item.name)) {
+                list = item.list;
+            }
+        }
+        if (list != null) {
+            for (int i = 0; i < list.size(); i++) {
+                TWEquity it = list.get(i);
+                String k = it.code.trim();
+                allTWSETPEx.put(k, it);
+            }
+        }
+        clock.tac("loadAllTWSEStocks OK");
+        evalPortfolio();
+    }
+
+    // Evaluate stock portfolio for groups percentage, like Foods = 10%, Finance = 20%, Cement = 10%
+    private void evalPortfolio() {
+        File src = new File(FOLDER, "portfolio.csv");
+        List<String> li = FileUtil.readFromFile(src);
+
+        long sumCost = 0;
+        long sumMarket = 0;
+        Map<String, Pack> group = new TreeMap<>();
+        for (int i = 0; i < li.size(); i++) {
+            // it has zero-width space(ZWSP) before id...
+            String each = li.get(i).replaceAll("\u200b","");
+            String[] es = each.split("\t");
+            if (i == 0) continue; // line 0 = header
+
+            String id = es[2];
+            long cost = Long.parseLong(es[7]);
+            long market = Long.parseLong(es[9]);
+            TWEquity eq = null;
+            if (allTWSEListed.containsKey(id)) {
+                eq = allTWSEListed.get(id);
+            } else if (allTWSETPEx.containsKey(id)) {
+                eq = allTWSETPEx.get(id);
+            }
+            if (eq != null) {
+                // group by industry
+                String gp = eq.industry;
+                Pack p = group.get(gp);
+                if (p == null) {
+                    p = new Pack();
+                    p.name = gp;
+                    group.put(gp, p);
+                }
+                p.cost += cost;
+                p.market += market;
+                sumCost += cost;
+                sumMarket += market;
+            }
+        }
+        boolean printTable = false;
+        if (printTable) {
+            L.log("name,cost,market,costRatio10k,marketRatio10k");
+            for (String s : group.keySet()) {
+                Pack p = group.get(s);
+                L.log("%s,%s,%s,%.3f,%.3f", p.name, p.cost, p.market, 10000.0 * p.cost / sumCost, 10000.0 * p.market / sumMarket);
+            }
+        }
+    }
+
+    private class Pack {
+        private String name;
+        // 成本金額
+        private long cost;
+        // 市值
+        private long market;
+
+        @Override
+        public String toString() {
+            return String.format("%s, %s, %s", name, cost, market);
+        }
+    }
+
     private final Map<Integer, TWEquityList> allTWEquity = new HashMap<>();
     private final Map<Integer, List<YHDividend>> allDividend = new HashMap<>();
+
+    private final Map<String, TWEquity> allTWSEListed = new HashMap<>();
+    private final Map<String, TWEquity> allTWSETPEx = new HashMap<>();
 
     // Load all ISIN code and put into allTWEquity
     private void loadAllISINCode(boolean web) {
