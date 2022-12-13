@@ -688,6 +688,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "不動城壁",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E5%8B%95%E5%9F%8E%E5%A3%81",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 所受傷害減至 0 (包括「喋血屠刀」等扣除 召喚師指定 % 生命力的 敵技所造成的傷害) II. 自身攻擊力 3.5 倍 效果持續至受到敵人 3 次攻擊 (效果持續期間技能不會冷卻) III. 若隊中只有【水手戰士】成員 ⇒ 則效果持續期間可以冷卻",
+    "skillMonsters": [
+      "10346"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "不容許擾亂人類的和平！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E5%AE%B9%E8%A8%B1%E6%93%BE%E4%BA%82%E4%BA%BA%E9%A1%9E%E7%9A%84%E5%92%8C%E5%B9%B3%EF%BC%81",
@@ -2706,6 +2717,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "優雅 非常優雅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%84%AA%E9%9B%85_%E9%9D%9E%E5%B8%B8%E5%84%AA%E9%9B%85",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將隊伍成員屬性符石 ⇒ 轉化為強化符石 1 回合內 II. 連擊 (Combo) 固定為 17 III. 若隊長為【間諜家家酒】成員 ⇒ 額外增加 2 回合效果",
+    "skillMonsters": [
+      "10334"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "元氣之戰",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E6%B0%A3%E4%B9%8B%E6%88%B0",
@@ -4115,6 +4137,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "光明助力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E6%98%8E%E5%8A%A9%E5%8A%9B",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 自身及身旁的機械族成員 ⇒ 攻擊力 2 倍 II. 若身旁的機械族成員 為隊長或戰友 ⇒ 該成員追打 水、火及木屬性攻擊各 1 次 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 將所有符石添加為機械族符石",
+    "skillMonsters": [
+      "2811"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "光明降臨",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%89%E6%98%8E%E9%99%8D%E8%87%A8",
     "skillCDMin": 22,
@@ -5163,6 +5196,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "冰火魔法",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E7%81%AB%E9%AD%94%E6%B3%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將水及火符石轉化為水強化符石 II. 凍結敵方全體， 使受影響目標 ⓵ 轉為水屬性 ⓶ 每回合受到自身攻擊力 基值 500 倍的水屬性傷害 持續 2 回合 2 回合內 III. 水符石首批 2 粒相連 ⇒ 即可以發動消除",
+    "skillMonsters": [
+      "10311"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "冰火魔法",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E7%81%AB%E9%AD%94%E6%B3%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 將水及火符石轉化為火強化符石 II. 點燃敵方全體， 使受影響目標 ⓵ 轉為火屬性 ⓶ 每回合受到自身攻擊力 基值 500 倍的火屬性傷害 持續 2 回合 2 回合內 III. 火符石首批 2 粒相連 ⇒ 即可以發動消除",
+    "skillMonsters": [
+      "10311"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "冰爽清新",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E7%88%BD%E6%B8%85%E6%96%B0",
     "skillCDMin": 17,
@@ -5932,6 +5987,17 @@
     "skillDesc": "隨機將場上 1 粒水、火、木、光及暗符石轉化為強化符石；1 回合內，消除屬性強化符石時，個人追打與消除強化符石屬性相同的攻擊各 1 次",
     "skillMonsters": [
       "1350"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "刺殺潛影",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%88%BA%E6%AE%BA%E6%BD%9B%E5%BD%B1",
+    "skillCDMin": 13,
+    "skillCDMax": 2,
+    "skillDesc": "1 回合內 I. 以累積戰鬥回合數 +1 的數量 (需消除符石) ⓵ 轉化龍族強化符石 (非種族符石及屬性符石優先轉換) ⇒ 最多可轉化 7 粒龍族強化符石 ⓶ 增加連擊 (Combo) 數目 ⇒ 最多可增加 7 連擊 (Combo) II. 當累積至最多 6 個戰鬥回合發動技能 ⇒ 迴避敵人首次攻擊 發動技能後將累積戰鬥回合數重置",
+    "skillMonsters": [
+      "10317"
     ]
   },
   {
@@ -8154,6 +8220,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "土星水晶力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9C%9F%E6%98%9F%E6%B0%B4%E6%99%B6%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I.【水手戰士】及暗屬性成員 ⇒ 攻擊力 7 倍、生命力及回復力 1.8 倍 II. 消除暗符石 ⓵ 全隊攻擊力 3.5 倍 ⓶【水手戰士】成員追打暗屬性攻擊 1 次",
+    "skillMonsters": [
+      "10346"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "地獄之火",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9C%B0%E7%8D%84%E4%B9%8B%E7%81%AB",
     "skillCDMin": -1,
@@ -8843,7 +8920,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A7%E7%88%86%E7%82%B8%E7%A9%BF%E5%88%BA",
     "skillCDMin": 18,
     "skillCDMax": 7,
-    "skillDesc": "2 回合內 I. 全隊攻擊力 2 倍 II. 每回合敵方所受傷害的 100% 再爆發 　(不包括無屬性傷害) 　此傷害無視屬性及防禦力 III. 每回合結束時，引爆最頂 1 橫行的符石 ⇒ 以掉落強化符石",
+    "skillDesc": "I. 每回合以敵方所受傷害的 100% 　(不包括無屬性傷害) 對敵方再爆發無屬性傷害， 　此傷害無視防禦力， 持續 2 回合 2 回合內 II. 全隊攻擊力 2 倍 III. 每回合結束時，引爆最頂 1 橫行的符石 ⇒ 掉落強化符石",
     "skillMonsters": [
       "60006"
     ]
@@ -10717,6 +10794,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "安妮亞的微笑",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%89%E5%A6%AE%E4%BA%9E%E7%9A%84%E5%BE%AE%E7%AC%91",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 解除人類成員的疲憊狀態， 若解除的為【間諜家家酒】成員 ⇒ 則該成員的疲憊狀態變為亢奮狀態 1 回合內 II. 無視「黏腐」 III. 將所有符石轉化為五屬強化符石",
+    "skillMonsters": [
+      "10337"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "完全回復",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%8C%E5%85%A8%E5%9B%9E%E5%BE%A9",
     "skillCDMin": 24,
@@ -11389,6 +11477,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "巨獸暴擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E7%8D%B8%E6%9A%B4%E6%93%8A",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 延遲全體敵人行動 1 回合 1 回合內 II. 根據首批消除的連擊 (Combo) ⇒ 增加相同的連擊 (Combo) 數目 III.「暴風」技能生效時 ⇒ 額外增加 1 次 與首批消除連擊 (Combo) 數目 相同的連擊 (Combo) 數目",
+    "skillMonsters": [
+      "10312"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "巨神的手甲",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E7%A5%9E%E7%9A%84%E6%89%8B%E7%94%B2",
     "skillCDMin": 17,
@@ -11705,6 +11804,17 @@
     "skillDesc": "將 3 粒符石轉化為心符石 (木符石優先轉換) ，使用後有一定機率可即時再次發動技能",
     "skillMonsters": [
       "0439"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "幹練間諜",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B9%B9%E7%B7%B4%E9%96%93%E8%AB%9C",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有人類或 ≥3 種屬性成員： I. 全隊攻擊力 9 倍、 生命力及回復力 1.5 倍 II. 人類成員攻擊力額外 6 倍、 生命力及回復力額外 1.8 倍 III. 必然延長移動符石時間 2 秒 IV. 消除火、木或暗符石 ⇒ 人類成員無視「固定連擊盾」",
+    "skillMonsters": [
+      "10328"
     ]
   },
   {
@@ -13415,6 +13525,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "情報收集",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%83%85%E5%A0%B1%E6%94%B6%E9%9B%86",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除【間諜家家酒】成員被封鎖的技能 (此技能無視封鎖技能) II.「間諜＜黃昏＞」技能 CD -5 1 回合內 III. 可任意移動符石 而不會發動消除 IV. 隊長 ⓵ 攻擊力 5 倍 ⓶ 無視「三屬盾」及「五屬盾」",
+    "skillMonsters": [
+      "10331"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "情愛之炎",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%83%85%E6%84%9B%E4%B9%8B%E7%82%8E",
@@ -13594,6 +13715,28 @@
     "skillDesc": "I. 火屬性及機械族攻擊力 6.5 倍、 生命力及回復力 1.4 倍 II. 連擊 (Combo) 時攻擊力提升 125% III. 火符石兼具 50% 其他符石效果",
     "skillMonsters": [
       "2616"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "愛與正義",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%88%87%E6%AD%A3%E7%BE%A9",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 光屬性及人類成員 ⇒ 攻擊力 9 倍、生命力及回復力 1.5 倍 II.「晚禮服假面」及【水手戰士】成員 ⇒ 生命力、攻擊力及回復力額外 1.6 倍 III. 消除 ≥2 種符石 ⇒ 全隊攻擊力 4 倍 IV. 消除光或心符石 ⓵ 自身攻擊力 4 倍 ⓶ 自身無視「固定連擊盾」",
+    "skillMonsters": [
+      "10344"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "愛與正義 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%88%87%E6%AD%A3%E7%BE%A9_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 光屬性及人類成員 ⇒ 攻擊力 10 倍、生命力及回復力 1.5 倍 II.「晚禮服假面」及【水手戰士】成員 ⇒ 生命力、攻擊力及回復力額外 1.6 倍 III. 消除 ≥2 種符石 ⇒ 全隊攻擊力 5 倍 IV. 消除光或心符石 ⓵ 自身攻擊力 5 倍 ⓶ 自身無視「固定連擊盾」",
+    "skillMonsters": [
+      "10345"
     ]
   },
   {
@@ -13831,6 +13974,17 @@
     "skillDesc": "隊中只有人類或「影月」時： I. 全隊攻擊力 6.5 倍及回復力 3 倍 II. 延長移動符石時間 2 秒 III. 達至 ≥6 Combo ⇒ 全隊攻擊力額外 3.5 倍 IV. 暗及火符石分別兼具 ⇒ 50% 其他符石效果 V. 光符石效果提升 100%",
     "skillMonsters": [
       "2702"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "我們是一家人！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%91%E5%80%91%E6%98%AF%E4%B8%80%E5%AE%B6%E4%BA%BA%EF%BC%81",
+    "skillCDMin": 21,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將場上的符石 ⇒ 變回原始模樣 II. 將心符石添加為 ⇒「加護符石」 1 回合內 III. 所有屬性符石首批 1 粒相連 ⇒ 即可發動消除 IV. 自身攻擊力 3 倍， 若左旁及右旁成員均為 【間諜家家酒】成員 ⇒ 則自身及身旁成員攻擊力 5 倍",
+    "skillMonsters": [
+      "10330"
     ]
   },
   {
@@ -15400,6 +15554,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "救世血裔",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%95%91%E4%B8%96%E8%A1%80%E8%A3%94",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 10 倍 II. 木、暗屬性、人類成員 ⇒ 攻擊力及生命力 2.2 倍 III. 必然延長移動符石時間 3 秒 IV. 所有屬性符石兼具 ⇒ 50% 所有屬性符石效果 V. 消除木或暗符石 ⇒ 全隊攻擊力額外 4 倍",
+    "skillMonsters": [
+      "10320"
+    ]
+  },
+  {
     "type": "組合技",
     "skillName": "敕令強化 ‧ 光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%95%95%E4%BB%A4%E5%BC%B7%E5%8C%96_%E2%80%A7_%E5%85%89",
@@ -15662,6 +15827,28 @@
     "skillDesc": "1 回合內，每消除 3 粒心符石，以 3 倍自身攻擊力追打無屬性攻擊 1 次，消除 30 粒可追打最多 10 次",
     "skillMonsters": [
       "1608"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "料理大師",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%96%99%E7%90%86%E5%A4%A7%E5%B8%AB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除「幽閉空間」 1 回合內 II. 自身追打五屬攻擊各 1 次， 隊中有 ≥3 個【間諜家家酒】成員 ⇒ 則【間諜家家酒】成員 追打五屬攻擊各 1 次",
+    "skillMonsters": [
+      "10338"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "料理黑洞",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%96%99%E7%90%86%E9%BB%91%E6%B4%9E",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 完全回復生命力 1 回合內 II. 點選元素法陣上的 1 種屬性 ⇒ 敵方全體轉為點選的屬性 III. 無視「黑洞」 IV. 全隊無視敵人防禦力 V. 若隊長為【間諜家家酒】成員 ⇒【間諜家家酒】成員 增加 2 回合亢奮狀態",
+    "skillMonsters": [
+      "10339"
     ]
   },
   {
@@ -15962,6 +16149,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "早熟的大小姐",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%97%A9%E7%86%9F%E7%9A%84%E5%A4%A7%E5%B0%8F%E5%A7%90",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 所有成員以 25% 攻擊力 ⇒ 追打隊伍成員屬性攻擊各 1 次 II. 若隊長為【間諜家家酒】成員 ⓵ 則所有成員以 50% 攻擊力追打 ⓶ 全隊無視敵人防禦力",
+    "skillMonsters": [
+      "10332"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "明鏡止水",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%8E%E9%8F%A1%E6%AD%A2%E6%B0%B4",
@@ -15992,6 +16190,17 @@
     "skillDesc": "1 回合內 I. 自身生命力愈高，全隊攻擊力愈高，最大 2.2 倍 II. 人類成員追打光屬性攻擊 1 次",
     "skillMonsters": [
       "2123"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星光蜜月療癒之吻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E5%85%89%E8%9C%9C%E6%9C%88%E7%99%82%E7%99%92%E4%B9%8B%E5%90%BB",
+    "skillCDMin": 12,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將所有符石轉化為 ⇒ 固定數量及位置的 五屬及心符石 2 回合內 II. 連擊 (Combo) 時 攻擊力提升 200% III. 自身無視 ⇒「反首消符石盾」",
+    "skillMonsters": [
+      "10345"
     ]
   },
   {
@@ -16348,6 +16557,17 @@
     "skillDesc": "I. 全隊攻擊力 3 倍 II. 延長移動符石時間 5 秒 III. 每回合扣除全隊總生命力 10%",
     "skillMonsters": [
       "1970"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "晚禮服煙霧轟炸",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%99%9A%E7%A6%AE%E6%9C%8D%E7%85%99%E9%9C%A7%E8%BD%9F%E7%82%B8",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有符石及凍結符石 ⇒ 掉落固定版面的 木、心符石及火強化符石 II. 若隊長為【水手戰士】成員 ⇒【水手戰士】成員技能 CD -1",
+    "skillMonsters": [
+      "10354"
     ]
   },
   {
@@ -17633,6 +17853,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "月亮緊急變身！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E4%BA%AE%E7%B7%8A%E6%80%A5%E8%AE%8A%E8%BA%AB%EF%BC%81",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 變身 II. 將所有符石添加為人族符石 III.「晚禮服假面」及 【水手戰士】成員 ⇒ 增加 2 回合亢奮狀態 IV. 全體敵人的攻擊力減至 0， 持續 1 回合",
+    "skillMonsters": [
+      "10344"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "月影強念",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E5%BD%B1%E5%BC%B7%E5%BF%B5",
     "skillCDMin": 16,
@@ -17939,6 +18170,17 @@
       "0195",
       "0196",
       "0708"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "木星橡樹進化波",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9C%A8%E6%98%9F%E6%A9%A1%E6%A8%B9%E9%80%B2%E5%8C%96%E6%B3%A2",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 電擊敵方全體，持續 1 回合 1 回合內 II. 木及光符石互相兼具效果 III. 每首批消除 1 粒木符石 ⓵ 自身以 50% 攻擊力 ⇒ 追打木屬性攻擊 1 次 ⇒ 最多追打 5 次 ⓶ 額外增加 1 連擊 (Combo) ⇒ 最多增加 5 連擊 (Combo) IV. 隊中有 ≥2 個【水手戰士】成員 ⇒ 則自身以 100% 攻擊力追打",
+    "skillMonsters": [
+      "10343"
     ]
   },
   {
@@ -18398,7 +18640,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A1%82%E4%B9%8B%E5%B0%8F%E7%82%B8%E5%BD%88",
     "skillCDMin": 16,
     "skillCDMax": 5,
-    "skillDesc": "I. 連續引爆最底 2 橫行符石 3 次 ⇒ 掉落屬性人族符石 3 回合內 II. 每回合敵方所受傷害的 150% 再爆發 (不包括無屬性傷害)， 此傷害無視屬性及防禦力",
+    "skillDesc": "I. 連續引爆最底 2 橫行符石 3 次 ⇒ 掉落屬性人族符石 3 回合內 II. 每回合以敵方所受傷害的 150% (不包括無屬性傷害) 對敵方再爆發無屬性傷害， 此傷害無視防禦力",
     "skillMonsters": [
       "10178"
     ]
@@ -19338,6 +19580,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "機械聯盟",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E8%81%AF%E7%9B%9F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 機械族成員攻擊力 6 倍、 生命力及回復力 1.5 倍 II. 隊中只有 2 個成員 ⇒ 機械族成員 ⓵ 攻擊力額外 5 倍 ⓶ 進場 CD -3",
+    "skillMonsters": [
+      "2811"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "機械萬鈞之怒 ‧ 極",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%A9%9F%E6%A2%B0%E8%90%AC%E9%88%9E%E4%B9%8B%E6%80%92_%E2%80%A7_%E6%A5%B5",
     "skillCDMin": -1,
@@ -20228,6 +20481,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "死亡驚叫",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AD%BB%E4%BA%A1%E9%A9%9A%E5%8F%AB",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I.「超級水手土星」技能 CD -2 2 回合內 II. 無視「黏腐」 III. 15 秒內，可任意移動符石 而不會發動消除 IV. 將移動符石時觸碰的符石 ⇒ 轉化為人族強化符石 V.【水手戰士】成員 ⇒ 不會被封鎖主動技能",
+    "skillMonsters": [
+      "10349"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "死神的圓舞曲",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%AD%BB%E7%A5%9E%E7%9A%84%E5%9C%93%E8%88%9E%E6%9B%B2",
     "skillCDMin": 19,
@@ -20881,6 +21145,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "水星水漾狂想曲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%98%9F%E6%B0%B4%E6%BC%BE%E7%8B%82%E6%83%B3%E6%9B%B2",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆水符石四周的符石及 凍結符石 ⇒ 掉落強化符石 1 回合內 II.「一步一傷」傷害 ⇒ 減至 1 III. 上述每引爆 1 粒符石 ⇒【水手戰士】及水屬性成員 攻擊力提升 ⇒ 引爆 10 粒可達至最大 3 倍 IV. 消除符石後雙數直行 ⇒ 首批掉落水強化符石",
+    "skillMonsters": [
+      "10341"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "水暗移魂",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E6%9A%97%E7%A7%BB%E9%AD%82",
     "skillCDMin": 16,
@@ -21277,6 +21552,17 @@
       "0433",
       "0980",
       "0981"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "水炮衝擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B0%B4%E7%82%AE%E8%A1%9D%E6%93%8A",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 完全回復生命力 II. 引爆心符石、風化及電擊符石 ⇒ 掉落屬性人族強化符石 2 回合內 III. 無視「燃燒」 (不包括「煉獄之火」) IV. 無視「黏腐」 V. 若效果期間沒有受到攻擊 ⇒ 回合結束時，自身技能 CD -1",
+    "skillMonsters": [
+      "10316"
     ]
   },
   {
@@ -21843,7 +22129,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B3%A1%E6%B2%AB%E7%88%86%E8%A3%82_%E2%80%A7_%E5%8A%A0%E5%86%95",
     "skillCDMin": 19,
     "skillCDMax": 8,
-    "skillDesc": "每回合敵方所受傷害的 110% 再爆發 (不包括無屬性傷害)，此傷害無視屬性及防禦力，效果持續 2 回合；每回合結束時，所有符石轉化為強化符石",
+    "skillDesc": "每回合以敵方所受傷害的 110% (不包括無屬性傷害) 對敵方再爆發無屬性傷害， 此傷害無視防禦力， 持續 2 回合； 每回合結束時， 將所有符石轉化為強化符石",
     "skillMonsters": [
       "1341"
     ]
@@ -23140,6 +23426,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "深海狂潮",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B5%B7%E7%8B%82%E6%BD%AE",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I.「超級水手天王星」技能 CD -1 II. 點選 1 橫行的符石 ⇒ 將該橫行符石轉化為 3 粒心強化符石及 3 粒水強化符石 III. 石化敵方全體， 使受影響目標 ⓵ 無法行動 ⓶ 轉為隊長克制屬性 持續 1 回合 1 回合內 IV. 水屬性及人類成員 ⇒ 追打水屬性攻擊 1 次 V.【水手戰士】成員 ⇒ 無視「固定連擊盾」",
+    "skillMonsters": [
+      "10352"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "深海連環",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%B7%B1%E6%B5%B7%E9%80%A3%E7%92%B0",
     "skillCDMin": 17,
@@ -24034,6 +24331,17 @@
     "skillDesc": "I. 人類攻擊力 3.5 倍 II. 合計消除 ≥6 粒水或火符石時 ⇒ 人類攻擊力額外 1.5 倍 III. 水及火屬性傷害減少 30%",
     "skillMonsters": [
       "1781"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "火星烈焰狙擊手",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%81%AB%E6%98%9F%E7%83%88%E7%84%B0%E7%8B%99%E6%93%8A%E6%89%8B",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 無視「燃燒」 II. 自身攻擊力 4 倍 III. 若隊中有 ≥2 個【水手戰士】成員 ⇒ 全隊無視「指定形狀盾」 IV. 本回合若有擊斃妖精類或魔族敵人 ⇒ 回合結束時，自身技能 CD -5",
+    "skillMonsters": [
+      "10342"
     ]
   },
   {
@@ -26609,7 +26917,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%88%86%E8%A3%82%E6%89%8B%E8%A3%8F%E5%8A%8D",
     "skillCDMin": 15,
     "skillCDMax": 4,
-    "skillDesc": "I. 點選場上 1 粒符石 ⇒ 將該種符石四周的符石引爆 ⇒ 掉落暗強化符石 1 回合內 II. 敵方所受傷害的 100% 再爆發 (不包括無屬性傷害)， 此傷害無視屬性及防禦力",
+    "skillDesc": "I. 點選場上 1 粒符石 ⇒ 將該種符石四周的符石引爆 ⇒ 掉落暗強化符石 1 回合內 II. 以敵方所受傷害的 100% (不包括無屬性傷害) 對敵方再爆發無屬性傷害， 此傷害無視防禦力",
     "skillMonsters": [
       "10299"
     ]
@@ -28057,6 +28365,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "玉鋼之球",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%89%E9%8B%BC%E4%B9%8B%E7%90%83",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I.「妮黑蕾雅」及自身以外的 【亞馬遜四重奏】成員技能 CD -1 II. 引爆自身直行符石 ⇒ 掉落火強化符石 1 回合內 III. 無視「燃燒」 (不包括「煉獄之火」) IV. 自身攻擊力 4 倍 V. 隊中每多 1 個【亞馬遜四重奏】成員 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 4 回合",
+    "skillMonsters": [
+      "10356"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "王中之王",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8E%8B%E4%B8%AD%E4%B9%8B%E7%8E%8B",
@@ -28401,6 +28720,17 @@
     "skillDesc": "發動技能時生命力需為 50% 或以上，自身攻擊力 2.5 倍，場上有其他附加效果時，攻擊力提升至 5 倍，效果持續至我方生命力為 50% 以下",
     "skillMonsters": [
       "1716"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "生命終結",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%94%9F%E5%91%BD%E7%B5%82%E7%B5%90",
+    "skillCDMin": 16,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除風化符石狀態 1 回合內 II. 符石 2 粒相連 ⇒ 即可發動消除 ⇒ 效果持續至 消除火、木或暗符石達 18 粒 III. 隊中有 ≥3 個【間諜家家酒】成員 ⇒ 全隊無視 ▋「反首消符石盾」 ▋「連擊相等盾」",
+    "skillMonsters": [
+      "10327"
     ]
   },
   {
@@ -29293,6 +29623,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "真實的呈現",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9C%9F%E5%AF%A6%E7%9A%84%E5%91%88%E7%8F%BE",
+    "skillCDMin": 15,
+    "skillCDMax": 4,
+    "skillDesc": "I.「妮黑蕾雅」技能 CD -4 1 回合內 II. 增加 4 連擊 (Combo) III. 妖精類及魔族成員 ⇒ 以 40% 攻擊力追打 水、火及木屬性攻擊各 1 次",
+    "skillMonsters": [
+      "10359"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "真正姿態的重拳",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9C%9F%E6%AD%A3%E5%A7%BF%E6%85%8B%E7%9A%84%E9%87%8D%E6%8B%B3",
     "skillCDMin": 11,
@@ -29566,6 +29907,17 @@
     "skillDesc": "I. 點選 3 粒符石 ⇒ 引爆該符石及其四周符石 ⇒ 掉落心強化符石 1 回合內 II. 心符石兼具 ⇒ 屬性符石效果",
     "skillMonsters": [
       "2666"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "瞬移冰息",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%9E%AC%E7%A7%BB%E5%86%B0%E6%81%AF",
+    "skillCDMin": 16,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除人類成員被封鎖的技能 (此技能無視封鎖技能) II. 解除人類成員的休眠狀態 III. 將木及暗符石添加為「加護符石」 IV. 凍結敵方全體， 使受影響目標無法行動， 持續 1 回合 V. 自身 ⓵ 追打五屬攻擊各 1 次 ⓶ 無視敵人防禦力 效果持續至受到敵人攻擊 VI. 若隊長為「極限魔祭 ‧ 司路域」 ⇒ 下回合迴避敵人首次攻擊",
+    "skillMonsters": [
+      "10320"
     ]
   },
   {
@@ -33116,7 +33468,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%A6%E7%9F%B3%E6%BF%80%E7%99%BC_%E2%80%A7_%E5%85%89",
     "skillCDMin": 14,
     "skillCDMax": 5,
-    "skillDesc": "引爆暗符石造成敵全體光屬性傷害，並產生強化符石",
+    "skillDesc": "引爆暗符石造成敵全體光屬性傷害，並掉落強化符石",
     "skillMonsters": [
       "0016"
     ]
@@ -33149,7 +33501,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%A6%E7%9F%B3%E6%BF%80%E7%99%BC_%E2%80%A7_%E6%9A%97",
     "skillCDMin": 14,
     "skillCDMax": 5,
-    "skillDesc": "引爆光符石造成敵全體暗屬性傷害，並產生強化符石",
+    "skillDesc": "引爆光符石造成敵全體暗屬性傷害，並掉落強化符石",
     "skillMonsters": [
       "0020"
     ]
@@ -33160,7 +33512,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%A6%E7%9F%B3%E6%BF%80%E7%99%BC_%E2%80%A7_%E6%9C%A8",
     "skillCDMin": 14,
     "skillCDMax": 5,
-    "skillDesc": "引爆火符石造成敵全體木屬性傷害，並產生強化符石",
+    "skillDesc": "引爆火符石造成敵全體木屬性傷害，並掉落強化符石",
     "skillMonsters": [
       "0012"
     ]
@@ -33171,7 +33523,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%A6%E7%9F%B3%E6%BF%80%E7%99%BC_%E2%80%A7_%E6%B0%B4",
     "skillCDMin": 14,
     "skillCDMax": 5,
-    "skillDesc": "引爆木符石造成敵全體水屬性傷害，並產生強化符石",
+    "skillDesc": "引爆木符石造成敵全體水屬性傷害，並掉落強化符石",
     "skillMonsters": [
       "0004"
     ]
@@ -33182,7 +33534,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%AC%A6%E7%9F%B3%E6%BF%80%E7%99%BC_%E2%80%A7_%E7%81%AB",
     "skillCDMin": 14,
     "skillCDMax": 5,
-    "skillDesc": "引爆水符石造成敵全體火屬性傷害，並產生強化符石",
+    "skillDesc": "引爆水符石造成敵全體火屬性傷害，並掉落強化符石",
     "skillMonsters": [
       "0008"
     ]
@@ -33569,6 +33921,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "籠罩之球",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B1%A0%E7%BD%A9%E4%B9%8B%E7%90%83",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I.「妮黑蕾雅」及自身以外的 【亞馬遜四重奏】成員技能 CD -1 II. 引爆自身直行符石 ⇒ 掉落水強化符石 1 回合內 III. 將移動符石時觸碰的 凍結符石狀態解除 IV. 自身追打 4 次 V. 隊中每多 1 個【亞馬遜四重奏】成員 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 4 回合",
+    "skillMonsters": [
+      "10355"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "米加光線炮",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B1%B3%E5%8A%A0%E5%85%89%E7%B7%9A%E7%82%AE",
     "skillCDMin": 18,
@@ -33587,6 +33950,17 @@
     "skillDesc": "I. 妖精類攻擊力 1.8 倍 II. 火及心符石兼具 25% 其他屬性符石效果 (可疊加) III. 2 粒火或心符石相連，即可發動消除 IV. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能) V. 隊伍回復力愈高， 全隊攻擊力額外提升愈多： ⇒ 隊伍回復力達 3000 額外 2 倍 ⇒ 4000 可達至最大 2.5 倍",
     "skillMonsters": [
       "1604"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "粉紅水晶力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B2%89%E7%B4%85%E6%B0%B4%E6%99%B6%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 人類及神族成員攻擊力 6 倍 II. 隊中有 ≥2 種屬性成員 ⇒ 全隊攻擊力額外 6 倍、 生命力及回復力 1.8 倍 III. 消除種族符石 ⇒ 人類及神族成員 ⓵ 攻擊力額外 2 倍 ⓶ 無視「二屬盾」、「三屬盾」、 「四屬盾」、「五屬盾」",
+    "skillMonsters": [
+      "10347"
     ]
   },
   {
@@ -34197,6 +34571,17 @@
     "skillDesc": "2 回合內 I. 我方回復力減至 0 II. 人類及神族成員攻擊力 2.5 倍 III. 隊中有 ≥3 個「EVA 駕駛員」 ⇒ 自身技能 CD -2",
     "skillMonsters": [
       "2522"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "絕命刺殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%91%BD%E5%88%BA%E6%AE%BA",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有人類或 ≥3 種屬性成員： I. 全隊攻擊力 9 倍、 生命力及回復力 1.5 倍 II. 人類成員攻擊力額外 6 倍、 生命力及回復力額外 1.8 倍 III. 必然延長移動符石時間 2 秒 IV. 消除火、木或暗符石 ⇒ 人類成員無視「指定形狀盾」",
+    "skillMonsters": [
+      "10327"
     ]
   },
   {
@@ -34878,6 +35263,17 @@
     "skillDesc": "I.【怪物彈珠】及火屬性成員 ⇒ 攻擊力 6.5 倍、生命力及回復力 1.3 倍 II. 火、光、心符石互相兼具 50% 效果 III. 延長移動符石時間 1 秒 IV. 以【十】形首批消除 1 組 ≥5 粒符石 ⇒ 全隊攻擊力額外 5 倍",
     "skillMonsters": [
       "10218"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "美少女戰士之力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%BE%8E%E5%B0%91%E5%A5%B3%E6%88%B0%E5%A3%AB%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 人類成員攻擊力 6 倍 II.「晚禮服假面」及【水手戰士】成員 ⇒ 攻擊力、生命力及回復力額外 1.8 倍 III. 消除自身屬性符石或心符石 ⇒ 全隊攻擊力額外 3 倍 IV. 心符石兼具 50% 屬性符石效果",
+    "skillMonsters": [
+      "10341"
     ]
   },
   {
@@ -35781,6 +36177,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "脫逃的奔騰 ‧ 光",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%84%AB%E9%80%83%E7%9A%84%E5%A5%94%E9%A8%B0_%E2%80%A7_%E5%85%89",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除自身被封鎖的技能 (此技能無視封鎖技能)， 成功解除後 ⇒ 自身進入 3 回合亢奮狀態 II. 將火符石轉化為心符石 III. 將木符石轉化為光符石 3 回合內 IV. 減少 60% 所受傷害",
+    "skillMonsters": [
+      "10315"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "脫逃的奔騰 ‧ 木",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%84%AB%E9%80%83%E7%9A%84%E5%A5%94%E9%A8%B0_%E2%80%A7_%E6%9C%A8",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除自身被封鎖的技能 (此技能無視封鎖技能)， 成功解除後 ⇒ 自身進入 3 回合亢奮狀態 II. 將火符石轉化為心符石 III. 將水符石轉化為木符石 3 回合內 IV. 將移動符石時觸碰的符石 ⇒ 轉化為強化符石",
+    "skillMonsters": [
+      "10314"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "脫逃的奔騰 ‧ 水",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%84%AB%E9%80%83%E7%9A%84%E5%A5%94%E9%A8%B0_%E2%80%A7_%E6%B0%B4",
     "skillCDMin": 17,
@@ -35821,6 +36239,17 @@
     "skillDesc": "敵方全體被寄生，每回合將吸取相當於自身 2 倍回復力的生命力，此傷害無視防禦力、屬性及敵方技能，並持續到死亡，效果最多可疊加 3 次",
     "skillMonsters": [
       "0483"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "腥甜契機",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%85%A5%E7%94%9C%E5%A5%91%E6%A9%9F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 7 倍、 生命力及回復力 1.6 倍 II. 場上有風化、弱化、凍結或石化符石 ⇒ 全隊攻擊力額外 3 倍 III. 將全隊對敵方造成攻擊傷害的 5% ⇒ 轉化為生命力 ⇒ 最大為生命力等值的 100%",
+    "skillMonsters": [
+      "10318"
     ]
   },
   {
@@ -38257,6 +38686,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "血的狂惑",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%9A%84%E7%8B%82%E6%83%91",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除自身休眠狀態 II. 自身的疲憊狀態變為亢奮狀態 1 回合內 III. 全隊攻擊力及回復力 1.5 倍 IV. 亢奮狀態的成員 ⇒ 攻擊力及回復力額外 1.5 倍",
+    "skillMonsters": [
+      "10318"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "血的紋章",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%9A%84%E7%B4%8B%E7%AB%A0",
     "skillCDMin": 21,
@@ -38915,6 +39355,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "諜影行動",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AB%9C%E5%BD%B1%E8%A1%8C%E5%8B%95",
+    "skillCDMin": 16,
+    "skillCDMax": 7,
+    "skillDesc": "I. 還原所有「碎裂」的位置 II. 將所有符石轉化為 ⇒ 人族強化符石 1 回合內 III. 自身攻擊力 3 倍 IV. 記錄「移動符石時間完結一刻」 場上的符石分佈 (包括種族、強化符石) ⇒ 消除符石後 首批掉落所記錄的符石 V. 回合結束時 ⇒ 將場上的符石變回 已記錄的符石分佈 VI. 隊中有 ≥3 個【間諜家家酒】成員 ⓵ 無視「燃燒」 ⓶「一步一傷」傷害減至 0",
+    "skillMonsters": [
+      "10328"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "諸刃之擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AB%B8%E5%88%83%E4%B9%8B%E6%93%8A",
     "skillCDMin": 24,
@@ -38977,6 +39428,17 @@
     "skillDesc": "I.【怪物彈珠】成員 ⇒ 攻擊力 6.5 倍、生命力及回復力 1.5 倍 II. 延長移動符石時間 2 秒 III. 消除 ≥3 種符石 ⇒ 全隊攻擊力額外 2.5 倍 IV. 全隊對光及暗屬性目標的傷害額外 2 倍",
     "skillMonsters": [
       "10217"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "護姊狂熱",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AD%B7%E5%A7%8A%E7%8B%82%E7%86%B1",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除【間諜家家酒】成員休眠狀態 II.「殺手＜睡美人＞」及 「約兒．佛傑」技能 CD -5 III. 引爆所有符石 ⇒ 掉落固定版面的五屬及心符石 IV. 隊中有「殺手＜睡美人＞」 或「約兒．佛傑」 ⇒ 則移除所有符石 ⇒ 掉落固定版面的 「五屬及心」人族強化符石",
+    "skillMonsters": [
+      "10336"
     ]
   },
   {
@@ -39077,6 +39539,17 @@
     "skillDesc": "生命力愈高，所受傷害愈低，最多減少 80% 傷害；生命力愈低，迴避敵人攻擊的機率愈高，最大 50%",
     "skillMonsters": [
       "0594"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "讀心術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%AE%80%E5%BF%83%E8%A1%93",
+    "skillCDMin": 16,
+    "skillCDMax": 7,
+    "skillDesc": "I. 於移動符石時間內， 可任意移動符石而不會發動消除 II. 敵方全體防禦力減至 0 III. 自身攻擊力基值減至 1 IV. 人類成員攻擊力 2 倍 V.【間諜家家酒】成員 ⇒ 攻擊力額外 1.5 倍 (效果會在關閉此技能或死亡後消失) 此技能可隨時關閉，關閉時： ⓵ 點選元素法陣上的符石 3 次 ⇒ 將固定 30 個位置的符石 轉化為所點選的符石",
+    "skillMonsters": [
+      "10329"
     ]
   },
   {
@@ -39275,6 +39748,17 @@
     "skillDesc": "3 回合內， 隊伍成員的種族及屬性愈多 ⇒ 所受傷害減少愈多 ⇒ 隊中集齊 5 種屬性及 6 個種族成員， 可減少最多 88% 傷害",
     "skillMonsters": [
       "2444"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "貴族的自尊心",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B2%B4%E6%97%8F%E7%9A%84%E8%87%AA%E5%B0%8A%E5%BF%83",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選 3 直行 ⇒ 引爆該直行符石 ⇒ 掉落該直行成員的屬性強化符石 II. 若點選的為【間諜家家酒】成員直行 ⇒ 該成員技能 CD -1",
+    "skillMonsters": [
+      "10335"
     ]
   },
   {
@@ -39666,6 +40150,28 @@
     "skillDesc": "I.【英雄協會】及木屬性成員 ⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍 II. 消除木或心符石 ⓵ 全隊攻擊力 4 倍 ⓶ 全隊無視「固定連擊盾」 III. 敵方攻擊前若我方生命力全滿 ⇒ 該回合減少 50% 所受傷害",
     "skillMonsters": [
       "10293"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "超能少女",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E8%83%BD%E5%B0%91%E5%A5%B3",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊伍中只有人類或 ≥3 種屬性成員： I. 全隊攻擊力 9 倍、 生命力及回復力 1.5 倍 II. 人類成員攻擊力額外 6 倍、 生命力及回復力額外 1.8 倍 III. 必然延長移動符石時間 2 秒 IV. 消除火、木或暗符石 ⇒ 增加 3 連擊 (Combo)",
+    "skillMonsters": [
+      "10329"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "超能感知",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E8%83%BD%E6%84%9F%E7%9F%A5",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 隊中只有獸類成員 ⓵ 全隊攻擊力 2 倍 ⓶ 以敵方所受傷害的 150% (不包括無屬性傷害) 對敵方再爆發無屬性傷害， 此傷害無視防禦力 II. 反之 ⓵ 觸碰「連環光牢」射擊位置 ⇒ 仍可移動符石 ⓶ 全隊無視敵人防禦力 ⓷【間諜家家酒】成員無視「攻前盾」 III. 隊中有「讀心超能．安妮亞」 或「安妮亞．佛傑」 ⇒ 同時獲得 I、II 效果",
+    "skillMonsters": [
+      "10333"
     ]
   },
   {
@@ -41023,6 +41529,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "邪惡力量封印",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E6%83%A1%E5%8A%9B%E9%87%8F%E5%B0%81%E5%8D%B0",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除「幽閉空間」 1 回合內 II. 所有成員以 20% 攻擊力 ⇒ 追打五屬攻擊各 1 次 III.自身及【水手戰士】成員 ⇒ 則以 100% 攻擊力追打",
+    "skillMonsters": [
+      "10351"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "邪惡力量封印",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E6%83%A1%E5%8A%9B%E9%87%8F%E5%B0%81%E5%8D%B0",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 點選場上 1 粒符石 ⇒ 引爆該種符石以外的符石 ⇒ 掉落該種符石 (包括種族、強化符石) 1 回合內 II.【水手戰士】成員 ⓵ 攻擊力 3 倍 ⓶ 無視「指定連擊法印」 ⓷ 無視「攻前盾」",
+    "skillMonsters": [
+      "10351"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "邪王炎殺劍",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%82%AA%E7%8E%8B%E7%82%8E%E6%AE%BA%E5%8A%8D",
     "skillCDMin": 12,
@@ -41541,6 +42069,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "金星愛與美大衝擊",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E6%98%9F%E6%84%9B%E8%88%87%E7%BE%8E%E5%A4%A7%E8%A1%9D%E6%93%8A",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I. 將單數橫行的符石 ⇒ 轉化為心強化符石 II. 若隊長為【水手戰士】成員 ⇒ 將雙數橫行的符石 轉化為隊長屬性人族強化符石",
+    "skillMonsters": [
+      "10348"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "金果誘毒",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%91%E6%9E%9C%E8%AA%98%E6%AF%92",
     "skillCDMin": 15,
@@ -41677,6 +42216,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "銀水晶力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%8A%80%E6%B0%B4%E6%99%B6%E5%8A%9B%E9%87%8F",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 「新希蕾妮蒂女王與安迪米歐國王」及 【水手戰士】成員 ⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍 II. 每累計首批消除 3 粒符石 ⇒ 掉落 1 粒心強化符石 III. 每累計消除 4 粒心符石 ⇒ 掉落 1 粒心強化符石 IV. 每累計消除 9 粒心強化符石 ⇒ 掉落 1 粒心強化符石",
+    "skillMonsters": [
+      "10351"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "銀河星爆",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%8A%80%E6%B2%B3%E6%98%9F%E7%88%86",
@@ -41707,6 +42257,28 @@
     "skillDesc": "I. 點選元素法陣上的符石 3 次 ⇒ 將該種符石引爆 ⇒ 掉落暗符石 1 回合內 II. 個人追打 3 次 III. 隊中有 ≥3 個【聖鬥士】 ⇒ 自身無視「指定形狀盾」",
     "skillMonsters": [
       "10085"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "銀色月光水晶力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%8A%80%E8%89%B2%E6%9C%88%E5%85%89%E6%B0%B4%E6%99%B6%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將所有符石轉化為強化符石 1 回合內 II. 增加 10 連擊 (Combo、Ex. Combo) III. 消除符石後 ⓵ 單數直行首批掉落 ⇒ 心強化符石 ⓶ 雙數直行首批掉落 ⇒ 光強化符石",
+    "skillMonsters": [
+      "10344"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "銀色月光水晶力量 ‧ 強",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%8A%80%E8%89%B2%E6%9C%88%E5%85%89%E6%B0%B4%E6%99%B6%E5%8A%9B%E9%87%8F_%E2%80%A7_%E5%BC%B7",
+    "skillCDMin": 12,
+    "skillCDMax": 7,
+    "skillDesc": "I. 將所有符石轉化為 ⇒ 人族強化符石 1 回合內 II. 增加 10 連擊 (Combo、Ex. Combo) III. 消除符石後 ⓵ 單數直行首批掉落 ⇒ 心人族符石 ⓶ 雙數直行首批掉落 ⇒ 光人族符石",
+    "skillMonsters": [
+      "10345"
     ]
   },
   {
@@ -42136,6 +42708,34 @@
     "skillDesc": "1 回合內 I. 發動技能及回合結束時 ⓵ 將自身左直行的符石 ⇒ 添加為魔族符石 ⓶ 將自身右直行的符石 ⇒ 添加為龍族符石 II. 每消除 1 粒暗符石 ⇒ 增加 1 連擊 (Combo) ⇒ 最多可增加 15 連擊 (Combo)",
     "skillMonsters": [
       "2753"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "間諜家家酒之力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%93%E8%AB%9C%E5%AE%B6%E5%AE%B6%E9%85%92%E4%B9%8B%E5%8A%9B",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "【間諜家家酒】成員攻擊力 6 倍",
+    "skillMonsters": [
+      "10331",
+      "10332",
+      "10334",
+      "10335",
+      "10337",
+      "10338",
+      "10339"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "間諜家庭",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%93%E8%AB%9C%E5%AE%B6%E5%BA%AD",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "【間諜家家酒】成員攻擊力 7 倍、 生命力及回復力 2 倍",
+    "skillMonsters": [
+      "10330"
     ]
   },
   {
@@ -43403,7 +44003,7 @@
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E4%B9%8B%E6%B3%89%E6%BA%90",
     "skillCDMin": 21,
     "skillCDMax": 10,
-    "skillDesc": "在每個有消除心符石的回合後，產生 1 粒心符石 (效果持續至死亡或沒有消除心符石為止，效果持續期間技能不會冷卻）",
+    "skillDesc": "在每個有消除心符石的回合後，掉落 1 粒心符石 (效果持續至死亡或沒有消除心符石為止，效果持續期間技能不會冷卻）",
     "skillMonsters": []
   },
   {
@@ -43759,6 +44359,17 @@
     "skillDesc": "隊伍中只有人類及 ≥2 個獸類成員時： I. 人類攻擊力 3.5 倍 II. 獸類攻擊力 2.5 倍",
     "skillMonsters": [
       "1714"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "靈獸連打",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E7%8D%B8%E9%80%A3%E6%89%93",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選元素法陣上的符石 2 次 ⇒ 將首次點選的符石轉化為 第 2 次點選的火、光或心符石 (並加強為強化符石) 1 回合內 II. 全隊攻擊力 1.8 倍 II. 獸類成員以 50% 攻擊力追打 ⇒ 火及光屬性攻擊各 1 次",
+    "skillMonsters": [
+      "2802"
     ]
   },
   {
@@ -44463,6 +45074,17 @@
     "skillDesc": "I. 將單數橫行的符石 ⇒ 轉化為木強化符石 II. 將雙數橫行的符石 ⇒ 轉化為隊長屬性強化符石 1 回合內 III. 自身不能發動攻擊",
     "skillMonsters": [
       "10207"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "飛馬神光 · 發射",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A3%9B%E9%A6%AC%E7%A5%9E%E5%85%89_%C2%B7_%E7%99%BC%E5%B0%84",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 完全回復生命力 II. 解除全隊休眠狀態 2 回合 III. 全隊攻擊力 2 倍 IV.【水手戰士】成員 ⇒ 攻擊力額外 1.5 倍 V. 消除符石後 ⇒ 首批掉落心強化符石 VI. 若隊長為 【水手戰士】成員 ⇒ 所受傷害不會使你死亡",
+    "skillMonsters": [
+      "10347"
     ]
   },
   {
@@ -47147,6 +47769,17 @@
     "skillDesc": "敵人全體中烈毒： ⓵ 使受影響目標攻擊力減至 0 ⓶ 每回合每個敵人受到 敵人自身減去攻擊力 200 倍 的無屬性傷害， 此傷害無視敵人防禦力， 持續 2 回合",
     "skillMonsters": [
       "10254"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "黑暗與混沌",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BB%91%E6%9A%97%E8%88%87%E6%B7%B7%E6%B2%8C",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 隊中只有人類、妖精類或魔族成員 ⇒ 全隊攻擊力 8 倍及生命力 4 倍 II. 消除 ≥4 種符石 ⓵ 全隊攻擊力額外 4 倍 ⓶ 全隊無視敵人防禦力",
+    "skillMonsters": [
+      "10359"
     ]
   },
   {

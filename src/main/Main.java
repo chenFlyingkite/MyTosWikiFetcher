@@ -33,7 +33,6 @@ import main.fetcher.TosWikiImageFileFetcher;
 import main.fetcher.TosWikiPageFetcher;
 import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
-import main.fetcher.exchange.ForeignExchangeRateFetcher;
 import main.fetcher.thsr.THSRTGoFetcher;
 import main.fetcher.web.WebFetcher;
 import main.kt.CopyInfo;
@@ -52,13 +51,13 @@ public class Main {
     public static void main(String[] args) {
         L.log("Main, %s", now());
         //-- Main work
-        //fetch(0); // x <= 0 : run TosCardExtras
+        fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //stock();
         //taiwanHighSpeedRail();
         //TosCardFetcher.me.run();
-        ForeignExchangeRateFetcher.main(null);
+        //ForeignExchangeRateFetcher.main(null);
         //Covariance.test();
 
         //LiveAHeroMain.main(null);
@@ -72,7 +71,7 @@ public class Main {
         //TosCardFetcher.me.run();
 
         //gold();
-        //enterTemperature();
+        //enterKeyboard();
         //TosUserPackFetcher.me.run();
         //TosWikiHomeFetcher.me.run();
         //TosCardExtras.me.run();
@@ -116,6 +115,11 @@ public class Main {
     private static void training() {
         //new BinarySearchVisualizer().run();
     }
+
+    // 2147483647          = 2.1 * 10^9  = Integer.MAX_VALUE = 2^31 - 1 = 0x7fffffff
+    // 9223372036854775807 = 9.2 * 10^18 = Long.MAX_VALUE    = 2^63 - 1 = 0x7fffffffffffffffL
+    // 0         1         2
+    // 012345678901234567890
 
     // Used for auto enter the UID giveaway
     // Usage: Change the more text if you have answers,
@@ -182,33 +186,21 @@ public class Main {
     // AppleID cl.shaomai@gmail.com / Cl23829868
     // https://developer.android.com/studio/command-line/adb
 
-    private static void enterTemperature() {
+    private static void enterKeyboard() {
         // In macOS, after we start, we still need to click on the text field to let it enters
         try {
-            boolean isClockOut = 0 > 0;
             int type = 0;  // forehead = 0, ear = 1, other = 2
 
             Robot2 r = new Robot2();
             r.delay(5_000);
-            r.type("36.1");
-            // Forehead temperature, Ear temperature  Others
-            r.keySend(KeyEvent.VK_TAB);
-            if (type == 1) {
-                r.keySend(KeyEvent.VK_RIGHT);
+            for (int j = 0; j < 20; j++) {
+                for (int i = 0; i < 5; i++) {
+                    r.keySend(KeyEvent.VK_TAB);
+                    r.keySend(KeyEvent.VK_DELETE);
+                    r.keySend(KeyEvent.VK_END);
+                }
+                r.keySend(KeyEvent.VK_DOWN);
             }
-            r.keySend(KeyEvent.VK_SPACE);
-            // syndromes
-            r.keySend(KeyEvent.VK_TAB);
-            r.keySend(KeyEvent.VK_SPACE);
-            r.keySend(KeyEvent.VK_TAB);
-            r.keySend(KeyEvent.VK_SPACE);
-            r.keySend(KeyEvent.VK_TAB);
-            r.keySend(KeyEvent.VK_SPACE);
-            r.keySend(KeyEvent.VK_TAB);
-            if (isClockOut) {
-                r.keySend(KeyEvent.VK_TAB);
-            }
-            r.keySend(KeyEvent.VK_SPACE);
         } catch (AWTException e) {
             e.printStackTrace();
         }
