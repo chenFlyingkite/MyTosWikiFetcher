@@ -5,6 +5,7 @@ import java.util.Map;
 
 public enum Heros {
     // All hero of web data
+    // v2.6.1
     Akashi("アカシ", "akashi", "赤司"),
     Akashi2("水弾のアカシ", "akashi", "赤司"),
     Mokdai("モクダイ", "mokdai", "木代"),
@@ -27,6 +28,7 @@ public enum Heros {
     Shoen("ショウエン", "shoen", "松煙"),
     Shoen2("隠密のショウエン", "shoen", "松煙"),
     Toshu("トウシュウ", "toshu", "東秀"),
+    Toshu2("流離のトウシュウ", "toshu", "東秀"), // no moe
     Marfik("マルフィク", "marfik", "馬爾菲克"),
     Marfik2("探険のマルフィク", "marfik", "馬爾菲克"),
     PolarisMask("ポラリスマスク", "polaris_mask", "北極星假面"),
@@ -59,12 +61,18 @@ public enum Heros {
     Nessen("ネッセン", "nessen", "熱泉"),
     Hisaki("ヒサキ", "hisaki", "久希"),
     Hisaki2("潜遊のヒサキ", "hisaki", "久希"),
+    GuardManFire("火のガードマン", "", ""),
+    GuardManWater("水のガードマン", "", ""),
+    GuardManWood("木のガードマン", "", ""),
+    GuardManLight("光のガードマン", "", ""),
+    GuardManShadow("影のガードマン", "", ""),
     Maculata("マクラータ", "maculata", "瑪格菈塔"),
     Rutilix("ルティリクス", "rutilix", "路提利克斯"),
     Alphecca("アルフェッカ", "alphecca", "阿爾菲卡"),
     Shaft("シャフト", "shaft", "沙夫特"),
+    Shaft2("疾走のシャフト", "shaft", "沙夫特"), // no moe
     Kalaski("カラスキ", "kalaski", "卡拉斯奇"),
-    Vulpecula("ウルペクラ", "vulpecula", "乌尔佩库拉"),//-
+    Vulpecula("ウルペクラ", "vulpecula", "乌尔佩库拉"),
     MercenaryFire("火のマーセナリー", "", ""),
     MercenaryWater("水のマーセナリー", "", ""),
     MercenaryWood("木のマーセナリー", "", ""),
@@ -87,10 +95,17 @@ public enum Heros {
     Roiker("ロイカー", "roiker", "罗伊克"),
     Seiichiro("セイイチロウ", "seiichiro", "政一郎"), // sidekick only
     Gaius("ガイウス", "gaius", "盖尤斯"),
+    reXer("リグザ", "rexer", ""), // no moe
+    Cerastium("セラスティウム", "cerastium", ""), // no moe
     Player("主人公", "player", "主人公(LIVE_A_HERO)"), // sidekick only
     ;
 
+    // Name from link
+    // https://liveahero-wiki.github.io/charas/#heroes
     public String nameEn = "";
+    // Name from link of
+    // https://wikiwiki.jp/live-a-hero/ID%E5%88%A5
+    // https://wikiwiki.jp/live-a-hero/%E3%82%B5%E3%82%A4%E3%83%89%E3%82%AD%E3%83%83%E3%82%AF/ID%E5%88%A5
     public String nameJa = "";
     // format of
     // https://liveahero-wiki.github.io/charas/{$github}
@@ -147,6 +162,8 @@ public enum Heros {
         hero2Map.put(Alchiba, Alchiba2);
         hero2Map.put(Narihito, Narihito2);
         hero2Map.put(Hisaki, Hisaki2);
+        hero2Map.put(Toshu, Toshu2);
+        hero2Map.put(Shaft, Shaft2);
     }
 
 }

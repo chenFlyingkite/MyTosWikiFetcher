@@ -38,6 +38,7 @@ public class LiveAHeroMain {
         // 1 = parse hero
         init();
 
+        // web = true if it has new hero to reload
         boolean web = 0 > 0;
         if (web) {
             fetchHero();
