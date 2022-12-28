@@ -788,6 +788,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "不朽的青春",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%9C%BD%E7%9A%84%E9%9D%92%E6%98%A5",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "4 回合內 I.「妮黑蕾雅」及 「吉爾科尼亞」 ⓵ 攻擊力 4 倍 ⓶ 無視「指定連擊法印」 ⓷ 無視「指定形狀盾」 II. 回合結束時， 將場上的符石轉化為 ⇒ 五屬妖族符石各 6 粒",
+    "skillMonsters": [
+      "10360"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "不死復活術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E6%AD%BB%E5%BE%A9%E6%B4%BB%E8%A1%93",
     "skillCDMin": 22,
@@ -4537,6 +4548,17 @@
     "skillDesc": "I. 解除「大紅蓮團」成員被封鎖的技能 (此技能無視封鎖技能) II. 引爆石化符石及最底 3 行符石 III. 將左上方 3 橫行符石分別轉化為「水、火、木」強化符石各 3 粒 IV. 將右上方 3 橫行符石分別轉化為「光、暗、心」強化符石各 3 粒 1 回合內 V. 自身攻擊力 5 倍 VI 發動技能時若龍脈儀全滿，自身攻擊無視敵人防禦力",
     "skillMonsters": [
       "2422"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "全方位領唱",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%A8%E6%96%B9%E4%BD%8D%E9%A0%98%E5%94%B1",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除【偶像女團】成員 被封鎖的技能 (此技能無視封鎖技能) II. 引爆石化符石及 最底 3 行符石 III. 將左上方 3 橫行符石 分別轉化為「水、火、木」 強化符石各 3 粒 IV. 將右上方 3 橫行符石 分別轉化為「光、暗、心」 強化符石各 3 粒 1 回合內 V. 自身攻擊力 5 倍 VI 發動技能時若龍脈儀全滿 ⇒ 自身無視敵人防禦力",
+    "skillMonsters": [
+      "10322"
     ]
   },
   {
@@ -8308,6 +8330,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "堅不可摧的女團魅力！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A0%85%E4%B8%8D%E5%8F%AF%E6%91%A7%E7%9A%84%E5%A5%B3%E5%9C%98%E9%AD%85%E5%8A%9B%EF%BC%81",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有【偶像女團】成員： I. 全隊攻擊力 7 倍、 生命力及回復力 1.5 倍 II. 消除符石的屬性愈多 ⇒ 全隊攻擊力額外提升愈多 ⇒ 最多可提升至 3 倍 III. 消除心符石 ⇒ 減少 40% 所受傷害",
+    "skillMonsters": [
+      "10322"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "堅不可摧的心！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A0%85%E4%B8%8D%E5%8F%AF%E6%91%A7%E7%9A%84%E5%BF%83%EF%BC%81",
     "skillCDMin": -1,
@@ -9830,6 +9863,50 @@
   },
   {
     "type": "隊長技",
+    "skillName": "女團不滅",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E5%9C%98%E4%B8%8D%E6%BB%85",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I.【偶像女團】成員攻擊力 6 倍、 生命力及回復力 1.3 倍 II. 水及心符石互相兼具 50% 效果 III. 消除 ≥6 粒水符石 ⇒【偶像女團】成員攻擊力額外 2 倍",
+    "skillMonsters": [
+      "10321"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "女團之祈願",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E5%9C%98%E4%B9%8B%E7%A5%88%E9%A1%98",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有【偶像女團】或妖精類成員： I. 全隊攻擊力 7 倍、 生命力及回復力 1.5 倍 II. 消除木符石 ⇒ 全隊攻擊力額外 2 倍 III. 消除心符石 ⇒ 全隊攻擊力額外 2 倍 IV. 同時消除木及心符石 ⇒ 全隊攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "10323"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "女團之魂",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E5%9C%98%E4%B9%8B%E9%AD%82",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有【偶像女團】、 人類或龍類成員： I. 全隊攻擊力 7 倍 II. 每消除 1 組符石 ⇒ 額外計算多 1 連擊 (Ex. Combo) ⇒ 最多可額外增加 12 連擊 (Ex. Combo) (Ex. Combo 上限不能疊加) III. Ex. Combo 達至 ≥6 時 ⇒ 全隊攻擊力額外 2 倍 IV. 光符石兼具 50% 其他屬性符石效果 V. 心符石兼具 50% 屬性符石效果 VI. 同時消除光及心符石 ⇒ 全隊攻擊力額外 1.5 倍",
+    "skillMonsters": [
+      "10324"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "女團的力量 ‧ 魔",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E5%9C%98%E7%9A%84%E5%8A%9B%E9%87%8F_%E2%80%A7_%E9%AD%94",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I.【偶像女團】及魔族成員 攻擊力 7 倍、生命力及回復力 1.3 倍 II. 暗及心符石互相兼具 50% 效果 III. 消除 ≥6 粒暗符石 ⇒【偶像女團】及魔族成員 攻擊力額外 2 倍",
+    "skillMonsters": [
+      "10325"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "女王的力量",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E7%8E%8B%E7%9A%84%E5%8A%9B%E9%87%8F",
     "skillCDMin": -1,
@@ -10738,6 +10815,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "宇宙震盪",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%87%E5%AE%99%E9%9C%87%E7%9B%AA",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I.「超級水手海王星」技能 CD -1 II. 點選 1 橫行的符石 ⇒ 將該橫行符石轉化為 3 粒光強化符石及 3 粒心強化符石 III. 電擊敵方全體， 使受影響目標 ⓵ 無法行動 ⓶ 轉為隊長克制屬性 持續 1 回合 1 回合內 IV. 自身攻擊力 6 倍 V.【水手戰士】成員 ⇒ 無視「三屬盾」、「五屬盾」",
+    "skillMonsters": [
+      "10353"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "守護 ‧ 集結",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%AE%88%E8%AD%B7_%E2%80%A7_%E9%9B%86%E7%B5%90",
@@ -11495,6 +11583,17 @@
     "skillDesc": "I. 將最左及最右方直行的符石 ⇒ 轉化為木強化符石 II. 引爆中間 4 直行的符石",
     "skillMonsters": [
       "2465"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "巨萌獻唱",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E8%90%8C%E7%8D%BB%E5%94%B1",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 點擊元素法陣上的符石 2 次 ⇒ 將固定 18 個位置的符石 轉化為所點擊的強化符石 1 回合內 II. 所受傷害不會使你死亡 III. 隊伍不受中毒技能影響",
+    "skillMonsters": [
+      "10324"
     ]
   },
   {
@@ -13996,6 +14095,17 @@
     "skillDesc": "隊中只有暗屬性或【假面騎士】成員時： I. 全隊攻擊力 6.5 倍、 生命力及回復力 1.5 倍 II. 達至 ≥10 Combo 或 Ex. Combo ⇒ 全隊攻擊力額外 3 倍 III. 減少 25% 所受傷害 IV. 所受人類敵人的傷害則減少 40%",
     "skillMonsters": [
       "2704"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "我就是女團領袖啊！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%91%E5%B0%B1%E6%98%AF%E5%A5%B3%E5%9C%98%E9%A0%98%E8%A2%96%E5%95%8A%EF%BC%81",
+    "skillCDMin": 36,
+    "skillCDMax": 25,
+    "skillDesc": "I. 完全回復生命力 99 回合內 II. 回合結束時 ⇒ 完全回復生命力 III.【偶像女團】成員攻擊力 3 倍",
+    "skillMonsters": [
+      "10321"
     ]
   },
   {
@@ -26215,6 +26325,17 @@
     "skillDesc": "I. 引爆「火及心以外」符石 ⇒ 掉落隊伍成員屬性強化符石 1 回合內 II. 自身攻擊力 10 倍， 此傷害無視防禦力， 其他成員不能發動攻擊 III. 若隊伍中有 「卿雲護庇 ‧ 蒼璧」或 「豁達浪息 ‧ 蒼璧」 ⇒ 所受傷害不會使你死亡 IV. 若隊伍中有 「編號 8299 ‧ 南納」 ⇒ 火及心符石互相兼具效果",
     "skillMonsters": [
       "2587"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "熾烈的高焰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%83%88%E7%9A%84%E9%AB%98%E7%84%B0",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 敵方全體點燃， 使受影響目標 ⓵ 轉為火屬性 ⓶ 防禦力變為 0 ⓷ 每回合受自身攻擊力基值 400 倍的火屬性傷害 持續至死亡 II. 效果持續期間 ⓵ 自身攻擊力 4 倍 ⓶ 自身無視指定減傷抗性敵技",
+    "skillMonsters": [
+      "10325"
     ]
   },
   {
@@ -40037,6 +40158,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "超激盪舞蹈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E6%BF%80%E7%9B%AA%E8%88%9E%E8%B9%88",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 發動技能及每回合結束時 ⇒ 將最底 1 橫行的符石 轉化為心強化符石 II. 首批消除所有心符石 ⇒ 隊長追打水屬性攻擊 1 次 此技能可隨時關閉，關閉時： ⓵ 引爆所有符石 ⓶ 完全回復生命力",
+    "skillMonsters": [
+      "10323"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "超現實攻擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E7%8F%BE%E5%AF%A6%E6%94%BB%E6%93%8A",
     "skillCDMin": 17,
@@ -40610,6 +40742,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "迷幻術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%B7%E5%B9%BB%E8%A1%93",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I.「妮黑蕾雅」及自身以外的 【亞馬遜四重奏】成員技能 CD -1 II. 引爆自身直行符石 ⇒ 掉落木強化符石 1 回合內 III. 無視「黏腐」 IV. 減少 50% 所受傷害 V. 隊中每多 1 個【亞馬遜四重奏】成員 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 4 回合",
+    "skillMonsters": [
+      "10357"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "迷香蕩漾 ‧ 玄光",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BF%B7%E9%A6%99%E8%95%A9%E6%BC%BE_%E2%80%A7_%E7%8E%84%E5%85%89",
     "skillCDMin": 19,
@@ -40871,6 +41014,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "這就是偶像女團！這就是 NOVA-H！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%99%E5%B0%B1%E6%98%AF%E5%81%B6%E5%83%8F%E5%A5%B3%E5%9C%98%EF%BC%81%E9%80%99%E5%B0%B1%E6%98%AF_NOVA-H%EF%BC%81",
+    "skillCDMin": 65,
+    "skillCDMax": 6,
+    "skillDesc": "I. 額外增加 3 行符石： 分別為直行「五屬及心」 機械族強化符石各 3 粒 1 回合內 II. 延長移動符石時間至 15 秒 III. 個人追打 4 次 IV. 自身無視「指定形狀盾」 及「固定連擊盾」 V. 回合結束時 ⇒ 自身進入 1 回合疲憊狀態",
+    "skillMonsters": [
+      "10326"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "這就是天元突破！這就是紅蓮螺巖！",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%99%E5%B0%B1%E6%98%AF%E5%A4%A9%E5%85%83%E7%AA%81%E7%A0%B4%EF%BC%81%E9%80%99%E5%B0%B1%E6%98%AF%E7%B4%85%E8%93%AE%E8%9E%BA%E5%B7%96%EF%BC%81",
     "skillCDMin": 65,
@@ -40878,6 +41032,17 @@
     "skillDesc": "I. 額外增加 3 行符石： 分別為直行「五屬及心」 機械族強化符石各 3 粒 1 回合內 II. 延長移動符石時間至 15 秒 III. 個人追打 4 次 IV. 自身無視「指定形狀盾」 及「固定連擊盾」敵技 V. 回合結束時 ⇒ 自身進入 1 回合瀕死狀態",
     "skillMonsters": [
       "2425"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "這就是我們偶像女團！",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%80%99%E5%B0%B1%E6%98%AF%E6%88%91%E5%80%91%E5%81%B6%E5%83%8F%E5%A5%B3%E5%9C%98%EF%BC%81",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有【偶像女團】成員： 全隊攻擊力 8 倍、生命力及回復力 1.5 倍",
+    "skillMonsters": [
+      "10326"
     ]
   },
   {
@@ -43377,6 +43542,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "雜技魔術",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%9C%E6%8A%80%E9%AD%94%E8%A1%93",
+    "skillCDMin": 16,
+    "skillCDMax": 5,
+    "skillDesc": "I.「妮黑蕾雅」及自身以外的 【亞馬遜四重奏】成員技能 CD -1 II. 引爆自身直行符石 ⇒ 掉落暗強化符石 1 回合內 III. 將移動符石時觸碰的 石化符石狀態解除 IV. 全隊攻擊力 2 倍 V. 隊中每多 1 個【亞馬遜四重奏】成員 ⇒ 額外增加 1 回合效果 ⇒ 最多可持續 4 回合",
+    "skillMonsters": [
+      "10358"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "雪晶魔法",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%AA%E6%99%B6%E9%AD%94%E6%B3%95",
     "skillCDMin": 17,
@@ -45659,6 +45835,17 @@
     "skillDesc": "I. 將 12 粒符石轉化為 ⇒ 妖族強化符石 (非種族符石優先轉換) 1 回合內 II. 可任意移動符石 而不會發動消除 III. 自身攻擊力減至 0 IV. 左旁成員攻擊力 4 倍 V. 左旁成員的攻擊 ⇒ 無視敵人防禦力",
     "skillMonsters": [
       "2493"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "魅力超越巔峰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AD%85%E5%8A%9B%E8%B6%85%E8%B6%8A%E5%B7%94%E5%B3%B0",
+    "skillCDMin": 62,
+    "skillCDMax": 3,
+    "skillDesc": "I. 迷倒敵方全體， 使受影響目標無法行動， 敵人受到的傷害 2.5 倍， 持續 1 回合 2 回合內 II. 每消除 1 組符石 ⇒ 額外增加 1 連擊 (Combo)",
+    "skillMonsters": [
+      "10326"
     ]
   },
   {

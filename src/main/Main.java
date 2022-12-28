@@ -114,6 +114,7 @@ public class Main {
 
     private static void training() {
         //new BinarySearchVisualizer().run();
+        //PointExchange.main(null);
     }
 
     // 2147483647          = 2.1 * 10^9  = Integer.MAX_VALUE = 2^31 - 1 = 0x7fffffff

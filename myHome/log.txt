@@ -24,12 +24,12 @@
   "name": "被選中的戰士",
   "icon": "10346"
 },
-1670227200 ~ 1671379140 -> [12月05日(一) 16:00, 12月18日(日) 23:59, 來自深海的波浪 ※ 冒險任務]
-  link = https://tos.fandom.com/zh/wiki/%E4%BE%86%E8%87%AA%E6%B7%B1%E6%B5%B7%E7%9A%84%E6%B3%A2%E6%B5%AA
+1671379200 ~ 1672588800 -> [12月19日(一), 1月01日(日), 撼動宇宙的震裂 ※ 冒險任務]
+  link = https://tos.fandom.com/zh/wiki/%E6%92%BC%E5%8B%95%E5%AE%87%E5%AE%99%E7%9A%84%E9%9C%87%E8%A3%82
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E4%BE%86%E8%87%AA%E6%B7%B1%E6%B5%B7%E7%9A%84%E6%B3%A2%E6%B5%AA",
-  "name": "來自深海的波浪",
-  "icon": "10352"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%92%BC%E5%8B%95%E5%AE%87%E5%AE%99%E7%9A%84%E9%9C%87%E8%A3%82",
+  "name": "撼動宇宙的震裂",
+  "icon": "10353"
 },
 1670774400 ~ 1672588800 -> [12月12日(一), 1月01日(日), 少女們的日常 ※ 造型挑戰任務]
   link = https://tos.fandom.com/zh/wiki/%E5%B0%91%E5%A5%B3%E5%80%91%E7%9A%84%E6%97%A5%E5%B8%B8
@@ -70,12 +70,26 @@
 },
 0 ~ 0 -> [⬇ 所有地區關卡 ⬇]
   link = 
-1667232000 ~ 1669824000 -> [11月01日(二), 11月30日(三), 月月挑戰之霜降月 2022 ※ 月挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E6%9C%88%E6%9C%88%E6%8C%91%E6%88%B0%E4%B9%8B%E9%9C%9C%E9%99%8D%E6%9C%88_2022
+1671379200 ~ 1671984000 -> [12月19日(一), 12月25日(日), 神魔會專屬 ‧ 聖誕節節慶 2022 ※ 神魔會會員限定]
+  link = https://tos.fandom.com/zh/wiki/%E7%A5%9E%E9%AD%94%E6%9C%83%E5%B0%88%E5%B1%AC_%E2%80%A7_%E8%81%96%E8%AA%95%E7%AF%80%E7%AF%80%E6%85%B6_2022
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E6%9C%88%E6%8C%91%E6%88%B0%E4%B9%8B%E9%9C%9C%E9%99%8D%E6%9C%88_2022",
-  "name": "月月挑戰之霜降月 2022",
-  "icon": "10170"
+  "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E9%AD%94%E6%9C%83%E5%B0%88%E5%B1%AC_%E2%80%A7_%E8%81%96%E8%AA%95%E7%AF%80%E7%AF%80%E6%85%B6_2022",
+  "name": "神魔會專屬 ‧ 聖誕節節慶 2022",
+  "icon": "0518"
+},
+1671552000 ~ 1671724800 -> [12月21日(三), 12月22日(四), 戰靈補給 I ※ 一次通關限定]
+  link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_I
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_I",
+  "name": "戰靈補給 I",
+  "icon": "0426"
+},
+1671724800 ~ 1671897600 -> [12月23日(五), 12月24日(六), 戰靈補給 II ※ 一次通關限定]
+  link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_II
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_II",
+  "name": "戰靈補給 II",
+  "icon": "0291"
 },
 1669824000 ~ 1672502400 -> [12月01日(四), 12月31日(六), 月月挑戰之師走月 2022 ※ 月挑戰任務]
   link = https://tos.fandom.com/zh/wiki/%E6%9C%88%E6%9C%88%E6%8C%91%E6%88%B0%E4%B9%8B%E5%B8%AB%E8%B5%B0%E6%9C%88_2022
@@ -84,89 +98,19 @@
   "name": "月月挑戰之師走月 2022",
   "icon": "10197"
 },
-1668960000 ~ 1671379200 -> [11月21日(一), 12月18日(日), 戰火輪迴 ‧ 改 ※ 復刻輪迴任務]
-  link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E8%BC%AA%E8%BF%B4_%E2%80%A7_%E6%94%B9
+1671379200 ~ 1672588800 -> [12月19日(一), 1月01日(日), 偶像沒有輸 ※ 復刻輪迴]
+  link = https://tos.fandom.com/zh/wiki/%E5%81%B6%E5%83%8F%E6%B2%92%E6%9C%89%E8%BC%B8
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%81%AB%E8%BC%AA%E8%BF%B4_%E2%80%A7_%E6%94%B9",
-  "name": "戰火輪迴 ‧ 改",
-  "icon": "7019"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%81%B6%E5%83%8F%E6%B2%92%E6%9C%89%E8%BC%B8",
+  "name": "偶像沒有輸",
+  "icon": "2223"
 },
-1669219200 ~ 1671033600 -> [11月24日(四), 12月14日(三), 來自王者的挑戰 ※ 特殊任務]
-  link = https://tos.fandom.com/zh/wiki/%E4%BE%86%E8%87%AA%E7%8E%8B%E8%80%85%E7%9A%84%E6%8C%91%E6%88%B0
+1671422400 ~ 1672588740 -> [12月19日(一) 12:00, 1月01日(日) 23:59, 花漾偶像登場 ※ 挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E8%8A%B1%E6%BC%BE%E5%81%B6%E5%83%8F%E7%99%BB%E5%A0%B4
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E4%BE%86%E8%87%AA%E7%8E%8B%E8%80%85%E7%9A%84%E6%8C%91%E6%88%B0",
-  "name": "來自王者的挑戰",
-  "icon": "S-1031i"
-},
-1669564800 ~ 1670169600 -> [11月28日(一), 12月04日(日), 影子中的龍牙 ※ 全新戰慄級]
-  link = https://tos.fandom.com/zh/wiki/%E5%BD%B1%E5%AD%90%E4%B8%AD%E7%9A%84%E9%BE%8D%E7%89%99
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%BD%B1%E5%AD%90%E4%B8%AD%E7%9A%84%E9%BE%8D%E7%89%99",
-  "name": "影子中的龍牙",
-  "icon": "10317"
-},
-1669564800 ~ 1670169600 -> [11月28日(一), 12月04日(日), 群魔的亂象鬥景 ※ 復刻挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%BE%A4%E9%AD%94%E7%9A%84%E4%BA%82%E8%B1%A1%E9%AC%A5%E6%99%AF
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%BE%A4%E9%AD%94%E7%9A%84%E4%BA%82%E8%B1%A1%E9%AC%A5%E6%99%AF",
-  "name": "群魔的亂象鬥景",
-  "icon": "2756"
-},
-1668355200 ~ 1669564800 -> [11月14日(一), 11月27日(日), 面惡心善的仙將 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E9%9D%A2%E6%83%A1%E5%BF%83%E5%96%84%E7%9A%84%E4%BB%99%E5%B0%87
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9D%A2%E6%83%A1%E5%BF%83%E5%96%84%E7%9A%84%E4%BB%99%E5%B0%87",
-  "name": "面惡心善的仙將",
-  "icon": "2144"
-},
-1668355200 ~ 1669564800 -> [11月14日(一), 11月27日(日), 膽小怕生的仙將 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E8%86%BD%E5%B0%8F%E6%80%95%E7%94%9F%E7%9A%84%E4%BB%99%E5%B0%87
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%86%BD%E5%B0%8F%E6%80%95%E7%94%9F%E7%9A%84%E4%BB%99%E5%B0%87",
-  "name": "膽小怕生的仙將",
-  "icon": "2173"
-},
-1668355200 ~ 1669564800 -> [11月14日(一), 11月27日(日), 愛好美女的仙將 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%84%9B%E5%A5%BD%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BB%99%E5%B0%87
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E5%A5%BD%E7%BE%8E%E5%A5%B3%E7%9A%84%E4%BB%99%E5%B0%87",
-  "name": "愛好美女的仙將",
-  "icon": "2145"
-},
-1668355200 ~ 1669564800 -> [11月14日(一), 11月27日(日), 愛說教的仙將 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%AA%AA%E6%95%99%E7%9A%84%E4%BB%99%E5%B0%87
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%84%9B%E8%AA%AA%E6%95%99%E7%9A%84%E4%BB%99%E5%B0%87",
-  "name": "愛說教的仙將",
-  "icon": "2206"
-},
-1668355200 ~ 1669564800 -> [11月14日(一), 11月27日(日), 追求刺激的仙將 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E8%BF%BD%E6%B1%82%E5%88%BA%E6%BF%80%E7%9A%84%E4%BB%99%E5%B0%87
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%BF%BD%E6%B1%82%E5%88%BA%E6%BF%80%E7%9A%84%E4%BB%99%E5%B0%87",
-  "name": "追求刺激的仙將",
-  "icon": "2146"
-},
-1669564800 ~ 1670774400 -> [11月28日(一), 12月11日(日), 歡迎來到七輪會 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E4%B8%83%E8%BC%AA%E6%9C%83
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%AD%A1%E8%BF%8E%E4%BE%86%E5%88%B0%E4%B8%83%E8%BC%AA%E6%9C%83",
-  "name": "歡迎來到七輪會",
-  "icon": "10094"
-},
-1669564800 ~ 1670774400 -> [11月28日(一), 12月11日(日), 撲滅罪惡的巡邏 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E6%92%B2%E6%BB%85%E7%BD%AA%E6%83%A1%E7%9A%84%E5%B7%A1%E9%82%8F
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%92%B2%E6%BB%85%E7%BD%AA%E6%83%A1%E7%9A%84%E5%B7%A1%E9%82%8F",
-  "name": "撲滅罪惡的巡邏",
-  "icon": "10095"
-},
-1668960000 ~ 1670169600 -> [11月21日(一), 12月04日(日), 自以為可愛的欺詐犯 ※ 全新雙週]
-  link = https://tos.fandom.com/zh/wiki/%E8%87%AA%E4%BB%A5%E7%82%BA%E5%8F%AF%E6%84%9B%E7%9A%84%E6%AC%BA%E8%A9%90%E7%8A%AF
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%87%AA%E4%BB%A5%E7%82%BA%E5%8F%AF%E6%84%9B%E7%9A%84%E6%AC%BA%E8%A9%90%E7%8A%AF",
-  "name": "自以為可愛的欺詐犯",
-  "icon": "10315"
+  "link": "https://tos.fandom.com/zh/wiki/%E8%8A%B1%E6%BC%BE%E5%81%B6%E5%83%8F%E7%99%BB%E5%A0%B4",
+  "name": "花漾偶像登場",
+  "icon": "10326"
 },
 1670774400 ~ 1671984000 -> [12月12日(一), 12月25日(日), 賓至如歸的體驗 ※ 復刻雙週]
   link = https://tos.fandom.com/zh/wiki/%E8%B3%93%E8%87%B3%E5%A6%82%E6%AD%B8%E7%9A%84%E9%AB%94%E9%A9%97
@@ -182,40 +126,19 @@
   "name": "密不見縫的防禦",
   "icon": "10105"
 },
-1670335200 ~ 1670601540 -> [12月06日(二) 22:00, 12月09日(五) 23:59, 國王所背負的重擔 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E5%9C%8B%E7%8E%8B%E6%89%80%E8%83%8C%E8%B2%A0%E7%9A%84%E9%87%8D%E6%93%94
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%9C%8B%E7%8E%8B%E6%89%80%E8%83%8C%E8%B2%A0%E7%9A%84%E9%87%8D%E6%93%94",
-  "name": "國王所背負的重擔",
-  "icon": "2234"
-},
-1670594400 ~ 1670860740 -> [12月09日(五) 22:00, 12月12日(一) 23:59, 疾風魔影 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%A2%A8%E9%AD%94%E5%BD%B1
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%96%BE%E9%A2%A8%E9%AD%94%E5%BD%B1",
-  "name": "疾風魔影",
-  "icon": "2212"
-},
-1669989600 ~ 1670255940 -> [12月02日(五) 22:00, 12月05日(一) 23:59, 屈居第二的屈辱 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E5%B1%88%E5%B1%85%E7%AC%AC%E4%BA%8C%E7%9A%84%E5%B1%88%E8%BE%B1
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%B1%88%E5%B1%85%E7%AC%AC%E4%BA%8C%E7%9A%84%E5%B1%88%E8%BE%B1",
-  "name": "屈居第二的屈辱",
-  "icon": "2233"
-},
-1669384800 ~ 1669651140 -> [11月25日(五) 22:00, 11月28日(一) 23:59, 被隱藏的暴戾獸性 ※ 全新地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E8%A2%AB%E9%9A%B1%E8%97%8F%E7%9A%84%E6%9A%B4%E6%88%BE%E7%8D%B8%E6%80%A7
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E8%A2%AB%E9%9A%B1%E8%97%8F%E7%9A%84%E6%9A%B4%E6%88%BE%E7%8D%B8%E6%80%A7",
-  "name": "被隱藏的暴戾獸性",
-  "icon": "10312"
-},
 1671199200 ~ 1671465540 -> [12月16日(五) 22:00, 12月19日(一) 23:59, 人彘的濃情密語 ※ 復刻地獄級]
   link = https://tos.fandom.com/zh/wiki/%E4%BA%BA%E5%BD%98%E7%9A%84%E6%BF%83%E6%83%85%E5%AF%86%E8%AA%9E
 {
   "link": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E5%BD%98%E7%9A%84%E6%BF%83%E6%83%85%E5%AF%86%E8%AA%9E",
   "name": "人彘的濃情密語",
   "icon": "2067"
+},
+1671544800 ~ 1671983940 -> [12月20日(二) 22:00, 12月25日(日) 23:59, 偶像不會輸 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E5%81%B6%E5%83%8F%E4%B8%8D%E6%9C%83%E8%BC%B8
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%81%B6%E5%83%8F%E4%B8%8D%E6%9C%83%E8%BC%B8",
+  "name": "偶像不會輸",
+  "icon": "2634"
 },
 1666706400 ~ 1670169540 -> [10月25日(二) 22:00, 12月04日(日) 23:59, 地獄級演練 5 ※ 地獄級演練]
   link = https://tos.fandom.com/zh/wiki/%E5%9C%B0%E7%8D%84%E7%B4%9A%E6%BC%94%E7%B7%B4_5
@@ -289,19 +212,13 @@
   link = 
 0 ~ 0 -> [⬇ 所有地區活動 ⬇]
   link = 
-0 ~ 0 -> [【愛與正義淨化神魔世界】]
-  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E6%84%9B%E8%88%87%E6%AD%A3%E7%BE%A9%E6%B7%A8%E5%8C%96%E7%A5%9E%E9%AD%94%E4%B8%96%E7%95%8C%E3%80%91
-1670227200 ~ 1670342340 -> [12月05日(一) 16:00, 12月06日(二) 23:59, 首次使用 魔法石 回復體力，可額外獲得 體力藥水 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1670342400 ~ 1670515200 -> [12月07日(三), 12月08日(四), 首次使用 魔法石 回復體力，可額外獲得 體力藥水 1 支]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1670601600 ~ 1670774400 -> [12月10日(六), 12月11日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+0 ~ 0 -> [【撼動宇宙的震裂 ‧ 閃耀偶像祭】]
   link = 
-0 ~ 0 -> [【奪取幻之銀水晶的手段】]
-  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E5%A5%AA%E5%8F%96%E5%B9%BB%E4%B9%8B%E9%8A%80%E6%B0%B4%E6%99%B6%E7%9A%84%E6%89%8B%E6%AE%B5%E3%80%91
-1670774400 ~ 1670947200 -> [12月12日(一), 12月13日(二), 首次使用 魔法石 回復體力，可額外獲得 體力藥水 1 支]
+1671379200 ~ 1671552000 -> [12月19日(一), 12月20日(二), 累計天數獎勵： 2 天 – 龍刻武裝『虹彩話筒龍刃』1 粒 4 天 – 雛鳥騎士 ‧ 瘋頭 1 隻 6 天 – 龍刻武裝『虹彩話筒龍丸』1 粒 8 天 – 靈精魄 30 個 10 天 – 魔法石 2 粒]
+  link = 
+1671379200 ~ 1671552000 -> [12月19日(一), 12月20日(二), 首次使用 魔法石 回復體力，可額外獲得 體力藥水 1 支]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1670947200 ~ 1671120000 -> [12月14日(三), 12月15日(四), 首次使用 魔法石 回復體力，可額外獲得 體力藥水 1 支]
+1671552000 ~ 1671724800 -> [12月21日(三), 12月22日(四), 首次使用 魔法石 回復體力，可額外獲得 體力藥水 1 支]
   link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
-1671206400 ~ 1671379200 -> [12月17日(六), 12月18日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+1671811200 ~ 1671984000 -> [12月24日(六), 12月25日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 
