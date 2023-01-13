@@ -75079,7 +75079,7 @@
     "icons": []
   },
   {
-    "id": "水符石加護",
+    "id": "進場\u0026每回⇒水符石加護",
     "link": "",
     "name": "",
     "detail": "",
@@ -75089,17 +75089,22 @@
   {
     "id": "5254",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5254",
-    "name": "火符石加護",
-    "detail": "• 每回合將火符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
+    "name": "進場\u0026每回⇒火符石加護",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【火符石加護】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將火符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
     "esCode": "{{ES5254}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/ce/ESF024.png/revision/latest/scale-to-width-down/22?cb\u003d20220924141922\u0026path-prefix\u003dzh",
+        "iconKey": "ESF024.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "木符石加護",
+    "esCode": "進場\u0026每回⇒木符石加護",
     "icons": []
   },
   {
@@ -75111,7 +75116,7 @@
     "icons": []
   },
   {
-    "id": "光符石加護",
+    "id": "進場\u0026每回⇒光符石加護",
     "link": "",
     "name": "",
     "detail": "",
@@ -75121,17 +75126,22 @@
   {
     "id": "5257",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5257",
-    "name": "暗符石加護",
-    "detail": "• 每回合將暗符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
+    "name": "進場\u0026每回⇒暗符石加護",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【暗符石加護】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將暗符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
     "esCode": "{{ES5257}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/ce/ESF024.png/revision/latest/scale-to-width-down/22?cb\u003d20220924141922\u0026path-prefix\u003dzh",
+        "iconKey": "ESF024.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "心符石加護",
+    "esCode": "進場\u0026每回⇒心符石加護",
     "icons": []
   },
   {
@@ -75143,7 +75153,7 @@
     "icons": []
   },
   {
-    "id": "1顆加護",
+    "id": "進場\u0026每回⇒1顆加護",
     "link": "",
     "name": "",
     "detail": "",
@@ -75153,17 +75163,22 @@
   {
     "id": "5260",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5260",
-    "name": "2顆加護",
-    "detail": "每回合隨機將 2 粒符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
+    "name": "進場\u0026每回⇒2顆加護",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【加護符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合隨機將 2 粒符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
     "esCode": "{{ES5260}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/ce/ESF024.png/revision/latest/scale-to-width-down/22?cb\u003d20220924141922\u0026path-prefix\u003dzh",
+        "iconKey": "ESF024.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "3顆加護",
+    "esCode": "進場\u0026每回⇒3顆加護",
     "icons": []
   },
   {
@@ -75175,7 +75190,7 @@
     "icons": []
   },
   {
-    "id": "每回⇒4顆加護",
+    "id": "進場\u0026每回⇒4顆加護",
     "link": "",
     "name": "",
     "detail": "",
@@ -75185,17 +75200,22 @@
   {
     "id": "5263",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5263",
-    "name": "5顆加護",
-    "detail": "每回合隨機將 5 粒符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
+    "name": "進場\u0026每回⇒5顆加護",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【加護符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合隨機將 5 粒符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
     "esCode": "{{ES5263}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/ce/ESF024.png/revision/latest/scale-to-width-down/22?cb\u003d20220924141922\u0026path-prefix\u003dzh",
+        "iconKey": "ESF024.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "每回⇒6顆加護",
+    "esCode": "進場\u0026每回⇒6顆加護",
     "icons": []
   },
   {
@@ -75207,7 +75227,7 @@
     "icons": []
   },
   {
-    "id": "7顆加護",
+    "id": "進場\u0026每回⇒7顆加護",
     "link": "",
     "name": "",
     "detail": "",
@@ -75217,13 +75237,13 @@
   {
     "id": "5266",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5266",
-    "name": "每回⇒8顆加護",
+    "name": "進場\u0026每回⇒8顆加護",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【加護符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合隨機將 8 粒符石\u003cbr\u003e⇒ 附加為加護符石\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
     "esCode": "{{ES5266}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0f/SI573.png/revision/latest/scale-to-width-down/22?cb\u003d20220903082453\u0026path-prefix\u003dzh",
-        "iconKey": "SI573.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/ce/ESF024.png/revision/latest/scale-to-width-down/22?cb\u003d20220924141922\u0026path-prefix\u003dzh",
+        "iconKey": "ESF024.png"
       }
     ]
   },
@@ -75255,7 +75275,7 @@
     "id": "5269",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5269",
     "name": "固定六重灼熱地型20000",
-    "detail": "• 進場時固定 6 個位置\u003cbr\u003e⇒ 出現灼熱地型\u003cbr\u003e• 每次於地型內消除符石\u003cbr\u003e⇒ 扣除召喚師\u003cbr\u003e20000 點生命力",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【灼熱地型】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時固定 6 個位置\u003cbr\u003e⇒ 出現灼熱地型\u003cbr\u003e• 每次於地型內消除符石\u003cbr\u003e⇒ 扣除召喚師\u003cbr\u003e20000 點生命力",
     "esCode": "{{ES5269}}",
     "icons": [
       {
@@ -75269,7 +75289,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "1顆荊棘符石",
+    "esCode": "進場\u0026每回⇒1顆荊棘符石",
     "icons": []
   },
   {
@@ -75281,7 +75301,7 @@
     "icons": []
   },
   {
-    "id": "2顆荊棘符石",
+    "id": "進場\u0026每回⇒2顆荊棘符石",
     "link": "",
     "name": "",
     "detail": "",
@@ -75291,13 +75311,13 @@
   {
     "id": "5272",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5272",
-    "name": "3顆荊棘符石",
-    "detail": "• 每回合隨機將 3 粒符石\u003cbr\u003e⇒ 附加為荊棘符石\u003cbr\u003e• 荊棘符石不能轉化\u003cbr\u003e• 移動符石時\u003cbr\u003e每觸碰 1 次荊棘符石\u003cbr\u003e⇒ 根據敵人攻擊力\u003cbr\u003e扣除召喚師生命力",
+    "name": "進場\u0026每回⇒3顆荊棘符石",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【荊棘符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合隨機將 3 粒符石\u003cbr\u003e⇒ 附加為荊棘符石\u003cbr\u003e• 荊棘符石不能轉化\u003cbr\u003e• 移動符石時\u003cbr\u003e每觸碰 1 次荊棘符石\u003cbr\u003e⇒ 根據敵人攻擊力\u003cbr\u003e扣除召喚師生命力",
     "esCode": "{{ES5272}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3a/SI472.png/revision/latest/scale-to-width-down/22?cb\u003d20210831152149\u0026path-prefix\u003dzh",
-        "iconKey": "SI472.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/87/ESEA017.png/revision/latest/scale-to-width-down/22?cb\u003d20220924131632\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA017.png"
       }
     ]
   },
@@ -75306,7 +75326,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "4顆荊棘符石",
+    "esCode": "進場\u0026每回⇒4顆荊棘符石",
     "icons": []
   },
   {
@@ -75318,7 +75338,7 @@
     "icons": []
   },
   {
-    "id": "5顆荊棘符石",
+    "id": "進場\u0026每回⇒5顆荊棘符石",
     "link": "",
     "name": "",
     "detail": "",
@@ -75328,13 +75348,13 @@
   {
     "id": "5275",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5275",
-    "name": "6顆荊棘符石",
+    "name": "進場\u0026每回⇒6顆荊棘符石",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【荊棘符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合隨機將 6 粒符石\u003cbr\u003e⇒ 附加為荊棘符石\u003cbr\u003e• 荊棘符石不能轉化\u003cbr\u003e• 移動符石時\u003cbr\u003e每觸碰 1 次荊棘符石\u003cbr\u003e⇒ 根據敵人攻擊力\u003cbr\u003e扣除召喚師生命力",
     "esCode": "{{ES5275}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3a/SI472.png/revision/latest/scale-to-width-down/22?cb\u003d20210831152149\u0026path-prefix\u003dzh",
-        "iconKey": "SI472.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/87/ESEA017.png/revision/latest/scale-to-width-down/22?cb\u003d20220924131632\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA017.png"
       }
     ]
   },
@@ -75343,7 +75363,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "7顆荊棘符石",
+    "esCode": "進場\u0026每回⇒7顆荊棘符石",
     "icons": []
   },
   {
@@ -75355,7 +75375,7 @@
     "icons": []
   },
   {
-    "id": "8顆荊棘符石",
+    "id": "進場\u0026每回⇒8顆荊棘符石",
     "link": "",
     "name": "",
     "detail": "",
@@ -75365,13 +75385,13 @@
   {
     "id": "5278",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5278",
-    "name": "水外防禦盾",
-    "detail": "水屬性以外傷害減至 0%",
+    "name": "水外弱攻",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【水以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e水屬性以外傷害減至 0%",
     "esCode": "{{ES5278}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/cd/SI001.png/revision/latest/scale-to-width-down/22?cb\u003d20150217091341\u0026path-prefix\u003dzh",
-        "iconKey": "SI001.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ab/ESA007.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100958\u0026path-prefix\u003dzh",
+        "iconKey": "ESA007.png"
       }
     ]
   },
@@ -75380,7 +75400,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "火外防禦盾",
+    "esCode": "火外弱攻",
     "icons": []
   },
   {
@@ -75392,7 +75412,7 @@
     "icons": []
   },
   {
-    "id": "木外防禦盾",
+    "id": "木外弱攻",
     "link": "",
     "name": "",
     "detail": "",
@@ -75402,13 +75422,13 @@
   {
     "id": "5281",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5281",
-    "name": "光外防禦盾",
-    "detail": "光屬性以外傷害減至 0%",
+    "name": "光外弱攻",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【光以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e光屬性以外傷害減至 0%",
     "esCode": "{{ES5281}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c0/SI004.png/revision/latest/scale-to-width-down/22?cb\u003d20150217093343\u0026path-prefix\u003dzh",
-        "iconKey": "SI004.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/8c/ESA010.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100957\u0026path-prefix\u003dzh",
+        "iconKey": "ESA010.png"
       }
     ]
   },
@@ -75417,7 +75437,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "暗外防禦盾",
+    "esCode": "暗外弱攻",
     "icons": []
   },
   {
@@ -75429,7 +75449,7 @@
     "icons": []
   },
   {
-    "id": "無外防禦盾",
+    "id": "無屬外弱攻",
     "link": "",
     "name": "",
     "detail": "",
@@ -76066,7 +76086,7 @@
     "icons": []
   },
   {
-    "id": "水外防禦75%",
+    "id": "水外弱攻75%",
     "link": "",
     "name": "",
     "detail": "",
@@ -76076,17 +76096,22 @@
   {
     "id": "5335",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5335",
-    "name": "火外防禦75%",
+    "name": "火外弱攻75%",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【火以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e火屬性以外傷害減至 25%",
     "esCode": "{{ES5335}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/04/ESA008.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100958\u0026path-prefix\u003dzh",
+        "iconKey": "ESA008.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "木外防禦75%",
+    "esCode": "木外弱攻75%",
     "icons": []
   },
   {
@@ -76098,7 +76123,7 @@
     "icons": []
   },
   {
-    "id": "光外防禦75%",
+    "id": "光外弱攻75%",
     "link": "",
     "name": "",
     "detail": "",
@@ -76108,17 +76133,22 @@
   {
     "id": "5338",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5338",
-    "name": "暗外防禦75%",
+    "name": "暗外弱攻75%",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【暗以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e暗屬性以外傷害減至 25%",
     "esCode": "{{ES5338}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5f/ESA011.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100956\u0026path-prefix\u003dzh",
+        "iconKey": "ESA011.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "水外防禦90%",
+    "esCode": "水外弱攻90%",
     "icons": []
   },
   {
@@ -76130,7 +76160,7 @@
     "icons": []
   },
   {
-    "id": "火外防禦90%",
+    "id": "火外弱攻90%",
     "link": "",
     "name": "",
     "detail": "",
@@ -76140,17 +76170,22 @@
   {
     "id": "5341",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5341",
-    "name": "木外防禦90%",
+    "name": "木外弱攻90%",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【木以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e木屬性以外傷害減至 10%",
     "esCode": "{{ES5341}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/be/ESA009.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100957\u0026path-prefix\u003dzh",
+        "iconKey": "ESA009.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "光外防禦90%",
+    "esCode": "光外弱攻90%",
     "icons": []
   },
   {
@@ -76162,7 +76197,7 @@
     "icons": []
   },
   {
-    "id": "暗外防禦90%",
+    "id": "暗外弱攻90%",
     "link": "",
     "name": "",
     "detail": "",
@@ -76172,17 +76207,22 @@
   {
     "id": "5344",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5344",
-    "name": "水外防禦95%",
+    "name": "水外弱攻95%",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【水以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e水屬性以外傷害減至 5%",
     "esCode": "{{ES5344}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ab/ESA007.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100958\u0026path-prefix\u003dzh",
+        "iconKey": "ESA007.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "火外防禦95%",
+    "esCode": "火外弱攻95%",
     "icons": []
   },
   {
@@ -76209,8 +76249,8 @@
     "esCode": "{{ES5347}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c0/SI004.png/revision/latest/scale-to-width-down/22?cb\u003d20150217093343\u0026path-prefix\u003dzh",
-        "iconKey": "SI004.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/8c/ESA010.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100957\u0026path-prefix\u003dzh",
+        "iconKey": "ESA010.png"
       }
     ]
   },
@@ -76219,7 +76259,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "暗外防禦95%",
+    "esCode": "暗外弱攻95%",
     "icons": []
   },
   {
@@ -76564,7 +76604,7 @@
     "icons": []
   },
   {
-    "id": "首消火暗Combo同等盾",
+    "id": "首消火暗心Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -76574,10 +76614,15 @@
   {
     "id": "5377",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5377",
-    "name": "首消火光心Combo同等盾",
+    "name": "首消火光心Combo相等盾",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【火光心連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e火、光及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5377}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/de/ESHB030.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152216\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB030.png"
+      }
+    ]
   },
   {
     "id": "E",
@@ -76609,7 +76654,12 @@
     "name": "首消7+Combo盾",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【首消 ≥7 連擊盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除 ≥7 連擊 (Combo)\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5380}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/08/ESH017.png/revision/latest/scale-to-width-down/22?cb\u003d20220924143343\u0026path-prefix\u003dzh",
+        "iconKey": "ESH017.png"
+      }
+    ]
   },
   {
     "id": "E",
@@ -76641,7 +76691,12 @@
     "name": "首消10+Combo盾",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【首消 ≥10 連擊盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除 ≥10 連擊 (Combo)\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5383}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/fe/ESH020.png/revision/latest/scale-to-width-down/22?cb\u003d20220924143342\u0026path-prefix\u003dzh",
+        "iconKey": "ESH020.png"
+      }
+    ]
   },
   {
     "id": "E",
@@ -76673,7 +76728,12 @@
     "name": "攻後木橫縱輪轉",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【符石轉木】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e當敵人首次發動攻擊時，\u003cbr\u003e隨機將 1 橫行符石\u003cbr\u003e轉化為木符石；\u003cbr\u003e敵人第 2 次發動攻擊時，\u003cbr\u003e隨機將 1 直行符石\u003cbr\u003e轉化為木符石。\u003cbr\u003e以上攻擊循環周而復始。",
     "esCode": "{{ES5386}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESCA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924114313\u0026path-prefix\u003dzh",
+        "iconKey": "ESCA006.png"
+      }
+    ]
   },
   {
     "id": "E",
@@ -76742,7 +76802,12 @@
     "name": "首消≥4組屬性符石盾",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【首消 ≥4 組屬性符石盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除 ≥4 組屬性符石\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5392}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b9/ESHC024.png/revision/latest/scale-to-width-down/22?cb\u003d20220924225807\u0026path-prefix\u003dzh",
+        "iconKey": "ESHC024.png"
+      }
+    ]
   },
   {
     "id": "E",
@@ -76776,8 +76841,8 @@
     "esCode": "{{ES5395}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c8/SI533.png/revision/latest/scale-to-width-down/22?cb\u003d20220804093203\u0026path-prefix\u003dzh",
-        "iconKey": "SI533.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/32/ESHC027.png/revision/latest/scale-to-width-down/22?cb\u003d20220924225806\u0026path-prefix\u003dzh",
+        "iconKey": "ESHC027.png"
       }
     ]
   },
@@ -76835,7 +76900,7 @@
     "icons": []
   },
   {
-    "id": "首消水木Combo同等盾",
+    "id": "首消水木Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -76845,17 +76910,22 @@
   {
     "id": "5401",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401",
-    "name": "首消水光Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e水及光符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消水光Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【水光連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e水及光符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5401}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/6/63/ESHB003.png/revision/latest/scale-to-width-down/22?cb\u003d20220924151948\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB003.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消水暗Combo同等盾",
+    "esCode": "首消水暗Combo相等盾",
     "icons": []
   },
   {
@@ -76877,17 +76947,22 @@
   {
     "id": "5404",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5404",
-    "name": "首消火木Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e火及木符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消火木Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【火木連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e火及木符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5404}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b9/ESHB006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924151947\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB006.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消火光Combo同等盾",
+    "esCode": "首消火光Combo相等盾",
     "icons": []
   },
   {
@@ -76899,7 +76974,7 @@
     "icons": []
   },
   {
-    "id": "首消火暗Combo同等盾",
+    "id": "首消火暗Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -76914,8 +76989,8 @@
     "esCode": "{{ES5407}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/49/SI150.png/revision/latest/scale-to-width-down/22?cb\u003d20190325083820\u0026path-prefix\u003dzh",
-        "iconKey": "SI150.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e2/ESHB009.png/revision/latest/scale-to-width-down/22?cb\u003d20220924151946\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB009.png"
       }
     ]
   },
@@ -76924,7 +76999,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消木光Combo同等盾",
+    "esCode": "首消木光Combo相等盾",
     "icons": []
   },
   {
@@ -76936,7 +77011,7 @@
     "icons": []
   },
   {
-    "id": "首消木暗Combo同等盾",
+    "id": "首消木暗Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -76946,17 +77021,22 @@
   {
     "id": "5410",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5410",
-    "name": "首消木心Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e木及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消木心Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【木心連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e木及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5410}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/75/ESHB012.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152105\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB012.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消光暗Combo同等盾",
+    "esCode": "首消光暗Combo相等盾",
     "icons": []
   },
   {
@@ -76968,7 +77048,7 @@
     "icons": []
   },
   {
-    "id": "首消光心Combo同等盾",
+    "id": "首消光心Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -76978,17 +77058,22 @@
   {
     "id": "5413",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5413",
-    "name": "首消暗心Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e暗及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消暗心Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【光暗連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e暗及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5413}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e7/ESHB015.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152104\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB015.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消三屬Combo相等盾",
+    "esCode": "首消水火木Combo相等盾",
     "icons": []
   },
   {
@@ -77000,7 +77085,7 @@
     "icons": []
   },
   {
-    "id": "首消水火光Combo同等盾",
+    "id": "首消水火光Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -77010,17 +77095,22 @@
   {
     "id": "5416",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5416",
-    "name": "首消水火暗Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e水、火及暗符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消水火暗Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【水火暗連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e水、火及暗符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5416}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9d/ESHB018.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152103\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB018.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消水火心Combo同等盾",
+    "esCode": "首消水火心Combo相等盾",
     "icons": []
   },
   {
@@ -77032,7 +77122,7 @@
     "icons": []
   },
   {
-    "id": "首消水木光Combo同等盾",
+    "id": "首消水木光Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -77042,17 +77132,22 @@
   {
     "id": "5419",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5419",
-    "name": "首消水木暗Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e水、木及暗符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消水木暗Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【水木暗連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e水、木及暗符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5419}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/53/ESHB021.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152220\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB021.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消水木心Combo同等盾",
+    "esCode": "首消水木心Combo相等盾",
     "icons": []
   },
   {
@@ -77064,7 +77159,7 @@
     "icons": []
   },
   {
-    "id": "首消水光暗Combo同等盾",
+    "id": "首消水光暗Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -77074,17 +77169,22 @@
   {
     "id": "5422",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5422",
-    "name": "首消水光心Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e水、光及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消水光心Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【水光心連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e水、光及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5422}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c9/ESHB024.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152218\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB024.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消水暗心Combo同等盾",
+    "esCode": "首消水暗心Combo相等盾",
     "icons": []
   },
   {
@@ -77106,10 +77206,15 @@
   {
     "id": "5425",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5425",
-    "name": "首消火木暗Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e火、木及暗符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消火木暗Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【火木暗連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e火、木及暗符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5425}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/43/ESHB027.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152217\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB027.png"
+      }
+    ]
   },
   {
     "id": "E",
@@ -77128,7 +77233,7 @@
     "icons": []
   },
   {
-    "id": "首消火光暗Combo同等盾",
+    "id": "首消火光暗Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -77138,17 +77243,22 @@
   {
     "id": "5428",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5428",
-    "name": "首消火光心Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e火、光及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消火光心Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【火光心連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e火、光及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5428}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/de/ESHB030.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152216\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB030.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消火暗心Combo同等盾",
+    "esCode": "首消火暗心Combo相等盾",
     "icons": []
   },
   {
@@ -77160,7 +77270,7 @@
     "icons": []
   },
   {
-    "id": "首消木光暗Combo同等盾",
+    "id": "首消木光暗Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -77170,17 +77280,22 @@
   {
     "id": "5431",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5431",
-    "name": "首消木光心Combo同等盾",
-    "detail": "同時首批消除相同組數的\u003cbr\u003e木、光及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
+    "name": "首消木光心Combo相等盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【木光心連擊相等盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e同時首批消除相同組數的\u003cbr\u003e木、光及心符石，\u003cbr\u003e才能對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5431}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/56/ESHB033.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152321\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB033.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消木暗心Combo同等盾",
+    "esCode": "首消木暗心Combo相等盾",
     "icons": []
   },
   {
@@ -77192,7 +77307,7 @@
     "icons": []
   },
   {
-    "id": "首消光暗心Combo同等盾",
+    "id": "首消光暗心Combo相等盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -77207,8 +77322,8 @@
     "esCode": "{{ES5434}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1a/SI120.png/revision/latest/scale-to-width-down/22?cb\u003d20180709075023\u0026path-prefix\u003dzh",
-        "iconKey": "SI120.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/17/ESHB051.png/revision/latest/scale-to-width-down/22?cb\u003d20220924152607\u0026path-prefix\u003dzh",
+        "iconKey": "ESHB051.png"
       }
     ]
   },
@@ -80703,7 +80818,7 @@
     "icons": []
   },
   {
-    "id": "敵屬外擊攻75%",
+    "id": "敵屬外弱攻75%",
     "link": "",
     "name": "",
     "detail": "",
@@ -80713,7 +80828,7 @@
   {
     "id": "5701",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5701",
-    "name": "敵屬外擊攻90%",
+    "name": "敵屬外弱攻90%",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【敵屬以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人屬性以外傷害減至 10%",
     "esCode": "{{ES5701}}",
     "icons": [
@@ -80728,7 +80843,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "敵屬外擊攻95%",
+    "esCode": "敵屬外弱攻95%",
     "icons": []
   },
   {
@@ -90679,7 +90794,7 @@
     "id": "6478",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6478",
     "name": "五屬加護各2顆",
-    "detail": "\u003cfont color\u003d#FFFF3C\u003e【加護符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將五屬符石各 2 粒\u003cbr\u003e⇒ 添加為加護符石\u003cbr\u003e⇒ 最多加至五屬加護符石各 2 粒",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【加護符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將五屬符石各 2 粒\u003cbr\u003e⇒ 添加為加護符石\u003cbr\u003e⇒ 最多加至五屬加護符石各 2 粒\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
     "esCode": "{{ES6478}}",
     "icons": [
       {
@@ -90984,7 +91099,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【30 粒符石護盾】",
+    "esCode": "【累積首消30粒符石】凝護100%",
     "icons": []
   },
   {
@@ -90996,7 +91111,7 @@
     "icons": []
   },
   {
-    "id": "【60 粒符石護盾】",
+    "id": "【累積首消60粒符石】凝護100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91006,17 +91121,22 @@
   {
     "id": "6505",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6505",
-    "name": "【90 粒符石護盾】",
-    "detail": "• 累積首批消除 90 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
+    "name": "【累積首消90粒符石】凝護100%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【90 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 90 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
     "esCode": "{{ES6505}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/ESF005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924140618\u0026path-prefix\u003dzh",
+        "iconKey": "ESF005.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【120 粒符石護盾】",
+    "esCode": "【累積首消120粒符石】凝護100%",
     "icons": []
   },
   {
@@ -91028,7 +91148,7 @@
     "icons": []
   },
   {
-    "id": "【150 粒符石護盾】",
+    "id": "【累積首消150粒符石】凝護100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91038,17 +91158,22 @@
   {
     "id": "6508",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6508",
-    "name": "【180 粒符石護盾】",
-    "detail": "• 累積首批消除 180 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
+    "name": "【累積首消180粒符石】凝護100%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【180 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 180 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
     "esCode": "{{ES6508}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/ESF005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924140618\u0026path-prefix\u003dzh",
+        "iconKey": "ESF005.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【210 粒符石護盾】",
+    "esCode": "【累積首消210粒符石】凝護100%",
     "icons": []
   },
   {
@@ -91060,7 +91185,7 @@
     "icons": []
   },
   {
-    "id": "【240 粒符石護盾】",
+    "id": "【累積首消240粒符石】凝護100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91070,17 +91195,22 @@
   {
     "id": "6511",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6511",
-    "name": "【270 粒符石護盾】",
-    "detail": "• 累積首批消除 270 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
+    "name": "【累積首消270粒符石】凝護100%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【270 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 270 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
     "esCode": "{{ES6511}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/ESF005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924140618\u0026path-prefix\u003dzh",
+        "iconKey": "ESF005.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【300 粒符石護盾】",
+    "esCode": "【累積首消300粒符石】凝護100%",
     "icons": []
   },
   {

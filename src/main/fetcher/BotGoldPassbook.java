@@ -38,8 +38,8 @@ public class BotGoldPassbook implements Runnable {
 
     @Override
     public void run() {
-        //botGold();
-        taishinGold();
+        botGold();
+        //taishinGold();
     }
 
     // taishin gold, (%%)
@@ -135,9 +135,9 @@ public class BotGoldPassbook implements Runnable {
         }
         mLf.log("\n\n");
 
-//        for (List<String> list : table) {
-//            printAll(list);
-//        }
+        for (List<String> list : table) {
+            printAll(list);
+        }
     }
 
     private void evalStatistics(List<String> data) {

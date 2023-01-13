@@ -70,7 +70,7 @@ public class Main {
         //-- fix card
         //TosCardFetcher.me.run();
 
-        //gold();
+        //gold(); // Annually
         //enterKeyboard();
         //TosUserPackFetcher.me.run();
         //TosWikiHomeFetcher.me.run();

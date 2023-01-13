@@ -7,6 +7,8 @@ import org.jsoup.nodes.Element
 import org.jsoup.select.Elements
 
 open class TWSEGet {
+    // Call / Put options introduction
+    // https://www.tpex.org.tw/storage/warrant/%E6%8A%95%E8%B3%87%E4%BA%BA/%E4%B8%8A%E6%AB%83%E6%AC%8A%E8%AD%89%E7%B0%A1%E4%BB%8B_10510.pdf
     companion object me {
         fun parseEquityList(doc : Element, type:Int) : TWEquityList {
             val ans = TWEquityList()

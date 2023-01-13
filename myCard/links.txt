@@ -16746,10 +16746,58 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2802"
   },
   {
+    "title": "No. 2803 瑩淚幻愛 ‧ 安德洛",
+    "id": "2803",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%91%A9%E6%B7%9A%E5%B9%BB%E6%84%9B_%E2%80%A7_%E5%AE%89%E5%BE%B7%E6%B4%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/2803"
+  },
+  {
+    "title": "No. 2804 熾爓守義 ‧ 珀耳修",
+    "id": "2804",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%86%BE%E7%88%93%E5%AE%88%E7%BE%A9_%E2%80%A7_%E7%8F%80%E8%80%B3%E4%BF%AE",
+    "linkId": "http://zh.tos.wikia.com/wiki/2804"
+  },
+  {
+    "title": "No. 2805 神弦聖樂 ‧ 奧菲斯",
+    "id": "2805",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E5%BC%A6%E8%81%96%E6%A8%82_%E2%80%A7_%E5%A5%A7%E8%8F%B2%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2805"
+  },
+  {
+    "title": "No. 2806 闇影銳爪 ‧ 琳叩斯",
+    "id": "2806",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%97%87%E5%BD%B1%E9%8A%B3%E7%88%AA_%E2%80%A7_%E7%90%B3%E5%8F%A9%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2806"
+  },
+  {
     "title": "No. 2811 虎吼光甲 ‧ 劍齒虎",
     "id": "2811",
     "link": "https://tos.fandom.com/zh/wiki/%E8%99%8E%E5%90%BC%E5%85%89%E7%94%B2_%E2%80%A7_%E5%8A%8D%E9%BD%92%E8%99%8E",
     "linkId": "http://zh.tos.wikia.com/wiki/2811"
+  },
+  {
+    "title": "No. 2812 猛將悟能 ‧ 豬八戒",
+    "id": "2812",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8C%9B%E5%B0%87%E6%82%9F%E8%83%BD_%E2%80%A7_%E8%B1%AC%E5%85%AB%E6%88%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2812"
+  },
+  {
+    "title": "No. 2813 幻速武鎧 ‧ 希",
+    "id": "2813",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E9%80%9F%E6%AD%A6%E9%8E%A7_%E2%80%A7_%E5%B8%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/2813"
+  },
+  {
+    "title": "No. 2814 霸王入陣 ‧ 項羽",
+    "id": "2814",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9C%B8%E7%8E%8B%E5%85%A5%E9%99%A3_%E2%80%A7_%E9%A0%85%E7%BE%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/2814"
+  },
+  {
+    "title": "No. 2900 十年創紀 ‧ 瘋頭",
+    "id": "2900",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8D%81%E5%B9%B4%E5%89%B5%E7%B4%80_%E2%80%A7_%E7%98%8B%E9%A0%AD",
+    "linkId": "http://zh.tos.wikia.com/wiki/2900"
   },
   {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
@@ -18690,6 +18738,30 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10306"
   },
   {
+    "title": "No. 10307 空想禮裝 ‧ 莉莉絲",
+    "id": "10307",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A9%BA%E6%83%B3%E7%A6%AE%E8%A3%9D_%E2%80%A7_%E8%8E%89%E8%8E%89%E7%B5%B2",
+    "linkId": "http://zh.tos.wikia.com/wiki/10307"
+  },
+  {
+    "title": "No. 10308 鮮味小籠包",
+    "id": "10308",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AE%AE%E5%91%B3%E5%B0%8F%E7%B1%A0%E5%8C%85",
+    "linkId": "http://zh.tos.wikia.com/wiki/10308"
+  },
+  {
+    "title": "No. 10309 幻瓏倩狐 ‧ 姜湘",
+    "id": "10309",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B9%BB%E7%93%8F%E5%80%A9%E7%8B%90_%E2%80%A7_%E5%A7%9C%E6%B9%98",
+    "linkId": "http://zh.tos.wikia.com/wiki/10309"
+  },
+  {
+    "title": "No. 10310 靈芝孢子 ‧ 奇諾",
+    "id": "10310",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E8%8A%9D%E5%AD%A2%E5%AD%90_%E2%80%A7_%E5%A5%87%E8%AB%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/10310"
+  },
+  {
     "title": "No. 10311 冰與火之心 · 辛西亞",
     "id": "10311",
     "link": "https://tos.fandom.com/zh/wiki/%E5%86%B0%E8%88%87%E7%81%AB%E4%B9%8B%E5%BF%83_%C2%B7_%E8%BE%9B%E8%A5%BF%E4%BA%9E",
@@ -18982,6 +19054,42 @@
     "id": "10360",
     "link": "https://tos.fandom.com/zh/wiki/%E5%A6%AE%E9%BB%91%E8%95%BE%E9%9B%85",
     "linkId": "http://zh.tos.wikia.com/wiki/10360"
+  },
+  {
+    "title": "No. 10361 空靈音色 ‧ 言洛語",
+    "id": "10361",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A9%BA%E9%9D%88%E9%9F%B3%E8%89%B2_%E2%80%A7_%E8%A8%80%E6%B4%9B%E8%AA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10361"
+  },
+  {
+    "title": "No. 10362 孤寂心謠 ‧ 華霜婷",
+    "id": "10362",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AD%A4%E5%AF%82%E5%BF%83%E8%AC%A0_%E2%80%A7_%E8%8F%AF%E9%9C%9C%E5%A9%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/10362"
+  },
+  {
+    "title": "No. 10363 魔障囚夢 ‧ 夜夫人",
+    "id": "10363",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E9%9A%9C%E5%9B%9A%E5%A4%A2_%E2%80%A7_%E5%A4%9C%E5%A4%AB%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10363"
+  },
+  {
+    "title": "No. 10364 炙炎巨翼 ‧ 惡想機械人",
+    "id": "10364",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%82%99%E7%82%8E%E5%B7%A8%E7%BF%BC_%E2%80%A7_%E6%83%A1%E6%83%B3%E6%A9%9F%E6%A2%B0%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10364"
+  },
+  {
+    "title": "No. 10365 謎之少女",
+    "id": "10365",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%AC%8E%E4%B9%8B%E5%B0%91%E5%A5%B3",
+    "linkId": "http://zh.tos.wikia.com/wiki/10365"
+  },
+  {
+    "title": "No. 10368 神月破夜 ‧ 阿提密斯",
+    "id": "10368",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%9C%88%E7%A0%B4%E5%A4%9C_%E2%80%A7_%E9%98%BF%E6%8F%90%E5%AF%86%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10368"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

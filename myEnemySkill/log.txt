@@ -1,5 +1,5 @@
 18 skill groups
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1-500
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1-500
 -   666 skills
 --  #1  {{ES1}} : [1]  -> 強化盾 -> • 消除屬性強化符石<br>⇒該屬性才能對敵人造成傷害<br>⇒否則敵人承受傷害變為 1 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1
 --  #E  溢補盾 : [0]  ->  ->  -> 
@@ -667,7 +667,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #隨機縱向燃燒10%  E : [0]  ->  ->  -> 
 --  #499  {{ES499}} : [1]  -> 縱橫射擊 -> 敵人會在 CD 2 時射擊 1 直行的位置，並在 CD 1 時射擊 1 橫行的位置，被射擊的位置一經觸碰，即時停止移動符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/499
 --  #E  心化血10% : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/501-1000
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/501-1000
 -   666 skills
 --  #501  {{ES501}} : [1]  -> 心化血20% -> 每回合移動符石前，鎖定場上的心符石；如有鎖定的心符石未被消除時，敵人回復自身生命力 20% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/501
 --  #E  心化血50% : [0]  ->  ->  -> 
@@ -1335,7 +1335,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #同歸於盡-6顆凍結  E : [0]  ->  ->  -> 
 --  #999  {{ES999}} : [2]  -> 同歸於盡-9顆凍結 -> 敵人發動攻擊時會扣除召喚師固定血量的生命力 (無視所有減傷效果和意志技能) 及扣除自身 100% 生命力，並隨機凍結場上 9 粒符石；如有符石處於凍結狀態而未被消除時，3 回合內不能消除該符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/999
 --  #E  同歸於盡-3顆點燃20% : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1001-1500
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1001-1500
 -   666 skills
 --  #1001  {{ES1001}} : [1]  -> 同歸於盡-6顆點燃20% -> 敵人發動攻擊時會扣除召喚師固定血量的生命力 (無視所有減傷效果和意志技能) 及扣除自身 100% 生命力，並隨機鎖定場上的 6 粒符石；如有鎖定的符石未被消除時，符石會被引爆，每粒被引爆的符石，將扣除召喚師　20% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1001
 --  #E  同歸於盡-9顆點燃20% : [0]  ->  ->  -> 
@@ -2003,7 +2003,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #(5回火攻2倍) ‧ 自殺  E : [0]  ->  ->  -> 
 --  #1499  {{ES1499}} : [2]  -> (7回火攻2倍) ‧ 自殺 -> 7 回合內，火屬性成員的攻擊力提升 2 倍。<br>敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1499
 --  #E  (3回木攻2倍) ‧ 自殺 : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1501-2000
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1501-2000
 -   666 skills
 --  #1501  {{ES1501}} : [2]  -> (5回木攻2倍) ‧ 自殺 -> 5 回合內，木屬性成員的攻擊力提升 2 倍。<br>敵人下回合會扣除自身生命力 100%，期間不受任何攻擊傷害及無視所有控制技能 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1501
 --  #E  (7回木攻2倍) ‧ 自殺 : [0]  ->  ->  -> 
@@ -2671,7 +2671,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #強化盾-非強化吸收 ‧ 風化七追擊-轉 ‧ 無視減傷  E : [0]  ->  ->  -> 
 --  #1999  {{ES1999}} : [1]  -> 循環累積9+心符石盾 -> 召喚師需累積消除 9 粒心符石，才會對敵人造成攻擊傷害 。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1999
 --  #E  循環累積12+心符石盾 : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2001-2500
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2001-2500
 -   666 skills
 --  #2001  {{ES2001}} : [1]  -> 循環累積15+心符石盾 -> 召喚師需累積消除 15 粒心符石，才會對敵人造成攻擊傷害 。如果達成上述條件，敵人會在 CD 0 時重置符石數目；反之，CD 0 時敵人會發動攻擊 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2001
 --  #E  循環累積20+心符石盾 : [0]  ->  ->  -> 
@@ -3339,7 +3339,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #Template:ES2498  E : [0]  ->  ->  -> 
 --  #2499  {{ES2499}} : [0]  ->  ->  -> 
 --  #E  Template:ES2500 : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2501-3000
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2501-3000
 -   666 skills
 --  #2501  {{ES2501}} : [0]  ->  ->  -> 
 --  #E  Template:ES2502 : [0]  ->  ->  -> 
@@ -4007,7 +4007,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #CD1 ‧ 暗攻盾 ‧ 首消7Combo盾 ‧ 強化防禦盾  E : [0]  ->  ->  -> 
 --  #2999  {{ES2999}} : [3]  -> 魔攻盾 ‧ 中毒90% ‧ 非全魔-超級技能重置 -> 只有魔族成員的攻擊才會對敵人造成傷害。<br>所有成員中毒，每回合扣除召喚師 90% 生命力，直至敵人死亡。<br>隊伍中有魔族以外成員時，將所有成員的主動技能 CD、EP 及累積戰鬥回合數重置 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2999
 --  #E  CD1 ‧ 魔攻盾 ‧ 心禁消 ‧ 首消五屬Combo同等盾 : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3001-3300
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3001-3300
 -   400 skills
 --  #3001  {{ES3001}} : [2]  -> [5回回復力減弱70%] ‧ 自殘20% -> 5 回合內，所有成員的回復力減至 30%。<br>敵人每回合會扣除自身生命力 20%，持續至死亡，期間不受任何攻擊傷害及無視所有控制技能 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3001
 --  #E  [4回回復力減弱70%] ‧ 自殘25% : [0]  ->  ->  -> 
@@ -4409,7 +4409,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  隨機轉暗 ‧ 首消暗心傷害吸收-連續反擊50% ‧ 無法控制 : [0]  ->  ->  -> 
 --  #{{ES3299}}  3300 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES3299?action=edit
 --  #隨機轉暗 ‧ 首消暗心傷害吸收-反擊200% ‧ 無法控制  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3301-3600
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3301-3600
 -   400 skills
 --  #3301  {{ES3301}} : [6]  -> 天惠童虎-[5回增攻3倍] ‧ 隨機轉暗 ‧ 首消暗心傷害吸收-連續反擊50% ‧ 無法控制 -> 5 回合內，天秤座 ‧ 童虎的攻擊力提升 3 倍。<br>每回合隨機將 1 種屬性符石轉為化暗符石。<br>首批消除暗或心符石時，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次。<br>無視所有控制技能 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3301
 --  #E  天惠童虎-[5回增攻3倍] ‧ 隨機轉暗 ‧ 首消暗心傷害吸收-反擊200% ‧ 無法控制 : [0]  ->  ->  -> 
@@ -4811,7 +4811,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  每回命懸一線 ‧ 隨機三屬追擊盾 ‧ 隨機轉各五屬 ‧ 回復力變0 ‧ 滿血盾-缺血扣血100% : [0]  ->  ->  -> 
 --  #{{ES3599}}  3600 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES3599?action=edit
 --  #每回命懸一線 ‧ 五屬追擊盾 ‧ 隨機轉各五屬 ‧ 回復力變0 ‧ 滿血盾-缺血扣血100%  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3601-3900
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3601-3900
 -   400 skills
 --  #3601  {{ES3601}} : [1]  -> 消初級拼圖盾25% -> 以指定形狀消除符石<br>(可連同形狀旁邊的符石) <br>⇒ 可扣除敵人 25% 生命力。<br><br>除此以外，<br>敵人不受任何攻擊傷害<br>(包括主動技)。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3601
 --  #E  消高級拼圖盾25% : [0]  ->  ->  -> 
@@ -5213,7 +5213,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  突擊10%-(3回致命步伐1000) ‧ 中毒70% ‧ 首消木傷害零化-反擊100% : [0]  ->  ->  -> 
 --  #{{ES3899}}  3900 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES3899?action=edit
 --  #光外最多轉光 ‧ 100%減傷盾-越攻越弱 ‧ 首消光傷害零化-反擊100%  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3901-4200
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3901-4200
 -   400 skills
 --  #3901  {{ES3901}} : [3]  -> 6顆三層石化-金 ‧ 首消光傷害零化-反擊100% ‧ 無法控制 -> 每回合移動符石前，隨機將 6 粒符石「三重石化」，移動符石並消除石化符石四側其中 1 個位置的符石可解除「一重石化」(首批消除的符石每次只可解除「一重石化」)；如有石化符石未被消除時，敵人的防禦力提升 1000 倍。<br><br>首批消除光符石及擊中敵人：<br>⓵ 敵人承受傷害變為 1<br>⓶ 敵人反擊<br>⇒ 自身 100% 攻擊傷害<br><br>無視所有控制技能。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3901
 --  #E  7+Combo盾 ‧ 首消暗傷害零化-連續反擊100% ‧ 無視減傷 : [0]  ->  ->  -> 
@@ -5615,7 +5615,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  突擊65%-黏附 ‧ 隱藏-結 : [0]  ->  ->  -> 
 --  #{{ES4199}}  4200 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES4199?action=edit
 --  #突擊65%-雙重黏附 ‧ 隱藏-結  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4201-4500
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4201-4500
 -   400 skills
 --  #4201  {{ES4201}} : [3]  -> 突擊65%-三重黏附 ‧ 隱藏-結 -> 首回合優先突擊 1 次，<br>受此攻擊後，<br>隨機黏附 3 個位置，<br>該位置的符石一經觸碰，<br>即時停止移動符石。<br><br>敵人死亡後，<br>將所有符石轉化為隱藏符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4201
 --  #E  首回4顆-每回1顆-風化15000 ‧ 隱藏-結 : [0]  ->  ->  -> 
@@ -6017,7 +6017,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  循環累積5+水符石盾 ‧ 擴散燃燒10% ‧ 燃燒敵盈 ‧ 無視減傷 : [0]  ->  ->  -> 
 --  #{{ES4499}}  4500 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES4499?action=edit
 --  #循環累積15+水符石盾 ‧ 擴散燃燒10% ‧ 燃燒敵盈 ‧ 無視減傷  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4501-4800
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4501-4800
 -   400 skills
 --  #4501  {{ES4501}} : [4]  -> 循環累積30+水符石盾 ‧ 雙重擴散燃燒20% ‧ 燃燒敵盈 ‧ 無視減傷 -> <font color=#FFFF3C>【水元素護盾 30 粒 ‧ 擴散燃燒 ‧ 防禦崩壞】</font><br><br>累積消除 30 粒水符石，<br>才會對敵人造成攻擊傷害。<br>如果達成上述條件，<br>CD 0 時重置符石數目；<br>反之，<br>CD 0 時敵人會發動攻擊。<br><br>首回合隨機燃燒 2 個位置，<br>其後每回合<br>額外燃燒 2 個位置，<br>每觸碰被燃燒的位置，<br>將扣除召喚師 20% 生命力。<br><br>敵人的攻擊力<br>隨燃燒位置數量提升。<br><br>無視所有減傷效果和<br>意志技能。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4501
 --  #E  循環累積50+水符石盾 ‧ 雙重擴散燃燒20% ‧ 燃燒敵盈 ‧ 無視減傷 : [0]  ->  ->  -> 
@@ -6419,7 +6419,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  CD1 ‧ 固定轉化 ‧ 首消隨機Combo突破25%-失敗趨狂 ‧ 金15秒轉珠 : [0]  ->  ->  -> 
 --  #{{ES4799}}  4800 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES4799?action=edit
 --  #CD1 ‧ 固定轉化 ‧ 首消隨機Combo突破20%-失敗趨狂 ‧ 金20秒轉珠  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4801-5100
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4801-5100
 -   400 skills
 --  #4801  {{ES4801}} : [3]  -> 7+Combo追擊盾 ‧ 水禁消 ‧ 無視減傷 -> <font color=#FFFF3C>【7 連擊盾 ‧ 消水禁咒 ‧ 防禦崩壞】</font><br><br>7 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。<br><br>水符石無法被消除。<br><br>無視所有減傷效果和意志技能 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4801
 --  #E  CD1 ‧ 護水鎖定 ‧ 首消水傷害化血-反饋200% ‧ 無視減傷 : [0]  ->  ->  -> 
@@ -6821,7 +6821,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  水外最少屬轉水-結 : [0]  ->  ->  -> 
 --  #{{ES5099}}  5100 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5099?action=edit
 --  #火外最少屬轉火-結  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5101-5400
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5101-5400
 -   400 skills
 --  #5101  {{ES5101}} : [1]  -> 木外最少屬轉木-結 -> <font color=#FFFF3C>【符石轉木】</font><br><br>回合結束時，<br>將木以外數量最少的<br>1 種屬性符石轉化為木符石。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5101
 --  #E  光外最少屬轉光-結 : [0]  ->  ->  -> 
@@ -7026,47 +7026,47 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #5251  {{ES5251}} : [1]  -> 六重灼熱地型10000 -> • 每回合隨機 6 個位置<br>⇒ 出現灼熱地型<br>• 每次於地型內消除符石<br>⇒ 扣除召喚師<br>10000 點生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5251
 --  #E  灼熱守護-黏腐穿梭 : [0]  ->  ->  -> 
 --  #{{ES5252}}  5253 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5252?action=edit
---  #水符石加護  E : [0]  ->  ->  -> 
---  #5254  {{ES5254}} : [0]  -> 火符石加護 -> • 每回合將火符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5254
---  #E  木符石加護 : [0]  ->  ->  -> 
+--  #進場&每回⇒水符石加護  E : [0]  ->  ->  -> 
+--  #5254  {{ES5254}} : [1]  -> 進場&每回⇒火符石加護 -> <font color=#FFFF3C>【火符石加護】</font><br><br>• 每回合將火符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5254
+--  #E  進場&每回⇒木符石加護 : [0]  ->  ->  -> 
 --  #{{ES5255}}  5256 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5255?action=edit
---  #光符石加護  E : [0]  ->  ->  -> 
---  #5257  {{ES5257}} : [0]  -> 暗符石加護 -> • 每回合將暗符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5257
---  #E  心符石加護 : [0]  ->  ->  -> 
+--  #進場&每回⇒光符石加護  E : [0]  ->  ->  -> 
+--  #5257  {{ES5257}} : [1]  -> 進場&每回⇒暗符石加護 -> <font color=#FFFF3C>【暗符石加護】</font><br><br>• 每回合將暗符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5257
+--  #E  進場&每回⇒心符石加護 : [0]  ->  ->  -> 
 --  #{{ES5258}}  5259 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5258?action=edit
---  #1顆加護  E : [0]  ->  ->  -> 
---  #5260  {{ES5260}} : [0]  -> 2顆加護 -> 每回合隨機將 2 粒符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5260
---  #E  3顆加護 : [0]  ->  ->  -> 
+--  #進場&每回⇒1顆加護  E : [0]  ->  ->  -> 
+--  #5260  {{ES5260}} : [1]  -> 進場&每回⇒2顆加護 -> <font color=#FFFF3C>【加護符石】</font><br><br>• 每回合隨機將 2 粒符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5260
+--  #E  進場&每回⇒3顆加護 : [0]  ->  ->  -> 
 --  #{{ES5261}}  5262 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5261?action=edit
---  #每回⇒4顆加護  E : [0]  ->  ->  -> 
---  #5263  {{ES5263}} : [0]  -> 5顆加護 -> 每回合隨機將 5 粒符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5263
---  #E  每回⇒6顆加護 : [0]  ->  ->  -> 
+--  #進場&每回⇒4顆加護  E : [0]  ->  ->  -> 
+--  #5263  {{ES5263}} : [1]  -> 進場&每回⇒5顆加護 -> <font color=#FFFF3C>【加護符石】</font><br><br>• 每回合隨機將 5 粒符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5263
+--  #E  進場&每回⇒6顆加護 : [0]  ->  ->  -> 
 --  #{{ES5264}}  5265 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5264?action=edit
---  #7顆加護  E : [0]  ->  ->  -> 
---  #5266  {{ES5266}} : [1]  -> 每回⇒8顆加護 -> <font color=#FFFF3C>【加護符石】</font><br><br>• 每回合隨機將 8 粒符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5266
+--  #進場&每回⇒7顆加護  E : [0]  ->  ->  -> 
+--  #5266  {{ES5266}} : [1]  -> 進場&每回⇒8顆加護 -> <font color=#FFFF3C>【加護符石】</font><br><br>• 每回合隨機將 8 粒符石<br>⇒ 附加為加護符石<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5266
 --  #E  【角色珠始終盾 & 首消7Combo】凝護20% ‧ 達成棄攻 ‧ 愈扣愈強25%⇒50%⇒100% : [0]  ->  ->  -> 
 --  #{{ES5267}}  5268 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5267?action=edit
 --  #【角色珠始終盾 & 首消6Combo】凝護25% ‧ 達成棄攻 ‧ 愈扣愈強25%⇒50%⇒100%  E : [0]  ->  ->  -> 
---  #5269  {{ES5269}} : [1]  -> 固定六重灼熱地型20000 -> • 進場時固定 6 個位置<br>⇒ 出現灼熱地型<br>• 每次於地型內消除符石<br>⇒ 扣除召喚師<br>20000 點生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5269
---  #E  1顆荊棘符石 : [0]  ->  ->  -> 
+--  #5269  {{ES5269}} : [1]  -> 固定六重灼熱地型20000 -> <font color=#FFFF3C>【灼熱地型】</font><br><br>• 進場時固定 6 個位置<br>⇒ 出現灼熱地型<br>• 每次於地型內消除符石<br>⇒ 扣除召喚師<br>20000 點生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5269
+--  #E  進場&每回⇒1顆荊棘符石 : [0]  ->  ->  -> 
 --  #{{ES5270}}  5271 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5270?action=edit
---  #2顆荊棘符石  E : [0]  ->  ->  -> 
---  #5272  {{ES5272}} : [1]  -> 3顆荊棘符石 -> • 每回合隨機將 3 粒符石<br>⇒ 附加為荊棘符石<br>• 荊棘符石不能轉化<br>• 移動符石時<br>每觸碰 1 次荊棘符石<br>⇒ 根據敵人攻擊力<br>扣除召喚師生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5272
---  #E  4顆荊棘符石 : [0]  ->  ->  -> 
+--  #進場&每回⇒2顆荊棘符石  E : [0]  ->  ->  -> 
+--  #5272  {{ES5272}} : [1]  -> 進場&每回⇒3顆荊棘符石 -> <font color=#FFFF3C>【荊棘符石】</font><br><br>• 每回合隨機將 3 粒符石<br>⇒ 附加為荊棘符石<br>• 荊棘符石不能轉化<br>• 移動符石時<br>每觸碰 1 次荊棘符石<br>⇒ 根據敵人攻擊力<br>扣除召喚師生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5272
+--  #E  進場&每回⇒4顆荊棘符石 : [0]  ->  ->  -> 
 --  #{{ES5273}}  5274 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5273?action=edit
---  #5顆荊棘符石  E : [0]  ->  ->  -> 
---  #5275  {{ES5275}} : [1]  -> 6顆荊棘符石 -> <font color=#FFFF3C>【荊棘符石】</font><br><br>• 每回合隨機將 6 粒符石<br>⇒ 附加為荊棘符石<br>• 荊棘符石不能轉化<br>• 移動符石時<br>每觸碰 1 次荊棘符石<br>⇒ 根據敵人攻擊力<br>扣除召喚師生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5275
---  #E  7顆荊棘符石 : [0]  ->  ->  -> 
+--  #進場&每回⇒5顆荊棘符石  E : [0]  ->  ->  -> 
+--  #5275  {{ES5275}} : [1]  -> 進場&每回⇒6顆荊棘符石 -> <font color=#FFFF3C>【荊棘符石】</font><br><br>• 每回合隨機將 6 粒符石<br>⇒ 附加為荊棘符石<br>• 荊棘符石不能轉化<br>• 移動符石時<br>每觸碰 1 次荊棘符石<br>⇒ 根據敵人攻擊力<br>扣除召喚師生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5275
+--  #E  進場&每回⇒7顆荊棘符石 : [0]  ->  ->  -> 
 --  #{{ES5276}}  5277 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5276?action=edit
---  #8顆荊棘符石  E : [0]  ->  ->  -> 
---  #5278  {{ES5278}} : [1]  -> 水外防禦盾 -> 水屬性以外傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5278
---  #E  火外防禦盾 : [0]  ->  ->  -> 
+--  #進場&每回⇒8顆荊棘符石  E : [0]  ->  ->  -> 
+--  #5278  {{ES5278}} : [1]  -> 水外弱攻 -> <font color=#FFFF3C>【水以外弱攻】</font><br><br>水屬性以外傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5278
+--  #E  火外弱攻 : [0]  ->  ->  -> 
 --  #{{ES5279}}  5280 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5279?action=edit
---  #木外防禦盾  E : [0]  ->  ->  -> 
---  #5281  {{ES5281}} : [1]  -> 光外防禦盾 -> 光屬性以外傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5281
---  #E  暗外防禦盾 : [0]  ->  ->  -> 
+--  #木外弱攻  E : [0]  ->  ->  -> 
+--  #5281  {{ES5281}} : [1]  -> 光外弱攻 -> <font color=#FFFF3C>【光以外弱攻】</font><br><br>光屬性以外傷害減至 0% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5281
+--  #E  暗外弱攻 : [0]  ->  ->  -> 
 --  #{{ES5282}}  5283 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5282?action=edit
---  #無外防禦盾  E : [0]  ->  ->  -> 
+--  #無屬外弱攻  E : [0]  ->  ->  -> 
 --  #5284  {{ES5284}} : [1]  -> 角色珠始終盾 -> 需以指定位置 (角色頭像優先) <br>開始轉珠及在指定位置<br>首次結束轉珠。<br><br>未有達成上述條件：<br>⓵ 全隊攻擊力變為 0<br>⓶ 無法進行回復 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5284
 --  #E  禁錮中毒100% : [0]  ->  ->  -> 
 --  #{{ES5285}}  5286 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5285?action=edit
@@ -7134,25 +7134,25 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #5332  {{ES5332}} : [2]  -> 暗符石複印 -> <font color=#FFFF3C>【符石轉暗】</font><br><br>回合結束時，<br>根據場上暗符石數量，<br>轉化相應粒數的暗符石。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5332
 --  #E  心符石複印 : [0]  ->  ->  -> 
 --  #{{ES5333}}  5334 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5333?action=edit
---  #水外防禦75%  E : [0]  ->  ->  -> 
---  #5335  {{ES5335}} : [0]  -> 火外防禦75% -> <font color=#FFFF3C>【火以外弱攻】</font><br><br>火屬性以外傷害減至 25% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5335
---  #E  木外防禦75% : [0]  ->  ->  -> 
+--  #水外弱攻75%  E : [0]  ->  ->  -> 
+--  #5335  {{ES5335}} : [1]  -> 火外弱攻75% -> <font color=#FFFF3C>【火以外弱攻】</font><br><br>火屬性以外傷害減至 25% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5335
+--  #E  木外弱攻75% : [0]  ->  ->  -> 
 --  #{{ES5336}}  5337 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5336?action=edit
---  #光外防禦75%  E : [0]  ->  ->  -> 
---  #5338  {{ES5338}} : [0]  -> 暗外防禦75% -> <font color=#FFFF3C>【暗以外弱攻】</font><br><br>暗屬性以外傷害減至 25% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5338
---  #E  水外防禦90% : [0]  ->  ->  -> 
+--  #光外弱攻75%  E : [0]  ->  ->  -> 
+--  #5338  {{ES5338}} : [1]  -> 暗外弱攻75% -> <font color=#FFFF3C>【暗以外弱攻】</font><br><br>暗屬性以外傷害減至 25% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5338
+--  #E  水外弱攻90% : [0]  ->  ->  -> 
 --  #{{ES5339}}  5340 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5339?action=edit
---  #火外防禦90%  E : [0]  ->  ->  -> 
---  #5341  {{ES5341}} : [0]  -> 木外防禦90% -> <font color=#FFFF3C>【木以外弱攻】</font><br><br>木屬性以外傷害減至 10% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5341
---  #E  光外防禦90% : [0]  ->  ->  -> 
+--  #火外弱攻90%  E : [0]  ->  ->  -> 
+--  #5341  {{ES5341}} : [1]  -> 木外弱攻90% -> <font color=#FFFF3C>【木以外弱攻】</font><br><br>木屬性以外傷害減至 10% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5341
+--  #E  光外弱攻90% : [0]  ->  ->  -> 
 --  #{{ES5342}}  5343 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5342?action=edit
---  #暗外防禦90%  E : [0]  ->  ->  -> 
---  #5344  {{ES5344}} : [0]  -> 水外防禦95% -> <font color=#FFFF3C>【水以外弱攻】</font><br><br>水屬性以外傷害減至 5% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5344
---  #E  火外防禦95% : [0]  ->  ->  -> 
+--  #暗外弱攻90%  E : [0]  ->  ->  -> 
+--  #5344  {{ES5344}} : [1]  -> 水外弱攻95% -> <font color=#FFFF3C>【水以外弱攻】</font><br><br>水屬性以外傷害減至 5% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5344
+--  #E  火外弱攻95% : [0]  ->  ->  -> 
 --  #{{ES5345}}  5346 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5345?action=edit
 --  #木外弱攻95%  E : [0]  ->  ->  -> 
 --  #5347  {{ES5347}} : [1]  -> 光外弱攻95% -> <font color=#FFFF3C>【光以外弱攻】</font><br><br>光屬性以外傷害減至 5% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5347
---  #E  暗外防禦95% : [0]  ->  ->  -> 
+--  #E  暗外弱攻95% : [0]  ->  ->  -> 
 --  #{{ES5348}}  5349 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5348?action=edit
 --  #反首消水符石盾-反擊100%  E : [0]  ->  ->  -> 
 --  #5350  {{ES5350}} : [1]  -> 反首消火符石盾-反擊100% -> <font color=#FFFF3C>【反首消火符石盾 - 反擊】</font><br><br>首批消除火符石及擊中敵人時：<br>⓵ 敵人承受傷害變為 1<br>⓶ 敵人反擊<br>⇒ 自身 100% 攻擊傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5350
@@ -7190,20 +7190,20 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #5374  {{ES5374}} : [1]  -> 雙重瘴氣20% -> <font color=#FFFF3C>【瘴氣】</font><br><br>每回合隨機在 2 個位置<br>施放瘴氣。<br><br>每經過瘴氣位置<br>⇒ 召喚師累積 20% 瘴氣<br>當累積至 100% 瘴氣<br>⇒ 回合結束時召喚師會死亡 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5374
 --  #E  屬性轉換 ‧ 首消敵屬追擊零化 : [0]  ->  ->  -> 
 --  #{{ES5375}}  5376 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5375?action=edit
---  #首消火暗Combo同等盾  E : [0]  ->  ->  -> 
---  #5377  {{ES5377}} : [0]  -> 首消火光心Combo同等盾 -> <font color=#FFFF3C>【火光心連擊相等盾】</font><br><br>同時首批消除相同組數的<br>火、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5377
+--  #首消火暗心Combo相等盾  E : [0]  ->  ->  -> 
+--  #5377  {{ES5377}} : [1]  -> 首消火光心Combo相等盾 -> <font color=#FFFF3C>【火光心連擊相等盾】</font><br><br>同時首批消除相同組數的<br>火、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5377
 --  #E  首消5+Combo盾 : [0]  ->  ->  -> 
 --  #{{ES5378}}  5379 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5378?action=edit
 --  #首消6+Combo盾  E : [0]  ->  ->  -> 
---  #5380  {{ES5380}} : [0]  -> 首消7+Combo盾 -> <font color=#FFFF3C>【首消 ≥7 連擊盾】</font><br><br>首批消除 ≥7 連擊 (Combo)<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5380
+--  #5380  {{ES5380}} : [1]  -> 首消7+Combo盾 -> <font color=#FFFF3C>【首消 ≥7 連擊盾】</font><br><br>首批消除 ≥7 連擊 (Combo)<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5380
 --  #E  首消8+Combo盾 : [0]  ->  ->  -> 
 --  #{{ES5381}}  5382 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5381?action=edit
 --  #首消9+Combo盾  E : [0]  ->  ->  -> 
---  #5383  {{ES5383}} : [0]  -> 首消10+Combo盾 -> <font color=#FFFF3C>【首消 ≥10 連擊盾】</font><br><br>首批消除 ≥10 連擊 (Combo)<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5383
+--  #5383  {{ES5383}} : [1]  -> 首消10+Combo盾 -> <font color=#FFFF3C>【首消 ≥10 連擊盾】</font><br><br>首批消除 ≥10 連擊 (Combo)<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5383
 --  #E  攻後水橫縱輪轉 : [0]  ->  ->  -> 
 --  #{{ES5384}}  5385 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5384?action=edit
 --  #攻後火橫縱輪轉  E : [0]  ->  ->  -> 
---  #5386  {{ES5386}} : [0]  -> 攻後木橫縱輪轉 -> <font color=#FFFF3C>【符石轉木】</font><br><br>當敵人首次發動攻擊時，<br>隨機將 1 橫行符石<br>轉化為木符石；<br>敵人第 2 次發動攻擊時，<br>隨機將 1 直行符石<br>轉化為木符石。<br>以上攻擊循環周而復始。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5386
+--  #5386  {{ES5386}} : [1]  -> 攻後木橫縱輪轉 -> <font color=#FFFF3C>【符石轉木】</font><br><br>當敵人首次發動攻擊時，<br>隨機將 1 橫行符石<br>轉化為木符石；<br>敵人第 2 次發動攻擊時，<br>隨機將 1 直行符石<br>轉化為木符石。<br>以上攻擊循環周而復始。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5386
 --  #E  攻後光橫縱輪轉 : [0]  ->  ->  -> 
 --  #{{ES5387}}  5388 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5387?action=edit
 --  #攻後暗橫縱輪轉  E : [0]  ->  ->  -> 
@@ -7211,7 +7211,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  左右灼熱地型20000 : [0]  ->  ->  -> 
 --  #{{ES5390}}  5391 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5390?action=edit
 --  #黏腐圍城  E : [0]  ->  ->  -> 
---  #5392  {{ES5392}} : [0]  -> 首消≥4組屬性符石盾 -> <font color=#FFFF3C>【首消 ≥4 組屬性符石盾】</font><br><br>首批消除 ≥4 組屬性符石<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5392
+--  #5392  {{ES5392}} : [1]  -> 首消≥4組屬性符石盾 -> <font color=#FFFF3C>【首消 ≥4 組屬性符石盾】</font><br><br>首批消除 ≥4 組屬性符石<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5392
 --  #E  首消≥5組屬性符石盾 : [0]  ->  ->  -> 
 --  #{{ES5393}}  5394 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5393?action=edit
 --  #首消≥6組屬性符石盾  E : [0]  ->  ->  -> 
@@ -7222,53 +7222,53 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #5398  {{ES5398}} : [1]  -> 首消≥10組屬性符石盾 -> <font color=#FFFF3C>【首消 ≥10 組屬性符石盾】</font><br><br>首批消除 ≥10 組屬性符石<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5398
 --  #E  首消水火Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5399}}  5400 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5399?action=edit
---  #首消水木Combo同等盾  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401-5700
+--  #首消水木Combo相等盾  E : [0]  ->  ->  -> 
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401-5700
 -   400 skills
---  #5401  {{ES5401}} : [0]  -> 首消水光Combo同等盾 -> 同時首批消除相同組數的<br>水及光符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401
---  #E  首消水暗Combo同等盾 : [0]  ->  ->  -> 
+--  #5401  {{ES5401}} : [1]  -> 首消水光Combo相等盾 -> <font color=#FFFF3C>【水光連擊相等盾】</font><br><br>同時首批消除相同組數的<br>水及光符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5401
+--  #E  首消水暗Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5402}}  5403 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5402?action=edit
 --  #首消水心Combo相等盾  E : [0]  ->  ->  -> 
---  #5404  {{ES5404}} : [0]  -> 首消火木Combo同等盾 -> 同時首批消除相同組數的<br>火及木符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5404
---  #E  首消火光Combo同等盾 : [0]  ->  ->  -> 
+--  #5404  {{ES5404}} : [1]  -> 首消火木Combo相等盾 -> <font color=#FFFF3C>【火木連擊相等盾】</font><br><br>同時首批消除相同組數的<br>火及木符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5404
+--  #E  首消火光Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5405}}  5406 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5405?action=edit
---  #首消火暗Combo同等盾  E : [0]  ->  ->  -> 
+--  #首消火暗Combo相等盾  E : [0]  ->  ->  -> 
 --  #5407  {{ES5407}} : [1]  -> 首消火心Combo相等盾 -> <font color=#FFFF3C>【火心連擊相等盾】</font><br><br>同時首批消除相同組數的<br>火及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5407
---  #E  首消木光Combo同等盾 : [0]  ->  ->  -> 
+--  #E  首消木光Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5408}}  5409 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5408?action=edit
---  #首消木暗Combo同等盾  E : [0]  ->  ->  -> 
---  #5410  {{ES5410}} : [0]  -> 首消木心Combo同等盾 -> 同時首批消除相同組數的<br>木及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5410
---  #E  首消光暗Combo同等盾 : [0]  ->  ->  -> 
+--  #首消木暗Combo相等盾  E : [0]  ->  ->  -> 
+--  #5410  {{ES5410}} : [1]  -> 首消木心Combo相等盾 -> <font color=#FFFF3C>【木心連擊相等盾】</font><br><br>同時首批消除相同組數的<br>木及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5410
+--  #E  首消光暗Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5411}}  5412 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5411?action=edit
---  #首消光心Combo同等盾  E : [0]  ->  ->  -> 
---  #5413  {{ES5413}} : [0]  -> 首消暗心Combo同等盾 -> 同時首批消除相同組數的<br>暗及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5413
---  #E  首消三屬Combo相等盾 : [0]  ->  ->  -> 
+--  #首消光心Combo相等盾  E : [0]  ->  ->  -> 
+--  #5413  {{ES5413}} : [1]  -> 首消暗心Combo相等盾 -> <font color=#FFFF3C>【光暗連擊相等盾】</font><br><br>同時首批消除相同組數的<br>暗及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5413
+--  #E  首消水火木Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5414}}  5415 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5414?action=edit
---  #首消水火光Combo同等盾  E : [0]  ->  ->  -> 
---  #5416  {{ES5416}} : [0]  -> 首消水火暗Combo同等盾 -> 同時首批消除相同組數的<br>水、火及暗符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5416
---  #E  首消水火心Combo同等盾 : [0]  ->  ->  -> 
+--  #首消水火光Combo相等盾  E : [0]  ->  ->  -> 
+--  #5416  {{ES5416}} : [1]  -> 首消水火暗Combo相等盾 -> <font color=#FFFF3C>【水火暗連擊相等盾】</font><br><br>同時首批消除相同組數的<br>水、火及暗符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5416
+--  #E  首消水火心Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5417}}  5418 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5417?action=edit
---  #首消水木光Combo同等盾  E : [0]  ->  ->  -> 
---  #5419  {{ES5419}} : [0]  -> 首消水木暗Combo同等盾 -> 同時首批消除相同組數的<br>水、木及暗符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5419
---  #E  首消水木心Combo同等盾 : [0]  ->  ->  -> 
+--  #首消水木光Combo相等盾  E : [0]  ->  ->  -> 
+--  #5419  {{ES5419}} : [1]  -> 首消水木暗Combo相等盾 -> <font color=#FFFF3C>【水木暗連擊相等盾】</font><br><br>同時首批消除相同組數的<br>水、木及暗符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5419
+--  #E  首消水木心Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5420}}  5421 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5420?action=edit
---  #首消水光暗Combo同等盾  E : [0]  ->  ->  -> 
---  #5422  {{ES5422}} : [0]  -> 首消水光心Combo同等盾 -> 同時首批消除相同組數的<br>水、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5422
---  #E  首消水暗心Combo同等盾 : [0]  ->  ->  -> 
+--  #首消水光暗Combo相等盾  E : [0]  ->  ->  -> 
+--  #5422  {{ES5422}} : [1]  -> 首消水光心Combo相等盾 -> <font color=#FFFF3C>【水光心連擊相等盾】</font><br><br>同時首批消除相同組數的<br>水、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5422
+--  #E  首消水暗心Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5423}}  5424 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5423?action=edit
 --  #首消火木光Combo相等盾  E : [0]  ->  ->  -> 
---  #5425  {{ES5425}} : [0]  -> 首消火木暗Combo同等盾 -> 同時首批消除相同組數的<br>火、木及暗符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5425
+--  #5425  {{ES5425}} : [1]  -> 首消火木暗Combo相等盾 -> <font color=#FFFF3C>【火木暗連擊相等盾】</font><br><br>同時首批消除相同組數的<br>火、木及暗符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5425
 --  #E  首消火木心Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5426}}  5427 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5426?action=edit
---  #首消火光暗Combo同等盾  E : [0]  ->  ->  -> 
---  #5428  {{ES5428}} : [0]  -> 首消火光心Combo同等盾 -> 同時首批消除相同組數的<br>火、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5428
---  #E  首消火暗心Combo同等盾 : [0]  ->  ->  -> 
+--  #首消火光暗Combo相等盾  E : [0]  ->  ->  -> 
+--  #5428  {{ES5428}} : [1]  -> 首消火光心Combo相等盾 -> <font color=#FFFF3C>【火光心連擊相等盾】</font><br><br>同時首批消除相同組數的<br>火、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5428
+--  #E  首消火暗心Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5429}}  5430 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5429?action=edit
---  #首消木光暗Combo同等盾  E : [0]  ->  ->  -> 
---  #5431  {{ES5431}} : [0]  -> 首消木光心Combo同等盾 -> 同時首批消除相同組數的<br>木、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5431
---  #E  首消木暗心Combo同等盾 : [0]  ->  ->  -> 
+--  #首消木光暗Combo相等盾  E : [0]  ->  ->  -> 
+--  #5431  {{ES5431}} : [1]  -> 首消木光心Combo相等盾 -> <font color=#FFFF3C>【木光心連擊相等盾】</font><br><br>同時首批消除相同組數的<br>木、光及心符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5431
+--  #E  首消木暗心Combo相等盾 : [0]  ->  ->  -> 
 --  #{{ES5432}}  5433 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5432?action=edit
---  #首消光暗心Combo同等盾  E : [0]  ->  ->  -> 
+--  #首消光暗心Combo相等盾  E : [0]  ->  ->  -> 
 --  #5434  {{ES5434}} : [1]  -> 首消五屬Combo相等盾 -> <font color=#FFFF3C>【五屬連擊相等盾】</font><br><br>同時首批消除<br>相同組數的五屬符石，<br>才能對敵人造成傷害，<br>否則敵人承受傷害變為 1。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5434
 --  #E  減傷75% : [0]  ->  ->  -> 
 --  #{{ES5435}}  5436 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5435?action=edit
@@ -7624,11 +7624,11 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #5698  {{ES5698}} : [0]  -> 【請回答問題】 -> 問題：<br>[color=#FFFF00]@quiz[/color]<br><br>請鎖定正確的召喚獸，<br>並發動攻擊。<br><br>鎖定錯誤的召喚獸，<br>並發動攻擊，<br>回合結束時召喚師會死亡。 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5698
 --  #E  隊長戰友攻擊零化 : [0]  ->  ->  -> 
 --  #{{ES5699}}  5700 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5699?action=edit
---  #敵屬外擊攻75%  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5701-6000
+--  #敵屬外弱攻75%  E : [0]  ->  ->  -> 
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5701-6000
 -   400 skills
---  #5701  {{ES5701}} : [1]  -> 敵屬外擊攻90% -> <font color=#FFFF3C>【敵屬以外弱攻】</font><br><br>• 敵人屬性以外傷害減至 10% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5701
---  #E  敵屬外擊攻95% : [0]  ->  ->  -> 
+--  #5701  {{ES5701}} : [1]  -> 敵屬外弱攻90% -> <font color=#FFFF3C>【敵屬以外弱攻】</font><br><br>• 敵人屬性以外傷害減至 10% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5701
+--  #E  敵屬外弱攻95% : [0]  ->  ->  -> 
 --  #{{ES5702}}  5703 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5702?action=edit
 --  #敵屬弱攻75%  E : [0]  ->  ->  -> 
 --  #5704  {{ES5704}} : [1]  -> 敵屬弱攻90% -> <font color=#FFFF3C>【敵屬弱攻】</font><br><br>• 與敵人屬性相同的<br>⇒ 傷害減至 10% -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5704
@@ -8027,7 +8027,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  隱身-隱攻⇒禁錮5回 : [0]  ->  ->  -> 
 --  #{{ES5999}}  6000 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES5999?action=edit
 --  #隱身-隱攻⇒附加消除重置  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6001-6300
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6001-6300
 -   400 skills
 --  #6001  {{ES6001}} : [2]  -> 隱身-隱攻⇒CD&EP重置 -> <font color=#FFFF3C>【隱身 - 清技及 EP】</font><br><br>• 敵人會隱身<br>⇒ 直至發動第 1 次攻擊、<br> 受到傷害或消耗<br>• 隱身期間敵人<br> 不受任何攻擊傷害<br> 及不會被附上狀態<br>• 當召喚師在敵人<br> 隱身期間受到攻擊<br>⇒ 將所有成員<br> 主動技能 CD、EP <br> 及累積戰鬥回合數重置 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6001
 --  #E  隱身-隱攻⇒CD重置 : [0]  ->  ->  -> 
@@ -8429,7 +8429,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  弱化符石10%︰進場15顆⇒攻後遞減5顆 : [0]  ->  ->  -> 
 --  #{{ES6299}}  6300 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6299?action=edit
 --  #弱化符石20%︰進場15顆⇒攻後遞減5顆  E : [0]  ->  ->  -> 
-https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6301-6600
+http://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6301-6600
 -   400 skills
 --  #6301  {{ES6301}} : [0]  ->  ->  -> 
 --  #E  特殊敵人效果 : [0]  ->  ->  -> 
@@ -8667,7 +8667,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  進場⇒凍結轉燃燒50% : [0]  ->  ->  -> 
 --  #{{ES6476}}  6477 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6476?action=edit
 --  #五屬加護各1顆  E : [0]  ->  ->  -> 
---  #6478  {{ES6478}} : [1]  -> 五屬加護各2顆 -> <font color=#FFFF3C>【加護符石】</font><br><br>• 每回合將五屬符石各 2 粒<br>⇒ 添加為加護符石<br>⇒ 最多加至五屬加護符石各 2 粒 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6478
+--  #6478  {{ES6478}} : [1]  -> 五屬加護各2顆 -> <font color=#FFFF3C>【加護符石】</font><br><br>• 每回合將五屬符石各 2 粒<br>⇒ 添加為加護符石<br>⇒ 最多加至五屬加護符石各 2 粒<br>• 加護符石不能引爆<br>• 場上沒有加護符石<br>⇒ 無法對敵人造成傷害 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6478
 --  #E  五屬加護各3顆 : [0]  ->  ->  -> 
 --  #{{ES6479}}  6480 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6479?action=edit
 --  #每回⇒水附爆破炸彈15000  E : [0]  ->  ->  -> 
@@ -8700,19 +8700,19 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES6500}}  6501 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6500?action=edit
 --  #Template:ES6501  E : [0]  ->  ->  -> 
 --  #6502  {{ES6502}} : [0]  ->  ->  -> 
---  #E  【30 粒符石護盾】 : [0]  ->  ->  -> 
+--  #E  【累積首消30粒符石】凝護100% : [0]  ->  ->  -> 
 --  #{{ES6503}}  6504 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6503?action=edit
---  #【60 粒符石護盾】  E : [0]  ->  ->  -> 
---  #6505  {{ES6505}} : [0]  -> 【90 粒符石護盾】 -> • 累積首批消除 90 粒符石<br>⇒ 可扣除敵人 100% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6505
---  #E  【120 粒符石護盾】 : [0]  ->  ->  -> 
+--  #【累積首消60粒符石】凝護100%  E : [0]  ->  ->  -> 
+--  #6505  {{ES6505}} : [1]  -> 【累積首消90粒符石】凝護100% -> <font color=#FFFF3C>【90 粒符石護盾】</font><br><br>• 累積首批消除 90 粒符石<br>⇒ 可扣除敵人 100% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6505
+--  #E  【累積首消120粒符石】凝護100% : [0]  ->  ->  -> 
 --  #{{ES6506}}  6507 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6506?action=edit
---  #【150 粒符石護盾】  E : [0]  ->  ->  -> 
---  #6508  {{ES6508}} : [0]  -> 【180 粒符石護盾】 -> • 累積首批消除 180 粒符石<br>⇒ 可扣除敵人 100% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6508
---  #E  【210 粒符石護盾】 : [0]  ->  ->  -> 
+--  #【累積首消150粒符石】凝護100%  E : [0]  ->  ->  -> 
+--  #6508  {{ES6508}} : [1]  -> 【累積首消180粒符石】凝護100% -> <font color=#FFFF3C>【180 粒符石護盾】</font><br><br>• 累積首批消除 180 粒符石<br>⇒ 可扣除敵人 100% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6508
+--  #E  【累積首消210粒符石】凝護100% : [0]  ->  ->  -> 
 --  #{{ES6509}}  6510 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6509?action=edit
---  #【240 粒符石護盾】  E : [0]  ->  ->  -> 
---  #6511  {{ES6511}} : [0]  -> 【270 粒符石護盾】 -> • 累積首批消除 270 粒符石<br>⇒ 可扣除敵人 100% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6511
---  #E  【300 粒符石護盾】 : [0]  ->  ->  -> 
+--  #【累積首消240粒符石】凝護100%  E : [0]  ->  ->  -> 
+--  #6511  {{ES6511}} : [1]  -> 【累積首消270粒符石】凝護100% -> <font color=#FFFF3C>【270 粒符石護盾】</font><br><br>• 累積首批消除 270 粒符石<br>⇒ 可扣除敵人 100% 生命力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6511
+--  #E  【累積首消300粒符石】凝護100% : [0]  ->  ->  -> 
 --  #{{ES6512}}  6513 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6512?action=edit
 --  #【減傷抗性 - 消水符石】  E : [0]  ->  ->  -> 
 --  #6514  {{ES6514}} : [0]  -> 【減傷抗性 - 消水符石】 -> • 每消除 1 組水符石<br>⇒ 該回合敵人增加<br> 25% 減傷抗性 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6514
