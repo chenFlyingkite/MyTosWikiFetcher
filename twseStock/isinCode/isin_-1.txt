@@ -1,9 +1,93 @@
 {
-  "version": "2022-05-30",
+  "version": "2023-01-16",
   "list": [
     {
       "name": "終止上市公司",
       "list": [
+        {
+          "name": "泰昇-KY",
+          "code": "8480",
+          "ISINCode": "",
+          "listedDate": "",
+          "market": "",
+          "industry": "",
+          "CFICode": "",
+          "remarks": "111年12月21日",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "新世紀",
+          "code": "3383",
+          "ISINCode": "",
+          "listedDate": "",
+          "market": "",
+          "industry": "",
+          "CFICode": "",
+          "remarks": "111年09月26日",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "華上",
+          "code": "6289",
+          "ISINCode": "",
+          "listedDate": "",
+          "market": "",
+          "industry": "",
+          "CFICode": "",
+          "remarks": "111年09月26日",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "定穎",
+          "code": "6251",
+          "ISINCode": "",
+          "listedDate": "",
+          "market": "",
+          "industry": "",
+          "CFICode": "",
+          "remarks": "111年08月25日",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "台開",
+          "code": "2841",
+          "ISINCode": "",
+          "listedDate": "",
+          "market": "",
+          "industry": "",
+          "CFICode": "",
+          "remarks": "111年08月04日",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "互億",
+          "code": "6172",
+          "ISINCode": "",
+          "listedDate": "",
+          "market": "",
+          "industry": "",
+          "CFICode": "",
+          "remarks": "111年06月29日",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "客思達-KY",
+          "code": "2936",
+          "ISINCode": "",
+          "listedDate": "",
+          "market": "",
+          "industry": "",
+          "CFICode": "",
+          "remarks": "111年06月27日",
+          "maturityDate": "",
+          "interest": ""
+        },
         {
           "name": "龍燈-KY",
           "code": "4141",

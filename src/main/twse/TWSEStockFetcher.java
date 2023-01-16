@@ -205,9 +205,10 @@ public class TWSEStockFetcher {
     private void parse() {
         clock.tic();
         mLf.getFile().open(false);
-        boolean web = 0 > 0; // false = load local file data
-        if (1 > 0) {
-            // database
+        boolean web = 1 > 0; // false = load local file data
+        boolean file = 1 > 0; // true = use saved file
+        if (file) {
+            // from loaded file
             loadAllISINCode(web); // < 30 second in web, file = 300ms
             loadAllDividend(web); // ~70min in web, file = 20ms
             loadAllTWSEStocks();

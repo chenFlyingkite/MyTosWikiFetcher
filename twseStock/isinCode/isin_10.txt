@@ -1,93 +1,9 @@
 {
-  "version": "2022/04/13",
+  "version": "2023/01/16",
   "list": [
     {
       "name": "",
       "list": [
-        {
-          "name": "星展（台灣）國際金融業務",
-          "code": "",
-          "ISINCode": "TW21CD000039",
-          "listedDate": "2021/07/26",
-          "market": "",
-          "industry": "",
-          "CFICode": "DYFUXR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "星展（台灣）國際金融業務",
-          "code": "",
-          "ISINCode": "TW21CD000047",
-          "listedDate": "2021/08/23",
-          "market": "",
-          "industry": "",
-          "CFICode": "DYFUXR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "星展（台灣）國際金融業務",
-          "code": "",
-          "ISINCode": "TW21CD000054",
-          "listedDate": "2021/09/23",
-          "market": "",
-          "industry": "",
-          "CFICode": "DYFUXR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "星展（台灣）國際金融業務",
-          "code": "",
-          "ISINCode": "TW21CD000062",
-          "listedDate": "2021/10/01",
-          "market": "",
-          "industry": "",
-          "CFICode": "DYFUXR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "星展（台灣）國際金融業務",
-          "code": "",
-          "ISINCode": "TW21CD000088",
-          "listedDate": "2021/10/28",
-          "market": "",
-          "industry": "",
-          "CFICode": "DYFUXR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "星展（台灣）國際金融業務",
-          "code": "",
-          "ISINCode": "TW21CD000096",
-          "listedDate": "2021/11/22",
-          "market": "",
-          "industry": "",
-          "CFICode": "DYFUXR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
-        {
-          "name": "星展（台灣）國際金融業務",
-          "code": "",
-          "ISINCode": "TW21CD000104",
-          "listedDate": "2021/12/20",
-          "market": "",
-          "industry": "",
-          "CFICode": "DYFUXR",
-          "remarks": "",
-          "maturityDate": "",
-          "interest": ""
-        },
         {
           "name": "星展（台灣）國際金融業務",
           "code": "",
@@ -117,6 +33,42 @@
           "code": "",
           "ISINCode": "TW22CD000038",
           "listedDate": "2022/03/21",
+          "market": "",
+          "industry": "",
+          "CFICode": "DYFUXR",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "星展（台灣）國際金融業務",
+          "code": "",
+          "ISINCode": "TW22CD000046",
+          "listedDate": "2022/07/27",
+          "market": "",
+          "industry": "",
+          "CFICode": "DYFUXR",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "星展（台灣）國際金融業務",
+          "code": "",
+          "ISINCode": "TW22CD000053",
+          "listedDate": "2022/08/26",
+          "market": "",
+          "industry": "",
+          "CFICode": "DYFUXR",
+          "remarks": "",
+          "maturityDate": "",
+          "interest": ""
+        },
+        {
+          "name": "星展（台灣）國際金融業務",
+          "code": "",
+          "ISINCode": "TW22CD000061",
+          "listedDate": "2022/12/09",
           "market": "",
           "industry": "",
           "CFICode": "DYFUXR",
