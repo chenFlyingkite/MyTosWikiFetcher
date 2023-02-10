@@ -126,7 +126,7 @@ public class Main {
     // Usage: Change the more text if you have answers,
     // and run to web page make cursor stays at it, now it will make things done!
     private static void enterUID() {
-        // In macOS, after we start, we still need to click on the text field to let it enters
+        // We need to place cursor on the input position for typing automatically
         try {
             Robot2 r = new Robot2();
             r.delay(3_000);
@@ -156,6 +156,7 @@ public class Main {
                 } else {
                     r.enter(t);
                 }
+                r.delay(500);
             }
         } catch (AWTException e) {
             e.printStackTrace();

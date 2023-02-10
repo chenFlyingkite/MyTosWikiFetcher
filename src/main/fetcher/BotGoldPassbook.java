@@ -6,7 +6,7 @@ import flyingkite.log.LF;
 import flyingkite.math.Statistics;
 import flyingkite.math.statictics.Stats;
 import flyingkite.tool.TicTac2;
-import main.fetcher.exchange.FinTable;
+import main.fetcher.finance.currency.FinTable;
 import main.fetcher.web.OnWebLfTT;
 import main.fetcher.web.WebFetcher;
 import main.kt.BotGet;

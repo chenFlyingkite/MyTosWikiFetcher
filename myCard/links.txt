@@ -16794,10 +16794,34 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2814"
   },
   {
+    "title": "No. 2816 朦朧心愫 ‧ 凱拉",
+    "id": "2816",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9C%A6%E6%9C%A7%E5%BF%83%E6%84%AB_%E2%80%A7_%E5%87%B1%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2816"
+  },
+  {
     "title": "No. 2900 十年創紀 ‧ 瘋頭",
     "id": "2900",
     "link": "https://tos.fandom.com/zh/wiki/%E5%8D%81%E5%B9%B4%E5%89%B5%E7%B4%80_%E2%80%A7_%E7%98%8B%E9%A0%AD",
     "linkId": "http://zh.tos.wikia.com/wiki/2900"
+  },
+  {
+    "title": "No. 2901 載憶狐夢 ‧ 妲己",
+    "id": "2901",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%BC%89%E6%86%B6%E7%8B%90%E5%A4%A2_%E2%80%A7_%E5%A6%B2%E5%B7%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2901"
+  },
+  {
+    "title": "No. 2902 完美昇華 ‧ 超獸魔神",
+    "id": "2902",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%AE%8C%E7%BE%8E%E6%98%87%E8%8F%AF_%E2%80%A7_%E8%B6%85%E7%8D%B8%E9%AD%94%E7%A5%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/2902"
+  },
+  {
+    "title": "No. 2903 巧智破關 ‧ 加諾奧斯",
+    "id": "2903",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B7%A7%E6%99%BA%E7%A0%B4%E9%97%9C_%E2%80%A7_%E5%8A%A0%E8%AB%BE%E5%A5%A7%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2903"
   },
   {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
@@ -19080,16 +19104,148 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10364"
   },
   {
-    "title": "No. 10365 謎之少女",
+    "title": "No. 10365 初逢棋遇 ‧ 黑嘉嘉",
     "id": "10365",
-    "link": "https://tos.fandom.com/zh/wiki/%E8%AC%8E%E4%B9%8B%E5%B0%91%E5%A5%B3",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%88%9D%E9%80%A2%E6%A3%8B%E9%81%87_%E2%80%A7_%E9%BB%91%E5%98%89%E5%98%89",
     "linkId": "http://zh.tos.wikia.com/wiki/10365"
+  },
+  {
+    "title": "No. 10366 沉夢棋痴 ‧ 黑嘉嘉",
+    "id": "10366",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%B2%89%E5%A4%A2%E6%A3%8B%E7%97%B4_%E2%80%A7_%E9%BB%91%E5%98%89%E5%98%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10366"
+  },
+  {
+    "title": "No. 10367 星運棋士 ‧ 黑嘉嘉",
+    "id": "10367",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%81%8B%E6%A3%8B%E5%A3%AB_%E2%80%A7_%E9%BB%91%E5%98%89%E5%98%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10367"
   },
   {
     "title": "No. 10368 神月破夜 ‧ 阿提密斯",
     "id": "10368",
     "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E6%9C%88%E7%A0%B4%E5%A4%9C_%E2%80%A7_%E9%98%BF%E6%8F%90%E5%AF%86%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/10368"
+  },
+  {
+    "title": "No. 10369 瑞兔迎福 ‧ 比涅希",
+    "id": "10369",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%91%9E%E5%85%94%E8%BF%8E%E7%A6%8F_%E2%80%A7_%E6%AF%94%E6%B6%85%E5%B8%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/10369"
+  },
+  {
+    "title": "No. 10370 神創 ‧ 零覓",
+    "id": "10370",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E5%89%B5_%E2%80%A7_%E9%9B%B6%E8%A6%93",
+    "linkId": "http://zh.tos.wikia.com/wiki/10370"
+  },
+  {
+    "title": "No. 10371 魔滅 ‧ 一願",
+    "id": "10371",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%BB%85_%E2%80%A7_%E4%B8%80%E9%A1%98",
+    "linkId": "http://zh.tos.wikia.com/wiki/10371"
+  },
+  {
+    "title": "No. 10381 狂擊拳者 ‧ 吉姆",
+    "id": "10381",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E6%93%8A%E6%8B%B3%E8%80%85_%E2%80%A7_%E5%90%89%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/10381"
+  },
+  {
+    "title": "No. 10382 米卡莎 ‧ 阿卡曼",
+    "id": "10382",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B1%B3%E5%8D%A1%E8%8E%8E_%E2%80%A7_%E9%98%BF%E5%8D%A1%E6%9B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10382"
+  },
+  {
+    "title": "No. 10383 艾連 ‧ 葉卡",
+    "id": "10383",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%89%BE%E9%80%A3_%E2%80%A7_%E8%91%89%E5%8D%A1",
+    "linkId": "http://zh.tos.wikia.com/wiki/10383"
+  },
+  {
+    "title": "No. 10384 進擊的巨人",
+    "id": "10384",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10384"
+  },
+  {
+    "title": "No. 10385 莎夏 ‧ 布勞斯",
+    "id": "10385",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8E%8E%E5%A4%8F_%E2%80%A7_%E5%B8%83%E5%8B%9E%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10385"
+  },
+  {
+    "title": "No. 10386 阿爾敏 ‧ 亞魯雷特",
+    "id": "10386",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%98%BF%E7%88%BE%E6%95%8F_%E2%80%A7_%E4%BA%9E%E9%AD%AF%E9%9B%B7%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/10386"
+  },
+  {
+    "title": "No. 10388 里維兵長",
+    "id": "10388",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%87%8C%E7%B6%AD%E5%85%B5%E9%95%B7",
+    "linkId": "http://zh.tos.wikia.com/wiki/10388"
+  },
+  {
+    "title": "No. 10389 約翰 ‧ 基爾休坦",
+    "id": "10389",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B4%84%E7%BF%B0_%E2%80%A7_%E5%9F%BA%E7%88%BE%E4%BC%91%E5%9D%A6",
+    "linkId": "http://zh.tos.wikia.com/wiki/10389"
+  },
+  {
+    "title": "No. 10390 希絲特莉亞 ‧ 雷斯",
+    "id": "10390",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%B8%8C%E7%B5%B2%E7%89%B9%E8%8E%89%E4%BA%9E_%E2%80%A7_%E9%9B%B7%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10390"
+  },
+  {
+    "title": "No. 10391 漢吉 ‧ 佐耶",
+    "id": "10391",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%BC%A2%E5%90%89_%E2%80%A7_%E4%BD%90%E8%80%B6",
+    "linkId": "http://zh.tos.wikia.com/wiki/10391"
+  },
+  {
+    "title": "No. 10392 艾爾文 ‧ 史密斯",
+    "id": "10392",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%89%BE%E7%88%BE%E6%96%87_%E2%80%A7_%E5%8F%B2%E5%AF%86%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10392"
+  },
+  {
+    "title": "No. 10393 肯尼 ‧ 阿卡曼",
+    "id": "10393",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%82%AF%E5%B0%BC_%E2%80%A7_%E9%98%BF%E5%8D%A1%E6%9B%BC",
+    "linkId": "http://zh.tos.wikia.com/wiki/10393"
+  },
+  {
+    "title": "No. 10394 無垢巨人",
+    "id": "10394",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E5%9E%A2%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10394"
+  },
+  {
+    "title": "No. 10395 超大型巨人 (貝爾托特)",
+    "id": "10395",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E5%A4%A7%E5%9E%8B%E5%B7%A8%E4%BA%BA_(%E8%B2%9D%E7%88%BE%E6%89%98%E7%89%B9)",
+    "linkId": "http://zh.tos.wikia.com/wiki/10395"
+  },
+  {
+    "title": "No. 10397 顎之巨人",
+    "id": "10397",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A1%8E%E4%B9%8B%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10397"
+  },
+  {
+    "title": "No. 10398 亞妮 ‧ 雷恩哈特與女巨人",
+    "id": "10398",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BA%9E%E5%A6%AE_%E2%80%A7_%E9%9B%B7%E6%81%A9%E5%93%88%E7%89%B9%E8%88%87%E5%A5%B3%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10398"
+  },
+  {
+    "title": "No. 10400 萊納 ‧ 布朗與盔甲巨人",
+    "id": "10400",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%90%8A%E7%B4%8D_%E2%80%A7_%E5%B8%83%E6%9C%97%E8%88%87%E7%9B%94%E7%94%B2%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10400"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

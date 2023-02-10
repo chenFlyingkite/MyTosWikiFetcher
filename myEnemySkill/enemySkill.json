@@ -10903,7 +10903,7 @@
     "icons": []
   },
   {
-    "id": "無法控制 ‧ 扣血50% ‧ 喪伴固防50倍-必殺",
+    "id": "無法控制 扣血50% 喪伴⇒固防50倍\u0026扣血100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -10913,17 +10913,17 @@
   {
     "id": "855",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/855",
-    "name": "無法控制 ‧ 扣血70% ‧ 喪伴狂硬50倍-完殺",
-    "detail": "敵人會無視所有控制技能，並在每回合扣除召喚師 70% 生命力；當有其他敵人被擊斃，下回合開始，敵人的防禦力提升至 50 倍，並在每回合將扣除召喚師 100% 生命力 (無視所有減傷效果和意志技能)",
+    "name": "無法控制",
+    "detail": "敵人會無視所有控制技能",
     "esCode": "{{ES855}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI124.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/33/ESG004.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142805\u0026path-prefix\u003dzh",
+        "iconKey": "ESG004.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e4/SI129.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102457\u0026path-prefix\u003dzh",
-        "iconKey": "SI129.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f4/ESI007.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124301\u0026path-prefix\u003dzh",
+        "iconKey": "ESI007.png"
       },
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
@@ -40102,6 +40102,26 @@
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ad/SI236.png/revision/latest/scale-to-width-down/22?cb\u003d20171217140528\u0026path-prefix\u003dzh",
         "iconKey": "SI236.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/32/SI225.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
+        "iconKey": "SI225.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
+        "iconKey": "SI215.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f1/SI221.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102909\u0026path-prefix\u003dzh",
+        "iconKey": "SI221.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
       }
     ]
   },
@@ -40237,6 +40257,18 @@
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
         "iconKey": "SI215.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/7e/SI228.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
+        "iconKey": "SI228.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f2/SI132.png/revision/latest/scale-to-width-down/22?cb\u003d20160317092425\u0026path-prefix\u003dzh",
+        "iconKey": "SI132.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c3/SI124.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
+        "iconKey": "SI124.png"
       }
     ]
   },
@@ -41324,7 +41356,7 @@
     "icons": []
   },
   {
-    "id": "中毒70% ‧ 首回全水冰封 ‧ 首消全水盾",
+    "id": "中毒70% 首回⇒全水冰封 首消全水盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -53236,7 +53268,7 @@
     "icons": []
   },
   {
-    "id": "CD1 ‧ 龍脈重置 ‧ 10顆轉敵屬-其他轉別屬4顆 ‧ 疊消敵屬盾20%-棄攻轉屬-無法控制-無視減傷",
+    "id": "CD1 進場⇒龍脈重置 進場\u0026每回⇒10顆轉敵屬-其他轉別屬各4顆 【疊消敵屬】凝護20% ‧ 達成條件⇒棄攻轉屬 無敵 無法控制 無視減傷",
     "link": "",
     "name": "",
     "detail": "",
@@ -83595,8 +83627,8 @@
     "esCode": "{{ES5920}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/85/SI572.png/revision/latest/scale-to-width-down/22?cb\u003d20220903081140\u0026path-prefix\u003dzh",
-        "iconKey": "SI572.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/28/ESI018.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
+        "iconKey": "ESI018.png"
       }
     ]
   },
@@ -83632,8 +83664,8 @@
     "esCode": "{{ES5923}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/85/SI572.png/revision/latest/scale-to-width-down/22?cb\u003d20220903081140\u0026path-prefix\u003dzh",
-        "iconKey": "SI572.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e1/ESI015.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI015.png"
       }
     ]
   },
@@ -85746,8 +85778,12 @@
     "esCode": "{{ES6088}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/98/ESIB007.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124643\u0026path-prefix\u003dzh",
+        "iconKey": "ESIB007.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/6/62/ESNB003.png/revision/latest/scale-to-width-down/22?cb\u003d20230203133453\u0026path-prefix\u003dzh",
+        "iconKey": "ESNB003.png"
       }
     ]
   },
@@ -85783,8 +85819,12 @@
     "esCode": "{{ES6091}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/98/ESIB007.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124643\u0026path-prefix\u003dzh",
+        "iconKey": "ESIB007.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/30/ESNB006.png/revision/latest/scale-to-width-down/22?cb\u003d20230203133455\u0026path-prefix\u003dzh",
+        "iconKey": "ESNB006.png"
       }
     ]
   },
@@ -85820,8 +85860,12 @@
     "esCode": "{{ES6094}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/96/ESIB006.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124636\u0026path-prefix\u003dzh",
+        "iconKey": "ESIB006.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/6/61/ESNB002.png/revision/latest/scale-to-width-down/22?cb\u003d20230203133452\u0026path-prefix\u003dzh",
+        "iconKey": "ESNB002.png"
       }
     ]
   },
@@ -85857,8 +85901,12 @@
     "esCode": "{{ES6097}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/96/ESIB006.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124636\u0026path-prefix\u003dzh",
+        "iconKey": "ESIB006.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/20/ESNB005.png/revision/latest/scale-to-width-down/22?cb\u003d20230203133455\u0026path-prefix\u003dzh",
+        "iconKey": "ESNB005.png"
       }
     ]
   },
@@ -85894,8 +85942,12 @@
     "esCode": "{{ES6100}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/96/ESIB006.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124636\u0026path-prefix\u003dzh",
+        "iconKey": "ESIB006.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/27/ESNB008.png/revision/latest/scale-to-width-down/22?cb\u003d20230203133457\u0026path-prefix\u003dzh",
+        "iconKey": "ESNB008.png"
       }
     ]
   },
@@ -86149,6 +86201,10 @@
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
         "iconKey": "SI158.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/6/65/ESNG005.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100801\u0026path-prefix\u003dzh",
+        "iconKey": "ESNG005.png"
       }
     ]
   },
@@ -89693,8 +89749,12 @@
     "esCode": "{{ES6391}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESI019.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
+        "iconKey": "ESI019.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e8/ESNR002.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100740\u0026path-prefix\u003dzh",
+        "iconKey": "ESNR002.png"
       }
     ]
   },
@@ -89730,8 +89790,12 @@
     "esCode": "{{ES6394}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESI019.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
+        "iconKey": "ESI019.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4c/ESNR005.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100743\u0026path-prefix\u003dzh",
+        "iconKey": "ESNR005.png"
       }
     ]
   },
@@ -89767,8 +89831,12 @@
     "esCode": "{{ES6397}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1d/SI510.png/revision/latest/scale-to-width-down/22?cb\u003d20220727123306\u0026path-prefix\u003dzh",
-        "iconKey": "SI510.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESI019.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
+        "iconKey": "ESI019.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/bd/ESNR008.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100745\u0026path-prefix\u003dzh",
+        "iconKey": "ESNR008.png"
       }
     ]
   },
@@ -91067,51 +91135,48 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6500",
+    "esCode": "⓵【全消盾-剋敵屬 \u0026 反首消敵屬】凝護20% ⓶ 達成條件棄攻轉屬 ⓷ 進場\u0026每回⇒轉化︰敵屬及剋敵各9顆-其餘各3顆 ⓸ 自身屬性出現不同敵技︰ 【水︰✕形碎裂】 【火︰軌跡燃燒10000 ‧ 2格火焰地型20000】 【木︰左右瘴氣20%】 【光︰結界地型圍城 ‧ 軌跡隱藏】 【暗︰黑白符石 ‧ 技能封鎖】||{{ES6500}}||E",
     "icons": []
   },
   {
-    "id": "{{ES6500}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6500?action\u003dedit",
-    "name": "E",
-    "detail": "",
-    "esCode": "6501",
-    "icons": []
-  },
-  {
-    "id": "Template:ES6501",
-    "link": "",
-    "name": "",
-    "detail": "",
-    "esCode": "E",
-    "icons": []
-  },
-  {
-    "id": "6502",
-    "link": "",
-    "name": "",
-    "detail": "",
-    "esCode": "{{ES6502}}",
-    "icons": []
+    "id": "6501",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6501",
+    "name": "核心張開後︰ ⓵ 2重角色符石地型 ⓶ 進場\u0026每回⇒轉化︰火8顆-心6顆-其餘各4顆 ⓷ 無敵-無法控制",
+    "detail": "• 隨機鎖定 2 個位置\u003cbr\u003e•「移動符石時間完結一刻」\u003cbr\u003e 角色符石需置於\u003cbr\u003e 鎖定位置內，該角色才能\u003cbr\u003e 對敵人造成攻擊傷害。\u003cbr\u003e• 其他成員攻擊力變 0\u003cbr\u003e\u003cbr\u003e• 每回合將所有符石轉化為\u003cbr\u003e⇒ 固定數量的五屬及心符石\u003cbr\u003e\u003cbr\u003e• 敵人不會受到任何傷害及\u003cbr\u003e 不會被附上狀態。",
+    "esCode": "{{ES6501}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c2/ESEA013.png/revision/latest/scale-to-width-down/22?cb\u003d20220924131634\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA013.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESCA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924114313\u0026path-prefix\u003dzh",
+        "iconKey": "ESCA006.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/33/ESG004.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142805\u0026path-prefix\u003dzh",
+        "iconKey": "ESG004.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【累積首消30粒符石】凝護100%",
+    "esCode": "⓵ 進場⇒吸取龍脈儀 ⓶ 每回⇒附加消除重置 ⓷ 扣血100% 封王核心(封閉)︰ ⓵ 本體0血⇒張開核心 封王核心(張開)︰ ⓵ 首消全心盾 ⓶ 首消多種減傷盾100%",
     "icons": []
   },
   {
-    "id": "{{ES6503}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6503?action\u003dedit",
+    "id": "{{ES6502}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6502?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6504",
+    "esCode": "6503",
     "icons": []
   },
   {
-    "id": "【累積首消60粒符石】凝護100%",
+    "id": "【累積首消30粒符石】凝護100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91119,11 +91184,11 @@
     "icons": []
   },
   {
-    "id": "6505",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6505",
-    "name": "【累積首消90粒符石】凝護100%",
-    "detail": "\u003cfont color\u003d#FFFF3C\u003e【90 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 90 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
-    "esCode": "{{ES6505}}",
+    "id": "6504",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6504",
+    "name": "【累積首消60粒符石】凝護100%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【60 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 60 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
+    "esCode": "{{ES6504}}",
     "icons": [
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/ESF005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924140618\u0026path-prefix\u003dzh",
@@ -91136,19 +91201,19 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【累積首消120粒符石】凝護100%",
+    "esCode": "【累積首消90粒符石】凝護100%",
     "icons": []
   },
   {
-    "id": "{{ES6506}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6506?action\u003dedit",
+    "id": "{{ES6505}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6505?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6507",
+    "esCode": "6506",
     "icons": []
   },
   {
-    "id": "【累積首消150粒符石】凝護100%",
+    "id": "【累積首消120粒符石】凝護100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91156,11 +91221,11 @@
     "icons": []
   },
   {
-    "id": "6508",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6508",
-    "name": "【累積首消180粒符石】凝護100%",
-    "detail": "\u003cfont color\u003d#FFFF3C\u003e【180 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 180 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
-    "esCode": "{{ES6508}}",
+    "id": "6507",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6507",
+    "name": "【累積首消150粒符石】凝護100%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【150 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 150 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
+    "esCode": "{{ES6507}}",
     "icons": [
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/ESF005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924140618\u0026path-prefix\u003dzh",
@@ -91173,19 +91238,19 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【累積首消210粒符石】凝護100%",
+    "esCode": "【累積首消180粒符石】凝護100%",
     "icons": []
   },
   {
-    "id": "{{ES6509}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6509?action\u003dedit",
+    "id": "{{ES6508}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6508?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6510",
+    "esCode": "6509",
     "icons": []
   },
   {
-    "id": "【累積首消240粒符石】凝護100%",
+    "id": "【累積首消210粒符石】凝護100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91193,11 +91258,11 @@
     "icons": []
   },
   {
-    "id": "6511",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6511",
-    "name": "【累積首消270粒符石】凝護100%",
-    "detail": "\u003cfont color\u003d#FFFF3C\u003e【270 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 270 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
-    "esCode": "{{ES6511}}",
+    "id": "6510",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6510",
+    "name": "【累積首消240粒符石】凝護100%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【240 粒符石護盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 累積首批消除 240 粒符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力",
+    "esCode": "{{ES6510}}",
     "icons": [
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/ESF005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924140618\u0026path-prefix\u003dzh",
@@ -91210,19 +91275,19 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【累積首消300粒符石】凝護100%",
+    "esCode": "【累積首消270粒符石】凝護100%",
     "icons": []
   },
   {
-    "id": "{{ES6512}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6512?action\u003dedit",
+    "id": "{{ES6511}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6511?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6513",
+    "esCode": "6512",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消水符石】",
+    "id": "【累積首消300粒符石】凝護100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91230,31 +91295,36 @@
     "icons": []
   },
   {
-    "id": "6514",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6514",
-    "name": "【減傷抗性 - 消水符石】",
-    "detail": "• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6514}}",
-    "icons": []
+    "id": "6513",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6513",
+    "name": "0%抗性盾︰消1組水增加20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消水符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6513}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f7/ESFF001.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055752\u0026path-prefix\u003dzh",
+        "iconKey": "ESFF001.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消水符石】",
+    "esCode": "0%抗性盾︰消1組水增加25%",
     "icons": []
   },
   {
-    "id": "{{ES6515}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6515?action\u003dedit",
+    "id": "{{ES6514}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6514?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6516",
+    "esCode": "6515",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消火符石】",
+    "id": "0%抗性盾︰消1組水增加50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91262,31 +91332,36 @@
     "icons": []
   },
   {
-    "id": "6517",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6517",
-    "name": "【減傷抗性 - 消火符石】",
-    "detail": "• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6517}}",
-    "icons": []
+    "id": "6516",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6516",
+    "name": "0%抗性盾︰消1組火增加20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消火符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6516}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3d/ESFF004.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055754\u0026path-prefix\u003dzh",
+        "iconKey": "ESFF004.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消火符石】",
+    "esCode": "0%抗性盾︰消1組火增加25%",
     "icons": []
   },
   {
-    "id": "{{ES6518}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6518?action\u003dedit",
+    "id": "{{ES6517}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6517?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6519",
+    "esCode": "6518",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消木符石】",
+    "id": "0%抗性盾︰消1組火增加50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91294,31 +91369,36 @@
     "icons": []
   },
   {
-    "id": "6520",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6520",
-    "name": "【減傷抗性 - 消木符石】",
-    "detail": "• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6520}}",
-    "icons": []
+    "id": "6519",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6519",
+    "name": "0%抗性盾︰消1組木增加20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消木符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6519}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0a/ESFF007.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055755\u0026path-prefix\u003dzh",
+        "iconKey": "ESFF007.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消木符石】",
+    "esCode": "0%抗性盾︰消1組木增加25%",
     "icons": []
   },
   {
-    "id": "{{ES6521}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6521?action\u003dedit",
+    "id": "{{ES6520}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6520?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6522",
+    "esCode": "6521",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消光符石】",
+    "id": "0%抗性盾︰消1組木增加50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91326,31 +91406,36 @@
     "icons": []
   },
   {
-    "id": "6523",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6523",
-    "name": "【減傷抗性 - 消光符石】",
-    "detail": "• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6523}}",
-    "icons": []
+    "id": "6522",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6522",
+    "name": "0%抗性盾︰消1組光增加20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消光符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6522}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5b/ESFF010.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055757\u0026path-prefix\u003dzh",
+        "iconKey": "ESFF010.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消光符石】",
+    "esCode": "0%抗性盾︰消1組光增加25%",
     "icons": []
   },
   {
-    "id": "{{ES6524}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6524?action\u003dedit",
+    "id": "{{ES6523}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6523?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6525",
+    "esCode": "6524",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消暗符石】",
+    "id": "0%抗性盾︰消1組光增加50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91358,31 +91443,36 @@
     "icons": []
   },
   {
-    "id": "6526",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6526",
-    "name": "【減傷抗性 - 消暗符石】",
-    "detail": "• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6526}}",
-    "icons": []
+    "id": "6525",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6525",
+    "name": "0%抗性盾︰消1組暗增加20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消暗符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6525}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/40/ESFF013.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055758\u0026path-prefix\u003dzh",
+        "iconKey": "ESFF013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消暗符石】",
+    "esCode": "0%抗性盾︰消1組暗增加25%",
     "icons": []
   },
   {
-    "id": "{{ES6527}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6527?action\u003dedit",
+    "id": "{{ES6526}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6526?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6528",
+    "esCode": "6527",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消心符石】",
+    "id": "0%抗性盾︰消1組暗增加50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91390,31 +91480,36 @@
     "icons": []
   },
   {
-    "id": "6529",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6529",
-    "name": "【減傷抗性 - 消心符石】",
-    "detail": "• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6529}}",
-    "icons": []
+    "id": "6528",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6528",
+    "name": "0%抗性盾︰消1組心增加20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消心符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6528}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/ESFF016.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055800\u0026path-prefix\u003dzh",
+        "iconKey": "ESFF016.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消心符石】",
+    "esCode": "0%抗性盾︰消1組心增加25%",
     "icons": []
   },
   {
-    "id": "{{ES6530}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6530?action\u003dedit",
+    "id": "{{ES6529}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6529?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6531",
+    "esCode": "6530",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消水符石減少抗性】",
+    "id": "0%抗性盾︰消1組心增加50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91422,31 +91517,36 @@
     "icons": []
   },
   {
-    "id": "6532",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6532",
-    "name": "【減傷抗性 - 消水符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
-    "esCode": "{{ES6532}}",
-    "icons": []
+    "id": "6531",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6531",
+    "name": "100%抗性盾︰消1組水減弱10%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消水符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
+    "esCode": "{{ES6531}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/8a/ESFG001.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055929\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG001.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消水符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組水減弱20%",
     "icons": []
   },
   {
-    "id": "{{ES6533}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6533?action\u003dedit",
+    "id": "{{ES6532}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6532?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6534",
+    "esCode": "6533",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消水符石減少抗性】",
+    "id": "100%抗性盾︰消1組水減弱25%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91454,31 +91554,36 @@
     "icons": []
   },
   {
-    "id": "6535",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6535",
-    "name": "【減傷抗性 - 消火符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
-    "esCode": "{{ES6535}}",
-    "icons": []
+    "id": "6534",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6534",
+    "name": "100%抗性盾︰消1組水減弱50%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消水符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
+    "esCode": "{{ES6534}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/00/ESFG004.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055931\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG004.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消火符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組火減弱10%",
     "icons": []
   },
   {
-    "id": "{{ES6536}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6536?action\u003dedit",
+    "id": "{{ES6535}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6535?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6537",
+    "esCode": "6536",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消火符石減少抗性】",
+    "id": "100%抗性盾︰消1組火減弱20%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91486,31 +91591,36 @@
     "icons": []
   },
   {
-    "id": "6538",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6538",
-    "name": "【減傷抗性 - 消火符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
-    "esCode": "{{ES6538}}",
-    "icons": []
+    "id": "6537",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6537",
+    "name": "100%抗性盾︰消1組火減弱25%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消火符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "esCode": "{{ES6537}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/6/61/ESFG007.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055932\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG007.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消木符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組火減弱50%",
     "icons": []
   },
   {
-    "id": "{{ES6539}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6539?action\u003dedit",
+    "id": "{{ES6538}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6538?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6540",
+    "esCode": "6539",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消木符石減少抗性】",
+    "id": "100%抗性盾︰消1組木減弱10%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91518,31 +91628,36 @@
     "icons": []
   },
   {
-    "id": "6541",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6541",
-    "name": "【減傷抗性 - 消木符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6541}}",
-    "icons": []
+    "id": "6540",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6540",
+    "name": "100%抗性盾︰消1組木減弱20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消木符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6540}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f7/ESFG010.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055934\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG010.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消木符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組木減弱25%",
     "icons": []
   },
   {
-    "id": "{{ES6542}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6542?action\u003dedit",
+    "id": "{{ES6541}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6541?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6543",
+    "esCode": "6542",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消光符石減少抗性】",
+    "id": "100%抗性盾︰消1組木減弱50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91550,31 +91665,36 @@
     "icons": []
   },
   {
-    "id": "6544",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6544",
-    "name": "【減傷抗性 - 消光符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
-    "esCode": "{{ES6544}}",
-    "icons": []
+    "id": "6543",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6543",
+    "name": "100%抗性盾︰消1組光減弱10%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消光符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
+    "esCode": "{{ES6543}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/ec/ESFG013.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060055\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消光符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組光減弱20%",
     "icons": []
   },
   {
-    "id": "{{ES6545}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6545?action\u003dedit",
+    "id": "{{ES6544}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6544?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6546",
+    "esCode": "6545",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消光符石減少抗性】",
+    "id": "100%抗性盾︰消1組光減弱25%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91582,31 +91702,36 @@
     "icons": []
   },
   {
-    "id": "6547",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6547",
-    "name": "【減傷抗性 - 消暗符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
-    "esCode": "{{ES6547}}",
-    "icons": []
+    "id": "6546",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6546",
+    "name": "100%抗性盾︰消1組光減弱50%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消光符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
+    "esCode": "{{ES6546}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e0/ESFG016.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060057\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG016.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消暗符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組暗減弱10%",
     "icons": []
   },
   {
-    "id": "{{ES6548}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6548?action\u003dedit",
+    "id": "{{ES6547}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6547?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6549",
+    "esCode": "6548",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消暗符石減少抗性】",
+    "id": "100%抗性盾︰消1組暗減弱20%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91614,31 +91739,36 @@
     "icons": []
   },
   {
-    "id": "6550",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6550",
-    "name": "【減傷抗性 - 消暗符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
-    "esCode": "{{ES6550}}",
-    "icons": []
+    "id": "6549",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6549",
+    "name": "100%抗性盾︰消1組暗減弱25%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消暗符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "esCode": "{{ES6549}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/be/ESFG019.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060059\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG019.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消心符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組暗減弱50%",
     "icons": []
   },
   {
-    "id": "{{ES6551}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6551?action\u003dedit",
+    "id": "{{ES6550}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6550?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6552",
+    "esCode": "6551",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消心符石減少抗性】",
+    "id": "100%抗性盾︰消1組心減弱10%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91646,31 +91776,36 @@
     "icons": []
   },
   {
-    "id": "6553",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6553",
-    "name": "【減傷抗性 - 消心符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
-    "esCode": "{{ES6553}}",
-    "icons": []
+    "id": "6552",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6552",
+    "name": "100%抗性盾︰消1組心減弱20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消心符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
+    "esCode": "{{ES6552}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2f/ESFG022.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060100\u0026path-prefix\u003dzh",
+        "iconKey": "ESFG022.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消心符石減少抗性】",
+    "esCode": "100%抗性盾︰消1組心減弱25%",
     "icons": []
   },
   {
-    "id": "{{ES6554}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6554?action\u003dedit",
+    "id": "{{ES6553}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6553?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6555",
+    "esCode": "6554",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消除符石組數】",
+    "id": "100%抗性盾︰消1組心減弱50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91678,31 +91813,36 @@
     "icons": []
   },
   {
-    "id": "6556",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6556",
-    "name": "【減傷抗性 - 消除符石組數】",
-    "detail": "消除多於 1 組符石：\u003cbr\u003e每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
-    "esCode": "{{ES6556}}",
-    "icons": []
+    "id": "6555",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6555",
+    "name": "0%抗性盾︰消1組增加10%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消除符石組數】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e消除多於 1 組符石：\u003cbr\u003e每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 10% 減傷抗性",
+    "esCode": "{{ES6555}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/71/ESFE010.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055440\u0026path-prefix\u003dzh",
+        "iconKey": "ESFE010.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消除符石組數】",
+    "esCode": "0%抗性盾︰消1組增加20%",
     "icons": []
   },
   {
-    "id": "{{ES6557}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6557?action\u003dedit",
+    "id": "{{ES6556}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6556?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6558",
+    "esCode": "6557",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消除符石組數】",
+    "id": "0%抗性盾︰消1組增加25%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91710,31 +91850,36 @@
     "icons": []
   },
   {
-    "id": "6559",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6559",
-    "name": "【減傷抗性 - 消除符石組數減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 消除多於 1 組符石：\u003cbr\u003e 每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
-    "esCode": "{{ES6559}}",
-    "icons": []
+    "id": "6558",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6558",
+    "name": "0%抗性盾︰消1組增加50%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消除符石組數】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e消除多於 1 組符石：\u003cbr\u003e每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 50% 減傷抗性",
+    "esCode": "{{ES6558}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESFE013.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055432\u0026path-prefix\u003dzh",
+        "iconKey": "ESFE013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 消除符石組數減少抗性】",
+    "esCode": "100%抗性盾︰消1組減弱10%",
     "icons": []
   },
   {
-    "id": "{{ES6560}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6560?action\u003dedit",
+    "id": "{{ES6559}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6559?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6561",
+    "esCode": "6560",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 消除符石組數減少抗性】",
+    "id": "100%抗性盾︰消1組減弱20%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91742,31 +91887,36 @@
     "icons": []
   },
   {
-    "id": "6562",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6562",
-    "name": "【減傷抗性 - 消除符石組數減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 消除多於 1 組符石：\u003cbr\u003e 每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
-    "esCode": "{{ES6562}}",
-    "icons": []
+    "id": "6561",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6561",
+    "name": "100%抗性盾︰消1組減弱25%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消除符石組數減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 消除多於 1 組符石：\u003cbr\u003e 每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "esCode": "{{ES6561}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b2/ESFE016.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055430\u0026path-prefix\u003dzh",
+        "iconKey": "ESFE016.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 首消符石種類減少抗性】",
+    "esCode": "100%抗性盾︰消1組減弱50%",
     "icons": []
   },
   {
-    "id": "{{ES6563}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6563?action\u003dedit",
+    "id": "{{ES6562}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6562?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6564",
+    "esCode": "6563",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 首消符石種類減少抗性】",
+    "id": "100%抗性盾︰首消消1組減弱20%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91774,31 +91924,36 @@
     "icons": []
   },
   {
-    "id": "6565",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6565",
-    "name": "【減傷抗性 - 首消符石種類減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 首批消除多於 1 種符石：\u003cbr\u003e 每首批消除多 1 種符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
-    "esCode": "{{ES6565}}",
-    "icons": []
+    "id": "6564",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6564",
+    "name": "100%抗性盾︰首消消1組減弱25%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 首消符石種類減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 首批消除多於 1 種符石：\u003cbr\u003e 每首批消除多 1 種符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "esCode": "{{ES6564}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/ce/ESFE005.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055258\u0026path-prefix\u003dzh",
+        "iconKey": "ESFE005.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 ‧ 吸取龍脈儀 - 減少抗性】",
+    "esCode": "100%抗性盾︰首消消1組減弱50%",
     "icons": []
   },
   {
-    "id": "{{ES6566}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6566?action\u003dedit",
+    "id": "{{ES6565}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6565?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6567",
+    "esCode": "6566",
     "icons": []
   },
   {
-    "id": "【減傷抗性 - 首消符石減少抗性】",
+    "id": "100%抗性盾︰吸取龍脈儀減弱",
     "link": "",
     "name": "",
     "detail": "",
@@ -91806,31 +91961,36 @@
     "icons": []
   },
   {
-    "id": "6568",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6568",
-    "name": "【減傷抗性 - 首消符石減少抗性】",
-    "detail": "• 敵人為 100% 減傷抗性\u003cbr\u003e• 每累積首批消除 1 粒符石\u003cbr\u003e⇒ 敵人減少 2% 減傷抗性",
-    "esCode": "{{ES6568}}",
-    "icons": []
+    "id": "6567",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6567",
+    "name": "100%抗性盾︰首消1粒減弱1%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 首消符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每累積首批消除 1 粒符石\u003cbr\u003e⇒ 敵人減少 1% 減傷抗性",
+    "esCode": "{{ES6567}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/16/ESFE007.png/revision/latest/scale-to-width-down/22?cb\u003d20230102055320\u0026path-prefix\u003dzh",
+        "iconKey": "ESFE007.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【減傷抗性 - 首消符石減少抗性】",
+    "esCode": "100%抗性盾︰首消1粒減弱2%",
     "icons": []
   },
   {
-    "id": "{{ES6569}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6569?action\u003dedit",
+    "id": "{{ES6568}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6568?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6570",
+    "esCode": "6569",
     "icons": []
   },
   {
-    "id": "【吸收水屬成員攻擊傷害 - 化血】",
+    "id": "100%抗性盾︰首消1粒減弱5%",
     "link": "",
     "name": "",
     "detail": "",
@@ -91838,31 +91998,36 @@
     "icons": []
   },
   {
-    "id": "6571",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6571",
-    "name": "【吸收水屬成員攻擊傷害 - 化血】",
-    "detail": "• 2 回合內，\u003cbr\u003e 吸收水屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
-    "esCode": "{{ES6571}}",
-    "icons": []
+    "id": "6570",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6570",
+    "name": "1回⇒水成員傷害化血",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【吸收水屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收水屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "esCode": "{{ES6570}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4f/ESA031.png/revision/latest/scale-to-width-down/22?cb\u003d20220924101350\u0026path-prefix\u003dzh",
+        "iconKey": "ESA031.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【吸收水屬成員攻擊傷害 - 化血】",
+    "esCode": "2回⇒水成員傷害化血",
     "icons": []
   },
   {
-    "id": "{{ES6572}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6572?action\u003dedit",
+    "id": "{{ES6571}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6571?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6573",
+    "esCode": "6572",
     "icons": []
   },
   {
-    "id": "【吸收火屬成員攻擊傷害 - 化血】",
+    "id": "3回⇒水成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -91870,31 +92035,36 @@
     "icons": []
   },
   {
-    "id": "6574",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6574",
-    "name": "【吸收火屬成員攻擊傷害 - 化血】",
-    "detail": "• 2 回合內，\u003cbr\u003e 吸收火屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
-    "esCode": "{{ES6574}}",
-    "icons": []
+    "id": "6573",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6573",
+    "name": "1回⇒火成員傷害化血",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【吸收火屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收火屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "esCode": "{{ES6573}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/58/ESA032.png/revision/latest/scale-to-width-down/22?cb\u003d20220924101350\u0026path-prefix\u003dzh",
+        "iconKey": "ESA032.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【吸收火屬成員攻擊傷害 - 化血】",
+    "esCode": "2回⇒火成員傷害化血",
     "icons": []
   },
   {
-    "id": "{{ES6575}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6575?action\u003dedit",
+    "id": "{{ES6574}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6574?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6576",
+    "esCode": "6575",
     "icons": []
   },
   {
-    "id": "【吸收木屬成員攻擊傷害 - 化血】",
+    "id": "3回⇒火成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -91902,31 +92072,36 @@
     "icons": []
   },
   {
-    "id": "6577",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6577",
-    "name": "【吸收木屬成員攻擊傷害 - 化血】",
-    "detail": "• 2 回合內，\u003cbr\u003e 吸收木屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
-    "esCode": "{{ES6577}}",
-    "icons": []
+    "id": "6576",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6576",
+    "name": "1回⇒木成員傷害化血",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【吸收木屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收木屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "esCode": "{{ES6576}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/82/ESA033.png/revision/latest/scale-to-width-down/22?cb\u003d20220924101349\u0026path-prefix\u003dzh",
+        "iconKey": "ESA033.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【吸收木屬成員攻擊傷害 - 化血】",
+    "esCode": "2回⇒木成員傷害化血",
     "icons": []
   },
   {
-    "id": "{{ES6578}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6578?action\u003dedit",
+    "id": "{{ES6577}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6577?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6579",
+    "esCode": "6578",
     "icons": []
   },
   {
-    "id": "【吸收光屬成員攻擊傷害 - 化血】",
+    "id": "3回⇒木成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -91934,31 +92109,36 @@
     "icons": []
   },
   {
-    "id": "6580",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6580",
-    "name": "【吸收光屬成員攻擊傷害 - 化血】",
-    "detail": "• 2 回合內，\u003cbr\u003e 吸收光屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
-    "esCode": "{{ES6580}}",
-    "icons": []
+    "id": "6579",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6579",
+    "name": "1回⇒光成員傷害化血",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【吸收光屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收光屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "esCode": "{{ES6579}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/16/ESA034.png/revision/latest/scale-to-width-down/22?cb\u003d20220924101349\u0026path-prefix\u003dzh",
+        "iconKey": "ESA034.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【吸收光屬成員攻擊傷害 - 化血】",
+    "esCode": "2回⇒光成員傷害化血",
     "icons": []
   },
   {
-    "id": "{{ES6581}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6581?action\u003dedit",
+    "id": "{{ES6580}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6580?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6582",
+    "esCode": "6581",
     "icons": []
   },
   {
-    "id": "【吸收暗屬成員攻擊傷害 - 化血】",
+    "id": "3回⇒光成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -91966,31 +92146,36 @@
     "icons": []
   },
   {
-    "id": "6583",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6583",
-    "name": "【吸收暗屬成員攻擊傷害 - 化血】",
-    "detail": "• 2 回合內，\u003cbr\u003e 吸收暗屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
-    "esCode": "{{ES6583}}",
-    "icons": []
+    "id": "6582",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6582",
+    "name": "1回⇒暗成員傷害化血",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【吸收暗屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收暗屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "esCode": "{{ES6582}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/75/ESA035.png/revision/latest/scale-to-width-down/22?cb\u003d20220924101348\u0026path-prefix\u003dzh",
+        "iconKey": "ESA035.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【吸收暗屬成員攻擊傷害 - 化血】",
+    "esCode": "2回⇒暗成員傷害化血",
     "icons": []
   },
   {
-    "id": "{{ES6584}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6584?action\u003dedit",
+    "id": "{{ES6583}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6583?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6585",
+    "esCode": "6584",
     "icons": []
   },
   {
-    "id": "Template:ES6585",
+    "id": "3回⇒暗成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -91998,11 +92183,11 @@
     "icons": []
   },
   {
-    "id": "6586",
+    "id": "6585",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "{{ES6586}}",
+    "esCode": "{{ES6585}}",
     "icons": []
   },
   {
@@ -92010,19 +92195,19 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6587",
+    "esCode": "Template:ES6586",
     "icons": []
   },
   {
-    "id": "{{ES6587}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6587?action\u003dedit",
+    "id": "{{ES6586}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6586?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6588",
+    "esCode": "6587",
     "icons": []
   },
   {
-    "id": "【同伴之護 - 喪伴自戕】",
+    "id": "Template:ES6587",
     "link": "",
     "name": "",
     "detail": "",
@@ -92030,31 +92215,36 @@
     "icons": []
   },
   {
-    "id": "6589",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6589",
-    "name": "【無敵】",
-    "detail": "• 敵人不會受到任何傷害",
-    "esCode": "{{ES6589}}",
-    "icons": []
+    "id": "6588",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6588",
+    "name": "隨伴同亡",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【同伴之護 - 喪伴自戕】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e當有其他敵人被擊斃，\u003cbr\u003e回合結束時敵人\u003cbr\u003e扣除自身 100% 生命力 。",
+    "esCode": "{{ES6588}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5f/ESJA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125053\u0026path-prefix\u003dzh",
+        "iconKey": "ESJA002.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【弱化圍城 10% ‧ 水弱化符石 10%】",
+    "esCode": "無敵",
     "icons": []
   },
   {
-    "id": "{{ES6590}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6590?action\u003dedit",
+    "id": "{{ES6589}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6589?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6591",
+    "esCode": "6590",
     "icons": []
   },
   {
-    "id": "【弱化圍城 10% ‧ 火弱化符石 10%】",
+    "id": "進場⇒弱化圍城 ‧ 每回⇒水弱化10%",
     "link": "",
     "name": "",
     "detail": "",
@@ -92062,31 +92252,36 @@
     "icons": []
   },
   {
-    "id": "6592",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6592",
-    "name": "【弱化圍城 10% ‧ 木弱化符石 10%】",
-    "detail": "• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的木符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
-    "esCode": "{{ES6592}}",
-    "icons": []
+    "id": "6591",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6591",
+    "name": "進場⇒弱化圍城 ‧ 每回⇒水弱化20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 10% ‧ 火弱化符石 10%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的火符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "esCode": "{{ES6591}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9b/ESIA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA002.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【弱化圍城 10% ‧ 光弱化符石 10%】",
+    "esCode": "進場⇒弱化圍城 ‧ 每回⇒火弱化10%",
     "icons": []
   },
   {
-    "id": "{{ES6593}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6593?action\u003dedit",
+    "id": "{{ES6592}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6592?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6594",
+    "esCode": "6593",
     "icons": []
   },
   {
-    "id": "【弱化圍城 10% ‧ 暗弱化符石 10%】",
+    "id": "進場⇒弱化圍城 ‧ 每回⇒火弱化20%",
     "link": "",
     "name": "",
     "detail": "",
@@ -92094,31 +92289,36 @@
     "icons": []
   },
   {
-    "id": "6595",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6595",
-    "name": "【弱化圍城 10% ‧ 心弱化符石 10%】",
-    "detail": "• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的心符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
-    "esCode": "{{ES6595}}",
-    "icons": []
+    "id": "6594",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6594",
+    "name": "進場⇒弱化圍城 ‧ 每回⇒木弱化10%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 10% ‧ 暗弱化符石 10%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的暗符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "esCode": "{{ES6594}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9b/ESIA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA002.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【弱化圍城 20% ‧ 水弱化符石 20%】",
+    "esCode": "進場⇒弱化圍城 ‧ 每回⇒木弱化20%",
     "icons": []
   },
   {
-    "id": "{{ES6596}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6596?action\u003dedit",
+    "id": "{{ES6595}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6595?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6597",
+    "esCode": "6596",
     "icons": []
   },
   {
-    "id": "【弱化圍城 20% ‧ 火弱化符石 20%】",
+    "id": "進場⇒弱化圍城 ‧ 每回⇒光弱化10%",
     "link": "",
     "name": "",
     "detail": "",
@@ -92126,11 +92326,320 @@
     "icons": []
   },
   {
-    "id": "6598",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6598",
-    "name": "【弱化圍城 20% ‧ 木弱化符石 20%】",
-    "detail": "• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的木符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
-    "esCode": "{{ES6598}}",
+    "id": "6597",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6597",
+    "name": "進場⇒弱化圍城 ‧ 每回⇒光弱化20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 20% ‧ 火弱化符石 20%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的火符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "esCode": "{{ES6597}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9b/ESIA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA002.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "進場⇒弱化圍城 ‧ 每回⇒暗弱化10%",
+    "icons": []
+  },
+  {
+    "id": "{{ES6598}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6598?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6599",
+    "icons": []
+  },
+  {
+    "id": "進場⇒弱化圍城 ‧ 每回⇒暗弱化20%",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6600",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6600",
+    "name": "進場⇒弱化圍城 ‧ 每回⇒心弱化10%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 20% ‧ 暗弱化符石 20%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的暗符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "esCode": "{{ES6600}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9b/ESIA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA002.png"
+      }
+    ]
+  },
+  {
+    "id": "6601",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6601",
+    "name": "進場⇒弱化圍城 ‧ 每回⇒心弱化20%",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 20% ‧ 心弱化符石 20%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的心符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "esCode": "{{ES6601}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9b/ESIA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA002.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "愈攻愈強",
+    "icons": []
+  },
+  {
+    "id": "{{ES6602}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6602?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6603",
+    "icons": []
+  },
+  {
+    "id": "攻前⇒引爆風化追擊(最多2連擊)",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6604",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6604",
+    "name": "攻前⇒引爆風化追擊(最多3連擊)",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【引爆風化符石 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人攻擊前引爆風化符石\u003cbr\u003e• 上述每引爆 1 粒風化符石\u003cbr\u003e⇒ 敵人額外追打 1 次\u003cbr\u003e⇒ 最多追打 3 次",
+    "esCode": "{{ES6604}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ae/ESD021.png/revision/latest/scale-to-width-down/22?cb\u003d20230102054945\u0026path-prefix\u003dzh",
+        "iconKey": "ESD021.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "攻前⇒引爆風化追擊(最多4連擊)",
+    "icons": []
+  },
+  {
+    "id": "{{ES6605}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6605?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6606",
+    "icons": []
+  },
+  {
+    "id": "進埸左方附加⇒1回1Combo限制",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6607",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6607",
+    "name": "進埸左方附加⇒5回1Combo限制",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 1】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 1",
+    "esCode": "{{ES6607}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/99/ESHE001.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060204\u0026path-prefix\u003dzh",
+        "iconKey": "ESHE001.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "進埸左方附加⇒99回1Combo限制",
+    "icons": []
+  },
+  {
+    "id": "{{ES6608}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6608?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6609",
+    "icons": []
+  },
+  {
+    "id": "進埸左方附加⇒1回5Combo限制",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6610",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6610",
+    "name": "進埸左方附加⇒5回5Combo限制",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 5】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 5",
+    "esCode": "{{ES6610}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/ESHE005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924143814\u0026path-prefix\u003dzh",
+        "iconKey": "ESHE005.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "進埸左方附加⇒99回5Combo限制",
+    "icons": []
+  },
+  {
+    "id": "{{ES6611}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6611?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6612",
+    "icons": []
+  },
+  {
+    "id": "進埸左方附加⇒1回10Combo限制",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6613",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6613",
+    "name": "進埸左方附加⇒5回10Combo限制",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 10】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 10",
+    "esCode": "{{ES6613}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/84/ESHE010.png/revision/latest/scale-to-width-down/22?cb\u003d20230102061030\u0026path-prefix\u003dzh",
+        "iconKey": "ESHE010.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "進埸左方附加⇒99回10Combo限制",
+    "icons": []
+  },
+  {
+    "id": "{{ES6614}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6614?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6615",
+    "icons": []
+  },
+  {
+    "id": "30+Combo盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6616",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6616",
+    "name": "40+Combo盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【≥40 連擊盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 達成 ≥40 連擊 (Combo)\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6616}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2d/ESHA040.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060144\u0026path-prefix\u003dzh",
+        "iconKey": "ESHA040.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "50+Combo盾",
+    "icons": []
+  },
+  {
+    "id": "{{ES6617}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6617?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6618",
+    "icons": []
+  },
+  {
+    "id": "30+Combo追擊盾(最多9連擊)",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6619",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6619",
+    "name": "40+Combo追擊盾(最多9連擊)",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【≥40 連擊盾 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 達成 ≥40 連擊 (Combo)\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1\u003cbr\u003e⇒ 並根據差距的連擊數\u003cbr\u003e 追打相應次數攻擊\u003cbr\u003e⇒ 最多追打 9 次",
+    "esCode": "{{ES6619}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2d/ESHA040.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060144\u0026path-prefix\u003dzh",
+        "iconKey": "ESHA040.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "50+Combo追擊盾(最多9連擊)",
+    "icons": []
+  },
+  {
+    "id": "{{ES6620}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6620?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6621",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6621",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6622",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6622}}",
     "icons": []
   },
   {
@@ -92138,19 +92647,3067 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "【弱化圍城 20% ‧ 光弱化符石 20%】",
+    "esCode": "Template:ES6623",
     "icons": []
   },
   {
-    "id": "{{ES6599}}",
-    "link": "https://tos.fandom.com/zh/wiki/Template:ES6599?action\u003dedit",
+    "id": "{{ES6623}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6623?action\u003dedit",
     "name": "E",
     "detail": "",
-    "esCode": "6600",
+    "esCode": "6624",
     "icons": []
   },
   {
-    "id": "【弱化圍城 20% ‧ 暗弱化符石 20%】",
+    "id": "進場⇒「調查兵團」成員綑綁敵人",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6625",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6625",
+    "name": "回結⇒「里維兵長」使敵人自殺",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【隊中有「里維兵長」- 自戕】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 隊中有「里維兵長」\u003cbr\u003e⇒ 回合結束時，敵人扣除\u003cbr\u003e 100% 自身生命力",
+    "esCode": "{{ES6625}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5f/ESJA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125053\u0026path-prefix\u003dzh",
+        "iconKey": "ESJA002.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6626",
+    "icons": []
+  },
+  {
+    "id": "{{ES6626}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6626?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6627",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6627",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6628",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6628",
+    "name": "進場⇒《進擊的巨人》CD\u0026EP回復",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【指定《進擊的巨人》合作角色 - 回技及 EP】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 指定《進擊的巨人》\u003cbr\u003e 合作角色\u003cbr\u003e⓵ 主動技能 CD 變 0 \u003cbr\u003e⓶ EP 回滿",
+    "esCode": "{{ES6628}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESG005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142805\u0026path-prefix\u003dzh",
+        "iconKey": "ESG005.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "進場⇒《進擊的巨人》CD\u0026EP回復 ‧ 7回亢奮",
+    "icons": []
+  },
+  {
+    "id": "{{ES6629}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6629?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6630",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6630",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6631",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6631",
+    "name": "進場\u0026每回⇒2顆雙層凝結",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【雙重凝結 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合隨機將 2 粒符石 \u003cbr\u003e⇒「雙重凝結」\u003cbr\u003e• 移動符石並消除凝結符石\u003cbr\u003e 四側其中 1 個位置的符石\u003cbr\u003e⇒ 可解除「一重凝結」\u003cbr\u003e (首批消除的符石每次\u003cbr\u003e 只可解除「一重凝結」)\u003cbr\u003e• 凝結符石\u003cbr\u003e⇒ 不能消除、轉化或引爆\u003cbr\u003e• 場上凝結符石愈多\u003cbr\u003e⇒ 敵人所受傷害減少愈多\u003cbr\u003e• 敵人發動攻擊時會根據\u003cbr\u003e 場上凝結符石的數量\u003cbr\u003e⇒ 額外追打",
+    "esCode": "{{ES6631}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5e/ESD018.png/revision/latest/scale-to-width-down/22?cb\u003d20220924130010\u0026path-prefix\u003dzh",
+        "iconKey": "ESD018.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "進場\u0026每回⇒4顆雙層凝結",
+    "icons": []
+  },
+  {
+    "id": "{{ES6632}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6632?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6633",
+    "icons": []
+  },
+  {
+    "id": "進場\u0026每回⇒6顆雙層凝結",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6634",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6634",
+    "name": "2回終結倒數 ‧ 隊長為【調查兵團】成員⇒6回終結倒數",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【終結倒數】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人倒數 2 回合後\u003cbr\u003e⇒ 消耗召喚師 100% 生命力\u003cbr\u003e• 若隊長為【調查兵團】成員\u003cbr\u003e⇒ 則倒數 6 回合後\u003cbr\u003e 消耗召喚師 100% 生命力",
+    "esCode": "{{ES6634}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESI019.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
+        "iconKey": "ESI019.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e8/ESNR002.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100740\u0026path-prefix\u003dzh",
+        "iconKey": "ESNR002.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/SI529.png/revision/latest/scale-to-width-down/22?cb\u003d20220729190357\u0026path-prefix\u003dzh",
+        "iconKey": "SI529.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/de/ESNR006.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100744\u0026path-prefix\u003dzh",
+        "iconKey": "ESNR006.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "3回終結倒數 ‧ 隊長為【調查兵團】成員⇒7回終結倒數",
+    "icons": []
+  },
+  {
+    "id": "{{ES6635}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6635?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6636",
+    "icons": []
+  },
+  {
+    "id": "4回終結倒數 ‧ 隊長為【調查兵團】成員⇒8回終結倒數",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6637",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6637",
+    "name": "5回終結倒數 ‧ 隊長為【調查兵團】成員⇒9回終結倒數",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【終結倒數】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人倒數 5 回合後\u003cbr\u003e⇒ 消耗召喚師 100% 生命力\u003cbr\u003e• 若隊長為【調查兵團】成員\u003cbr\u003e⇒ 則倒數 9 回合後\u003cbr\u003e 消耗召喚師 100% 生命力",
+    "esCode": "{{ES6637}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESI019.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
+        "iconKey": "ESI019.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4c/ESNR005.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100743\u0026path-prefix\u003dzh",
+        "iconKey": "ESNR005.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/SI529.png/revision/latest/scale-to-width-down/22?cb\u003d20220729190357\u0026path-prefix\u003dzh",
+        "iconKey": "SI529.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/80/ESNR009.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100746\u0026path-prefix\u003dzh",
+        "iconKey": "ESNR009.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "受攻⇒引爆圍城",
+    "icons": []
+  },
+  {
+    "id": "{{ES6638}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6638?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6639",
+    "icons": []
+  },
+  {
+    "id": "首消≥1組5顆水十字盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6640",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6640",
+    "name": "首消≥2組5顆水十字盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【水十字限盾 (≥2 組)】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 以【十】形首批消除\u003cbr\u003e ≥2 組 5 粒水符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6640}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/ESC079.png/revision/latest/scale-to-width-down/22?cb\u003d20230130071209\u0026path-prefix\u003dzh",
+        "iconKey": "ESC079.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "首消≥3組5顆水十字盾",
+    "icons": []
+  },
+  {
+    "id": "{{ES6641}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6641?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6642",
+    "icons": []
+  },
+  {
+    "id": "首消隨機1~3組5顆水十字盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6643",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6643",
+    "name": "首消≥1組5顆火十字盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【火十字限盾 (≥1 組)】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 以【十】形首批消除\u003cbr\u003e ≥1 組 5 粒火符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6643}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/46/ESC080.png/revision/latest/scale-to-width-down/22?cb\u003d20230130071209\u0026path-prefix\u003dzh",
+        "iconKey": "ESC080.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "首消≥2組5顆火十字盾",
+    "icons": []
+  },
+  {
+    "id": "{{ES6644}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6644?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6645",
+    "icons": []
+  },
+  {
+    "id": "首消≥3組5顆火十字盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6646",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6646",
+    "name": "首消隨機1~3組5顆火十字盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【火十字限盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 以【十】形首批消除\u003cbr\u003e 指定組數或以上的\u003cbr\u003e 5 粒火符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6646}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/46/ESC080.png/revision/latest/scale-to-width-down/22?cb\u003d20230130071209\u0026path-prefix\u003dzh",
+        "iconKey": "ESC080.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "首消≥1組5顆木十字盾",
+    "icons": []
+  },
+  {
+    "id": "{{ES6647}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6647?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6648",
+    "icons": []
+  },
+  {
+    "id": "首消≥2組5顆木十字盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6649",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6649",
+    "name": "首消≥3組5顆木十字盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【木十字限盾 (≥3 組)】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 以【十】形首批消除\u003cbr\u003e ≥3 組 5 粒木符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6649}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d9/ESC081.png/revision/latest/scale-to-width-down/22?cb\u003d20230130071210\u0026path-prefix\u003dzh",
+        "iconKey": "ESC081.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "首消隨機1~3組5顆木十字盾",
+    "icons": []
+  },
+  {
+    "id": "{{ES6650}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6650?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6651",
+    "icons": []
+  },
+  {
+    "id": "首消≥1組5顆光十字盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6652",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6652",
+    "name": "首消≥2組5顆光十字盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【光十字限盾 (≥2 組)】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 以【十】形首批消除\u003cbr\u003e ≥2 組 5 粒光符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6652}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d5/ESC082.png/revision/latest/scale-to-width-down/22?cb\u003d20230130071210\u0026path-prefix\u003dzh",
+        "iconKey": "ESC082.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "首消≥3組5顆光十字盾",
+    "icons": []
+  },
+  {
+    "id": "{{ES6653}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6653?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6654",
+    "icons": []
+  },
+  {
+    "id": "首消隨機1~3組5顆光十字盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6655",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6655",
+    "name": "首消≥1組5顆暗十字盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【暗十字限盾 (≥1 組)】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 以【十】形首批消除\u003cbr\u003e ≥1 組 5 粒暗符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6655}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/89/ESC083.png/revision/latest/scale-to-width-down/22?cb\u003d20230130071211\u0026path-prefix\u003dzh",
+        "iconKey": "ESC083.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "首消≥2組5顆暗十字盾",
+    "icons": []
+  },
+  {
+    "id": "{{ES6656}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6656?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6657",
+    "icons": []
+  },
+  {
+    "id": "首消≥3組5顆暗十字盾",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6658",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6658",
+    "name": "首消隨機1~3組5顆水暗字盾",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【暗十字限盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 以【十】形首批消除\u003cbr\u003e 指定組數或以上的\u003cbr\u003e 5 粒暗符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "esCode": "{{ES6658}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/89/ESC083.png/revision/latest/scale-to-width-down/22?cb\u003d20230130071211\u0026path-prefix\u003dzh",
+        "iconKey": "ESC083.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "追擊水成員",
+    "icons": []
+  },
+  {
+    "id": "{{ES6659}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6659?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6660",
+    "icons": []
+  },
+  {
+    "id": "追擊火成員",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6661",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6661",
+    "name": "追擊木成員",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【根據木成員數量 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人發動攻擊時\u003cbr\u003e 根據隊中木屬性成員數量\u003cbr\u003e⇒ 額外追打",
+    "esCode": "{{ES6661}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b2/ESA026.png/revision/latest/scale-to-width-down/22?cb\u003d20220924101212\u0026path-prefix\u003dzh",
+        "iconKey": "ESA026.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "追擊光成員",
+    "icons": []
+  },
+  {
+    "id": "{{ES6662}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6662?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6663",
+    "icons": []
+  },
+  {
+    "id": "追擊暗成員",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6664",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6664",
+    "name": "追擊人成員",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【根據人類成員數量 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人發動攻擊時\u003cbr\u003e 根據隊中人類成員數量\u003cbr\u003e⇒ 額外追打",
+    "esCode": "{{ES6664}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/cf/ESB001.png/revision/latest/scale-to-width-down/22?cb\u003d20220924103715\u0026path-prefix\u003dzh",
+        "iconKey": "ESB001.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "追擊獸成員",
+    "icons": []
+  },
+  {
+    "id": "{{ES6665}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6665?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6666",
+    "icons": []
+  },
+  {
+    "id": "追擊妖成員",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6667",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6667",
+    "name": "追擊龍成員",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【根據龍類成員數量 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人發動攻擊時\u003cbr\u003e 根據隊中龍類成員數量\u003cbr\u003e⇒ 額外追打",
+    "esCode": "{{ES6667}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c5/ESB004.png/revision/latest/scale-to-width-down/22?cb\u003d20220924103717\u0026path-prefix\u003dzh",
+        "iconKey": "ESB004.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "追擊神成員",
+    "icons": []
+  },
+  {
+    "id": "{{ES6668}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6668?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6669",
+    "icons": []
+  },
+  {
+    "id": "追擊魔成員",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6670",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6670",
+    "name": "追擊機成員",
+    "detail": "\u003cfont color\u003d#FFFF3C\u003e【根據機械族成員數量 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人發動攻擊時\u003cbr\u003e 根據隊中機械族成員數量\u003cbr\u003e⇒ 額外追打",
+    "esCode": "{{ES6670}}",
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/13/ESB007.png/revision/latest/scale-to-width-down/22?cb\u003d20220924103718\u0026path-prefix\u003dzh",
+        "iconKey": "ESB007.png"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6671",
+    "icons": []
+  },
+  {
+    "id": "{{ES6671}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6671?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6672",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6672",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6673",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6673}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6674",
+    "icons": []
+  },
+  {
+    "id": "{{ES6674}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6674?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6675",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6675",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6676",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6676}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6677",
+    "icons": []
+  },
+  {
+    "id": "{{ES6677}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6677?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6678",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6678",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6679",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6679}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6680",
+    "icons": []
+  },
+  {
+    "id": "{{ES6680}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6680?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6681",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6681",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6682",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6682}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6683",
+    "icons": []
+  },
+  {
+    "id": "{{ES6683}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6683?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6684",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6684",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6685",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6685}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6686",
+    "icons": []
+  },
+  {
+    "id": "{{ES6686}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6686?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6687",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6687",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6688",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6688}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6689",
+    "icons": []
+  },
+  {
+    "id": "{{ES6689}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6689?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6690",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6690",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6691",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6691}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6692",
+    "icons": []
+  },
+  {
+    "id": "{{ES6692}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6692?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6693",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6693",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6694",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6694}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6695",
+    "icons": []
+  },
+  {
+    "id": "{{ES6695}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6695?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6696",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6696",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6697",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6697}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6698",
+    "icons": []
+  },
+  {
+    "id": "{{ES6698}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6698?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6699",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6699",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6700",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6700}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6701",
+    "icons": []
+  },
+  {
+    "id": "{{ES6701}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6701?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6702",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6702",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6703",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6703}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6704",
+    "icons": []
+  },
+  {
+    "id": "{{ES6704}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6704?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6705",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6705",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6706",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6706}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6707",
+    "icons": []
+  },
+  {
+    "id": "{{ES6707}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6707?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6708",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6708",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6709",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6709}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6710",
+    "icons": []
+  },
+  {
+    "id": "{{ES6710}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6710?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6711",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6711",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6712",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6712}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6713",
+    "icons": []
+  },
+  {
+    "id": "{{ES6713}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6713?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6714",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6714",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6715",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6715}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6716",
+    "icons": []
+  },
+  {
+    "id": "{{ES6716}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6716?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6717",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6717",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6718",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6718}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6719",
+    "icons": []
+  },
+  {
+    "id": "{{ES6719}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6719?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6720",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6720",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6721",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6721}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6722",
+    "icons": []
+  },
+  {
+    "id": "{{ES6722}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6722?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6723",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6723",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6724",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6724}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6725",
+    "icons": []
+  },
+  {
+    "id": "{{ES6725}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6725?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6726",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6726",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6727",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6727}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6728",
+    "icons": []
+  },
+  {
+    "id": "{{ES6728}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6728?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6729",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6729",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6730",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6730}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6731",
+    "icons": []
+  },
+  {
+    "id": "{{ES6731}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6731?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6732",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6732",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6733",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6733}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6734",
+    "icons": []
+  },
+  {
+    "id": "{{ES6734}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6734?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6735",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6735",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6736",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6736}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6737",
+    "icons": []
+  },
+  {
+    "id": "{{ES6737}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6737?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6738",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6738",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6739",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6739}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6740",
+    "icons": []
+  },
+  {
+    "id": "{{ES6740}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6740?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6741",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6741",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6742",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6742}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6743",
+    "icons": []
+  },
+  {
+    "id": "{{ES6743}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6743?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6744",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6744",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6745",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6745}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6746",
+    "icons": []
+  },
+  {
+    "id": "{{ES6746}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6746?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6747",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6747",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6748",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6748}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6749",
+    "icons": []
+  },
+  {
+    "id": "{{ES6749}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6749?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6750",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6750",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6751",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6751}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6752",
+    "icons": []
+  },
+  {
+    "id": "{{ES6752}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6752?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6753",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6753",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6754",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6754}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6755",
+    "icons": []
+  },
+  {
+    "id": "{{ES6755}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6755?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6756",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6756",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6757",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6757}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6758",
+    "icons": []
+  },
+  {
+    "id": "{{ES6758}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6758?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6759",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6759",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6760",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6760}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6761",
+    "icons": []
+  },
+  {
+    "id": "{{ES6761}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6761?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6762",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6762",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6763",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6763}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6764",
+    "icons": []
+  },
+  {
+    "id": "{{ES6764}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6764?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6765",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6765",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6766",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6766}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6767",
+    "icons": []
+  },
+  {
+    "id": "{{ES6767}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6767?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6768",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6768",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6769",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6769}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6770",
+    "icons": []
+  },
+  {
+    "id": "{{ES6770}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6770?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6771",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6771",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6772",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6772}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6773",
+    "icons": []
+  },
+  {
+    "id": "{{ES6773}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6773?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6774",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6774",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6775",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6775}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6776",
+    "icons": []
+  },
+  {
+    "id": "{{ES6776}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6776?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6777",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6777",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6778",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6778}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6779",
+    "icons": []
+  },
+  {
+    "id": "{{ES6779}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6779?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6780",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6780",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6781",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6781}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6782",
+    "icons": []
+  },
+  {
+    "id": "{{ES6782}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6782?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6783",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6783",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6784",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6784}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6785",
+    "icons": []
+  },
+  {
+    "id": "{{ES6785}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6785?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6786",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6786",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6787",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6787}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6788",
+    "icons": []
+  },
+  {
+    "id": "{{ES6788}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6788?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6789",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6789",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6790",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6790}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6791",
+    "icons": []
+  },
+  {
+    "id": "{{ES6791}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6791?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6792",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6792",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6793",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6793}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6794",
+    "icons": []
+  },
+  {
+    "id": "{{ES6794}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6794?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6795",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6795",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6796",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6796}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6797",
+    "icons": []
+  },
+  {
+    "id": "{{ES6797}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6797?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6798",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6798",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6799",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6799}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6800",
+    "icons": []
+  },
+  {
+    "id": "{{ES6800}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6800?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6801",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6801",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6802",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6802}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6803",
+    "icons": []
+  },
+  {
+    "id": "{{ES6803}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6803?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6804",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6804",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6805",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6805}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6806",
+    "icons": []
+  },
+  {
+    "id": "{{ES6806}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6806?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6807",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6807",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6808",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6808}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6809",
+    "icons": []
+  },
+  {
+    "id": "{{ES6809}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6809?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6810",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6810",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6811",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6811}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6812",
+    "icons": []
+  },
+  {
+    "id": "{{ES6812}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6812?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6813",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6813",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6814",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6814}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6815",
+    "icons": []
+  },
+  {
+    "id": "{{ES6815}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6815?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6816",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6816",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6817",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6817}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6818",
+    "icons": []
+  },
+  {
+    "id": "{{ES6818}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6818?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6819",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6819",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6820",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6820}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6821",
+    "icons": []
+  },
+  {
+    "id": "{{ES6821}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6821?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6822",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6822",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6823",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6823}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6824",
+    "icons": []
+  },
+  {
+    "id": "{{ES6824}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6824?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6825",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6825",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6826",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6826}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6827",
+    "icons": []
+  },
+  {
+    "id": "{{ES6827}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6827?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6828",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6828",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6829",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6829}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6830",
+    "icons": []
+  },
+  {
+    "id": "{{ES6830}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6830?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6831",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6831",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6832",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6832}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6833",
+    "icons": []
+  },
+  {
+    "id": "{{ES6833}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6833?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6834",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6834",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6835",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6835}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6836",
+    "icons": []
+  },
+  {
+    "id": "{{ES6836}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6836?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6837",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6837",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6838",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6838}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6839",
+    "icons": []
+  },
+  {
+    "id": "{{ES6839}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6839?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6840",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6840",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6841",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6841}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6842",
+    "icons": []
+  },
+  {
+    "id": "{{ES6842}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6842?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6843",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6843",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6844",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6844}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6845",
+    "icons": []
+  },
+  {
+    "id": "{{ES6845}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6845?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6846",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6846",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6847",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6847}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6848",
+    "icons": []
+  },
+  {
+    "id": "{{ES6848}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6848?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6849",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6849",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6850",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6850}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6851",
+    "icons": []
+  },
+  {
+    "id": "{{ES6851}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6851?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6852",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6852",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6853",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6853}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6854",
+    "icons": []
+  },
+  {
+    "id": "{{ES6854}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6854?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6855",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6855",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6856",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6856}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6857",
+    "icons": []
+  },
+  {
+    "id": "{{ES6857}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6857?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6858",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6858",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6859",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6859}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6860",
+    "icons": []
+  },
+  {
+    "id": "{{ES6860}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6860?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6861",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6861",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6862",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6862}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6863",
+    "icons": []
+  },
+  {
+    "id": "{{ES6863}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6863?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6864",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6864",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6865",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6865}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6866",
+    "icons": []
+  },
+  {
+    "id": "{{ES6866}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6866?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6867",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6867",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6868",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6868}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6869",
+    "icons": []
+  },
+  {
+    "id": "{{ES6869}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6869?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6870",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6870",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6871",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6871}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6872",
+    "icons": []
+  },
+  {
+    "id": "{{ES6872}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6872?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6873",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6873",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6874",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6874}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6875",
+    "icons": []
+  },
+  {
+    "id": "{{ES6875}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6875?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6876",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6876",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6877",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6877}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6878",
+    "icons": []
+  },
+  {
+    "id": "{{ES6878}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6878?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6879",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6879",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6880",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6880}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6881",
+    "icons": []
+  },
+  {
+    "id": "{{ES6881}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6881?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6882",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6882",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6883",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6883}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6884",
+    "icons": []
+  },
+  {
+    "id": "{{ES6884}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6884?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6885",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6885",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6886",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6886}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6887",
+    "icons": []
+  },
+  {
+    "id": "{{ES6887}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6887?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6888",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6888",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6889",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6889}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6890",
+    "icons": []
+  },
+  {
+    "id": "{{ES6890}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6890?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6891",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6891",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6892",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6892}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6893",
+    "icons": []
+  },
+  {
+    "id": "{{ES6893}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6893?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6894",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6894",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6895",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6895}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6896",
+    "icons": []
+  },
+  {
+    "id": "{{ES6896}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6896?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6897",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6897",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "E",
+    "icons": []
+  },
+  {
+    "id": "6898",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "{{ES6898}}",
+    "icons": []
+  },
+  {
+    "id": "E",
+    "link": "",
+    "name": "",
+    "detail": "",
+    "esCode": "Template:ES6899",
+    "icons": []
+  },
+  {
+    "id": "{{ES6899}}",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES6899?action\u003dedit",
+    "name": "E",
+    "detail": "",
+    "esCode": "6900",
+    "icons": []
+  },
+  {
+    "id": "Template:ES6900",
     "link": "",
     "name": "",
     "detail": "",
