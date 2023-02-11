@@ -45,15 +45,17 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.ExecutorService;
 
 public class Main {
+    private static final Random random = new Random();
     public static void main(String[] args) {
         L.log("Main, %s", now());
         //-- Main work
-        fetch(0); // x <= 0 : run TosCardExtras
+        //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
-        //enterUID();
+        enterUID();
         //stock();
         //taiwanHighSpeedRail();
         //TosCardFetcher.me.run();
@@ -156,7 +158,7 @@ public class Main {
                 } else {
                     r.enter(t);
                 }
-                r.delay(500);
+                r.delay(1500 + random.nextInt(500)); // mimic as human to prevent fraud detection
             }
         } catch (AWTException e) {
             e.printStackTrace();
