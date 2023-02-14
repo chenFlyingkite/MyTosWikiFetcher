@@ -11662,6 +11662,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "巨人化",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E4%BA%BA%E5%8C%96",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 光屬性及人類成員攻擊力 5 倍、 生命力及回復力 2.5 倍 II.【調查兵團】成員 ⇒ 攻擊力額外 2.5 倍 III. 消除光或心符石 ⇒ 全隊攻擊力額外 5 倍",
+    "skillMonsters": [
+      "10387"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "巨人壓殺",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%B7%A8%E4%BA%BA%E5%A3%93%E6%AE%BA",
@@ -13305,6 +13316,21 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "強靭的精神力 ‧ 繼承",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BC%B7%E9%9D%AD%E7%9A%84%E7%B2%BE%E7%A5%9E%E5%8A%9B_%E2%80%A7_%E7%B9%BC%E6%89%BF",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 自身屬性及人類成員攻擊力 10 倍、 生命力及回復力 2 倍 II. 隊中有 ≥3 個【調查兵團】成員 ⇒ 全隊攻擊力額外 2.2 倍 III.【調查兵團】及【巨人】成員 ⇒ 以 50% 攻擊力追打 1 次 IV. 消除 ≥3 組符石 ⇒ 全隊攻擊力額外 2.5 倍",
+    "skillMonsters": [
+      "10403",
+      "10404",
+      "10405",
+      "10406",
+      "10407"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "彈丸攻擊",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%BD%88%E4%B8%B8%E6%94%BB%E6%93%8A",
@@ -14481,6 +14507,17 @@
     "skillMonsters": [
       "0579",
       "1017"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "戰槌巨人的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E6%A7%8C%E5%B7%A8%E4%BA%BA%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 自身攻擊力 4 倍 II. 所受傷害減至 0 (包括「喋血屠刀」等扣除 召喚師指定 % 生命力的 敵技所造成的傷害) (此技能無視封鎖技能)",
+    "skillMonsters": [
+      "10406"
     ]
   },
   {
@@ -25571,6 +25608,28 @@
     "skillDesc": "I. 引爆電擊符石所在直行符石 ⇒ 掉落強化符石 1 回合內 II. 電擊敵方全體 III 使受影響目標攻擊力減少 50% IV. 神族成員攻擊力減至 0 V. 將被減去的攻擊力 ⇒ 分別加入神族隊長及 神族戰友的攻擊力",
     "skillMonsters": [
       "2503"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "炮彈式投擲",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%82%AE%E5%BD%88%E5%BC%8F%E6%8A%95%E6%93%B2",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆暗以外的符石 ⓵ 對敵方全體 ⇒ 造成暗屬性傷害 ⓶ 掉落人族符石 1 回合內 II. 全隊無視敵人防禦力 III.【巨人】成員 以 30% 攻擊力追打 ⇒ 暗屬性攻擊 10 次",
+    "skillMonsters": [
+      "10401"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "炮擊裝置",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%82%AE%E6%93%8A%E8%A3%9D%E7%BD%AE",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 對敵方全體造成 2,000 萬點水屬性傷害 (此傷害無視防禦力及 「強化突破」)， 若以此傷害擊斃敵人 ⇒ 自身技能 CD -6 II. 反之，【巨人】成員 ⇒ 增加 1 回合亢奮狀態",
+    "skillMonsters": [
+      "10396"
     ]
   },
   {
@@ -37123,6 +37182,21 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "自由的意志",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%87%AA%E7%94%B1%E7%9A%84%E6%84%8F%E5%BF%97",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除【調查兵團】、 【巨人】及自身屬性成員 被封鎖的技能 (此技能無視封鎖技能) 1 回合內 II. 自身 ⓵ 攻擊力 6 倍 ⓶ 無視敵人防禦力 III. 攻擊敵人後暈擊敵方， 使受影響目標無法行動， 持續 1 回合",
+    "skillMonsters": [
+      "10403",
+      "10404",
+      "10405",
+      "10406",
+      "10407"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "自稱最強的忍者",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%87%AA%E7%A8%B1%E6%9C%80%E5%BC%B7%E7%9A%84%E5%BF%8D%E8%80%85",
@@ -40741,6 +40815,28 @@
   },
   {
     "type": "主動技",
+    "skillName": "超大型巨人的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E5%A4%A7%E5%9E%8B%E5%B7%A8%E4%BA%BA%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 額外增加 3 行符石 II. 延長移動符石時間至 20 秒 1 回合內 III. 消除符石後 首批掉落的符石 ⇒ 必定為火符石 IV. 消除 ≥30 粒火符石 ⇒ 全隊無視 ⓵「固定連擊盾」 ⓶「指定形狀盾」 (此技能無視封鎖技能)",
+    "skillMonsters": [
+      "10404"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "超大型巨人的怪力",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E5%A4%A7%E5%9E%8B%E5%B7%A8%E4%BA%BA%E7%9A%84%E6%80%AA%E5%8A%9B",
+    "skillCDMin": 12,
+    "skillCDMax": 6,
+    "skillDesc": "I. 還原所有「碎裂」的位置 II. 引爆所有符石 ⇒ 掉落人族符石 III. 全隊攻擊力 1.5 倍 IV.【調查兵團】成員 ⇒ 攻擊力額外 1.5 倍 V. 所有成員 ⇒ 追打光屬性攻擊 1 次 III - V 效果會在進入 下一層數 (Wave) 時消失",
+    "skillMonsters": [
+      "10387"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "超必殺忍蜂",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%B6%85%E5%BF%85%E6%AE%BA%E5%BF%8D%E8%9C%82",
     "skillCDMin": 17,
@@ -40997,6 +41093,17 @@
     "skillDesc": "I. 火屬性攻擊力 4.5 倍 II. 我方生命力為 90% 或以上時 ⇒ 減少 15% 所受傷害 III. 同 1 回合消除的水符石數量 比消除的火符石數量多 ⇒ 火屬性攻擊力額外 1.6 倍",
     "skillMonsters": [
       "1739"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "車力巨人的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%BB%8A%E5%8A%9B%E5%B7%A8%E4%BA%BA%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 對敵方全體造成 1.5 億點水屬性傷害 (此傷害無視防禦力及 「強化突破」)， 若以此傷害擊斃敵人 ⇒ 自身技能 CD -6 II. 反之，【巨人】成員 ⇒ 增加 2 回合亢奮狀態 (此技能無視封鎖技能)",
+    "skillMonsters": [
+      "10403"
     ]
   },
   {
@@ -42791,6 +42898,17 @@
     "skillDesc": "獸類回復力 3 倍",
     "skillMonsters": [
       "0512"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "野獸巨人的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E7%8D%B8%E5%B7%A8%E4%BA%BA%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 19,
+    "skillCDMax": 8,
+    "skillDesc": "I. 引爆所有符石 ⓵ 對敵方全體 ⇒ 造成暗屬性傷害 ⓶ 掉落固定數量的 「五屬及心」人族強化符石 1 回合內 II. 全隊無視敵人防禦力 III.【巨人】成員以 50% 攻擊力 ⇒ 追打暗屬性攻擊 10 次 (此技能無視封鎖技能)",
+    "skillMonsters": [
+      "10407"
     ]
   },
   {
@@ -45757,6 +45875,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "顎之巨人的力量",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A1%8E%E4%B9%8B%E5%B7%A8%E4%BA%BA%E7%9A%84%E5%8A%9B%E9%87%8F",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "1 回合內 I. 全隊無視「攻前盾」 II. 引爆所有符石 ⇒ 左至右直行分別掉落 「五屬及心」人族強化符石 (此技能無視封鎖技能)",
+    "skillMonsters": [
+      "10405"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "顛倒眾生",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A1%9B%E5%80%92%E7%9C%BE%E7%94%9F",
     "skillCDMin": 29,
@@ -46342,6 +46471,17 @@
     "skillDesc": "I. 額外增加 3 行符石 II. 延長移動符石時間至 15 秒 1 回合內 III. 消除符石後 首批掉落的符石 ⇒ 必定為火符石 IV. 消除 ≥30 粒火符石 ⇒【巨人】成員無視 ⓵「固定連擊盾」 ⓶「指定形狀盾」",
     "skillMonsters": [
       "10395"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "高温蒸氣 (阿爾敏)",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E6%B8%A9%E8%92%B8%E6%B0%A3_(%E9%98%BF%E7%88%BE%E6%95%8F)",
+    "skillCDMin": 12,
+    "skillCDMax": 8,
+    "skillDesc": "4 回合內 I. 減少 50% 所受傷害 II. 可任意移動符石 而不會發動消除 III. 將移動符石時 觸碰的符石 ⇒ 轉化為強化符石",
+    "skillMonsters": [
+      "10387"
     ]
   },
   {

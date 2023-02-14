@@ -31007,7 +31007,7 @@
     "icons": []
   },
   {
-    "id": "首回冰封圍城-攻後凍結圍城 ‧ 2秒轉珠 ‧ 水屬防禦95%",
+    "id": "進場⇒冰封圍城 ‧ 每回⇒凍結圍城 2秒轉珠 水屬弱攻95%",
     "link": "",
     "name": "",
     "detail": "",
@@ -33880,7 +33880,7 @@
     "icons": []
   },
   {
-    "id": "迷惑符石 ‧ 首消暗傷害吸收 ‧ 中毒80%",
+    "id": "迷惑符石 首消暗傷害吸收 中毒80%",
     "link": "",
     "name": "",
     "detail": "",
@@ -41805,7 +41805,7 @@
     "icons": []
   },
   {
-    "id": "CD1 ‧ 剋屬初級拼圖盾-限 ‧ 越攻越強 ‧ 無法控制",
+    "id": "CD1 剋屬初級拼圖盾-限 越攻越強 無法控制",
     "link": "",
     "name": "",
     "detail": "",
@@ -48351,7 +48351,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "CD1 ‧ 敵轉暗 ‧ 敵屬攻擊零化 ‧ 9+Combo追擊盾 ‧ 3顆暗風化15000",
+    "esCode": "CD1 敵轉暗 與敵同屬弱攻100% 9+Combo追擊盾 進埸\u0026每回⇒3顆暗風化15000",
     "icons": []
   },
   {
@@ -49763,7 +49763,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "火屬防禦盾 ‧ 火心弱化鎖定20% ‧ 無視減傷",
+    "esCode": "火屬弱攻100% 進埸\u0026每回⇒火心弱化鎖定20% 無視減傷",
     "icons": []
   },
   {
@@ -55553,8 +55553,8 @@
   {
     "id": "3916",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3916",
-    "name": "CD1 ‧ 黑白符石 ‧ 強化五屬盾 ‧ 越扣越強25%-50%-100%",
-    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e所有符石變為黑白色。\u003cbr\u003e\u003cbr\u003e• 同時消除五屬強化符石\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1\u003cbr\u003e\u003cbr\u003e首回合敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)\u003cbr\u003e敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
+    "name": "CD1",
+    "detail": "敵人首次攻擊變為 CD 1。",
     "esCode": "{{ES3916}}",
     "icons": [
       {
@@ -60203,8 +60203,8 @@
   {
     "id": "4231",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4231",
-    "name": "CD1 ‧ 敵轉火 ‧ 首回二四橫行轉火燃燒25% ‧ 燃燒轉火 ‧ 首消火傷害零化-反擊200% ‧ 凍結盾90% ‧ 凍敵滅火",
-    "detail": "敵人首次攻擊變為 CD 1。\u003cbr\u003e\u003cbr\u003e敵人轉換為火屬性。\u003cbr\u003e\u003cbr\u003e首回合將第 2 及第 4 橫行\u003cbr\u003e的符石轉化為火符石。\u003cbr\u003e\u003cbr\u003e燃燒第 2 及第 4 橫行位置，\u003cbr\u003e每觸碰被燃燒的位置，\u003cbr\u003e將扣除召喚師 25% 生命力。\u003cbr\u003e\u003cbr\u003e回合結束時將燃燒位置\u003cbr\u003e的符石轉化為火符石。\u003cbr\u003e\u003cbr\u003e首批消除火符石及擊中敵人：\u003cbr\u003e⓵ 敵人承受傷害變為 1\u003cbr\u003e⓶ 敵人反擊\u003cbr\u003e⇒ 自身 200% 攻擊傷害\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在凍結狀態，\u003cbr\u003e才會對其造成完整攻擊傷害。\u003cbr\u003e\u003cbr\u003e敵人置身在凍結狀態時，\u003cbr\u003e「燃燒」敵技失效。",
+    "name": "CD1",
+    "detail": "敵人首次攻擊變為 CD 1。",
     "esCode": "{{ES4231}}",
     "icons": [
       {
@@ -60224,12 +60224,20 @@
         "iconKey": "SI229.png"
       },
       {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
+        "iconKey": "SI047.png"
+      },
+      {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b2/SI144.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084322\u0026path-prefix\u003dzh",
         "iconKey": "SI144.png"
       },
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/3/34/SI292.png/revision/latest/scale-to-width-down/22?cb\u003d20191021152639\u0026path-prefix\u003dzh",
         "iconKey": "SI292.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/80/ESL002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125435\u0026path-prefix\u003dzh",
+        "iconKey": "ESL002.png"
       }
     ]
   },
@@ -60238,7 +60246,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "CD1 ‧ 敵轉木 ‧ 心位置黏附 ‧ 8+Combo追擊盾 ‧ 點燃盾90% · 燃敵液溶",
+    "esCode": "CD1 敵轉木 心位置黏附 8+Combo追擊盾 點燃外弱攻90% 點燃敵人⇒【黏腐】失效",
     "icons": []
   },
   {
@@ -90473,7 +90481,7 @@
     "icons": []
   },
   {
-    "id": "1回⇒水外防禦盾",
+    "id": "1回水外弱攻100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -90483,13 +90491,17 @@
   {
     "id": "6448",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6448",
-    "name": "2回⇒水外防禦盾",
+    "name": "2回水外弱攻100%",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【水以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 2 回合內\u003cbr\u003e⇒ 水屬性以外傷害減至 0%",
     "esCode": "{{ES6448}}",
     "icons": [
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ab/ESA007.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100958\u0026path-prefix\u003dzh",
         "iconKey": "ESA007.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e9/ESNG002.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100758\u0026path-prefix\u003dzh",
+        "iconKey": "ESNG002.png"
       }
     ]
   },
@@ -90498,7 +90510,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "3回⇒水外防禦盾",
+    "esCode": "3回水外弱攻100%",
     "icons": []
   },
   {
@@ -90510,7 +90522,7 @@
     "icons": []
   },
   {
-    "id": "4回⇒水外防禦盾",
+    "id": "4回水外弱攻100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -90851,7 +90863,7 @@
     "icons": []
   },
   {
-    "id": "五屬加護各1顆",
+    "id": "進場\u0026每回⇒五屬加護各1顆",
     "link": "",
     "name": "",
     "detail": "",
@@ -90861,7 +90873,7 @@
   {
     "id": "6478",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6478",
-    "name": "五屬加護各2顆",
+    "name": "進場\u0026每回⇒五屬加護各2顆",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【加護符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將五屬符石各 2 粒\u003cbr\u003e⇒ 添加為加護符石\u003cbr\u003e⇒ 最多加至五屬加護符石各 2 粒\u003cbr\u003e• 加護符石不能引爆\u003cbr\u003e• 場上沒有加護符石\u003cbr\u003e⇒ 無法對敵人造成傷害",
     "esCode": "{{ES6478}}",
     "icons": [
@@ -90876,7 +90888,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "五屬加護各3顆",
+    "esCode": "進場\u0026每回⇒五屬加護各3顆",
     "icons": []
   },
   {
@@ -90888,7 +90900,7 @@
     "icons": []
   },
   {
-    "id": "每回⇒水附爆破炸彈15000",
+    "id": "進場\u0026每回⇒水附爆破炸彈15000",
     "link": "",
     "name": "",
     "detail": "",
@@ -90898,7 +90910,7 @@
   {
     "id": "6481",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6481",
-    "name": "每回⇒火附爆破炸彈15000",
+    "name": "進場\u0026每回⇒火附爆破炸彈15000",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【爆破炸彈 - 火】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將所有火符石\u003cbr\u003e⇒ 添加為爆破炸彈\u003cbr\u003e• 爆破炸彈一經觸碰\u003cbr\u003e⇒ 對召喚師造成\u003cbr\u003e 15,000 點傷害\u003cbr\u003e*【護盾】可抵擋此傷害",
     "esCode": "{{ES6481}}",
     "icons": [
@@ -90913,7 +90925,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "每回⇒木附爆破炸彈15000",
+    "esCode": "進場\u0026每回⇒木附爆破炸彈15000",
     "icons": []
   },
   {
@@ -90925,7 +90937,7 @@
     "icons": []
   },
   {
-    "id": "每回⇒光附爆破炸彈15000",
+    "id": "進場\u0026每回⇒光附爆破炸彈15000",
     "link": "",
     "name": "",
     "detail": "",
@@ -90935,7 +90947,7 @@
   {
     "id": "6484",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6484",
-    "name": "每回⇒暗附爆破炸彈15000",
+    "name": "進場\u0026每回⇒暗附爆破炸彈15000",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【爆破炸彈 - 暗】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將所有暗符石\u003cbr\u003e⇒ 添加為爆破炸彈\u003cbr\u003e• 爆破炸彈一經觸碰\u003cbr\u003e⇒ 對召喚師造成\u003cbr\u003e 15,000 點傷害\u003cbr\u003e*【護盾】可抵擋此傷害",
     "esCode": "{{ES6484}}",
     "icons": [
@@ -90950,7 +90962,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "每回⇒心附爆破炸彈15000",
+    "esCode": "進場\u0026每回⇒心附爆破炸彈15000",
     "icons": []
   },
   {
@@ -90962,7 +90974,7 @@
     "icons": []
   },
   {
-    "id": "每回⇒水附爆破炸彈60000",
+    "id": "進場\u0026每回⇒水附爆破炸彈60000",
     "link": "",
     "name": "",
     "detail": "",
@@ -90972,7 +90984,7 @@
   {
     "id": "6487",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6487",
-    "name": "每回⇒火附爆破炸彈60000",
+    "name": "進場\u0026每回⇒火附爆破炸彈60000",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【爆破炸彈 - 火】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將所有火符石\u003cbr\u003e⇒ 添加為爆破炸彈\u003cbr\u003e• 爆破炸彈一經觸碰\u003cbr\u003e⇒ 對召喚師造成\u003cbr\u003e 60,000 點傷害\u003cbr\u003e*【護盾】可抵擋此傷害",
     "esCode": "{{ES6487}}",
     "icons": [
@@ -90987,7 +90999,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "每回⇒木附爆破炸彈60000",
+    "esCode": "進場\u0026每回⇒木附爆破炸彈60000",
     "icons": []
   },
   {
@@ -90999,7 +91011,7 @@
     "icons": []
   },
   {
-    "id": "每回⇒光附爆破炸彈60000",
+    "id": "進場\u0026每回⇒光附爆破炸彈60000",
     "link": "",
     "name": "",
     "detail": "",
@@ -91009,7 +91021,7 @@
   {
     "id": "6490",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6490",
-    "name": "每回⇒暗附爆破炸彈60000",
+    "name": "進場\u0026每回⇒暗附爆破炸彈60000",
     "detail": "\u003cfont color\u003d#FFFF3C\u003e【爆破炸彈 - 暗】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將所有暗符石\u003cbr\u003e⇒ 添加為爆破炸彈\u003cbr\u003e• 爆破炸彈一經觸碰\u003cbr\u003e⇒ 對召喚師造成\u003cbr\u003e 60,000 點傷害\u003cbr\u003e*【護盾】可抵擋此傷害",
     "esCode": "{{ES6490}}",
     "icons": [
@@ -91024,7 +91036,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "每回⇒心附爆破炸彈60000",
+    "esCode": "進場\u0026每回⇒心附爆破炸彈60000",
     "icons": []
   },
   {
@@ -92684,7 +92696,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6626",
+    "esCode": "缺「雷槍」弱攻90%",
     "icons": []
   },
   {
@@ -92696,7 +92708,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6627",
+    "id": "缺「雷槍」弱攻75%",
     "link": "",
     "name": "",
     "detail": "",
@@ -92785,16 +92797,16 @@
     "esCode": "{{ES6634}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESI019.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
-        "iconKey": "ESI019.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3d/ESMA003.png/revision/latest/scale-to-width-down/22?cb\u003d20220925130545\u0026path-prefix\u003dzh",
+        "iconKey": "ESMA003.png"
       },
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e8/ESNR002.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100740\u0026path-prefix\u003dzh",
         "iconKey": "ESNR002.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/SI529.png/revision/latest/scale-to-width-down/22?cb\u003d20220729190357\u0026path-prefix\u003dzh",
-        "iconKey": "SI529.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a8/SI196.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063415\u0026path-prefix\u003dzh",
+        "iconKey": "SI196.png"
       },
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/d/de/ESNR006.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100744\u0026path-prefix\u003dzh",
@@ -92834,16 +92846,16 @@
     "esCode": "{{ES6637}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/03/ESI019.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124423\u0026path-prefix\u003dzh",
-        "iconKey": "ESI019.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3d/ESMA003.png/revision/latest/scale-to-width-down/22?cb\u003d20220925130545\u0026path-prefix\u003dzh",
+        "iconKey": "ESMA003.png"
       },
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4c/ESNR005.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100743\u0026path-prefix\u003dzh",
         "iconKey": "ESNR005.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/SI529.png/revision/latest/scale-to-width-down/22?cb\u003d20220729190357\u0026path-prefix\u003dzh",
-        "iconKey": "SI529.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a8/SI196.png/revision/latest/scale-to-width-down/22?cb\u003d20150825063415\u0026path-prefix\u003dzh",
+        "iconKey": "SI196.png"
       },
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/8/80/ESNR009.png/revision/latest/scale-to-width-down/22?cb\u003d20230203100746\u0026path-prefix\u003dzh",
