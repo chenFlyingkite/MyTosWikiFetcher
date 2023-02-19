@@ -1,6 +1,7 @@
 package main.twse;
 
 import com.google.gson.Gson;
+import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
 import flyingkite.log.L;
 import flyingkite.log.LF;
@@ -19,6 +20,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.awt.AWTException;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -44,6 +47,14 @@ import java.util.TreeMap;
 // https://mybank.ubot.com.tw/ubot/#/B0401001A?type=1
 public class TWSEStockFetcher {
     public static final TWSEStockFetcher me = new TWSEStockFetcher();
+    private static Robot2 robot;
+    static {
+        try {
+            robot = new Robot2();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+    }
 
     private static final String FOLDER = "twseStock";
     private LF mLf = new LF(FOLDER);
@@ -199,7 +210,50 @@ public class TWSEStockFetcher {
     }
 
     public static void main(String[] args) {
-        me.parse();
+        //me.parse();
+        listAllOptions();
+    }
+
+    // 認購(售)權證搜尋器
+    // https://mops.twse.com.tw/mops/web/t90sbfa01
+    // 市場： 上市, 權證類別： 全部,
+    // 標的代碼：, 權證代碼：, 發行人：全部,
+    // 權證種類： 全部, 剩餘期間：全部, 行使比例：全部,
+    // 權證價格(元)區間： 至, 價內外程度：全部,
+    // 履約價格(元)區間： 至, 發行時財務費用年率(%)區間： 至 (本項為牛熊證之查詢條件),
+    // 資料排序方式 : 依權證代號 依標的代號 依發行人代號 依權證價格 依剩餘期間
+    private static void listAllOptions() {
+        robot.delay(5_000);
+        // mouse click at first
+        // 上市 6個月以上
+        boolean market = true;
+        robot.keySend(market ? KeyEvent.VK_HOME : KeyEvent.VK_END);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        // remain time
+        int time = 4;
+        for (int i = 0; i < time; i++) {
+            robot.keySend(KeyEvent.VK_DOWN);
+        }
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_TAB);
+        int sort = 4;
+        for (int i = 0; i < sort; i++) {
+            robot.keySend(KeyEvent.VK_RIGHT);
+        }
+        robot.keySend(KeyEvent.VK_TAB);
+        robot.keySend(KeyEvent.VK_ENTER);
     }
 
     private void parse() {
