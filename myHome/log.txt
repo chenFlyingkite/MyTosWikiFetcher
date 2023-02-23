@@ -10,13 +10,6 @@
   "name": "與調查兵團的作戰",
   "icon": "10394"
 },
-1675065600 ~ 1677427140 -> [1月30日(一) 16:00, 2月26日(日) 23:59, 人類的黎明 ※ 集氣任務]
-  link = https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E7%9A%84%E9%BB%8E%E6%98%8E
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E4%BA%BA%E9%A1%9E%E7%9A%84%E9%BB%8E%E6%98%8E",
-  "name": "人類的黎明",
-  "icon": "10394"
-},
 1675065600 ~ 1677427140 -> [1月30日(一) 16:00, 2月26日(日) 23:59, 炙熱的高溫蒸氣 ※ 挑戰任務]
   link = https://tos.fandom.com/zh/wiki/%E7%82%99%E7%86%B1%E7%9A%84%E9%AB%98%E6%BA%AB%E8%92%B8%E6%B0%A3
 {
@@ -44,6 +37,27 @@
   "link": "https://tos.fandom.com/zh/wiki/%E8%83%8C%E8%91%97%E7%82%AE%E7%81%AB%E7%9A%84%E5%B7%A8%E4%BA%BA",
   "name": "背著炮火的巨人",
   "icon": "10396"
+},
+1676822400 ~ 1677427200 -> [2月20日(一), 2月26日(日), 地刺狂擊戰 ※ 挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E5%9C%B0%E5%88%BA%E7%8B%82%E6%93%8A%E6%88%B0
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E5%9C%B0%E5%88%BA%E7%8B%82%E6%93%8A%E6%88%B0",
+  "name": "地刺狂擊戰",
+  "icon": "10399"
+},
+1676822400 ~ 1677427200 -> [2月20日(一), 2月26日(日), 銅牆鐵壁的盔甲 ※ 挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E9%8A%85%E7%89%86%E9%90%B5%E5%A3%81%E7%9A%84%E7%9B%94%E7%94%B2
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E9%8A%85%E7%89%86%E9%90%B5%E5%A3%81%E7%9A%84%E7%9B%94%E7%94%B2",
+  "name": "銅牆鐵壁的盔甲",
+  "icon": "50084"
+},
+1676822400 ~ 1677427200 -> [2月20日(一), 2月26日(日), 末日的地鳴 ※ 特殊挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E6%9C%AB%E6%97%A5%E7%9A%84%E5%9C%B0%E9%B3%B4
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E6%9C%AB%E6%97%A5%E7%9A%84%E5%9C%B0%E9%B3%B4",
+  "name": "末日的地鳴",
+  "icon": "10402"
 },
 1675612800 ~ 1677427200 -> [2月06日(一), 2月26日(日), 槍火殺手的激鬥 ※ 戰慄級任務]
   link = https://tos.fandom.com/zh/wiki/%E6%A7%8D%E7%81%AB%E6%AE%BA%E6%89%8B%E7%9A%84%E6%BF%80%E9%AC%A5
@@ -74,6 +88,13 @@
   "link": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E6%9C%88%E6%8C%91%E6%88%B0%E4%B9%8B%E6%A2%85%E8%A6%8B%E6%9C%88_2023",
   "name": "月月挑戰之梅見月 2023",
   "icon": "10270"
+},
+1676865600 ~ 1678031940 -> [2月20日(一) 12:00, 3月05日(日) 23:59, 第十五屆巴哈姆特遊戲動漫大賞 ※ 一次通關]
+  link = https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E4%BA%94%E5%B1%86%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB%E5%A4%A7%E8%B3%9E
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E7%AC%AC%E5%8D%81%E4%BA%94%E5%B1%86%E5%B7%B4%E5%93%88%E5%A7%86%E7%89%B9%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB%E5%A4%A7%E8%B3%9E",
+  "name": "第十五屆巴哈姆特遊戲動漫大賞",
+  "icon": "S-1016i"
 },
 1675612800 ~ 1679846400 -> [2月06日(一), 3月26日(日), 殘虐獵物 ※ 復刻輪迴任務]
   link = https://tos.fandom.com/zh/wiki/%E6%AE%98%E8%99%90%E7%8D%B5%E7%89%A9
@@ -116,6 +137,13 @@
   "link": "https://tos.fandom.com/zh/wiki/%E9%99%8D%E6%9C%8D%E4%BA%BA%E9%9D%A2%E6%83%A1%E7%8D%B8",
   "name": "降服人面惡獸",
   "icon": "10152"
+},
+1677247200 ~ 1677513540 -> [2月24日(五) 22:00, 2月27日(一) 23:59, 為了守護至親 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E7%82%BA%E4%BA%86%E5%AE%88%E8%AD%B7%E8%87%B3%E8%A6%AA
+{
+  "link": "https://tos.fandom.com/zh/wiki/%E7%82%BA%E4%BA%86%E5%AE%88%E8%AD%B7%E8%87%B3%E8%A6%AA",
+  "name": "為了守護至親",
+  "icon": "2658"
 },
 0 ~ 0 -> [『侵蝕 ‧ 封王』系列災厄級任務]
   link = 
@@ -240,6 +268,10 @@
   "icon": "1402"
 },
 1676649600 ~ 1676822400 -> [2月18日(六), 2月19日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
+  link = 
+0 ~ 0 -> [【末日的地鳴 ‧ 抓緊巨人之力】 ⬇ 所有地區活動 ⬇]
+  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E6%9C%AB%E6%97%A5%E7%9A%84%E5%9C%B0%E9%B3%B4_%E2%80%A7_%E6%8A%93%E7%B7%8A%E5%B7%A8%E4%BA%BA%E4%B9%8B%E5%8A%9B%E3%80%91
+1677254400 ~ 1677427200 -> [2月25日(六), 2月26日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
   link = 
 0 ~ 0 -> [【十週年生日快樂 ‧ 超福利一日萬里】]
   link = https://tos.fandom.com/zh/wiki/%E3%80%90%E5%8D%81%E9%80%B1%E5%B9%B4%E7%94%9F%E6%97%A5%E5%BF%AB%E6%A8%82_%E2%80%A7_%E8%B6%85%E7%A6%8F%E5%88%A9%E4%B8%80%E6%97%A5%E8%90%AC%E9%87%8C%E3%80%91

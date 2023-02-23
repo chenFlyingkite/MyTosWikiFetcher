@@ -35,6 +35,7 @@ import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.thsr.THSRTGoFetcher;
 import main.fetcher.web.WebFetcher;
+import main.hp.HPMain;
 import main.kt.CopyInfo;
 import main.twse.TWSEStockFetcher;
 
@@ -50,15 +51,21 @@ import java.util.concurrent.ExecutorService;
 
 public class Main {
     private static final Random random = new Random();
+    private static final Robot2 robot = Robot2.create();
+
     public static void main(String[] args) {
         L.log("Main, %s", now());
         //-- Main work
+        //-- Tos related
         fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
+        //-- Robot2 Automations
+        //otherRobot();
+        //HPMain.main(null);
+        //-- Other Misc
         //stock();
         //taiwanHighSpeedRail();
-        //TosCardFetcher.me.run();
         //ForeignExchangeRateFetcher.main(null);
         //Covariance.test();
 
@@ -69,14 +76,8 @@ public class Main {
         //PngCreator.me.standard16(null);
         //PngCreator.me.standardGrey1(null);
 
-        //-- fix card
-        //TosCardFetcher.me.run();
-
         //gold(); // Annually
         //enterKeyboard();
-        //TosUserPackFetcher.me.run();
-        //TosWikiHomeFetcher.me.run();
-        //TosCardExtras.me.run();
 
         //XliffParser.me.addStringsToIos();
 
@@ -129,62 +130,38 @@ public class Main {
     // and run to web page make cursor stays at it, now it will make things done!
     private static void enterUID() {
         // We need to place cursor on the input position for typing automatically
-        try {
-            Robot2 r = new Robot2();
-            r.delay(3_000);
-            // true = ids + more + (ctrl+v), false = ids + more
-            boolean paste = 0 > 0;
-            String more = ""; // " A"
+        robot.delay(3_000);
+        // true = ids + more + (ctrl+v), false = ids + more
+        boolean paste = 0 > 0;
+        String more = ""; // " A"
 
-            String[] ids = {
-                    "199215954",
-                    "150372202",
-                    "192291028",
-                    "8397957",
-                    "58402658",
-                    "195014910",
-                    "237475591",
-                    "176874774",
-                    "200172730",
-                    "512617371",
-                    "2170312",
-            };
-            for (String s : ids) {
-                String t = s + more;
-                if (paste) {
-                    r.type(t + " ");
-                    r.paste();
-                    r.keySend(KeyEvent.VK_ENTER);
-                } else {
-                    r.enter(t);
-                }
-                r.delay(1500 + random.nextInt(500)); // mimic as human to pass fraud detection
+        String[] ids = {
+                "199215954",
+                "150372202",
+                "192291028",
+                "8397957",
+                "58402658",
+                "195014910",
+                "237475591",
+                "176874774",
+                "200172730",
+                "512617371",
+                "2170312",
+        };
+        for (String s : ids) {
+            String t = s + more;
+            if (paste) {
+                robot.type(t + " ");
+                robot.paste();
+                robot.keySend(KeyEvent.VK_ENTER);
+            } else {
+                robot.enter(t);
             }
-        } catch (AWTException e) {
-            e.printStackTrace();
+            robot.delay(1500 + random.nextInt(500)); // mimic as human to pass fraud detection
         }
     }
 
     private static void otherRobot() {
-        // fillCrossDepartmentReview
-        // To click on everyone of no, and click the 1st one on leftmost Yes
-        try {
-            Robot2 r = new Robot2();
-            r.delay(5_000);
-            // 870 = find "Bad<----->Good"
-            // each row has 6 items
-            int times = 870 / 6;
-            for (int j = 0; j < times; j++) {
-                r.keySend(KeyEvent.VK_RIGHT);
-                for (int i = 0; i < 7; i++) {
-                    r.keySend(KeyEvent.VK_TAB);
-                }
-                r.delay(500*0);
-            }
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-
     }
 
     // AppleID cl.shaomai@gmail.com / Cl23829868

@@ -33,6 +33,15 @@ public class Robot2 extends Robot {
         init();
     }
 
+    public static Robot2 create() {
+        try {
+            return new Robot2();
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     private void init() {
         //setAutoDelay(10);
     }

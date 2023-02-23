@@ -16794,6 +16794,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2814"
   },
   {
+    "title": "No. 2815 殲敵機鳥 ‧ 加諾奧斯二世",
+    "id": "2815",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%AE%B2%E6%95%B5%E6%A9%9F%E9%B3%A5_%E2%80%A7_%E5%8A%A0%E8%AB%BE%E5%A5%A7%E6%96%AF%E4%BA%8C%E4%B8%96",
+    "linkId": "http://zh.tos.wikia.com/wiki/2815"
+  },
+  {
     "title": "No. 2816 朦朧心愫 ‧ 凱拉",
     "id": "2816",
     "link": "https://tos.fandom.com/zh/wiki/%E6%9C%A6%E6%9C%A7%E5%BF%83%E6%84%AB_%E2%80%A7_%E5%87%B1%E6%8B%89",
@@ -19146,6 +19152,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10371"
   },
   {
+    "title": "No. 10372 血眷臣服 ‧ 卡蜜拉",
+    "id": "10372",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E7%9C%B7%E8%87%A3%E6%9C%8D_%E2%80%A7_%E5%8D%A1%E8%9C%9C%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/10372"
+  },
+  {
     "title": "No. 10381 狂擊拳者 ‧ 吉姆",
     "id": "10381",
     "link": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E6%93%8A%E6%8B%B3%E8%80%85_%E2%80%A7_%E5%90%89%E5%A7%86",
@@ -19254,6 +19266,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10398"
   },
   {
+    "title": "No. 10399 戰槌巨人",
+    "id": "10399",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E6%A7%8C%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10399"
+  },
+  {
     "title": "No. 10400 萊納 ‧ 布朗與盔甲巨人",
     "id": "10400",
     "link": "https://tos.fandom.com/zh/wiki/%E8%90%8A%E7%B4%8D_%E2%80%A7_%E5%B8%83%E6%9C%97%E8%88%87%E7%9B%94%E7%94%B2%E5%B7%A8%E4%BA%BA",
@@ -19264,6 +19282,12 @@
     "id": "10401",
     "link": "https://tos.fandom.com/zh/wiki/%E5%90%89%E5%85%8B_%E2%80%A7_%E8%91%89%E5%8D%A1%E8%88%87%E9%87%8E%E7%8D%B8%E5%B7%A8%E4%BA%BA",
     "linkId": "http://zh.tos.wikia.com/wiki/10401"
+  },
+  {
+    "title": "No. 10402 終尾巨人",
+    "id": "10402",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%82%E5%B0%BE%E5%B7%A8%E4%BA%BA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10402"
   },
   {
     "title": "No. 10403 進擊的巨人 ‧ 水",

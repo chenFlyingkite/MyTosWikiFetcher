@@ -4,28 +4,28 @@ from gson, 500 items
 Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e5879de78589e4b98be58db020e280a720e69ca8|144584
 response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e5879de78589e4b98be58db020e280a720e69ca8|144584}
 from gson, 500 items
-Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e5b7a8e4babae79a84e58a9be9878f|276928
-response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e5b7a8e4babae79a84e58a9be9878f|276928}
+Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e5b7a8e4babae78b82e786b1|294998
+response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e5b7a8e4babae78b82e786b1|294998}
 from gson, 500 items
-Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e69a97e5bdb1e9878de9878d|285272
-response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e69a97e5bdb1e9878de9878d|285272}
+Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e69a97e5bdb1e8bd9fe6938a|1473
+response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e69a97e5bdb1e8bd9fe6938a|1473}
 from gson, 500 items
-Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e6b5aae5b1a0e6aeba20e280a720e8a382e5bf83|273394
-response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e6b5aae5b1a0e6aeba20e280a720e8a382e5bf83|273394}
+Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e6b581e99bb2e99b99e58883e696ac|218587
+response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e6b581e99bb2e99b99e58883e696ac|218587}
 from gson, 500 items
-Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e791b0e7a798e4b98be5a696e58a9b|257474
-response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e791b0e7a798e4b98be5a696e58a9b|257474}
+Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e790b4e5bca6e7b582e7bb93e69bb2|286425
+response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e790b4e5bca6e7b582e7bb93e69bb2|286425}
 from gson, 500 items
-Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e7b4abe9ad85e696b7e9ad8220e280a720e78db5|294387
-response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e7b4abe9ad85e696b7e9ad8220e280a720e78db5|294387}
+Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e7b4abe89db6e4b98be8889e|268663
+response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e7b4abe89db6e4b98be8889e|268663}
 from gson, 500 items
-Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e8b685e5a4a7e59e8be5b7a8e4babae79a84e58a9be9878f|295202
-response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e8b685e5a4a7e59e8be5b7a8e4babae79a84e58a9be9878f|295202}
+Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e8b5a4e9be8de4b98be5bf83|279583
+response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e8b5a4e9be8de4b98be5bf83|279583}
 from gson, 500 items
-Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e9ad85e5bdb1e7a59ee8999f20e280a720e5bcb7|290187
-response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e9ad85e5bdb1e7a59ee8999f20e280a720e5bcb7|290187}
-from gson, 249 items
-4249 items in total
+Linking http://zh.tos.wikia.com/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e9ad85e5bdb1e5a4a7e8999fe4bba4|210014
+response = Response{protocol=h2, code=200, message=, url=https://tos.fandom.com/zh/api/v1/Articles/List?limit=50000&category=%E6%8A%80%E8%83%BD&namespaces=0&offset=page|e9ad85e5bdb1e5a4a7e8999fe4bba4|210014}
+from gson, 254 items
+4254 items in total
 1000%不可能！ -> https://tos.fandom.com/zh/wiki/1000%25%E4%B8%8D%E5%8F%AF%E8%83%BD%EF%BC%81
 13_號機覺醒！ -> https://tos.fandom.com/zh/wiki/13_%E8%99%9F%E6%A9%9F%E8%A6%BA%E9%86%92%EF%BC%81
 2000_種技能擁有者 -> https://tos.fandom.com/zh/wiki/2000_%E7%A8%AE%E6%8A%80%E8%83%BD%E6%93%81%E6%9C%89%E8%80%85
@@ -654,6 +654,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 叢林戰光 -> https://tos.fandom.com/zh/wiki/%E5%8F%A2%E6%9E%97%E6%88%B0%E5%85%89
 只能結束這一切了！ -> https://tos.fandom.com/zh/wiki/%E5%8F%AA%E8%83%BD%E7%B5%90%E6%9D%9F%E9%80%99%E4%B8%80%E5%88%87%E4%BA%86%EF%BC%81
 召喚術 -> https://tos.fandom.com/zh/wiki/%E5%8F%AC%E5%96%9A%E8%A1%93
+可愛的吸血魔 -> https://tos.fandom.com/zh/wiki/%E5%8F%AF%E6%84%9B%E7%9A%84%E5%90%B8%E8%A1%80%E9%AD%94
 可愛的狠咬 -> https://tos.fandom.com/zh/wiki/%E5%8F%AF%E6%84%9B%E7%9A%84%E7%8B%A0%E5%92%AC
 吃肉饅 -> https://tos.fandom.com/zh/wiki/%E5%90%83%E8%82%89%E9%A5%85
 合技_「礦樹歐魯德拉」 -> https://tos.fandom.com/zh/wiki/%E5%90%88%E6%8A%80_%E3%80%8C%E7%A4%A6%E6%A8%B9%E6%AD%90%E9%AD%AF%E5%BE%B7%E6%8B%89%E3%80%8D
@@ -1283,6 +1284,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 戰神之焰 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%A5%9E%E4%B9%8B%E7%84%B0
 戰神領軍 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E7%A5%9E%E9%A0%98%E8%BB%8D
 戰艦飛彈 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E8%89%A6%E9%A3%9B%E5%BD%88
+戰鬥之睿智 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E4%B9%8B%E7%9D%BF%E6%99%BA
 戰鬥時刻 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%99%82%E5%88%BB
 戰鬥模式 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%A8%A1%E5%BC%8F
 戰鬥演武曲 -> https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%AC%A5%E6%BC%94%E6%AD%A6%E6%9B%B2
@@ -1836,6 +1838,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 殘妒之熾燄 -> https://tos.fandom.com/zh/wiki/%E6%AE%98%E5%A6%92%E4%B9%8B%E7%86%BE%E7%87%84
 殘暴之怒 -> https://tos.fandom.com/zh/wiki/%E6%AE%98%E6%9A%B4%E4%B9%8B%E6%80%92
 殘暴解放 -> https://tos.fandom.com/zh/wiki/%E6%AE%98%E6%9A%B4%E8%A7%A3%E6%94%BE
+殲敵計劃 -> https://tos.fandom.com/zh/wiki/%E6%AE%B2%E6%95%B5%E8%A8%88%E5%8A%83
 殲滅 -> https://tos.fandom.com/zh/wiki/%E6%AE%B2%E6%BB%85
 殺人魔槍擊 -> https://tos.fandom.com/zh/wiki/%E6%AE%BA%E4%BA%BA%E9%AD%94%E6%A7%8D%E6%93%8A
 殺意四濺 -> https://tos.fandom.com/zh/wiki/%E6%AE%BA%E6%84%8F%E5%9B%9B%E6%BF%BA
@@ -2676,6 +2679,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 破釜沉舟 -> https://tos.fandom.com/zh/wiki/%E7%A0%B4%E9%87%9C%E6%B2%89%E8%88%9F
 破陣勅令 -> https://tos.fandom.com/zh/wiki/%E7%A0%B4%E9%99%A3%E5%8B%85%E4%BB%A4
 破魂收割 -> https://tos.fandom.com/zh/wiki/%E7%A0%B4%E9%AD%82%E6%94%B6%E5%89%B2
+硬質化工具 -> https://tos.fandom.com/zh/wiki/%E7%A1%AC%E8%B3%AA%E5%8C%96%E5%B7%A5%E5%85%B7
 碎土裂地拳 -> https://tos.fandom.com/zh/wiki/%E7%A2%8E%E5%9C%9F%E8%A3%82%E5%9C%B0%E6%8B%B3
 碎落的光明 -> https://tos.fandom.com/zh/wiki/%E7%A2%8E%E8%90%BD%E7%9A%84%E5%85%89%E6%98%8E
 碎裂無蹤 -> https://tos.fandom.com/zh/wiki/%E7%A2%8E%E8%A3%82%E7%84%A1%E8%B9%A4
@@ -3383,6 +3387,7 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 蜜甜之妖靈_‧_水 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E6%B0%B4
 蜜甜之妖靈_‧_火 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E4%B9%8B%E5%A6%96%E9%9D%88_%E2%80%A7_%E7%81%AB
 蜜甜魅曲 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E7%94%9C%E9%AD%85%E6%9B%B2
+蜜血鎖鏈 -> https://tos.fandom.com/zh/wiki/%E8%9C%9C%E8%A1%80%E9%8E%96%E9%8F%88
 蝕夢之靈 -> https://tos.fandom.com/zh/wiki/%E8%9D%95%E5%A4%A2%E4%B9%8B%E9%9D%88
 蝕夢之靈_‧_強 -> https://tos.fandom.com/zh/wiki/%E8%9D%95%E5%A4%A2%E4%B9%8B%E9%9D%88_%E2%80%A7_%E5%BC%B7
 蝕獸賦力 -> https://tos.fandom.com/zh/wiki/%E8%9D%95%E7%8D%B8%E8%B3%A6%E5%8A%9B
@@ -4275,4 +4280,4 @@ ZERO_集束光線 -> https://tos.fandom.com/zh/wiki/ZERO_%E9%9B%86%E6%9D%9F%E5%8
 Category:主動技 -> https://tos.fandom.com/zh/wiki/Category:%E4%B8%BB%E5%8B%95%E6%8A%80
 Category:組合技能 -> https://tos.fandom.com/zh/wiki/Category:%E7%B5%84%E5%90%88%E6%8A%80%E8%83%BD
 Category:隊長技 -> https://tos.fandom.com/zh/wiki/Category:%E9%9A%8A%E9%95%B7%E6%8A%80
-4287 skills
+4293 skills
