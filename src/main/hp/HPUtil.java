@@ -16,6 +16,8 @@ public class HPUtil {
     public static final String x64static = "x64-windows-static-md";
     public static final String x86 = "x86-windows";
     public static final String x86static = "x86-windows-static-md";
+    public static final String repo_WinPVT = "https://github.azc.ext.hp.com/CMITSW/WinPVT";
+    public static final String repo_AuditTool = "https://github.azc.ext.hp.com/CMITSW/AuditTool";
 
 
     public static final Robot2 robot = Robot2.create();
