@@ -35,17 +35,18 @@ import main.fetcher.TosWikiStageFetcher;
 import main.fetcher.TosWikiSummonerLevelFetcher;
 import main.fetcher.thsr.THSRTGoFetcher;
 import main.fetcher.web.WebFetcher;
-import main.hp.HPMain;
 import main.kt.CopyInfo;
 import main.twse.TWSEStockFetcher;
 
 import java.awt.AWTException;
 import java.awt.event.KeyEvent;
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 
@@ -53,11 +54,15 @@ public class Main {
     private static final Random random = new Random();
     private static final Robot2 robot = Robot2.create();
 
+    private static final int ABSOLUTE_PATH = 0;
+    private static final int RELATIVE_PATH = 1;
+    public static final SimpleDateFormat formatISO8601 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.US);
+
     public static void main(String[] args) {
         L.log("Main, %s", now());
         //-- Main work
         //-- Tos related
-        fetch(0); // x <= 0 : run TosCardExtras
+        //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
         //enterUID();
         //-- Robot2 Automations
@@ -118,6 +123,8 @@ public class Main {
     private static void training() {
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
+        String path = "D:\\法院訴訟\\112年度家護字第258號_通常保護令_聲請人陳建志_相對人陳振川";
+        listFiles(path, RELATIVE_PATH);
     }
 
     // 2147483647          = 2.1 * 10^9  = Integer.MAX_VALUE = 2^31 - 1 = 0x7fffffff
@@ -215,6 +222,8 @@ public class Main {
             }
         }).into(dst);
     }
+    // 台北捷運 單一車站至所有車站
+    // https://web.metro.taipei/pages/tw/ticketroutetimesingle/036
 
     // resize
     private static void make1x2x() {
@@ -435,11 +444,19 @@ public class Main {
 
     private static final TicTac2 clock = new TicTac2();
 
-    private static void listFiles(String path) {
+    private static void listFiles(String path, int mode) {
         List<File> fs = FileUtil.listAllFiles(new File(path));
-        for (int i = 0; i < fs.size(); i++) {
+        int n = fs.size();
+        int k = (int) Math.floor(1 + Math.log10(n));
+
+        for (int i = 0; i < n; i++) {
             File f = fs.get(i);
-            L.log("%s. %s", i+1, f.getName());
+            String out = f.getAbsolutePath();
+            if (mode == RELATIVE_PATH) {
+                out = out.substring(path.length());
+            }
+            String fmt = "%" + k + "d. %s";
+            L.log(fmt, i + 1, out);
         }
     }
 
