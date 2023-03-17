@@ -11,6 +11,7 @@ import java.awt.KeyEventDispatcher;
 import java.awt.KeyboardFocusManager;
 import java.awt.Robot;
 import java.awt.Toolkit;
+import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -50,16 +51,41 @@ public class Robot2 extends Robot {
      * Clicks one or more mouse buttons.
      * calls {@link #mousePress(int)} and {@link #mouseRelease(int)}
      */
-    public synchronized void mouseClick(int buttons) {
+    public synchronized Robot2 mouseClick(int buttons) {
         mousePress(buttons);
         mouseRelease(buttons);
+        return this;
+    }
+
+    /**
+     * Click mouse left key - InputEvent.BUTTON1_DOWN_MASK
+     */
+    public synchronized Robot2 mouseClickLeft() {
+        mouseClick(InputEvent.BUTTON1_DOWN_MASK);
+        return this;
+    }
+
+    /**
+     * Click mouse right key - InputEvent.BUTTON2_DOWN_MASK
+     */
+    public synchronized Robot2 mouseClickMiddle() {
+        mouseClick(InputEvent.BUTTON2_DOWN_MASK);
+        return this;
+    }
+
+    /**
+     * Click mouse right key - InputEvent.BUTTON2_DOWN_MASK
+     */
+    public synchronized Robot2 mouseClickRight() {
+        mouseClick(InputEvent.BUTTON3_DOWN_MASK);
+        return this;
     }
 
     /**
      * Clicks keycode by performing
      * {@link #keyPress(int)} and {@link #keyRelease(int)}
      */
-    public synchronized void keyClick(char keycode) {
+    public synchronized Robot2 keyClick(char keycode) {
         List<Integer> ks = getKeyCodes(keycode);
         try {
             keyPressRelease(ks);
@@ -67,15 +93,17 @@ public class Robot2 extends Robot {
             e.printStackTrace();
             L.log("keyClick failed for '%s'", keycode);
         }
+        return this;
     }
 
-    public synchronized void keySend(int keycode) {
+    public synchronized Robot2 keySend(int keycode) {
         try {
             keyPress(keycode);
             keyRelease(keycode);
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
+        return this;
     }
 
     private final String[] clickState = {"ok", "release", "press",};
@@ -114,8 +142,8 @@ public class Robot2 extends Robot {
      * Types a string
      * by calls {@link #keyClickOld(int)} on each character, supports char = 32" " ~ 126"~"
      */
-    public synchronized void type(CharSequence cs) {
-        if (cs == null) return;
+    public synchronized Robot2 type(CharSequence cs) {
+        if (cs == null) return this;
 
         for (int i = 0; i < cs.length(); i++) {
             char c = cs.charAt(i);
@@ -127,50 +155,85 @@ public class Robot2 extends Robot {
                 keyClickOld(c);
             }
         }
+        return this;
     }
 
     /**
      * @see #enter(CharSequence)
      */
-    private synchronized void enterOld(CharSequence cs) {
-        if (cs == null) return;
-
+    private synchronized Robot2 enterOld(CharSequence cs) {
         typeOld(cs);
         keyClickOld(KeyEvent.VK_ENTER);
+        return this;
     }
 
     /**
      * Types a string, and click enter
      * by calls {@link #keyClickOld(int)} on each character and {@link java.awt.event.KeyEvent#VK_ENTER}
      */
-    public synchronized void enter(CharSequence cs) {
-        if (cs == null) return;
-
+    public synchronized Robot2 enter(CharSequence cs) {
         type(cs);
         keyClickOld(KeyEvent.VK_ENTER);
+        return this;
     }
 
     /**
-     * Send the keycode of ctrl + v
+     * click enter by {@link java.awt.event.KeyEvent#VK_ENTER}
      */
-    public synchronized void paste() {
+    public synchronized Robot2 enter() {
+        keyClickOld(KeyEvent.VK_ENTER);
+        return this;
+    }
+
+    /**
+     * Send keycodes of Ctrl + V
+     */
+    public synchronized Robot2 paste() {
         int[] ks = {KeyEvent.VK_CONTROL, KeyEvent.VK_V};
         keyPressRelease(ks);
+        return this;
+    }
+
+    /**
+     * Send keycodes of Ctrl + C
+     */
+    public synchronized Robot2 copy() {
+        int[] ks = {KeyEvent.VK_CONTROL, KeyEvent.VK_C};
+        keyPressRelease(ks);
+        return this;
+    }
+
+    /**
+     * Send keycodes of Ctrl + A
+     */
+    public synchronized Robot2 selectAll() {
+        int[] ks = {KeyEvent.VK_CONTROL, KeyEvent.VK_A};
+        keyPressRelease(ks);
+        return this;
     }
 
     /**
      * Press all and release all the keycodes
      */
-    public synchronized void keyPressRelease(int[] a) {
-        if (a == null) return;
+    public synchronized Robot2 keyPressRelease(int[] a) {
+        if (a != null) {
+            int n = a.length;
+            for (int i = 0; i < n; i++) {
+                keyPress(a[i]);
+            }
+            for (int i = n - 1; i >= 0; i--) {
+                keyRelease(a[i]);
+            }
+        }
+        return this;
+    }
 
-        int n = a.length;
-        for (int i = 0; i < n; i++) {
-            keyPress(a[i]);
-        }
-        for (int i = n - 1; i >= 0; i--) {
-            keyRelease(a[i]);
-        }
+    /**
+     * Call {@link Robot#delay(int)}
+     */
+    public synchronized Robot2 defer(int ms) {
+        delay(ms);
+        return this;
     }
 
     /**

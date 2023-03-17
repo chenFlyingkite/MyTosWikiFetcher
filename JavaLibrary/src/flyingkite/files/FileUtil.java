@@ -118,6 +118,23 @@ public class FileUtil {
         }
     }
 
+    public static boolean mkdir(File f) {
+        if (f == null) return false;
+
+        if (f.exists() && f.isFile()) {
+            ensureDelete(f);
+        }
+        return f.mkdir();
+    }
+
+    public static boolean isExistDir(File f) {
+        return !isGone(f) && f.isDirectory();
+    }
+
+    public static boolean isExistFile(File f) {
+        return !isGone(f) && f.isFile();
+    }
+
     /**
      * Create file named f, and will not delete if f exists as a folder
      * returns {@link File#createNewFile()}
@@ -274,6 +291,11 @@ public class FileUtil {
         return ans;
     }
 
+
+    public static List<File> listAllFiles(String src) {
+        return listAllFiles(new File(src));
+    }
+
     public static List<File> listAllFiles(File src) {
         return listAllFiles(src, null);
     }
@@ -282,30 +304,26 @@ public class FileUtil {
         File[] fs = src == null ? null : src.listFiles();
         List<File> pool = new ArrayList<>();
         List<File> scan = new ArrayList<>();
-        if (fs != null) {
-            Collections.addAll(pool, fs);
-        }
+        addWhen(filter, pool, fs);
         while (!pool.isEmpty()) {
             File g = pool.remove(0);
             File[] gs = g.listFiles();
-            if (gs != null) {
-                Collections.addAll(pool, gs);
-            }
+            addWhen(filter, pool, gs);
             addWhen(filter, scan, g);
         }
         return scan;
     }
 
-    private static <T> void addWhen(Projector<T, Boolean> accept, List<T> from, T... to) {
-        if (to == null) return;
+    private static <T> void addWhen(Projector<T, Boolean> accept, List<T> dst, T... src) {
+        if (src == null) return;
 
         if (accept == null) {
-            Collections.addAll(from, to);
+            Collections.addAll(dst, src);
         } else {
-            for (T t : to) {
+            for (T t : src) {
                 boolean yes = accept.get(t);
                 if (yes) {
-                    from.add(t);
+                    dst.add(t);
                 }
             }
         }

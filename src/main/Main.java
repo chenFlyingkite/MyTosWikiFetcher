@@ -2,6 +2,7 @@ package main;
 
 import flyingkite.awt.Robot2;
 import flyingkite.files.FileUtil;
+import flyingkite.functional.Projector;
 import flyingkite.javaxlibrary.images.base.PngParam;
 import flyingkite.javaxlibrary.images.create.PngCreateRequest;
 import flyingkite.javaxlibrary.images.create.PngCreator;
@@ -117,14 +118,28 @@ public class Main {
         //FaceMeAuto.organizeCommitLog(new File("D:\\Github\\sample.txt"));
         //listFiles();
         //JudgementSearch.run();
-        training();
-    }
-
-    private static void training() {
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
-        String path = "D:\\法院訴訟\\112年度家護字第258號_通常保護令_聲請人陳建志_相對人陳振川";
-        listFiles(path, RELATIVE_PATH);
+        //new BinarySearchVisualizer().run();
+        //PointExchange.main(null);
+    }
+
+    private static void seeFiles() {
+//        listFiles(path, RELATIVE_PATH);
+        String path = "C:\\Users\\chener\\Documents\\HP\\GitHub\\CMITSW\\WinPVT03c";
+        //path = "\\\\tdc-cmit-sw.auth.hpicorp.net\\share\\external\\WinPVT\\WinPVT_11.10.1_Verifying\\Scripts\\X86_X64";
+        Projector<File, Boolean> cppFilter = (file) -> {
+            if (file == null) return false;
+            boolean nonHidden = file.isHidden();
+            //Regex regex = new Regex(".*[\\x2e](c|cpp|h)");
+
+            L.log("-> %s", file.getName());
+            //boolean cpp_h = regex.matches(file.getName());
+            boolean cpp_h = file.getName().matches(".*[\\x2e](c|cpp|h)");
+            boolean valid = nonHidden && cpp_h;
+            return valid;
+        };
+        //FileUtil.listAllFiles(path, cppFilter);
     }
 
     // 2147483647          = 2.1 * 10^9  = Integer.MAX_VALUE = 2^31 - 1 = 0x7fffffff
@@ -168,7 +183,17 @@ public class Main {
         }
     }
 
-    private static void otherRobot() {
+    private static void autoScreenCapture() {
+        // Parameters
+        long intervalMS = 30 * 1_000;
+        int captures = 1000;
+
+        // Implementation
+        ThreadUtil.sleep(3_000);
+        for (int i = 0; i < captures; i++) {
+            robot.keyPressRelease(new int[]{KeyEvent.VK_WINDOWS, KeyEvent.VK_PRINTSCREEN});
+            ThreadUtil.sleep(intervalMS);
+        }
     }
 
     // AppleID cl.shaomai@gmail.com / Cl23829868
@@ -444,8 +469,8 @@ public class Main {
 
     private static final TicTac2 clock = new TicTac2();
 
-    private static void listFiles(String path, int mode) {
-        List<File> fs = FileUtil.listAllFiles(new File(path));
+    private static void listFiles(String path, Projector<File, Boolean> filter, int mode) {
+        List<File> fs = FileUtil.listAllFiles(new File(path), filter);
         int n = fs.size();
         int k = (int) Math.floor(1 + Math.log10(n));
 
