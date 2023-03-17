@@ -19,6 +19,7 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -300,10 +301,19 @@ public class FileUtil {
         return listAllFiles(src, null);
     }
 
+    public static List<File> listAllFiles(String path, Projector<File, Boolean> filter) {
+        return listAllFiles(new File(path), filter);
+    }
+
     public static List<File> listAllFiles(File src, Projector<File, Boolean> filter) {
-        File[] fs = src == null ? null : src.listFiles();
+        if (src == null) return null;
+
+        File[] fs = src.listFiles();
         List<File> pool = new ArrayList<>();
         List<File> scan = new ArrayList<>();
+        if (fs != null) {
+            Arrays.sort(fs);
+        }
         addWhen(filter, pool, fs);
         while (!pool.isEmpty()) {
             File g = pool.remove(0);

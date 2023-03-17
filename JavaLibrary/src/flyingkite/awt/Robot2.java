@@ -427,14 +427,16 @@ public class Robot2 extends Robot {
         makeVKName();
         makeCharSet();
         makeCharSet2();
-        L.log("charSetItems       = %s", Arrays.toString(charSetItems));
-        L.log("shiftCharSetItems  = %s", Arrays.toString(shiftCharSetItems));
-        //--
-        L.log("charKeys           = %s", Arrays.toString(charKeys));
-        L.log("charSetItems2      = %s", Arrays.toString(charSetItems2));
-        L.log("shiftCharSetItems2 = %s", Arrays.toString(shiftCharSetItems2));
-        L.log("addShift = %s", addShift);
-        L.log("unShift = %s", unShift);
+        if (false) {
+            L.log("charSetItems       = %s", Arrays.toString(charSetItems));
+            L.log("shiftCharSetItems  = %s", Arrays.toString(shiftCharSetItems));
+            //--
+            L.log("charKeys           = %s", Arrays.toString(charKeys));
+            L.log("charSetItems2      = %s", Arrays.toString(charSetItems2));
+            L.log("shiftCharSetItems2 = %s", Arrays.toString(shiftCharSetItems2));
+            L.log("addShift = %s", addShift);
+            L.log("unShift = %s", unShift);
+        }
     }
 
     // Does not work...
