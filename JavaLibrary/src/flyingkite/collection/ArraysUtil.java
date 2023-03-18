@@ -2,8 +2,12 @@ package flyingkite.collection;
 
 import java.util.Arrays;
 
-public class ArraysF {
-    public static <T> int len(T[] a) {
+public class ArraysUtil {
+    public static <T> boolean isEmpty(T[] a) {
+        return a == null || a.length == 0;
+    }
+
+    public static <T> int length(T[] a) {
         return a == null ? 0 : a.length;
     }
 
@@ -11,7 +15,7 @@ public class ArraysF {
         if (a == null) {
             return null;
         } else {
-            return Arrays.copyOf(a, len(a));
+            return Arrays.copyOf(a, length(a));
         }
     }
 }

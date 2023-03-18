@@ -1,5 +1,6 @@
 package flyingkite.files;
 
+import flyingkite.collection.ArraysUtil;
 import flyingkite.functional.Projector;
 import flyingkite.log.L;
 import flyingkite.tool.IOUtil;
@@ -8,7 +9,6 @@ import flyingkite.tool.TicTac2;
 
 import java.awt.Point;
 import java.io.File;
-import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -31,12 +31,19 @@ import javax.imageio.stream.ImageInputStream;
 
 public class FileUtil {
 
+    /**
+     * Return true if file exists, false otherwise
+     * @see #isGone(String)
+     */
     public static boolean isGone(File f) {
         return f == null || !f.exists();
     }
 
+    /**
+     * @see #isGone(File)
+     */
     public static boolean isGone(String s) {
-        return s == null || isGone(new File(s));
+        return TextUtil.isEmpty(s) || isGone(new File(s));
     }
 
     /**
@@ -83,7 +90,7 @@ public class FileUtil {
         boolean r = true;
         if (file.isDirectory()) {
             File[] inner = file.listFiles();
-            if (inner != null && inner.length > 0) {
+            if (inner != null) {
                 for (File f : inner) {
                     r &= deleteAll(f);
                 }
@@ -93,6 +100,10 @@ public class FileUtil {
         return r;
     }
 
+    /**
+     * {@link #createNewFile(File, boolean)} with (_, true)
+     * @see #createNewFile(File, boolean)
+     */
     public static void createNewFile(File f) {
         createNewFile(f, true);
     }
@@ -111,6 +122,9 @@ public class FileUtil {
         }
     }
 
+    /**
+     * Delete file if it is a directory
+     */
     public static void deleteIfDirectory(File f) {
         if (f == null) return;
 
@@ -119,19 +133,28 @@ public class FileUtil {
         }
     }
 
-    public static boolean mkdir(File f) {
+    /**
+     * @see File#mkdirs()
+     */
+    public static boolean mkdirs(File f) {
         if (f == null) return false;
 
         if (f.exists() && f.isFile()) {
             ensureDelete(f);
         }
-        return f.mkdir();
+        return f.mkdirs();
     }
 
+    /**
+     * Return true if file exists as directory, not file
+     */
     public static boolean isExistDir(File f) {
         return !isGone(f) && f.isDirectory();
     }
 
+    /**
+     * Return true if file exists as file, not directory
+     */
     public static boolean isExistFile(File f) {
         return !isGone(f) && f.isFile();
     }
@@ -156,7 +179,11 @@ public class FileUtil {
         return b;
     }
 
-
+    /**
+     * Copy input stream data into output stream
+     * @param is Input stream
+     * @param fos Output stream
+     */
     public static void copy(InputStream is, OutputStream fos) {
         if (is == null || fos == null) return;
 
@@ -175,6 +202,11 @@ public class FileUtil {
         }
     }
 
+    /**
+     * Copy source into target, where source and target are file absolute paths
+     * @param source Absolute path file for source
+     * @param target Absolute path file for target
+     */
     public static void copy(String source, String target) {
         if (TextUtil.isEmpty(source) || TextUtil.isEmpty(target)) return;
 
@@ -257,10 +289,14 @@ public class FileUtil {
 
     }
 
+    /**
+     * Write the data into file, data strings are treated as ordered each input line
+     * @param file Destination file
+     * @param data Data for written into file, ordered by each line
+     * @param append append to file or overwrite content
+     */
     public static void writeToFile(File file, List<String> data, boolean append) {
-        if (file == null){
-            return;
-        }
+        if (file == null) return;
 
         FileOutputStream fos = null;
         PrintWriter pw = null;
@@ -279,6 +315,11 @@ public class FileUtil {
         }
     }
 
+    /**
+     * Return files where the provided file list items matches condition
+     * @param list Source file list
+     * @param proj Selection condition
+     */
     public static List<File> findFile(List<File> list, Projector<File, Boolean> proj) {
         List<File> ans = new ArrayList<>();
         if (list != null) {
@@ -292,38 +333,64 @@ public class FileUtil {
         return ans;
     }
 
-
+    /**
+     * @see #listAllFiles(File)
+     */
     public static List<File> listAllFiles(String src) {
         return listAllFiles(new File(src));
     }
 
+    /**
+     * @see #listAllFiles(File, Projector)
+     */
     public static List<File> listAllFiles(File src) {
         return listAllFiles(src, null);
     }
 
+    /**
+     * @see #listAllFiles(File, Projector)
+     */
     public static List<File> listAllFiles(String path, Projector<File, Boolean> filter) {
         return listAllFiles(new File(path), filter);
     }
 
+    /**
+     * Lists all internal files (including files inside every depth directories) and return by its level order results with each level are sorted
+     * @param src Root folder
+     * @param filter Selection condition
+     */
     public static List<File> listAllFiles(File src, Projector<File, Boolean> filter) {
         if (src == null) return null;
 
         File[] fs = src.listFiles();
+        if (fs == null) return null;
+
         List<File> pool = new ArrayList<>();
         List<File> scan = new ArrayList<>();
-        if (fs != null) {
-            Arrays.sort(fs);
-        }
+        // sort by name
+        Arrays.sort(fs);
+        // start BFS
         addWhen(filter, pool, fs);
         while (!pool.isEmpty()) {
             File g = pool.remove(0);
             File[] gs = g.listFiles();
+            if (gs != null) {
+                Arrays.sort(gs);
+            }
             addWhen(filter, pool, gs);
             addWhen(filter, scan, g);
         }
         return scan;
     }
 
+    /**
+     * Add sources into destination when item matches accept condition
+     * @param <T> List type
+     * @param accept Accept condition to add item
+     * @param src Source list
+     * @param dst Target list
+     */
+    @SafeVarargs
     private static <T> void addWhen(Projector<T, Boolean> accept, List<T> dst, T... src) {
         if (src == null) return;
 
@@ -339,6 +406,9 @@ public class FileUtil {
         }
     }
 
+    /**
+     * Sort list by its absolute path
+     */
     public static void sortByPath(List<File> all) {
         //TicTac2 t = new TicTac2();
         //t.tic();
@@ -348,6 +418,11 @@ public class FileUtil {
         //t.tac("sort %d items", all.size());
     }
 
+    /**
+     * Return image file list where src folder has files matches extension of
+     * ".png", ".jpg", ".gif", ".webp", ".webm"
+     * @param src Source folder path to list
+     */
     public static List<File> listImages(String src) {
         String[] imgs = {".png", ".jpg", ".gif", ".webp", ".webm"};
         List<File> all = listItems(src, imgs);
@@ -362,6 +437,9 @@ public class FileUtil {
         return all;
     }
 
+    /**
+     * Return file's name after last dot (.)
+     */
     public static String getExtension(File f) {
         if (f == null) return "";
         String s = f.getName();
@@ -369,6 +447,9 @@ public class FileUtil {
         return s.substring(d + 1);
     }
 
+    /**
+     * Return file's name before last dot (.)
+     */
     public static String getNameBeforeExtension(File f) {
         if (f == null) return "";
         String s = f.getName();
@@ -402,21 +483,25 @@ public class FileUtil {
         return p;
     }
 
-    public static List<File> listFilesExt(File src, String[] exts) {
+    /**
+     * Return file lists where source's internal files match extension is one of provided
+     * @param src Source folder to find wanted extension
+     * @param ext Provided extension
+     */
+    public static List<File> listFilesExt(File src, String[] ext) {
         TicTac2 t = new TicTac2();
         t.tic();
         List<File> all = new ArrayList<>();
-        File[] found = src.listFiles(new FileFilter() {
-            @Override
-            public boolean accept(File pathname) {
-                String path = pathname.getAbsolutePath();
-                for (int i = 0; i < exts.length; i++) {
-                    if (path.endsWith(exts[i])) {
-                        return true;
-                    }
+        File[] found = src.listFiles((file) -> {
+            if (ArraysUtil.isEmpty(ext)) return true;
+
+            String path = file.getAbsolutePath();
+            for (int i = 0; i < ext.length; i++) {
+                if (path.endsWith(ext[i])) {
+                    return true;
                 }
-                return false;
             }
+            return false;
         });
         int size = -1;
         if (found != null) {
@@ -432,12 +517,17 @@ public class FileUtil {
         return all;
     }
 
-    public static List<File> listItems(String src, String[] exts) {
+    /**
+     * @see #listFilesExt(File, String[])
+     */
+    public static List<File> listItems(String src, String[] ext) {
         TicTac2 t = new TicTac2();
         t.tic();
         List<File> all = FileUtil.listAllFiles(new File(src), (file) -> {
+            if (ArraysUtil.isEmpty(ext)) return true;
+
             String name = file.getName().toLowerCase();
-            for (String x : exts) {
+            for (String x : ext) {
                 if (name.endsWith(x)) {
                     return true;
                 }

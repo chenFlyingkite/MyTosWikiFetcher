@@ -8,6 +8,20 @@ import java.util.List;
 
 public class StringUtil {
 
+    /**
+     * Return true if name ends with one of item in ext, false otherwise
+     * @param name Text to examine
+     * @param ext Accept values
+     */
+    public static boolean endsWith(String name, String... ext) {
+        for (String x : ext) {
+            if (name.endsWith(x)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static int containsAt(String key, String[] data) {
         return containsAt(key, Arrays.asList(data));
     }
