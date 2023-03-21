@@ -2326,6 +2326,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "使神之翼",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BD%BF%E7%A5%9E%E4%B9%8B%E7%BF%BC",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 全隊攻擊力 8 倍 II. 龍類及神族成員 ⇒ 攻擊力額外 3 倍及生命力 2 倍 III. 延長移動符石時間 2 秒 IV. 敵方身上有附加效果 ⇒ 龍類及神族成員 回合結束時技能 CD -1 V. 消除 ≥3 種符石 ⇒ 全隊攻擊力額外 3 倍",
+    "skillMonsters": [
+      "10409"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "來、再一次奮起吧",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E4%BE%86%E3%80%81%E5%86%8D%E4%B8%80%E6%AC%A1%E5%A5%AE%E8%B5%B7%E5%90%A7",
@@ -3721,6 +3732,17 @@
       "8008",
       "9007",
       "9008"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "元素追魂噬",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%85%83%E7%B4%A0%E8%BF%BD%E9%AD%82%E5%99%AC",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 隊中攻擊力最高 (最左方) 的 1 個 龍類成員 ⓵ 以 50% 攻擊力追打 ⇒ 水、火、木及光屬性攻擊各 1 次 ⓶ 追打暗屬性攻擊 2 次 II. 我方回復力減至 0 效果持續至該龍類成員 沒有發動攻擊",
+    "skillMonsters": [
+      "2810"
     ]
   },
   {
@@ -8217,6 +8239,17 @@
     ]
   },
   {
+    "type": "隊長技",
+    "skillName": "嚴酷守念",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9A%B4%E9%85%B7%E5%AE%88%E5%BF%B5",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有人類或機械族成員： I. 全隊攻擊力 9 倍、 生命力及回復力 1.8 倍 II. 以左方 3 直行的符石起手轉珠 ⓵ 全隊攻擊力額外 2 倍， 若所有機械族成員行動值達至 100%， 則全隊攻擊力額外 2.5 倍 ⓶ 回合結束時， 機械族的行動值提升 20% III. 以右方 3 直行的符石起手轉珠 ⓵ 將移動符石時觸碰的符石 ⇒ 轉化為強化符石 ⓶ 全隊無視「指定形狀盾」 IV. 消除機械族符石 ⇒ 全隊攻擊力額外 3 倍",
+    "skillMonsters": [
+      "10408"
+    ]
+  },
+  {
     "type": "主動技",
     "skillName": "囚靈深淵",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E5%9B%9A%E9%9D%88%E6%B7%B1%E6%B7%B5",
@@ -9589,6 +9622,17 @@
     "skillDesc": "1 回合內，移動符石後首批掉落的符石必定為木符石",
     "skillMonsters": [
       "1207"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "天雷之罰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E9%9B%B7%E4%B9%8B%E7%BD%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I.「風神怒疾 ‧ 志那都」 ⇒ 增加 3 回合亢奮狀態 II. 解除「連環光牢」， 成功解除後 ⇒ 自身技能 CD -4 III. 引爆電擊符石 ⇒ 掉落神族強化符石 1 回合內 IV. 神族成員攻擊力及回復力 1.8 倍",
+    "skillMonsters": [
+      "10375"
     ]
   },
   {
@@ -16781,6 +16825,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "星芒強念",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%8A%92%E5%BC%B7%E5%BF%B5",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除【耀脈星芒】及獸類成員 被封鎖的技能 (此技能無視封鎖技能) II. 將【耀脈星芒】及獸類成員 直行的符石轉化為 ⇒ 該成員屬性及種族符石， 若隊中只有【耀脈星芒】或獸類成員 ⇒ 則轉化為該成員屬性及種族強化符石 III. 將其他成員直行的符石 ⇒ 轉化為心符石",
+    "skillMonsters": [
+      "2809"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "星落欄柵",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%90%BD%E6%AC%84%E6%9F%B5",
     "skillCDMin": 14,
@@ -16909,6 +16964,17 @@
     "skillDesc": "1 回合內，根據累積戰鬥回合數多寡減少所受傷害，每 1 回戰鬥回合數可減少 12.5% 所受傷害，累積 8 回戰鬥回合數最多可減少 100% 傷害。發動技能後會將累積戰鬥回合數重置",
     "skillMonsters": [
       "1547"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "星靈結界 ‧ 攻",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E9%9D%88%E7%B5%90%E7%95%8C_%E2%80%A7_%E6%94%BB",
+    "skillCDMin": 12,
+    "skillCDMax": 1,
+    "skillDesc": "1 回合內 I. 根據累積戰鬥回合數多寡 減少所受傷害： 每 1 個戰鬥回合數 ⇒ 可減少 12.5% 所受傷害 ⇒ 累積 8 個戰鬥回合數 可減少最多 100% 傷害 II. 當累積至最多 ≥8 回合 發動技能 ⇒【耀脈星芒】及火屬性成員 攻擊力及回復力 2 倍 發動技能後會將累積戰鬥回合數減半",
+    "skillMonsters": [
+      "2807"
     ]
   },
   {
@@ -18106,6 +18172,28 @@
     "skillDesc": "I. 以累積戰鬥回合數 x4 的數量 (需消除符石) ⇒ 轉化心獸族強化符石 (隊伍成員屬性以外 符石優先轉換) ⇒ 最多可轉化 30 粒 II. 當累積至最多 30 粒時 發動技能 ⇒ 1 回合內， 獸類攻擊力及回復力 2.5 倍 發動技能後 累積戰鬥回合數減半",
     "skillMonsters": [
       "10099"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "暴走的城堡",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E8%B5%B0%E7%9A%84%E5%9F%8E%E5%A0%A1",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "I. 若發動技能時 機械族成員的行動值未滿 ⇒ 機械族成員的行動值 提升至 100% II. 反之，自身技能 CD -1 III. 解除機械族成員 的休眠狀態，成功解除後 ⇒ 自身技能 CD -2 (此技能無視休眠技能) IV. 引爆所有符石 ⇒ 掉落機械族成員 屬性強化符石",
+    "skillMonsters": [
+      "10380"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "暴風之罰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E9%A2%A8%E4%B9%8B%E7%BD%B0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I.「雷神耀天 ‧ 晴賀」 ⇒ 增加 3 回合亢奮狀態 II. 解除「暴風」， 成功解除後 ⇒ 自身技能 CD -4 III. 引爆風化符石 ⇒ 掉落神族強化符石 1 回合內 IV. 神族成員攻擊力及回復力 1.8 倍",
+    "skillMonsters": [
+      "10374"
     ]
   },
   {
@@ -25557,6 +25645,17 @@
   },
   {
     "type": "隊長技",
+    "skillName": "炎之神識",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%82%8E%E4%B9%8B%E7%A5%9E%E8%AD%98",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 火屬性成員攻擊力 6 倍、 生命力及回復力 2 倍 II. 消除神族符石 ⇒ 火屬性成員攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2807"
+    ]
+  },
+  {
+    "type": "隊長技",
     "skillName": "炎海聖之壁",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%82%8E%E6%B5%B7%E8%81%96%E4%B9%8B%E5%A3%81",
     "skillCDMin": -1,
@@ -25641,6 +25740,17 @@
     "skillDesc": "將 10 個 固定位置 的符石轉化為火強化符石。1 回合內，火屬性攻擊力 2 倍，火屬性獸類及獸類攻擊力 3 倍",
     "skillMonsters": [
       "1391"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "炙熱魔法",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%82%99%E7%86%B1%E9%AD%94%E6%B3%95",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 點選元素法陣上的符石 2 次 ⇒ 引爆首次點選的符石 ⇒ 掉落第 2 次點選的強化符石 II. 若有點選火符石 ⇒ 自身技能 CD -2 1回合內 III. 火屬性及人類成員攻擊力 2 倍",
+    "skillMonsters": [
+      "10378"
     ]
   },
   {
@@ -27566,6 +27676,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "爆破派對",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%88%86%E7%A0%B4%E6%B4%BE%E5%B0%8D",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 順序引爆第 1 至 第 6 直行的符石 ⇒ 分別掉落「五屬及心」 機械族強化符石各 5 粒 2 回合內 II. 觸碰「連環光牢」射擊位置 ⇒ 仍可移動符石及對敵人造成傷害 III. 無視「黑洞」 IV. 機械族成員增加 ⇒ 1,000 點攻擊力基值",
+    "skillMonsters": [
+      "10373"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "爆血",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E7%88%86%E8%A1%80",
     "skillCDMin": 15,
@@ -27749,6 +27870,17 @@
     "skillDesc": "I. 全隊攻擊力 4 倍 II. 每 1 種屬性成員發動攻擊時 ⇒ 個人追打自身攻擊力 2 倍的 木屬性攻擊 1 次 III. 首批消除 5 種屬性符石時 ⇒ 自身攻擊無視全體敵人的防禦力",
     "skillMonsters": [
       "1348"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "狂熱發明",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E7%86%B1%E7%99%BC%E6%98%8E",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有機械族成員： I. 全隊攻擊力 9 倍、 生命力及回復力 1.5 倍 II. 消除 ≥3 種符石 ⇒ 全隊攻擊力額外 4 倍 III. 減少 50% 所受傷害",
+    "skillMonsters": [
+      "10373"
     ]
   },
   {
@@ -28255,6 +28387,17 @@
     "skillDesc": "2 回合內 I. 隊中只有獸類成員時： ⓵ 全隊攻擊力及回復力 1.8 倍 ⓶ 所有成員無視「固定連擊盾」 II. 反之 ⓵ 首批掉落 直行成員屬性的種族符石 III.隊中有「夢詠守望 ‧ 英格麗」 ⇒ 同時獲得 I、II 效果",
     "skillMonsters": [
       "2569"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "獸之遠識",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%8D%B8%E4%B9%8B%E9%81%A0%E8%AD%98",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 獸類成員攻擊力 6 倍、 生命力及回復力 2 倍 II. 消除獸族符石 ⇒ 獸類成員攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2809"
     ]
   },
   {
@@ -32367,6 +32510,17 @@
     "skillCDMax": -1,
     "skillDesc": "隊伍中只有神族及妖精類成員時 I. 全隊攻擊力 4.5 倍及生命力 1.3 倍 II. 將移動符石時觸碰的符石轉化為強化符石 III. 移動的步數愈多，全隊攻擊力提升愈多 ⇒ 移動 50 步攻擊力可額外提升至最大 3 倍",
     "skillMonsters": []
+  },
+  {
+    "type": "隊長技",
+    "skillName": "神魅絕殺勢",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E7%A5%9E%E9%AD%85%E7%B5%95%E6%AE%BA%E5%8B%A2",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "隊中只有【耀脈星芒】、妖精類或神族成員： I. 全隊攻擊力 10 倍、 生命力及回復力 1.6 倍 II. 消除隊伍成員屬性符石 ⇒ 全隊攻擊力額外 5.5 倍",
+    "skillMonsters": [
+      "2808"
+    ]
   },
   {
     "type": "隊長技",
@@ -39033,6 +39187,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "蛇行天罰",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9B%87%E8%A1%8C%E5%A4%A9%E7%BD%B0",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 15 秒內，可任意移動符石 而不會發動消除 1 回合內 II. 若隊中只有【耀脈星芒】、 神族或妖精類成員 ⓵ 全隊攻擊力 3 倍 ⓶ 全隊無視「攻前盾」",
+    "skillMonsters": [
+      "2808"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "蛙之舌捲",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E8%9B%99%E4%B9%8B%E8%88%8C%E6%8D%B2",
     "skillCDMin": 19,
@@ -42694,6 +42859,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "酷刑教義",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%85%B7%E5%88%91%E6%95%99%E7%BE%A9",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 敵方互相或自我進行 1 次攻擊 II. 攻擊敵方時使敵方身中烈毒： 每回合受到自身攻擊力基值 1,000 倍的無屬性傷害， 此傷害無視防禦力 並持續到死亡 2 回合內 III. 自身 ⓵ 攻擊力 3 倍 ⓶ 無視「固定連擊盾」 IV. 消除屬性符石 ⇒ 自身追打該屬性攻擊 1 次",
+    "skillMonsters": [
+      "10409"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "酷藍之意",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%85%B7%E8%97%8D%E4%B9%8B%E6%84%8F",
     "skillCDMin": 18,
@@ -43665,6 +43841,17 @@
     ]
   },
   {
+    "type": "主動技",
+    "skillName": "閃耀之境",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E8%80%80%E4%B9%8B%E5%A2%83",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 引爆所有符石 ⇒ 掉落固定數量的 五屬及心符石 II. 若隊中只有【耀脈星芒】成員 ⇒ 引爆所有符石 ⇒ 掉落 固定版面 的 「五屬及心」強化符石",
+    "skillMonsters": [
+      "2808"
+    ]
+  },
+  {
     "type": "隊長技",
     "skillName": "閃鑽光華",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%96%83%E9%91%BD%E5%85%89%E8%8F%AF",
@@ -43973,6 +44160,17 @@
     "skillDesc": "3 回合內，減少 60% 所受傷害",
     "skillMonsters": [
       "0513"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "陀螺絕殺",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%99%80%E8%9E%BA%E7%B5%95%E6%AE%BA",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "3 回合內 I. 無視敵人防禦力 II. 所有符石兼具所有符石效果 III. 發動技能及回合結束時 ⇒ 將所有符石轉化為 「隊伍成員屬性及心」強化符石",
+    "skillMonsters": [
+      "2817"
     ]
   },
   {
@@ -44386,6 +44584,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "雛偶指令",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%9B%E5%81%B6%E6%8C%87%E4%BB%A4",
+    "skillCDMin": 21,
+    "skillCDMax": 7,
+    "skillDesc": "1 回合內 I. 延長移動符石時間至 15 秒 II. 機械族成員無視 ⓵「攻前盾」 ⓶「固定連擊盾」 III. 增加 5 連擊 (Combo)， 若發動技能時所有機械族 成員的行動值達至 100% ⇒ 則增加 15 連擊 (Combo)",
+    "skillMonsters": [
+      "10377"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "雜技魔術",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%9C%E6%8A%80%E9%AD%94%E8%A1%93",
     "skillCDMin": 16,
@@ -44438,6 +44647,28 @@
     "skillMonsters": [
       "1567",
       "1574"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雷光殛拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E6%AE%9B%E6%8B%B3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 完全回復生命力 II. 將第 1 直行的符石 ⇒ 轉化為光機械族強化符石 III. 將第 2 直行的符石 ⇒ 轉化為心機械族強化符石 1 回合內 IV. 延長移動符石時間至 15 秒 V. 將移動符石時觸碰的 電擊、凍結、弱化、化血、 石化符石狀態解除",
+    "skillMonsters": [
+      "10408"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "雷光殛拳",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E5%85%89%E6%AE%9B%E6%8B%B3",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 扣除現有 5% 生命力 II. 將第 5 直行的符石 ⇒ 轉化為心機械族強化符石 III. 將第 6 直行的符石 ⇒ 轉化為光機械族強化符石 1 回合內 IV. 自身 ⓵ 攻擊力 8 倍 ⓶ 無視「攻前盾」 ⓷ 無視「三屬盾」、 「四屬盾」、「五屬盾」",
+    "skillMonsters": [
+      "10408"
     ]
   },
   {
@@ -45908,6 +46139,17 @@
   },
   {
     "type": "主動技",
+    "skillName": "預言之靈",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A0%90%E8%A8%80%E4%B9%8B%E9%9D%88",
+    "skillCDMin": 18,
+    "skillCDMax": 7,
+    "skillDesc": "I. 解除「亡命爆擊」 II. 將所有符石添加為妖族符石 1 回合內 III. 迴避每個敵人的首次攻擊 IV. 觸碰「爆破炸彈」 ⇒ 不會受到傷害",
+    "skillMonsters": [
+      "10379"
+    ]
+  },
+  {
+    "type": "主動技",
     "skillName": "領軍之燄",
     "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A0%98%E8%BB%8D%E4%B9%8B%E7%87%84",
     "skillCDMin": 17,
@@ -46081,6 +46323,17 @@
     "skillDesc": "所有符石隨機轉換，同時木符石出現率上升，並將木符石以木妖族符石代替",
     "skillMonsters": [
       "1790"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "風雷交加",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%A2%A8%E9%9B%B7%E4%BA%A4%E5%8A%A0",
+    "skillCDMin": 17,
+    "skillCDMax": 6,
+    "skillDesc": "I. 解除「雛祭令嬡 ‧ 京子」、 「風神怒疾 ‧ 志那都」、 「雷神耀天 ‧ 晴賀」被封鎖的技能 及休眠狀態 (此技能無視封鎖、休眠技能) II.「風神怒疾 ‧ 志那都」、 「雷神耀天 ‧ 晴賀」 ⇒ 技能 CD -5 III. 將所有符石添加為神族符石 IV. 消除 ≥5 粒神族符石 ⇒ 神族成員無視 ⓵「指定形狀盾」 ⓶「攻前盾」 V. 若發動技能時「風神怒疾 ‧ 志那都」 或「雷神耀天 ‧ 晴賀」為亢奮狀態 ⇒ 增加 10 連擊 (Combo)",
+    "skillMonsters": [
+      "10376"
     ]
   },
   {
@@ -46559,6 +46812,17 @@
     "skillDesc": "隊伍中只有火屬性獸類成員時： I. 全隊攻擊力 5.5 倍 II. 每個成員增加 300 點回復力 III. 每消除 1 組 5 粒或以上符石時 ⇒ 全隊攻擊力額外提升 ⇒ 消除 3 組可提升至最大 2.2 倍",
     "skillMonsters": [
       "2160"
+    ]
+  },
+  {
+    "type": "主動技",
+    "skillName": "高能武化",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E8%83%BD%E6%AD%A6%E5%8C%96",
+    "skillCDMin": 20,
+    "skillCDMax": 6,
+    "skillDesc": "隊中所有機械族成員的 行動值達至 100% 才能發動此技能： I. 將所有符石 ⇒ 轉化為強化符石 II. 機械族成員的行動值 ⇒ 減至 0% 1 回合內 III. 全隊回復力變 0 IV. 機械族成員無視 ⓵「連擊相等盾」 ⓶ 敵人防禦力",
+    "skillMonsters": [
+      "10380"
     ]
   },
   {
@@ -49298,6 +49562,17 @@
     "skillDesc": "I. 解除龍類成員被封鎖的技能 (此技能無視封鎖技能) 1 回合內 II. 龍類攻擊力 2.5 倍 III.「燃燒」敵技的傷害 ⇒ 轉化為我方生命力 IV. 消除龍族符石時 ⇒ 龍類成員的攻擊無視「固定連擊盾」",
     "skillMonsters": [
       "1868"
+    ]
+  },
+  {
+    "type": "隊長技",
+    "skillName": "龍之遠識",
+    "skillLink": "https://tos.fandom.com/zh/wiki/%E9%BE%8D%E4%B9%8B%E9%81%A0%E8%AD%98",
+    "skillCDMin": -1,
+    "skillCDMax": -1,
+    "skillDesc": "I. 龍類成員攻擊力 6 倍、 生命力及回復力 2 倍 II. 消除龍族符石 ⇒ 龍類成員攻擊力額外 2 倍",
+    "skillMonsters": [
+      "2810"
     ]
   },
   {

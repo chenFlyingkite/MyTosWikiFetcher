@@ -11572,7 +11572,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "防禦90%",
+    "esCode": "弱攻90%",
     "icons": []
   },
   {
@@ -14348,8 +14348,8 @@
     "esCode": "{{ES1106}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/15/SI114.png/revision/latest/scale-to-width-down/22?cb\u003d20220719024925\u0026path-prefix\u003dzh",
-        "iconKey": "SI114.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e2/ESA056.png/revision/latest/scale-to-width-down/22?cb\u003d20220924113846\u0026path-prefix\u003dzh",
+        "iconKey": "ESA056.png"
       }
     ]
   },
@@ -14385,8 +14385,8 @@
     "esCode": "{{ES1109}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/46/SI117.png/revision/latest/scale-to-width-down/22?cb\u003d20220719025009\u0026path-prefix\u003dzh",
-        "iconKey": "SI117.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/cf/ESA059.png/revision/latest/scale-to-width-down/22?cb\u003d20220924113845\u0026path-prefix\u003dzh",
+        "iconKey": "ESA059.png"
       }
     ]
   },
@@ -21097,7 +21097,7 @@
     "icons": []
   },
   {
-    "id": "循環累積30+相剋符石盾 ‧ 越扣越強25%",
+    "id": "循環累積30+剋屬符石盾 越扣越強25%⇒50%⇒75%⇒100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -23318,7 +23318,7 @@
     "icons": []
   },
   {
-    "id": "首消火傷害吸收-雙重燃燒10% ‧ 無法控制",
+    "id": "反首消火符石盾︰傷害吸收\u0026下回⇒2格燃燒10% 無法控制",
     "link": "",
     "name": "",
     "detail": "",
@@ -23673,7 +23673,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "敵轉光-首回隨機轉光 ‧ 首消光追擊零化 ‧ 無法控制",
+    "esCode": "敵轉光 進場⇒隨機1種轉光 首消光追擊零化 無法控制",
     "icons": []
   },
   {
@@ -24853,21 +24853,21 @@
   {
     "id": "1858",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/1858",
-    "name": "水屬防禦75% ‧ 首回隨機轉水 ‧ 首消水傷害吸收",
-    "detail": "\u003cbr\u003e敵人會令到水屬性的攻擊傷害減至 25%。\u003cbr\u003e首回合敵人會隨機將 1 種符石轉化為水符石。\u003cbr\u003e消除水屬性的連擊 (Combo) 時 (只計算首批消除的符石)，敵人會回復相等於該回合召喚師所造成傷害的血量",
+    "name": "水屬弱攻75%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【水屬弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e敵人會令到水屬性的攻擊傷害減至 25%。",
     "esCode": "{{ES1858}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/13/SI336.png/revision/latest/scale-to-width-down/22?cb\u003d20151005153350\u0026path-prefix\u003dzh",
-        "iconKey": "SI336.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ab/ESA007.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100958\u0026path-prefix\u003dzh",
+        "iconKey": "ESA007.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESCA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924114313\u0026path-prefix\u003dzh",
+        "iconKey": "ESCA006.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/ec/SI031.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101559\u0026path-prefix\u003dzh",
-        "iconKey": "SI031.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESA013.png/revision/latest/scale-to-width-down/22?cb\u003d20220924101055\u0026path-prefix\u003dzh",
+        "iconKey": "ESA013.png"
       }
     ]
   },
@@ -29364,7 +29364,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "(5回攻擊無效) ‧ 攻後側行風化15000 ‧ 強化盾",
+    "esCode": "強化盾 進場附加5回(左方狀態)⇒弱攻100% 風化15000⇒攻後兩側直行",
     "icons": []
   },
   {
@@ -30495,7 +30495,7 @@
     "icons": []
   },
   {
-    "id": "2顆5倍睡眠-轉 ‧ 無法控制",
+    "id": "睡眠狀態 轉珠2顆⇒睡眠符石(5倍狂擊\u0026無視減傷) 無法控制",
     "link": "",
     "name": "",
     "detail": "",
@@ -31007,7 +31007,7 @@
     "icons": []
   },
   {
-    "id": "進場⇒冰封圍城 ‧ 每回⇒凍結圍城 2秒轉珠 水屬弱攻95%",
+    "id": "進場⇒冰封圍城 每回⇒凍結圍城 2秒轉珠 水屬弱攻95%",
     "link": "",
     "name": "",
     "detail": "",
@@ -31434,25 +31434,25 @@
   {
     "id": "2316",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2316",
-    "name": "附加消除重置 ‧ [3回減攻80%] ‧ 越戰越強-金",
-    "detail": "\u003cbr\u003e\u003cfont color\u003dyellow\u003e【淨世 ‧ 疲憊狀態 ‧ 愈戰愈強】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e\u003cbr\u003e• 3 回合內，\u003cbr\u003e全隊攻擊力減至 20%。\u003cbr\u003e\u003cbr\u003e• 敵人生命力愈低時，攻擊力會大幅提升，達到一定血量時並會連撃 2 次",
+    "name": "進場⇒附加消除重置",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【淨世】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首回合消除召喚師所有附加效果，其技能 CD 將被重置。",
     "esCode": "{{ES2316}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f9/ESG001.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142806\u0026path-prefix\u003dzh",
+        "iconKey": "ESG001.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI123.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/49/ESG002.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142806\u0026path-prefix\u003dzh",
+        "iconKey": "ESG002.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI158.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9b/ESIA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA002.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
-        "iconKey": "SI188.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/4d/ESIC001.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124732\u0026path-prefix\u003dzh",
+        "iconKey": "ESIC001.png"
       }
     ]
   },
@@ -32871,25 +32871,25 @@
   {
     "id": "2415",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2415",
-    "name": "附加消除重置 ‧ 9+Combo追擊盾 ‧ 隨機始終盾",
-    "detail": "\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。\u003cbr\u003e9 連擊 (Combo) 或以上才會對敵人造成攻擊傷害，否則敵人會按召喚師發動連擊 (Combo) 數目的多寡而作出相應次數的攻擊。\u003cbr\u003e每回合以指定位置 (綠色漩渦) 的符石開始轉珠及在指定位置 (紅色漩渦) 結束轉珠，才會發動攻擊和回復。\u003cbr\u003e(達成條件前，無法進行回復)",
+    "name": "進場⇒附加消除重置",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【淨世】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首回合消除召喚師所有附加效果，其技能 CD 將被重置。",
     "esCode": "{{ES2415}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/41/SI121.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102454\u0026path-prefix\u003dzh",
-        "iconKey": "SI121.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f9/ESG001.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142806\u0026path-prefix\u003dzh",
+        "iconKey": "ESG001.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c6/SI123.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102455\u0026path-prefix\u003dzh",
-        "iconKey": "SI123.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/4/49/ESG002.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142806\u0026path-prefix\u003dzh",
+        "iconKey": "ESG002.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d2/SI107.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102327\u0026path-prefix\u003dzh",
-        "iconKey": "SI107.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/f4/ESHA009.png/revision/latest/scale-to-width-down/22?cb\u003d20220924143605\u0026path-prefix\u003dzh",
+        "iconKey": "ESHA009.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9f/SI183.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102800\u0026path-prefix\u003dzh",
-        "iconKey": "SI183.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/72/ESEA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220924131506\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA002.png"
       }
     ]
   },
@@ -33880,7 +33880,7 @@
     "icons": []
   },
   {
-    "id": "迷惑符石 首消暗傷害吸收 中毒80%",
+    "id": "迷惑符石 反首消暗符石盾︰傷害吸收 中毒80%",
     "link": "",
     "name": "",
     "detail": "",
@@ -34065,16 +34065,11 @@
   },
   {
     "id": "2496",
-    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2496",
-    "name": "？？？(首回攻後6顆風化15000 ‧ 無法控制)",
-    "detail": "\u003cbr\u003e？？？\u003cbr\u003e\u003cfont color\u003dyellow\u003e(首回合隨機將 6 粒符石風化，其後每回合移動符石前隨機將 6 粒符石風化。風化符石一經觸碰，即時停止移動符石，並對召喚師造成 15000 點傷害。\u003cbr\u003e敵人會無視所有控制技能)\u003c/font\u003e",
+    "link": "https://tos.fandom.com/zh/wiki/Template:ES2496",
+    "name": "Template:ES2496",
+    "detail": "",
     "esCode": "{{ES2496}}",
-    "icons": [
-      {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/59/SI224.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102910\u0026path-prefix\u003dzh",
-        "iconKey": "SI224.png"
-      }
-    ]
+    "icons": []
   },
   {
     "id": "E",
@@ -39693,7 +39688,7 @@
     "icons": []
   },
   {
-    "id": "先攻 ‧ 火心固定轉化-攻後轉直火 ‧ 首消火追擊零化 ‧ 首消全心盾",
+    "id": "先攻 受先攻⇒固定位置轉火心⇒其他火心轉水木 攻後⇒隨機1直行轉火 首消火追擊零化 首消全心盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -39742,7 +39737,7 @@
     "icons": []
   },
   {
-    "id": "命懸一線 ‧ 軌跡燃燒5000 ‧ 水強化高級拼圖盾",
+    "id": "命懸一線 四重軌跡燃燒5000 水強化高級拼圖盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -39959,7 +39954,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "(98回回復力變0) ‧ 無法控制 ‧ 20%盾",
+    "esCode": "進場附加98回(左方狀態)⇒回復力變0 無法控制 20%盾",
     "icons": []
   },
   {
@@ -40277,7 +40272,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消水傷害吸收-連續反擊50%",
+    "esCode": "反首消水符石盾︰傷害吸收\u0026二連反擊50%",
     "icons": []
   },
   {
@@ -40289,7 +40284,7 @@
     "icons": []
   },
   {
-    "id": "首消水傷害吸收-反擊200%",
+    "id": "反首消水符石盾︰反擊200%",
     "link": "",
     "name": "",
     "detail": "",
@@ -40299,13 +40294,13 @@
   {
     "id": "2945",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2945",
-    "name": "首消火傷害吸收-連續反擊50%",
-    "detail": "\u003cbr\u003e首批消除火屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
+    "name": "反首消火符石盾︰傷害吸收\u0026二連反擊50%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【反首消火符石盾 - 化血 - 反擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除火屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES2945}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b2/SI144.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084322\u0026path-prefix\u003dzh",
-        "iconKey": "SI144.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5b/ESC038.png/revision/latest/scale-to-width-down/22?cb\u003d20220924111329\u0026path-prefix\u003dzh",
+        "iconKey": "ESC038.png"
       }
     ]
   },
@@ -40314,7 +40309,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消火傷害吸收-反擊200%",
+    "esCode": "反首消火符石盾︰反擊200%",
     "icons": []
   },
   {
@@ -40326,7 +40321,7 @@
     "icons": []
   },
   {
-    "id": "首消木傷害吸收-連續反擊50%",
+    "id": "反首消木符石盾︰傷害吸收\u0026二連反擊50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -40336,13 +40331,13 @@
   {
     "id": "2948",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2948",
-    "name": "首消木傷害吸收-反擊200%",
-    "detail": "\u003cbr\u003e首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 200% 攻擊傷害",
+    "name": "反首消木符石盾︰反擊200%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【反首消木符石盾 - 反擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除木屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 200% 攻擊傷害",
     "esCode": "{{ES2948}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e2/SI145.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084323\u0026path-prefix\u003dzh",
-        "iconKey": "SI145.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5b/ESC038.png/revision/latest/scale-to-width-down/22?cb\u003d20220924111329\u0026path-prefix\u003dzh",
+        "iconKey": "ESC038.png"
       }
     ]
   },
@@ -40351,7 +40346,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消光傷害吸收-連續反擊50%",
+    "esCode": "反首消光符石盾︰傷害吸收\u0026二連反擊50%",
     "icons": []
   },
   {
@@ -40363,7 +40358,7 @@
     "icons": []
   },
   {
-    "id": "首消光傷害吸收-反擊200%",
+    "id": "反首消光符石盾︰反擊200%",
     "link": "",
     "name": "",
     "detail": "",
@@ -40373,13 +40368,13 @@
   {
     "id": "2951",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2951",
-    "name": "首消暗傷害吸收-連續反擊50%",
-    "detail": "\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
+    "name": "反首消暗符石盾︰傷害吸收\u0026二連反擊50%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【反首消暗符石盾 - 化血 - 反擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除暗屬性的連擊 (Combo) 及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 50% 攻擊傷害 2 次",
     "esCode": "{{ES2951}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/13/SI147.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084325\u0026path-prefix\u003dzh",
-        "iconKey": "SI147.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1f/ESC041.png/revision/latest/scale-to-width-down/22?cb\u003d20220924111328\u0026path-prefix\u003dzh",
+        "iconKey": "ESC041.png"
       }
     ]
   },
@@ -40388,7 +40383,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "首消暗傷害吸收-反擊200%",
+    "esCode": "反首消暗符石盾︰反擊200%",
     "icons": []
   },
   {
@@ -40400,7 +40395,7 @@
     "icons": []
   },
   {
-    "id": "首消心傷害吸收-連續反擊50%",
+    "id": "反首消心符石盾︰傷害吸收\u0026二連反擊50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -40410,13 +40405,13 @@
   {
     "id": "2954",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/2954",
-    "name": "首消心傷害吸收-反擊200%",
-    "detail": "\u003cbr\u003e首批消除心符石及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 200% 攻擊傷害",
+    "name": "反首消心符石盾︰反擊200%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【反首消心符石盾 - 反擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e首批消除心符石及對敵人發動攻擊，敵人會回復相等於該回合召喚師所造成傷害的血量及反擊自身 200% 攻擊傷害",
     "esCode": "{{ES2954}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/1/1c/SI148.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084325\u0026path-prefix\u003dzh",
-        "iconKey": "SI148.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5e/ESC042.png/revision/latest/scale-to-width-down/22?cb\u003d20220924111326\u0026path-prefix\u003dzh",
+        "iconKey": "ESC042.png"
       }
     ]
   },
@@ -40907,7 +40902,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "先攻-四連燃燒20% ‧ 燃燒位置轉火 ‧ 首消火傷害吸收-反擊50%",
+    "esCode": "先攻 ↳燃燒20%︰先攻相連4格 回結⇒燃燒位置轉火 反首消火符石盾︰傷害化血\u0026反擊50%",
     "icons": []
   },
   {
@@ -41434,7 +41429,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "三重黏附 ‧ 扣血70% ‧ 不倒意志50%",
+    "esCode": "進場⇒3格黏附 扣血70% 不倒意志50%",
     "icons": []
   },
   {
@@ -41544,7 +41539,7 @@
     "icons": []
   },
   {
-    "id": "先攻-4顆水風化15000 ‧ 7+Combo追擊盾",
+    "id": "先攻 ↳風化15000︰先攻4顆水風化 7+Combo追擊盾 無法控制",
     "link": "",
     "name": "",
     "detail": "",
@@ -41997,7 +41992,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "CD2 ‧ 首回4顆三層石化10000倍 ‧ 弱轉珠技無效 ‧ 扣血100% ‧ 六重軌跡燃燒5000",
+    "esCode": "CD2 三層石化(1萬倍)︰進場\u0026每回4顆 轉珠技無效 六重軌跡燃燒5000 扣血100%",
     "icons": []
   },
   {
@@ -46901,7 +46896,7 @@
     "icons": []
   },
   {
-    "id": "CD2 反擊10000 20%盾 扣血100%",
+    "id": "CD2 反饋10000 20%盾 扣血100%",
     "link": "",
     "name": "",
     "detail": "",
@@ -47551,7 +47546,7 @@
     "icons": []
   },
   {
-    "id": "首殺盾 ‧ 軌跡燃燒2000 ‧ 無法控制",
+    "id": "首殺盾 六重軌跡燃燒2000 無法控制",
     "link": "",
     "name": "",
     "detail": "",
@@ -48351,7 +48346,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "CD1 敵轉暗 與敵同屬弱攻100% 9+Combo追擊盾 進埸\u0026每回⇒3顆暗風化15000",
+    "esCode": "CD1 敵轉暗 敵屬弱攻100% 9+Combo追擊盾 進埸\u0026每回⇒3顆暗風化15000",
     "icons": []
   },
   {
@@ -49830,21 +49825,21 @@
   {
     "id": "3559",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3559",
-    "name": "攻後回復力衰弱25% ‧ 中毒90% ‧ 點燃盾90%",
-    "detail": "\u003cbr\u003e敵人發動攻擊時\u003cbr\u003e⇒ 全隊回復力減少 25%\u003cbr\u003e敵人攻擊次數愈多時\u003cbr\u003e⇒ 全隊回復力減少愈多\u003cbr\u003e⇒ 最多減少 100%\u003cbr\u003e\u003cbr\u003e所有成員中毒，每回合扣除召喚師 90% 生命力，直至敵人死亡。\u003cbr\u003e\u003cbr\u003e敵人所受傷害減至 10%；\u003cbr\u003e只有敵人置身在點燃狀態，\u003cbr\u003e才會對其造成完整攻擊傷害。",
+    "name": "回復力減弱︰攻後遞減25%⇒最多減少100%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時\u003cbr\u003e⇒ 全隊回復力減少 25%\u003cbr\u003e敵人攻擊次數愈多時\u003cbr\u003e⇒ 全隊回復力減少愈多\u003cbr\u003e⇒ 最多減少 100%",
     "esCode": "{{ES3559}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/bf/SI233.png/revision/latest/scale-to-width-down/22?cb\u003d20150712170520\u0026path-prefix\u003dzh",
-        "iconKey": "SI233.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/91/ESJA003.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125053\u0026path-prefix\u003dzh",
+        "iconKey": "ESJA003.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/28/SI135.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102459\u0026path-prefix\u003dzh",
-        "iconKey": "SI135.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/af/ESL003.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125434\u0026path-prefix\u003dzh",
+        "iconKey": "ESL003.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/28/SI290.png/revision/latest/scale-to-width-down/22?cb\u003d20191021152638\u0026path-prefix\u003dzh",
-        "iconKey": "SI290.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0a/ESID002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124859\u0026path-prefix\u003dzh",
+        "iconKey": "ESID002.png"
       }
     ]
   },
@@ -49853,7 +49848,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "CD1 ‧ 1回禁錮 ‧ 首回木引爆減傷-1顆10% ‧ 回復力變0",
+    "esCode": "CD1 1回禁錮 進場⇒引爆木︰1顆弱攻10% 回復力變0",
     "icons": []
   },
   {
@@ -54293,7 +54288,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "三重黏附 ‧ 五屬盾 ‧ 弱轉珠技無效",
+    "esCode": "進埸⇒三格黏附 五屬盾 轉珠技無效",
     "icons": []
   },
   {
@@ -55178,7 +55173,7 @@
     "id": "3892",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3892",
     "name": "火外弱攻90%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【火以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e火屬性以外的攻擊傷害\u003cbr\u003e⇒ 減至 10%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e火以外弱攻\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e火屬性以外的攻擊傷害\u003cbr\u003e⇒ 減至 10%",
     "esCode": "{{ES3892}}",
     "icons": [
       {
@@ -55554,24 +55549,24 @@
     "id": "3916",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/3916",
     "name": "CD1",
-    "detail": "\u003cbr\u003e敵人首次攻擊變為 CD 1。",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【首攻 CD1】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e敵人首次攻擊變為 CD 1。",
     "esCode": "{{ES3916}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI159.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a9/ESIA004.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA004.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/34/SI215.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102907\u0026path-prefix\u003dzh",
-        "iconKey": "SI215.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b0/ESE001.png/revision/latest/scale-to-width-down/22?cb\u003d20220924130229\u0026path-prefix\u003dzh",
+        "iconKey": "ESE001.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/6/6a/SI248.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103120\u0026path-prefix\u003dzh",
-        "iconKey": "SI248.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d8/ESFA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142149\u0026path-prefix\u003dzh",
+        "iconKey": "ESFA006.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",
-        "iconKey": "SI139.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
       }
     ]
   },
@@ -58602,16 +58597,16 @@
     "id": "4120",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4120",
     "name": "木幻水",
-    "detail": "\u003cbr\u003e將所有木符石\u003cbr\u003e⇒ 幻化成水符石",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e將所有木符石\u003cbr\u003e⇒ 幻化成水符石",
     "esCode": "{{ES4120}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/d5/SI390.png/revision/latest/scale-to-width-down/22?cb\u003d20200811202822\u0026path-prefix\u003dzh",
-        "iconKey": "SI390.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/93/ESCB001.png/revision/latest/scale-to-width-down/22?cb\u003d20220924124812\u0026path-prefix\u003dzh",
+        "iconKey": "ESCB001.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a7/SI115.png/revision/latest/scale-to-width-down/22?cb\u003d20220719024958\u0026path-prefix\u003dzh",
-        "iconKey": "SI115.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/02/ESA057.png/revision/latest/scale-to-width-down/22?cb\u003d20220924113846\u0026path-prefix\u003dzh",
+        "iconKey": "ESA057.png"
       }
     ]
   },
@@ -60204,36 +60199,36 @@
     "id": "4231",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4231",
     "name": "CD1",
-    "detail": "\u003cbr\u003e敵人首次攻擊變為 CD 1。",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【首攻 CD1】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e敵人首次攻擊變為 CD 1。",
     "esCode": "{{ES4231}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/0c/SI159.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI159.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a9/ESIA004.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA004.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/28/SI017.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101355\u0026path-prefix\u003dzh",
-        "iconKey": "SI017.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/eb/ESA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220924100903\u0026path-prefix\u003dzh",
+        "iconKey": "ESA002.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESCA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924114313\u0026path-prefix\u003dzh",
+        "iconKey": "ESCA006.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/27/SI229.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102911\u0026path-prefix\u003dzh",
-        "iconKey": "SI229.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/ee/ESL011.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125540\u0026path-prefix\u003dzh",
+        "iconKey": "ESL011.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/81/SI047.png/revision/latest/scale-to-width-down/22?cb\u003d20150217101604\u0026path-prefix\u003dzh",
-        "iconKey": "SI047.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESCA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924114313\u0026path-prefix\u003dzh",
+        "iconKey": "ESCA006.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b2/SI144.png/revision/latest/scale-to-width-down/22?cb\u003d20190730084322\u0026path-prefix\u003dzh",
-        "iconKey": "SI144.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5b/ESC038.png/revision/latest/scale-to-width-down/22?cb\u003d20220924111329\u0026path-prefix\u003dzh",
+        "iconKey": "ESC038.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/34/SI292.png/revision/latest/scale-to-width-down/22?cb\u003d20191021152639\u0026path-prefix\u003dzh",
-        "iconKey": "SI292.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c3/ESID003.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124859\u0026path-prefix\u003dzh",
+        "iconKey": "ESID003.png"
       },
       {
         "iconLink": "https://static.wikia.nocookie.net/tos/images/8/80/ESL002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125435\u0026path-prefix\u003dzh",
@@ -65865,7 +65860,7 @@
     "id": "4591",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4591",
     "name": "CD1",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【攻速變更】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e敵人首次攻擊變為 CD 1。\u003cbr\u003e意志技能。",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【攻速變更】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e敵人首次攻擊變為 CD 1。",
     "esCode": "{{ES4591}}",
     "icons": [
       {
@@ -65997,7 +65992,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "CD1 ‧ 首消9Combo盾 ‧ 越攻越強 ‧ 無視減傷",
+    "esCode": "CD1 首消9Combo盾 愈攻愈強 無視減傷",
     "icons": []
   },
   {
@@ -66819,7 +66814,7 @@
     "icons": []
   },
   {
-    "id": "50%盾 ‧ 最高攻成員傷害零化 ‧ 敵屬初級拼圖盾-限 ‧ 越扣越強50%",
+    "id": "50%盾 最高攻成員攻擊無效 敵屬初級拼圖盾-限 愈扣愈強50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -66829,25 +66824,25 @@
   {
     "id": "4654",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4654",
-    "name": "25%盾 ‧ 最高攻成員傷害零化 ‧ 敵屬初級拼圖盾-限 ‧ 越扣越強25%",
-    "detail": "\u003cbr\u003e每回合最多只能對敵人造成\u003cbr\u003e敵人生命力 25% 的攻擊傷害\u003cbr\u003e\u003cbr\u003e傷害最高 (不計算屬性相克)\u003cbr\u003e的成員 (可多於 1 個)\u003cbr\u003e無法對敵人造成攻擊傷害。\u003cbr\u003e\u003cbr\u003e在指定位置消除\u003cbr\u003e與敵人相同屬性的符石\u003cbr\u003e(不可連同位置旁邊的符石)\u003cbr\u003e才會對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。\u003cbr\u003e\u003cbr\u003e• 首回合敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e(無視所有減傷效果和\u003cbr\u003e意志技能)\u003cbr\u003e• 敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
+    "name": "25%盾",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【防禦盾 25%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e每回合最多只能對敵人造成\u003cbr\u003e敵人生命力 25% 的攻擊傷害",
     "esCode": "{{ES4654}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2c/SI257.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103123\u0026path-prefix\u003dzh",
-        "iconKey": "SI257.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9d/ESF009.png/revision/latest/scale-to-width-down/22?cb\u003d20220924141720\u0026path-prefix\u003dzh",
+        "iconKey": "ESF009.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/28/SI465.png/revision/latest/scale-to-width-down/22?cb\u003d20211107141232\u0026path-prefix\u003dzh",
-        "iconKey": "SI465.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/ce/ESGB013.png/revision/latest/scale-to-width-down/22?cb\u003d20220924143130\u0026path-prefix\u003dzh",
+        "iconKey": "ESGB013.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/2a/SI181.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102759\u0026path-prefix\u003dzh",
-        "iconKey": "SI181.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/d/da/ESEA001.png/revision/latest/scale-to-width-down/22?cb\u003d20220924131507\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA001.png"
       },
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/e/e5/SI139.png/revision/latest/scale-to-width-down/22?cb\u003d20150501002241\u0026path-prefix\u003dzh",
-        "iconKey": "SI139.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
       }
     ]
   },
@@ -67375,7 +67370,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "敵技4700",
+    "esCode": "突擊 進場⇒寄生1顆",
     "icons": []
   },
   {
@@ -67387,7 +67382,7 @@
     "icons": []
   },
   {
-    "id": "敵技4701",
+    "id": "突擊 進場⇒寄生2顆",
     "link": "",
     "name": "",
     "detail": "",
@@ -67397,17 +67392,26 @@
   {
     "id": "4702",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4702",
-    "name": "敵技4702",
-    "detail": "\u003cbr\u003e• 突擊 1 次\u003cbr\u003e• 入場時將 3 粒符石\u003cbr\u003e⇒ 添加為寄生石\u003cbr\u003e• 回合結束時，寄生石延伸至\u003cbr\u003e寄生四周的符石\u003cbr\u003e• 寄生石不能消除或引爆",
+    "name": "突擊",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【突擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 突擊 1 次",
     "esCode": "{{ES4702}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/31/ESIA003.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124553\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA003.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/06/ESD017.png/revision/latest/scale-to-width-down/22?cb\u003d20220924130010\u0026path-prefix\u003dzh",
+        "iconKey": "ESD017.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "敵技4703",
+    "esCode": "突擊 進場⇒寄生4顆",
     "icons": []
   },
   {
@@ -67419,7 +67423,7 @@
     "icons": []
   },
   {
-    "id": "敵技4704",
+    "id": "突擊 進場⇒隨機寄生1顆",
     "link": "",
     "name": "",
     "detail": "",
@@ -67429,17 +67433,26 @@
   {
     "id": "4705",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/4705",
-    "name": "敵技4705",
-    "detail": "\u003cbr\u003e• 突擊 1 次\u003cbr\u003e• 入場時隨機將 2 粒符石\u003cbr\u003e⇒ 添加為寄生石\u003cbr\u003e• 回合結束時，寄生石延伸至\u003cbr\u003e寄生四周的符石\u003cbr\u003e• 寄生石不能消除或引爆",
+    "name": "突擊",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【突擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 突擊 1 次",
     "esCode": "{{ES4705}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/31/ESIA003.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124553\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA003.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/06/ESD017.png/revision/latest/scale-to-width-down/22?cb\u003d20220924130010\u0026path-prefix\u003dzh",
+        "iconKey": "ESD017.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "敵技4706",
+    "esCode": "突擊 進場⇒隨機寄生3顆",
     "icons": []
   },
   {
@@ -67451,7 +67464,7 @@
     "icons": []
   },
   {
-    "id": "敵技4707",
+    "id": "突擊 進場⇒隨機寄生4顆",
     "link": "",
     "name": "",
     "detail": "",
@@ -68233,7 +68246,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "三重熊之地型 ‧ 始終盾 ‧ 越攻越強",
+    "esCode": "進場\u0026每回⇒3格熊之地型 始終盾 愈攻愈強",
     "icons": []
   },
   {
@@ -69046,7 +69059,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "攻前盾 木符石複印 指定連擊法印︰首消木追擊零化 無法控制",
+    "esCode": "攻前盾 木符石複印 首消木追擊零化 無法控制",
     "icons": []
   },
   {
@@ -70987,7 +71000,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "五屬擊盾 指定連擊法印︰首消心追擊零化 無視減傷",
+    "esCode": "五屬擊盾 首消心追擊零化 無視減傷",
     "icons": []
   },
   {
@@ -73007,7 +73020,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "1回減傷99%",
+    "esCode": "1回弱攻99%",
     "icons": []
   },
   {
@@ -73019,7 +73032,7 @@
     "icons": []
   },
   {
-    "id": "2回減傷99%",
+    "id": "2回弱攻99%",
     "link": "",
     "name": "",
     "detail": "",
@@ -73071,8 +73084,8 @@
     "esCode": "{{ES5089}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/a7/SI115.png/revision/latest/scale-to-width-down/22?cb\u003d20220719024958\u0026path-prefix\u003dzh",
-        "iconKey": "SI115.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/02/ESA057.png/revision/latest/scale-to-width-down/22?cb\u003d20220924113846\u0026path-prefix\u003dzh",
+        "iconKey": "ESA057.png"
       }
     ]
   },
@@ -73108,8 +73121,8 @@
     "esCode": "{{ES5092}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/f/fc/SI118.png/revision/latest/scale-to-width-down/22?cb\u003d20220719025015\u0026path-prefix\u003dzh",
-        "iconKey": "SI118.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/8e/ESA060.png/revision/latest/scale-to-width-down/22?cb\u003d20220924113844\u0026path-prefix\u003dzh",
+        "iconKey": "ESA060.png"
       }
     ]
   },
@@ -73204,11 +73217,11 @@
     "icons": []
   },
   {
-    "id": "Template:敵人技能",
+    "id": "Template:ES5100",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "[[[:fullurl:Template:ES5100]] E]",
+    "esCode": "E",
     "icons": []
   },
   {
@@ -73303,7 +73316,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "3顆雙層凝結 ‧ 凝結追打",
+    "esCode": "雙層凝結︰進場\u0026每回⇒3顆",
     "icons": []
   },
   {
@@ -73315,7 +73328,7 @@
     "icons": []
   },
   {
-    "id": "3顆三層凝結 ‧ 凝結追打",
+    "id": "三層凝結︰進場\u0026每回⇒3顆",
     "link": "",
     "name": "",
     "detail": "",
@@ -73325,17 +73338,13 @@
   {
     "id": "5110",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5110",
-    "name": "6顆雙層凝結 ‧ 凝結追打",
+    "name": "雙層凝結︰進場\u0026每回⇒6顆",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【雙重凝結 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e每回合隨機\u003cbr\u003e「雙重凝結」6 粒符石，\u003cbr\u003e移動符石並消除凝結符石\u003cbr\u003e四側其中 1 個位置的符石\u003cbr\u003e可解除「一重凝結」\u003cbr\u003e(首批消除的符石每次\u003cbr\u003e只可解除「一重凝結」)；\u003cbr\u003e場上凝結符石愈多，\u003cbr\u003e敵人所受傷害減少愈多。\u003cbr\u003e\u003cbr\u003e敵人發動攻擊時會根據\u003cbr\u003e場上凝結符石的數量\u003cbr\u003e額外追打。",
     "esCode": "{{ES5110}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9f/SI414.png/revision/latest/scale-to-width-down/22?cb\u003d20210104122348\u0026path-prefix\u003dzh",
-        "iconKey": "SI414.png"
-      },
-      {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/a/ae/SI188.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102801\u0026path-prefix\u003dzh",
-        "iconKey": "SI188.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/5e/ESD018.png/revision/latest/scale-to-width-down/22?cb\u003d20220924130010\u0026path-prefix\u003dzh",
+        "iconKey": "ESD018.png"
       }
     ]
   },
@@ -73344,7 +73353,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "6顆三層凝結 ‧ 凝結追打",
+    "esCode": "三層凝結︰進場\u0026每回⇒6顆",
     "icons": []
   },
   {
@@ -73366,7 +73375,7 @@
   {
     "id": "5113",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5113",
-    "name": "附加消除重置",
+    "name": "每回⇒附加消除重置",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【淨世】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e每回合消除召喚師\u003cbr\u003e所有附加效果，\u003cbr\u003e相關技能 CD 將被重置。",
     "esCode": "{{ES5113}}",
     "icons": [
@@ -75430,7 +75439,7 @@
     "id": "5278",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5278",
     "name": "水外弱攻100%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【水以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e水屬性以外傷害減至 0%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e水以外弱攻\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e水屬性以外傷害減至 0%",
     "esCode": "{{ES5278}}",
     "icons": [
       {
@@ -75467,7 +75476,7 @@
     "id": "5281",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5281",
     "name": "光外弱攻100%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【光以外弱攻】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e光屬性以外傷害減至 0%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e光以外弱攻\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e光屬性以外傷害減至 0%",
     "esCode": "{{ES5281}}",
     "icons": [
       {
@@ -75504,7 +75513,7 @@
     "id": "5284",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5284",
     "name": "角色珠始終盾",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【起結有序 - 角色符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e需以指定位置 (角色頭像優先) \u003cbr\u003e開始轉珠及在指定位置\u003cbr\u003e首次結束轉珠。\u003cbr\u003e\u003cbr\u003e未有達成上述條件：\u003cbr\u003e⓵ 全隊攻擊力變為 0\u003cbr\u003e⓶ 無法進行回復",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e起結有序 - 角色符石\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e需以指定位置 (角色頭像優先) \u003cbr\u003e開始轉珠及在指定位置\u003cbr\u003e首次結束轉珠。\u003cbr\u003e\u003cbr\u003e未有達成上述條件：\u003cbr\u003e⓵ 全隊攻擊力變為 0\u003cbr\u003e⓶ 無法進行回復",
     "esCode": "{{ES5284}}",
     "icons": [
       {
@@ -75615,7 +75624,7 @@
     "id": "5293",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5293",
     "name": "1回疲憊狀態⇒弱攻100%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【疲憊狀態】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e1 回合內，\u003cbr\u003e全隊攻擊力減至 0%。",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e疲憊狀態\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e1 回合內，\u003cbr\u003e全隊攻擊力減至 0%。",
     "esCode": "{{ES5293}}",
     "icons": [
       {
@@ -75652,7 +75661,7 @@
     "id": "5296",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5296",
     "name": "4回疲憊狀態⇒弱攻100%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【疲憊狀態】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e4 回合內，\u003cbr\u003e全隊攻擊力減至 0%。",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e疲憊狀態\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e4 回合內，\u003cbr\u003e全隊攻擊力減至 0%。",
     "esCode": "{{ES5296}}",
     "icons": [
       {
@@ -79296,7 +79305,7 @@
   {
     "id": "5578",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5578",
-    "name": "攻後⇒左右暴風輪轉",
+    "name": "受攻⇒左右暴風輪轉",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【暴風】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 當首次受到敵人攻擊時\u003cbr\u003e⇒ 暴風席捲最左方直行位置\u003cbr\u003e• 第 2 次受到敵人攻擊時\u003cbr\u003e⇒ 暴風席捲最右方直行位置\u003cbr\u003e• 暴風位置內的\u003cbr\u003e符石不能消除或引爆\u003cbr\u003e• 該位置一經觸碰\u003cbr\u003e⇒ 即時停止移動符石\u003cbr\u003e＊以上攻擊循環周而復始",
     "esCode": "{{ES5578}}",
     "icons": [
@@ -79496,7 +79505,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "[1回疲憊狀態99%]",
+    "esCode": "1回疲憊狀態⇒弱攻99%",
     "icons": []
   },
   {
@@ -79508,7 +79517,7 @@
     "icons": []
   },
   {
-    "id": "[2回疲憊狀態99%]",
+    "id": "2回疲憊狀態⇒弱攻99%",
     "link": "",
     "name": "",
     "detail": "",
@@ -79518,13 +79527,13 @@
   {
     "id": "5596",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5596",
-    "name": "[3回疲憊狀態99%]",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【疲憊狀態】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 3 回合內，\u003cbr\u003e全隊攻擊力減至 1%",
+    "name": "3回疲憊狀態⇒弱攻99%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e疲憊狀態\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 3 回合內，\u003cbr\u003e全隊攻擊力減至 1%",
     "esCode": "{{ES5596}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/7/76/SI158.png/revision/latest/scale-to-width-down/22?cb\u003d20150217102646\u0026path-prefix\u003dzh",
-        "iconKey": "SI158.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/9b/ESIA002.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124552\u0026path-prefix\u003dzh",
+        "iconKey": "ESIA002.png"
       }
     ]
   },
@@ -79533,7 +79542,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "[4回疲憊狀態99%]",
+    "esCode": "4回疲憊狀態⇒弱攻99%",
     "icons": []
   },
   {
@@ -79545,7 +79554,7 @@
     "icons": []
   },
   {
-    "id": "[5回疲憊狀態99%]",
+    "id": "5回疲憊狀態⇒弱攻99%",
     "link": "",
     "name": "",
     "detail": "",
@@ -80132,7 +80141,7 @@
     "icons": []
   },
   {
-    "id": "二段生命︰〔1階︰敵轉隊長屬 ‧ 首消隊長屬追擊零化〕⇒〔2階︰4格灼熱地型10000 ‧ 狂擊4倍〕",
+    "id": "二段生命50% 階段1 ↳敵轉隊長屬 ↳首消隊長屬追擊零化 階段2 ↳4格灼熱地型10000 ↳狂擊4倍",
     "link": "",
     "name": "",
     "detail": "",
@@ -80362,7 +80371,7 @@
     "icons": []
   },
   {
-    "id": "水屬初級拼圖盾",
+    "id": "水屬高級拼圖盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -80413,7 +80422,7 @@
   {
     "id": "5665",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5665",
-    "name": "火屬初級拼圖盾",
+    "name": "火屬高級拼圖盾",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【火形狀盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e在指定位置消除火符石\u003cbr\u003e(可連同位置旁邊的符石)\u003cbr\u003e才會對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5665}}",
     "icons": [
@@ -80473,7 +80482,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "木屬初級拼圖盾",
+    "esCode": "木屬高級拼圖盾",
     "icons": []
   },
   {
@@ -80526,7 +80535,7 @@
     "icons": []
   },
   {
-    "id": "光屬初級拼圖盾",
+    "id": "光屬高級拼圖盾",
     "link": "",
     "name": "",
     "detail": "",
@@ -80577,7 +80586,7 @@
   {
     "id": "5677",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/5677",
-    "name": "暗屬初級拼圖盾",
+    "name": "暗屬高級拼圖盾",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【暗形狀盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e在指定位置消除暗符石\u003cbr\u003e(可連同位置旁邊的符石)\u003cbr\u003e才會對敵人造成傷害，\u003cbr\u003e否則敵人承受傷害變為 1。",
     "esCode": "{{ES5677}}",
     "icons": [
@@ -85652,7 +85661,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "1回致命步伐10000",
+    "esCode": "左方附加1回⇒一步一傷10000",
     "icons": []
   },
   {
@@ -85664,7 +85673,7 @@
     "icons": []
   },
   {
-    "id": "2回致命步伐10000",
+    "id": "左方附加2回⇒一步一傷10000",
     "link": "",
     "name": "",
     "detail": "",
@@ -85674,13 +85683,13 @@
   {
     "id": "6079",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6079",
-    "name": "3回致命步伐10000",
+    "name": "左方附加3回⇒一步一傷10000",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【一步一傷】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 3 回合內，每移動 1 步\u003cbr\u003e⇒ 對召喚師造成\u003cbr\u003e 10,000 點傷害",
     "esCode": "{{ES6079}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/2/22/SI274.png/revision/latest/scale-to-width-down/22?cb\u003d20150217103209\u0026path-prefix\u003dzh",
-        "iconKey": "SI274.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/b/b4/ESL007.png/revision/latest/scale-to-width-down/22?cb\u003d20220925125432\u0026path-prefix\u003dzh",
+        "iconKey": "ESL007.png"
       }
     ]
   },
@@ -85689,7 +85698,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "4回致命步伐10000",
+    "esCode": "左方附加4回⇒一步一傷10000",
     "icons": []
   },
   {
@@ -85701,7 +85710,7 @@
     "icons": []
   },
   {
-    "id": "5回致命步伐10000",
+    "id": "左方附加5回⇒一步一傷10000",
     "link": "",
     "name": "",
     "detail": "",
@@ -91314,7 +91323,7 @@
     "id": "6513",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6513",
     "name": "0%抗性盾︰消1組水增加20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消水符石】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消水符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6513}}",
     "icons": [
       {
@@ -91351,7 +91360,7 @@
     "id": "6516",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6516",
     "name": "0%抗性盾︰消1組火增加20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消火符石】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消火符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6516}}",
     "icons": [
       {
@@ -91388,7 +91397,7 @@
     "id": "6519",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6519",
     "name": "0%抗性盾︰消1組木增加20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消木符石】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消木符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6519}}",
     "icons": [
       {
@@ -91425,7 +91434,7 @@
     "id": "6522",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6522",
     "name": "0%抗性盾︰消1組光增加20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消光符石】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消光符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6522}}",
     "icons": [
       {
@@ -91462,7 +91471,7 @@
     "id": "6525",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6525",
     "name": "0%抗性盾︰消1組暗增加20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消暗符石】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消暗符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6525}}",
     "icons": [
       {
@@ -91499,7 +91508,7 @@
     "id": "6528",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6528",
     "name": "0%抗性盾︰消1組心增加20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消心符石】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消心符石】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6528}}",
     "icons": [
       {
@@ -91536,7 +91545,7 @@
     "id": "6531",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6531",
     "name": "100%抗性盾︰消1組水減弱10%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消水符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消水符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
     "esCode": "{{ES6531}}",
     "icons": [
       {
@@ -91573,7 +91582,7 @@
     "id": "6534",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6534",
     "name": "100%抗性盾︰消1組水減弱50%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消水符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消水符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組水符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
     "esCode": "{{ES6534}}",
     "icons": [
       {
@@ -91610,7 +91619,7 @@
     "id": "6537",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6537",
     "name": "100%抗性盾︰消1組火減弱25%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消火符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消火符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組火符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
     "esCode": "{{ES6537}}",
     "icons": [
       {
@@ -91647,7 +91656,7 @@
     "id": "6540",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6540",
     "name": "100%抗性盾︰消1組木減弱20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消木符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消木符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組木符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6540}}",
     "icons": [
       {
@@ -91684,7 +91693,7 @@
     "id": "6543",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6543",
     "name": "100%抗性盾︰消1組光減弱10%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消光符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消光符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 10% 減傷抗性",
     "esCode": "{{ES6543}}",
     "icons": [
       {
@@ -91721,7 +91730,7 @@
     "id": "6546",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6546",
     "name": "100%抗性盾︰消1組光減弱50%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消光符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消光符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組光符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 50% 減傷抗性",
     "esCode": "{{ES6546}}",
     "icons": [
       {
@@ -91758,7 +91767,7 @@
     "id": "6549",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6549",
     "name": "100%抗性盾︰消1組暗減弱25%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消暗符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消暗符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組暗符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
     "esCode": "{{ES6549}}",
     "icons": [
       {
@@ -91795,7 +91804,7 @@
     "id": "6552",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6552",
     "name": "100%抗性盾︰消1組心減弱20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消心符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消心符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每消除 1 組心符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 20% 減傷抗性",
     "esCode": "{{ES6552}}",
     "icons": [
       {
@@ -91832,7 +91841,7 @@
     "id": "6555",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6555",
     "name": "0%抗性盾︰消1組增加10%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消除符石組數】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e消除多於 1 組符石：\u003cbr\u003e每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 10% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消除符石組數】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e消除多於 1 組符石：\u003cbr\u003e每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 10% 減傷抗性",
     "esCode": "{{ES6555}}",
     "icons": [
       {
@@ -91869,7 +91878,7 @@
     "id": "6558",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6558",
     "name": "0%抗性盾︰消1組增加50%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消除符石組數】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e消除多於 1 組符石：\u003cbr\u003e每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 50% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消除符石組數】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e消除多於 1 組符石：\u003cbr\u003e每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人增加\u003cbr\u003e 50% 減傷抗性",
     "esCode": "{{ES6558}}",
     "icons": [
       {
@@ -91906,7 +91915,7 @@
     "id": "6561",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6561",
     "name": "100%抗性盾︰消1組減弱25%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 消除符石組數減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 消除多於 1 組符石：\u003cbr\u003e 每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 消除符石組數減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 消除多於 1 組符石：\u003cbr\u003e 每消除多 1 組符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
     "esCode": "{{ES6561}}",
     "icons": [
       {
@@ -91943,7 +91952,7 @@
     "id": "6564",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6564",
     "name": "100%抗性盾︰首消消1組減弱25%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 首消符石種類減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 首批消除多於 1 種符石：\u003cbr\u003e 每首批消除多 1 種符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 首消符石種類減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 首批消除多於 1 種符石：\u003cbr\u003e 每首批消除多 1 種符石\u003cbr\u003e⇒ 該回合敵人減少\u003cbr\u003e 25% 減傷抗性",
     "esCode": "{{ES6564}}",
     "icons": [
       {
@@ -91980,7 +91989,7 @@
     "id": "6567",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6567",
     "name": "100%抗性盾︰首消1粒減弱1%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【減傷抗性 - 首消符石減少抗性】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每累積首批消除 1 粒符石\u003cbr\u003e⇒ 敵人減少 1% 減傷抗性",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【減傷抗性 - 首消符石減少抗性】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人為 100% 減傷抗性\u003cbr\u003e• 每累積首批消除 1 粒符石\u003cbr\u003e⇒ 敵人減少 1% 減傷抗性",
     "esCode": "{{ES6567}}",
     "icons": [
       {
@@ -92017,7 +92026,7 @@
     "id": "6570",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6570",
     "name": "1回\u003e水成員傷害化血",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【吸收水屬成員攻擊傷害 - 化血】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收水屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收水屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收水屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6570}}",
     "icons": [
       {
@@ -92054,7 +92063,7 @@
     "id": "6573",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6573",
     "name": "1回\u003e火成員傷害化血",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【吸收火屬成員攻擊傷害 - 化血】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收火屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收火屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收火屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6573}}",
     "icons": [
       {
@@ -92091,7 +92100,7 @@
     "id": "6576",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6576",
     "name": "1回\u003e木成員傷害化血",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【吸收木屬成員攻擊傷害 - 化血】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收木屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收木屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收木屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6576}}",
     "icons": [
       {
@@ -92128,7 +92137,7 @@
     "id": "6579",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6579",
     "name": "1回\u003e光成員傷害化血",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【吸收光屬成員攻擊傷害 - 化血】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收光屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收光屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收光屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6579}}",
     "icons": [
       {
@@ -92165,7 +92174,7 @@
     "id": "6582",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6582",
     "name": "1回\u003e暗成員傷害化血",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【吸收暗屬成員攻擊傷害 - 化血】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收暗屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收暗屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收暗屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6582}}",
     "icons": [
       {
@@ -92234,7 +92243,7 @@
     "id": "6588",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6588",
     "name": "隨伴同亡",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【同伴之護 - 喪伴自戕】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e當有其他敵人被擊斃，\u003cbr\u003e回合結束時敵人\u003cbr\u003e扣除自身 100% 生命力 。",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【同伴之護 - 喪伴自戕】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e當有其他敵人被擊斃，\u003cbr\u003e回合結束時敵人\u003cbr\u003e扣除自身 100% 生命力 。",
     "esCode": "{{ES6588}}",
     "icons": [
       {
@@ -92260,7 +92269,7 @@
     "icons": []
   },
   {
-    "id": "進場\u003e弱化圍城 ‧ 每回\u003e水弱化10%",
+    "id": "弱化10%︰進場圍城⇒每回水弱化",
     "link": "",
     "name": "",
     "detail": "",
@@ -92270,8 +92279,8 @@
   {
     "id": "6591",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6591",
-    "name": "進場\u003e弱化圍城 ‧ 每回\u003e水弱化20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【弱化圍城 10% ‧ 火弱化符石 10%】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的火符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "name": "弱化10%︰進場圍城⇒每回火弱化",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 10% ‧ 火弱化符石 10%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的火符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
     "esCode": "{{ES6591}}",
     "icons": [
       {
@@ -92285,7 +92294,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "進場\u003e弱化圍城 ‧ 每回\u003e火弱化10%",
+    "esCode": "弱化10%︰進場圍城⇒每回木弱化",
     "icons": []
   },
   {
@@ -92297,7 +92306,7 @@
     "icons": []
   },
   {
-    "id": "進場\u003e弱化圍城 ‧ 每回\u003e火弱化20%",
+    "id": "弱化10%︰進場圍城⇒每回光弱化",
     "link": "",
     "name": "",
     "detail": "",
@@ -92307,8 +92316,8 @@
   {
     "id": "6594",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6594",
-    "name": "進場\u003e弱化圍城 ‧ 每回\u003e木弱化10%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【弱化圍城 10% ‧ 暗弱化符石 10%】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的暗符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "name": "弱化10%︰進場圍城⇒每回暗弱化",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 10% ‧ 暗弱化符石 10%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的暗符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 10%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
     "esCode": "{{ES6594}}",
     "icons": [
       {
@@ -92322,7 +92331,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "進場\u003e弱化圍城 ‧ 每回\u003e木弱化20%",
+    "esCode": "弱化10%︰進場圍城⇒每回心弱化",
     "icons": []
   },
   {
@@ -92334,7 +92343,7 @@
     "icons": []
   },
   {
-    "id": "進場\u003e弱化圍城 ‧ 每回\u003e光弱化10%",
+    "id": "弱化20%︰進場圍城⇒每回水弱化",
     "link": "",
     "name": "",
     "detail": "",
@@ -92344,8 +92353,8 @@
   {
     "id": "6597",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6597",
-    "name": "進場\u003e弱化圍城 ‧ 每回\u003e光弱化20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【弱化圍城 20% ‧ 火弱化符石 20%】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的火符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "name": "弱化20%︰進場圍城⇒每回火弱化",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 20% ‧ 火弱化符石 20%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的火符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
     "esCode": "{{ES6597}}",
     "icons": [
       {
@@ -92359,7 +92368,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "進場\u003e弱化圍城 ‧ 每回\u003e暗弱化10%",
+    "esCode": "弱化20%︰進場圍城⇒每回木弱化",
     "icons": []
   },
   {
@@ -92371,7 +92380,7 @@
     "icons": []
   },
   {
-    "id": "進場\u003e弱化圍城 ‧ 每回\u003e暗弱化20%",
+    "id": "弱化20%︰進場圍城⇒每回光弱化",
     "link": "",
     "name": "",
     "detail": "",
@@ -92381,8 +92390,8 @@
   {
     "id": "6600",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6600",
-    "name": "進場\u003e弱化圍城 ‧ 每回\u003e心弱化10%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【弱化圍城 20% ‧ 暗弱化符石 20%】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的暗符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "name": "弱化20%︰進場圍城⇒每回暗弱化",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 20% ‧ 暗弱化符石 20%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的暗符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
     "esCode": "{{ES6600}}",
     "icons": [
       {
@@ -92394,8 +92403,8 @@
   {
     "id": "6601",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6601",
-    "name": "進場\u003e弱化圍城 ‧ 每回\u003e心弱化20%",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【弱化圍城 20% ‧ 心弱化符石 20%】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的心符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
+    "name": "弱化20%︰進場圍城⇒每回心弱化",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【弱化圍城 20% ‧ 心弱化符石 20%】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 進場時鎖定場上所有符石，\u003cbr\u003e 回合結束時\u003cbr\u003e 鎖定場上的心符石\u003cbr\u003e• 每消除 1 粒被鎖定的符石\u003cbr\u003e⇒ 全隊攻擊力減少 20%。\u003cbr\u003e (發動龍刻脈動視作 \u003cbr\u003e 消除場上的鎖定符石)",
     "esCode": "{{ES6601}}",
     "icons": [
       {
@@ -92409,7 +92418,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "愈攻愈強",
+    "esCode": "追擊愈強⇒最多7連擊",
     "icons": []
   },
   {
@@ -92432,7 +92441,7 @@
     "id": "6604",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6604",
     "name": "攻前\u003e引爆風化追擊(最多3連擊)",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【引爆風化符石 - 追擊】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人攻擊前引爆風化符石\u003cbr\u003e• 上述每引爆 1 粒風化符石\u003cbr\u003e⇒ 敵人額外追打 1 次\u003cbr\u003e⇒ 最多追打 3 次",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【引爆風化符石 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人攻擊前引爆風化符石\u003cbr\u003e• 上述每引爆 1 粒風化符石\u003cbr\u003e⇒ 敵人額外追打 1 次\u003cbr\u003e⇒ 最多追打 3 次",
     "esCode": "{{ES6604}}",
     "icons": [
       {
@@ -92469,7 +92478,7 @@
     "id": "6607",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6607",
     "name": "5回\u003e1Combo限制",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【連擊 (Combo) 上限 1】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 1",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 1】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 1",
     "esCode": "{{ES6607}}",
     "icons": [
       {
@@ -92506,7 +92515,7 @@
     "id": "6610",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6610",
     "name": "5回\u003e5Combo限制",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【連擊 (Combo) 上限 5】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 5",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 5】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 5",
     "esCode": "{{ES6610}}",
     "icons": [
       {
@@ -92543,7 +92552,7 @@
     "id": "6613",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6613",
     "name": "5回\u003e10Combo限制",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【連擊 (Combo) 上限 10】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 10",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 10】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 10",
     "esCode": "{{ES6613}}",
     "icons": [
       {
@@ -92580,7 +92589,7 @@
     "id": "6616",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6616",
     "name": "40+Combo盾",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【≥40 連擊盾】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 達成 ≥40 連擊 (Combo)\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【≥40 連擊盾】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 達成 ≥40 連擊 (Combo)\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1",
     "esCode": "{{ES6616}}",
     "icons": [
       {
@@ -92617,7 +92626,7 @@
     "id": "6619",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6619",
     "name": "40+Combo追擊盾(最多9連擊)",
-    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【【≥40 連擊盾 - 追擊】】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 達成 ≥40 連擊 (Combo)\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1\u003cbr\u003e⇒ 並根據差距的連擊數\u003cbr\u003e 追打相應次數攻擊\u003cbr\u003e⇒ 最多追打 9 次",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【≥40 連擊盾 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 達成 ≥40 連擊 (Combo)\u003cbr\u003e⇒ 才能對敵人造成傷害\u003cbr\u003e⇒ 否則敵人承受傷害變為 1\u003cbr\u003e⇒ 並根據差距的連擊數\u003cbr\u003e 追打相應次數攻擊\u003cbr\u003e⇒ 最多追打 9 次",
     "esCode": "{{ES6619}}",
     "icons": [
       {

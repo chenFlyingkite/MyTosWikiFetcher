@@ -16770,6 +16770,30 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2806"
   },
   {
+    "title": "No. 2807 燦翼燃冀 ‧ 希波呂",
+    "id": "2807",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%87%A6%E7%BF%BC%E7%87%83%E5%86%80_%E2%80%A7_%E5%B8%8C%E6%B3%A2%E5%91%82",
+    "linkId": "http://zh.tos.wikia.com/wiki/2807"
+  },
+  {
+    "title": "No. 2808 繁星命脈 ‧ 斯克勒",
+    "id": "2808",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B9%81%E6%98%9F%E5%91%BD%E8%84%88_%E2%80%A7_%E6%96%AF%E5%85%8B%E5%8B%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2808"
+  },
+  {
+    "title": "No. 2809 星光庇佑 ‧ 米堤與波子",
+    "id": "2809",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E5%85%89%E5%BA%87%E4%BD%91_%E2%80%A7_%E7%B1%B3%E5%A0%A4%E8%88%87%E6%B3%A2%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/2809"
+  },
+  {
+    "title": "No. 2810 捨情焚身 ‧ 拉冬",
+    "id": "2810",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%8D%A8%E6%83%85%E7%84%9A%E8%BA%AB_%E2%80%A7_%E6%8B%89%E5%86%AC",
+    "linkId": "http://zh.tos.wikia.com/wiki/2810"
+  },
+  {
     "title": "No. 2811 虎吼光甲 ‧ 劍齒虎",
     "id": "2811",
     "link": "https://tos.fandom.com/zh/wiki/%E8%99%8E%E5%90%BC%E5%85%89%E7%94%B2_%E2%80%A7_%E5%8A%8D%E9%BD%92%E8%99%8E",
@@ -16804,6 +16828,12 @@
     "id": "2816",
     "link": "https://tos.fandom.com/zh/wiki/%E6%9C%A6%E6%9C%A7%E5%BF%83%E6%84%AB_%E2%80%A7_%E5%87%B1%E6%8B%89",
     "linkId": "http://zh.tos.wikia.com/wiki/2816"
+  },
+  {
+    "title": "No. 2817 爆旋擊殺 ‧ 千千",
+    "id": "2817",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%88%86%E6%97%8B%E6%93%8A%E6%AE%BA_%E2%80%A7_%E5%8D%83%E5%8D%83",
+    "linkId": "http://zh.tos.wikia.com/wiki/2817"
   },
   {
     "title": "No. 2900 十年創紀 ‧ 瘋頭",
@@ -19158,6 +19188,54 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10372"
   },
   {
+    "title": "No. 10373 爆破高手 ‧ 諾貝爾",
+    "id": "10373",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%88%86%E7%A0%B4%E9%AB%98%E6%89%8B_%E2%80%A7_%E8%AB%BE%E8%B2%9D%E7%88%BE",
+    "linkId": "http://zh.tos.wikia.com/wiki/10373"
+  },
+  {
+    "title": "No. 10374 風神怒疾 ‧ 志那都",
+    "id": "10374",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A2%A8%E7%A5%9E%E6%80%92%E7%96%BE_%E2%80%A7_%E5%BF%97%E9%82%A3%E9%83%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/10374"
+  },
+  {
+    "title": "No. 10375 雷神耀天 ‧ 晴賀",
+    "id": "10375",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%B7%E7%A5%9E%E8%80%80%E5%A4%A9_%E2%80%A7_%E6%99%B4%E8%B3%80",
+    "linkId": "http://zh.tos.wikia.com/wiki/10375"
+  },
+  {
+    "title": "No. 10376 雛祭令嬡 ‧ 京子",
+    "id": "10376",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%9B%E7%A5%AD%E4%BB%A4%E5%AC%A1_%E2%80%A7_%E4%BA%AC%E5%AD%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/10376"
+  },
+  {
+    "title": "No. 10377 天皇雛偶 ‧ 和輝",
+    "id": "10377",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%9A%87%E9%9B%9B%E5%81%B6_%E2%80%A7_%E5%92%8C%E8%BC%9D",
+    "linkId": "http://zh.tos.wikia.com/wiki/10377"
+  },
+  {
+    "title": "No. 10378 絕倫法術 ‧ 戴倫",
+    "id": "10378",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%B5%95%E5%80%AB%E6%B3%95%E8%A1%93_%E2%80%A7_%E6%88%B4%E5%80%AB",
+    "linkId": "http://zh.tos.wikia.com/wiki/10378"
+  },
+  {
+    "title": "No. 10379 靈花預言 ‧ 啟明花",
+    "id": "10379",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9D%88%E8%8A%B1%E9%A0%90%E8%A8%80_%E2%80%A7_%E5%95%9F%E6%98%8E%E8%8A%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/10379"
+  },
+  {
+    "title": "No. 10380 高危炮堡 ‧ 日本城",
+    "id": "10380",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%8D%B1%E7%82%AE%E5%A0%A1_%E2%80%A7_%E6%97%A5%E6%9C%AC%E5%9F%8E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10380"
+  },
+  {
     "title": "No. 10381 狂擊拳者 ‧ 吉姆",
     "id": "10381",
     "link": "https://tos.fandom.com/zh/wiki/%E7%8B%82%E6%93%8A%E6%8B%B3%E8%80%85_%E2%80%A7_%E5%90%89%E5%A7%86",
@@ -19318,6 +19396,18 @@
     "id": "10407",
     "link": "https://tos.fandom.com/zh/wiki/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA_%E2%80%A7_%E6%9A%97",
     "linkId": "http://zh.tos.wikia.com/wiki/10407"
+  },
+  {
+    "title": "No. 10408 制霸拳皇 ‧ 阿里",
+    "id": "10408",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%88%B6%E9%9C%B8%E6%8B%B3%E7%9A%87_%E2%80%A7_%E9%98%BF%E9%87%8C",
+    "linkId": "http://zh.tos.wikia.com/wiki/10408"
+  },
+  {
+    "title": "No. 10409 染血教徒 ‧ 馬克白",
+    "id": "10409",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9F%93%E8%A1%80%E6%95%99%E5%BE%92_%E2%80%A7_%E9%A6%AC%E5%85%8B%E7%99%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/10409"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",
