@@ -2832,7 +2832,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "技能回復 ‧ 風化20%-風化盾5%",
+    "esCode": "無限轉珠時間",
     "icons": []
   },
   {
@@ -92025,7 +92025,7 @@
   {
     "id": "6570",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6570",
-    "name": "1回\u003e水成員傷害化血",
+    "name": "1回⇒水成員傷害化血",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收水屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收水屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6570}}",
     "icons": [
@@ -92040,7 +92040,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "2回\u003e水成員傷害化血",
+    "esCode": "2回⇒水成員傷害化血",
     "icons": []
   },
   {
@@ -92052,7 +92052,7 @@
     "icons": []
   },
   {
-    "id": "3回\u003e水成員傷害化血",
+    "id": "3回⇒水成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -92062,7 +92062,7 @@
   {
     "id": "6573",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6573",
-    "name": "1回\u003e火成員傷害化血",
+    "name": "1回⇒火成員傷害化血",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收火屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收火屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6573}}",
     "icons": [
@@ -92077,7 +92077,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "2回\u003e火成員傷害化血",
+    "esCode": "2回⇒火成員傷害化血",
     "icons": []
   },
   {
@@ -92089,7 +92089,7 @@
     "icons": []
   },
   {
-    "id": "3回\u003e火成員傷害化血",
+    "id": "3回⇒火成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -92099,7 +92099,7 @@
   {
     "id": "6576",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6576",
-    "name": "1回\u003e木成員傷害化血",
+    "name": "1回⇒木成員傷害化血",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收木屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收木屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6576}}",
     "icons": [
@@ -92114,7 +92114,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "2回\u003e木成員傷害化血",
+    "esCode": "2回⇒木成員傷害化血",
     "icons": []
   },
   {
@@ -92126,7 +92126,7 @@
     "icons": []
   },
   {
-    "id": "3回\u003e木成員傷害化血",
+    "id": "3回⇒木成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -92136,7 +92136,7 @@
   {
     "id": "6579",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6579",
-    "name": "1回\u003e光成員傷害化血",
+    "name": "1回⇒光成員傷害化血",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收光屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收光屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6579}}",
     "icons": [
@@ -92151,7 +92151,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "2回\u003e光成員傷害化血",
+    "esCode": "2回⇒光成員傷害化血",
     "icons": []
   },
   {
@@ -92163,7 +92163,7 @@
     "icons": []
   },
   {
-    "id": "3回\u003e光成員傷害化血",
+    "id": "3回⇒光成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -92173,7 +92173,7 @@
   {
     "id": "6582",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6582",
-    "name": "1回\u003e暗成員傷害化血",
+    "name": "1回⇒暗成員傷害化血",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【吸收暗屬成員攻擊傷害 - 化血】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 1 回合內，\u003cbr\u003e 吸收暗屬性成員的攻擊傷害\u003cbr\u003e⇒ 回復血量",
     "esCode": "{{ES6582}}",
     "icons": [
@@ -92188,7 +92188,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "2回\u003e暗成員傷害化血",
+    "esCode": "2回⇒暗成員傷害化血",
     "icons": []
   },
   {
@@ -92200,7 +92200,7 @@
     "icons": []
   },
   {
-    "id": "3回\u003e暗成員傷害化血",
+    "id": "3回⇒暗成員傷害化血",
     "link": "",
     "name": "",
     "detail": "",
@@ -92430,7 +92430,7 @@
     "icons": []
   },
   {
-    "id": "攻前\u003e引爆風化追擊(最多2連擊)",
+    "id": "攻前⇒引爆風化追擊(最多2連擊)",
     "link": "",
     "name": "",
     "detail": "",
@@ -92440,7 +92440,7 @@
   {
     "id": "6604",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6604",
-    "name": "攻前\u003e引爆風化追擊(最多3連擊)",
+    "name": "攻前⇒引爆風化追擊(最多3連擊)",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【引爆風化符石 - 追擊】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 敵人攻擊前引爆風化符石\u003cbr\u003e• 上述每引爆 1 粒風化符石\u003cbr\u003e⇒ 敵人額外追打 1 次\u003cbr\u003e⇒ 最多追打 3 次",
     "esCode": "{{ES6604}}",
     "icons": [
@@ -92455,7 +92455,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "攻前\u003e引爆風化追擊(最多4連擊)",
+    "esCode": "攻前⇒引爆風化追擊(最多4連擊)",
     "icons": []
   },
   {
@@ -92467,7 +92467,7 @@
     "icons": []
   },
   {
-    "id": "1回\u003e1Combo限制",
+    "id": "左方附加狀態1回⇒1Combo限制",
     "link": "",
     "name": "",
     "detail": "",
@@ -92477,7 +92477,7 @@
   {
     "id": "6607",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6607",
-    "name": "5回\u003e1Combo限制",
+    "name": "左方附加狀態5回⇒1Combo限制",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 1】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 1",
     "esCode": "{{ES6607}}",
     "icons": [
@@ -92492,7 +92492,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "99回\u003e1Combo限制",
+    "esCode": "左方附加狀態99回⇒1Combo限制",
     "icons": []
   },
   {
@@ -92504,7 +92504,7 @@
     "icons": []
   },
   {
-    "id": "1回\u003e5Combo限制",
+    "id": "左方附加狀態1回⇒5Combo限制",
     "link": "",
     "name": "",
     "detail": "",
@@ -92514,13 +92514,13 @@
   {
     "id": "6610",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6610",
-    "name": "5回\u003e5Combo限制",
+    "name": "左方附加狀態5回⇒5Combo限制",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 5】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 5",
     "esCode": "{{ES6610}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/99/ESHE001.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060204\u0026path-prefix\u003dzh",
-        "iconKey": "ESHE001.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/ESHE005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924143814\u0026path-prefix\u003dzh",
+        "iconKey": "ESHE005.png"
       }
     ]
   },
@@ -92529,7 +92529,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "99回\u003e5Combo限制",
+    "esCode": "左方附加狀態99回⇒5Combo限制",
     "icons": []
   },
   {
@@ -92541,7 +92541,7 @@
     "icons": []
   },
   {
-    "id": "1回\u003e10Combo限制",
+    "id": "左方附加狀態1回⇒10Combo限制",
     "link": "",
     "name": "",
     "detail": "",
@@ -92551,13 +92551,13 @@
   {
     "id": "6613",
     "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6613",
-    "name": "5回\u003e10Combo限制",
+    "name": "左方附加狀態5回⇒10Combo限制",
     "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【連擊 (Combo) 上限 10】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 5 回合內，\u003cbr\u003e 達成連擊 (Combo) 上限為 10",
     "esCode": "{{ES6613}}",
     "icons": [
       {
-        "iconLink": "https://static.wikia.nocookie.net/tos/images/9/99/ESHE001.png/revision/latest/scale-to-width-down/22?cb\u003d20230102060204\u0026path-prefix\u003dzh",
-        "iconKey": "ESHE001.png"
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/8/84/ESHE010.png/revision/latest/scale-to-width-down/22?cb\u003d20230102061030\u0026path-prefix\u003dzh",
+        "iconKey": "ESHE010.png"
       }
     ]
   },
@@ -92566,7 +92566,7 @@
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "99回\u003e10Combo限制",
+    "esCode": "左方附加狀態99回⇒10Combo限制",
     "icons": []
   },
   {
@@ -93588,7 +93588,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6699",
+    "id": "CD回復",
     "link": "",
     "name": "",
     "detail": "",
@@ -93597,18 +93597,23 @@
   },
   {
     "id": "6700",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6700",
+    "name": "CD\u0026EP回復",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【回 EP】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 所有成員的主動技能\u003cbr\u003e⓵ CD 變 0\u003cbr\u003e⓶ EP 回滿",
     "esCode": "{{ES6700}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESG005.png/revision/latest/scale-to-width-down/22?cb\u003d20220924142805\u0026path-prefix\u003dzh",
+        "iconKey": "ESG005.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6701",
+    "esCode": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "icons": []
   },
   {
@@ -93620,7 +93625,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6702",
+    "id": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "link": "",
     "name": "",
     "detail": "",
@@ -93629,18 +93634,27 @@
   },
   {
     "id": "6703",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6703",
+    "name": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【板塊拼圖】凝護 ‧ 愈扣愈強\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首批完成指定拼圖\u003cbr\u003e⇒ 可扣除敵人 100% 生命力\u003cbr\u003e\u003cbr\u003e• 除此以外，\u003cbr\u003e 敵人不受任何傷害\u003cbr\u003e\u003cbr\u003e• 若無法達成上述條件，\u003cbr\u003e 敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e (無視所有減傷效果和\u003cbr\u003e 意志技能)\u003cbr\u003e• 敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
     "esCode": "{{ES6703}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/ESEA026.png/revision/latest/scale-to-width-down/22?cb\u003d20230327092849\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA026.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6704",
+    "esCode": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "icons": []
   },
   {
@@ -93652,7 +93666,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6705",
+    "id": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "link": "",
     "name": "",
     "detail": "",
@@ -93661,18 +93675,27 @@
   },
   {
     "id": "6706",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6706",
+    "name": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【板塊拼圖】凝護 ‧ 愈扣愈強\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首批完成指定拼圖\u003cbr\u003e⇒ 可扣除敵人 100% 生命力\u003cbr\u003e\u003cbr\u003e• 除此以外，\u003cbr\u003e 敵人不受任何傷害\u003cbr\u003e\u003cbr\u003e• 若無法達成上述條件，\u003cbr\u003e 敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e (無視所有減傷效果和\u003cbr\u003e 意志技能)\u003cbr\u003e• 敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
     "esCode": "{{ES6706}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/ESEA026.png/revision/latest/scale-to-width-down/22?cb\u003d20230327092849\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA026.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6707",
+    "esCode": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "icons": []
   },
   {
@@ -93684,7 +93707,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6708",
+    "id": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "link": "",
     "name": "",
     "detail": "",
@@ -93693,18 +93716,27 @@
   },
   {
     "id": "6709",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6709",
+    "name": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【板塊拼圖】凝護 ‧ 愈扣愈強\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首批完成指定拼圖\u003cbr\u003e⇒ 可扣除敵人 100% 生命力\u003cbr\u003e\u003cbr\u003e• 除此以外，\u003cbr\u003e 敵人不受任何傷害\u003cbr\u003e\u003cbr\u003e• 若無法達成上述條件，\u003cbr\u003e 敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e (無視所有減傷效果和\u003cbr\u003e 意志技能)\u003cbr\u003e• 敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
     "esCode": "{{ES6709}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/ESEA026.png/revision/latest/scale-to-width-down/22?cb\u003d20230327092849\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA026.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6710",
+    "esCode": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "icons": []
   },
   {
@@ -93716,7 +93748,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6711",
+    "id": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "link": "",
     "name": "",
     "detail": "",
@@ -93725,18 +93757,27 @@
   },
   {
     "id": "6712",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6712",
+    "name": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【板塊拼圖】凝護 ‧ 愈扣愈強\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首批完成指定拼圖\u003cbr\u003e⇒ 可扣除敵人 100% 生命力\u003cbr\u003e\u003cbr\u003e• 除此以外，\u003cbr\u003e 敵人不受任何傷害\u003cbr\u003e\u003cbr\u003e• 若無法達成上述條件，\u003cbr\u003e 敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 25% 生命力\u003cbr\u003e (無視所有減傷效果和\u003cbr\u003e 意志技能)\u003cbr\u003e• 敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
     "esCode": "{{ES6712}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/3/3e/ESEA026.png/revision/latest/scale-to-width-down/22?cb\u003d20230327092849\u0026path-prefix\u003dzh",
+        "iconKey": "ESEA026.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6713",
+    "esCode": "【板塊拼圖】凝護100% ‧ 愈扣愈強25%",
     "icons": []
   },
   {
@@ -93748,7 +93789,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6714",
+    "id": "進場\u0026每回⇒轉化五屬均分6顆",
     "link": "",
     "name": "",
     "detail": "",
@@ -93757,18 +93798,27 @@
   },
   {
     "id": "6715",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6715",
+    "name": "【首消全水】凝護100% ‧ 愈扣愈強50%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【全消水凝護 - 愈攻愈強】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首批消除場上所有水符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力\u003cbr\u003e\u003cbr\u003e• 除此以外，\u003cbr\u003e 敵人不受任何傷害\u003cbr\u003e\u003cbr\u003e• 若無法達成上述條件，\u003cbr\u003e 敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 50% 生命力\u003cbr\u003e (無視所有減傷效果和\u003cbr\u003e 意志技能)\u003cbr\u003e• 敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
     "esCode": "{{ES6715}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/6/67/ESC007.png/revision/latest/scale-to-width-down/22?cb\u003d20220924110948\u0026path-prefix\u003dzh",
+        "iconKey": "ESC007.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6716",
+    "esCode": "【首消全火】凝護100% ‧ 愈扣愈強50%",
     "icons": []
   },
   {
@@ -93780,7 +93830,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6717",
+    "id": "【首消全木】凝護100% ‧ 愈扣愈強50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -93789,18 +93839,27 @@
   },
   {
     "id": "6718",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6718",
+    "name": "【首消全光】凝護100% ‧ 愈扣愈強50%",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【全消光凝護 - 愈攻愈強】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 首批消除場上所有光符石\u003cbr\u003e⇒ 可扣除敵人 100% 生命力\u003cbr\u003e\u003cbr\u003e• 除此以外，\u003cbr\u003e 敵人不受任何傷害\u003cbr\u003e\u003cbr\u003e• 若無法達成上述條件，\u003cbr\u003e 敵人發動攻擊時\u003cbr\u003e⇒ 扣除召喚師 50% 生命力\u003cbr\u003e (無視所有減傷效果和\u003cbr\u003e 意志技能)\u003cbr\u003e• 敵人攻擊次數愈多時\u003cbr\u003e⇒ 攻擊力持續提升",
     "esCode": "{{ES6718}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/5/55/ESC010.png/revision/latest/scale-to-width-down/22?cb\u003d20220924110946\u0026path-prefix\u003dzh",
+        "iconKey": "ESC010.png"
+      },
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/0/05/ESI013.png/revision/latest/scale-to-width-down/22?cb\u003d20220925124425\u0026path-prefix\u003dzh",
+        "iconKey": "ESI013.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6719",
+    "esCode": "【首消全暗】凝護100% ‧ 愈扣愈強50%",
     "icons": []
   },
   {
@@ -93812,7 +93871,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6720",
+    "id": "【首消全心】凝護100% ‧ 愈扣愈強50%",
     "link": "",
     "name": "",
     "detail": "",
@@ -93821,18 +93880,23 @@
   },
   {
     "id": "6721",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6721",
+    "name": "進場\u0026每回⇒轉化五屬及心",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【符石轉換】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將所有符石\u003cbr\u003e⇒ 轉化為固定數量的\u003cbr\u003e 五屬及心符石",
     "esCode": "{{ES6721}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESCA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924114313\u0026path-prefix\u003dzh",
+        "iconKey": "ESCA006.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6722",
+    "esCode": "進場\u0026每回⇒轉化五屬及心",
     "icons": []
   },
   {
@@ -93844,7 +93908,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6723",
+    "id": "進場\u0026每回⇒轉化五屬及心",
     "link": "",
     "name": "",
     "detail": "",
@@ -93853,18 +93917,23 @@
   },
   {
     "id": "6724",
-    "link": "",
-    "name": "",
-    "detail": "",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6724",
+    "name": "進場\u0026每回⇒轉化五屬及心",
+    "detail": "\u003cbr\u003e\u003cfont color\u003d#FFFF3C\u003e【符石轉換】\u003c/font\u003e\u003cbr\u003e\u003cbr\u003e• 每回合將所有符石\u003cbr\u003e⇒ 轉化為固定數量的\u003cbr\u003e 五屬及心符石",
     "esCode": "{{ES6724}}",
-    "icons": []
+    "icons": [
+      {
+        "iconLink": "https://static.wikia.nocookie.net/tos/images/c/c1/ESCA006.png/revision/latest/scale-to-width-down/22?cb\u003d20220924114313\u0026path-prefix\u003dzh",
+        "iconKey": "ESCA006.png"
+      }
+    ]
   },
   {
     "id": "E",
     "link": "",
     "name": "",
     "detail": "",
-    "esCode": "Template:ES6725",
+    "esCode": "進場\u0026每回⇒轉化五屬及心",
     "icons": []
   },
   {
@@ -93876,7 +93945,7 @@
     "icons": []
   },
   {
-    "id": "Template:ES6726",
+    "id": "進場\u0026每回⇒轉化五屬及心",
     "link": "",
     "name": "",
     "detail": "",

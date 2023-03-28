@@ -67,7 +67,6 @@ public class Main {
         //copyToMyTosWiki();
         //enterUID();
         //-- Robot2 Automations
-        //otherRobot();
         //HPMain.main(null);
         //-- Other Misc
         //stock();
@@ -95,11 +94,6 @@ public class Main {
         //PngCreator.me.moveImage();
         //FileUtil.listImages("D:\\PhotoDirector_iOS\\Main_01"); // windows
         //FileUtil.listImages("/Users/ericchen/Desktop/SVNs/PHD_iOS/PHD_M03"); // mac mini
-        a();
-        L.log("Done, %s", now());
-    }
-
-    private static void a() {
         //ExcelParser.main(null);
         //MainTest.main(null);
         //new LeetCode().run();
@@ -122,7 +116,48 @@ public class Main {
         //PointExchange.main(null);
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
+        temp();
+        L.log("Done, %s", now());
     }
+
+    private static void temp() {
+        //publicYTVideo();
+    }
+
+    private static void publicYTVideo() {
+        ThreadUtil.sleep(3000);
+        robot.mouseClickLeft();
+        for (int i = 0; i < 22; i++) {
+            robot.keyClick(KeyEvent.VK_TAB);
+        }
+        robot.keyClick(KeyEvent.VK_DOWN);
+        ThreadUtil.sleep(100);
+        for (int i = 0; i < 10; i++) {
+            robot.keyClick(KeyEvent.VK_TAB);
+        }
+        robot.keyClick(KeyEvent.VK_SPACE);
+        ThreadUtil.sleep(100);
+        robot.keyClick(KeyEvent.VK_ENTER);
+        ThreadUtil.sleep(100);
+        robot.keyClick(KeyEvent.VK_ENTER);
+        ThreadUtil.sleep(1_000);
+        robot.mouseClickLeft();
+        for (int i = 0; i < 8; i++) {
+            robot.keyClick(KeyEvent.VK_TAB);
+        }
+        robot.keyClick(KeyEvent.VK_DOWN);
+        robot.keyClick(KeyEvent.VK_DOWN);
+        ThreadUtil.sleep(100);
+        for (int i = 0; i < 14; i++) {
+            robot.keyClick(KeyEvent.VK_TAB);
+        }
+        robot.keyClick(KeyEvent.VK_ENTER);
+        ThreadUtil.sleep(3_000);
+        robot.keyClick(KeyEvent.VK_ENTER);
+        ThreadUtil.sleep(5_000);
+        robot.keyClick(KeyEvent.VK_ENTER);
+    }
+
 
     private static void seeFiles() {
 //        listFiles(path, RELATIVE_PATH);
@@ -175,7 +210,7 @@ public class Main {
             if (paste) {
                 robot.type(t + " ");
                 robot.paste();
-                robot.keySend(KeyEvent.VK_ENTER);
+                robot.keyClick(KeyEvent.VK_ENTER);
             } else {
                 robot.enter(t);
             }
@@ -208,11 +243,11 @@ public class Main {
             r.delay(5_000);
             for (int j = 0; j < 20; j++) {
                 for (int i = 0; i < 5; i++) {
-                    r.keySend(KeyEvent.VK_TAB);
-                    r.keySend(KeyEvent.VK_DELETE);
-                    r.keySend(KeyEvent.VK_END);
+                    r.keyClick(KeyEvent.VK_TAB);
+                    r.keyClick(KeyEvent.VK_DELETE);
+                    r.keyClick(KeyEvent.VK_END);
                 }
-                r.keySend(KeyEvent.VK_DOWN);
+                r.keyClick(KeyEvent.VK_DOWN);
             }
         } catch (AWTException e) {
             e.printStackTrace();

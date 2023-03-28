@@ -306,7 +306,7 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #{{ES227}}  228 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES227?action=edit
 --  #隨機四屬盾  E : [0]  ->  ->  -> 
 --  #229  {{ES229}} : [2]  -> 雙重追擊風化20% ‧ 溢補盾 -> <br>每回合隨機將 2 粒符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成生命力 20% 的傷害。敵人攻擊次數隨風化符石數量提升。召喚師完全回復生命力後，剩餘的回復力會轉化為攻擊力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/229
---  #E  技能回復 ‧ 風化20%-風化盾5% : [0]  ->  ->  -> 
+--  #E  無限轉珠時間 : [0]  ->  ->  -> 
 --  #{{ES230}}  231 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES230?action=edit
 --  #雙重追擊風化20% ‧ 溢補盾  E : [0]  ->  ->  -> 
 --  #232  {{ES232}} : [2]  -> 雙重追擊風化20% ‧ 溢補盾 -> <br>每回合隨機把 2 粒符石風化，風化符石一經觸碰，即時停止移動符石，並對召喚師造成生命力 20% 的傷害。敵人攻擊次數隨風化符石數量提升。召喚師完全回復生命力後，剩餘的回復力會轉化為攻擊力 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/232
@@ -8789,26 +8789,26 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #E  100%抗性盾︰首消1粒減弱2% : [0]  ->  ->  -> 
 --  #{{ES6568}}  6569 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6568?action=edit
 --  #100%抗性盾︰首消1粒減弱5%  E : [0]  ->  ->  -> 
---  #6570  {{ES6570}} : [1]  -> 1回>水成員傷害化血 -> <br><font color=#FFFF3C>【吸收水屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收水屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6570
---  #E  2回>水成員傷害化血 : [0]  ->  ->  -> 
+--  #6570  {{ES6570}} : [1]  -> 1回⇒水成員傷害化血 -> <br><font color=#FFFF3C>【吸收水屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收水屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6570
+--  #E  2回⇒水成員傷害化血 : [0]  ->  ->  -> 
 --  #{{ES6571}}  6572 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6571?action=edit
---  #3回>水成員傷害化血  E : [0]  ->  ->  -> 
---  #6573  {{ES6573}} : [1]  -> 1回>火成員傷害化血 -> <br><font color=#FFFF3C>【吸收火屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收火屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6573
---  #E  2回>火成員傷害化血 : [0]  ->  ->  -> 
+--  #3回⇒水成員傷害化血  E : [0]  ->  ->  -> 
+--  #6573  {{ES6573}} : [1]  -> 1回⇒火成員傷害化血 -> <br><font color=#FFFF3C>【吸收火屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收火屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6573
+--  #E  2回⇒火成員傷害化血 : [0]  ->  ->  -> 
 --  #{{ES6574}}  6575 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6574?action=edit
---  #3回>火成員傷害化血  E : [0]  ->  ->  -> 
---  #6576  {{ES6576}} : [1]  -> 1回>木成員傷害化血 -> <br><font color=#FFFF3C>【吸收木屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收木屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6576
---  #E  2回>木成員傷害化血 : [0]  ->  ->  -> 
+--  #3回⇒火成員傷害化血  E : [0]  ->  ->  -> 
+--  #6576  {{ES6576}} : [1]  -> 1回⇒木成員傷害化血 -> <br><font color=#FFFF3C>【吸收木屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收木屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6576
+--  #E  2回⇒木成員傷害化血 : [0]  ->  ->  -> 
 --  #{{ES6577}}  6578 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6577?action=edit
---  #3回>木成員傷害化血  E : [0]  ->  ->  -> 
---  #6579  {{ES6579}} : [1]  -> 1回>光成員傷害化血 -> <br><font color=#FFFF3C>【吸收光屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收光屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6579
---  #E  2回>光成員傷害化血 : [0]  ->  ->  -> 
+--  #3回⇒木成員傷害化血  E : [0]  ->  ->  -> 
+--  #6579  {{ES6579}} : [1]  -> 1回⇒光成員傷害化血 -> <br><font color=#FFFF3C>【吸收光屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收光屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6579
+--  #E  2回⇒光成員傷害化血 : [0]  ->  ->  -> 
 --  #{{ES6580}}  6581 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6580?action=edit
---  #3回>光成員傷害化血  E : [0]  ->  ->  -> 
---  #6582  {{ES6582}} : [1]  -> 1回>暗成員傷害化血 -> <br><font color=#FFFF3C>【吸收暗屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收暗屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6582
---  #E  2回>暗成員傷害化血 : [0]  ->  ->  -> 
+--  #3回⇒光成員傷害化血  E : [0]  ->  ->  -> 
+--  #6582  {{ES6582}} : [1]  -> 1回⇒暗成員傷害化血 -> <br><font color=#FFFF3C>【吸收暗屬成員攻擊傷害 - 化血】</font><br><br>• 1 回合內，<br> 吸收暗屬性成員的攻擊傷害<br>⇒ 回復血量 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6582
+--  #E  2回⇒暗成員傷害化血 : [0]  ->  ->  -> 
 --  #{{ES6583}}  6584 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6583?action=edit
---  #3回>暗成員傷害化血  E : [0]  ->  ->  -> 
+--  #3回⇒暗成員傷害化血  E : [0]  ->  ->  -> 
 --  #6585  {{ES6585}} : [0]  ->  ->  -> 
 --  #E  Template:ES6586 : [0]  ->  ->  -> 
 --  #{{ES6586}}  6587 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6586?action=edit
@@ -8835,21 +8835,21 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #6601  {{ES6601}} : [1]  -> 弱化20%︰進場圍城⇒每回心弱化 -> <br><font color=#FFFF3C>【弱化圍城 20% ‧ 心弱化符石 20%】</font><br><br>• 進場時鎖定場上所有符石，<br> 回合結束時<br> 鎖定場上的心符石<br>• 每消除 1 粒被鎖定的符石<br>⇒ 全隊攻擊力減少 20%。<br> (發動龍刻脈動視作 <br> 消除場上的鎖定符石) -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6601
 --  #E  追擊愈強⇒最多7連擊 : [0]  ->  ->  -> 
 --  #{{ES6602}}  6603 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6602?action=edit
---  #攻前>引爆風化追擊(最多2連擊)  E : [0]  ->  ->  -> 
---  #6604  {{ES6604}} : [1]  -> 攻前>引爆風化追擊(最多3連擊) -> <br><font color=#FFFF3C>【引爆風化符石 - 追擊】</font><br><br>• 敵人攻擊前引爆風化符石<br>• 上述每引爆 1 粒風化符石<br>⇒ 敵人額外追打 1 次<br>⇒ 最多追打 3 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6604
---  #E  攻前>引爆風化追擊(最多4連擊) : [0]  ->  ->  -> 
+--  #攻前⇒引爆風化追擊(最多2連擊)  E : [0]  ->  ->  -> 
+--  #6604  {{ES6604}} : [1]  -> 攻前⇒引爆風化追擊(最多3連擊) -> <br><font color=#FFFF3C>【引爆風化符石 - 追擊】</font><br><br>• 敵人攻擊前引爆風化符石<br>• 上述每引爆 1 粒風化符石<br>⇒ 敵人額外追打 1 次<br>⇒ 最多追打 3 次 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6604
+--  #E  攻前⇒引爆風化追擊(最多4連擊) : [0]  ->  ->  -> 
 --  #{{ES6605}}  6606 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6605?action=edit
---  #1回>1Combo限制  E : [0]  ->  ->  -> 
---  #6607  {{ES6607}} : [1]  -> 5回>1Combo限制 -> <br><font color=#FFFF3C>【連擊 (Combo) 上限 1】</font><br><br>• 5 回合內，<br> 達成連擊 (Combo) 上限為 1 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6607
---  #E  99回>1Combo限制 : [0]  ->  ->  -> 
+--  #左方附加狀態1回⇒1Combo限制  E : [0]  ->  ->  -> 
+--  #6607  {{ES6607}} : [1]  -> 左方附加狀態5回⇒1Combo限制 -> <br><font color=#FFFF3C>【連擊 (Combo) 上限 1】</font><br><br>• 5 回合內，<br> 達成連擊 (Combo) 上限為 1 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6607
+--  #E  左方附加狀態99回⇒1Combo限制 : [0]  ->  ->  -> 
 --  #{{ES6608}}  6609 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6608?action=edit
---  #1回>5Combo限制  E : [0]  ->  ->  -> 
---  #6610  {{ES6610}} : [1]  -> 5回>5Combo限制 -> <br><font color=#FFFF3C>【連擊 (Combo) 上限 5】</font><br><br>• 5 回合內，<br> 達成連擊 (Combo) 上限為 5 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6610
---  #E  99回>5Combo限制 : [0]  ->  ->  -> 
+--  #左方附加狀態1回⇒5Combo限制  E : [0]  ->  ->  -> 
+--  #6610  {{ES6610}} : [1]  -> 左方附加狀態5回⇒5Combo限制 -> <br><font color=#FFFF3C>【連擊 (Combo) 上限 5】</font><br><br>• 5 回合內，<br> 達成連擊 (Combo) 上限為 5 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6610
+--  #E  左方附加狀態99回⇒5Combo限制 : [0]  ->  ->  -> 
 --  #{{ES6611}}  6612 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6611?action=edit
---  #1回>10Combo限制  E : [0]  ->  ->  -> 
---  #6613  {{ES6613}} : [1]  -> 5回>10Combo限制 -> <br><font color=#FFFF3C>【連擊 (Combo) 上限 10】</font><br><br>• 5 回合內，<br> 達成連擊 (Combo) 上限為 10 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6613
---  #E  99回>10Combo限制 : [0]  ->  ->  -> 
+--  #左方附加狀態1回⇒10Combo限制  E : [0]  ->  ->  -> 
+--  #6613  {{ES6613}} : [1]  -> 左方附加狀態5回⇒10Combo限制 -> <br><font color=#FFFF3C>【連擊 (Combo) 上限 10】</font><br><br>• 5 回合內，<br> 達成連擊 (Combo) 上限為 10 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6613
+--  #E  左方附加狀態99回⇒10Combo限制 : [0]  ->  ->  -> 
 --  #{{ES6614}}  6615 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6614?action=edit
 --  #30+Combo盾  E : [0]  ->  ->  -> 
 --  #6616  {{ES6616}} : [1]  -> 40+Combo盾 -> <br><font color=#FFFF3C>【≥40 連擊盾】</font><br><br>• 達成 ≥40 連擊 (Combo)<br>⇒ 才能對敵人造成傷害<br>⇒ 否則敵人承受傷害變為 1 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6616
@@ -8963,43 +8963,43 @@ https://tos.fandom.com/zh/wiki/%E9%97%9C%E5%8D%A1%E6%95%B5%E4%BA%BA%E6%8A%80%E8%
 --  #6697  {{ES6697}} : [0]  ->  ->  -> 
 --  #E  Template:ES6698 : [0]  ->  ->  -> 
 --  #{{ES6698}}  6699 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6698?action=edit
---  #Template:ES6699  E : [0]  ->  ->  -> 
---  #6700  {{ES6700}} : [0]  ->  ->  -> 
---  #E  Template:ES6701 : [0]  ->  ->  -> 
+--  #CD回復  E : [0]  ->  ->  -> 
+--  #6700  {{ES6700}} : [1]  -> CD&EP回復 -> <br><font color=#FFFF3C>【回 EP】</font><br><br>• 所有成員的主動技能<br>⓵ CD 變 0<br>⓶ EP 回滿 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6700
+--  #E  【板塊拼圖】凝護100% ‧ 愈扣愈強25% : [0]  ->  ->  -> 
 --  #{{ES6701}}  6702 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6701?action=edit
---  #Template:ES6702  E : [0]  ->  ->  -> 
---  #6703  {{ES6703}} : [0]  ->  ->  -> 
---  #E  Template:ES6704 : [0]  ->  ->  -> 
+--  #【板塊拼圖】凝護100% ‧ 愈扣愈強25%  E : [0]  ->  ->  -> 
+--  #6703  {{ES6703}} : [2]  -> 【板塊拼圖】凝護100% ‧ 愈扣愈強25% -> <br><font color=#FFFF3C>【板塊拼圖】凝護 ‧ 愈扣愈強</font><br><br>• 首批完成指定拼圖<br>⇒ 可扣除敵人 100% 生命力<br><br>• 除此以外，<br> 敵人不受任何傷害<br><br>• 若無法達成上述條件，<br> 敵人發動攻擊時<br>⇒ 扣除召喚師 25% 生命力<br> (無視所有減傷效果和<br> 意志技能)<br>• 敵人攻擊次數愈多時<br>⇒ 攻擊力持續提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6703
+--  #E  【板塊拼圖】凝護100% ‧ 愈扣愈強25% : [0]  ->  ->  -> 
 --  #{{ES6704}}  6705 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6704?action=edit
---  #Template:ES6705  E : [0]  ->  ->  -> 
---  #6706  {{ES6706}} : [0]  ->  ->  -> 
---  #E  Template:ES6707 : [0]  ->  ->  -> 
+--  #【板塊拼圖】凝護100% ‧ 愈扣愈強25%  E : [0]  ->  ->  -> 
+--  #6706  {{ES6706}} : [2]  -> 【板塊拼圖】凝護100% ‧ 愈扣愈強25% -> <br><font color=#FFFF3C>【板塊拼圖】凝護 ‧ 愈扣愈強</font><br><br>• 首批完成指定拼圖<br>⇒ 可扣除敵人 100% 生命力<br><br>• 除此以外，<br> 敵人不受任何傷害<br><br>• 若無法達成上述條件，<br> 敵人發動攻擊時<br>⇒ 扣除召喚師 25% 生命力<br> (無視所有減傷效果和<br> 意志技能)<br>• 敵人攻擊次數愈多時<br>⇒ 攻擊力持續提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6706
+--  #E  【板塊拼圖】凝護100% ‧ 愈扣愈強25% : [0]  ->  ->  -> 
 --  #{{ES6707}}  6708 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6707?action=edit
---  #Template:ES6708  E : [0]  ->  ->  -> 
---  #6709  {{ES6709}} : [0]  ->  ->  -> 
---  #E  Template:ES6710 : [0]  ->  ->  -> 
+--  #【板塊拼圖】凝護100% ‧ 愈扣愈強25%  E : [0]  ->  ->  -> 
+--  #6709  {{ES6709}} : [2]  -> 【板塊拼圖】凝護100% ‧ 愈扣愈強25% -> <br><font color=#FFFF3C>【板塊拼圖】凝護 ‧ 愈扣愈強</font><br><br>• 首批完成指定拼圖<br>⇒ 可扣除敵人 100% 生命力<br><br>• 除此以外，<br> 敵人不受任何傷害<br><br>• 若無法達成上述條件，<br> 敵人發動攻擊時<br>⇒ 扣除召喚師 25% 生命力<br> (無視所有減傷效果和<br> 意志技能)<br>• 敵人攻擊次數愈多時<br>⇒ 攻擊力持續提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6709
+--  #E  【板塊拼圖】凝護100% ‧ 愈扣愈強25% : [0]  ->  ->  -> 
 --  #{{ES6710}}  6711 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6710?action=edit
---  #Template:ES6711  E : [0]  ->  ->  -> 
---  #6712  {{ES6712}} : [0]  ->  ->  -> 
---  #E  Template:ES6713 : [0]  ->  ->  -> 
+--  #【板塊拼圖】凝護100% ‧ 愈扣愈強25%  E : [0]  ->  ->  -> 
+--  #6712  {{ES6712}} : [2]  -> 【板塊拼圖】凝護100% ‧ 愈扣愈強25% -> <br><font color=#FFFF3C>【板塊拼圖】凝護 ‧ 愈扣愈強</font><br><br>• 首批完成指定拼圖<br>⇒ 可扣除敵人 100% 生命力<br><br>• 除此以外，<br> 敵人不受任何傷害<br><br>• 若無法達成上述條件，<br> 敵人發動攻擊時<br>⇒ 扣除召喚師 25% 生命力<br> (無視所有減傷效果和<br> 意志技能)<br>• 敵人攻擊次數愈多時<br>⇒ 攻擊力持續提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6712
+--  #E  【板塊拼圖】凝護100% ‧ 愈扣愈強25% : [0]  ->  ->  -> 
 --  #{{ES6713}}  6714 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6713?action=edit
---  #Template:ES6714  E : [0]  ->  ->  -> 
---  #6715  {{ES6715}} : [0]  ->  ->  -> 
---  #E  Template:ES6716 : [0]  ->  ->  -> 
+--  #進場&每回⇒轉化五屬均分6顆  E : [0]  ->  ->  -> 
+--  #6715  {{ES6715}} : [2]  -> 【首消全水】凝護100% ‧ 愈扣愈強50% -> <br><font color=#FFFF3C>【全消水凝護 - 愈攻愈強】</font><br><br>• 首批消除場上所有水符石<br>⇒ 可扣除敵人 100% 生命力<br><br>• 除此以外，<br> 敵人不受任何傷害<br><br>• 若無法達成上述條件，<br> 敵人發動攻擊時<br>⇒ 扣除召喚師 50% 生命力<br> (無視所有減傷效果和<br> 意志技能)<br>• 敵人攻擊次數愈多時<br>⇒ 攻擊力持續提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6715
+--  #E  【首消全火】凝護100% ‧ 愈扣愈強50% : [0]  ->  ->  -> 
 --  #{{ES6716}}  6717 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6716?action=edit
---  #Template:ES6717  E : [0]  ->  ->  -> 
---  #6718  {{ES6718}} : [0]  ->  ->  -> 
---  #E  Template:ES6719 : [0]  ->  ->  -> 
+--  #【首消全木】凝護100% ‧ 愈扣愈強50%  E : [0]  ->  ->  -> 
+--  #6718  {{ES6718}} : [2]  -> 【首消全光】凝護100% ‧ 愈扣愈強50% -> <br><font color=#FFFF3C>【全消光凝護 - 愈攻愈強】</font><br><br>• 首批消除場上所有光符石<br>⇒ 可扣除敵人 100% 生命力<br><br>• 除此以外，<br> 敵人不受任何傷害<br><br>• 若無法達成上述條件，<br> 敵人發動攻擊時<br>⇒ 扣除召喚師 50% 生命力<br> (無視所有減傷效果和<br> 意志技能)<br>• 敵人攻擊次數愈多時<br>⇒ 攻擊力持續提升 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6718
+--  #E  【首消全暗】凝護100% ‧ 愈扣愈強50% : [0]  ->  ->  -> 
 --  #{{ES6719}}  6720 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6719?action=edit
---  #Template:ES6720  E : [0]  ->  ->  -> 
---  #6721  {{ES6721}} : [0]  ->  ->  -> 
---  #E  Template:ES6722 : [0]  ->  ->  -> 
+--  #【首消全心】凝護100% ‧ 愈扣愈強50%  E : [0]  ->  ->  -> 
+--  #6721  {{ES6721}} : [1]  -> 進場&每回⇒轉化五屬及心 -> <br><font color=#FFFF3C>【符石轉換】</font><br><br>• 每回合將所有符石<br>⇒ 轉化為固定數量的<br> 五屬及心符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6721
+--  #E  進場&每回⇒轉化五屬及心 : [0]  ->  ->  -> 
 --  #{{ES6722}}  6723 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6722?action=edit
---  #Template:ES6723  E : [0]  ->  ->  -> 
---  #6724  {{ES6724}} : [0]  ->  ->  -> 
---  #E  Template:ES6725 : [0]  ->  ->  -> 
+--  #進場&每回⇒轉化五屬及心  E : [0]  ->  ->  -> 
+--  #6724  {{ES6724}} : [1]  -> 進場&每回⇒轉化五屬及心 -> <br><font color=#FFFF3C>【符石轉換】</font><br><br>• 每回合將所有符石<br>⇒ 轉化為固定數量的<br> 五屬及心符石 -> https://tos.fandom.com/zh/wiki/%E6%95%B5%E4%BA%BA%E6%8A%80%E8%83%BD/6724
+--  #E  進場&每回⇒轉化五屬及心 : [0]  ->  ->  -> 
 --  #{{ES6725}}  6726 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6725?action=edit
---  #Template:ES6726  E : [0]  ->  ->  -> 
+--  #進場&每回⇒轉化五屬及心  E : [0]  ->  ->  -> 
 --  #6727  {{ES6727}} : [0]  ->  ->  -> 
 --  #E  Template:ES6728 : [0]  ->  ->  -> 
 --  #{{ES6728}}  6729 : [0]  -> E ->  -> https://tos.fandom.com/zh/wiki/Template:ES6728?action=edit

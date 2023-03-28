@@ -96,7 +96,7 @@ public class Robot2 extends Robot {
         return this;
     }
 
-    public synchronized Robot2 keySend(int keycode) {
+    public synchronized Robot2 keyClick(int keycode) {
         try {
             keyPress(keycode);
             keyRelease(keycode);

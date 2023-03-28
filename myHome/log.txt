@@ -8,110 +8,47 @@
   "name": "月月挑戰之花見月 2023",
   "icon": "10278"
 },
-1677474000 ~ 1678636740 -> [2月27日(一) 13:00, 3月12日(日) 23:59, 血族千金與炸破藝術家 ※ 試玩任務]
-  link = https://tos.fandom.com/zh/wiki/%E8%A1%80%E6%97%8F%E5%8D%83%E9%87%91%E8%88%87%E7%82%B8%E7%A0%B4%E8%97%9D%E8%A1%93%E5%AE%B6
+1680278400 ~ 1682870400 -> [4月01日(六), 4月30日(日), 月月挑戰之植月 2023 ※ 月挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E6%9C%88%E6%9C%88%E6%8C%91%E6%88%B0%E4%B9%8B%E6%A4%8D%E6%9C%88_2023
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E8%A1%80%E6%97%8F%E5%8D%83%E9%87%91%E8%88%87%E7%82%B8%E7%A0%B4%E8%97%9D%E8%A1%93%E5%AE%B6",
-  "name": "血族千金與炸破藝術家",
-  "icon": "10372"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%9C%88%E6%9C%88%E6%8C%91%E6%88%B0%E4%B9%8B%E6%A4%8D%E6%9C%88_2023",
+  "name": "月月挑戰之植月 2023",
+  "icon": "10284"
 },
-1678636800 ~ 1679846400 -> [3月13日(一), 3月26日(日), 忠誠拳皇與虔誠教士 ※ 試玩任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%BF%A0%E8%AA%A0%E6%8B%B3%E7%9A%87%E8%88%87%E8%99%94%E8%AA%A0%E6%95%99%E5%A3%AB
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%BF%A0%E8%AA%A0%E6%8B%B3%E7%9A%87%E8%88%87%E8%99%94%E8%AA%A0%E6%95%99%E5%A3%AB",
-  "name": "忠誠拳皇與虔誠教士",
-  "icon": "10408"
-},
-1678032000 ~ 1679846400 -> [3月06日(一), 3月26日(日), 精心打造的天皇雛偶 ※ 公會任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%B2%BE%E5%BF%83%E6%89%93%E9%80%A0%E7%9A%84%E5%A4%A9%E7%9A%87%E9%9B%9B%E5%81%B6
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E7%B2%BE%E5%BF%83%E6%89%93%E9%80%A0%E7%9A%84%E5%A4%A9%E7%9A%87%E9%9B%9B%E5%81%B6",
-  "name": "精心打造的天皇雛偶",
-  "icon": "10377"
-},
-1678636800 ~ 1679846400 -> [3月13日(一), 3月26日(日), 雛祭的問答環節 ※ 問答關卡]
-  link = https://tos.fandom.com/zh/wiki/%E9%9B%9B%E7%A5%AD%E7%9A%84%E5%95%8F%E7%AD%94%E7%92%B0%E7%AF%80
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9B%9B%E7%A5%AD%E7%9A%84%E5%95%8F%E7%AD%94%E7%92%B0%E7%AF%80",
-  "name": "雛祭的問答環節",
-  "icon": "S-1015i"
-},
-1678788000 ~ 1679846340 -> [3月14日(二) 18:00, 3月26日(日) 23:59, 感謝你的一票 ※ 一次通關]
-  link = https://tos.fandom.com/zh/wiki/%E6%84%9F%E8%AC%9D%E4%BD%A0%E7%9A%84%E4%B8%80%E7%A5%A8
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%84%9F%E8%AC%9D%E4%BD%A0%E7%9A%84%E4%B8%80%E7%A5%A8",
-  "name": "感謝你的一票",
-  "icon": "S-1016i"
-},
-1679414400 ~ 1679587200 -> [3月22日(三), 3月23日(四), 戰靈補給 I ※ 特別戰靈補給]
-  link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_I
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_I",
-  "name": "戰靈補給 I",
-  "icon": "S-1016i"
-},
-1679587200 ~ 1679760000 -> [3月24日(五), 3月25日(六), 戰靈補給 II ※ 特別戰靈補給]
-  link = https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_II
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%9D%88%E8%A3%9C%E7%B5%A6_II",
-  "name": "戰靈補給 II",
-  "icon": "S-1016i"
-},
-1677427200 ~ 1679500800 -> [2月27日(一), 3月22日(三), 週一福利關 ※ 福利關卡，週一限定通關一次]
-  link = https://tos.fandom.com/zh/wiki/%E9%80%B1%E4%B8%80%E7%A6%8F%E5%88%A9%E9%97%9C
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%80%B1%E4%B8%80%E7%A6%8F%E5%88%A9%E9%97%9C",
-  "name": "週一福利關",
-  "icon": "S-1016i"
-},
-1672502400 ~ 1679500800 -> [1月01日(日), 3月22日(三), 週三福利關 ※ 福利關卡，週三限定通關一次]
-  link = https://tos.fandom.com/zh/wiki/%E9%80%B1%E4%B8%89%E7%A6%8F%E5%88%A9%E9%97%9C
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%80%B1%E4%B8%89%E7%A6%8F%E5%88%A9%E9%97%9C",
-  "name": "週三福利關",
-  "icon": "S-1016i"
-},
-1677474000 ~ 1679846340 -> [2月27日(一) 13:00, 3月26日(日) 23:59, 女兒節的祝福 ※ 福利關卡，每日限定通關一次]
-  link = https://tos.fandom.com/zh/wiki/%E5%A5%B3%E5%85%92%E7%AF%80%E7%9A%84%E7%A5%9D%E7%A6%8F
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A5%B3%E5%85%92%E7%AF%80%E7%9A%84%E7%A5%9D%E7%A6%8F",
-  "name": "女兒節的祝福",
-  "icon": "10376"
-},
-1675612800 ~ 1679846400 -> [2月06日(一), 3月26日(日), 殘虐獵物 ※ 復刻輪迴任務]
+1679904000 ~ 1683475140 -> [3月27日(一) 16:00, 5月07日(日) 23:59, 殘虐獵物 ※ 輪迴任務]
   link = https://tos.fandom.com/zh/wiki/%E6%AE%98%E8%99%90%E7%8D%B5%E7%89%A9
 {
   "link": "https://tos.fandom.com/zh/wiki/%E6%AE%98%E8%99%90%E7%8D%B5%E7%89%A9",
   "name": "殘虐獵物",
   "icon": "10099"
 },
-1678032000 ~ 1679846400 -> [3月06日(一), 3月26日(日), 無邊的風雨雷霆 ※ 輪迴任務]
-  link = https://tos.fandom.com/zh/wiki/%E7%84%A1%E9%82%8A%E7%9A%84%E9%A2%A8%E9%9B%A8%E9%9B%B7%E9%9C%86
+1679904000 ~ 1681660740 -> [3月27日(一) 16:00, 4月16日(日) 23:59, 古跡尋寶 ※ 特殊任務]
+  link = https://tos.fandom.com/zh/wiki/%E5%8F%A4%E8%B7%A1%E5%B0%8B%E5%AF%B6
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E9%82%8A%E7%9A%84%E9%A2%A8%E9%9B%A8%E9%9B%B7%E9%9C%86",
-  "name": "無邊的風雨雷霆",
-  "icon": "10376"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%8F%A4%E8%B7%A1%E5%B0%8B%E5%AF%B6",
+  "name": "古跡尋寶",
+  "icon": "10319"
 },
-1677474000 ~ 1679846340 -> [2月27日(一) 13:00, 3月26日(日) 23:59, 席捲而來的暴風 ※ 挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E5%B8%AD%E6%8D%B2%E8%80%8C%E4%BE%86%E7%9A%84%E6%9A%B4%E9%A2%A8
+1679904000 ~ 1681660740 -> [3月27日(一) 16:00, 4月16日(日) 23:59, 尖塔高揚 ※ 特殊任務]
+  link = https://tos.fandom.com/zh/wiki/%E5%B0%96%E5%A1%94%E9%AB%98%E6%8F%9A
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%B8%AD%E6%8D%B2%E8%80%8C%E4%BE%86%E7%9A%84%E6%9A%B4%E9%A2%A8",
-  "name": "席捲而來的暴風",
-  "icon": "10374"
+  "link": "https://tos.fandom.com/zh/wiki/%E5%B0%96%E5%A1%94%E9%AB%98%E6%8F%9A",
+  "name": "尖塔高揚",
+  "icon": "10411"
 },
-1677474000 ~ 1679846340 -> [2月27日(一) 13:00, 3月26日(日) 23:59, 響徹雲霄的雷霆 ※ 挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E9%9F%BF%E5%BE%B9%E9%9B%B2%E9%9C%84%E7%9A%84%E9%9B%B7%E9%9C%86
+1679904000 ~ 1681660740 -> [3月27日(一) 16:00, 4月16日(日) 23:59, 盜墓探秘 ※ 挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E7%9B%9C%E5%A2%93%E6%8E%A2%E7%A7%98
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E9%9F%BF%E5%BE%B9%E9%9B%B2%E9%9C%84%E7%9A%84%E9%9B%B7%E9%9C%86",
-  "name": "響徹雲霄的雷霆",
-  "icon": "10375"
+  "link": "https://tos.fandom.com/zh/wiki/%E7%9B%9C%E5%A2%93%E6%8E%A2%E7%A7%98",
+  "name": "盜墓探秘",
+  "icon": "10412"
 },
-1678075200 ~ 1679241540 -> [3月06日(一) 12:00, 3月19日(日) 23:59, 星耀爍天 ‧ 下 ※ 挑戰任務]
-  link = https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%80%80%E7%88%8D%E5%A4%A9_%E2%80%A7_%E4%B8%8B
+1679904000 ~ 1681055940 -> [3月27日(一) 16:00, 4月09日(日) 23:59, 無處不在的始祖元素 ※ 挑戰任務]
+  link = https://tos.fandom.com/zh/wiki/%E7%84%A1%E8%99%95%E4%B8%8D%E5%9C%A8%E7%9A%84%E5%A7%8B%E7%A5%96%E5%85%83%E7%B4%A0
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E6%98%9F%E8%80%80%E7%88%8D%E5%A4%A9_%E2%80%A7_%E4%B8%8B",
-  "name": "星耀爍天 ‧ 下",
-  "icon": "2808"
+  "link": "https://tos.fandom.com/zh/wiki/%E7%84%A1%E8%99%95%E4%B8%8D%E5%9C%A8%E7%9A%84%E5%A7%8B%E7%A5%96%E5%85%83%E7%B4%A0",
+  "name": "無處不在的始祖元素",
+  "icon": "2823"
 },
 1679241600 ~ 1680451200 -> [3月20日(一), 4月02日(日), 真理的罪與罰 ※ 復刻挑戰任務]
   link = https://tos.fandom.com/zh/wiki/%E7%9C%9F%E7%90%86%E7%9A%84%E7%BD%AA%E8%88%87%E7%BD%B0
@@ -120,19 +57,19 @@
   "name": "真理的罪與罰",
   "icon": "9019"
 },
-1678636800 ~ 1679846400 -> [3月13日(一), 3月26日(日), 誓奪秘寶 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E8%AA%93%E5%A5%AA%E7%A7%98%E5%AF%B6
+1679904000 ~ 1681055940 -> [3月27日(一) 16:00, 4月09日(日) 23:59, 隔絕視線的濃墨 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E9%9A%94%E7%B5%95%E8%A6%96%E7%B7%9A%E7%9A%84%E6%BF%83%E5%A2%A8
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E8%AA%93%E5%A5%AA%E7%A7%98%E5%AF%B6",
-  "name": "誓奪秘寶",
-  "icon": "10281"
+  "link": "https://tos.fandom.com/zh/wiki/%E9%9A%94%E7%B5%95%E8%A6%96%E7%B7%9A%E7%9A%84%E6%BF%83%E5%A2%A8",
+  "name": "隔絕視線的濃墨",
+  "icon": "10302"
 },
-1678636800 ~ 1679846400 -> [3月13日(一), 3月26日(日), 穿越炮陣埋伏 ※ 復刻雙週]
-  link = https://tos.fandom.com/zh/wiki/%E7%A9%BF%E8%B6%8A%E7%82%AE%E9%99%A3%E5%9F%8B%E4%BC%8F
+1679904000 ~ 1681055940 -> [3月27日(一) 16:00, 4月09日(日) 23:59, 暖洋中的祝福之音 ※ 復刻雙週]
+  link = https://tos.fandom.com/zh/wiki/%E6%9A%96%E6%B4%8B%E4%B8%AD%E7%9A%84%E7%A5%9D%E7%A6%8F%E4%B9%8B%E9%9F%B3
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E7%A9%BF%E8%B6%8A%E7%82%AE%E9%99%A3%E5%9F%8B%E4%BC%8F",
-  "name": "穿越炮陣埋伏",
-  "icon": "10282"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%9A%96%E6%B4%8B%E4%B8%AD%E7%9A%84%E7%A5%9D%E7%A6%8F%E4%B9%8B%E9%9F%B3",
+  "name": "暖洋中的祝福之音",
+  "icon": "10303"
 },
 1679666400 ~ 1679932740 -> [3月24日(五) 22:00, 3月27日(一) 23:59, 天真無邪的罪惡 ※ 全新地獄級]
   link = https://tos.fandom.com/zh/wiki/%E5%A4%A9%E7%9C%9F%E7%84%A1%E9%82%AA%E7%9A%84%E7%BD%AA%E6%83%A1
@@ -141,19 +78,12 @@
   "name": "天真無邪的罪惡",
   "icon": "10378"
 },
-1679061600 ~ 1679327940 -> [3月17日(五) 22:00, 3月20日(一) 23:59, 如遊戲的人生 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E5%A6%82%E9%81%8A%E6%88%B2%E7%9A%84%E4%BA%BA%E7%94%9F
+1680012000 ~ 1680278340 -> [3月28日(二) 22:00, 3月31日(五) 23:59, 排斥元素師的神 ※ 復刻地獄級]
+  link = https://tos.fandom.com/zh/wiki/%E6%8E%92%E6%96%A5%E5%85%83%E7%B4%A0%E5%B8%AB%E7%9A%84%E7%A5%9E
 {
-  "link": "https://tos.fandom.com/zh/wiki/%E5%A6%82%E9%81%8A%E6%88%B2%E7%9A%84%E4%BA%BA%E7%94%9F",
-  "name": "如遊戲的人生",
-  "icon": "2390"
-},
-1679407200 ~ 1679673540 -> [3月21日(二) 22:00, 3月24日(五) 23:59, 惡霸的體味 ※ 復刻地獄級]
-  link = https://tos.fandom.com/zh/wiki/%E6%83%A1%E9%9C%B8%E7%9A%84%E9%AB%94%E5%91%B3
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E6%83%A1%E9%9C%B8%E7%9A%84%E9%AB%94%E5%91%B3",
-  "name": "惡霸的體味",
-  "icon": "2440"
+  "link": "https://tos.fandom.com/zh/wiki/%E6%8E%92%E6%96%A5%E5%85%83%E7%B4%A0%E5%B8%AB%E7%9A%84%E7%A5%9E",
+  "name": "排斥元素師的神",
+  "icon": "2644"
 },
 1677852000 ~ 1679932740 -> [3月03日(五) 22:00, 3月27日(一) 23:59, 地獄級演練 6 ※ 地獄級演練]
   link = https://tos.fandom.com/zh/wiki/%E5%9C%B0%E7%8D%84%E7%B4%9A%E6%BC%94%E7%B7%B4_6
@@ -161,29 +91,6 @@
   "link": "https://tos.fandom.com/zh/wiki/%E5%9C%B0%E7%8D%84%E7%B4%9A%E6%BC%94%E7%B7%B4_6",
   "name": "地獄級演練 6",
   "icon": "S-2074i"
-},
-0 ~ 0 -> [魔神戰『高度武化的堡壘』]
-  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E7%A5%9E%E6%88%B0%E6%B4%BB%E5%8B%95
-1679284800 ~ 1679846340 -> [3月20日(一) 12:00, 3月26日(日) 23:59, 高度武化的堡壘 - 兌換階段]
-  link = https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%BA%A6%E6%AD%A6%E5%8C%96%E7%9A%84%E5%A0%A1%E5%A3%98
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%BA%A6%E6%AD%A6%E5%8C%96%E7%9A%84%E5%A0%A1%E5%A3%98",
-  "name": "高度武化的堡壘",
-  "icon": "10380"
-},
-1679284800 ~ 1679457540 -> [3月20日(一) 12:00, 3月22日(三) 11:59, 高度武化的堡壘 - 備戰階段]
-  link = https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%BA%A6%E6%AD%A6%E5%8C%96%E7%9A%84%E5%A0%A1%E5%A3%98
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%BA%A6%E6%AD%A6%E5%8C%96%E7%9A%84%E5%A0%A1%E5%A3%98",
-  "name": "高度武化的堡壘",
-  "icon": "10380"
-},
-1679457600 ~ 1679846340 -> [3月22日(三) 12:00, 3月26日(日) 23:59, 高度武化的堡壘 - 戰鬥階段]
-  link = https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%BA%A6%E6%AD%A6%E5%8C%96%E7%9A%84%E5%A0%A1%E5%A3%98
-{
-  "link": "https://tos.fandom.com/zh/wiki/%E9%AB%98%E5%BA%A6%E6%AD%A6%E5%8C%96%E7%9A%84%E5%A0%A1%E5%A3%98",
-  "name": "高度武化的堡壘",
-  "icon": "10380"
 },
 0 ~ 0 -> [『侵蝕 ‧ 封王』系列災厄級任務]
   link = 
@@ -243,18 +150,12 @@
   "name": "維度崩壞",
   "icon": "3008"
 },
-0 ~ 0 -> [【慶賀雛節的祭典】]
-  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E6%85%B6%E8%B3%80%E9%9B%9B%E7%AF%80%E7%9A%84%E7%A5%AD%E5%85%B8%E3%80%91
-1677513600 ~ 1679846400 -> [2月28日(二), 3月26日(日), 登入︰ 仿魂御守 × 1]
-  link = 
-0 ~ 0 -> [【智謀絕殺的賢鳥 ‧ 雛祭的問答環節】]
-  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E6%99%BA%E8%AC%80%E7%B5%95%E6%AE%BA%E7%9A%84%E8%B3%A2%E9%B3%A5_%E2%80%A7_%E9%9B%9B%E7%A5%AD%E7%9A%84%E5%95%8F%E7%AD%94%E7%92%B0%E7%AF%80%E3%80%91
-1678636800 ~ 1679846400 -> [3月13日(一), 3月26日(日), 活動期間，以『乘勝軌跡』、『頑強信念』、『穩重盟友』、『堅毅氣魄』、『並肩夥伴』、『初次相遇』、『召喚師候選者』及『芸芸眾生』系列角色進行分解時，獲得的靈魂數將會大幅提升！]
-  link = 
-0 ~ 0 -> [【天真無邪的罪惡 ‧ 高度武化的堡壘】]
-  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E5%A4%A9%E7%9C%9F%E7%84%A1%E9%82%AA%E7%9A%84%E7%BD%AA%E6%83%A1_%E2%80%A7_%E9%AB%98%E5%BA%A6%E6%AD%A6%E5%8C%96%E7%9A%84%E5%A0%A1%E5%A3%98%E3%80%91
-1679673600 ~ 1679846400 -> [3月25日(六), 3月26日(日), 登入︰ 限時體力回復劑 × 1 (活動時限內領取)]
-  link = 
+0 ~ 0 -> [【金字塔的啟動 ‧ 始祖元素的力量爆發】]
+  link = https://tos.fandom.com/zh/wiki/%E3%80%90%E9%87%91%E5%AD%97%E5%A1%94%E7%9A%84%E5%95%9F%E5%8B%95_%E2%80%A7_%E5%A7%8B%E7%A5%96%E5%85%83%E7%B4%A0%E7%9A%84%E5%8A%9B%E9%87%8F%E7%88%86%E7%99%BC%E3%80%91
+1679904000 ~ 1680019140 -> [3月27日(一) 16:00, 3月28日(二) 23:59, 首次使用 魔法石 回復戰靈，可額外獲得 體力藥水 1 支]
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
+1680019200 ~ 1680192000 -> [3月29日(三), 3月30日(四), 首次使用 魔法石 回復戰靈，可額外獲得 體力藥水 1 支]
+  link = https://tos.fandom.com/zh/wiki/%E9%AD%94%E6%B3%95%E7%9F%B3
 0 ~ 0 -> [【十週年生日快樂 ‧ 超福利一日萬里】]
   link = https://tos.fandom.com/zh/wiki/%E3%80%90%E5%8D%81%E9%80%B1%E5%B9%B4%E7%94%9F%E6%97%A5%E5%BF%AB%E6%A8%82_%E2%80%A7_%E8%B6%85%E7%A6%8F%E5%88%A9%E4%B8%80%E6%97%A5%E8%90%AC%E9%87%8C%E3%80%91
 1674748800 ~ 1682265600 -> [1月27日(五), 4月23日(日), 登入︰『自選 All max』 × 1]

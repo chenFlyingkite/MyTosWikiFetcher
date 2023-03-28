@@ -227,33 +227,33 @@ public class TWSEStockFetcher {
         // mouse click at first
         // 上市 6個月以上
         boolean market = true;
-        robot.keySend(market ? KeyEvent.VK_HOME : KeyEvent.VK_END);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
+        robot.keyClick(market ? KeyEvent.VK_HOME : KeyEvent.VK_END);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
         // remain time
         int time = 4;
         for (int i = 0; i < time; i++) {
-            robot.keySend(KeyEvent.VK_DOWN);
+            robot.keyClick(KeyEvent.VK_DOWN);
         }
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
         int sort = 4;
         for (int i = 0; i < sort; i++) {
-            robot.keySend(KeyEvent.VK_RIGHT);
+            robot.keyClick(KeyEvent.VK_RIGHT);
         }
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_ENTER);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_ENTER);
     }
 
     private void parse() {

@@ -16836,6 +16836,42 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2817"
   },
   {
+    "title": "No. 2818 傲姿護獸 ‧ 芭絲蒂",
+    "id": "2818",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%82%B2%E5%A7%BF%E8%AD%B7%E7%8D%B8_%E2%80%A7_%E8%8A%AD%E7%B5%B2%E8%92%82",
+    "linkId": "http://zh.tos.wikia.com/wiki/2818"
+  },
+  {
+    "title": "No. 2820 佈雨傳善 ‧ 泰芙努特",
+    "id": "2820",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BD%88%E9%9B%A8%E5%82%B3%E5%96%84_%E2%80%A7_%E6%B3%B0%E8%8A%99%E5%8A%AA%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2820"
+  },
+  {
+    "title": "No. 2821 戰龍翺天 ‧ 賽特",
+    "id": "2821",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%88%B0%E9%BE%8D%E7%BF%BA%E5%A4%A9_%E2%80%A7_%E8%B3%BD%E7%89%B9",
+    "linkId": "http://zh.tos.wikia.com/wiki/2821"
+  },
+  {
+    "title": "No. 2822 風龍振翮 ‧ 舒",
+    "id": "2822",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A2%A8%E9%BE%8D%E6%8C%AF%E7%BF%AE_%E2%80%A7_%E8%88%92",
+    "linkId": "http://zh.tos.wikia.com/wiki/2822"
+  },
+  {
+    "title": "No. 2823 曜陽指引 ‧ 拉",
+    "id": "2823",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9B%9C%E9%99%BD%E6%8C%87%E5%BC%95_%E2%80%A7_%E6%8B%89",
+    "linkId": "http://zh.tos.wikia.com/wiki/2823"
+  },
+  {
+    "title": "No. 2824 亡路引靈 ‧ 奧西利斯",
+    "id": "2824",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%BA%A1%E8%B7%AF%E5%BC%95%E9%9D%88_%E2%80%A7_%E5%A5%A7%E8%A5%BF%E5%88%A9%E6%96%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/2824"
+  },
+  {
     "title": "No. 2900 十年創紀 ‧ 瘋頭",
     "id": "2900",
     "link": "https://tos.fandom.com/zh/wiki/%E5%8D%81%E5%B9%B4%E5%89%B5%E7%B4%80_%E2%80%A7_%E7%98%8B%E9%A0%AD",
@@ -16858,6 +16894,12 @@
     "id": "2903",
     "link": "https://tos.fandom.com/zh/wiki/%E5%B7%A7%E6%99%BA%E7%A0%B4%E9%97%9C_%E2%80%A7_%E5%8A%A0%E8%AB%BE%E5%A5%A7%E6%96%AF",
     "linkId": "http://zh.tos.wikia.com/wiki/2903"
+  },
+  {
+    "title": "No. 2904 化諜尋寶 ‧ 冰花",
+    "id": "2904",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%8C%96%E8%AB%9C%E5%B0%8B%E5%AF%B6_%E2%80%A7_%E5%86%B0%E8%8A%B1",
+    "linkId": "http://zh.tos.wikia.com/wiki/2904"
   },
   {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
@@ -19408,6 +19450,18 @@
     "id": "10409",
     "link": "https://tos.fandom.com/zh/wiki/%E6%9F%93%E8%A1%80%E6%95%99%E5%BE%92_%E2%80%A7_%E9%A6%AC%E5%85%8B%E7%99%BD",
     "linkId": "http://zh.tos.wikia.com/wiki/10409"
+  },
+  {
+    "title": "No. 10411 光艦升空 ‧ 金字塔",
+    "id": "10411",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%85%89%E8%89%A6%E5%8D%87%E7%A9%BA_%E2%80%A7_%E9%87%91%E5%AD%97%E5%A1%94",
+    "linkId": "http://zh.tos.wikia.com/wiki/10411"
+  },
+  {
+    "title": "No. 10412 闖墓竊寶 ‧ 雅菈施",
+    "id": "10412",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%97%96%E5%A2%93%E7%AB%8A%E5%AF%B6_%E2%80%A7_%E9%9B%85%E8%8F%88%E6%96%BD",
+    "linkId": "http://zh.tos.wikia.com/wiki/10412"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

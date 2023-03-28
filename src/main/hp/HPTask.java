@@ -23,37 +23,37 @@ public class HPTask extends HPUtil {
 
     private static void enterEidEmail() {
         robot.type("24208582")
-                .keySend(KeyEvent.VK_TAB)
+                .keyClick(KeyEvent.VK_TAB)
                 .type("eric.chen@hp.com")
-                .keySend(KeyEvent.VK_TAB)
-                .keySend(KeyEvent.VK_TAB)
+                .keyClick(KeyEvent.VK_TAB)
+                .keyClick(KeyEvent.VK_TAB)
                 .enter();
     }
 
     private static void autoHPDigitalAuth() {
         // failed...
         sleep(5_000);
-        robot.keySend(KeyEvent.VK_SPACE); // accept
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_SPACE); // next
+        robot.keyClick(KeyEvent.VK_SPACE); // accept
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_SPACE); // next
         sleep(5_000);
-        robot.keySend(KeyEvent.VK_TAB); // renew my VDB
-        robot.keySend(KeyEvent.VK_TAB); // enroll new VDB
-        robot.keySend(KeyEvent.VK_SPACE); //
+        robot.keyClick(KeyEvent.VK_TAB); // renew my VDB
+        robot.keyClick(KeyEvent.VK_TAB); // enroll new VDB
+        robot.keyClick(KeyEvent.VK_SPACE); //
         sleep(2_000);
         robot.type("eric.chen@hp.com");
-        robot.keySend(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
         robot.type("24208582");
-        robot.keySend(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
         robot.type("ezr.fit-32");
-        robot.keySend(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
         robot.type("M");
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_TAB);
         robot.type("chener");
-        robot.keySend(KeyEvent.VK_TAB);
-        robot.keySend(KeyEvent.VK_SPACE); // next
+        robot.keyClick(KeyEvent.VK_TAB);
+        robot.keyClick(KeyEvent.VK_SPACE); // next
     }
 
     private static void cmdInstallWinPVT_vcpkg(String dir, String system) {
