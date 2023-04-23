@@ -16902,6 +16902,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/2904"
   },
   {
+    "title": "No. 2911 暴虐之翼 ‧ 路西法",
+    "id": "2911",
+    "link": "https://tos.fandom.com/zh/wiki/%E6%9A%B4%E8%99%90%E4%B9%8B%E7%BF%BC_%E2%80%A7_%E8%B7%AF%E8%A5%BF%E6%B3%95",
+    "linkId": "http://zh.tos.wikia.com/wiki/2911"
+  },
+  {
     "title": "No. 3001 野望滅絕 ‧ 薩魯曼",
     "id": "3001",
     "link": "https://tos.fandom.com/zh/wiki/%E9%87%8E%E6%9C%9B%E6%BB%85%E7%B5%95_%E2%80%A7_%E8%96%A9%E9%AD%AF%E6%9B%BC",
@@ -19452,6 +19458,12 @@
     "linkId": "http://zh.tos.wikia.com/wiki/10409"
   },
   {
+    "title": "No. 10410 驕陽永耀 ‧ 阿圖姆",
+    "id": "10410",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%A9%95%E9%99%BD%E6%B0%B8%E8%80%80_%E2%80%A7_%E9%98%BF%E5%9C%96%E5%A7%86",
+    "linkId": "http://zh.tos.wikia.com/wiki/10410"
+  },
+  {
     "title": "No. 10411 光艦升空 ‧ 金字塔",
     "id": "10411",
     "link": "https://tos.fandom.com/zh/wiki/%E5%85%89%E8%89%A6%E5%8D%87%E7%A9%BA_%E2%80%A7_%E9%87%91%E5%AD%97%E5%A1%94",
@@ -19462,6 +19474,66 @@
     "id": "10412",
     "link": "https://tos.fandom.com/zh/wiki/%E9%97%96%E5%A2%93%E7%AB%8A%E5%AF%B6_%E2%80%A7_%E9%9B%85%E8%8F%88%E6%96%BD",
     "linkId": "http://zh.tos.wikia.com/wiki/10412"
+  },
+  {
+    "title": "No. 10413 不腐神醫 ‧ 印何闐",
+    "id": "10413",
+    "link": "https://tos.fandom.com/zh/wiki/%E4%B8%8D%E8%85%90%E7%A5%9E%E9%86%AB_%E2%80%A7_%E5%8D%B0%E4%BD%95%E9%97%90",
+    "linkId": "http://zh.tos.wikia.com/wiki/10413"
+  },
+  {
+    "title": "No. 10414 聖獅護靈 ‧ 法蒂亞",
+    "id": "10414",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%81%96%E7%8D%85%E8%AD%B7%E9%9D%88_%E2%80%A7_%E6%B3%95%E8%92%82%E4%BA%9E",
+    "linkId": "http://zh.tos.wikia.com/wiki/10414"
+  },
+  {
+    "title": "No. 10415 破生水晶龍",
+    "id": "10415",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%A0%B4%E7%94%9F%E6%B0%B4%E6%99%B6%E9%BE%8D",
+    "linkId": "http://zh.tos.wikia.com/wiki/10415"
+  },
+  {
+    "title": "No. 10416 疏狂妖刀客 ‧ 柳生十兵衛",
+    "id": "10416",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%96%8F%E7%8B%82%E5%A6%96%E5%88%80%E5%AE%A2_%E2%80%A7_%E6%9F%B3%E7%94%9F%E5%8D%81%E5%85%B5%E8%A1%9B",
+    "linkId": "http://zh.tos.wikia.com/wiki/10416"
+  },
+  {
+    "title": "No. 10417 雪色罪印 ‧ 白雪",
+    "id": "10417",
+    "link": "https://tos.fandom.com/zh/wiki/%E9%9B%AA%E8%89%B2%E7%BD%AA%E5%8D%B0_%E2%80%A7_%E7%99%BD%E9%9B%AA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10417"
+  },
+  {
+    "title": "No. 10418 始計忍 ‧ 百地颯",
+    "id": "10418",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%A7%8B%E8%A8%88%E5%BF%8D_%E2%80%A7_%E7%99%BE%E5%9C%B0%E9%A2%AF",
+    "linkId": "http://zh.tos.wikia.com/wiki/10418"
+  },
+  {
+    "title": "No. 10419 影行忍 ‧ 百地凪",
+    "id": "10419",
+    "link": "https://tos.fandom.com/zh/wiki/%E5%BD%B1%E8%A1%8C%E5%BF%8D_%E2%80%A7_%E7%99%BE%E5%9C%B0%E5%87%AA",
+    "linkId": "http://zh.tos.wikia.com/wiki/10419"
+  },
+  {
+    "title": "No. 10420 盜金行善 ‧ 石川五右衛門",
+    "id": "10420",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%9B%9C%E9%87%91%E8%A1%8C%E5%96%84_%E2%80%A7_%E7%9F%B3%E5%B7%9D%E4%BA%94%E5%8F%B3%E8%A1%9B%E9%96%80",
+    "linkId": "http://zh.tos.wikia.com/wiki/10420"
+  },
+  {
+    "title": "No. 10421 笑裡藏刀 ‧ 澤庵宗彭",
+    "id": "10421",
+    "link": "https://tos.fandom.com/zh/wiki/%E7%AC%91%E8%A3%A1%E8%97%8F%E5%88%80_%E2%80%A7_%E6%BE%A4%E5%BA%B5%E5%AE%97%E5%BD%AD",
+    "linkId": "http://zh.tos.wikia.com/wiki/10421"
+  },
+  {
+    "title": "No. 10440 荒誕愚言 ‧ 皮諾丘",
+    "id": "10440",
+    "link": "https://tos.fandom.com/zh/wiki/%E8%8D%92%E8%AA%95%E6%84%9A%E8%A8%80_%E2%80%A7_%E7%9A%AE%E8%AB%BE%E4%B8%98",
+    "linkId": "http://zh.tos.wikia.com/wiki/10440"
   },
   {
     "title": "S1 幽怨新娘 ‧ 烏爾德",

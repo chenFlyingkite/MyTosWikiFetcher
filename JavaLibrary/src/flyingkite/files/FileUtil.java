@@ -21,8 +21,10 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
@@ -30,6 +32,15 @@ import javax.imageio.stream.FileImageInputStream;
 import javax.imageio.stream.ImageInputStream;
 
 public class FileUtil {
+    public static final int ABSOLUTE_PATH = 0;
+    public static final int RELATIVE_PATH = 1;
+
+    public static final Projector<File, Boolean> OMIT_FILE_INI = (file) -> {
+        if ("ini".equals(getExtension(file))) {
+            return false;
+        }
+        return true;
+    };
 
     /**
      * Return true if file exists, false otherwise
@@ -539,5 +550,94 @@ public class FileUtil {
 
         sortByPath(all);
         return all;
+    }
+
+    public static void seeFiles(String path, int mode) {
+        seeFiles(path, null, mode);
+    }
+
+    public static void seeFiles(String path, Projector<File, Boolean> filter, int mode) {
+        List<File> fs = FileUtil.listAllFiles(new File(path), filter);
+        int n = fs.size();
+        int k = (int) Math.floor(1 + Math.log10(n));
+
+        for (int i = 0; i < n; i++) {
+            File f = fs.get(i);
+            String out = f.getAbsolutePath();
+            if (mode == RELATIVE_PATH) {
+                out = out.substring(path.length());
+            }
+            String fmt = "%" + k + "d. %s";
+            L.log(fmt, i + 1, out);
+        }
+    }
+    
+    public static void expandFileInFolder(String source, String target) {
+        File s = new File(source);
+        File t = new File(target);
+        List<File> all = listAllFiles(s);
+        int moved = 0, failed = 0;
+        for (int i = 0; i < all.size(); i++) {
+            if (!t.exists()) {
+                t.mkdirs();
+            }
+            File one = all.get(i);
+            File end = new File(target, one.getName());
+            boolean ok = one.renameTo(end);
+            if (ok) {
+                moved++;
+            }
+        }
+    }
+
+    public static void wrapFileInFolder(String target, char unit) {
+        if (target == null) return;
+
+        File f = new File(target);
+        File[] fs = f.listFiles();
+        if (fs == null) return;
+        int renamed = 0, failed = 0;
+        for (int i = 0; i < fs.length; i++) {
+            File prev = fs[i];
+            Date d = new Date(prev.lastModified());
+            if (prev.isDirectory()) {
+                L.log("Omit %s", prev);
+            } else {
+                int y = 1900 + d.getYear();
+                int m = d.getMonth();
+                int v = -1;
+                if (unit == 'y' || unit == 'Y') {
+                } else if (unit == 'h' || unit == 'H') {
+                    v = (m / 6) + 1;
+                } else if (unit == 'q' || unit == 'Q') {
+                    v = (m / 3) + 1;
+                } else if (unit == 'm' || unit == 'M') {
+                    v = m + 1;
+                } else if (unit == 'w' || unit == 'W') {
+                    //bin = "/" + unit + v;
+                } else if (unit == 'd' || unit == 'D') {
+                    v = 100 * (m + 1) + d.getDate();
+                }
+
+                String bin;
+                if (v < 0) {
+                    bin = String.format(Locale.US, "%s/%4d", target, y);
+                } else {
+                    bin = String.format(Locale.US, "%s/%4d%c%02d", target, y, unit, v);
+                }
+                new File(bin).mkdirs();
+
+                File next = new File(bin, prev.getName());
+                boolean ok = prev.renameTo(next);
+                if (ok) {
+                    renamed++;
+                } else {
+                    failed++;
+                }
+                L.log("#%4d : %s <%s- %s", i, next, ok ? '-' : 'x', prev.getAbsolutePath());
+            }
+            L.log("%d renamed, %d failed", renamed, failed);
+        }
+
     }
 }

@@ -54,13 +54,11 @@ import java.util.concurrent.ExecutorService;
 public class Main {
     private static final Random random = new Random();
     private static final Robot2 robot = Robot2.create();
-
-    private static final int ABSOLUTE_PATH = 0;
-    private static final int RELATIVE_PATH = 1;
     public static final SimpleDateFormat formatISO8601 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.US);
 
     public static void main(String[] args) {
         L.log("Main, %s", now());
+        clock.tic();
         //-- Main work
         //-- Tos related
         //fetch(0); // x <= 0 : run TosCardExtras
@@ -110,54 +108,50 @@ public class Main {
         //FaceMeAuto.replaceFintechNile();
         //FaceMeAuto.faceMeFintechBuild();
         //FaceMeAuto.organizeCommitLog(new File("D:\\Github\\sample.txt"));
-        //listFiles();
+        //FileUtil.seeFiles("G:\\我的雲端硬碟\\台南的房屋訴訟\\陳建志台南房屋買賣", FileUtil.OMIT_FILE_INI, FileUtil.RELATIVE_PATH);
         //JudgementSearch.run();
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
         temp();
+        //YouTubeHelper.publicYTVideo(YouTubeHelper.Audience_private);
+        clock.tac("Done");
         L.log("Done, %s", now());
     }
 
     private static void temp() {
-        //publicYTVideo();
+        String path;
+        path = "D:\\政府法律訴訟\\法院訴訟\\1120328陳建志提告許䕒元妨害自由_Z112039AV4O1XUX";
+        path = "本機\\Xperia XZ Premium\\SD 卡\\DCIM\\100ANDRO";
+        FileUtil.seeFiles(path, FileUtil.OMIT_FILE_INI, FileUtil.RELATIVE_PATH);
+
+        //renameFiles();
+        String s = "D:\\地籍謄本 - 複製"; // y
+        //s = "D:\\地籍謄本 - 複製\\2023 - 複製"; // H
+        //s = "D:\\地籍謄本 - 複製\\2023 - 複製"; // Q
+        s = "D:\\地籍謄本 - 複製\\2023 - 複製"; // M
+        //s = "D:\\地籍謄本 - 複製\\2023H01"; // D
+        //FileUtil.wrapFileInFolders(s, 'M');
+        //wrapFileInFolders
     }
 
-    private static void publicYTVideo() {
-        ThreadUtil.sleep(3000);
-        robot.mouseClickLeft();
-        for (int i = 0; i < 22; i++) {
-            robot.keyClick(KeyEvent.VK_TAB);
-        }
-        robot.keyClick(KeyEvent.VK_DOWN);
-        ThreadUtil.sleep(100);
-        for (int i = 0; i < 10; i++) {
-            robot.keyClick(KeyEvent.VK_TAB);
-        }
-        robot.keyClick(KeyEvent.VK_SPACE);
-        ThreadUtil.sleep(100);
-        robot.keyClick(KeyEvent.VK_ENTER);
-        ThreadUtil.sleep(100);
-        robot.keyClick(KeyEvent.VK_ENTER);
-        ThreadUtil.sleep(1_000);
-        robot.mouseClickLeft();
-        for (int i = 0; i < 8; i++) {
-            robot.keyClick(KeyEvent.VK_TAB);
-        }
-        robot.keyClick(KeyEvent.VK_DOWN);
-        robot.keyClick(KeyEvent.VK_DOWN);
-        ThreadUtil.sleep(100);
-        for (int i = 0; i < 14; i++) {
-            robot.keyClick(KeyEvent.VK_TAB);
-        }
-        robot.keyClick(KeyEvent.VK_ENTER);
-        ThreadUtil.sleep(3_000);
-        robot.keyClick(KeyEvent.VK_ENTER);
+    private static void tryBirthday() {
         ThreadUtil.sleep(5_000);
-        robot.keyClick(KeyEvent.VK_ENTER);
+        for (int i = 1; i <= 20; i++) {
+            robot.mouseClickLeft();
+            robot.keyPressRelease(new int[]{KeyEvent.VK_CONTROL, KeyEvent.VK_V});
+            robot.keyClick(KeyEvent.VK_TAB);
+            robot.type(String.format("07305%02d", i));
+            robot.keyClick(KeyEvent.VK_TAB);
+            robot.keyClick(KeyEvent.VK_TAB);
+            ThreadUtil.sleep(10_000);
+            robot.keyClick(KeyEvent.VK_TAB);
+            robot.keyClick(KeyEvent.VK_TAB);
+            robot.keyClick(KeyEvent.VK_ENTER);
+            ThreadUtil.sleep(5_000);
+        }
     }
-
 
     private static void seeFiles() {
 //        listFiles(path, RELATIVE_PATH);
@@ -504,22 +498,6 @@ public class Main {
 
     private static final TicTac2 clock = new TicTac2();
 
-    private static void listFiles(String path, Projector<File, Boolean> filter, int mode) {
-        List<File> fs = FileUtil.listAllFiles(new File(path), filter);
-        int n = fs.size();
-        int k = (int) Math.floor(1 + Math.log10(n));
-
-        for (int i = 0; i < n; i++) {
-            File f = fs.get(i);
-            String out = f.getAbsolutePath();
-            if (mode == RELATIVE_PATH) {
-                out = out.substring(path.length());
-            }
-            String fmt = "%" + k + "d. %s";
-            L.log(fmt, i + 1, out);
-        }
-    }
-
     private static void getIP() {
         //https://stackoverflow.com/questions/391979/how-to-get-clients-ip-address-using-javascript
         String[] src = {
@@ -535,12 +513,13 @@ public class Main {
         }
     }
 
-    private static void addJpg() {
+    // For each file in {$source}, if file is source/a, rename to be source/a{want}
+    // usually used for Line's internal file folder to make all files as image
+    private static void renameFiles() {
         // add jpg
-        String source = "D:\\新增資料夾 (3)\\A"; // source path, 1-depth
-        String want = ".jpg";
-        // if file is source/a, rename to be source/a{want}
-        // like source/a, rename to be source/a.jpg
+        final String source = "C:\\Users\\User\\Downloads\\LINE_Android-backup-chat301366571b8\\linebackup\\image"; // source path, 1-depth
+        final String want = ".jpg";
+
         File f = new File(source);
         File[] fs = f.listFiles();
         int n = 0;
