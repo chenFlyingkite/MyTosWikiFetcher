@@ -636,8 +636,7 @@ public class FileUtil {
                 }
                 L.log("#%4d : %s <%s- %s", i, next, ok ? '-' : 'x', prev.getAbsolutePath());
             }
-            L.log("%d renamed, %d failed", renamed, failed);
         }
-
+        L.log("%d renamed, %d failed", renamed, failed);
     }
 }

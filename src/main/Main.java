@@ -42,6 +42,8 @@ import main.twse.TWSEStockFetcher;
 import java.awt.AWTException;
 import java.awt.event.KeyEvent;
 import java.io.File;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -114,25 +116,76 @@ public class Main {
         //PointExchange.main(null);
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
-        temp();
+        //temp();
         //YouTubeHelper.publicYTVideo(YouTubeHelper.Audience_private);
+        //shopeeShrinkUrl();
         clock.tac("Done");
         L.log("Done, %s", now());
+    }
+
+    private static void shopeeShrinkUrl() {
+        String src;
+        src = "https://shopee.tw/%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8-%E4%BD%8E%E5%8A%9F%E7%8E%87-%E9%AB%98%E5%8A%9F%E7%8E%87-%E8%90%AC%E7%94%A8%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8F%9B%E9%A0%AD%E6%8F%92%E5%BA%A7%E9%9B%BB%E6%BA%90%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD%E6%97%85%E9%81%8A%E6%97%85%E8%A1%8C%E8%90%AC%E7%94%A8%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8E%A5%E6%8F%92%E9%A0%AD-%E5%85%85%E9%9B%BB%E9%A0%AD-i.232991858.21652256132?sp_atk=e506997b-c909-4685-a689-344a96bade96&xptdk=e506997b-c909-4685-a689-344a96bade96";
+        src = "https://shopee.tw/%E9%A6%99%E7%9A%82%EF%BC%88%E9%A6%99%E8%8C%85%EF%BC%8C%E5%B7%A6%E6%89%8B%E9%A6%99%EF%BC%8C%E6%AA%9C%E6%9C%A8%EF%BC%8C%E5%A3%87%E9%A6%99%EF%BC%8C%E8%96%B0%E8%A1%A3%E8%8D%89%EF%BC%89-i.6405825.99558088?sp_atk=5886bbdf-0215-4b48-8d59-bee87e779fae&xptdk=5886bbdf-0215-4b48-8d59-bee87e779fae";
+//        # 0 : shopee.tw
+//        # 1 : shopee.tw
+//        # 2 : null
+//        # 3 : null
+//        # 4 : /轉接頭-萬用轉接頭-萬用-低功率-高功率-萬用插頭-轉換頭插座電源轉換插頭旅遊旅行萬用轉換插頭-轉接插頭-充電頭-i.232991858.21652256132
+//        # 5 : /%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8-%E4%BD%8E%E5%8A%9F%E7%8E%87-%E9%AB%98%E5%8A%9F%E7%8E%87-%E8%90%AC%E7%94%A8%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8F%9B%E9%A0%AD%E6%8F%92%E5%BA%A7%E9%9B%BB%E6%BA%90%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD%E6%97%85%E9%81%8A%E6%97%85%E8%A1%8C%E8%90%AC%E7%94%A8%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8E%A5%E6%8F%92%E9%A0%AD-%E5%85%85%E9%9B%BB%E9%A0%AD-i.232991858.21652256132
+//        # 6 : shopee.tw
+//        # 7 : sp_atk=e506997b-c909-4685-a689-344a96bade96&xptdk=e506997b-c909-4685-a689-344a96bade96
+//        # 8 : sp_atk=e506997b-c909-4685-a689-344a96bade96&xptdk=e506997b-c909-4685-a689-344a96bade96
+//        # 9 : https
+//        #10 : //shopee.tw/轉接頭-萬用轉接頭-萬用-低功率-高功率-萬用插頭-轉換頭插座電源轉換插頭旅遊旅行萬用轉換插頭-轉接插頭-充電頭-i.232991858.21652256132?sp_atk=e506997b-c909-4685-a689-344a96bade96&xptdk=e506997b-c909-4685-a689-344a96bade96
+//        #11 : //shopee.tw/%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8-%E4%BD%8E%E5%8A%9F%E7%8E%87-%E9%AB%98%E5%8A%9F%E7%8E%87-%E8%90%AC%E7%94%A8%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8F%9B%E9%A0%AD%E6%8F%92%E5%BA%A7%E9%9B%BB%E6%BA%90%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD%E6%97%85%E9%81%8A%E6%97%85%E8%A1%8C%E8%90%AC%E7%94%A8%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8E%A5%E6%8F%92%E9%A0%AD-%E5%85%85%E9%9B%BB%E9%A0%AD-i.232991858.21652256132?sp_atk=e506997b-c909-4685-a689-344a96bade96&xptdk=e506997b-c909-4685-a689-344a96bade96
+//        #12 : -1
+//        #13 : null
+        try {
+            URI u = new URI(src);
+            String[] ss = {
+                    u.getAuthority(), u.getRawAuthority(),
+                    u.getFragment(), u.getRawFragment(),
+                    u.getPath(), u.getRawPath(),
+                    u.getHost(),
+                    u.getQuery(), u.getRawQuery(),
+                    u.getScheme(), u.getSchemeSpecificPart(), u.getRawSchemeSpecificPart(),
+                    "" + u.getPort(), u.getUserInfo()
+            };
+//            for (int i = 0; i < ss.length; i++) {
+//                L.log("#%2d : %s", i, ss[i]);
+//            }
+
+            String[] focus = u.getPath().split("\\x2E"); // = . (period)
+//            for (int i = 0; i < focus.length; i++) {
+//                L.log("#%d : %s", i, focus[i]);
+//            }
+            int n = focus.length;
+            if (n >= 3) {
+                String newPath = String.format(Locale.US, "/product/%s/%s", focus[n-2], focus[n-1]);
+                URI u2 = new URI(u.getScheme(), u.getHost(), newPath, u.getFragment());
+                L.log("shrunk = %s", u2);
+            }
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+
+
     }
 
     private static void temp() {
         String path;
         path = "D:\\政府法律訴訟\\法院訴訟\\1120328陳建志提告許䕒元妨害自由_Z112039AV4O1XUX";
-        path = "本機\\Xperia XZ Premium\\SD 卡\\DCIM\\100ANDRO";
-        FileUtil.seeFiles(path, FileUtil.OMIT_FILE_INI, FileUtil.RELATIVE_PATH);
+        path = "D:\\___PlayGround\\XZP SD\\DCIM\\100ANDRO";
+        //FileUtil.seeFiles(path, FileUtil.OMIT_FILE_INI, FileUtil.RELATIVE_PATH);
 
         //renameFiles();
-        String s = "D:\\地籍謄本 - 複製"; // y
+        //path = "D:\\地籍謄本 - 複製"; // y
         //s = "D:\\地籍謄本 - 複製\\2023 - 複製"; // H
         //s = "D:\\地籍謄本 - 複製\\2023 - 複製"; // Q
-        s = "D:\\地籍謄本 - 複製\\2023 - 複製"; // M
+        //path = "D:\\地籍謄本 - 複製\\2023 - 複製"; // M
         //s = "D:\\地籍謄本 - 複製\\2023H01"; // D
-        //FileUtil.wrapFileInFolders(s, 'M');
+        FileUtil.wrapFileInFolder(path, 'M');
         //wrapFileInFolders
     }
 
@@ -454,8 +507,8 @@ public class Main {
         paths.add(as("myUltimateStage/","ultimateStage.json", asset));
 
         for (CopyInfo i : paths) {
-            String source = i.getSrcName();
-            String target = i.getDstName();
+            String source = i.getSourceName();
+            String target = i.getTargetName();
             FileUtil.copy(source, target);
             L.log("copy : %s\n to -> %s", source, target);
         }

@@ -459,44 +459,49 @@ enum class CardPart(_key: String) {
 }
 
 open class CopyInfo {
-    var srcFolder = ""
-    var srcName = ""
-    var dstFolder = ""
-    var dstName = ""
-    var srcFile = File("")
-    var dstFile = File("")
+    var sourceFolder = ""
+    var sourceName = ""
+    var sourcePath = ""
 
-    constructor(srcF : String, srcN : String, dstF : String, dstN : String) {
-        srcFolder = srcF
-        srcName = srcN
-        srcFile = File(srcFile, srcName)
-        dstFolder = dstF
-        dstName = dstN
-        dstFile = File(dstFile, dstName)
+    var targetFolder = ""
+    var targetName = ""
+    var targetPath = ""
+
+    private fun setFields(srcF: String, srcN: String, srcP: String, tgtF: String, tgtN: String, tgtP: String) {
+        sourceFolder = srcF
+        sourceName = srcN
+        sourcePath = srcP
+        targetFolder = tgtF
+        targetName = tgtN
+        targetPath = tgtP
     }
 
-    constructor(src: String, dst: String) {
-        init(src, dst)
+    constructor(srcDir : String, srcName : String, dstDir : String, dstName : String) {
+        setFields(srcDir, srcName, File(srcDir, srcName).absolutePath, dstDir, dstName, File(dstDir, dstName).absolutePath)
     }
 
-    constructor(src: File, dst: File) {
-        init(src.absolutePath, dst.absolutePath)
+    constructor(srcAbsPath: String, dstAbsPath: String) {
+        var li: List<String>
+        li = split(srcAbsPath)
+        sourceFolder = li[0]
+        sourceName = li[1]
+        sourcePath = li[2]
+
+        li = split(dstAbsPath)
+        targetFolder = li[0]
+        targetName = li[1]
+        targetPath = li[2]
     }
 
-    private fun init(src: String, dst: String) {
-        var f:File?
-        f = File(src)
-        srcFolder = f.parent
-        srcName = src.replace(srcFolder, "")
-        srcFile = f
+    private fun split(path: String) : List<String> {
+        val par = File(path).parent;
+        return arrayListOf(par, path.replace(par, ""), path)
+    }
 
-        f = File(dst)
-        dstFolder = f.parent
-        dstName = dst.replace(dstFolder, "")
-        dstFile = f
+    constructor(src: File, dst: File) : this(src.absolutePath, dst.absolutePath) {
     }
 
     override fun toString(): String {
-        return srcFile.absolutePath + " \n -> " + dstFile.absolutePath
+        return "${sourcePath} \n -> ${targetPath}"
     }
 }

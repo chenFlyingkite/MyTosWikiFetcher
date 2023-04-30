@@ -68,8 +68,8 @@ public class FaceMeAuto {
         // perform copy, 50% time
         for (int i = 0; i < paths.size(); i++) {
             CopyInfo it = paths.get(i);
-            String source = it.getSrcFile().getAbsolutePath();
-            String target = it.getDstFile().getAbsolutePath();
+            String source = it.getSourcePath();
+            String target = it.getTargetPath();
             FileUtil.copy(source, target);
             L.log("#%2d copy: %s\n    to -> %s", i, source, target);
         }

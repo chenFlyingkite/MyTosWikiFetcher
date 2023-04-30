@@ -1,6 +1,8 @@
 package flyingkite.math;
 
 public class MathUtil {
+    // 1/e = 103/280 = 607/1650(2428/6600) = 8544/23225(34176/92900)
+
     /**
      * @return true if min &le; value &lt; max, false otherwise
      */
