@@ -5,8 +5,12 @@ import com.google.gson.GsonBuilder;
 import flyingkite.log.FileOutput;
 import flyingkite.log.LF;
 import flyingkite.tool.GsonUtil;
+import flyingkite.tool.TicTac2;
 import okhttp3.OkHttpClient;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 
+import java.io.IOException;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -39,6 +43,20 @@ public class FetcherUtil {
     public static void saveAsJson(Object data, String path) {
         LF lf = new LF(new FileOutput(path));
         overwriteFileJsonPrettyPrinting(data, lf);
+    }
+
+    public static Document getDocJsoup(String link) {
+        // Step 1: Get the xml node from link by Jsoup
+        Document doc = null;
+        TicTac2 ts = new TicTac2();
+        ts.tic();
+        try {
+            doc = Jsoup.connect(link).timeout(60_000).maxBodySize(0).get();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        ts.tac("JSoup OK " + link);
+        return doc;
     }
 
 

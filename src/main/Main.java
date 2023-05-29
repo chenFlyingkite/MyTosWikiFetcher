@@ -65,7 +65,7 @@ public class Main {
         //-- Tos related
         //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
-        //enterUID();
+        enterUID();
         //-- Robot2 Automations
         //HPMain.main(null);
         //-- Other Misc
@@ -177,6 +177,7 @@ public class Main {
         String path;
         path = "D:\\政府法律訴訟\\法院訴訟\\1120328陳建志提告許䕒元妨害自由_Z112039AV4O1XUX";
         path = "D:\\___PlayGround\\XZP SD\\DCIM\\100ANDRO";
+        path = "D:\\三星 A52s";
         //FileUtil.seeFiles(path, FileUtil.OMIT_FILE_INI, FileUtil.RELATIVE_PATH);
 
         //renameFiles();
@@ -185,8 +186,13 @@ public class Main {
         //s = "D:\\地籍謄本 - 複製\\2023 - 複製"; // Q
         //path = "D:\\地籍謄本 - 複製\\2023 - 複製"; // M
         //s = "D:\\地籍謄本 - 複製\\2023H01"; // D
-        FileUtil.wrapFileInFolder(path, 'M');
-        //wrapFileInFolders
+        //FileUtil.wrapFileInFolder(path, 'M');
+        path = "E:\\";
+        List<File> fs = FileUtil.listAllFiles(path);
+        L.log("%4d files in %s", fs.size(), path);
+        for (int i = 0; i < fs.size(); i++) {
+            L.log("#%4d : %s", i, fs.get(i));
+        }
     }
 
     private static void tryBirthday() {
