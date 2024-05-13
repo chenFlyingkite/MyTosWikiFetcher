@@ -1152,6 +1152,7 @@ class TosGet {
                     CardPart.SkillActive -> {
                         isSwt = hasKeyInText("EvoArrow", noscript)
                     }
+                    else -> {}
                 }
 
                 if (!noNeed) {
@@ -1236,6 +1237,7 @@ class TosGet {
                                 CardPart.SupremeReckon -> {
                                     supr.add(alt)
                                 }
+                                else -> {}
                             }
                             if (isSwt) {
                                 val endI = alt.matches(Regex("\\d+i")) //  1167i
