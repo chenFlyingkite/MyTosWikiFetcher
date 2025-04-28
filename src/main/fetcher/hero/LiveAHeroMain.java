@@ -37,16 +37,16 @@ public class LiveAHeroMain {
         // 0 = load hero
         // 1 = parse hero
         init();
+        printHeroWeb();
 
         // web = true if it has new hero to reload
-        boolean web = 0 > 0;
+        boolean web = 1 > 0;
         if (web) {
-            fetchHero();
+            //fetchHero();
         } else {
             loadHero();
         }
 
-        ////imageMoe(); // dead
 
         List<Hero> hs;
         if (sortedHero.size() > 0) {
@@ -62,9 +62,9 @@ public class LiveAHeroMain {
             L.log("#%2d: %s", i, s);
         }
 
-        peekHeroHP(hs);
-        peekHeroView(hs);
-        peekHeroAttack(hs);
+//        peekHeroHP(hs);
+//        peekHeroView(hs);
+//        peekHeroAttack(hs);
         //peekHeroHpAttack(hs);
     }
 
@@ -81,6 +81,55 @@ public class LiveAHeroMain {
             Hero hs = new Hero();
             hs.nameEn = h.name();
             allHeros.put(h.nameJa, hs);
+        }
+    }
+
+    // List Hero
+    private static void printHeroWeb() {
+        String link;
+        Document d;
+        Elements es;
+        Element e;
+        //List wiki hero
+        link = Heros.getENIDLink();
+        d = fetcher.getDocument(link);
+
+        L.log("En---------------");
+
+        e = d.getElementById("hero-list");
+        if (e == null) {
+            L.log("No heros...?");
+        } else {
+            es = e.getElementsByTag("li");
+            for (int i = 0; i < es.size(); i++) {
+                L.log("#%4d : %s", i, es.get(i));
+            }
+        }
+        //sidekick
+        e = d.getElementById("sidekick-list");
+        if (e == null) {
+            L.log("No sidekick...?");
+        } else {
+            es = e.getElementsByTag("li");
+            for (int i = 0; i < es.size(); i++) {
+                L.log("#%4d : %s", i, es.get(i));
+            }
+        }
+
+        // List JP hero
+        L.log("JP----------------");
+        link = Heros.getJPIDLink();
+        d = fetcher.getDocument(link);
+
+        es = d.getElementsByTag("tbody");
+        if (es.isEmpty()) {
+            L.log("No heros...?");
+        } else {
+            e = es.get(0);
+            es = e.getElementsByTag("td");
+            for (int i = 0; i < es.size(); i++) {
+                L.log("#%4d : %s", i, es.get(i));
+            }
         }
     }
 

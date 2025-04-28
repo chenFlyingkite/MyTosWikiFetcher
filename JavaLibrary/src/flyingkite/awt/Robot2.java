@@ -189,8 +189,7 @@ public class Robot2 extends Robot {
      * Send keycodes of Ctrl + V
      */
     public synchronized Robot2 paste() {
-        int[] ks = {KeyEvent.VK_CONTROL, KeyEvent.VK_V};
-        keyPressRelease(ks);
+        keyPressRelease(KeyEvent.VK_CONTROL, KeyEvent.VK_V);
         return this;
     }
 
@@ -198,8 +197,7 @@ public class Robot2 extends Robot {
      * Send keycodes of Ctrl + C
      */
     public synchronized Robot2 copy() {
-        int[] ks = {KeyEvent.VK_CONTROL, KeyEvent.VK_C};
-        keyPressRelease(ks);
+        keyPressRelease(KeyEvent.VK_CONTROL, KeyEvent.VK_C);
         return this;
     }
 
@@ -207,15 +205,14 @@ public class Robot2 extends Robot {
      * Send keycodes of Ctrl + A
      */
     public synchronized Robot2 selectAll() {
-        int[] ks = {KeyEvent.VK_CONTROL, KeyEvent.VK_A};
-        keyPressRelease(ks);
+        keyPressRelease(KeyEvent.VK_CONTROL, KeyEvent.VK_A);
         return this;
     }
 
     /**
      * Press all and release all the keycodes
      */
-    public synchronized Robot2 keyPressRelease(int[] a) {
+    public synchronized Robot2 keyPressRelease(int... a) {
         if (a != null) {
             int n = a.length;
             for (int i = 0; i < n; i++) {

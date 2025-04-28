@@ -231,8 +231,8 @@ public class TosCardFetcher extends TosWikiBaseFetcher {
         // ? using icon? why not number
         Elements rowCard = doc.getElementsByTag("table").get(0).getElementsByTag("td");
         Element spot = rowCard.get(rowCard.size() / 2);
-        String xxipng = TosGet.me.getImageTag(spot).attr("alt");
-        info.idNorm = xxipng.substring(0, xxipng.lastIndexOf('.'));
+        String xxi = TosGet.me.getImageTag(spot).attr("alt");
+        info.idNorm = xxi.substring(0, xxi.lastIndexOf('i'));
 
         // Get main content table
         Element main = doc.getElementById("monster-data");

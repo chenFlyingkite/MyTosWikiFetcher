@@ -125,6 +125,14 @@ public enum Heros {
         moe = inMoe;
     }
 
+    public static String getJPIDLink() {
+        return "https://wikiwiki.jp/live-a-hero/ID%E5%88%A5";
+    }
+
+    public static String getENIDLink() {
+        return "https://liveahero-wiki.github.io/charas/#heroes";
+    }
+
     public String getWikiLink() {
         return "https://liveahero-wiki.github.io/charas/" + github;
     }

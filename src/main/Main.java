@@ -14,7 +14,6 @@ import flyingkite.tool.TaskMonitorUtil;
 import flyingkite.tool.ThreadUtil;
 import flyingkite.tool.TicTac2;
 import main.fetcher.BotGoldPassbook;
-import main.fetcher.TosCardExtras;
 import main.fetcher.TosCardFetcher;
 import main.fetcher.TosCraftFetcher;
 import main.fetcher.TosEnemySkillFetcher;
@@ -65,7 +64,7 @@ public class Main {
         //-- Tos related
         //fetch(0); // x <= 0 : run TosCardExtras
         //copyToMyTosWiki();
-        enterUID();
+        //enterUID();
         //-- Robot2 Automations
         //HPMain.main(null);
         //-- Other Misc
@@ -82,7 +81,7 @@ public class Main {
         //PngCreator.me.standardGrey1(null);
 
         //gold(); // Annually
-        //enterKeyboard();
+        robotKeyboard();
 
         //XliffParser.me.addStringsToIos();
 
@@ -111,22 +110,37 @@ public class Main {
         //FaceMeAuto.faceMeFintechBuild();
         //FaceMeAuto.organizeCommitLog(new File("D:\\Github\\sample.txt"));
         //FileUtil.seeFiles("G:\\我的雲端硬碟\\台南的房屋訴訟\\陳建志台南房屋買賣", FileUtil.OMIT_FILE_INI, FileUtil.RELATIVE_PATH);
+        //FileUtil.seeFiles("D:\\_\\光碟燒錄\\李睿巃傷害", FileUtil.RELATIVE_PATH);
+        //FileUtil.seeFiles("D:\\_李睿巃\\CVC", FileUtil.RELATIVE_PATH);
         //JudgementSearch.run();
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
         //new BinarySearchVisualizer().run();
         //PointExchange.main(null);
         //temp();
+        //robotMouse();
         //YouTubeHelper.publicYTVideo(YouTubeHelper.Audience_private);
         //shopeeShrinkUrl();
+        //autoRenameFiles();
         clock.tac("Done");
         L.log("Done, %s", now());
+    }
+
+    private static void autoRenameFiles() {
+        for (int i = 1; i <= 18; i++) {
+            robot.keyClick(KeyEvent.VK_F2);
+            robot.paste();
+            robot.enter(String.format(Locale.US, "%02d", i));
+            // next
+            robot.keyClick(KeyEvent.VK_RIGHT);
+            robot.delay(200);
+        }
     }
 
     private static void shopeeShrinkUrl() {
         String src;
         src = "https://shopee.tw/%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8%E8%BD%89%E6%8E%A5%E9%A0%AD-%E8%90%AC%E7%94%A8-%E4%BD%8E%E5%8A%9F%E7%8E%87-%E9%AB%98%E5%8A%9F%E7%8E%87-%E8%90%AC%E7%94%A8%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8F%9B%E9%A0%AD%E6%8F%92%E5%BA%A7%E9%9B%BB%E6%BA%90%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD%E6%97%85%E9%81%8A%E6%97%85%E8%A1%8C%E8%90%AC%E7%94%A8%E8%BD%89%E6%8F%9B%E6%8F%92%E9%A0%AD-%E8%BD%89%E6%8E%A5%E6%8F%92%E9%A0%AD-%E5%85%85%E9%9B%BB%E9%A0%AD-i.232991858.21652256132?sp_atk=e506997b-c909-4685-a689-344a96bade96&xptdk=e506997b-c909-4685-a689-344a96bade96";
-        src = "https://shopee.tw/%E9%A6%99%E7%9A%82%EF%BC%88%E9%A6%99%E8%8C%85%EF%BC%8C%E5%B7%A6%E6%89%8B%E9%A6%99%EF%BC%8C%E6%AA%9C%E6%9C%A8%EF%BC%8C%E5%A3%87%E9%A6%99%EF%BC%8C%E8%96%B0%E8%A1%A3%E8%8D%89%EF%BC%89-i.6405825.99558088?sp_atk=5886bbdf-0215-4b48-8d59-bee87e779fae&xptdk=5886bbdf-0215-4b48-8d59-bee87e779fae";
+        src = "https://shopee.tw/%E6%96%B0%E5%93%81%E5%8F%AF%E6%A8%82%E6%A9%9F%E6%BF%83%E7%B8%AE%E6%BC%BF%E5%95%86%E7%94%A8%E5%8F%AF%E6%A8%82%E7%A2%B3%E9%85%B8%E9%A3%B2%E6%96%99%E6%A9%9F%E6%BC%A2%E5%A0%A1%E5%BA%97%E5%B0%88%E7%94%A8print0602-i.150866167.25775645119?sp_atk=00cb08c3-d5d6-4807-b027-fb4cd02d09c7&xptdk=00cb08c3-d5d6-4807-b027-fb4cd02d09c7";
 //        # 0 : shopee.tw
 //        # 1 : shopee.tw
 //        # 2 : null
@@ -152,14 +166,8 @@ public class Main {
                     u.getScheme(), u.getSchemeSpecificPart(), u.getRawSchemeSpecificPart(),
                     "" + u.getPort(), u.getUserInfo()
             };
-//            for (int i = 0; i < ss.length; i++) {
-//                L.log("#%2d : %s", i, ss[i]);
-//            }
-
             String[] focus = u.getPath().split("\\x2E"); // = . (period)
-//            for (int i = 0; i < focus.length; i++) {
-//                L.log("#%d : %s", i, focus[i]);
-//            }
+
             int n = focus.length;
             if (n >= 3) {
                 String newPath = String.format(Locale.US, "/product/%s/%s", focus[n-2], focus[n-1]);
@@ -170,6 +178,7 @@ public class Main {
             e.printStackTrace();
         }
 
+        String link = "https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NWFhYThlMTMtYWQ0ZS00MzQ0LWE2YzktNWQxM2M2ZWVlOTY0%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%252286254269-e4d3-4c53-bc98-640752566d31%2522%252c%2522Oid%2522%253a%2522cfe4575f-ec58-44cb-81c5-df1a5a65196e%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=7727539f-f958-4252-b3f0-35fcd0038e22&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true";
 
     }
 
@@ -187,7 +196,7 @@ public class Main {
         //path = "D:\\地籍謄本 - 複製\\2023 - 複製"; // M
         //s = "D:\\地籍謄本 - 複製\\2023H01"; // D
         //FileUtil.wrapFileInFolder(path, 'M');
-        path = "E:\\";
+        path = "E:\\20230730車禍\\ToPolice";
         List<File> fs = FileUtil.listAllFiles(path);
         L.log("%4d files in %s", fs.size(), path);
         for (int i = 0; i < fs.size(); i++) {
@@ -195,20 +204,11 @@ public class Main {
         }
     }
 
-    private static void tryBirthday() {
+    private static void robotMouse() {
         ThreadUtil.sleep(5_000);
-        for (int i = 1; i <= 20; i++) {
+        for (int i = 0; i < 20000; i++) {
             robot.mouseClickLeft();
-            robot.keyPressRelease(new int[]{KeyEvent.VK_CONTROL, KeyEvent.VK_V});
-            robot.keyClick(KeyEvent.VK_TAB);
-            robot.type(String.format("07305%02d", i));
-            robot.keyClick(KeyEvent.VK_TAB);
-            robot.keyClick(KeyEvent.VK_TAB);
-            ThreadUtil.sleep(10_000);
-            robot.keyClick(KeyEvent.VK_TAB);
-            robot.keyClick(KeyEvent.VK_TAB);
-            robot.keyClick(KeyEvent.VK_ENTER);
-            ThreadUtil.sleep(5_000);
+            //ThreadUtil.sleep(100);
         }
     }
 
@@ -267,7 +267,8 @@ public class Main {
             } else {
                 robot.enter(t);
             }
-            robot.delay(1500 + random.nextInt(500)); // mimic as human to pass fraud detection
+            // mimic as human to pass fraud detection
+            robot.delay(1500 + random.nextInt(500));
         }
     }
 
@@ -287,20 +288,13 @@ public class Main {
     // AppleID cl.shaomai@gmail.com / Cl23829868
     // https://developer.android.com/studio/command-line/adb
 
-    private static void enterKeyboard() {
-        // In macOS, after we start, we still need to click on the text field to let it enters
+    private static void robotKeyboard() {
         try {
-            int type = 0;  // forehead = 0, ear = 1, other = 2
-
             Robot2 r = new Robot2();
             r.delay(5_000);
-            for (int j = 0; j < 20; j++) {
-                for (int i = 0; i < 5; i++) {
-                    r.keyClick(KeyEvent.VK_TAB);
-                    r.keyClick(KeyEvent.VK_DELETE);
-                    r.keyClick(KeyEvent.VK_END);
-                }
-                r.keyClick(KeyEvent.VK_DOWN);
+            for (int i = 0; i < 30; i++) {
+                r.keyClick(KeyEvent.VK_RIGHT);
+                r.keyClick(KeyEvent.VK_SPACE);
             }
         } catch (AWTException e) {
             e.printStackTrace();
@@ -381,9 +375,9 @@ public class Main {
 
     private static void fetch(int extra) {
         if (extra <= 0) {
-            TosCardExtras.me.run(); // Almost 200ms * 3300 cards ~= 15min
+            //TosCardExtras.me.run(); // Almost 200ms * 3300 cards ~= 15min
         }
-        fetchMisc();
+        //fetchMisc();
         fetchCards();
     }
 
@@ -392,7 +386,7 @@ public class Main {
     }
 
     private static void fetchCards() {
-        boolean fullRun = 1 > 0;
+        boolean fullRun = 0 > 0;
         clock.tic();
         if (fullRun) {
             // 卡片內容

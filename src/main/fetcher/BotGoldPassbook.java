@@ -135,9 +135,7 @@ public class BotGoldPassbook implements Runnable {
         }
         mLf.log("\n\n");
 
-        for (List<String> list : table) {
-            printAll(list);
-        }
+        printAll(data);
     }
 
     private void evalStatistics(List<String> data) {
@@ -207,7 +205,7 @@ public class BotGoldPassbook implements Runnable {
     private void printAll(List<String> s) {
         mLf.log("%s items", s.size());
         for (int i = 0; i < s.size(); i++) {
-            mLf.log("  [%2d] %s", i, s.get(i));
+            mLf.log(" [%3d] %s", i, s.get(i));
         }
     }
 

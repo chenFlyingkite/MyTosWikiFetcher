@@ -1152,6 +1152,9 @@ class TosGet {
                     CardPart.SkillActive -> {
                         isSwt = hasKeyInText("EvoArrow", noscript)
                     }
+                    else -> {
+
+                    }
                 }
 
                 if (!noNeed) {
@@ -1235,6 +1238,9 @@ class TosGet {
                                 }
                                 CardPart.SupremeReckon -> {
                                     supr.add(alt)
+                                }
+                                else -> {
+
                                 }
                             }
                             if (isSwt) {

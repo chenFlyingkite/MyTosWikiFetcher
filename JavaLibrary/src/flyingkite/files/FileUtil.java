@@ -556,19 +556,33 @@ public class FileUtil {
         seeFiles(path, null, mode);
     }
 
-    public static void seeFiles(String path, Projector<File, Boolean> filter, int mode) {
-        List<File> fs = FileUtil.listAllFiles(new File(path), filter);
+
+    public static void seeFiles(String src, Projector<File, Boolean> filter, int mode) {
+        List<File> fs = FileUtil.listAllFiles(new File(src), filter);
         int n = fs.size();
         int k = (int) Math.floor(1 + Math.log10(n));
 
         for (int i = 0; i < n; i++) {
             File f = fs.get(i);
-            String out = f.getAbsolutePath();
+            String path = f.getAbsolutePath();
             if (mode == RELATIVE_PATH) {
-                out = out.substring(path.length());
+                path = path.substring(src.length());
             }
-            String fmt = "%" + k + "d. %s";
-            L.log(fmt, i + 1, out);
+            double mb = f.length() / 1024.0;
+            boolean isFile = f.isFile();
+
+            String fmt = "%" + k + "d.";
+            if (isFile) {
+                fmt += "  %4.2fKB";
+            }
+            fmt += "  %s"; // name
+            String s;
+            if (isFile) {
+                s = String.format(Locale.US, fmt, i+1, mb, path);
+            } else {
+                s = String.format(Locale.US, fmt, i+1, path);
+            }
+            L.log(s);
         }
     }
     
