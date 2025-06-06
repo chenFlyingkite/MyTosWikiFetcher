@@ -68,7 +68,6 @@ public class Main {
         //-- Robot2 Automations
         //HPMain.main(null);
         //-- Other Misc
-        //stock();
         //taiwanHighSpeedRail();
         //ForeignExchangeRateFetcher.main(null);
         //Covariance.test();
@@ -81,7 +80,8 @@ public class Main {
         //PngCreator.me.standardGrey1(null);
 
         //gold(); // Annually
-        robotKeyboard();
+        stock();
+        //robotKeyboard();
 
         //XliffParser.me.addStringsToIos();
 
@@ -124,6 +124,11 @@ public class Main {
         //autoRenameFiles();
         clock.tac("Done");
         L.log("Done, %s", now());
+    }
+
+    private static void pdfSpecs() {
+        // 1. set/unset password
+        // 2. round robin pages of pdfs
     }
 
     private static void autoRenameFiles() {
